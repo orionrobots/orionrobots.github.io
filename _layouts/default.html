@@ -77,43 +77,6 @@
         {% endif %}
       </nav>
 
-      <div id="umbrella">
-        <ul>
-          
-          {% if shop.customer_accounts_enabled %}
-            {% if customer %}
-            <li>
-              Welcome {{ customer.first_name }} {{ '(Log out)' | customer_logout_link }}
-            </li>
-            <li>
-              <a href="/account">My Account</a>
-            </li>
-            {% else %}
-            <li>
-              {{ 'Log in' | customer_login_link }}
-            </li>
-            {% if shop.customer_accounts_optional %} 
-            <li>
-              {{ 'Create an account' | customer_register_link }}
-            </li>
-            {% endif %}
-            {% endif %}
-          {% endif %}
-
-          <li class="cart-link">
-            <a href="/cart" class="num-items-in-cart">
-              <span class="icon">
-               {{ cart.item_count }} {{ cart.item_count | pluralize: 'item', 'items' }}
-              </span>
-            </a>
-          </li>
-
-          <li class="checkout-link">
-            <a href="/cart" class="btn">Check out</a>
-          </li>
-
-        </ul>
-      </div><!-- /#umbrella -->
     </header>
 
     <!-- Content -->
