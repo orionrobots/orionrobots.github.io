@@ -8,16 +8,13 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
   <meta name="google-site-verification" content="UOzBed7gLBf1xSDPmxw3r4UGsKv1KcTacRUpEwSLA9g" />
 
-  {{ 'css/style.css' | stylesheet_tag }}{% if template contains 'product' and settings.main_image_display == 'Lightbox' %}
+  {{ 'css/style.css' | stylesheet_tag }}
   {{ '//ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js' | script_tag }}
-
-  {{ content_for_header }}
 
 </head>
 
 <body>
   
-
   <div class="wrapper">
     {{ content }}
   </div>
