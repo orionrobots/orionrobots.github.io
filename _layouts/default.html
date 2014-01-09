@@ -93,7 +93,7 @@
           <li><a href="{{ link.url }}">{{ link.title | escape }}</a></li>
         {% endfor %}
         </ul>
-        <p>&copy; {{ 'now' | date: '%Y' }} <a href="/">{{ shop.name }}</a>. All Rights Reserved.<br />{{ powered_by_link }}</p>
+        <p>&copy; {{ 'now' | date: '%Y' }} <a href="/">{{ site.name }}</a>. All Rights Reserved.<br />{{ powered_by_link }}</p>
       </div>
 
       {%if settings.sm_facebook || settings.sm_twitter || settings.sm_youtube || settings.sm_flickr %}
@@ -108,20 +108,6 @@
           {%if settings.sm_vimeo %}<li id="sm-vimeo"><a href="{{settings.sm_vimeo_link}}" class="ir">Vimeo</a></li>{% endif %}
           {%if settings.sm_pinterest %}<li id="sm-pinterest"><a href="{{settings.sm_pinterest_link}}" class="ir">Pinterest</a></li>{% endif %}          
         </ul>
-      </div>
-      {% endif %}
-
-      {% if settings.show_amex or settings.show_discover or settings.show_visa or settings.show_mastercard or settings.show_maestro or settings.show_cirrus or settings.show_paypal or settings.show_google %}
-      <div id="footer-payment-methods">
-        <p>Payment methods we accept</p>
-        {% if settings.show_amex %}       {{ 'cc-amex.png' | asset_url | img_tag: 'American Express' }} {% endif %}
-        {% if settings.show_discover %}   {{ 'cc-discover.png' | asset_url | img_tag }} {% endif %}
-        {% if settings.show_visa %}       {{ 'cc-visa.png' | asset_url | img_tag : 'VISA'}} {% endif %}
-        {% if settings.show_mastercard %} {{ 'cc-mastercard.png' | asset_url | img_tag: 'Mastercard' }} {% endif %}
-        {% if settings.show_maestro %}    {{ 'cc-maestro.png' | asset_url | img_tag: 'Maestro' }} {% endif %}
-        {% if settings.show_cirrus %}     {{ 'cc-cirrus.png' | asset_url | img_tag: 'Cirrus' }} {% endif %}
-        {% if settings.show_paypal %}     {{ 'cc-paypal.png' | asset_url | img_tag: 'Paypal' }} {% endif %}
-        {% if settings.show_google %}     {{ 'cc-google.png' | asset_url | img_tag: 'Google Checkout' }} {% endif %}
       </div>
       {% endif %}
 
