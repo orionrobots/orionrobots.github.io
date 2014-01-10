@@ -1,6 +1,6 @@
 ---
 title: Tekno Robot Dog
-layout: default
+layout: article
 ---
 This information is for reference and information only. Orionrobots has no association with the Tekno Robot puppy - we do not sell or manufacture them. However, we do have our own robot kits to [Build and play with](http://shop.orionrobots.co.uk "buy robot kits to build").
 
