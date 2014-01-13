@@ -1,55 +1,6 @@
-<!doctype html>
-<!--[if lt IE 7 ]> <html lang="en" class="no-js ie6"> <![endif]-->
-<!--[if IE 7 ]>    <html lang="en" class="no-js ie7"> <![endif]-->
-<!--[if IE 8 ]>    <html lang="en" class="no-js ie8"> <![endif]-->
-<!--[if (gt IE 9)|!(IE)]><!--> <html lang="en" class="no-js"> <!--<![endif]-->
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <meta name="google-site-verification" content="UOzBed7gLBf1xSDPmxw3r4UGsKv1KcTacRUpEwSLA9g" />
-  <link rel="shortcut icon" href="images/orion_favicon.png" />
-  <title>{{ page.title }} | {{ site.title }} - {{ site.slogan }}</title>
-  
-  <link href="css/style.css" rel="stylesheet" type="text/css" />
-  <script type="text/javascript" src="/js/modernizr.js"></script>
-
-  <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
-
-  {{ content_for_header }}
-</head>
-
-<body class="template">
-
-
-  <div class="wrapper">
-
-    <!-- Header -->
-    <header id="top" class="clearfix">
-
-      <div id="site-title">
-        <a href="/" title="Home">
-          <img style = "margin-left: 8px;" src="/images/logo.png" alt="{{ site.title | escape }}" height="70px;"/>
-        </a><div style="display: inline-block; vertical-align: top; padding;0; margin:0; position: relative; left: 1px;">
-        <h1 style="font-size: 10px; vertical-align: top; color: white; font-family: Arial, Helvetica, sans-serif">TM</h1>
-        <h1 style="font-size: 20px; color: white; font-weight: normal; position: relative; top: 8px;"><span style="font-family: Arial, Helvetica, sans-serif">+</span>44 (0) 20 3290 4663</h1>
-        <h1 style="font-size: 20px; color: white; font-weight: normal; position: relative; top: -1px;">Build a Robot Without Soldering</h1>
-        </div>
-      </div>
-
-      <nav id="top-menu" class="clearfix">
-        <ul>
-        </ul>
-     </nav>
-
-    </header>
-
-    <!-- Content -->
-    <div class="content-wrapper clearfix">
-        {{ content }}
-    </div><!-- /.content -->
-
-    <!-- Footer -->
-    <footer id="bottom">
-    </footer>
-</body>
-</html>
+---
+theme :
+  name : orionrobots
+---
+{% include JB/setup %}
+{% include themes/orionrobots/default.html %}
