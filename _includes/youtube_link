@@ -1,0 +1,12 @@
+<div style="display:inline-block; width: 300px;vertical-align: top">
+  <a href="http://www.youtube.com/watch?v={{ youtube_id }}"><img src="{{BASE_PATH}}/assets/youtube_thumbs/{{ youtube_id }}_thm.jpg">
+<p>{{ description }}</p></a>
+<a href="http://www.pinterest.com/pin/create/button/
+        ?url={{BASE_PATH}}{{ page.url }}
+        &amp;media={{BASE_PATH}}assets/youtube_thumbs/{{ youtube_id }}_thm.jpg
+        &amp;description={{ description }}"
+        data-pin-do="buttonPin"
+        data-pin-config="above">
+        <img src="http://assets.pinterest.com/images/pidgets/pin_it_button.png" />
+    </a>
+</div>
