@@ -81,8 +81,6 @@ good idea to have 1 second timeout on any movements.
 The keys will be sent from the computer - initially we will use the Arduino IDE serial monitor - but we will later
 find more interesting ways to control this.
 
-
-
 To implement our basic idea, the Arduino code will need to do the following:
 
 * Set up the motor control - we can use what we already have as this won't change
