@@ -5,8 +5,7 @@ description: "Building Robots!"
 ---
 {% include JB/setup %}
 
-<a href="http://shop.orionrobots.co.uk">Getting The Kits</a>
-
+[Getting The Kits](http://shop.orionrobots.co.uk)
 
 Explorer 1 Videos
 =================
@@ -33,18 +32,17 @@ Explorer 1 Videos
 Explorer 1 Tutorials
 ====================
 
-<a href="construction_guide.html">Orion Explorer 1 Robot Kit Construction Guide</a>
+[Orion Explorer 1 Robot Kit Construction Guide](/construction_guide.html)
 
-<a href="http://shop.orionrobots.co.uk/blogs/news/10651757-building-a-bump-sensor-for-the-orion-explorer-1-kits" title="Explorer 1 Bump Antenna">Explorer 1 Bump Antenna</a>
+[Explorer 1 Bump Antenna](http://shop.orionrobots.co.uk/blogs/news/10651757-building-a-bump-sensor-for-the-orion-explorer-1-kits "Explorer 1 Bump Antenna")
 
-<a href="explorer_arrow_control.html" title="Explorer Arrow Control">Explorer 1 Robot - Bluetooth Control, driving from Windows and a Phone</a>
-<a href="http://shop.orionrobots.co.uk/blogs/news/10318913-bluetooth-with-the-explorer-1-robot">Driving the Explorer 1 with Bluetooth from a phone</a>
-<a href="http://shop.orionrobots.co.uk/blogs/news/10309149-the-explorer-wall-avoider-kit-now-on-the-shop#building-it">Building and Programming The Explorer One Wall Avoider</a>
+[Explorer 1 Robot - Bluetooth Control, driving from Windows and a Phone](/explorer_arrow_control.html "Explorer Arrow Control")
+[Driving the Explorer 1 with Bluetooth from a phone](http://shop.orionrobots.co.uk/blogs/news/10318913-bluetooth-with-the-explorer-1-robot)
+
+[Building and Programming The Explorer One Wall Avoider](http://shop.orionrobots.co.uk/blogs/news/10309149-the-explorer-wall-avoider-kit-now-on-the-shop#building-it)
 
 Other Information and Tutorials
 ===============================
+[The Arduino](http://arduino.cc)
 
-<a target="_blank" href="http://arduino.cc" rel="external">The Arduino</a>
-
-
-<a href="Robot+Building+Safety" title="Building robots can be dangerous - tips to help your safety">Robot Building Safety</a>
+[Robot Building Safety](/Robot+Building+Safety "Building robots can be dangerous - tips to help your safety")
