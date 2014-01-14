@@ -128,4 +128,29 @@ JB :
   # and include your custom code. Your custom file must be defined at:
   #   ./_includes/custom/[HELPER]
   # where [HELPER] is the name of the helper you are overriding.
-  
+
+menu:
+  -
+    title: Home
+    description: Home Page
+    url: http://shop.orionrobots.co.uk
+  -
+    title: Getting Started
+    description: Start building and playing with robots
+    url: /getting_started.html
+  -
+    title: FAQ
+    description: About the Orion Explorer 1 Robot Kits
+    url: http://shop.orionrobots.co.uk/pages/orion-explorer-1-faq
+  -
+    title: Blog
+    description: Blog
+    url: http://shop.orionrobots.co.uk/blogs/news
+  -
+    title: About Us
+    description: About Us
+    url: /about_us.html
+  -
+    title: Community
+    description: See the community website for more ideas and info
+    url: /index.html

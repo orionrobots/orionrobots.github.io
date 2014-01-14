@@ -54,12 +54,15 @@
             <h1 style="font-size: 20px; color: white; font-weight: normal; position: relative; top: -1px;">Build a Robot Without Soldering</h1>
             </div>
           </div>
-
           <nav id="top-menu" class="clearfix">
               <ul class="nav">
-                {% assign pages_list = site.pages %}
-                {% assign group = 'navigation' %}
-                {% include JB/pages_list %}
+                 {% for node in site.menu %}
+                    {% if page.url == node.url %}
+                        <li class="active"><a href="{{node.url}}" class="active">{{node.title}}</a></li>
+                    {% else %}
+                        <li><a href="{{node.url}}">{{node.title}}</a></li>
+                    {% endif %}
+                 {% endfor %}
               </ul>
          </nav>
 
