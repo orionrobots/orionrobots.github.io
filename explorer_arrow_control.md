@@ -26,7 +26,7 @@ somewhere before starting.
 
 I will assume that you have already constructed the Explorer 1, have batteries, and have seen the motor control program working.
 
-<img alt="Completed Explorer 1 Robot" src="/assets/construction_guide/IMG_1211_web.jpg">
+<img alt="Completed Explorer 1 Robot" src="/assets/construction_guide/IMG_1211_web.jpg" />
 
 First - start off with the 0_start app, which is the same as the basic app you'd used to test your robot.
 
@@ -378,8 +378,8 @@ and RX mean transmit and receive respectively. These lines need to be swapped - 
 To stop the module dangling off the side of the robot, I've found it handy to poke it just a little into the upper cable port.
 
 Once you have this connected, you should be able to turn on your robot (without the USB cable connected), and see the
- bluetooth HC-06 module on your computer. Pair the module, and get the connection details (either COM<n> on
- windows, or /dev/tty<somestuff> on linux and mac), put those into the new Serial call.
+ bluetooth HC-06 module on your computer. Pair the module, and get the connection details (either COM&lt;n&gt; on
+ windows, or /dev/tty&lt; somestuff &gt; on linux and mac), put those into the new Serial call.
 
 Restart your control app on the PC and you should be able to control the robot from the computer.
 
