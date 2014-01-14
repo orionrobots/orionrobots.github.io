@@ -4,7 +4,7 @@ title: Welcome to the Orionrobots Shop
 ---
 {% include JB/setup %}
 Simple Hobby Robot Kits - Make a robot with us. All kits are solderless.
-_FREE SHIPPING TO THE UK MAINLAND_ (for orders over £25)
+_FREE SHIPPING TO THE UK MAINLAND_
 
 All kits are shipped from Surrey, Uk.
 
