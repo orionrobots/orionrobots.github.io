@@ -10,10 +10,10 @@ layout: post
 
 The IEEE Spectrum has an article this month on 3d printers, and how they are still not quite the vision of desktop manufacture myself, and others would like them to become:
 
-<a href="http://spectrum.ieee.org/robotics/diy/3d-printers-proliferate" target="_blank">3-D Printers Proliferate</a>
+<a href="http://spectrum.ieee.org/robotics/diy/3d-printers-proliferate" >3-D Printers Proliferate</a>
 
 Projects like the
-<a href="http://reprap.org/wiki/Main_Page" target="_blank">RepRap</a> - a user constructed 3d printer, are edging this vision closer.
+<a href="http://reprap.org/wiki/Main_Page" >RepRap</a> - a user constructed 3d printer, are edging this vision closer.
 
 User built CNC machines are beginning to become a focal point for hobby roboticists, tinkerers and electricians alike. I've had one such concept on the back burner for some time (although having a baby daughter does put such ideas off for a while).
 

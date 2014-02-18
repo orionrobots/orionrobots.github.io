@@ -18,4 +18,4 @@ Another thing which probably preceded their decline was the decline of the toysh
 Well its a shame to see them go. However, this may not be the end of the road if they are bought by a company who look to continue the line.
 
 # Links
-* <a href="http://www.theregister.co.uk/2006/08/31/rip_airfix/" target="_blank">The Register - Airfix Crashes and Burns</a>
+* <a href="http://www.theregister.co.uk/2006/08/31/rip_airfix/" >The Register - Airfix Crashes and Burns</a>
