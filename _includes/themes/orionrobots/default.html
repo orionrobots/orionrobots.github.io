@@ -71,14 +71,57 @@
         <!-- Content -->
         <div class="content-wrapper clearfix">
             {{ content }}
+            <div id="col-widgets">
+                {% include sidebar_news.html %}
+            </div>
         </div><!-- /.content -->
+        <footer id="bottom">
+          <div id="footer-left">
+            <ul id="footer-nav" class="clearfix">
+
+              <li><a href="/search">Search</a></li>
+
+              <li><a href="/pages/about-us">About Us</a></li>
+
+              <li><a href="/pages/return-policy">Return Policy</a></li>
+
+              <li><a href="http://orionrobots.co.uk/privacy_and_cookies.html">Privacy and Cookies</a></li>
+
+            </ul>
+            <p>© 2014 <a href="/">OrionRobots</a>. All Rights Reserved.<br><a href="http://www.shopify.co.uk" target="_blank">Ecommerce Software by Shopify</a></p>
+          </div>
+          <div id="footer-right">
+
+            <ul id="sm-icons" class="clearfix">
+              <li id="sm-gplus"><a href="https://plus.google.com/103729072501059702209" rel="publisher">G+</a></li>
+              <li id="sm-youtube"><a href="http://www.youtube.com/playlist?list=PLztIjhB2c1mhLD-X9KkIu6cln_EdUixcn" class="ir">YouTube</a></li>
+
+              <li id="sm-twitter"><a href="http://www.twitter.com/orionrobots" class="ir">Twitter</a></li>
+              <li id="sm-facebook"><a href="http://www.facebook.com/orionrobots" class="ir">Facebook</a></li>
+
+
+            </ul>
+          </div>
+
+
+          <div id="footer-payment-methods">
+            <p>Payment methods we accept</p>
+                   <img src="//cdn.shopify.com/s/files/1/0203/7288/t/1/assets/cc-amex.png?642" alt="American Express">
+
+                   <img src="//cdn.shopify.com/s/files/1/0203/7288/t/1/assets/cc-visa.png?642" alt="VISA">
+             <img src="//cdn.shopify.com/s/files/1/0203/7288/t/1/assets/cc-mastercard.png?642" alt="Mastercard">
+                <img src="//cdn.shopify.com/s/files/1/0203/7288/t/1/assets/cc-maestro.png?642" alt="Maestro">
+
+                 <img src="//cdn.shopify.com/s/files/1/0203/7288/t/1/assets/cc-paypal.png?642" alt="Paypal">
+
+          </div>
+
+            <p>&copy; {{ site.time | date: '%Y' }} {{ site.author.name }}
+              with help from <a href="http://jekyllbootstrap.com" target="_blank" title="The Definitive Jekyll Blogging Framework">Jekyll Bootstrap</a>
+              and <a href="http://twitter.github.com/bootstrap/" target="_blank">Twitter Bootstrap</a>
+            </p>
+        </footer>
     </div>
-  <footer id="bottom">
-    <p>&copy; {{ site.time | date: '%Y' }} {{ site.author.name }}
-      with help from <a href="http://jekyllbootstrap.com" target="_blank" title="The Definitive Jekyll Blogging Framework">Jekyll Bootstrap</a>
-      and <a href="http://twitter.github.com/bootstrap/" target="_blank">Twitter Bootstrap</a>
-    </p>
-  </footer>
 
     {% include JB/analytics %}
   </body>
