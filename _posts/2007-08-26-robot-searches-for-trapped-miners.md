@@ -3,6 +3,7 @@ created: 2007-08-26 09:08:19
 description: Robot searches for trapped miners
 tags: [robots, search, rescue]
 title: Robot searches for trapped miners
+layout: post
 ---
  <p>
   A robot built by engineers at the Canadian firm Inuktun Services Ltd and equipped with surveillance and inspection technology by Pipe-Eye International was deployed on Saturday the 25th August to search for six miners buried in a mine shaft in Utah.

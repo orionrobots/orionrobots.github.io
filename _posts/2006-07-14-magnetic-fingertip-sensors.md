@@ -3,6 +3,7 @@ created: 2006-07-14 02:55:36
 description: Magnetic Fingertip sensors
 tags: [sense, make, magnet]
 title: Magnetic Fingertip sensors
+layout: post
 ---
 It seems that some crazy group of people have been opening their fingers (OUCH!) and embedding magnets under their skin. This allows them to sense metal running under walls, detect motor movements and [AC](AC "Alternating Current") current and many other things.
 

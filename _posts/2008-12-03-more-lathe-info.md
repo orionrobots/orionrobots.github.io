@@ -3,6 +3,7 @@ created: 2008-12-03 04:35:00
 description: More Lathe Info
 tags: [lego, robotics]
 title: More Lathe Info
+layout: post
 ---
 I have still been at work on my Lego Lathe. This is the first in a series of automatic construction/fabrication/workshop robots that I want to build. It has been photographed during it's construction, and I will be putting those, along with it's plans, onto OrionRobots.
 

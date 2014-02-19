@@ -3,6 +3,7 @@ created: 2007-01-10 03:48:00
 description: Orionrobots Shop Goes Live
 tags: [orion explorer, robot, robot kit, arduino robot]
 title: Orionrobots Shop Goes Live
+layout: post
 ---
  <p>
   We've opened up for business with some great products to kickstart a robot building hobby.

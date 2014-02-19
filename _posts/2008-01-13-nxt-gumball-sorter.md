@@ -3,6 +3,7 @@ created: 2008-01-13 06:25:14
 description: Gumball Candy Sorting with Lego Mindstorms
 tags: [lego, nxt, mindstorms, robot]
 title: NXT Gumball Sorter
+layout: post
 ---
 Here is a pretty cool video showing an NXT robot that sorts coloured gumballs into different compartments in a tray. It uses only two motors and one light sensor to sort five different colours of gum balls, and was created by youTube user bubkas22.
 

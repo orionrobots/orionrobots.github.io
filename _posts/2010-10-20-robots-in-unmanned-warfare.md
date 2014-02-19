@@ -3,6 +3,7 @@ created: 2010-10-20 13:08:00
 description: Robots in unmanned warfare
 tags: [robots, warfare, weapons, uav, unmanned, autonomous]
 title: Robots in unmanned warfare
+layout: post
 ---
  <p>
   One of the things occurring in modern robotics is that they are increasingly being used to wage in wars by the richest nations. This benefits them in not having to sacrifice men on the front line, as well as being able to send robots for painstaking sweeping/searching missions where the robot will spot things a person may not be able to see.

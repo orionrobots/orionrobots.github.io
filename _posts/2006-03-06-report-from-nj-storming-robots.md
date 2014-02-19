@@ -3,6 +3,7 @@ created: 2006-03-06 12:22:31
 description: Report From NJ Storming Robots
 tags: [robots, mindstorms, robotics, lego, education, teaching]
 title: Report From NJ Storming Robots
+layout: post
 ---
 <a href="http://www.storming-robots.com" ><img src="image365"/></a>
 

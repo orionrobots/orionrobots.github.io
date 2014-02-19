@@ -3,6 +3,7 @@ created: 2013-02-27 03:57:00
 description: Robot Combat League - Oh Wow...
 tags: [robots, robotic entertainment, robots on tv]
 title: Robot Combat League - Oh Wow...
+layout: post
 ---
  <p>
   Robot Wars was brilliant. While it was preaching to the converted with me, it has inspired many people into building robots. SyFy's new addition, "Robot Combat League", is what we now have a decade later.

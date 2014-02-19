@@ -2,6 +2,7 @@
 created: 2006-08-23 02:13:46
 tags: [technology, gp2x, linux, opensource, handheld, pda, robots, NXT]
 title: PDA Suitable for use with Phidgets
+layout: post
 ---
 ![](/image387)
 For robot builders considering the Phidgets USB based systems, one of the big issues has always been the need for having a PC on board the robot,with USB ports. A laptop may be considered, but still might be too heavy, and not quite interfaceable enough.

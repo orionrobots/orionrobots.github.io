@@ -3,6 +3,7 @@ created: 2005-02-25 04:23:34
 description: A Lego Mindstorms Robot that plays the Ukelele
 tags: [lego,mindstorms]
 title: Mike and Jarvis - Ukelele Playing Robot
+layout: post
 ---
 Have a look at this [Remote Control Reggae](/tiki-directory_redirect.php?siteId=14).
 

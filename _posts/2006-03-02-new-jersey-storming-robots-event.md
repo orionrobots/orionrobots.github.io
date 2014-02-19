@@ -3,6 +3,7 @@ created: 2006-03-02 11:56:38
 description: New Jersey Storming Robots Event
 tags: [robotics, rcx, mindstorms, lego, nj, usa, education, robolab]
 title: New Jersey Storming Robots Event
+layout: post
 ---
  <p>
   <a class="internal" href="http://www.storming-robots.com" >

@@ -3,6 +3,7 @@ created: 2006-06-23 13:56:11
 description: Microsoft Robotics Studio cool, but not quite there yet
 tags: [robotics, csharp, lego, rcx, nxt, vex, microsoft]
 title: Microsoft Robotics Studio cool, but not quite there yet
+layout: post
 ---
 There has been a fair amount of noise this week about Microsoft's Robotics Studio, announced as a common robotics development platform. Now this seems fairly cool, as the general idea is to be able to use .net - C# or VB(please use C#!) to program robots. Unfortunately, this is let down heavily by the fact that (and I quote) "The other thing to clarify is that we have no intention of running our bits on MCSs in general." - that is, that the robot will have to be controlled remotely (via whatever protocol it already has) from a Windows machine.
 

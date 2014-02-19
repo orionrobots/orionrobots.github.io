@@ -3,6 +3,7 @@ created: 2006-01-05 18:53:14
 description: Lego unveils the next generation Mindstorms system
 tags: [lego,mindstorms,nxt,rcx]
 title: Lego unveils the next generation Mindstorms system
+layout: post
 ---
 <div style=" float: right;"><img src="image357"/></div>
 In September 1998, hobbyist robot builders woke up the world over to robot building when the original [Lego RCX](Lego+RCX "The Lego RCX") was released. It changed everything. The plastic toy of our childhood resurfaced as a leader in technology- and woke an army of [AFOLS](AFOL "Adult Fan Of Lego") - adult fans of [Lego](Lego "The best known construction toy"), a completely unexpected group who were contributing, collaborating and hacking the product in ways Lego could not have dreamed of.

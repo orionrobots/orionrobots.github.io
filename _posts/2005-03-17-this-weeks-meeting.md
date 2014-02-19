@@ -3,6 +3,7 @@ created: 2005-03-17 08:48:40
 description: This weeks meeting
 tags: [east finchley robotics club, lego, gbc]
 title: This weeks meeting
+layout: post
 ---
  <p>
   We are continuing the Great Ball Contraption Modules challenge. I will be announcing the final deadline for this on saturday.

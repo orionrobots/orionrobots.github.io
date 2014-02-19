@@ -3,6 +3,7 @@ created: 2005-10-08 16:39:26
 description: More info on the Darpa Grand Challenge Result
 tags: [darpa, grand+challenge, stanley, robots, robotics, car, stanford+university]
 title: More info on the Darpa Grand Challenge Result
+layout: post
 ---
 At dawn on Saturday, the 8th October, as the sun rose, the 23 contenders knew that anything could happen. After events at the NQE where they prepared, and qualified for the event, and last years Grand Challenge, the teams had to be sure either robot was prepared for anything. This was it - the big moment where their robot was out in the world, and on its own!
 

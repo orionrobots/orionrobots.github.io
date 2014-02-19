@@ -2,6 +2,7 @@
 created: 2010-11-15 16:25:00
 tags: [technic, lego, gbc, kugelbahn, dominoes, nxt, mindstorms]
 title: More amazing lego innovation
+layout: post
 ---
 The arrival of Lego mindstorms kicked off a wave of Lego innovation, but not all of that used official Lego mindstorms kits - some where just motors strapped onto curious contraptions, some of the most interesting being the Rube Goldberg devices, kinetic sculptures, rolling ball machines and similar.
 

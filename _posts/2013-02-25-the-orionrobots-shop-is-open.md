@@ -3,6 +3,7 @@ created: 2013-02-25 03:54:00
 description: The Orionrobots Shop is Open!
 tags: [robotics, robot kits, uk robotics]
 title: The Orionrobots Shop is Open!
+layout: post
 ---
  <p>
   Orionrobots now has its own shop!

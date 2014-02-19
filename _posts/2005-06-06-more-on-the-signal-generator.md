@@ -3,6 +3,7 @@ created: 2005-06-06 10:23:32
 description: More on the signal generator
 tags: [electronics]
 title: More on the signal generator
+layout: post
 ---
 <h1 id="Signal_Generator_build">Signal Generator build</h1>
  <p>

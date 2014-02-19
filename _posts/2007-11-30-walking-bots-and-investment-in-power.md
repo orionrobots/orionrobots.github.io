@@ -4,6 +4,7 @@ description: Walking Bots and Investment in power
 tags: [mecha, walker, landwalker, tank, robot, google, power, renewable, solar, coal,
   energy, environmental]
 title: Walking Bots and Investment in power
+layout: post
 ---
  <h1 id="The_Landwalker">
   The Landwalker

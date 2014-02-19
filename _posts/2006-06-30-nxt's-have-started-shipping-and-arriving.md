@@ -3,6 +3,7 @@ created: 2006-06-30 00:27:53
 description: NXT's have started shipping, and arriving
 tags: [robotics,lego,rcx,nxt]
 title: NXT's have started shipping, and arriving
+layout: post
 ---
  <p>
   It seems that the

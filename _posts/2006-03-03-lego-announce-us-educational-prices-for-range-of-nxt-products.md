@@ -6,9 +6,7 @@ title: Lego announce US educational prices for range of NXT products
 layout: post
 ---
 {% include JB/setup %}
-
 LME -[Lego](Lego "The best known construction toy") [mindstorms](MindStorms "A Robotic construction toy system from Lego") Education - presumably son of [DACTA](DACTA "DACTA") have used the [Lego Education Blog](http://legoeducation.typepad.com/blog/) to announce the [Prices of NXT components](http://legoeducation.typepad.com/blog/2006/03/lego_mindstorms.html).
-<!--more-->
 
 This includes the starter kit, programmable [NXT](NXT "Legos NeXT generation robotics kit") bricks, a full range of sensors and motors, the Software, a BlueTooth Dongle, and the rechargeable battery. It is priced fairly reasonably, and in US dollars, and it would be interesting to know if the UK prices will be conversions of these at exchange rates, or merely the same numbers with the GPB currency symbol (as Lego have done before).
 

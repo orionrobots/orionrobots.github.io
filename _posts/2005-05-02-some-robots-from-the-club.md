@@ -3,6 +3,7 @@ created: 2005-05-02 08:59:49
 description: Some robots from the club
 tags: [east finchley robotics club,lego]
 title: Some robots from the club
+layout: post
 ---
  <p>
   A couple of models by Homer(Dale) I thought I would write up.

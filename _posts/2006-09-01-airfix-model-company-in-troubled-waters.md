@@ -11,7 +11,7 @@ The company Airfix, who many of our readers would probably remember from childho
 
 They seemed to feel that they were fighting a loosing battle with TV, Computer games and the Internet. Some modellers also pointed out that their quality had been in decline, with poor glues, and Umbrol enamel paints. Acrylic paints are generally considered easier to work with.
 
-I suspect that the fact that many (construction toys)[Construction+Toy] that are reconfigurable and don't require glue, such as [Lego](Lego) and its alternatives, will be giving Airfix a tough competitor. Kids expect toys to be motorised, all singing and all dancing.
+I suspect that the fact that many [construction toys](Construction+Toy) that are reconfigurable and don't require glue, such as [Lego](Lego) and its alternatives, will be giving Airfix a tough competitor. Kids expect toys to be motorised, all singing and all dancing.
 
 Another thing which probably preceded their decline was the decline of the toyshop. Sure, you see Toys 'R Us, and the large Tesco extra stores stock many toys. But neither chains really paid much attention to this part of the market, and the smaller toy shops have been put out of business both by these big chains, along with Games Workshop which also dominates the modelling scene.
 

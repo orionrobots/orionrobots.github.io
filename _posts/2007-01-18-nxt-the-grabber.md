@@ -2,6 +2,7 @@
 created: 2007-01-18 15:06:34
 tags: [lego, nxt, mindstorms]
 title: NXT - The Grabber
+layout: post
 ---
 # Basic Grabber
 Time to get started on adding a grabber to the Tribot. The Tribot with a grabber is one of the demonstrations seen in many of the images on the net in the run-up, along with Alpha-Rex (which I will be building later).

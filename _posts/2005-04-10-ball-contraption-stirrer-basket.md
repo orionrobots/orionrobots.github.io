@@ -6,11 +6,7 @@ title: Ball contraption Stirrer Basket
 layout: post
 ---
 {% include JB/setup %}
-
-I have decided to post a number of [Lego](Lego "The best known construction toy") MOCs to my blog, so readers can see what I sometimes get up to. All the thumbnails are clickable. Please excuse my appalling photography - I think I need classes!
-
-While I have been playing around with building a Ball Contraption - or more to the point, trying to coach the club kids into building some, I identified the need for a good ball hopper.
-<!--more-->
+I have decided to post a number of [Lego](Lego "The best known construction toy") MOCs to my blog, so readers can see what I sometimes get up to. Please excuse my appalling photography. While I have been playing around with building a Ball Contraption - or more to the point, trying to coach the club kids into building some, I identified the need for a good ball hopper.
 
 If you look at these first photos - you can clearly see that with a simple hopper, Lego balls tend to catch on the bricks, and you get jams. This was how I explained the purpose of the device to the kids at the club.
 

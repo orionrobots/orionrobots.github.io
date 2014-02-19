@@ -3,6 +3,7 @@ created: 2006-03-25 02:42:45
 description: Make Blog - Cutting a phone holder with a water Jet
 tags: [parts, making, maker, linux, robots, motorola, diy, mobile, phone, cellphone]
 title: Make Blog - Cutting a phone holder with a water Jet
+layout: post
 ---
 Currently, the rather top quality <a href="http://www.makezine.com/blog/archive/2006/03/how_to_make_a_motorola_razr_ph.html" >make blog</a> from O'Reilly is carrying a story about a computer controlled water cutter, using pressurised (20,000 to 60,000 PSI!) jet of water enhance with abrasive material to make cuts on Polycarbonate, a material that generally ends up melted and with dulled/burred edges when cutting with stock jigsaw/bandsaws, or cut with a laser.
 

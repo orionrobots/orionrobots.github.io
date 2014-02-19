@@ -3,6 +3,7 @@ created: 2005-04-06 16:11:55
 description: Round up of the Challenge on Saturday the 2nd April 2005
 tags: [east finchley robotics club, lego]
 title: Round up of the Challenge on Saturday the 2nd April 2005
+layout: post
 ---
  <p>
   On Saturday, as it was sadly the last day for the East Finchley Robotics Club at Prospect Ring, I decided to go back to basics, and do a challenge that was good old fun for the kids.

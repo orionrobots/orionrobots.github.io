@@ -3,6 +3,7 @@ created: 2005-07-29 15:19:31
 description: Repliee Q1 - A replicant from Japan
 tags: [robots]
 title: Repliee Q1 - A replicant from Japan
+layout: post
 ---
  <p>
   This is a rather historic robot. It looks to the casual observer like a young Japanese woman, but in fact is a sophisticated robot with synthetic skin.

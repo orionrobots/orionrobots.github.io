@@ -3,6 +3,7 @@ created: 2010-10-26 00:34:00
 description: Robots with real uses around people
 tags: [robots, robotics, domestic robots, home robots]
 title: Robots with real uses around people
+layout: post
 ---
 <img alt="Sushi Making Robot" class="regImage pluginImg35" height="120" src="dl35&amp;display&amp;x=96&amp;y=120" width="96"/>
 

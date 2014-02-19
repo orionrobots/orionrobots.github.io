@@ -3,6 +3,7 @@ created: 2008-02-24 05:49:00
 description: The McRobot is coming
 tags: [robosapien, robot]
 title: The McRobot is coming
+layout: post
 ---
  <p>
   Now, there are few robot people who are not at least a little familiar with the

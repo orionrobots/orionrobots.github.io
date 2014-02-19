@@ -3,6 +3,7 @@ created: 2006-03-16 10:18:34
 description: More NXT Obsession
 tags: [lego, robots, robotics, mindstorms, rcx, nxt]
 title: More NXT Obsession
+layout: post
 ---
  <p>
   I have come across another interesting

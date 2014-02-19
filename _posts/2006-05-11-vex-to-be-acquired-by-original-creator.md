@@ -3,6 +3,7 @@ created: 2006-05-11 15:23:01
 description: Vex to be acquired by original creator
 tags: [robots, robotics, mecanno, vex, FirstRobotics, microcontroller]
 title: Vex to be acquired by original creator
+layout: post
 ---
  <p>
   Some more news on the Vex. It appears that the RadioShack sale on Vex kits was due to the Vex Robotics Design System IP being acquired from RadioShack by Innovation First, who are the original creators of the system. This includes the brand name, as well as the platform.

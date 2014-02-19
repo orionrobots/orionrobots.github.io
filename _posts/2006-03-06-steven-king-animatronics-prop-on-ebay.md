@@ -3,6 +3,7 @@ created: 2006-03-06 06:51:11
 description: Steven King Animatronics prop on Ebay
 tags: [animatronic, robot, steven_king, ebay]
 title: Steven King Animatronics prop on Ebay
+layout: post
 ---
  <p>
   An

@@ -3,6 +3,7 @@ created: 2007-01-10 14:30:42
 description: OrionRobots gets our first NXT
 tags: [nxt, rcx, lego, mindstorms, robots]
 title: OrionRobots gets our first NXT
+layout: post
 ---
 <h1 id="A_long_wait">A long wait</h1>
  <p>

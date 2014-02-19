@@ -3,6 +3,7 @@ created: 2006-07-09 16:04:29
 description: Pneumatic Engine Repost
 tags: [lego, pneumatic]
 title: Pneumatic Engine Repost
+layout: post
 ---
  <div style=" width: 30%; float: right;">
   <img height="133" src="/image385" width="245"/>

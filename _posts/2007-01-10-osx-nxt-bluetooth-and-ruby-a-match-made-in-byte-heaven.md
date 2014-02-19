@@ -3,6 +3,7 @@ created: 2007-01-10 15:19:38
 description: OSX, NXT, BlueTooth and Ruby - A match made in byte heaven?
 tags: [robots, ruby, bluetooth, lego, nxt, linux]
 title: OSX, NXT, BlueTooth and Ruby - A match made in byte heaven?
+layout: post
 ---
  <p>
   Ruby, if you have never come across it, is an interpreted language which is

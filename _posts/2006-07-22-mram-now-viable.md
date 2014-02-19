@@ -3,6 +3,7 @@ created: 2006-07-22 03:15:08
 description: MRAM Now Viable
 tags: [electronics,computing]
 title: MRAM Now Viable
+layout: post
 ---
  <p>
   MRAM - Magnetic RAM has now started to be commercially produced by FreeScale. It is a non 

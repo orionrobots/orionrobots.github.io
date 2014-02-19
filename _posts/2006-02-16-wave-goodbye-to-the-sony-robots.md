@@ -3,6 +3,7 @@ created: 2006-02-16 07:03:03
 description: Wave Goodbye to The Sony Robots
 tags: [robots, aibo, sony, qrio]
 title: Wave Goodbye to The Sony Robots
+layout: post
 ---
  <p>
   I must sadly announce that

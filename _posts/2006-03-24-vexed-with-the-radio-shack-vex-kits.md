@@ -3,6 +3,7 @@ created: 2006-03-24 09:36:40
 description: Vexed with the Radio Shack VEX kits
 tags: [vex,radio shack,robotics,electronics]
 title: Vexed with the Radio Shack VEX kits
+layout: post
 ---
  <p>
   I have recently been informed that the rather fantastic (but expensive) Radio Shack VEX may about to be discontinued, and as a result, is actually being sold at half price discounts on the

@@ -3,6 +3,7 @@ created: 2006-07-09 11:37:13
 description: Lugnet NXT Newsgroup established
 tags: [lugnet, nxt, mindstorms, robots]
 title: Lugnet NXT Newsgroup established
+layout: post
 ---
 For fans of the [Lego](Lego "The best known construction toy") [NXT](NXT "Legos NeXT generation robotics kit"), they will be pleased to hear that a newsgroup has been created specifically for it on [Lugnet](Lugnet "Lego Users Group Network"), which means it can be read on the web, as a mailing list, or with a normal newsgroup client.
 

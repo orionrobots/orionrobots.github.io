@@ -3,6 +3,7 @@ created: 2006-12-12 15:53:49
 description: More Rubiks cube
 tags: [robot, lego, rubiks+cube]
 title: More Rubiks cube
+layout: post
 ---
  <p>
 I have stumbled upon more rubiks cube solving robot footage on YouTube, and thought it work sharing.

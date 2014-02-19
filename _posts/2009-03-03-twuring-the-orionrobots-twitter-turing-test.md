@@ -3,6 +3,7 @@ created: 2009-03-03 01:05:20
 description: Twuring - The Orionrobots Twitter Turing Test
 tags: [twitter, turing, ai, chatbot, alice, eliza, twuring]
 title: Twuring - The Orionrobots Twitter Turing Test
+layout: post
 ---
 <p>
 Okay, I am now well involved in the phenomenon that is twitter, and for those interested it is

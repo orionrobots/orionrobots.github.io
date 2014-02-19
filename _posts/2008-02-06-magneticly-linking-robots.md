@@ -3,6 +3,7 @@ created: 2008-02-06 09:10:01
 description: Magnetically Linking Robots
 tags: [robots, nanobots,swarmbots,clusterbots,swarm,nanotech,cmu,carnegie mellon university,claytronic]
 title: Magnetically Linking Robots
+layout: post
 ---
 Among the things mentioned occasionally on OrionRobots are Swarm Bots, [Nano Bots](Nano+Bots "Microscopic or Nano scale robots")  and [cluster Bots](Cluster+Bots).
 

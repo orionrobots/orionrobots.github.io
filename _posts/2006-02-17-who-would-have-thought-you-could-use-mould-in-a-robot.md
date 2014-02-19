@@ -3,6 +3,7 @@ created: 2006-02-17 06:37:17
 description: Who would have thought you could use mould in a robot?
 tags: [robot, biology, nanotech, biotech, mould, beam, hexapod]
 title: Who would have thought you could use mould in a robot?
+layout: post
 ---
 Klaus-Peter Zauner from University of Southampton, along with colleagues from the Kobe University of Japan, has created a crazy yet amazing photophobic robot which is based upon some Slime mould which is light sensitive
 

@@ -3,6 +3,7 @@ created: 2006-06-28 15:24:45
 description: Text Reading for the Blind
 tags: [robotics, blind, ocr, speech, innovation, pda]
 title: Text Reading for the Blind
+layout: post
 ---
 With a combination of miniaturisation, CCD, visual processing and speech synthesis technology, a device has been created that grants the blind access to printed material as they have never had before.
 

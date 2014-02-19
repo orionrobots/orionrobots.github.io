@@ -3,6 +3,7 @@ created: 2008-11-28 12:55:00
 description: Lego Pinhole cameras, alarm clocks and moving walls
 tags: [lego, make magazine]
 title: Lego Pinhole cameras, alarm clocks and moving walls
+layout: post
 ---
 Just to prove anything can be possible with some [Lego](Lego "The best known construction toy"), possibly a little modification and a lot of creative spirit, a chap over at <a href="http://www.foundphotography.com/PhotoThoughts/archives/2005/10/medium_format_p.html">Found Photography</a> actually built a working real Pinhole camera, with film winder and everything using Lego.
 

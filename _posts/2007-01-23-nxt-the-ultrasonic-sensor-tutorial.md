@@ -2,6 +2,7 @@
 created: 2007-01-23 15:42:27
 tags: [robots, robotics, nxt, rcx, lego, mindstorms, ultrasonic]
 title: NXT - The Ultrasonic Sensor Tutorial
+layout: post
 ---
 I am now well underway with my work on the NXT. I have built and programmed the grabber bot, and have it driving to and picking up a ball on command via hand claps.
 

@@ -3,6 +3,7 @@ created: 2006-03-20 06:35:41
 description: Micromouse contest at APEC 2006
 tags: [robot, micromouse, contest]
 title: Micromouse contest at APEC 2006
+layout: post
 ---
 At APEC 2006, The Applied Power Electronics Conference and Exposition, a Micromouse robot contest will be held today (20th March 2006) at 20:30 CST (that's UTC -600 for us Europeans, So about 1 in the morning tomorrow I think).
 

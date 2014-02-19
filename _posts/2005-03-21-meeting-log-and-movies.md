@@ -3,6 +3,7 @@ created: 2005-03-21 05:10:53
 description: Meeting Log, and movies
 tags: [lego,rcx,mindstorms]
 title: Meeting Log, and movies
+layout: post
 ---
 # Meeting Log
 

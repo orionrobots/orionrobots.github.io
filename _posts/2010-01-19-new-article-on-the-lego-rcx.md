@@ -3,6 +3,7 @@ created: 2010-01-19 06:44:06
 description: New article on the Lego RCX
 tags: [robots, robotics, lego, rcx, mindstorms, microcontroller, ris, ir, technic]
 title: New article on the Lego RCX
+layout: post
 ---
 <div class="postbody-content">
  <p>
