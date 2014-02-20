@@ -1,3 +1,8 @@
+---
+theme :
+  name : orionrobots
+---
+{% include JB/setup %}
 /**
  * Radiance
  * A Shopify theme.
@@ -25,11 +30,11 @@
  */
 @font-face {
   font-family: 'BebasNeueRegular';
-  src: url('/assets/themes/orionrobots/BebasNeue-webfont.eot');
-  src: url('/assets/themes/orionrobots/BebasNeue-webfont.eot?iefix') format('eot'),
-       url('/assets/themes/orionrobots/BebasNeue-webfont.woff') format('woff'),
-       url('/assets/themes/orionrobots/BebasNeue-webfont.ttf') format('truetype'),
-       url('/assets/themes/orionrobots/BebasNeue-webfont.svg#webfontfvFLBU0N') format('svg');
+  src: url('{{ ASSET_PATH }}/BebasNeue-webfont.eot');
+  src: url('{{ ASSET_PATH }}/BebasNeue-webfont.eot?iefix') format('eot'),
+       url('{{ ASSET_PATH }}/BebasNeue-webfont.woff') format('woff'),
+       url('{{ ASSET_PATH }}/BebasNeue-webfont.ttf') format('truetype'),
+       url('{{ ASSET_PATH }}/BebasNeue-webfont.svg#webfontfvFLBU0N') format('svg');
   font-weight: normal;
   font-style: normal;
   }
@@ -74,7 +79,7 @@ time, mark, audio, video {
 }
 .tags li:first-child {
     border-left: none;
-    padding-left: 0px;
+    padding-left: 0;
  }
 
 
@@ -123,7 +128,7 @@ select{ max-width: 99%; /* for ff */ }
 input[type="text"].error, input[type="email"].error, input[type="password"].error { border-color:red }
 
 html {
-  background: url(//cdn.shopify.com/s/files/1/0203/7288/t/1/assets/orion_header_new.jpg?622) 50% 0 no-repeat;
+  background: url({{ ASSET_PATH }}/orion_header_new.jpg) 50% 0 no-repeat;
   background-size: 990px;
   background-color: #000000;
 }
@@ -254,9 +259,9 @@ body { text-align: center; }
  */
 
 #top-menu{
-  padding: 7px 0 0 0;
-  margin: 0 0 0 -10px;
-  }
+    padding: 7px 0 0;
+    margin: 0;
+}
 #top-menu li{
   float: left;
   }
@@ -268,10 +273,10 @@ body { text-align: center; }
   text-decoration: none;
   display: block;
   }
-#top-menu .first a{
+#top-menu li:first-child a{
   border-radius: 4px 0 0 4px;
   }
-#top-menu li.last a{
+#top-menu li:last-child a{
   border: none;
   border-radius: 0 4px 4px 0;
   }
@@ -862,7 +867,7 @@ article footer .btn { padding: 2px 10px; }
 .pagination a:hover, .pagination .active a {
   color: #ffffff;
   background-color: #6db038;
-  background: #666666 url(//cdn.shopify.com/s/files/1/0203/7288/t/1/assets/btn-small-depth.png?622) 0 100% repeat-x;
+  background: #666666 url({{ ASSET_PATH }}/btn-small-depth.png) 0 100% repeat-x;
   }
 .pagination .active a{
   border-right-color: #000000;
@@ -1167,12 +1172,12 @@ article footer .btn { padding: 2px 10px; }
   color: #666666
   }
 .comment-arrow{
-  width:0px;
-  height:0px;
+  width:0;
+  height:0;
   border-bottom:8px solid transparent;
   border-top:8px solid transparent;
   border-right:8px solid #ffffff; /* arrow colour */
-  font-size:0px;
+  font-size:0;
   line-height:0px;
   position: absolute;
   top: 14px;
@@ -1207,7 +1212,7 @@ article footer .btn { padding: 2px 10px; }
   color: #666;
   }
 .comment-form .text:focus{
-  border-color: ;
+  border-color: #000;
   }
 .comment-form textarea.text{
   width: 500px;
@@ -1230,7 +1235,7 @@ article footer .btn { padding: 2px 10px; }
   padding: 10px;
   color: #fff;
   text-align: left;
-  background: url(//cdn.shopify.com/s/files/1/0203/7288/t/1/assets/btn-small-depth.png?622 0 100% repeat-x);
+  background: url({{ ASSET_PATH }}/btn-small-depth.png) 0 100% repeat-x;
   -moz-border-radius: 4px;
   -webkit-border-radius: 4px;
   border-radius: 4px;
@@ -1426,7 +1431,7 @@ col.checkout-delete{ width: 80px; }
 #sm-icons a{
   width: 36px;
   height: 37px;
-  background-image: url(//cdn.shopify.com/s/files/1/0203/7288/t/1/assets/social-media.png?622);
+  background-image: url({{ ASSET_PATH }}/social-media.png);
   display: block;
   }
 
@@ -1565,7 +1570,7 @@ col.checkout-delete{ width: 80px; }
 .btn,
 a.btn{
   display: inline-block;
-  background: #666666 url(//cdn.shopify.com/s/files/1/0203/7288/t/1/assets/btn-small-depth.png?622) 0 100% repeat-x;
+  background: #666666 url({{ ASSET_PATH }}/btn-small-depth.png) 0 100% repeat-x;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   border-radius: 4px;
@@ -1582,7 +1587,7 @@ a.btn{
 .btn.disabled:hover,
 a.btn.disabled:hover{
   border: solid 1px #666666;
-  background: #666666 url(//cdn.shopify.com/s/files/1/0203/7288/t/1/assets/btn-small-depth.png?622) 0 100% repeat-x;
+  background: #666666 url({{ ASSET_PATH }}/btn-small-depth.png) 0 100% repeat-x;
   color: #ffffff;
   }
   
@@ -1591,17 +1596,17 @@ a.btn.disabled:hover{
 .btn:hover,
 a.btn:hover{
   border: solid 1px #6db038;
-  background: #6db038 url(//cdn.shopify.com/s/files/1/0203/7288/t/1/assets/btn-small-depth.png?622) 0 100% repeat-x;;
+  background: #6db038 url({{ ASSET_PATH }}/btn-small-depth.png) 0 100% repeat-x;
   color: #ffffff;
   }
 
 .btn-reversed{
   border: solid 1px #6db038;
-  background: #6db038 url(//cdn.shopify.com/s/files/1/0203/7288/t/1/assets/btn-small-depth.png?622) 0 100% repeat-x;;
+  background: #6db038 url({{ ASSET_PATH }}/btn-small-depth.png) 0 100% repeat-x;
   color: #ffffff;
   }
 .btn-reversed:hover{
-  background: #666666 url(//cdn.shopify.com/s/files/1/0203/7288/t/1/assets/btn-small-depth.png?622) 0 100% repeat-x;
+  background: #666666 url({{ ASSET_PATH }}/btn-small-depth.png) 0 100% repeat-x;
   border: solid 1px #666666;
   color: #ffffff;
   }
