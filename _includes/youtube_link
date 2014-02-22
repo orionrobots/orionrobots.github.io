@@ -7,5 +7,6 @@
         &amp;description={{ description }}"
         data-pin-do="buttonPin"
         data-pin-config="above">
+        <img src="http://assets.pinterest.com/images/pidgets/pin_it_button.png" />
     </a>
 </div>
