@@ -13,6 +13,6 @@ It does actually hold CDs - either on the tail rod, or they can be stacked again
 
 Click on any of the gallery images for larger ones.
 
-<a href="browseimage182"><img src="image182&amp;thumb=1"/></a>
-<a href="browseimage183"><img src="image183&amp;thumb=1"/></a>
-<a href="browseimage184"><img src="image184&amp;thumb=1"/></a>
+<a href="browseimage182">![](image182&amp;thumb=1)</a>
+<a href="browseimage183">![](image183&amp;thumb=1)</a>
+<a href="browseimage184">![](image184&amp;thumb=1)</a>

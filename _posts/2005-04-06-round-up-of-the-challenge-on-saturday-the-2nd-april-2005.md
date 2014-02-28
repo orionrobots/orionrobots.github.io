@@ -116,7 +116,7 @@ layout: post
   Danny &amp; Gabriel Proudly Holding Their Creation
   <br/>
   <a class="internal" href="browseimage192">
-   <img src="image192&amp;thumb=1"/>
+   ![](image192&amp;thumb=1)
   </a>
   <br/>
   Gabriel was really concerned - as they still couldn't get it to turn - the large wheels dragged, and the fact that they were wider at the non-driving end turned those front wheels into dead weight when they tried to steer. Ouch.
@@ -124,20 +124,20 @@ layout: post
   Some more close-ups of it. Note the front forks, and the gears used for style on the extra wheels.
   <br/>
   <a class="internal" href="browseimage193">
-   <img src="image193&amp;thumb=1"/>
+   ![](image193&amp;thumb=1)
   </a>
   <a class="internal" href="browseimage194">
-   <img src="image194&amp;thumb=1"/>
+   ![](image194&amp;thumb=1)
   </a>
   <a class="internal" href="browseimage195">
-   <img src="image195&amp;thumb=1"/>
+   ![](image195&amp;thumb=1)
   </a>
  </p>
  <p>
   Dale &amp; Janak with theirs
   <br/>
   <a class="internal" href="browseimage196">
-   <img src="image196&amp;thumb=1"/>
+   ![](image196&amp;thumb=1)
   </a>
   <br/>
   There model has a lot of empty space, but those balloon tyres did make it steer well. You can see the bumpers quite clearly - as well as the four wheel drive.
@@ -148,13 +148,13 @@ layout: post
   I must admit - with my poor photography - I missed the front and rear bumper detail - but trust me, Dale went to town a bit with the pins in those.
   <br/>
   <a class="internal" href="browseimage198">
-   <img src="image198&amp;thumb=1"/>
+   ![](image198&amp;thumb=1)
   </a>
   <a class="internal" href="browseimage199">
-   <img src="image199&amp;thumb=1"/>
+   ![](image199&amp;thumb=1)
   </a>
   <a class="internal" href="browseimage200">
-   <img src="image200&amp;thumb=1"/>
+   ![](image200&amp;thumb=1)
   </a>
  </p>
  <p>
@@ -164,7 +164,7 @@ layout: post
   The two models face to face
   <br/>
   <a class="internal" href="browseimage201">
-   <img src="image201&amp;thumb=1"/>
+   ![](image201&amp;thumb=1)
   </a>
  </p>
  <p>
@@ -182,7 +182,7 @@ layout: post
   Dale takes the tricky corner (its not that tricky!) - Janak is providing the shadow cover for him.
   <br/>
   <a class="internal" href="browseimage202">
-   <img src="image202&amp;thumb=1"/>
+   ![](image202&amp;thumb=1)
   </a>
  </p>
  <p>
@@ -195,7 +195,7 @@ layout: post
   Unfortunately - they really cannot steer- their buggy pretty much only goes in a straight line - it can only turn very slowly, and possibly by getting momentum and pulling back on one set of wheels - a real skid steer...
   <br/>
   <a class="internal" href="browseimage203">
-   <img src="image203&amp;thumb=1"/>
+   ![](image203&amp;thumb=1)
   </a>
   <br/>
   Danny makes a few attempts to turn a corner, and then just bolts for the finish line - which if you ignore the penalty areas, is a straight line from the start line.
@@ -219,10 +219,10 @@ layout: post
   I took one more photo of each before the drop tests started
   <br/>
   <a class="internal" href="browseimage204">
-   <img src="image204&amp;thumb=1"/>
+   ![](image204&amp;thumb=1)
   </a>
   <a class="internal" href="browseimage205">
-   <img src="image205&amp;thumb=1"/>
+   ![](image205&amp;thumb=1)
   </a>
  </p>
  <p>
@@ -238,7 +238,7 @@ layout: post
   Drop Test Aftermath
   <br/>
   <a class="internal" href="browseimage206">
-   <img src="image206&amp;thumb=1"/>
+   ![](image206&amp;thumb=1)
   </a>
   <br/>
   Now considering Dales gloating, and distraction techniques, I had to award the 12 behaviour points to Danny &amp; Gabriel - but alas - it was really not enough. The final score was 54 to 17.

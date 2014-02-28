@@ -16,9 +16,8 @@ As a result of this, I will firmly start to focus the next few sessions on effec
 
 Also I would like to point out that we are now hosting a number of movies and images for Steve Hassenplugs Great Ball Contraption.
 
-* [Great Ball Contraption Video Gallery](tiki-list_file_gallery.php?galleryId=4)
-* [Great Ball Contraption Image Gallery](tiki-browse_gallery.php?galleryId=4)
-* [Great Ball Contraption at Team Hassenplug](tiki-directory_redirect.php?siteId=15)
-* [Lugnet Robotics](tiki-directory_redirect.php?siteId=16) - The concept discussions were started here
+* [Great Ball Contraption Image](/assets/great_ball_contraption/00GBC4_Whole.jpg)
+* [Great Ball Contraption at Team Hassenplug](http://www.teamhassenplug.org/GBC/)
+* [Lugnet Robotics](http://news.lugnet.com/robotics/) - The concept discussions were started here
 
 Progress on the Ball Contraption: We also have been building one of these for a short while, inspired by what we saw on Steves Pages. I set the group a task of brainstorming, and building a ball elevation system, to get the ball up a tower built the week before (when only myself and Myuran were actually present!). Now I have also worked on a few of my own ideas, but I really want to see what the under 16s group can come up with. My own designs are to use a ball pump (which we can try when we have enough balls), a step ladder style thing with tipping trolleys. I tried building a large chain (having very few link tread pieces) using axle joiner pieces - but have so far not tried deploying it, and besides I didn't have enough of the right pieces to make it as long as I need it. I will in a short while be putting photos of all my attempts on the site...

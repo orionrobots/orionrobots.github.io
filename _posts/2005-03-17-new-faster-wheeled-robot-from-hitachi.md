@@ -15,22 +15,16 @@ It is however (please excuse the pun) a step in the right direction - as althoug
 
 Emiew is an acronym for Excellent Mobility and Interactive Existence as Workmate. It was developed at Hitachi's Mechanical Engineering Research Laboratory Robotics Technology Project. The groups name is actually a cumbersome translation of what is probably a much more elegant Japanese moniker.
 
-<a class="internal" href="browseimage189">
-   <img src="image189&amp;thumb=1"/>
-</a>
+![](/assets/hitachi_sony_honda_robots/HitachiRobotAFP.jpg)
 
 The robot is at a relatively short 1.3m high, and appears to have dextrous five fingered hands. It looks a little round and squat though - with a rather barrel shaped body. Its wheels allow it to lean either side, as well as forward or back. They also have relatively good speech capabilities with a 1000 word vocabulary, and two of the Emiews - Pal &amp; Chum were shown to reporters at the press conference when revealing the robot - they could be linked with Dog Food ad campaigns here in the Uk!
 
 Toshihiko Horiuchi, the project leader had a few comments on its creation "We aimed to create a robot that could live and co-exist with people.", he continues with "We want to make the robots useful for people ... If the robots moved slower than people, users would be frustrated.".
 
-<a class="internal" href="browseimage188">
-    <img src="image188&amp;thumb=1"/>
-</a>
+![](/assets/hitachi_sony_honda_robots/HitachiRobot2.jpg)
 
 Pal, one of the robots also commented "I want to be able to walk about in places like Shinjuku and Shibuya in the future without bumping into people and cars." - These are some of the busiest shopping areas in Japan. To acheive this it has sensor in its head, around its waist and near the wheels.
 
-<a class="internal" href="browseimage187">
-   <img src="image187&amp;thumb=1"/>
-</a>
+![](/assets/hitachi_sony_honda_robots/robot_hitachi203afp.jpg)
 
 The robots are being prepared for a technological face off with other robots at the World Expo in Aichi. They are destined for use in home and factories, although they require training before they can be deployed in such situations.
