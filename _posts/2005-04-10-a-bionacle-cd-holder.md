@@ -11,8 +11,6 @@ holder/rack created in Lego by Gabriel - admittedly he was supposed to be making
 
 It does actually hold CDs - either on the tail rod, or they can be stacked against the head.
 
-Click on any of the gallery images for larger ones.
-
-<a href="browseimage182">![](image182&amp;thumb=1)</a>
-<a href="browseimage183">![](image183&amp;thumb=1)</a>
-<a href="browseimage184">![](image184&amp;thumb=1)</a>
+![]({{ site.baseurl }}assets/2005-04-10-a-bionacle-cd-holder/P1010002.jpg)
+![]({{ site.baseurl }}assets/2005-04-10-a-bionacle-cd-holder/P1010003.jpg)
+![]({{ site.baseurl }}assets/2005-04-10-a-bionacle-cd-holder/P1010004.jpg)
