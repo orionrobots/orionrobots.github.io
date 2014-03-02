@@ -25,7 +25,7 @@ This week I attended a rather interesting meeting/forum in London, known as Dork
 
 The event I went to included a man who had created a music/video instrument with a wireless joypad, a wireless camera/microphone, and a Laptop, the software on the laptop used the light in the image to control the video, and feedback/phasing on the mic to control the audio. The joypad controls were used to rotate and shape parameters for the system. There was an interesting presentation of SMS controlled chandeliers, and textile mp3 players for joggers, as well as a guy who was talking of an event where sensors were attached to a steam engine to create a music/video show - sadly - he did not have enough footage to give any depth to that presentation.
 
-[DorkBotLondon Website](http://orionrobots.co.uk/tiki-directory_redirect.php?siteId=138)
+[DorkBotLondon Website](http://dorkbotlondon.org/)
 
 While there, I met with many people interested in doing electronic projects, gadgets and gizmos, some of whom I will probably link up with further to try and take them on as projects. I will post here if anything like that develops.
 
