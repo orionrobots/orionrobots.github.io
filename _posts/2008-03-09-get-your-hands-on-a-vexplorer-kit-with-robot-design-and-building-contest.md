@@ -21,6 +21,3 @@ I personally would have entered just to get my hands on the free VEXplorer kit. 
 
 * [Robot Magazine: VEXplorer Contest](http://www.botmag.com/articles/contest.shtml)
 * [The VEXplorer kit](http://www.botmag.com/vexplorer/vexplorer_full.shtml)
-* [OrionRobots VEX Forum](http://orionrobots.co.uk/tiki-view_forum.php?forumId=11)
-* [VEX based aerial photographs](http://orionrobots.co.uk/blogs/1/112)
-* [VEX robotics questions](http://orionrobots.co.uk/tiki-view_forum_thread.php?comments_parentId=224&amp;topics_sort_mode=replies_desc&amp;forumId=11)

@@ -4,6 +4,8 @@ description: Pneumatic Engine Repost
 tags: [lego, pneumatic]
 title: Pneumatic Engine Repost
 layout: post
+todo_needs_sat: ["Download file put into resources - take out of tiki", "tiki image refs"]
+todo_improve: Markdownify
 ---
  <div style=" width: 30%; float: right;">
   <img height="133" src="/image385" width="245"/>

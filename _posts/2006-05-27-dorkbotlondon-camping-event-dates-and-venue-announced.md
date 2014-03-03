@@ -7,7 +7,7 @@ layout: post
 ---
 {% include JB/setup %}
 
-DorkBotLondon have now announced a location, and dates for their event which was covered [here](http://orionrobots.co.uk/tiki-view_blog_post.php?blogId=1&amp;postId=80) earlier.
+DorkBotLondon have now announced a location, and dates for their event which was covered [here](/2006/05/10/dorkbot-london-summer-camp-aka-dorkcamp-proposed.html) earlier.
 
 The DorkBotLondon camp, aka DorkingBurn, which is (in a twist on the usual DorkBotLondon slogan) described as "People doing strange things without mains electricity", is to be held from the 1st to the 4th September 2006 (very much the tail end of summer), and will be, rather aptly, near Dorking.
 

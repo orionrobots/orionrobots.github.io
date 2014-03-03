@@ -4,6 +4,8 @@ description: More on the signal generator
 tags: [electronics]
 title: More on the signal generator
 layout: post
+todo_needs_sat: recreate gallery from Picasa.
+todo_improve: Markdownify
 ---
 <h1 id="Signal_Generator_build">Signal Generator build</h1>
  <p>

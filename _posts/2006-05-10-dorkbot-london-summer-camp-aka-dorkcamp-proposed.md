@@ -4,6 +4,7 @@ description: Dorkbot London Summer Camp - aka DorkCamp Proposed
 tags: [dorkbot, london, gadgets, making, maker, robot, gadget, opensource]
 title: Dorkbot London Summer Camp - aka DorkCamp Proposed
 layout: post
+todo: Convert gallery
 ---
 {% include JB/setup %}
 

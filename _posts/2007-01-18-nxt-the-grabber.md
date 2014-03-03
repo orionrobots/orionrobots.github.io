@@ -3,6 +3,7 @@ created: 2007-01-18 15:06:34
 tags: [lego, nxt, mindstorms]
 title: NXT - The Grabber
 layout: post
+todo_needs_sat: ["Convert tiki download to local download"]
 ---
 # Basic Grabber
 Time to get started on adding a grabber to the Tribot. The Tribot with a grabber is one of the demonstrations seen in many of the images on the net in the run-up, along with Alpha-Rex (which I will be building later).
@@ -63,11 +64,10 @@ Next in the tutorials will be the Ultrasonic sensor - but you will have to wait.
 
 # Links
 
-* <a href="OrionRobots gets our first NXT.html">OrionRobots gets our first NXT</a>
-* <a href="Getting Stuck into the NXT.html">Getting Stuck into the NXT</a>
+* <a href="/2007/01/10/orionRobots-gets-our-first-nxt.html">OrionRobots gets our first NXT</a>
+* <a href="/2007/01/13/getting-stuck-into-the-nxt.html">Getting Stuck into the NXT</a>
 * [NXT](NXT "Legos NeXT generation robotics kit")
 * [Mindstorms](MindStorms "A Robotic construction toy system from Lego")
 * [Lego](Lego "The best known construction toy")
 * <a href="http://forums.nxtasy.org/index.php?showtopic=178&amp;st=0&amp;#" >NXTasy forums- NXT-G Bugs</a>
 * <a href="http://mindstorms.lego.com">Lego Mindstorms Home</a>
-

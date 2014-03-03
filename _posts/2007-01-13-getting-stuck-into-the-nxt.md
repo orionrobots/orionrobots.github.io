@@ -4,6 +4,8 @@ description: Getting Stuck into the NXT
 tags: [nxt, mindstorms, lego, robot]
 title: Getting Stuck into the NXT
 layout: post
+todo_needs_sat: tiki images
+todo_improve: dewikify.
 ---
 {% include JB/setup %}
 
@@ -43,7 +45,7 @@ I built the ball holder, needed for trying out the next few things, it is on pag
  </div>
 
 Time to create the first program, okay not quite the first, but I am not sure I count the "Well Done" demo. This basically went forward and back. After downloading it - the robot seems to veer immediately to its left. I remove my added Ultrasonic sensor (
- [Last blog post](/tiki-view_blog_post.php?blogId=1&amp;postId=131)
+ [Last blog post](/2007/01/10/orionrobots-gets-our-first-nxt.html)
  - I jumped the gun again), tried again in case that was the cause. It is returning to the same spot, but at a different angle.
 
 I try it on 5 seconds off the pad- and the veer does not seem to be an issue. I weight down the pad - and it returns fine - it seems that on the laminate floor, the pad is kicked away at an angle as the robot sets off. My advice is to weigh it down with something so it doesn't slip around.
@@ -63,7 +65,7 @@ Time for the grabber - when things start getting interesting...
 
 # Links
 
-* [OrionRobots gets our first NXT](/tiki-view_blog_post.php?blogId=1&amp;postId=131)
+* [OrionRobots gets our first NXT](/2007/01/10/orionrobots-gets-our-first-nxt.html)
 * [Lego](Lego "The best known construction toy")
 * [Mindstorms](MindStorms "A Robotic construction toy system from Lego")
 * [NXT](NXT "Legos NeXT generation robotics kit")
