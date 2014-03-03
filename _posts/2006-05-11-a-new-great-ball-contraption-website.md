@@ -7,9 +7,9 @@ layout: post
 ---
 {% include JB/setup %}
 
- Along with much of the Lego Robotics community, I've taken note of the crazy efforts last year which resulted in the Great Ball Contraption (GBC), where participants build modules to accept balls (Lego footballs/basketballs) at one receptacle, and deposit them at the other on a standard footprint. The fun part is that what they do in the middle is up to them.
+Along with much of the Lego Robotics community, I've taken note of the crazy efforts last year which resulted in the Great Ball Contraption (GBC), where participants build modules to accept balls (Lego footballs/basketballs) at one receptacle, and deposit them at the other on a standard footprint. The fun part is that what they do in the middle is up to them.
 
- <iframe width="560" height="315" src="//www.youtube.com/embed/rWd3vgLaA_M?rel=0" frameborder="0" allowfullscreen="true"></iframe>
+<iframe width="560" height="315" src="//www.youtube.com/embed/rWd3vgLaA_M?rel=0" frameborder="0" allowfullscreen="true"> </iframe>
 
 People build all kinds of mad themed modules, modules with stairs to lift up balls, modules with conveyors, modules with robot arms and even modules with Lego trains. These often incorporate various robotic elements, including the RCX, [Manas](/Lego+Manas) as well as Lego trains. New ones will probably include the NXT too.
 
