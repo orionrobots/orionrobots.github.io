@@ -135,7 +135,7 @@ Twitter C++ API's:
 * <a href="http://twitter4r.rubyforge.org/">Twitter4R</a> by Susan Potter.&nbsp; Open-source Ruby library for the Twitter REST API.
 * <a href="http://rubyforge.org/projects/twittery">Twittery</a> by Chris Ledet.&nbsp; Lightweight class for Twitter's API.
 * <a href="http://twitter.rubyforge.org/">Twitter</a> by John Nunemaker.&nbsp; Command line twits and an api wrapper using Hpricot.
-* <a href="http://snippets.dzone.com/posts/show/2190">Recursive descent parser for Ruby - RDParser [ruby] [parser] [rdparser]</a> - A discussion with some Ruby source for a parser which can be used to make a lexer for a chatbot.
+* <a href="http://snippets.dzone.com/posts/show/2190">Recursive descent parser for Ruby - RDParser ruby- parser - rdparser</a> - A discussion with some Ruby source for a parser which can be used to make a lexer for a chatbot.
 
 ## Do Twitter Allow this?
 
