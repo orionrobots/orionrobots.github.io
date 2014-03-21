@@ -84,5 +84,5 @@ If our store is acquired or merged with another company, your information may be
 
 If you would like to: access, correct, amend or delete any personal information we have about you, register a complaint, or simply want more information contact our Privacy Compliance Officer at customer.services@orionrobots.co.uk or by mail at 
 orionrobots
-[Re: Privacy Compliance Officer]  
+Re: Privacy Compliance Officer
 61 Richmond Hill null GB tw10 6re
