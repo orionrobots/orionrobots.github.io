@@ -1,7 +1,7 @@
 ---
 created: 2006-03-20 06:35:41
 description: Micromouse contest at APEC 2006
-tags: [robot, micromouse, contest]
+tags: [robot, micromouse, contest, MIT]
 title: Micromouse contest at APEC 2006
 layout: post
 ---
