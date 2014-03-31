@@ -21,12 +21,12 @@ It is fully programmable and very expandable/
 {% assign link_url="/construction_guide.html" %}
 {% include pin_image_link.html %}
 {% assign image='/assets/2013-11-14-explorer-wall-avoider-kit/close_up_of_sensors_in_breadboard.jpg' %}
-{% assign thumb='images/blog/explorer_wall_avoider_kit/close_up_of_sensors_in_breadboard_thumb.jpg' %}
+{% assign thumb='/assets/2013-11-14-explorer-wall-avoider-kit/close_up_of_sensors_in_breadboard.jpg' %}
 {% assign description='How to build a wall avoiding robot' %}
 {% assign link_url='2013/11/14/explorer-wall-avoider-kit.html' %}
 {% include pin_image_link.html %}
-{% assign image='images/youtube_thumbs/U8458u-jilI_thm.jpg' %}
-{% assign thumb='images/youtube_thumbs/U8458u-jilI.jpg' %}
+{% assign image='/assets/youtube_thumbs/U8458u-jilI_thm.jpg' %}
+{% assign thumb='/assets/youtube_thumbs/U8458u-jilI.jpg' %}
 {% assign description="Adding a robot to a raspberry pi" %}
 {% assign link_url="http://www.youtube.com/watch?v=U8458u-jilI" %}
 {% include pin_image_link.html %}

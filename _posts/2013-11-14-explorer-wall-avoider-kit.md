@@ -35,7 +35,7 @@ The basic avoiding behaviour with two sensors out front is this: drive forwards,
 
 Start with the <a href="/construction_guide.html">Explorer 1 construction guide</a>. Attach the breadboard to the robot - you can pull off the backing paper and use the self adhesive strip, or save it for later and just use some sticky tak. Stick it to the top - near the front, in front of the cable hole.
 
-<p style="text-align: left;"><img src="//cdn.shopify.com/s/files/1/0203/7288/products/close_up_of_breadboard_connections_grande.jpeg?v=1385031485" /></p>
+<p style="text-align: left;"><img src="/assets/2013-11-14-explorer-wall-avoider-kit/close_up_of_breadboard_connections_grande.jpeg" /></p>
 <p style="text-align: left;"> </p>
 
 The green lines over this image show the connected pins. Note that the main part of the board has a different orientation from the top and bottom rails. All breadboards (including the two types we have) follow the same basic idea. The sensors will plug into the front end of the pins on the vertical rails.
@@ -49,7 +49,7 @@ Then look at the pin labels printed on the back of the sensors. Each will have:
 
 Plug a sensor into the board at each side - with the ultrasonic transducers (big round metal bits) facing forwards.
 
-<p style="text-align: left;"><img alt="Close Up Image of sensors plugged into breadboard" src="http://orionrobots.co.uk/media/images/blog/explorer_wall_avoider_kit/close_up_of_sensors_in_breadboard.jpg" /></p>
+<p style="text-align: left;"><img alt="Close Up Image of sensors plugged into breadboard" src="/assets/2013-11-14-explorer-wall-avoider-kit/close_up_of_sensors_in_breadboard.jpg" /></p>
 
 If you inspect the breadboard - on some versions there are some coloured rails top and bottom - each having one red, and one blue. Convention is that the red one is used for power, and the blue for ground.
 
