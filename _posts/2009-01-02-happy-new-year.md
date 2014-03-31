@@ -72,6 +72,6 @@ Whatever you do, have a great and safe new year. No matter how bad it seems, do 
 
 # Terms used
 
-* [Fuel Cell](Fuel+Cell)
-* [WiFi](WiFi)
-* [USB](USB)
+* [Fuel Cell](/Fuel+Cell)
+* [WiFi](/WiFi)
+* [USB](/USB)

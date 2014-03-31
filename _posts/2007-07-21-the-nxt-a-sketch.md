@@ -21,7 +21,7 @@ layout: post
    </a>
   </li>
   <li>
-   <a href="http:www.legoengineering.com/content/view/58/65/" rel="">
+   <a href="http://www.legoengineering.com/content/view/58/65/" rel="">
     Another take on the idea
    </a>
   </li>

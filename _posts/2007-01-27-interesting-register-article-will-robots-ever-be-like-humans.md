@@ -15,9 +15,9 @@ Some of the most fun ones are those based upon reader questions, which can somet
 
 [http://www.theregister.co.uk/2006/12/23/the_odd_body_robots/](http://www.theregister.co.uk/2006/12/23/the_odd_body_robots/)
 
-This is interesting because it actually cites a number of sources. The main gist of the answer is not so much about the [AI](AI "Artificial Intelligence") development but more the actual physical body structure. I would suspect that having human like dexterity and suppleness may actually be closer than having human like intelligence.
+This is interesting because it actually cites a number of sources. The main gist of the answer is not so much about the [AI](/AI "Artificial Intelligence") development but more the actual physical body structure. I would suspect that having human like dexterity and suppleness may actually be closer than having human like intelligence.
 
-Effectively and adaptively controlling so many actuators may require a vaster intelligence and [servo motor](Servo+Motor "A motor with built in positioning control - easily interfaced with digital systems") control than artificial intelligence currently offers, however, much like the [Honda](Honda "Honda") [Asimo](Asimo "Asimo") in the current adverts, it could be preprogrammed with a few very lifelike activities.
+Effectively and adaptively controlling so many actuators may require a vaster intelligence and [servo motor](/Servo+Motor "A motor with built in positioning control - easily interfaced with digital systems") control than artificial intelligence currently offers, however, much like the [Honda](/Honda "Honda") [Asimo](/Asimo "Asimo") in the current adverts, it could be preprogrammed with a few very lifelike activities.
 
 # Is an artificial eye close to reality?
 
@@ -25,7 +25,7 @@ Effectively and adaptively controlling so many actuators may require a vaster in
 
 This is actually an article covering a number of small questions with short answers and citations to back them up. The actual concept of an artificial eye is not new, and students have been known to perform activities using electrodes and grids of light sensors.
 
-While these basics have shown some use, and have even been used by blindfolded students to navigate a maze, more advanced  [CCD's](CCD "Charge Coupled Device") (the kind of technology used in every mobile phone camera and webcam) have become very common and cheap. With some additional processing, they could be used. However, I also think this arrangement is not enough to constitute an "eye". An adjustable focus wide angle lens, with varying detail bands, and a system to allow it to be moved (not fixed position) would make a simple [CCD](CCD "Charge Coupled Device") more eye-like.
+While these basics have shown some use, and have even been used by blindfolded students to navigate a maze, more advanced  [CCD's](/CCD "Charge Coupled Device") (the kind of technology used in every mobile phone camera and webcam) have become very common and cheap. With some additional processing, they could be used. However, I also think this arrangement is not enough to constitute an "eye". An adjustable focus wide angle lens, with varying detail bands, and a system to allow it to be moved (not fixed position) would make a simple [CCD](/CCD "Charge Coupled Device") more eye-like.
 
 ## Can colours be detected by touch
 
@@ -47,7 +47,7 @@ It is also a bit of good harmless fun.
 
 [http://mturk.com](http://mturk.com)
 
-This is a rather odd and amazing concept. It is the idea of offering an [API](API "Acronym: Application Programming Interface") that allows you to set tasks that an [AI](AI "Artificial Intelligence") is not yet capable of, like identifying objects in photographs, and for those who perform such tasks, an opportunity for a quick mini-earner. It is not a lot, normally measured in cents, and for non-US people it earns Amazon vouchers.
+This is a rather odd and amazing concept. It is the idea of offering an [API](/API "Acronym: Application Programming Interface") that allows you to set tasks that an [AI](/AI "Artificial Intelligence") is not yet capable of, like identifying objects in photographs, and for those who perform such tasks, an opportunity for a quick mini-earner. It is not a lot, normally measured in cents, and for non-US people it earns Amazon vouchers.
 
 The system is currently a Beta, run by Amazon. I have played with it, and think it is a concept that could be very handy for tagging and creating a lot of metainformation, thus creating the "semantic web". Link concepts like this with the 20q engine - and you have a powerful expert system involving people as well as machines.
 

@@ -9,9 +9,9 @@ layout: post
 
 The animals around us are clearly, much like us, and the robots we aspire to build, some collection of complex sensors, actuators and behaviours. These form the inspiration for our building, and sometimes certain recent science reveals surprising things that may help in building robots with such behaviours. As such, I am always interested in these behaviours, as well as animals with extra-ordinary senses or limbs. One of the great things about robotics is that you get to be multi-disciplinary like that.
 
-Had [Da Vinci](Leonardo+Da+Vinci "Leonardo Da Vinci") not thought about animal anatomy and behaviour, perhaps he would not have designed his flying machines, tanks and robot (seriously - this is not a joke, read [Leonardo Da Vincis Robot](Leonardo+Da+Vincis+Robot "The Humanoid Robot Designed By Leonardo Da Vinci") ).
+Had [Da Vinci](/Leonardo+Da+Vinci "Leonardo Da Vinci") not thought about animal anatomy and behaviour, perhaps he would not have designed his flying machines, tanks and robot (seriously - this is not a joke, read [Leonardo Da Vincis Robot](/Leonardo+Da+Vincis+Robot "The Humanoid Robot Designed By Leonardo Da Vinci") ).
 
-More recent uses must be the [BEAM](BEAM+Robots "Biology, Electronics, Aesthetics and Mechanics") technology used by [Mark Tilden](Mark+Tilden "Mark Tilden") creator of the Wow-wee [Robosapien](RoboSapien "RoboSapien").
+More recent uses must be the [BEAM](/BEAM+Robots "Biology, Electronics, Aesthetics and Mechanics") technology used by [Mark Tilden](/Mark+Tilden "Mark Tilden") creator of the Wow-wee [Robosapien](/RoboSapien "RoboSapien").
 
 Anyway, I recently spotted a couple of recent studies on animal behaviour which were most definitely interesting, and may also push their estimated IQ's up a notch or two. I will probably post other articles on them later.
 
@@ -32,7 +32,7 @@ One big question is if this is conscious behaviour. It is certainly learning and
 * [Rats are smarter than we think - The Telegraph](http://www.telegraph.co.uk/connected/main.jhtml?xml=/connected/2007/03/12/ecrats12.xml)
 * [Rats can reflect on their knowledge, study finds - World Science](http://www.world-science.net/othernews/070308_rats.htm)
 * [Rats Are Capable Of Reflecting On Mental Processes, UGA Research Shows - Medical News Today](http://www.medicalnewstoday.com/medicalnews.php?newsid=64856)
-* [Leonardo Da Vinci](Leonardo+Da+Vinci "Leonardo Da Vinci")
-* [Leonardo Da Vincis Robot](Leonardo+Da+Vincis+Robot "The Humanoid Robot Designed By Leonardo Da Vinci")
-* [BEAM](BEAM+Robots "Biology, Electronics, Aesthetics and Mechanics")
-* [Mark Tilden](Mark+Tilden "Mark Tilden")
+* [Leonardo Da Vinci](/Leonardo+Da+Vinci "Leonardo Da Vinci")
+* [Leonardo Da Vincis Robot](/Leonardo+Da+Vincis+Robot "The Humanoid Robot Designed By Leonardo Da Vinci")
+* [BEAM](/BEAM+Robots "Biology, Electronics, Aesthetics and Mechanics")
+* [Mark Tilden](/Mark+Tilden "Mark Tilden")

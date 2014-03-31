@@ -9,7 +9,7 @@ layout: post
 
 While I have been busy with another project (which readers will hear about very soon), some interesting things have been happening in the world of robotics. This years DARPA Urban Challenge is perhaps the most interesting of them.
 
-On the heels of the previous successful [DARPA Grand Challenge](DARPA+Grand+Challenge), the Urban Challenge adds the complication of driving through complex urban routes. This meant having skills to deal safely with other road users. The "Tartan Racing" team from Carnegie Mellon University won with with "Boss". Tartan Racing had a 20 minute lead based on calculated starting times and official stoppage time. The earlier title holders Stanford University followed with "Junior" in second place. Victor Tango's "Odin" from Virginia Tech came in third.
+On the heels of the previous successful [DARPA Grand Challenge](/DARPA+Grand+Challenge), the Urban Challenge adds the complication of driving through complex urban routes. This meant having skills to deal safely with other road users. The "Tartan Racing" team from Carnegie Mellon University won with with "Boss". Tartan Racing had a 20 minute lead based on calculated starting times and official stoppage time. The earlier title holders Stanford University followed with "Junior" in second place. Victor Tango's "Odin" from Virginia Tech came in third.
 
 Carnegie Mellon were awarded $2 million, Stanford University received a $1 million price for coming second place and VT took an award of $500k. Given the laser and Ultrasonic rangefinders, GPS, Cameras, automatic controllers, steering systems, computer workstations and other kit put on board each car to get them functioning, as well as the expertise it takes in getting all of it together, these kind of prizes are well earned.
 
@@ -30,4 +30,4 @@ What is remarkable is the technology in the finishing cars drove them legally an
 
 # Related
 
-* [DARPA](DARPA "Defense Advanced Research Projects Agency")
+* [DARPA](/DARPA "Defense Advanced Research Projects Agency")

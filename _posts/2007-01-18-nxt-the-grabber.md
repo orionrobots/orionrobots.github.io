@@ -37,7 +37,7 @@ I started the program, and made the additional change of making it wait for a lo
 
 The first instruction here in the tutorial (Page 65 in the user guide) has a tricky part of pulling an axle from the axle holes in the bottom of the robot. Since these are a bit stiff, it is my recommendation to take the first part with the bushes out, then leaving one bush in the end, use it as a tool to push the other axle out. As you push it out of the first beam, you should be able to pull it from the other side easily. (See right)
 
-Keep the parts around - it is only a temporary removal. You now have some cable routing fun - I am beginning to get the idea that the cavity behind the [NXT](NXT "Legos NeXT generation robotics kit") is a good spot, bearing in mind that routing the flat cables from the front there does prop it up some. The slight flexibility of studless builds is actually showing a benefit there.
+Keep the parts around - it is only a temporary removal. You now have some cable routing fun - I am beginning to get the idea that the cavity behind the [NXT](/NXT "Legos NeXT generation robotics kit") is a good spot, bearing in mind that routing the flat cables from the front there does prop it up some. The slight flexibility of studless builds is actually showing a benefit there.
 
 Oh - and once you have assembled the subassembly, plug it in before locking it in place. It is easier that way around. I am also not happy with the tightness of its fit against the touch sensor - a lot of strain on the connector (see the two images inset above right). Maybe I worry too much, but after years of using RJ plugs and cabling for telephone lines and networking in server rooms, I know that it does go..
 
@@ -46,7 +46,7 @@ Oh - and once you have assembled the subassembly, plug it in before locking it i
 With the Light Sensor fitted, I move on to seeing what kind of program challenge is next. I am now starting to get bolder with it, and tackle this one without having a peek at the help. I take the last program as a starting point, save it with a new name and modify it. This is when my laptop screen (1024 x 768) lets me down as the programming canvas is too small, there is also no zoom out feature. You can scroll with arrow keys or the pan tool, but there are no scroll bars. There is the map view however, in the bottom right corner, which helps a little here - not that the "Map Tab" always responds. Sometimes, if you have changed view in the main app, you need to switch to help, then back to map tab for it to actually show you the map after defaulting back to help and not actually setting the control. Others it is just blank.
 
 I did find a short list of community found NXT-G bugs <a href="http://forums.nxtasy.org/index.php?showtopic=178&amp;st=0&amp;#">here</a>, which did mention the Map Tab issue I saw. The reporter recommends switching between that and help a few times. Perhaps Lego will release a software update to sort that one out. I could not find anything referring to it on
-  [lugnet](Lugnet "Lego Users Group Network"), perhaps the lugnet.dearlego forum would be a good place to mention the issue.
+  [lugnet](/Lugnet "Lego Users Group Network"), perhaps the lugnet.dearlego forum would be a good place to mention the issue.
 
 I had to determine how many revolutions a full turn round would be - I could either do it through trial and error, or another method. My solution was somewhere between. I used a small axle, and an orange Technic tooth, slotting one onto a drive wheel, noting how much they turn for a full two motor spin. This may have been overkill, as I later note that the tutorial program just reverses, then hits 370 degrees.. It did the job close enough though -I got 370 for a result for both wheels. I did a full 180 degree spin on the robot. I also knocked the ball holder clear as unlike the tutorial code, my robot did not back off before spinning.
 
@@ -66,8 +66,8 @@ Next in the tutorials will be the Ultrasonic sensor - but you will have to wait.
 
 * <a href="/2007/01/10/orionRobots-gets-our-first-nxt.html">OrionRobots gets our first NXT</a>
 * <a href="/2007/01/13/getting-stuck-into-the-nxt.html">Getting Stuck into the NXT</a>
-* [NXT](NXT "Legos NeXT generation robotics kit")
-* [Mindstorms](MindStorms "A Robotic construction toy system from Lego")
-* [Lego](Lego "The best known construction toy")
+* [NXT](/NXT "Legos NeXT generation robotics kit")
+* [Mindstorms](/MindStorms "A Robotic construction toy system from Lego")
+* [Lego](/Lego "The best known construction toy")
 * <a href="http://forums.nxtasy.org/index.php?showtopic=178&amp;st=0&amp;#" >NXTasy forums- NXT-G Bugs</a>
 * <a href="http://mindstorms.lego.com">Lego Mindstorms Home</a>

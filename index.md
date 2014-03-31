@@ -23,7 +23,7 @@ It is fully programmable and very expandable/
 {% assign image='/assets/2013-11-14-explorer-wall-avoider-kit/close_up_of_sensors_in_breadboard.jpg' %}
 {% assign thumb='/assets/2013-11-14-explorer-wall-avoider-kit/close_up_of_sensors_in_breadboard.jpg' %}
 {% assign description='How to build a wall avoiding robot' %}
-{% assign link_url='2013/11/14/explorer-wall-avoider-kit.html' %}
+{% assign link_url='/2013/11/14/explorer-wall-avoider-kit' %}
 {% include pin_image_link.html %}
 {% assign image='/assets/youtube_thumbs/U8458u-jilI_thm.jpg' %}
 {% assign thumb='/assets/youtube_thumbs/U8458u-jilI.jpg' %}

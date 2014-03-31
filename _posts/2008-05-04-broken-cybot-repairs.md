@@ -7,7 +7,7 @@ layout: post
 ---
 {% include JB/setup %}
 
-Some time ago, my wife and mother conspired to accidentally damage my [Cybot](Cybot). First my mother managed to damage the tabs on the front panels holding the [IR](Infra+Red) dome, and then may wife managed to snap the Castor.
+Some time ago, my wife and mother conspired to accidentally damage my [Cybot](/Cybot). First my mother managed to damage the tabs on the front panels holding the [IR](/Infra+Red) dome, and then may wife managed to snap the Castor.
 
 I used the dome parts from the racing cybot and managed to repair that, but as I did not have a spare Castor at the time, I had attempted an initial repair.
 
@@ -42,6 +42,6 @@ It was clear that I could not use this without some serious repair. My first att
 
 <a href="browseimage239"><img src="image239&amp;thumb=1"/></a>
 
-I did something at the time (this was a few years ago mind) that I would consider now a very foolish move. I used the heat of a soldering iron and a set of pliers to drive the pins in. It was clamped and I was using goggles - but a soldering iron is not designed for this and the smell was awful and may have been toxic. Before you ever try anything similar, please read my [Robot Building Safety Guide](Robot+Building+Safety).
+I did something at the time (this was a few years ago mind) that I would consider now a very foolish move. I used the heat of a soldering iron and a set of pliers to drive the pins in. It was clamped and I was using goggles - but a soldering iron is not designed for this and the smell was awful and may have been toxic. Before you ever try anything similar, please read my [Robot Building Safety Guide](/Robot+Building+Safety).
 
 This lasted for about 2 meters, before it just fell off, and no matter which glue I tried, at was not going to happen. So I disassembled the Castor, keeping the wheel and axle, and discarded the broken pieces. I went back to the drawing board, and came up with a Lego substitute. I will post the rest of that when I dig out those photos - which were taken a few days later.

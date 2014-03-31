@@ -11,7 +11,7 @@ todo_improve: dewikify.
 
 # Starting Up
 
-Now I had the [NXT](NXT) software installed, it was time to fire it up. I was expecting an all singing, all dancing presentation as was the case with the [RCX](RCX) [RIS](RIS) and Mars Mission software, but those kind of intro movies seem to have withered away. They did add an element of excitement to Lego toys though. This instead fires up a rather good looking interface, which has a rounded, flattened and simplistic style reminiscent of LCARS (the Star Trek UI).
+Now I had the [NXT](/NXT) software installed, it was time to fire it up. I was expecting an all singing, all dancing presentation as was the case with the [RCX](/RCX) [RIS](/RIS) and Mars Mission software, but those kind of intro movies seem to have withered away. They did add an element of excitement to Lego toys though. This instead fires up a rather good looking interface, which has a rounded, flattened and simplistic style reminiscent of LCARS (the Star Trek UI).
 
 Time to click the "Getting started" button. The software rapidly runs through a little presentation demo, and tells me I can now connect my NXT to download a program. I plug it in, turn it on connected and Windows detects it. I then click the next button on the presentation, already a step ahead - as usual, jumping the gun. It then tells me to plug in the cable, already ahead.
 
@@ -66,8 +66,8 @@ Time for the grabber - when things start getting interesting...
 # Links
 
 * [OrionRobots gets our first NXT](/2007/01/10/orionrobots-gets-our-first-nxt.html)
-* [Lego](Lego "The best known construction toy")
-* [Mindstorms](MindStorms "A Robotic construction toy system from Lego")
-* [NXT](NXT "Legos NeXT generation robotics kit")
+* [Lego](/Lego "The best known construction toy")
+* [Mindstorms](/MindStorms "A Robotic construction toy system from Lego")
+* [NXT](/NXT "Legos NeXT generation robotics kit")
 * [http://mindstorms.lego.com](http://mindstorms.lego.com)
 * [Timephiz - Mindstorms NXT Test Run](http://timephiz.blogspot.com/2006/11/mindstorms-nxt-test-run.html) - A blog from a teacher going through a similar experience as I.

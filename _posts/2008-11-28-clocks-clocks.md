@@ -23,12 +23,12 @@ Those with much spare computer hardware, could make their own clocks with [Old H
 If you fancy taking a tube out of a defunct scope (providing its not the tube itself), you can build a clock with one here:
 [Homemade Scope Clock](http://www.makezine.com/blog/archive/2005/07/homemade_scope.html). The reason (if you were wondering), it would not simply work with the inputs on a working scope, is that it blanks the point between segments of its curve - thus allowing many separate segments. Its very old style, and inspiring. The actual guys site
 <http://www.webx.dk/oz2cpu/clock-scope/scope.htm> has a number of free downloads to use with
-[PIC](PIC) [Microcontrollers](MicroControllers) if you build your own similar clock.
+[PIC](/PIC) [Microcontrollers](MicroControllers) if you build your own similar clock.
 
 If its all style, you can go for a master of style, by building this hand welded
 [Retro Ball Clock](http://www.finkbuilt.com/blog/nelson-lodefink-ball-clock-phase-1/). Or for an even more retro fell, why not go for the [Nixie Tube Clock](http://www.finkbuilt.com/blog/numerical-indicator-experimental-1/trackback/). Now if you have never heard of them - Nixie Tubes are a very neat old display which were expensive yet very attractive in their time (50s). They are based on blown glass neon bulbs, and each tube has a filament for all its possible digits. Not easily obtained - but they have a very distinctive look.
 
-Now since we started on Lego, we will come back to Lego. Now we get one here based on the [RCX](Lego+RCX) - <http://www.lomont.org/Lego/ClockI/ClockI.php> - what is odd is it has separate hands and faces four hour, minutes and seconds. However - it compares poorly with this fantastic 7 foot high, fully working [Lego Grandfather Clock](http://www.ericharshbarger.org/lego/clock.html) built by a rather intense Lego sculptor with a large portfolio.
+Now since we started on Lego, we will come back to Lego. Now we get one here based on the [RCX](/Lego+RCX) - <http://www.lomont.org/Lego/ClockI/ClockI.php> - what is odd is it has separate hands and faces four hour, minutes and seconds. However - it compares poorly with this fantastic 7 foot high, fully working [Lego Grandfather Clock](http://www.ericharshbarger.org/lego/clock.html) built by a rather intense Lego sculptor with a large portfolio.
 
 Lego themselves also have a clock kit - their Lego creator alarm clock, which is reviewed on [Blogging Baby](http://www.bloggingbaby.com/entry/1234000013054369/).
 

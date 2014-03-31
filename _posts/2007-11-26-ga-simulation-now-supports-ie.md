@@ -12,6 +12,6 @@ I have now modified the simulation to support IE. The currently deployed one doe
 
 # Original Post
 
-<a href="Genetic Algorithm Simulation.html">OrionRobots: Genetic Algorithm Simulation</a></li>
+<a href="https://github.com/orionrobots/browser_genetic_simulation">OrionRobots: Genetic Algorithm Simulation</a></li>
 
 

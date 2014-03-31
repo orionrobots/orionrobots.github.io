@@ -5,16 +5,16 @@ tags: [robots, nanobots,swarmbots,clusterbots,swarm,nanotech,cmu,carnegie mellon
 title: Magnetically Linking Robots
 layout: post
 ---
-Among the things mentioned occasionally on OrionRobots are Swarm Bots, [Nano Bots](Nano+Bots "Microscopic or Nano scale robots")  and [cluster Bots](Cluster+Bots).
+Among the things mentioned occasionally on OrionRobots are Swarm Bots, [Nano Bots](/Nano+Bots "Microscopic or Nano scale robots")  and [cluster Bots](/Cluster+Bots).
 
 One cool idea among these is that the robots can join together in some movable arrangement to perform tasks - to cluster together. Of course, while taking into account lessons from SciFi (like The Replicators who do just this), they could be very handy for all kinds of things, including rapid prototyping, bridge forming, creating robotic manipulators and other stuff.
 
-Now having real ones on Nano Scale is still quite a distance away, however, a team at <a href="Carnegie+Mellon+University" title="An institution involved in Robotics, Technology and Science">Carnegie Mellon University</a>
+Now having real ones on Nano Scale is still quite a distance away, however, a team at <a href="/Carnegie+Mellon+University" title="An institution involved in Robotics, Technology and Science">Carnegie Mellon University</a>
 led by Seth Goldstein have come up with some demonstration robots which use a ring of electromagnets around their perimeter to bind and move around each other. The goal is to create the microscopic swarming robots eventually, and small electrical charges instead of magnets are likely to be more efficient at that scale.
 
 These demonstrations of robots has been dubbed "claytronic". NewScientist created a video of this demo in action.
 
-<iframe width="420" height="315" src="//www.youtube.com/embed/e44hA6IBtkA?rel=0" frameborder="0" allowfullscreen="true"></iframe>
+<iframe width="420" height="315" src="//www.youtube.com/embed/e44hA6IBtkA?rel=0" frameborder="0" allowfullscreen="true"> </iframe>
 
 # Links
 
