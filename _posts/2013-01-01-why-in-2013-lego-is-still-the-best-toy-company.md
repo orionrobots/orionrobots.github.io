@@ -5,7 +5,7 @@ tags: [lego, ev3, mindstorms, robot]
 title: Why in 2013 Lego is still the best toy company
 layout: post
 ---
-<img src="{{  media_url('images/blog/ev3web.jpg') }}" style="height:143px;width:169px;float:left;"/>
+<img src="/assets/youtube_thumbs/ElXsXAcqrUE.jpg" style="height:143px;width:169px;float:left;"/>
 Lego is probably the best toy company in the world. For making robots, houses or just playing about.
 
 I've never held back in my praise and I've seen 2 reasons why in 2013 they are still awesome.

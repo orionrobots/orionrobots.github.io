@@ -25,7 +25,7 @@ Here is a video of me experimenting before making it into this kit:
 Orion Explorer 1 Robot Avoiding Walls with distance sensor
 <a href="http://www.pinterest.com/pin/create/button/
         ?url=http://orionrobots.co.uk/blog/explorer_wall_avoider_kit.html
-        &amp;media=/media/images/youtube_thumbs/ElXsXAcqrUE.jpg
+        &amp;media=/assets/youtube_thumbs/ElXsXAcqrUE.jpg
         &amp;description=Orion Explorer 1 Robot Avoiding Walls with distance sensor" data-pin-do="buttonPin" data-pin-config="above"> <img src="http://assets.pinterest.com/images/pidgets/pin_it_button.png" /> </a></div>
 
 # First Steps with the kit

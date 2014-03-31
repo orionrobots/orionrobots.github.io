@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title: Privacy and Cookies
 description: About Your Privacy and the Use Of Cookies
 ---
