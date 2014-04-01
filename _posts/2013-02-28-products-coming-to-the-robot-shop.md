@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Products Coming to The Robot Shop
-tags: [arduino kit, components, distance sensor, electronics, explorer 1, orion explorer 1, robot, robot building, robot kit, robots, solderless]
+tags: [arduino kit, components, distance sensor, electronics, orion explorer 1, robot, robot building, robot kit, robots, solderless]
 ---
 This shop is in its early stages - but we are planning to expand our range. Among the lines we are considering adding:
 

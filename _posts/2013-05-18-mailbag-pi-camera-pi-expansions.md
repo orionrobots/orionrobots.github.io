@@ -1,6 +1,6 @@
 ---
 layout: post
-tags: [arduino, distance sensor, explorer 1, raspberry pi, robots, sensor]
+tags: [arduino, distance sensor, orion explorer 1, raspberry pi, robots, sensor]
 title: Friday Mailbag - Pi Camera, Pi expansion boards
 ---
 This week I had a rather nice mailbag of cool robotic and electronic parts.<br /> The Coocox Embedded Pi, Raspberry Pi Camera and Dual Sensor progress.

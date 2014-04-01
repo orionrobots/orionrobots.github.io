@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Last Orders For Christmas 2013 - Tuesday 17th
-tags: [orion explorer 1 robot kit]
+tags: [orion explorer 1 robot kit, orion explorer 1]
 ---
 For those wanting to give a robot as a gift - Tuesday the 17th will be the last day we will be able to take Uk mainland orders that can be delivered for Christmas. The <a href="http://shop.orionrobots.co.uk/products/orion-explorer-1-deluxe-kit">Orion Explorer 1 Ultrasonic Bluetooth Deluxe Robot Kit</a> is selling fast though - you may need to get that order in soon!
 

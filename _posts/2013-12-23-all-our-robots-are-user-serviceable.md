@@ -1,7 +1,7 @@
 ---
 layout: post
 title: All Our Robots are User Serviceable!
-tags: [explorer 1, maker, orion explorer 1, robot building, robot kit, technology]
+tags: [maker, orion explorer 1, robot building, robot kit, technology]
 ---
 <img src="https://cdn.shopify.com/s/files/1/0203/7288/files/StylisedRobot_medium.png?640" style="margin-right: 4px; float: left;" />Orionrobots has always been about self learning and building your own stuff.
 
