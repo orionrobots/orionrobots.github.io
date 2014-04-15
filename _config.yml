@@ -145,6 +145,10 @@ menu:
     description: About the Orion Explorer 1 Robot Kits
     url: http://shop.orionrobots.co.uk/pages/orion-explorer-1-faq
   -
+    title: Current Projects
+    description: What are we working on in the Orionrobots Labs
+    url: /projects.html
+  -
     title: Blog
     description: Blog
     url: http://orionrobots.co.uk/archive.html

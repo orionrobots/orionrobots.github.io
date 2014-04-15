@@ -9,7 +9,7 @@ task :deploy do
     site = ENV['site']
     username = ENV['username']
     #regen
-    system("jekyll build")    
+    system("jekyll build")
     #tarball the site dir
     puts "recreating zip"
     rm_f("site.zip")
