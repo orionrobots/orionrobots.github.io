@@ -54,10 +54,12 @@ Buy it at <a href="http://shop.orionrobots.co.uk">the Orionrobots Shop</a>.
 
 If you are after a kit or set for your kid or husband (big kid), then take a look at this list: <a  href="http://www.squidoo.com/educational-robot-kits-for-kids">Educational Robot Kits For Kids</a>.
 
-# Post archive
+# Recent Posts
 <ul class="posts">
   {% for post in site.posts %}
-    <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
+    {% if forloop.index < 4 %}
+        <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a><p class="clearfix">{{ post.excerpt }}<a href="{{ BASE_PATH }}{{ post.url }}">more...</a></p><p class="clearfix"></p></li>
+    {% endif %}
   {% endfor %}
 </ul>
 
