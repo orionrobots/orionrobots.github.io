@@ -17,14 +17,14 @@ The module can easily be tucked into that top circle, or sticky tacked on to the
 
 Now its time to program it for basic RC. The code for this will work fairly simply:
 
-<script src="https://gist.github.com/dannystaple/7585942.js?file=bluetooth_remote.psuedo"> </script>
+<script src="https://gist.github.com/dannystaple/7585942.js?file=bluetooth_remote.psuedo" />
 
 Lets create this as an Arduino sketch, and we'll add the libraries in later:</p>
 
-<script src="https://gist.github.com/dannystaple/7585942.js?file=bluetooth_remote.ino"> </script>
+<script src="https://gist.github.com/dannystaple/7585942.js?file=bluetooth_remote.ino" />
 
 You will also need the TurtleMotors library - create a new tab in the Arduino IDE, call it TurtleMotors.h, and paste this into it:
-<script src="https://gist.github.com/dannystaple/7586031.js?file=TurtleMotors.h"> </script>
+<script src="https://gist.github.com/dannystaple/7586031.js?file=TurtleMotors.h" />
 
 You should now be able to compile and upload this to your robot, which will be waiting for a device to connect to it.
 
