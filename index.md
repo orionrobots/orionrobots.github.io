@@ -30,8 +30,8 @@ It is fully programmable and very expandable/
 {% assign description="Adding a robot to a raspberry pi" %}
 {% assign link_url="http://www.youtube.com/watch?v=U8458u-jilI" %}
 {% include pin_image_link.html %}
-{% assign image="http://cdn.shopify.com/s/files/1/0203/7288/files/14-IMG_4873.CR2_large.jpg?602" %}
-{% assign thumb="http://cdn.shopify.com/s/files/1/0203/7288/files/14-IMG_4873.CR2_large.jpg?602" %}
+{% assign image="/assets/2013-05-23-building-a-bump-sensor/13-IMG_4874.CR2_compact.jpg" %}
+{% assign thumb="/assets/2013-05-23-building-a-bump-sensor/13-IMG_4874.CR2_compact.jpg" %}
 {% assign description="Building a bump sensor for the Explorer Robot Kits" %}
 {% assign link_url="/2013/05/23/building-a-bump-sensor" %}
 {% include pin_image_link.html %}
