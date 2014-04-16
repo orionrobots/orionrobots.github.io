@@ -69,7 +69,7 @@ Finally connect a wire from the blue rail to a <span class="caps">GND</span> pin
 
 The diagram below shows the connections. The sensors are at the top - with their pins labelled. The connections in blue are those you’ve already made in constructing the robot. Those in green connect the Arduino to the breadboard and those in yellow are on the breadboard only.
 
-<p style="text-align: left;"><img src="//cdn.shopify.com/s/files/1/0203/7288/files/wall_avoider_diagram_bb_48b11cd2-300a-4bf2-981e-360bc8ea6513_large.png?642" style="display: block; margin-left: auto; margin-right: auto;" /></p>
+<img src="/assets/2013-11-14-explorer-wall-avoider-kit/wall_avoider_diagram_bb_48b11cd2-300a-4bf2-981e-360bc8ea6513_large.png" style="display: block; margin-left: auto; margin-right: auto;" />
 
 # Programming the robot - How to make it avoid walls
 
