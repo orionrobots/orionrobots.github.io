@@ -151,7 +151,7 @@ menu:
   -
     title: Blog
     description: Blog
-    url: http://orionrobots.co.uk/archive.html
+    url: /archive.html
   -
     title: About Us
     description: About Us
