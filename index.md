@@ -33,7 +33,7 @@ It is fully programmable and very expandable/
 {% assign image="http://cdn.shopify.com/s/files/1/0203/7288/files/14-IMG_4873.CR2_large.jpg?602" %}
 {% assign thumb="http://cdn.shopify.com/s/files/1/0203/7288/files/14-IMG_4873.CR2_large.jpg?602" %}
 {% assign description="Building a bump sensor for the Explorer Robot Kits" %}
-{% assign link_url="http://shop.orionrobots.co.uk/blogs/news/10651757-building-a-bump-sensor-for-the-orion-explorer-1-kits" %}
+{% assign link_url="/2013/05/23/building-a-bump-sensor" %}
 {% include pin_image_link.html %}
 
 Easy includes:
