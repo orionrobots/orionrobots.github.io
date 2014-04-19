@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Welcome to the Orionrobots Shop
+title: Welcome to Orionrobots
 todo_needs_sat: Image link for wall avoider blog link, blog links, shopify image ref
 ---
 {% include JB/setup %}

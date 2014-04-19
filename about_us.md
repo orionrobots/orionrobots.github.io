@@ -5,7 +5,7 @@ description: "Who are Orionrobots and why do we love building robots?"
 ---
 {% include JB/setup %}
 
-## About Orionrobots
+## About OrionRobots
 
 We love robotics. Here are 3 good reasons why:
 1. Robotics can be used to promote ICT/STEM learning - for both adults and children, this can increase computer,
