@@ -8,7 +8,7 @@ If you've ever seen an episode of Stargate there is frequently some kind of alie
 
 Now the reality. Even the best electronics guru or repair technician is incapable of this feat with our current electronics.
 
-YouTube electronics favourites like Dave Jones, Geri Ellsworth and Limor Freid could not do this. Geri has just about made a working transistor in her home lab - which is really awesome, and deserves respect. It also highlights how hard it is to reproduce any of our current technology without the weight of a massive company and fabrication system.
+YouTube electronics favourites like Dave Jones, Jeri Ellsworth and Limor Freid could not do this. Jeri has just about made a working transistor in her home lab - which is really awesome, and deserves respect. It also highlights how hard it is to reproduce any of our current technology without the weight of a massive company and fabrication system.
 
 It takes hours and sometimes days to diagnose a fault on a damaged board. The repair could be repairing a joint, bypassing something, but most often it is a part has blown! Ouch.
 
