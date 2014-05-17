@@ -5,10 +5,23 @@ todo_needs_sat: Image link for wall avoider blog link, blog links, shopify image
 ---
 {% include JB/setup %}
 
+<style>
+@media screen and (max-device-width: 480px) {
+  .frontpage {
+    content:url("/assets/Orionrobot_Frontpage_Banner_mobile.png");
+  }
+}
+
+@media screen and (min-device-width: 481px) {
+  .frontpage {
+    content:url("/assets/Orionrobot_Frontpage_Banner.png");
+  }
+}
+</style>
+<a href="http://shop.orionrobots.co.uk"><img class="frontpage" alt="Robot Kits Have Never Been So Easy."></a>
+
 How do you start building robots? You start with robot kits, and a robot community.
 We aim to make some of the cool robotics things easy for anyone to build, and push the boundaries of what is easy.
-
-<iframe src="http://widgets.shopifyapps.com/products/orion-explorer-1-deluxe-kit?shop=orionrobots.myshopify.com&amp;style=mnml&amp;destination=checkout" class="shopify-widget" frameborder="0" height="393" scrolling="no" width="480"> </iframe>
 
 # The Orion Explorer 1 Robot Kit
 
