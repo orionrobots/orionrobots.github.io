@@ -11,9 +11,8 @@ The Orionrobots shop now has a new product bundle. [The Orion Explorer 1 Wall Av
 
 The kit takes the Explorer 1 kit, and adds sensors and a breadboard - making it more expandable and fun. Robots are far more interesting when you add sensors to them!
 
-* <a href="#building-it">Building it</a>.
-* <a href="#programming-it">Programming it</a>.
-
+* <a href="#first-steps-with-thekit">Building it</a>.
+* <a href="#programming-the-robot---how-to-make-it-avoidwalls">Programming it</a>.
 
 So you can use this kit to make wall avoiding behaviour - making a robot turn away from any object too close. It uses ultrasonic sensors, which in practice tend to work with hard surfaces better than fabrics or plush surfaces. Things which scatter and diffuse sound will be hard, things that reflect it will work fantastically.
 
