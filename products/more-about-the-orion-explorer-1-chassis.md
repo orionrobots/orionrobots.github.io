@@ -6,7 +6,7 @@ This chassis is a perfect starting point for building a robot. It comes with 4 w
 
 It is the basis of the <a title="Orion Explorer 1 Robot Kit" href="http://shop.orionrobots.co.uk/products/orion-explorer-1-robot-kit">Orion Explorer 1 Robot Building Kit</a>
 
-<a href="http://shop.orionrobots.co.uk/products/orion-explorer-1-robot-kit"><img src="https://cdn.shopify.com/s/files/1/0203/7288/products/IMG_0815_medium.jpg?214" /><img src="//cdn.shopify.com/s/files/1/0203/7288/products/IMG_0814_medium.jpg?214" width="120" height="180" /><img src="//cdn.shopify.com/s/files/1/0203/7288/products/IMG_0812_medium.jpg?214" width="207" height="180" /></a>
+<a href="http://shop.orionrobots.co.uk/products/orion-explorer-1-robot-kit"><img src="/galleries/orion-explorer1-robot/IMG_0815_medium.jpg" /><img src="/galleries/orion-explorer1-robot/IMG_0814_medium.jpg" width="120" height="180" /><img src="/galleries/orion-explorer1-robot/IMG_0812_medium.jpg" width="207" height="180" /></a>
 
 The chassis platforms are predrilled with various holes and a large cable port so you can attach things without needing to bring your own drill out.
 

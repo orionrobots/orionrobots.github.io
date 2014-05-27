@@ -182,7 +182,7 @@ table th{
   font-weight: bold;
   border: solid 1px #dddddd;
   color: #333333;
-  background: #d6d6d6 url(//cdn.shopify.com/s/files/1/0203/7288/t/1/assets/table-header-depth.png?622) 0 100% repeat-x;
+  background: #d6d6d6 url(/assets/themes/orionrobots/table-header-depth.png) 0 100% repeat-x;
   }
 table td{
   padding: 4px 8px;
