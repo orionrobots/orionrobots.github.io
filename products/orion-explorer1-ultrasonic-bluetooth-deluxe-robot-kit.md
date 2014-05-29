@@ -1,7 +1,37 @@
 ---
 title: Orion Explorer 1 Ultrasonic Bluetooth No Soldering Robot Building Kit
 layout: page
+gallery:
+    parent: /galleries/orion-explorer1-ultrasonic-bluetooth-deluxe-robot-kit/
+    initial: 1-IMG_2333.JPG
+    images:
+        -
+            src: 1-IMG_2333.JPG
+            alt: Wall avoiding robot from above
+        -
+            src: 2-IMG_2334.JPG
+            alt: closeup of sensors on the front of the robot
+        -
+            src: 2-IMG_2334-001.JPG
+            alt: Zoom in on breadboard with distance sensors
+        -
+            src: bt-back-side.jpg
+            alt: Rear side of the bluetooth board - showing connection names
+        -
+            src: bt-front-side.jpg
+            alt: Front side of the bluetooth board
+        -
+            src: deluxe_diagram_bb.jpg
+            alt: Simple diagram of the connections for the ultrasonic bluetooth deluxe robot
+        -
+            src: L298_motor_controller.jpg
+            alt: L298 Motor controller board with debug LED's
+        -
+            src: OR0008_HC-SR04_1024x1024.jpg
+            alt: The HC-SR04 distance sensor.
 ---
+{% assign zg_gallery=page.gallery %}
+{% include zoom_gallery %}
 # Technical Specifications
 
 This kit requires no soldering to construct.

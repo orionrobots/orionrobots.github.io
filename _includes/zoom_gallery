@@ -1,0 +1,27 @@
+<script src="/js/jquery-1.11.1.min.js" type="text/javascript" ></script>
+<script src="/js/easyzoom.js" type="text/javascript" ></script>
+<script type="text/javascript">
+    var $easyzoom;
+    var api;
+    $( function() {
+        // Instantiate EasyZoom plugin
+        $easyzoom = $('.easyzoom').easyZoom();
+        // Get the instance API
+        api = $easyzoom.data('easyZoom');
+
+        $(".zg_thumb").mouseover(function() {
+            api.swap("{{ zg_gallery.parent }}mid/" + this.id, "{{ zg_gallery.parent }}" + this.id);
+        });
+    });
+</script>
+<link href="/js/easyzoom.css" rel="stylesheet" type="text/css" media="all">
+<div class="easyzoom easyzoom--overlay" style="width: 600px; height: 400px;">
+    <a id="zg_full" href="{{ zg_gallery.parent }}{{ zg_gallery.initial }}">
+        <img id="zg_mid" src="{{ zg_gallery.parent }}mid/{{ zg_gallery.initial }}">
+    </a>
+</div>
+<table><tr>
+{% for image in zg_gallery.images %}
+<td><a class="zg_thumb" id="{{ image.src }}"><img src="{{ zg_gallery.parent }}thumbnails/{{image.src}}" alt="{{image.alt}}" width="64px" /></a></td>
+{% endfor %}
+</tr></table>
