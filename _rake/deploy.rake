@@ -18,6 +18,7 @@ task :deploy do
       Dir[File.join(path, '**', '**')].each do | file |
         zipfile.add(file.sub(path, ''), file)
       end
+      zipfile.add(".htaccess", File.join(path, ".htaccess"))
     end
     puts "zipped. Connecting to remote host"
     #connect to remote server using keyfile
