@@ -3,7 +3,8 @@ layout: post
 title: Why are we using AA batteries?
 tags: [batteries, electronics, orion explorer 1, power, robot building, robots]
 ---
-<img alt="6xAA battery box" src="/assets/2013-03-28-why-are-we-using-aa-batteries/1-IMG_0818_compact.JPG" style="float: left; margin-top: 4px; margin-right: 4px; margin-bottom: 4px;" /> A question that has been posed to me a few times now has been why the <a href="http://shop.orionrobots.co.uk/products/orion-explorer-1-robot-kit">Orion Explorer 1 Robot kit</a> comes with an AA battery box and not some bespoke battery decision. I'd like to explain why this was chosen.
+{%assign gallery="/galleries/2013-03-28-why-are-we-using-aa-batteries" %}
+<img alt="6xAA battery box" src="{{gallery}}/1-IMG_0818_compact.JPG" style="float: left; margin-top: 4px; margin-right: 4px; margin-bottom: 4px;" /> A question that has been posed to me a few times now has been why the <a href="http://shop.orionrobots.co.uk/products/orion-explorer-1-robot-kit">Orion Explorer 1 Robot kit</a> comes with an AA battery box and not some bespoke battery decision. I'd like to explain why this was chosen.
 
 The first is that these are easily replaceable. Specialist batteries would be hard to replace and expensive. Rechargeable batteries do eventually stop charging, and those made for a single product tend to end up impossible to replace - have you ever tried to get replacement batteries for an old laptop? AA's are ubiquitous - that is, they are really easy to find.
 
