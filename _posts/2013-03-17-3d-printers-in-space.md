@@ -8,7 +8,6 @@ layout: post
 {% include JB/setup %}
 
 Today I've seen some truly amazing ideas for robotics and space exploration. The basic idea was to send up a 3D printing system, and use the in-situ materials to construct a moonbase.
-<!--more-->
 
 I think the idea could be taken on a small scale - start with a smallish 3d printer, send it up - one capable (I've been finding out about these myself) of printing structure, sensors, actuators and electronics, and some material, and construct some robots to go exploring.
 
