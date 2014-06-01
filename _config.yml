@@ -4,7 +4,7 @@ encoding: UTF-8
 permalink: /:categories/:year/:month/:day/:title 
 
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", "gemfile", "History.markdown", "site.zip",
-          ".idea", ".git"]
+          ".idea", ".git", ".gitignore"]
 pygments: true
 excerpt_separator: "\n\n"
 markdown: kramdown
@@ -29,7 +29,7 @@ author :
 # Else if you are pushing to username.github.io, replace with your username.
 # Finally if you are pushing to a GitHub project page, include the project name at the end.
 #
-production_url : http://orionrobots.github.io
+production_url : http://orionrobots.co.uk
 
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #
@@ -105,6 +105,7 @@ JB :
     provider : google 
     google : 
         tracking_id : 'UA-465086-1'
+        site: orionrobots.co.uk
     getclicky :
       site_id : 
     mixpanel :

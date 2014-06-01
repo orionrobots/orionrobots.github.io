@@ -52,7 +52,7 @@ This module is also connected to the serial port. It can record 3 banks of 5 com
 * [Voice Control Module Manual](http://www.elechouse.com/elechouse/images/product/Voice%20Recognition%20Module/Manual.pdf)
 * [Voice Control Module Example Code](https://github.com/orionrobots/RecordVoiceModule)
 
-# 8 x 8 Matrix Module
+# 8 x 8 Matrix Module on Driver PCB
 {: imgtitle}
 
 ![]({{gallery}}/mid/led_display_8x8.jpg){: leftimg}
