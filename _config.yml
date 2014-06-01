@@ -3,7 +3,8 @@ encoding: UTF-8
 # For more see: http://jekyllrb.com/docs/permalinks/
 permalink: /:categories/:year/:month/:day/:title 
 
-exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", "gemfile", "History.markdown", "site.zip"]
+exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", "gemfile", "History.markdown", "site.zip",
+          ".idea", ".git"]
 pygments: true
 excerpt_separator: "\n\n"
 markdown: kramdown
@@ -11,8 +12,8 @@ markdown: kramdown
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
-title: orionrobots
-tagline: Robot Building Kits
+title: Orionrobots
+tagline: Building Robots Has Never Been So Easy
 author :
   name : Dany Staple
   email : danny@orionrobots.co.uk
@@ -85,7 +86,7 @@ JB :
   comments :
     provider : facebook
     disqus :
-      short_name : jekyllbootstrap
+      short_name : orionrobots
     livefyre :
       site_id : 123
     intensedebate :
