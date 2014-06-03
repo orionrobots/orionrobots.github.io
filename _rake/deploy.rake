@@ -3,6 +3,21 @@ require 'rake'
 require 'net/sftp'
 require 'zip'
 
+desc "rsync deploy site."
+task :sync do
+    #params - site/username to deploy to
+    site = ENV['site']
+    username = ENV['username']
+    #regen
+    system("jekyll build")
+    #sync
+    path = "_site/"
+    system("rsync -rvt --exclude-from=_rake/rsync_exclude --delete #{path} #{username}@#{site}:public_html/")
+
+end #task sync
+
+#C:\Users\danny\Dropbox\orionrobots.github.io>rsync -rvt --delete --exclude-from=_rake/rsync_exclude _site/ orionrob@orionrobots.co.uk:public_html/
+
 desc "deploy site."
 task :deploy do
     #params - site/username to deploy to

@@ -6,6 +6,10 @@ layout: page
 
 A: The user will not need to use a soldering iron to assemble any of the solderless kits. They can be assembled using simple plug-in pins, or screw terminals. I've nothing against soldering - but for someone new to robotics, or for the constructively lazy, it is easier not to need to. I generally reserve it for repairing, or prototyping something completely new.
 
+<strong>Q: Is the microcontroller included?</strong>
+
+A: Yes an Arduino compatible microcontroller is included - unlike many other robot chassis kits, you will not need to buy another one.
+
 <strong>Q: Will it work on Carpet?</strong>
 
 A: Yes - it will run fine. On lower batteries it prefers hard surfaces though.

@@ -7,7 +7,7 @@ layout: post
 ---
 {% include JB/setup %}
 
-<img src="http://www.instructables.com/files/deriv/FO1/G2G4/H01NAFHG/FO1G2G4H01NAFHG.SMALL.jpg"/>
+![](http://www.instructables.com/files/deriv/FO1/G2G4/H01NAFHG/FO1G2G4H01NAFHG.SMALL.jpg)
 
 Instructables always has neat robots, try this one:
 <http://www.instructables.com/id/FOBO-bipedal-walking-robot/>
