@@ -20,6 +20,11 @@ author :
   github : orionrobots
   twitter : orionrobots
   feedburner : feedname
+sharing:
+    facebook: True
+    twitter: True
+    googleplus: True
+    pinterest: True
 
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt 

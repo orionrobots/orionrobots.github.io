@@ -16,7 +16,7 @@ task :sync do
 
 end #task sync
 
-#C:\Users\danny\Dropbox\orionrobots.github.io>rsync -rvt --delete --exclude-from=_rake/rsync_exclude _site/ orionrob@orionrobots.co.uk:public_html/
+# C:\Users\danny\Dropbox\orionrobots.github.io>jekyll build && rsync -prvt --delete --exclude-from=_rake/rsync_exclude --chmod=u=rwx,g=rx,o=rx _site/ orionrob@orionrobots.co.uk:public_html/
 
 desc "deploy site."
 task :deploy do
