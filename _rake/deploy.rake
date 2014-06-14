@@ -12,7 +12,7 @@ task :sync do
     system("jekyll build")
     #sync
     path = "_site/"
-    system("rsync -rvt --exclude-from=_rake/rsync_exclude --delete #{path} #{username}@#{site}:public_html/")
+    system("rsync -prvt --exclude-from=_rake/rsync_exclude --chmod=u=rwx,g=rx,o=rx --delete #{path} #{username}@#{site}:public_html/")
 
 end #task sync
 
