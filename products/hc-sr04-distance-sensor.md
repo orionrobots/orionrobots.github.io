@@ -8,14 +8,12 @@ gallery:
         -
             src: hc-sr04-distance-sensor.jpg
             alt: HC SR04 Distance Sensor
-layout: page
+layout: product
 title: HC SR04 Distance Sensor
+sku: OR0008
+tags: [arduino, distance sensor, microcontroller, robot, sonar ranger module]
+price: £5.00
 ---
-{% include social-sharing %}
-
-{% assign zg_gallery=page.gallery %}
-{% include zoom_gallery %}
-
 This is a simple but capable distance sensor - able to sense a 30 degree range, using 2 IO pins on your microcontroller.
 
 Like all the products on the Orionrobots shop - this requires no soldering to get it working, and it comes with 4 simple hookup cables to connect it directly to the Arduino so you can get trying distance measurement really quickly. It uses 5v logic.
