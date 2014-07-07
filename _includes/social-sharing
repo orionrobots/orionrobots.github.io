@@ -1,6 +1,6 @@
 {% if site.sharing.twitter or site.sharing.facebook or site.sharing.googleplus or site.sharing.pinterest %}
 
-<div id="sharing">
+<div id="sharing" class="clearfix">
 
 <ul style="width:500px; overflow:visible;">
 
