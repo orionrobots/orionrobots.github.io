@@ -16,14 +16,14 @@
 </script>
 <link href="/js/easyzoom.css" rel="stylesheet" type="text/css" media="all">
 <div style="float: left; padding-right: 4px;">
-<div class="easyzoom easyzoom--overlay" style="width: {% if zg_gallery.width %}{{ zg_gallery.width }}{% else %}600px{% endif %}; height: {% if zg_gallery.height %}{{ zg_gallery.height }}{% else %}400px{% endif %};">
-    <a id="zg_full" href="{{ zg_gallery.parent }}{{ zg_gallery.initial }}">
-        <img id="zg_mid" src="{{ zg_gallery.parent }}mid/{{ zg_gallery.initial }}">
-    </a>
-</div>
-<table><tr>
-{% for image in zg_gallery.images %}
-<td><a class="zg_thumb" id="{{ image.src }}"><img src="{{ zg_gallery.parent }}thumbnails/{{image.src}}" alt="{{image.alt}}" width="64px" /></a></td>
-{% endfor %}
-</tr></table>
+    <div class="easyzoom easyzoom--overlay" style="width: {% if zg_gallery.width %}{{ zg_gallery.width }}{% else %}600px{% endif %}; height: {% if zg_gallery.height %}{{ zg_gallery.height }}{% else %}400px{% endif %};">
+        <a id="zg_full" href="{{ zg_gallery.parent }}{{ zg_gallery.initial }}">
+            <img id="zg_mid" src="{{ zg_gallery.parent }}mid/{{ zg_gallery.initial }}">
+        </a>
+    </div>
+    <div style="width: {{ zg_gallery.width }};">
+        {% for image in zg_gallery.images %}
+        <span style="height: 64px;"><a class="zg_thumb" id="{{ image.src }}"><img src="{{ zg_gallery.parent }}thumbnails/{{image.src}}" alt="{{image.alt}}" width="64px" /></a></span>
+        {% endfor %}
+    </div>
 </div>
