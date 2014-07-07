@@ -4,15 +4,19 @@ require 'net/sftp'
 require 'zip'
 
 desc "rsync deploy site."
-task :sync do
+task :sync_deploy do
     #params - site/username to deploy to
     site = ENV['site']
     username = ENV['username']
+
     #regen
     system("jekyll build")
     #sync
     path = "_site/"
-    system("rsync -prvt --exclude-from=_rake/rsync_exclude --chmod=u=rwx,g=rx,o=rx --delete #{path} #{username}@#{site}:public_html/")
+    result = system("c:\\cygwin64\\bin\\rsync -prvt --exclude-from=_rake/rsync_exclude --chmod=u=rwx,g=rx,o=rx --delete #{path} #{username}@#{site}:public_html/")
+    if not result
+        puts("Unable to run rsync")
+    end
 
 end #task sync
 
