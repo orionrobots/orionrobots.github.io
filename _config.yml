@@ -4,7 +4,7 @@ encoding: UTF-8
 permalink: /:categories/:year/:month/:day/:title 
 
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", "gemfile", "History.markdown", "site.zip",
-          ".idea", ".git", ".gitignore"]
+          ".idea", ".git", ".gitignore", "Thumbs.db"]
 pygments: true
 excerpt_separator: "\n\n"
 markdown: kramdown
