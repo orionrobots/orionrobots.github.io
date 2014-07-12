@@ -13,4 +13,4 @@ WowWee have outdone themselves with their newer offering the [RoboSapien](/Robo
 
 Taking it apart, the existing sensors could be used with a user customizable microcontroller.
 
-Edit 2013: With one of the Arduino compatible controllers, and some <a href="http://shop.orionrobots.co.uk/products/hc-sr04-distance-sensor-connector-cables">distance sensors</a> to interact more with it's surroundings, this might make a great looking base for a robot project.
+Edit 2013: With one of the Arduino compatible controllers, and some [distance sensors](/products/hc-sr04-distance-sensor.html) to interact more with it's surroundings, this might make a great looking base for a robot project.
