@@ -9,8 +9,6 @@ title: Building a Bump Sensor For The Orion Explorer 1 Kits
 
 ## From The Explorer 1 Kit
 
-<div style="display: inline-block; float: right;"><iframe src="http://widgets.shopifyapps.com/products/orion-explorer-1-robot-kit?shop=orionrobots.myshopify.com&amp;style=mnml&amp;image-size=medium&amp;destination=checkout" class="shopify-widget" frameborder="0" height="258" scrolling="no" width="240"> </iframe></div>
-
 * Your Explorer 1 Robot
 * 3 x 3m nuts
 * 2 x short 3m screws
