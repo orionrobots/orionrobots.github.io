@@ -16,7 +16,7 @@ There is a long way to get there - not least figuring out how a 3d printer, give
 Maybe stage one would be a simple manipulator and 3d printer - the manipulator can then take things out, or put things in, or perform some basic assembly of printed parts.
 
 Now I'll stick with my current robot kit for now - but it sounds like plenty of interesting areas to investigate when I've exhausted what I'm already tinkering with. This week - its the
-[Explorer 1 Robot kit](http://shop.orionrobots.co.uk/products/orion-explorer-1-robot-kit) robot kit - I've been doing more coding, and I've also started putting together a discussion forum for it.
+[Explorer 1 Robot kit](/products/orion-explorer-1-robot-kit.html) robot kit - I've been doing more coding, and I've also started putting together a discussion forum for it.
 
 # Links:
 
