@@ -10,7 +10,7 @@ task :sync_deploy do
     username = ENV['username']
 
     #regen
-    system("jekyll build")
+    # system("jekyll build")
     #sync
     path = "_site/"
     result = system("c:\\cygwin64\\bin\\rsync -prvt --exclude-from=_rake/rsync_exclude --chmod=u=rwx,g=rx,o=rx --delete #{path} #{username}@#{site}:public_html/")
