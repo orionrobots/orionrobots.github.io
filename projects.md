@@ -4,9 +4,9 @@ title: Projects
 ---
 # What are we working on?
 
-# The Orion Explorer 1
+## The Orion Explorer 1
 
-This is our flagship robot kit - for sale on the site. What are we tinkering with, what are we using it to build?
+This is my own robot kit - for sale on the site. What are we tinkering with, what are we using it to build?
 
 {% assign pages_list=site.tags["orion explorer 1"] %}
 <ul class="posts">

@@ -5,8 +5,6 @@ description: "Building Robots!"
 ---
 {% include JB/setup %}
 
-[Getting The Kits](http://shop.orionrobots.co.uk)
-
 Explorer 1 Videos
 =================
 <div style="vertical-align: top">

@@ -1,32 +1,25 @@
 ---
 layout: page
 title: Welcome to Orionrobots
-todo_needs_sat: Image link for wall avoider blog link, blog links, shopify image ref
 ---
 {% include JB/setup %}
 
-<style>
-@media screen and (max-device-width: 480px) {
-  .frontpage {
-    content:url("/assets/Orionrobot_Frontpage_Banner_mobile.png");
-  }
-}
+I am Danny Staple, Orionrobots is my investigations and projects with robotics, electronics and stuff that moves. I aim to make some of the cool robotics things easy for anyone to build, and push the boundaries of what is easy. Oh and just to have lots of fun doing it too...
 
-@media screen and (min-device-width: 481px) {
-  .frontpage {
-    content:url("/assets/Orionrobot_Frontpage_Banner.png");
-  }
-}
-</style>
-<a href="http://shop.orionrobots.co.uk"><img class="frontpage" alt="Robot Kits Have Never Been So Easy."></a>
+# Recent Posts
 
-How do you start building robots? You start with robot kits, and a robot community.
-We aim to make some of the cool robotics things easy for anyone to build, and push the boundaries of what is easy.
+<ul class="posts">
+  {% for post in site.posts %}
+    {% if forloop.index < 4 %}
+        <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a><p class="clearfix">{{ post.excerpt }}<a href="{{ BASE_PATH }}{{ post.url }}">more...</a></p><p class="clearfix"></p></li>
+    {% endif %}
+  {% endfor %}
+</ul>
 
 # The Orion Explorer 1 Robot Kit
 
-This is the <a href="http://shop.orionrobots.co.uk/products/orion-explorer-1-robot-kit">Orion Explorer 1 Robot Kit</a>. This robot building kit requires no soldering and comes as a complete robot building kit with full online step-by-step instructions.
-It is fully programmable and very expandable/
+My <a href="products/orion-explorer-1-robot-kit.html">Orion Explorer 1 Robot Building Kit</a> requires no soldering and comes as a complete robot building kit with full online step-by-step instructions.
+It is fully programmable and very expandable.
 
 {% assign image="/assets/construction_guide/RobotExplodedStep0.png" %}
 {% assign thumb="/assets/construction_guide/RobotExplodedStep0.png" %}
@@ -49,7 +42,7 @@ It is fully programmable and very expandable/
 {% assign link_url="/2013/05/23/building-a-bump-sensor" %}
 {% include pin_image_link.html %}
 
-Easy includes:
+What is easy about it?
 
 * Easy to build - No soldering needed
 * Priced within your means
@@ -61,20 +54,9 @@ You can get your kids started on a robotics project for fun, or you can finally 
 
 <a href="/getting_started.html">Getting Started</a>
 
-Buy it at <a href="http://shop.orionrobots.co.uk">the Orionrobots Shop</a>.
-
 # Other Robot Kits
 
 If you are after a kit or set for your kid or husband (big kid), then take a look at this list: <a  href="http://www.squidoo.com/educational-robot-kits-for-kids">Educational Robot Kits For Kids</a>.
-
-# Recent Posts
-<ul class="posts">
-  {% for post in site.posts %}
-    {% if forloop.index < 4 %}
-        <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a><p class="clearfix">{{ post.excerpt }}<a href="{{ BASE_PATH }}{{ post.url }}">more...</a></p><p class="clearfix"></p></li>
-    {% endif %}
-  {% endfor %}
-</ul>
 
 # Policies
 

@@ -2,7 +2,7 @@
 title: Tekno Robot Dog
 layout: page
 ---
-This information is for reference and information only. Orionrobots has no association with the Tekno Robot puppy - we do not sell or manufacture them. However, we do have our own robot kits to [Build and play with](http://shop.orionrobots.co.uk "buy robot kits to build").
+This information is for reference and information only. Orionrobots has no association with the Tekno Robot puppy - we do not sell or manufacture them. 
 
 <img style="float:left; margin-right:4px" src="/assets/image88.jpg">Created by Manley Toy Quest in May, 2000, the popular Tekno Robot Puppy has some features you would only expect on higher end robots - including sensors and movement. It is also marketed as "Teksta".
 
