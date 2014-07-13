@@ -5,7 +5,6 @@ tags: [electronics]
 title: Building a new device
 layout: post
 ---
-{% include JB/setup %}
 I have been building a number of electronics items and projects recently - and once I have tested it thoroughly I will be posting my instructions on freeforming a diode rectifier bridge. Here's a quick walk through what I've been playing with recently. Soldering iron, rectifier bridge and Signal Generators.
 
 I treated myself to a nice new [Soldering Iron](Soldering+Iron) this week - a temperature controlled model from Maplin as well as a set of universal test leads which have already come in handy. The new iron makes desoldering when salvaging components a great deal easier!

@@ -63,10 +63,10 @@ After all the tweaking, the identification works, and it will move the red ball 
 Well - in the NXT guide, we have animals next - the scorpion - Spike.. Cool..
 
 # Links
-# <a href="NXT _ The Ultrasonic Sensor Tutorial.html">Previously - NXT - The Ultrasonic Sensor Tutorial</a>
-# <a href="NXT _ The Grabber.html">NXT - The Grabber</a>
-# <a href="Getting Stuck into the NXT.html">Getting Stuck into the NXT</a>
-# <a href="Orionrobots gets our first NXT.html">OrionRobots gets our first NXT</a>
+# <a href="/NXT _ The Ultrasonic Sensor Tutorial.html">Previously - NXT - The Ultrasonic Sensor Tutorial</a>
+# <a href="/NXT _ The Grabber.html">NXT - The Grabber</a>
+# <a href="/Getting Stuck into the NXT.html">Getting Stuck into the NXT</a>
+# <a href="/Orionrobots gets our first NXT.html">OrionRobots gets our first NXT</a>
 # [NXT](/NXT "Legos NeXT generation robotics kit")
 # [Lego](/Lego "The best known construction toy")
 # [Mindstorms](/MindStorms "A Robotic construction toy system from Lego")

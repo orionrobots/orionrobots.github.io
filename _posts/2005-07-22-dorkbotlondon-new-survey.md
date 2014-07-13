@@ -5,8 +5,6 @@ tags: [london, dorkbot]
 title: DorkBotLondon, New Survey
 layout: post
 ---
-{% include JB/setup %}
-
 # Moving, updates and Styles
 
 At the moment, things on the OrionRobots website have been moving rather slowly. I have had limited time to do any editorial - as I have been assembling furniture, and sorting everything out. And also, we still do not have the internet sorted out at home - so I am now maintaining the site from 'net cafes and the local library. Hopefully - normal service will be resumed in a week or so. I have to say though, seeing my website from these computers has made me seriously consider the stylesheet setup. Some of them had very small screens, low resolution and older browsers.

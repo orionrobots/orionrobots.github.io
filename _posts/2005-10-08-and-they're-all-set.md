@@ -5,8 +5,6 @@ tags: [darpa, grand+challenge]
 title: Grand Challenge - they're all set
 layout: post
 ---
-{% include JB/setup %}
-
 After a number of qualifying events, robotic racing vehicles prepare for this years [DARPA Grand Challenge](DARPA+Grand+Challenge).
 
 Good luck to them all, the vehicles are entirely [Autonomous](autonomous) and must race over the mojave desert unaided. This is not soft going, but an uneven and rock strewn stretch. They may use GPS or other position sensing information, and must be able to deal with any obstacles in their path.

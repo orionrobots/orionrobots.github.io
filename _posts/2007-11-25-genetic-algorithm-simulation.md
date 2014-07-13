@@ -38,4 +38,3 @@ I intend to improve my simulation, make it more browser compatible, remove some 
 I will also do a walk through the code, and how to develop your own simulation. This was done in javascript, but any recent language will be able to handle a similar simulation.
 
 Get the code at <https://github.com/orionrobots/browser_genetic_simulation/tree/master>.
-

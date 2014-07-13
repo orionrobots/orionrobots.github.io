@@ -5,7 +5,7 @@ tags: [robots, mindstorms, robotics, lego, education, teaching]
 title: Report From NJ Storming Robots
 layout: post
 ---
-<a href="http://www.storming-robots.com" ><img src="image365"/></a>
+<a href="http://www.storming-robots.com"><img src="image365"/></a>
 
 OrionRobots now has an exclusive on the fun at the New Jersey Storming Robots event, which took place in the Hilton in Brunswick New Jersey throughout last week and the weekend.
 
@@ -33,7 +33,7 @@ Unfortunately Eric did not take a camera on the first day, so no gallery picture
 
 # Day 2 - 4th march 2006
 
- <div><img alt="Elizabeth, Director of Storming Robots" src="image372" title="Elizabeth, Director of Storming Robots"/>Elizabeth, Director of Storming Robots</div>
+<div><img alt="Elizabeth, Director of Storming Robots" src="image372" title="Elizabeth, Director of Storming Robots"/>Elizabeth, Director of Storming Robots</div>
  Day two was even more fun than day one. The show had really brought out many very talented children, who were asking all sorts of questions at the Jama booth. Their interest was clear. Eric spent much time referring inquisitive minds to the Lego and mindstorms webpages. Eric and Elizabeth openly shared their mindstorms knowledge.
 
 Teachers also showed up in droves, and asked many questions.

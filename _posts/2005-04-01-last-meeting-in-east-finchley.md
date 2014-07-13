@@ -5,8 +5,6 @@ tags: [east finchley robotics club, lego]
 title: Last Meeting in East Finchley
 layout: post
 ---
-{% include JB/setup %}
-
 Sadly, it looks like we are coming up to our last meeting in East Finchley tomorrow.
 
 This is not the end of the club though - more of a new beginning.

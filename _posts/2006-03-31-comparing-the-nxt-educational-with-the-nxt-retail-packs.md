@@ -7,9 +7,9 @@ layout: post
 ---
 {% include JB/setup %}
 
-It is clear that there will be differences in the kits Lego are supplying for the new [NXT](NXT) controller. But what will they be?
+It is clear that there will be differences in the kits Lego are supplying for the new [NXT](/NXT) controller. But what will they be?
 
-Most people who have been closely following the NXT's development are fairly aware that there will be things like an external DC power supply, cables to adapt existing [RCX](RCX) sensors and possibly enhanced software to expect with the education version of the kit, although the retail one will be available sooner, and unless you are able to approach a Lego [DACTA](DACTA) supplier, you may be stuck with the retail version anyway.
+Most people who have been closely following the NXT's development are fairly aware that there will be things like an external DC power supply, cables to adapt existing [RCX](/RCX) sensors and possibly enhanced software to expect with the education version of the kit, although the retail one will be available sooner, and unless you are able to approach a Lego [DACTA](/DACTA) supplier, you may be stuck with the retail version anyway.
 
 Filip's blog has covered some of these differences in some detail, and is definitely worth a read. He also goes further, and compares the [FLL](FLL "The First Lego League") version of the NXT kit.
 

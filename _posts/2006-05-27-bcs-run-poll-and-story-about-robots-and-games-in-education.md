@@ -11,5 +11,4 @@ The <a href="http://www.bcs.org">British Computer Society</a> are running a stor
  
 Go read it, and vote!
 
-# Link
 <a href="http://www.bcs.org/server.php?show=ConWebDoc.4427">Wanted: ways to engage young people with IT - Go Read the story</a>

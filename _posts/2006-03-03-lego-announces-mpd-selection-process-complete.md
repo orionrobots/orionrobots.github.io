@@ -5,7 +5,6 @@ tags: [nxt, lego, mdp, mindstorms, robots, robotics]
 title: Lego announces MPD selection process complete
 layout: post
 ---
-{% include JB/setup %}
 [Lego](Lego "The best known construction toy") have now issued a press release today, stating that they have now finished the
 [MDP](MDP "The Mindstorms Developer Panel") selection process for the [Mindstorms](MindStorms "A Robotic construction toy system from Lego") [NXT](NXT "Legos NeXT generation robotics kit").
 

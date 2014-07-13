@@ -27,7 +27,7 @@ See the storming robots website <http://www.storming-robots.com/> for more infor
 * Location: Hilton at East Brunswick.   3 Tower Center Boulevard, E. Brunswick, N.J. Tel: 732-828-2000.  Fax: 732-828-6958
 * Date: Friday 03/03/2006 &amp; Saturday 04/03/2006: from 8am to 4pm.  Teachers day on Friday,  Parents &amp; Children day on Saturday.
 * Website: <http://www.storming-robots.com/>
-* Appearing: Eric Sophie <a href="http://www.biomechanicalbricks.com/" >Biomechanical Bricks</a> with <a href="http://www.brickshelf.com/cgi-bin/gallery.cgi?i=822443" >Jamocklaquat</a>
+* Appearing: Eric Sophie <a href="http://www.biomechanicalbricks.com/">Biomechanical Bricks</a> with <a href="http://www.brickshelf.com/cgi-bin/gallery.cgi?i=822443">Jamocklaquat</a>
 
 # Links
 

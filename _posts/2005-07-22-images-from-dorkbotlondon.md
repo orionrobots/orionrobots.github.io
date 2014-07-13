@@ -5,8 +5,6 @@ tags: [london,dorkbot]
 title: Images from DorkBotLondon
 layout: post
 ---
-{% include JB/setup %}
-
 I have now got two of my images uploaded from my phone.
 
 This ever changing image was the visual output of the joypad instrument. It was quite interesting - but may have been more so in a more vibrant light setup. A dark/dusty warehouse (the venue this time) had far from optimal conditions. However daylight, and possibly nightclubs with exotic lighting rigs may give the system enough stimulus to give more interesting results. The actual pad was passed around the audience, who played with the parameters, and manipulated it, with the occasional cry of "No - not THAT button!" or similar from the creator. The pad itself was simply a wireless game pad, with a wireless camera/mic strapped on with what looked like duct tape - the real genius was in the software, which although a little temperamental, was quite innovative.

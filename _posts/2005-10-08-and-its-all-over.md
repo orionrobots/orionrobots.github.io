@@ -5,8 +5,6 @@ tags: [darpa, grand+challenge, robot, robotics, vehicle, car, stanley, stanford+
 title: Darpa Grand Challenge - And its all over
 layout: post
 ---
-{% include JB/setup %}
-
 Stanford University have won the Darpa grand Challenge!
 
 Its excellent that somebody has won it, and hopefully we will see the event again, but with the effort to improve the robots now that it has actually been completed (unlike previous years).

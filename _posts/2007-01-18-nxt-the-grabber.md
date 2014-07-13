@@ -33,7 +33,7 @@ One thing I now have to say in defence of the studless style, is it tends to kee
 I started the program, and made the additional change of making it wait for a loud noise to start as well as to grab the ball. Success. The sound sensor is definitely simple to work with in the Robolab system.
 
 # Light sensor
-<img src="/image418"/>
+![](/image418)
 
 The first instruction here in the tutorial (Page 65 in the user guide) has a tricky part of pulling an axle from the axle holes in the bottom of the robot. Since these are a bit stiff, it is my recommendation to take the first part with the bushes out, then leaving one bush in the end, use it as a tool to push the other axle out. As you push it out of the first beam, you should be able to pull it from the other side easily. (See right)
 

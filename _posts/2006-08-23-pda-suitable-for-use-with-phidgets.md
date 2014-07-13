@@ -11,8 +11,7 @@ Now the GP2X from GamePark holdings has for some time had a compatible breakout 
 
 It may have a little trouble powering the Phidgets, but the breakout board does have a slot for external power. This means that a robot could have a 12v DC supply that is used to power the board. It will probably not cope with being on the same power supply as DC motors and possibly normal servo motors, as they would produce a lot of noise which may not be handled by it.
 
-The breakout board also offers a serial port, a JTAG debugging port and 2 RCA style audio connectors. At a cost (as of August 22nd 2006) of only £29.99, that's not bad,
-  but do not forget you would still need to buy the actual GP2X itself. This is also pretty cheap at £124.99. It can be used for games, movie and audio playback, and now also possibly for robot control.
+The breakout board also offers a serial port, a JTAG debugging port and 2 RCA style audio connectors. At a cost (as of August 22nd 2006) of only £29.99, that's not bad, but do not forget you would still need to buy the actual GP2X itself. This is also pretty cheap at £124.99. It can be used for games, movie and audio playback, and now also possibly for robot control.
 
 ![](/image389)
 

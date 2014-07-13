@@ -15,6 +15,6 @@ It carries few of the warnings I normally give on using rechargeable batteries w
 
 You can then think of doing weight savings - shaving down to a smaller cap for a lightweight short run robot, or a heavier version for a larger bot. This hack has great potential.
 
-Please ensure you understand <a href="http://orionrobots.co.uk/Robot+Building+Safety">robot building safety</a> and the full instructions before attempting this.
+Please ensure you understand <a href="/Robot+Building+Safety">robot building safety</a> and the full instructions before attempting this.
 
 <a href="http://hackaday.com/entry/1234000383070996/">SuperCap 9v Battery - Hackaday</a>
