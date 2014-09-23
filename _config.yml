@@ -142,7 +142,7 @@ menu:
   -
     title: Home
     description: Home Page
-    url: /
+    url: /index.html
   -
     title: Getting Started
     description: Start building and playing with robots
