@@ -5,7 +5,7 @@ permalink: /:categories/:year/:month/:day/:title
 
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", "gemfile", "History.markdown", "site.zip",
           ".idea", ".git", ".gitignore", "Thumbs.db"]
-pygments: true
+highlighter: pygments
 excerpt_separator: "\n\n"
 markdown: kramdown
 
@@ -142,7 +142,7 @@ menu:
   -
     title: Home
     description: Home Page
-    url: http://shop.orionrobots.co.uk
+    url: /
   -
     title: Getting Started
     description: Start building and playing with robots
@@ -163,7 +163,3 @@ menu:
     title: About Us
     description: About Us
     url: /about_us.html
-  -
-    title: Community
-    description: See the community website for more ideas and info
-    url: /index.html
