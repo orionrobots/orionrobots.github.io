@@ -39,3 +39,16 @@ $RECYCLE.BIN/
 *.msi
 *.msm
 *.msp
+
+# Pycharm bits
+.idea
+.rbenv-version
+.rvmrc
+.picasa.ini
+*.swp
+
+# Jekyll
+_theme_packages/*
+
+# Temp files
+*~
