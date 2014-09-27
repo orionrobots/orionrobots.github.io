@@ -1,0 +1,15 @@
+{% comment %}youtube_pinterest_embed(youtube_id, description, link_url) {% endcomment %}
+<div style="display:inline-block; width: 300px;vertical-align: top">
+    <iframe width="560" height="315" src="//www.youtube.com/embed/{{ youtube_id }}" frameborder="0" allowfullscreen="true"></iframe>
+    <p>{{ description }}</p>
+    {% if youtube_pinterest %}
+        <a href="http://www.pinterest.com/pin/create/button/
+                ?url={{ link_url }}
+                &amp;media=http://img.youtube.com/vi/{{ youtube_id }}/0.jpg
+                &amp;description={{ description }}"
+                data-pin-do="buttonPin"
+                data-pin-config="above">
+                <img src="http://assets.pinterest.com/images/pidgets/pin_it_button.png" />
+        </a>
+    {% endif %}
+</div>

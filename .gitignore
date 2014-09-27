@@ -12,8 +12,7 @@ _site/
 .LSOverride
 
 # Icon must ends with two \r.
-Icon
-
+Icon
 
 # Thumbnails
 ._*
@@ -40,3 +39,16 @@ $RECYCLE.BIN/
 *.msi
 *.msm
 *.msp
+
+# Pycharm bits
+.idea
+.rbenv-version
+.rvmrc
+.picasa.ini
+*.swp
+
+# Jekyll
+_theme_packages/*
+
+# Temp files
+*~
