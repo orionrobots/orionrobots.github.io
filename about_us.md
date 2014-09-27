@@ -18,8 +18,8 @@ I love robotics. Here are 3 good reasons why:
 One of my aims is to make building robots easy and widely available as a hobby, personal learning experience or for
 starting out a research project to build an awesome machine. I want to make stuff available to get to this goal without it costing £100's of pounds to try out, and without giving a system that is too simple to be customised and expanded, or to complex to make any sense.
 
-These robots are for you to make, explore and play with- they are not industrial robots or robots for factory lines.
-You could use my robots for small scale automation in your home or a small business if you customised it - but I do not aim to compete with ABB.
+These robot ideas are for you to make, explore and play with- they are not industrial robots or robots for factory lines.
+You can use my robots for anything you like, ie small scale automation in your home or a small business if you customised it - but they are hobbyist things and I do not aim to compete with ABB.
 
 Most of my products here will be SOLDERLESS. I've nothing against soldering, but it makes stuff much easier to play, learn and prototype when using solderless modules. It also lowers the barrier to entry for those new to robotics.
 
@@ -61,4 +61,4 @@ Orionrobots are all about supplying the parts and information that I've been usi
 
 I am professionally a computer programmer - specialising in automation of building, testing and analysing software. I am an electronics and mechanical hobbyist. I have personally built and tested every item and tutorial on our site. I hope my customers have as much fun with it as I have, and better yet, are inspired to do more with it.
 
-I am a member of the British Computer Society, have attended PyCon Uk for the past 2 years. I am in the process of becoming a STEM Ambassador and a member of the Computing At School initiative.
+I am a member of the British Computer Society, have attended PyCon Uk for the past 3 years, joining the growing education track there. I am in the process of becoming a STEM Ambassador and a member of the Computing At School initiative.
