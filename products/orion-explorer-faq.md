@@ -45,3 +45,15 @@ A: We are not currently selling the robot - when we have a product, we will cert
 <strong>Q: If my robot is broken - can I fix it myself?</strong>
 
 A: Yes - [all the robots are user serviceable](/2013/12/23/all-our-robots-are-user-serviceable). They're made of replaceable parts you put together yourself. It designed to be user maintainable and so you could repair or upgrade it.
+
+<strong>Q: What is easy about it?</strong>
+
+A: 
+
+* Easy to build - No soldering needed
+* Priced within your means
+* Easy to program
+* Easy to have fun with it, explore with it, expand it and do more than the basics.
+* Did I say that there is no solder needed?
+
+You can get your kids started on a robotics project for fun, or you can finally start your own robot project with grand ambitions. A uni student can get the basics off the ground in the first day, and spend the rest of an assignment extending the robot to do more.
