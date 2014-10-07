@@ -7,9 +7,7 @@ layout: post
 ---
 At dawn on Saturday, the 8th October, as the sun rose, the 23 contenders knew that anything could happen. After events at the NQE where they prepared, and qualified for the event, and last years Grand Challenge, the teams had to be sure either robot was prepared for anything. This was it - the big moment where their robot was out in the world, and on its own!
 
-<img alt="Stanley, Standford Universities Champion of the 2005 grand Challenge, Stands proud at the NQE event preceding the race.
-
-Note the array of sensory gear on the rack over the roof." src="/assets/Stanley_NQE1-1.jpg"/>
+![Stanley, Standford Universities Champion of the 2005 grand Challenge, Stands proud at the NQE event preceding the race. Note the array of sensory gear on the rack over the roof."](/galleries/2005-10-08-more-info-on-the-darpa-grand-challenge-result/Stanley_NQE1-1.jpg)
 
 The Stanford University team (the victors) skipper Sebastian Thrun was obviously quietly confident when he declined to comment on the performance of Stanley (pictured right) in the 200 mile pre-race tests of their own devising across the Arizona desert.
 
