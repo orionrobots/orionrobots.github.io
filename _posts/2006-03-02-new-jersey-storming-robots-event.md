@@ -5,14 +5,14 @@ tags: [robotics, rcx, mindstorms, lego, nj, usa, education, robolab]
 title: New Jersey Storming Robots Event
 layout: post
 ---
-<a href="http://www.storming-robots.com" > ![](/assets/2006-03-02-new-jersey-storming-robots-event/srlogo.gif) </a>
+[![](/galleries/2006-03-02-new-jersey-storming-robots-event/srlogo.gif)](http://www.storming-robots.com) 
 
 The Storming Robots event, to be held throughout the first week of March 2006 in New Jersey, is a Teacher and Gifted Children conference, and the amazing <a href="http://www.brickshelf.com/cgi-bin/gallery.cgi?i=822443" >Jamocklaquat</a>
 will be showing off its stuff there. The event is in association with <a href="http://www.njagc.org/" >The NJ Association for Gifted Children</a>.
 
 Eric Sophie will be appearing to showcase his creation at the event on Saturday the 4th. He will be making a presentation on the power of robotics as a learning tool, in line with the aim of the entire event.
 
-<a href="http://www.brickshelf.com/cgi-bin/gallery.cgi?i=822443" title="Jamocklaquat"><img alt="Jamocklaquat" src="/assets/2006-03-02-new-jersey-storming-robots-event/jamocklaquat1.jpg" title="Jamocklaquat"/></a>
+[![Jamocklaquat](/galleries/2006-03-02-new-jersey-storming-robots-event/jamocklaquat1.jpg)](http://www.brickshelf.com/cgi-bin/gallery.cgi?i=822443 "Jamocklaquat")
 
 Jamocklaquat is a robot incorporating a large number of RCX's and other Mindstorms programmable bricks as well as sensors and motors. It is an absolute work of art, and is the closest I have seen to a Lego android yet. Read more about its creation and details at <a href="http://www.lugnet.com/~1051/ESLC/Jama-Story" >The Story Of Jamocklaquat on Lugnet</a>
 

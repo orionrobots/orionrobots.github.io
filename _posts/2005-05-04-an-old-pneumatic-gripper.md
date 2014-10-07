@@ -4,23 +4,24 @@ description: Some Lego creations of my own
 tags: [lego, mindstorms, pneumatic, rcx]
 layout: post
 ---
-This was a basic Lego gripper I created as a study. <a href="http://orionrobots.co.uk/browseimage226"><img src="http://orionrobots.co.uk/image226" /></a>
+With an imminent move planned, a number of old Lego builds needed to be taken apart, so I got photos of them all.
 
-The gripper used a single mini double acting {{wikilink("Pneumatic", "pneumatic", "Use of air to operate and power actuators")}} cylinder and liftarms. I decided to use the 8t gears for the actual grip at the end, but the gripper is designed for more of a scooping action.
+# Lego Gripper
 
-<a href="http://orionrobots.co.uk/browseimage227"><img src="http://orionrobots.co.uk/image227&amp;thumb=1" /></a><a href="http://orionrobots.co.uk/browseimage228"><img src="http://orionrobots.co.uk/image228&amp;thumb=1" /></a>
+I made a simple pneumatically operated Lego gripper.
 
-As you can see from the shot of it open, there is clearly an upper and lower side to it.
+![](/galleries/2005-05-04-an-old-pneumatic-gripper/p1010001.jpg)
 
-It is controlled (for demonstration purposes) by a single Lego valve and basic pump.
+The gripper used a single mini double acting cylinder and angled beam parts. I used 8t gears for some actual grip at the fingertips, although the design works better with a scooping action.
 
-At the same time, I also did a study using a geared down motor with a clutch gear, and a light sensor head. The idea was that the rear liftarm would stop it going outside a preset range, and a program would be created to scan periodically side-to-side, and attempt to judge which area was brightest.
+![](/galleries/2005-05-04-an-old-pneumatic-gripper/p1010002.jpg) 
+![](/galleries/2005-05-04-an-old-pneumatic-gripper/p1010003.jpg)
 
-<a href="http://orionrobots.co.uk/browseimage229"><img src="http://orionrobots.co.uk/image229&amp;thumb=1" /></a>
+It is controlled (for demonstration purposes) by a single Lego valve and basic pump. Perhaps the gripper would be better if they were separated by longer pneumatic pipes, otherwise the mechanism looks bulkier.
 
-I am not sure what this was - I remember it being an attempt to make some kind of scorpion like mech from the Bionacle parts but I never quite liked it. I took photos to share anyway:
-<a href="http://orionrobots.co.uk/browseimage230"><img src="http://orionrobots.co.uk/image230&amp;thumb=1" /></a>
+# Light sensor head
 
-The two blue bionacle masks where meant to be large bulbous insect like eyes, and the front green bionacle claw was intended to be menacing mouthparts. The rear tail section could be angled up - but I could not get the stiffness in the joints for it to stay there.
+I did a study using a geared down motor with a clutch gear, and a light sensor to make a head. 
+The idea was that the rear liftarm would stop it going outside a preset range, and a program would scan periodically side-to-side, and attempt to judge which area was brightest.
 
-<a href="http://orionrobots.co.uk/browseimage231"><img src="http://orionrobots.co.uk/image231&amp;thumb=1" /></a>
+![](/galleries/2005-05-04-an-old-pneumatic-gripper/p1010004.jpg)
