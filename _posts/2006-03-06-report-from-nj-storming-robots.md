@@ -5,16 +5,18 @@ tags: [robots, mindstorms, robotics, lego, education, teaching]
 title: Report From NJ Storming Robots
 layout: post
 ---
-<a href="http://www.storming-robots.com"><img src="image365"/></a>
+[![Storming Robots](/galleries/2006-03-06-report-from-nj-storming-robots/srlogo.gif)](http://www.storming-robots.com)
 
 OrionRobots now has an exclusive on the fun at the New Jersey Storming Robots event, which took place in the Hilton in Brunswick New Jersey throughout last week and the weekend.
 
 Eric Sophie summed up most of it with the brief words "What a great time!", and it was.
 
-<div><img alt="The Storming Robots Booth" src="image375" title="The Storming Robots Booth"/>The Storming Robots Booth</div>
+![The Storming Robots Booth](/galleries/2006-03-06-report-from-nj-storming-robots/storming-booth.jpg)
 
 # Day 1 - March 3rd 2006
-<div><img alt="Rebecca Explains" src="image374" title="Rebecca Explains"/>Rebecca Explains</div>
+
+![Rebecca Explains](/galleries/2006-03-06-report-from-nj-storming-robots/rebeccaWithJama.jpg)
+Rebecca Explains Storming Robots
 
 The interest was high with many people, parents and teachers and children alike curious and asking questions. Elizabeth Maybrey, Director of Storming Robots, and Rebecca, the programme manager as well as Eric Sophie were speaking to many about the benefits of using Lego [Mindstorms](MindStorms "A Robotic construction toy system from Lego") as a learning platform.
 
@@ -23,7 +25,9 @@ Plenty of teachers and educators came to tell their own stories, and mentioned L
 One proud parent pipped up "My son is the king of Lego!". She was then directed to take a look at Jama moving, and came to the conclusion that maybe her son had a little way to go, and that his love of Lego would probably get him there. The enthusiasm expressed was clear, and like many others, she was raising the master builders and engineers of the future. Eric pointed out with a smile that he loved Lego when he was very young too.
 
 ## Jama
-<div><img alt="Elizabeth Presents Programming" src="image373" title="Elizabeth Presents Programming"/>Elizabeth Presents Programming</div>
+
+![Elizabeth Presents Programming](/galleries/2006-03-06-report-from-nj-storming-robots/elizabethpresentsRobolab.jpg)
+Eizabeth Presents Programming With Robolab
 
 As expected, the upper half of Jama (Eric's star robot peice) was displayed for demonstration. Elizabeth focussed on programming the bot using [RoboLab](Robolab "Robolab"). Throughout the demonstrations, the group found a way to incorporate a touch sensor into Jama's arm, making programming more fun.
 
@@ -33,8 +37,10 @@ Unfortunately Eric did not take a camera on the first day, so no gallery picture
 
 # Day 2 - 4th march 2006
 
-<div><img alt="Elizabeth, Director of Storming Robots" src="image372" title="Elizabeth, Director of Storming Robots"/>Elizabeth, Director of Storming Robots</div>
- Day two was even more fun than day one. The show had really brought out many very talented children, who were asking all sorts of questions at the Jama booth. Their interest was clear. Eric spent much time referring inquisitive minds to the Lego and mindstorms webpages. Eric and Elizabeth openly shared their mindstorms knowledge.
+![Elizabeth, Director of Storming Robots](/galleries/2006-03-06-report-from-nj-storming-robots/elizabethExplains.jpg)
+Elizabeth, Director of Storming Robots
+
+Day two was even more fun than day one. The show had really brought out many very talented children, who were asking all sorts of questions at the Jama booth. Their interest was clear. Eric spent much time referring inquisitive minds to the Lego and mindstorms webpages. Eric and Elizabeth openly shared their mindstorms knowledge.
 
 Teachers also showed up in droves, and asked many questions.
 
