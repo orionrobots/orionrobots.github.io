@@ -2,18 +2,15 @@
 layout: page
 title: Welcome to Orionrobots
 ---
-{% include JB/setup %}
-
 I am Danny Staple, Orionrobots is my investigations and projects with robotics, electronics and stuff that moves. I aim to make some of the cool robotics things easy for anyone to build, and push the boundaries of what is easy. Oh and just to have lots of fun doing it too...
 
 # Recent Posts
 
+
 <ul class="posts">
-  {% for post in site.posts %}
-    {% if forloop.index < 4 %}
+  {% for post in site.posts %}{% if forloop.index < 4 %}
         <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a><p class="clearfix">{{ post.excerpt }}<a href="{{ BASE_PATH }}{{ post.url }}">more...</a></p><p class="clearfix"></p></li>
-    {% endif %}
-  {% endfor %}
+  {% endif %}{% endfor %}
 </ul>
 
 {% assign image="/assets/construction_guide/RobotExplodedStep0.png" %}
