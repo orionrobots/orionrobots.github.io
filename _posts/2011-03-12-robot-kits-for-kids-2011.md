@@ -63,10 +63,14 @@ The brick was programmed via IR with serial cable to the IR tower, not the more 
 
 However, this kit inspired a generation and will continue to inspire anyone who is given it. There were many books, websites and other resources on building almost anything you can imagine with the RCX at the heart automating it. Even if it has been completely replaced by the NXT now, it was a revolutionary product and perhaps similar things had existed before, but none with quite the impact it had.
 
-# Classic Mindstorms - the RCX
+# Meccanno/Erector
 
-The RCX was the programmable brick sold in the Robotic Invention System, and this brick really made Robotics on the Lego platform happen. The original kit had many additional Lego technic elements allowing some fairly large and complicated robots to be build.
+Another System that used to more than equal Lego in building contraptions was Meccanno, also known as Erector in the US.
 
-The brick was programmed via IR with serial cable to the IR tower, not the more sophisticated Bluetooth/USB setup now, and may have compatibility problems with current generations of PC hardware or software.
+It is a more expensive system than Lego, but seems to feel more serious to some. This may also appeal to an older "kid" as it has a nostalgia factor as well as the technical wizardry.
 
-However, this kit inspired a generation and will continue to inspire anyone who is given it. There were many books, websites and other resources on building almost anything you can imagine with the RCX at the heart automating it. Even if it has been completely replaced by the NXT now, it was a revolutionary product and perhaps similar things had existed before, but none with quite the impact it had.
+Meccano has been used to build fully operational scaled and accurate simulations of huge steam engines, boats, tanks, planes, bridges etc. You name it - it has been done. If you ever get to see a meccano builders faire, then you will get an idea of the amazing creations that it can come with,
+
+It also comes with the frustration of loose bolts, and forever having a spanner to hand. A lot of the very best parts, like gears and fittings are now only available from specialists. While the brand lives on and continues to be sold, it has perhaps lost some of the intricacy that made it great.
+
+That said, recently there are now robotic sets in the range. They look nothing like the Meccano of my childhood, but it is still a buildable, changeable robot kit.
