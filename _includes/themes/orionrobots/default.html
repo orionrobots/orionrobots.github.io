@@ -71,8 +71,8 @@
         <div class="content-wrapper clearfix">
             {{ content }}
             <div id="col-widgets">
-                {% include sidebar_news.html %}
                 {% include sidebar_ads.html %}
+                {% include sidebar_news.html %}
             </div>
         </div><!-- /.content -->
         <footer id="bottom">
@@ -101,16 +101,6 @@
 
 
             </ul>
-          </div>
-
-
-          <div id="footer-payment-methods">
-            <p>Payment methods we accept</p>
-            <img src="{{ ASSET_PATH }}/cc-amex.png" alt="American Express">
-            <img src="{{ ASSET_PATH }}/cc-visa.png" alt="VISA">
-            <img src="{{ ASSET_PATH }}/cc-mastercard.png" alt="Mastercard">
-            <img src="{{ ASSET_PATH }}/cc-maestro.png" alt="Maestro">
-            <img src="{{ ASSET_PATH }}/cc-paypal.png" alt="Paypal">
           </div>
 
             <p>&copy; {{ site.time | date: '%Y' }} {{ site.author.name }}
