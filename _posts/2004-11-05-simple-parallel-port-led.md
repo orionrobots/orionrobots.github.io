@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: bs_post
 title: Simple Parallel Port LED
 tags: [electronics, led, parallelport]
 comments: true
@@ -8,74 +8,110 @@ gallery: /galleries/2004-11-05-simple-parallel-port-led
 ---
 # Intro
 
-![Parallel Cable With LED]({{ page.gallery }}/thumb_cable-with-led.jpg){: style="float:left"}
-Plugging things into your desktop PC is neat - there is a great feeling of satisfaction when you can program even the simplest of hand made peripherals to light up. This project tutorial will start you with basic interfacing with your computer. Beware that you must be a little careful here, as shorting pins on your parallel port could be very bad for your computer. Also - as this project requires a Soldering Iron - please read the Robot Building Safety guide, and the Robot Tools guide before using any of these potentially dangerous tools.
+![Parallel Cable With LED]({{ page.gallery }}/thumb_cable-with-led.jpg){: class="img-rounded" style="float:left; padding-right: 4px"}
+Plugging things into your desktop PC is neat - there is a great feeling of satisfaction when you can program even the simplest of hand made peripherals to light up. This project tutorial will start you with basic interfacing with your computer. Please be a little careful here, as shorting pins on your parallel port could be very bad for your computer.
+
+The Light Emitting Diode (LED) draws very little current when limited by a resistor and some can be lit at low voltages like 0.6v. For a single LED you will not need an external power supply. Without the resistor it may destroy the LED and the port too. We will use a 470 Ohm resistor for this.
  
-This very simple project gives you a starting point, and allows you to think of other ways to use this port.
- 
-A small application of the basic single LED version is an Apache Monitor With Python and An LED.
- 
-The first thing to do is revise the LED. The Light Emitting Diode draws very little current, and some can be lit at low voltages like 0.6v. As they draw so little current, you will not need an external power supply. It is worth stating that anything motorised will require an external power supply and should not be powered from the port. As an LED cannot handle a great deal of current, you should always put a resister in Series with it. We will use 470 Ohm resistors for this.
- 
-Another thing about LED's are their polarity. LED's being diodes will only allows current to pass one way, and as such will only light one way. There is an exception to this - a breakdown voltage where they pass current another way. This is unlikely to happen in this simple project. The two electrodes of the LED are known as the Anode and the Cathode.
- 
-A standard parallel port has up to 12 outputs and 5 inputs (excluding extended modes etc). If you need a voltage large enough to drive an LED you may simply hold one of these outputs high. For now we will be ignoring the inputs, and for this project they are simply NC - Not Connected.
+An LED is a diode, and under normal conditions will only allows current to pass one way and light it. The two electrodes of the LED are known as the Anode and the Cathode.
+
+A parallel port has up to 12 outputs and 5 inputs. To turn on the LED you set one of these outputs high.
  
 You will need to build an Experimenting Parallel Cable before starting this project.
 
 # Required Tools
-
-For all of this project, - you will need the following tool set up:
  
 * A Soldering Iron
 * Solder
 * Small Clamp or Helping Hands
-* Safety Goggles
 * Side cutters
 * Wire Strippers
+* Pliers
 * A well lit desk.
 * A PC with Parallel Port
-* A Multimeter - if you are connecting anything to your PC, you really should make sure it is safe to connect it first.
+* A Multimeter
+
+# Experimenting Cable - Parallel breakout
+
+This cable can be used for other experiments, and is just a breakout cable to work with. You can use in a few projects so you don't have to buy and fit more than one DB25 connector. I recommend using the crimp/press on type of connector, as the soldered type is quite a bore and tricky. 
+ 
+## Parts List
+
+* A DB-25 Male ribbon connector (Mouser have these).
+* A 26 PIN IDC DIL (Dual in line) female connector
+* A 26 Way Ribbon Connector - make it long, you don't want the project hanging from the back of your computer. Get one with a red cable, or paint the cable on one wire in a colour different from the rest. 
+
+## Making it
+
+![Parallel Port]({{ page.gallery }}/parallel.gif){: style="float:left"}
+
+Inspect the DB-25 connector - it should have a tiny (and possibly hard to read) 1 or some notation for pin 1. Line up one end of the ribbon cable with this, push the ribbon through so every wire is sat on a tooth of the connector, then push this down (pliers will help) so the teeth have bitten well into the cable.
+ 
+At the other end of the ribbon, take the DIL connector, and push the ribbon through that, and then push down hard with pliers too.
+
+## Optional testing
+
+Okay - this can be tedious, but is very much worth it before you plug anything into your relatively expensive computer. Using the multimeter, systematically test the pins on the DB25 making sure that none of them are shorting with any neighbours. 
 
 # Simple LED
 
-The first block we will build is single directional LED lamp. This will light if there is a positive signal on one of the outputs.
+Using the cable, we will add a single LED lamp. This will light if there is a positive signal on the connected output pin.
 
-## Required Parts
+## Parts List
 
-* One 470 Ω resistor
-* One small LED
-* A DB25 Female Socket
-* A small length of Jumper wire
+* One 470 Ω through hole resistor
+* One small through hole LED
+* A small length of wire (insulated, but you can use some tape to insulate it) - cut to about 3 cm.
 
 ## Building the hardware
 
-First take the LED and locate the flat edge. The cable below this is your cathode - the negative side of the LED. Bare the ends of a jumper wire of about 3cm long. Using the Clamp or Helping hands, Solder one end of this to the LED's cathode.
+Examine the LED and locate the flat edge. The cable below this is your cathode - the negative side of the LED. 
+Bare the ends of the small length jumper wire to around 5mm. 
+Tin one end of the wire with solder, and the LED's cathode.
+Using the solder clamp, or helping hands to hold them together, solder the wire to the cathode.
  
-Next solder one side of the resistor to the anode of the LED. You then solder the jumper to the other leg. Plug the resistor end into pin 5, and the other side into pin 18.
- 
-You have now built your first basic LED interface and can program it...
+Solder one side of the resistor to the anode leg of the LED. 
+Plug the resistor end into the DIL socket corresponding to pin 5 on the parallel port, and the other side into pin 18.
 
 # Programming the port
 
-For now we will go with python as our language of choice for this. It is very simple, and with the PyParallel extension - it can be run on any platform. Although there are low level ways of hitting hardware ports, I see no reason why we should use that when we can spend more time building robots.
+The port can be manipulated with many languages. I am using Python as it is pretty easy to get results with. You'll need a python intepreter and the PyParallel extension - it can be run on any platform.
  
-PyParallel details can be found here:
-http://pyserial.sourceforge.net/pyparallel.html - It is very simple to install on any machine by following the instructions there. You will require Python above version 2.0.
+PyParallel details can be found at <http://pyserial.sourceforge.net/pyparallel.html>.
  
-The other good thing about this, is unlike a C program you would need to compile, you can try and interface with your port directly from the python command line. Start up python, and type:
+Start up python, and type:
 
     import parallel
     
-Now - You must get access to the parallel object, and turn on your LED by flipping the corresponding bit:
+Make a parallel object (my code assumes only 1 port, you will need to read the pyparallel doc to deal with multiple ports). You cna then turn on your LED by flipping the corresponding bit:
 
     p = parallel.Parallel()
     p.setData(1 << 4)
     
-Let me explain this. parallel.Parallel() gets us an interface to the default port. This interface we assign to p. We then call p.setData to set the data register (d0-d7) on the parallel port. Working out the correct number is a bit of binary magic. We are taking the number 1(the root of all binary numbers), and shifting it left 4 - which means we are now addressing bit d4 of the port. Take note that this is a read only port, if you want to store it, you can store the current status yourself.
+`parallel.Parallel()` gets us an interface to the default port, and names it p. `p.setData` will set the data pins (d0-d7) on the parallel port. Making the correct number is a bit of binary magic. We take the number 1 (the root of all binary numbers), and shifting it left 4 - to set bit 4 of the port. This is a write only port, if you want to store it, you can store the current status yourself.
 
     p = parallel.Parallel()
-    dReg = 1 << 4
-    p.setData(dReg)
-    print dReg
+    led_on = 1 << 4
+    p.setData(led_on)
+    print led_on
     
+The light will be on. To turn it off you can set the port to 0.
+
+    p.setData(0)
+    
+To make it blink, you need a timer. The time module can do this:
+
+    import time
+    p.setData(led_on)
+    time.sleep(1)
+    p.setData(0)
+    
+This will turn on, then off for a second. Put it into a while loop to blink until you stop it:
+
+
+    while True:
+        p.setData(led_on)
+        time.sleep(1)
+        p.setData(0)
+
+You need to press Ctrl-C to stop this blinking.
