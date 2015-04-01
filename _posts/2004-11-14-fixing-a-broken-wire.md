@@ -129,4 +129,4 @@ If the break occurred because the wire was just too tight, then you really shoul
 
 While it is good not to have excess loops of wire clogging up your project and making things untidy, you also need a bit of slack so wires do not have stress on them that may snap, snag or pull them. Watch that cables are guided out of the way of mechanical pinch points too.
 
-Try to replace, or lengthen wires with ones of the same gauge and type- bear in mind that these are often selected with the signal type or current requirements in mind, a new section must be able to deal with the loads, as must any connection apparatus connecting them.
+Try to replace or lengthen wires with ones of the same gauge and type- these are often selected for the signal type or current requirements. A new section must be able to deal with the loads, as must any connection apparatus connecting them.
