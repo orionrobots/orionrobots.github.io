@@ -1,0 +1,46 @@
+---
+layout: none
+---
+{% include JB/setup %}
+
+            </div>
+            <div id="col-widgets">
+                {% include sidebar_ads.html %}
+                {% include sidebar_news.html %}
+            </div>
+        </div><!-- /.content -->
+        <footer id="bottom">
+          <div id="footer-left">
+            <ul id="footer-nav" class="clearfix">
+
+              <li><a href="/search">Search</a></li>
+
+              <li><a href="/pages/about-us">About Us</a></li>
+
+              <li><a href="http://orionrobots.co.uk/privacy_and_cookies.html">Privacy and Cookies</a></li>
+
+            </ul>
+            <p>© 2014 <a href="/">OrionRobots</a>. All Rights Reserved.<br></p>
+          </div>
+          <div id="footer-right">
+
+            <ul id="sm-icons" class="clearfix">
+              <li id="sm-gplus"><a href="https://plus.google.com/103729072501059702209" rel="publisher">G+</a></li>
+              <li id="sm-youtube"><a href="http://www.youtube.com/playlist?list=PLztIjhB2c1mhLD-X9KkIu6cln_EdUixcn" class="ir">YouTube</a></li>
+
+              <li id="sm-twitter"><a href="http://www.twitter.com/orionrobots" class="ir">Twitter</a></li>
+              <li id="sm-facebook"><a href="http://www.facebook.com/orionrobots" class="ir">Facebook</a></li>
+
+
+            </ul>
+          </div>
+
+            <p>&copy; {{ site.time | date: '%Y' }} {{ site.author.name }}
+              with help from <a href="http://jekyllbootstrap.com" target="_blank" title="The Definitive Jekyll Blogging Framework">Jekyll Bootstrap</a>
+              and <a href="http://twitter.github.com/bootstrap/" target="_blank">Twitter Bootstrap</a>
+            </p>
+        </footer>
+    </div>
+    {% include JB/analytics %}
+  </body>
+</html>

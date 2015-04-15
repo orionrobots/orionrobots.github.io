@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: bs_default
 title: Welcome to Orionrobots
 ---
 I am Danny Staple, Orionrobots is my investigations and projects with robotics, electronics and stuff that moves. I aim to make some of the cool robotics things easy for anyone to build, and push the boundaries of what is easy. Oh and just to have lots of fun doing it too...
@@ -36,6 +36,4 @@ I am Danny Staple, Orionrobots is my investigations and projects with robotics, 
 # Policies
 
 <a href="/Terms+And+Conditions" title="Terms And Conditions">Terms And Conditions</a>
-
-<a href="/privacy_and_cookies.html" title="Privacy Policy">Privacy Policy</a>
 

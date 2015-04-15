@@ -33,12 +33,19 @@ FileETag none
 	</FilesMatch>
 </IfModule>
 
-# Handling in Tiki errors caught by Apache
-# Tiki can catch some errors and deal with them by redirecting to a similar page, sending you to the search, etc. However, some errors do not reach Tiki and are only caught by Apache (ex.: filenameThatDoesntExist.php). 
-# To make Tiki handle errors caught by Apache, uncomment some of the following lines and adapt the page names. You must create the pages before trying to use them. 
 ErrorDocument 404 /404.html
-#ErrorDocument 500 /tiki-index.php?page=Server+error
 ErrorDocument 501 /404.html
+
+<IfModule mod_autoindex.c>
+    IndexOptions IgnoreCase FancyIndexing FoldersFirst NameWidth=* DescriptionWidth=* SuppressHTMLPreamble
+    # SET DISPLAY ORDER
+    IndexOrderDefault Descending Name
+    # SPECIFY HEADER FILE
+    HeaderName /directory_head.html
+
+    # SPECIFY FOOTER FILE
+    ReadmeName /directory_footer.html
+</IfModule>
 
 # Permanent redirect: Add directive as the example below. This is useful if you were using another Web application or static HTML and you want to avoid broken links.
 # Redirect 301 /oldpage.html /tiki-index.php?page=newpage
@@ -57,9 +64,9 @@ RewriteRule "^Lego\+Specifications(.*)" /pages/lego-specifications.html [R,L]
 RewriteRule "^i-Cybie\+Robot\+Dog(.*)" /2004/11/14/i-cybie-robot-dog [R,L]
 RewriteRule "^leonardo_da_vincis_tank.html" /pages/leonardo_da_vincis_tank.html [R,L]
 RewriteRule "^orion-explorer-faq.html" /products/orion-explorer-faq.html [R,L]
-RewriteRule "^Simple+Parallel+Port+LED+Board" /2004/11/05/simple-parallel-port-led.html [R, L]
-RewriteRule "^Building+An+Experimenting+Parallel+Cable" /2004/11/05/simple-parallel-port-led.html [R, L]
-RewriteRule "^Apache+Monitor+With+Python+And+An+LED" /2004/11/14/apache-monitor-with-led.html [R, L]
+RewriteRule "^Simple+Parallel+Port+LED+Board" /2004/11/05/simple-parallel-port-led.html [R,L]
+RewriteRule "^Building+An+Experimenting+Parallel+Cable" /2004/11/05/simple-parallel-port-led.html [R,L]
+RewriteRule "^Apache+Monitor+With+Python+And+An+LED" /2004/11/14/apache-monitor-with-led.html [R,L]
 RewriteRule "^Robot\+Stores(.*)" /pages/robot-stores.html [R]
 RewriteRule "^[Hh]ome[Pp]age$" /index.html [R]
 RewriteRule "^[Mm]ega[Bb]yte\+[Rr]obot\+[Dd]og$" /2004/11/14/megabyte-robot-dog [R,L]
