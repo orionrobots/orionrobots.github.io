@@ -13,9 +13,7 @@ AddHandler application/x-httpd-php54 .php
 </FilesMatch>
 
 <IfModule mod_dir.c>
-DirectoryIndex index.html index.php 
-	# if using wiki as homepage feature you may avoid the home page name being appended to the url by replacing the previous line with the following line
-	#DirectoryIndex tiki-index.php index.php
+    DirectoryIndex index.html index.php
 </IfModule>
 
 <IfModule deflate_module>
@@ -68,10 +66,9 @@ RewriteRule "^Simple+Parallel+Port+LED+Board" /2004/11/05/simple-parallel-port-l
 RewriteRule "^Building+An+Experimenting+Parallel+Cable" /2004/11/05/simple-parallel-port-led.html [R,L]
 RewriteRule "^Apache+Monitor+With+Python+And+An+LED" /2004/11/14/apache-monitor-with-led.html [R,L]
 RewriteRule "^Robot\+Stores(.*)" /pages/robot-stores.html [R]
+RewriteRule "^Robotic\+Gadgets\+And\+Toys(.*)" /2005/08/02/robotics-toys-and-gadgets [R,L]
 RewriteRule "^[Hh]ome[Pp]age$" /index.html [R]
 RewriteRule "^[Mm]ega[Bb]yte\+[Rr]obot\+[Dd]og$" /2004/11/14/megabyte-robot-dog [R,L]
-RewriteRule "^blog/explorer_wall_avoider_kit.html" http://shop.orionrobots.co.uk/blogs/news/10309149-the-explorer-wall-avoider-kit-now-on-the-shop [R,L]
-RewriteRule "^Explorer+1+Bump+Antenna$" http://shop.orionrobots.co.uk/blogs/news/10651757-building-a-bump-sensor-for-the-orion-explorer-1-kits [R,L]
 RewriteRule "^USB$" /Universal+Serial+Bus [R]
 
 
