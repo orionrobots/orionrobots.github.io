@@ -1,0 +1,125 @@
+---
+layout: default
+permalink: /forums/announcements/bumpy_ride/index.html
+posts:
+- author: orion
+  content: '
+
+    <p>Big changes are afoot on the OrionRobots website. We will (For the first time
+    in our history) be moving to a third party hosting system - as opposed to being
+    hosted on a server in my lounge.
+
+    </p>
+
+    <p>It means that while things are transferred, and DNS settings catch up, that
+    there may be gaps in service.
+
+    </p>
+
+    <p>This however will avoid the potential for the larger disruptions that will
+    have occured when we moved - shutting down the site for days or weeks. Expect
+    a couple of hours downtime between now and may, but I have ducked to avoid the
+    worst of it.
+
+    </p>
+
+    <p>On the upside, we should see improved spam protection and faster access. Also.
+    by leaving the sysadmin tasks (upgrading stuff, keeping the spam settings up to
+    date, making sure the server doesnt go down, sorting out backups etc) to someone
+    else, it will leave me more free time to write articals and blogs and of course
+    build robots.
+
+    </p>
+
+    <p>So bear with us - it will all be worth it in the end!
+
+    <br/>Cheers,
+
+    <br/>Orion
+
+    </p>
+
+    '
+  date: Fri 04 of Mar., 2005 12:13 GMT
+- author: orion
+  content: '
+
+    <p>Right - we have now taken the plunge. All our data is over on the pipex webfusion
+    servers - and the DNS is now pointed there. With thanks to troggg and mose of
+    the tikiwiki crew, I got the database and site running.
+
+    </p>
+
+    <p>Data changes made between 12 yesterday and today (votes, posts and stats) have
+    not made it across - but I did scan for anything important and nothing came up.
+
+    </p>
+
+    <p>Currently the two video files I stored for Steve Hassenplug have been removed
+    from the file gallery - they were too big for the database settings for this server,
+    and I will put them in a directory on the server instead.
+
+    </p>
+
+    <p>Email still has issues - some of which may not be easily resolved.
+
+    <br/>I am currently adding the old accounts to the new server - however, your
+    old stored email will not be coming with you - sorry. For now, those of you from
+    the old system can retreive old email by pointing your browser at <a class="wiki
+    external" href="http://serverus.orionrobots.co.uk/squirrelmail" rel="external">http://serverus.orionrobots.co.uk/squirrelmail</a>.
+    I suggest you save those emails. Those who use tikiwiki to handle their email
+    will be fine - their old emails will still be in the tiki db. There may be some
+    email accounts and aliases I have overlooked when migrating - please feel free
+    to respond to this and point them out - as this forum is moderated by me, I will
+    see your responses, but will not make them public.
+
+    </p>
+
+    <p>The old redirects have currently gone, and those will eventually need to be
+    built in some other way - as I do not have access to the apache virtual host settings
+    at webfusion, that will come in time. In the meantime - please try to make sure
+    your links into OrionRobots are up to date.
+
+    </p>
+
+    <p>Let me know if there are any other problems - we are definately expecting at
+    least a few.
+
+    </p>
+
+    '
+  date: Wed 09 of Mar., 2005 17:10 GMT
+thread:
+  author: orion
+  href: tiki-view_forum_thread.php?comments_parentId=61&topics_offset=14
+  last_post_date: "Wed 09 of Mar., 2005 17:10 GMT \n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\
+    \nRe: Bumpy Ride by orion"
+  name: Bumpy Ride
+  posts: 1
+  reads: 15250
+  slug: bumpy_ride
+  subcomment: 'Important: We may experience some turbulance folks!'
+title: Announcements | Bumpy Ride
+topic:
+  href: tiki-view_forum.php?forumId=1
+  last_post_date: Sat 24 of Feb., 2007 16:36 GMT
+  last_post_info: Problem with forums posts by orion
+  name: Announcements
+  post_count: 26
+  slug: announcements
+  subcomment: Things we feel it is important that you know about
+  thread_count: 18
+  visits: 66854
+---
+<table class="table table-striped">
+{% for post in page.posts %}
+    <tr>
+        <td>
+            <div class="text-muted">By {{ post.author }} on {{ post.date }}</div>
+            <div class="post_content">{{ post.content }}</div>
+        </td>
+    </tr>
+{% endfor %}
+</table>
+
+<div class="alert alert-info">These forums are no longer open. Please use my Facebook, Twitter or Youtube channels to ask questions.</div>

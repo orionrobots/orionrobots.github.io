@@ -1,0 +1,126 @@
+---
+layout: default
+permalink: /forums/electronics/i_need_help_with_first_build/index.html
+posts:
+- author: crazydiamond943
+  content: '
+
+    <p>Hey, I''m 14 and am new to bot building, but for my first, I''m hoping to build
+    a lightweight Rambot possibly adding a spinning disc at some point.
+
+    </p>
+
+    <p>But to the point. I need to decide on how to drive it, I understand motors
+    would be more powerful and faster, but servo''s wouldn''t need a speed controller?
+    I need some oppinions.
+
+    </p>
+
+    <p>As you can gather from my age, my budget isn''t super huge.
+
+    </p>
+
+    <p>~L
+
+    </p>
+
+    '
+  date: M21 of Apr., 2008 22:04 BST
+- author: crazydiamond943
+  content: '
+
+    <p>Hey,
+
+    </p>
+
+    <p>I can''t be sure yet, but i think it''ll be about 15" * 10" * 4", Is this a
+    realistic size?
+
+    </p>
+
+    <p>And also, I think I will go down the motor route, but I feel so bogged dsown
+    by all the choices of motors, radio modules, and esp''s,<img alt="redface" src="img/smiles/icon_redface.gif"/>
+    please could you help me choose? <img alt="wink" src="img/smiles/icon_wink.gif"/>
+
+    </p>
+
+    '
+  date: Tue 22 of Apr., 2008 20:02 BST
+- author: orion
+  content: '
+
+    <p>Hi there,
+
+    <br/>It kind of depends on a few things. You are right basically that motors are
+    more powerful, and that servo''s don''t need a speed controller or H-Bridge. Servo''s
+    simply come with the speed control and bridge included.
+
+    </p>
+
+    <p>Servo''s modified for continuous rotation are used in smaller, lightweight
+    bots, and allow an RC receiver or microcontroller PWM output to directly drive
+    them.
+
+    </p>
+
+    <p>It is worth bearing in mind that while a speed controller adds cost and weight,
+    so do servos, and all told, the cost of two servos vs two motors + a speed controller
+    will not be that far different. The latter is slightly more costly, but will give
+    more performance.
+
+    </p>
+
+    <p>What sort of scale is this robot, and what sort of weight? A rough idea is
+    that the lower end (robots little bigger than RC cars) would lend itself better
+    to the servos, and the higher end to the speed controllers.
+
+    </p>
+
+    <p>One last thing to bear in mind, is that it is possible to salvage DC motors,
+    and build a H-Bridge for the motors yourself. It takes more effort, but you will
+    learn all the more for doing it.
+
+    </p>
+
+    <p>Cheers,
+
+    <br/>Danny
+
+    </p>
+
+    '
+  date: Tue 22 of Apr., 2008 14:19 BST
+thread:
+  author: crazydiamond943
+  href: tiki-view_forum_thread.php?comments_parentId=332
+  last_post_date: "Tue 22 of Apr., 2008 20:02 BST \n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\
+    \nRe: I need help with first build by crazydiamond943"
+  name: I need help with first build
+  posts: 2
+  reads: 26511
+  slug: i_need_help_with_first_build
+  subcomment: I need to decide on motors/servos
+title: Electronics | I need help with first build
+topic:
+  href: tiki-view_forum.php?forumId=2
+  last_post_date: Tue 22 of Apr., 2008 20:02 BST
+  last_post_info: 'Re: I need help with first build by crazydiamond943'
+  name: Electronics
+  post_count: 18
+  slug: electronics
+  subcomment: Anything relating to the electronic engineering
+  thread_count: 7
+  visits: 60805
+---
+<table class="table table-striped">
+{% for post in page.posts %}
+    <tr>
+        <td>
+            <div class="text-muted">By {{ post.author }} on {{ post.date }}</div>
+            <div class="post_content">{{ post.content }}</div>
+        </td>
+    </tr>
+{% endfor %}
+</table>
+
+<div class="alert alert-info">These forums are no longer open. Please use my Facebook, Twitter or Youtube channels to ask questions.</div>

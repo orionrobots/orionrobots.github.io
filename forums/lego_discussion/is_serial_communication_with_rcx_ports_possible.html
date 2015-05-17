@@ -1,0 +1,110 @@
+---
+layout: default
+permalink: /forums/lego_discussion/is_serial_communication_with_rcx_ports_possible/index.html
+posts:
+- author: orion
+  content: '
+
+    <p>It may be possible to create a <a class="wiki wiki_page" href="Serial+Data+Stream"
+    title="Serial Data Stream">Serial</a> link between the <a class="wiki wiki_page"
+    href="Lego+RCX" title="The Lego RCX">Lego RCX</a> and the <a class="wiki wiki_page"
+    href="Lego" title="The best known construction toy">Lego</a> CyberMaster using
+    a sensor port on the <a class="wiki wiki_page" href="Lego+RCX" title="The Lego
+    RCX">RCX</a> and one sensors port and one motor port on the CyberMaster. It may
+    also be possible between two <a class="wiki wiki_page" href="Lego+RCX" title="The
+    Lego RCX">RCX''s</a>.
+
+    </p>
+
+    <p>The <a class="wiki wiki_page" href="Lego+RCX" title="The Lego RCX">RCX</a>
+    sensor port is capable of sampling(sensing) and in active mode can produce a signal(go
+    in and out of active mode - creating mode changes).  Now I am not sure that the
+    Cybermaster can do the same - it may mean you have to use a Motor port for output,
+    and a sensor port for input.
+
+    </p>
+
+    <p>Why would you do this? Firstly - if you have a CyberMaster and <a class="wiki
+    wiki_page" href="Lego+RCX" title="The Lego RCX">RCX</a>, you can free up the limitations
+    of <a class="wiki wiki_page" href="IR" title="Acronym for Infra Red">IR</a>, and
+    use a <a class="wiki wiki_page" href="Wireless" title="Wireless">wireless</a>
+    communication system with the CyberMaster to control the bots(although you will
+    not be able to upload programs to the RCX in this way).  Secondly - it means you
+    can get the two systems to work together for a bot with more sensors, and more
+    motors, as well as double the processing ability. Using <a class="wiki wiki_page"
+    href="IR" title="Acronym for Infra Red">IR</a> communications between two <a class="wiki
+    wiki_page" href="Lego+RCX" title="The Lego RCX">RCX''s</a> is fairly limited -
+    and also requires line-of-sight.
+
+    </p>
+
+    <p>The <a class="wiki wiki_page" href="CyberMaster" title="CyberMaster">CyberMasters</a>
+    motor port will be outputting <a class="wiki wiki_page" href="PWM" title="Pulse
+    Width Modulation">PWM</a> - which is a fairly course signal, and makes it not
+    suitable for serial output . A <a class="wiki wiki_page" href="PWM" title="Pulse
+    Width Modulation">PWM</a> device even on full power does not output a straight
+    line signal.
+
+    </p>
+
+    <p>Does anyone have any ideas or experience with this?
+
+    </p>
+
+    '
+  date: Tue 12 of Apr., 2005 14:09 BST
+- author: orion
+  content: '
+
+    <p>I have spotted, on <a class="wiki wiki_page" href="Lugnet" title="Lego Users
+    Group Network">Lugnet</a> a group who are selling an I2C communication board which
+    sits in front of an RCX''s IR ports. It is sold with a few additional boards for
+    items like servo''s etc.
+
+    </p>
+
+    <p><a class="wiki external" href="http://orionrobots.co.uk/tiki-directory_redirect.php?siteId=136"
+    rel="external">Mindsensors</a> also have many other very cool RCX add ons.
+
+    </p>
+
+    <p>Orion
+
+    </p>
+
+    '
+  date: Wed 29 of June, 2005 22:27 BST
+thread:
+  author: orion
+  href: tiki-view_forum_thread.php?comments_parentId=108&topics_offset=7
+  last_post_date: "Wed 29 of June, 2005 22:27 BST \n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\
+    \nRe: Is Serial Communication with RCX Ports Possible? by orion"
+  name: Is Serial Communication with RCX Ports Possible?
+  posts: 1
+  reads: 22087
+  slug: is_serial_communication_with_rcx_ports_possible
+  subcomment: ''
+title: Lego Discussion | Is Serial Communication with RCX Ports Possible?
+topic:
+  href: tiki-view_forum.php?forumId=8
+  last_post_date: Sat 13 of Sep., 2008 15:21 BST
+  last_post_info: 'Re: Re: Mindstorms Stormrunner Game by orion'
+  name: Lego Discussion
+  post_count: 65
+  slug: lego_discussion
+  subcomment: Topics to do with using Lego to build robots, and robotic based contraptions
+  thread_count: 19
+  visits: 88452
+---
+<table class="table table-striped">
+{% for post in page.posts %}
+    <tr>
+        <td>
+            <div class="text-muted">By {{ post.author }} on {{ post.date }}</div>
+            <div class="post_content">{{ post.content }}</div>
+        </td>
+    </tr>
+{% endfor %}
+</table>
+
+<div class="alert alert-info">These forums are no longer open. Please use my Facebook, Twitter or Youtube channels to ask questions.</div>

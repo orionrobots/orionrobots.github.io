@@ -1,0 +1,71 @@
+---
+layout: default
+permalink: /forums/site_feedback/index.html
+threads:
+- author: slurp
+  href: tiki-view_forum_thread.php?comments_parentId=439
+  last_post_date: "Sat 09 of Oct., 2010 14:31 BST \n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\
+    \nRe: Was some thing lost in the face lift? by orion"
+  name: Was some thing lost in the face lift?
+  posts: 1
+  reads: 9953
+  slug: was_some_thing_lost_in_the_face_lift
+  subcomment: ''
+- author: slurp
+  href: tiki-view_forum_thread.php?comments_parentId=328&topics_offset=1
+  last_post_date: "Mon 24 of Mar., 2008 23:43 GMT \n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\
+    \nRe: Topic Order... by slurp"
+  name: Topic Order...
+  posts: 2
+  reads: 31005
+  slug: topic_order
+  subcomment: new to old topic order would make navigation easier...
+- author: mattbrowne
+  href: tiki-view_forum_thread.php?comments_parentId=320&topics_offset=2
+  last_post_date: "Sat 10 of Nov., 2007 23:12 GMT \n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\
+    \nRe: How can I edit my profile? by orion"
+  name: How can I edit my profile?
+  posts: 1
+  reads: 24096
+  slug: how_can_i_edit_my_profile
+  subcomment: ''
+- author: orion
+  href: tiki-view_forum_thread.php?comments_parentId=155&topics_offset=3
+  last_post_date: "Sun 16 of Apr., 2006 10:24 BST \n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\
+    \nVex from california by ArtBot"
+  name: Forum Suggestions
+  posts: 1
+  reads: 28152
+  slug: forum_suggestions
+  subcomment: Are there other forum topics you would like to see here
+- author: orion
+  href: tiki-view_forum_thread.php?comments_parentId=83&topics_offset=4
+  last_post_date: "Sat 28 of Feb., 2009 16:04 GMT \n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\
+    \nRe: Re: Front Page looked bad by orion"
+  name: Front Page looked bad
+  posts: 4
+  reads: 34500
+  slug: front_page_looked_bad
+  subcomment: ''
+- author: Anonymous
+  href: tiki-view_forum_thread.php?comments_parentId=52&topics_offset=5
+  last_post_date: "Thu 28 of July, 2005 21:20 BST \n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\
+    \nRe: queing? by orion"
+  name: queing?
+  posts: 5
+  reads: 28270
+  slug: queing
+  subcomment: ''
+title: Site Feedback
+---
+<h1>What are your thoughts on OrionRobots, how can it be improved?</h1>
+
+<table class="table table-striped">
+<tr><th>Thread</th><th>Started By</th><th>Replies</th></tr>
+{% for thread in page.threads %}
+    <tr>
+        <td><a href="{{ thread.slug }}">{{ thread.name }}</a><br />{{ thread.subcomment }}</td><td>{{ thread.author }}</td>
+        <td>{{ thread.posts }} posts. Last: {{ thread.last_post_date }}</td>
+    </tr>
+{% endfor %}
+</table>

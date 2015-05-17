@@ -1,0 +1,272 @@
+---
+layout: default
+permalink: /forums/open_discussion/autonomous_robots_navigation/index.html
+posts:
+- author: ExDxV
+  content: '
+
+    <p>Since October 2007 I developed new object recognition algorithm <a class="wiki
+    external" href="http://edv-detail.narod.ru/AVM_main.html" rel="external">"Associative
+    Video Memory" (AVM)</a>.
+
+    </p>
+
+    <p>Algorithm AVM uses a principle of multilevel decomposition of recognition matrices,  it
+    is steady against noise of the camera and well scaled, simply and quickly for
+    training.
+
+    </p>
+
+    <p><tt> And now I want to introduce my experiment with robot navigation based
+    on visual landmark beacons: "Follow me" and "Walking by gates".</tt>
+
+    </p>
+
+    <p>
+
+    <br/><img alt="Image" class="regImage pluginImg" src="http://www.roborealm.com/help/AVM_Navigator_movie_5.jpg"/>
+
+    <br/><a class="wiki external" href="http://www.youtube.com/watch?v=HTxNlOpm11U"
+    rel="external">Follow Me</a>
+
+    </p>
+
+    <p><img alt="Image" class="regImage pluginImg" src="http://www.roborealm.com/help/AVM_Navigator_movie_1.jpg"/>
+
+    <br/><a class="wiki external" href="http://www.youtube.com/watch?v=xbCpthKrL0o"
+    rel="external">Walking from p2 to p1 and back</a>
+
+    </p>
+
+    <p>I embodied both algorithms to <a class="wiki external" href="http://www.roborealm.com/help/AVM_Navigator.php"
+    rel="external">Navigator plugin</a> for using within <a class="wiki external"
+    href="http://www.roborealm.com/" rel="external">RoboRealm software</a>.
+
+    </p>
+
+    <p><tt> So, you can try now to review my experiments with using <a class="wiki
+    external" href="http://www.roborealm.com/help/AVM_Navigator.php" rel="external">AVM
+    Navigator</a>.</tt>
+
+    </p>
+
+    <p>The Navigator module has two base algorithms:
+
+    </p>
+
+    <div class="titlebar"> Follow me </div>
+
+    <p><tt> The navigation algorithm do attempts to align position of a tower and
+    the body</tt>
+
+    </p>
+
+    <p><tt> of robot on the center of the first recognized object in the list of tracking</tt>
+
+    </p>
+
+    <p><tt> and if the object is far will come nearer and if it is too close it will
+    be</tt>
+
+    </p>
+
+    <p><tt> rolled away back.</tt>
+
+    </p>
+
+    <div class="titlebar"> Walking by gates </div>
+
+    <p><tt> The gate data contains weights for the seven routes that indicate importance
+    of this gateway for each route. At the bottom of the screen was added indicator
+    "horizon" which shows direction for adjust the robot''s motion for further movement
+    on the route. Field of gates is painted blue if the gates do not participate in
+    this route (weight rate 0), and warmer colors (ending in yellow) show a gradation
+    of "importance" of the gate in the current route.</tt>
+
+    </p>
+
+    <ul><li> The procedure of training on route
+
+    </li></ul><p><tt> For training of the route you have to indicate actual route
+    (button "Walking by way") in "Nova gate" mode and then you must drive the robot
+    manually by route (the gates will be installed automatically). In the end of the
+    route you must click on the button "Set checkpoint" and then robot will turn several
+    times on one spot and mark his current location as a checkpoint.</tt>
+
+    </p>
+
+    <p>
+
+    </p>
+
+    <p><tt> So, if robot will walk by gates and suddenly will have seen some object
+    that can be recognized then robot will navigate by the "follow me" algorithm.</tt>
+
+    </p>
+
+    <p><tt> If robot can''t recognize anything (gate/object) then robot will be turning
+    around on the spot for searching (it may twitch from time to time in a random
+    way).</tt>
+
+    </p>
+
+    <p><tt> For more information see also thread: <a class="wiki external" href="http://forums.trossenrobotics.com/showthread.php?t=3510"
+    rel="external">"Autonomous robot''s navigation"</a> at <a class="wiki external"
+    href="http://forums.trossenrobotics.com/" rel="external">Trossen Robotics</a>.</tt>
+
+    </p>
+
+    <p>Now <strong>AVM Navigator v0.7</strong> is released and you can download it
+    from <a class="wiki external" href="http://www.roborealm.com/help/AVM_Navigator.php"
+    rel="external">RoboRealm website</a>.
+
+    <br/>In new version is added two modes: "Marker mode" and "Navigate by map".
+
+    </p>
+
+    <p><strong>Marker mode</strong>
+
+    </p>
+
+    <p><img alt="Image" class="regImage pluginImg" src="http://www.roborealm.com/help/Navigator_wnd_4.png"/>
+
+    </p>
+
+    <p>Marker mode provides a forming of navigation map that will be made automatically
+    by space marking. You just should manually lead the robot along some path and
+    repeat it several times for good map detailing.
+
+    </p>
+
+    <p><strong>Navigation by map</strong>
+
+    </p>
+
+    <p><img alt="Image" class="regImage pluginImg" src="http://www.roborealm.com/help/Navigator_wnd_5.png"/>
+
+    </p>
+
+    <p>In this mode you should point the target position at the navigation map and
+    further the robot plans the path (maze solving) from current location to the target
+    position (big green circle) and then robot begins automatically walking to the
+    target position.
+
+    </p>
+
+    <p>
+
+    <br/><img alt="Image" class="regImage pluginImg" src="http://www.roborealm.com/help/Navigation_map_2.png"/>
+
+    </p>
+
+    <p><strong>For external control of "Navigate by map" mode is added new module
+    variables:</strong>
+
+    </p>
+
+    <p>NV_LOCATION_X - current location X coordinate;
+
+    <br/>NV_LOCATION_Y - current location Y coordinate;
+
+    <br/>NV_LOCATION_ANGLE - horizontal angle of robot in current location (in radians);
+
+    </p>
+
+    <p>
+
+    <br/>Target position at the navigation map
+
+    <br/>NV_IN_TRG_POS_X - target position X coordinate;
+
+    <br/>NV_IN_TRG_POS_Y - target position Y coordinate;
+
+    </p>
+
+    <p>NV_IN_SUBMIT_POS - submitting of target position (value should be set 0 -&gt;
+    1 for action).
+
+    </p>
+
+    <p><strong>Examples</strong>
+
+    </p>
+
+    <p><img alt="Image" class="regImage pluginImg" src="http://www.roborealm.com/help/AVM_Navigator_movie_8.jpg"/>
+
+    <br/><a class="wiki external" href="http://www.youtube.com/watch?v=9opAZYRsDxU"
+    rel="external">Quake 3 Odometry Test</a>
+
+    </p>
+
+    <p><img alt="Image" class="regImage pluginImg" src="http://www.roborealm.com/help/AVM_Navigator_movie_9.jpg"/>
+
+    <br/><a class="wiki external" href="http://www.youtube.com/watch?v=5qKQg5e4wbc"
+    rel="external">Navigation by map</a>
+
+    </p>
+
+    <p><img alt="Image" class="regImage pluginImg" src="http://www.roborealm.com/help/AVM_Navigator_movie_10.jpg"/>
+
+    <br/><a class="wiki external" href="http://www.youtube.com/watch?v=WdfWt66rEsk"
+    rel="external">Visual Landmark Navigation</a>
+
+    </p>
+
+    <p>
+
+    <br/>I prepared emulator program (based on Quake 3 mod) for acquaintance with
+    "Marker mode" and "Navigation by map" modes.
+
+    </p>
+
+    <p>See <a class="wiki external" href="http://www.roborealm.com/help/AVM_Navigator/avm_q3mod_help.html"
+    rel="external">"AVM Quake 3 mod" manual</a> for more details.
+
+    </p>
+
+    <p><img alt="Image" class="regImage pluginImg" src="http://www.roborealm.com/help/AVM_Navigator/q3mod_route_training.png"/>
+
+    </p>
+
+    <p>You can download installation of <a class="wiki external" href="http://www.roborealm.com/help/AVM_Navigator/Setup_avm_q3mod.exe"
+    rel="external">"AVM Quake 3 mod" by this link</a>.
+
+    </p>
+
+    '
+  date: Fri 24 of June, 2011 08:49 BST
+thread:
+  author: ExDxV
+  href: tiki-view_forum_thread.php?comments_parentId=451
+  last_post_date: Fri 24 of June, 2011 08:49 BST
+  name: Autonomous robot's navigation
+  posts: 0
+  reads: 11853
+  slug: autonomous_robots_navigation
+  subcomment: ''
+title: Open Discussion | Autonomous robot's navigation
+topic:
+  href: tiki-view_forum.php?forumId=5
+  last_post_date: Fri 06 of July, 2012 13:42 BST
+  last_post_info: 'Re: Variable Surface Curvature Lego System? by orion'
+  name: Open Discussion
+  post_count: 110
+  slug: open_discussion
+  subcomment: Anything else - but try to keep it robot related! If you want to send
+    a message to the operator of the site, please use the Contact Us Page on the menu
+    to the right.
+  thread_count: 39
+  visits: 201065
+---
+<table class="table table-striped">
+{% for post in page.posts %}
+    <tr>
+        <td>
+            <div class="text-muted">By {{ post.author }} on {{ post.date }}</div>
+            <div class="post_content">{{ post.content }}</div>
+        </td>
+    </tr>
+{% endfor %}
+</table>
+
+<div class="alert alert-info">These forums are no longer open. Please use my Facebook, Twitter or Youtube channels to ask questions.</div>

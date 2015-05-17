@@ -1,0 +1,102 @@
+---
+layout: default
+permalink: /forums/index.html
+title: Forum Topics
+topics:
+- href: tiki-view_forum.php?forumId=5
+  last_post_date: Fri 06 of July, 2012 13:42 BST
+  last_post_info: 'Re: Variable Surface Curvature Lego System? by orion'
+  name: Open Discussion
+  post_count: 110
+  slug: open_discussion
+  subcomment: Anything else - but try to keep it robot related! If you want to send
+    a message to the operator of the site, please use the Contact Us Page on the menu
+    to the right.
+  thread_count: 39
+  visits: 201065
+- href: tiki-view_forum.php?forumId=8
+  last_post_date: Sat 13 of Sep., 2008 15:21 BST
+  last_post_info: 'Re: Re: Mindstorms Stormrunner Game by orion'
+  name: Lego Discussion
+  post_count: 65
+  slug: lego_discussion
+  subcomment: Topics to do with using Lego to build robots, and robotic based contraptions
+  thread_count: 19
+  visits: 88452
+- href: tiki-view_forum.php?forumId=1
+  last_post_date: Sat 24 of Feb., 2007 16:36 GMT
+  last_post_info: Problem with forums posts by orion
+  name: Announcements
+  post_count: 26
+  slug: announcements
+  subcomment: Things we feel it is important that you know about
+  thread_count: 18
+  visits: 66854
+- href: tiki-view_forum.php?forumId=2
+  last_post_date: Tue 22 of Apr., 2008 20:02 BST
+  last_post_info: 'Re: I need help with first build by crazydiamond943'
+  name: Electronics
+  post_count: 18
+  slug: electronics
+  subcomment: Anything relating to the electronic engineering
+  thread_count: 7
+  visits: 60805
+- href: tiki-view_forum.php?forumId=7
+  last_post_date: Sat 09 of Oct., 2010 14:31 BST
+  last_post_info: 'Re: Was some thing lost in the face lift? by orion'
+  name: Site Feedback
+  post_count: 20
+  slug: site_feedback
+  subcomment: What are your thoughts on OrionRobots, how can it be improved?
+  thread_count: 6
+  visits: 58267
+- href: tiki-view_forum.php?forumId=6
+  last_post_date: Mon 31 of Dec, 2012 16:42 GMT
+  last_post_info: 'Re: Kurukshetra 2011 SCARA by orion'
+  name: Robot Market
+  post_count: 19
+  slug: robot_market
+  subcomment: This is where you can buy, sell, exchange or advertise your robot related
+    goods, sites and clubs. All posts here are queued & moderated.
+  thread_count: 10
+  visits: 53490
+- href: tiki-view_forum.php?forumId=11
+  last_post_date: Fri 14 of July, 2006 07:46 BST
+  last_post_info: Lacking Worm Gear by orion
+  name: VEX
+  post_count: 10
+  slug: vex
+  subcomment: Discussion of all things VEX - including the VEXplorer contest.
+  thread_count: 2
+  visits: 37613
+- href: tiki-view_forum.php?forumId=3
+  last_post_date: Thu 26 of Jan., 2012 15:33 GMT
+  last_post_info: 'Re: Re: help and advice by katia033'
+  name: Pneumatics & Hydraulics
+  post_count: 8
+  slug: pneumatics_hydraulics
+  subcomment: Forum for discussion relating to pneumatic or hydraulic systems
+  thread_count: 3
+  visits: 32501
+- href: tiki-view_forum.php?forumId=12
+  last_post_date: Sun 17 of Mar., 2013 22:09 GMT
+  last_post_info: Welcome to the Explorer 1 Forum - Forum Rules and introduction by
+    orion
+  name: Orion Explorer 1 Robot Kit
+  post_count: 1
+  slug: orion_explorer_1_robot_kit
+  subcomment: Discussion about the explorer 1 kit and related items!
+  thread_count: 1
+  visits: 0
+---
+
+<table class="table table-striped">
+<tr><th>Topic</th><th>Threads and Posts</th><th>Last Post</th></tr>
+{% for topic in page.topics %}
+    <tr>
+        <td><a href="{{ topic.slug }}">{{ topic.name }}</a> : {{ topic.subcomment }}</td>
+        <td>Threads: {{ topic.thread_count }}, Posts: {{ topic.post_count }}</td>
+        <td>{{ topic.last_post_info }} : {{ topic.last_post_date }}</td>
+    </tr>
+{% endfor %}
+</table>

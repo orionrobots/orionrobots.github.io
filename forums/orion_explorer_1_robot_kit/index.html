@@ -1,0 +1,25 @@
+---
+layout: default
+permalink: /forums/orion_explorer_1_robot_kit/index.html
+threads:
+- author: ''
+  href: tiki-view_forum_thread.php?comments_parentId=473
+  last_post_date: orion
+  name: Welcome to the Explorer 1 Forum - Forum Rules and introduction
+  posts: 0
+  reads: 3994
+  slug: welcome_to_the_explorer_1_forum_forum_rules_and_introduction
+  subcomment: ''
+title: Orion Explorer 1 Robot Kit
+---
+<h1>Discussion about the explorer 1 kit and related items!</h1>
+
+<table class="table table-striped">
+<tr><th>Thread</th><th>Started By</th><th>Replies</th></tr>
+{% for thread in page.threads %}
+    <tr>
+        <td><a href="{{ thread.slug }}">{{ thread.name }}</a><br />{{ thread.subcomment }}</td><td>{{ thread.author }}</td>
+        <td>{{ thread.posts }} posts. Last: {{ thread.last_post_date }}</td>
+    </tr>
+{% endfor %}
+</table>

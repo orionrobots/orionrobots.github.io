@@ -1,0 +1,179 @@
+---
+layout: default
+permalink: /forums/lego_discussion/help_with_adder_subtractor/index.html
+posts:
+- author: legofan106
+  content: '
+
+    <p>Hi all:
+
+    </p>
+
+    <p>I am trying to build the adder/subtractor robot listed at <a href="http://www.mapageweb.umontreal.ca/cousined/lego/1-Varia/Adder/adder.html">http://www.mapageweb.umontreal.ca/cousined/lego/1-Varia/Adder/adder.html</a>  and
+    run into a problem.
+
+    </p>
+
+    <p>I''ve checked many times and I believe I have it built properly.  When I apply
+    power to motor A (the A+B motor), the robot moves fairly straight backward and
+    forward (minus inaccuracies introduced by friction and weight inbalance).  But
+    when I apply power to motor B (the A-B motor), the robot won''t turn.  If I lift
+    the robot off the floor, the wheels turn and they turn in a manner you would expect
+    (one turns clockwise while the other turns counter-clockwise).  It appears the
+    motor is turning against a very large load if the robot is placed on solid ground.
+
+    </p>
+
+    <p>I can''t figure out why....
+
+    </p>
+
+    <p>I also looked at the one at <a href="http://orionrobots.co.uk/tiki-index.php?page=Adder+Subtractor+Drive">http://orionrobots.co.uk/tiki-index.php?page=Adder+Subtractor+Drive</a>
+    and I don''t see much difference there.
+
+    </p>
+
+    <p>
+
+    </p>
+
+    '
+  date: Thu 25 of May, 2006 20:26 BST
+- author: legofan106
+  content: '
+
+    <p>I''ve spent quite some time on this and to be honest, I am very disappointed
+    with the adder-subtractor configuration.  I have a hard time to balance things
+    out to make the robot move forward truly straight.  On top of that, the lateral
+    drag is really bad.  It can only work on a very smooth surface - and only after
+    I added a worm-gear assembly to do the driving.
+
+    </p>
+
+    <p>I tried using a pivot and that helps with the turning but the robot would have
+    a much harder time moving forward straight.
+
+    </p>
+
+    <p>I don''t have access to a set of balloon wheels.  You''d mentioned that one
+    can construct a holonomic wheel - using standard Mindstorms parts?
+
+    </p>
+
+    <p>If all else fails, I am thinking of using the adder-substractor assembly only
+    for moving forward-backward, and using the other motor to turn a front wheel like
+    the ones they use with tri-cycle drives.
+
+    </p>
+
+    '
+  date: Tue 06 of June, 2006 18:09 BST
+- author: legofan106
+  content: '
+
+    <p>Thanks for the answer Danny.
+
+    </p>
+
+    <p>What you said makes sense.   I do have a long rectangular construction (I placed
+    the RCX flat behind the gear rather then verticle like you did) and so may be
+    that''s why it''s dragging.  I wonder if it would work if the wheels pivots.
+
+    </p>
+
+    <p>Regarding the doubling, I was going to try a 1-to-2 split of the A-B motor
+    so that it can gang up with the A+B motor when it needs to drive straight.  But
+    I need to resolve the dragging problem first.
+
+    </p>
+
+    '
+  date: Fri 26 of May, 2006 00:12 BST
+- author: orion
+  content: '
+
+    <p>Hi Legofan,
+
+    </p>
+
+    <p>Actually, what you are seeing is what I would expect. The motor A should be
+    straight forward or back, and if you actually set motor B to brake (not float),
+    then the drive itself should iron out some of the weight imbalance, although veer
+    due to friction (or slip) cant be helped by the drive, and I use six wheels with
+    fat tyres to try and deal with that. Motor A is always the forward/reverse motor.
+    Now motor B is a bit different.
+
+    <br/>If you consider the outputs L and R, then (and this might be the other way
+    around depending on your design), output L is A + B, and output R is A - B. This
+    means that when you brake motor A, and power motor B, the wheels are expected
+    to turn in opposite directions.
+
+    </p>
+
+    <p>Now one problem I have encountered with any <a class="wiki wiki_page" href="Skid+Steering"
+    title="Skid Steering">Skid Steering</a> robot is that of wheel drag - you may
+    want to look at how close together the sides are, and how long the vehical is.
+    If it is too long and thing, the wheels will be creating lateral (sideways to
+    their running) friction - which is what may make it appear to be struggling against
+    a heavy load on a high friction surface. At this point, you need one of two things
+    - to change the robots geometry so the wheels are closer to a square than a rectangle,
+    or to use <a class="wiki wiki_page" href="Holonomic+Wheels" title="Holonomic Wheels">holonomic
+    wheels</a>, which cannot be bought from Lego, but can be constructed with a bit
+    of ingenuity.
+
+    </p>
+
+    <p>One thing I have been looking at at the moment is a nice way to double up the
+    A and B inputs to the system. My solution has been to use another diff on each
+    input, feeding two motors into a diff, and taking the diff output as an input
+    into the <a class="wiki wiki_page" href="Adder+Subtractor+Drive" title="Adder
+    Subtractor Drive">adder subtractor</a> inputs. This will compensate for the fact
+    that in a normal skid steer bot, two motors are hauling the load and in this it
+    is down to one to struggle along.
+
+    </p>
+
+    <p>Anyway, I hope this helps you out Legofan,
+
+    </p>
+
+    <p>Danny
+
+    </p>
+
+    '
+  date: Thu 25 of May, 2006 23:27 BST
+thread:
+  author: legofan106
+  href: tiki-view_forum_thread.php?comments_parentId=259&topics_offset=2
+  last_post_date: "Tue 06 of June, 2006 18:09 BST \n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\
+    \nRe: Help with Adder/Subtractor by legofan106"
+  name: Help with Adder/Subtractor
+  posts: 3
+  reads: 33223
+  slug: help_with_adder_subtractor
+  subcomment: ''
+title: Lego Discussion | Help with Adder/Subtractor
+topic:
+  href: tiki-view_forum.php?forumId=8
+  last_post_date: Sat 13 of Sep., 2008 15:21 BST
+  last_post_info: 'Re: Re: Mindstorms Stormrunner Game by orion'
+  name: Lego Discussion
+  post_count: 65
+  slug: lego_discussion
+  subcomment: Topics to do with using Lego to build robots, and robotic based contraptions
+  thread_count: 19
+  visits: 88452
+---
+<table class="table table-striped">
+{% for post in page.posts %}
+    <tr>
+        <td>
+            <div class="text-muted">By {{ post.author }} on {{ post.date }}</div>
+            <div class="post_content">{{ post.content }}</div>
+        </td>
+    </tr>
+{% endfor %}
+</table>
+
+<div class="alert alert-info">These forums are no longer open. Please use my Facebook, Twitter or Youtube channels to ask questions.</div>

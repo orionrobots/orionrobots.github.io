@@ -1,0 +1,95 @@
+---
+layout: default
+permalink: /forums/pneumatics_hydraulics/pneumatic_forces/index.html
+posts:
+- author: Anonymous
+  content: '
+
+    <p>I want to use a Pneumatic (not Hydraulic) system in a lifting application.
+    If the internal circumfrence and full extent (capacity) of a cylinder is given,
+    how could I calculate the pressure needed to lift a given weight?
+
+    </p>
+
+    <p>How would I best go about controlling such a device so I could program it to
+    lift items to a certain height and then stop lifting - given that the height may
+    not be the maximum extent of said cylinder?
+
+    </p>
+
+    <p>Thanks
+
+    </p>
+
+    '
+  date: Fri 18 of Mar., 2005 13:55 GMT
+- author: orion
+  content: '
+
+    <p>Good question. Now I will get back to you on the calculations, but the program
+    is an interesting one.
+
+    </p>
+
+    <p>Assuming you are using some kind of Micro Controller<a class="wiki wikinew"
+    href="tiki-editpage.php?page=Micro+Controller" title="Create page: Micro Controller">?</a>,
+    you could use a sensor to detect the position of the lifting arm - either a rotation
+    sensor (if your arm is a jointed kind) or a distance sensor if the arm moves in
+    a linear/parallel way (like a fork lift).
+
+    </p>
+
+    <p>You would then monitor this sensor, and use the feedback from this to control
+    the <a class="wiki wiki_page" href="Solenoid" title="Solenoid">solenoid</a> assuming
+    you are using solenoids. If the cylinder is double acting - this feedback can
+    be used to manouvre the arm into the right position.
+
+    </p>
+
+    <p>I imagine there are variable pressure valves for fine manouvering, although
+    they may be expensive and difficult to find. However - I have been working on
+    building one of these (at Lego scales - but could be scaled up) with commonly
+    available parts - and will eventually be selling these through ebay and the site.
+
+    </p>
+
+    <p>Orion
+
+    </p>
+
+    '
+  date: Fri 18 of Mar., 2005 15:38 GMT
+thread:
+  author: Anonymous
+  href: tiki-view_forum_thread.php?comments_parentId=84&topics_offset=2
+  last_post_date: "Fri 18 of Mar., 2005 15:38 GMT \n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\
+    \nRe: Pneumatic Forces by orion"
+  name: Pneumatic Forces
+  posts: 1
+  reads: 25872
+  slug: pneumatic_forces
+  subcomment: ''
+title: Pneumatics & Hydraulics | Pneumatic Forces
+topic:
+  href: tiki-view_forum.php?forumId=3
+  last_post_date: Thu 26 of Jan., 2012 15:33 GMT
+  last_post_info: 'Re: Re: help and advice by katia033'
+  name: Pneumatics & Hydraulics
+  post_count: 8
+  slug: pneumatics_hydraulics
+  subcomment: Forum for discussion relating to pneumatic or hydraulic systems
+  thread_count: 3
+  visits: 32501
+---
+<table class="table table-striped">
+{% for post in page.posts %}
+    <tr>
+        <td>
+            <div class="text-muted">By {{ post.author }} on {{ post.date }}</div>
+            <div class="post_content">{{ post.content }}</div>
+        </td>
+    </tr>
+{% endfor %}
+</table>
+
+<div class="alert alert-info">These forums are no longer open. Please use my Facebook, Twitter or Youtube channels to ask questions.</div>

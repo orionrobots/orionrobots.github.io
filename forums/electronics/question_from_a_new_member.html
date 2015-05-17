@@ -1,0 +1,183 @@
+---
+layout: default
+permalink: /forums/electronics/question_from_a_new_member/index.html
+posts:
+- author: orion
+  content: '
+
+    <p>A recently registered user messaged me with a question, which we thought might
+    be better placed on the forums, along with my responses.
+
+    </p>
+
+    <div class="simplebox">
+
+    <p>Hello
+
+    <br/>Thanks for accepting my registration.
+
+    <br/>I enjoyed your site very much as my main interest is in robotics.
+
+    <br/>I am an electronics technician, and have been teaching myself C++ and Assembly
+    so that I can program my robot with code for various tasks.
+
+    </p>
+
+    </div>
+
+    <p>
+
+    <br/>Given the small memory footprint, C may be worth learning, but if you are
+    after something that makes more sense to an electronics engineer, you may find
+    the <a class="wiki wiki_page" href="OOPic" title="OOPic">ooPIC</a> worth a look,
+    especially the "virtual circuits" concept it uses. Plus as it comes with objects
+    designed to control servo''s, and on the boards plugs designed to accept them,
+    as well as dealing with <a class="wiki wiki_page" href="PWM" title="Pulse Width
+    Modulation">PWM</a>, <a class="wiki wiki_page" href="I2C" title="Inter Integrated
+    Circuit bus">I2C</a> and a myriad of interfacing systems, it may be a tad easier
+    than trying to roll your own all the way.
+
+    </p>
+
+    <div class="simplebox">
+
+    <p>As I have surplus Z80 CPUs and 2764 EPROMS, I have been trying to design a
+    microcontroller using these components, instead of using dedicated microcontrollers,
+    such as PIC and others.
+
+    </p>
+
+    </div>
+
+    <p>
+
+    <br/>This shouldnt be a problem, but you will have to consider what you might
+    need to add systems in for IO. You are not going to want to simply wire motors,
+    sensors etc directly into the bus, and probably want some sort of chip just to
+    give you the ports. There are however, chips in the Z80 family which work as single
+    chip microcontrollers<a class="wiki wikinew" href="tiki-editpage.php?page=microcontrollers"
+    title="Create page: microcontrollers">?</a> with the digital<a class="wiki wikinew"
+    href="tiki-editpage.php?page=digital" title="Create page: digital">?</a> and analogue<a
+    class="wiki wikinew" href="tiki-editpage.php?page=analogue" title="Create page:
+    analogue">?</a> IO on board. You would also have to program things like <a class="wiki
+    wiki_page" href="PWM" title="Pulse Width Modulation">PWM</a> control for motors/servos,
+    but you may find that there is library code online to help you there.
+
+    </p>
+
+    <div class="simplebox">
+
+    <p>I have found it quite a challenge to learn assemly, and although learning the
+    rudimentaries, it is another thing to apply this knowledge to programming an EPROM
+    and writing code for these components.
+
+    <br/>Do you think I may be better off investing in applying my efforts to using
+    a PIC or other microcontoller?
+
+    </p>
+
+    </div>
+
+    <p>
+
+    <br/>Okay - I would say to learn what you are comfortable with. Having a surplus
+    of a particular component can be a good reason to put it to use, but what you
+    may find, if the particular die and layout of Z80''s you have do not actually
+    have the IO, that you end up adding in an MCU anyway.  Maybe you could take a
+    look here: <a class="wiki external" href="http://www.z80.info/" rel="external">http://www.z80.info/</a>
+
+    </p>
+
+    <div class="simplebox">
+
+    <p>I enjoy learning programming, and as an electonics technician, the physical
+    construction will be relatively easier than writing code and programming the 2764
+    EPROM.
+
+    <br/>My ultimate goal is to construct an underwater robot for exploration.
+
+    </p>
+
+    </div>
+
+    <p>
+
+    <br/>Ah - I have had some fun myself doing underwater bots, the linkages can get
+    quite interesting.
+
+    </p>
+
+    <div class="simplebox">
+
+    <p>Once again, do you think a PIC will be a lot easier for robot control?
+
+    </p>
+
+    </div>
+
+    <p>
+
+    <br/>I think the ooPIC would be by far the easiest device, but even a PIC will
+    probably be significantly easier to interface with than a basic Z80.
+
+    </p>
+
+    <div class="simplebox">
+
+    <p>Is using a Z80 and 2764 overkill for robot control?
+
+    <br/>I''d appreciate your feedback. Thanks
+
+    <br/>ozwired
+
+    </p>
+
+    </div>
+
+    <p>Overkill is not really the correct word, its more just design for purpose.
+    Z80 is a more general purpose processor, which has embedded applications but does
+    not AFAIK come with built in''s designed for robotics and similar control engineering
+    projects. However, I think there may be some Z80 based packages which do have
+    those things. Exactly which do you have in your surplus?
+
+    </p>
+
+    <p>Danny
+
+    </p>
+
+    '
+  date: Sun 07 of May, 2006 18:21 BST
+thread:
+  author: orion
+  href: tiki-view_forum_thread.php?comments_parentId=258&topics_offset=1
+  last_post_date: Sun 07 of May, 2006 18:21 BST
+  name: Question from a new member
+  posts: 0
+  reads: 18999
+  slug: question_from_a_new_member
+  subcomment: Using Z80 and a 2764 EPROM.
+title: Electronics | Question from a new member
+topic:
+  href: tiki-view_forum.php?forumId=2
+  last_post_date: Tue 22 of Apr., 2008 20:02 BST
+  last_post_info: 'Re: I need help with first build by crazydiamond943'
+  name: Electronics
+  post_count: 18
+  slug: electronics
+  subcomment: Anything relating to the electronic engineering
+  thread_count: 7
+  visits: 60805
+---
+<table class="table table-striped">
+{% for post in page.posts %}
+    <tr>
+        <td>
+            <div class="text-muted">By {{ post.author }} on {{ post.date }}</div>
+            <div class="post_content">{{ post.content }}</div>
+        </td>
+    </tr>
+{% endfor %}
+</table>
+
+<div class="alert alert-info">These forums are no longer open. Please use my Facebook, Twitter or Youtube channels to ask questions.</div>

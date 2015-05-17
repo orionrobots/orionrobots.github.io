@@ -1,0 +1,101 @@
+---
+layout: default
+permalink: /forums/lego_discussion/robotic_telescope/index.html
+posts:
+- author: Anonymous
+  content: '
+
+    <p>I want to build a robotic model telescope like the one used by the National
+    Schools Observatory.  I''d like to connect it up to an RCX box for ratation, tilt
+    but not viewing through!
+
+    </p>
+
+    <p>Any ideas?  Its for UK National Science Week in March
+
+    </p>
+
+    '
+  date: Thu 24 of Feb., 2005 11:39 GMT
+- author: orion
+  content: '
+
+    <p>After reading a little, it is worth being aware of the fact that the RCX clock
+    has some significant drift, and may require some correction. Sadly - this varies
+    between RCX''s.
+
+    </p>
+
+    <p>You are advised to set the RCX clock, and then check it around 10 hours later
+    to calibrate that drift.
+
+    </p>
+
+    <p>I would also additionally mention that you should probably use worm gears for
+    the turntables to ensure that they dont get easily knocked off course. You could
+    then have a touch sensor along each of the axes triggered by a tooth of some kind
+    so it could position itself in a startup position. This could also be acheived
+    with two rotation sensors - but the touch sensors are much simpler and cheaper.
+
+    </p>
+
+    <p>Anyway - did you actually manage to build one? We would love to see it.
+
+    </p>
+
+    '
+  date: Wed 04 of May, 2005 16:34 BST
+- author: orion
+  content: '
+
+    <p>I would suggest using a large <a class="wiki wiki_page" href="Lego" title="The
+    best known construction toy">Lego</a> Turntable to mount it on, and building a
+    technic beam frame around the telescope itself (to mount it). For elevation, I
+    would suggest using two large technic gears mounted under the frame, with an axle
+    connecting them to the chassis, and a motor with a fairly large gear reduction
+    for both rotation and elevation.
+
+    </p>
+
+    <p>If you were really sneaky, you could use the RCX''s built in clock to track
+    an object, or light sensors. Let us know how you go, here is a great place to
+    put photos and log your build.
+
+    </p>
+
+    '
+  date: Thu 24 of Feb., 2005 11:42 GMT
+thread:
+  author: Anonymous
+  href: tiki-view_forum_thread.php?comments_parentId=46&topics_offset=10
+  last_post_date: "Wed 04 of May, 2005 16:34 BST \n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\
+    Re: Robotic Telescope by orion"
+  name: Robotic Telescope
+  posts: 2
+  reads: 19761
+  slug: robotic_telescope
+  subcomment: ''
+title: Lego Discussion | Robotic Telescope
+topic:
+  href: tiki-view_forum.php?forumId=8
+  last_post_date: Sat 13 of Sep., 2008 15:21 BST
+  last_post_info: 'Re: Re: Mindstorms Stormrunner Game by orion'
+  name: Lego Discussion
+  post_count: 65
+  slug: lego_discussion
+  subcomment: Topics to do with using Lego to build robots, and robotic based contraptions
+  thread_count: 19
+  visits: 88452
+---
+<table class="table table-striped">
+{% for post in page.posts %}
+    <tr>
+        <td>
+            <div class="text-muted">By {{ post.author }} on {{ post.date }}</div>
+            <div class="post_content">{{ post.content }}</div>
+        </td>
+    </tr>
+{% endfor %}
+</table>
+
+<div class="alert alert-info">These forums are no longer open. Please use my Facebook, Twitter or Youtube channels to ask questions.</div>

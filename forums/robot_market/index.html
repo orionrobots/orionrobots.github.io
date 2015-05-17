@@ -1,0 +1,104 @@
+---
+layout: default
+permalink: /forums/robot_market/index.html
+threads:
+- author: orion
+  href: tiki-view_forum_thread.php?comments_parentId=190
+  last_post_date: Thu 14 of July, 2005 14:29 BST
+  name: Forum Charter
+  posts: 0
+  reads: 19102
+  slug: forum_charter
+  subcomment: How to use the robot market
+- author: abirajan
+  href: tiki-view_forum_thread.php?comments_parentId=448&topics_offset=1
+  last_post_date: Thu 16 of Dec, 2010 14:20 GMT
+  name: Kurukshetra 2011 Mobile Robotics
+  posts: 0
+  reads: 10670
+  slug: kurukshetra_2011_mobile_robotics
+  subcomment: Robotics Workshop
+- author: abirajan
+  href: tiki-view_forum_thread.php?comments_parentId=447&topics_offset=2
+  last_post_date: "Mon 31 of Dec, 2012 16:42 GMT \n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\
+    Re: Kurukshetra 2011 SCARA by orion"
+  name: Kurukshetra 2011 SCARA
+  posts: 1
+  reads: 12411
+  slug: kurukshetra_2011_scara
+  subcomment: Robotics Workshop
+- author: Amos99
+  href: tiki-view_forum_thread.php?comments_parentId=436&topics_offset=3
+  last_post_date: "Tue 19 of Oct., 2010 20:00 BST \n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\
+    \nRe: Robot Resource Diretory by slurp"
+  name: Robot Resource Diretory
+  posts: 2
+  reads: 11524
+  slug: robot_resource_diretory
+  subcomment: Free eBook
+- author: gimsonrobotics
+  href: tiki-view_forum_thread.php?comments_parentId=279&topics_offset=4
+  last_post_date: "Sun 21 of Jan., 2007 00:02 GMT \n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\
+    \nRe: Gimson Robotics Online Store by orion"
+  name: Gimson Robotics Online Store
+  posts: 1
+  reads: 21505
+  slug: gimson_robotics_online_store
+  subcomment: UK based store for many of your robotics and engineering needs
+- author: henryfoole
+  href: tiki-view_forum_thread.php?comments_parentId=242&topics_offset=5
+  last_post_date: "Fri 10 of Mar., 2006 17:02 GMT \n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\
+    \nRe: Retro Robots by orion"
+  name: Retro Robots
+  posts: 1
+  reads: 21689
+  slug: retro_robots
+  subcomment: ''
+- author: Anonymous
+  href: tiki-view_forum_thread.php?comments_parentId=192&topics_offset=6
+  last_post_date: "Mon 18 of July, 2005 13:13 BST \n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\
+    \nRe: Gumstix Linux Machine by orion"
+  name: Gumstix Linux Machine
+  posts: 1
+  reads: 22225
+  slug: gumstix_linux_machine
+  subcomment: Gumstix Waysmall200ax For Sale
+- author: Anonymous
+  href: tiki-view_forum_thread.php?comments_parentId=153&topics_offset=7
+  last_post_date: "Fri 17 of June, 2005 22:24 BST \n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\
+    \nRe: REQUEST FOR PARTS by orion"
+  name: REQUEST FOR PARTS
+  posts: 1
+  reads: 21727
+  slug: request_for_parts
+  subcomment: ''
+- author: Anonymous
+  href: tiki-view_forum_thread.php?comments_parentId=92&topics_offset=8
+  last_post_date: Fri 01 of Apr., 2005 17:47 BST
+  name: 'EVENT, Uk: XFM Featherweight Challenge'
+  posts: 0
+  reads: 19929
+  slug: event_uk_xfm_featherweight_challenge
+  subcomment: Robotic Combat Events in the South
+- author: orion
+  href: tiki-view_forum_thread.php?comments_parentId=26&topics_offset=9
+  last_post_date: "Tue 24 of May, 2005 17:57 BST \n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\
+    Re: Robot Builders Required by orion"
+  name: Robot Builders Required
+  posts: 1
+  reads: 20420
+  slug: robot_builders_required
+  subcomment: Robot builders, experienced or new required in North London
+title: Robot Market
+---
+<h1>This is where you can buy, sell, exchange or advertise your robot related goods, sites and clubs. All posts here are queued & moderated.</h1>
+
+<table class="table table-striped">
+<tr><th>Thread</th><th>Started By</th><th>Replies</th></tr>
+{% for thread in page.threads %}
+    <tr>
+        <td><a href="{{ thread.slug }}">{{ thread.name }}</a><br />{{ thread.subcomment }}</td><td>{{ thread.author }}</td>
+        <td>{{ thread.posts }} posts. Last: {{ thread.last_post_date }}</td>
+    </tr>
+{% endfor %}
+</table>

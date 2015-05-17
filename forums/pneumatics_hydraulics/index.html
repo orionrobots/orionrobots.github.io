@@ -1,0 +1,45 @@
+---
+layout: default
+permalink: /forums/pneumatics_hydraulics/index.html
+threads:
+- author: Anonymous
+  href: tiki-view_forum_thread.php?comments_parentId=178
+  last_post_date: "Thu 26 of Jan., 2012 15:33 GMT \n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\
+    \nRe: Re: help and advice by katia033"
+  name: help and advice
+  posts: 2
+  reads: 21760
+  slug: help_and_advice
+  subcomment: hi, i work in an art gallery in cambridge heath and am looking for someone
+    who can advise on basic hydraulilcs
+- author: Anonymous
+  href: tiki-view_forum_thread.php?comments_parentId=98&topics_offset=1
+  last_post_date: "Tue 05 of Apr., 2005 13:24 BST \n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\
+    \nRe: Links to Pneumatic by Anonymous"
+  name: Links to Pneumatic
+  posts: 2
+  reads: 23485
+  slug: links_to_pneumatic
+  subcomment: Looking for links to Pnuematic
+- author: Anonymous
+  href: tiki-view_forum_thread.php?comments_parentId=84&topics_offset=2
+  last_post_date: "Fri 18 of Mar., 2005 15:38 GMT \n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\
+    \nRe: Pneumatic Forces by orion"
+  name: Pneumatic Forces
+  posts: 1
+  reads: 25872
+  slug: pneumatic_forces
+  subcomment: ''
+title: Pneumatics & Hydraulics
+---
+<h1>Forum for discussion relating to pneumatic or hydraulic systems</h1>
+
+<table class="table table-striped">
+<tr><th>Thread</th><th>Started By</th><th>Replies</th></tr>
+{% for thread in page.threads %}
+    <tr>
+        <td><a href="{{ thread.slug }}">{{ thread.name }}</a><br />{{ thread.subcomment }}</td><td>{{ thread.author }}</td>
+        <td>{{ thread.posts }} posts. Last: {{ thread.last_post_date }}</td>
+    </tr>
+{% endfor %}
+</table>

@@ -1,0 +1,42 @@
+---
+layout: default
+permalink: /forums/announcements/problem_with_forums_posts/index.html
+posts:
+- author: orion
+  content: "\n\tCreating new forum topics on some forums seems to be playing up. We\
+    \ are aware of the issue and are investigating it. Please ignore test posts which\
+    \ may pop up here.\n\n\t\n"
+  date: Sat 24 of Feb., 2007 16:36 GMT
+thread:
+  author: orion
+  href: tiki-view_forum_thread.php?comments_parentId=293
+  last_post_date: Sat 24 of Feb., 2007 16:36 GMT
+  name: Problem with forums posts
+  posts: 0
+  reads: 17609
+  slug: problem_with_forums_posts
+  subcomment: Some problems are occuring with creating new forum topics
+title: Announcements | Problem with forums posts
+topic:
+  href: tiki-view_forum.php?forumId=1
+  last_post_date: Sat 24 of Feb., 2007 16:36 GMT
+  last_post_info: Problem with forums posts by orion
+  name: Announcements
+  post_count: 26
+  slug: announcements
+  subcomment: Things we feel it is important that you know about
+  thread_count: 18
+  visits: 66854
+---
+<table class="table table-striped">
+{% for post in page.posts %}
+    <tr>
+        <td>
+            <div class="text-muted">By {{ post.author }} on {{ post.date }}</div>
+            <div class="post_content">{{ post.content }}</div>
+        </td>
+    </tr>
+{% endfor %}
+</table>
+
+<div class="alert alert-info">These forums are no longer open. Please use my Facebook, Twitter or Youtube channels to ask questions.</div>

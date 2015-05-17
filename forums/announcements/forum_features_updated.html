@@ -1,0 +1,59 @@
+---
+layout: default
+permalink: /forums/announcements/forum_features_updated/index.html
+posts:
+- author: orion
+  content: '
+
+    <p>We spotted an annoying "feature" in our forums, which meant threads were getting
+    displayed in a reverse order. I apologise for this confusion, and have now updated
+    it so they go in proper order.
+
+    </p>
+
+    <p>I have also re-enabled anonymous posting on comments - to <a href="tiki-index.php"
+    rel="">wiki pages</a>, and the <a href="tiki-list_blogs.php" rel="">blogs</a>.
+    <a href="tiki-forums.php" rel="">Forum</a> messages are still queued. So please
+    let us know what you think or ask about building your own robots!
+
+    </p>
+
+    <p>Orion
+
+    </p>
+
+    '
+  date: Wed 08 of June, 2005 20:44 BST
+thread:
+  author: orion
+  href: tiki-view_forum_thread.php?comments_parentId=150&topics_offset=10
+  last_post_date: Wed 08 of June, 2005 20:44 BST
+  name: Forum features updated
+  posts: 0
+  reads: 15195
+  slug: forum_features_updated
+  subcomment: ''
+title: Announcements | Forum features updated
+topic:
+  href: tiki-view_forum.php?forumId=1
+  last_post_date: Sat 24 of Feb., 2007 16:36 GMT
+  last_post_info: Problem with forums posts by orion
+  name: Announcements
+  post_count: 26
+  slug: announcements
+  subcomment: Things we feel it is important that you know about
+  thread_count: 18
+  visits: 66854
+---
+<table class="table table-striped">
+{% for post in page.posts %}
+    <tr>
+        <td>
+            <div class="text-muted">By {{ post.author }} on {{ post.date }}</div>
+            <div class="post_content">{{ post.content }}</div>
+        </td>
+    </tr>
+{% endfor %}
+</table>
+
+<div class="alert alert-info">These forums are no longer open. Please use my Facebook, Twitter or Youtube channels to ask questions.</div>

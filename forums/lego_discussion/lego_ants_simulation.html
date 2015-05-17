@@ -1,0 +1,128 @@
+---
+layout: default
+permalink: /forums/lego_discussion/lego_ants_simulation/index.html
+posts:
+- author: orion
+  content: '
+
+    <p>I have recently been discussing building a colony of RCX or spybotics based
+    ants. I am wandering what ideas people here may have.
+
+    </p>
+
+    <p>What I intend is to use an RCX or Spybotics control for a base station, and
+    have it broadcast a simple repeating message - to say I am here. Then to dot a
+    few of these at some distance from this to represent food. To keep a fairly narrow
+    area for this, I will probably build a structure with this pointing downwards.
+
+    </p>
+
+    <p>The actual ant bots will probably be simple rovers, with a pen at the rear
+    (always down) and a light sensor set up for line following at the front. We need
+    to make sure that the ir transceiver is visible, and incorporate a simple bumper.
+    This is well within the capabillities of a spybot (with thier built in sensor)
+    which are much cheaper that the RCX.
+
+    </p>
+
+    <p>The program will use a random number system to pick out a path, and when another
+    line is encountered may choose to follow it. It will keep track of the amount
+    of food (a simple decrementing register) it has, and stop if it has run out. When
+    it has a lot of food - it will seek its base, otherwise it will seek more food.
+    If an ant encounters one without food it can instruct the "dead" bot to follow
+    it back to base and start again - where it will use stored food in the base to
+    revive itself (another counter).  Back to base normally will mean to turn roughly
+    180, and look for the line. If we want to be clever - we could position the pen
+    so it is very close to the center of the turning circle - which would save confusion.
+
+    </p>
+
+    <p>The bumper behavour could be a simple back off, and turn left or right (randomly
+    determined again).
+
+    </p>
+
+    <p>For the pen ink, we need to try and find some ink that fades away after about
+    20 minutes, and a good reflective surface.
+
+    </p>
+
+    <p>This experiment would result in interesting behaviour - and would be best filmed
+    in controlled lighting conditions to minimise the IR interference.
+
+    </p>
+
+    <p>If RCX''s are used - a motor could be used to raise the pen when an ant has
+    run out of food. This could be acheived with the Spybot, by having a clutch gear
+    based system opposing a suspension spring. The clutch gear system, when enough
+    forward motion is present, would lower the pen - so the line would be drawn, and
+    when there is not enough forward motion, then the pen would be raised. This could
+    simplify the "dead" behaviour - in that instead of waiting for a mate, it slows
+    down, and "limps" back towards its base - still trying to follow lines. This would
+    mean the errant path is not re-drawn and will fade sooner - optimizing the whole
+    emergent system.
+
+    </p>
+
+    <p>Anyway - its up for discussion - do you have any ideas for this? I would like
+    to keep it all Lego - bar the pen and surface. I am thinking of leaving it a few
+    days and trying about 10-20 ants.
+
+    </p>
+
+    '
+  date: Tue 24 of May, 2005 13:41 BST
+- author: Anonymous
+  content: '
+
+    <p>Another thought on this would be to add in "predator" or competing ants. This
+    would complicate the simulation - but would mean having another "nest" for the
+    predators/theives - who would (using a different kind of line or  something) lay
+    their own pheremone trails (the lines) which the ants cant read, read the ants
+    trails, and then go and feed off of ants by going close to them, and using messages
+    to increment their food count while reducing that of their victim.
+
+    </p>
+
+    <p>A victim would again end up limping back, and therefore there would be an emergent
+    tendancy (hopefully) in the ants to take a route avoiding the predators. The predators
+    would probably tend to attack both the nest areas, and feeding areas of the ants.
+
+    </p>
+
+    '
+  date: Tue 24 of May, 2005 17:14 BST
+thread:
+  author: orion
+  href: tiki-view_forum_thread.php?comments_parentId=124&topics_offset=8
+  last_post_date: "Tue 24 of May, 2005 17:14 BST \n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\
+    Re: Lego Ants Simulation by Anonymous"
+  name: Lego Ants Simulation
+  posts: 1
+  reads: 16618
+  slug: lego_ants_simulation
+  subcomment: ''
+title: Lego Discussion | Lego Ants Simulation
+topic:
+  href: tiki-view_forum.php?forumId=8
+  last_post_date: Sat 13 of Sep., 2008 15:21 BST
+  last_post_info: 'Re: Re: Mindstorms Stormrunner Game by orion'
+  name: Lego Discussion
+  post_count: 65
+  slug: lego_discussion
+  subcomment: Topics to do with using Lego to build robots, and robotic based contraptions
+  thread_count: 19
+  visits: 88452
+---
+<table class="table table-striped">
+{% for post in page.posts %}
+    <tr>
+        <td>
+            <div class="text-muted">By {{ post.author }} on {{ post.date }}</div>
+            <div class="post_content">{{ post.content }}</div>
+        </td>
+    </tr>
+{% endfor %}
+</table>
+
+<div class="alert alert-info">These forums are no longer open. Please use my Facebook, Twitter or Youtube channels to ask questions.</div>

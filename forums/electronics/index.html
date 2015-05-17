@@ -1,0 +1,79 @@
+---
+layout: default
+permalink: /forums/electronics/index.html
+threads:
+- author: crazydiamond943
+  href: tiki-view_forum_thread.php?comments_parentId=332
+  last_post_date: "Tue 22 of Apr., 2008 20:02 BST \n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\
+    \nRe: I need help with first build by crazydiamond943"
+  name: I need help with first build
+  posts: 2
+  reads: 26511
+  slug: i_need_help_with_first_build
+  subcomment: I need to decide on motors/servos
+- author: orion
+  href: tiki-view_forum_thread.php?comments_parentId=258&topics_offset=1
+  last_post_date: Sun 07 of May, 2006 18:21 BST
+  name: Question from a new member
+  posts: 0
+  reads: 18999
+  slug: question_from_a_new_member
+  subcomment: Using Z80 and a 2764 EPROM.
+- author: mat01
+  href: tiki-view_forum_thread.php?comments_parentId=228&topics_offset=2
+  last_post_date: "Mon 13 of Feb., 2006 18:33 GMT \n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\
+    \nRe: Cheap PICS, GPS etc by mat01"
+  name: Cheap PICS, GPS etc
+  posts: 2
+  reads: 26200
+  slug: cheap_pics_gps_etc
+  subcomment: ''
+- author: orion
+  href: tiki-view_forum_thread.php?comments_parentId=176&topics_offset=3
+  last_post_date: "Wed 13 of July, 2005 23:25 BST \n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\
+    \nRe: Preferred Microcontrollers by Anonymous"
+  name: Preferred Microcontrollers
+  posts: 2
+  reads: 30161
+  slug: preferred_microcontrollers
+  subcomment: What are your preferred microcontrollers?
+- author: Anonymous
+  href: tiki-view_forum_thread.php?comments_parentId=105&topics_offset=4
+  last_post_date: "Tue 12 of Apr., 2005 19:52 BST \n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\
+    \nRe: 12vdc by slurp"
+  name: 12vdc
+  posts: 1
+  reads: 24445
+  slug: 12vdc
+  subcomment: serial controlled 16 switches either on or off for 12vdc
+- author: Anonymous
+  href: tiki-view_forum_thread.php?comments_parentId=51&topics_offset=5
+  last_post_date: "Sun 10 of Apr., 2005 14:25 BST \n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\
+    \nRe: small motors by orion"
+  name: small motors
+  posts: 2
+  reads: 26201
+  slug: small_motors
+  subcomment: ''
+- author: FF22
+  href: tiki-view_forum_thread.php?comments_parentId=35&topics_offset=6
+  last_post_date: "Thu 24 of Feb., 2005 11:50 GMT \n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\
+    \nRe: Need opinions on this robot controller system by Anonymous"
+  name: Need opinions on this robot controller system
+  posts: 2
+  reads: 30621
+  slug: need_opinions_on_this_robot_controller_system
+  subcomment: ''
+title: Electronics
+---
+<h1>Anything relating to the electronic engineering</h1>
+
+<table class="table table-striped">
+<tr><th>Thread</th><th>Started By</th><th>Replies</th></tr>
+{% for thread in page.threads %}
+    <tr>
+        <td><a href="{{ thread.slug }}">{{ thread.name }}</a><br />{{ thread.subcomment }}</td><td>{{ thread.author }}</td>
+        <td>{{ thread.posts }} posts. Last: {{ thread.last_post_date }}</td>
+    </tr>
+{% endfor %}
+</table>
