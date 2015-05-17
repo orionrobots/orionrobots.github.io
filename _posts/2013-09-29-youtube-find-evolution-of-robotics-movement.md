@@ -5,7 +5,9 @@ tags: [robot, robotics]
 ---
 Some of the current trends in robot locomotion and movement are astounding.This video captures the last decade in robotics in half an hour with lots of different cool stuff from labs all over.
 
+<div class="embed-responsive embed-responsive-16by9">
 <iframe width="560" height="315" src="//www.youtube.com/embed/YSdKPxrY_gw" frameborder="0" allowfullscreen="allowfullscreen"> </iframe>
+</div>
 
 The quadcopters are amazing - at the PyCon event there was some really fun stuff done using Raspberry Pi's and quadcopters. They are much harder to code for, but fun to watch in action.
 

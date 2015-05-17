@@ -3,7 +3,7 @@ layout: post
 title: Robot Kits - Gifts For Kids Guide 2011
 tags: [robots, robot building, gift guide, kids, education, lego]
 ---
-![The Cybot, Hyper peppy robot, and a Lego Mindstorms robot. Currently the Cybot is being tweaked.](/galleries/2011-03-12-robot-kits-for-kids-2011/4200652_f260.jpg)
+![The Cybot, Hyper peppy robot, and a Lego Mindstorms robot. Currently the Cybot is being tweaked.](/galleries/2011-03-12-robot-kits-for-kids-2011/4200652_f260.jpg){:class="img-responsive"}
 
 # What can you buy for a robot enthusiast?
 
@@ -25,13 +25,13 @@ For kids younger than about 15, soldering is very much off limits. So these kits
 
 # Lego
 
-![Lego Technic Truck](/galleries/2011-03-12-robot-kits-for-kids-2011/4206489_f120.jpg)
+![Lego Technic Truck](/galleries/2011-03-12-robot-kits-for-kids-2011/4206489_f120.jpg){:class="img-responsive"}
 
 Lego is superb robot building material. It doesn't require a screwdriver, and never requires soldering either, so makes for quite a good experience. It is however fairly sophisticated, covering most robot topics fairly well, including electronics, pneumatics, programming, structures, gears and more. 
 
 What's more, while being educational, it is really good fun, and kids really do love Lego.
 
-![An NXT based robot arm lifting a ball.](/galleries/2011-03-12-robot-kits-for-kids-2011/4200663_f520.jpg)
+![An NXT based robot arm lifting a ball.](/galleries/2011-03-12-robot-kits-for-kids-2011/4200663_f520.jpg){:class="img-responsive"}
 
 # The Rest of the Lego Mindstorms Range
 
@@ -41,7 +41,7 @@ My robot club built some great robots using the Bionacle Manas sets. Another gre
 
 # The Lego Bionicle Manas - Simple Robotics Bases
 
-![](/galleries/2011-03-12-robot-kits-for-kids-2011/140.jpg)
+![](/galleries/2011-03-12-robot-kits-for-kids-2011/140.jpg){:class="img-responsive"}
 
 Bionicle was a Lego Technic range, now superseded by the Lego hero Factory, which had mostly inexpensive sets from which robot hero's could be made, and robot villains. They occupied an island with robotic looking tribal acolytes for each different hero, representing different elements or aspects - those of fire, earth, water, ice and jungle. They had masks of power which were collectible sets, intended to be a little like trading cards. Lego also had extensive gaming on their site, and there has been at least one cinematic length movie. The sets often contained custom one off pieces or rarities - which could either be seen as a cop-out in not making it out of real Lego, or a gold mine for great unusual pieces to use. I saw the range as the latter!
 

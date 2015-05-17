@@ -18,7 +18,7 @@ She knew a bit about importing the turtle rules, making a turtle (call it t), te
     
 I started by drawing a simple circle on a sheet of paper, divided into 4, with numbers 0, 90, 180, 270 and 360. I explained that like a clock, this goes round, we went clockwise for the example, and that 360 goes all the way. 
 
-![Circle divided with angles]({{ page.gallery }}/cutting_the_circle.png){: width="100%"}
+![Circle divided with angles]({{ page.gallery }}/cutting_the_circle.png){: class="img-responsive"}
 
 We were able to then type it into the turtle and she could see it doing so:
 
@@ -36,7 +36,7 @@ In code, I was able to define this too:
     
 Note for adults - this is a floating point to avoid rounding errors and turtles not quite ending up in the right place - if you try a 7 sided shape on screen, or 7 turns you will need this.
 
-![A square in a circle]({{ page.gallery }}/square.png){: width="100%"}
+![A square in a circle]({{ page.gallery }}/square.png){: class="img-responsive"}
 
 I then asked her how far around the circle it took to get to this opposite point - can you "cut" or "half" the circle - she gave a nice clear yes. I then pointed out the corner between them - the corner clockwise from a starting point. She now said it was a quarter of a circle. I then drew a line out from the corner, and dropped a quarter circle from it down to the line below - the way a turtle moves - how much of a circle is it? She smiled, took the pencil from me, and wrote a big \\(\frac {1}{4}\\) next to it. Now I think she was getting it.
 
@@ -45,12 +45,12 @@ I asked her about the other angles - and by the third - she said they are all th
 My next trick was to inscribe a regular triangle. I asked her if she could tell me those angles - and she looked a bit stuck. So I asked her - how many sides did it have. Obvious response - 3. How many sides did the square have, 4. I then let on that each angle was now a third. So here is a pattern - 3 sides, \\(\frac {1}{3}\\), 4 sides - \\(\frac {1}{4}\\).
 
 
-![A triangle in a circle]({{ page.gallery }}/triangle.png)
+![A triangle in a circle]({{ page.gallery }}/triangle.png){: class="img-responsive"}
 
 
 I then drew an inscribed pentagon (this is where it gets a bit untidy - my circle looked a bit less circle like). She recognised it, with 5 sides - and I asked her to guess the angle. She again took the pencil, and wrote \\(\frac {1}{5}\\) (side note - she is still young enough that she writes her 5's backwards). Now I could see a big smile forming - she was beginning to see a pattern in regular shapes and circle portions. 
 
-![Pentagons and Hexagons]({{ page.gallery }}/pentagon_and_hexagon.png){: width="100%"}
+![Pentagons and Hexagons]({{ page.gallery }}/pentagon_and_hexagon.png){: class="img-responsive"}
 
 To make sure she got it - I asked her what about a hexagon - 6 sides, she wrote \\(\frac {1}{6}\\). I asked what if a crazy shape was regular with 35 sides, at this point she said "that's easy" and wrote \\(\frac {1}{35}\\). So she was clear how it worked and that she got it.
 
@@ -58,4 +58,4 @@ With this in mind, we will be able to try making some shape routines in turtle, 
 
 What is awesome - this took about 20/30 minutes, a sheet of a4 paper & pencil, and 3 or 4 lines of code for her to make the kind of leap that had her smiling from ear to ear.
 
-[The full sheet]({{ page.gallery }}/whole_page.png)
+[The full sheet]({{ page.gallery }}/whole_page.png){: class="img-responsive"}

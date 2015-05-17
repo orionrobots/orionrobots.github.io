@@ -5,7 +5,9 @@ tags: [arduino, arduino kit, distance sensor, orion explorer 1, robot, robot bui
 ---
 I've now got some footage of the Explorer 1 using a pair of sonar distance modules (HC-SR04's) to avoid walls and drive around the floor. This is just experimentation, so they are mounted with sticky tac, and wired in with some odd bit of breadboard I had, but it was working brilliantly here. The robot has an Arduino and uses AA batteries.
 
+<div class="embed-responsive embed-responsive-16by9">
 <iframe src="//www.youtube.com/embed/ElXsXAcqrUE" allowfullscreen="allowfullscreen" frameborder="0" height="315" width="560"> </iframe>
+</div>
 
 The 2 sensors give it directional sensing - which means it can avoid obstacles from either side.
 

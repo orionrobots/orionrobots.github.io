@@ -11,7 +11,7 @@ First - use the [construction guide to build the robot](/construction_guide.html
 
 Then plug it in using the following diagram:
 
-![](/assets/2013-11-30-bluetooth-with-the-orionrobots-explorer1-robot/ArduinoBluetooth_bb_large.png)
+![](/assets/2013-11-30-bluetooth-with-the-orionrobots-explorer1-robot/ArduinoBluetooth_bb_large.png){: class="img-responsive"}
 
 The module can easily be tucked into that top circle, or sticky tacked on to the robot - it's location isn't too important and it doesn't require any rigid mounting.
 

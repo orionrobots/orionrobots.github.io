@@ -66,6 +66,7 @@ RewriteRule "^Simple+Parallel+Port+LED+Board" /2004/11/05/simple-parallel-port-l
 RewriteRule "^Building+An+Experimenting+Parallel+Cable" /2004/11/05/simple-parallel-port-led.html [R,L]
 RewriteRule "^Apache+Monitor+With+Python+And+An+LED" /2004/11/14/apache-monitor-with-led.html [R,L]
 RewriteRule "^Robot\+Stores(.*)" /pages/robot-stores.html [R]
+RewriteRule "^Sir\+Killalot(.*)" /2005/03/01/sir-killalot/ [R,L]
 RewriteRule "^Robotic\+Gadgets\+And\+Toys(.*)" /2005/08/02/robotics-toys-and-gadgets [R,L]
 RewriteRule "^[Hh]ome[Pp]age$" /index.html [R]
 RewriteRule "^[Mm]ega[Bb]yte\+[Rr]obot\+[Dd]og$" /2004/11/14/megabyte-robot-dog [R,L]

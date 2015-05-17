@@ -26,7 +26,7 @@ Repairing the same tool a second time is easier, and instead of thinking the thi
 
 This last couple of weeks I've been repairing the power board for my [CnC Machine](http://orionrobots.github.io/CnCNotes). It is for some probably a trivial device, but my skills have been more oriented to the digital side of electronics than the analogue and power stuff.
 
-![CnC Control Board](/assets/2014-04-09-the-reality-of-repair.md/small/1-IMG_3406.JPG)
+![CnC Control Board](/assets/2014-04-09-the-reality-of-repair.md/small/1-IMG_3406.JPG){: class="img-responsive"}
 
 I've had a crash course in regulators, op-amps and the astable mode of the 555. I will write detail on this on the CnCNotes blog, but it has all been good learning, that I had to make to be able to repair the device. It means ordering a 12v regulator - common, but not in my stock. It has taken at least a couple of weeks and I have no shame in admitting it.
 

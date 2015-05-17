@@ -17,15 +17,19 @@ Chicken walkers are robotic platforms in both futuristic and steampunk sci-fi. T
 
 This video has details on a chicken walker costume (not really a robot), which lifts its legs when a wearer does. It looks more futuristic than steampunk, but the basic idea could be adapted.
 
+<div class="embed-responsive embed-responsive-16by9">
 <iframe width="420" height="315" src="//www.youtube.com/embed/bHGtiRo7_gc?rel=0"
  frameborder="0" allowfullscreen="true"></iframe>
+</div>
 
 # Steampunk Chicken Walker Costume
 
 On Instructables is another chicken walker costume - perhaps a little simpler -
   [Build your own steampunk chicken walker mech (costume)](http://www.instructables.com/id/Build-your-own-steampunk-chicken-walker-mech/).
 
+<div class="embed-responsive embed-responsive-16by9">
 <iframe width="420" height="315" src="//www.youtube.com/embed/CIQuXk8wQOA?rel=0" frameborder="0" allowfullscreen="true"></iframe>
+</div>
 
 # More Halloween Costumes
 
