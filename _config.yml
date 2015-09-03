@@ -3,8 +3,8 @@ encoding: UTF-8
 # For more see: http://jekyllrb.com/docs/permalinks/
 permalink: /:categories/:year/:month/:day/:title 
 
-exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", "gemfile", "History.markdown", "site.zip",
-          ".idea", ".git", ".gitignore", "Thumbs.db"]
+exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "Gemfile", "Gemfile.lock", "changelog.md", "gemfile", "History.markdown", "site.zip",
+          ".idea", ".git", ".gitignore", "Thumbs.db", "site.tgz", "fabfile.py"]
 highlighter: pygments
 excerpt_separator: "\n\n"
 markdown: kramdown
