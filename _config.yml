@@ -142,7 +142,7 @@ menu:
   -
     title: Home
     description: Home Page
-    url: http://shop.orionrobots.co.uk
+    url: /
   -
     title: Getting Started
     description: Start building and playing with robots
