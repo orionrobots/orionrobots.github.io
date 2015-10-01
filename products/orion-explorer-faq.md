@@ -2,6 +2,12 @@
 title: Orion Explorer 1 FAQ
 layout: page
 ---
+Please see the main [FAQ](/faq.html) for general site questions.
+
+<strong>Q: Where can I buy the Explorer 1 Robot kit?</strong>
+
+Currently, those kits are no longer for sale. However, I am looking into new robot kits that would be both more sophisticated, and cheaper than the Explorer 1, and I intend to run some robot building workshops with kits before they go on sale.
+
 <strong>Q: What does solderless mean?</strong>
 
 A: The user will not need to use a soldering iron to assemble any of the solderless kits. They can be assembled using simple plug-in pins, or screw terminals. I've nothing against soldering - but for someone new to robotics, or for the constructively lazy, it is easier not to need to. I generally reserve it for repairing, or prototyping something completely new.
@@ -34,12 +40,20 @@ A: Yes - it is a 100% Arduino compatible controller (apart from the bare option)
 
 <strong>Q: Can you ship it to my country?</strong>
 
-A: We can ship to most of the world - using either Airsure, or courier services. Mainland UK is free, others will be priced accordingly. We have shipped to Australia, US, Canada as well as Uk and Europe destinations.
-
-<strong>Q: Is there any cover or case I can buy for it?</strong>
-
-A: Not currently - but it is something planned if there is enough demand for it.
+A: We are not currently selling the robot - when we have a product, we will certainly look at international shipping for it.
 
 <strong>Q: If my robot is broken - can I fix it myself?</strong>
 
-A: Yes - <a href="/2013/12/23/all-our-robots-are-user-serviceable">all the robots are user serviceable</a>. They're made of replaceable parts you put together yourself. It designed to be user maintainable and so you could repair or upgrade it.
+A: Yes - [all the robots are user serviceable](/2013/12/23/all-our-robots-are-user-serviceable). They're made of replaceable parts you put together yourself. It designed to be user maintainable and so you could repair or upgrade it.
+
+<strong>Q: What is easy about it?</strong>
+
+A: 
+
+* Easy to build - No soldering needed
+* Priced within your means
+* Easy to program
+* Easy to have fun with it, explore with it, expand it and do more than the basics.
+* Did I say that there is no solder needed?
+
+You can get your kids started on a robotics project for fun, or you can finally start your own robot project with grand ambitions. A uni student can get the basics off the ground in the first day, and spend the rest of an assignment extending the robot to do more.

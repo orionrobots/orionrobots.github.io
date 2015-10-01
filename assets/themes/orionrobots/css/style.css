@@ -3,26 +3,7 @@ theme :
   name : orionrobots
 ---
 {% include JB/setup %}
-/**
- * Radiance
- * A Shopify theme.
- *
- * Last update: June 19, 2012
- *
- * @version     2.2
- * @author      Ben Watts @ Shopify
- * @theme_url   http://radiance-theme.myshopify.com/
- *
- * If you need support or help customizing the theme:
- * - Try browsing the Shopify wiki: http://wiki.shopify.com/Main_Page
- * - Ask a question in the forums: http://forums.shopify.com/
- * - This is an official Shopify theme. Get support via: http://support.myshopify.com/
- *
- * Stay up-to-date and report any bugs:
- * - https://github.com/benwatts/shopify-theme-radiance
- */
-
-
+/** Derived from styles for oriongreen, and radiance. **/
 
 /**
  * See: http://www.fontsquirrel.com/fonts/bebas-neue
@@ -38,8 +19,6 @@ theme :
   font-weight: normal;
   font-style: normal;
   }
-
-
 
 
 /**
@@ -91,7 +70,6 @@ footer, header, hgroup, menu, nav, section {
 blockquote, q { quotes: none; }
 blockquote:before, blockquote:after,
 q:before, q:after { content: ''; content: none; }
-ins { background-color: #ff9; color: #000; text-decoration: none; }
 mark { background-color: #ff9; color: #000; font-style: italic; font-weight: bold; }
 del { text-decoration: line-through; }
 abbr[title], dfn[title] { border-bottom: 1px dotted; cursor: help; }
@@ -132,8 +110,6 @@ html {
   background-size: 990px;
   background-color: #000000;
 }
-
-
 
 
 /**
@@ -434,26 +410,6 @@ body{ border-top: solid 4px #eeeeee; }
   }
 #umbrella a:hover{ color: #6db038; }
 
-#umbrella .num-items-in-cart .icon{
-  display: block;
-  padding: 0 0 0 26px;
-  
-  background: url(//cdn.shopify.com/s/files/1/0203/7288/t/1/assets/cart-icons.png?622) 0 0 no-repeat;
-  
-  }
-#umbrella .num-items-in-cart:hover .icon{
-  
-  background: url(//cdn.shopify.com/s/files/1/0203/7288/t/1/assets/cart-icons.png?622) 0 -29px no-repeat;
-  
-  }
-
-#umbrella .checkout-link{
-  padding: 0;
-  margin-right: 0;
-  border: none;
-  }
-#umbrella .checkout-link a{ color: #ffffff; }
-#umbrella .checkout-link a:hover{ color: #ffffff; }
 
 /**
  * Sections
@@ -478,14 +434,6 @@ body{ border-top: solid 4px #eeeeee; }
   margin: 0;
   }
 
-.diagonal-divider{
-  
-  background: url(//cdn.shopify.com/s/files/1/0203/7288/t/1/assets/diagonal-light-grey.png?622) 0 0 repeat-x;
-  padding: 16px 0 0 0;
-  
-  margin: 0 0 20px 0;
-  }
-
 #page-title{
   font-size: 22px;
   border-bottom: dotted 1px #dddddd;
@@ -495,207 +443,8 @@ body{ border-top: solid 4px #eeeeee; }
 
 
 /**
- * Product and Collection Grid
- */
-
-.product-grid{
-  list-style: none;
-  margin: 0;
-  color: #666666;
-  }
-.product-grid li{
-  width: 177px;
-  float: left;
-  margin: 0 10px 10px 0;
-  position: relative;
-  }
-.product-grid .last-in-row{ margin-right: 0; }
-
-.generated-height .product-grid-item{
-  width: 177px;
-  position: absolute;
-  
-  bottom: 0;
-  
-  }
-
-.product-grid img{
-  display: block;
-  margin: 0 auto;
-  }
-
-.product-grid a{
-  text-decoration: none;
-  display: block;
-  color: #333333;
-  }
-.product-grid a:hover{
-  color: #6db038;
-  }
-
-.product-grid .product-link{
-  display: block;
-  position: relative;
-  z-index: 1;
-  text-decoration: none;
-  margin: 0;
-  min-height: 50px;
-  /* for ie6: */
-  width: 100%;
-  }
-
-.product-photo{
-  max-width: 177px;
-  }
-.ie6 .product-grid{ overflow: hidden; }
-
-.product-information{
-  padding: 10px;
-  position: relative;
-  background: #f6f6f6;
-  -webkit-border-radius: 0 0 4px 4px;
-  -moz-border-radius: 0 0 4px 4px;
-  border-radius: 0 0 4px 4px;
-  }
-.product-information h3{
-  font: normal 24px/1 BebasNeueRegular, arial, sans-serif;
-  margin: 5px 0 10px 0;
-  }
-.product-information p{
-  line-height: 1.4em;
-  margin: 0 0 .75em 0;
-  }
-
-.product-price{
-  display: block;
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  width: auto;
-  padding: 4px 8px;
-  text-align: right;
-  font-weight: bold;
-  color: #333333;
-  filter: alpha(opacity=85); /* internet explorer */
-  -moz-opacity: 0.85;       /* mozilla, netscape */
-  opacity: 0.85;           /* fx, safari, opera */
-  background: #ffffff;
-  -webkit-border-radius: 4px 0 0 0;
-  -moz-border-radius: 4px 0 0 0;
-  border-radius: 4px 0 0 0;
-  }
-#featured-grid .product-price.sale, .sale {
-  background-color: #444444;
-  color: #ffffff;
-  }
-
-#featured-grid li{
-  width: 240px;
-  background: #f6f6f6;
-  -webkit-border-radius: 0 0 4px 4px;
-  -moz-border-radius: 0 0 4px 4px;
-  border-radius: 0 0 4px 4px;
-  }
-#featured-grid .product-photo{
-  max-width: 240px;
-  }
-#featured-grid .product-price{
-  top: -30px;
-  right: 0;
-  bottom: auto;
-  padding: 3px 8px;
-  font-size: 14px;
-  line-height: 24px;
-  color: #333333;
-  }
-
-
-
-/**
  * Single Product
  */
-
-#product-information{
-  float: right;
-  width: 375px;
-  }
-
-#product-actions{
-  padding: 4px 0 12px 0;
-  overflow: hidden; height: 1%;
-  }
-
-#purchase{
-  float: right;
-  text-align: right;
-  }
-.sold-out #purchase{
-  float: none;
-  text-align: left;
-  }
-#add-to-cart{
-  margin: 8px 0 0 0;
-  }
-
-#product-header{
-  margin: 0 0 20px 0;
-  border-bottom: 1px solid #dddddd;
-  }
-#product-header #product-header-title{
-  float: left;
-  width: 60%;
-  margin: 5px 0 16px 0;
-  }
-#product-title{
-  margin: 0 0 5px 0;
-  font-size: 24px;
-  font-style: bold italic;
-  }
-#product-vendor{
-  font-size: 12px;
-  font-weight: normal;
-  margin: 0;
-  }
-#product-vendor a{
-  text-decoration: none;
-  }
-
-#product-actions select{
-  padding: 3px;
-  }
-#product-actions .price{
-  font-size: 18px;
-  margin: 0;
-  font-weight: bold;
-  text-align: right;
-  }
-#product-actions .price strong{
-  color: #6db038;
-  display: block;
-  }
-#product-actions .compare_at_price{
-  font-size: 12px;
-  display: block;
-  }
-
-.variants-wrapper{
-  text-align: right;
-  margin: 0 0 8px 0;
-  }
-.selector-wrapper{
-  margin: 0 0 8px 0 ;
-  }
-.selector-wrapper label{
-  margin: 0 5px 0 0;
-  text-align: right;
-  }
-
-#add-to-cart-msg{
-  background: #fff7a0;
-  padding: 10px;
-  display: none;
-  margin: 0;
-  }
 
 #sharing{
   margin: 16px 0 0 0;
@@ -709,76 +458,6 @@ body{ border-top: solid 4px #eeeeee; }
   margin: 0;
   float: left;
   }
-
-/**
- * Zoomy product gallery, with thumbs
- * @see https://github.com/benwatts/enhance-gallery
- */
-
-#product-gallery,
-#active-wrapper{
-  width: 303px;
-  }
-
-#active-wrapper{
-  position: relative;
-  min-height: 50px;
-  overflow: hidden;
-  margin: 0 0 10px 0;
-  }
-#active-wrapper img{
-  display: block;
-  width: auto;
-  }
-#active-wrapper .zoomed{
-  position: absolute;
-  top: 0;
-  left: 0;
-  }
-
-#active-image-loading{
-  background: #fff url(//cdn.shopify.com/s/files/1/0203/7288/t/1/assets/icon-loading.gif?622) 50% 50% no-repeat;
-  width: 40px;
-  height: 40px;
-  -moz-border-radius: 20px;
-  -webkit-border-radius: 20px;
-  border-radius: 20px;
-  position: absolute;
-  top: 42%;
-  left: 42%;
-  z-index: 2;
-  text-indent: -900em; overflow: hidden;
-  }
-
-#thumbs{
-  margin: 0;
-  list-style: none;
-  }
-#thumbs li{
-  float: left;
-  margin: 0 8px 8px 0;
-  width: 54px;
-  height: 54px;
-  text-align: center;
-  }
-.no-js #thumbs li{ margin-right: 6px; }
-#thumbs li.last-in-row{
-  margin-right: 0;
-  }
-#thumbs a{
-  display: block;
-  border: solid 1px #dddddd;
-  padding: 1px;
-  }
-#thumbs a:hover{
-  border: solid 1px #8cc8d4;
-  }
-#thumbs img{
-  margin: 0 auto;
-  display: block;
-  }
-
-
 
 /**
  * Content
@@ -808,31 +487,6 @@ body{ border-top: solid 4px #eeeeee; }
   float: left;
   width: 700px;
   }
-
-article{
-  margin: 20px 0 45px 0;
-  
-  background: url(//cdn.shopify.com/s/files/1/0203/7288/t/1/assets/diagonal-light-grey.png?622) 0 100% repeat-x;
-  
-  padding: 0 0 10px 0;
-  }
-.templateArticle article{ margin-top: 0; }
-
-article .author{
-  color: #999;
-  font-style: italic;
-  line-height: 20px;
-  }
-article footer{
-  font-size: 11px;
-  padding-top: 20px;
-  }
-article footer p{ margin: 0; }
-article footer .author{ float: left; }
-article footer .comments-link{ float: right; }
-article footer .btn { padding: 2px 10px; }
-
-
 
 /**
  * Pagination
@@ -1016,250 +670,6 @@ article footer .btn { padding: 2px 10px; }
 
 .page-header #page-title{ float: left; border: none; margin: 0; }
 .page-header #page-actions{ float: right; }
-
-.templateCustomersLogin form input,
-.templateCustomersRegister form input{
-  float: left;
-  }
-.templateCustomersLogin form label,
-.templateCustomersRegister form label{
-  float: left;
-  min-width: 120px;
-  line-height: 22px;
-  }
-.templateCustomersLogin .form-row,
-.templateCustomersActivateAccount .form-row,
-.templateCustomersRegister .form-row{
-  margin: 0 0 8px 0;
-  }
-.templateCustomersLogin .action-bottom,
-.templateCustomersRegister .action-bottom{
-  margin: 20px 0 0 0;
-  }
-.templateCustomersLogin .action-bottom .note,
-.templateCustomersRegister .action-bottom .note{
-  font-size: 11px;
-  padding: 0 0 0 5px;
-  line-height: 27px;
-  }
-
-
-/* >> login Form */
-#customer-login,
-#recover-password{
-  float: left;
-  width: 58%;
-  border-right: solid 1px #dddddd;
-  }
-#recover-password{
-  display: none;
-  }
-#recover_email label{
-  min-width: 75px;
-  }
-#forgot_password{
-  margin: 2px 0 0 5px;
-  font-size: 11px;
-  float: left;
-  }
-
-#guest{
-  float: right;
-  width: 38%
-  }
-
-
-/* >> manage orders and addresses */
-#customer_orders{
-  width: 75%;
-  float: left;
-  }
-#customer_sidebar{
-  float: right;
-  width: 20%;
-  }
-.address p,
-.view_address p{ margin: 0; }
-
-#view_address{
-  border-top: solid 1px #dddddd;
-  padding: 10px 0 0 0;
-  margin-top: 10px;
-  display: block;
-  }
-
-.address_actions{ float: right; }
-.address_actions .action_edit{
-  border-right: solid 1px #dddddd;
-  padding-right: 10px;
-  }
-.address_actions .action_delete{ padding-left: 16px; }
-
-.action_top{  margin: 0 0 20px 0; }
-
-.action_edit,
-.action_delete,
-.action_add{
-  display: inline-block;
-  padding-left: 16px;
-  }
-.action_edit{ background: url(//cdn.shopify.com/s/files/1/0203/7288/t/1/assets/edit-sml.png?622) 0 0 no-repeat; }
-.action_delete{ background: url(//cdn.shopify.com/s/files/1/0203/7288/t/1/assets/delete-sml.png?622) 0 1px no-repeat; }
-.action_add{ background: url(//cdn.shopify.com/s/files/1/0203/7288/t/1/assets/add-sml.png?622) 0 0 no-repeat; }
-
-.default_address{
-  color: #8cc8d4;
-  }
-.address_table,
-#add_address{
-  border: dotted 1px #dddddd;
-  padding: 10px;
-  margin: 0 0 20px 0;
-  }
-.address_table .label,
-#add_address .label{
-  width: 125px;
-  padding-left: 0;
-  }
-.address_table h4{
-  padding: 0 0 5px 0;
-  margin: 0 0 10px 0;
-  }
-.customer_address_table{ margin: 0; }
-.customer_address_table td{ border: none; }
-.customer_address_table input{ margin: 0 5px 0 0; }
-.customer_address .action-bottom{ margin-left: 141px; }
-
-
-/** >> view individual orders */
-.order_date{
-  border-bottom: solid 1px #dddddd;
-  padding: 0 0 5px 0;
-  margin: 0 0 20px 0;
-  }
-
-#order_address{
-  overflow: hidden; height: 1%;
-  margin: 0 0 20px 0;
-  }
-#order_address #order_payment,
-#order_address #order_shipping{
-  float: left;
-  width: 46%;
-  margin-right: 2%;
-  }
-
-
-
-/**
- * Comments
- */
-
-.comment{
-  margin: 0 0 20px 0;
-  }
-
-.comment-author{
-  float: left;
-  width: 18.0%;
-  padding: 12px 0 0 0;
-  font-weight: bold;
-  text-align: right;
-  color: #333333;
-  }
-
-.comment-content{
-  background: #ffffff;
-  float: right;
-  width: 75%;
-  -moz-border-radius: 8px;
-  -webkit-border-radius: 8px;
-  border-radius: 8px;
-  position: relative;
-  padding: 15px;
-  color: #666666
-  }
-.comment-arrow{
-  width:0;
-  height:0;
-  border-bottom:8px solid transparent;
-  border-top:8px solid transparent;
-  border-right:8px solid #ffffff; /* arrow colour */
-  font-size:0;
-  line-height:0px;
-  position: absolute;
-  top: 14px;
-  left: -8px;
-  }
-
-.comment-posted{
-  font-style: italic;
-  margin: 0;
-  font-size: 11px;
-  line-height: 1;
-  color: #cccccc;
-  }
-
-
-.comment-form label{
-  display: block;
-  width: 130px;
-  float: left;
-  }
-.comment-form #comment-submit{
-  margin: 0 0 10px 130px;
-  }
-.comment-form div{
-  margin: 0 0 10px 0;
-  }
-.comment-form .text{
-  float: left;
-  border: solid 1px #ccc;
-  padding: 5px;
-  width: 150px;
-  color: #666;
-  }
-.comment-form .text:focus{
-  border-color: #000;
-  }
-.comment-form textarea.text{
-  width: 500px;
-  }
-
-.has-error label{ color: #e0360f; }
-.has-error label.error-msg{ color: #fff; }
-.has-error input,
-.has-error textarea,
-.has-error .text{
-  border: solid 1px #ff0000;
-  -webit-box-shadow: 0 0 4px rgba(255,0,0,.6);
-  -moz-box-shadow: 0 0 4px rgba(255,0,0,6);
-  box-shadow: 0 0 4px rgba(255,0,0,.6);
-  }
-
-.error-msg,
-.success-msg,
-.errors{
-  padding: 10px;
-  color: #fff;
-  text-align: left;
-  background: url({{ ASSET_PATH }}/btn-small-depth.png) 0 100% repeat-x;
-  -moz-border-radius: 4px;
-  -webkit-border-radius: 4px;
-  border-radius: 4px;
-  }
-.error-msg,
-.errors{
-  background-color: #770e00;
-  }
-.success-msg{
-  background-color: #387700;
-  }
-
-.errors{ margin: 0 1em 1.5em 0; }
-.errors ul,
-.errors li{ margin: 0; list-style: none; }
-
 
 
 /**
@@ -1653,9 +1063,6 @@ a.btn:hover{
   font-size: 11px;
   padding: 6px;
   }
-.contact-form .has-error input{
-  border: solid 1px #ef3a22;
-  }
 
 /**
  * Some print style resets
@@ -1674,88 +1081,6 @@ a.btn:hover{
   @page { margin: 0.5cm; }
   p, h2, h3 { orphans: 3; widows: 3; }
   h2, h3{ page-break-after: avoid; }
-}
-
-/**
- * No products
- * Visible only to an empty store.
- */
-
-#featured-grid .placeholder{
-  display: block;
-  width: 240px;
-  height: 200px;
-  background: #666666 url(//cdn.shopify.com/s/files/1/0203/7288/t/1/assets/placeholder-product.png?622) 50% 50% no-repeat;
-  }
-
-.product-grid .placeholder{
-  width: 177px;
-  height: 130px;
-  display: block;
-  background: #666666 url(//cdn.shopify.com/s/files/1/0203/7288/t/1/assets/placeholder-product.png?622) 50% 50% no-repeat;
-  }
-
-
-.no-products{
-  position: relative;
-  }
-.no-products-overlay{
-  opacity: .75;
-  background: #000000;
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#BF000000', endColorstr='#BF000000',GradientType=0 );
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  z-index: 4;
-  top: 0;
-  left: 0;
-  }
-.ie7 .no-products-overlay,
-.ie8 .no-products-overlay{ background: transparent; }
-
-.no-products-post-it{
-  position: absolute;
-  top: 125px;
-  left: 198px;
-  z-index: 5;
-  width: 345px;
-  height: 193px;
-  background: url(//cdn.shopify.com/s/files/1/0203/7288/t/1/assets/no-products-post-it.png?622) 0 0 no-repeat;
-  font-family: georgia, serif;
-  font-size: 16px;
-  color: #4b4a43;
-  text-align: center;
-  text-shadow: 0 1px 0 #fff;
-  }
-.no-products-post-it-content{
-  padding: 65px 20px 20px 20px;
-  line-height: 1.4em;
-  }
-.no-products-post-it em{
-  display: block;
-  color: #3b3a34;
-  font-weight: bold;
-  font-style: italic;
-  font-size: 20px;
-  margin: 0 0 10px 0;
-  }
-.no-products-post-it a{
-  color: #25669c;
-  }
-
-/* Added by Caroline on January 14th for Customizr */
-
-#product-actions input.text,
-#product-actions input[type=text],
-#product-actions textarea {
-  width: 90%;
-}
-
-#product-actions input[type=text]:invalid,
-#product-actions textarea:invalid {
-  -moz-box-shadow:       inset 0 0 1px 1px #FF9494;
-  -webkit-box-shadow:    inset 0 0 1px 1px #FF9494;
-  box-shadow:            inset 0 0 1px 1px #FF9494;
 }
 
 .error span {
