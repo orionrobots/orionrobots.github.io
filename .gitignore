@@ -12,14 +12,20 @@ _site/
 .LSOverride
 
 # Icon must ends with two \r.
-Icon
+Icon
 
+.rbenv-version
+.rvmrc
+.picasa.ini
+.idea/*
 # Thumbnails
 ._*
 
 # Files that might appear on external disk
 .Spotlight-V100
 .Trashes
+
+Gemfile.lock
 
 # Windows
 # =========================
@@ -52,4 +58,4 @@ _theme_packages/*
 
 # Temp files
 *~
-Gemfile.lock
+
