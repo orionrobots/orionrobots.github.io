@@ -32,7 +32,7 @@ The basic avoiding behaviour with two sensors out front is this: drive forwards,
 
 Start with the <a href="/construction_guide.html">Explorer 1 construction guide</a>. Attach the breadboard to the robot - you can pull off the backing paper and use the self adhesive strip, or save it for later and just use some sticky tak. Stick it to the top - near the front, in front of the cable hole.
 
-![](/assets/2013-11-14-explorer-wall-avoider-kit/close_up_of_breadboard_connections_grande.jpeg){: class="img-responsive"}
+![](/galleries/2013-11-14-explorer-wall-avoider-kit/close_up_of_breadboard_connections_grande.jpeg){: class="img-responsive"}
 
 The green lines over this image show the connected pins. Note that the main part of the board has a different orientation from the top and bottom rails. All breadboards (including the two types we have) follow the same basic idea. The sensors will plug into the front end of the pins on the vertical rails.
 
@@ -45,7 +45,7 @@ Then look at the pin labels printed on the back of the sensors. Each will have:
 
 Plug a sensor into the board at each side - with the ultrasonic transducers (big round metal bits) facing forwards.
 
-![Close Up Image of sensors plugged into breadboard](/assets/2013-11-14-explorer-wall-avoider-kit/close_up_of_sensors_in_breadboard.jpg){: class="img-responsive"}
+![Close Up Image of sensors plugged into breadboard](/galleries/2013-11-14-explorer-wall-avoider-kit/close_up_of_sensors_in_breadboard.jpg){: class="img-responsive"}
 
 If you inspect the breadboard - on some versions there are some coloured rails top and bottom - each having one red, and one blue. Convention is that the red one is used for power, and the blue for ground.
 
@@ -65,7 +65,7 @@ Finally connect a wire from the blue rail to a <span class="caps">GND</span> pin
 
 The diagram below shows the connections. The sensors are at the top - with their pins labelled. The connections in blue are those you’ve already made in constructing the robot. Those in green connect the Arduino to the breadboard and those in yellow are on the breadboard only.
 
-![](/assets/2013-11-14-explorer-wall-avoider-kit/wall_avoider_diagram_bb_48b11cd2-300a-4bf2-981e-360bc8ea6513_large.png){: class="img-responsive"}
+![](/galleries/2013-11-14-explorer-wall-avoider-kit/wall_avoider_diagram_bb_48b11cd2-300a-4bf2-981e-360bc8ea6513_large.png){: class="img-responsive"}
 
 # Programming the robot - How to make it avoid walls
 
