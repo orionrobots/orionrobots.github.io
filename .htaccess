@@ -194,6 +194,9 @@ RewriteRule "^[Hh]ome[Pp]age$" /index.html [R]
 RewriteRule "^[Mm]ega[Bb]yte\+[Rr]obot\+[Dd]og$" /2004/11/14/megabyte-robot-dog [R,L]
 RewriteRule "^USB$" /Universal+Serial+Bus [R]
 
+RewriteRule ^wiki-([A-Za-z0-9]+)   wiki/$1                   [QSA,L]
+RewriteRule ^page-([A-Za-z0-9]+)   wiki/$1                   [QSA,L]
+
 
 # Rewrite rules to maintain any hard-coded URLs following http://dev.tiki.org/ImgDirectoryRevamp
 RewriteRule ^img/icons2/(.*)$ img/icons/$1 
@@ -240,7 +243,7 @@ RewriteRule (.*) - [L]
 RewriteRule ^(img\/trackers\/.*)   $1                                       [L]
 RewriteRule ^calendar$             tiki-calendar.php                        [L]
 RewriteRule ^articles$             tiki-view_articles.php                   [L]
-RewriteRule ^blogs$                tiki-list_blogs.php                      [L]
+RewriteRule ^blogs$                archive.html                      [L]
 RewriteRule ^categories$           tiki-browse_categories.php               [L]
 RewriteRule ^chat$                 tiki-chat.php                            [L]
 RewriteRule ^contact$              tiki-contact.php                         [L]
@@ -271,9 +274,6 @@ RewriteRule ^userinfo$          tiki-view_tracker_item.php?view=+user&cookietab=
 # access any object by its numeric identifier
 RewriteRule ^article([0-9]+)\-.*(&comzone=.*)$  article$1$2
 RewriteRule ^article([0-9]+)\-.*$  article$1
-RewriteRule ^blog([0-9]+)\-.*$     blog$1
-RewriteRule ^blog$ blog1
-RewriteRule ^blogpost([0-9]+)\-.*$ blogpost$1
 RewriteRule ^article([0-9]+)(.*)   tiki-read_article.php?articleId=$1$2     [QSA,L]
 RewriteRule ^art([0-9]+)(.*)       tiki-read_article.php?articleId=$1$2     [QSA,L]
 
@@ -287,8 +287,6 @@ RewriteRule ^cal([0-9]+),([0-9]+)  tiki-calendar.php?calIds[]=$1&calIds[]=$2 [QS
 RewriteRule ^cal([0-9]+)           tiki-calendar.php?calIds[]=$1            [QSA,L]
 
 RewriteRule ^cat([0-9]+)\-?[^&]*(.*)       tiki-browse_categories.php?parentId=$1$2 [QSA,L]
-RewriteRule ^blog([0-9]+)(.*)      tiki-view_blog.php?blogId=$1$2           [QSA,L]
-RewriteRule ^blogpost([0-9]+)(.*)  tiki-view_blog_post.php?postId=$1$2      [QSA,L]
 RewriteRule ^browseimage([0-9]+)(.*) tiki-browse_image.php?imageId=$1$2     [QSA,L]
 RewriteRule ^directory([0-9]+)(.*) tiki-directory_browse.php?parent=$1$2    [QSA,L]
 RewriteRule ^dirlink([0-9]+)       tiki-directory_redirect.php?siteId=$1    [QSA,L]
@@ -310,8 +308,6 @@ RewriteRule ^item([0-9]+)(.*)      tiki-view_tracker_item.php?itemId=$1$2   [QSA
 RewriteRule ^int([0-9]+)(.*)       tiki-integrator.php?repID=$1$2           [QSA,L]
 RewriteRule ^sheet([0-9]+)(.*)     tiki-view_sheets.php?sheetId=$1$2        [QSA,L]
 RewriteRule ^poll([0-9]+)(.*)      tiki-poll_form.php?pollId=$1$2           [QSA,L]
-RewriteRule ^wiki-([A-Za-z0-9]+)   tiki-index.php?page=$1                   [QSA,L]
-RewriteRule ^page-([A-Za-z0-9]+)   tiki-index.php?page=$1                   [QSA,L]
 RewriteRule ^show:(~?)(.+)$        tiki-slideshow.php?page=$1$2             [QSA,L]
 RewriteRule ^user([0-9]+)(.*)      tiki-user_information.php?userId=$1$2    [QSA,L]
 RewriteRule ^(lib/wiki3d/.+\.jar)$ $1                                       [L]
@@ -327,7 +323,7 @@ RewriteRule \.(css|gif|jpg|png|php|html|js|htm|shtml|cgi|sql|phtml|txt|ihtml)   
 
 RewriteRule ^tiki-([a-z_]+)-([a-z_]+) tiki-ajax_services.php?controller=$1&action=$2		[QSA,L]
 RewriteRule ^tiki-([a-z_]+)         tiki-ajax_services.php?controller=$1		[QSA,L] # action may be specified in request body (POST)
-RewriteRule ^(.+)$                 tiki-index.php?page=$1                   [QSA,L]
+RewriteRule ^(.+)$                 wiki/$1                   [QSA,L]
 
 </IfModule>
 
