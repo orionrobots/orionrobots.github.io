@@ -12,9 +12,9 @@ Brick Height to Plate Height: 3/1
 
 # Measurements
 
-![](/galleries/lego-dimensions/lego-dimensions-thumb.jpg)
+![](../galleries/lego-dimensions/lego-dimensions-thumb.jpg)
 
-If you want to put Lego bricks into another cad system(ie ProEngineer /ProDesktop/SolidWorks) - you will find the following helpful along with the formula table below:
+If you want to put Lego bricks into another cad system(ie ProEngineer/SolidWorks) - you will find the following helpful along with the formula table below:
 
 |  Description             | Short name | Size in mm |
 |--------------------------+------------+------------|
@@ -86,8 +86,8 @@ Most Lego bricks use high quality ABS plastic - which is slightly elastic.
 
 # Other related specifications
 
-[RCX Specifications](/RCX+Specifications)
+[RCX Specifications](../wiki/RCX+Specifications.html)
 
-[CyberMaster](/CyberMaster)
+[CyberMaster](../wiki/CyberMaster.html)
 
 [Lego Wheel Traction Specifications - A study by Phillippe Hurbain](http://philohome.com/traction/traction.htm "Wheels, Tyres and Traction")
