@@ -1,4 +1,4 @@
-  ---
+---
 created: 2007-10-09 00:24:11
 description: Amazing giant robot arm to be scrapped
 tags: [robot, event, robodock, crushing]
