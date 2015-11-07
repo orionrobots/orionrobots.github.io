@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="124.57534"
+   height="46.068161"
+   id="svg16815"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="explorer_digital_pin_usage.svg">
+  <defs
+     id="defs16817" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="3.959798"
+     inkscape:cx="54.961466"
+     inkscape:cy="-14.041154"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1617"
+     inkscape:window-height="1194"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
+  <metadata
+     id="metadata16820">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-312.71006,-509.44938)">
+    <g
+       transform="matrix(1.0270258,0,0,1.0962363,192.53442,394.69529)"
+       id="g12872">
+      <g
+         transform="matrix(1.2446798,0,0,1.2446798,308.7852,-448.97635)"
+         id="g7810">
+        <g
+           transform="matrix(0,-0.77715907,0.77715907,0,-398.14146,427.50155)"
+           id="g8052">
+          <g
+             transform="translate(-4.8190818,5.9795401e-6)"
+             id="g8054">
+            <path
+               sodipodi:nodetypes="cccccc"
+               inkscape:connector-curvature="0"
+               id="path8056"
+               d="m -54.000071,420.88989 36.258782,0 0,9.00001 -36.258782,0 -6.400008,-4.50001 z"
+               style="fill:none;stroke:#000fff;stroke-width:0.56692988;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:1.13385971, 0.56692986;stroke-dashoffset:0" />
+            <text
+               sodipodi:linespacing="125%"
+               id="text8058"
+               y="427.78989"
+               x="-53.900074"
+               style="font-size:7.20574093px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial Black;-inkscape-font-specification:'Arial Black,'"
+               xml:space="preserve"><tspan
+                 y="427.78989"
+                 x="-53.900074"
+                 id="tspan8060"
+                 sodipodi:role="line">HC06 RX</tspan></text>
+          </g>
+          <g
+             transform="translate(-4.8190848,-0.30241657)"
+             id="g8062">
+            <path
+               style="fill:none;stroke:#000fff;stroke-width:0.56692988;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:1.13385971, 0.56692986;stroke-dashoffset:0"
+               d="m -54.000076,430.45683 36.258783,0 0,9 -36.258783,0 -6.4,-4.5 z"
+               id="path8064"
+               inkscape:connector-curvature="0"
+               sodipodi:nodetypes="cccccc" />
+            <text
+               xml:space="preserve"
+               style="font-size:7.20574093px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial Black;-inkscape-font-specification:'Arial Black,'"
+               x="-53.900074"
+               y="437.35681"
+               id="text8066"
+               sodipodi:linespacing="125%"><tspan
+                 sodipodi:role="line"
+                 id="tspan8068"
+                 x="-53.900074"
+                 y="437.35681">HC06 TX</tspan></text>
+          </g>
+          <g
+             transform="translate(-51.657189,83.530398)"
+             id="g8070">
+            <path
+               style="fill:none;stroke:#f2ff00;stroke-width:0.56535488;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:1.13070972, 0.56535486;stroke-dashoffset:0"
+               d="m -7.1627511,281.77242 36.2587821,0 0,9.00001 -36.2587821,0 -6.4000079,-4.50001 z"
+               id="path8072"
+               inkscape:connector-curvature="0"
+               sodipodi:nodetypes="cccccc" />
+            <text
+               xml:space="preserve"
+               style="font-size:7.20574093px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial Black;-inkscape-font-specification:'Arial Black,'"
+               x="-7.0627542"
+               y="288.67242"
+               id="text8074"
+               sodipodi:linespacing="125%"><tspan
+                 sodipodi:role="line"
+                 id="tspan8076"
+                 x="-7.0627542"
+                 y="288.67242">R Echo</tspan></text>
+          </g>
+          <g
+             transform="translate(-51.657192,83.227957)"
+             id="g8078">
+            <path
+               sodipodi:nodetypes="cccccc"
+               inkscape:connector-curvature="0"
+               id="path8080"
+               d="m -7.1627561,291.33936 36.2587831,0 0,9 -36.2587831,0 -6.3999999,-4.5 z"
+               style="fill:none;stroke:#f2ff00;stroke-width:0.56535488;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:1.13070972, 0.56535486;stroke-dashoffset:0" />
+            <text
+               sodipodi:linespacing="125%"
+               id="text8082"
+               y="298.23935"
+               x="-7.0627542"
+               style="font-size:7.20574093px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial Black;-inkscape-font-specification:'Arial Black,'"
+               xml:space="preserve"><tspan
+                 y="298.23935"
+                 x="-7.0627542"
+                 id="tspan8084"
+                 sodipodi:role="line">R Trig</tspan></text>
+          </g>
+          <g
+             transform="translate(-51.657189,63.457982)"
+             id="g8086">
+            <path
+               style="fill:none;stroke:#f2ff00;stroke-width:0.56535488;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:1.13070972, 0.56535486;stroke-dashoffset:0"
+               d="m -7.1627511,250.89066 36.2587821,0 0,9.00001 -36.2587821,0 -6.4000079,-4.50001 z"
+               id="path8088"
+               inkscape:connector-curvature="0"
+               sodipodi:nodetypes="cccccc" />
+            <text
+               xml:space="preserve"
+               style="font-size:7.20574093px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial Black;-inkscape-font-specification:'Arial Black,'"
+               x="-7.0627542"
+               y="257.79065"
+               id="text8090"
+               sodipodi:linespacing="125%"><tspan
+                 sodipodi:role="line"
+                 id="tspan8092"
+                 x="-7.0627542"
+                 y="257.79065">L Echo</tspan></text>
+          </g>
+          <g
+             transform="translate(-51.657192,63.155562)"
+             id="g8094">
+            <path
+               sodipodi:nodetypes="cccccc"
+               inkscape:connector-curvature="0"
+               id="path8096"
+               d="m -7.1627561,260.4576 36.2587831,0 0,9 -36.2587831,0 -6.3999999,-4.5 z"
+               style="fill:none;stroke:#f2ff00;stroke-width:0.56535488;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:1.13070972, 0.56535486;stroke-dashoffset:0" />
+            <text
+               sodipodi:linespacing="125%"
+               id="text8098"
+               y="267.35757"
+               x="-7.0627542"
+               style="font-size:7.20574093px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial Black;-inkscape-font-specification:'Arial Black,'"
+               xml:space="preserve"><tspan
+                 y="267.35757"
+                 x="-7.0627542"
+                 id="tspan8100"
+                 sodipodi:role="line">L Trig</tspan></text>
+          </g>
+          <g
+             transform="translate(-4.8198693,64.851692)"
+             id="g8102">
+            <path
+               sodipodi:nodetypes="cccccc"
+               inkscape:connector-curvature="0"
+               id="path8104"
+               d="m -54.000071,328.24467 36.258782,0 0,9.00001 -36.258782,0 -6.400008,-4.50001 z"
+               style="fill:none;stroke:#ff0000;stroke-width:0.56535488;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+            <text
+               sodipodi:linespacing="125%"
+               id="text8106"
+               y="335.14468"
+               x="-53.900074"
+               style="font-size:7.20574093px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial Black;-inkscape-font-specification:'Arial Black,'"
+               xml:space="preserve"><tspan
+                 y="335.14468"
+                 x="-53.900074"
+                 id="tspan8108"
+                 sodipodi:role="line">In1</tspan></text>
+          </g>
+          <g
+             transform="translate(-4.8198723,64.548695)"
+             id="g8110">
+            <path
+               style="fill:none;stroke:#ff0000;stroke-width:0.56535488;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+               d="m -54.000076,337.81161 36.258783,0 0,9 -36.258783,0 -6.4,-4.5 z"
+               id="path8112"
+               inkscape:connector-curvature="0"
+               sodipodi:nodetypes="cccccc" />
+            <text
+               xml:space="preserve"
+               style="font-size:7.20574093px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial Black;-inkscape-font-specification:'Arial Black,'"
+               x="-53.900074"
+               y="344.71161"
+               id="text8114"
+               sodipodi:linespacing="125%"><tspan
+                 sodipodi:role="line"
+                 id="tspan8116"
+                 x="-53.900074"
+                 y="344.71161">ENA</tspan></text>
+          </g>
+          <g
+             transform="translate(-4.8190818,65.791084)"
+             id="g8118">
+            <path
+               sodipodi:nodetypes="cccccc"
+               inkscape:connector-curvature="0"
+               id="path8120"
+               d="m -54.000071,285.61505 36.258782,0 0,9.00001 -36.258782,0 -6.400008,-4.50001 z"
+               style="fill:none;stroke:#ff0000;stroke-width:0.56692988;stroke-miterlimit:4;stroke-opacity:1" />
+            <text
+               sodipodi:linespacing="125%"
+               id="text8122"
+               y="292.51505"
+               x="-53.900074"
+               style="font-size:7.20574093px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial Black;-inkscape-font-specification:'Arial Black,'"
+               xml:space="preserve"><tspan
+                 y="292.51505"
+                 x="-53.900074"
+                 id="tspan8124"
+                 sodipodi:role="line">In3</tspan></text>
+          </g>
+          <g
+             transform="translate(-4.8198723,65.154112)"
+             id="g8126">
+            <path
+               style="fill:none;stroke:#ff0000;stroke-width:0.56535488;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+               d="m -54.000076,318.67774 36.258783,0 0,9 -36.258783,0 -6.4,-4.5 z"
+               id="path8128"
+               inkscape:connector-curvature="0"
+               sodipodi:nodetypes="cccccc" />
+            <text
+               xml:space="preserve"
+               style="font-size:7.20574141px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Bold"
+               x="-53.900074"
+               y="325.57773"
+               id="text8130"
+               sodipodi:linespacing="125%"><tspan
+                 sodipodi:role="line"
+                 id="tspan8132"
+                 x="-53.900074"
+                 y="325.57773">In2</tspan></text>
+          </g>
+          <g
+             transform="translate(-4.8190818,66.395925)"
+             id="g8134">
+            <path
+               style="fill:none;stroke:#ff0000;stroke-width:0.56692988;stroke-miterlimit:4;stroke-opacity:1"
+               d="m -54.000071,266.48118 36.258782,0 0,9.00001 -36.258782,0 -6.400008,-4.50001 z"
+               id="path8136"
+               inkscape:connector-curvature="0"
+               sodipodi:nodetypes="cccccc" />
+            <text
+               xml:space="preserve"
+               style="font-size:7.20574093px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial Black;-inkscape-font-specification:'Arial Black,'"
+               x="-53.900074"
+               y="273.3812"
+               id="text8138"
+               sodipodi:linespacing="125%"><tspan
+                 sodipodi:role="line"
+                 id="tspan8140"
+                 x="-53.900074"
+                 y="273.3812">ENB</tspan></text>
+          </g>
+          <g
+             transform="translate(-4.8190848,66.094071)"
+             id="g8142">
+            <path
+               sodipodi:nodetypes="cccccc"
+               inkscape:connector-curvature="0"
+               id="path8144"
+               d="m -54.000076,276.04812 36.258783,0 0,9 -36.258783,0 -6.4,-4.5 z"
+               style="fill:none;stroke:#ff0000;stroke-width:0.56692988;stroke-miterlimit:4;stroke-opacity:1" />
+            <text
+               sodipodi:linespacing="125%"
+               id="text8146"
+               y="282.94812"
+               x="-53.900074"
+               style="font-size:7.20574093px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial Black;-inkscape-font-specification:'Arial Black,'"
+               xml:space="preserve"><tspan
+                 y="282.94812"
+                 x="-53.900074"
+                 id="tspan8148"
+                 sodipodi:role="line">In4</tspan></text>
+          </g>
+        </g>
+      </g>
+      <use
+         transform="translate(0,-104.00013)"
+         height="841.89008"
+         width="595.27637"
+         id="use6282"
+         xlink:href="#use6280"
+         y="0"
+         x="0" />
+      <use
+         x="0"
+         y="0"
+         xlink:href="#use6280"
+         id="use6755"
+         width="595.27637"
+         height="841.89008"
+         transform="translate(0,-104.00013)" />
+      <use
+         x="0"
+         y="0"
+         xlink:href="#use6280"
+         id="use7804"
+         width="595.27637"
+         height="841.89008"
+         transform="translate(0,-104.00013)" />
+      <use
+         transform="translate(0,-104.00013)"
+         height="841.89008"
+         width="595.27637"
+         id="use8834"
+         xlink:href="#use6280"
+         y="0"
+         x="0" />
+    </g>
+  </g>
+</svg>
