@@ -11,7 +11,7 @@ Explorer 1 Videos
 {% assign youtube_id="U8458u-jilI" %}
 {% assign description="Python on the Explorer 1 Robot With Raspberry Pi via Bluetooth" %}
 {% include youtube_link %}
-{% assign youtube_id="SpMrGylvcs0" %}
+{% assign youtube_id="cm5Y2_4iW7o" %}
 {% assign description="Orion Explorer 1 Robot Driven With From A Phone With Bluetooth" %}
 {% include youtube_link %}
 

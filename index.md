@@ -18,8 +18,8 @@ I am Danny Staple, Orionrobots is my investigations and projects with robotics, 
 {% assign description="Building The Orionrobots Explorer Robot kit" %}
 {% assign link_url="/construction_guide.html" %}
 {% include pin_image_link.html %}
-{% assign image='/assets/2013-11-14-explorer-wall-avoider-kit/close_up_of_sensors_in_breadboard.jpg' %}
-{% assign thumb='/assets/2013-11-14-explorer-wall-avoider-kit/close_up_of_sensors_in_breadboard.jpg' %}
+{% assign image='/galleries/2013-11-14-explorer-wall-avoider-kit/close_up_of_sensors_in_breadboard.jpg' %}
+{% assign thumb='/galleries/2013-11-14-explorer-wall-avoider-kit/close_up_of_sensors_in_breadboard.jpg' %}
 {% assign description='How to build a wall avoiding robot' %}
 {% assign link_url='/2013/11/14/explorer-wall-avoider-kit' %}
 {% include pin_image_link.html %}
