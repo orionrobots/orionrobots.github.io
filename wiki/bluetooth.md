@@ -1,0 +1,19 @@
+---
+layout: page
+title: Bluetooth
+date: 2005-08-25 22:54:26
+---
+<p>A secure <a class="wiki" href="/wiki/wireless.html" title="Wireless">Wireless</a> transmission system designed for small mobile devices like phones, headsets and <a class="wiki" href="/wiki/personal_data_assistant.html" title="Personal Data Assistant">Personal Data Assistant</a>s.
+</p>
+<p>It uses a <a class="wiki" href="/wiki/serial_data_stream.html" title="Serial Data Stream">Serial Data Stream</a> system and has fairly short range of up to a few meters.  The secure element is entirely up to the implementation and may not be present at all. It is fairly limited in the types of communications it supports, but the ability to support a virtual serial port is its strength. At its cost, and the high barrier of entry for development, it is currently mroe economical for a robot developer to look at more simple wireless serial port pairs, or a basic <a class="wiki" href="/wiki/rc.html" title="Remote Control">RC</a> protocol.
+</p>
+<p>The company AirCable supply wireless <a class="wiki" href="/wiki/centronics_parallel.html" title="Centronics Parallel">Centronics Parallel</a>,<a class="wiki" href="/wiki/rs232.html" title="A serial communication standard">RS232</a> and <a class="wiki" href="/wiki/universal_serial_bus.html" title="Universal Serial Bus">Universal Serial Bus</a> cable endings operating with BlueTooth. There are also bound to be other companies, but most are holding off point-to-point <a class="wiki" href="/wiki/usb.html" title="Universal Serial Bus">USB</a> bluetooth systems in favour of the Wireless <a class="wiki" href="/wiki/usb.html" title="Universal Serial Bus">USB</a> standards which are being drafted.
+</p>
+<p>For robots, off the shelf bluetooth chips are available and can be interfaced with <a a="" brain")="" class="wiki" for="" href="/wiki/microcontroller.html" robot"="" title="A programmable digital controller (or ">microcontrollers</a>.  These are expensive though - and bear in mind the relatively short range of such systems.
+</p>
+<p><a a="" and="" cable="" class="wiki" get="" heres="" horse="" how="" href="/wiki/bluetooth_serial_and_usb.html" it."="" may="" microcontroller,="" of="" require="" rid="" rider"="" some="" title="When using a USB camera, or having a computer play " to="" umbilical.="" with="" you="">Bluetooth Serial and USB</a>
+</p>
+<div class="titlebar">Bluetooth Bibliography</div>
+<p>
+</p>
+<table class="normal" id="fancytable_1"> <tr> <td class="odd"> <a class="internal" href="http://www.amazon.co.uk/exec/obidos/ASIN/B00006SKOC/orionrobots-21" target="_blank"> <img class="img-responsive" src="image18"/> </a> </td> <td class="odd"> <a  href="http://www.amazon.co.uk/exec/obidos/ASIN/B00006SKOC/orionrobots-21" rel="external" target="_blank">Bluetooth: Operation and Use (E-BOOK: ADOBE READER)</a> </td> <td class="odd"> Robert Morrow </td> <td class="odd"> This book is a reference and starting point for those looking into using BlueTooth in systems, although not directly set for robots - it is a worthwhile guide. Being an e-book, you can read it on your PC, or PDA and not clutter your desk(the whole point of BlueTooth!)</td> </tr> <tr> <td class="even"> <a class="internal" href="http://www.amazon.co.uk/exec/obidos/ASIN/0130661066/orionrobots-21" target="_blank"> <img class="img-responsive" src="image19"/> </a> </td> <td class="even"> <a  href="http://www.amazon.co.uk/exec/obidos/ASIN/0130661066/orionrobots-21" rel="external" target="_blank">Bluetooth 1.1: Connect Without Cables</a> </td> <td class="even"> Joe Mendolia (Foreword), Jennifer Bray, Charles F. Sturman </td> <td class="even"> A very complete guide to the BlueTooth 1.1 standard.  This is worthwhile using if you want to ensure compatibility, and is orientated to networking.  As it covers power saving - it is very suitable for robot builders wanting to use BlueTooth.</td> </tr> </table>
