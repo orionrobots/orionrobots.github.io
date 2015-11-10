@@ -1,8 +1,6 @@
 FROM ruby
 RUN apt-get -y update && apt-get install -y rsync
 # ruby-dev
-RUN gem install jekyll
-RUN gem install kramdown
 ENV APP_HOME /myapp
 RUN mkdir $APP_HOME
 WORKDIR $APP_HOME
