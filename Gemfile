@@ -5,4 +5,4 @@ if RbConfig::CONFIG['target_os'] =~ /mswin|mingw|cygwin/i
 end
 gem 'kramdown'
 gem 'therubyracer'
-gem 'jekyll', '== 2.4.0'
+gem 'jekyll', '= 2.4.0'
