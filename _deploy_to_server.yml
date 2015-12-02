@@ -6,4 +6,4 @@
 #  - name: Copy site
 #    copy: src=_site/ dest=public_html
   - name: Rename htaccess
-    copy: src=_site/_htaccess dest=public_html/.htaccess
+    copy: src=_site/htaccess dest=public_html/.htaccess
