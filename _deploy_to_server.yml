@@ -2,7 +2,7 @@
 - hosts: orionrobots.co.uk
   tasks:
   - name: Sync Site
-    sync: src=_site/ dest=public_html group=no owner=no
+    synchronize: src=_site/ dest=public_html group=no owner=no
 #  - name: Copy site
 #    copy: src=_site/ dest=public_html
   - name: Rename htaccess
