@@ -3,7 +3,5 @@
   tasks:
   - name: Sync Site
     synchronize: src=_site/ dest=public_html group=no owner=no
-#  - name: Copy site
-#    copy: src=_site/ dest=public_html
   - name: Rename htaccess
     copy: src=_site/htaccess dest=public_html/.htaccess
