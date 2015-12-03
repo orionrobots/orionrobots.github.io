@@ -65,6 +65,18 @@
           'Got It', 'Learn More', 'http://orionrobots.co.uk/privacy_and_cookies.html');
       });
     </script>
+    <script>
+      (function() {
+        var cx = 'partner-pub-1306094303661715:fq05xlly9cj';
+        var gcse = document.createElement('script');
+        gcse.type = 'text/javascript';
+        gcse.async = true;
+        gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+            '//cse.google.com/cse.js?cx=' + cx;
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(gcse, s);
+      })();
+    </script>     
     <!-- Header -->
     <div class="container">
       <nav class="navbar navbar-default" role="navigation">
@@ -89,6 +101,7 @@
                  {% endfor %}
               </ul>
           </div>
+            <div><gcse:search></gcse:search></div>          
         </div>
       </nav>
     </div>
