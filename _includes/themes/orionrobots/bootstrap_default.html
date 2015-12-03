@@ -65,18 +65,6 @@
           'Got It', 'Learn More', 'http://orionrobots.co.uk/privacy_and_cookies.html');
       });
     </script>
-    <script>
-      (function() {
-        var cx = 'partner-pub-1306094303661715:fq05xlly9cj';
-        var gcse = document.createElement('script');
-        gcse.type = 'text/javascript';
-        gcse.async = true;
-        gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
-            '//cse.google.com/cse.js?cx=' + cx;
-        var s = document.getElementsByTagName('script')[0];
-        s.parentNode.insertBefore(gcse, s);
-      })();
-    </script>     
     <!-- Header -->
     <div class="container">
       <nav class="navbar navbar-default" role="navigation">
@@ -99,9 +87,11 @@
                         <li><a href="{{node.url}}">{{node.title}}</a></li>
                     {% endif %}
                  {% endfor %}
-                 <li><gcse:search></gcse:search></li>
               </ul>
           </div>
+          <a href="#modalSearch" data-toggle="modal" data-target="#modalSearch">
+           <span id="searchGlyph" class="glyphicon glyphicon-search"></span> <span class="hidden-sm hidden-md hidden-lg">Search</span>
+          </a>
         </div>
       </nav>
     </div>
@@ -164,6 +154,38 @@
             </p>
         </footer>
     </div>
+    <!-- Search Modal -->
+    <div id="modalSearch" class="modal fade" role="dialog">
+       <div class="modal-dialog">
+    
+           <!-- Modal content-->
+           <div class="modal-content">
+               <div class="modal-header">
+                   <button type="button" class="close" data-dismiss="modal">×</button>
+                   <h4 class="modal-title">Search Orionrobots</h4>
+               </div>
+               <div class="modal-body">
+                   <script>
+                      (function() {
+                        var cx = 'partner-pub-1306094303661715:fq05xlly9cj';
+                        var gcse = document.createElement('script');
+                        gcse.type = 'text/javascript';
+                        gcse.async = true;
+                        gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+                            '//cse.google.com/cse.js?cx=' + cx;
+                        var s = document.getElementsByTagName('script')[0];
+                        s.parentNode.insertBefore(gcse, s);
+                      })();
+                    </script>
+                    <gcse:search></gcse:search>
+               </div>
+               <div class="modal-footer">
+                   <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+               </div>
+           </div>
+    
+       </div>
+    </div>    
     {% include JB/analytics %}
 </body>
 </html>
