@@ -38,7 +38,7 @@ def test_db(config):
         print rs.fetchall()
         
 
-def image_from_server(config):
+def images_from_server(config):
     logging.info("Connecting")
     eng = get_server_connection(config) 
     with eng.connect() as con:
