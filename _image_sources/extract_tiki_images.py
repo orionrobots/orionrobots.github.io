@@ -8,8 +8,8 @@ from sqlalchemy.sql import select
 
 def get_server_connection(config):
     eng = create_engine(
-        "mysql://{config.user}:{config.pass}@{config.server}/{config.db}"\
-        .format(config=config))
+        "mysql://{user}:{pass}@{server}/{db}"\
+        .format(**config))
     return eng.connect()
 
 
