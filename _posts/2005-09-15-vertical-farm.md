@@ -6,7 +6,7 @@ tags: [ideas]
 ---
 # Basic Concept
 
-This means building a farm in the space of a highrise office block -  A highrise farm.
+This means building a farm in _the space of a highrise office block -  A highrise farm.
 
 By using mechanised or robotic farm systems, a food producing farm need no longer be built on a large flat area of land. It could be built in vertical format. This also make pollution filtering easy - as all the water run-off can be collected at the bottom of the wall and filtered there.
 
