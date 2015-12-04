@@ -1,6 +1,6 @@
 ---
-layout: page
-title: Creating Custom Sensors For RCX
+layout: post
+title: Creating Custom Sensors For The Lego RCX
 date: 2004-11-16 21:01:45
 tags: [lego, mindstorms, rcx]
 ---
