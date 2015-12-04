@@ -29,7 +29,7 @@ def test_db(config):
         galleries = Table('tiki_galleries', meta, autoload=True)
         images_data = Table('tiki_images_data', meta, autoload=True)
         
-        stm = select([images.c.name, images.c.gallery]).limit(3)
+        stm = select([images.c.name, images.c.galleryId, c.imageId]).limit(3)
         rs = con.execute(stm) 
     
         print rs.fetchall()
@@ -56,14 +56,17 @@ def make_template_writer():
     
     def _write(image):
         """Make an output file for the image"""
-        output_name = "{{image.name}}.md".format(image)
+        
+        output_name = "{image.imageId}_{image.name}".format(image=image)
+        output_name = output_name.replace(output_name.rsplit('.', 1)[1], '.md')
         with open(output_name, "w") as fd:
             fd.write(template.format(image=image))
     return _write
 
 
 def write_image(image):
-    with open(image['filename'], 'wb') as fd:
+    output_name = "{image.imageId}_{image.name}".format(image=image)
+    with open(output_name, 'wb') as fd:
         fd.write(image['data'])
 
 def get_config():
