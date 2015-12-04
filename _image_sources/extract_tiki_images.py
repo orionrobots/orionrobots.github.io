@@ -35,6 +35,8 @@ def test_db(config):
                       images.c.imageId, galleries.c.name]).limit(3)
         rs = con.execute(stm) 
     
+      
+            
         print rs.fetchall()
         
 
@@ -51,10 +53,15 @@ def images_from_server(config):
         images_data = Table('tiki_images_data', meta, autoload=True)
         
         query = select([images.join(galleries, 
-                        images.c.galleryId == galleries.c.galleryId)])
-        rs = con.execte(query)
-        images = rs.fetchall()
-        return images
+                        images.c.galleryId == galleries.c.galleryId).join(images_data,
+                        images.c.imageId == images_data.c.imageId)])
+        rs = con.execute(query)
+    
+        while True:
+            image = rs.fetchone()
+            if not image:
+                break
+            yield image
     """
     query = join images, images metadata
     images = do query
@@ -101,7 +108,7 @@ def main():
     # test_db(config)
     
     for image in images_from_server(config):
-        print image['name']
+        print image['name'], image['xsize'], image['ysize']
 #        write_image_metadata_page(image)
 #        write_image(image)
         
