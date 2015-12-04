@@ -29,7 +29,9 @@ def test_db(config):
         galleries = Table('tiki_galleries', meta, autoload=True)
         images_data = Table('tiki_images_data', meta, autoload=True)
         
-        stm = select([images.join(galleries), images.c.name, images.c.galleryId, 
+        stm = select([images.join(galleries, 
+                        images.c.galleryId == galleries.c.galleryId), 
+                      images.c.name, images.c.galleryId, 
                       images.c.imageId, galleries.c.name]).limit(3)
         rs = con.execute(stm) 
     
