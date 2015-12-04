@@ -13,33 +13,6 @@ def get_server_connection(config):
     return eng
 
 
-def test_db(config):
-    logging.info("Connecting")
-    eng = get_server_connection(config) 
-    with eng.connect() as con:
-        logging.info("COnnection made. Getting metadata")
-        meta = MetaData()
-        logging.info("Reflecting")
-        meta.reflect(bind=eng)
-#        logging.info("Table data:...")
-#        for table in meta.tables:
-#            print table
-        # desc tiki_images, tiki_galleries, tiki_images_data, 
-        images = Table('tiki_images', meta, autoload=True)
-        galleries = Table('tiki_galleries', meta, autoload=True)
-        images_data = Table('tiki_images_data', meta, autoload=True)
-        
-        stm = select([images.join(galleries, 
-                        images.c.galleryId == galleries.c.galleryId), 
-                      images.c.name, images.c.galleryId, 
-                      images.c.imageId, galleries.c.name]).limit(3)
-        rs = con.execute(stm) 
-    
-      
-            
-        print rs.fetchall()
-
-
 def images_from_server(config):
     logging.info("Connecting")
     eng = get_server_connection(config) 
@@ -63,7 +36,7 @@ def images_from_server(config):
                         images_data.c.filename,
                         imagec_data.c.xsize,
                         images_data.c.ysize,
-                        images_data.c.data]).from(joined)
+                        images_data.c.data]).select_from(joined)
         rs = con.execute(query)
     
         while True:
