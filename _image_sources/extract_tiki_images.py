@@ -39,7 +39,22 @@ def test_db(config):
         
 
 def image_from_server(config):
-    connection = get_server_connection(config)
+    logging.info("Connecting")
+    eng = get_server_connection(config) 
+    with eng.connect() as con:
+        logging.info("COnnection made. Getting metadata")
+        meta = MetaData()
+        logging.info("Reflecting")
+        meta.reflect(bind=eng)
+        images = Table('tiki_images', meta, autoload=True)
+        galleries = Table('tiki_galleries', meta, autoload=True)
+        images_data = Table('tiki_images_data', meta, autoload=True)
+        
+        query = select([images.join(galleries, 
+                        images.c.galleryId == galleries.c.galleryId)])
+        rs = con.execte(query)
+        images = rs.fetchall()
+        return images
     """
     query = join images, images metadata
     images = do query
@@ -83,9 +98,10 @@ def main():
     logging.info("Got config %s", repr(config))
     
 #    write_image_metadata_page = make_template_writer()
-    test_db(config)
+    # test_db(config)
     
-#    for image in images_from_server(config):
+    for image in images_from_server(config):
+        print image['name']
 #        write_image_metadata_page(image)
 #        write_image(image)
         
