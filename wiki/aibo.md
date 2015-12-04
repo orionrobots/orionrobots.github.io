@@ -7,7 +7,7 @@ date: 2006-12-12 12:36:41
 </p>
 <p>They have multiple motors, and sensors, including cameras, touch sensors, microphones, tilt sensors and all sorts of sophisticated arrays of gear. With the sheer amount of flexibility, it is a fairly interesting platform to work on.
 </p>
-<p>The AIBO uses a 64 Bit RISC<a class="wiki wikinew for-review" title="Create page: RISC">?</a> based <a class="wiki" href="/wiki/cpu.html" title="Central Processing Unit">CPUs</a>, and have their own operating system<a class="wiki wikinew for-review" title="Create page: operating system">?</a>, though it is likely that someone somewhere has ported or attempted to port Linux<a class="wiki wikinew for-review" title="Create page: Linux">?</a> to it.
+<p>The AIBO uses a 64 Bit RISC based <a class="wiki" href="/wiki/cpu.html" title="Central Processing Unit">CPUs</a>, and have their own operating system, though it is likely that someone somewhere has ported or attempted to port Linux to it.
 </p>
 <p>The users have formed a community of hackers and enthusiasts as is normally the case for any robot toy. It is hackable - but also very expensive. The Aibo allows some amount of programming and hacking - and there is a community based around such things. At first Sony resisted the hacker community, but it is believed they reached a point where they realised that they were a benefit - increasing the desirability and uses of the Aibo, and began to be more responsive. Advice for those not already owning an Aibo is to consider the <a class="wiki" href="/wiki/robosapien.html" title="RoboSapien">Robosapien</a> first.
 </p>

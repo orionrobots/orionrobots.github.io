@@ -5,7 +5,7 @@ date: 2006-05-26 08:32:55
 ---
 <p>One of the problems with <a class="wiki" href="/wiki/skid_steering.html" title="Skid Steering">Skid Steering</a> is that the two drive motors tend not to be identical in output chracteristics - that is, that two motors of the same model, from the same company, and even in the same batch, may still not be exactly equal. While this variation may be minor, it may equate to a large drift, which after travelling a metre or so, will put your robot a fair way off course. If you would like to see furthar reasoning on motor differences - take a look at this <a class="wiki" href="tiki-directory_redirect.php?siteId=116" rel="">The Brick Bakery: Analysis of Motor Speeds for Geared Motors.</a>
 </p>
-<p>One way to remedey it is to employ a gyroscope<a class="wiki wikinew for-review" title="Create page: gyroscope">?</a>, or sensors - and some intelligent programming to keep the robot on track. This can be a little inefficient - as the robot is constantly having to correct itself. A better concept is to use mechanical methods to solve the problem, thus eliminating the need for complex electronics or sensors.
+<p>One way to remedey it is to employ a gyroscope, or sensors - and some intelligent programming to keep the robot on track. This can be a little inefficient - as the robot is constantly having to correct itself. A better concept is to use mechanical methods to solve the problem, thus eliminating the need for complex electronics or sensors.
 </p>
 <p>In you have an <a class="wiki" href="/wiki/ldraw_system.html" title="The primary system for CAD representation of Lego parts">LDraw System</a> reader, please take a look at this file <a class="wiki" href="tiki-download_file.php?fileId=4" rel=""> AdderSubtractorBuggy.dat</a>.
 </p>

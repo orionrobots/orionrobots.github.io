@@ -11,8 +11,6 @@ date: 2004-11-15 15:04:41
 </p>
 <p>I am not sure if you would be able to use a wireless usb connector with this device - as they are normally designed for printers and other low throughput communications.
 </p>
-<p>Alternative Cameras<a class="wiki wikinew for-review" title="Create page: Alternative Cameras">?</a>
-</p>
 <p>
 <br/>
 <br/>&lt;img src="show_image.php?id=46" /&gt;
