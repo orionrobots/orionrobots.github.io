@@ -10,16 +10,21 @@ def get_server_connection(config):
     eng = create_engine(
         "mysql://{user}:{pass}@{server}/{db}"\
         .format(**config))
-    return eng.connect()
+    return eng
 
 
 def test_db(config):
-    with get_server_connection(config) as conn:
+    logging.info("Connecting")
+    eng = get_server_connection(config) 
+    with eng.connect() as conn:
+        logging.info("COnnection made. Getting metadata")
         meta = MetaData()
+        logging.info("Reflecting")
         meta.reflect(bind=eng)
-        
+        logging.info("Table data:...")
         for table in meta.tables:
             print table
+            
 
 def image_from_server(config):
     connection = get_server_connection(config)
