@@ -39,6 +39,9 @@ def test_db(config):
             
         print rs.fetchall()
         
+class images_from_server(object):
+    def __init__(config):
+        
 
 def images_from_server(config):
     logging.info("Connecting")
@@ -51,10 +54,19 @@ def images_from_server(config):
         images = Table('tiki_images', meta, autoload=True)
         galleries = Table('tiki_galleries', meta, autoload=True)
         images_data = Table('tiki_images_data', meta, autoload=True)
-        
-        query = select([images.join(galleries, 
+        joined = images.join(galleries, 
                         images.c.galleryId == galleries.c.galleryId).join(images_data,
-                        images.c.imageId == images_data.c.imageId)])
+                        images.c.imageId == images_data.c.imageId)
+        query = select([images.c.name, 
+                        images.c.imageId, 
+                        images.c.description,
+                        galleries.c.galleryId, 
+                        galleries.c.name.label("galleryName"),
+                        galleries.c.description.label("galleryDescription"),
+                        images_data.c.filename,
+                        imagec_data.c.xsize,
+                        images_data.c.ysize,
+                        images_data.c.data]).from(joined)
         rs = con.execute(query)
     
         while True:
