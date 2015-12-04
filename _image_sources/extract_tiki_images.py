@@ -21,9 +21,9 @@ def test_db(config):
         meta = MetaData()
         logging.info("Reflecting")
         meta.reflect(bind=eng)
-        logging.info("Table data:...")
-        for table in meta.tables:
-            print table
+#        logging.info("Table data:...")
+#        for table in meta.tables:
+#            print table
         # desc tiki_images, tiki_galleries, tiki_images_data, 
         images = Table('tiki_images', meta, autoload=True)
         galleries = Table('tiki_galleries', meta, autoload=True)
