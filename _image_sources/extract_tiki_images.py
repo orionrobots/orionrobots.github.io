@@ -60,6 +60,7 @@ def get_config():
 def main():
     logging.basicConfig(level=logging.INFO)
     config = get_config()
+    logging.info("Got config %s", repr(config))
     
 #    write_image_metadata_page = make_template_writer()
     test_db(config)
