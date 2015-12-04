@@ -38,10 +38,7 @@ def test_db(config):
       
             
         print rs.fetchall()
-        
-class images_from_server(object):
-    def __init__(config):
-        
+
 
 def images_from_server(config):
     logging.info("Connecting")
