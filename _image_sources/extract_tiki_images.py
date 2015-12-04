@@ -1,6 +1,7 @@
 """Extract the images from tiki"""
 import json
 import logging
+import sys
 
 from sqlalchemy import create_engine, Table, MetaData
 from sqlalchemy.sql import select
