@@ -3,7 +3,7 @@ import json
 import logging
 import sys
 
-from sqlalchemy import create_engine, Table, MetaData
+from sqlalchemy import create_engine, Table, MetaData, inspect
 from sqlalchemy.sql import select
 
 def get_server_connection(config):
@@ -16,7 +16,7 @@ def get_server_connection(config):
 def test_db(config):
     logging.info("Connecting")
     eng = get_server_connection(config) 
-    with eng.connect() as conn:
+    with eng.connect() as con:
         logging.info("COnnection made. Getting metadata")
         meta = MetaData()
         logging.info("Reflecting")
@@ -24,7 +24,16 @@ def test_db(config):
         logging.info("Table data:...")
         for table in meta.tables:
             print table
-            
+        # desc tiki_images, tiki_galleries, tiki_images_data, 
+        images = Table('tiki_images', meta, autoload=True)
+        galleries = Table('tiki_galleries', meta, autoload=True)
+        images_data = Table('tiki_images_data', meta, autoload=True)
+        
+        stm = select([images.c.name, images.c.gallery]).limit(3)
+        rs = con.execute(stm) 
+    
+        print rs.fetchall()
+        
 
 def image_from_server(config):
     connection = get_server_connection(config)
