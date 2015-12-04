@@ -11,7 +11,7 @@ date: 2005-08-22 10:31:04
 </p>
 <p>An fairly easy trick is to get a pen, or a longer stiff rod of some sort, and apply a nice mass of blue-tac to the end. You can then push this into the screw, and retreive it. This also works for pulling out the head-pulling bolts used a lot in self-assembly furniture when they are seated to deep in the hole.
 </p>
-<div class="clearfix rbox error"><img alt="Close" class="rbox-close img-responsive" height="16" onclick="$(this).parent().fadeOut();" src="img/icons/close.png" title="Close" width="16"/><div class="rbox-title"><img alt="error" class="icon img-responsive" height="16" src="img/icons/information.png" title="error" width="16"/><span>Plugin disabled</span></div><div class="rbox-data">Plugin <strong>draw</strong> cannot be executed.</div></div>
+
 <p>
 <br/>You may be able to use the extraction tool or blue-tac method to actually insert, and get the first few turns in on a screw in an awkward place. This is a technique worth considering before it drops and winds you up.
 </p>

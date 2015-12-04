@@ -6,7 +6,6 @@ date: 2005-09-10 13:18:24
 <h1  id="Overview">Overview</h1>
 <p>The <a class="wiki" href="/wiki/diode.html" title="Diode">diode</a> bridge is a common and useful circuit. You will see it time and again, and it is a construct worth being aware of.
 </p>
-<div class="clearfix rbox error"><img alt="Close" class="rbox-close img-responsive" height="16" onclick="$(this).parent().fadeOut();" src="img/icons/close.png" title="Close" width="16"/><div class="rbox-title"><img alt="error" class="icon img-responsive" height="16" src="img/icons/information.png" title="error" width="16"/><span>Plugin disabled</span></div><div class="rbox-data">Plugin <strong>draw</strong> cannot be executed.</div></div>
 <p>
 </p>
 <h1  id="How_it_works">How it works</h1>

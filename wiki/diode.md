@@ -3,11 +3,10 @@ layout: page
 title: Diode
 date: 2005-12-02 21:33:44
 ---
-<p>A diode is a component that allows current to only flow in only one direction.
-</p>
-<div class="clearfix rbox error"><img alt="Close" class="rbox-close img-responsive" height="16" onclick="$(this).parent().fadeOut();" src="img/icons/close.png" title="Close" width="16"/><div class="rbox-title"><img alt="error" class="icon img-responsive" height="16" src="img/icons/information.png" title="error" width="16"/><span>Plugin disabled</span></div><div class="rbox-data">Plugin <strong>draw</strong> cannot be executed.</div></div>
-<p>
-<br/>It also only allows current to flow if the voltage is greater than 0.6 volts.
+
+A diode is a component that allows current to only flow in only one direction.
+
+It also only allows current to flow if the voltage is greater than 0.6 volts.
 </p>
 <p>The current may flow in another direction if it exceeds the breakdown voltage of the diode - this is generally a bad thing, and implies damage. There is however the special case Zener Diode - where this is an integral part of the design, and the breakdown voltage can be used for voltage regulation applications.
 </p>
@@ -22,19 +21,15 @@ date: 2005-12-02 21:33:44
 <h1  id="Diode_water_diagrams">Diode water diagrams</h1>
 <p>I will use water flow diagrams to try and explain all the behaviours of a diode, so that readers may gain an understanding of them and their use
 </p>
-<div class="clearfix rbox error"><img alt="Close" class="rbox-close img-responsive" height="16" onclick="$(this).parent().fadeOut();" src="img/icons/close.png" title="Close" width="16"/><div class="rbox-title"><img alt="error" class="icon img-responsive" height="16" src="img/icons/information.png" title="error" width="16"/><span>Plugin disabled</span></div><div class="rbox-data">Plugin <strong>draw</strong> cannot be executed.</div></div>
 <p>
 <br/>All diodes have a minimum operating voltage, before which they will not conduct, this is represented by the spring in the diagram, and currently the water flow is not enough to overcome the spring. Typically this is around 0.6 volts in a diode.
 </p>
-<div class="clearfix rbox error"><img alt="Close" class="rbox-close img-responsive" height="16" onclick="$(this).parent().fadeOut();" src="img/icons/close.png" title="Close" width="16"/><div class="rbox-title"><img alt="error" class="icon img-responsive" height="16" src="img/icons/information.png" title="error" width="16"/><span>Plugin disabled</span></div><div class="rbox-data">Plugin <strong>draw</strong> cannot be executed.</div></div>
 <p>
 <br/>In this diagram, there is enough water pressure to overcome the barrier, and it is allowed to flow.
 </p>
-<div class="clearfix rbox error"><img alt="Close" class="rbox-close img-responsive" height="16" onclick="$(this).parent().fadeOut();" src="img/icons/close.png" title="Close" width="16"/><div class="rbox-title"><img alt="error" class="icon img-responsive" height="16" src="img/icons/information.png" title="error" width="16"/><span>Plugin disabled</span></div><div class="rbox-data">Plugin <strong>draw</strong> cannot be executed.</div></div>
 <p>
 <br/>Here there is a small reverse flow - which is not allowed, and the barrier remains closed.
 </p>
-<div class="clearfix rbox error"><img alt="Close" class="rbox-close img-responsive" height="16" onclick="$(this).parent().fadeOut();" src="img/icons/close.png" title="Close" width="16"/><div class="rbox-title"><img alt="error" class="icon img-responsive" height="16" src="img/icons/information.png" title="error" width="16"/><span>Plugin disabled</span></div><div class="rbox-data">Plugin <strong>draw</strong> cannot be executed.</div></div>
 <p>
 <br/>This final diagram is what happens when the reverse flow is too much, the barrier is opened the oposite way, and the voltage is allowed to flow. Now this may actually have cause permanent damage to the diode if the reverse bias was strong enough.
 </p>

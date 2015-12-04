@@ -53,11 +53,9 @@ date: 2005-09-09 14:28:43
 <p>You need to take the <a class="wiki" href="/wiki/led.html" title="Light Emitting Diode">LED</a> and identify the <a class="wiki" href="/wiki/anode.html" title="The positive electrode">Anode</a> - this is the cable on the <strong>opposite side</strong> to the flat edge. Using the clamp to hold the cables in place, solder the resistor to this lead.
 </p>
 <p>Now clip the jump leads to the switches - wiring them in series. This means the positive rail from the power supply must be wired to the contact on one switch, the next contact wired to a contact on the next switch, and the following contact wired to the resistor (on the LED), and the <a class="wiki" href="/wiki/cathode.html" title="The Negative Electrode">Cathode</a> of the LED wired to the negative rail on the power supply.
-</p>
-<div class="clearfix rbox error"><img alt="Close" class="rbox-close img-responsive" height="16" onclick="$(this).parent().fadeOut();" src="img/icons/close.png" title="Close" width="16"/><div class="rbox-title"><img alt="error" class="icon img-responsive" height="16" src="img/icons/information.png" title="error" width="16"/><span>Plugin disabled</span></div><div class="rbox-data">Plugin <strong>draw</strong> cannot be executed.</div></div>
-<p>
-<br/>I then suggest you mount the demo on a peice of card - labeling one of the switches/buttons A, one of them B, and then labelling the LED C. If you are feeling fancy, you could then draw the Logic Symbol for the and (As shown above) between them.
-</p>
+
+I then suggest you mount the demo on a piece of card - labeling one of the switches/buttons A, one of them B, and then labelling the LED C. If you are feeling fancy, you could then draw the Logic Symbol for the and (As shown above) between them.
+
 <h2  id="Testing_it">Testing it</h2>
 <p>Apply power to the circuit. The LED should be turned off - if it is already on, check that you have not used push to break switches.
 <br/>Now try the combinations. Turn A) on, the LED should remain unlit, turn A) off and <img alt="B-)" class="img-responsive" src="img/smiles/icon_cool.gif" title="cool"/> on, the LED should still remain until.

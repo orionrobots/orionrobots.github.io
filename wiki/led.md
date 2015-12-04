@@ -16,9 +16,6 @@ date: 2005-09-10 14:21:41
 </p>
 <p>The technology is currently improving to allow super-bright LEDs which can replace household lamps with device that are much cheaper and more efficient.
 </p>
-<p>LED Circuit Symbol
-</p>
-<div class="clearfix rbox error"><img alt="Close" class="rbox-close img-responsive" height="16" onclick="$(this).parent().fadeOut();" src="img/icons/close.png" title="Close" width="16"/><div class="rbox-title"><img alt="error" class="icon img-responsive" height="16" src="img/icons/information.png" title="error" width="16"/><span>Plugin disabled</span></div><div class="rbox-data">Plugin <strong>draw</strong> cannot be executed.</div></div>
 <p>
 <br/>Their use in small devices however - has been undone by the march of the <a class="wiki" href="/wiki/lcd.html" title="Liquid Crystal Display">LCD</a>. However - the oLED - organic LED may bring back the crown, as new technology may allow people to literally print off custom displays with a few mods to a printer, while offering far greater density than LED's normally could. As OLEDs may turn out far cheaper, as well as having much faster response time than <a class="wiki" href="/wiki/lcd.html" title="Liquid Crystal Display">LCD</a> or Plasma - they may replace the technology in screens. They also do not need backlighting, and would be flexible - giving TFT devices a kick in the teeth. Luckily for <a class="wiki" href="/wiki/lcd.html" title="Liquid Crystal Display">LCD</a> manufacturers - it may be a few years before this technology is commonly available.
 </p>

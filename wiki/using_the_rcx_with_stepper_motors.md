@@ -24,7 +24,7 @@ date: 2005-10-03 15:44:31
 </p>
 <p>Activating the coils will require a shift register, which allows a roll - or carry operation when shifting, and is reversible - with two clock inputs.
 </p>
-<div class="clearfix rbox error"><img alt="Close" class="rbox-close img-responsive" height="16" onclick="$(this).parent().fadeOut();" src="img/icons/close.png" title="Close" width="16"/><div class="rbox-title"><img alt="error" class="icon img-responsive" height="16" src="img/icons/information.png" title="error" width="16"/><span>Plugin disabled</span></div><div class="rbox-data">Plugin <strong>draw</strong> cannot be executed.</div></div>
+
 <p>
 <br/>Now the PWM output from the controlling port can be used as a clock pulse for the circuit - but should probably be scaled down to a handle-able voltage of around 5v for the logic inputs - and in such a way that if it is positive it activates one input, and if negative - it activates another. The could be acheived with two transistors - one  with a pull-down output, and the other a pull-up output. These outputs then go to the clock lines.
 </p>
