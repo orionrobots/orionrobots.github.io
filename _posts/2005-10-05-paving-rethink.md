@@ -8,10 +8,10 @@ First lets consider a few reasons for this rethink:
 
 Pavements and roads are concrete - they do not breathe.. Could that space be used more efficiently?
 
-Whenever a poxy piece of piping or cabling is altered - miles of paving is dug up, thrown away and recast/replaced.
+Whenever piping or cabling is altered - miles of paving is dug up and recast/replaced.
 Manhole covers come in an odd variety of shapes and sizes( cute but not useful).
 
-Here is my proposal - it may not be particularly cheap startup to implement, but may pay off well in the long run - reducing works costs and times (thus traffic problems from works), improving environment, and they would also look very cool. It would also make drainage much simpler.
+Here is my proposal - it is not cheap to implement, but will pay off well in the long run - reducing works costs and times (thus traffic problems from works), improving environment, and they would also look very cool. It makes drainage much simpler.
 
 Pavement and roads will be build in precast sections - mostly rectangular - but some variations/curves are included.
 
@@ -25,22 +25,22 @@ This is the bottom layer of the section. Under the sections would be cast a syst
 
 To remove the sections - there will be some gripping sockets(for a crane with attachment). These are normally covered by a cover to keep them flush with the top. The plugs for these have a mechanical catch - so they slide in, and engage with some of the high strength struts - allowing the whole section to be removed. Since workmen and small machines can freely go down entrance ramps, this should only be needed for maintenance and replacement of the segments or city planning - rarely.
 
-This can be used for city/private garage/carpark design.
-Licensed as Creative Commons by-nc-sa 2.0 license
+This can be used for city/private garage/car park design. 
+It could be used on a smaller scale on gardens and terraces.
 
-It could be used on a smaller scale on gardens and terraces and in many situations.
+Licensed as Creative Commons by-nc-sa 2.0 license
 
 # Questions
 
 ## What about curves?
 
-Should curves sections be made? Why not.
+Should curved sections be made? Why not.
 
 Most complex road setups could be made with a set of components, for an example of a system built like this, one only need look at rail systems.
 
 ## What about cost?
 
-The cost of this - in terms of an initial investment, would be a lot, and city planners would have to put this up front, but the time and cost saved in pulling up the road with diggers, disposing of the broken tarmac/concrete, relaying and resurfacing the road just to get a burst water main of some similar problem sorted would make it worth it in a very short time scale.
+The cost of this - in terms of an initial investment, would be a lot, and city planners would have to put this up front, but the time and cost saved in pulling up the road with diggers, disposing of the broken tarmac/concrete, relaying and resurfacing the road just to get a burst water main or some similar problem sorted would make it worth it in a very short time scale.
 
 Now given that the actual blocks are mostly uniform, with the exception of a few, they could actually be mass produced - which would save money. The actual plant area could be laid as turf.
 
