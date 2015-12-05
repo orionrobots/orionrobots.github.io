@@ -9,7 +9,7 @@ date: 2006-01-16 13:01:20
 </p>
 <p>Some of these are also simple circuits with a <a class="wiki" href="/wiki/capacitor.html" title="Capacitor">capacitor</a>, which after reaching a trigger voltage, causes a <a class="wiki" href="/wiki/transistor.html" title="Transistor">Transistor</a> to flip.  This will drive a motor for a breif burst of motion, then stop after the capacitor is fully discharged.  A great use of <a class="wiki" href="/wiki/solar_panel.html" title="Solar Panel">Solar Panels</a> and pretty easy to build.
 </p>
-<p>Legged robots can be built in interesting ways using sine(or relatively curved waveforms) offset by 90/180 degrees.  If used with Muscle Wire<a class="wiki wikinew for-review" title="Create page: Muscle Wire">?</a> - it means you can get a set of flowing contractions just from the wave generators.
+<p>Legged robots can be built in interesting ways using sine(or relatively curved waveforms) offset by 90/180 degrees.  If used with Muscle Wire - it means you can get a set of flowing contractions just from the wave generators.
 </p>
 <p>Some people like the idea of taking the BEAM principles, and creating a <a class="wiki" href="/wiki/horse_and_rider.html" title="One system takes high-level control of a lower level system">Horse And Rider</a> Robot - a very interesting proposition indeed.
 </p>

@@ -3,7 +3,7 @@ layout: page
 title: Bleex
 date: 2007-01-28 20:14:59
 ---
-<div style=" float: right;"> <img class="img-responsive" src="image17"/> </div>Bleex is an <a class="wiki" href="/wiki/exoskeleton.html" title="A device/vehical worn to enhance human abilities">Exoskeleton</a> suit being developed at the Berkeley Robotics Lab<a class="wiki wikinew for-review" title="Create page: Berkeley Robotics Lab">?</a> and funded by <a class="wiki" href="/wiki/darpa.html" title="Defense Advanced Research Projects Agency">DARPA</a>. This project began in 2000.
+<div style=" float: right;"> <img class="img-responsive" src="image17"/> </div>Bleex is an <a class="wiki" href="/wiki/exoskeleton.html" title="A device/vehical worn to enhance human abilities">Exoskeleton</a> suit being developed at the Berkeley Robotics Lab and funded by <a class="wiki" href="/wiki/darpa.html" title="Defense Advanced Research Projects Agency">DARPA</a>. This project began in 2000.
 <p>
 <br/>The acronym is for the Berkeley Lower Extremity Exoskeleton. It is worn over the legs only, and takes the weight of a large backpack. It is intended for military personnel to be able to carry much greater loads safely, enabling infantry with larger weapons and other additional payloads to travel great distances.
 </p>

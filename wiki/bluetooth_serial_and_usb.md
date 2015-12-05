@@ -3,7 +3,7 @@ layout: page
 title: Bluetooth Serial and USB
 date: 2004-11-16 23:09:10
 ---
-<p>The <a class="wiki" href="/wiki/mindstorms.html" title="A Robotic construction toy system from Lego">Mindstorms</a> Vision Command<a class="wiki wikinew for-review" title="Create page: Vision Command">?</a> camera was, lets face it, a dissapointment for one simple reason - that you could not use it effectively on a mobile robot.  Besides that, there are a million and one reasons you would want some kind of wireless comms with a robot.
+<p>The <a class="wiki" href="/wiki/mindstorms.html" title="A Robotic construction toy system from Lego">Mindstorms</a> Vision Command camera was, lets face it, a disappointment for one simple reason - that you could not use it effectively on a mobile robot.  Besides that, there are a million and one reasons you would want some kind of wireless comms with a robot.
 </p>
 <p>For cameras specifically, you can buy wireless cameras, and receivers - though you may have fun trying to get one which works with a <a class="wiki" href="/wiki/bluetooth.html" title="Bluetooth">Bluetooth</a> <a class="wiki" href="/wiki/universal_serial_bus.html" title="Universal Serial Bus">USB</a> port - suggestions are welcome!
 </p>

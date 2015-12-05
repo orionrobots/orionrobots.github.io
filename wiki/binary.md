@@ -3,7 +3,7 @@ layout: page
 title: Binary
 date: 2006-04-19 16:08:27
 ---
-<p>The basic computer method of storing information in a series of encoded zeros and ones - or <a class="wiki" href="/wiki/bit.html" title="Binary Digit">bits</a>. Binary is manipulated with Arithmetic<a class="wiki wikinew for-review" title="Create page: Arithmetic">?</a> and <a class="wiki" href="/wiki/boolean.html" title="Boolean">Boolean</a> operations.
+<p>The basic computer method of storing information in a series of encoded zeros and ones - or <a class="wiki" href="/wiki/bit.html" title="Binary Digit">bits</a>. Binary is manipulated with Arithmetic and <a class="wiki" href="/wiki/boolean.html" title="Boolean">Boolean</a> operations.
 </p>
 <p>Binary based devices are what people mean when they commonly refer to <em>Digital</em> devices.
 </p>
@@ -15,7 +15,7 @@ date: 2006-04-19 16:08:27
 </p>
 <p>Also because of the high tolerances when only needing to detect two states, high transmission rates can be attained. At low rates it may arguably be quite inefficient use of a wire which can carry a huge continuous range of voltages - but when you are talking about millions of <a class="wiki" href="/wiki/bit.html" title="Binary Digit">binary digits</a> per second, then it become extremely efficient.
 </p>
-<p>Analog<a class="wiki wikinew for-review" title="Create page: Analog">?</a> describes the polar opposite of this system.
+<p>Analog describes the polar opposite of this system.
 </p>
 <p>Also please refer to <a class="wiki" href="/wiki/parallel_data_stream.html" title="Parallel Data Stream">Parallel Data</a> and <a class="wiki" href="/wiki/serial_data_stream.html" title="Serial Data Stream">Serial Data</a>.
 </p>
@@ -48,13 +48,13 @@ date: 2006-04-19 16:08:27
 </li><li> <a class="wiki" href="/wiki/george_boole.html" title="The creator of Boolean Logic - the root of all our digital computing">George Boole</a>
 </li><li> <a class="wiki" href="/wiki/logic_gate.html" title="Devices designed to perform logical operations">logic Gates</a>
 </li><li> <a class="wiki" href="/wiki/boolean.html" title="Boolean">Boolean</a>
-</li><li> Boolean Logic<a class="wiki wikinew for-review" title="Create page: Boolean Logic">?</a>
+</li><li> Boolean Logic
 </li><li> <a a="" brain")="" class="wiki" for="" href="/wiki/microcontroller.html" robot"="" title="A programmable digital controller (or ">MicroController</a>
 </li><li> <a class="wiki" href="/wiki/parallel_data_stream.html" title="Parallel Data Stream">Parallel Data</a>
 </li><li> <a class="wiki" href="/wiki/serial_data_stream.html" title="Serial Data Stream">Serial Data</a>
 </li><li> <a class="wiki" href="/wiki/bit.html" title="Binary Digit">BIT</a>
 </li><li> <a class="wiki" href="/wiki/byte.html" title="8 Bits">Byte</a>
-</li><li> Digital<a class="wiki wikinew for-review" title="Create page: Digital">?</a>
+</li><li> Digital
 </li><li> <a class="wiki" href="/wiki/io.html" title="Input Output">IO</a>
 </li><li> <a class="wiki" href="/wiki/truth_table.html" title="Truth Table">Truth Table</a>
 </li></ul><p>
@@ -64,8 +64,4 @@ date: 2006-04-19 16:08:27
 </p>
 <ul><li> <a  href="http://www.williamson-labs.com/480_logic.htm" rel="external" target="_blank">Digital Logic - Williamson Labs</a> - A rather good explanation with excellent animated demonstrations.
 </li></ul><p>
-</p>
-<h1  id="Tags">Tags</h1>
-<p>{TECHTAG(tag=&gt;robots)/} {TECHTAG(tag=&gt;electronics)/}
-<br/>{TECHTAG(tag=&gt;computers)/} {TECHTAG(tag=&gt;logic)/}
 </p>
