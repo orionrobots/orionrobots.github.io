@@ -13,7 +13,7 @@ date: 2007-01-28 20:47:25
 </p>
 <p>It is likely that CyberMaster does not support the active sensor modes the RCX can. It has 3 input sensor pads, but the three touch sensors that come with it have resistors (which is useful), so these three ports may only effectively be one real hardware port.
 </p>
-<p>This set was long discontinued, and has become fairly rare, although they can occasionally be found on eBay. The fact that Lego packaged it with a Technic Minifig, and put it in a very unique metallic carry case means that they are among some of the more prized and collectable Lego sets. <a class="wiki" href="/wiki/orionrobots.html" title="About OrionRobots">OrionRobots</a> acquired our set via eBay, but only have the German version of the software. If someone (Lego company?) could donate an English Language version of the CD - we would be very grateful.
+<p>This set was long discontinued, and has become fairly rare, although they can occasionally be found on eBay. The fact that Lego packaged it with a Technic Minifig, and put it in a very unique metallic carry case means that they are among some of the more prized and collectible Lego sets. <a class="wiki" href="/wiki/orionrobots.html" title="About OrionRobots">OrionRobots</a> acquired our set via eBay, but only have the German version of the software. If someone (Lego company?) could donate an English Language version of the CD - we would be very grateful.
 </p>
 <p>It is also likely that the Cybermaster uses the same Hitachi H8/300 microcontroller as the RCX.
 </p>
@@ -33,6 +33,6 @@ date: 2007-01-28 20:47:25
 </li><li> <a class="wiki" href="/wiki/wireless.html" title="Wireless">Wireless</a>
 </li><li> <a class="wiki" href="/wiki/ldraw.html" title="The LDraw Lego CAD System">LDraw</a>
 </li></ul><h2  id="Getting_hold_of_one">Getting hold of one</h2>
-<ul><li> eBay<a class="wiki wikinew for-review" title="Create page: eBay">?</a> - This is where you might pick one of these up
+<ul><li> eBay - This is where you might pick one of these up
 </li><li> <a class="wiki" href="/wiki/bricklink.html" title="Lego Trading Commnity">bricklink</a>
 </li></ul>

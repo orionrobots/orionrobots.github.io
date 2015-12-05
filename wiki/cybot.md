@@ -9,21 +9,11 @@ date: 2004-11-14 20:46:28
 </p>
 <p>Any tips, mods or ideas you can think of to do with it can go here.
 </p>
-<p>Repairing A Broken Cybot Castor<a class="wiki wikinew for-review" title="Create page: Repairing A Broken Cybot Castor">?</a>
-</p>
-<p>Using A Palm Computer with Cybot<a class="wiki wikinew for-review" title="Create page: Using A Palm Computer with Cybot">?</a>
-</p>
-<p>Using a Pocket PC with Cybot<a class="wiki wikinew for-review" title="Create page: Using a Pocket PC with Cybot">?</a>
-</p>
-<p>Customising Cybot<a class="wiki wikinew for-review" title="Create page: Customising Cybot">?</a>
-</p>
-<p>Communications between Cybot and RCX<a class="wiki wikinew for-review" title="Create page: Communications between Cybot and RCX">?</a>
+[Broken Cybot Repairs](/2008/05/05/broken-cybot-repairs)
 </p>
 <p><a class="wiki" href="/wiki/the_cybot_infra_red_protocol.html" title="The Cybot Infra Red Protocol">The Cybot Infra Red Protocol</a>
 </p>
-<p>Cybot Circuit Diagrams<a class="wiki wikinew for-review" title="Create page: Cybot Circuit Diagrams">?</a>
-</p>
 <p><a class="wiki" href="/wiki/building_tips.html" title="Hints and helpers for actually building robots, and other stuff.">Building Tips</a>
 </p>
-<p><a  href="http://www.coolcybot.co.uk/board/index.php?showtopic=201" rel="external" target="_blank">The CoolCybot Message Board</a> - A cybot specialist forum.
+<p><a  href="http://www.coolcybot.co.uk/" rel="external" target="_blank">The CoolCybot Message Board</a> - A cybot specialist forum.
 </p>

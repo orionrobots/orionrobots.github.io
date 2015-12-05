@@ -11,4 +11,4 @@ The most basic capacitor would be two metal plates- opposite each other.  Each p
 
 If you then connect them to an output device, they will output a current until they are fully discharged.  Because with a certain voltage, resistance and capacitance you will get a fixed repeatable time - a great application for these are timing circuits.
 
-They are also good for filtering out low frequency when used in series, or for filtering high-frequencies when connected in parallel to ground. By using a combination of capacitors and inductors<a class="wiki wikinew for-review" title="Create page: inductor">?</a> you can create a tuned filter which suppresses all but a limited range of frequencies.
+They are also good for filtering out low frequency when used in series, or for filtering high-frequencies when connected in parallel to ground. By using a combination of capacitors and inductors you can create a tuned filter which suppresses all but a limited range of frequencies.

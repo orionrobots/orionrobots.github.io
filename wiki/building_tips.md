@@ -11,10 +11,10 @@ date: 2013-05-02 20:34:32
 </p>
 <h2  id="Next_Steps">Next Steps</h2>
 <ul><li> <a class="wiki" href="/wiki/cad.html" title="Computer Aided Design">CAD</a> and <a class="wiki" href="/wiki/design.html" title="Design">Design</a> - Before you start a complicated build - ensure you design your robot well.
-</li><li> Fixing A Broken Wire<a class="wiki wikinew for-review" title="Create page: Fixing A Broken Wire">?</a> - When a wire is snapped in a Cybot or similar robot kit - how can you repair it?
+</li><li> Fixing A Broken Wire - When a wire is snapped in a Cybot or similar robot kit - how can you repair it?
 </li><li> <a class="wiki" href="/wiki/robot_tools.html" title="Tools that are often required to get started in robot building">Robot Tools</a> - What do you need for the job?
 </li><li> <a class="wiki" href="/wiki/damaged_screw_head.html" title="Getting out that really stubborn screw or bolt">Damaged Screw Head</a> - Broken screw heads are tough - how can you get them out.
-</li><li> <a class="wiki" href="/wiki/retreiving_dropped_screws.html" title="What to do when you drop a screw, nut or bolt into the gubbins of a machine">Retreiving Dropped Screws</a> - Getting to that screw you dropped deep in the gubbins of your robot.
+</li><li> <a class="wiki" href="/wiki/retreiving_dropped_screws.html" title="What to do when you drop a screw, nut or bolt into the gubbins of a machine">Retrieving Dropped Screws</a> - Getting to that screw you dropped deep in the gubbins of your robot.
 </li><li> <a class="wiki" href="/wiki/choosing_a_glue.html" title="Choosing the right glue, for the right job">Choosing A Glue</a> - There are a number of glues you can use - which should you choose and why?
 </li><li> <a class="wiki" href="/wiki/printed_circuit_boards.html" title="Printed Circuit Boards">Printed Circuit Boards</a> - Sooner or later you will need to think about this for advanced circuit design.
 </li><li> <a class="wiki" href="/wiki/part_reuse.html" title="Part Reuse">Part Reuse</a> and <a class="wiki" href="/wiki/modular_robot_design.html" title="Modular Robot Design">Modular Robot Design</a> are two areas that every robot builder should familiarise themselves with.
@@ -26,7 +26,7 @@ date: 2013-05-02 20:34:32
 </p>
 <p>When using <a class="wiki" href="/wiki/pic.html" title="PIC">PIC</a>'s and other chips - always try to use sockets for these.  This means that when you have a fault, or wish to upgrade it, or reuse it - you can.  Also - it means that you have much less chance of damaging the chip when soldering the socket.  Many of these components are sensitive to heat.
 </p>
-<p>If you are working with IC's and transistors, always try to make sure you are earthed - buy a wrist band from your local PC dealer.  Many of these devices are sensitive to electrostatic discharges.  That also means you should store them in their protective bags.  I also tend to find a sheet of paper or card, during work, is a good place to store them temporarily. You can breifly earth yourself by touching a metal part of a case - but using the band means you have both hands, and ensures proper contact.
+<p>If you are working with IC's and transistors, always try to make sure you are earthed - buy a wrist band from your local PC dealer.  Many of these devices are sensitive to electrostatic discharges.  That also means you should store them in their protective bags.  I also tend to find a sheet of paper or card, during work, is a good place to store them temporarily. You can briefly earth yourself by touching a metal part of a case - but using the band means you have both hands, and ensures proper contact.
 </p>
 <p>Try to avoid using screwdrivers that are the wrong size for the screw- although it may be convenient and tempting to use one screwdriver for everything - you have a good chance of destroying the screw heads and screw driver.
 </p>

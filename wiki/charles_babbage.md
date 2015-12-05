@@ -9,7 +9,7 @@ date: 2005-08-18 20:48:51
 </p>
 <p>His later Analytical Engine was a much faster and more powerful machine - a replica of which resides in the London Science Museum.
 </p>
-<p>It is often said that it is Babbages machines, and <a class="wiki" href="/wiki/the_lady_ada.html" title="History of The Countess Of Lovelace, and relationship to Computers and Robotics">The Lady Adas</a> programming that enabled us to get where we are with modern computing and robotics, with the help of (alan turing)) on the way. Indeed there are some very interesting Sci-Fi<a class="wiki wikinew for-review" title="Create page: Robot Sci Fi">?</a> stories based on the premise of robots or huge war-engines built using a Babbage style analytical engine.
+<p>It is often said that it is Babbages machines, and <a class="wiki" href="/wiki/the_lady_ada.html" title="History of The Countess Of Lovelace, and relationship to Computers and Robotics">The Lady Adas</a> programming that enabled us to get where we are with modern computing and robotics, with the help of (alan turing)) on the way. Indeed there are some very interesting Sci-Fi stories based on the premise of robots or huge war-engines built using a Babbage style analytical engine.
 </p>
 <p>Babbages Analytical Engine was basically a steam powered computer - capable of storing 1 thousand 50 digit numbers in its memory.  He started work on this in 1834
 </p>
