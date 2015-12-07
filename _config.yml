@@ -150,11 +150,7 @@ menu:
   -
     title: FAQ
     description: About the Orion Explorer 1 Robot Kits
-    url: /products/orion-explorer-faq.html
-  -
-    title: Current Projects
-    description: What are we working on in the Orionrobots Labs
-    url: /projects.html
+    url: /faq.html
   -
     title: Blog
     description: Blog
