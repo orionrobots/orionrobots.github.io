@@ -5,6 +5,8 @@ description: "Building Robots!"
 ---
 {% include JB/setup %}
 
+[The Orionrobots Youtube Channel ![](https://yt3.ggpht.com/-CTE7btpvjnc/VkekFJl9jfI/AAAAAAAAAIQ/AhXB_EanDOw/w2120-fcrop64=1,00005a57ffffa5a8-nd/CollageBanner2015.jpg)](http://youtube.com/c/orionrobots)
+
 Explorer 1 Videos
 =================
 <div style="vertical-align: top">
