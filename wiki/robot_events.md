@@ -3,16 +3,32 @@ layout: page
 title: Robot Events
 date: 2004-11-16 16:11:54
 ---
-<p>Current, and previous robot events here:
-</p>
-<ul><li> <a class="wiki" href="/wiki/east_finchley_robotics_club.html" title="East Finchley Robotics Club">East Finchley Robotics Club</a>
-</li><li> <a class="wiki" href="/wiki/cardbot_challenge_details.html" title="Cardbot Challenge Details">Cardbot Challenge Details</a>
-</li><li> <a class="wiki" href="/wiki/robot_wars.html" title="The british robot smashing TV series.">Robot Wars</a>
-</li><li> <a class="wiki" href="/wiki/darpa_grand_challenge.html" title="DARPA Grand Challenge">DARPA Grand Challenge</a>
-</li><li> <a class="wiki" href="/wiki/robolympics.html" title="ROBOlympics">ROBOlympics</a>
-</li><li> <a class="wiki" href="/wiki/techno_games.html" title="Techno Games">Techno Games</a>
-</li><li> <a class="wiki" href="/wiki/robo_cup.html" title="Robo Cup">Robo Cup</a>
-</li><li> <a class="wiki" href="/wiki/holding_school_robot_battle_events.html" title="Holding School Robot Battle Events">Holding School Robot Battle Events</a>
-</li></ul><p>
-<br/>Please feel free to comment on your own events, and we will add it here.
-</p>
+Doing anything alone is not as much fun as being part of a community of people, 
+or going to where a large crowd are enjoying robots doing something interesting or spectacular.
+
+We are starting to collect some events, clubs and societies here. 
+Please contact us if you have robotics, maker or electronics events you'd like us to mention here.
+
+# Our Events
+
+## Current
+
+We are not currently running any events. However, Danny is frequently attending the Ham Coder Dojo with his kids.
+
+## Previous
+
+* [East Finchley Robotics Club](/wiki/east_finchley_robotics_club.html)
+* [Cardbot Challenge Details](/wiki/cardbot_challenge_details.html)
+
+# Major Other Events
+
+* [ICRAI 2015: The first ever International Conference on Robotics and Artificial Intelligence](/pages/icra_2015.html)
+* [Robot Wars](/wiki/robot_wars.html)
+* [DARPA Grand Challenge](darpa_grand_challenge.html)
+* [ROBOlympics](/wiki/robolympics.html)
+* [Robo Cup](/wiki/robo_cup.html)
+
+# Holding Your Own Events
+
+* [Holding School Robot Battle Events](/wiki/holding_school_robot_battle_events.html)
+
