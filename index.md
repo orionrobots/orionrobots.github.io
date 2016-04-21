@@ -33,7 +33,10 @@ I am Danny Staple, Orionrobots is my investigations and projects with robotics, 
 {% assign link_url="/2013/05/23/building-a-bump-sensor" %}
 {% include pin_image_link.html %}
 
+# Events
+
+[Robot Events](wiki/robot_events.html)
+
 # Policies
 
 <a href="/Terms+And+Conditions" title="Terms And Conditions">Terms And Conditions</a>
-
