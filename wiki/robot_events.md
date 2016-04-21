@@ -8,18 +8,14 @@ or going to where a large crowd are enjoying robots doing something interesting 
 We are starting to collect some events, clubs and societies here. 
 Please contact us if you have robotics, maker or electronics events you'd like us to mention here.
 
-# Our Events
+# Places and Clubs
 
-## Current
+* London Hackspace
+* Ham Coder Dojo
+* London Arduino Group
+* London Nodebots
 
-We are not currently running any events. However, Danny is frequently attending the Ham Coder Dojo with his kids.
-
-## Our Previous Events and Challenges
-
-* [East Finchley Robotics Club](/wiki/east_finchley_robotics_club.html)
-* [Cardbot Challenge Details](/wiki/cardbot_challenge_details.html)
-
-# Other Events
+# Events
 
 * [ICRAI 2015: The first ever International Conference on Robotics and Artificial Intelligence](/pages/icra_2015.html)
 * [Micromouse UK 2008](/2008/07/06/uk-micromouse-2008)
@@ -28,10 +24,16 @@ We are not currently running any events. However, Danny is frequently attending 
 * [ROBOlympics](/wiki/robolympics.html)
 * [Robo Cup](/wiki/robo_cup.html)
 
-
 # Robot Shows
 
 * [Robot Wars](/wiki/robot_wars.html)
+
+# Orionrobots Previous Events and Challenges
+
+Orionrobots has previously run clubs and events. There aren't any currently running.
+
+* [East Finchley Robotics Club](/wiki/east_finchley_robotics_club.html)
+* [Cardbot Challenge Details](/wiki/cardbot_challenge_details.html)
 
 # Holding Your Own Events
 
