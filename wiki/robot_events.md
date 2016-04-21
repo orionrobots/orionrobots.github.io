@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Robot Events
-date: 2004-11-16 16:11:54
 ---
 Doing anything alone is not as much fun as being part of a community of people, 
 or going to where a large crowd are enjoying robots doing something interesting or spectacular.
@@ -31,4 +30,3 @@ We are not currently running any events. However, Danny is frequently attending 
 # Holding Your Own Events
 
 * [Holding School Robot Battle Events](/wiki/holding_school_robot_battle_events.html)
-
