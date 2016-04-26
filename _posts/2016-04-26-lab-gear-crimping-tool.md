@@ -10,5 +10,5 @@ and certainly beats trying to do it with pliers and a lot of force or a hammer.
 
 
 <div class="embed-responsive embed-responsive-16by9">
-<iframe width="560" height="315" src="http://www.youtube.com/watch?v=3l5YW73LN3M?rel=0" frameborder="0" allowfullscreen="True"></iframe>
-</div> 
+<iframe width="560" height="315" src="http://www.youtube.com/watch?v=3l5YW73LN3M" frameborder="0" allowfullscreen="True"></iframe>
+</div>
