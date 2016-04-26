@@ -8,6 +8,7 @@ store-bought cables with prepared ends can go a long way, sooner or later you
 will need to do some of your own. This tool is the right type for the job - 
 and certainly beats trying to do it with pliers and a lot of force or a hammer.
 
-{% assign youtube_id="3l5YW73LN3M" %} 
-{% assign description="Esp 8266 Flashing LED" %}
-{% include youtube_link %}
+
+<div class="embed-responsive embed-responsive-16by9">
+<iframe width="560" height="315" src="http://www.youtube.com/watch?v=3l5YW73LN3M?rel=0" frameborder="0" allowfullscreen="True"></iframe>
+</div> 
