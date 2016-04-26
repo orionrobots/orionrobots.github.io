@@ -1,6 +1,6 @@
 ---
 layout: post
-tags: [robots, esp8266, l298n]
+tags: [robots, esp8266, l298n, lua, nodemcu]
 title: Esp8266 nodemcu simple robot
 ---
 This week I built a simple robot base using a NodeMCU V3 dev board - an ESP8266 based board broken out for use with a breadboard,
