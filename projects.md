@@ -4,9 +4,19 @@ title: Projects
 ---
 # What are we working on?
 
+## Esp 8266
+
+My current project is called "Bounce!" - a visual programming language based on Block.ly for the esp8266 - a wifi enabled microcontroller. I am of course connecting to it to as many robtos and sensors as I can get my hands on - there is a lot of related esp8266 video content.
+
+## The CNC Machine
+
+We bought a CnC Machine, intending to use it to prototype new robot stuff, and because prototype fabrication is a fun use of robotics.
+
+[CnC Machine](cnc_notes.html)
+
 ## The Orion Explorer 1
 
-This is my own robot kit - for sale on the site. What are we tinkering with, what are we using it to build?
+This is my own robot kit - which was sold in 2014. It is no longer being worked on.
 
 {% assign pages_list=site.tags["orion explorer 1"] %}
 <ul class="posts">
@@ -25,12 +35,6 @@ This is my own robot kit - for sale on the site. What are we tinkering with, wha
   {% endfor %}
 </ul>
 <a href="/tags.html#orion explorer 1-ref">More...</a>
-
-# The CNC Machine
-
-We bought a CnC Machine, intending to use it to prototype new robot stuff, and because prototype fabrication is a fun use of robotics.
-
-<a href="http://orionrobots.github.io/CnCNotes">CnC Notes</a>
 
 ## Raspberry Pi Explorer
 
