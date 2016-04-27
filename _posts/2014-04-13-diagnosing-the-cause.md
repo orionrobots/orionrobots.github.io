@@ -57,7 +57,7 @@ current sense.
 
 Now I'd got some parts, and some background, I decided to start by debugging it with a scope and a small rig. I used 4xAA batteries, 6v as a supply - and clipped it onto the board - a ground, and the +ve rail for the low voltage side, where the 7812 output would be.
 
-![]({{gallery}}/IMG_3402.JPG) 
+![]({{gallery}}/IMG_3402.jpg) 
 
 ![]({{gallery}}/IMG_3403.JPG)
 
