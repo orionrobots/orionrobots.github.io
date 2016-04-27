@@ -29,7 +29,11 @@ It arrived a few days later - requiring some assembly - attaching the stepper mo
   {% for post in site.posts %}
     {% if post.tags contains "cnc" %}
         <li>
-          <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+            {% if forloop.index < 4 %}
+                <span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a><p class="clearfix">{{ post.excerpt }}<a href="{{ BASE_PATH }}{{ post.url }}">more...</a></p><p class="clearfix"></p>
+            {% else %}
+                  <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+            {% endif %}
         </li>
     {% endif %}
   {% endfor %}
