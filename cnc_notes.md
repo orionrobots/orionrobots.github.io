@@ -27,7 +27,7 @@ It arrived a few days later - requiring some assembly - attaching the stepper mo
 
 <ul>
   {% for post in site.posts %}
-    {% if tag == "cnc" %}
+    {% if post.tags contains "cnc" %}
         <li>
           <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
         </li>
