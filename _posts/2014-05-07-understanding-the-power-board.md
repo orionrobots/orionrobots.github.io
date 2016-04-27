@@ -3,7 +3,7 @@ title: Understanding the Power Board
 layout: post
 tags: [cnc, electronics, power-board, soldering]
 ---
-![]({{ site.baseurl }}/inside__control_box/images/img_3027.jpg)
+![]({{ site.baseurl }}/galleries/inside__control_box/images/img_3027.jpg)
 
 # The Fix
 
