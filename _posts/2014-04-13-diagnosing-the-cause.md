@@ -17,7 +17,7 @@ After removing this board, I got a series of photos of the underside of the boar
 
 After my previous teardown, I found a few people had traced out fairly similar circuits for the board already so I can then cross reference this, taking into account that it may be slightly different.
  
-![Sketchy Trace Of The Board]({{gallery }}/YOC-PW3024-E-Diagram.jpg}
+![Sketchy Trace Of The Board]({{gallery }}/YOC-PW3024-E-Diagram.jpg)
 
 Refreshing the damage - parts had been blown through, a FET, and a 7812. The damage was severe enough to leave a great big crack in one of the devices cases - something had pulled a large amount of current through it.
 
