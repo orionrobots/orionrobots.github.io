@@ -90,6 +90,3 @@ My next task is to find a suitable pot - or a place to mount it.
 I have come across a number of sites with people spending time on this machine
 
 <http://lab.whitequark.org/notes/2014-02-11/cnc3020t-fixing-power-supply/>
-
-<h1>Comments</h1>
-{% include comments.html %}
