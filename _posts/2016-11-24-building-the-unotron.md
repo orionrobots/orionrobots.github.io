@@ -16,7 +16,7 @@ This board mounts an Arduino Nano, it has 2 DC motor control channels with a 16A
 are broken out as GVS - Ground, Volt, Signal - an arrangement very handy for Servo motors and some sensor types. It has screw terminal inputs 
 for the battery voltage. 
 
-![Elechouse Board close up]http://www.elechouse.com/elechouse/images/product/wifi%20car%20driver/inter.jpg)
+![Elechouse Board close up](http://www.elechouse.com/elechouse/images/product/wifi%20car%20driver/inter.jpg)
 
 Jon's main understanding is that he was building a robot, which he finds fun.
 
