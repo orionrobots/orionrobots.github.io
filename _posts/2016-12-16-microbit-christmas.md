@@ -1,6 +1,6 @@
 ---
 layout: post
-tags: [electronics, microbit]
+tags: [electronics, microbit, code, programming]
 title: Microbit Merry Christmas!
 ---
 I found today, on Christmas jumper day, I was caught short and couldn't find a good jumper.
@@ -11,6 +11,7 @@ I spent 5 minutes and threw one together for fun with the BBC Microbit.
 
 Here is the code - it's pretty simple:
 
+```python
     from microbit import *
     
     while(True):
@@ -38,5 +39,7 @@ Here is the code - it's pretty simple:
         display.show(Image.FABULOUS)
         sleep(500)
         # This is supposed to be a sleigh pulled by reindeer - not sure it worked....
-        display.scroll(". . . . . . y¬ y¬ y¬ \__@[]/. . . . ***") 
+        display.scroll(". . . . . . y¬ y¬ y¬ \__@[]/. . . . ***")
+```
 
+This was somewhat inspired by [@Richard Hayler](https://twitter.com/rdhayler) and his hat at the [@Ham Coder Dojo](https://twitter.com/CoderDojoHam).
