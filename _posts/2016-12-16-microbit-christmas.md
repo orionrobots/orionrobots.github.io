@@ -5,7 +5,7 @@ title: Microbit Merry Christmas!
 ---
 I found today, on Christmas jumper day, I was caught short and couldn't find a good jumper.
 
-I spent 5 minutes and threw one together for fun with the BBC Microbit.
+I spent 5 minutes and threw one together for fun with the BBC Microbit. Now it actually belongs to my lab-helper Helena, so I've just borrowed it for the day.
 
 ![Microbit Christmas Jumper](/galleries/microbit_christmas.gif)
 
