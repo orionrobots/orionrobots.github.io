@@ -7,7 +7,7 @@ I've published a video where my son and Lab Helper Jon and I use the tool
 [ArduBlockly](https://github.com/carlosperate/ardublockly/wiki/Installing-Ardublockly) to program a robot.
 
 The Robot is the Unotron robot from [4tronix](https://twitter.com/4tronix_uk), which we built a couple of weeks ago.
-On board the robot is an Elechouse 15a Shield (confusingly the site says 16a and the board 15a...) which mounts an Arduino Uno.
+On board the robot is an Elechouse 15a Shield (confusingly the site says 16a and the board 15a...) which mounts an Arduino Nano.
 
 See the coding session and results below.
 
