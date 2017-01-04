@@ -170,7 +170,7 @@
     </div>
    <script>
       $( document ).ready(function() {
-          (function() {
+      setTimeout(function() {
             var cx = 'partner-pub-1306094303661715:fq05xlly9cj';
             var gcse = document.createElement('script');
             gcse.type = 'text/javascript';
@@ -179,7 +179,7 @@
                 '//cse.google.com/cse.js?cx=' + cx;
             var s = document.getElementsByTagName('script')[0];
             s.parentNode.insertBefore(gcse, s);
-          })();
+          }, 5);
         });
     </script>
     {% include JB/analytics %}
