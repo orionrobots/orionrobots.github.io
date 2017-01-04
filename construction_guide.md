@@ -8,6 +8,7 @@ asset_location: /assets/construction_guide
 # Building the Orion Explorer 1
 
 ![The Assembled Robot]({{ page.asset_location }}/IMG_1118.jpg)
+
 ## An Intro to the Parts in the kit
 
 ![The Parts In The Kit]({{ page.asset_location }}/all_parts_small.jpg)
@@ -42,6 +43,11 @@ Remove all the packaging.
 * A few blobs of Sticky Tac.
 
 ## Step 1 - Preparing the Chassis
+
+### Backing
+
+The chassis parts have a backing sheet to prevent damage during shipping. The robot 
+will look better if this is all peeled off before assembly - although this is optional.
 
 ### Adding the motors
 
