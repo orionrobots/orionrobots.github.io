@@ -181,7 +181,9 @@
        </div>
     </div>    
     {% include JB/analytics %}
-    <script async type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    {% if page.using_mathjax %}
+        <script async type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    {% endif %}
     <script src="/js/cookiechoices.js"></script>
     <script>
       document.addEventListener('DOMContentLoaded', function(event) {
