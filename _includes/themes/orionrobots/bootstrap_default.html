@@ -19,7 +19,6 @@
     <!--<link href="{{ ASSET_PATH }}/bootstrap/css/bootstrap-theme.css" rel="stylesheet" type="text/css" media="all">-->
     <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
     <script type="text/javascript" src="{{ ASSET_PATH }}/bootstrap/js/bootstrap.js"></script>
-    <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 
     <!--Fav and touch icons -->
     <link rel="shortcut icon" href="/favicon.png">
@@ -58,13 +57,6 @@
       </style>
 </head>
 <body class="template">
-    <script src="/js/cookiechoices.js"></script>
-    <script>
-      document.addEventListener('DOMContentLoaded', function(event) {
-        cookieChoices.showCookieConsentBar('Cookies help us deliver our services. By using our services, you agree to our use of cookies.',
-          'Got It', 'Learn More', 'http://orionrobots.co.uk/privacy_and_cookies.html');
-      });
-    </script>
     <!-- Header -->
     <div class="container">
       <nav class="navbar navbar-default" role="navigation">
@@ -189,5 +181,14 @@
        </div>
     </div>    
     {% include JB/analytics %}
+    <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <script src="/js/cookiechoices.js"></script>
+    <script>
+      document.addEventListener('DOMContentLoaded', function(event) {
+        cookieChoices.showCookieConsentBar('Cookies help us deliver our services. By using our services, you agree to our use of cookies.',
+          'Got It', 'Learn More', 'http://orionrobots.co.uk/privacy_and_cookies.html');
+      });
+    </script>
+
 </body>
 </html>
