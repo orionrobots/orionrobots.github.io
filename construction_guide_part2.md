@@ -5,6 +5,7 @@ description: Building The Explorer 1 Robot | Page 2
 asset_location: /assets/construction_guide
 ---
 <a href="construction_guide.html">Construction Guide | First Page</a>
+
 # Building the Orion Explorer 1 | Page 2
 
 ## Step 7 - Adding the Arduino
