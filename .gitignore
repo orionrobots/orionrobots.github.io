@@ -61,3 +61,5 @@ _theme_packages/*
 *~
 *.pyc
 
+.vagrant
+*console.log
