@@ -14,18 +14,18 @@ Github repo: https://github.com/orionrobots/esp8266_video_series/tree/master/mul
 
 So here are detailed notes on the build. First - the joystick, as a circuit diagram, ignoring the switch, looks like this:
 
-![Joystick](https://raw.githubusercontent.com/orionrobots/esp8266_video_series/master/multiple_analog_inputs/joystick-innards.png)
+![Joystick](https://raw.githubusercontent.com/orionrobots/esp8266_video_series/master/multiple_analog_inputs/joystick-innards.png){:class="img-responsive"}
 
 Using this, we are able to establish that ground and voltage on the outputs are shared, so we need someway to selectively consider one output, while not being effected by the other.
 I looked at some other options (discussed in the video) and my simplest was to use 2 transistors. Note - another method using 2 resistors and a bit of calibration has also been proposed by a viewer.
 
-![Circuit Diagram](https://raw.githubusercontent.com/orionrobots/esp8266_video_series/master/multiple_analog_inputs/circuit-diagram-fritzing.png)
+![Circuit Diagram](https://raw.githubusercontent.com/orionrobots/esp8266_video_series/master/multiple_analog_inputs/circuit-diagram-fritzing.png){:class="img-responsive"}
 
 The diagram is somewhat after the fact, I had the idea and built it to experiment with it. 
 
 I've made a Fritzing version of the breadboard so a reader can reproduce my result:
 
-![Breadboard View](https://raw.githubusercontent.com/orionrobots/esp8266_video_series/master/multiple_analog_inputs/circuit-breadboard-fritzing.png)
+![Breadboard View](https://raw.githubusercontent.com/orionrobots/esp8266_video_series/master/multiple_analog_inputs/circuit-breadboard-fritzing.png){:class="img-responsive"}
 
 As suggested in the video any NPN transistor will do - I used C series TO92 transistors for this. The point being it's working in a low voltage - 3.3v, and the 
 switching speed is not particularly demanding either.
@@ -109,4 +109,4 @@ Then I create a timer, to go and check the data repeatedly:
 
 In the loop - we get the position, then print it out. 
 
-It would be fun to now attach this to a 3d device or make a game with it. 
+It would be fun to now attach this to a 3d device or make a game with it.
