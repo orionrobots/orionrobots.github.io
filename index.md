@@ -2,7 +2,15 @@
 layout: bs_default
 title: Welcome to Orionrobots
 ---
-I am Danny Staple, Orionrobots is my investigations and projects with robotics, electronics and stuff that moves. I aim to make some of the cool robotics things easy for anyone to build, and push the boundaries of what is easy. Oh and just to have lots of fun doing it too...
+At Orionrobots, Danny builds robots, electronics, gadgets and stuff that moves. I get kids like my regular helpers Jonathan and Helena to join in, and occasionally others too.
+I aim to make some of the cool robotics things easy for anyone to build, and push the boundaries of what is easy. Oh and just to have lots of fun doing it too...
+
+You can support my work at [Orionrobots on Patreon](https://patreon.com/orionrobot)s where there are also previews, polls and other perks for supporters.
+
+You can see my latest videos on [Orionrobots Youtube](https://youtube.com/orionrobots).
+
+You can reach me on twitter [@orionrobots](https://twitter.com/orionrobots)
+
 
 # Recent Posts
 
