@@ -8,6 +8,11 @@ exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "Gemfile", "Gemfi
 highlighter: pygments
 excerpt_separator: "\n\n"
 markdown: kramdown
+defaults:
+  - 
+    values:
+      theme: 
+        name: orionrobots
 
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.

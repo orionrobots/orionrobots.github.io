@@ -13,7 +13,7 @@ Now do:
     $ cd /vagrant
     $ bundle install
     $ jekyll build
-    $ bundle exec jekyll serve -P 4000 -w -H 0.0.0.0
+    $ bundle exec jekyll serve -P 4000 -w -H 0.0.0.0 -I
 
 If you are wandering about that last commandline:
     # -P 4000 -> Must match the guest http forwarded port

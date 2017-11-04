@@ -21,7 +21,7 @@ end
 ## -P 4000 -> Must match the guest http forwarded port
 ## -w -I   -> Watch and incremental
 ## -H 0.0.0.0
-#   $ bundle exec jekyll serve -P 4000 -w -H 0.0.0.0
+#   $ bundle exec jekyll serve -P 4000 -w -H 0.0.0.0 -I
 
 
 # TODO: Update all to newer  Version of Jekyll... (2.5.0 is too old)
