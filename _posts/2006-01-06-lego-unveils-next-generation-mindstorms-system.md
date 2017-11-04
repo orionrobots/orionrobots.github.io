@@ -42,3 +42,20 @@ On January the 4th, at the Consumer Electronics Show 2006, Lego announced the NX
 
 The NXT looks like an iPod - sleek and beautiful. But don't let the exterior fool you, inside this baby, there is a fast and powerful 32 bit microcontroller. It has 3 output ports, which support intelligent geared servo motors - these motors have positional feedback, and can be positioned in 1 degree increments. It comes with 4 input ports - with a touch sensor, light sensor - which can detect colour and intensity, a sound sensor which is capable of dealing with tone and patterns - allowing you to command your creation, and also an ultrasound sonar sensor, allowing it to "see" around it a little. The RCX has grown up. It has a direct USB 2.0 connection to a computer, alleviating all of the issues with the IR brick. But it also packs a Bluetooth communication system.
 
+In terms of expandability, there have been those asking "what about visual processing, cameras?", the answer here is that the Bluetooth may well support camera phones. Also, those who complained about the complexity of interfacing sensors and actuators with it may be pleased to hear that the two wire system has now been dropped for a 6 wire system, based upon an RJ style connector - much like the telephone or Ethernet plugs you probably have in your home or workplace. This means no more dealing with the time-shared signal/voltage line on the sensors, or problems interfacing with a [PWM](/wiki/pwm.html) motor.
+
+The kit it comes with will have 519 elements, mostly studless ("liftarm") based, as well as styling pieces for a more "organic" and less angular look - although, there are also elements for creating more square constructions, as during the design, Steve Hassenplug brought up how awkward it was to build square frames with them. There are new right angle parts, design for connecting studless beams more conveniently. 
+
+<img src="/galleries/2006-01-06-lego-unveils-next-gen-mindstorms/80x52_ElbowJoint.jpg">
+
+The RCX code system has also been dropped, in favour of LABview based software. RCX users familiar with Robolab will take to it easily, though [NQC](/wiki/nqc.html) (Not Quite C) users may find it alien, but it is supposed to aid rapid development and combined with the building elements, give a much faster time from concept to device. The software will run on Windows, and Mac, though there is no word on Linux port. This may be only a matter of time, if Lego are as open with this as they were with the RCX, before there will be many alternative software systems.
+
+<img src="/galleries/2006-01-06-lego-unveils-next-gen-mindstorms/NXTImage.jpg" style="float: left; width: 20%;">
+Lego and the MUP team have kept all of this visionary change under wraps until the 4th - and surprised us all with this. I am still reeling, but now I know where the budget is going!
+They left a couple of things out, for example an AC adaptor (which was available on the RCX 1.0), and they didn't take on the requests for a greater number of sensor or motor ports.
+Like many enthusiasts, I personally cannot wait to get one, and I will most definitely be applying to try to be one of the 100.
+
+<img src="/galleries/2006-01-06-lego-unveils-next-gen-mindstorms/MindstormsNXTArm.jpg" style="float: right; width: 20%">
+# Links
+
+* [Lugnet Announcement on Mindstorms NXT](http://news.lugnet.com/announce/?n=3121)
