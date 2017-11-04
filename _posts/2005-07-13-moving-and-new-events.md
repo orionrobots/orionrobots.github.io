@@ -1,7 +1,7 @@
 ---
 created: 2005-07-13 09:56:48
 description: Mostly offline, Moving, New Study, Task Management and Birthdays
-tags: [london, clubs, events]
+tags: [london, clubs, events, lego, mindstorms]
 title: Mostly offline, Moving, New Study, Task Management and Birthdays
 layout: post
 ---
