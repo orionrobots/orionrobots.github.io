@@ -23,7 +23,9 @@ You will require the following tools:
 
 Also it is advisable to wear Safety goggles, as the plastic may snap or the push-button springs may ping up.
 
-Update 2014 - Since the original has gone - including the images, here are the steps with some of the images (credit to Bob Fay):
+Update 2014 - Since the original has gone - including the images, here are the steps with some of the images (credit to Bob Fay  - restored via the Wayback machine).
+
+Warning - review all of this, not all the images were cached. If you are able to source the missing images (they aren't in the wayback machine, I tried), then please let me know.
 
 # Note
 

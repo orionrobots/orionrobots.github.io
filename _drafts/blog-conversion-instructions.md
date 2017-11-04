@@ -2,7 +2,9 @@
 
 # Requirements
 
-Git clone this repo.
+Git clone this repo. Make yourself a branch:
+
+    git checkout -b helena-{date}
 
 You must have the orionrobots website setup. Namely the vagrantfile.
 Get vagrant + ssh setup.
@@ -29,6 +31,7 @@ Items to convert are on the orionrobots old website -hidden by tiki.
 http://orionrobots.co.uk/tiki-view_blog.php?blogId=1 - you will need to login - I'll give you the details by hand.
 
 * Find the oldest item.
+* Check it's title - it may _already_ be on the new site - in which case, delete it.
 * In the _posts directory of the site, create a new file {date}-{name}.md
     * The date should be {yyyy-mm-dd} - year as 4 digits, month as 2 (0 padded) and day (also 0 padded). (0 padded means 0 in front to make up the 2 digits).
     * The name should be in lowercase, and using only dashes (-) as separators. numbers are permitted, but no other non-letter characters.
@@ -77,6 +80,20 @@ If there are images in the path, the post will need a gallery directory.
 
     <center>Caption for image</center>
 
+* When you find a link:
+    * Make sure the link works. IN the document use this format:
 
+        [link text](link address)
+
+    * If it doesn't work - remove it. If it's an inline link - replace with "used to be", if it's in a links list, remove the list item.
 * Check your work regularly.
 * Save after each paragraph - then move to the next.
+* When you are done with all the paragraphs, and happy with the result, git add the page + it's images and then commit them. Push it onto your branch.
+
+    git add _posts/{my page name}
+    git add galleries/{gallery folder}/*
+    git commit -m "{a little message about what you added}"
+    git push
+
+* When you've done a few, make a merge request to me to review it.
+
