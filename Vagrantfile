@@ -8,8 +8,20 @@ Vagrant.configure("2") do |config|
   config.vm.provision "shell", inline: <<-SHELL
     apt-get update
     apt-get install -y ruby ruby-dev make gcc nodejs zlib1g-dev
+    apt-get install -y rubygems nodejs
     sudo gem install bundler --no-rdoc --no-ri
-    sudo gem install jekyll --no-rdoc --no-ri
-    sudo gem install github-pages --no-rdoc --no-ri
   SHELL
 end
+# Running in vagrant:
+#   vagrant up
+#   vagrant ssh
+#   $ cd /vagrant
+#   $ bundle install
+#   $ jekyll build
+## -P 4000 -> Must match the guest http forwarded port
+## -w -I   -> Watch and incremental
+## -H 0.0.0.0
+#   $ jekyll serve -P 4000 -w -I
+
+
+# TODO: Update all to newer  Version of Jekyll... (2.4.0 is too old)
