@@ -56,6 +56,7 @@ They left a couple of things out, for example an AC adaptor (which was available
 Like many enthusiasts, I personally cannot wait to get one, and I will most definitely be applying to try to be one of the 100.
 
 <img src="/galleries/2006-01-06-lego-unveils-next-gen-mindstorms/MindstormsNXTArm.jpg" style="float: right; width: 20%">
+
 # Links
 
 * [Lugnet Announcement on Mindstorms NXT](http://news.lugnet.com/announce/?n=3121)
