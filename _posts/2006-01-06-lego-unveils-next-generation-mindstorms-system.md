@@ -18,7 +18,7 @@ Lego, it appears, were listening and in secrecy, quested after some of the top c
 
 On January the 4th, at the Consumer Electronics Show 2006, Lego announced the NXT - the Next step in the Mindstorms line. This amazing creation has rekindled the community interest, and further extends its open doors, by now looking to take on 100 volunteers, who will buy the set early at reduced price, and contribute to the total experience.
 
-<table style="float: right; width: 20%; bgcolor: lightgrey; border: 2px dashed black;">
+<table style="float: right; width: 20%; bgcolor: lightgrey; border: 2px dashed black; padding: 2px;">
 <tr><th>Key Features</th></tr>
 <tr><td>3 Intelligent Servo Motors with Feedback</td></tr>
 <tr><td>6 Pin RJ style IO Connectors</td></tr>
