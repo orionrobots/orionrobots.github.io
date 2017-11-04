@@ -18,7 +18,8 @@ Lego, it appears, were listening and in secrecy, quested after some of the top c
 
 On January the 4th, at the Consumer Electronics Show 2006, Lego announced the NXT - the Next step in the Mindstorms line. This amazing creation has rekindled the community interest, and further extends its open doors, by now looking to take on 100 volunteers, who will buy the set early at reduced price, and contribute to the total experience.
 
-<table style="float: right; width: 20%; bgcolor: lightgrey; border: 2px dashed black; padding: 2px;">
+<div style="float: right; width: 20%; bgcolor: lightgrey; border: 2px dashed black; padding: 2px;">
+<table>
 <tr><th>Key Features</th></tr>
 <tr><td>3 Intelligent Servo Motors with Feedback</td></tr>
 <tr><td>6 Pin RJ style IO Connectors</td></tr>
@@ -39,6 +40,7 @@ On January the 4th, at the Consumer Electronics Show 2006, Lego announced the NX
 <tr><td>New LABView based code system.</td></tr>
 <tr><td>Community engagement for languages and accessories</td></tr>
 </table>
+</div>
 
 The NXT looks like an iPod - sleek and beautiful. But don't let the exterior fool you, inside this baby, there is a fast and powerful 32 bit microcontroller. It has 3 output ports, which support intelligent geared servo motors - these motors have positional feedback, and can be positioned in 1 degree increments. It comes with 4 input ports - with a touch sensor, light sensor - which can detect colour and intensity, a sound sensor which is capable of dealing with tone and patterns - allowing you to command your creation, and also an ultrasound sonar sensor, allowing it to "see" around it a little. The RCX has grown up. It has a direct USB 2.0 connection to a computer, alleviating all of the issues with the IR brick. But it also packs a Bluetooth communication system.
 
