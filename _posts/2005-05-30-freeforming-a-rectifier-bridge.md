@@ -6,13 +6,15 @@ title: Freeforming a Rectifier Bridge
 layout: post
 gal: /galleries/gallery-8-signal-generator-diode-bridge/
 ---
-<center>Here I have disabled the flash on my camera - so the readers can get a clear view of the resulting waveform.</center>
+<center>The resulting waveform.</center>
 
 ![Clear waveform]({{page.gal}}/314-clear-result.jpg){: .img-responsive .center-block}
 
 The diode bridge has been an essential part of making active sensors for the Lego Mindstorms RCX. It is also known as a full-wave rectifier as it will rectify AC current into DC, or (as in the case of the Lego connector), allow something to be connected at either polarity, even with fairly complicated circuitry. It does come with a minro disadvantage in that the voltage is dropped a little across each diode, and where possible, a mechanical means to guarantee polarity may be better.
 
 This can take up some space, and so freeforming it is an interesting way to save some. THis is also a fairly simple introduction to the concept of freeforming circuit blocks and can be used for other circuits with some imagination and thought. It requires no PCB, or veroboard, mostly just the components and a good iron. The full tool list is below - but it is fairly minimal.
+
+The intention was to make one small enough to fit in a Lego brick, so it can be used for active RCX sensors.
 
 Before connecting anything to an RCX, or any other system, be sure to test it. I'll discuss a few different methods of testing the module below.
 
@@ -71,7 +73,7 @@ First, choose your diodes. Read <a class="wiki" href="/wiki/diode_bridge.html" t
 
 <center>The four 1N4001 diodes on bandolier tape.</center>
 
-![]({{page.gal}}/261-diodes-on-a-tape.jpg){: .img-responsive .center-block .col-sm-6} ![]({{page.gal}}/262-diodes-2.jpg){: .img-responsive .center-block .col-sm-6} 
+![]({{page.gal}}/261-diodes-on-a-tape.jpg){: .img-responsive .img-rounded .center-block .col-sm-6} ![]({{page.gal}}/262-diodes-2.jpg){: .img-responsive .center-block .col-sm-6} 
 ![]({{page.gal}}/263-diodes-2-sets.jpg){: .img-responsive .center-block .col-sm-6} 
 ![]({{page.gal}}/264-tape-removed.jpg){: .img-responsive .center-block .col-sm-6} 
 
@@ -87,67 +89,98 @@ Be sure you are wearing your safety goggles for this. I would strongly recommend
 
 ## Step 1 First Bend
 
-![]({{page.gal}}/610-freeform-bridge-step-1.png)
+![]({{page.gal}}/610-freeform-bridge-step-1.png){: .img-responsive .center-block}
 
 Use pliers to make a bend in one leg of a Diode at the red X.
 
 Needle nose pliers should give a nice clean bend.
 Leave a little curvature in it - too sharp a bend may become weak and snap.
 
-<h2  id="Step_2_Solder_the_legs">Step 2 Solder the legs</h2>
+![]({{page.gal}}/265-step1-ready-to-solder.jpg){: .img-responsive .center-block}
 
-<img class="img-responsive" height="132" src="image611" width="400"/>
+## Step 2 Solder the legs
+
+![]({{page.gal}}/611-freeform-bridge-step-2.png){: .img-responsive .center-block}
+
 Solder where the legs cross. There should be some of the leg sticking out from then end, this will be one of the contacts for the module.
 
 This is tricky - use the helping hands to hold it all together, and use one hand for the iron, and the other for the solder.
 
-<h2  id="Step_3_Trim_one_leg">Step 3 Trim one leg</h2>
+![]({{page.gal}}/266-step-2-first-set-soldered.jpg){: .img-responsive .center-block}
 
-<img class="img-responsive" height="76" src="image612" width="232"/>
+## Step 3 Trim one leg
+
+![]({{page.gal}}/612-freeform-bridge-step-3.png){: .img-responsive .center-block}
+
 Cut off the excess going out to the side.
 Trim as close to the solder joint as you can, but don't snip the joint.
 
-<h2  id="Step_4_-_repeat_for_an_opposite_pair">Step 4 - repeat for an opposite pair</h2>
+![]({{page.gal}}/267-step-2-first-set-soldered.jpg){: .img-responsive .center-block}
 
-<img class="img-responsive" height="284" src="image613" width="400"/>
+## Step 4 - repeat for an opposite pair
+
 The pair should look like this.
+
+![]({{page.gal}}/613-freeform-bridge-step-4.png){: .img-responsive .center-block}
+
 Repeat this on the opposite end for two more diodes.
 You should now have 2 diodes joined at their cathodes, and 2 more joined at their anodes.
 
-<h2  id="Step_5_-_Bend_one_set_of_legs_upwards">Step 5 - Bend one set of legs upwards</h2>
+<div class="clearfix"></div>
+![]({{page.gal}}/268-step-4-second-set-soldered.jpg){: .img-responsive .center-block .col-sm-6}
+![]({{page.gal}}/269-step-4-second-set-soldered-2.jpg){: .img-responsive .center-block .col-sm-6}
+<div class="clearfix"></div>
 
-<img class="img-responsive" height="262" src="image614" width="400"/>
+## Step 5 - Bend one set of legs upwards
+
+![]({{page.gal}}/614-freeform-bridge-step-5.png){: .img-responsive .center-block}
+
 On only ONE set of diodes, bend the legs upward at the red crosses.
 
-<h2  id="Step_6-_Bring_the_two_pairs_together">Step 6- Bring the two pairs together</h2>
+![]({{page.gal}}/270-step-5-legs-bent-upwards.jpg){: .img-responsive .center-block}
 
-<img class="img-responsive" height="79" src="image615" width="240"/>
+## Note - Dont Trim yet!
+
+At this point - I trimmed the legs on the other set. I don't advise this, and suggest to actually wait until having soldered them to trim them.
+
+<div class="clearfix"></div>
+![]({{page.gal}}/272-legs-trimmed.jpg){: .img-responsive .center-block .col-sm-6}
+![]({{page.gal}}/273-legs-trimmed.jpg){: .img-responsive .center-block .col-sm-6}
+<div class="clearfix"></div>
+
+## Step 6- Bring the two pairs together
+
+![]({{page.gal}}/615-freeform-bridge-step-6.png){: .img-responsive .center-block}
+
 Now bring the two pairs together.
 A dab of glue between the layers, allowed to set will make the next step easier. Be sure that the legs from the lower set are touching the upper set.
 
-<h2  id="Step_7_-_Solder_the_lower_legs_to_the_upper_ones">Step 7 - Solder the lower legs to the upper ones</h2>
+![]({{page.gal}}/274-bring-sets-together.jpg){: .img-responsive .center-block}
 
-<img class="img-responsive" height="79" src="image616" width="240"/>
+## Step 7 - Solder the lower legs to the upper ones
+
+![]({{page.gal}}/616-freeform-bridge-step-7.png){: .img-responsive .center-block}
+
 This is a very tricky step.
 Using the helping hand clamps to hold the diodes, solder the lower legs to the upper legs where they cross
 
-<h2  id="Step_8_and_completion">Step 8 and completion</h2>
+## Step 8 and completion
 
-<img class="img-responsive" height="79" src="image617" width="270"/>
+![]({{page.gal}}/617-freeform-bridge-step-7.png){: .img-responsive .center-block}
+
 To complete the module, trim the excess off the legs.
 The bridge is now ready to be used in a circuit.
 
 The diagram shows the connections - be sure to observe the polarity on the output.
 
-<h2  id="Testing_the_diode_bridge">Testing the diode bridge</h2>
+![]({{page.gal}}/275-two-sets-soldered.jpg){: .img-responsive .center-block}
 
-<img alt="Here you get a good view of the full rig, including one of the better shots of the signal generator (in the transparent box).
+## Testing the diode bridge
 
-
+![]({{page.gal}}/309-full-test-rig.jpg){: .img-responsive .center-block}
+Here you get a good view of the full rig, including one of the better shots of the signal generator (in the transparent box).{: .center-block}
 
 The freeform bridge is tiny in the jump-leads, enough that I nearly dropped and lost it. That is a good sign though - it means it is likely to fit in a Lego brick.
-
-" class="img-responsive" height="300" src="image309" width="400"/>
 
 I tested mine with an Oscilloscope and a sine wave from a signal generator.
 
@@ -157,7 +190,9 @@ It is worth having a dual trace oscilloscope, so you can see the difference in t
 
 In the picture - the large transparent box is my signal generator - a small velleman kit one + an amplifier. The freeformed bridge is tiny and barely visible in the photo compared with the bench kit to test it.
 
-<img alt="This is my oscilloscope showing the full wave generated by my signal generator - its quite clean. Sorry - I have not got the full calibrations in shot, so the frequency is not clear." class="img-responsive" height="300" src="image315" width="400"/> <img alt="Here I have disabled the flash on my camera - so the readers can get a clear view of the resulting waveform." class="img-responsive" height="300" src="image314" width="400"/>
+![]({{page.gal}}/315-full-wave.jpg){: .img-responsive .center-block}
+This is my oscilloscope showing the full wave generated by my signal generator - its quite clean.
 
+![]({{page.gal}}/314-clear-result.jpg){: .img-responsive .center-block}
 
-
+[Gallery showing all images]({{page.gal}})
