@@ -7,27 +7,45 @@ description: "Who are Orionrobots and why do we love building robots?"
 
 ## About OrionRobots
 
-I am Danny Staple. I build robots for fun, learning and would like to share that with others.
+We build robots for fun, learning and would like to share that with others.
 
-I love robotics. Here are 3 good reasons why:
+We love robotics. Here are 3 good reasons why:
 1. Robotics can be used to promote ICT/STEM learning - for both adults and children, this can increase computer, electronic, technological literacy.
 2. Closing the gap between having an idea and building it - when a kid or adult has an idea for a new contraption, having kits to build upon, to experiment with to get there vastly reduces the barrier to entry.
 3. Because robots are fun and we personally like tinkering with them!
 
+We build other gadgets, play with code and generally use technology in a creative and fun way.
+
+OrionRobots is a company based upon providing information and education about technology and robotics 
+to any who are interested. The goals are ultimately advancement and enjoyment of such technology. We are
+more about bodging something that would work and someone can try out themselves, than crafting perfect
+solutions. Learning, playing and then teaching and mentoring is how we do things.
+
+The website incorporates a number of sources and types of information, including factual information 
+and statistics, tutorials and walkthroughs, a directory of related material, forums for public 
+discussion, news and articals, and also blogs on opinions and viewpoints.
+
+Through such a collection we hope to create a rounded view of technology, and make it easy for 
+those trying to learn robotics, or even those who are on the cutting edge, to find what they need, 
+and share their experiences with others.
+
 ### The Longer Version
-One of my aims is to make building robots easy and widely available as a hobby, personal learning experience or for
-starting out a research project to build an awesome machine. I want to make stuff available to get to this goal without it costing £100's of pounds to try out, and without giving a system that is too simple to be customised and expanded, or to complex to make any sense.
+
+One of our aims is to make building robots easy and widely available as a hobby, personal learning experience or for starting out a research project to build an awesome machine. We want to make stuff available to get to this goal without it costing £100's of pounds to try out, and without giving a system that is too simple to be customised and expanded, or to complex to make any sense.
 
 These robot ideas are for you to make, explore and play with- they are not industrial robots or robots for factory lines.
-You can use my robots for anything you like, ie small scale automation in your home or a small business if you customised it - but they are hobbyist things and I do not aim to compete with ABB.
-
-Most of my products here will be SOLDERLESS. I've nothing against soldering, but it makes stuff much easier to play, learn and prototype when using solderless modules. It also lowers the barrier to entry for those new to robotics.
+You can use our robot ideas for anything you like, ie small scale automation in your home or a small business if you customised it - but they are hobbyist things and we do not aim to compete with ABB.
 
 Orionrobots has run as a robotics blog and website since 2004, has run robot clubs and hosted a couple of robot building themed birthday parties. 
 
-I am proudly based in the Uk and always have been, but I will bring products from across the globe so anybody can have a go, or so I can try cool new things.
+We are proudly based in the Uk and always have been, but we will engage people from across the globe so anybody can have a go, or so we can try cool new things.
 
-I want to make robotics cheaper, easier and more accessible than it has ever been. I hope to bring out the inventor in anyone!
+we want to make robotics cheaper, easier and more accessible than it has ever been. Orionrobots hope to bring out the inventor in anyone!
+
+
+An experience shared is an experience enhanced.
+
+For more background on us, read [Our Background](/wiki/orionrobots.html "About OrionRobots")>.
 
 ## About Danny Staple
 
@@ -57,8 +75,18 @@ In 2005 I was running a small local robot club for kids, using Lego as a medium.
 London meetup group about robot building, which inspired me to look for ways to build robots inexpensively and in a
 way that people who've not spent their lives tinkering could replicate.
 
+I now mentor in Python at the CoderDojo Ham.
+
 Orionrobots are all about supplying the parts and information that I've been using to build these robots. I am researching ways to improve the Explorer robots, making them simpler to build, extending the functionality, or looking at new exciting things to do.
 
 I am professionally a computer programmer - specialising in automation of building, testing and analysing software. I am an electronics and mechanical hobbyist. I have personally built and tested every item and tutorial on our site. I hope my customers have as much fun with it as I have, and better yet, are inspired to do more with it.
 
 I am a member of the British Computer Society, have attended PyCon Uk for the past 3 years, joining the growing education track there. I am in the process of becoming a STEM Ambassador and a member of the Computing At School initiative.
+
+# Contacting Us
+
+The best ways to reach us are:
+
+* Twitter: [@orionrobots](https://twitter.com/orionrobots)
+* Facebook: [@orionrobots](https://facebook.com/orionrobots)
+* Youtube: [@orionrobots](https://youtube.com/orionrobots)
