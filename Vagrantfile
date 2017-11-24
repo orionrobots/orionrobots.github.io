@@ -18,7 +18,7 @@ end
 #   vagrant ssh
 #   $ cd /vagrant
 #   $ bundle install
-#   $ jekyll build
+#   $ bundle exec jekyll build
 ## -P 4000 -> Must match the guest http forwarded port
 ## -w -I   -> Watch and incremental
 ## -H 0.0.0.0
