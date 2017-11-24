@@ -7,7 +7,7 @@ The ESP8266 is one of my favourite devices. I wanted, for various projects, to a
 has only 1 ADC (analog to digital converter). Clearly I'd have to be a bit sneaky if I wanted to interface them.
 
 <div class="embed-responsive embed-responsive-16by9">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/c7jLPN8uqz8" frameborder="0" allowfullscreen="True"></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/b2gdgkvTiaA" frameborder="0" allowfullscreen="True"></iframe>
 </div>
 
 Github repo: https://github.com/orionrobots/esp8266_video_series/tree/master/multiple_analog_inputs
