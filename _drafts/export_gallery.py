@@ -83,6 +83,7 @@ def main():
         'description': gallery.description,
         'layout': 'autogallery'
     }
+    print repl(output)
     print yaml.dump(output)
 
 if __name__ == '__main__':
