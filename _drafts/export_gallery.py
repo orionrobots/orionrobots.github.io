@@ -74,7 +74,7 @@ def main():
     
     images = conn.execute(s)
     images_data = [process_image(image) for image in images]
-    gallery_q = select([Tables.galleries]).where(Tables.galleries.c.galleryId = os.getenv('GALLERY_ID'))
+    gallery_q = select([Tables.galleries]).where(Tables.galleries.c.galleryId == os.getenv('GALLERY_ID'))
     galleries = conn.execute(gallery_q)
     gallery = galleries.first()
     output = {
