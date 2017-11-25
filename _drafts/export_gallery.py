@@ -26,6 +26,7 @@ class Tables:
     meta = MetaData()
     images = Table('tiki_images', meta, autoload=True, autoload_with=engine)
     images_data = Table('tiki_images_data', meta, autoload=True, autoload_with=engine)
+    galleries = Table('tiki_galleries', meta, autoload=True, autoload_with=engine)
 
 
 def make_image_filename(filename):
@@ -67,13 +68,22 @@ def main():
 
     s = select([Tables.images, Tables.images_data])
     s = s.where(and_(
-        Tables.images.c.galleryId==8, 
+        Tables.images.c.galleryId==os.getenv('GALLERY_ID'), 
         Tables.images.c.imageId == Tables.images_data.c.imageId, 
         Tables.images_data.c.type=='o'))
     
     images = conn.execute(s)
     images_data = [process_image(image) for image in images]
-    print yaml.dump(images_data)
+    gallery_q = select([Tables.galleries]).where(Tables.galleries.c.galleryId = os.getenv('GALLERY_ID'))
+    galleries = conn.execute(gallery_q)
+    gallery = galleries.first()
+    output = {
+        'images': images,
+        'name': gallery.name,
+        'description': gallery.description,
+        'layout': 'autogallery'
+    }
+    print yaml.dump(output)
 
 if __name__ == '__main__':
     main()
