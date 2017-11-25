@@ -31,7 +31,7 @@ class Tables:
 
 def make_image_filename(filename):
     root, extension = os.path.splitext(filename)
-    root = slugify(root).lower() + "." + extension
+    return slugify(root).lower() + "." + extension
 
 def process_image(image_row):
     image_filename = make_image_filename('{i}-{fn}'.format(i=image_row[Tables.images.c.imageId], fn=image_row[Tables.images_data.c.filename]))
