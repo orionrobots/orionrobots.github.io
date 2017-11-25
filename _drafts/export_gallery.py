@@ -26,16 +26,27 @@ class Tables:
     meta = MetaData()
     images = Table('tiki_images', meta, autoload=True, autoload_with=engine)
     images_data = Table('tiki_images_data', meta, autoload=True, autoload_with=engine)
-    images_thumb_data = images_data.alias()
 
 
 def make_image_filename(filename):
     root, extension = os.path.splitext(filename)
     return slugify(root).lower() + extension
 
+def get_thumbnail(image_id):
+    s = select([Tables.images_data]).where(
+        _and(Tables.images_data.c.type=='t', Tables.images_data.c.imageId == image_id))
+    thumbs = conn.execute(s)
+    return thumbs.fetchone()
+
 def process_image(image_row):
-    image_filename = make_image_filename('{i}-{fn}'.format(i=image_row[Tables.images.c.imageId], fn=image_row[Tables.images_data.c.filename]))
-    thumb_filename = make_image_filename('thm-{i}-{fn}'.format(i=image_row[Tables.images.c.imageId], fn=image_row[Tables.images_thumb_data.c.filename]))
+    image_filename = make_image_filename('{i}-{fn}'.format(i=image_row[Tables.images.c.imageId], 
+        fn=image_row[Tables.images_data.c.filename]))
+    try:
+        thumb = get_thumbnail(image_row[Tables.images.c.imageId])
+        thumb_filename = make_image_filename('thm-{i}-{fn}'.format(i=image_row[Tables.images.c.imageId], fn=thumb[Tables.c.filename]))
+    except:
+        thumb = None
+        thumb_filename = None
     image_data = {
         'name': image_row.name,
         'src': image_filename,
@@ -45,21 +56,20 @@ def process_image(image_row):
     }
     with open(os.path.join('extract_images', image_filename), 'wb') as fd:
         fd.write(image_row[Tables.images_data.c.data])
-    with open(os.path.join('extract_images', thumb_filename), 'wb') as fd:
-        fd.write(image_row[Tables.images_thumb_data.c.data])
+    if thumb:
+        with open(os.path.join('extract_images', thumb_filename), 'wb') as fd:
+            fd.write(thumb[Tables.images_data.c.data])
     
     return image_data
 
 def main():
     conn,engine = connect()
 
-    s = select([Tables.images, Tables.images_data, Tables.images_thumb_data])
+    s = select([Tables.images, Tables.images_data])
     s = s.where(and_(
         Tables.images.c.galleryId==8, 
         Tables.images.c.imageId == Tables.images_data.c.imageId, 
-        Tables.images_data.c.type=='o', 
-        Tables.images.c.imageId == Tables.images_thumb_data.c.imageId, 
-        Tables.images_thumb_data.c.type=='t'))
+        Tables.images_data.c.type=='o'))
     
     images = conn.execute(s)
     images_data = [process_image(image) for image in images]
