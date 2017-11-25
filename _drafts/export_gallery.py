@@ -19,6 +19,7 @@ def connect():
     conn = engine.connect()
     return conn, engine
 
+
 class Tables:
     conn,engine = connect()
 
@@ -27,9 +28,14 @@ class Tables:
     images_data = Table('tiki_images_data', meta, autoload=True, autoload_with=engine)
     images_thumb_data = images_data.alias()
 
+
+def make_image_filename(filename):
+    root, extension = os.path.splitext(filename)
+    root = slugify(root).lower() + "." + extension
+
 def process_image(image_row):
-    image_filename = slugify('{i}-{fn}'.format(i=image_row[Tables.images.c.imageId], fn=image_row[Tables.images_data.c.filename])).lower()
-    thumb_filename = slugify('thm-{i}-{fn}'.format(i=image_row[Tables.images.c.imageId], fn=image_row[Tables.images_thumb_data.c.filename])).lower()
+    image_filename = make_image_filename('{i}-{fn}'.format(i=image_row[Tables.images.c.imageId], fn=image_row[Tables.images_data.c.filename]))
+    thumb_filename = make_image_filename('thm-{i}-{fn}'.format(i=image_row[Tables.images.c.imageId], fn=image_row[Tables.images_thumb_data.c.filename]))
     image_data = {
         'name': image_row.name,
         'src': image_filename,
