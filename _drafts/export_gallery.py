@@ -43,7 +43,8 @@ def process_image(image_row):
     image_filename = make_image_filename('{i}-{fn}'.format(i=image_row[Tables.images.c.imageId], 
         fn=image_row[Tables.images_data.c.filename]))
     thumb = get_thumbnail(image_row[Tables.images.c.imageId])
-    thumb_filename = make_image_filename('thm-{i}-{fn}'.format(i=image_row[Tables.images.c.imageId], fn=thumb[Tables.c.filename]))
+    thumb_filename = make_image_filename('thm-{i}-{fn}'.format(i=image_row[Tables.images.c.imageId], 
+        fn=thumb[Tables.images_data.c.filename]))
     # except:
     #     thumb = None
     #     thumb_filename = None
