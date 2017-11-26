@@ -59,9 +59,14 @@ layout: default
         {% for image in page.images %}
             <li class="col-sm-1">
                 <a class="thumbnail">
-                    <img src="{{image.src}}" alt="{{image.caption}}" class="center-block"
-                        onClick="$('body').trigger('imageSelected', '{{image.src|slugify}}');"/>
-                </a>
+                    {% if image.thumb-src %}
+                        <img src="{{image.thumb-src}}" alt="{{image.caption}}" class="center-block"
+                            onClick="$('body').trigger('imageSelected', '{{image.src|slugify}}');"/>
+                    {% else %}
+                        <img src="{{image.src}}" alt="{{image.caption}}" class="center-block"
+                            onClick="$('body').trigger('imageSelected', '{{image.src|slugify}}');"/>
+                {% endif %}
+                    </a>
             </li>   
         {% endfor %}
     </ul>
