@@ -51,6 +51,16 @@ ErrorDocument 501 /404.html
 <IfModule mod_rewrite.c>
 RewriteEngine On
 
+
+## Deal with the slashes/html issue. 
+## If it doesn't exist as file or directory
+RewriteCond %{REQUEST_URI} !-d
+RewriteCond %{REQUEST_URI} !-f
+## If the .html version exists
+RewriteCond %{REQUEST_URI}.html -f
+RewriteRule %{REQUEST_URI} %{REQUEST_URI}.html
+## Direct to it and stop processing
+
 ## FORUMS
 
 # Forum topics redirect section
