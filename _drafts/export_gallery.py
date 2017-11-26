@@ -36,7 +36,7 @@ def make_image_filename(filename):
 def get_thumbnail(image_id):
     s = select([Tables.images_data]).where(
         and_(Tables.images_data.c.type=='t', Tables.images_data.c.imageId == image_id))
-    thumbs = conn.execute(s)
+    thumbs = Tables.conn.execute(s)
     return thumbs.fetchone()
 
 def process_image(image_row):
@@ -64,7 +64,7 @@ def process_image(image_row):
 
 def main():
     print "Connecting to DB"
-    conn,engine = connect()
+    conn = Tables.conn
 
     s = select([Tables.images, Tables.images_data])
     s = s.where(and_(
