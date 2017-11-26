@@ -3,7 +3,7 @@ title: HC-06 Bluetooth Serial Module with Breakout
 layout: product
 sku: OR0010
 google_category: Electronics > Circuit Components > Circuit Prototyping
-price: £19.99
+price: -
 gallery:
     parent: /galleries/hc-06-bluetooth-serial-module-with-breakout/
     initial: hc-06-bt-front-side.jpg
