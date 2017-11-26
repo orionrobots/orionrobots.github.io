@@ -32,7 +32,7 @@ switching speed is not particularly demanding either.
 
 The To92 recommendation is only because they are nice for breadboarding.
 
-The file [https://raw.githubusercontent.com/orionrobots/esp8266_video_series/master/multiple_analog_inputs/circuitjs_example.txt](circuitjs_example.txt) can be used in CircuitJS to simulate the transistor behaviour. 
+The file <https://raw.githubusercontent.com/orionrobots/esp8266_video_series/master/multiple_analog_inputs/circuitjs_example.txt> can be used in CircuitJS to simulate the transistor behaviour. 
 CircuitJS can be found at http://www.falstad.com/circuit/circuitjs.html and is a rather awesome toy to play with.
 
 ## The Code
