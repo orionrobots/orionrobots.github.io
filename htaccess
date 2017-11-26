@@ -58,7 +58,7 @@ RewriteCond %{REQUEST_URI} !-d
 RewriteCond %{REQUEST_URI} !-f
 ## If the .html version exists
 RewriteCond %{REQUEST_URI}.html -f
-RewriteRule %{REQUEST_URI} %{REQUEST_URI}.html
+RewriteRule %{REQUEST_URI} %{REQUEST_URI}.html [R,L]
 ## Direct to it and stop processing
 
 ## FORUMS
