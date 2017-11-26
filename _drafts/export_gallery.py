@@ -35,7 +35,7 @@ def make_image_filename(filename):
 
 def get_thumbnail(image_id):
     s = select([Tables.images_data]).where(
-        _and(Tables.images_data.c.type=='t', Tables.images_data.c.imageId == image_id))
+        and_(Tables.images_data.c.type=='t', Tables.images_data.c.imageId == image_id))
     thumbs = conn.execute(s)
     return thumbs.fetchone()
 
