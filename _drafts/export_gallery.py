@@ -84,7 +84,8 @@ def main():
         'layout': 'autogallery'
     }
     # print repr(output)
-    print yaml.dump(output)
+    with open(os.path.join('extract_images', 'index.md'), 'w') as fd:
+        yaml.dump(output, fd)
 
 if __name__ == '__main__':
     main()
