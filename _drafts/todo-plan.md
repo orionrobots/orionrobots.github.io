@@ -2,6 +2,8 @@ TODO:
 * Make the simple (but slightly slow and ugly gallery work) - done
 * Finish the conversion of the freeform and sig-gen articles - done
 * Make those changes live
+* Add the image descriptions to that yaml for gallery 8.
+
 * Reduce the file count - duplicates
     * "fdupes -r galleries"
     * for file in $(ls -d */); do echo $file $(find $file -type f | wc -l); done
@@ -17,7 +19,6 @@ TODO:
         products/ 17
         wiki/ 325
 
-* Add the image descriptions to that yaml for gallery 8.
 * Make actual thumbnails server side for the gallery images.
 * Find links to other gallery 8 images.
 * Finish converting image files

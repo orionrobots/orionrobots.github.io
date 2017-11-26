@@ -42,11 +42,13 @@ layout: default
             current_image.find("img").attr("src", image.src);
             current_image.find(".caption").html(image.caption);
             current_image.find(".date").html(image.date);
+            current_image.find(".image-name").html(image.name);
         });
         $('body').trigger("imageSelected", "{{ page.images[0].src | slugify }}");
     });
 </script>
 <div id="current-image" style="height: 400px">
+    <div class="image-name"></div>
     <img src="" style="max-height: 300px; min-height: 200px; width: auto">
     <div class="caption-container caption"></div>
     <p>Date:<span class="date"></span></p>

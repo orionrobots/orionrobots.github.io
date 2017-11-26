@@ -64,6 +64,7 @@ def process_image(image_row):
     return image_data
 
 def main():
+    print "Connecting to DB"
     conn,engine = connect()
 
     s = select([Tables.images, Tables.images_data])
@@ -83,9 +84,10 @@ def main():
         'description': gallery.description,
         'layout': 'autogallery'
     }
-    # print repr(output)
+    print "Outputting data."
     with open(os.path.join('extract_images', 'index.md'), 'w') as fd:
         yaml.dump(output, fd)
+    print "Done."
 
 if __name__ == '__main__':
     main()

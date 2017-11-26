@@ -1,0 +1,131 @@
+---
+- {caption: How to freeform a diode rectifier bridge. There will be an artical on
+    constructing this shortly - but for some this picture may be inspiration enough.,
+  date: !!timestamp '2005-01-25 16:02:37', name: bridgefreeforms4.png, src: !!python/unicode '157-bridgefreeforms4.png',
+  thumb-src: null}
+- {caption: '', date: !!timestamp '2005-05-30 15:45:18', name: Workshop.jpg, src: !!python/unicode '258-p1010120.jpg',
+  thumb-src: null}
+- {caption: '', date: !!timestamp '2005-05-30 15:45:29', name: Finished1.jpg, src: !!python/unicode '259-p1010001.jpg',
+  thumb-src: null}
+- {caption: '', date: !!timestamp '2005-05-30 15:45:36', name: Finished2.jpg, src: !!python/unicode '260-p1010002.jpg',
+  thumb-src: null}
+- {caption: The four 1N4001 diodes on bandolier tape., date: !!timestamp '2005-05-30
+    15:45:47', name: DiodesOnTape.jpg, src: !!python/unicode '261-p1010119.jpg', thumb-src: null}
+- {caption: Another view of the diodes on bandolier tape in the workshop., date: !!timestamp '2005-05-30
+    15:45:55', name: Diodes2.jpg, src: !!python/unicode '262-p1010124.jpg', thumb-src: null}
+- {caption: 'The two sets of diodes, seperated for assembly.', date: !!timestamp '2005-05-30
+    15:46:07', name: TwoSets.jpg, src: !!python/unicode '263-p1010125.jpg', thumb-src: null}
+- {caption: Here one side has the bandolier tape removed., date: !!timestamp '2005-05-30
+    15:46:21', name: TapeRemoved.jpg, src: !!python/unicode '264-p1010126.jpg', thumb-src: null}
+- {caption: The helping hands hold the first set ready to be soldered, date: !!timestamp '2005-05-30
+    15:46:34', name: ReadyToSolder.jpg, src: !!python/unicode '265-p1010128.jpg',
+  thumb-src: null}
+- {caption: This is the first set soldered., date: !!timestamp '2005-05-30 15:46:49',
+  name: firstSetSoldered.jpg, src: !!python/unicode '266-p1010129.jpg', thumb-src: null}
+- {caption: One set of diodes soldered, date: !!timestamp '2005-05-30 15:47:06', name: SetSoldered.jpg,
+  src: !!python/unicode '267-p1010130.jpg', thumb-src: null}
+- {caption: Note that its the opposite end to the first set. That is a vitally important
+    detail., date: !!timestamp '2005-05-30 15:47:24', name: SecondSetSoldered.jpg,
+  src: !!python/unicode '268-p1010131.jpg', thumb-src: null}
+- {caption: Another view, date: !!timestamp '2005-05-30 15:47:39', name: SecondSetSoldered2.jpg,
+  src: !!python/unicode '269-p1010132.jpg', thumb-src: null}
+- {caption: '', date: !!timestamp '2005-05-30 15:47:52', name: P1010133.jpg, src: !!python/unicode '270-p1010133.jpg',
+  thumb-src: null}
+- {caption: '', date: !!timestamp '2005-05-30 15:48:22', name: P1010135.jpg, src: !!python/unicode '272-p1010135.jpg',
+  thumb-src: null}
+- {caption: '', date: !!timestamp '2005-05-30 15:48:44', name: P1010136.jpg, src: !!python/unicode '273-p1010136.jpg',
+  thumb-src: null}
+- {caption: '', date: !!timestamp '2005-05-30 15:49:00', name: P1010137.jpg, src: !!python/unicode '274-p1010137.jpg',
+  thumb-src: null}
+- {caption: '', date: !!timestamp '2005-05-30 15:49:13', name: P1010140.jpg, src: !!python/unicode '275-p1010140.jpg',
+  thumb-src: null}
+- {caption: "Here you get a good view of the full rig, including one of the better\
+    \ shots of the signal generator (in the transparent box).\r\n\r\nThe freeform\
+    \ bridge is tiny in the jump-leads, enough that I nearly dropped and lost it.\
+    \ That is a good sign though - it means it is likely to fit in a Lego brick.",
+  date: !!timestamp '2005-10-07 07:29:27', name: FullTestRig.jpg, src: !!python/unicode '309-p1010001.jpg',
+  thumb-src: null}
+- {caption: "In this closeup of the signal generator, you can see the two boards -\
+    \ the signal generator itself is the nearest one, and behind the 4 way terminal\
+    \ block is the pre-amp board. You can clearly see the link between the signal\
+    \ generator and the preamp. You can also see it is battery powered, there is also\
+    \ a 9v power socket as well, but you cannot use both at the same time.\r\n\r\n\
+    The two 10uF capacitors I added to remove the DC offset are clear.\r\n\r\nThe\
+    \ two boards are both velleman kits I purchased from maplin. The case is actually\
+    \ the box that the amp  camed packaged in -while resourceful, I must admit it\
+    \ is not the nicest material to work with - brittle and thin.", date: !!timestamp '2005-10-07
+    07:29:27', name: SigGenCloseup.jpg, src: !!python/unicode '310-p1010002.jpg',
+  thumb-src: null}
+- {caption: "Here is the first result. Although the bridge is not visible here, you\
+    \ can see that (taking into account a DC offset) it has clearly changed the full\
+    \ sinewave - rectifying the negative portion.\r\n\r\nHere is also a good view\
+    \ of the guts of the signal generator. That tiny little trimpot on the board is\
+    \ currently the way to change the amplitude before the amp, and the set of 4 jumpers\
+    \ is how you select the waveform. As these are facing inward, I actually need\
+    \ to open the case to modify them. The frequency is fixed.\r\n\r\nAs I said in\
+    \ my blog - I will have to add some more convenient switches and dials to the\
+    \ box when I find a moment - but for now, it sufficed.", date: !!timestamp '2005-10-07
+    07:29:27', name: Result.jpg, src: !!python/unicode '311-p1010003.jpg', thumb-src: null}
+- {caption: "I then added the capacitors to trim off the DC offset - and behold, a\
+    \ fully rectified waveform. Exactly what I was looking for.\r\nSo this tiny little\
+    \ bridge works, and being small enough to fit inside a Lego brick, or other aparatus\
+    \ will come in very handy.", date: !!timestamp '2005-10-07 07:29:27', name: cleanresult.jpg,
+  src: !!python/unicode '312-p1010004.jpg', thumb-src: null}
+- {caption: Here is a shot framing the screen of the Oscilloscope with the result.
+    I am not a photographer - forgive the flash..., date: !!timestamp '2005-10-07
+    07:29:27', name: resultonscreenflash.jpg, src: !!python/unicode '313-p1010005.jpg',
+  thumb-src: null}
+- {caption: Here I have disabled the flash on my camera - so the readers can get a
+    clear view of the resulting waveform., date: !!timestamp '2005-10-07 07:29:27',
+  name: ClearResult.jpg, src: !!python/unicode '314-p1010006.jpg', thumb-src: null}
+- {caption: 'This is my oscilloscope showing the full wave generated by my signal
+    generator - its quite clean. Sorry - I have not got the full calibrations in shot,
+    so the frequency is not clear.', date: !!timestamp '2005-10-07 07:32:40', name: Fullwave.jpg,
+  src: !!python/unicode '315-p1010007.jpg', thumb-src: null}
+- {caption: "This is a close-up of the signal generator clipped into my test rig.\
+    \ Note if you can - there are two capacitors clipped in series with this (note\
+    \ the opposite polarities) - this was my attempt to filter a DC offset from teh\
+    \ signal generator. I may later embed a couple of these caps in the generator\
+    \ itself at a later date.\r\n\r\nThe other two cables (they have yellow plastic\
+    \ jackets which caught the flash and are not about to ignite) are linking the\
+    \ waveform generator board with the inputs of amplifier board. It is using both\
+    \ that allowed me to build a whole generator - I needed more oomph than the signal\
+    \ generator board alone had to actually see it go through diodes at all - remember\
+    \ the 0.6v trigger voltage.", date: !!timestamp '2005-10-07 07:32:40', name: clippedIn.jpg,
+  src: !!python/unicode '316-p1010008.jpg', thumb-src: null}
+- {caption: 'I have now got the oscilloscope fired up, the signal generator tested
+    (which you might faintly see on the Oscilloscope trace) and the bridge ready to
+    test.', date: !!timestamp '2005-10-07 07:32:40', name: BridgeReadyForTesting.jpg,
+  src: !!python/unicode '317-p1010009.jpg', thumb-src: null}
+- {caption: "Here I have used Picasa's collage to try and super impose the two waveforms\
+    \ - not to bad!\r\nI do not have a dual trace oscilloscope, so this was the only\
+    \ way to do it.\r\nI note that the calibration of the scope has changed between\
+    \ the two measurements - but lets examine the results ignoring that.\r\nThere\
+    \ also appears to be a DC offset on the diode outputs - not sure about that, given\
+    \ that I took it off the sinewave, however I can reason that it is shorter due\
+    \ to the 1.2 volts or so used by the bridge itself. The fact that the peaks are\
+    \ symmetrical shows that it is balanced and stable. \r\nIn fact - if there was\
+    \ a DC offset on the input waveform, there would be two different sets of peaks\
+    \ - so it may merely be down to the dial on the oscilloscope. Any other explainations\
+    \ you could offer?", date: !!timestamp '2005-10-07 18:05:38', name: SuperImposed.jpg,
+  src: !!python/unicode '319-collage.jpg', thumb-src: null}
+- {caption: '', date: !!timestamp '2013-05-16 01:45:59', name: -bridge-schematic.png,
+  src: !!python/unicode '609-bridge-schematic.png', thumb-src: null}
+- {caption: '', date: !!timestamp '2013-05-16 01:51:22', name: -freeform-bridge-step-1.png,
+  src: !!python/unicode '610-freeform-bridge-step-1.png', thumb-src: null}
+- {caption: '', date: !!timestamp '2013-05-16 01:51:22', name: -freeform-bridge-step-2.png,
+  src: !!python/unicode '611-freeform-bridge-step-2.png', thumb-src: null}
+- {caption: '', date: !!timestamp '2013-05-16 01:51:22', name: -freeform-bridge-step-3.png,
+  src: !!python/unicode '612-freeform-bridge-step-3.png', thumb-src: null}
+- {caption: '', date: !!timestamp '2013-05-16 01:51:22', name: -freeform-bridge-step-4.png,
+  src: !!python/unicode '613-freeform-bridge-step-4.png', thumb-src: null}
+- {caption: '', date: !!timestamp '2013-05-16 01:51:22', name: -freeform-bridge-step-5.png,
+  src: !!python/unicode '614-freeform-bridge-step-5.png', thumb-src: null}
+- {caption: '', date: !!timestamp '2013-05-16 01:51:22', name: -freeform-bridge-step-6.png,
+  src: !!python/unicode '615-freeform-bridge-step-6.png', thumb-src: null}
+- {caption: '', date: !!timestamp '2013-05-16 01:52:16', name: -freeform-bridge-step-7.png,
+  src: !!python/unicode '616-freeform-bridge-step-7.png', thumb-src: null}
+- {caption: '', date: !!timestamp '2013-05-16 01:52:16', name: -freeform-bridge-complete.png,
+  src: !!python/unicode '617-freeform-bridge-complete.png', thumb-src: null}
+- {caption: '', date: !!timestamp '2013-05-16 01:52:16', name: -closeup-of-bridge.jpg,
+  src: !!python/unicode '618-closeup-of-bridge.jpg', thumb-src: null}
