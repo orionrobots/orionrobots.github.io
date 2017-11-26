@@ -47,4 +47,4 @@ You can reach me on twitter [@orionrobots](https://twitter.com/orionrobots)
 
 # Policies
 
-<a href="/Terms+And+Conditions.html" title="Terms And Conditions">Terms And Conditions</a>
+<a href="/wiki/terms_and_conditions.html" title="Terms And Conditions">Terms And Conditions</a>

@@ -61,4 +61,4 @@ Other Information and Tutorials
 ===============================
 [The Arduino](http://arduino.cc)
 
-[Robot Building Safety](/Robot+Building+Safety "Building robots can be dangerous - tips to help your safety")
+[Robot Building Safety](/wiki/robots_building_safety.html "Building robots can be dangerous - tips to help your safety")
