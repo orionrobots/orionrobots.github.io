@@ -78,12 +78,12 @@ def main():
     galleries = conn.execute(gallery_q)
     gallery = galleries.first()
     output = {
-        'images': images,
+        'images': images_data,
         'name': gallery.name,
         'description': gallery.description,
         'layout': 'autogallery'
     }
-    print repr(output)
+    # print repr(output)
     print yaml.dump(output)
 
 if __name__ == '__main__':
