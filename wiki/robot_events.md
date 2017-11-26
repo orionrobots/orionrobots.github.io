@@ -34,7 +34,7 @@ Please contact us if you have robotics, maker or electronics events you'd like u
 Orionrobots has previously run clubs and events. There aren't any currently running.
 
 * [East Finchley Robotics Club](/wiki/east_finchley_robotics_club.html)
-* [Cardbot Challenge Details](/wiki/cardbot_challenge_details.html)
+* [Cardbot Challenge Details](/2004/11/16/cardbot-challenge-details.html)
 
 # Holding Your Own Events
 

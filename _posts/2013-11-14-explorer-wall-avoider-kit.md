@@ -7,7 +7,7 @@ layout: post
 ---
 {% include JB/setup %}
 
-The Orionrobots shop now has a new product bundle. [The Orion Explorer 1 Wall Avoider kit](products/orion-explorer-1-complete-wall-avoider-kit.html).
+The Orionrobots shop now has a new product bundle. [The Orion Explorer 1 Wall Avoider kit](/products/orion-explorer-1-complete-wall-avoider-kit.html).
 
 The kit takes the Explorer 1 kit, and adds sensors and a breadboard - making it more expandable and fun. Robots are far more interesting when you add sensors to them!
 
