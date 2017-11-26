@@ -7,7 +7,7 @@ tags: [electronics, repair]
 
 Sometimes, when building from kits, or using modules- you will come across a snapped wire. If it is something you have soldered yourself, you may have the option of soldering in a new wire, but sometimes, wires have specialised connectors, and soldering a new wire in may just not be an option.
 
-I was asked this by someone in the [Cybot](/Cybot) community and thought this page may be useful.
+I was asked this by someone in the [Cybot](/wiki/cybot.html) community and thought this page may be useful.
 
 Before attempting any of this, be absolutely clear which wires you want connected to which others - you will damage your devices, blow fuses or worse still electrocute yourself if you short circuit or reverse polarity on something.
 

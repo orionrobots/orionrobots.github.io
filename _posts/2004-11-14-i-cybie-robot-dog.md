@@ -4,7 +4,7 @@ layout: post
 tags: [toys]
 ---
 ![](/galleries/2004-11-14-i-cybie-robot-dog/i-cybie-dog.jpg){: style="float: left; margin-right: 4px" }
-The i-Cybie was an intelligent robot dog toy, more advanced than many of the other cheap models like [The Tekno Robot Dog](/Tekno+Robot+Dog). Although not as sophisticated as the [AIBO](/Aibo). It has multiple
+The i-Cybie was an intelligent robot dog toy, more advanced than many of the other cheap models like [The Tekno Robot Dog](/wiki/tekno_robot_dog.html). Although not as sophisticated as the [AIBO](/wiki/aibo.html). It has multiple
 motors for each leg, and much more intelligent behaviours than some other toy bots.
 
 This toy was introduced by the Hong Kong owned Silverlit Toys USA, and also marketed by Tiger Electronics. It was demonstrated at the 2000 US Toy Show, and according to Virtual Pet.com "was the talk of the show".
@@ -20,14 +20,15 @@ It may be possible that this can be programmed without a great deal of modificat
 Version 2 introduced more natural movement, and extended battery life with better recharge times. The Version 1 NiCad battery was replaced with NiMh (Metal Hydride) battery.
 
 # Related
-* [Tekno Robot Dog](/Tekno+Robot+Dog)
-* [MegaByte Robot Dog](/2004-11-14/megabyte-robot-dog)
-* [Sony AIBO](/Sony+AIBO)
-* [Pino Toy](/Pino+Toy)
-* [Furby](/Furby)
-* [Robotic Gadgets And Toys](/Robotic+Gadgets+And_Toys)
+
+* [MegaByte Robot Dog](/2004-11-14/megabyte-robot-dog.html)
+* [Sony AIBO](/wiki/sony_aibo.html)
+* [Pino Toy](/wiki/pino_toy.html)
+* [Furby](/wiki/furby.html)
+* [Robotic Gadgets And Toys](/wiki/robotic_gadgets_and_toys.html)
 
 # Links
+
 * <http://www.i-cybie.com/English/Efaq.html> - Answers to common questions
 * <http://www.i-cybie.com> - You are able to download a manual here
 * [I-Cybie Robot Dog - Virtual Pet.com](http://virtualpet.com/vp/farm/icybie/icybie.htm)
