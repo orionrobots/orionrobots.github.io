@@ -19,8 +19,8 @@ TODO:
         products/ 17
         wiki/ 325
 
+* Find links to other gallery 8 images.-done
 * Make actual thumbnails server side for the gallery images.
-* Find links to other gallery 8 images.
 * Finish converting image files
 * Ensure all image links in documents work.
 * Start removing images from tiki site.

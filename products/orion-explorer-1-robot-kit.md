@@ -28,13 +28,15 @@ gallery:
             src: l298-motor-controller-side.jpg
             alt: Dual motor control board
 ---
+# This is no longer for sale
+
 # No Soldering, Easy To Build
 
 This robot has everything you'll need to build your own floor roving robot quickly. This can be the starting point for a Science project, an experimentation platform, a personal robot or just a place for you to start playing around with robotics. You build it, you can extend it, and there is no soldering, drilling or sawing to do so. If you are in the Uk mainland - postage is Free. The example code, usage guide and tutorials are also FREE.
 
-# Whats in it?
+# What was in it?
 
-Included in the kit is [4 wheel drive robot platform](more-about-the-orion-explorer-1-chassis.html), an [Arduino](about_the_arduino.html) (Uno or Leonardo) compatible board, an [H-Bridge Motor controller](dual-motor-2a-control-board.html) to connect the Arduino to the motors, the [required cables](40-male-female-jump-cables) with plenty to spare for extension/experimentation later, a [battery box](battery-box-6xaa.html) and stuff to assemble it all.
+Included in the kit was [4 wheel drive robot platform](more-about-the-orion-explorer-1-chassis.html), an [Arduino](about_the_arduino.html) (Uno or Leonardo) compatible board, an [H-Bridge Motor controller](dual-motor-2a-control-board.html) to connect the Arduino to the motors, the [required cables](40-male-female-jump-cables.html) with plenty to spare for extension/experimentation later, a [battery box](battery-box-6xaa.html) and stuff to assemble it all.
 
 # What can I do with it?
 
@@ -76,5 +78,3 @@ Overall specifications:
 * NO SOLDERING REQUIRED.
 
 <p style="text-align: center;"><iframe src="http://www.youtube.com/embed/nMInkh0OysI?rel=0" height="169" width="300"></iframe></p>
-
-Free Uk mainland Shipping!
