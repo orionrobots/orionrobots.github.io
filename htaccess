@@ -245,7 +245,7 @@ RewriteRule ^(lib/wiki3d/.+\.jar)$ $1                                       [L]
 
 ## Deal with the slashes/html issue. 
 ## If it doesn't exist as file or directory
-RewriteCond ${REQUEST_URI} !.html$
+RewriteCond %{REQUEST_URI} !.html$
 RewriteCond %{DOCUMENT_ROOT}/%{REQUEST_URI} !-d
 RewriteCond %{DOCUMENT_ROOT}/%{REQUEST_URI} !-f
 
