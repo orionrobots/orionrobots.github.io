@@ -247,9 +247,9 @@ RewriteRule ^(lib/wiki3d/.+\.jar)$ $1                                       [L]
 ## If it doesn't exist as file or directory
 RewriteCond %{REQUEST_URI} !-d [OR]
 RewriteCond %{REQUEST_URI} !-f
-RewriteRule ^(.*)$ dummy.txt [R,L]
+RewriteCond %{REQUEST_URI}.html -f
+RewriteRule ^/(.*)$ /dummy.txt [R,L]
 ## If the .html version exists
-#RewriteCond %{REQUEST_URI}.html -f
 #RewriteRule %{REQUEST_URI} %{REQUEST_URI}.html [R,L]
 ## Direct to it and stop processing
 </IfModule>
