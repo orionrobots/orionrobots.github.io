@@ -52,14 +52,6 @@ ErrorDocument 501 /404.html
 RewriteEngine On
 
 
-## Deal with the slashes/html issue. 
-## If it doesn't exist as file or directory
-RewriteCond %{REQUEST_URI} !-d
-RewriteCond %{REQUEST_URI} !-f
-## If the .html version exists
-RewriteCond %{REQUEST_URI}.html -f
-RewriteRule %{REQUEST_URI} %{REQUEST_URI}.html [R,L]
-## Direct to it and stop processing
 
 ## FORUMS
 
@@ -250,6 +242,16 @@ RewriteRule ^user([0-9]+)(.*)      tiki-user_information.php?userId=$1$2    [QSA
 RewriteRule ^(lib/wiki3d/.+\.jar)$ $1                                       [L]
 
 #RewriteRule ^([^/.?]+)$                 wiki/$1.html                   [QSA,L]
+
+## Deal with the slashes/html issue. 
+## If it doesn't exist as file or directory
+RewriteCond %{REQUEST_URI} !-d
+RewriteCond %{REQUEST_URI} !-f
+RewriteRule ^.* dummy.txt [R,L]
+## If the .html version exists
+#RewriteCond %{REQUEST_URI}.html -f
+#RewriteRule %{REQUEST_URI} %{REQUEST_URI}.html [R,L]
+## Direct to it and stop processing
 </IfModule>
 
 # Start CloudFlare:orionrobots.co.uk rewrite. Do not Edit 
