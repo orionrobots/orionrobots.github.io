@@ -176,7 +176,7 @@ RewriteRule "^forumthread1" /forums/announcements/new_site? [R,L]
 
 
 # Non tiki
-RewriteRule ^blogs$                archive.html                      [L]
+RewriteRule ^blogs?$                archive.html                      [L]
 
 RewriteRule "^Construction Guide(.*)" /construction_guide.html [R]
 RewriteRule "^Construction\+Guide(.*)" /construction_guide.html [R]
@@ -245,12 +245,13 @@ RewriteRule ^(lib/wiki3d/.+\.jar)$ $1                                       [L]
 
 ## Deal with the slashes/html issue. 
 ## If it doesn't exist as file or directory
+RewriteCond ${REQUEST_URI} !.html$
 RewriteCond %{DOCUMENT_ROOT}/%{REQUEST_URI} !-d
 RewriteCond %{DOCUMENT_ROOT}/%{REQUEST_URI} !-f
+
 ## If the .html version exists
-RewriteCond %{REQUEST_URI}.html -f
-RewriteRule ^/(.+)/$ /$1.html [R,L]
-#RewriteRule %{REQUEST_URI} %{REQUEST_URI}.html [R,L]
+RewriteCond %{DOCUMENT_ROOT}/%{REQUEST_URI}.html -f
+RewriteRule ^/?(.+[^/])/?$ /$1.html [R,L]
 ## Direct to it and stop processing
 </IfModule>
 
