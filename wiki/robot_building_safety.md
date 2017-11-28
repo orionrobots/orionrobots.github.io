@@ -21,7 +21,7 @@ date: 2007-12-30 23:01:42
 </li></ul><!--toc--></div>
 </p>
 <h1  id="Basics_-_sort_out_your_workspace">Basics - sort out your workspace</h1>
-<div style=" float: right;"><img class="img-responsive" src="image255"/>
+<div style=" float: right;"><img class="img-responsive" src="/galleries/gallery-1-common-images/255-safetyguidedonots.jpg"/>
 How not to build safely</div>Always ensure you have the correct safety equipment, as well as ample room and space to work. The best space to work in is a well lit, non-cluttered and stable desk, with plenty of elbow room, a easily reachable power strip, two adjustable light sources, and preferably room to properly mount clamps/vices.
 <p>
 </p>
@@ -40,31 +40,39 @@ How not to build safely</div>Always ensure you have the correct safety equipment
 <p>Goggles should be worn for almost all work, and not considered optional. If you are using glues, solder, paint, any chemicals, drilling, cutting, sawing or prising open a case to get to something then there is a potential for something unpleasant to happen to your eyes. Protect them, current robot technology does not hold the means to replace them! OrionRobots strongly recommends getting into the good habit of wearing them for all purposes except maybe programming.
 </p>
 <h1  id="Ventilations">Ventilations</h1>
-<p>When soldering, glueing, painting or etching <a class="wiki" href="/wiki/pcb.html" title="Printed Circuit Board">PCB's</a> always make sure you have ample ventilation. Many solder compounds contain lead and many components have mercury and emit other equally noxious substances. None of these things are good to inhale. For most applications, an open window and maybe a desk fan is sufficient, but when dealing with etching chemicals then a proper fume cupboard is recommended. Also remember that solder has some pretty unpleasant compounds which you probably do not want to inhale.
-</p>
+
+When soldering, glueing, painting or etching <a class="wiki" href="/wiki/pcb.html" title="Printed Circuit Board">PCB's</a> always make sure you have ample ventilation. Many solder compounds contain lead and many components have mercury and emit other equally noxious substances. None of these things are good to inhale. For most applications, an open window and maybe a desk fan is sufficient, but when dealing with etching chemicals then a proper fume cupboard is recommended. Also remember that solder has some pretty unpleasant compounds which you probably do not want to inhale.
+
 <h1  id="Using_a_knife_or_cutting_tool">Using a knife or cutting tool</h1>
-<p>If you are using a craft knife - first make sure it is sharp. Although this may not seem like common sense - a blunt knife will require a great deal more pressure to do the job. The more pressure you exert - the less control you have over the knife, and the more dangerous it becomes. If a blade has become old and rusty - it is really only fit for the bin - if it snaps while working - it could cause quite an injury.
-</p>
-<p>Always cut away from yourself - and not towards someone else. The best way is to ensure you are using your well lit desk(don't forget that!), and cutting on this desk. If possible mount the piece in a vice or clamp. For cutting downwards with flat objects or around something, use a cutting mat to prevent you from cutting the desk.
-</p>
+
+If you are using a craft knife - first make sure it is sharp. Although this may not seem like common sense - a blunt knife will require a great deal more pressure to do the job. The more pressure you exert - the less control you have over the knife, and the more dangerous it becomes. If a blade has become old and rusty - it is really only fit for the bin - if it snaps while working - it could cause quite an injury.
+
+Always cut away from yourself - and not towards someone else. The best way is to ensure you are using your well lit desk(don't forget that!), and cutting on this desk. If possible mount the piece in a vice or clamp. For cutting downwards with flat objects or around something, use a cutting mat to prevent you from cutting the desk.
+
 <h1  id="Drilling">Drilling</h1>
-<p>If you are drilling, <strong>always</strong> make a pilot hole to avoid the drill slipping on the surface. It may be repetitive, but use a clamp. If the drill is a pillar drill, use the guard cover. To avoid chipping, and kicking up lots of sharp kerf or wrapping melted plastic around a bit, make sure you are using the right drill bit and chuck speed for the material being drilled.
-</p>
+
+If you are drilling, <strong>always</strong> make a pilot hole to avoid the drill slipping on the surface. It may be repetitive, but use a clamp. If the drill is a pillar drill, use the guard cover. To avoid chipping, and kicking up lots of sharp kerf or wrapping melted plastic around a bit, make sure you are using the right drill bit and chuck speed for the material being drilled.
+
 <h1  id="All_power_tools">All power tools</h1>
-<p>When using power tools, please try to use a circuit breaker. Make sure powertools (in fact all tools) can be safely stored away, and also that you are not likely to be interrupted or have somebody enter your working space while using such tools.
-</p>
+
+When using power tools, please try to use a circuit breaker. Make sure powertools (in fact all tools) can be safely stored away, and also that you are not likely to be interrupted or have somebody enter your working space while using such tools.
+
 <h1  id="Take_your_time_and_plan_ahead">Take your time and plan ahead</h1>
-<p>Never rush a job - as well as doing a bad job, you are much more likely to injure yourself and damage your tools doing it. Plan how you will build something, have a think about the techniques your team will use, and then seriously consider any risks. This is generally a good plan anyway, so while considering safety risks, you may also consider component failure, and other risks.
-</p>
-<p>Being aware of a risk allows you to plan for it, and avoid it. You will work safer, and produce more reliable results if you have been through this process.
-</p>
+
+Never rush a job - as well as doing a bad job, you are much more likely to injure yourself and damage your tools doing it. Plan how you will build something, have a think about the techniques your team will use, and then seriously consider any risks. This is generally a good plan anyway, so while considering safety risks, you may also consider component failure, and other risks.
+
+Being aware of a risk allows you to plan for it, and avoid it. You will work safer, and produce more reliable results if you have been through this process.
+
 <h1  id="Machine_cut-off_switch">Machine cut-off switch</h1>
-<p>Always give any battling, or large robot a cut-off switch. This is essential so you can shut it off if your program goes wrong, and avoid situations ranging from the robot damaging itself and surroundings to the robot damaging you!
-</p>
+
+Always give any battling, or large robot a cut-off switch. This is essential so you can shut it off if your program goes wrong, and avoid situations ranging from the robot damaging itself and surroundings to the robot damaging you!
+
 <h1  id="Team_members">Team members</h1>
-<p>If you are building as a team, then a gung-ho team member who flaunts safety recommendations and refuses to wear safety gear can be a real liability to a team - it is worth being fairly firm/stern on the subject. Please ensure the whole team is prepared to not only accept safety rules, but to be proactive about working safety and dealing with risks.
-</p>
+
+If you are building as a team, then a gung-ho team member who flaunts safety recommendations and refuses to wear safety gear can be a real liability to a team - it is worth being fairly firm/stern on the subject. Please ensure the whole team is prepared to not only accept safety rules, but to be proactive about working safety and dealing with risks.
+
 <h1  id="Common_sense_rules">Common sense rules</h1>
-<p>A general rule of safety is that if something looks potentially dangerous, it is likely that it is, and should be treated with the proper respect of taking measures to minimise such risks or great care when there is no other way to achieve something. Never forget that using a cheap shortcut to get somewhere is quite literally not worth your skin.
-</p>
+
+A general rule of safety is that if something looks potentially dangerous, it is likely that it is, and should be treated with the proper respect of taking measures to minimise such risks or great care when there is no other way to achieve something. Never forget that using a cheap shortcut to get somewhere is quite literally not worth your skin.
+
 <div align="center">{AMAZONSELFOPTLINK(pub=&gt;orionrobots-21)/}</div>

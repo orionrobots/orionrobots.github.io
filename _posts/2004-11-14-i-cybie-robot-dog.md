@@ -21,11 +21,11 @@ Version 2 introduced more natural movement, and extended battery life with bette
 
 # Related
 
-* [MegaByte Robot Dog](/2004-11-14/megabyte-robot-dog.html)
-* [Sony AIBO](/wiki/sony_aibo.html)
+* [MegaByte Robot Dog](/2004/11/14/megabyte-robot-dog.html)
+* [Sony AIBO](/wiki/aibo.html)
 * [Pino Toy](/wiki/pino_toy.html)
 * [Furby](/wiki/furby.html)
-* [Robotic Gadgets And Toys](/wiki/robotic_gadgets_and_toys.html)
+* [Robotic Gadgets And Toys](/2005/08/02/wiki/robotic_toys_and_gadgets.html)
 
 # Links
 
