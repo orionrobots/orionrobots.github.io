@@ -100,7 +100,7 @@ The two models face to face
 
 On weight, Dales team scooped an easy 4 points and with four wheel drive and pinned construction, they get the 4 four engineering. So 8 points to Dale &amp; Janak to 2 for Danny &amp; Gabriel.
 
-Now for the race, Dales team volunteer to go first, with Dale driving. He makes steady progress, although the sunlight is not helping the [Lego Manas](Lego+Manas "Remote control Lego robot-like kits")
+Now for the race, Dales team volunteer to go first, with Dale driving. He makes steady progress, although the sunlight is not helping the [Lego Manas](/wiki/lego_manas "Remote control Lego robot-like kits")
   infrared system much. So Dale makes sure he keeps a shadow on his robot when possible.
 
 Dale takes the tricky corner (its not that tricky!) - Janak is providing the shadow cover for him.

@@ -166,7 +166,7 @@ Using the helping hand clamps to hold the diodes, solder the lower legs to the u
 
 ## Step 8 and completion
 
-![]({{page.gal}}/617-freeform-bridge-step-7.png){: .img-responsive .center-block}
+![]({{page.gal}}/617-freeform-bridge-complete.png){: .img-responsive .center-block}
 
 To complete the module, trim the excess off the legs.
 The bridge is now ready to be used in a circuit.

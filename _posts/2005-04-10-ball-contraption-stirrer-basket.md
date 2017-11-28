@@ -6,7 +6,7 @@ title: Ball contraption Stirrer Basket
 layout: post
 image_gallery: /lego-great-ball-contraption-stirrer-basket/
 ---
-I have decided to post a number of [Lego](Lego "The best known construction toy") MOCs to my blog, so readers can see what I sometimes get up to. Please excuse my appalling photography. While I have been playing around with building a Ball Contraption - or more to the point, trying to coach the club kids into building some, I identified the need for a good ball hopper.
+I have decided to post a number of [Lego](/wiki/lego "The best known construction toy") MOCs to my blog, so readers can see what I sometimes get up to. Please excuse my appalling photography. While I have been playing around with building a Ball Contraption - or more to the point, trying to coach the club kids into building some, I identified the need for a good ball hopper.
 
 If you look at these first photos - you can clearly see that with a simple hopper, Lego balls tend to catch on the bricks, and you get jams. This was how I explained the purpose of the device to the kids at the club.
 
@@ -17,7 +17,7 @@ So I thought about building a mechanism to stir the balls. My inspiration came f
 
 <a href="{{ page.image_gallery }}/target7.html">![]({{ page.image_gallery }}/thumbnails/P1010017_2.jpg)</a>
 
-I then experimented with a few different types of stirring arm - I tried (my initial design) the large [Lego](Lego "The best known construction toy") classic space radar dishes - <http://peeron.com/inv/parts/4285b>. These didn't seem to work too well. I tried a few different ideas, and settled on the studless 3 bladed liftarm piece <http://peeron.com/inv/parts/44374> - which was most effective.
+I then experimented with a few different types of stirring arm - I tried (my initial design) the large Lego classic space radar dishes - <http://peeron.com/inv/parts/4285b>. These didn't seem to work too well. I tried a few different ideas, and settled on the studless 3 bladed liftarm piece <http://peeron.com/inv/parts/44374> - which was most effective.
 
 <a href="{{ page.image_gallery }}/target5.html">![]({{ page.image_gallery }}/thumbnails/p1010011_2.jpg)</a>
 <a href="{{ page.image_gallery }}/target6.html">![]({{ page.image_gallery }}/thumbnails/p1010016_2.jpg)</a>
