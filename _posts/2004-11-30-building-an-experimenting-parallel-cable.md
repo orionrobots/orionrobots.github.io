@@ -14,7 +14,7 @@ Soldering directly to the DB25 pins on a Male connector is a bad idea, they are 
 
 Our solution is to build a small cable between a 26 pin ribbon connector (aka IDC Socket) and the DB25. I recommend using the push down types which bite into the cable - soldering this all would be far too fiddly (fancy making 50 connections?), and crimping can be a pain too.
 
-This cable was used for the [Simple Parallel Port LED Board](2004/11/05/simple-parallel-port-led.html) and can be used for  and further projects.
+This cable was used for the [Simple Parallel Port LED Board](/2004/11/05/simple-parallel-port-led.html) and can be used for  and further projects.
 
 Please read the <a class="wiki" href="/wiki/robot_building_safety.html" title="Building robots can be dangerous - tips to help your safety">Robot Building Safety</a> guide, and then the <a class="wiki" href="/wiki/robot_tools.html" title="Tools that are often required to get started in robot building">Tools</a> guide before continuing.
 

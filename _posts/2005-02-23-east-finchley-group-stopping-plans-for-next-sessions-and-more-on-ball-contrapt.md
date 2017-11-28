@@ -12,7 +12,7 @@ First I will kick off with a little sad news. The current East Finchley Robotics
 This is due to the fact that the group was hosted at my flat in East Finchley, and I will be moving to another part of London. However, there are plans that the group may later (when all the fuss of moving has died down) be held in the Green Man centre or in a more central location - however this will raise costs, and therefore subs will have to be charged. I do hope all those who took part in the group will stay in contact, continue to build and use the website for sharing their results with the community.
 
 As a result of this, I will firmly start to focus the next few sessions on effectively using the CAD tools
-[LDraw](LDraw), [LeoCad](LeoCad) and [MLCad](MLCad) to document your Lego designs, as well as getting photos of your robots on the site (especially non-Lego ones), and how to use the blogging, forum and wiki tools here. We will be using our current project as a basis for this type of logging and documentation.
+[LDraw](/wiki/ldraw), [LeoCad](/wiki/leocad) and [MLCad](/wiki/mlcad) to document your Lego designs, as well as getting photos of your robots on the site (especially non-Lego ones), and how to use the blogging, forum and wiki tools here. We will be using our current project as a basis for this type of logging and documentation.
 
 Also I would like to point out that we are now hosting a number of movies and images for Steve Hassenplugs Great Ball Contraption.
 

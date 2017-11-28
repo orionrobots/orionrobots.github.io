@@ -5,7 +5,7 @@ tags: [robot]
 title: New faster wheeled robot from Hitachi
 layout: post
 ---
-[Hitachi](Hitachi "Hitachi") already have a number of [Robotic](Robotic "Robotic") vacuum cleaners not unlike [Roomba](roomba "A Robotic vacuum cleaning system") on the market. They have now unveiled a humanoid robot, and are competing directly with the likes of the [Honda](Honda "Honda") [Asimo](Asimo "Asimo"), the [Sony](Sony "Sony") QRio and the Toyota Unnamed Trumpet Player.
+[Hitachi](/wiki/hitachi "Hitachi") already have a number of [Robotic](/wiki/robotic "Robotic") vacuum cleaners not unlike [Roomba](/wiki/roomba "A Robotic vacuum cleaning system") on the market. They have now unveiled a humanoid robot, and are competing directly with the likes of the [Honda](/wiki/honda "Honda") [Asimo](/wiki/asimo "Asimo"), the [Sony](/wiki/sony "Sony") QRio and the Toyota Unnamed Trumpet Player.
 
 This robot EMIEW has a trick up its sleeve. Instead of going for the all realistic walking system like the QRio and the Asimo, they have gone for a wheeled design (as did Toyota).  The systems works a little like the SegWay using sensors to keep the robot upright. Their philosophy behind this design was to ensure the robot could travel at speeds that could keep up with humans - 6km/h. They describe it as running - although this doesn't really sound right for a wheeled robot. In comparison, the Honda Asimo can only acheive around 2.3km/h.
 

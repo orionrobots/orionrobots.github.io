@@ -9,9 +9,10 @@ layout: post
 
 # Using C# dot net
 
-Well it looks like I am going to be learning C#.net.  We are going to be building (as discussed) a multi-platform, advanced 3D Cad system here. As a result of this, I am now considering a number of cross platform systems. My favourite - as mentioned was
-[Python](Python) along with wxWidgets - which is very cross platform, and has an easy learning curve. However - porting to the
-  [Pocket PC](Pocket+PC) is still an ongoing saga, and the GUI API is not quite there yet. Dot net has its disadvantages - in that I would need to learn a new language - but its similarity to so many others I know means that is a matter of time and practice more than any real learning, and of course it really does not live up to cross platform. While Mono is a very reasonable dot net porting project - it is hampered by the lack of GUI compatibility. Indeed - the only thing which seems to be able to offer consistent GUI API's on many platforms is Java - which is incredibly slow, and although I know it well - I would prefer not to use it if I do not have to. The best case for this would really be if the wxPython implementation on the Pocket PC become more usable - and then I would be with an API and language I am firmly comfortable using.
+Well it looks like I am going to be learning C#.net.  We are going to be building (as discussed) a multi-platform, advanced 3D Cad system here. As a result of this, I am now considering a number of cross platform systems. My favourite was [Python](/wiki/python) along with wxWidgets - which is very cross platform, and has an easy learning curve. However - porting to the
+[Pocket PC](/wiki/pocket_pc) is still an ongoing saga, and the GUI API is not quite there yet. Dot net has its disadvantages - in that I would need to learn a new language - but its similarity to so many others I know means that is a matter of time and practice more than any real learning, and of course it really does not live up to cross platform. 
+
+While Mono is a very reasonable dot net porting project - it is hampered by the lack of GUI compatibility. Indeed - the only thing which seems to be able to offer consistent GUI API's on many platforms is Java - which is incredibly slow, and although I know it well - I would prefer not to use it if I do not have to. The best case for this would really be if the wxPython implementation on the Pocket PC become more usable - and then I would be with an API and language I am firmly comfortable using.
 
 # Freeforming
 

@@ -4,8 +4,8 @@ description: Round up of the Challenge on Saturday the 2nd April 2005
 tags: [east finchley robotics club, lego]
 title: Round up of the Challenge on Saturday the 2nd April 2005
 layout: post
-gallery_browse: /assets/2005-04-02-robot-building-challenge-saturday/target
-gallery_thumb: /assets/2005-04-02-robot-building-challenge-saturday/thumbnails/
+gallery_browse: /galleries/2005-04-02-robot-building-challenge-saturday/target
+gallery_thumb: /galleries/2005-04-02-robot-building-challenge-saturday/thumbnails/
 ---
 On Saturday, as it was sadly the last day for the East Finchley Robotics Club at Prospect Ring, I decided to go back to basics, and do a challenge that was good old fun for the kids.
 
@@ -16,6 +16,7 @@ The group who had the most points at the end of the rounds would get to choose t
 The spec I had written for the challenge is as follows:
 
 # Good Ole' Robot Brawl
+
 This challenge is meant to get back to basics for a bit of fun, and there are prizes!
 
 Each team will use a manas handset and motor block, and build a robot around it. The robots will be required to have a sumo brawl, and race - so think about both speed as well as taking a good knock.
