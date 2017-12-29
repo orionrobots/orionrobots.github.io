@@ -67,7 +67,7 @@ As 2x2 Basic bricks are abundant, this is the cheapest method. This can be achie
 
 ## Overview
 
-MindSensors also have an elegant method using a [PCB](pcb.html) designed to fit over the contact studs. If you can design it, one of the many PCB services will be able to produce this for you. With a few surface mount components - tiny and flexible Lego compatible circuits can be made.
+MindSensors also have an elegant method using a [PCB](/wiki/pcb.html) designed to fit over the contact studs. If you can design it, one of the many PCB services will be able to produce this for you. With a few surface mount components - tiny and flexible Lego compatible circuits can be made.
 
 ## Other methods
 

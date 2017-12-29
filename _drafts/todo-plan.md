@@ -1,7 +1,8 @@
 TODO:
 * Make the simple (but slightly slow and ugly gallery work) - done
 * Finish the conversion of the freeform and sig-gen articles - done
-* Make those changes live
+* Make those changes live - done
+* Link checker stuff - ensure there aren't dead links.
 * Add the image descriptions to that yaml for gallery 8.
 
 * Reduce the file count - duplicates

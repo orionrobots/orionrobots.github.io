@@ -36,7 +36,7 @@ This robot has everything you'll need to build your own floor roving robot quick
 
 # What was in it?
 
-Included in the kit was [4 wheel drive robot platform](more-about-the-orion-explorer-1-chassis.html), an [Arduino](about_the_arduino.html) (Uno or Leonardo) compatible board, an [H-Bridge Motor controller](dual-motor-2a-control-board.html) to connect the Arduino to the motors, the [required cables](40-male-female-jump-cables.html) with plenty to spare for extension/experimentation later, a [battery box](battery-box-6xaa.html) and stuff to assemble it all.
+Included in the kit was [4 wheel drive robot platform](more-about-the-orion-explorer-1-chassis.html), an [Arduino](about_the_arduino.html) (Uno or Leonardo) compatible board, an [H-Bridge Motor controller](dual-motor-2a-control-board.html) to connect the Arduino to the motors, the [required cables](/products/jump-cables-40-pin-male-female.md40-male-female-jump-cables.html) with plenty to spare for extension/experimentation later, a [battery box](battery-box-6xaa.html) and stuff to assemble it all.
 
 # What can I do with it?
 

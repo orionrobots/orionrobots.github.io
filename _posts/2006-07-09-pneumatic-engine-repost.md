@@ -24,4 +24,4 @@ Sadly, it has long been disassembled for parts, however, the LDraw CAD file rema
 * [Definition for Pneumatics](Pneumatic "Use of air to operate and power actuators") on OrionRobots wiki
 * [Timothy Smith - Easter Spring Chicken MOCs](http://www.maj.com/cgi-bin/gallery.cgi?f=109611) - A rather cute pneumatic toy based upon a system not unlike this.
 * [LSynth](LSynth "LSynth")
-* [pneumatic](Pneumatic "Use of air to operate and power actuators")
+* [pneumatic](/wiki/pneumatic.html "Use of air to operate and power actuators")

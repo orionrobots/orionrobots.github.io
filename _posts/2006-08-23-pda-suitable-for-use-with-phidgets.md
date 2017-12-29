@@ -36,7 +36,7 @@ I will certainly be buying both systems, the gp2x at £124.99 and the breakout b
 * [USB](USB "Universal Serial Bus")
 * [PDA's](PDA "Personal Data Assistant")
 * [RS232](/RS232 "A serial communication standard")
-* [serial](/Serial+Data+Stream "Serial Data Stream")
+* [serial](/wiki/serial-data-stream.html "Serial Data Stream")
 * [BlueTooth](Bluetooth "Bluetooth")
 * [NXT](NXT "Legos NeXT generation robotics kit")
 * [API's](API "Acronym: Application Programming Interface")
