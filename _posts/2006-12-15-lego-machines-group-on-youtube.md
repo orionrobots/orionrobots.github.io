@@ -11,7 +11,7 @@ I recently came across a Lego Machines group on YouTube, which has a number of e
 
 ## The Lego Microwave
 
-This is a very simple demonstration of the logic behind a microwave, using [mindstorms](/MindStorms) parts. Simple, but effective.
+This is a very simple demonstration of the logic behind a microwave, using [mindstorms](/wiki/mindstorms) parts. Simple, but effective.
 
 [Video of the Lego Microwave](http://www.youtube.com/watch?v=CSh0mvlnP38)
 

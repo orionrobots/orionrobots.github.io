@@ -67,7 +67,7 @@ Time for the grabber - when things start getting interesting...
 
 * [OrionRobots gets our first NXT](/2007/01/10/orionrobots-gets-our-first-nxt.html)
 * [Lego](/Lego "The best known construction toy")
-* [Mindstorms](/MindStorms "A Robotic construction toy system from Lego")
+* [Mindstorms](/wiki/mindstorms "A Robotic construction toy system from Lego")
 * [NXT](/NXT "Legos NeXT generation robotics kit")
 * [http://mindstorms.lego.com](http://mindstorms.lego.com)
 * [Timephiz - Mindstorms NXT Test Run](http://timephiz.blogspot.com/2006/11/mindstorms-nxt-test-run.html) - A blog from a teacher going through a similar experience as I.

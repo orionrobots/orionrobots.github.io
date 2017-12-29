@@ -18,7 +18,7 @@ Eric Sophie summed up most of it with the brief words "What a great time!", and 
 ![Rebecca Explains](/galleries/2006-03-06-report-from-nj-storming-robots/rebeccaWithJama.jpg)
 Rebecca Explains Storming Robots
 
-The interest was high with many people, parents and teachers and children alike curious and asking questions. Elizabeth Maybrey, Director of Storming Robots, and Rebecca, the programme manager as well as Eric Sophie were speaking to many about the benefits of using Lego [Mindstorms](MindStorms "A Robotic construction toy system from Lego") as a learning platform.
+The interest was high with many people, parents and teachers and children alike curious and asking questions. Elizabeth Maybrey, Director of Storming Robots, and Rebecca, the programme manager as well as Eric Sophie were speaking to many about the benefits of using Lego [Mindstorms](/wiki/mindstorms "A Robotic construction toy system from Lego") as a learning platform.
 
 Plenty of teachers and educators came to tell their own stories, and mentioned Lego Masters they have at schools. It may be worth point out here that Eric posts to [lugnet](Lugnet "Lego Users Group Network") with the moniker "LegoMaster".
 

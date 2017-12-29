@@ -46,10 +46,10 @@ The next tempting section is machines with an arm. This is looking exciting. I a
 
 # Links
 
-# <a href="NXT _ The Grabber.html">NXT - The Grabber</a>
-# <a href="Getting stuck into the NXT.html">Getting stuck into the NXT</a>
-# <a href="OrionRobots gets our first NXT.html">OrionRobots gets our first NXT</a>
-# [NXT](/NXT "Legos NeXT generation robotics kit")
-# [Lego](/Lego "The best known construction toy")
-# [Mindstorms](/MindStorms "A Robotic construction toy system from Lego")
-# <a href="http://www.mindstorms.com" >http://www.mindstorms.com</a>
+* <a href="NXT _ The Grabber.html">NXT - The Grabber</a>
+* <a href="Getting stuck into the NXT.html">Getting stuck into the NXT</a>
+* <a href="OrionRobots gets our first NXT.html">OrionRobots gets our first NXT</a>
+* [NXT](/NXT "Legos NeXT generation robotics kit")
+* [Lego](/Lego "The best known construction toy")
+* [Mindstorms](/wiki/mindstorms "A Robotic construction toy system from Lego")
+* <a href="http://www.mindstorms.com" >http://www.mindstorms.com</a>

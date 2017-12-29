@@ -67,7 +67,7 @@ Next in the tutorials will be the Ultrasonic sensor - but you will have to wait.
 * <a href="/2007/01/10/orionRobots-gets-our-first-nxt.html">OrionRobots gets our first NXT</a>
 * <a href="/2007/01/13/getting-stuck-into-the-nxt.html">Getting Stuck into the NXT</a>
 * [NXT](/NXT "Legos NeXT generation robotics kit")
-* [Mindstorms](/MindStorms "A Robotic construction toy system from Lego")
+* [Mindstorms](/wiki/mindstorms "A Robotic construction toy system from Lego")
 * [Lego](/Lego "The best known construction toy")
 * <a href="http://forums.nxtasy.org/index.php?showtopic=178&amp;st=0&amp;#" >NXTasy forums- NXT-G Bugs</a>
 * <a href="http://mindstorms.lego.com">Lego Mindstorms Home</a>

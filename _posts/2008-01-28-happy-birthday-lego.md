@@ -13,7 +13,7 @@ As you may (or may not know), I am myself an [AFOL](/AFOL "Adult Fan Of Lego") o
 
 I own a rather large amount of Lego, what is in fact my second collection. I started building Lego kits as a kid, and had a big mixture of technic and space Lego, which I abandoned when I thought I was old enough to leave alone. My sisters scattered most of that collection to the four winds.
 
-A few years later, after the introduction of [mindstorms](/MindStorms "A Robotic construction toy system from Lego")
+A few years later, after the introduction of [mindstorms](/wiki/mindstorms "A Robotic construction toy system from Lego")
   and specifically the [RCX](/RCX "The Lego Robot Command Explorer") which my University faculty had tried to acquire, I bought this kit and was hooked again. I rebuilt my collection with a combination of new purchases, and handy buys from eBay and [BrickShelf](/BrickShelf "A gallery for Lego Creations"). I now own the [RCX](/RCX "The Lego Robot Command Explorer"), [Cybermaster](/CyberMaster "CyberMaster"), Manas, a [SpyBotics](/SpyBotics "Lego Programmable robot kits") kit, plenty of space Lego, some bumper boxes of generic bricks, plenty of pneumatic kit as well as the amazing [NXT](/NXT "Legos NeXT generation robotics kit"), all of which demonstrate that Lego are still innovating in the construction toy market, and it is all mostly backwards compatible.
 
 For the purists, remember that the studless beams still can act as sockets for normal studs and are compatible with all the technic pins.

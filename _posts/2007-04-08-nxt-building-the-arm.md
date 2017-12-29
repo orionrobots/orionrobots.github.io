@@ -69,5 +69,5 @@ Well - in the NXT guide, we have animals next - the scorpion - Spike.. Cool..
 # <a href="/Orionrobots gets our first NXT.html">OrionRobots gets our first NXT</a>
 # [NXT](/NXT "Legos NeXT generation robotics kit")
 # [Lego](/Lego "The best known construction toy")
-# [Mindstorms](/MindStorms "A Robotic construction toy system from Lego")
+# [Mindstorms](/wiki/mindstorms "A Robotic construction toy system from Lego")
 # <a href="http://www.mindstorms.com" >http://www.mindstorms.com</a>

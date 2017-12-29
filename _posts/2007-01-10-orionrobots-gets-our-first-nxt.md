@@ -10,7 +10,7 @@ For us, 2006 was a busy year, with the lathe project still in progress, the site
 
  # Opening up
 
-I rather eagerly opened it up, and put the free Duracell batteries to good use elsewhere, installing the rechargeable battery I had bought, and already got charged. One amusing observation is that although Shop @ home ship free Duracell, the [mindstorms](MindStorms "A Robotic construction toy system from Lego") website recommend Energizer batteries.
+I rather eagerly opened it up, and put the free Duracell batteries to good use elsewhere, installing the rechargeable battery I had bought, and already got charged. One amusing observation is that although Shop @ home ship free Duracell, the [mindstorms](/wiki/mindstorms "A Robotic construction toy system from Lego") website recommend Energizer batteries.
 
 # Trying it out
 

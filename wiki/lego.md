@@ -22,7 +22,7 @@ The company are believed to be one of the oldest toy makers with plastic injecti
 - [General Lego Tips](http://orionrobots.co.uk/General+Lego+Tips)
 - [Lego Solar Panel](http://orionrobots.co.uk/Lego+Solar+Panel)
 - [Lego Technic](http://orionrobots.co.uk/Lego+Technic)
-- [MindStorms](http://orionrobots.co.uk/MindStorms)
+- [MindStorms](/wiki/mindstorms)
   - [NXT](http://orionrobots.co.uk/NXT)
   - [RCX](http://orionrobots.co.uk/RCX)
   - [SpyBotics](http://orionrobots.co.uk/SpyBotics)
