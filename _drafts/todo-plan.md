@@ -3,6 +3,11 @@ TODO:
 * Finish the conversion of the freeform and sig-gen articles - done
 * Make those changes live - done
 * Link checker stuff - ensure there aren't dead links.
+    * Use the staged version of orionrobots - as the .htaccess file is active there - this will get dead links (local ones are just a speed thing). This is on odm cloud1.
+    * Use the "LinkChecker" app on my laptop to check it for dead links.
+    * Make changes, and push them across to the staging thing.
+    * Run the link checker against that to see if it's improved.
+    * Can I partially automate this - could I make a dead link checker that can run in a jenkins job?
 * Add the image descriptions to that yaml for gallery 8.
 
 * Reduce the file count - duplicates
