@@ -198,7 +198,7 @@ RewriteRule "^Robotic\+Gadgets\+And\+Toys(.*)" /2005/08/02/robotics-toys-and-gad
 RewriteRule "^[Hh]ome[Pp]age$" /index.html [R]
 RewriteRule "^[Mm]ega[Bb]yte\+[Rr]obot\+[Dd]og$" /2004/11/14/megabyte-robot-dog.html [R,L]
 RewriteRule "^USB$"                 /Universal+Serial+Bus       [R]
-RewriteRule ^[Ll]ego                wiki/lego                   [R,L]
+RewriteRule ^[Ll]ego$                wiki/lego                   [R,L]
 RewriteRule ^wiki-([A-Za-z0-9]+)    wiki/$1                     [QSA,L]
 RewriteRule ^page-([A-Za-z0-9]+)    wiki/$1                     [QSA,L]
 
