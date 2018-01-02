@@ -1,13 +1,22 @@
-TODO:
+# Journal 2017-12-31
+
+Just tidying up for now.
+Previous done items (not today):
 * Make the simple (but slightly slow and ugly gallery work) - done
 * Finish the conversion of the freeform and sig-gen articles - done
 * Make those changes live - done
+* Find links to other gallery 8 images.-done
+
+# TODO:
+
 * Link checker stuff - ensure there aren't dead links.
     * Use the staged version of orionrobots - as the .htaccess file is active there - this will get dead links (local ones are just a speed thing). This is on odm cloud1.
     * Use the "LinkChecker" app on my laptop to check it for dead links.
     * Make changes, and push them across to the staging thing.
     * Run the link checker against that to see if it's improved.
     * Can I partially automate this - could I make a dead link checker that can run in a jenkins job?
+* Find (I wrote it down somewhere) the image gallery conversion process.
+* Make processes for the other repeating operations.
 * Add the image descriptions to that yaml for gallery 8.
 
 * Reduce the file count - duplicates
@@ -25,7 +34,6 @@ TODO:
         products/ 17
         wiki/ 325
 
-* Find links to other gallery 8 images.-done
 * Make actual thumbnails server side for the gallery images.
 * Finish converting image files
 * Ensure all image links in documents work.

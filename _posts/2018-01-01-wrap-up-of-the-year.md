@@ -1,5 +1,5 @@
 ---
-created: 2017-12-31 21:45:09
+created: 2018-01-01 21:45:09
 tags: [travel, robots, videos, edutech]
 title: Wrap Up Of The Year 2017
 layout: post
