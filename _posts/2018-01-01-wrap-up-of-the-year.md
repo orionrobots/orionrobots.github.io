@@ -58,31 +58,31 @@ We also got to experience the fun side of Brussels. Helena and I went Ice skatin
 
 I experimented with making a few live streams, which I found fun. I need to repeat doing those, and perhaps do some live robot hacking - since the others were also somewhat different subject from my usual. 2018 - maybe expect some robot mods and building in live stream moments!
 
-I published these too - https://www.youtube.com/watch?v=aZxUOiJy4zU
+I published these too - <https://www.youtube.com/watch?v=aZxUOiJy4zU>
 
 # Robots
 
 So what did I build this year?
 
-First - a Microbit robot with Helena - https://youtu.be/c7jLPN8uqz8 - it had some issues, and was later turned into Helena's amazing Badge - https://www.youtube.com/watch?v=RJwbpnjLc5Q.
+First - a Microbit robot with Helena - <https://youtu.be/c7jLPN8uqz8> - it had some issues, and was later turned into Helena's amazing Badge - <https://www.youtube.com/watch?v=RJwbpnjLc5Q>.
 
 I build a robot at PiWars - based on the CamJam kit - I've not yet published the footage.
 
-Then I built Tankbot - https://www.youtube.com/watch?v=6BK1TG_CZkQ - one of my favourite robots. 
+Then I built Tankbot - <https://www.youtube.com/watch?v=6BK1TG_CZkQ> - one of my favourite robots. 
 
-This was the year I got Skittlebot to work - https://www.youtube.com/watch?v=z14HcflsRW0 - tracking skittles by colour and pushing them over.
+This was the year I got Skittlebot to work - <https://www.youtube.com/watch?v=z14HcflsRW0> - tracking skittles by colour and pushing them over.
 
-A non robot build I particularly liked was a breakout game based on the Microview - https://www.youtube.com/watch?v=YEQQcuTfzpo.
+A non robot build I particularly liked was a breakout game based on the Microview - <https://www.youtube.com/watch?v=YEQQcuTfzpo>.
 
-I built a full multi-servo legged robot - SpiderBot (it's only got 6 legs) - https://www.youtube.com/watch?v=zkpAzFWNzk4.
+I built a full multi-servo legged robot - SpiderBot (it's only got 6 legs) - <https://www.youtube.com/watch?v=zkpAzFWNzk4>.
 
-The final robot build of the year was only a small thing - getting a robot from the "robobugs" kit working. https://www.youtube.com/watch?v=E78PgKfHuZQ.
+The final robot build of the year was only a small thing - getting a robot from the "robobugs" kit working. <https://www.youtube.com/watch?v=E78PgKfHuZQ>.
 
 # The New Lab
 
-2017 was the year that I got the tool wall up at the old lab- https://www.youtube.com/watch?v=XRb4UISYEwI. 
+2017 was the year that I got the tool wall up at the old lab- <https://www.youtube.com/watch?v=XRb4UISYEwI>. 
 
-When moving house, I had to rebuild a robotics lab/workshop/bodging space in the new flat, and found space for all the stuff, with a better layout: https://www.youtube.com/watch?v=4IteGkvzsCM
+When moving house, I had to rebuild a robotics lab/workshop/bodging space in the new flat, and found space for all the stuff, with a better layout: <https://www.youtube.com/watch?v=4IteGkvzsCM>
 
 I also started to make a serious go at using the 3D printer. However, at the end of the year, due to the move, the Z-Axis snapped yet another time. I had printed a replacement, but this failed in the same place while trying to fit it. As of the end of 2017 - I don't have a functioning 3D printing. I've been talking this over on twitter a fair amount, but not made any formal videos.
 
