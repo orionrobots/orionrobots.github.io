@@ -6,7 +6,7 @@ from jinja2 import Environment, FileSystemLoader, select_autoescape
 
 def read_file(filename):
     with open(filename) as csv_file:
-        reader = csv.DictReader(csv_file, delimeter=';')
+        reader = csv.DictReader(csv_file, delimiter=';')
         return reader
 
 
