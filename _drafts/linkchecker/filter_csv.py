@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 import csv
 import sys
 
@@ -10,7 +11,7 @@ def output_file(items):
         autoescape=select_autoescape(['html', 'xml'])
     )
     template = env.get_template('output_template.html')
-    print template.render(items=items)
+    print template.render(items=items).encode('utf-8')
 
 def main():
     filename = sys.argv[1]

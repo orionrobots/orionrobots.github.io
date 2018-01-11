@@ -1,20 +1,23 @@
+<!DOCTYPE html>
 <html>
     <head>
-        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" rel="stylesheet" type="text/css" media="all">
+        <link href="http://192.168.0.9:8100/assets/themes/orionrobots/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css">
     </head>
     <body>
-        <table>
-            <tr>
-                <th>Url Name</th><th>Url</th><th>Parent Url</th><th>Result</th>
-            </tr>
-            {% for item in items %}
+        <div class="container">
+            <table class="table">
                 <tr>
-                    <td>{{ item.urlname }}</td>
-                    <td>{{ item.url }}</td>
-                    <td><a href="{{ item.parentname }}">{{ item.parentname }}</a></td>
-                    <td>{{ item.result }}</td>
+                    <th>Url Name</th><th>Url</th><th>Parent Url</th><th>Result</th>
                 </tr>
-            {% endfor %}
-        </table>
+                {% for item in items %}
+                    <tr>
+                        <td>{{ item.urlname }}</td>
+                        <td>{{ item.url }}</td>
+                        <td><a href="{{ item.parentname }}">{{ item.parentname }}</a></td>
+                        <td>{{ item.result }}</td>
+                    </tr>
+                {% endfor %}
+            </table>
+        </div>
     </body>
 </html>
