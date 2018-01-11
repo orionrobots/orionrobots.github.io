@@ -1,0 +1,22 @@
+# created by LinkChecker at 2018-01-11 19:57:23+000
+# Get the newest version at http://wummel.github.io/linkchecker/
+# Write comments and bugs to https://github.com/wummel/linkchecker/issues
+# Support this project at http://wummel.github.io/linkchecker/donations.html
+urlname;parentname;baseref;result;warningstring;infostring;valid;url;line;column;name;dltime;dlsize;checktime;cached;level;modified
+//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js;http://192.168.0.9:8100/faq.html;;200 OK;Access denied by robots.txt, skipping content checks.;;True;http://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js;143;5;;-1;-1;0.226958990097;0;2;
+https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css;http://192.168.0.9:8100/;;200 OK;Access denied by robots.txt, skipping content checks.;;True;https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css;19;5;;-1;-1;0.868258953094;0;1;2015-01-22 19:53:38.000000Z
+https://www.twitter.com/orionrobots;http://192.168.0.9:8100/faq.html;;syntax OK;"Access denied by robots.txt, skipping content checks.
+Access to redirected URL denied by robots.txt, checked only syntax.";Redirected to `https://twitter.com/orionrobots'.;True;https://www.twitter.com/orionrobots;138;23; Twitter;-1;0;0.837918043137;0;2;
+"http://www.pinterest.com/pin/
+create/button/
+        ?url=/construction_guide.html
+        &media=/assets/construction_guide/RobotExplodedStep0.png
+        &description=Building The Orionrobots Explorer Robot kit";http://192.168.0.9:8100/;;syntax OK;URL length 278 is longer than 255.;Redirected to `https://www.pinterest.com/pin/%0Acreate/button/%0A%20%20%20%20%20%20%20%20?url=/construction_guide.html%0A%20%20%20%20%20%20%20%20&media=/assets/construction_guide/RobotExplodedStep0.png%0A%20%20%20%20%20%20%20%20&description=Building%20The%20Orionrobots%20Explorer%20Robot%20kit'.;True;http://www.pinterest.com/pin/%0Acreate/button/%0A%20%20%20%20%20%20%20%20?url=/construction_guide.html%0A%20%20%20%20%20%20%20%20&media=/assets/construction_guide/RobotExplodedStep0.png%0A%20%20%20%20%20%20%20%20&description=Building%20The%20Orionrobots%20Explorer%20Robot%20kit;146;1;;-1;-1;0.86111497879;0;1;
+image421&thumb=1;http://192.168.0.9:8100/wiki/robot_tools.html;;404 Not Found;;;False;http://192.168.0.9:8100/image421%26thumb=1;200;4857;;-1;9285;0.00503897666931;0;4;2018-01-11 19:45:30.000000Z
+http://www.amazon.co.uk/exec/obidos/ASIN/B0001P07D4/orionrobots-21;http://192.168.0.9:8100/wiki/robot_tools.html;;307 Temporary Redirect;Content size is zero.;;True;http://www.amazon.co.uk/exec/obidos/ASIN/B0001P07D4/orionrobots-21;200;1479;;-1;0;0.202811956406;0;4;
+Lego;http://192.168.0.9:8100/2006/05/27/dorkbotlondon-camping-event-dates-and-venue-announced.html;;404 Not Found;;;False;http://192.168.0.9:8100/2006/05/27/Lego;167;80;Lego;-1;9285;0.00981092453003;0;3;2018-01-11 19:45:30.000000Z
+http://www.amazon.co.uk/exec/obidos/ASIN/B0001K9SKW/orionrobots-21;http://192.168.0.9:8100/wiki/robot_tools.html;;307 Temporary Redirect;Content size is zero.;;True;http://www.amazon.co.uk/exec/obidos/ASIN/B0001K9SKW/orionrobots-21;200;1969;;-1;0;0.216888189316;0;4;
+http://www.amazon.co.uk/exec/obidos/ASIN/B0001K9XKW/orionrobots-21;http://192.168.0.9:8100/wiki/robot_tools.html;;307 Temporary Redirect;Content size is zero.;;True;http://www.amazon.co.uk/exec/obidos/ASIN/B0001K9XKW/orionrobots-21;200;3347;;-1;0;0.197722911835;0;4;
+http://www.amazon.co.uk/exec/obidos/ASIN/B0001K9PXC/orionrobots-21;http://192.168.0.9:8100/wiki/robot_tools.html;;307 Temporary Redirect;Content size is zero.;;True;http://www.amazon.co.uk/exec/obidos/ASIN/B0001K9PXC/orionrobots-21;200;4135;;-1;0;0.20010304451;0;4;
+http://www.apec-conf.org/2006/APEC06_MicroMouse.html;http://192.168.0.9:8100/2006/03/20/micromouse-contest-at-apec-2006.html;;404 Not Found;;;False;http://www.apec-conf.org/2006/APEC06_MicroMouse.html;167;7;http://www.apec-conf.org/2006/APEC06_MicroMouse.html;-1;1245;1.45730996132;0;3;
+http://www.apec-conf.org/APEC_MicroMouse_Rules.html;http://192.168.0.9:8100/2006/03/20/micromouse-contest-at-apec-2006.html;;404 Not Found;;;False;http://www.apec-conf.org/APEC_MicroMouse_Rules.html;168;7;http://www.apec-conf.org/APEC_MicroMouse_Rules.html;-1;1245;1.45449018478;0;3;
