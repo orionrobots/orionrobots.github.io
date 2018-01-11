@@ -4,12 +4,6 @@ import sys
 from jinja2 import Environment, FileSystemLoader, select_autoescape
 
 
-def read_file(filename):
-    with open(filename) as csv_file:
-        reader = csv.DictReader(csv_file, delimiter=';')
-        return reader
-
-
 def output_file(items):
     env = Environment(
         loader=FileSystemLoader('.'),
@@ -19,7 +13,9 @@ def output_file(items):
     print template.render(items=items)
 
 def main():
-    reader = read_file(sys.argv[1])
+    filename = sys.argv[1]
+    with open(filename) as csv_file:
+        reader = csv.DictReader(csv_file, delimiter=';')
     non_200 = (item for item in reader if 'OK' not in item['result'])
 
     output_file(non_200)
