@@ -16,9 +16,9 @@ def main():
     filename = sys.argv[1]
     with open(filename) as csv_file:
         reader = csv.DictReader(csv_file, delimiter=';')
-    non_200 = (item for item in reader if 'OK' not in item['result'])
+        non_200 = (item for item in reader if 'OK' not in item['result'])
 
-    output_file(non_200)
+        output_file(non_200)
 
 if __name__ == '__main__':
     main()
