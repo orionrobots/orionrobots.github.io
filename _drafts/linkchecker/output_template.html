@@ -1,6 +1,6 @@
 <html>
     <head>
-
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" rel="stylesheet" type="text/css" media="all">
     </head>
     <body>
         <table>
@@ -11,7 +11,7 @@
                 <tr>
                     <td>{{ item.urlname }}</td>
                     <td>{{ item.url }}</td>
-                    <td>{{ item.parentname }}</td>
+                    <td><a href="{{ item.parentname }}">{{ item.parentname }}</a></td>
                     <td>{{ item.result }}</td>
                 </tr>
             {% endfor %}
