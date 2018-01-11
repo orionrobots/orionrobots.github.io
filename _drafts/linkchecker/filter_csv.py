@@ -15,7 +15,7 @@ def output_file(items):
 def main():
     filename = sys.argv[1]
     with open(filename) as csv_file:
-        reader = csv.DictReader(csv_file, delimiter=';')
+        reader = csv.DictReader(row for row in csv_file if not row.startswith('#'), delimiter=';')
         non_200 = (item for item in reader if 'OK' not in item['result'])
 
         output_file(non_200)
