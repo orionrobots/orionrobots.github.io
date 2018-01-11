@@ -20,7 +20,7 @@ def output_file(items):
 
 def main():
     reader = read_file(sys.argv[1])
-    non_200 = (item for item in reader if item['result'] != "200 OK")
+    non_200 = (item for item in reader if 'OK' not in item['result'])
 
     output_file(non_200)
 
