@@ -1,0 +1,20 @@
+<html>
+    <head>
+
+    </head>
+    <body>
+        <table>
+            <tr>
+                <th>Url Name</th><th>Url</th><th>Parent Url</th><th>Result</th>
+            </tr>
+            {% for item in items %}
+                <tr>
+                    <td>{{ item.urlname }}</td>
+                    <td>{{ iten.url }}</td>
+                    <td>{{ item.parenturl }}</td>
+                    <td>{{ item.result }}</td>
+                </tr>
+            {% endfor %}
+        </table>
+    </body>
+</html>
