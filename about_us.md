@@ -45,7 +45,7 @@ we want to make robotics cheaper, easier and more accessible than it has ever be
 
 An experience shared is an experience enhanced.
 
-For more background on us, read [Our Background](/wiki/orionrobots.html "About OrionRobots")>.
+For more background on us, read [Our Background](/wiki/orionrobots.html "About OrionRobots").
 
 ## About Danny Staple
 
