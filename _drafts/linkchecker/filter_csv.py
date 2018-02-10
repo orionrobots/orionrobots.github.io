@@ -11,15 +11,18 @@ def output_file(items):
         autoescape=select_autoescape(['html', 'xml'])
     )
     template = env.get_template('output_template.html')
-    print template.render(items=items).encode('utf-8')
+    print(template.render(items=items).encode('utf-8'))
 
 def main():
     filename = sys.argv[1]
     with open(filename) as csv_file:
         reader = csv.DictReader((row for row in csv_file if not row.startswith('#')), delimiter=';')
         non_200 = (item for item in reader if 'OK' not in item['result'])
+        non_redirect = (item for item in reader if '307' not in item['result'])
 
-        output_file(non_200)
+        total_list = list(non_redirect)
+        print("Total result count", len(total_list))
+        output_file(total_list)
 
 if __name__ == '__main__':
     main()
