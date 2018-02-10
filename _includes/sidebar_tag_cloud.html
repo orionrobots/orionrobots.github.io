@@ -1,0 +1,20 @@
+<div class="widget">
+    <div class="widget-header">
+        <h3>Tags</h3>
+    </div>
+
+    <div class="widget-content">
+        {% assign tags = site.tags | sort %}
+        {% for tag in tags %}
+        {% if tag[1].size > 3 %}
+            <span class="site-tag">
+            <a href="/tags#{ tag | first | slugify }}-ref"
+                style="font-size: {{ tag | last | size  |  times: 4 | plus: 80  }}%">
+                    {{ tag[0] | replace:'-', ' ' }} ({{ tag | last | size }})
+            </a>
+        </span>
+        {% endif %}
+        {% endfor %}
+        <a href="/tags">All Tags</a>
+    </div>
+</div>

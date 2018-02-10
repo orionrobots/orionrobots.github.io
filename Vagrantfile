@@ -11,13 +11,15 @@ Vagrant.configure("2") do |config|
     apt-get install -y rubygems nodejs python3 python3-pip
     sudo gem install bundler --no-rdoc --no-ri
     sudo pip3 install pyaml
+    sudo -iu vagrant
+    cd /vagrant
+    bundle install
   SHELL
 end
 # Running in vagrant:
 #   vagrant up
 #   vagrant ssh
 #   $ cd /vagrant
-#   $ bundle install
 #   $ bundle exec jekyll build
 ## -P 4000 -> Must match the guest http forwarded port
 ## -w -I   -> Watch and incremental

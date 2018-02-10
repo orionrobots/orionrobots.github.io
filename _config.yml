@@ -162,6 +162,10 @@ menu:
     description: Blog
     url: /archive.html
   -
+    title: Tags
+    description: Tags
+    url: /tags
+  -
     title: About Us
     description: About Us
     url: /about_us.html
