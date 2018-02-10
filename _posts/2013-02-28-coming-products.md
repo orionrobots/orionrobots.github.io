@@ -7,10 +7,12 @@ layout: post
 ---
 {% include JB/setup %}
 
+NOTE: The shop is now closed - this is historic information.
+
 This shop is in its early stages - but we are planning to expand our range. Among the lines we are considering adding:
 
 *  Breadboard - a prototyping area to quickly throw together circuits or for junctions between all the modules
-*  Sonar Range Sensor - perfect for connecting up with the Arduino on our [Orion Explorer 1 homemade robot kit](http://shop.orionrobots.co.uk/products/orion-explorer-1-robot-kit).
+*  Sonar Range Sensor - perfect for connecting up with the Arduino on our Orion Explorer 1 homemade robot kit.
 *  More jump cables - it seems that people are asking about these - male to male and female to female variants are coming, and I am considering making some popular connector types with jump cable endings for quick prototyping.
 *  Mounting brackets - those nice predrilled holes give plenty of scope for mounting your own gear on a robot platform - but when you need it at 90, 45 or 30 degrees it would be handy to have a bracket - we are even considering some of the more advanced servo controlled brackets..
 *  Body Kit- body kits for the robots to give them a bit of style.
