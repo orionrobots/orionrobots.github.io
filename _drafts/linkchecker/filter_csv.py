@@ -20,7 +20,7 @@ def main():
         non_200 = (item for item in reader if 'OK' not in item['result'])
         non_redirect = (item for item in non_200 if '307' not in item['result'])
 
-        total_list = sorted(list(non_redirect), key='parentname')
+        total_list = sorted(list(non_redirect), key=lambda item: item['parentname'])
         
         output_file(total_list)
 
