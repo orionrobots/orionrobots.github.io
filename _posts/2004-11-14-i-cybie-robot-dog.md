@@ -1,7 +1,7 @@
 ---
 title: i Cybie Robot Dog
 layout: post
-tags: [toys]
+tags: [toys, robots]
 ---
 ![](/galleries/2004-11-14-i-cybie-robot-dog/i-cybie-dog.jpg){: style="float: left; margin-right: 4px" }
 The i-Cybie was an intelligent robot dog toy, more advanced than many of the other cheap models like [The Tekno Robot Dog](/wiki/tekno_robot_dog.html). Although not as sophisticated as the [AIBO](/wiki/aibo.html). It has multiple
@@ -25,7 +25,7 @@ Version 2 introduced more natural movement, and extended battery life with bette
 * [Sony AIBO](/wiki/aibo.html)
 * [Pino Toy](/wiki/pino_toy.html)
 * [Furby](/wiki/furby.html)
-* [Robotic Gadgets And Toys](/2005/08/02/wiki/robotic_toys_and_gadgets.html)
+* [Robotic Gadgets And Toys](/2005/08/02/robotic-toys-and-gadgets.html)
 
 # Links
 
