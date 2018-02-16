@@ -4,21 +4,18 @@
         <link href="http://192.168.0.9:8100/assets/themes/orionrobots/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css">
     </head>
     <body>
-        <div class="container">
-            <p>Total Number is {{ count }}.</p>
-            <table class="table">
+        <p>Total Number is {{ count }}.</p>
+        <table class="table">
+            <tr>
+                <th>Url Name</th><th>Url</th><th>Parent Url</th><th>Result</th>
+            </tr>
+            {% for item in items %}
                 <tr>
-                    <th>Url Name</th><th>Url</th><th>Parent Url</th><th>Result</th>
+                    <td><a href="{{ item.parentname }}">{{ item.parentname }}</a></td>
+                    <td><a href="{{ item.url }}">{{ item.urlname }}</a></td>
+                    <td>{{ item.result }}</td>
                 </tr>
-                {% for item in items %}
-                    <tr>
-                        <td>{{ item.urlname }}</td>
-                        <td>{{ item.url }}</td>
-                        <td><a href="{{ item.parentname }}">{{ item.parentname }}</a></td>
-                        <td>{{ item.result }}</td>
-                    </tr>
-                {% endfor %}
-            </table>
-        </div>
+            {% endfor %}
+        </table>
     </body>
 </html>
