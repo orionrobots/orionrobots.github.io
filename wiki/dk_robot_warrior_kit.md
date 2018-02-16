@@ -28,7 +28,7 @@ date: 2012-07-14 10:13:13
 </li></ul><p>
 </p>
 <ul><li> <a class="wiki" href="/wiki/robot_kits.html" title="Robot Kits">Robot Kits</a>
-</li><li> Robot Books<a class="wiki wikinew for-review" title="Create page: Robot Books">?</a>
+</li><li> Robot Books
 </li></ul><p>
 </p>
 <table class="normal" id="fancytable_1"> <tr> <td class="odd"> <a class="internal" href="dirlink99"> <img class="img-responsive" src="image130"/> </a> </td> <td class="odd"> <a class="wiki" href="tiki-directory_redirect.php?siteId=99" rel="">Robot Warrior Kit</a> </td> <td class="odd"> <a class="wiki" href="tiki-directory_redirect.php?siteId=100" rel="">David Eckold</a>, <a class="wiki" href="tiki-directory_redirect.php?siteId=101" rel="">DK Multimedia</a> </td> <td class="odd"> The Original Kit</td> </tr> <tr> <td class="even"> <a class="internal" href="dirlink102"> <img class="img-responsive" src="image129"/> </a> </td> <td class="even"> <a class="wiki" href="tiki-directory_redirect.php?siteId=102" rel="">Robot Challenge Kit</a> </td> <td class="even"> <a class="wiki" href="tiki-directory_redirect.php?siteId=100" rel="">David Eckold</a>, <a class="wiki" href="tiki-directory_redirect.php?siteId=101" rel="">DK Multimedia</a> </td> <td class="even"> A Similar kit</td> </tr> </table>

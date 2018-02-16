@@ -25,7 +25,7 @@ date: 2005-09-10 13:18:24
 <br/>The first of these is found in just about every power adaptor (wall wart) you will come accross. It is a very, very common circuit.
 </p>
 <h2  id="Orientations">Orientations</h2>
-<p>Breifly examining the latter, you must be aware that there is a small voltage drop accross each diode of around 0.6v giving a net result of a 1.2v drop. In a 9v application, that may bring the voltage<a class="wiki wikinew for-review" title="Create page: Volt">?</a> below an acceptable level. The one place it is recommended is if you are building custom <a class="wiki" href="/wiki/lego_rcx.html" title="The Lego RCX">Lego RCX</a> devices, which may need to be connected at multiple orientations.
+<p>Breifly examining the latter, you must be aware that there is a small voltage drop accross each diode of around 0.6v giving a net result of a 1.2v drop. In a 9v application, that may bring the voltage below an acceptable level. The one place it is recommended is if you are building custom <a class="wiki" href="/wiki/lego_rcx.html" title="The Lego RCX">Lego RCX</a> devices, which may need to be connected at multiple orientations.
 </p>
 <p>RCX output power circuit - click to Enlarge
 <br/> <a class="internal" href="browseimage66"> <img class="img-responsive" src="image66&amp;thumb=1"/> </a>
@@ -34,11 +34,11 @@ date: 2005-09-10 13:18:24
 <br/> <a class="internal" href="browseimage115"> <img class="img-responsive" src="image115&amp;thumb=1"/> </a>
 </p>
 <h1  id="Planning_one_for_your_needs">Planning one for your needs</h1>
-<p>If you are building a circuit with a bridge, you need to be aware of a few things. First, as mentioned above, the voltage drop. You will want to make sure that the input AC voltage is at least 1.2v above the amount you want. If this is a little over, you can always use a Voltage Regulator<a class="wiki wikinew for-review" title="Create page: Voltage Regulator">?</a> in the DC circuit to bring it down a little (say from 10.8 to 9v having used a 12v AC input).
+<p>If you are building a circuit with a bridge, you need to be aware of a few things. First, as mentioned above, the voltage drop. You will want to make sure that the input AC voltage is at least 1.2v above the amount you want. If this is a little over, you can always use a Voltage Regulator in the DC circuit to bring it down a little (say from 10.8 to 9v having used a 12v AC input).
 </p>
 <p>Every diode has a reverse bias breakdown voltage. What this means, is that a certain voltage with the wrong polarity, a diode can break down and conduct anyway. You probably want to make sure your diodes breakdown voltage is a fair amount more than the required input voltage.
 </p>
-<p>Also, you need to be sure that the diode you are using can handle the power requirements. You can work this out by estimating the current<a class="wiki wikinew for-review" title="Create page: electrical current">?</a> and ((Volt|voltage), then multiplying them. Again - to be safe, make sure its a fair amount above this - running it with a very close call is just asking for a damaged diode.
+<p>Also, you need to be sure that the diode you are using can handle the power requirements. You can work this out by estimating the current and voltage, then multiplying them. Again - to be safe, make sure its a fair amount above this - running it with a very close call is just asking for a damaged diode.
 </p>
 <p>Take into account that at higher power levels, diodes may need heatsinks as like any high voltage circuit, they can get pretty hot.
 </p>

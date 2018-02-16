@@ -9,10 +9,6 @@ date: 2008-12-18 23:20:17
 </p>
 <p>Challenges - All of our challenges will require entrants to present their robots, maybe give a little background, and demonstrate it working. Points will be awarded for size, innovation, efficiency, style and power consumption.
 </p>
-<p>Lego Challenge Rules For Club Members<a class="wiki wikinew for-review" title="Create page: Lego Challenge Rules For Club Members">?</a>
-</p>
-<p>Member Grades<a class="wiki wikinew for-review" title="Create page: Member Grades">?</a>
-</p>
 <p>There are no events currently planned.
 </p>
 <p>A small selection of Previous Events held in 2004:

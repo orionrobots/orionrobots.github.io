@@ -3,7 +3,7 @@ layout: page
 title: Electronic Relay
 date: 2007-01-28 16:33:27
 ---
-<p>A Relay is an Electromagnetically Controlled Switch with moving mechanical contacts. It consists of a coil around a metal core acting as an electromagnet<a class="wiki wikinew for-review" title="Create page: electromagnet">?</a>, which when engaged, pulls a switch bar over (much like a <a class="wiki" href="/wiki/solenoid.html" title="Solenoid">Solenoid</a> ).
+<p>A Relay is an Electromagnetically Controlled Switch with moving mechanical contacts. It consists of a coil around a metal core acting as an electromagnet, which when engaged, pulls a switch bar over (much like a <a class="wiki" href="/wiki/solenoid.html" title="Solenoid">Solenoid</a> ).
 </p>
 <p>You will find them in vehicle electronics (for example indicators - hence the ticking sound), modems, phone exchanges, older alarm systems, CRT computer monitors and in older or larger robots.
 </p>
