@@ -15,7 +15,7 @@ date: 2006-07-09 13:27:09
 </p>
 <p>The age of the armchair tourist never looked so good!
 </p>
-<h1  id="Links">Links</h1>
-<ul><li> Stargate : MALP<a class="wiki wikinew for-review" title="Create page: Stargate : MALP">?</a> - This SciFi bot has cameras, speakers, microphones and a manipulator
+<h1 id="Links">Links</h1>
+<ul><li> Stargate : MALP - This SciFi bot has cameras, speakers, microphones and a manipulator
 </li></ul><p>
 </p>

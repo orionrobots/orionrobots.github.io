@@ -3,9 +3,9 @@ layout: page
 title: Robotic
 date: 2005-02-24 13:48:36
 ---
-<p>An adjective describing something which is Robot like, pertaining to robots or is a robot - eg a Robotic Dog<a class="wiki wikinew for-review" title="Create page: Robotic Dog">?</a>, a Robotics Book, "His dancing looked robotic".
+<p>An adjective describing something which is Robot like, pertaining to robots or is a robot - eg a Robotic Dog, a Robotics Book, "His dancing looked robotic".
 </p>
-<p>Robotics is a term that was coined by Isaac Asimov<a class="wiki wikinew for-review" title="Create page: Isaac Asimov">?</a>.
+<p>Robotics is a term that was coined by Isaac Asimov.
 </p>
 <p>It may be used to describe the field of robots, the science of robots, the business of robots or any study relating to them.
 </p>

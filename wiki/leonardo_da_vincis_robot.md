@@ -11,7 +11,7 @@ date: 2006-01-15 10:22:15
 </p>
 <p>It was in the mould of a human scale armoured knight. Its shell was an authentic German-<em></em>Italian armour from the late 15th century.
 </p>
-<p>It is theorised that he may have had inspiration from Greek texts. Al Jazari<a class="wiki wikinew for-review" title="Create page: Al Jazari">?</a> an earlier Arabic inventor, had similar intentions.
+<p>It is theorised that he may have had inspiration from Greek texts. Al Jazari an earlier Arabic inventor, had similar intentions.
 </p>
-<p><a  href="http://orionrobots.co.uk/tiki-directory_browse.php?parent=7" rel="external" target="_blank">Leonardo's Robot Links</a>
+<p><a href="http://orionrobots.co.uk/tiki-directory_browse.php?parent=7" rel="external" target="_blank">Leonardo's Robot Links</a>
 </p>

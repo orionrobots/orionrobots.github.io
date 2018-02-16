@@ -3,7 +3,7 @@ layout: page
 title: Printed Circuit Boards
 date: 2005-06-29 22:51:58
 ---
-<h1  id="About_PCBs">About PCBs</h1>
+<h1 id="About_PCBs">About PCBs</h1>
 <p>PCB's are somewhat ubiquitous, and enable fairly complex designs.
 </p>
 <p>If you have ever wired by hand any circuit with more than about 8 connections, you are probably aware how error-prone and tedius this can be.
@@ -14,15 +14,15 @@ date: 2005-06-29 22:51:58
 </p>
 <p>They come in many colours, though very older ones tend to be metal on brown fibreglass. More recently they are covered in a green glaze. Many new computer parts are being made in red, black, blue as well as more brilliant greens so they can appear good looking as well as functional - some people like to attempt to colour coordinater the guts of their PC's.
 </p>
-<h1  id="Why_design_with_PCB_s_">Why design with PCB's?</h1>
+<h1 id="Why_design_with_PCB_s_">Why design with PCB's?</h1>
 <p>
 <br/>Firstly they lower the error rate. By taking them directly from an electronic design EDA or <a class="wiki" href="/wiki/cad.html" title="Computer Aided Design">CAD</a> system, you are able to correct errors in routing before you actually solder anything. This means you can worry more about your design. Designing with <a class="wiki" href="/wiki/cad.html" title="Computer Aided Design">CAD</a> means you can also minimize the space needed for a circuit.
 </p>
-<p>Matrix and Stripboards normally only come with one pin size in mind - this means if you have components with different footprints - for example switches and Trimpots<a class="wiki wikinew for-review" title="Create page: Trimpots">?</a> then they will not fit in standard strip board, breadboard, vero-board or matrix board.
+<p>Matrix and Stripboards normally only come with one pin size in mind - this means if you have components with different footprints - for example switches and Trimpots then they will not fit in standard strip board, breadboard, vero-board or matrix board.
 </p>
 <p>Also - using PCB's gives a more compact, neat and professional look to your robots - if you care for that sort of thing.
 </p>
-<h1  id="Making_PCB_s">Making PCB's</h1>
+<h1 id="Making_PCB_s">Making PCB's</h1>
 <p>However - they are not without problems. First - you need to either own your own etching kit, or know someone else with one. Etching is something that is potentially very dangerous, and the fluids need to be treated with a great deal of care. You will require gloves, an etch-proof tray and a good, ventilated place to put them in between etches. You will also need some sort of neutralizer for the etching fluid.
 </p>
 <p>If you are new to this, although it may be cheaper to make your own, it is recommended you use an online supplier - they normally provide free auto-routing <a class="wiki" href="/wiki/cad.html" title="Computer Aided Design">CAD</a> software, and it is a lot less messier - for advanced boards, or any quantity - you will definately find them cheaper.

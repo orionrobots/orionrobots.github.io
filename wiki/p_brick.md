@@ -7,7 +7,7 @@ date: 2005-01-14 14:00:45
 </p>
 <ul><li> <a class="wiki" href="/wiki/spybotics.html" title="Lego Programmable robot kits">SpyBotics</a>
 </li><li> <a class="wiki" href="/wiki/lego_rcx.html" title="The Lego RCX">Lego RCX</a>
-</li><li> Lego Scout<a class="wiki wikinew for-review" title="Create page: Lego Scout">?</a>
+</li><li> Lego Scout
 </li><li> <a class="wiki" href="/wiki/cybermaster.html" title="CyberMaster">CyberMaster</a>
 </li></ul><p>
 <br/>These are part of <a class="wiki" href="/wiki/lego.html" title="The best known construction toy">Lego's</a> <a class="wiki" href="/wiki/mindstorms.html" title="A Robotic construction toy system from Lego">Mindstorms</a> range. They allow a user to do robotics experiments through being able to program and interface these bricks. Most listed will work with <a class="wiki" href="/wiki/nqc.html" title="Not Quite C - A Lego PBrick Programming Language">NQC</a>.

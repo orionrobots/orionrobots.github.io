@@ -12,8 +12,8 @@ Surface mounted Bank of Flip Flops</div>SMT or SMD (Surface mount devices) are t
 </p>
 <p>To do so with a soldering iron will require practice, patience, a set of tweezers, some sort of magnification and a steady hand.
 </p>
-<p>For a hobbyist, most of the time through hole components are recommended with either wire wrapping<a class="wiki wikinew for-review" title="Create page: wire wrapping">?</a> or <a class="wiki" href="/wiki/breadboard.html" title="breadboard">breadboard</a> techniques for simpler prototyping and modification.
+<p>For a hobbyist, most of the time through hole components are recommended with either wire wrapping or <a class="wiki" href="/wiki/breadboard.html" title="breadboard">breadboard</a> techniques for simpler prototyping and modification.
 </p>
-<h1  id="Reference_Material">Reference Material</h1>
-<ul><li> <a  href="http://www.geocities.com/vk3em/smtguide/smtguide.htm" rel="external" target="_blank">Hints and Tips for Prototyping with SMD</a>
+<h1 id="Reference_Material">Reference Material</h1>
+<ul><li> <a href="http://www.geocities.com/vk3em/smtguide/smtguide.htm" rel="external" target="_blank">Hints and Tips for Prototyping with SMD</a>
 </li></ul>

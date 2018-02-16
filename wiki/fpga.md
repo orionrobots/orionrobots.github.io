@@ -3,7 +3,7 @@ layout: page
 title: FPGA
 date: 2005-10-06 18:08:32
 ---
-<p>Otherwise known as Field Programmable Gate Arrays - this takes the concept of <a class="wiki" href="/wiki/deferred_design.html" title="Deferred design">Deferred Design</a> much furthar than a <a a="" brain")="" class="wiki" for="" href="/wiki/microcontroller.html" robot"="" title="A programmable digital controller (or ">MicroController</a>.
+<p>Otherwise known as Field Programmable Gate Arrays - this takes the concept of <a class="wiki" href="/wiki/deferred_design.html" title="Deferred design">Deferred Design</a> much further than a <a a="" brain="" class="wiki" for="" href="/wiki/microcontroller.html" robot="" title="A programmable digital controller (or ">MicroController</a>.
 </p>
 <p>It is the term "Field Programmable" that refers directly to <a class="wiki" href="/wiki/deferred_design.html" title="Deferred design">Deferred design</a>, that is that these could be reprogrammed in the field, after leaving the manufacturer.
 </p>
@@ -13,7 +13,7 @@ date: 2005-10-06 18:08:32
 </p>
 <p>There is very little to stop you designing a small MicroController on your FPGA. Indeed there are some places with <a class="wiki" href="/wiki/open_source.html" title="Products and packages which are generally free.">open source</a> patterns for exactly that purpose.
 </p>
-<p>You may program these devices using a language called Verilog<a class="wiki wikinew for-review" title="Create page: Verilog">?</a>. One important thing to remember- is this is not a sequential language like C, but a hardware system - where every line is functioning at once.
+<p>You may program these devices using a language called Verilog. One important thing to remember- is this is not a sequential language like C, but a hardware system - where every line is functioning at once.
 </p>
 <p>It can be fairly interesting sequencing something, but there are methods to acheive that.
 </p>

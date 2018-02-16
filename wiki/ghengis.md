@@ -3,9 +3,9 @@ layout: page
 title: Ghengis
 date: 2005-01-10 14:20:29
 ---
-<p>Ghengis is a very classy walker created by <a class="wiki" href="/wiki/rodney_brooks.html" title="Rodney Brooks">Rodney Brooks</a> of i Robot<a class="wiki wikinew for-review" title="Create page: i Robot">?</a>.
+<p>Ghengis is a very classy walker created by <a class="wiki" href="/wiki/rodney_brooks.html" title="Rodney Brooks">Rodney Brooks</a> of i Robot.
 </p>
-<p>It has six legs, and uses Subsumption Architecture<a class="wiki wikinew for-review" title="Create page: Subsumption Architecture">?</a>.
+<p>It has six legs, and uses Subsumption Architecture.
 </p>
 <p>It has an array of heat sensors, and is built up with behavioural layers from a basic instruction top stand, through to walking(lifting a foot, and following with an involuntary step reflew), through to a complex hunt and prowl behaviour.
 </p>

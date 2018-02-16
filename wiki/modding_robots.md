@@ -11,8 +11,8 @@ date: 2013-05-02 14:17:40
 </li><li> <a class="wiki" href="/wiki/lego_manas.html" title="Remote control Lego robot-like kits">Lego Manas</a>
 </li><li> <a class="wiki" href="/wiki/lego.html" title="The best known construction toy">Lego</a> <a class="wiki" href="/wiki/cybermaster.html" title="CyberMaster">CyberMaster</a>
 </li><li> <a class="wiki" href="/wiki/cybot.html" title="Cybot">Cybot</a>
-</li><li> Tekno Robot Dog<a class="wiki wikinew for-review" title="Create page: Tekno Robot Dog">?</a>
-</li><li> i-Cybie Robot Dog<a class="wiki wikinew for-review" title="Create page: i-Cybie Robot Dog">?</a>
+</li><li> Tekno Robot Dog
+</li><li> i-Cybie Robot Dog
 </li><li> <a class="wiki" href="/wiki/furby.html" title="Furby">Furby</a>
 </li><li> <a class="wiki" href="/wiki/palm_computer.html" title="Palm Computer">Palm Computer</a>
 </li><li> <a class="wiki" href="/wiki/pocket_pc.html" title="Pocket PC">Pocket PC</a>

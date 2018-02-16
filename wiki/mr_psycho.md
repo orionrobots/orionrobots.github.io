@@ -7,8 +7,9 @@ date: 2005-10-06 22:56:58
 </p>
 <p>He has a huge pounding hammer and a very menacing look - almost like a butcher. This is apt - he will grind down smaller bots quite effectively.
 </p>
-<p>He has twice the lifting force of Sir Killalot<a class="wiki wikinew for-review" title="Create page: Sir Killalot">?</a> and is paired up with his companion Growler<a class="wiki wikinew for-review" title="Create page: Growler">?</a> - both of whom were introduced with a elaborate ceremony.
+<p>He has twice the lifting force of Sir Killalot and is paired up with his companion Growler - both of whom were introduced with a elaborate ceremony.
 </p>
-<div style=" width:322px;"><img alt="Mr Psycho" class="img-responsive" src="image56" title="Mr Psycho"/> <div class="mini" style="width:320px;"> <div class="thumbcaption">Mr Psycho		</div> </div> </div>
+<div style=" width:322px;"><img alt="Mr Psycho" class="img-responsive" src="image56" title="Mr Psycho"/> <div class="mini" style="width:320px;"> <div class="thumbcaption">Mr Psycho
+		</div> </div> </div>
 <p>
 </p>

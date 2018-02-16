@@ -9,5 +9,5 @@ date: 2005-03-13 13:46:42
 </p>
 <p>Flash <a class="wiki" href="/wiki/ram.html" title="Random Access Memory">RAM</a> used to be pretty expensive, but now it is being used in a multitude of Cameras, Phones, PDA's, and many of the <a class="wiki" href="/wiki/firmware.html" title="Software burned into a non volatile memory chip">firmware</a> chips in your PC - the prices have fallen dramatically compared with around 5 to 10 years ago.
 </p>
-<p>Flash Cards<a class="wiki wikinew for-review" title="Create page: Flash Card">?</a> are becoming prevalent, and look set to replace the Floppy Disk once and for all.
+<p>Flash Cards are becoming prevalent, and look set to replace the Floppy Disk once and for all.
 </p>

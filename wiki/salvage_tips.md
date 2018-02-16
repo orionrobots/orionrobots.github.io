@@ -27,11 +27,11 @@ date: 2007-01-28 17:51:36
 <p>
 <br/>An electric toothbrush, has a great little motor for creating <a class="wiki" href="/wiki/beam_robots.html" title="Biology, Electronics, Aesthetics and Mechanics">BEAM Robots</a>.  These motors are pretty good, and can take extended usage. They also run on very low voltages. Depending on the model - it may also have some amount of water proofing in the case design. Think <a class="wiki" href="/wiki/submarine.html" title="SubMarine">Submarine</a>!
 </p>
-<p>Computer disk drives, have some very fine <a class="wiki" href="/wiki/stepper_motors.html" title="Stepper Motors">Stepper Motors</a> as well as a 12v DC motor and MicroSwitches.  I am also sure that you might eventually be able to think of a use for the laser elements - both emitter and receiver are both light sensitive for <a class="wiki" href="/wiki/beam_robots.html" title="Biology, Electronics, Aesthetics and Mechanics">BEAM Robots</a>.  Some Hard Drives contain supermagnets for building MagBots<a class="wiki wikinew for-review" title="Create page: MagBots">?</a>.
+<p>Computer disk drives, have some very fine <a class="wiki" href="/wiki/stepper_motors.html" title="Stepper Motors">Stepper Motors</a> as well as a 12v DC motor and MicroSwitches.  I am also sure that you might eventually be able to think of a use for the laser elements - both emitter and receiver are both light sensitive for <a class="wiki" href="/wiki/beam_robots.html" title="Biology, Electronics, Aesthetics and Mechanics">BEAM Robots</a>.  Some Hard Drives contain supermagnets for building MagBots.
 </p>
 <p>Modems and other telephone equipment are great - they tend to have LM series Op-Amps and <a class="wiki" href="/wiki/electronic_relay.html" title="An electrically activated switch">relays</a> as well as a nice variety of other parts.
 </p>
-<p>A real good find would be any old motorised toys - as even if some parts are faulty, the servos, or the RC circuits as well as linkages may be salvageable - and good wheels are always worthwhile stock. I am sure following Christmas - that someone will be throwing old broken toys away(do you know someone with kids?). RC Cars are obvious - with Servo Motors<a class="wiki wikinew for-review" title="Create page: Servo Motors">?</a>, gears, wheels, even body chassis which could be used for a robot base. The actual transceiver, and motor controllers are also useful. These are a gold find.
+<p>A real good find would be any old motorised toys - as even if some parts are faulty, the servos, or the RC circuits as well as linkages may be salvageable - and good wheels are always worthwhile stock. I am sure following Christmas - that someone will be throwing old broken toys away(do you know someone with kids?). RC Cars are obvious - with Servo Motors, gears, wheels, even body chassis which could be used for a robot base. The actual transceiver, and motor controllers are also useful. These are a gold find.
 </p>
 <p>Walkman's have nice little low voltage motors, and gears.  The tape sensors will have MicroSwitches and their may be <a class="wiki" href="/wiki/led.html" title="Light Emitting Diode">LED</a>'s. In <a href="Salvage Tips#junkbots">Dave Hrynkiw/Mark W. Tilden</a> they even use the chassis framework from one of these for a robot chassis.
 </p>
@@ -59,11 +59,11 @@ date: 2007-01-28 17:51:36
 </p>
 <p>At computer fairs, there are often people with a desk filled with various dead parts and modems - which are great to salvage.
 </p>
-<p>eBay<a class="wiki wikinew for-review" title="Create page: eBay">?</a> sometimes have sales of components, and sales of old junk.
+<p>eBay sometimes have sales of components, and sales of old junk.
 </p>
 <p>You can also just let your family, and friends know that if they have any of the right kind of electronic junk - hand it to you.
 </p>
-<ul><li> <a  href="http://www.britishcomputerfairs.com" rel="external" target="_blank">British computer Fairs</a>
+<ul><li> <a href="http://www.britishcomputerfairs.com" rel="external" target="_blank">British computer Fairs</a>
 </li></ul><div class="titlebar">Council yards</div>
 <p>
 <br/>One problem with Council yards, is following the recent trend of litigation culture (suing people for lots of money for the most inane of things), they are no longer allowed to let you take away scrap. The thinking being, if you take it away, and injure yourself, the council may be liable - and they are just not covered for it.
@@ -77,7 +77,7 @@ date: 2007-01-28 17:51:36
 <div class="titlebar">Salvage Bibliography</div>
 <p>
 </p>
-<table class="normal" id="fancytable_1"> <tr> <td class="odd"><a id="junkbots"></a> <a class="internal" href="http://www.amazon.co.uk/exec/obidos/ASIN/0072226013/orionrobots-21" target="_blank"> <img class="img-responsive" src="image16"/> </a> </td> <td class="odd"><a  href="http://www.amazon.co.uk/exec/obidos/ASIN/0072226013/orionrobots-21" rel="external" target="_blank">Junkbots, Bugbots and Bots on Wheels: Building Simple Robots with BEAM Technology</a></td> <td class="odd">Dave Hrynkiw, Mark W. Tilden</td> <td class="odd">They recommend a particular brand of printer cartridges as having a very interesting metal bar - which is strong and solderable, as well as an great guide to salvaging and removing components.</td> </tr> </table>
+<table class="normal" id="fancytable_1"> <tr> <td class="odd"><a id="junkbots"></a> <a class="internal" href="http://www.amazon.co.uk/exec/obidos/ASIN/0072226013/orionrobots-21" target="_blank"> <img class="img-responsive" src="image16"/> </a> </td> <td class="odd"><a href="http://www.amazon.co.uk/exec/obidos/ASIN/0072226013/orionrobots-21" rel="external" target="_blank">Junkbots, Bugbots and Bots on Wheels: Building Simple Robots with BEAM Technology</a></td> <td class="odd">Dave Hrynkiw, Mark W. Tilden</td> <td class="odd">They recommend a particular brand of printer cartridges as having a very interesting metal bar - which is strong and solderable, as well as an great guide to salvaging and removing components.</td> </tr> </table>
 <p>
 <br/>{GOOGLEBAR(pub=pub-1306094303661715)/}
 </p>

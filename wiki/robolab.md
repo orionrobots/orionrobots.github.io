@@ -8,7 +8,7 @@ date: 2005-10-06 14:43:22
 </p>
 <p>It takes the visual concepts of the RCX Code system which comes as standard with the <a class="wiki" href="/wiki/mindstorms.html" title="A Robotic construction toy system from Lego">Mindstorms</a> <a class="wiki" href="/wiki/ris.html" title="The Lego Robotic Invention System">RIS</a>, and builds a more versatile visual language.
 </p>
-<p>It is not everyones taste though, and many prefer more traditional languages like C or Java<a class="wiki wikinew for-review" title="Create page: Java">?</a> using <a class="wiki" href="/wiki/nqc.html" title="Not Quite C - A Lego PBrick Programming Language">NQC</a>, <a class="wiki" href="/wiki/brickos.html" title="An entire Embedded OS for the RCX">BrickOS</a> and <a class="wiki" href="/wiki/lejos.html" title="A Java Based Lego RCX OS">Lejos</a>.
+<p>It is not everyones taste though, and many prefer more traditional languages like C or Java using <a class="wiki" href="/wiki/nqc.html" title="Not Quite C - A Lego PBrick Programming Language">NQC</a>, <a class="wiki" href="/wiki/brickos.html" title="An entire Embedded OS for the RCX">BrickOS</a> and <a class="wiki" href="/wiki/lejos.html" title="A Java Based Lego RCX OS">Lejos</a>.
 </p>
 <p>Robolab is based upon the labview system, which is used in some electronics labs, and is designed to be closer to an electrical or mechanical engineers view of a system than a software engineers view. In this respect, it does acheive its goal.
 </p>

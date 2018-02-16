@@ -8,7 +8,8 @@ def remove_create_page_links(filename):
     sep = '---\n'
     with open(filename, 'r') as fd:
         _, preamble, raw_page = fd.read().split(sep)
-
+    if '>?<' not in raw_page:
+        return
     bs = BeautifulSoup(raw_page, 'lxml')
     for link in bs('a'):
         if link.string == '?':
@@ -25,7 +26,7 @@ def remove_create_page_links(filename):
 
 def main():
     files = os.listdir(sys.argv[1])
-    for item in files[:1]:
+    for item in files:
         try:
             remove_create_page_links(os.path.join(sys.argv[1], item))
         except:

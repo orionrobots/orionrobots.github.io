@@ -8,7 +8,7 @@ date: 2005-02-04 11:28:06
 <div class="titlebar">Conventional Sports With Robots</div>
 <ul><li> <a class="wiki" href="/wiki/tennis_robots.html" title="Tennis Robots">Tennis Robots</a>
 </li><li> <a class="wiki" href="/wiki/robo_cup.html" title="Robo Cup">Robo Cup</a>
-</li><li> Dancing Robots<a class="wiki wikinew for-review" title="Create page: Dancing Robots">?</a>
+</li><li> Dancing Robots
 </li></ul><p>
 </p>
 <div class="titlebar">New Sports Designed With Robots</div>

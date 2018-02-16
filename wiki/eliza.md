@@ -3,7 +3,7 @@ layout: page
 title: Eliza
 date: 2005-10-05 19:41:34
 ---
-<p>This was a very famous early attempt on the Turing Test<a class="wiki wikinew for-review" title="Create page: Turing Test">?</a>.
+<p>This was a very famous early attempt on the Turing Test.
 </p>
 <p>Eliza was a talk-bot which attempted to emulate a conversation as a pyschiatrist. It would latch on to key words, and reel off programmed responses- sometimes substituting your own words. It woudl ask questions like "how do you feel about your mother?" and occasionally bring up a subject earlier in the discussion.
 <br/>Recent implmentations include Alice. If you are a Unix user - Emacs has a few of these :

@@ -10,7 +10,7 @@ date: 2007-01-28 17:44:30
 </li><li> <a class="wiki" href="/wiki/transistor.html" title="Transistor">Transistor</a>
 </li><li> <a class="wiki" href="/wiki/diode.html" title="Diode">Diode</a>
 </li><li> <a class="wiki" href="/wiki/electronic_relay.html" title="An electrically activated switch">Relays</a>
-</li><li> IC's<a class="wiki wikinew for-review" title="Create page: IC's">?</a>
+</li><li> IC's
 </li></ul><p>
 <br/>OrionRobots have a component identification key in development, and will be putting it here when it is ready.
 </p>

@@ -11,7 +11,7 @@ date: 2005-05-25 19:20:43
 </p>
 <p>It uses a pendulum based propulsion method - where the weight of the pendulum suspended in the direction it wants to go causes the robot to roll forward - thus by continuing to swing the weight out, it will continue forward. Think of a hamster ball. It turns by swinging the weight a little to the side - but it does maintain a clear distinction between its sides and its rolling surface. The sides have wide angle cameras fitted to report its findings. This method allows a maximum speed of around 32kph (20mph).
 </p>
-<p>The current version does not have enough power to deal with slopes very well - but expect later versions to do so. The spherical design means it is less likely to get stuck as some angular robots are prone to. However - like The Daleks<a class="wiki wikinew for-review" title="Create page: The Daleks">?</a> it has some trouble climbing stairs.
+<p>The current version does not have enough power to deal with slopes very well - but expect later versions to do so. The spherical design means it is less likely to get stuck as some angular robots are prone to. However - like The Daleks it has some trouble climbing stairs.
 </p>
 <p>From the pictures on the <a class="wiki" href="tiki-directory_redirect.php?siteId=124" rel="">infosheet</a> it appears to be around the size of a large bowling ball - and probably none too light. Given the way it can propel itself - this would make it very hard for an intruder to try and lift it, or interfere with it. It is also constructed in a way that presents no external moving parts, and to be very airtight. This makes it great for sand and water.
 </p>

@@ -13,10 +13,10 @@ date: 2005-10-11 22:03:32
 </p>
 <p>It is unlikely that hydraulic systems would be used in a robot that is smaller than a car. At the small scale, a <a class="wiki" href="/wiki/pneumatic.html" title="Use of air to operate and power actuators">pneumatic</a> system would be a great deal more apropriate, unless it is looking to lift very heavy loads like fork-lift or an <a class="wiki" href="/wiki/exoskeleton.html" title="A device/vehical worn to enhance human abilities">exoskeleton</a>.
 </p>
-<h1  id="Common_Hydraulic_System_Components">Common Hydraulic System Components</h1>
+<h1 id="Common_Hydraulic_System_Components">Common Hydraulic System Components</h1>
 <p><a class="wiki" href="/wiki/single_acting_cylinder.html" title="A fluidic actuator with a spring operated return">Single Acting Cylinder</a>
 </p>
 <p><a class="wiki" href="/wiki/double_acting_cylinder.html" title="A fluidic actuator with dual inlets allowing greater control">Double Acting Cylinder</a>
 </p>
-<p>Solenoid Valve<a class="wiki wikinew for-review" title="Create page: Solenoid Valve">?</a>
+<p>Solenoid Valve
 </p>

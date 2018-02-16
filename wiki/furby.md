@@ -17,7 +17,7 @@ date: 2005-02-25 12:56:18
 </p>
 <p><a class="wiki" href="tiki-directory_redirect.php?siteId=28" rel="">Jeffbots Furby Autopsy</a>
 </p>
-<p>They can be modded in a number of ways. If you alter their cams - you can change their actions somewhat- though this may just mess them up. You can also get a cool effect by skinning them. I have seen at least one "Terminator<a class="wiki wikinew for-review" title="Create page: The Terminator">?</a>" furby - skinned, and replaced with a leather jacket and given dark shades.
+<p>They can be modded in a number of ways. If you alter their cams - you can change their actions somewhat- though this may just mess them up. You can also get a cool effect by skinning them. I have seen at least one "Terminator" furby - skinned, and replaced with a leather jacket and given dark shades.
 </p>
 <p>Unfortunately they are not really a platform for doing anything more clever than this, but performing a Furby autopsy is a great way to gain an insight into getting more from a single motor mechanism.
 </p>

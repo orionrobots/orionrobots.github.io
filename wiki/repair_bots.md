@@ -7,7 +7,7 @@ date: 2004-11-15 13:51:24
 </p>
 <p>Robots could be designed to repair rails, other robots, power lines, roads and just about anything we can think of.
 </p>
-<p>Rail Repair Robot<a class="wiki wikinew for-review" title="Create page: Rail Repair Robot">?</a>
+<p>Rail Repair Robot
 </p>
-<p>As <a class="wiki" href="/wiki/nano_bots.html" nano"="" robots"="" scale="" title="Microscopic or">Nano Bots</a> come closer - the possibility of robots repairing us becomes quite likely to.  There are already <a class="wiki" href="/wiki/medical_bots.html" title="Medical Bots">Medical Bots</a> which may fall into this category.
+<p>As <a class="wiki" href="/wiki/nano_bots.html" nano="" robots="" scale="" title="Microscopic or">Nano Bots</a> come closer - the possibility of robots repairing us becomes quite likely to.  There are already <a class="wiki" href="/wiki/medical_bots.html" title="Medical Bots">Medical Bots</a> which may fall into this category.
 </p>

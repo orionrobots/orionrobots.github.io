@@ -9,5 +9,5 @@ date: 2004-12-17 13:52:42
 </p>
 <p>It was quite simply a shell, with space for one person to sit - and was designed as a "ship to sink other ships". It was actually only "Semi-Submersible".
 </p>
-<p>Building Submersible Robots<a class="wiki wikinew for-review" title="Create page: Building Submersible Robots">?</a>
+<p>Building Submersible Robots
 </p>

@@ -15,8 +15,8 @@ date: 2008-01-04 21:16:51
 </p>
 <p>Many RC cars use a steering system which looks a little like it - but is simply a <a class="wiki" href="/wiki/servo_motor.html" title="A motor with built in positioning control - easily interfaced with digital systems">servo</a> linkage moving one bar in a parallel.
 </p>
-<h2  id="Related">Related</h2>
-<ul><li> Ackerman Steering<a class="wiki wikinew for-review" title="Create page: Ackerman Steering">?</a>
+<h2 id="Related">Related</h2>
+<ul><li> Ackerman Steering
 </li><li> <a class="wiki" href="/wiki/robot_locomotion.html" title="Robot Locomotion">Robot Locomotion</a>
 </li></ul><p>
 </p>

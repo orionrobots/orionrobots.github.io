@@ -9,5 +9,5 @@ date: 2005-10-06 14:53:35
 </p>
 <p>They may also also include the business end of a BattleBot - Axes, Spikes, Flippers etc..
 </p>
-<p>Interchangeable end effectors can be an important feature in an adaptable multi-purpose robot. Although you would hope nobody designs a real robot wih such an embaressing intechange point as Kryten<a class="wiki wikinew for-review" title="Create page: Kryten">?</a>.
+<p>Interchangeable end effectors can be an important feature in an adaptable multi-purpose robot. Although you would hope nobody designs a real robot wih such an embaressing intechange point as Kryten.
 </p>
