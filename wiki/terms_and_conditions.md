@@ -50,7 +50,7 @@ Google analytics is used from time to time to identify trends so Orionrobots can
 
 * Cookies are used to serve ads on this site.
 * The cookies are used to serve ads to users based on their visit to this sites and other sites on the Internet.
-* Users may opt out of the use of the DART cookie by visiting the  <a  href="http://www.google.co.uk/privacy_ads.html" rel="external" target="_blank">Google ad and content network privacy policy</a>.
+* Users may opt out of the use of the DART cookie by visiting the  <a  href="https://support.google.com/ads/answer/2662922?hl=en-GB" rel="external" target="_blank">Google ad and content network privacy policy</a>.
 
 <h1  id="Summary">Summary</h1>
 
