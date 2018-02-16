@@ -1,8 +1,8 @@
 ---
 created: 2010-10-23 05:24:00
-description: Chicken walker robot Halloween costumes..
+description: Chicken walker robot Halloween costumes...
 tags: [robot, costume, halloween, chicken walker, steampunk, mecha]
-title: Chicken walker robot Halloween costumes..
+title: Chicken Walker Robot Halloween Costumes
 layout: post
 ---
 {% include JB/setup %}
@@ -30,9 +30,3 @@ On Instructables is another chicken walker costume - perhaps a little simpler -
 <div class="embed-responsive embed-responsive-16by9">
 <iframe width="420" height="315" src="//www.youtube.com/embed/CIQuXk8wQOA?rel=0" frameborder="0" allowfullscreen="true"></iframe>
 </div>
-
-# More Halloween Costumes
-
-I've compiled a list of halloween costumes based on robots, I am sure you can enjoy building one of them yourself... Included are Transformers, Terminator, Star Wars and Gort.
-
-[Top Robot Costumes you can make yourself](http://www.squidoo.com/top-robot-costumes-you-can-make-yourself)

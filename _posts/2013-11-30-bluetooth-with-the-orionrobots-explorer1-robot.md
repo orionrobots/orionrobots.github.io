@@ -31,7 +31,7 @@ You should now be able to compile and upload this to your robot, which will be w
 
 # Driving it
 
-To prepare an Android device, the app [BlueTooth SPP](https://play.google.com/store/apps/details?id=mobi.dzs.android.BluetoothSPP) is a nice quick and free way to get it running.
+To prepare an Android device, you will need a Bluetooth SPP app. The one I originally used is still available.
 
 With the robot turned on, launch this and press the scan button. You should see "HC-06", tap this and pair it with the code 1234.
 
