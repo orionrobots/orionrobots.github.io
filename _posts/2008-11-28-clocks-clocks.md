@@ -2,31 +2,31 @@
 created: 2008-11-28 14:36:00
 description: clocks, clocks
 tags: [electronics, lego, makers, pic]
-title: clocks, clocks
+title: Making Custom Clocks
 layout: post
 ---
 {% include JB/setup %}
 
-It seems that a lot of people are trying to customise the idea of clocks recently. Along with Greg's Screen scraping train clock, the incredible motorised moving clock, you only need to look around to see many people are building variants on clocks.
+It seems that a lot of people are trying to customise the idea of clocks recently. I've recently seen a [screen scraping train clock](https://makezine.com/2007/08/28/my-train-schedule-alarm-clock/), an incredible motorised moving clock and you only need to look around to see many people are building variants on clocks.
 
-Some crazy people, having seen the recent BBC TV series "Rocket Man" are making their own Orreries - which are at their core very advanced clocks. Another more unusual clock is [The Clock Of The Long Now](http://www.hlb.com/inovlog/archives/2005/10/build_a_simple_1.html) - which keeps time using entirely mechanical apparatus and is most intriguing as it can keep time for 10 millennia, using a series of binary mechanical calculation mechanisms. Being as much sculpture as a timepiece, it is shining metal topped with a mini orrery.
+Some crazy people, having seen the 2008 BBC TV series "Rocket Man" are making their own Orreries, clocks that models movements of planets. Another more unusual clock is [The Clock Of The Long Now](http://longnow.org/clock/) - which keeps time using only mechanical means and can keep time for 10 millennia, using a series of binary calculation mechanisms. Being as much sculpture as a timepiece, it is shining metal topped with a mini Orrery.
 
-Using the (interestingly named) [HOWTO - Alarm clock of the short now](http://www.makezine.com/blog/archive/2005/11/how_to_alarm_clock_of_the_shor.html) you can build a clock designed to work in terms of durations instead of set times - very good for working on sleeping in phased cycles, or getting that odd prescribed 8 hours (concepts which actually contradict each other unless 30 minutes of settling time is taken into consideration).
+Using the (interestingly named) [HOWTO - Alarm clock of the short now](https://makezine.com/2005/11/04/how-to-alarm-clock-of-the/) you can build a clock designed to work in terms of durations instead of set times - very good for working on sleeping in phased cycles, or getting that odd prescribed 8 hours (concepts which actually contradict each other unless 30 minutes of settling time is taken into consideration).
 
-Sometimes, a bedside table is low on space, at which point, its seriously worth considering the [Lamp Olock](http://www.makezine.com/blog/archive/2005/05/the_lamp_olock.html) - a clock build into the base of the deskside lamp, saving space, and looking rather cool and different at the same time.
+Sometimes, a bedside table is low on space, at which point, its seriously worth considering the [Lamp Olock](https://makezine.com/2005/05/06/the-lamp-olock-alarm-cloc/) - a clock build into the base of the deskside lamp, saving space, and looking rather cool and different at the same time.
 
-With the current iPod nano phase, using one to [build an alarm clock](http://www.makezine.com/blog/archive/2005/09/diy_ipod_nano_alarm_clock.html) is a cool idea, as long as you don't need to actually prise the back cover off to do it. Luckily - all you need to butcher is the iPod dock. Another variant on this just uses a
-[speaker system](http://www.makezine.com/blog/archive/2005/09/ipod_nano_speaker_alarm_clock.html) with the Nano. Simpler, but more expensive and less featured.
+With the current iPod nano phase, using one to [build an alarm clock](https://makezine.com/2005/09/21/diy-ipod-nano-alarm-clock/) is a cool idea, as long as you don't need to actually prise the back cover off to do it. Luckily - all you need to butcher is the iPod dock. Another variant on this just uses a
+[speaker system](https://makezine.com/2005/09/15/ipod-nano-speaker-alarm-c/) with the Nano. Simpler, but more expensive and less featured.
 
-Those with much spare computer hardware, could make their own clocks with [Old Hard Drives](http://home.cc.umanitoba.ca/~umparekh/hard_drive_clock.html). Other comments on this were collected at [This Make How To](http://www.makezine.com/blog/archive/2005/08/how_to_make_a_h_1.html). With Red blue and white LEDs moving around illuminating the platter - it looks very cool, but it is one of the noisiest clocks I have seen.
+Those with much spare computer hardware, could make their own clocks with [Old](https://makezine.com/2005/08/30/how-to-make-a-hard-drive/) [Hard](https://makezine.com/2007/09/17/hard-drive-clock-1/) [Drives][https://makezine.com/2008/10/19/led-hard-drive-clock/]. With Red blue and white LEDs moving around illuminating the platter - the first one looks very cool, but it is one of the noisiest clocks I have seen.
 
-If you fancy taking a tube out of a defunct scope (providing its not the tube itself), you can build a clock with one here:
-[Homemade Scope Clock](http://www.makezine.com/blog/archive/2005/07/homemade_scope.html). The reason (if you were wondering), it would not simply work with the inputs on a working scope, is that it blanks the point between segments of its curve - thus allowing many separate segments. Its very old style, and inspiring. The actual guys site
-<http://www.webx.dk/oz2cpu/clock-scope/scope.htm> has a number of free downloads to use with
-[PIC](/PIC) [Microcontrollers](MicroControllers) if you build your own similar clock.
+If you fancy taking a tube out of a defunct oscilloscope (providing its not the tube itself that is broken), you can build a clock with one here:
+[Homemade Scope Clock](http://www.webx.dk/oz2cpu/clock-scope/scope.htm). The reason (if you were wondering), it would not simply work with the inputs on a working scope, is that it blanks the point between segments of its curve - thus allowing many separate segments. Its very old style, and inspiring. The site
+also has a number of free downloads to use with
+[PIC](/wiki/pic) [Microcontrollers](/wiki/microcontroller) if you build your own similar clock.
 
 If its all style, you can go for a master of style, by building this hand welded
-[Retro Ball Clock](http://www.finkbuilt.com/blog/nelson-lodefink-ball-clock-phase-1/). Or for an even more retro fell, why not go for the [Nixie Tube Clock](http://www.finkbuilt.com/blog/numerical-indicator-experimental-1/trackback/). Now if you have never heard of them - Nixie Tubes are a very neat old display which were expensive yet very attractive in their time (50s). They are based on blown glass neon bulbs, and each tube has a filament for all its possible digits. Not easily obtained - but they have a very distinctive look.
+[Retro Ball Clock](http://www.finkbuilt.com/blog/ball-clock/). Or for an even more retro fell, why not go for the [Nixie Tube Clock](http://www.finkbuilt.com/blog/numerical-indicator-experimental-1/trackback/). Now if you have never heard of them - Nixie Tubes are a very neat old display which were expensive yet very attractive in their time (50s). They are based on blown glass neon bulbs, and each tube has a filament for all its possible digits. Not easily obtained - but they have a very distinctive look.
 
 Now since we started on Lego, we will come back to Lego. Now we get one here based on the [RCX](/Lego+RCX) - <http://www.lomont.org/Lego/ClockI/ClockI.php> - what is odd is it has separate hands and faces four hour, minutes and seconds. However - it compares poorly with this fantastic 7 foot high, fully working [Lego Grandfather Clock](http://www.ericharshbarger.org/lego/clock.html) built by a rather intense Lego sculptor with a large portfolio.
 
