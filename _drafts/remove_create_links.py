@@ -1,26 +1,35 @@
 import sys
 from bs4 import BeautifulSoup
+import os
+import logging
 
 
 def remove_create_page_links(filename):
-    with open(filename, 'rb') as fd:
-        _, preamble, raw_page = fd.read().split(b'---')
+    sep = '---\n'
+    with open(filename, 'r') as fd:
+        _, preamble, raw_page = fd.read().split(sep)
 
     bs = BeautifulSoup(raw_page, 'lxml')
     for link in bs('a'):
         if link.string == '?':
             link.decompose()
     body_element = bs('body')[0]
-    with open(filename, 'wb') as fd:
-        fd.write(b'---')
+
+    with open(filename, 'w') as fd:
+        fd.write(sep)
         fd.write(preamble)
-        fd.write(b'---\n')
+        fd.write(sep)
         for child in body_element.children:
-            fd.write(child.encode())
+            fd.write(str(child))
 
 
 def main():
-    remove_create_page_links(sys.argv[1])
+    files = os.listdir(sys.argv[1])
+    for item in files[:1]:
+        try:
+            remove_create_page_links(os.path.join(sys.argv[1], item))
+        except:
+            logging.exception("Trouble parsing %s", item)
 
 
 if __name__ == '__main__':

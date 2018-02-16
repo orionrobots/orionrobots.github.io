@@ -10,5 +10,3 @@ They organise and sponsor conferences on the subject, and as a non-profit organi
 [Rodney Brooks](/wiki/rodney_brooks.html) is a founding member of this group.
 
 <http://www.aaai.org>
-
-
