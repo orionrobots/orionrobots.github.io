@@ -18,7 +18,7 @@ def main():
     with open(filename) as csv_file:
         reader = csv.DictReader((row for row in csv_file if not row.startswith('#')), delimiter=';')
         non_200 = (item for item in reader if 'OK' not in item['result'])
-        non_redirect = (item for item in reader if '307' not in item['result'])
+        non_redirect = (item for item in non_200 if '307' not in item['result'])
 
         total_list = list(non_redirect)
         output_file(total_list)
