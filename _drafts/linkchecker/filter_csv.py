@@ -11,7 +11,7 @@ def output_file(items):
         autoescape=select_autoescape(['html', 'xml'])
     )
     template = env.get_template('output_template.html')
-    print(template.render(items=items).encode('utf-8'))
+    print(template.render(items=items, count=len(items)).encode('utf-8'))
 
 def main():
     filename = sys.argv[1]
@@ -21,7 +21,6 @@ def main():
         non_redirect = (item for item in reader if '307' not in item['result'])
 
         total_list = list(non_redirect)
-        print("Total result count", len(total_list))
         output_file(total_list)
 
 if __name__ == '__main__':
