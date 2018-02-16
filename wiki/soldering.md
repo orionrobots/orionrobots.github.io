@@ -3,7 +3,7 @@ layout: page
 title: soldering
 date: 2007-01-28 20:01:52
 ---
-<p>When using perfboard<a class="wiki wikinew for-review" title="Create page: perfboard">?</a>, stripboard<a class="wiki wikinew for-review" title="Create page: stripboard">?</a> or <a class="wiki" href="/wiki/pcb.html" title="Printed Circuit Board">PCBs</a> as well as freeforming<a class="wiki wikinew for-review" title="Create page: freeforming">?</a>, soldering is the normal method of connection.
+<p>When using perfboard, stripboard or <a class="wiki" href="/wiki/pcb.html" title="Printed Circuit Board">PCBs</a> as well as freeforming, soldering is the normal method of connection.
 </p>
 <p>It involves heating a metal alloy with a low melting point, which then adheres to the conducting board surface, and to the component. When done correctly, this then facilitates both the electrical and mechanical connection between the component and the board.
 </p>
@@ -12,7 +12,7 @@ date: 2007-01-28 20:01:52
 <h1  id="Solder">Solder</h1>
 <p>The Solder itself is an alloy, which was tin and lead, but other alloys are used now that lead is no longer an option. Lead is fairly mouldable and has a low melting point, hence why it was used, but is also toxic.
 </p>
-<p>Solder comes in a number of types, with different melting points. For electronic<a class="wiki wikinew for-review" title="Create page: electronic">?</a> work, low melting points are most definitely better as they reduce the risk of damaging components.
+<p>Solder comes in a number of types, with different melting points. For electronic work, low melting points are most definitely better as they reduce the risk of damaging components.
 </p>
 <h1  id="Flux">Flux</h1>
 <p>Flux is a resinous substance used to clean contaminants and oxidants from a surface, smoothing it and priming it so the solder can flow well and make a good electronic bond. Flux may come inside the solder as a core, or can be bought separately and pumped in with a syringe or similar. Flux can be heated a fair way, but overheating it can make it bubble and spatter - not a good thing at all.

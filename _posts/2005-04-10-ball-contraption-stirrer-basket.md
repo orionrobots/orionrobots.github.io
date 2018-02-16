@@ -15,7 +15,7 @@ If you look at these first photos - you can clearly see that with a simple hoppe
 
 So I thought about building a mechanism to stir the balls. My inspiration came from seeing the stirrers used in the belt lift components in RokenBok. I created the basket itself, and the actual mechanism to turn the stirrers - as seen from this underside shot.
 
-<a href="{{ page.image_gallery }}/target7.html">![]({{ page.image_gallery }}/thumbnails/P1010017_2.jpg)</a>
+<a href="{{ page.image_gallery }}/target7.html">![]({{ page.image_gallery }}/thumbnails/p1010017_2.jpg)</a>
 
 I then experimented with a few different types of stirring arm - I tried (my initial design) the large Lego classic space radar dishes - <http://peeron.com/inv/parts/4285b>. These didn't seem to work too well. I tried a few different ideas, and settled on the studless 3 bladed liftarm piece <http://peeron.com/inv/parts/44374> - which was most effective.
 
