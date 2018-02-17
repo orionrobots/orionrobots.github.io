@@ -5,7 +5,7 @@ tags: [animatronic, robot, steven_king, ebay]
 title: Steven King Animatronics prop on Ebay
 layout: post
 ---
-An [animatronic](animatronic "animatronic") head prop used in the Steven King miniseries "Rose Red", has been placed on ebay.
+An [animatronic](/wiki/animatronic "animatronic") head prop used in the Steven King miniseries "Rose Red", has been placed on ebay.
 
 It is not fully working, but some robot builder or Steven King fan may be able to 
   do something with it. It is a fairly gruesome sight, and the eBay page even 

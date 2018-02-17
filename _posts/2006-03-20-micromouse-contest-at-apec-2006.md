@@ -23,8 +23,5 @@ I would love to attend, but I am going to be in London, UK, and will keep up wit
 
 # Links
 
-* <http://www.apec-conf.org/2006/APEC06_MicroMouse.html> - APEC Micromouse Contest page
-* <http://www.apec-conf.org/APEC_MicroMouse_Rules.html>  - Micromouse Rules
-* <http://www.np.edu.sg/~adp-alpha/micromouse/mice_hp.htm> - The Singapore Inter-School Micromouse Competition draws in some great contestants, who may later go on to compete at APEC.
-* <http://www.robots-dreams.com/2006/02/apec_micromouse.html> - robots Dreams artical on APEC micromouse.
-* <http://www.robots-dreams.com/2005/11/all_japan_micro.html> - Robots Dreams - David Otten Interview (Video) on the All Japan Micromouse Contest.
+* [MicroMouse USA](http://micromouseusa.com/?p=2103)
+* [Micromouse Online](http://www.micromouseonline.com/events/apec-2018-micromouse-contest/)

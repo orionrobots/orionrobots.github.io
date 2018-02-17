@@ -9,7 +9,7 @@ layout: post
 
 OrionRobots now has an exclusive on the fun at the New Jersey Storming Robots event, which took place in the Hilton in Brunswick New Jersey throughout last week and the weekend.
 
-Eric Sophie summed up most of it with the brief words "What a great time!", and it was.
+Eric Sophie summed up most of it with the brief words "What a great time!" and it was.
 
 ![The Storming Robots Booth](/galleries/2006-03-06-report-from-nj-storming-robots/storming-booth.jpg)
 
@@ -20,7 +20,7 @@ Rebecca Explains Storming Robots
 
 The interest was high with many people, parents and teachers and children alike curious and asking questions. Elizabeth Maybrey, Director of Storming Robots, and Rebecca, the programme manager as well as Eric Sophie were speaking to many about the benefits of using Lego [Mindstorms](/wiki/mindstorms "A Robotic construction toy system from Lego") as a learning platform.
 
-Plenty of teachers and educators came to tell their own stories, and mentioned Lego Masters they have at schools. It may be worth point out here that Eric posts to [lugnet](Lugnet "Lego Users Group Network") with the moniker "LegoMaster".
+Plenty of teachers and educators came to tell their own stories, and mentioned Lego Masters they have at schools. It may be worth point out here that Eric posts to [lugnet](/wiki/lugnet "Lego Users Group Network") with the moniker "LegoMaster".
 
 One proud parent pipped up "My son is the king of Lego!". She was then directed to take a look at Jama moving, and came to the conclusion that maybe her son had a little way to go, and that his love of Lego would probably get him there. The enthusiasm expressed was clear, and like many others, she was raising the master builders and engineers of the future. Eric pointed out with a smile that he loved Lego when he was very young too.
 
@@ -29,7 +29,7 @@ One proud parent pipped up "My son is the king of Lego!". She was then directed 
 ![Elizabeth Presents Programming](/galleries/2006-03-06-report-from-nj-storming-robots/elizabethpresentsRobolab.jpg)
 Eizabeth Presents Programming With Robolab
 
-As expected, the upper half of Jama (Eric's star robot peice) was displayed for demonstration. Elizabeth focussed on programming the bot using [RoboLab](Robolab "Robolab"). Throughout the demonstrations, the group found a way to incorporate a touch sensor into Jama's arm, making programming more fun.
+As expected, the upper half of Jama (Eric's star robot peice) was displayed for demonstration. Elizabeth focussed on programming the bot using [RoboLab](/wiki/robolab "Robolab"). Throughout the demonstrations, the group found a way to incorporate a touch sensor into Jama's arm, making programming more fun.
 
 They programmed Jama's arm to move about, and this was a real crowd pleaser. The light sensor in Jama's chest was programmed to trigger behaviours in Jama's arm.
 
