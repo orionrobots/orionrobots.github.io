@@ -11,4 +11,4 @@ For a robot builder, this means being able to increase the storage on robots by 
 
 MRAM is not without its own problems. Being magnetically based (as are Hard Disks), it will probably be needed to be kept at some distance from any motors or magnetic sources in a robot.
 
-Its advantage over normal flash memory, including [NAND](NAND "Negated AND") based flash, is that it has a massive number of rewrites, comparable with a hard disk, and  not the much lower numbers of writes that is expected from a normal [flash memory](Flash+Memory "Flash Memory").
+Its advantage over normal flash memory, including [NAND](/wiki/nand "Negated AND") based flash, is that it has a massive number of rewrites, comparable with a hard disk, and  not the much lower numbers of writes that is expected from a normal [flash memory](/wiki/flash_memory "Flash Memory").

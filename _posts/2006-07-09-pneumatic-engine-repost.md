@@ -20,7 +20,9 @@ Sadly, it has long been disassembled for parts, however, the LDraw CAD file rema
 
 # Links
 
-* [LDraw CAD File for Pneumatic Engine](http://orionrobots.co.uk/tiki-download_file.php?fileId=5) - Download this for full building instructions. All unofficial LDraw files are now embedded in the file which is a multipart DAT.
+* [LDraw CAD File for Pneumatic Engine](/assets/downloads/PneumaticEngineLSynth.mpd) - Download this for full building instructions. All unofficial LDraw files are now embedded in the file which is a multipart DAT.
 * [Timothy Smith - Easter Spring Chicken MOCs](http://www.maj.com/cgi-bin/gallery.cgi?f=109611) - A rather cute pneumatic toy based upon a system not unlike this.
 * [LSynth](/wiki/lsynth "LSynth")
 * [pneumatic](/wiki/pneumatic.html "Use of air to operate and power actuators")
+
+<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=GB&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=orionrobots-21&marketplace=amazon&region=GB&placement=B004CELIDS&asins=B004CELIDS&linkId=d0683c77ce14bd0d46f8a5bc0868b390&show_border=true&link_opens_in_new_window=true"></iframe>

@@ -7,7 +7,7 @@ For those who don't read Make magazine, it is all about building stuff like robo
 
 Bre Pettis, one of the regular builders from the Make team, this week used a VEX kit to build a Kite Aerial Photography rig. Allowing him to fly the machine, and take snapshots from a height. This cool little rig took more than one attempt, with him using a pillar drill (or drill press) to drill aluminium parts to replace the VEX ones and lighten the overall device. The camera could be tilted up or down, and panned left or right.
 
-Bre did however get his fingers burned using the pillar drill, and made no mention of goggles, so please any one trying to do this at home, read <a href="http://orionrobots.co.uk/Robot+Building+Safety">Robot Building Safety</a> first.
+Bre did however get his fingers burned using the pillar drill, and made no mention of goggles, so please any one trying to do this at home, read [Robot Building Safety](/wiki/robot_building_safety) first.
 
 For more - have a look at the site, where they have video as well as some more background.
 
@@ -17,6 +17,14 @@ I suspect we may see similar things with the NXT, possibly using bluetooth with 
 
 # Links
 
-* <a href="http://www.makezine.com/blog/archive/2006/07/make_podcast_weekend_projects_2.html">Make Podcast: Weekend Projects Make a Kite Aerial Photography Rig</a>
-* <a href="http://orionrobots.co.uk/tiki-view_forum_thread.php?comments_parentId=169&amp;topics_threshold=0&amp;topics_offset=0&amp;topics_sort_mode=replies_desc&amp;topics_find=&amp;forumId=5">VEX robot from radio shack - Old Forum discussion on OrionRobots</a>
-* <a href="http://orionrobots.co.uk/tiki-view_forum_thread.php?comments_parentId=224&amp;topics_threshold=0&amp;topics_offset=14&amp;topics_sort_mode=replies_desc&amp;topics_find=&amp;forumId=5">VEX robotics questions - Forum discussion on OrionRobots</a>
+* <a href="https://makezine.com/2006/07/28/make-podcast-weekend-proj-2/">Make Podcast: Weekend Projects Make a Kite Aerial Photography Rig</a>
+* [VEX robot from radio shack](/forums/vex/vex_robot_from_radio_shack.html)
+* [VEX robotics questions](/forums/vex/vex_robotics_questions.html)
+
+<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=GB&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=orionrobots-21&marketplace=amazon&region=GB&placement=B00TV0S480&asins=B00TV0S480&linkId=760236406f4e6683d9425cafd72b085b&show_border=true&link_opens_in_new_window=true"></iframe>
+
+<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=GB&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=orionrobots-21&marketplace=amazon&region=GB&placement=B01G5RI0KS&asins=B01G5RI0KS&linkId=241ccdbe18987965b17f31e84e18284c&show_border=true&link_opens_in_new_window=true"></iframe>
+
+<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=GB&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=orionrobots-21&marketplace=amazon&region=GB&placement=B00TV0S0Q6&asins=B00TV0S0Q6&linkId=e962b8388f6f1b25a875740005a9c85b&show_border=true&link_opens_in_new_window=true"></iframe>
+
+<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=GB&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=orionrobots-21&marketplace=amazon&region=GB&placement=B01CP4JZ8G&asins=B01CP4JZ8G&linkId=91044a7a1a0173454b20315ed56d5df7&show_border=true&link_opens_in_new_window=true"></iframe>
