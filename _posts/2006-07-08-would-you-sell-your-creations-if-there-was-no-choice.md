@@ -7,7 +7,7 @@ A recent story in the news talked of a homeless Chinese farmer, Wu Yulu, who cre
 
 ![](/galleries/2006-07-08-would-you-sell-your-creations-if-there-was-no-choice/wuyulurobot.jpg)
 
-The 25 machines had been built in a way that OrionRobots truly admires, from pure <a href="http://orionrobots.co.uk/Salvage+Tips" title="Tips on pulling stuff apart to build robots. How, where and what.">salvage, junk and scrap</a> . Bits of wire, screws, bent pieces of metal, and other rubbish found at dumps was his main material. Even the batteries were old ones.
+The 25 machines had been built in a way that OrionRobots truly admires, from pure [salvage, junk and scrap](/wiki/salvage_tips "Tips on pulling stuff apart to build robots. How, where and what."). Bits of wire, screws, bent pieces of metal, and other rubbish found at dumps was his main material. Even the batteries were old ones.
 
 Imagine what this man would have done with some recent controllers!
 
@@ -33,6 +33,5 @@ Wu Yulu is a 44 year old man from Mawu Village in Eastern Beijing. He left schoo
 
 * [Salvage Tips](Salvage+Tips "Tips on pulling stuff apart to build robots. How, where and what.") - OrionRobots Tips on building your own robots from salvaged materials.
 * [One India News - Homeless farmer forced to sell home-made robots](http://news.oneindia.in/2006/07/07/homeless-china-farmer-forced-to-sell-home-made-robots-1152252384.html)
-* [Brandon E Taylors Weblog - Wu Yulu’s Robots](https://blogs.oracle.com/brandontaylor/entry/wu_yulu_s_robots)
 * [Sky News: Mr Wu’s Robot Revolution](http://news.sky.com/story/310483/chinese-farmers-robot-revolution)
 * [We Make Money Not Art - Meet Mr Wu’s Wonderful Robots](http://we-make-money-not-art.com/archives/2004/11/meet-mr-wus-won.php#.VDWXevldWSo)

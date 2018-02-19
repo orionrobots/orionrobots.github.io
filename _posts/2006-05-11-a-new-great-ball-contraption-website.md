@@ -9,7 +9,7 @@ Along with much of the Lego Robotics community, I've taken note of the crazy eff
 
 <iframe width="560" height="315" src="//www.youtube.com/embed/rWd3vgLaA_M?rel=0" frameborder="0" allowfullscreen="true"> </iframe>
 
-People build all kinds of mad themed modules, modules with stairs to lift up balls, modules with conveyors, modules with robot arms and even modules with Lego trains. These often incorporate various robotic elements, including the RCX, [Manas](/Lego+Manas) as well as Lego trains. New ones will probably include the NXT too.
+People build all kinds of mad themed modules, modules with stairs to lift up balls, modules with conveyors, modules with robot arms and even modules with Lego trains. These often incorporate various robotic elements, including the RCX, [Manas](/wiki/lego_manas) as well as Lego trains. New ones will probably include the NXT too.
 
 As all modules are standard, they can be linked into a big chain, and because of the simplicity of the design, using any module as a corner module, it can be designed to turn the orientation of the ball travel direction. This means a continuous loop can be set up, which, after accounting for battery times, could just carry on moving balls (as long as modules were not dropping to many).
 
@@ -23,7 +23,7 @@ It has an accessible coverage of the GBC standard, so you can get right in, look
 
 Forums are planned on the site, but as it is still under construction they are not up yet, so I would still recommend using Lugnet Robotics for dicussing it until then.
 
-At <http://www.greatballcontraption.com/events.html> there is a selection of GBC events. It has coverage of previous events, but might be handy to have a list of upcoming events, and an event registration form so other GBC events can be announced there.
+There is a selection of [GBC events](http://www.greatballcontraption.com/wiki/Main_Page#Upcoming_GBC_Events). It has coverage of previous events, but might be handy to have a list of upcoming events, and an event registration form so other GBC events can be announced there.
 
 Overall, its a well presented site, and it is growing. It is about time there was a dedicated site to feed its obsession as opposed to it merely being an interesting niche corner in Lego robotics.
 
@@ -31,4 +31,4 @@ Overall, its a well presented site, and it is growing. It is about time there wa
 
 * <http://www.greatballcontraption.com> - All about the GBC
 * <http://news.lugnet.com/robotics> - Lugnet discussion group where GBC is currently discussed
-* <http://www.greatballcontraption.com/events.html> - GBC Event Registration
+

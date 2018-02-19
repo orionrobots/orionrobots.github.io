@@ -13,10 +13,9 @@ At present it looks like RadioShack is still selling off vex kits at half price 
 
 Norman continued with "We'll also be stepping up efforts to drive innovation into the product assortment and will offer even more unique parts through the <http://www.vexlabs.com> website." - which may mean that the already wide range will be extended further giving a very real competitor to the Lego NXT platform due out at the end of this summer and already being used now by Beta testers.
 
-The Vex, along with Lego has been used for some time by the [FIRST](/FIRST "For Inspiration and Recognition of Science and Technology") (For Inspiration and Recognition of Science and Technology) group for their robotics challenges.
+The Vex, along with Lego has been used for some time by the [FIRST](/wiki/first "For Inspiration and Recognition of Science and Technology") (For Inspiration and Recognition of Science and Technology) group for their robotics challenges.
 
 # Links
+
 * <http://www.vexforum.com/> - Vex Discussion Forums
-* <http://www.vexlabs.com/docs/vex_release_4-17-06.pdf> - The press release
-* <http://www.usfirst.org/vex/> - The First Robotics page on the Vex
 * <http://www.vexrobotics.com/>

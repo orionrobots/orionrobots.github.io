@@ -9,7 +9,7 @@ This year, we can expect to see the NXT in action alongside the RCX - which will
 
 Among the lineup are <a href="http://www.freelug.org/">FreeLUG</a> and <a href="http://www.teamhassenplug.org/">Team Hassenplug</a> with many more to announce their attendance. There will be up to 16 teams, each with around 3 to 6 members. Part of the itinerary includes touring the Lego factory, and taking on the challenge to become a world Mindstorms champion.
 
-Potential participants and attendees should make contact with Steve Witt using <a class="convert-mailto" data-encode-domain="lego.com" data-encode-name="steve" href="mailto:nospam@example.com">steve at lego.com</a> . You should hurry, as there are limited slots available.
+Potential participants and attendees should make contact with Steve Witt. You should hurry, as there are limited slots available.
 
 We can expect more detailed info to be disclosed in August during the run up to this event.
 

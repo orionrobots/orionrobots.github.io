@@ -13,7 +13,7 @@ I will certainly be reading it, and of very great interest is the most recent an
 
 The author, Jim K, of Atlanta, has been accepted into the [The Mindstorms Developer Panel](/wiki/mdp). So we may expect to hear much more interesting info from him. There are already a number of tasty tidbits about the system there.
 
-Coupled with <a href="http://legoeducation.typepad.com/">http://legoeducation.typepad.com/</a>, which is an official [Lego](/wiki/lego "The best known construction toy") blog which I have referred to before, and <a href="http://news.lugnet.com/robotics">Lugnet Robotics</a> , there is a growing surge of information, and very likely a coming surge of interest in robotics at its release as was evident with the original [RCX](/wiki/rcx "The Lego Robot Command Explorer").
+Coupled with the official [Lego](/wiki/lego "The best known construction toy") education blog (defunct in 2018) which I have referred to before, and <a href="http://news.lugnet.com/robotics">Lugnet Robotics</a>, there is a growing surge of information, and very likely a coming surge of interest in robotics at its release as was evident with the original [RCX](/wiki/rcx "The Lego Robot Command Explorer").
 
 Stayed tuned - its all about to get very much more interesting.
 
