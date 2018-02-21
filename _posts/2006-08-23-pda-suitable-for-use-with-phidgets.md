@@ -4,7 +4,7 @@ tags: [technology, gp2x, linux, opensource, handheld, pda, robots, NXT]
 title: PDA Suitable for use with Phidgets
 layout: post
 ---
-![](/galleries/gallery-6-orions-images/extract_images/387-gp2xbob.jpg)
+![](/galleries/gallery-6-orions-images/387-gp2xbob.jpg)
 For robot builders considering the Phidgets USB based systems, one of the big issues has always been the need for having a PC on board the robot,with USB ports. A laptop may be considered, but still might be too heavy, and not quite interfaceable enough.
 
 Now the GP2X from GamePark holdings has for some time had a compatible breakout board, which allows the Linux based device to become a USB host, that is, a machine which can have USB devices attached to it as opposed to most PDA's which may only attach as devices to a host PC. The GP2X has 4 USB ports when the breakout board is connected.
