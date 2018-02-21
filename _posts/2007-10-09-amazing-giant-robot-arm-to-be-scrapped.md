@@ -17,7 +17,5 @@ What is a real shame is that it is too large, and too expensive to try to move t
 
 * [Wired - Car-Crushing Robot Hand Could End Up Back in Scrap Heap](http://www.wired.com/culture/art/news/2007/10/robothand)
 * [Christian Ristow](http://christianristow.com/)
-* <a href="http://www.robodock.org/2007/">Robodock 2007</a>
 * <a href="http://www.youtube.com/Robodock">YouTube - Videos from Robodock</a>
 * <a href="http://blog.wired.com/gadgets/2007/10/wired-inspects-.html">WIRED Inspects Car-Crushing Robot Fist</a>
- 

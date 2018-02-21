@@ -16,6 +16,7 @@ While this has come a little late for the actual rescue needed, the companies ex
 The company building the robot, Inuktun are based in Nanaimo. The company specialise in remote control robots used for tunnel and pipe inspection. They were also involved in robots used for search and rescue operations in the aftermath of September the 11th 2001.
 
 # Links
-* <a href="http://www.nanaimobulletin.com/portals-code/list.cgi?paper=51&amp;cat=23&amp;id=1051612&amp;more=0" >Nanaimo News Bulletin - Robots used to find miners</a>
-* <a href="http://www.canada.com/victoriatimescolonist/news/story.html?id=1b8b10d7-bd43-4413-9a9f-17363965862c&amp;k=51096" >Times Colonist (Victoria) - Island robotic firm to help in Utah search</a>
+
+* [Robot-Assisted Rescuers Seek Answers in Wake of Utah Mine Collapse](https://www.scientificamerican.com/article/robot-assisted-rescuers-s/)
+* [Video of Rescue Robot at Crandall Canyon Utah Mine](https://www.youtube.com/watch?v=yiAi3mO4EhI)
 * <a href="http://www.inuktun.com" >Inuktun Site</a>
