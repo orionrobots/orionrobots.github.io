@@ -1,7 +1,7 @@
 ---
 created: 2008-03-09 08:04:00
 description: Get Your Hands On a Vexplorer kit with Robot Design and Building Contest!
-tags: [robot, robots, vex, vexplorer, robot kit, contest, competition, challenge, mythbusters, robot building]
+tags: [robot, robots, vex, robot kit, contest, competition, robot building]
 title: Get Your Hands On a Vexplorer kit with Robot Design and Building Contest!
 layout: post
 ---
@@ -17,7 +17,4 @@ The competition is put together by a group including Innovation First, Inc., Rev
 
 I personally would have entered just to get my hands on the free VEXplorer kit. The contest is sadly only open to US residents who are 14 or older. Those under 14 may be able to get a parent to represent them.
 
-# Links
-
-* [Robot Magazine: VEXplorer Contest](http://www.botmag.com/articles/contest.shtml)
-* [The VEXplorer kit](http://www.botmag.com/vexplorer/vexplorer_full.shtml)
+(2018 - no working links remain for this competition)

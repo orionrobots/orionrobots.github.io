@@ -1,12 +1,12 @@
 ---
 created: 2007-11-30 17:01:39
 description: Walking Bots and Investment in power
-tags: [mecha, walker, landwalker, tank, robot, google, power, renewable, solar, coal,
-  energy, environmental]
+tags: [mecha, walker, robot, power, renewable, solar, energy]
 title: Walking Bots and Investment in power
 layout: post
 ---
 # The Landwalker
+
  First, I wanted to mention the Landwalker, a mecha that I may have covered before, but popped up again on youtube. It is not a robot (despite people saying so) as it is totally human driven, but it is still very fun to watch.
 
 The Landwalker is at present totally impractical, teetering ominously at every step, sounding like a tornado in a junkyard, moving very slowly, and with feet that shuffle more than walk. It is unable to overcome any real obstacles. Yet despite all of this, it does represent a potential for real walking machines.
@@ -14,11 +14,12 @@ The Landwalker is at present totally impractical, teetering ominously at every s
 I have not explored the implications of this and I am not that interested in real war machines, but I do know that it will face many challenges before it could ever be used in such an application.
 
 ## Links
+
 * <a href="http://youtube.com/watch?v=oVwbUljGs3g">YouTube - LAND WALKER -Japanese Robot suit</a>
-* [Mecha](Mecha "Large Robotic Suits")
+* [Mecha](/wiki/mecha "Large Robotic Suits")
 * <a href="http://en.wikipedia.org/wiki/Mecha#Mechas_in_real_life" >Wikipedia - Mechas in real life</a>
 
-## Google Power
+# Google Power
 
 Google have announced that they will be investigating renewable power and try to find a source that would be as cheap as (if not cheaper than) coal. This is a fantastic idea to have a company as determined and innovative as Google put time and financial resources into this, and even if it takes a while, the advances that come from the programme will be very beneficial.
 
