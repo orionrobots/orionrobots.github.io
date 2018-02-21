@@ -11,7 +11,7 @@ todo_improve: dewikify.
 
 # Starting Up
 
-Now I had the [NXT](/NXT) software installed, it was time to fire it up. I was expecting an all singing, all dancing presentation as was the case with the [RCX](/RCX) [RIS](/RIS) and Mars Mission software, but those kind of intro movies seem to have withered away. They did add an element of excitement to Lego toys though. This instead fires up a rather good looking interface, which has a rounded, flattened and simplistic style reminiscent of LCARS (the Star Trek UI).
+Now I had the [NXT](/wiki/nxt) software installed, it was time to fire it up. I was expecting an all singing, all dancing presentation as was the case with the [RCX](/wiki/rcx) [Robot Invention System](/wiki/ris) and Mars Mission software, but those kind of intro movies seem to have withered away. They did add an element of excitement to Lego toys though. This instead fires up a rather good looking interface, which has a rounded, flattened and simplistic style reminiscent of LCARS (the Star Trek UI).
 
 Time to click the "Getting started" button. The software rapidly runs through a little presentation demo, and tells me I can now connect my NXT to download a program. I plug it in, turn it on connected and Windows detects it. I then click the next button on the presentation, already a step ahead - as usual, jumping the gun. It then tells me to plug in the cable, already ahead.
 
@@ -21,15 +21,15 @@ Okay...So I go back, and actually try it out as the presentation suggests with t
 
 <div style="; float:left;margin:1em;margin-left:0; width:320px;">
   <div class="cbox-data">
-   <img src="/image412"/>
+   <img src="/galleries/gallery-20-lego-nxt/412-teaandrobots.JPG"/>
    Tea &amp; Robots
   </div>
  </div>
 I start programming with a drag and drop, push the download button, press the orange button on the NXT four times, and I hear the sound "Good Job".
 
-I will have to play with the NXT-G drag and drop interface for a while, and see what it is really capable of, but I will probably be throwing a C compiler or [Lejos](/Lejos) on it so I can port old familiar algorithms to the NXT.
+I will have to play with the NXT-G drag and drop interface for a while, and see what it is really capable of, but I will probably be throwing a C compiler or [Lejos](/wiki/lejos) on it so I can port old familiar algorithms to the NXT.
 
-Time to go start on the robo centre. I click on the Tribot and click through, noting that the paper instructions are shown in a small window pane on the screen. The pane is not expandable via dragging, but there is a zoom button. I am glad there were paper instructions - it is not that easy to see on my small laptop screen, and I can move much faster with the paper ones. I Note that there is an artifact at the end of the digital instructions that you will need to test with - which is available on the paper ones on page 60 of the User Guide.
+Time to go start on the robo centre. I click on the Tribot and click through, noting that the paper instructions are shown in a small window pane on the screen. The pane is not expandable via dragging, but there is a zoom button. I am glad there were paper instructions - it is not that easy to see on my small laptop screen, and I can move much faster with the paper ones. I Note that there is an artefact at the end of the digital instructions that you will need to test with - which is available on the paper ones on page 60 of the User Guide.
 
 I built the ball holder, needed for trying out the next few things, it is on page 60 of the User Guide, or at the end of the digital tribot instructions.
 
@@ -39,13 +39,13 @@ I built the ball holder, needed for trying out the next few things, it is on pag
    New Parts
   </div>
   <div class="cbox-data">
-   <img height="126" src="/image411" width="150"/>
-   When building this I noticed this new piece, a rubber part with two axle holes, the [45590 - Technic Axle Joiner Double Flexible](http://www.peeron.com/inv/parts/45590) according to [Peeron](/Peeron). This may be handy if motor vibrations interfere with the Ultrasonic sensor.
+   <img height="126" src="/galleries/gallery-20-lego-nxt/411-lego45590.JPG" width="150"/>
+   When building this I noticed this new piece, a rubber part with two axle holes, the [45590 - Technic Axle Joiner Double Flexible](http://www.peeron.com/inv/parts/45590) according to [Peeron](/wikipPeeron). This may be handy if motor vibrations interfere with the Ultrasonic sensor.
   </div>
  </div>
 
 Time to create the first program, okay not quite the first, but I am not sure I count the "Well Done" demo. This basically went forward and back. After downloading it - the robot seems to veer immediately to its left. I remove my added Ultrasonic sensor (
- [Last blog post](/2007/01/10/orionrobots-gets-our-first-nxt.html)
+ [Last blog post]({% post_url 2007-01-10-orionrobots-gets-our-first-nxt %})
  - I jumped the gun again), tried again in case that was the cause. It is returning to the same spot, but at a different angle.
 
 I try it on 5 seconds off the pad- and the veer does not seem to be an issue. I weight down the pad - and it returns fine - it seems that on the laminate floor, the pad is kicked away at an angle as the robot sets off. My advice is to weigh it down with something so it doesn't slip around.
@@ -54,7 +54,7 @@ Okay- 2.3 seconds forward and back isn't that exciting... It is also this point 
 
 # Adding a touch sensor
 
-<img src="/image410" style=" float: left;" />
+<img src="/galleries/gallery-20-lego-nxt/410-botwithtouchsensor.JPG" style=" float: left;" />
 The next build is a touch sensor for the bot. One other thing I have noticed with this set, is that the axles seem to put up much more resistance than they do in my older sets.
 
 The routing instructions in step 6 of the Tribot Touch sensor are a bit useless both on screen and on paper (step 23, page 53) - note that it actually intersects geometry at the front of the diagram. I had a bit of fun there trying to find a place that would not stress the unbooted RJ connectors, and also not crimp the cables or stress liftarms by placing them under things. These larger leads are a bit awkward.
@@ -65,9 +65,9 @@ Time for the grabber - when things start getting interesting...
 
 # Links
 
-* [OrionRobots gets our first NXT](/2007/01/10/orionrobots-gets-our-first-nxt.html)
-* [Lego](/Lego "The best known construction toy")
+* [OrionRobots gets our first NXT]({% post_url 2007-01-10-orionrobots-gets-our-first-nxt %})
+* [Lego](/wiki/lego "The best known construction toy")
 * [Mindstorms](/wiki/mindstorms "A Robotic construction toy system from Lego")
-* [NXT](/NXT "Legos NeXT generation robotics kit")
+* [NXT](/wiki/nxt "Legos NeXT generation robotics kit")
 * [http://mindstorms.lego.com](http://mindstorms.lego.com)
 * [Timephiz - Mindstorms NXT Test Run](http://timephiz.blogspot.com/2006/11/mindstorms-nxt-test-run.html) - A blog from a teacher going through a similar experience as I.
