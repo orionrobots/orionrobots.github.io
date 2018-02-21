@@ -1,7 +1,7 @@
 ---
 created: 2008-10-26 13:19:44
 description: Halloween Animatronics
-tags: [electronics, halloween, diy, instructables, animatronics]
+tags: [electronics, diy, instructables, animatronics]
 title: Halloween Animatronics
 layout: post
 ---
@@ -27,7 +27,7 @@ This animatronic reaper is simply an oscillating fan, with a mask, sickle and ca
 
 Finally, another builder submitted how to do a skull with moving eyes and mouth, and a talking pumpkin using servos, and a controller. This includes some really fiddly connections, but they are shown up close and in enough detail to have a go. It also shows the software and techniques used to bring the gear to life.
 
-[Halloween Animatronics](http://www.instructables.com/id/SWUDN25F8JUPTP1/)
+[Halloween Animatronics](http://www.instructables.com/howto/Halloween+Animatronics/)
 
 # More
 
