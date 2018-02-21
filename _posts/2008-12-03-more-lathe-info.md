@@ -1,7 +1,7 @@
 ---
 created: 2008-12-03 04:35:00
 description: More Lathe Info
-tags: [lego, robotics]
+tags: [lego, robotics, cnc]
 title: More Lathe Info
 layout: post
 ---
@@ -13,4 +13,4 @@ The difficult part turned out to be the rotating stage. This is difficult becaus
 
 My initial starts on this were overcomplicated and over engineered. I was trying to make both ends powered, which I then found out is rarely, if ever, the case in other lathes. So I simplified that, and made the adjustable end simply free spinning, using some heavy wheels to conserve its momentum.
 
-I am yet to build a chuck, and my crude version (turning polystyrene parts) simply uses three axles as prongs to pierce the job from two sides rather like forks and turn it that way. It is not a very successful strategy, and I may yet have to build a real chuck, somehow with [Lego](Lego "The best known construction toy").
+I am yet to build a chuck, and my crude version (turning polystyrene parts) simply uses three axles as prongs to pierce the job from two sides rather like forks and turn it that way. It is not a very successful strategy, and I may yet have to build a real chuck, somehow with [Lego](/wiki/lego "The best known construction toy").
