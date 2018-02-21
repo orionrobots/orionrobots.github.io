@@ -13,6 +13,6 @@ To achieve this, the created a circuit board in a six-pointed star shape, and th
 
 Currently the control is remote, and still involves a computer to interpret, and relay the moulds movements to the legs. However, Zauners team are working on incorporating it into one box. The hexapod would then become an extension to the mould, taking in its photophobic behaviour.
 
-Zauner mentions, in an article on New Scientist, that his team are looking for nanoscale applications, and are looking to biology to provide the simplicity, that others, such as [Mark Tilden](/wiki/mark_tilden "Mark Tilden") are using [BEAM](/wiki/beam "Biology, Electronics, Aesthetics and Mechanics") technology to achieve.
+Zauner mentions, in an article on New Scientist, that his team are looking for nanoscale applications, and are looking to biology to provide the simplicity, that others, such as [Mark Tilden](/wiki/mark_tilden "Mark Tilden") are using [BEAM](/wiki/beam_robots "Biology, Electronics, Aesthetics and Mechanics") technology to achieve.
 
 [New Scientist - Robot moved by a slime mould's fears](http://www.newscientist.com/channel/mech-tech/dn8718)

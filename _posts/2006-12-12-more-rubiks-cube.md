@@ -7,28 +7,28 @@ layout: post
 ---
 I have stumbled upon more rubiks cube solving robot footage on YouTube, and thought it work sharing.
 
-In fact, JP Brown's [Lego](Lego "The best known construction toy") cube solver may actually aid me with inspiration for the chuck mechanism for my lathe.
+In fact, JP Brown's [Lego](/wiki/lego "The best known construction toy") cube solver may actually aid me with inspiration for the chuck mechanism for my lathe.
 
-First this video: <a href="http://youtube.com/watch?v=6rLruH5pCRk">Cable In The Classroom - the Screen Savers</a> with footage of JP Browns cubesolver at work.
+First this video: <a href="https://youtube.com/watch?v=6rLruH5pCRk">Cable In The Classroom - the Screen Savers</a> with footage of JP Browns cubesolver at work.
 
-Second, another solver, this time in [Fischertechnik](FischerTechnik "FischerTechnik") - <a href="http://youtube.com/watch?v=-mZ0CXcTozY" >  FischerTechnik Cube Solver </a> . It is much slower than the other attempts seen, although it is also pretty different in the way that the outer limbs "jostle" the cube into position, the top limb clamps down, and then the turntable underneath rotates, holding the cube in a square depression. It is definitely worth seeing.
+Second, another solver, this time in [Fischertechnik](/wiki/fischertechnik "FischerTechnik") - <a href="https://youtube.com/watch?v=-mZ0CXcTozY" >  FischerTechnik Cube Solver </a> . It is much slower than the other attempts seen, although it is also pretty different in the way that the outer limbs "jostle" the cube into position, the top limb clamps down, and then the turntable underneath rotates, holding the cube in a square depression. It is definitely worth seeing.
 
  <h1 id="Links">
 Links
  </h1>
  <ul>
 <li>
- <a href="http://jpbrown.i8.com/cubesolver.html" >
+ <a href="https://www.youtube.com/watch?v=c1h0KrS63rM" >
   JP Browns Cubesolver
    </a>
   </li>
   <li>
-   <a href="http://youtube.com/watch?v=6rLruH5pCRk" >
+   <a href="https://youtube.com/watch?v=6rLruH5pCRk" >
     Cable In The Classroom - the Screen Savers
    </a>
   </li>
   <li>
-   <a href="http://youtube.com/watch?v=-mZ0CXcTozY" >
+   <a href="https://youtube.com/watch?v=-mZ0CXcTozY" >
     FischerTechnik Cube Solver
    </a>
   </li>

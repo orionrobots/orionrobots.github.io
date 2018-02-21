@@ -11,7 +11,7 @@ What's more, they are open source, and hosted with the Bricxcc suite of tools.
 
 Among them are tools to convert a midi file to an NXT melody file with the .rmd extension, which can be renamed to rso files to be played back on the NXT. This, alongside a tool to convert wav files to rso files, and a tool to play back the rmd files makes for a good sound suite.
 
-These utilities add to an already neat set of [OSS](/wiki/opensource "Open Source Software") tools, like BrickTool - which can deal with both the [RCX](/wiki/rcx "The Lego Robot Command Explorer") and NXT, NeXTTool which is a suite designed for communicating with the NXT via Fantom and of course the Bricxcc Lego developer [IDE](/wiki/idetool "Integrated Development Environment") itself.
+These utilities add to an already neat set of [OSS](/wiki/open_source "Open Source Software") tools, like BrickTool - which can deal with both the [RCX](/wiki/rcx "The Lego Robot Command Explorer") and NXT, NeXTTool which is a suite designed for communicating with the NXT via Fantom and of course the Bricxcc Lego developer [IDE](/wiki/idetool "Integrated Development Environment") itself.
 
 # Links
 

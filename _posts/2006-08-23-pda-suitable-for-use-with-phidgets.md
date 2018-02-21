@@ -34,7 +34,7 @@ I will certainly be buying both systems, the gp2x at £124.99 and the breakout b
 ## Background Info
 
 * [USB](/wiki/usb "Universal Serial Bus")
-* [PDA's](/wiki/pda "Personal Data Assistant")
+* [PDA's](/wiki/personal_data_assistant "Personal Data Assistant")
 * [RS232](/wiki/rs232 "A serial communication standard")
 * [serial](/wiki/serial_data_stream "Serial Data Stream")
 * [BlueTooth](/wiki/bluetooth "Bluetooth")
