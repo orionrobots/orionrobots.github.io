@@ -77,3 +77,54 @@ The language draws highly from C, although some concepts, like the way tasks are
 NQC is a command line compiler, and not a development environment, so I suggest using it with a text editor – for example Gedit on Linux, Notepad++ on Windows or Textmate on the Mac. The NQC website has the details for installing it on windows, although it is a bit more involved on the Mac and Linux. NQC does not require the original RCX software to be installed to run.
 
 Some other advanced systems for programming Lego P-Bricks are LegOS and BrickOS. NQC is the easiest, but the others are also worth a look.
+
+### NQC Links
+
+I used the NQC language on the RCX enough to collect a few good links.
+
+* [NQC - Not Quite C website](http://bricxcc.sourceforge.net/nqc/) - The home of the NQC programming language for the RCX and is maintained by its author. This contains all the downloads and the documentation to use the software.
+* [Lego MindStorms: Programming with NQC - O'Reilly Media](http://www.oreillynet.com/pub/a/network/2000/02/25/mindstorms/NQC.html) -  This is a superb illustrated guide to getting started using NQC to program your Mindstorms RCX.
+* [Advanced Programming With NQC](http://www.eng.iastate.edu/twt/Courses/Undergrad/packet/appendix/advanced.htm) - course notes from a university module covering robots, where NQC has been used by the students to program their RCX's. It explains each of the elements of the NQC language.
+* [Lego Robot Pages - NQC Tutorials](http://people.cs.uu.nl/markov/lego/) - a set of NQC tutorials translated into many human languages.
+
+### Even more NQC info
+
+NQC is a deep a powerful tool for the RCX. While a subset of the C language, it has enough to accomplish fairly complicated tasks with the robot kit. However, getting the best of it requires either great experience, or having a good book to use as a guide, a tutorial or just a reference to keep handy.
+
+Little beats being able to go step by step through a book, or rifle through to find exactly what you needed to solve a problem.
+
+<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=GB&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=orionrobots-21&marketplace=amazon&region=GB&placement=159749089X&asins=159749089X&linkId=2f96480b45a8b0c87b5bdaf794f1177f&show_border=true&link_opens_in_new_window=true"></iframe>
+
+## LeJOS - A Java based Lego RCX System
+
+LeJOS is available on both the RCX and NXT, with some differences in capability.
+LeJOS is a TinyVM based Java programming language and API for the RCX. It is well documented, and has been used a great deal.
+
+Here is an example of some simple LeJOS code:
+
+    import josx.platform.rcx.Motor;
+    import java.lang.Thread;
+
+    public class SimpleBot {
+        public static void main() {
+            Motor.A.setPower(3);
+            Motor.A.forward();
+            Thread.sleep(1000);
+            Motor.A.stop();
+        }
+    }
+
+This would cause motor A to start at power 3, go forward for 1 second, then stop.
+
+I would recommend you start with [The LeJOS Tutorial](http://lejos.sourceforge.net/tutorial/index.html#basic_trails). For those who already know Java, follow the start of the tutorial to get it installed and uploading to your RCX, then skip to the API documentation.
+
+## Low friction RCX rotation sensor
+
+### A simple way to build an additional RCX sensor from existing kit parts.
+
+The RCX has an optional rotation sensor that could be bought for it, but they are now fairly difficult to get hold of. They also used a brushed contact based system for sensing, so could be prone to wear and introduce friction into your drive chain. On the positive side, the RCX could have its sensor ports set into a mode that would automatically count the revolutions based on the sensors encoding.
+
+I investigated ways to make a friction free sensor, and while it requires a little more programming than using the rotation sensor, it also has the benefit of being able to be constructed from parts shipped with the Robotic Invention System (the basic RCX kit).
+
+The animation below shows the basic construction, which can be altered to suit your model, but the important thing is that the light sensor is close to a pulley wheel, with light and dark round studs pressed into it to give a readable pattern to show rotation.
+
