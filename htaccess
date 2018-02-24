@@ -254,9 +254,3 @@ RewriteCond %{DOCUMENT_ROOT}/%{REQUEST_URI}.html -f
 RewriteRule ^/?(.+[^/])/?$ /$1.html [R,L]
 ## Direct to it and stop processing
 </IfModule>
-
-# Start CloudFlare:orionrobots.co.uk rewrite. Do not Edit 
-RewriteEngine On 
-RewriteCond %{HTTP_HOST} ^orionrobots.co.uk 
-RewriteRule ^(.*)$ http://www.%{HTTP_HOST}/$1 [R=301,L] 
-# End CloudFlare rewrite.
