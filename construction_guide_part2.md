@@ -104,4 +104,4 @@ The robot should start to move!
 
 ## It moves! Where to go from here...
 The robot is now ready for you to start playing with the program, or adding sensors.
-The <a href="http://orionrobots.co.uk/Getting_Started">Getting Started</a> section has more.
+The <a href="/getting_started">Getting Started</a> section has more.
