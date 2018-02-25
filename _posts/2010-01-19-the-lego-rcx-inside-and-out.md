@@ -1,7 +1,7 @@
 ---
 created: 2010-01-19 06:44:06
 description: The Lego RCX, Inside and Out
-tags: [robots, robotics, lego, rcx, mindstorms, microcontroller, ris, ir, technic]
+tags: [robots, robotics, lego, rcx, mindstorms, microcontroller, ir, technic]
 title: The Lego RCX, Inside and Out
 layout: post
 ---
@@ -11,7 +11,7 @@ This contains info on programming an RCX, buying a Mindstorms Kit, adding your o
 
 # Collected Details For Using The Lego RCX
 
-<img src="/galleries/2010-01-19-the-lego-rcx-inside-and-out/lens8960751_1328563452-Lego-RCX-In-Use.jpg" class="pull-left lens_intro_img" alt="">
+<img src="/galleries/2010-01-19-the-lego-rcx-inside-and-out/lens8960751_1328563452-Lego-RCX-In-Use.jpg" class="pl-spacing" alt="">
 
 The Lego RCX is a superb microcontroller, genre defining- and this is all about the amazing things you can do with the device and building awesome stuff (like robots!) with Lego. Find out here to get up close and inside the RCX.
 
@@ -26,7 +26,7 @@ Although it is dated, succeeded by the NXT, it can be remembered as one of the g
 
 ## Lego RCX Basic Details
 
-<img class="text_img_right" src="/galleries/2010-01-19-the-lego-rcx-inside-and-out/draft_lens8960751module78783391photo_1328563575-building-robot-with-lego.jpg" alt="" title="">
+<img class="pl-spacing" src="/galleries/2010-01-19-the-lego-rcx-inside-and-out/draft_lens8960751module78783391photo_1328563575-building-robot-with-lego.jpg" alt="" title="">
 The RCX (Robot Command eXplorer) is a Lego computer, capable of controlling 3 Motors, or more with some tricks, and respond to inputs from a 3 or more sensors.
 
 The version 1.0 RCX has Lego part number 884u and houses a Hitachi H8 microcontroller.
@@ -205,7 +205,7 @@ Some children are into robot stuff, some all things mechanical, some anything th
 
 ## Opening An RCX
 
-![The RCX mainboard and components](galleries/gallery-1-common-images/123-rcx-mainboard-with-pointers.gif)
+![The RCX mainboard and components](/galleries/gallery-1-common-images/123-rcx-mainboard-with-pointers.gif)
 
 If you are very technically minded, as I am, you may be the sort that would like to open an RCX, just see what is inside it. I have provided plenty of information to help you get a lot from it without needing to, but sometimes if you have that itch, you just have to try it.
 
@@ -226,14 +226,21 @@ That said, you may wish to wear an anti static band to reduce your the low chanc
 
 These items will help you to open up and look inside an RCX. Make sure you don't skimp on the tools, or the safety gear.
 
-* A flat-head jewellers screwdriver.
-
-<!-- Stanley 66-039 6-Piece Jewelers Precision Screwdriver Set | There are some very fiddly screws when opening devices like this, once you've levered off the case. These Jewellers sets are just the trick to do so. -->
-<!-- Neiko 53874A ANSI Z87.1 Anti-Fog Approved Extra-Soft Lab Safety Goggles | As you pull things like this apart, tiny plastic bits can sometimes ping off, and if you are unlucky, you may get one in the eye - ouch! A reasonable pair of goggles is highly recommended when getting into the innards of any gadgets- because for the extra time, money and inconvenience, none of them trump the value of your eyes. -->
-<!--
-SE FL347 Super Bright 14 LED FlexNeck Table and Reading Lamp
+<table class="prodtable">
+<tr><td><a target="_blank"  href="https://www.amazon.co.uk/gp/product/B002V4ULHU/ref=as_li_tl?ie=UTF8&camp=1634&creative=6738&creativeASIN=B002V4ULHU&linkCode=as2&tag=orionrobots-21&linkId=a0e6b9f5a63d4cd7359653d5f44159a4"><img border="0" src="//ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=GB&ASIN=B002V4ULHU&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL250_&tag=orionrobots-21" ></a><img src="//ir-uk.amazon-adsystem.com/e/ir?t=orionrobots-21&l=am2&o=2&a=B002V4ULHU" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /></td><td><h3> A flat-head jewellers screwdriver. </h3>
+here are some very fiddly screws when opening devices like this, once you've levered off the case. These Jewellers sets are just the trick to do so.
+</td></tr>
+<tr><td><a target="_blank"  href="https://www.amazon.co.uk/gp/product/B006RAW942/ref=as_li_tl?ie=UTF8&camp=1634&creative=6738&creativeASIN=B006RAW942&linkCode=as2&tag=orionrobots-21&linkId=3aa2eba96d9dfeb27421db256278f7a9"><img border="0" src="//ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=GB&ASIN=B006RAW942&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL250_&tag=orionrobots-21" ></a><img src="//ir-uk.amazon-adsystem.com/e/ir?t=orionrobots-21&l=am2&o=2&a=B006RAW942" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /></td><td><h3>Safety Goggles</h3>
+As you pull things like this apart, tiny plastic bits can sometimes ping off, and if you are unlucky, you may get one in the eye - ouch! A reasonable pair of goggles is highly recommended when getting into the innards of any gadgets- because for the extra time, money and inconvenience, none of them outweigh the value of your eyes.
+</td></tr>
+<tr><td><a target="_blank"  href="https://www.amazon.co.uk/gp/product/B00Y7PB1NY/ref=as_li_tl?ie=UTF8&camp=1634&creative=6738&creativeASIN=B00Y7PB1NY&linkCode=as2&tag=orionrobots-21&linkId=36b87b3cbc03d96f98b3eeb6d9f57d26"><img border="0" src="//ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=GB&ASIN=B00Y7PB1NY&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL250_&tag=orionrobots-21" ></a><img src="//ir-uk.amazon-adsystem.com/e/ir?t=orionrobots-21&l=am2&o=2&a=B00Y7PB1NY" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /></td>
+<td><h3>A positionable lamp</h3>
 A good lamp makes working with these things far easier - otherwise you find yourself holding it closely to your eyes and angling it to the light just to find something. With a good light - you just wont need that. A good thing too - as poor lighting may lead to you taking of goggles as you pry at the fiddly parts. Get a good desk lamp!
- -->
+</td></tr>
+<tr><td><a href="https://www.amazon.co.uk/Anti-Static-Wristband-Discharge-Prevents-Electricity/dp/B004TQRFPE/ref=as_li_ss_il?ie=UTF8&qid=1519600714&sr=8-1&keywords=anti+static+wrist+straps&linkCode=li2&tag=orionrobots-21&linkId=9045a58e324487ccb99630b4e13b5468" target="_blank"><img border="0" src="//ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B004TQRFPE&Format=_SL160_&ID=AsinImage&MarketPlace=GB&ServiceVersion=20070822&WS=1&tag=orionrobots-21" ></a><img src="https://ir-uk.amazon-adsystem.com/e/ir?t=orionrobots-21&l=li2&o=2&a=B004TQRFPE" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /></td>
+<td><h3>An Antistatic Wrist Strap</h3>
+While some recommend this, as your contact may cause some devices to malfunction, I rarely, if ever use a wrist strap. You may be carrying a charge - especially if you are wearing woolly jumpers or other static build clothes. However, instead of a strap, tapping on an earthed device may be just as useful.</td></tr></table>
+
 ### Steps
 
 First you will need to remove the battery box, and all batteries.
@@ -332,3 +339,34 @@ Changing R1 will change the characteristic of the output curve from any connecte
 This section will need to be retested and updated as Windows moves. It's not always possible to run old programs on modern computers.
 
 ![The RCX IR Tower](/galleries/2010-01-19-the-lego-rcx-inside-and-out/draft_lens8960751module79685391photo_1328563774-rcx-IR-tower.jpg)
+
+Computers are now running Windows 10. The Lego Mindstorms software for the RCX with the original Robotics Invention System is now nearly 20 (as of 2018) years old and will not always run on them. With a little perseverance, and a few patches, there are many ways to get the RCX working.
+
+It is one thing to get the RCX running with the likes of NQC and Lejos, but the original experience is fun and inspiring still with the original CD and its presentations. The original software not only requires somewhat dated driver interfaces, but also an old version of flash, in some areas that are no longer backwards compatible.
+
+The first way is to consider using Virtual Box. This allows you to forward USB ports and serial ports to a virtual machine, in which you can then run an older version of Windows and then run the original Mindstorms disks as is.
+
+You may get somewhere in using an older version of Quicktime to prevent errors in the default software. The exact version needed is 6.5.2 for the RIS 2.0 software (the most recent). This can be downloaded from <a href="http://www.oldversion.com/download_QuickTime_6.5.2.html" target="_blank">Oldversion.com</a>.
+
+Virtual Box is freely downloadable at <a href="http://www.virtualbox.org/" target="_blank">Virtualbox.org</a>. You will just need a version of Windows – I recommend 98 (which dates the RCX!) as there are no patches needed for it. Just make sure you use it only for Mindstorms and do not go on the net with it.
+
+In Windows 7, with the more expensive editions (which you can purchase through an Anytime upgrade), you get a version of Virtual PC, with an older version of Windows running in it, for just this kind of compatibility problem. However that is XP, and the compatibility patches that Lego were hosting have long since been removed.
+
+Unfortunately, Lego do not support the consumer RCX so much any more, and the downloads have now also gone from their education site.
+
+For a simpler route in terms of drivers and so on, you may find <a href="http://bricxcc.sourceforge.net/nqc/" target="_blank">NQC</a> and <a href="http://bricxcc.sourceforge.net/" target="_blank">Bricx Command Centre</a> easier, although programming them takes more work and patience.
+
+## More RCX, Mindstorms and Lego Information
+
+![RCX Jonny Five](/galleries/2010-01-19-the-lego-rcx-inside-and-out/draft_lens8960751module78790311photo_1328564356-rcx-jonny-five.jpg)
+
+While there is plenty here about interfacing with the RCX and what is inside it, there are also many good sites and discussions on the internet about this genre defining device.
+
+You are welcome to tweet me your own Lego Mindstorms Robotics site here as long as it is relevant to this page.
+
+* [RCX Internals](http://www.mralligator.com/rcx/)
+* [Upgrading Lego Mindstorms RIS 1.0?](https://www.boards.ie/b/thread/2055747086?mode=linear)
+* [RCX 1.0 Case Disassembly | iFixit](https://www.ifixit.com/Guide/Disassembling-RCX-1-0-Case/4352/2) - iFixit - Disassembling RCX 1.0 Case: How to access the RCX's circuit board.
+* [Bricklink Catalog Entries for the RCX](https://www.bricklink.com/catalogList.asp?q=RCX)
+* [Lego Dimensions and Measurements](https://www.cailliau.org/Lego/Dimensions/zMeasurements-en.xhtml) - When interfacing stuff with Lego, knowing conversions to MM from the Lego Units can be very handy.
+* [My shortlived Lego only blog](https://dannys-lego.blogspot.co.uk/)

@@ -20,3 +20,12 @@ theme :
   font-style: normal;
   }
 
+.prodtable td {
+    padding-right: 4px;
+    vertical-alignment: top;
+}
+
+.pl-spacing {
+  float: left !important;
+  padding-right: 4px;
+}
