@@ -15,14 +15,14 @@ This contains info on programming an RCX, buying a Mindstorms Kit, adding your o
 
 The Lego RCX is a superb microcontroller, genre defining- and this is all about the amazing things you can do with the device and building awesome stuff (like robots!) with Lego. Find out here to get up close and inside the RCX.
 
-Included is some basic info on the RCX device - what it looks like, what kits it was part of, and why I think Lego Mindstorms was genre defining.
+Included is some basic info on the RCX device - what it looks like, what kits the RCX was part of, and why I think Lego Mindstorms was genre defining.
 Also is information on programming and my personal favourite way to program the RCX.
 
-I have included information on opening up the RCX so you can get inside it and see what makes it tick - this can serve either as clear instructions on taking a look and putting it back together, or taking a look at the closeups and chip identifications to save you having to butcher your own RCX. Since they have become rare, there is some info and links to places to buy an RCX so you can reproduce the experiments here and generally have fun playing with it.
+I have included information on opening up the RCX so you can get inside it and see what makes it tick - this can serve either as clear instructions on taking a look and putting your RCX back together, or taking a look at the closeups and chip identifications to save you having to butcher your own RCX. Since they have become rare, there is some info and links to places to buy an RCX so you can reproduce the experiments here and generally have fun playing with it.
 
 On the more advanced side here, there are circuit diagrams for interfacing with the RCX for getting power from both motor and sensor ports, and also for building active sensors. Finally there are links to other sites and books with a great deal more information to get the best out of this cool toy.
 
-Although it is dated, succeeded by the NXT, it can be remembered as one of the great things created by Lego.</div>
+Although the RCX is dated, succeeded by the NXT, this Mindstorms gadget can be remembered as one of the great things created by Lego.</div>
 
 ## Lego RCX Basic Details
 
@@ -31,9 +31,9 @@ The RCX (Robot Command eXplorer) is a Lego computer, capable of controlling 3 Mo
 
 The version 1.0 RCX has Lego part number 884u and houses a Hitachi H8 microcontroller.
 
-It comes as part of the Robot Inventor Sets (RIS 1.0, 1.5 and 2.0), which included an IR computer connection (9-pin Serial or USB), many technic building bricks, motors, sensors, robot building instructions, a test mat and full windows Mindstorms software to program it.
+The RCX comes as part of the Robot Inventor Sets (RIS 1.0, 1.5 and 2.0), which included an IR computer connection (9-pin Serial or USB), many technic building bricks, motors, sensors, robot building instructions, a test mat and full windows Mindstorms software to program it.
 
-It was also sold in multiple packs as Lego DACTA sets intending the RCX for use in classrooms.
+The RCX was also sold in multiple packs as Lego DACTA sets intending the RCX for use in classrooms.
 
 The V1.0 came with an external 9v power jack, that was later ditched. I have seen this used with other kinds of battery packs – thus allowing the bottom panel to be empty. This can lead to better even distribution of weight and other advantages.
 
@@ -58,13 +58,13 @@ This is the current generation in awesome Lego robot and contraption building ki
 <a href="http://bricxcc.sourceforge.net/nqc/" target="_blank">
 <img class="text_img_right" src="/galleries/2010-01-19-the-lego-rcx-inside-and-out/draft_lens8960751module79322281photo_1325684837-lego-rcx-nqc-logo.gif" alt="NQC" title="NQC"></a>
 
-There are many programming languages for the RCX. While I was using it a great deal, I found NQC made the most sense to me.
+There are many programming languages for the RCX. While I was using the RCX a great deal, I found NQC made the most sense to me.
 
-NQC is an acronym for “Not Quite C”. It is a C-Like programming language, API and compiler toolkit aimed at Lego’s range of Programmable Bricks. Being an embedded C programmer by trade, it was an obvious choice for me.
+NQC is an acronym for “Not Quite C”. NQC is a C-Like programming language, API and compiler toolkit aimed at Lego’s range of Programmable Bricks. Being an embedded C programmer by trade, NNQC was an obvious choice for me.
 
-Learning a more advanced language like this is a vital step in working with Lego Robots as it gives you a great deal more control and flexibility than the supplied MindStorms, CyberMaster or SpyBotics software. It gives access to more programming concepts than the construction toy style SDK’s provided. On the downside, it could be more complicated for those not familiar with C, and for those who are, its differences (the not-quite aspects) may be a little frustrating.
+Learning a more advanced language like this is a vital step in working with Lego Robots as NQC gives you a great deal more control and flexibility than the supplied MindStorms, CyberMaster or SpyBotics software. NQC gives access to more programming concepts than the construction toy style SDK’s provided. On the downside, NQC can be more complicated for those not familiar with C, and for those who are, NQC's differences (the not-quite aspects) may be a little frustrating.
 
-The language draws highly from C, although some concepts, like the way tasks are handled are fairly specific to the language. It has a few caveats – like not being able to return arguments from subroutines and having a limit of subroutines (which is governed by the target – RCX 1.0, RCX 2.0 etc.). These limitations mean that you will often need to use global variables.
+The language draws highly from C, although some concepts, like the way tasks are handled are fairly specific to the language. NQC has a few caveats – like not being able to return arguments from subroutines and having a limit of subroutines (which is governed by the target – RCX 1.0, RCX 2.0 etc.). These limitations mean that you will often need to use global variables.
 
     task main()
     {
@@ -74,7 +74,7 @@ The language draws highly from C, although some concepts, like the way tasks are
         Off(OUT_A + OUT_C);
     }
 
-NQC is a command line compiler, and not a development environment, so I suggest using it with a text editor – for example Gedit on Linux, Notepad++ on Windows or Textmate on the Mac. The NQC website has the details for installing it on windows, although it is a bit more involved on the Mac and Linux. NQC does not require the original RCX software to be installed to run.
+NQC is a command line compiler, and not a development environment, so I suggest using NQC with a text editor – for example Gedit on Linux, Notepad++ on Windows or Textmate on the Mac. The NQC website has the details for installing it on windows, although installation is a bit more involved on the Mac and Linux. NQC does not require the original RCX software to be installed to run.
 
 Some other advanced systems for programming Lego P-Bricks are LegOS and BrickOS. NQC is the easiest, but the others are also worth a look.
 
@@ -84,12 +84,12 @@ I used the NQC language on the RCX enough to collect a few good links.
 
 * [NQC - Not Quite C website](http://bricxcc.sourceforge.net/nqc/) - The home of the NQC programming language for the RCX and is maintained by its author. This contains all the downloads and the documentation to use the software.
 * [Lego MindStorms: Programming with NQC - O'Reilly Media](http://www.oreillynet.com/pub/a/network/2000/02/25/mindstorms/NQC.html) -  This is a superb illustrated guide to getting started using NQC to program your Mindstorms RCX.
-* [Advanced Programming With NQC](http://www.eng.iastate.edu/twt/Courses/Undergrad/packet/appendix/advanced.htm) - course notes from a university module covering robots, where NQC has been used by the students to program their RCX's. It explains each of the elements of the NQC language.
+* [Advanced Programming With NQC](http://www.eng.iastate.edu/twt/Courses/Undergrad/packet/appendix/advanced.htm) - course notes from a university module covering robots, where NQC has been used by the students to program their RCX's. The course notes explain each of the elements of the NQC language.
 * [Lego Robot Pages - NQC Tutorials](http://people.cs.uu.nl/markov/lego/) - a set of NQC tutorials translated into many human languages.
 
 ### Even more NQC info
 
-NQC is a deep a powerful tool for the RCX. While a subset of the C language, it has enough to accomplish fairly complicated tasks with the robot kit. However, getting the best of it requires either great experience, or having a good book to use as a guide, a tutorial or just a reference to keep handy.
+NQC is a deep a powerful tool for the RCX. While a subset of the C language, NQC has enough to accomplish fairly complicated tasks with the robot kit. However, getting the best of NQC requires either great experience, or having a good book to use as a guide, a tutorial or just a reference to keep handy.
 
 Little beats being able to go step by step through a book, or rifle through to find exactly what you needed to solve a problem.
 
@@ -98,7 +98,7 @@ Little beats being able to go step by step through a book, or rifle through to f
 ## LeJOS - A Java based Lego RCX System
 
 LeJOS is available on both the RCX and NXT, with some differences in capability.
-LeJOS is a TinyVM based Java programming language and API for the RCX. It is well documented, and has been used a great deal.
+LeJOS is a TinyVM based Java programming language and API for the RCX. LeJOS is well documented, and has been used a great deal.
 
 Here is an example of some simple LeJOS code:
 
@@ -116,7 +116,7 @@ Here is an example of some simple LeJOS code:
 
 This would cause motor A to start at power 3, go forward for 1 second, then stop.
 
-I would recommend you start with [The LeJOS Tutorial](http://lejos.sourceforge.net/tutorial/index.html#basic_trails). For those who already know Java, follow the start of the tutorial to get it installed and uploading to your RCX, then skip to the API documentation.
+I would recommend you start with [The LeJOS Tutorial](http://lejos.sourceforge.net/tutorial/index.html#basic_trails). For those who already know Java, follow the start of the tutorial to get LeJOS installed and uploading to your RCX, then skip to the API documentation.
 
 ## Low friction RCX rotation sensor
 
@@ -124,9 +124,9 @@ I would recommend you start with [The LeJOS Tutorial](http://lejos.sourceforge.n
 
 The RCX has an optional rotation sensor that could be bought for it, but they are now fairly difficult to get hold of. They also used a brushed contact based system for sensing, so could be prone to wear and introduce friction into your drive chain. On the positive side, the RCX could have its sensor ports set into a mode that would automatically count the revolutions based on the sensors encoding.
 
-I investigated ways to make a friction free sensor, and while it requires a little more programming than using the rotation sensor, it also has the benefit of being able to be constructed from parts shipped with the Robotic Invention System (the basic RCX kit).
+I investigated ways to make a friction free sensor, and while my method requires a little more programming than using the rotation sensor, this idea also has the benefit of being able to be constructed from parts shipped with the Robotic Invention System (the basic RCX kit).
 
-The animation below shows the basic construction, which can be altered to suit your model, but the important thing is that the light sensor is close to a pulley wheel, with light and dark round studs pressed into it to give a readable pattern to show rotation.
+The animation below shows the basic construction, which can be altered to suit your model, but the important thing is that the light sensor is close to a pulley wheel, with light and dark round studs pressed into the pulley wheel to give a readable pattern to show rotation.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/O6GP4LHynok" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen=""></iframe>
 
@@ -160,10 +160,11 @@ It has three input(sensor) pads, and three output motor pads – all using the L
 
 It has an LCD display, capable of displaying 5 digits(with a little walking man between them).
 
-Internally it uses a Hitachi “H8/3292″ MicroController.
+Internally the RCX uses a Hitachi “H8/3292″ MicroController.
 
-The output ports can output 9v, and use PWM techniques to control motors speeds. It does not adjust the actual voltage output – so take this into account when driving circuits from it.
-It uses three MLX10402CA motor controller chips(one for each port).
+The output ports can output 9v, and use PWM techniques to control motors speeds. The RCX motor ports do not adjust the actual voltage output – so take this into account when driving circuits from these ports.
+
+The RCX uses three MLX10402CA motor controller chips(one for each port).
 
 ## Inside The RCX
 
@@ -185,7 +186,7 @@ The RCX came with plenty of information and instructions and the software was no
 
 Designs and programs are still being swapped now. It was the RIS - Robotic Invention System kit, and the accessory or lightweight kits like the Droid developer kit, the Mars Mission kit, Vision Command (which included a web cam and computer vision software), that started a new glut of hobby robotics. The introduction of the Mindstorms system hit a few years before robot wars, and resulted in things like the “Real Robot Magazine”. Other toys started to catch on, but still, none have the versatility or accessibility that the Lego ones do.
 
-The Lego RCX, combined with the Lego Robotics Construction Kit that it was sold to in retail, brought many people who had though they had grown out of Lego back to buying and using Lego. It also brought many others into building robotics.
+The Lego RCX, combined with the Lego Robotics Construction Kit that it was sold with in retail, brought many people who had though they had grown out of Lego back to buying and using Lego. Mindstorms also brought many others into building robotics.
 
 The RCX has been used in schools and extra-curricular childrens clubs, including one I ran myself from 2004 to 2005. Mindstorms can be used to teach children engineering principles, mechanical concepts, control engineering and programming, about the use of sensors and motors and many other useful lessons. Lego is also great fun to tinker with.
 
@@ -207,11 +208,11 @@ Some children are into robot stuff, some all things mechanical, some anything th
 
 ![The RCX mainboard and components](/galleries/gallery-1-common-images/123-rcx-mainboard-with-pointers.gif)
 
-If you are very technically minded, as I am, you may be the sort that would like to open an RCX, just see what is inside it. I have provided plenty of information to help you get a lot from it without needing to, but sometimes if you have that itch, you just have to try it.
+If you are very technically minded, as I am, you may be the sort that would like to open an RCX, just see what is inside it. I have provided plenty of information to help you get a lot from the RCX without needing to, but sometimes if you have that itch, you just have to try having a look inside.
 
 I will start by making it clear that this is not something you want to do unless you really know what you are doing. If you do try this – I can offer no warranties for broken or non-working RCX’s as a result.
 
-This said – there may be benefits from this. First – you can get a better idea of the innards of the beast. Secondly – you may wish to wire it to an external power source, or use it to power other devices, although the better method for this is to make a simple battery box insert with a notch for the first, and use a brick style connector for the latter.
+This said – there may be benefits from this. First – you can get a better idea of the innards of the beast. Secondly – you may wish to wire the RCX to an external power source, or use mindstorms to power other devices, although the better method for this is to make a simple battery box insert with a notch for the first, and use a brick style connector for the latter.
 
 If you are really determined to disassemble your RCX, please read the safety guide and continue. Please note that after doing this you will need to re-flash the firmware and upload your programs again.
 
@@ -245,9 +246,9 @@ While some recommend this, as your contact may cause some devices to malfunction
 
 First you will need to remove the battery box, and all batteries.
 
-Then lift one side of the battery holder carefully, and observe two slots, using a fine flat head screwdriver(or jewellers screwdriver) – insert into one of the slots, keeping the cover face down, and click the PCB off the clip holding it to the yellow front cover. Repeat on the other side. These clips connect the PCB to the input/output pads so do not damage these.
+Then lift one side of the battery holder carefully, and observe two slots, using a fine flat head screwdriver(or jewellers screwdriver) – insert into one of the slots, keeping the cover face down, and click the PCB off the clip holding that PCB to the yellow front cover. Repeat on the other side. These clips connect the PCB to the input/output pads so do not damage these.
 
-Keep it face down – so stuff like the pads and buttons do not fall out. At this point, you should have a PCB clipped to the battery holder. There are clips keeping the two together – which can be undone by rotating the PCB carefully clockwise, and sliding it out from these.
+Keep the RCX face down – so stuff like the pads and buttons do not fall out. At this point, you should have a PCB clipped to the battery holder. There are clips keeping the two together – which can be undone by rotating the PCB carefully clockwise, and sliding the PCB out from these.
 
 To reassemble – follow the same steps backwards. You may need to lightly bend the power clips down before popping the board back into place.
 
@@ -257,7 +258,7 @@ To reassemble – follow the same steps backwards. You may need to lightly bend 
 
 ![H8 Pinout](/galleries/gallery-1-common-images/125-rcxh8pins.gif)
 
-The Hitachi H8 (now Renasys) is the microcontroller serving as the main processor on board the RCX. NQC is one way of compiling code for it.
+The Hitachi H8 (now Renasys) is the microcontroller serving as the main processor on board the RCX. NQC is one way of compiling code for the H8.
 
 Specifications:
 
@@ -279,11 +280,11 @@ The H8 operates in three modes, The three modes are:
 
 ## Getting Hold of an RCX on Ebay
 
-The RCX is quite hard to find, especially at a good price, and while the more recent NXT has a lot to offer, this is still a classic kit. Especially if you like to do Lego robotics but with classic studded Technic beam construction. It is worth asking a seller if the RCX can come with a DOA guarantee so you will get it in working order.
+The RCX is quite hard to find, especially at a good price, and while the more recent NXT has a lot to offer, this is still a classic kit. Especially if you like to do Lego robotics but with classic studded Technic beam construction. It is worth asking a seller if the RCX can come with a DOA guarantee so you will get RCX in working order.
 
 Look for listings that show a display on the LCD. Beware that the original CD's are almost certainly not going to work with a modern PC, so you are probably expecting to use NQC or an alternative firmware.
 
-Beware that motors, and the motor driver chips on an RCX can both not be working. When you get it, try making sure each motor port goes in both directions, to try
+Beware that motors, and the motor driver chips on an RCX can both not be working. When you get your RCX, try making sure each motor port goes in both directions, to try
 each motor, and then validate the sensors and sensor ports too.
 
 This should also mean having tried the IR tower and connection to the RCX - which can also fail.
@@ -292,11 +293,11 @@ This should also mean having tried the IR tower and connection to the RCX - whic
 
 ![Lego Dacta Logo](/galleries/2010-01-19-the-lego-rcx-inside-and-out/draft_lens8960751module78784701photo_1263338163dacta.gif)
 
-Now known as Lego Education, Lego DACTA is the School consortium branch of the Lego company. It is sold through a number of outlets, and some of the older kits may be available via Bricklink or eBay.
+Now known as Lego Education, Lego DACTA is the School consortium branch of the Lego company. Dacta Lego is sold through a number of outlets, and some of the older kits may be available via Bricklink or eBay.
 
 The Dacta range includes some excellent robot building kits- including multiple Lego RCX kits, and Robolab software, as well as specialist stuff like the Lego energy centre “eLab” including the Lego Solar Panel. There is an up-to-date range now for the NXT and Power Functions sets.
 
-A number of UK Redistributors are prepared to sell this to hobbyists and small Lego clubs or groups. It is also a good way to get bulk sets.
+A number of UK Redistributors are prepared to sell this to hobbyists and small Lego clubs or groups. Lego Education is also a good way to get bulk sets.
 
 ## Getting Power From an RCX Sensor Port
 
@@ -306,17 +307,17 @@ This is an advanced section for people attempting to make their own custom acces
 
 When powering some devices from the port that are not motors, you may require a smooth current that is not pulsed
 
-Normal operation of the RCX motor ports produces a PWM – Pulse Width Modulated signal, where the power is turned off many times a second, and it is the ratio of on power to off power that will determine the speed of a motor. This signal is not suitable for more sensitive electronic devices.Also, as the Lego connectors are multi-way, you will want to rectify it for a circuit that will only take power one way
+Normal operation of the RCX motor ports produces a PWM – Pulse Width Modulated signal, where the power is turned off many times a second, and it is the ratio of on power to off power that will determine the speed of a motor. This signal is not suitable for more sensitive electronic devices.Also, as the Lego connectors are multi-way, you will want to rectify the signal for a circuit that will only take power one way
 
 A circuit is required to smooth and rectify this signal
 
-This can be done in a simple way by using a diode bridge to enforce the polarity, and a capacitor to smooth it. This will give an almost constant voltage. There will be some ripples
+This can be done in a simple way by using a diode bridge to enforce the polarity, and a capacitor to smooth the output. This will give an almost constant voltage. There will be some ripples
 
 The diodes will drop the voltage by about 0.6v each
 
 By setting the output on full, you can leave out the capacitor – but this still means at any orientation you will have two diodes in series, one at at the positive and negative terminals for your circuit, so you will have a current drop of around 1.2v – and end up with a total output of 7.8v
 
-The circuit diagram is simple, and used with a Lego connector will allow you to use it with the RCX and also the Cybermaster devices.
+The circuit diagram is simple, and used with a Lego connector will allow you to use the circuit and your devices with the RCX and also the Cybermaster kits.
 
 ## Building a Powered Sensor For The Lego RCX
 
@@ -348,7 +349,7 @@ The first way is to consider using Virtual Box. This allows you to forward USB p
 
 You may get somewhere in using an older version of Quicktime to prevent errors in the default software. The exact version needed is 6.5.2 for the RIS 2.0 software (the most recent). This can be downloaded from <a href="http://www.oldversion.com/download_QuickTime_6.5.2.html" target="_blank">Oldversion.com</a>.
 
-Virtual Box is freely downloadable at <a href="http://www.virtualbox.org/" target="_blank">Virtualbox.org</a>. You will just need a version of Windows – I recommend 98 (which dates the RCX!) as there are no patches needed for it. Just make sure you use it only for Mindstorms and do not go on the net with it.
+Virtual Box is freely downloadable at <a href="http://www.virtualbox.org/" target="_blank">Virtualbox.org</a>. You will just need a version of Windows – I recommend 98 (which dates the RCX!) as there are no patches needed for the Mindstorms software. Just make sure you use the Windows 98 VM only for Mindstorms and do not go on the net with Windows 98.
 
 In Windows 7, with the more expensive editions (which you can purchase through an Anytime upgrade), you get a version of Virtual PC, with an older version of Windows running in it, for just this kind of compatibility problem. However that is XP, and the compatibility patches that Lego were hosting have long since been removed.
 
@@ -362,7 +363,7 @@ For a simpler route in terms of drivers and so on, you may find <a href="http://
 
 While there is plenty here about interfacing with the RCX and what is inside it, there are also many good sites and discussions on the internet about this genre defining device.
 
-You are welcome to tweet me your own Lego Mindstorms Robotics site here as long as it is relevant to this page.
+You are welcome to tweet me your own Lego Mindstorms Robotics site here as long as the content is relevant to this page.
 
 * [RCX Internals](http://www.mralligator.com/rcx/)
 * [Upgrading Lego Mindstorms RIS 1.0?](https://www.boards.ie/b/thread/2055747086?mode=linear)
