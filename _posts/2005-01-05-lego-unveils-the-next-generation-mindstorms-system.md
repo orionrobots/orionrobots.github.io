@@ -24,10 +24,10 @@ On January the 4th, at the Consumer Electronics Show 2006, Lego announced the NX
 
 * 3 Intelligent Servo Motors with Feedback
 * 4 Innovative Sensors with 6 Pin RJ style IO Connectors
-** Light and Colour
-** Sound (level)
-** Touch
-** Ultrasound
+    * Light and Colour
+    * Sound (level)
+    * Touch
+    * Ultrasound
 * USB 2.0 connection
 * Bluetooth (possible phone camera connections?)
 * 519 Lego element kit
