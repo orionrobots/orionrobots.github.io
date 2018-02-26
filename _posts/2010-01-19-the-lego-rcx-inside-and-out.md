@@ -11,7 +11,7 @@ This contains info on programming an RCX, buying a Mindstorms Kit, adding your o
 
 # Collected Details For Using The Lego RCX
 
-<img src="/galleries/2010-01-19-the-lego-rcx-inside-and-out/lens8960751_1328563452-Lego-RCX-In-Use.jpg" class="pl-spacing" alt="">
+<img src="/galleries/2010-01-19-the-lego-rcx-inside-and-out/lens8960751_1328563452-Lego-RCX-In-Use.jpg" class="pl-spacing" alt="The Lego RCX">
 
 The Lego RCX is a superb microcontroller, genre defining- and this is all about the amazing things you can do with the device and building awesome stuff (like robots!) with Lego. Find out here to get up close and inside the RCX.
 
@@ -22,16 +22,16 @@ I have included information on opening up the RCX so you can get inside it and s
 
 On the more advanced side here, there are circuit diagrams for interfacing with the RCX for getting power from both motor and sensor ports, and also for building active sensors. Finally there are links to other sites and books with a great deal more information to get the best out of this cool toy.
 
-Although the RCX is dated, succeeded by the NXT, this Mindstorms gadget can be remembered as one of the great things created by Lego.</div>
+Although the RCX is dated, succeeded by the NXT, this Mindstorms gadget can be remembered as one of the great things created by Lego.
 
 ## Lego RCX Basic Details
 
-<img class="pl-spacing" src="/galleries/2010-01-19-the-lego-rcx-inside-and-out/draft_lens8960751module78783391photo_1328563575-building-robot-with-lego.jpg" alt="" title="">
+<img class="pl-spacing" src="/galleries/2010-01-19-the-lego-rcx-inside-and-out/draft_lens8960751module78783391photo_1328563575-building-robot-with-lego.jpg" alt="An RCX Creation" title="An RCX Creation">
 The RCX (Robot Command eXplorer) is a Lego computer, capable of controlling 3 Motors, or more with some tricks, and respond to inputs from a 3 or more sensors.
 
 The version 1.0 RCX has Lego part number 884u and houses a Hitachi H8 microcontroller.
 
-The RCX comes as part of the Robot Inventor Sets (RIS 1.0, 1.5 and 2.0), which included an IR computer connection (9-pin Serial or USB), many technic building bricks, motors, sensors, robot building instructions, a test mat and full windows Mindstorms software to program it.
+The RCX comes as part of the Robot Inventor Sets (RIS 1.0, 1.5 and 2.0), which included an IR computer connection (9-pin Serial or USB), many Technic building bricks, motors, sensors, robot building instructions, a test mat and full windows Mindstorms software to program it.
 
 The RCX was also sold in multiple packs as Lego DACTA sets intending the RCX for use in classrooms.
 
@@ -43,15 +43,22 @@ In addition to the default programming language, XCode, the RCX could be program
 
 The Lego RCX is no longer available, but there are many books on the subject worth reading, as well as accessories, and even some to allow the newer NXT controller to be used with kit from the RCX generation.
 
-### Classic Lego Mindstorms Projects and Software Tools: Award-Winning Designs from Master Builders
 
+<div class="media">
+    <div class="media-left">
 <iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=GB&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=orionrobots-21&marketplace=amazon&region=GB&placement=159749089X&asins=159749089X&linkId=2f96480b45a8b0c87b5bdaf794f1177f&show_border=true&link_opens_in_new_window=true"></iframe>
+    </div><div class="media-body"><h3>Classic Lego Mindstorms Projects and Software Tools: Award-Winning Designs from Master Builders</h3>
+
 Stacked with ideas to get more from an RCX kit with concepts that translate to later revisions and other Lego kits.
+</div></div>
 
-### The Lego mindstorms Ev3
-
+<div class="media">
+    <div class="media-left">
 <iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=GB&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=orionrobots-21&marketplace=amazon&region=GB&placement=B00BMKLVJ6&asins=B00BMKLVJ6&linkId=150dcd300a737e91832bad75c7cd1d82&show_border=true&link_opens_in_new_window=true"></iframe>
+</div><div class="media-body"><h3>The Lego mindstorms Ev3</h3>
+
 This is the current generation in awesome Lego robot and contraption building kits.
+</div></div>
 
 ## Programming The Lego RCX with NQC
 
