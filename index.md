@@ -11,9 +11,7 @@ You can see my latest videos on [Orionrobots Youtube](https://youtube.com/orionr
 
 You can reach me on twitter [@orionrobots](https://twitter.com/orionrobots)
 
-
 # Recent Posts
-
 
 <ul class="posts">
   {% for post in site.posts %}{% if forloop.index < 4 %}
