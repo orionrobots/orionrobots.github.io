@@ -16,7 +16,7 @@ First we came up with ideas. Helena was keen on something Meerkat themed. While 
 
 Danny suggested we start with the 4Tronix chassis, in fact, start with Skittlebot - which was already some way towards doing the [Over the Rainbow challenge](http://piwars.org/2018-competition/challenges/somewhere-over-the-rainbow/) challenge with a camera and it's [skittle tracking behaviour](https://www.youtube.com/watch?v=z14HcflsRW0&t=25s).
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/z14HcflsRW0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+{% include youtube_responsive src="https://www.youtube.com/embed/z14HcflsRW0" %}
 
 ## Enhancements
 
@@ -32,7 +32,7 @@ We like the Initio chassis - it has a battery box, power switch, motors, encoder
 
 Danny had a bit of a brainwave. One of the previous builds Danny had made was TankBot - a modified toy chassis he'd got cheap, running a Raspberry Pi zero and PiConZero, plus a servo to make the turret turn.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/6BK1TG_CZkQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+{% include youtube_responsive src="https://www.youtube.com/embed/6BK1TG_CZkQ" %}
 
 A brief interlude - Helena finds Danny's naming rather hilarious - Skittlebot, Tankbot and Armbot - so this new robot may yet need a new name. She wasn't keen on MeerkatBot either. Btu we digress, back to the idea.
 
@@ -57,7 +57,7 @@ Danny did a bit of squaring up - and managed to rig the Initio platform - the gr
 
 He attached a Pi, a USB power supply, used the original battery pack from the Toy + a PiConZero motor controller, and got the robot to drive using the PiConZero code already on the Pi.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/TwRw6XGqJmI" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+{% include youtube_responsive src="https://www.youtube.com/embed/TwRw6XGqJmI" %}
 
 Sadly - the excavator chassis has nowhere near the power and ability on the carpet that the original did. It's squealing and getting stuck when trying to turn. It's fine on the wooden floor though.
 
