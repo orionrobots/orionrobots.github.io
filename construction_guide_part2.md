@@ -56,9 +56,9 @@ The Robot should light up. There should be a blinking LED on the Arduino.
 * For Windows 8 users: <a href="http://www.youtube.com/watch?v=CdE72XUYC7k">Installing the Arduino
 UNO under Windows 8</a>. Other OS's will not require this
 
-### The Arduino IDE loaded.
+### The Arduino IDE loaded
 
-![]({{ page.asset_location }}/step_10_1.jpg)
+![]({{ page.asset_location }}/step_10_1.png)
 You should see something a bit like this when you've completed the above.
 
 ### Get My Starting Code
@@ -67,7 +67,7 @@ The basic code for getting the robot running is on Github.
 <a href="http://github.com/dannystaple/OrionExplorerOneBasic/archive/june_2013.zip">Download the current release.</a>
 Unzip this. Then open SimpleMotorBot/SimpleMotorBot.ino in the Arduino app.
 
-![]({{ page.asset_location }}/step_10_2.jpg)
+![]({{ page.asset_location }}/step_10_2.png)
 * Click the highlighted button to send it to your robot.
 * The motors will turn on for a few seconds and then stop.
 * If you were impatient and put the wheels on the robot be prepared to catch it!

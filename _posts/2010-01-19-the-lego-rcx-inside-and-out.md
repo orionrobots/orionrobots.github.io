@@ -92,7 +92,6 @@ I used the NQC language on the RCX enough to collect a few good links.
 * [NQC - Not Quite C website](http://bricxcc.sourceforge.net/nqc/) - The home of the NQC programming language for the RCX and is maintained by its author. This contains all the downloads and the documentation to use the software.
 * [Lego MindStorms: Programming with NQC - O'Reilly Media](http://www.oreillynet.com/pub/a/network/2000/02/25/mindstorms/NQC.html) -  This is a superb illustrated guide to getting started using NQC to program your Mindstorms RCX.
 * [Advanced Programming With NQC](http://www.eng.iastate.edu/twt/Courses/Undergrad/packet/appendix/advanced.htm) - course notes from a university module covering robots, where NQC has been used by the students to program their RCX's. The course notes explain each of the elements of the NQC language.
-* [Lego Robot Pages - NQC Tutorials](http://people.cs.uu.nl/markov/lego/) - a set of NQC tutorials translated into many human languages.
 
 ### Even more NQC info
 

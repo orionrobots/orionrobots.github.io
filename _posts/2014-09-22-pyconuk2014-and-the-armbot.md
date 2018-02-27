@@ -22,7 +22,7 @@ There are GPIO pins, and although it is a 3v3 device, it is 5v tolerant. It has 
 
 You can set up timers and interrupts that call python functions, and with SPI, I2c, USB host mode (with an OTG on-the-go adaptor), Uarts and proposed CAN bus too, it can be used in many places where other microcontrollers can.
 
-It aso has power characteristics similar to the Arduino - making it light enough to use where you would use the 'duino or an AVR.
+It aso has power characteristics similar to the Arduino - making it light enough to use where you would use the Arduino or an AVR.
 
 The only real catch though is that it was a kickstarter project, and he (with his crew) have fulfilled the original backers but still have some work to do and probably need a breather, so it may a short while before you or I can get our hands on one. There are projects using the micropython code too - so this work may cause a proliferation of devices like these.
 
@@ -32,7 +32,7 @@ I really can't wait to get my hands on some, and build some robots with them on 
 
 I'll talk a bit more about it on my [personal blog](http://dannystaple.github.io), but the Education track was really amazing. For a start a number of people from the Raspbery Pi foundation were there, and I got to see sessions with Carry-Anne Philbin (aka geekgurl on youtube), Ben Nutall, and Alex Bradbury. I also had a little debug session with Alex, getting USB bluetooth going as a Pi Serial console, and saw Carry-Anne's neat biscuit-bot. 
 
-There were the QuadCopters, brought by sponsors, developers and teachers and flown with code. What I really loved to see were the physical computing sessions, where a Raspberry Pi was used with the Pibrella board to show how it could be usedin the classroom lighting LED's, and spinning a pinwheel on a motor - really good fun.
+There were the QuadCopters, brought by sponsors, developers and teachers and flown with code. What I really loved to see were the physical computing sessions, where a Raspberry Pi was used with the Pibrella board to show how it could be used in the classroom lighting LED's, and spinning a pinwheel on a motor - really good fun.
 
 There were robot arms (including my thing), Lego EV3/mindstorms sessions and kids bringing their own awesome Raspberry Pi projects on the saturday Kids day.
 
@@ -83,7 +83,7 @@ This turned into a rabbit hole - I got bluez installed, and had rfcomm watching 
   
 # The Arm
 
-While at PyCon, I then started to try and make the arm move. The first thing I tried was to put an Arduino IDE on the Raspberry Pi, which while successful, was quite slow to download on the conference wi-fi. I ended up doing its dependancies in chunks - and it really does need far too many. I think it'd be nice to have a lightweight set of buttons paired with leafpad for this.
+While at PyCon, I then started to try and make the arm move. The first thing I tried was to put an Arduino IDE on the Raspberry Pi, which while successful, was quite slow to download on the conference wi-fi. I ended up doing its dependencies in chunks - and it really does need far too many. I think it'd be nice to have a lightweight set of buttons paired with leafpad for this.
 
 I got frustrated with how sow the IDE was - the simple GUI, and any attempts to compile and upload, so I continued by using the version on my laptop.
 
@@ -118,6 +118,6 @@ I'll put this code onto github shortly.
  
 The robot sprint had me with the armbot, debugging the problem above. Also a chap had brought along a Cybot (from The Real Robots partwork magazine), modified to have a MicroPython connected to the original motor board - pretty cool. It was early days for this bot - but he was getting motor movement, and I would love to find more of his exploits with it.
 
-Also at the sprint was Carry-Anne Philbin, of the Raspberry Pi foundation, with a rather neat looking [Biscuit Bot](link to pi foundation hardware page with vid). It had tank tracks below, and a body/head made of a big biscuit tin, with arms holding a little tray.
+Also at the sprint was Carry-Anne Philbin, of the Raspberry Pi foundation, with a rather neat looking robot named "Biscuit Bot". It had tank tracks below, and a body/head made of a big biscuit tin, with arms holding a little tray.
 
-The sprint was the last part of pycon, apart from a little tidy up and the goodbyes at the end.
+The sprint was the last part of Pycon, apart from a little tidy up and the goodbyes at the end.
