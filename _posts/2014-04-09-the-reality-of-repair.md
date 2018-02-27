@@ -24,7 +24,7 @@ Repairing the same tool a second time is easier, and instead of thinking the thi
 
 # What have I been repairing?
 
-This last couple of weeks I've been repairing the power board for my [CnC Machine](http://orionrobots.github.io/CnCNotes). It is for some probably a trivial device, but my skills have been more oriented to the digital side of electronics than the analogue and power stuff.
+This last couple of weeks I've been repairing the power board for my [CnC Machine](https://orionrobots.github.io/CnCNotes). It is for some probably a trivial device, but my skills have been more oriented to the digital side of electronics than the analogue and power stuff.
 
 ![CnC Control Board](/assets/2014-04-09-the-reality-of-repair.md/small/1-IMG_3406.JPG){: class="img-responsive"}
 

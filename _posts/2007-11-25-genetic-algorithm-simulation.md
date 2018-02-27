@@ -19,7 +19,7 @@ The example has only been tested in Firefox and IE, could Opera users let me kno
 
 You then want to open the following link in a new tab or window:
 
-<a href="http://orionrobots.github.io/browser_genetic_simulation/evolving.html">Evolution App</a>
+<a href="https://orionrobots.github.io/browser_genetic_simulation/evolving.html">Evolution App</a>
 
 For instructions read the readme at <https://github.com/orionrobots/browser_genetic_simulation/tree/master>
 
