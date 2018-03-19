@@ -3,7 +3,7 @@ title: Orion Explorer 1 Complete Wall Avoider Robot Kit
 layout: product
 sku: OR0013
 google_category: Electronics > Circuit Components > Circuit Prototyping
-price: £79.99
+price: ---
 tags: ["4wd car", "arduino", "arduino robot kit", "atmel", "avr", "breadboard", "distance sensor", "explorer 1", "microcontroller", "robot", "robot car", "robot chassis", "solderless", "sonar ranger module"]
 vendor: orionrobots
 gallery:
@@ -35,7 +35,7 @@ This solderless easy to construct and modify robot kit is all you need to build 
 
 It comes with a breadboard (pictured is for illustrative purposes only) so you can attach the sensors, and easily experiment with many sensors and other electronics with the robot. Additional cables are included to make it easy to attach the sensors.
 
-The kit includes the standard <a href="http://shop.orionrobots.co.uk/products/orion-explorer-1-robot-kit">Explorer 1 Robot platform</a>, with four wheel drive motors, wheels, Arduino (Uno R3 or Leonardo) compatible microcontroller, motor board and batteries. The whole assembly requires no soldering, cutting or drilling - only a screwdriver, computer and batteries are needed. It's designed to be extended and tinkered with - to Explore electronics and robotics.
+The kit included the standard Explorer 1 Robot platform, with four wheel drive motors, wheels, Arduino (Uno R3 or Leonardo) compatible microcontroller, motor board and batteries. The whole assembly requires no soldering, cutting or drilling - only a screwdriver, computer and batteries are needed. It's designed to be extended and tinkered with - to Explore electronics and robotics.
 
 Example code for wall avoiding is on Github at <a href="https://github.com/dannystaple/OrionExplorerOneBasic/tree/master/_2SensorRobot">https://github.com/dannystaple/OrionExplorerOneBasic/tree/master/_2SensorRobot</a>.
 

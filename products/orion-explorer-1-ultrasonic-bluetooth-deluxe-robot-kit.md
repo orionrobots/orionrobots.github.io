@@ -52,13 +52,9 @@ This kit requires no soldering to construct.
 | Communications | Arduino standard - USB, Serial. + Bluetooth HC06 Slave Module |
 | Expansion | Comes with breadboard, sensors connected through this. IO pins available on the Arduino |
 
-{% assign yt_width="300" %}
-{% assign yt_height="169" %}
-{% assign youtube_id="SpMrGylvcs0" %}
-{% include no_iframe_youtube %}
+{% include youtube_responsive src="https://www.youtube.com/embed/cm5Y2_4iW7o" %}
 
-{% assign youtube_id="ElXsXAcqrUE" %}
-{% include no_iframe_youtube %}
+{% include youtube_responsive src="https://www.youtube.com/embed/ElXsXAcqrUE" %}
 
 # About this kit
 
@@ -70,11 +66,11 @@ This robot can be built in an afternoon without any cutting, drilling or solderi
 
 # No Soldering, Easy To Build
 
-This can be the starting point for a Science project, an experimentation platform, a personal robot or just a place for you to start playing around with robotics. You build it, you can extend it, and there is no soldering, drilling or sawing to do so. If you are in the Uk mainland - postage is Free. The example code, usage guide and tutorials are online at <http://orionrobots.co.uk>.
+This can be the starting point for a Science project, an experimentation platform, a personal robot or just a place for you to start playing around with robotics. You build it, you can extend it, and there is no soldering, drilling or sawing to do so. If you are in the Uk mainland - postage is Free. The example code, usage guide and tutorials are online at <//orionrobots.co.uk>.
 
 # Whats in it?
 Included in the kit is [The Orion Explorer 1 robot 4 wheel drive platform](more-about-the-orion-explorer-1-chassis.html), an
-[Arduino Leonardo](/about_the_arduino.html), an H-Bridge Motor controller to connect the Arduino to the motors, the required cables (with plenty to spare for extension/experimentation later), a battery box, 2 ultrasonic distance sensors, a bluetooth module, a breadboard and stuff to assemble it all. ﻿
+[Arduino Leonardo](/pages/about_the_arduino.html), an H-Bridge Motor controller to connect the Arduino to the motors, the required cables (with plenty to spare for extension/experimentation later), a battery box, 2 ultrasonic distance sensors, a bluetooth module, a breadboard and stuff to assemble it all.
 
 # What can I do with it?
 Build it, run around the house, impress the kids (or build it with the kids), modify it - add lights and buzzers to make it light up or noisy, add a hose and pump to make it spray water like a fire-fighter, add stuff to make it chase a ball. Deliver toy food from a kitchen to a sibling.

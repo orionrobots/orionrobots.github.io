@@ -11,7 +11,7 @@ The Coocox Embedded Pi, Raspberry Pi Camera and Dual Sensor progress.
 # Embedded Pi
 
 ![]({{gallery}}/embedded_pi.jpg){: leftimg}
-First up is the [Element 14/Coocox embedded Pi](http://www.coocox.org/epi.html) board. I am currently looking at ways to embed the Raspberry Pi on my robots - eventually there will be an Orion Explorer robot kit that includes this. The Embedded Pi extends the Pi by adding Arduino shield compatible IO, and it has standalone functionality by having a 32 bit Arm Cortex M3 Microcontroller onboard which can be programmed with a free IDE.
+First up is the Element 14/Coocox embedded Pi board. I am currently looking at ways to embed the Raspberry Pi on my robots - eventually there will be an Orion Explorer robot kit that includes this. The Embedded Pi extends the Pi by adding Arduino shield compatible IO, and it has standalone functionality by having a 32 bit Arm Cortex M3 Microcontroller onboard which can be programmed with a free IDE.
 
 It has on board logic level shifters, so shields and parts that are 5v will work with this. The shifter used on it is the [TXS0108EPWR](http://www.ti.com/lit/ds/symlink/txs0108e.pdf) - a device similar to others I am looking at.
 

@@ -7,7 +7,7 @@ layout: post
 ---
 {% include JB/setup %}
 
-If the current interest shown by the US Military in flying [UAV](/UAV "Unmanned Aerial Vehicles") fighters is fruitful, then the manned fighters and bombers may become a thing of the past.
+If the current interest shown by the US Military in flying [UAV](/wiki/uav "Unmanned Aerial Vehicles") fighters is fruitful, then the manned fighters and bombers may become a thing of the past.
 
 This has many implications. Of course, the oldest argument about fighters loosing their cockpit jobs will be the first, although to be fair, any development that takes humans out of a dangerous situation is generally a good one. That would however mean that those who enjoy such high adrenaline exercises may have to find other ways to satisfy such a need.
 
@@ -22,4 +22,3 @@ A robotic flying vehicle fleet would be as useful for searching for survivors, b
 # Links
 
 <a href="http://www.strategypage.com/htmw/htairfo/articles/20070220.aspx">Warplanes: Fighters Threatened by Cheap Robots</a>
-

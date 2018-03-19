@@ -3,7 +3,7 @@ title: Why 3d printing robots wont take over the world
 tags: [3d printing, robots, cnc, fabrication, replicators]
 layout: post
 ---
-<img src="/galleries/unboxing_pictures/unboxing_pictures/thumbnails/img_3023.jpg" alt="A CnC Fabrication Machine" style="float: left">The most interesting robots for me are those involved in exploration, fabrication and repair. Fabrication and repair systems, like the 3d printers, CNC machines, automatic pick and place robots are basically all variations on printers and plotters.
+<img src="/galleries/unboxing_pictures/thumbnails/img_3023.jpg" alt="A CnC Fabrication Machine" style="float: left">The most interesting robots for me are those involved in exploration, fabrication and repair. Fabrication and repair systems, like the 3d printers, CNC machines, automatic pick and place robots are basically all variations on printers and plotters.
 
 You design or download a design, load in the medium to print with, and hit a print button. These are not fully automatic intelligent systems - for the most part, the programs for them are amazingly simple "go to x,y", "pen down" or "dot here" and so on. They might be big and involved series of these instructions - ie for some detailed printing on a laser jet, but they do not involve conditionals, databases or any kind of clever decision making - other than stopping at limits.
 

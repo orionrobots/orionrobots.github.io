@@ -67,27 +67,27 @@ images:
     date: 2005-05-30 15:47:39
     name: SecondSetSoldered2.jpg
     src: 269-step-4-second-set-soldered-2.jpg
-    thumb-src: thm-269-80x60-p1010132.jpg
+    thumb-src: null
   - caption: ''
     date: 2005-05-30 15:47:52
     name: P1010133.jpg
     src: 270-step-5-legs-bent-upwards.jpg
-    thumb-src: !!python/unicode 'thm-270-80x63-p1010133.jpg'
+    thumb-src: null
   - caption: ''
     date: 2005-05-30 15:48:22
     name: P1010135.jpg
     src: 272-legs-trimmed.jpg
-    thumb-src: !!python/unicode 'thm-272-80x70-p1010135.jpg'
+    thumb-src: null
   - caption: ''
     date: 2005-05-30 15:48:44
     name: P1010136.jpg
     src: !!python/unicode '273-legs-trimmed.jpg'
-    thumb-src: !!python/unicode 'thm-273-80x62-p1010136.jpg'
+    thumb-src: null
   - caption: ''
     date: 2005-05-30 15:49:00
     name: P1010137.jpg
     src: !!python/unicode '274-bring-sets-together.jpg'
-    thumb-src: !!python/unicode 'thm-274-80x60-p1010137.jpg'
+    thumb-src: null
   - caption: ''
     date: 2005-05-30 15:49:13
     name: P1010140.jpg
