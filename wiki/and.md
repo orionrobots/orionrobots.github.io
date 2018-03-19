@@ -5,11 +5,17 @@ date: 2005-09-09 14:28:43
 ---
 <p>This is a <a class="wiki" href="/wiki/boolean.html" title="Boolean">Boolean</a> operation, which gives a result of true only when its first input "AND" second input are true (in the case of a two input AND).
 </p>
-<p><img class="img-responsive" src="image120"/>
+<p><img class="img-responsive" src="/galleries/gallery-1-common-images/120-and.jpg"/>
 </p>
 <p>A <a class="wiki" href="/wiki/truth_table.html" title="Truth Table">Truth Table</a> for this operation:
 </p>
-<table class="normal" id="fancytable_1"> <thead> <tr> <th>Inputs</th> <th></th> <th>Output</th> </tr> </thead> <tbody> <tr> <td class="odd"><strong>A</strong></td> <td class="odd"><strong>B</strong></td> <td class="odd"><strong>C</strong></td> </tr> <tr> <td class="even">0</td> <td class="even">0</td> <td class="even">0</td> </tr> <tr> <td class="odd">0</td> <td class="odd">1</td> <td class="odd">0</td> </tr> <tr> <td class="even">1</td> <td class="even">0</td> <td class="even">0</td> </tr> <tr> <td class="odd">1</td> <td class="odd">1</td> <td class="odd">1</td> </tr> </tbody> </table>
+<table class="normal" id="fancytable_1">
+<thead> <tr> <th>Inputs</th> <th></th> <th>Output</th> </tr> </thead>
+<tbody> <tr> <td class="odd"><strong>A</strong></td> <td class="odd"><strong>B</strong></td> <td class="odd"><strong>C</strong></td> </tr>
+<tr> <td class="even">0</td> <td class="even">0</td> <td class="even">0</td> </tr> 
+tr> <td class="odd">0</td> <td class="odd">1</td> <td class="odd">0</td> </tr> 
+<tr> <td class="even">1</td> <td class="even">0</td> <td class="even">0</td> </tr> 
+<tr> <td class="odd">1</td> <td class="odd">1</td> <td class="odd">1</td> </tr> </tbody> </table>
 <p>
 <br/>Note that AND gates with more than two inputs exist.  The rule for them is that the output is only true when all the inputs are true.  These are very useful for simple pattern matching - Ie a logic element only active with a certain input.
 </p>
@@ -64,5 +70,5 @@ I then suggest you mount the demo on a piece of card - labeling one of the switc
 <h2  id="Demonstrating_with_it">Demonstrating with it</h2>
 <p>You can then use this prop to show that the LED only lights when both A and B are on - providing a test of two seperate conditions. If you use a simple situation role play, you can quite easily convey the principle.
 <br/>Example Situation:
-<br/>You are in the canteen, and you are deciding if you should buy food there or somewhere else. A basic condition to meet is that A) The canteen is currently serving a dish you like, and <img alt="B-)" class="img-responsive" src="img/smiles/icon_cool.gif" title="cool"/> You have enough money in your wallet. You would only buy food if both of the conditions were met.
+<br/>You are in the canteen, and you are deciding if you should buy food there or somewhere else. A basic condition to meet is that A) The canteen is currently serving a dish you like, and B) You have enough money in your wallet. You would only buy food if both of the conditions were met.
 </p>
