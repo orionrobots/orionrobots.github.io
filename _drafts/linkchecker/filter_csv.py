@@ -15,7 +15,7 @@ def output_file(items):
 
 def main():
     filename = sys.argv[1]
-    with open(filename, 'br') as csv_file:
+    with open(filename, 'rb') as csv_file:
         data = csv_file.read()
 
     data = data.decode('utf-8')
