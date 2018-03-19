@@ -19,6 +19,7 @@ def main():
         reader = csv.DictReader((row for row in csv_file if not row.startswith('#')), delimiter=';')
         non_200 = (item for item in reader if 'OK' not in item['result'])
         non_redirect = (item for item in non_200 if '307' not in item['result'])
+        non_ssl = (item for item in non_200 if 'ssl' not in item['result'])
 
         total_list = sorted(list(non_redirect), key=lambda item: item['parentname'])
         
