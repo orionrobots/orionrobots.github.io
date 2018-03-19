@@ -92,7 +92,7 @@ images:
     date: 2005-05-30 15:49:13
     name: P1010140.jpg
     src: !!python/unicode '275-two-sets-soldered.jpg'
-    thumb-src: !!python/unicode 'thm-275-80x75-p1010140.jpg'
+    # thumb-src: !!python/unicode 'thm-275-80x75-p1010140.jpg'
   - caption: "Here you get a good view of the full rig, including one of the better\
       \ shots of the signal generator (in the transparent box).\r\n\r\nThe freeform\
       \ bridge is tiny in the jump-leads, enough that I nearly dropped and lost it.\

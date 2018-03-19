@@ -1,3 +1,52 @@
+
+# Idea 2018-03-14
+
+Using travis for the deploy pipeline with thecode on github?
+
+https://www.annashipman.co.uk/jfdi/shared-hosting-travis-deploy.html
+
+
+
+
+Install travis locally (gem install travis), and, using the command line tool, encrypt any variables that you will use for deploy. For example, if you use FTP, you will want to encrypt at least the password.
+
+    travis encrypt SOMEVAR="secretvalue" --add
+
+The --add flag in this command adds the required lines to your Travis file.
+
+Create a dedicated SSH key (no passphrase) for deploying. This makes it easy to to identify and revoke if necessary.
+
+    ssh-keygen -t rsa -b 4096 -C 'build@travis-ci.org' -f ./deploy_rsa
+
+
+
+Log in to command line Travis (travis login) and get Travis to encrypt the private key file. It prints a helpful output reminding you to only commit the .enc version NOT the deploy_rsa itself.
+
+    language: ruby
+    rvm:
+    - 2.3.3
+    script: scripts/build.sh
+    branches:
+    only:
+    - master
+    env:
+    global:
+    - secure: qvSoY270qAXOtmWdRio9vvhLEf5HHdyzMS39yS4yZw74[snip for length]
+    - secure: Hr7FV7lHFEblYfn7EYM/4qV3qV8zdHLebXzNyRvP8L/U[snip for length]
+    before_install:
+    - openssl aes-256-cbc -K $encrypted_ed2cb1b127e1_key -iv $encrypted_ed2cb1b127e1_iv
+    -in deploy_rsa.enc -out /tmp/deploy_rsa -d
+    - chmod 600 /tmp/deploy_rsa
+    - eval "$(ssh-agent -s)"
+    - ssh-add /tmp/deploy_rsa
+    deploy:
+    provider: script
+    script: scripts/deploy.sh
+    skip_cleanup: true
+    on:
+        branch: master
+
+
 # Journal 2017-12-31
 
 Just tidying up for now.

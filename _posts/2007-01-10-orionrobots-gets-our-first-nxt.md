@@ -25,7 +25,7 @@ The Ultrasonic sensor is unfortunately just in my range of hearing, but then I a
 
 <div style=" float: right;"><img src="/galleries/gallery-20-lego-nxt/409-p1010057.JPG"/></div>
 
-Having so far ignored the "Start here" box, and thumbed around the instructions a little to try it out, I start constructing the robot detailed there. It is a shame [Lego](/wiki/lego "The best known construction toy") still have not got Dark Grey and Black differentiated well enough - I did start off by looking for a black piece for the third step before cottoning on. In the inventory lists - it s not so clear as in the construction diagrams. This is something I have also observed with [LDraw](/wiki/ldraw "The LDraw Lego CAD System") work.
+Having so far ignored the "Start here" box, and thumbed around the instructions a little to try it out, I start constructing the robot detailed there. It is a shame [Lego](/wiki/lego "The best known construction toy") still have not got Dark Grey and Black differentiated well enough - I did start off by looking for a black piece for the third step before cottoning on. In the inventory lists - it s not so clear as in the construction diagrams. This is something I have also observed with [LDraw](/wiki/ldraw_system "The LDraw Lego CAD System") work.
 
 After about 20 minutes, it was ready to go. I will admit that I am still not entirely cool with the studless building technique, but I am sure it will become second nature now. I do have the 8436 truck to add some more of the studless beam parts in should I need them for later models.
 
