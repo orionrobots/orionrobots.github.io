@@ -15,15 +15,20 @@ def output_file(items):
 
 def main():
     filename = sys.argv[1]
-    with open(filename) as csv_file:
-        reader = csv.DictReader((row for row in csv_file if not row.startswith('#')), delimiter=';')
-        non_200 = (item for item in reader if 'OK' not in item['result'])
-        non_redirect = (item for item in non_200 if '307' not in item['result'])
-        non_ssl = (item for item in non_redirect if 'ssl' not in item['result'])
+    with open(filename, 'br') as csv_file:
+        data = csv_file.read()
 
-        total_list = sorted(list(non_ssl), key=lambda item: item['parentname'])
-        
-        output_file(total_list)
+    data = data.decode('utf-8')
+    csv_file = data.splitlines()
+
+    reader = csv.DictReader((row for row in csv_file if not row.startswith('#')), delimiter=';')
+    non_200 = (item for item in reader if 'OK' not in item['result'])
+    non_redirect = (item for item in non_200 if '307' not in item['result'])
+    non_ssl = (item for item in non_redirect if 'ssl' not in item['result'])
+
+    total_list = sorted(list(non_ssl), key=lambda item: item['parentname'])
+    
+    output_file(total_list)
 
 if __name__ == '__main__':
     main()
