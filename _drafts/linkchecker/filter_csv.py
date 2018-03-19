@@ -15,13 +15,9 @@ def output_file(items):
 
 def main():
     filename = sys.argv[1]
-    with open(filename, 'rb') as fd:
-        data = fd.read()
-
-    data = data.decode('utf-8')
-    csv_file = data.splitlines()
-
-    reader = csv.DictReader((row for row in csv_file if not row.startswith('#')), delimiter=';')
+    with open(filename, encoding='utf-8') as csv_file:
+        data = csv_file.readlines()
+    reader = csv.DictReader((row for row in data if not row.startswith('#')), delimiter=';')
     non_200 = (item for item in reader if 'OK' not in item['result'])
     non_redirect = (item for item in non_200 if '307' not in item['result'])
     non_ssl = (item for item in non_redirect if 'ssl' not in item['result'])

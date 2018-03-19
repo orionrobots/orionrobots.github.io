@@ -35,7 +35,7 @@ My degrees thing works, but it has the proviso that if the arms are not open far
 
 # What now?
 
-This seems to be all of the vehicles section in the Robo Center. There is a picture of 4 wheeler on the thing, but no four wheeler in the section - so far only the Tribot. I don't know it this could be expanded with a SWF presentation of something to add additional robots in for teaching purposes, and I know this has been mentioned by other blogs. Drawing your own digital instructions would probably involve using [LDraw](/wiki/ldraw "The LDraw Lego CAD System") at the moment, and LPub
+This seems to be all of the vehicles section in the Robo Center. There is a picture of 4 wheeler on the thing, but no four wheeler in the section - so far only the Tribot. I don't know it this could be expanded with a SWF presentation of something to add additional robots in for teaching purposes, and I know this has been mentioned by other blogs. Drawing your own digital instructions would probably involve using [LDraw](/wiki/ldraw_system "The LDraw Lego CAD System") at the moment, and LPub
   to create images from the LDraw instructions, then placing those into an SWF movie.
 
 I am really not entirely done with the Tribot. Although I will disassemble it to try the other tutorials, I will probably build it again to try some ideas of my own - it is not a bad simple little platform to play with and code on.

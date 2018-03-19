@@ -40,4 +40,4 @@ Do you think you have what it takes to beat these two youngsters? Who took first
 
 
 * Shannon has her own MicroMouse site at [The Mouse House](http://www.micromouse.me.uk). She suggests it needs updating, but that is because she is spending more time actually building bots.
-* There are more photos of Chloe, Shannon and all the MicroMouse robots at our <a href="http://orionrobots.co.uk/tiki-browse_gallery.php?galleryId=25">MicroMouse UK 2008 gallery</a>
+* There are more photos of Chloe, Shannon and all the MicroMouse robots at our <a href="/galleries/gallery-25-micromouse-2008">MicroMouse UK 2008 gallery</a>

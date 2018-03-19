@@ -5,10 +5,9 @@ date: 2006-08-22 09:17:48
 ---
 <p>In many computer languages, the programs come in a form known as "Source Code". This code is (mostly) human readable, but not directly usable by the computer.
 </p>
-<p>A compiler, which is often part of an <a class="wiki" href="/wiki/idetool.html" title="Integrated Development Environment">IDE</a>, takes this code, and performs a set of operations on the code to turn it into executable (runnable) software.
+<p>A compiler, which is often part of an <a class="wiki" href="/wiki/idetool" title="Integrated Development Environment">IDE</a>, takes this code, and performs a set of operations on the code to turn it into executable (runnable) software.
 </p>
-<p><img class="img-responsive" src="tiki-download_wiki_attachment.php?attId=13&amp;page=compile"/>
-</p>
+
 <p>It is worth dividing the lifecycle of a compiled piece of software between compile time and run time. Compile time refers to processes which occur during compilation, and thus never need to occur when the software is started. Run-time refers to operations which occur when the program has been compiled, and is now running. Run-time operations will occur every time the software is run, and compile-time operations will occur only when the software is compiled.
 </p>
 <p>This normally consists of a set of processes
