@@ -8,7 +8,7 @@ This is basically a "Common or garden" <a class="wiki" href="/wiki/motor.html" t
 It is operated by a <a class="wiki" href="/wiki/direct_current.html" title="Direct Current">Direct Current</a> and rotates in a direction set by the polarity of the current.
 
 ## Components of a DC Motor
-The basic design of a DC motor requires an outer <a class="wiki" href="/wiki/stator.html" title="The Stationary magnetic component of a motor or generator">stator</a> (static/stationary part) which has two or more permanent magnets, a holder for the rotor axle, and brushes to pass electricity to the rotor.
+The basic design of a DC motor requires an outer stator, a holder for the rotor axle, and brushes to pass electricity to the rotor.
 
 The rotor - rotating part has at least three electromagnets(more mean smoother operation) around a central axle.  The central axle also has a small ring with three(or more) contacts known as commutators (see title below).  As the motor rotates - the brushes on the stator connect with the commutator - and the motor changes polarity when the motor has turned - so the electromagnets polarities will change - this will attract them to the other stator magnet.
 
@@ -17,6 +17,21 @@ The rotor - rotating part has at least three electromagnets(more mean smoother o
 The demonstration two electromagnet design is simple, and has limited efficiency and stability - professional motors are often a great deal more complex than this.
 
 Carbon is commonly used to lubricate the brushes on the commutators - as it is conductive (under some circumstances) while also being fairly hard wearing and not as messy as oil.
+
+### Stator
+
+A DC motor or generator commonly has a static/stationary set of two or more permanent magnets or coils - these are referred to as the stator. 
+
+Depending on their design, they may actually be on the inside, or the outside of the motor.
+
+### Commutators
+
+Commutators are the curved copper plates around the armature of a DC Motor - with insulating material between them. They are also used in Generators, and some older switching systems(though those may have been replaced by solid state gear).
+
+These plates are in contact with the brushes which allow them to transmit power from the source to the coil windings.
+
+
+In a DC Motor, as the commutators move past the brushes their polarities change, therefore changing the polarity of the magnetic fields of the coils.
 
 ## Control Systems
 
@@ -37,12 +52,3 @@ If you are using motors on a device with ultrasonic sensors, the motors may also
 Standard DC motors are in no way geared, and this may mean that their output may be too fast with very low torque. You should probably gear them down a few times. This may be your problem if you attached your wheels directly to the motor shaft.
 
 <a class="wiki" href="/wiki/lego.html" title="The best known construction toy">Lego</a> have both geared, and non-geared motor varieties.
-
-## Commutators
-
-Commutators are the curved copper plates around the armature of a DC Motor - with insulating material between them. They are also used in Generators, and some older switching systems(though those may have been replaced by solid state gear).
-
-These plates are in contact with the brushes which allow them to transmit power from the source to the coil windings.
-
-
-In a DC Motor, as the commutators move past the brushes their polarities change, therefore changing the polarity of the magnetic fields of the coils.
