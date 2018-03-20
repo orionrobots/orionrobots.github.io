@@ -11,7 +11,7 @@ def output_file(items):
         autoescape=select_autoescape(['html', 'xml'])
     )
     template = env.get_template('output_template.html')
-    print(template.render(items=items, count=len(items)).encode('utf-8'))
+    print(template.render(items=items, count=len(items)))
 
 def main():
     filename = sys.argv[1]
