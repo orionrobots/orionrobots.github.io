@@ -56,7 +56,7 @@ This simple circuit/concept can be easily demonstrated, with a prop that takes m
 
 <h2  id="Building_it">Building it</h2>
 
-There is only a little soldering here, and if you have built the <a class="wiki" href="{% post_url 2004-11-05-simple-parallel-port-led.md %}" title="How to attach and program an LED to the parallel port on a PC">Simple Parallel Port LED Board</a>, you may not need to do any soldering at all. Note though, because of how little there is, the soldering will be <a class="wiki" href="/wiki/freeform" title="FreeForm">Freeform</a>.
+There is only a little soldering here, and if you have built the <a class="wiki" href="{% post_url 2004-11-05-simple-parallel-port-led %}" title="How to attach and program an LED to the parallel port on a PC">Simple Parallel Port LED Board</a>, you may not need to do any soldering at all. Note though, because of how little there is, the soldering will be <a class="wiki" href="/wiki/freeform" title="FreeForm">Freeform</a>.
 
 You need to take the <a class="wiki" href="/wiki/led" title="Light Emitting Diode">LED</a> and identify the <a class="wiki" href="/wiki/anode" title="The positive electrode">Anode</a> - this is the cable on the <strong>opposite side</strong> to the flat edge. Using the clamp to hold the cables in place, solder the resistor to this lead.
 
