@@ -3,8 +3,6 @@ layout: page
 title: LDraw System
 date: 2006-12-12 00:08:49
 ---
-{:toc}
-
 <h1 id="Contents">Contents</h1>
 <p></p><div id="toc"><div id="toctitle"><h3>Table of contents</h3></div><ul class="toc"><li><a class="link" href="#Contents">Contents</a>
 </li><li><a class="link" href="#Background">Background</a>
@@ -53,9 +51,7 @@ date: 2006-12-12 00:08:49
 </p>
 <h3 id="The_conditional_Line">The conditional Line</h3>
 <p>Explained basically, it can be used for curved faces and is expressed with 4 points, 2 for the actual line, and 2 control points. It is only drawn when one control point is in front, and one behind the actual line. The idea being, that you would only see the line at the outside of the curve, and that the facets are not lined as they would be for a part that is intended to be faceted.
-</p>
-<p><img class="img-responsive" src="tiki-download_wiki_attachment.php?attId=18&amp;page=LDraw"/>
-</p>
+
 <h1 id="Instructions">Instructions</h1>
 <p>LDraw can be used to create step by step instructions for a model, which allows other <a class="wiki" href="/wiki/lego.html" title="The best known construction toy">Lego</a> builder to build it, and possibly improve on it.
 </p>
@@ -70,13 +66,28 @@ date: 2006-12-12 00:08:49
 <p>Community authored parts may not even be in the unofficial list, so do ask. Users may have created them for their own reasons, and not feel they are good enough for general release. If you ask on the list, someone may respond with a file you can use.
 </p>
 <h1 id="Links">Links</h1>
-<ul><li> <a class="wiki" href="tiki-directory_redirect.php?siteId=58" rel="">The LDraw Foundation</a> - This organisation are the custodians of Lego related tools and software - and an essential hub for the <a class="wiki" href="/wiki/lego.html" title="The best known construction toy">Lego</a> <a class="wiki" href="/wiki/cad.html" title="Computer Aided Design">CAD</a> community.
+<ul><li> <a class="wiki" href="http://ldraw.org/">The LDraw Foundation</a> - This organisation are the custodians of Lego related tools and software - and an essential hub for the <a class="wiki" href="/wiki/lego.html" title="The best known construction toy">Lego</a> <a class="wiki" href="/wiki/cad.html" title="Computer Aided Design">CAD</a> community.
 </li><li> <a class="wiki" href="/wiki/lego_specifications.html" title="Lego Specifications">More Lego Specifications</a>
-</li><li> <a class="wiki" href="tiki-directory_redirect.php?siteId=59" rel="">LDraw File Format Specification</a>
+</li><li> <a class="wiki" href="http://www.ldraw.org/documentation/ldraw-org-file-format-standards.html">LDraw File Format Specification</a>
 </li><li> <a class="wiki" href="/wiki/lugnet.html" title="Lego Users Group Network">Lugnet</a>
-</li></ul><p>
-</p>
-<table class="normal" id="fancytable_1"> <thead> <tr> <th>Some Recommendations</th> </tr> </thead> <tbody> <tr> <td class="odd"> <a class="internal" href="http://www.amazon.co.uk/exec/obidos/ASIN/1931836760/orionrobots-21" target="_blank"> <img class="img-responsive" src="image43"/> </a> </td> <td class="odd"> <a href="http://www.amazon.co.uk/exec/obidos/ASIN/1931836760/orionrobots-21" rel="external" target="_blank">Lego Software Power Tools Including Ldraw, Mlcad and Lpub</a> </td> <td class="odd"> There is a large plethora of <a class="wiki" href="/wiki/lego.html" title="The best known construction toy">Lego</a> related software. This book helps you navigate, choose and use this software effectively. As it was written by the author of LSynth - Kevin Clague and two other Lego fanatics - there is no reason to doubt its usefulness.</td> </tr> <tr> <td class="even"></td> <td class="even"> <a class="wiki" href="tiki-directory_redirect.php?siteId=58" rel="">The LDraw Foundation</a> </td> <td class="even"> This organisation are the custodians of Lego related tools and software - and an essential hub for the <a class="wiki" href="/wiki/lego.html" title="The best known construction toy">Lego</a> <a class="wiki" href="/wiki/cad.html" title="Computer Aided Design">CAD</a> community.</td> </tr> <tr> <td class="odd"></td> <td class="odd"> <a class="wiki" href="tiki-directory_redirect.php?siteId=9" rel="">Lugnet</a> </td> <td class="odd"> <a class="wiki" href="/wiki/lugnet.html" title="Lego Users Group Network">Lugnet</a> is the primary discussion area for all things <a class="wiki" href="/wiki/lego.html" title="The best known construction toy">Lego</a>, and have a number of forums for discussing <a class="wiki" href="/wiki/lego.html" title="The best known construction toy">Lego</a> <a class="wiki" href="/wiki/cad.html" title="Computer Aided Design">CAD</a>.</td> </tr> </tbody> </table>
-<p>
-<br/>{AMAZONSELFOPTLINK(pub=&gt;orionrobots-21)/}
-</p>
+</li></ul>
+
+# Some Recommendations
+
+<table class="normal" id="fancytable_1">
+<tr>
+    <td><iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=GB&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=orionrobots-21&marketplace=amazon&region=GB&placement=1931836760&asins=1931836760&linkId=9390cf365ef9c1a82c81181fe33ad3fb&show_border=true&link_opens_in_new_window=true"></iframe></td>
+    <td>Lego Software Power Tools Including Ldraw, Mlcad and Lpub</td>
+    <td> There is a large plethora of <a class="wiki" href="/wiki/lego.html" title="The best known construction toy">Lego</a> related software. This book helps you navigate, choose and use this software effectively. As it was written by the author of LSynth - Kevin Clague and two other Lego fanatics - there is no reason to doubt its usefulness.</td>
+</tr>
+<tr>
+    <td></td> 
+    <td> <a class="wiki" href="http://ldraw.org/">The LDraw Foundation</a> </td>
+    <td> This organisation are the custodians of Lego related tools and software - and an essential hub for the <a class="wiki" href="/wiki/lego.html" title="The best known construction toy">Lego</a> <a class="wiki" href="/wiki/cad.html" title="Computer Aided Design">CAD</a> community.</td>
+</tr>
+<tr>
+    <td></td>
+    <td> <a class="wiki" href="https://www.lugnet.com">Lugnet</a> </td>
+    <td> <a class="wiki" href="/wiki/lugnet.html" title="Lego Users Group Network">Lugnet</a> is the primary discussion area for all things <a class="wiki" href="/wiki/lego.html" title="The best known construction toy">Lego</a>, and have a number of forums for discussing <a class="wiki" href="/wiki/lego.html" title="The best known construction toy">Lego</a> <a class="wiki" href="/wiki/cad.html" title="Computer Aided Design">CAD</a>.</td>
+</tr>
+</table>
