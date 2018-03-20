@@ -9,7 +9,7 @@ date: 2004-11-14 20:46:28
 </p>
 <p>Any tips, mods or ideas you can think of to do with it can go here.
 </p>
-[Broken Cybot Repairs](/2008/05/05/broken-cybot-repairs)
+[Broken Cybot Repairs]({% post_url 2008-05-04-broken-cybot-repairs %})
 </p>
 <p><a class="wiki" href="/wiki/the_cybot_infra_red_protocol.html" title="The Cybot Infra Red Protocol">The Cybot Infra Red Protocol</a>
 </p>

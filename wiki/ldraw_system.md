@@ -3,6 +3,8 @@ layout: page
 title: LDraw System
 date: 2006-12-12 00:08:49
 ---
+{:toc}
+
 <h1 id="Contents">Contents</h1>
 <p></p><div id="toc"><div id="toctitle"><h3>Table of contents</h3></div><ul class="toc"><li><a class="link" href="#Contents">Contents</a>
 </li><li><a class="link" href="#Background">Background</a>
