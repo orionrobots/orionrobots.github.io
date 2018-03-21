@@ -20,7 +20,7 @@ All manner of interesting vacuum tubes came out, things like pentodes and so on 
 When used in early computing and robotics, they were a little unreliable, and needed to be manually changed fairly often. Computer facilities were staffed by people running around like ants trying to keep them working. Because they were based on a mixture of Valves and <a class="wiki" href="/wiki/electronic_relay.html" title="An electrically activated switch">Relays</a>, then bugs really meant bugs - insects that got in and shorted circuits, or stopped relay levers moving. In that volume they also required huge amounts of power and heat.
 
 An Early computer - based on Valves - This is the Tube based memory of an IBM 701 Defence Calculator in 1951. It is capable of storing vastly less than your mobile phone and probably has a million times less computing power than you carry on you most days. Click to enlarge.
-<img class="img-responsive" src="galleries/gallery-1-common-images/254-tubes.jpg"/> 
+<img class="img-responsive" src="/galleries/gallery-1-common-images/254-tubes.jpg"/> 
 
 # Why do audiophiles like Valves?
 

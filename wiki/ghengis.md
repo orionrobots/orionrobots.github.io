@@ -11,4 +11,4 @@ It has an array of heat sensors, and is built up with behavioural layers from a 
 
 Ghengis sensing behavioru is based on movement. When it senses movement, it will turn towards it, and walk towards the stimulus.
 
-<img class="img-responsive" src="galleries/gallery-1-common-images/35-ghengis.jpg"/>
+<img class="img-responsive" src="/galleries/gallery-1-common-images/35-ghengis.jpg"/>
