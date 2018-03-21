@@ -1,13 +1,13 @@
 ---
 layout: page
 title: LED
-tags: robot, LED, hacking, BEAM, sensor, CCD, robot building
+tags: robot, led, hacking, beam, sensor, ccd, robot building
 date: 2005-09-10 14:21:41
 ---
 <p>An LED is a special version of a <a class="wiki" href="/wiki/diode.html" title="Diode">diode</a> which emits light. Although nearly every PN Junction emits, and is sensitive to light, these junctions are specially mastered to emit more.
 </p>
 <p>(Click to enlarge)
-<img class="img-responsive" src="galleries/gallery-1-common-images/131-led.jpg"/>
+<img class="img-responsive" src="/galleries/gallery-1-common-images/131-led.jpg"/>
 </p>
 <p>A FLED - Flashing Light Emitting diode is a special version of these which has a built in flasher circuit. You may find these which flash in one polarity, and light continuously in the other. They can actually be used to replace whole sections of small control circuits because of their unique properties.
 </p>
@@ -21,7 +21,7 @@ date: 2005-09-10 14:21:41
 <br/>Their use in small devices however - has been undone by the march of the <a class="wiki" href="/wiki/lcd.html" title="Liquid Crystal Display">LCD</a>. However - the oLED - organic LED may bring back the crown, as new technology may allow people to literally print off custom displays with a few mods to a printer, while offering far greater density than LED's normally could. As OLEDs may turn out far cheaper, as well as having much faster response time than <a class="wiki" href="/wiki/lcd.html" title="Liquid Crystal Display">LCD</a> or Plasma - they may replace the technology in screens. They also do not need backlighting, and would be flexible - giving TFT devices a kick in the teeth. Luckily for <a class="wiki" href="/wiki/lcd.html" title="Liquid Crystal Display">LCD</a> manufacturers - it may be a few years before this technology is commonly available.
 </p>
 <h1 id="LED_Projects">LED Projects</h1>
-<p><a class="wiki" href="{% 2004-11-05-simple-parallel-port-led %}" title="How to attach and program an LED to the parallel port on a PC">Building A Simple Parallel Port LED Board</a>
+<p><a class="wiki" href="{% post_url 2004-11-05-simple-parallel-port-led %}" title="How to attach and program an LED to the parallel port on a PC">Building A Simple Parallel Port LED Board</a>
 <br/><a class="wiki" href="/wiki/interfacing_an_led_to_an_rcx_port.html" title="Interfacing an LED to an RCX Port">Interfacing an LED to an RCX Port</a>
 <br/><a class="wiki" href="/wiki/and.html" title="AND">Building a demonstration AND Gate</a>
 </p>
