@@ -70,7 +70,7 @@ date: 2005-08-28 00:44:55
 </p>
 <h2 id="LSynth_Generator">LSynth Generator</h2>
 <p>
-<br/>You are going to need this feature for <a class="wiki" href="/wiki/pneumatic.html" title="Use of air to operate and power actuators">pneumatic</a> tubes, or electric cables to motors and the <a class="wiki" href="/wiki/lego_rcx.html" title="The Lego RCX">Lego RCX</a>. It is frustrating sometimes, but the results are worth the effort.
+<br/>You are going to need this feature for <a class="wiki" href="/wiki/pneumatic.html" title="Use of air to operate and power actuators">pneumatic</a> tubes, or electric cables to motors and the <a class="wiki" href="/wiki/rcx.html" title="The Lego RCX">Lego RCX</a>. It is frustrating sometimes, but the results are worth the effort.
 </p>
 <p>Remember that the generator guides work in one direction. Before you generate- check they are all going in the correct direction. Again- their orientation also matters, otherwise you may get twists in cables like the Electric ones.
 </p>

@@ -7,7 +7,7 @@ date: 2005-03-01 11:11:37
 </p>
 <p>It is available from the Commotion Group, <a class="wiki" href="/wiki/bricklink.html" title="Lego Trading Commnity">Bricklink</a> and other <a class="wiki" href="/wiki/dacta.html" title="DACTA">Dacta</a> distributors.
 </p>
-<p>Its part number is <a class="wiki" href="tiki-directory_redirect.php?siteId=38" rel="">32342</a> and it comes in set number <a class="wiki" href="tiki-directory_redirect.php?siteId=39" rel="">9916-1</a> (as well as <a class="wiki" href="tiki-directory_redirect.php?siteId=40" rel="">9685</a> Green Car Set and <a class="wiki" href="tiki-directory_redirect.php?siteId=41" rel="">9684</a> Renewable Energy Set.
+<p>Its part number is <a class="wiki" href="http://www.peeron.com/inv/parts/32342">32342</a> and it comes in set number <a class="wiki" href="http://www.peeron.com/inv/sets/9916-1">9916-1</a> (as well as <a class="wiki" href="http://www.peeron.com/inv/sets/9685-1">9685</a> Green Car Set and <a class="wiki" href="http://www.peeron.com/inv/sets/9684-1">9684</a> Renewable Energy Set.
 </p>
 <p>Set information from <a class="wiki" href="/wiki/peeron.html" title="Online database of Lego Sets and Parts">Peeron</a>.
 </p>
@@ -23,7 +23,5 @@ date: 2005-03-01 11:11:37
 </li></ul><p>
 <br/>It is not waterproof - so precautions should be taken.
 </p>
-<p><a class="wiki" href="tiki-directory_redirect.php?siteId=42" rel="">More Info</a>
-</p>
-<p><img class="img-responsive" src="image44"/>
+<p><img class="img-responsive" src="/galleries/gallery-1-common-images/44-lego32342capacitor.jpg"/>
 </p>

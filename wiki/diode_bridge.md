@@ -27,7 +27,7 @@ The first of these is found in just about every power adaptor (wall wart) you wi
 
 ## Orientations
 
-Breifly examining the latter, you must be aware that there is a small voltage drop accross each diode of around 0.6v giving a net result of a 1.2v drop. In a 9v application, that may bring the voltage below an acceptable level. The one place it is recommended is if you are building custom <a class="wiki" href="/wiki/lego_rcx.html" title="The Lego RCX">Lego RCX</a> devices, which may need to be connected at multiple orientations.
+Breifly examining the latter, you must be aware that there is a small voltage drop accross each diode of around 0.6v giving a net result of a 1.2v drop. In a 9v application, that may bring the voltage below an acceptable level. The one place it is recommended is if you are building custom <a class="wiki" href="/wiki/rcx.html" title="The Lego RCX">Lego RCX</a> devices, which may need to be connected at multiple orientations.
 
 RCX output power circuit - click to Enlarge
 <img class="img-responsive" src="/galleries/gallery-1-common-images/66-rcxoutputpower.png"/>

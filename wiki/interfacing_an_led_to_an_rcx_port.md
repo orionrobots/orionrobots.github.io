@@ -3,7 +3,7 @@ layout: page
 title: Interfacing an LED to an RCX Port
 date: 2006-07-12 12:35:01
 ---
-<p>Using an <a class="wiki" href="/wiki/led.html" title="Light Emitting Diode">LED</a> with the <a class="wiki" href="/wiki/lego_rcx.html" title="The Lego RCX">Lego RCX</a>, or the <a class="wiki" href="/wiki/cybermaster.html" title="CyberMaster">CyberMaster</a> is actually not as difficult as it sounds.
+<p>Using an <a class="wiki" href="/wiki/led.html" title="Light Emitting Diode">LED</a> with the <a class="wiki" href="/wiki/rcx.html" title="The Lego RCX">Lego RCX</a>, or the <a class="wiki" href="/wiki/cybermaster.html" title="CyberMaster">CyberMaster</a> is actually not as difficult as it sounds.
 </p>
 <p>Before building anything, please ensure you (and in the case of younger readers, a parent or guardian) have read <a class="wiki" href="/wiki/robot_building_safety.html" title="Building robots can be dangerous - tips to help your safety">Robot Building Safety</a>, and that you have both the correct safety gear, and Robot Building Tools to perform this. All our readers are very strongly advised not to proceed if you cannot perform this safely.
 </p>

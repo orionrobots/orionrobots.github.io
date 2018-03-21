@@ -10,7 +10,7 @@ layout: post
 This is theoretically possible although I have not seen it or done it yet.
 
 For short range you could go via serial wire communications - using ports on the
-[Lego RCX](/wiki/lego_rcx).
+[Lego RCX](/wiki/rcx).
 
 For long range - you could:
 

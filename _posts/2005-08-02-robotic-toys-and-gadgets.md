@@ -15,7 +15,7 @@ There are a number of easily available robot gadgets, kits and toys on the marke
 * [Megabyte Robot Dog]({% post_url 2004-11-14-megabyte-robot-dog %})
 * [Sony Aibo](/wiki/aibo)
 * [Sony Qrio](/wiki/qrio)
-* [Lego RCX](/wiki/lego_rcx)
+* [Lego RCX](/wiki/rcx)
 * [Lego CyberMaster](/wiki/cybermaster)
 * [Cybot](/wiki/cybot)
 * [Teddie Ruxpin](/wiki/teddie_ruxpin)

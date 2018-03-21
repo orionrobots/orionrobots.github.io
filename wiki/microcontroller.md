@@ -16,7 +16,7 @@ date: 2006-03-21 18:10:58
 </li><li> 8051 - A classic controller
 </li><li> <a class="wiki" href="/wiki/oopic.html" title="OOPic">OOPic</a> - The PIC dressed up with Object Oriented firmware
 </li><li> Basic Stamp - A PIC dressed up with a basic interpreter, very popular
-</li><li> <a class="wiki" href="/wiki/lego_rcx.html" title="The Lego RCX">Lego RCX</a> - The center of the <a class="wiki" href="/wiki/ris.html" title="The Lego Robotic Invention System">RIS</a>, based on the Hitachi H8
+</li><li> <a class="wiki" href="/wiki/rcx.html" title="The Lego RCX">Lego RCX</a> - The center of the <a class="wiki" href="/wiki/ris.html" title="The Lego Robotic Invention System">RIS</a>, based on the Hitachi H8
 </li><li> <a class="wiki" href="/wiki/lego.html" title="The best known construction toy">Lego</a> <a class="wiki" href="/wiki/cybermaster.html" title="CyberMaster">CyberMaster</a> - The radio controlled predecessor of the <a class="wiki" href="/wiki/rcx.html" title="The Lego Robot Command Explorer">RCX</a>
 </li><li> <a class="wiki" href="/wiki/xport.html" title="A Gameboy Advance based alternative to the Lego RCX">XPort</a> - An interesting Nintendo gameboy advanced controller solution
 </li><li> <a class="wiki" href="/wiki/pc104.html" title="PC104">PC104</a> - A standard in tiny PC based computing.

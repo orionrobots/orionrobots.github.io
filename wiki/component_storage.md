@@ -12,7 +12,7 @@ date: 2004-11-14 21:34:47
 <p>First - I would advise anyone to go to IKEA, and get some adaptable shelving - IVAR is probably your best bet. Make sure that you plan what space you have. Try to make sure you have a display shelf, some shelves for semi-finished jobs (doubling up as a movable project board as IVAR panels are fairly easily moved), and then plenty of space underneath.
 </p>
 <p>You then fill each of the spaces with one of the following:
-<br/>Plastic Storage bins - preferrably transparent - these are to hold larger items, including big motors, the <a class="wiki" href="/wiki/lego_rcx.html" title="The Lego RCX">Lego RCX</a> and larger Lego blocks. Label them up and slide them in. Stackable ones are great - but you may not need them if you think through your IVAR design.
+<br/>Plastic Storage bins - preferrably transparent - these are to hold larger items, including big motors, the <a class="wiki" href="/wiki/rcx.html" title="The Lego RCX">Lego RCX</a> and larger Lego blocks. Label them up and slide them in. Stackable ones are great - but you may not need them if you think through your IVAR design.
 </p>
 <p>Component/Fishing Tackle sorter trays - I used these for a long time, and then you can compartmentalise your parts, and see wat you are looking for at a glance. This works as long as you do not have too many classifications to file in your storage.
 </p>

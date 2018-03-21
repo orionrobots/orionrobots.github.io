@@ -7,4 +7,21 @@ date: 2005-01-18 16:03:33
 </p>
 <p>We have here SI and imperial references. Remember that these figures may vary slightly between items - and have been somewhat averaged.
 </p>
-<table class="normal" id="fancytable_1"> <thead> <tr> <th></th> <th> Large cylinder </th> <th> Small cylinder</th> </tr> </thead> <tbody> <tr> <td class="odd">Part Number </td> <td class="odd"> 2793 </td> <td class="odd"> x189</td> </tr> <tr> <td class="even">Bore diameter inches(mm) </td> <td class="even"> .472(11.98) </td> <td class="even"> .229(5.827)</td> </tr> <tr> <td class="odd">Ram diameter inches(mm) </td> <td class="odd"> .196(4.953) </td> <td class="odd"> .125(3.175)</td> </tr> <tr> <td class="even">Stroke inches(mm) </td> <td class="even"> 1.101(27.965) </td> <td class="even"> .595(15.113)</td> </tr> <tr> <td class="odd"><strong>Extend</strong></td> </tr> <tr> <td class="even">Area sq. in.(sq. mm) </td> <td class="even"> .175(112.903) </td> <td class="even"> .041(26.451)</td> </tr> <tr> <td class="odd">Force @ 50 psi in lbs(kg) </td> <td class="odd"> 8.75(3.969) </td> <td class="odd"> 2.06(0.934)</td> </tr> <tr> <td class="even">Force @ 10 psi in lbs(kg) </td> <td class="even"> 1.75(0.794) </td> <td class="even"> .41(0.186)</td> </tr> <tr> <td class="odd">Displacement in cu. in.(ml) </td> <td class="odd"> .193(3.1627) </td> <td class="odd"> .025(0.4097)</td> </tr> <tr> <td class="even"><strong>Retract</strong></td> </tr> <tr> <td class="odd">Area sq. in.(sq. mm) </td> <td class="odd"> .145(93.5482) </td> <td class="odd"> .029(18.7096)</td> </tr> <tr> <td class="even">Force @ 50 psi in lbs(kg) </td> <td class="even"> 7.24(3.2840) </td> <td class="even"> 1.45(0.6577)</td> </tr> <tr> <td class="odd">Force @ 10 psi in lbs(kg) </td> <td class="odd"> 1.45(0.6577) </td> <td class="odd"> .29(0.1315)</td> </tr> <tr> <td class="even">Displacement in cu. in.(ml) </td> <td class="even"> .159(2.605) </td> <td class="even"> .017(0.2786)</td> </tr> <tr> <td class="odd"></td> <td class="odd"> <a class="internal" href="browseimage151"> <img class="img-responsive" src="image151&amp;thumb=1"/> </a> </td> <td class="odd"> <a class="internal" href="browseimage152"> <img class="img-responsive" src="image152&amp;thumb=1"/> </a> </td> </tr> </tbody> </table>
+
+|                             | Large cylinder | Small cylinder |
+|---------------------------- |----------------|----------------|
+| Part Number                 | 2793           | x189           |
+| Bore diameter inches(mm)    | .472(11.98)    | .229(5.827)    |
+| Ram diameter inches(mm)     | .196(4.953)    | .125(3.175)    |
+| Stroke inches(mm)           | 1.101(27.965)  | .595(15.113)   |
+| <strong>Extend</strong>     |                |                |
+| Area sq. in.(sq. mm)        | .175(112.903)  | .041(26.451)   |
+| Force @ 50 psi in lbs(kg)   | 8.75(3.969)    | 2.06(0.934)    |
+| Force @ 10 psi in lbs(kg)   | 1.75(0.794)    | .41(0.186)     |
+| Displacement in cu. in.(ml) | .193(3.1627)   | .025(0.4097)   |
+| <strong>Retract</strong>    |                |                |
+| Area sq. in.(sq. mm)        | .145(93.5482)  | .029(18.7096)  |
+| Force @ 50 psi in lbs(kg)   | 7.24(3.2840)   | 1.45(0.6577)   |
+| Force @ 10 psi in lbs(kg)   | 1.45(0.6577)   | .29(0.1315)    |
+| Displacement in cu. in.(ml) | .159(2.605)    | .017(0.2786)   |
+| | <img class="img-responsive" src="/galleries/gallery-1-common-images/151-2793c01.jpg"/> | <img class="img-responsive" src="/galleries/gallery-1-common-images/152-x189c01.jpg"/>      |

@@ -18,7 +18,7 @@ date: 2007-01-01 15:49:24
 <p>If you would like to use GCC on your system, it is highly recommended that you do not purchase a <a class="wiki" href="/wiki/pic.html" title="PIC">PIC</a> and look around at alternatives like the Atmel AVR, or the 8051.
 </p>
 <h1  id="Related">Related</h1>
-<ul><li> <a class="wiki" href="/wiki/nqc.html" title="Not Quite C - A Lego PBrick Programming Language">NQC</a> - Not Quite C - a C like programming system for the <a class="wiki" href="/wiki/lego_rcx.html" title="The Lego RCX">Lego RCX</a>
+<ul><li> <a class="wiki" href="/wiki/nqc.html" title="Not Quite C - A Lego PBrick Programming Language">NQC</a> - Not Quite C - a C like programming system for the <a class="wiki" href="/wiki/rcx.html" title="The Lego RCX">Lego RCX</a>
 </li><li> <a class="wiki" href="/wiki/brickos.html" title="An entire Embedded OS for the RCX">BrickOS</a> - Another way to program C with a Unix like OS for the <a class="wiki" href="/wiki/rcx.html" title="The Lego Robot Command Explorer">RCX</a>
 </li></ul><p>
 </p>

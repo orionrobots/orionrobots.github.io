@@ -9,5 +9,5 @@ date: 2005-07-29 17:04:22
 </p>
 <p>They have been established since 1861, admitting its first students four years later. Its mission is to stand at the forefront of technology and science, both in terms of education, research and commercial exploitation.
 </p>
-<p>A lot of new robot builders have come about as a direct result of the <a class="wiki" href="/wiki/lego.html" title="The best known construction toy">Lego</a> Robotics program, an undergraduate project, which spawned the <a class="wiki" href="/wiki/lego_rcx.html" title="The Lego RCX">Lego RCX</a> and <a class="wiki" href="/wiki/mindstorms.html" title="A Robotic construction toy system from Lego">Mindstorms</a> range.
+<p>A lot of new robot builders have come about as a direct result of the <a class="wiki" href="/wiki/lego.html" title="The best known construction toy">Lego</a> Robotics program, an undergraduate project, which spawned the <a class="wiki" href="/wiki/rcx.html" title="The Lego RCX">Lego RCX</a> and <a class="wiki" href="/wiki/mindstorms.html" title="A Robotic construction toy system from Lego">Mindstorms</a> range.
 </p>

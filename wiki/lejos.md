@@ -3,7 +3,7 @@ layout: page
 title: Lejos
 date: 2006-05-30 23:41:41
 ---
-<p>LeJOS is a replacement <a class="wiki" href="/wiki/os.html" title="An Operating System">OS</a> designed for programming the <a class="wiki" href="/wiki/lego_rcx.html" title="The Lego RCX">Lego RCX</a> in a Java environment.
+<p>LeJOS is a replacement <a class="wiki" href="/wiki/os.html" title="An Operating System">OS</a> designed for programming the <a class="wiki" href="/wiki/rcx.html" title="The Lego RCX">Lego RCX</a> in a Java environment.
 </p>
 <p>This is more advanced than the standard firmware, which uses a bytecode interpreter anyway. It gives more control, and the ability to use Java code for those who are comfortable with this. C/C++ people should consider <a class="wiki" href="/wiki/brickos.html" title="An entire Embedded OS for the RCX">BrickOS</a>.
 </p>

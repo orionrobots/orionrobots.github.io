@@ -4,7 +4,7 @@ title: Using The RCX With Stepper Motors
 date: 2005-10-03 15:44:31
 ---
 <h1 id="Introduction">Introduction</h1>
-<p>This little tutorial applies not just to the <a class="wiki" href="/wiki/lego_rcx.html" title="The Lego RCX">Lego RCX</a>, but should in fact serve any other application where you would like to convert <a class="wiki" href="/wiki/pwm.html" title="Pulse Width Modulation">PWM</a> signals to drive stepper motors. It is a bit of a kludge, and you may be better off using a microcontroller with a digital output to send step signals. In some applications, including the <a class="wiki" href="/wiki/lego_rcx.html" title="The Lego RCX">Lego RCX</a>, <a class="wiki" href="/wiki/pwm.html" title="Pulse Width Modulation">PWM</a> outputs is all you might have free.
+<p>This little tutorial applies not just to the <a class="wiki" href="/wiki/rcx.html" title="The Lego RCX">Lego RCX</a>, but should in fact serve any other application where you would like to convert <a class="wiki" href="/wiki/pwm.html" title="Pulse Width Modulation">PWM</a> signals to drive stepper motors. It is a bit of a kludge, and you may be better off using a microcontroller with a digital output to send step signals. In some applications, including the <a class="wiki" href="/wiki/rcx.html" title="The Lego RCX">Lego RCX</a>, <a class="wiki" href="/wiki/pwm.html" title="Pulse Width Modulation">PWM</a> outputs is all you might have free.
 </p>
 <p>Please click any image for an enlarged view.
 </p>
@@ -18,7 +18,7 @@ date: 2005-10-03 15:44:31
 <p>The coils normally have a common connection, and multiple signal connections.  It is by signalling those in sequence, that you can move the motor.  To reverse the motor, you reverse the sequence - "not the polarity".
 </p>
 <h1 id="How_to_do_it">How to do it</h1>
-<p>To get outputs from the <a class="wiki" href="/wiki/lego_rcx.html" title="The Lego RCX">Lego RCX</a> to do this, you need to bear a few things in mind.  Check the voltage requirements of the Stepper, because of the control circuitry, and its requirements - you will need an external power supply (9-12v). This supply will need to be constant. We could not really use a sensor port - as although this may be enough for the control circuits, it would not be able to safely deliver the current required by the coils of the stepper. So we may need to use another output port. The problem being that even at full power- it is still PWM, so you will require a smoothing cap, and a voltage regulator for the control circuits.
+<p>To get outputs from the <a class="wiki" href="/wiki/rcx.html" title="The Lego RCX">Lego RCX</a> to do this, you need to bear a few things in mind.  Check the voltage requirements of the Stepper, because of the control circuitry, and its requirements - you will need an external power supply (9-12v). This supply will need to be constant. We could not really use a sensor port - as although this may be enough for the control circuits, it would not be able to safely deliver the current required by the coils of the stepper. So we may need to use another output port. The problem being that even at full power- it is still PWM, so you will require a smoothing cap, and a voltage regulator for the control circuits.
 </p>
 <p><img class="img-responsive" src="image139"/>
 </p>

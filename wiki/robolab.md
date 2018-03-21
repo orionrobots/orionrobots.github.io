@@ -3,7 +3,7 @@ layout: page
 title: Robolab
 date: 2005-10-06 14:43:22
 ---
-<p>Robolab is a less commonly used method to program the <a class="wiki" href="/wiki/lego_rcx.html" title="The Lego RCX">Lego RCX</a>.
+<p>Robolab is a less commonly used method to program the <a class="wiki" href="/wiki/rcx.html" title="The Lego RCX">Lego RCX</a>.
 <br/>It is favoured by some education establishments, and builders. It is distributed by <a class="wiki" href="/wiki/dacta.html" title="DACTA">DACTA</a>.
 </p>
 <p>It takes the visual concepts of the RCX Code system which comes as standard with the <a class="wiki" href="/wiki/mindstorms.html" title="A Robotic construction toy system from Lego">Mindstorms</a> <a class="wiki" href="/wiki/ris.html" title="The Lego Robotic Invention System">RIS</a>, and builds a more versatile visual language.

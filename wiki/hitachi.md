@@ -5,7 +5,7 @@ date: 2005-03-17 15:29:16
 ---
 <p>Hitachi are probably best known for their consumer electronics arm, although they do have a strong presence in <a class="wiki" href="/wiki/robotic.html" title="Robotic">Robotics</a>.
 </p>
-<p>They are responsible for a number of <a a="" brain="" class="wiki" for="" href="/wiki/microcontroller.html" robot="" title="A programmable digital controller (or ">Microcontrollers</a> including the one powering the <a class="wiki" href="/wiki/lego_rcx.html" title="The Lego RCX">Lego RCX</a>.
+<p>They are responsible for a number of <a a="" brain="" class="wiki" for="" href="/wiki/microcontroller.html" robot="" title="A programmable digital controller (or ">Microcontrollers</a> including the one powering the <a class="wiki" href="/wiki/rcx.html" title="The Lego RCX">Lego RCX</a>.
 </p>
 <p>They have now also surfaced as a builder of robots, as is highlighted in my <a href="http://orionrobots.co.uk/-- review bloglink --?blogId=1&amp;postId=10" rel="external" target="_blank">Blog Artical</a> on there recent contribution.
 </p>

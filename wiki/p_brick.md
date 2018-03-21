@@ -6,7 +6,7 @@ date: 2005-01-14 14:00:45
 <p>P-Brick is an acronym for a programmable brick. <a class="wiki" href="/wiki/lego.html" title="The best known construction toy">Lego</a> do a number of these:
 </p>
 <ul><li> <a class="wiki" href="/wiki/spybotics.html" title="Lego Programmable robot kits">SpyBotics</a>
-</li><li> <a class="wiki" href="/wiki/lego_rcx.html" title="The Lego RCX">Lego RCX</a>
+</li><li> <a class="wiki" href="/wiki/rcx.html" title="The Lego RCX">Lego RCX</a>
 </li><li> Lego Scout
 </li><li> <a class="wiki" href="/wiki/cybermaster.html" title="CyberMaster">CyberMaster</a>
 </li></ul><p>

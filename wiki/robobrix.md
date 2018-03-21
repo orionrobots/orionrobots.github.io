@@ -9,5 +9,5 @@ date: 2004-12-31 19:57:53
 </p>
 <p>They are available for purchase currently at their home page - <a href="http://www.robobrix.com/" rel="external" target="_blank">http://www.robobrix.com/</a> via The Robot Store.
 </p>
-<p>They require soldering and some assembly. At their price they do compare fairly favourably with other <a class="wiki" href="/wiki/robot_kits.html" title="Robot Kits">Robot Kits</a>, and in terms of electronic expandability beat the <a class="wiki" href="/wiki/lego_rcx.html" title="The Lego RCX">Lego RCX</a> hands down. If you already have <a class="wiki" href="/wiki/lego.html" title="The best known construction toy">Lego</a> and require a controller - I recommend looking at these first.
+<p>They require soldering and some assembly. At their price they do compare fairly favourably with other <a class="wiki" href="/wiki/robot_kits.html" title="Robot Kits">Robot Kits</a>, and in terms of electronic expandability beat the <a class="wiki" href="/wiki/rcx.html" title="The Lego RCX">Lego RCX</a> hands down. If you already have <a class="wiki" href="/wiki/lego.html" title="The best known construction toy">Lego</a> and require a controller - I recommend looking at these first.
 </p>

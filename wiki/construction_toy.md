@@ -5,7 +5,7 @@ date: 2006-06-13 20:31:57
 ---
 <p>These are toys aimed at children yet have great value in creating robots.  In fact - building real robots with these toys has become a great educational aid for teaching physics, electronics and many other subjects.
 </p>
-<p><a class="wiki" href="/wiki/lego" title="The best known construction toy">Lego</a> - <a class="wiki" href="/wiki/mindstorms" title="A Robotic construction toy system from Lego">MindStorms</a> <a class="wiki" href="/wiki/lego_rcx" title="The Lego RCX">Lego RCX</a>
+<p><a class="wiki" href="/wiki/lego" title="The best known construction toy">Lego</a> - <a class="wiki" href="/wiki/mindstorms" title="A Robotic construction toy system from Lego">MindStorms</a> <a class="wiki" href="/wiki/rcx" title="The Lego RCX">Lego RCX</a>
 <br/>Capsella
 <br/>Mechano
 <br/><a class="wiki" href="/wiki/megabloks" title="A Cheaper alternative to Lego">MegaBloks</a>

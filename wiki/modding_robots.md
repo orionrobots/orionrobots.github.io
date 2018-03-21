@@ -7,7 +7,7 @@ date: 2013-05-02 14:17:40
 </p>
 <p>A number of robot, toy and other products may be modified in ways that are great for building robots.  Here are a few of them - each with their own modding tips:
 </p>
-<ul><li> <a class="wiki" href="/wiki/lego_rcx.html" title="The Lego RCX">Lego RCX</a>
+<ul><li> <a class="wiki" href="/wiki/rcx.html" title="The Lego RCX">Lego RCX</a>
 </li><li> <a class="wiki" href="/wiki/lego_manas.html" title="Remote control Lego robot-like kits">Lego Manas</a>
 </li><li> <a class="wiki" href="/wiki/lego.html" title="The best known construction toy">Lego</a> <a class="wiki" href="/wiki/cybermaster.html" title="CyberMaster">CyberMaster</a>
 </li><li> <a class="wiki" href="/wiki/cybot.html" title="Cybot">Cybot</a>

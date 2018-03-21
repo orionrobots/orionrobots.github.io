@@ -11,7 +11,7 @@ The book guides you through building a robot onto the remote chassis with double
 
 This kit is capitalising of course on the <a class="wiki" href="/wiki/robot_wars.html" title="The british robot smashing TV series.">Robot Wars</a> idea. For a very young builder - it may inspire confidence, and give them a bit of quick satisfaction building. Although the cardboard is not really going to last all that long, and the tape does eventually loose its stickiness.
 
-Price wise - the book is obviously cheaper than a <a class="wiki" href="/wiki/lego_rcx.html" title="The Lego RCX">Lego Mindstorms Kit</a> but this kit is a bit of a stopgap, and will leave someone looking for something a bit more challenging and versatile.
+Price wise - the book is obviously cheaper than a <a class="wiki" href="/wiki/rcx.html" title="The Lego RCX">Lego Mindstorms Kit</a> but this kit is a bit of a stopgap, and will leave someone looking for something a bit more challenging and versatile.
 
 The robot can be constructed in a single Sunday afternoon - and also contains a reward card/log book for scoring - encouraging a bit of competition with rank stripes stickers to go on the robot and two different cardboard covers for the remote unit.
 

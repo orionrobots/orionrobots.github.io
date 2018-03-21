@@ -7,7 +7,7 @@ date: 2009-04-24 23:55:12
 <br/>Sets/devices included are:
 </p>
 <ul><li> <a class="wiki" href="/wiki/nxt.html" title="Legos NeXT generation robotics kit">NXT</a> - The next generation kit, with <a class="wiki" href="/wiki/bluetooth.html" title="Bluetooth">BlueTooth</a>, <a class="wiki" href="/wiki/sonar.html" title="The use of sound as a sense medium">sonar</a> and intelligent <a class="wiki" href="/wiki/servo.html" title="Servo Motor">servo</a> motors.
-</li><li> <a class="wiki" href="/wiki/lego_rcx.html" title="The Lego RCX">RCX and RIS</a> - Robot Inventor Sets (RIS 1.0, 1.5, 2.0)
+</li><li> <a class="wiki" href="/wiki/rcx.html" title="The Lego RCX">RCX and RIS</a> - Robot Inventor Sets (RIS 1.0, 1.5, 2.0)
 </li><li> <a class="wiki" href="/wiki/cybermaster.html" title="CyberMaster">CyberMaster</a> - A predecessor to the RIS, with radio based communications and built in motors.
 </li><li> Scout - This is used in the Robot Discovery Set (RDS).
 </li><li> Micro Scout

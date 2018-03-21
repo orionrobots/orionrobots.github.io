@@ -6,7 +6,7 @@ date: 2009-04-25 08:02:52
 <p>
 <br/>The RCX requires a 9v power source capable of delivering a current of around 30mA.
 </p>
-<p>The V1.0 <a class="wiki" href="/wiki/lego_rcx.html" title="The Lego RCX">Lego RCX</a> came with an external 9v power jack, that was no longer present in later versions, or even some late batches of the 1.0 series. This has been used with other kinds of battery packs - thus allowing the bottom panel to be empty. This can lead to more even distribution of weight and other advantages.
+<p>The V1.0 <a class="wiki" href="/wiki/rcx.html" title="The Lego RCX">Lego RCX</a> came with an external 9v power jack, that was no longer present in later versions, or even some late batches of the 1.0 series. This has been used with other kinds of battery packs - thus allowing the bottom panel to be empty. This can lead to more even distribution of weight and other advantages.
 </p>
 <p>For later RCX versions - it is necessary to examine the wiring Of The RCX Battery Compartment. Once the main terminals (not intermediate) are found, a connector can be soldered into these, and then the connector fitted to the housing.
 </p>

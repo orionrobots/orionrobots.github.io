@@ -22,7 +22,7 @@ The <a  href="http://shop.orionrobots.co.uk/products/orion-explorer-1-robot-kit"
 * <a class="wiki" href="/wiki/printed_circuit_boards.html" title="Printed Circuit Boards">Printed Circuit Boards</a> - Sooner or later you will need to think about this for advanced circuit design.
 * <a class="wiki" href="/wiki/part_reuse.html" title="Part Reuse">Part Reuse</a> and <a class="wiki" href="/wiki/modular_robot_design.html" title="Modular Robot Design">Modular Robot Design</a> are two areas that every robot builder should familiarise themselves with.
 * <a class="wiki" href="/wiki/lego.html" title="The best known construction toy">Lego</a> and <a class="wiki" href="/wiki/construction_toy.html" title="Construction Toy">Construction Toys</a>.
-* <a href="/wiki/microcontroller.html">MicroControllers</a> - This is a round up, including <a class="wiki" href="/wiki/pic.html" title="PIC">PIC's</a>, the <a class="wiki" href="/wiki/lego_rcx.html" title="The Lego RCX">Lego RCX</a> and others.
+* <a href="/wiki/microcontroller.html">MicroControllers</a> - This is a round up, including <a class="wiki" href="/wiki/pic.html" title="PIC">PIC's</a>, the <a class="wiki" href="/wiki/rcx.html" title="The Lego RCX">Lego RCX</a> and others.
 * <a href="/wiki/building_a_battle_robot.html" title="Building A Battle Robot">Building A Battle Robot</a>.
 
 
