@@ -3,7 +3,7 @@ layout: page
 title: Registers
 date: 2005-10-03 14:39:50
 ---
-<p><a class="wiki" href="/wiki/cpu.html" title="Central Processing Unit">CPU</a> and <a a="" brain")="" class="wiki" for="" href="/wiki/microcontroller.html" robot"="" title="A programmable digital controller (or ">Microcontroller</a> cores often need to manipulate data very rapidly and internally. In terms of core computing, transactions with external <a class="wiki" href="/wiki/ram.html" title="Random Access Memory">RAM</a> and <a class="wiki" href="/wiki/rom.html" title="Read Only Memory">ROM</a> devices, even caches, can be slow and expensive when compared with using a storage location on the same peice of silicon.
+<p><a class="wiki" href="/wiki/microprocessor.html" title="Central Processing Unit">CPU</a> and <a a="" brain")="" class="wiki" for="" href="/wiki/microcontroller.html" robot"="" title="A programmable digital controller (or ">Microcontroller</a> cores often need to manipulate data very rapidly and internally. In terms of core computing, transactions with external <a class="wiki" href="/wiki/ram.html" title="Random Access Memory">RAM</a> and <a class="wiki" href="/wiki/rom.html" title="Read Only Memory">ROM</a> devices, even caches, can be slow and expensive when compared with using a storage location on the same peice of silicon.
 </p>
 <p>In general registers are now used to refer to storage locations directly on the CPU die, although historically they generally meant any storage location. I will be referring mostly to the common usage meaning on-board registers for the rest of this artical though.
 </p>
