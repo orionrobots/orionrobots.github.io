@@ -4,17 +4,17 @@ title: Leonardo Da Vinci
 date: 2013-05-11 17:22:44
 ---
 <table border="0" cellpadding="0" cellspacing="0" class="wikiplugin-split"><tr><td valign="top">
-<div style="float:left; margin-right:5px; width:262px; height:317px"><img class="img-responsive" src="galleries/gallery-1-common-images/47-leonardodav.jpg"/> </div> </td><td valign="top">
-As a reneissance artist, inventor and scientist, he lived a hundred or more years ahead of his time.  He was born on April 15, 1452 in Vinci, Italy.  Hence "Da Vinci" - translates of "Of Vinci" - a town just outside Florence.  His full name was, in fact, "Leonardo di ser Piero da Vinci" - Leonardo - Son of Piero of Vinci.  His father was a wealthy  and renowned man in the area.<br/>
-<br/>
-Leonardo Da Vinci was famous for the Mona Lisa, The Last Supper and other paintings, as well as designing(but never building), a <a class="wiki" href="/wiki/helicopter.html" title="Helicopter">Helicopter</a>, a Iron man(robot), a tank, a <a class="wiki" href="/wiki/submarine.html" title="SubMarine">SubMarine</a> and many other wonderful contraptions.  He also studied anatomy, as well as physics and mechanics.<br/>
-<br/>
-<a class="wiki" href="/wiki/leonardo_da_vincis_robot.html" title="The Humanoid Robot Designed By Leonardo Da Vinci">Leonardo Da Vincis Robot</a><br/>
-Leonardo Da Vincis Helicopter<br/>
-<a class="wiki" href="/wiki/leonardo_da_vincis_tank.html" title="Leonardo Da Vincis Tank">Leonardo Da Vincis Tank</a><br/>
-<a class="wiki" href="/wiki/leonardo_da_vincis_submarine.html" title="Leonardo Da Vincis Submarine">Leonardo Da Vincis Submarine</a><br/>
-<br/>
-This was probably a direct result of his fathers choice to make him an apprentice to the workshop of the infamous Andrea del Verrochio in Florence. He also had access to many literary and scholarly texts in his fathers home.<br/>
+<div style="float:left; margin-right:5px; width:262px; height:317px"><img class="img-responsive" src="/galleries/gallery-1-common-images/47-leonardodav.jpg"/> </div> </td><td valign="top">
+As a reneissance artist, inventor and scientist, he lived a hundred or more years ahead of his time.  He was born on April 15, 1452 in Vinci, Italy.  Hence "Da Vinci" - translates of "Of Vinci" - a town just outside Florence.  His full name was, in fact, "Leonardo di ser Piero da Vinci" - Leonardo - Son of Piero of Vinci.  His father was a wealthy  and renowned man in the area.
+
+Leonardo Da Vinci was famous for the Mona Lisa, The Last Supper and other paintings, as well as designing(but never building), a <a class="wiki" href="/wiki/helicopter.html" title="Helicopter">Helicopter</a>, a Iron man(robot), a tank, a <a class="wiki" href="/wiki/submarine.html" title="SubMarine">SubMarine</a> and many other wonderful contraptions.  He also studied anatomy, as well as physics and mechanics.
+
+<a class="wiki" href="/wiki/leonardo_da_vincis_robot.html" title="The Humanoid Robot Designed By Leonardo Da Vinci">Leonardo Da Vincis Robot</a>
+Leonardo Da Vincis Helicopter
+<a class="wiki" href="/wiki/leonardo_da_vincis_tank.html" title="Leonardo Da Vincis Tank">Leonardo Da Vincis Tank</a>
+<a class="wiki" href="/wiki/leonardo_da_vincis_submarine.html" title="Leonardo Da Vincis Submarine">Leonardo Da Vincis Submarine</a>
+
+This was probably a direct result of his fathers choice to make him an apprentice to the workshop of the infamous Andrea del Verrochio in Florence. He also had access to many literary and scholarly texts in his fathers home.
 </td></tr></table>
 <p>Leonardo died on May 2, 1519 in Cloux, France.  His memory will probably live on for all time.
 </p>

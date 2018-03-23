@@ -29,7 +29,7 @@ According to the Lego Site:
 
 Although the standard Lego Motor (with 5225, RCX etc) runs at 9v, it can be run from these lower voltages.  Combine this set with the <a class="wiki" href="/wiki/lego_capacitor.html" title="Lego Capacitor">Lego Capacitor</a> and a few other components - and you can build a Lego <a class="wiki" href="/wiki/beam_robots.html" title="Biology, Electronics, Aesthetics and Mechanics">BEAM Robots</a> example.
 
-<img alt="Lego Solar Panel" class="img-responsive" src="galleries/gallery-1-common-images/97-lego32339solarpanel.jpg" />
+<img alt="Lego Solar Panel" class="img-responsive" src="/galleries/gallery-1-common-images/97-lego32339solarpanel.jpg" />
 
 <br/>Thanks to <a class="wiki" href="/wiki/peeron.html" title="Online database of Lego Sets and Parts">Peeron</a> for set and part information.
 
