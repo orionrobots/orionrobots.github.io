@@ -12,20 +12,18 @@ They normally have many inputs and outputs which can be interfaced directly with
 They are sometimes used with <a class="wiki" href="/wiki/beam_robots.html" title="Biology, Electronics, Aesthetics and Mechanics">BEAM</a> or other semi-intelligent robot chassis for <a class="wiki" href="/wiki/horse_and_rider.html" title="One system takes high-level control of a lower level system">Horse And Rider</a> techniques.
 
 <h1 id="Common_Controllers">Common Controllers</h1>
-<ul><li> <a class="wiki" href="/wiki/pic.html" title="PIC">PIC</a> - Probably the basis of many of these others
-</li><li> AVR - A similar but competing product
-</li><li> 8051 - A classic controller
-</li><li> <a class="wiki" href="/wiki/oopic.html" title="OOPic">OOPic</a> - The PIC dressed up with Object Oriented firmware
-</li><li> Basic Stamp - A PIC dressed up with a basic interpreter, very popular
-</li><li> <a class="wiki" href="/wiki/rcx.html" title="The Lego RCX">Lego RCX</a> - The center of the <a class="wiki" href="/wiki/ris.html" title="The Lego Robotic Invention System">RIS</a>, based on the Hitachi H8
-</li><li> <a class="wiki" href="/wiki/lego.html" title="The best known construction toy">Lego</a> <a class="wiki" href="/wiki/cybermaster.html" title="CyberMaster">CyberMaster</a> - The radio controlled predecessor of the <a class="wiki" href="/wiki/rcx.html" title="The Lego Robot Command Explorer">RCX</a>
-</li><li> <a class="wiki" href="/wiki/xport.html" title="A Gameboy Advance based alternative to the Lego RCX">XPort</a> - An interesting Nintendo gameboy advanced controller solution
-</li><li> <a class="wiki" href="/wiki/pc104.html" title="PC104">PC104</a> - A standard in tiny PC based computing.
-</li><li> ISOPOD
-</li><li> Fischer Technik Robo
-</li><li> <a class="wiki" href="/wiki/megabitty.html" title="A very small AVR microcontroller board solution">MEGAbitty</a> - An tiny AVR based board.
-</li></ul>
-For a comparison table on these devices - go to <a class="wiki" href="/forums/electronics/preferred_microcontrollers.html" rel="">microcontrollers roundup</a>.
+
+* <a class="wiki" href="/wiki/pic.html" title="PIC">PIC</a> - Probably the basis of many of these others
+* AVR -     A similar but competing product
+* Arduino - A common brand of controller boards & environments based around the AVR's.
+* 8051 -    A classic controller
+* Raspberry Pi - These are extremely capable arm based computers, but are used in hobby robots extensively.
+* esp8266 - This controller offers wifi on a capable 32 bit espressif controller. Programmable in C, Python and Lua.
+* Microbit - An education aimed board that can be used to control robots and make hobby devices with a lively community.
+* esp32   - A new version of the esp8266 with WiFi and Bluetooth capabilities.
+* <a class="wiki" href="/wiki/pc104.html" title="PC104">PC104</a> - A standard in industrial tiny PC based computing.
+
+For a comparison table on these devices - go to <a class="wiki" href="/forums/electronics/preferred_microcontrollers">microcontrollers roundup</a>.
 
 <h1 id="Programming_Microcontrollers">Programming Microcontrollers</h1>
 It is not unusual to find that in addition to buying a microcontroller development board, a programming cable and other supporting hardware, that you will also need a development environment.
@@ -54,3 +52,16 @@ There a million and one links on these devices, as they are very popular, and sp
 </li><li> <a href="http://ldrolez.free.fr/hardware/" rel="external" target="_blank">http://ldrolez.free.fr/hardware/</a> - The hardware section of LUDs Open Source Corner has a number of PIC projects
 </li><li> <a href="http://www.makezine.org/" rel="external" target="_blank">http://www.makezine.org/</a> - Make magazine readers are often using microcontrollers of sorts at the heart of electronic gadgets
 </li></ul>
+
+# Older controllers
+
+This page listed controllers previously that are less used currently, but preserved here for context.
+
+* <a class="wiki" href="/wiki/oopic.html" title="OOPic">OOPic</a> - The PIC dressed up with Object Oriented firmware
+* Basic Stamp - A PIC dressed up with a basic interpreter, very popular
+* <a class="wiki" href="/wiki/rcx.html" title="The Lego RCX">Lego RCX</a> - The center of the <a class="wiki" href="/wiki/ris.html" title="The Lego Robotic Invention System">RIS</a>, based on the Hitachi H8
+* <a class="wiki" href="/wiki/lego.html" title="The best known construction toy">Lego</a> <a class="wiki" href="/wiki/cybermaster.html" title="CyberMaster">CyberMaster</a> - The radio controlled predecessor of the <a class="wiki" href="/wiki/rcx.html" title="The Lego Robot Command Explorer">RCX</a>
+* <a class="wiki" href="/wiki/xport.html" title="A Gameboy Advance based alternative to the Lego RCX">XPort</a> - An interesting Nintendo gameboy advanced controller solution
+* ISOPOD controller board
+* Fischer Technik Robo
+* <a class="wiki" href="/wiki/megabitty.html" title="A very small AVR microcontroller board solution">MEGAbitty</a> - A tiny AVR based board.
