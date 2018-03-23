@@ -93,3 +93,18 @@ Previous done items (not today):
 * Ensure all image links in documents work.
 * Start removing images from tiki site.
 * Find ways to speed up jekyll (reduce files, or generator complexity)
+
+----
+
+Swapping out smilies:
+
+Using Glyphicon:
+
+<span class="glyphicons glyphicons-question-sign"> </span>
+
+Using Emoji
+
+razz - &#128539;
+cool - &#128526;
+
+icon_mrgreen - 
