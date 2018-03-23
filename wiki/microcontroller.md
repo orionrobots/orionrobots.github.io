@@ -14,7 +14,7 @@ They are sometimes used with <a class="wiki" href="/wiki/beam_robots.html" title
 <h1 id="Common_Controllers">Common Controllers</h1>
 
 * Arduino - A common brand of controller boards & environments based around the AVR's.
-* AVR -     The underlying technology behind the Arduino - the ATTiny serias are great for cheap and small embedding.
+* AVR -     The underlying technology behind the Arduino - the ATTiny series are great for cheap and small embedding.
 * 8051 -    A classic controller
 * ARM Cortex devices
 * Raspberry Pi - These are extremely capable arm based computers, but are used in hobby robots extensively.

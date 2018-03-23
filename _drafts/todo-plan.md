@@ -98,13 +98,17 @@ Previous done items (not today):
 
 Swapping out smilies:
 
-Using Glyphicon:
-
-<span class="glyphicons glyphicons-question-sign"> </span>
 
 Using Emoji
 
-razz - &#128539;
-cool - &#128526;
-
-icon_mrgreen - 
+* razz - &#128539;
+* cool - &#128526;
+* question-sign - &#x2753;
+* redface - &#x1F633;
+* icon_mrgreen - &#x1F600; - and biggrin.
+* icon neutral -&#x1F610;
+* Wink - &#x1F609;
+* Smile - &#x1F642;
+* Sad - &#x1F61E;
+* Rolleyes - &#x1F644;
+* Laugh - &#x1F92D;

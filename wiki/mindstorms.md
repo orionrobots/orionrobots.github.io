@@ -6,17 +6,17 @@ date: 2009-04-24 23:55:12
 <a class="wiki" href="https://www.lego.com/en-us/mindstorms/?domainredir=mindstorms.lego.com">Mindstorms</a> is the <a class="wiki" href="/wiki/lego.html" title="The best known construction toy">Lego</a> companies system of robotic construction sets, which are great for kids and adults, and serve to entertain as well as educate.
 Sets/devices included are:
 
-<ul><li> <a class="wiki" href="/wiki/nxt.html" title="Legos NeXT generation robotics kit">NXT</a> - The next generation kit, with <a class="wiki" href="/wiki/bluetooth.html" title="Bluetooth">BlueTooth</a>, <a class="wiki" href="/wiki/sonar.html" title="The use of sound as a sense medium">sonar</a> and intelligent <a class="wiki" href="/wiki/servo.html" title="Servo Motor">servo</a> motors.
-</li><li> <a class="wiki" href="/wiki/rcx.html" title="The Lego RCX">RCX and RIS</a> - Robot Inventor Sets (RIS 1.0, 1.5, 2.0)
-</li><li> <a class="wiki" href="/wiki/cybermaster.html" title="CyberMaster">CyberMaster</a> - A predecessor to the RIS, with radio based communications and built in motors.
-</li><li> Scout - This is used in the Robot Discovery Set (RDS).
-</li><li> Micro Scout
-</li><li> <a class="wiki" href="/wiki/lego_vision_command.html" title="Lego Vision Command">Vision Command</a>
-</li><li> <a class="wiki" href="http://peeron.com/inv/sets/9748-1">Droid Development Kit</a> - a kit designed for building starwars based droids using the Micro Scout.
-</li><li> <a class="wiki" href="http://peeron.com/inv/sets/9754-1">Dark Side Developer Kit</a> - The same as above, with more black peices.
-</li><li> Mars Explorer Kit
-</li><li> Ultimate Expansion
-</li></ul>
+* <a class="wiki" href="/wiki/nxt.html" title="Legos NeXT generation robotics kit">NXT</a> - The next generation kit, with <a class="wiki" href="/wiki/bluetooth.html" title="Bluetooth">BlueTooth</a>, <a class="wiki" href="/wiki/sonar.html" title="The use of sound as a sense medium">sonar</a> and intelligent <a class="wiki" href="/wiki/servo.html" title="Servo Motor">servo</a> motors.
+* <a class="wiki" href="/wiki/rcx.html" title="The Lego RCX">RCX and RIS</a> - Robot Inventor Sets (RIS 1.0, 1.5, 2.0)
+* <a class="wiki" href="/wiki/cybermaster.html" title="CyberMaster">CyberMaster</a> - A predecessor to the RIS, with radio based communications and built in motors.
+* Scout - This is used in the Robot Discovery Set (RDS).
+* Micro Scout
+* <a class="wiki" href="/wiki/lego_vision_command.html" title="Lego Vision Command">Vision Command</a>
+* <a class="wiki" href="http://peeron.com/inv/sets/9748-1">Droid Development Kit</a> - a kit designed for building starwars based droids using the Micro Scout.
+* <a class="wiki" href="http://peeron.com/inv/sets/9754-1">Dark Side Developer Kit</a> - The same as above, with more black peices.
+* Mars Explorer Kit
+* Ultimate Expansion
+
 They are based upon the <a class="wiki" href="/wiki/lego_technic.html" title="Lego Technic">Lego Technic</a> range and expand it with programmable or pre-programmed computers as well as sensors and motors.
 There is also a huge community built around these, both here at OrionRobots, and at <a class="wiki" href="/wiki/lugnet.html" title="Lego Users Group Network">Lugnet</a>. Lego have continued to work with the community, and in fact used this resource to help guide the design and testing of the <a class="wiki" href="/wiki/nxt.html" title="Legos NeXT generation robotics kit">NXT</a>.
 
