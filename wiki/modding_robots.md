@@ -16,6 +16,6 @@ date: 2013-05-02 14:17:40
 </li><li> <a class="wiki" href="/wiki/furby.html" title="Furby">Furby</a>
 </li><li> <a class="wiki" href="/wiki/palm_computer.html" title="Palm Computer">Palm Computer</a>
 </li><li> <a class="wiki" href="/wiki/pocket_pc.html" title="Pocket PC">Pocket PC</a>
-</li><li> <a class="wiki" href="/wiki/sony_aibo.html" title="The SONY Robot Dog">Sony AIBO</a>
+</li><li> <a class="wiki" href="/wiki/aibo.html" title="The SONY Robot Dog">Sony AIBO</a>
 </li><li> <a class="wiki" href="/wiki/pino_toy.html" title="The Pino Toy robot is a fairly large toy">Pino Toy</a> - Not to be confused (although similar to) <a class="wiki" href="/wiki/pino.html" title="The Pino Project aka Open Pino is intended as a standard platform for humanoid robotics.">Open Pino</a>
 </li></ul>

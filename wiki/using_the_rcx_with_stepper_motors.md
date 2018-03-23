@@ -46,5 +46,3 @@ date: 2005-10-03 15:44:31
 </p>
 <p>However - if you are finding you want to do this a lot, then it might be time to consider using a less limited <a a="" brain="" class="wiki" for="" href="/wiki/microcontroller.html" robot="" title="A programmable digital controller (or ">microcontroller</a>.
 </p>
-<p>{GOOGLEBAR(pub=pub-1306094303661715)/}
-</p>

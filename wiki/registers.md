@@ -15,5 +15,3 @@ date: 2005-10-03 14:39:50
 </p>
 <p>Some very modern cores, like graphics and vector units actually have vector registers - designed for holding 4 floating point decimal values for manipulating 3D Mathematics equations very rapidly, but most registers on a core will be integers (whole numbers only). Although to be fair the actual stored data is all binary and it being a "float" or an "int" is relaly more to do with the operations that can be conveniently used on it. GPUs and VU's can perfrom vector and matrix operations directly on groups of registers, as well as performing floating point divides fast - an operation that is traditionally very slow. It is these convenient operations tht make them so effective at processing graphics and 3d maths, even more so than a general purpose CPU core running at a higher clock speed.
 </p>
-<p>{GOOGLEBAR(pub=&gt;pub-1306094303661715)/}
-</p>

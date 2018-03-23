@@ -15,18 +15,18 @@ date: 2005-08-28 00:44:55
 <br/><a id="usage"></a>
 </p>
 <h1 id="Usage_Tips">Usage Tips</h1>
-<p>
+<p> 
 </p>
-<ul><li><a href="MLCad#obvious">The startlingly obvious</a>
-</li><li><a href="MLCad#keys">Use the keyboard!</a>
-</li><li><a href="MLCad#copypaste">Copy Paste Construction</a>
-</li><li><a href="MLCad#matrix">Enter the Matrix</a>
-</li><li><a href="MLCad#lsynth">LSynth Generator</a>
-</li><li><a href="MLCad#versions">Versions</a>
-</li><li><a href="MLCad#modular">Modular Building</a>
-</li><li><a href="MLCad#steps">Steps</a>
-</li><li><a href="MLCad#tron">Inputting an existing physical model</a>
-</li><li><a href="MLCad#submitting">Submitting a model</a>
+<ul><li><a href="#obvious">The startlingly obvious</a>
+</li><li><a href="#keys">Use the keyboard!</a>
+</li><li><a href="#copypaste">Copy Paste Construction</a>
+</li><li><a href="#matrix">Enter the Matrix</a>
+</li><li><a href="#lsynth">LSynth Generator</a>
+</li><li><a href="#versions">Versions</a>
+</li><li><a href="#modular">Modular Building</a>
+</li><li><a href="#steps">Steps</a>
+</li><li><a href="#tron">Inputting an existing physical model</a>
+</li><li><a href="#submitting">Submitting a model</a>
 </li></ul><p><a id="obvious"></a>
 </p>
 <h2 id="The_startlingly_obvious.">The startlingly obvious.</h2>
@@ -52,20 +52,20 @@ date: 2005-08-28 00:44:55
 </p>
 <p>Page Up/Down will focus the previous/next line in the list display.
 </p>
-<p>Ctrl + S - <a href="MLCad#obvious">Save</a>.
+<p>Ctrl + S - <a href="#obvious">Save</a>.
 </p>
 <p>You will learn the rest as you use them.
 <br/><a id="copypaste"></a>
 </p>
 <h2 id="Copy_Paste_Construction">Copy Paste Construction</h2>
 <p>
-<br/>This means dragging initial peices onto the canvas, then I copy them and paste them down, then use <a class="wiki" href="#keys" rel="">keys</a> to move them to the desired location. This means that the peices will already probably be lined up in at least one dimension. This can be done with whole groups of peice if need be, but if this group is more than about 5/10 peices you should probably follow the <a href="MLCad#modular">Modular building</a> tip below.
+<br/>This means dragging initial peices onto the canvas, then I copy them and paste them down, then use <a class="wiki" href="#keys" rel="">keys</a> to move them to the desired location. This means that the peices will already probably be lined up in at least one dimension. This can be done with whole groups of peice if need be, but if this group is more than about 5/10 peices you should probably follow the <a href="#modular">Modular building</a> tip below.
 </p>
 <p><a id="matrix"></a>
 </p>
 <h2 id="Enter_the_Matrix">Enter the Matrix</h2>
 <p>
-<br/>When even fine grid rotation or position is not enough - use the position+rotation matrix dialog. This may be a little daunting for those not familiar with matrix transforms, and can even be abused (as it is commonly for part creation) to give you a scaling factor. Please make sure you <a href="MLCad#obvious">Save</a> before you do this! You may even want to create a new <a href="MLCad#versions">Version</a> here.
+<br/>When even fine grid rotation or position is not enough - use the position+rotation matrix dialog. This may be a little daunting for those not familiar with matrix transforms, and can even be abused (as it is commonly for part creation) to give you a scaling factor. Please make sure you <a href="#obvious">Save</a> before you do this! You may even want to create a new <a href="#versions">Version</a> here.
 <br/><a id="lsynth"></a>
 </p>
 <h2 id="LSynth_Generator">LSynth Generator</h2>
@@ -74,7 +74,7 @@ date: 2005-08-28 00:44:55
 </p>
 <p>Remember that the generator guides work in one direction. Before you generate- check they are all going in the correct direction. Again- their orientation also matters, otherwise you may get twists in cables like the Electric ones.
 </p>
-<p>If you are using the build in <a class="wiki" href="/wiki/lsynth.html" title="LSynth">LSynth</a> generator link, ensure to save a version with just the pre-generation information, and save a different version to generate on. It is easier to modify and view a file that has not had the generator run on it, and sometimes things go wrong and you loose the initial set-up info. This is probably a good place to use a branch as described in <a href="MLCad#versions">Versions</a>.
+<p>If you are using the build in <a class="wiki" href="/wiki/lsynth.html" title="LSynth">LSynth</a> generator link, ensure to save a version with just the pre-generation information, and save a different version to generate on. It is easier to modify and view a file that has not had the generator run on it, and sometimes things go wrong and you loose the initial set-up info. This is probably a good place to use a branch as described in <a href="#versions">Versions</a>.
 <br/><a id="versions"></a>
 </p>
 <h2 id="Versions">Versions</h2>
@@ -92,12 +92,12 @@ date: 2005-08-28 00:44:55
 </p>
 <h2 id="Steps">Steps</h2>
 <p>
-<br/>Try to build things in a logical physical way when possible - and add steps in while you go. They mean that yourself, and others may be able to rebuild the model when necessary. MLCad has an option to sort peices by their height - this may help with simple models - but is not a great deal of use with complex mechanisms. If you have neglected to do this when inputting the whole model, then ensure you create a new <a href="MLCad#versions">version</a> before adding the steps in later.
+<br/>Try to build things in a logical physical way when possible - and add steps in while you go. They mean that yourself, and others may be able to rebuild the model when necessary. MLCad has an option to sort peices by their height - this may help with simple models - but is not a great deal of use with complex mechanisms. If you have neglected to do this when inputting the whole model, then ensure you create a new <a href="#versions">version</a> before adding the steps in later.
 <br/><a id="tron"></a>
 </p>
 <h2 id="Inputting_an_existing_physical_model">Inputting an existing physical model</h2>
 <p>
-<br/>If I have taken an existing physical model and converted it to <a class="wiki" href="/wiki/ldraw_system.html" title="The primary system for CAD representation of Lego parts">LDraw System</a>, I sometimes end up changing peices and colours as it goes in - try to resist the temptation to do this straight away, and do this in a second <a href="MLCad#versions">version</a> of the item.
+<br/>If I have taken an existing physical model and converted it to <a class="wiki" href="/wiki/ldraw_system.html" title="The primary system for CAD representation of Lego parts">LDraw System</a>, I sometimes end up changing peices and colours as it goes in - try to resist the temptation to do this straight away, and do this in a second <a href="#versions">version</a> of the item.
 <br/><a id="submitting"></a>
 </p>
 <h2 id="Submitting_a_model">Submitting a model</h2>
@@ -110,9 +110,7 @@ date: 2005-08-28 00:44:55
 </p>
 <p>If you are using LSynth generated sections, upload a version before, and a version after the Lsynth stuff has been generated. Again - this is a good reason to simply use images.
 </p>
-<p>Ensure if you are uploading a DAT you have <a href="MLCad#steps">steps</a>, and add the odd comment so people can build the model, and follow what was intended when recreating the model. Make sure if you are uploading to put a version number in the comments, as well as your (authors) name and release date.
+<p>Ensure if you are uploading a DAT you have <a href="#steps">steps</a>, and add the odd comment so people can build the model, and follow what was intended when recreating the model. Make sure if you are uploading to put a version number in the comments, as well as your (authors) name and release date.
 </p>
-<p>By sharing with the others, you open up the possiblility of others contributing to the model, and enhancing it. If you are really interested in ensuring cooperation of this kind, think of applying a license like the Creative Commons license to it so others are encouraged to modify and contribute. After all - you can then add the variations others create to your <a href="MLCad#versions">version</a> tree. If you have already included a version number in the file, then you will easily be able to see what changes were made, and may be able to incorporate them into other or newer versions.
-</p>
-<p>{GOOGLEBAR(pub=pub-1306094303661715)/}
+<p>By sharing with the others, you open up the possiblility of others contributing to the model, and enhancing it. If you are really interested in ensuring cooperation of this kind, think of applying a license like the Creative Commons license to it so others are encouraged to modify and contribute. After all - you can then add the variations others create to your <a href="#versions">version</a> tree. If you have already included a version number in the file, then you will easily be able to see what changes were made, and may be able to incorporate them into other or newer versions.
 </p>

@@ -21,5 +21,3 @@ date: 2005-08-25 21:50:17
 </p>
 <p>This is just as well, because analogue control would also require any <a a="" brain")="" class="wiki" for="" href="/wiki/microcontroller.html" robot"="" title="A programmable digital controller (or ">microcontrollers</a> to use D to A's, which are expensive and take up a lot of output ports.
 </p>
-<p>{GOOGLEBAR(pub=pub-1306094303661715)/}
-</p>

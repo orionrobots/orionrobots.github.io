@@ -21,5 +21,3 @@ date: 2005-08-22 10:31:04
 </p>
 <p>Whatever you do, dont let it frustrate you. Your best approach to any setback, is to slow down, take a step back and think it through.
 </p>
-<p>{GOOGLEBAR(pub=pub-1306094303661715)/}
-</p>

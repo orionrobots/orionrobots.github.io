@@ -79,5 +79,3 @@ date: 2007-01-28 17:51:36
 </p>
 <table class="normal" id="fancytable_1"> <tr> <td class="odd"><a id="junkbots"></a> <a class="internal" href="http://www.amazon.co.uk/exec/obidos/ASIN/0072226013/orionrobots-21" target="_blank"> <img class="img-responsive" src="image16"/> </a> </td> <td class="odd"><a href="http://www.amazon.co.uk/exec/obidos/ASIN/0072226013/orionrobots-21" rel="external" target="_blank">Junkbots, Bugbots and Bots on Wheels: Building Simple Robots with BEAM Technology</a></td> <td class="odd">Dave Hrynkiw, Mark W. Tilden</td> <td class="odd">They recommend a particular brand of printer cartridges as having a very interesting metal bar - which is strong and solderable, as well as an great guide to salvaging and removing components.</td> </tr> </table>
 <p>
-<br/>{GOOGLEBAR(pub=pub-1306094303661715)/}
-</p>
