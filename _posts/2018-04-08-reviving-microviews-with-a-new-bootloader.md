@@ -4,6 +4,11 @@ tags: [sparkfun, microview, electronics, arduino]
 title: Reviving Sparkfun Microviews With a New Bootloader
 layout: post
 ---
+<script>
+$(function() {
+    $('img').addClass('img-responsive');
+});
+</script>
 ## Introduction and Background
 
 I've started planning on using a pair of Sparkfun Microviews on my PiWars 2018 robot. However, given I have only 2 functioning ones, I felt it was time to revive the other two. These have been sat in demo only state since 2014.
