@@ -9,7 +9,7 @@ date: 2010-11-11 21:36:53
 </p>
 <p>The version 1.0 RCX has lego part number 884u.  You can find it on <a href="http://www.bricklink.com/catalogItem.asp?P=884u" rel="external" target="_blank">Bricklink</a>
 </p>
-<p>It comes with the Robot Inventor Sets (RIS 1.0, 1.5 and 2.0), and is shipped with an <a class="wiki" href="/wiki/ir.html" title="Acronym for Infra Red">IR</a> communication tower and windows software.  As of version 2.0 - the tower is USB, before this it used 9 pin serial communications.
+<p>The RCX comes with the Robot Inventor Sets (RIS 1.0, 1.5 and 2.0), and is shipped with an <a class="wiki" href="/wiki/ir.html" title="Acronym for Infra Red">IR</a> communication tower and windows software.  As of version 2.0 - the tower is USB, before this it used 9 pin serial communications.
 </p>
 <p>There are also Lego <a class="wiki" href="/wiki/dacta.html" title="DACTA">DACTA</a> sets including the RCX for use in classrooms.
 </p>
@@ -20,7 +20,7 @@ date: 2010-11-11 21:36:53
 </li><li> <a class="wiki" href="/wiki/lego_manas.html" title="Remote control Lego robot-like kits">Connecting the RCX with Manas</a>
 </li><li> <a class="wiki" href="/wiki/using_external_power_sources_with_the_rcx.html" title="RCX power input interfacing">Using external power sources with the RCX</a>
 </li><li> <a class="wiki" href="/wiki/powering_external_devices_from_the_rcx.html" title="Powering External Devices From The RCX">Powering external devices from the RCX</a>
-</li><li> <a class="wiki" href="{% post_url 2004-11-14-creating-custom-sensors-for-the-rcx %}" title="Creating Custom Sensors For RCX">Creating custom sensors for RCX</a>
+</li><li> <a class="wiki" href="{% post_url 2004-11-15-creating-custom-sensors-for-the-rcx %}" title="Creating Custom Sensors For RCX">Creating custom sensors for RCX</a>
 </li></ul><p>
 </p>
 <ul><li> <a class="wiki" href="/wiki/using_the_rcx_with_stepper_motors.html" title="Using The RCX With Stepper Motors">Using the RCX with Stepper Motors</a>
