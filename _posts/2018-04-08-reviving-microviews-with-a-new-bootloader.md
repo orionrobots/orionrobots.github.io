@@ -114,6 +114,8 @@ Now try the flashing. A device has been recognised, but nope, not quite - not re
 
 This time - I found some fine 28AWG wires - and reused them (still no sign of my blue reel of wire). I trimmed them, stripped them, tinned them and soldered them on. They were multistranded - and the existing setup using dupont cables wasn't going to work with them. So I used some Wago blocks as a stopgap to connect them.
 
+![Wago Connectors](/galleries/2018-04-08-reviving-microbit/wago-connectors.jpg)
+
 I did this on the one Microview with all it's pads - so the easier of the two. Then I connected it all back up...
 
 I then made a third attempt.
@@ -135,8 +137,6 @@ This took some doing - I had to cut off some of the plastic retaining clips, the
 Unfortunately, after getting it off - I found that the underside of the via really was covered - by a chip. So no help there. I now had to find something tiny enough to put in the via instead.
 
 I found a reel of very tiny copper wire in my lab. I was able to strip the varnish from it and solder it into the via. I then soldered the other wires in, set up the wago connectors - and had to barely breath. One false start - and I had to go back and solder stuff in again - so I cradled it as lightly as I could and brought it over to the programming station with the Arduino.
-
-![Wago Connectors](/galleries/2018-04-08-reviving-microbit/wago-connectors.jpg)
 
 Keeping very still - I got it to flash the bootloader!
 
