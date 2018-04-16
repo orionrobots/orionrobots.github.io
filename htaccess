@@ -183,6 +183,7 @@ RewriteRule "^Construction\+Guide(.*)" /construction_guide.html [R]
 RewriteRule "^Getting\+Started(.*)" /getting_started.html [R]
 RewriteRule "^Getting Started(.*)" /getting_started.html [R]
 RewriteRule "^Leonardo\+Da\+Vincis\+Tank(.*)" /pages/leonardo_da_vincis_tank.html [R]
+RewriteRule "^Leonardo\+Da\+Vincis\+Helicopter(.*)" /wiki/leonardo_da_vinci.html [R]
 RewriteRule "^Fixing\+A\+Broken\+Wire(.*)" /2004/11/14/fixing-a-broken-wire [R]
 RewriteRule "^Lego\+Specifications(.*)" /wiki/lego_specifications.html [R,L]
 RewriteRule "^i-Cybie\+Robot\+Dog(.*)" /2004/11/14/i-cybie-robot-dog [R,L]
@@ -242,10 +243,19 @@ RewriteRule ^imagescale([0-9]+)/([0-9]+)(.*) show_image.php?id=$1&scalesize=$2$3
 RewriteRule ^user([0-9]+)(.*)      tiki-user_information.php?userId=$1$2    [QSA,L]
 RewriteRule ^(lib/wiki3d/.+\.jar)$ $1                                       [L]
 
-#RewriteRule ^([^/.?]+)$                 wiki/$1.html                   [QSA,L]
+#RewriteRule ^/wiki/([^/.?]+).html$                 wiki/$1                   [QSA,L]
+
+# If it ends in .html, but doesn't exist
+RewriteCond %{REQUEST_URI} .html$
+RewriteCond %{DOCUMENT_ROOT}/%{REQUEST_URI}.html !-f
+# But does exist as a path
+RewriteCond %{DOCUMENT_ROOT}/%{REQUEST_URI} -d
+# Strip off the html
+RewriteRule ^/?(.+[^/]).html$ /$1/ [R,L]
+## Direct to it and stop processing
 
 ## Deal with the slashes/html issue. 
-## If it doesn't exist as file or directory
+## If it doesn't end with html and doesn't exist as file or directory
 RewriteCond %{REQUEST_URI} !.html$
 RewriteCond %{DOCUMENT_ROOT}/%{REQUEST_URI} !-d
 RewriteCond %{DOCUMENT_ROOT}/%{REQUEST_URI} !-f
