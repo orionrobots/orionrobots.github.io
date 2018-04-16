@@ -3,7 +3,7 @@ layout: page
 title: Bricklink
 date: 2006-08-24 08:50:46
 ---
-<a class="wiki" href="https://www.bricklink.com/v2/main.page" rel="">Bricklink</a> is a site designed for trading <a class="wiki" href="/wiki/lego" title="The best known construction toy">Lego</a> parts, instructions and sets. There are hundreds of stores, and you can search by part numbers or categories.
+<a class="wiki" href="https://www.bricklink.com/v2/main.page">Bricklink</a> is a site designed for trading <a class="wiki" href="/wiki/lego" title="The best known construction toy">Lego</a> parts, instructions and sets. There are hundreds of stores, and you can search by part numbers or categories.
 
 All the transactions are in US Dollars, but you can easily find UK and European sellers to buy stuff from. It has a rating/feedback system not unlike Ebay although it is not as often used. Prices can vary wildly - but when you search - all prices and locations are listed with the item and store details.
 
