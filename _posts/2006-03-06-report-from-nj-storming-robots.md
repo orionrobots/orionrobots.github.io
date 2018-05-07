@@ -29,7 +29,7 @@ One proud parent pipped up "My son is the king of Lego!". She was then directed 
 ![Elizabeth Presents Programming](/galleries/2006-03-06-report-from-nj-storming-robots/elizabethpresentsRobolab.jpg)
 Eizabeth Presents Programming With Robolab
 
-As expected, the upper half of Jama (Eric's star robot peice) was displayed for demonstration. Elizabeth focussed on programming the bot using [RoboLab](/wiki/robolab "Robolab"). Throughout the demonstrations, the group found a way to incorporate a touch sensor into Jama's arm, making programming more fun.
+As expected, the upper half of Jama (Eric's star robot piece) was displayed for demonstration. Elizabeth focussed on programming the bot using [RoboLab](/wiki/robolab "Robolab"). Throughout the demonstrations, the group found a way to incorporate a touch sensor into Jama's arm, making programming more fun.
 
 They programmed Jama's arm to move about, and this was a real crowd pleaser. The light sensor in Jama's chest was programmed to trigger behaviours in Jama's arm.
 
@@ -40,7 +40,7 @@ Unfortunately Eric did not take a camera on the first day, so no gallery picture
 ![Elizabeth, Director of Storming Robots](/galleries/2006-03-06-report-from-nj-storming-robots/elizabethExplains.jpg)
 Elizabeth, Director of Storming Robots
 
-Day two was even more fun than day one. The show had really brought out many very talented children, who were asking all sorts of questions at the Jama booth. Their interest was clear. Eric spent much time referring inquisitive minds to the Lego and mindstorms webpages. Eric and Elizabeth openly shared their mindstorms knowledge.
+Day two was even more fun than day one. The show had really brought out many very talented children, who were asking all sorts of questions at the Jama booth. Their interest was clear. Eric spent much time referring inquisitive minds to the Lego and Mindstorms webpages. Eric and Elizabeth openly shared their mindstorms knowledge.
 
 Teachers also showed up in droves, and asked many questions.
 

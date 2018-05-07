@@ -75,10 +75,10 @@ Plug the resistor end into the DIL socket corresponding to pin 5 on the parallel
 
 # Programming the port
 
-The port can be manipulated with many languages. I am using Python as it is pretty easy to get results with. You'll need a python intepreter and the PyParallel extension - it can be run on any platform.
+The port can be manipulated with many languages. I am using Python as it is pretty easy to get results with. You'll need a python interpreter and the PyParallel extension - it can be run on any platform.
  
 PyParallel details can be found at <https://github.com/pyserial/pyparallel>.
- 
+
 Start up python, and type:
 
     import parallel
