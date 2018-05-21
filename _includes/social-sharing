@@ -6,13 +6,13 @@
 
   {% if site.sharing.twitter %}
   <li style="width:80px">
-    <a href="https://twitter.com/share" class="twitter-share-button" data-count="horizontal">Tweet</a>
+    <a href="//twitter.com/share" class="twitter-share-button" data-count="horizontal">Tweet</a>
   </li>
   {% endif %}
 
   {% if site.sharing.pinterest %}
   <li style="margin-left:10px; width:80px">
-    <a href="http://pinterest.com/pin/create/button/?url={{ shop.url }}{{ product.url }}{{ article.url }}{{ blog.url }}&description={{ product.title | strip_html | escape | replace: ' ', '%20' }}&media={{ product.featured_image | product_img_url: 'original' }}" class="pin-it-button" count-layout="horizontal"><img border="0" src="//assets.pinterest.com/images/PinExt.png" title="Pin It" /></a>
+    <a href="//pinterest.com/pin/create/button/?url={{ shop.url }}{{ product.url }}{{ article.url }}{{ blog.url }}&description={{ product.title | strip_html | escape | replace: ' ', '%20' }}&media={{ product.featured_image | product_img_url: 'original' }}" class="pin-it-button" count-layout="horizontal"><img border="0" src="//assets.pinterest.com/images/PinExt.png" title="Pin It" /></a>
     <script type="text/javascript" src="//assets.pinterest.com/js/pinit.js"></script>
   </li>
   {% endif %}
