@@ -11,6 +11,10 @@ You can see my latest videos on [Orionrobots Youtube](https://youtube.com/orionr
 
 You can reach me on twitter [@orionrobots](https://twitter.com/orionrobots)
 
+# Learn Robotics Programming
+
+Danny (aka Orion) has now written a robotics book [Learn Robotics Programming](https://www.packtpub.com/hardware-and-creative/learn-robotics-programming) where readers can learn how to make and program a robot with smart behaviours like Line tracking, object avoidance, automatic compensation for wheels, face and object following. The book shows how to drive a robot with your phone, while seeing through its camera, and how to use the Mycroft Voice Assistant to speak commands to the robot too.
+
 # Recent Posts
 
 <ul class="posts">
