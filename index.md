@@ -11,9 +11,17 @@ You can see my latest videos on [Orionrobots Youtube](https://youtube.com/orionr
 
 You can reach me on twitter [@orionrobots](https://twitter.com/orionrobots)
 
-# Learn Robotics Programming
+# Learn Robotics Programming - With my new book!
 
-Danny (aka Orion) has now written a robotics book [Learn Robotics Programming](https://www.packtpub.com/hardware-and-creative/learn-robotics-programming) where readers can learn how to make and program a robot with smart behaviours like Line tracking, object avoidance, automatic compensation for wheels, face and object following. The book shows how to drive a robot with your phone, while seeing through its camera, and how to use the Mycroft Voice Assistant to speak commands to the robot too.
+Danny Staple has just completed writing a book on making and programming a robot using a Raspberry Pi and Python. 
+This robot has many sensors, including the camera which it uses to sense coloured objects and drive towards them, or faces which it
+can point its "head" at. You can drive the robot with your phone, make it avoid walls, follow lines and make
+a mycroft based voice assistant to control the robot by speaking.
+
+<div style="margin-left: auto; margin-right: auto;">
+<a href="https://www.packtpub.com/hardware-and-creative/learn-robotics-programming"><img src="https://d255esdrn735hr.cloudfront.net/sites/default/files/imagecache/ppv4_main_book_cover/B11057.png"><br/>
+Learn Robotics Programming | PACKT Books</a>
+</div>
 
 ![Two Robots Made Using The Book](/galleries/2018-11-25-robotics-book-info   2-robots-beer.jpg)
 
