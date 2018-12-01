@@ -23,7 +23,7 @@ a mycroft based voice assistant to control the robot by speaking.
 Learn Robotics Programming | PACKT Books</a>
 </div>
 
-![Two Robots Made Using The Book](/galleries/2018-11-25-robotics-book-info   2-robots-beer.jpg)
+![Two Robots Made Using The Book](/galleries/2018-11-25-robotics-book-info/2-robots-beer.jpg)
 
 # Recent Posts
 
