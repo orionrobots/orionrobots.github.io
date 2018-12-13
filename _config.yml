@@ -6,6 +6,7 @@ permalink: /:categories/:year/:month/:day/:title.html
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "Gemfile", "Gemfile.lock", "changelog.md", "gemfile", "History.markdown", "site.zip",
           ".idea", ".git", ".gitignore", "Thumbs.db", "site.tgz", "fabfile.py", "Dockerfile", "Vagrantfile",
           "*.log", "autogen_gallery.py"]
+include: ["rss.xml", "atom.xml"]
 highlighter: pygments
 excerpt_separator: "\n\n"
 markdown: kramdown
@@ -41,6 +42,7 @@ sharing:
 # Finally if you are pushing to a GitHub project page, include the project name at the end.
 #
 production_url : http://orionrobots.co.uk
+
 
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #
