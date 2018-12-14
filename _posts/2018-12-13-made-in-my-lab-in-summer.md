@@ -7,7 +7,7 @@ layout: post
 I was pretty quiet over the summer, however, I made some videos showing what I've been up to. 
 There has been a robotics book, some smaller makes, some stuff I needed while working on the book.
 
-# The book
+## The book
 
 For the majority of summer, I was working on my book, 
 [Learn Robotics Programming: Build and control autonomous robots using Raspberry Pi 3 and Python](https://amzn.to/2RA5u43).
@@ -23,7 +23,7 @@ Also comparing distance sensor types:
 <iframe width="560" height="315" src="https://www.youtube.com/embed/eGYwbqp0w3w" frameborder="0" allowfullscreen="True"></iframe>
 </div>
 
-# USB Footswitch
+## USB Footswitch
 
 I make lots of video and photos. There were many picture sequences made for the book, to help explain and demonstrate things. When doing shots of making/assembling parts, I kept finding I needed an extra hand to trigger the camera, or start/stop video recordings, while holding parts in place.
 
