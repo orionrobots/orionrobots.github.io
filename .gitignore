@@ -62,3 +62,4 @@ _theme_packages/*
 .vagrant
 *console.log
 .jekyll-metadata
+.vscode/*
