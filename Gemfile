@@ -4,4 +4,5 @@ if RbConfig::CONFIG['target_os'] =~ /mswin|mingw|cygwin/i
   gem 'wdm', '>= 0.1.0'
 end
 gem 'kramdown'
-gem 'jekyll', '= 3.6.0'
+gem "jekyll", ">= 3.6.3"
+gem "ffi", ">= 1.9.24"
