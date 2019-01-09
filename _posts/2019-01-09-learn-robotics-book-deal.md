@@ -1,5 +1,5 @@
 ---
-created: 2018-01-09 20:04:30
+created: 2019-01-09 20:04:30
 tags: [robotics, book, python, raspberry pi, programming, computer vision, mycroft]
 title: My Book - Learn Robotics Programming on Sale Today
 layout: post
