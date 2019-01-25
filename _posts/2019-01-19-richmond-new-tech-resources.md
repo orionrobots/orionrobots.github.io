@@ -9,7 +9,7 @@ On Thuesday the 17th January 2019, I gave a talk at [Richmond New Technology](ht
 * Doing it because you want to (even if there are some hard bits to get through first).
 * Getting just outside your comfort zone.
 
-![](https://github.com/orionrobots/orionrobots.github.io/blob/master/galleries/frame_from_talk.JPG)
+![](/galleries/frame_from_talk.JPG)
 
 Many people at the talk had questions, and wanted further information about what I do.  
 
