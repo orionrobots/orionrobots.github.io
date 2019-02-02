@@ -1,7 +1,7 @@
 ---
 created: 2005-10-08 16:39:26
 description: More info on the Darpa Grand Challenge Result
-tags: [darpa, grand+challenge, stanley, robots, robotics, car, stanford+university]
+tags: [darpa, grand challenge, stanley, robots, robotics, car, stanford university]
 title: More info on the Darpa Grand Challenge Result
 layout: post
 ---

@@ -1,7 +1,7 @@
 ---
 created: 2005-10-08 15:08:57
 description: And its all over
-tags: [darpa, grand+challenge, robot, robotics, vehicle, car, stanley, stanford+university]
+tags: [darpa, grand challenge, robot, robotics, vehicle, car, stanley, stanford university]
 title: Darpa Grand Challenge - And its all over
 layout: post
 ---
