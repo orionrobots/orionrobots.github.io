@@ -1,7 +1,7 @@
 ---
 layout: bs_post
 title: Simple Parallel Port LED
-tags: [electronics, led, parallelport]
+tags: [electronics, led, parallel port]
 comments: true
 disqus_url: http://orionrobots.co.uk/Simple+Parallel+Port+LED+Board
 gallery: /galleries/2004-11-05-simple-parallel-port-led

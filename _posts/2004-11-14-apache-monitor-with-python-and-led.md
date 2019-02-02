@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Apache Server Monitor With Python And Led
-tags: [led, apache, python, parallelport]
+tags: [led, apache, python, parallel port]
 gallery: /galleries/2004-11-05-simple-parallel-port-led
 ---
 ![Parallel Cable With LED]({{ page.gallery }}/thumb_cable-with-led.jpg){: class="img-rounded" style="float:left; padding-right: 4px"}

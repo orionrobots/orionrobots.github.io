@@ -2,7 +2,7 @@
 layout: post
 title: Building An Experimenting Parallel Cable
 date: 2004-11-30 19:51:56
-tags: [parallel-port, pc]
+tags: [parallel port, pc]
 ---
 # Introduction
 
