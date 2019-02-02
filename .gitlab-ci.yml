@@ -1,3 +1,8 @@
+stages:
+  - build
+  - deploy
+  - monitoring
+  
 build:site:
   image: jekyll/builder
   stage: build
