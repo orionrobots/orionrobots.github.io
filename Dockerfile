@@ -1,5 +1,6 @@
 FROM ruby
 RUN apt-get -y update && apt-get install -y rsync
+
 # ruby-dev
 ENV APP_HOME /myapp
 RUN mkdir $APP_HOME
@@ -10,5 +11,8 @@ ADD Gemfile* $APP_HOME/
 ENV BUNDLE_GEMFILE=$APP_HOME/Gemfile \
   BUNDLE_JOBS=2 \
   BUNDLE_PATH=/bundle
-
 RUN bundle install
+COPY . $APP_HOME
+
+RUN bundle exec jekyll --version
+RUN bundle exec jekyll build
