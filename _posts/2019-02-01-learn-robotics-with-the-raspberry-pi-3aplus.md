@@ -1,6 +1,6 @@
 ---
 created: 2019-02-01 08:04:30
-tags: [robotics, book, raspberry pi]
+tags: [robotics, book, raspberry pi, piwars]
 title: Learn Robotics Programming On The Raspberry Pi 3a+
 layout: post
 ---
