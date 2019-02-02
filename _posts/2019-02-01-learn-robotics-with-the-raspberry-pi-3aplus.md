@@ -13,7 +13,7 @@ I am basing my Piwars 2019 robot build around the 3a+, as it is not only cheaper
 
 ## Power Play
 
-The 3a+ also has a lower current consumption than the 3b+, as shown by [Raspi TV | How much Power Does The Raspberry Pi 3a+ Use](https://raspi.tv/2018/how-much-power-does-raspberry-pi-3a-plus-use). This should mean a bit more play time from the batteries, or smaller batteries. Perhaps not as small as a Pi Zero, but still a good saving in space. 
+The 3a+ also has a lower current consumption than the 3b+, as shown by [Raspi TV - How much Power Does The Raspberry Pi 3a+ Use](https://raspi.tv/2018/how-much-power-does-raspberry-pi-3a-plus-use). This should mean a bit more play time from the batteries, or smaller batteries. Perhaps not as small as a Pi Zero, but still a good saving in space. 
 
 ## PoE Headers Gone
 

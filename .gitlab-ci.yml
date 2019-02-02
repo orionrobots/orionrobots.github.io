@@ -1,0 +1,29 @@
+before_script:
+  - apt-get update -qq
+
+build:site:
+  stage: build
+  script:
+    - bundle install
+    - bundle exec jekyll --version
+    - bundle exec jekyll build
+  artifacts:
+    paths:
+      - _site/
+    
+deploy:
+  when: manual
+  stage: deploy
+  dependencies:
+    - build:site
+  script:
+    - apt-get install -y rsync
+    - mkdir -p ~/.ssh
+    - chmod 700 ~/.ssh
+    - echo "$ORIONROBOTS_HOST_KEYS" > ~/.ssh/known_hosts
+    - chmod 644 ~/.ssh/known_hosts
+    - echo "$ORIONROBOTS_DEPLOY_CONFIG" > ~/.ssh/config
+    - echo "$ORIONROBOTS_DEPLOY_KEY" > ~/.ssh/id_rsa
+    - chmod 600 ~/.ssh/id_rsa
+    - rsync -avv _site/ orionrobots_host:public_html
+    - scp _site/htaccess orionrobots_host:public_html/.htaccess
