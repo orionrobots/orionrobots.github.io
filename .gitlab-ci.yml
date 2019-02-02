@@ -23,7 +23,7 @@ deploy:
     - rsync -avv _site/ orionrobots_host:public_html
     - scp _site/htaccess orionrobots_host:public_html/.htaccess
 
-monitoring:link-checker
+monitoring:link-checker:
   when: manual
   stage: monitoring
   script:
