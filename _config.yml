@@ -3,7 +3,7 @@ encoding: UTF-8
 # For more see: http://jekyllrb.com/docs/permalinks/
 permalink: /:categories/:year/:month/:day/:title.html
 
-exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "Gemfile", "Gemfile.lock", "changelog.md", "gemfile", "History.markdown", "site.zip",
+exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", "gemfile", "History.markdown",
           ".idea", ".git", ".gitignore", "Thumbs.db", "site.tgz", "fabfile.py", "Dockerfile", "Vagrantfile",
           "*.log", "autogen_gallery.py"]
 highlighter: rouge
@@ -25,7 +25,7 @@ author :
   email : danny@orionrobots.co.uk
   github : orionrobots
   twitter : orionrobots
-  feedburner : feedname
+  feedburner : orionrobots
 sharing:
     facebook: True
     twitter: True
