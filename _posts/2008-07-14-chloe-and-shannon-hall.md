@@ -1,7 +1,7 @@
 ---
 created: 2008-07-14 16:24:03
 description: Chloe and Shannon Hall
-tags: [robots, micromouse, uk, robotbuilding, junkbuilding, technology, gadgets, events]
+tags: [robots, micromouse, uk, robot building, junkbuilding, technology, gadgets, events]
 title: Chloe and Shannon Hall
 layout: post
 todo_needs_sat: convert image refs, and gallery
