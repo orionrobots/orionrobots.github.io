@@ -2,6 +2,7 @@ before_script:
   - apt-get update -qq
 
 build:site:
+  image: jekyll/builder
   stage: build
   script:
     - bundle install
