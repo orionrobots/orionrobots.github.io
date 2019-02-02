@@ -35,6 +35,7 @@ The Raspberry Pi 3a+ is definitely my new recommendation for building a robot, a
 
 ### About The Book
 
+<a href="https://www.amazon.co.uk/Learn-Robotics-Programming-autonomous-Raspberry-ebook/dp/B07DT9R42B/ref=as_li_ss_il?ie=UTF8&linkCode=li1&tag=orionrobots-21&linkId=4f408506c16858434100eba00eb4f647&language=en_GB" class="pull-left" target="_blank"><img border="0" src="//ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B07DT9R42B&Format=_SL110_&ID=AsinImage&MarketPlace=GB&ServiceVersion=20070822&WS=1&tag=orionrobots-21&language=en_GB" ></a><img src="https://ir-uk.amazon-adsystem.com/e/ir?t=orionrobots-21&language=en_GB&l=li1&o=2&a=B07DT9R42B" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
 [Learn Robotics Programming](https://amzn.to/2RZqPIy) shows you how to build and program a Raspberry Pi based robot with Python in your own time. The book takes you through selecting the parts, assembling them into a robot, and then how to write Python code to make the robot do interesting things. What kind of things? Line following, object avoidance for a start. Or computer vision tasks like following a coloured object and looking at human faces. 
 
 The programming sections are step by step, and does not assume more than elementary programming skills (written a few lines of code? Know how to work with if statements and for loops?). This is a great way to get started on a robotics hobby!
