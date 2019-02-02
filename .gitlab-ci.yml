@@ -8,7 +8,6 @@ build:site:
       - _site/
     
 deploy:
-  when: manual
   stage: deploy
   dependencies:
     - build:site
