@@ -22,3 +22,18 @@ deploy:
     - chmod 600 ~/.ssh/id_rsa
     - rsync -avv _site/ orionrobots_host:public_html
     - scp _site/htaccess orionrobots_host:public_html/.htaccess
+
+monitoring:link-checker
+  when: manual
+  stage: monitoring
+  script:
+    - apt-get -y update && apt-get install -y ca-certificates
+    - apt-get install -y linkchecker
+    - apt-get install -y python3-pip
+    - pip3 install jinja2
+    - cd _drafts/linkchecker/
+    - linkchecker http://orionrobots.co.uk/ --no-warnings --timeout=20 -ocsv >result.csv
+    - python3 filter_csv.py result.csv >result.html
+  artifacts:
+    paths:
+      - result.html
