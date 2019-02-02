@@ -2,7 +2,7 @@
 layout: post
 title: Cardbot Challenge Details
 date: 2004-11-16 16:10:56
-tags: [challenges, east-finchley-robotics-club]
+tags: [challenges, east finchley robotics club]
 ---
 This challenge is to build a robot capable of taking a deck of cards, shuffling it, and then dealing cards off the top of the deck.
 

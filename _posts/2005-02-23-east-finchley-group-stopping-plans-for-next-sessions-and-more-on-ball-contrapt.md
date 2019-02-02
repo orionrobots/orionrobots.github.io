@@ -1,7 +1,7 @@
 ---
 created: 2005-02-23 09:47:51
 description: East Finchley Group Stopping, Plans for next sessions, and more on Ball Contraption
-tags: [lego,gbc]
+tags: [lego, gbc]
 title: East Finchley Group Stopping, Plans for next sessions, and more on Ball Contraption
 layout: post
 ---
