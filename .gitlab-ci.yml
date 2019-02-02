@@ -2,9 +2,7 @@ build:site:
   image: jekyll/builder
   stage: build
   script:
-    - bundle install
-    - bundle exec jekyll --version
-    - bundle exec jekyll build
+    - jekyll build
   artifacts:
     paths:
       - _site/
@@ -15,7 +13,7 @@ deploy:
   dependencies:
     - build:site
   script:
-    - apk add rsync
+    - apt-get update -qq && apt-get install -y rsync
     - mkdir -p ~/.ssh
     - chmod 700 ~/.ssh
     - echo "$ORIONROBOTS_HOST_KEYS" > ~/.ssh/known_hosts
