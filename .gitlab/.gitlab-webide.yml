@@ -1,0 +1,3 @@
+terminal:
+  before_script:
+    - apt-get update
