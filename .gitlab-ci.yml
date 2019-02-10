@@ -14,7 +14,7 @@ build:site:
     
 deploy:
   stage: deploy
-  only: master
+  only: [master]
   dependencies:
     - build:site
   script:
