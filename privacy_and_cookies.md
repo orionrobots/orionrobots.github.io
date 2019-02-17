@@ -36,15 +36,16 @@ If we ask for your details for other reasons, like marketing, we will either ask
 
 If after you opt-in, you change your mind, you may remove your consent for us to contact you, or to not collect, use or share your details, at any time, by contacting us at customer.services@orionrobots.co.uk or mailing us at:
 orionrobots
-61 Richmond Hill, tw10 6re
+1 Queens Court, Richmond, TW10 6LA
 
 ## Sharing
 
-We may share your personal details if the aw says we must or if you break our Terms of Service. 
+We may share your personal details if the law says we must or if you break our Terms of Service. 
 
 ## THIRD-PARTY SERVICES
 
-In general, the third-party providers used by us will only collect, use and share your details where needed for them to perform the services they provide to us. 
+In general, the third-party providers used by us will only collect, use and share your details where needed for them to perform the services they provide to us.
+
 However, some third-party service providers, such as payment gateways and other payment order processors, have their own privacy policies in respect to the detail we must share with them related to your order.  We recommend that you read their privacy policies to see how they will handle your details.
 
 Some providers may work in or be based in places with other laws than you or us. If you choose to buy when it involves the services of a third-party, then your details may be subject to the laws of the places where that service provider or its facilities are.
@@ -87,4 +88,4 @@ We may change this privacy policy at any time, please do not assume it will stay
 
 If you would like to: see, change or delete any information we have about you, make a complaint, or simply want to know more contact us at customer.services@orionrobots.co.uk or by mail at 
 orionrobots
-61 Richmond Hill null GB tw10 6re
+1 Queens Court, Richmond, TW10 6LA

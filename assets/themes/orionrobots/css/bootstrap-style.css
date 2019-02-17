@@ -29,3 +29,17 @@ theme :
   float: left !important;
   padding-right: 4px;
 }
+
+
+#sharing{
+  margin: 16px 0 0 0;
+  padding: 4px 0 0 0;
+  border-top: 1px solid #dddddd;
+  }
+#sharing ul{
+  list-style: none;
+  }
+#sharing li{
+  margin: 0;
+  float: left;
+  }
