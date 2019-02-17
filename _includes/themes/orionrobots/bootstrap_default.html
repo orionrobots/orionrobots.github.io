@@ -90,12 +90,14 @@
         <div class="row">
           <div id="col-main" class="content col-md-8">
             <h2 class="page-header">{{ page.title }} {% if page.tagline %}<small>{{page.tagline}}</small>{% endif %}</h2>
+            {% include social-sharing %}
             {{ content }}
             {% if page.comments %}
                 {% include discus_thread %}
             {% endif %}
           </div>
           <div class="col-md-4">
+              {% include sidebar-book.html %}
               <div class="panel panel-default">
                   <div class="panel-heading">Other places to find us</div>
                   <div class="panel-body list-group">
@@ -123,49 +125,12 @@
             </p>
         </footer>
     </div>
-    <!-- Search Modal -->
-    <div id="modalSearch" class="modal fade" role="dialog">
-       <div class="modal-dialog">
-    
-           <!-- Modal content-->
-           <div class="modal-content">
-               <div class="modal-header">
-                   <button type="button" class="close" data-dismiss="modal">×</button>
-                   <h4 class="modal-title">Search Orionrobots</h4>
-               </div>
-               <div class="modal-body">
-                    <gcse:search></gcse:search>
-               </div>
-               <div class="modal-footer">
-                   <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-               </div>
-           </div>
-    
-       </div>
-    </div>
-   <script>
-        $('#modalSearch').on('shown.bs.modal', function () {
-            var cx = 'partner-pub-1306094303661715:fq05xlly9cj';
-            var gcse = document.createElement('script');
-            gcse.type = 'text/javascript';
-            gcse.async = true;
-            gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
-                '//cse.google.com/cse.js?cx=' + cx;
-            var s = document.getElementsByTagName('script')[0];
-            s.parentNode.insertBefore(gcse, s);
-        });
-    </script>
+    {% include modal_search.html %}
     {% include JB/analytics %}
     {% if page.using_mathjax %}
         <script async type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
     {% endif %}
-    <script src="/js/cookiechoices.js"></script>
-    <script>
-      document.addEventListener('DOMContentLoaded', function(event) {
-        cookieChoices.showCookieConsentBar('Cookies help us deliver our services. By using our services, you agree to our use of cookies.',
-          'Got It', 'Learn More', 'https://orionrobots.co.uk/privacy_and_cookies.html');
-      });
-    </script>
+    {% include cookies_prompt %}
 
 </body>
 </html>
