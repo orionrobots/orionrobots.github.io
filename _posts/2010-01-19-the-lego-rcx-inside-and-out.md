@@ -177,7 +177,7 @@ The RCX uses three MLX10402CA motor controller chips(one for each port).
 ### Photos of The Innards
 
 <!-- TODO: Photo carousel? -->
-![A close up of the Motor Driver Chip used on the RCX](/galleries/gallery-1-common-images/121-motor-chip.JPG)
+{% include figure.html url="/galleries/gallery-1-common-images/121-motor-chip.JPG)" description="A close up of the Motor Driver Chip used on the RCX." %}
 ![The RCX Mainboard](/galleries/gallery-1-common-images/123-rcx-mainboard-with-pointers.gif)
 ![Closeup of the Hitachi/Renasys H8 Processor on the Lego RCX mainboard](/galleries/gallery-1-common-images/122-h8.JPG)
 ![The H8 Pin Diagram](/galleries/gallery-1-common-images/125-rcxh8pins.gif)
