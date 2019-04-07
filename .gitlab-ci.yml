@@ -61,6 +61,7 @@ build:site:
   artifacts:
     paths:
       - _site/
+      - _drafts/staging/httpd.conf
 
 build:staging:
   image: docker:stable-git
@@ -73,7 +74,9 @@ build:staging:
     - *auto_devops
   script:
     - cp _drafts/staging/Dockerfile _site/
+    - cp _drafts/staging/httpd.conf _site/
     - cd _site/
+    - mv htaccess .htaccess
     - setup_docker
     - build
   only:
