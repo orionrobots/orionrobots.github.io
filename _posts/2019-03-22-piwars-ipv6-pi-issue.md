@@ -25,7 +25,7 @@ This is usually easy enough, it takes a while, and sometimes there may be a pack
 
 It was sat like this for a long time. Now the clue here is in what this Pi thought archive.raspberrypi.org is - "2a00:1098:0:82:1000:13:0:7". This looks to me like an ipv6 address. Now although ipv6 is the future (although on hold since the 90's), it's not universally supported. 
 
-Now I'm on an interesting new broadband provider. They are very quick, but they also tend to get a little experimental sometimes. It seems that there are IPV6 addresses on the local network, and some of their network, but not all the way. It's not going to work. There are resources on the internet that make this a likely issue. [Raspberry Pi | apt-get and ipv6 troubles](https://www.raspberrypi.org/forums/viewtopic.php?t=173052)
+Now I'm on an interesting new broadband provider. They are very quick, but they also tend to get a little experimental sometimes. It seems that there are IPV6 addresses on the local network, and some of their network, but not all the way. It's not going to work. There are resources on the internet that make this a likely issue. [Raspberry Pi - apt-get and ipv6 troubles](https://www.raspberrypi.org/forums/viewtopic.php?t=173052)
 
 Lets confirm this with an `ifconfig -a`, a command to check the network interface configuration. This should show if we have an ipv6 address, which to me makes it even more likely that it's the issue. Note I've obscured some bits...
 
