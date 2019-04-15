@@ -373,7 +373,7 @@ You are welcome to tweet me your own Lego Mindstorms Robotics site here as long 
 
 * [RCX Internals](http://www.mralligator.com/rcx/)
 * [Upgrading Lego Mindstorms RIS 1.0?](https://www.boards.ie/b/thread/2055747086?mode=linear)
-* [RCX 1.0 Case Disassembly | iFixit](https://www.ifixit.com/Guide/Disassembling-RCX-1-0-Case/4352/2) - iFixit - Disassembling RCX 1.0 Case: How to access the RCX's circuit board.
+* [RCX 1.0 Case Disassembly - iFixit](https://www.ifixit.com/Guide/Disassembling-RCX-1-0-Case/4352/2)
 * [Bricklink Catalog Entries for the RCX](https://www.bricklink.com/catalogList.asp?q=RCX)
 * [Lego Dimensions and Measurements](https://www.cailliau.org/Lego/Dimensions/zMeasurements-en.xhtml) - When interfacing stuff with Lego, knowing conversions to MM from the Lego Units can be very handy.
-* [My shortlived Lego only blog](https://dannys-lego.blogspot.co.uk/)
+* [My Lego only blog](https://dannys-lego.blogspot.co.uk/)
