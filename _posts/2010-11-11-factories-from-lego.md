@@ -1,15 +1,15 @@
 ---
 created: 2010-11-11 00:52:00
-description: Factories from Lego
+description: Factories Built With Lego
 tags: [lego, rcx, mindstorms, nxt, motor, sensors, factory, fabrication, assembly line]
-title: Factories from Lego
+title: Factories Built With Lego
 layout: post
 ---
 {% include JB/setup %}
 
-I've been considering building my own pick and place, or CNC or similar manufacturing gear for some time.
+I've been considering building my own pick and place machine, CNC or similar manufacturing gear for some time.I had considered Lego as a material for fun.
 
-It appears that others have definitely got there first with some amazing factories,  built entirely with Lego, using Mindstorms kits to pick and place and manufacture Lego models. Indeed the earliest I saw (and possibly not the earliest built), was a few years ago. So what is there?
+It appears that others have definitely got there first with some amazing factories, built entirely with Lego, using Mindstorms kits to pick and place and manufacture Lego models. Indeed the earliest I saw (and possibly not the earliest built), was a few years ago. So what is there?
 
 The first I knew of was the Mindstorms Autofabrick - a Car factory.
 
@@ -17,8 +17,7 @@ The first I knew of was the Mindstorms Autofabrick - a Car factory.
 <iframe width="420" height="315" src="//www.youtube.com/embed/GQ3AcPEPbH0?rel=0" frameborder="0" allowfullscreen="true"></iframe>
 </div>
 
-Then this one, uses the chain links from a Lego technic bulldozer set to make a conveyor,
-  and shows a much simpler pick and place action.
+The next one uses the chain links from a Lego technic bulldozer set to make a conveyor, and shows a much simpler pick and place action.
 
 <div class="embed-responsive embed-responsive-16by9">
 <iframe width="420" height="315" src="//www.youtube.com/embed/HVBOnKPoxv4?rel=0" frameborder="0" allowfullscreen="true"></iframe>
@@ -36,4 +35,4 @@ All of those, while amazing, are not as flexible as this latest offering, which 
 <iframe width="420" height="315" src="//www.youtube.com/embed/wgj9cZtW2Fs?rel=0" frameborder="0" allowfullscreen="true"></iframe>
 </div>
 
-So what can you do with these? Build your own - perhaps consider CNC machines - or  just be inspired to build something. Have a go!
+So what can you do with these? Build your own - perhaps consider CNC machines - or just be inspired to build something. Have a go!

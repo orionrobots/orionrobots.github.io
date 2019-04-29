@@ -4,7 +4,7 @@ tags: [technic, lego, gbc, kugelbahn, dominoes, nxt, mindstorms]
 title: More amazing lego innovation
 layout: post
 ---
-The arrival of Lego mindstorms kicked off a wave of Lego innovation, but not all of that used official Lego mindstorms kits - some where just motors strapped onto curious contraptions, some of the most interesting being the Rube Goldberg devices, kinetic sculptures, rolling ball machines and similar.
+The arrival of Lego Mindstorms kicked off a wave of Lego innovation, but not all of that used official Lego Mindstorms kits. Some creations were just motors strapped onto curious contraptions, the most interesting being the Rube Goldberg devices, kinetic sculptures, rolling ball machines and similar.
 
 Lego Domino laying contraption:
 
@@ -18,13 +18,13 @@ Early Lego marble machine:
 <iframe width="420" height="315" src="//www.youtube.com/embed/Mw3dUbRfMSw?rel=0" frameborder="0" allowfullscreen="true"></iframe>
 </div>
 
-Innovations like this have led to responses with pure Lego, the culmination being the Great Ball Contraption - GBC - This video has trains, robots, and many ball moving machines:
+Innovations like this have led to responses with pure Lego, the culmination being the Great Ball Contraption (GBC) This video has trains, robots, and many ball moving machines:
 
 <div class="embed-responsive embed-responsive-16by9">
 <iframe width="420" height="315" src="//www.youtube.com/embed/NLOuTJEpeD4?rel=0" frameborder="0" allowfullscreen="true"></iframe>
 </div>
 
-The GBC is many contraptions made by many Lego clubs and fans, unified by a common interface and brought together at Lego gatherings where many are joined end to end to make a circuit. These lead to videos of smaller collections like this one, filmed in a way that makes it clear it has become obsession:
+The GBC is many contraptions made by many Lego clubs and fans, unified by a common interface and brought together at Lego gatherings where many are joined end to end to make a continuous ball-passing line. These led to videos of smaller collections like this one, filmed in a way that makes it clear that Lego contraptions has become an obsession:
 
 <div class="embed-responsive embed-responsive-16by9">
 <iframe width="420" height="315" src="//www.youtube.com/embed/n66N0A2VRyM?rel=0" frameborder="0" allowfullscreen="true"></iframe>
