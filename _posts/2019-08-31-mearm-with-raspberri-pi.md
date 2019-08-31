@@ -9,9 +9,8 @@ tags: [robotics, robot arm, raspberry pi, raspberry pi projects, raspberry pi 3 
 
 In my last few posts I've been playing with robot arms. In a recent video, I built the MeArm robot kit and thoroughly enjoyed doing so. In rather nice Nuke Cola blue laser cut plastic, it went together very nicely.
 
-<div class="embed-responsive embed-responsive-16by9">
-<iframe width="560" height="315" src=" https://www.youtube.com/watch?v=OY8Aq9rou3k" frameborder="0" allowfullscreen="True"></iframe>
-</div>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/OY8Aq9rou3k" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="true"></iframe>
+
 
 In the next video I wire it up and then connect it to a Raspberry Pi
 
@@ -19,9 +18,8 @@ In the next video I wire it up and then connect it to a Raspberry Pi
 
 In the most recent video, this arm is connected to the Raspberry Pi 
 
-<div class="embed-responsive embed-responsive-16by9">
-<iframe width="560" height="315" src="https://youtu.be/_63Iw9JOUjQ" frameborder="0" allowfullscreen="True"></iframe>
-</div>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/_63Iw9JOUjQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="true"></iframe>
+
 
 ## Wiring It Up
 
