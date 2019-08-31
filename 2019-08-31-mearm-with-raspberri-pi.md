@@ -60,6 +60,8 @@ Set up the other servos:
     >>> right = gpiozero.Servo(17)
     >>> left = gpiozero.Servo(22)
     
+Or you can go better and call left elbow and right shoulder.
+
 ## Interacting with the servos
 
 These are using the [Servo](https://gpiozero.readthedocs.io/en/stable/api_output.html#servo) object from GPIOZero. 
@@ -79,5 +81,6 @@ You can also set .value to vary this:
     >>> base.value = 0.7
     
 This should be a value between -1.0 and 1.0 with 0 being the middle.
-Left and right should be elbow and shoulder angles. I need to check which way up they are.
+Left and right should be elbow and shoulder angles.
+
 
