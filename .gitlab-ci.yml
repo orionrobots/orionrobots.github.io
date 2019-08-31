@@ -56,7 +56,7 @@ stages:
   
 build:site:
   tags: [docker]
-  image: jekyll/builder
+  image: jekyll/builder:3
   stage: build
   script:
     - jekyll build
