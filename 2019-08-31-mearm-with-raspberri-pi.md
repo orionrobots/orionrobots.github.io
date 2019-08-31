@@ -17,6 +17,11 @@ In the next video I wire it up and then connect it to a Raspberry Pi
 
 # Connecting it to a Raspberry Pi
 
+In the most recent video, this arm is connected to the Raspberry Pi 
+
+<div class="embed-responsive embed-responsive-16by9">
+<iframe width="560" height="315" src="https://youtu.be/_63Iw9JOUjQ" frameborder="0" allowfullscreen="True"></iframe>
+</div>
 
 ## Wiring It Up
 
