@@ -2,10 +2,6 @@
 # AddHandler application/x-httpd-php54 .php
 # AddHandler php53-fcgi .php
 
-#
-# Please find more info here
-# http://doc.tiki.org/Rewrite+Rules
-
 # This prevents reading of files with certain extensions.
 <FilesMatch "\.(bak|inc|lib|sh|tpl|sql)$">
 	order deny,allow
@@ -50,8 +46,6 @@ ErrorDocument 501 /404.html
 
 <IfModule mod_rewrite.c>
 RewriteEngine On
-
-
 
 ## FORUMS
 
@@ -174,7 +168,6 @@ RewriteRule "^forumthread31" /forums/announcements/open_comments? [R,L]
 RewriteRule "^forumthread28" /forums/announcements/sandbox_disabled? [R,L]
 RewriteRule "^forumthread1" /forums/announcements/new_site? [R,L]
 
-
 # Non tiki
 RewriteRule ^blogs?$                archive.html                      [L]
 
@@ -198,11 +191,13 @@ RewriteRule "^Apache.?Monitor.?With.?Python.?And.?An.?LED" /2004/11/14/apache-mo
 RewriteRule "^Robot.?Stores(.*)" /pages/robot-stores.html [R]
 RewriteRule "^Sir.?Killalot(.*)" /2005/03/01/sir-killalot.SuppressHTMLPreamble [R,L]
 RewriteRule "^Robotic.?Gadgets.?And.?Toys(.*)" /2005/08/02/robotics-toys-and-gadgets.html [R,L]
-RewriteRule "^HomePage$"                /index.html                         [R,NC]
+Redirect 301 /HomePage /index.html
+
 RewriteRule "^MegaByte.?Robot.?Dog$"    /2004/11/14/megabyte-robot-dog.html [R,NC,L]
-RewriteRule "^USB$"                     /wiki/universal_serial_bus          [R]
-RewriteRule "^/wiki/lego_rcx$"          /wiki/rcx                           [R]
-RewriteRule ^lego$                      /wiki/lego                          [R,NC,L]
+
+Redirect 301 /USB /wiki/universal_serial_bus
+Redirect 301 /wiki/lego_rcx /wiki/rcx
+Redirect 301 /lego /wiki/lego
 
 RewriteCond  %{QUERY_STRING} imageId=122
 RewriteRule "^tiki-browse_image.php"           /2010/01/19/the-lego-rcx-inside-and-out.html?#photos-of-the-innards     [R,L,NE]
@@ -229,25 +224,6 @@ RewriteCond %{REQUEST_FILENAME} -l [OR]
 RewriteCond %{REQUEST_FILENAME} -f [OR]
 RewriteCond %{REQUEST_FILENAME} -d
 RewriteRule (.*) - [L]
-
-RewriteRule ^filelist$             tiki-list_file_gallery.php               [L]
-RewriteRule ^login$                tiki-login_scr.php                       [L]
-RewriteRule ^logout$               tiki-logout.php                          [L]
-
-# RewriteRule ^browseimage([0-9]+)(.*) tiki-browse_image.php?imageId=$1$2     [QSA,L]
-RewriteRule ^directory([0-9]+)(.*) tiki-directory_browse.php?parent=$1$2    [QSA,L]
-RewriteRule ^dirlink([0-9]+)       tiki-directory_redirect.php?siteId=$1    [QSA,L]
-RewriteRule ^file([0-9]+)(.*)      tiki-list_file_gallery.php?galleryId=$1$2 [QSA,L]
-RewriteRule ^dl([0-9]+)(.*)        tiki-download_file.php?fileId=$1$2       [QSA,L]
-RewriteRule ^thumbnail([0-9]+)(.*) tiki-download_file.php?fileId=$1&thumbnail$2 [QSA,L]
-RewriteRule ^display([0-9]+)(.*)   tiki-download_file.php?fileId=$1&display$2 [QSA,L]
-RewriteRule ^preview([0-9]+)(.*)   tiki-download_file.php?fileId=$1&preview$2 [QSA,L]
-RewriteRule ^gallery([0-9]+)(.*)   tiki-browse_gallery.php?galleryId=$1$2   [QSA,L]
-RewriteRule ^img([0-9]+)(.*)       show_image.php?id=$1$2                   [QSA,L]
-RewriteRule ^image([0-9]+)(.*)     show_image.php?id=$1$2                   [QSA,L]
-RewriteRule ^imagescale([0-9]+)/([0-9]+)(.*) show_image.php?id=$1&scalesize=$2$3  [QSA,L]
-RewriteRule ^user([0-9]+)(.*)      tiki-user_information.php?userId=$1$2    [QSA,L]
-RewriteRule ^(lib/wiki3d/.+\.jar)$ $1                                       [L]
 
 #RewriteRule ^/wiki/([^/.?]+).html$                 wiki/$1                   [QSA,L]
 
