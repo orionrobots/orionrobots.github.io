@@ -19,7 +19,7 @@ can point its "head" at. You can drive the robot with your phone, make it avoid 
 a mycroft based voice assistant to control the robot by speaking.
 
 <div style="margin-left: auto; margin-right: auto;">
-<a href="https://www.packtpub.com/hardware-and-creative/learn-robotics-programming"><img src="https://d255esdrn735hr.cloudfront.net/sites/default/files/imagecache/ppv4_main_book_cover/B11057.png"><br/>
+<a href="https://www.packtpub.com/hardware-and-creative/learn-robotics-programming"><img src="/galleries/2019/learn-robotics-programming/cover.jpg" class="img-responsive"><br/>
 Learn Robotics Programming | PACKT Books</a>
 </div>
 
