@@ -99,7 +99,8 @@ build:test:
   script:
   # Check we can reach the main site, without an error.
     - apt-get update -y && apt-get install -y curl
-    - curl -I -f http://site/
+    - curl -I -L -f http://site/
+    - curl -I -L -f http://site/construction_guide.html 
 
 deploy:
   stage: deploy
