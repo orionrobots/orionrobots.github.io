@@ -7,7 +7,7 @@ tags: [robotics, raspberry pi, raspberry pi projects, raspberry pi 3 projects, p
 {% include JB/setup %}
 # Build A Low-Cost Wheeled Robot
 
-Over the last few montsh I have been writing a magazine series on Building a Low Cost Wheel Robot, with Raspberry Pi.
+Over the last few months I have been writing a magazine series on Building a Low Cost Wheel Robot, with Raspberry Pi.
 
 https://magpi.raspberrypi.org/articles/build-a-low-cost-wheeled-robot-raspberry-pi
 
