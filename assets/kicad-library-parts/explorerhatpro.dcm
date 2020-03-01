@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ExplorerHatPro
+D Pimoroni Explorer Hat Pro
+K Raspberry Pi, Motor, Input, Analog
+F https://shop.pimoroni.com/products/explorer-hat
+$ENDCMP
+#
+#End Doc Library
