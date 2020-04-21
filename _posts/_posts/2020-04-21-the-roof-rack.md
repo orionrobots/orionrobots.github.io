@@ -18,7 +18,8 @@ I used Fusion 360 to prototype these ideas, and printed the first attempts at fr
 something Lego compatible with the Technic system would be easier and give me far more flexibility. It means I can consider Lego for building more complex mechanisms and 
 interfacing them with my robots. Mixed mode.
 
-I designed and made an adaptor for Lego Technic Pins that bolts to the top of my lunch box. I nicknamed this part The Roof rack. And it works a treat.
+I designed and made an adaptor for Lego Technic Pins that bolts to the top of my lunch box. I printed this on my Flashforge Finder 3D Printer. 
+I nicknamed this part The Roof rack. And it works a treat.
 
 See the video below for more detail.
 
