@@ -14,7 +14,7 @@ There are two basic ways to do this, the first is to cut into an original cable,
 
 # Modifying an original cable
 
-##Overview
+## Overview
 
 The most simple way to hook something into a Lego electronic device (like the Lego RCX), is to slice a lego cable, and then splice your device into the cable. Since you are cutting a connector in half, you get two adaptors this way.  The cables themselves are multicore, so you will probably need to tin them, and maybe even crimp them into a connector.
 
