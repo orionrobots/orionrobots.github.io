@@ -17,23 +17,23 @@ the base for their robot.
 So what parts do I use?
 
 * The Raspberry Pi 3b+. 
-* The chassis kit - the model I used specifically is listed as a "2WD Robot Smart Car Chassis" at https://amzn.to/2YLyYlp.
+* The chassis kit - the model I used specifically is listed as a ["2WD Robot Smart Car Chassis"](https://amzn.to/2YLyYlp).
     * Any 2WD platform with motors you can drive at 5-7v which is big enough will do.  
     * Some may require you to solder on the leads. 
-* AA battery box: https://amzn.to/3gmI25X
+* [AA battery box](https://amzn.to/3gmI25X)
     * This is the 4xAA type. Cables are preattached, and it is the reduced space kind.
     * The chassis kits come with AA battery boxes, but they are usually the kind that need more space.
-* USB Battery pack - I use the Anker power core 10000mAh - https://amzn.to/3hrHRrh.
+* USB Battery pack - I use the [Anker power core 10000mAh](https://amzn.to/3hrHRrh).
     * Used in a few of my robots.
 * Motor controller: this is trickier to find, but a completely compatible board is available at: 
-        * https://amzn.to/34G4ll9
-        * https://amzn.to/3aUCQFa
+        * <https://amzn.to/34G4ll9>
+        * <https://amzn.to/3aUCQFa>
     * The Servo motor ports are out to one side.
     * The code in the book is compatible with PCA9685 based boards.
-* Stand off kit: https://amzn.to/3lgYU1w
+* [Stand off kit](https://amzn.to/3lgYU1w)
     * Contains M2, M2.5 and M3 stand offs and spacers.
-* Dupont Jumper wire kit: https://amzn.to/2EczdyN (Pimoroni jumper jerky is great here too)
-* Hook and loop tape: https://amzn.to/2CV7cLj 
+* [Dupont Jumper wire kit](https://amzn.to/2EczdyN) - Pimoroni jumper jerky is great here too.
+* [Hook and loop tape](https://amzn.to/2CV7cLj) 
 
  
 ## Why the Raspberry Pi 3b+?
