@@ -14,5 +14,5 @@ ENV BUNDLE_GEMFILE=$APP_HOME/Gemfile \
 RUN bundle install
 COPY . $APP_HOME
 
-RUN bundle exec jekyll --version
-RUN bundle exec jekyll build
+# RUN bundle exec jekyll --version
+# RUN bundle exec jekyll build
