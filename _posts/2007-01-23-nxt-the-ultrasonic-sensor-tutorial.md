@@ -52,7 +52,6 @@ The next tempting section is machines with an arm. This is looking exciting. I a
 * [NXT](/wiki/nxt "Legos NeXT generation robotics kit")
 * [Lego](/wiki/lego "The best known construction toy")
 * [Mindstorms](/wiki/mindstorms "A Robotic construction toy system from Lego")
-* <a href="http://www.mindstorms.com" >http://www.mindstorms.com</a>
 
 
 <iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=GB&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=orionrobots-21&marketplace=amazon&region=GB&placement=B00BMKLVJ6&asins=B00BMKLVJ6&linkId=790d5f97e58d0e79ecb2fbe1b24a3108&show_border=true&link_opens_in_new_window=true"></iframe>

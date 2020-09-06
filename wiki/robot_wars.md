@@ -40,7 +40,6 @@ House Robots:
 * <a class="wiki" href="/wiki/holding_school_robot_battle_events.html" title="Holding School Robot Battle Events">Holding School Robot Battle Events</a>
 * <a  href="http://en.wikipedia.org/wiki/Robot_Wars" rel="external" target="_blank">Robot Wars on Wikipedia</a>
 * <a  href="http://www.extremefightingmachines.co.uk/cgi-bin/discus/discus.cgi" rel="external" target="_blank">Fighting Robot Association</a>
-* <a class="wiki" href="tiki-directory_redirect.php?siteId=65" rel="">Robot Wars Top Ten</a>
 
 # Recommended Items
 

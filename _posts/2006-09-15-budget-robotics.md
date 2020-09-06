@@ -19,4 +19,4 @@ Now given the current pound/dollar exchange rate, and its not hard to see that s
 
 The site also comes from Gordon McComb, of of the authors of Robot Builder's Bonanza, so this is someone who knows their robotics. Octabot is cheap enough for those who don't want to scratch build to have a go, combine it with an ooPIC and your off!
 
-<http://www.budgetrobotics.com>
+
