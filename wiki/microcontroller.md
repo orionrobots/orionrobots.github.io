@@ -67,7 +67,7 @@ This page listed controllers previously that are less used currently, but preser
 * <a class="wiki" href="/wiki/megabitty.html" title="A very small AVR microcontroller board solution">MEGAbitty</a> - A tiny AVR based board.
 * <a class="wiki" href="/wiki/pc104.html" title="PC104">PC104</a> - A standard in industrial tiny PC based computing.
 
-For a comparison table on these devices - go to <a class="wiki" href="/forums/electronics/preferred_microcontrollers">microcontrollers roundup</a>.
+For a comparison table on these devices - go to <a class="wiki" href="/forums/electronics/preferred_microcontrollers.html">microcontrollers roundup</a>.
 
 ## Programming Older Microcontrollers
 
