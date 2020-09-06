@@ -37,6 +37,8 @@ When you are constraining and defining - you may find these definitions/calculat
 | odCyl  | sqrt(2) * sSt - dSt |
 | thCyl  | (odCyl - dSt) / 2 |
 
+<a target="_blank" href="https://www.amazon.co.uk/deal/0246e199?_encoding=UTF8&linkCode=ib1&tag=orionrobots-21&linkId=767bc0f0a07acde1aeeb310e18ae8882&ref_=ihub_deals-promotions_0246e199">Gikfun IIC SPI OLED Display Module for Arduino Raspberry Pi</a><img src="//ir-uk.amazon-adsystem.com/e/ir?t=orionrobots-21&l=ib1&o=2" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+
 ## In details
 
 Although studs are the standard unit of Lego measure- to interface with other systems, and for some more complex models, it is important to understand the dimensions. The goal is to represent brick heights and plate heights in millimeters. We will refer to gears using the number of teeth(ie 24t) - although the diameter of the holes, wheels and studs could also be of significance.

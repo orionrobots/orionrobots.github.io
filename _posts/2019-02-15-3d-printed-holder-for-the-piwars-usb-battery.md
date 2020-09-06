@@ -44,7 +44,7 @@ From the outset, I planned the Piwars 2019 robot to follow my book pattern, with
 
 Making sure I'd used the two packs would solve problem number 3, the voltage sag issues that I'd experienced when the motors were loaded causing the Raspberry Pi to reset.
 
-The next problem was where to put them. I needed to avoid issue 1 that the batteries could fall out of the robot.  I based my 2019  robot on a [T200 metal tank chassis from 4tronix](https://shop.4tronix.co.uk/collections/robot-chassis/products/t200-metal-robot-tank-chassis-with-motors-speed-encoders?variant=37105159425). The flat metal chassis gives a nice divide, anything below that chassis line would be below the centre of gravity.
+The next problem was where to put them. I needed to avoid issue 1 that the batteries could fall out of the robot.  I based my 2019  robot on a T200 metal tank chassis from 4tronix. The flat metal chassis gives a nice divide, anything below that chassis line would be below the centre of gravity.
 
 The battery mounts need to fit around the gearboxes I made for this chassis (a story for another post), leave room for motor cabling and bolt nicely to the frame.
 

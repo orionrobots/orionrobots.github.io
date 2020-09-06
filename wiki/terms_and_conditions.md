@@ -59,6 +59,5 @@ Above all, please enjoy the site and strive to create/maintain a co-operative an
 <h1  id="Important_links">Links</h1>
 
 * <a href="http://www.iwf.org.uk" rel="external" target="_blank">Internet Watch Foundation</a>
-* <a href="http://www.spam.cl.cam.ac.uk" rel="external" target="_blank">Fight Spam On the Internet</a>
 * <a href="http://www.getnetwise.org" rel="external" target="_blank">GetNetWise - Using the Internet Safely</a>
 * <a href="http://www.cauce.org/" target="_blank"> Cauce anti spam </a>

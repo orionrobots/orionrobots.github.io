@@ -462,7 +462,7 @@ Plug the GND cable into a spare GND pin on the Uno board, plug VCC into IOREF. F
 
 To stop the module dangling off the side of the robot, I've found it handy to poke it just a little into the upper cable port. 
 
-Once you have this connected, you should be able to turn on your robot (without the USB cable connected), and see the bluetooth HC-06 module on your computer. Pair the module, and get the connection details (either COM<n> on windows, or /dev/tty<somestuff> on linux and mac), put those into the new Serial call.
+Once you have this connected, you should be able to turn on your robot (without the USB cable connected), and see the bluetooth HC-06 module on your computer. Pair the module, and get the connection details (either COM<n> on windows, or /dev/tty/{somestuff} on linux and mac), put those into the new Serial call.
 
 Restart your control app on the PC and you should be able to control the robot from the computer.
 
@@ -470,10 +470,13 @@ Restart your control app on the PC and you should be able to control the robot f
 
 I suggest tweaking the timeout on the robot code to 100 millis first. You will need to disconnect the rx/cx lines from the bluetooth module before using the USB cable to program it.
 
-If you have an Android phone or tablet with Bluetooth, you should be able to take control and drive the robot from it with the HC-06 module.
-First - download this free app - <a href="https://play.google.com/store/apps/details?id=mobi.dzs.android.BLE_SPP_PRO&hl=en">Bluetooth SPP tools Pro</a>.
+If you have an Android phone or tablet with Bluetooth, you should be able to take control and drive the robot from it with the HC-06 module. This originally used the "Bluetooth SPP Tools Pro" app, which is no longer available.
+You should still be able to download a bluetooth SPP app from the <a href="https://play.google.com/store/search?q=Bluetooth%20spp&c=apps&hl=en_GB">Play Store</a>.
+The app <a href="https://play.google.com/store/apps/details?id=com.broxcode.arduinobluetoothfree&hl=en_GB">Arduino Bluetooth Control</a> or <a href="https://play.google.com/store/apps/details?id=com.shevauto.remotexy.free&hl=en_GB">RemoteXY: Arduino Control</a> can offer similar features.
 
-Then, ensuring the robot is turned on with the module connected, launch the app and scan device - it should easily identify the HC-06, tap it, and pair with the code 1234. Enter "Keyboard mode" on the next page. You will see a bunch of buttons with the text clickMe on them. Open the app menu, and select "Buttons set". In this mode, you will be able to program the buttons. click on the top-middle button and you'll be able to change its name and the value it sends. Name it 'forward', and the send value to 'w'. You can then click ok. Set the other buttons for left, back and right with the same 'a', 's', 'd' values as above. When you've done all the buttons, summon the menu, and click "Buttons set complete".
+The instructions below are for the SPP Pro Tools app:
+
+Ensuring the robot is turned on with the module connected, launch the app and scan device - it should easily identify the HC-06, tap it, and pair with the code 1234. Enter "Keyboard mode" on the next page. You will see a bunch of buttons with the text clickMe on them. Open the app menu, and select "Buttons set". In this mode, you will be able to program the buttons. click on the top-middle button and you'll be able to change its name and the value it sends. Name it 'forward', and the send value to 'w'. You can then click ok. Set the other buttons for left, back and right with the same 'a', 's', 'd' values as above. When you've done all the buttons, summon the menu, and click "Buttons set complete".
 
 This app will automatically send a line-ending after each value, so to disable this, from the menu select "set end flag" to "other", and clear the value so it is empty. Click ok.
 Use the menu - and go to "set repeat freq", set this value to 100 millis. Finally - change the trigger mode - to "Long press to send repeatedly".
