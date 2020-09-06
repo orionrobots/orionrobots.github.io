@@ -18,5 +18,5 @@ These demonstrations of robots has been dubbed "claytronic". NewScientist create
 
 # Links
 
-* [NewsScientistTech : Shape-shifting robot forms from magnetic swarm](http://technology.newscientist.com/channel/tech/dn13244-shapeshifting-robot-forms-from-magnetic-swarm.html?feedId=online-news_rss20)
+* [NewsScientistTech : Shape-shifting robot forms from magnetic swarm](https://www.newscientist.com/article/dn13244-shape-shifting-robot-forms-from-magnetic-swarm/)
 * [Engadget : Shape-shifting magnetic bots take a page out of the Dharma playbook](http://www.engadget.com/2008/01/29/shape-shifting-magnetic-bots-take-a-page-out-of-the-dharma-playb/)

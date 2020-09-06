@@ -13,7 +13,7 @@ Orionrobots has a robot accepted into PiWars 2020. Its name is Bangers & Bash. A
 
 We've decided to give the lunchbox 2 powered wheels and a ball castor at the front. It's going to have a camera as the primary sensor, with encoders on the wheels (quadrature types) and potentially an IMU (inertial measurement unit). The last item is something I have no experience with and could be interesting.
 
-Like so many PiWars entrants, I've been inspired by the talk by Brian Starkey, aka [@usedbytes](https:/twitter.com/usedbytes) at the PiWars Mini-conference to use the camera for more. I'm going to attempt line following, and other challenges with it, instead of more single-purpose sensors. Using the camera for everything requires some interesting code.
+Like so many PiWars entrants, I've been inspired by the talk by Brian Starkey, aka [@usedbytes](https://twitter.com/usedbytes) at the PiWars Mini-conference to use the camera for more. I'm going to attempt line following, and other challenges with it, instead of more single-purpose sensors. Using the camera for everything requires some interesting code.
 
 The Piwars 2020 theme is Disaster (Zone). However, because our robot is a lunchbox, we (Helena and I) have gone with a food theme. The lunchbox leads to the name "Bangers and Bash." In terms of styling, Helena plans to make the top of the lunchbox look like sizzling sausages on a barbecue. When we get a functioning NERF attachment, she will decorate it to look like a hot dog. 
 

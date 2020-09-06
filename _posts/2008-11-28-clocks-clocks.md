@@ -28,9 +28,9 @@ also has a number of free downloads to use with
 If its all style, you can go for a master of style, by building this hand welded
 [Retro Ball Clock](http://www.finkbuilt.com/blog/ball-clock/). Or for an even more retro fell, why not go for the [Nixie Tube Clock](http://www.finkbuilt.com/blog/numerical-indicator-experimental-1/trackback/). Now if you have never heard of them - Nixie Tubes are a very neat old display which were expensive yet very attractive in their time (50s). They are based on blown glass neon bulbs, and each tube has a filament for all its possible digits. Not easily obtained - but they have a very distinctive look.
 
-Now since we started on Lego, we will come back to Lego. Now we get one here based on the [RCX](/wiki/rcx) - <http://www.lomont.org/Lego/ClockI/ClockI.php> - what is odd is it has separate hands and faces four hour, minutes and seconds. However - it compares poorly with this fantastic 7 foot high, fully working [Lego Grandfather Clock](http://www.ericharshbarger.org/lego/clock.html) built by a rather intense Lego sculptor with a large portfolio.
+Now since we started on Lego, we will come back to Lego. Now we get one here based on the [RCX](/wiki/rcx) - [Chris Lomont's Lego Clock](http://lomont.org/lego/clock-i/) - what is odd is it has separate hands and faces four hour, minutes and seconds. However - it compares poorly with this fantastic 7 foot high, fully working [Lego Grandfather Clock](http://www.ericharshbarger.org/lego/clock.html) built by a rather intense Lego sculptor with a large portfolio.
 
-Lego themselves also have a clock kit - their Lego creator alarm clock, which is reviewed on [Blogging Baby](http://www.bloggingbaby.com/entry/1234000013054369/).
+At Lego ideas, there is an amazing idea for a mechanical pendulum clock kit with only stock lego parts - [LEGO IDEAS - Wall Clock](https://ideas.lego.com/projects/5f13f0c2-284c-4cb2-b649-f554f29e1514).
 
 If all this wasn't enough, the last link I will give you on the subject is [The Lego Clock Index](http://popbubble.com/Lego/LegoClocks/).
 

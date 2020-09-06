@@ -19,7 +19,7 @@ What is remarkable is the technology in the finishing cars drove them legally an
 
 # Links
 
-* [DARPA Grand Challenge Site](http://archive.darpa.mil/grandchallenge/)
+* [DARPA Grand Challenge Site](https://www.grandchallenge.org)
 * [Tartan Racing (Carnegie Mellon University)](http://www.tartanracing.org/blog/index.html)
 * [Stanford University](http://cs.stanford.edu/group/roadrunner/)
 * [Victor Tango - Virginia Tech University](https://vtnews.vt.edu/articles/2007/08/2007-429.html/)

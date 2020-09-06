@@ -91,7 +91,7 @@ I used the NQC language on the RCX enough to collect a few good links.
 
 * [NQC - Not Quite C website](http://bricxcc.sourceforge.net/nqc/) - The home of the NQC programming language for the RCX and is maintained by its author. This contains all the downloads and the documentation to use the software.
 * [Lego MindStorms: Programming with NQC - O'Reilly Media](http://www.oreillynet.com/pub/a/network/2000/02/25/mindstorms/NQC.html) -  This is a superb illustrated guide to getting started using NQC to program your Mindstorms RCX.
-* [Advanced Programming With NQC](http://www.eng.iastate.edu/twt/Courses/Undergrad/packet/appendix/advanced.htm) - course notes from a university module covering robots, where NQC has been used by the students to program their RCX's. The course notes explain each of the elements of the NQC language.
+* [Advanced Programming With NQC](https://www.engineering.iastate.edu/twt/advanced-programming-with-nqc/) - course notes from a university module covering robots, where NQC has been used by the students to program their RCX's. The course notes explain each of the elements of the NQC language.
 
 ### Even more NQC info
 
@@ -258,7 +258,7 @@ Keep the RCX face down – so stuff like the pads and buttons do not fall out. A
 
 To reassemble – follow the same steps backwards. You may need to lightly bend the power clips down before popping the board back into place.
 
-[More on Dissassembling the RCX](http://www.crynwr.com/lego-robotics/disassembling.html)
+[More on Dissassembling the RCX](https://arcb.csc.ncsu.edu/~mueller/rt/mindstorm/www.crynwr.com/lego-robotics/)
 
 ## Details on the Hitachi H8
 
@@ -375,5 +375,5 @@ You are welcome to tweet me your own Lego Mindstorms Robotics site here as long 
 * [Upgrading Lego Mindstorms RIS 1.0?](https://www.boards.ie/b/thread/2055747086?mode=linear)
 * [RCX 1.0 Case Disassembly - iFixit](https://www.ifixit.com/Guide/Disassembling-RCX-1-0-Case/4352/2)
 * [Bricklink Catalog Entries for the RCX](https://www.bricklink.com/catalogList.asp?q=RCX)
-* [Lego Dimensions and Measurements](https://www.cailliau.org/Lego/Dimensions/zMeasurements-en.xhtml) - When interfacing stuff with Lego, knowing conversions to MM from the Lego Units can be very handy.
+* [Lego Specifications](/wiki/lego_specifications.html) - When interfacing stuff with Lego, knowing conversions to MM from the Lego Units can be very handy.
 * [My Lego only blog](https://dannys-lego.blogspot.co.uk/)

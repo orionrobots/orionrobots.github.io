@@ -19,5 +19,4 @@ User built CNC machines are beginning to become a focal point for hobby robotici
 
 Combine this with user made open source graphics cards, printing semiconductors on paper instead of silicon, and you begin to see what is coming.
 
-<a href="http://www.flemingcnc.com/sales.html">Flemming CNC - sales of RepRap seeds</a>
 to be continued...
