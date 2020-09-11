@@ -25,9 +25,6 @@ images:
   src: !!python/unicode '238-castorbasepinned.jpg', thumb-src: !!python/unicode 'thm-238-80x60-castorbasepinned.jpg'}
 - {caption: '', date: !!timestamp '2005-05-04 16:19:58', name: CastorBaseAndPegPinAttempt.jpg,
   src: !!python/unicode '239-castorbaseandpegpinattempt.jpg', thumb-src: !!python/unicode 'thm-239-80x60-castorbaseandpegpinattempt.jpg'}
-- {caption: An imperial spider dalek! A very chilling concept., date: !!timestamp '2005-05-26
-    06:19:00', name: ImperialSpiderDalek.jpg, src: !!python/unicode '256-imperialspiderdalek.jpg',
-  thumb-src: !!python/unicode 'thm-256-80x64-imperialspiderdalek.jpg'}
 - {caption: "Stanley, Standford Universities Champion of the 2005 grand Challenge,\
     \ Stands proud at the NQE event preceding the race.\r\n\r\nNote the array of sensory\
     \ gear on the rack over the roof.", date: !!timestamp '2005-10-08 16:38:02', name: Stanley.jpg,
@@ -50,9 +47,6 @@ images:
     06:12:23', name: ElbowJoint.jpg, src: !!python/unicode '360-elbowjoint.jpg', thumb-src: !!python/unicode 'thm-360-80x52-elbowjoint.jpg'}
 - {caption: Careful - this is big!, date: !!timestamp '2006-06-30 15:05:06', name: tikiwiki-mods-config-screenshot.png,
   src: !!python/unicode '380-tikiwiki-mods-config-screenshot.png', thumb-src: !!python/unicode 'thm-380-80x51-tikiwiki-mods-config-screenshot.png'}
-- {caption: 'Read  - http://orionrobots.co.uk/tiki-view_blog_post.php?blogId=1&postId=99',
-  date: !!timestamp '2006-07-04 07:12:35', name: dsc00206small.jpg, src: !!python/unicode '381-dsc00206small.jpg',
-  thumb-src: !!python/unicode 'thm-381-80x60-dsc00206small.jpg'}
 - {caption: '', date: !!timestamp '2006-07-08 04:04:26', name: wuyulurobot.jpg, src: !!python/unicode '383-wuyulurobot.jpg',
   thumb-src: !!python/unicode 'thm-383-80x80-wuyulurobot.jpg'}
 - {caption: '', date: !!timestamp '2006-07-08 04:21:24', name: Wu-Yulu-and-his-robot-driven-rickshaw.jpg,
@@ -61,8 +55,6 @@ images:
   thumb-src: !!python/unicode 'thm-387-80x60-gp2xbob.jpg'}
 - {caption: '', date: !!timestamp '2006-08-22 15:56:29', name: gp2x.gif, src: !!python/unicode '388-gp2x.gif',
   thumb-src: !!python/unicode 'thm-388-80x10-gp2x.gif'}
-- {caption: '', date: !!timestamp '2006-08-23 02:12:03', name: newblack.gif, src: !!python/unicode '389-newblack.gif',
-  thumb-src: !!python/unicode 'thm-389-80x64-newblack.gif'}
 - {caption: 'PicoCricket Code Sample, courtesy of PicoCricket.com', date: !!timestamp '2006-08-31
     02:02:12', name: press-sample-code-thumb.gif, src: !!python/unicode '390-press-sample-code-thumb.gif',
   thumb-src: !!python/unicode 'thm-390-64x80-press-sample-code-thumb.gif'}
@@ -91,10 +83,6 @@ images:
   src: !!python/unicode '461-userapplication.png', thumb-src: !!python/unicode 'thm-461-80x44-userapplication.png'}
 - {caption: '', date: !!timestamp '2008-03-30 11:29:09', name: UserTelnetNetworkService.png,
   src: !!python/unicode '462-usertelnetnetworkservice.png', thumb-src: !!python/unicode 'thm-462-80x25-usertelnetnetworkservice.png'}
-- {caption: '', date: !!timestamp '2009-01-02 04:47:21', name: ClarityFront.jpg, src: !!python/unicode '596-clarityfront.jpg',
-  thumb-src: !!python/unicode 'thm-596-80x65-clarityfront.jpg'}
-- {caption: '', date: !!timestamp '2009-01-02 06:30:56', name: Eee PC 901_black_L_open_Stand_01_US.jpg,
-  src: !!python/unicode '597-eee-pc-901-black-l-open-stand-01-us.jpg', thumb-src: !!python/unicode 'thm-597-71x80-eee-pc-901-black-l-open-stand-01-us.jpg'}
 - {caption: '', date: !!timestamp '2009-01-02 13:34:50', name: Piriform Defraggler.png,
   src: !!python/unicode '598-piriform-defraggler.png', thumb-src: !!python/unicode 'thm-598-80x80-piriform-defraggler.png'}
 - {caption: '', date: !!timestamp '2009-01-02 17:32:38', name: synergy.gif, src: !!python/unicode '599-synergy.gif',

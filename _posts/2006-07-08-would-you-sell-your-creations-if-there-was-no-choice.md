@@ -33,5 +33,5 @@ Wu Yulu is a 44 year old man from Mawu Village in Eastern Beijing. He left schoo
 
 * [Salvage Tips](/wiki/salvage_tips "Tips on pulling stuff apart to build robots. How, where and what.") - OrionRobots Tips on building your own robots from salvaged materials.
 * [One India News - Homeless farmer forced to sell home-made robots](http://news.oneindia.in/2006/07/07/homeless-china-farmer-forced-to-sell-home-made-robots-1152252384.html)
-* [Sky News: Mr Wu’s Robot Revolution](http://news.sky.com/story/310483/chinese-farmers-robot-revolution)
 * [We Make Money Not Art - Meet Mr Wu’s Wonderful Robots](http://we-make-money-not-art.com/archives/2004/11/meet-mr-wus-won.php#.VDWXevldWSo)
+* [The Amazing Robots of Wu Yulu](https://www.atlasobscura.com/places/robots-of-wu-yulu)

@@ -13,7 +13,7 @@ It may have a little trouble powering the Phidgets, but the breakout board does 
 
 The breakout board also offers a serial port, a JTAG debugging port and 2 RCA style audio connectors. At a cost (as of August 22nd 2006) of only £29.99, that's not bad, but do not forget you would still need to buy the actual GP2X itself. This is also pretty cheap at £124.99. It can be used for games, movie and audio playback, and now also possibly for robot control.
 
-![](/galleries/gallery-6-orions-images/389-newblack.gif)
+<a title="Kozuch / CC BY-SA (https://creativecommons.org/licenses/by-sa/3.0)" href="https://commons.wikimedia.org/wiki/File:GP2X_01.JPG"><img width="512" alt="GP2X 01" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/GP2X_01.JPG/512px-GP2X_01.JPG"></a>
 
 The unexpanded GP2X comes with an SD slot for expansion, a single USB port (which may be device only), a TV connector, a headphone socket, and has 64Mb of on board NAND flash memory. Although it does not possess a touch screen, combine it with the breakout board, and you can then add a USB keyboard to interact with it. Because of the form factor of the breakout board, it is not unfeasible to add a Bluetooth adaptor, and use it to communicate with an NXT. The built in colour display is pretty good, and has a resolution of 320 x 240. Another cool thing is that it runs on 2 AA batteries, with a battery life of 5-10 hours.
 
@@ -22,8 +22,6 @@ Now programming the gp2x is simple, as not only is it based on Linux and therefo
 There are emulators for the Spectrum, Commodore 64, as well as MAME for it, and since it encourages community development we can expect more of those, as well as great software.
 
 I will certainly be buying both systems, the gp2x at £124.99 and the breakout board at £29.99, because with a combined cost of £154.98, its a pretty serious device.
-
-![](/galleries/gallery-6-orions-images/388-gp2x.gif)
 
 # Links
 
