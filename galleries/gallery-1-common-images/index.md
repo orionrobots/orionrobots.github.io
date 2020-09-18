@@ -1,12 +1,6 @@
 ---
 description: Images used in Wiki or Article pages
 images:
-- {caption: null, date: !!timestamp '2004-11-08 15:33:13', name: replicators.jpg,
-  src: !!python/unicode '9-replicators.jpg', thumb-src: !!python/unicode 'thm-9-80x57-replicators.jpg'}
-- {caption: null, date: !!timestamp '2004-11-11 01:18:55', name: matilda.jpg, src: !!python/unicode '13-matilda.jpg',
-  thumb-src: !!python/unicode 'thm-13-matilda.jpg'}
-- {caption: null, date: !!timestamp '2004-11-14 07:40:24', name: asimo.jpg, src: !!python/unicode '15-asimo.jpg',
-  thumb-src: !!python/unicode 'thm-15-asimo.jpg'}
 - {caption: null, date: !!timestamp '2004-11-14 07:40:26', name: highbleex1.jpg, src: !!python/unicode '17-highbleex1.jpg',
   thumb-src: !!python/unicode 'thm-17-highbleex1.jpg'}
 - {caption: null, date: !!timestamp '2004-11-14 07:40:28', name: Chaos-2.jpg, src: !!python/unicode '20-chaos-2.jpg',
