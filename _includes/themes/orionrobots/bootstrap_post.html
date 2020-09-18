@@ -6,22 +6,22 @@
     </div>
 
     {% unless page.categories == empty %}
-    <ul class="categories nav nav-pills">
+    <nav><ul class="categories nav nav-pills">
       {% assign categories_list = page.categories %}
       {% include JB/categories_list %}
-    </ul>
+    </ul></nav>
   {% endunless %}
 
   {% unless page.tags == empty %}
-    <ul id="tags" class="nav nav-pills">
+    <nav><ul id="tags" class="nav nav-pills">
       {% assign tags_list = page.tags %}
       {% include JB/tags_list %}
-    </ul>
+    </ul></nav>
   {% endunless %}
 
-    <div class="content">
+    <article class="content">
       {{ content }}
-    </div>
+    </article>
 
 
     <hr>

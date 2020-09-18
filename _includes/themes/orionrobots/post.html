@@ -13,17 +13,16 @@
   {% endunless %}
 
   {% unless page.tags == empty %}
-    <ul class="tags">
+    <nav><ul class="tags">
       <li><i class="icon-tags"></i></li>
       {% assign tags_list = page.tags %}
       {% include JB/tags_list %}
-    </ul>
+    </ul></nav>
   {% endunless %}
 
-    <div class="content">
+    <article class="content">
       {{ content }}
-    </div>
-
+    </article>
 
     <hr>
     <div class="pagination">
