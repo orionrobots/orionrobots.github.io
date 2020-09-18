@@ -4,9 +4,13 @@ title: "How to use the ReSpeaker 2 mic Hat with Mycroft"
 description: "Getting the ReSpeaker 2 Mic audio Hat for the Raspberry Pi to work with Mycroft, a voice assistant"
 tags: [robotics, raspberry pi, raspberry pi projects, raspberry pi 3 projects, raspberry pi 4 projects, robot, electronics]
 ---
-# Intro
 
 Voice Assistants like Mycroft are a cool bit of technology, and running them on the Raspberry Pi seems like a great fit. The Seeed Studio ReSpeaker hat, and it's clones seem to be an inexpensive way to get this running, however, none of the instructions I found on the web got this to work. So here I document how I made this device work.
+
+![ReSpeaker hat on a Raspberry Pi 4](/galleries/2020-09-16-respeaker/20200918_134629.jpg)
+
+# Intro
+
 
 I am currently updating and refreshing content for a second edition of [Learn Robotics Programming](https://www.packtpub.com/product/learn-robotics-programming/9781789340747). One of the areas I was never happy with was the installation of this sound device. 
 
