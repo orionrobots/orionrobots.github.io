@@ -43,3 +43,10 @@ theme :
   margin: 0;
   float: left;
   }
+
+/* Make all images responsive in the content section */
+.content img {
+    display: inline-block;
+    height: auto;
+    max-width: 100%;
+}
