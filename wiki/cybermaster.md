@@ -21,7 +21,7 @@ It is also likely that the Cybermaster uses the same Hitachi H8/300 microcontrol
 
 Any more information on the Cybermaster set would be much appreciated.
 
-Innards:
+Cybermaster innards from a teardown:
 
 <img class="img-responsive" src="/galleries/gallery-1-common-images/30-cybermaster-innards.jpg" />
 
@@ -30,7 +30,7 @@ Innards:
 * <a class="wiki" href="/wiki/lego.html" title="The best known construction toy">Lego</a>
 * <a class="wiki" href="/wiki/rcx.html" title="The Lego Robot Command Explorer">RCX</a> - The later programmable brick system.
 * <a class="wiki" href="/wiki/nqc.html" title="Not Quite C - A Lego PBrick Programming Language">NQC</a> - A system worth considering for programming the Cybermaster.
-* <a a="" brain")="" class="wiki" for="" href="/wiki/microcontroller.html" robot"="" title="A programmable digital controller (or ">microcontroller</a>
+* <a href="/wiki/microcontroller.html" title="A programmable digital controller (or ">microcontroller</a>
 * <a class="wiki" href="/wiki/infra_red.html" title="A type of EM radiation commonly used for digital communications">Infra Red</a>
 * <a class="wiki" href="/wiki/wireless.html" title="Wireless">Wireless</a>
 

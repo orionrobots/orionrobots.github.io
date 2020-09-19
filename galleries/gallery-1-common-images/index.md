@@ -1,24 +1,8 @@
 ---
 description: Images used in Wiki or Article pages
 images:
-- {caption: null, date: !!timestamp '2004-11-14 07:40:26', name: highbleex1.jpg, src: !!python/unicode '17-highbleex1.jpg',
-  thumb-src: !!python/unicode 'thm-17-highbleex1.jpg'}
-- {caption: null, date: !!timestamp '2004-11-14 07:40:28', name: Chaos-2.jpg, src: !!python/unicode '20-chaos-2.jpg',
-  thumb-src: !!python/unicode 'thm-20-chaos-2.jpg'}
-- {caption: null, date: !!timestamp '2004-11-14 07:40:29', name: cbportrait.jpg, src: !!python/unicode '22-cbportrait.jpg',
-  thumb-src: !!python/unicode 'thm-22-cbportrait.jpg'}
-- {caption: null, date: !!timestamp '2004-11-14 07:40:29', name: cbdiff1.gif, src: !!python/unicode '23-cbdiff1.gif',
-  thumb-src: !!python/unicode 'thm-23-cbdiff1.gif'}
-- {caption: null, date: !!timestamp '2004-11-14 07:40:29', name: cbdiff2.gif, src: !!python/unicode '24-cbdiff2.gif',
-  thumb-src: !!python/unicode 'thm-24-cbdiff2.gif'}
-- {caption: null, date: !!timestamp '2004-11-14 07:40:31', name: craigcharles120304.jpg,
-  src: !!python/unicode '27-craigcharles120304.jpg', thumb-src: !!python/unicode 'thm-27-craigcharles120304.jpg'}
 - {caption: null, date: !!timestamp '2004-11-14 07:40:32', name: cybermaster-innards.jpg,
   src: !!python/unicode '30-cybermaster-innards.jpg', thumb-src: !!python/unicode 'thm-30-cybermaster-innards.jpg'}
-- {caption: null, date: !!timestamp '2004-11-14 07:40:37', name: Firestorm.jpg, src: !!python/unicode '31-firestorm.jpg',
-  thumb-src: !!python/unicode 'thm-31-firestorm.jpg'}
-- {caption: null, date: !!timestamp '2004-11-14 07:40:39', name: Ghengis.jpg, src: !!python/unicode '35-ghengis.jpg',
-  thumb-src: !!python/unicode 'thm-35-ghengis.jpg'}
 - {caption: null, date: !!timestamp '2004-11-14 07:40:42', name: Hypnodisc-S4.jpg,
   src: !!python/unicode '36-hypnodisc-s4.jpg', thumb-src: !!python/unicode 'thm-36-hypnodisc-s4.jpg'}
 - {caption: null, date: !!timestamp '2004-11-14 07:40:45', name: memorial4.png, src: !!python/unicode '40-memorial4.png',
@@ -55,8 +39,6 @@ images:
   src: !!python/unicode '75-bigredhair-robo-history-ad.jpg', thumb-src: !!python/unicode 'thm-75-bigredhair-robo-history-ad.jpg'}
 - {caption: null, date: !!timestamp '2004-11-14 07:41:11', name: logo_robotwars.jpg,
   src: !!python/unicode '79-logo-robotwars.jpg', thumb-src: !!python/unicode 'thm-79-logo-robotwars.jpg'}
-- {caption: null, date: !!timestamp '2004-11-14 07:41:12', name: Rodney_Brooks.jpg,
-  src: !!python/unicode '82-rodney-brooks.jpg', thumb-src: !!python/unicode 'thm-82-rodney-brooks.jpg'}
 - {caption: null, date: !!timestamp '2004-11-14 07:41:14', name: SirKillalot.gif,
   src: !!python/unicode '83-sirkillalot.gif', thumb-src: !!python/unicode 'thm-83-sirkillalot.gif'}
 - {caption: null, date: !!timestamp '2004-11-14 07:41:17', name: Sumpthing.gif, src: !!python/unicode '87-sumpthing.gif',
@@ -77,8 +59,6 @@ images:
   src: !!python/unicode '106-toyota-unnamed-bot.jpg', thumb-src: !!python/unicode 'thm-106-toyota-unnamed-bot.jpg'}
 - {caption: null, date: !!timestamp '2004-11-14 07:41:26', name: vaucansons_ente.jpg,
   src: !!python/unicode '109-vaucansons-ente.jpg', thumb-src: !!python/unicode 'thm-109-vaucansons-ente.jpg'}
-- {caption: null, date: !!timestamp '2004-11-14 07:41:27', name: walterwg.jpeg, src: !!python/unicode '110-walterwg.jpeg',
-  thumb-src: !!python/unicode 'thm-110-walterwg.jpeg'}
 - {caption: null, date: !!timestamp '2004-11-14 07:41:28', name: XportRobot.jpg, src: !!python/unicode '114-xportrobot.jpg',
   thumb-src: !!python/unicode 'thm-114-xportrobot.jpg'}
 - {caption: 'Running active sensors, or getting power from the RCX.', date: !!timestamp '2004-11-16

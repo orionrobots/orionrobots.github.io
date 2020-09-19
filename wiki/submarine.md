@@ -16,11 +16,11 @@ date: 2004-11-14 22:47:12
 </p>
 <p>You may require some lead ballast or weight - to overcome an air-filled objects natural bouyancy - or at least balance it enough that when descending or surfacing it will remain at the correct height.
 </p>
-<p>Submarine propulsion is normally done via <a class="wiki" href="/wiki/propellor.html" title="Propellor">Propellor</a>s or <a class="wiki" href="/wiki/impellor.html" title="A method of fluid propulsion or pumping">Impellor</a>s.
+<p>Submarine propulsion is normally done via <a class="wiki" href="/wiki/propeller.html" title="Propeller">Propeller</a>s or <a class="wiki" href="/wiki/impeller.html" title="A method of fluid propulsion or pumping">Impeller</a>s.
 </p>
 <p>Submarines descent can be controlled by either using planes either side - and literally flying up, or by having a ballast system.  A ballast system can be done with two air bladders occupying areas with perforations to let water in, or out of the model. The air pressure is controlled by an internal system with another storage tank. As the air is pumped from the bladders to the internal tank, the bladders collapse, and the water fills the space - the object then becomes heavier and descends, when the bladders are filled - the water is expelled, thus making the craft lighter and ascending.
 </p>
-<p>Using wing-planes to propel upwards though this tends to be less efficient - yet more easily acheived.   However - using the two together can give a very wll controlled dive and resurface.
+<p>Using wing-planes to propel upwards though this tends to be less efficient - yet more easily achieved. However - using the two together can give a very well controlled dive and resurface.
 </p>
 <p>The flight analogy also applies to steering a submarine - so you use planes, flaps and rudders to steer it.
 </p>
