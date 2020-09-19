@@ -9,4 +9,4 @@ He created the system just as an extension to his interest, and his website has 
 
 He passed away sadly on July 25th, 1997. He will not be forgotten by a great many <a class="wiki" href="/wiki/lego.html" title="The best known construction toy">Lego</a> users and contributors.
 
- <a class="internal" href="http://www.ldraw.org/modules.php?op=modload&amp;name=News&amp;file=article&amp;sid=222" target="_blank"> <img class="img-responsive" src="/galleries/gallery-1-common-images/40-memorial4.png"/> </a>
+ <a href="http://www.ldraw.org/modules.php?op=modload&amp;name=News&amp;file=article&amp;sid=222" target="_blank"> <img class="img-responsive" src="/galleries/gallery-1-common-images/40-memorial4.png"/> </a>

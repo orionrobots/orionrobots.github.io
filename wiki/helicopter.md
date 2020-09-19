@@ -20,4 +20,3 @@ The smallest helicopter is a robotic one small enough to fit in the palm of your
 ### Image Sources
 
 * Swash plate image sourced from Wikipedia <a  href="http://en.wikipedia.org/wiki/Swash_plate" rel="external" target="_blank">http://en.wikipedia.org/wiki/Swash_plate</a>
-* Apache image - 

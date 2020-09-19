@@ -3,14 +3,8 @@ description: Images used in Wiki or Article pages
 images:
 - {caption: null, date: !!timestamp '2004-11-14 07:40:32', name: cybermaster-innards.jpg,
   src: !!python/unicode '30-cybermaster-innards.jpg', thumb-src: !!python/unicode 'thm-30-cybermaster-innards.jpg'}
-- {caption: null, date: !!timestamp '2004-11-14 07:40:42', name: Hypnodisc-S4.jpg,
-  src: !!python/unicode '36-hypnodisc-s4.jpg', thumb-src: !!python/unicode 'thm-36-hypnodisc-s4.jpg'}
 - {caption: null, date: !!timestamp '2004-11-14 07:40:45', name: memorial4.png, src: !!python/unicode '40-memorial4.png',
   thumb-src: !!python/unicode 'thm-40-memorial4.png'}
-- {caption: null, date: !!timestamp '2004-11-14 07:40:46', name: kismet-surprise.gif,
-  src: !!python/unicode '42-kismet-surprise.gif', thumb-src: !!python/unicode 'thm-42-kismet-surprise.gif'}
-- {caption: null, date: !!timestamp '2004-11-14 07:40:47', name: Lego32342Capacitor.jpg,
-  src: !!python/unicode '44-lego32342capacitor.jpg', thumb-src: !!python/unicode 'thm-44-lego32342capacitor.jpg'}
 - {caption: null, date: !!timestamp '2004-11-14 07:40:48', name: manas.jpg, src: !!python/unicode '45-manas.jpg',
   thumb-src: !!python/unicode 'thm-45-manas.jpg'}
 - {caption: null, date: !!timestamp '2004-11-14 07:40:49', name: vc_camera.jpg, src: !!python/unicode '46-vc-camera.jpg',
