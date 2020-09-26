@@ -5,14 +5,6 @@ images:
   src: !!python/unicode '30-cybermaster-innards.jpg', thumb-src: !!python/unicode 'thm-30-cybermaster-innards.jpg'}
 - {caption: null, date: !!timestamp '2004-11-14 07:40:45', name: memorial4.png, src: !!python/unicode '40-memorial4.png',
   thumb-src: !!python/unicode 'thm-40-memorial4.png'}
-- {caption: null, date: !!timestamp '2004-11-14 07:40:48', name: manas.jpg, src: !!python/unicode '45-manas.jpg',
-  thumb-src: !!python/unicode 'thm-45-manas.jpg'}
-- {caption: null, date: !!timestamp '2004-11-14 07:40:49', name: vc_camera.jpg, src: !!python/unicode '46-vc-camera.jpg',
-  thumb-src: !!python/unicode 'thm-46-vc-camera.jpg'}
-- {caption: null, date: !!timestamp '2004-11-14 07:40:50', name: Leonardodav.jpg,
-  src: !!python/unicode '47-leonardodav.jpg', thumb-src: !!python/unicode 'thm-47-leonardodav.jpg'}
-- {caption: null, date: !!timestamp '2004-11-14 07:40:51', name: Leonardo-tanks.gif,
-  src: !!python/unicode '51-leonardo-tanks.gif', thumb-src: !!python/unicode 'thm-51-leonardo-tanks.gif'}
 - {caption: null, date: !!timestamp '2004-11-14 07:40:53', name: machinaspeculatrix.jpg,
   src: !!python/unicode '52-machinaspeculatrix.jpg', thumb-src: !!python/unicode 'thm-52-machinaspeculatrix.jpg'}
 - {caption: null, date: !!timestamp '2004-11-14 07:40:53', name: wgw-elsie.jpg, src: !!python/unicode '53-wgw-elsie.jpg',

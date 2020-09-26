@@ -5,8 +5,7 @@ date: 2009-11-10 07:51:15
 ---
 These robots were built as learning platform by the late <a class="wiki" href="/wiki/william_grey_walter.html" title="William Grey Walter">William Grey Walter</a> in the 1940s.
 
-<img class="img-responsive" src="/galleries/gallery-1-common-images/52-machinaspeculatrix.jpg"/>
-Courtesy of The University of Berkeley, California
+<img class="img-responsive" src="/galleries/gallery-1-common-images/52-machinaspeculatrix.jpg" alt="Extract from the Festival Of Britain catalog Courtesy of The University of Berkeley, California"/>
 
 They were phototropic - that is light following, and they were otherwise known as tortoises. A name derived from their plastic tortoise shaped shells, and a reference to <a href="http://amzn.to/2uevryU" rel="external" target="_blank">Alice in Wonderland</a> - "We called him tortoise because he taught-us".
 
@@ -29,5 +28,5 @@ The innards
 ![Innards of a Tortoise](/galleries/gallery-1-common-images/54-xwgbig-jpg.jpg)
 
 
-<table class="normal" id="fancytable_1"> <tr> <td> <a class="internal" href="http://www.plazaearth.com/usr/gasperi/walter.htm" target="_blank"> <img class="img-responsive" src="/galleries/gallery-1-common-images/133-gasperispeculatrix.jpg"/> </a> </td> <td> <a href="http://www.plazaearth.com/usr/gasperi/walter.htm" rel="external" target="_blank">Gasperi - Walter</a> </td> <td> Gasperi's page on the Machina Speculatrix has some excellent information, including his own version of them built using <a class="wiki" href="/wiki/lego.html" title="The best known construction toy">Lego</a> and the <a class="wiki" href="/wiki/rcx.html" title="The Lego RCX">RCX</a></td> </tr>
-<tr> <td> <a class="internal" href="http://jwgibbs.cchem.berkeley.edu/science1951/speculatrix.html" target="_blank"> <img class="img-responsive" src="/galleries/gallery-1-common-images/134-science1951.jpg"/> </a> </td> <td> <a href="http://jwgibbs.cchem.berkeley.edu/science1951" rel="external" target="_blank">University Of California, Berkeley - Science 1951</a> </td> <td> This is a rather fascinating group of articles relating to exhibits and a boolklet from the 1951 South Kensingtion Science Exhibition. It includes a small page on the Machina Speculatrix.</td> </tr> </table>
+<table class="normal" id="fancytable_1"> <tr> <td> <a href="hhttps://sites.google.com/view/machinaspeculatrix/home"> <img src="https://lh5.googleusercontent.com/G0LAagtG1YRLVHOlraQ2-tKEgg3zn7Db7EUfRnHQyiQJbHW8GVZWOpMmFUH_IgX4GCVEhOjdWnLGD9gJxKWLLlYXUuIPy0NdgZC-PyjTwmi0UQM6qQ=w1280" style="width: 64px;"></a> </td> <td> [Machina Speculatrix - Micheal Gasperi](https://sites.google.com/view/machinaspeculatrix/home) </td> <td> Gasperi's page on the Machina Speculatrix has some excellent information, including his own version of them built using Lego and the <a href="/wiki/rcx.html" title="The Lego RCX">RCX</a></td> </tr>
+<tr> <td> <a class="internal" href="http://jwgibbs.cchem.berkeley.edu/science1951/speculatrix.html" target="_blank"> <img class="img-responsive" src="/galleries/gallery-1-common-images/134-science1951.jpg"/> </a> </td> <td> <a href="http://jwgibbs.cchem.berkeley.edu/science1951" rel="external" target="_blank">University Of California, Berkeley - Science 1951</a> </td> <td> This is a rather fascinating group of articles relating to exhibits and a booklet from the 1951 South Kensington Science Exhibition. It includes a small page on the Machina Speculatrix.</td> </tr> </table>
