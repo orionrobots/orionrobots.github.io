@@ -21,16 +21,12 @@ images:
   thumb-src: !!python/unicode 'thm-67-qrio1.jpg'}
 - {caption: '', date: !!timestamp '2007-01-28 12:34:05', name: mark-tilden.jpg, src: !!python/unicode '425-mark-tilden.jpg',
   thumb-src: !!python/unicode 'thm-425-73x80-mark-tilden.jpg'}
-- {caption: null, date: !!timestamp '2004-11-14 07:41:09', name: bigredhair-robo-history-ad.jpg,
-  src: !!python/unicode '75-bigredhair-robo-history-ad.jpg', thumb-src: !!python/unicode 'thm-75-bigredhair-robo-history-ad.jpg'}
 - {caption: null, date: !!timestamp '2004-11-14 07:41:11', name: logo_robotwars.jpg,
   src: !!python/unicode '79-logo-robotwars.jpg', thumb-src: !!python/unicode 'thm-79-logo-robotwars.jpg'}
 - {caption: null, date: !!timestamp '2004-11-14 07:41:14', name: SirKillalot.gif,
   src: !!python/unicode '83-sirkillalot.gif', thumb-src: !!python/unicode 'thm-83-sirkillalot.gif'}
 - {caption: null, date: !!timestamp '2004-11-14 07:41:17', name: Sumpthing.gif, src: !!python/unicode '87-sumpthing.gif',
   thumb-src: !!python/unicode 'thm-87-sumpthing.gif'}
-- {caption: null, date: !!timestamp '2004-11-14 07:41:18', name: tek06.jpg, src: !!python/unicode '88-tek06.jpg',
-  thumb-src: !!python/unicode 'thm-88-tek06.jpg'}
 - {caption: null, date: !!timestamp '2004-11-14 07:41:21', name: ada_1838.jpg, src: !!python/unicode '94-ada-1838.jpg',
   thumb-src: !!python/unicode 'thm-94-ada-1838.jpg'}
 - {caption: null, date: !!timestamp '2004-11-14 07:41:21', name: Lego32339SolarPanel.jpg,
