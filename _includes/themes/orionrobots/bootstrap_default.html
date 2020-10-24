@@ -88,15 +88,23 @@
     <!-- Content -->
     <div class="container">
         <div class="row">
-          <div id="col-main" class="content col-md-8">
+          <article id="col-main" class="content col-md-8">
             <h2 class="page-header">{{ page.title }} {% if page.tagline %}<small>{{page.tagline}}</small>{% endif %}</h2>
             {% include social-sharing %}
+            {% unless page.tags == empty %}
+                <nav><ul id="tags" class="nav nav-pills">
+                  {% assign tags_list = page.tags %}
+                  {% include JB/tags_list %}
+                </ul></nav>
+            {% endunless %}
+
             {{ content }}
             {% if page.comments %}
                 {% include discus_thread %}
             {% endif %}
-          </div>
-          <div class="col-md-4">
+
+          </article>
+          <aside class="col-md-4">
               {% include sidebar-book.html %}
               <div class="panel panel-default">
                   <div class="panel-heading">Other places to find us</div>
@@ -109,7 +117,7 @@
               </div>
               {% include sidebar_tag_cloud.html %}
               {% include sidebar_ads.html %}
-          </div>
+          </aside>
         </div><!-- /.content -->
         <footer id="bottom">
           <div class="row" id="footer-left">
@@ -119,7 +127,6 @@
             </ul>
               </div>
           </div>
-          <div>
             <p>&copy; {{ site.time | date: '%Y' }} OrionRobots. Orionrobots is a trademark.
               with help from <a href="https://twitter.github.com/bootstrap/" target="_blank">Bootstrap</a>
             </p>

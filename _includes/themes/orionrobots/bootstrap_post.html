@@ -12,13 +12,6 @@
     </ul></nav>
   {% endunless %}
 
-  {% unless page.tags == empty %}
-    <nav><ul id="tags" class="nav nav-pills">
-      {% assign tags_list = page.tags %}
-      {% include JB/tags_list %}
-    </ul></nav>
-  {% endunless %}
-
     <article class="content">
       {{ content }}
     </article>

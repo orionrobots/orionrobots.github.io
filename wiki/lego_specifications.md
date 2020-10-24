@@ -2,6 +2,7 @@
 layout: page
 title: Lego Specifications
 date: 2005-06-24 19:41:28
+tags: ["Lego Technic Dimensions", "Lego technic specifications", "lego Robotics", "technic lego", "lego measurements"] 
 ---
 When building machines and robots with Lego, dimension specifications for the standard bricks are handy. This will help designing models, and interfacing Lego with other materials.
 
@@ -67,11 +68,11 @@ Stud pitch   = 20
 
 # Gears
 
-In the Lego system, Technic gears have a ratio that the number of teeth are 8 times the diameter, or 16 times the radius in stud pitch. Conveniently - the number of studs, and Diameter in Millimeters seem to be the same.
+In the Lego system, Technic gears have a ratio that the number of teeth are 8 times the diameter, or 16 times the radius in stud pitch. Conveniently - the number of studs, and Diameter in Millimeters seem to be the same. These gears have a metric module of 1.
 
 | Teeth | Diameter       |    |
 |-------+----------------+----+
-|       |Studs(by pitch) | Mm |
+|       |Studs(by pitch) | mm | 
 |-------+----------------+----+
 | 8t    | 1              | 8  |
 | 16t   | 2              | 16 |
@@ -79,7 +80,6 @@ In the Lego system, Technic gears have a ratio that the number of teeth are 8 ti
 | 40t   | 5              | 40 |
 
 More info on mounting these can be found at [The Brick Bakery](http://sjbaker.org/steve/lego/gearpairs.html "The Brick Bakery:Gear Mounting & Ratios").
-
 
 # Materials
 
