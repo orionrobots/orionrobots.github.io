@@ -27,18 +27,6 @@ images:
   src: !!python/unicode '83-sirkillalot.gif', thumb-src: !!python/unicode 'thm-83-sirkillalot.gif'}
 - {caption: null, date: !!timestamp '2004-11-14 07:41:17', name: Sumpthing.gif, src: !!python/unicode '87-sumpthing.gif',
   thumb-src: !!python/unicode 'thm-87-sumpthing.gif'}
-- {caption: null, date: !!timestamp '2004-11-14 07:41:21', name: Lego32339SolarPanel.jpg,
-  src: !!python/unicode '97-lego32339solarpanel.jpg', thumb-src: !!python/unicode 'thm-97-lego32339solarpanel.jpg'}
-- {caption: null, date: !!timestamp '2004-11-14 07:41:23', name: edison-eve.jpg, src: !!python/unicode '102-edison-eve.jpg',
-  thumb-src: !!python/unicode 'thm-102-edison-eve.jpg'}
-- {caption: null, date: !!timestamp '2004-11-14 07:41:23', name: edison-phonograph.jpg,
-  src: !!python/unicode '103-edison-phonograph.jpg', thumb-src: !!python/unicode 'thm-103-edison-phonograph.jpg'}
-- {caption: null, date: !!timestamp '2004-11-14 07:41:24', name: smithsonian.jpg,
-  src: !!python/unicode '104-smithsonian.jpg', thumb-src: !!python/unicode 'thm-104-smithsonian.jpg'}
-- {caption: null, date: !!timestamp '2004-11-14 07:41:25', name: toyota_unnamed_bot.jpg,
-  src: !!python/unicode '106-toyota-unnamed-bot.jpg', thumb-src: !!python/unicode 'thm-106-toyota-unnamed-bot.jpg'}
-- {caption: null, date: !!timestamp '2004-11-14 07:41:26', name: vaucansons_ente.jpg,
-  src: !!python/unicode '109-vaucansons-ente.jpg', thumb-src: !!python/unicode 'thm-109-vaucansons-ente.jpg'}
 - {caption: null, date: !!timestamp '2004-11-14 07:41:28', name: XportRobot.jpg, src: !!python/unicode '114-xportrobot.jpg',
   thumb-src: !!python/unicode 'thm-114-xportrobot.jpg'}
 - {caption: 'Running active sensors, or getting power from the RCX.', date: !!timestamp '2004-11-16
