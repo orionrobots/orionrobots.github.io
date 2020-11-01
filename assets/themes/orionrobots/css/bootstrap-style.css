@@ -50,3 +50,12 @@ theme :
     height: auto;
     max-width: 100%;
 }
+
+#search-nav {
+  color: black;
+  margin-top: 8px;
+}
+
+#search-nav .gsc-search-button {
+  width: inherit;
+}
