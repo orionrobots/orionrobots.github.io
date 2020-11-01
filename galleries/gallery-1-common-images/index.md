@@ -27,8 +27,6 @@ images:
   src: !!python/unicode '83-sirkillalot.gif', thumb-src: !!python/unicode 'thm-83-sirkillalot.gif'}
 - {caption: null, date: !!timestamp '2004-11-14 07:41:17', name: Sumpthing.gif, src: !!python/unicode '87-sumpthing.gif',
   thumb-src: !!python/unicode 'thm-87-sumpthing.gif'}
-- {caption: null, date: !!timestamp '2004-11-14 07:41:21', name: ada_1838.jpg, src: !!python/unicode '94-ada-1838.jpg',
-  thumb-src: !!python/unicode 'thm-94-ada-1838.jpg'}
 - {caption: null, date: !!timestamp '2004-11-14 07:41:21', name: Lego32339SolarPanel.jpg,
   src: !!python/unicode '97-lego32339solarpanel.jpg', thumb-src: !!python/unicode 'thm-97-lego32339solarpanel.jpg'}
 - {caption: null, date: !!timestamp '2004-11-14 07:41:23', name: edison-eve.jpg, src: !!python/unicode '102-edison-eve.jpg',
