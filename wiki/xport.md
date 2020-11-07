@@ -14,7 +14,7 @@ Being based on a GBA (Gameboy Advance) it has sound and a colour display.
 
 Charmed Labs also sold an <a class="wiki" href="/wiki/ir.html" title="Acronym for Infra Red">IR</a> sensor - the XIR Sensor, a BlueTooth module, and <a class="wiki" href="/wiki/holonomic_wheels.html" title="Holonomic Wheels">Holonomic Wheels</a>.
 
-<a class="internal" href="browseimage114"> <img class="img-responsive" src="image114&amp;thumb=1"/> </a>
+![Xport robot](/galleries/gallery-1-common-images/114-xportrobot.jpg)
 
 # Links
 

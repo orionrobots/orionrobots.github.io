@@ -13,8 +13,8 @@ The Orionrobots shop now has a new product bundle. The Orion Explorer 1 Wall Avo
 
 The kit takes the Explorer 1 kit, and adds sensors and a breadboard - making it more expandable and fun. Robots are far more interesting when you add sensors to them!
 
-* <a href="#first-steps-with-thekit">Building it</a>.
-* <a href="#programming-the-robot---how-to-make-it-avoidwalls">Programming it</a>.
+* [Building it](#first-steps-with-thekit)
+* [Programming it](#programming-the-robot---how-to-make-it-avoidwalls)
 
 So you can use this kit to make wall avoiding behaviour - making a robot turn away from any object too close. It uses ultrasonic sensors, which in practice tend to work with hard surfaces better than fabrics or plush surfaces. Things which scatter and diffuse sound will be hard, things that reflect it will work fantastically.
 
@@ -30,11 +30,12 @@ Orion Explorer 1 Robot Avoiding Walls with distance sensor
 # First Steps with the kit
 
 The basic avoiding behaviour with two sensors out front is this: drive forwards, read each sensor, and if either is closer than some threshold, then turn away from the closer one, then carry on driving forwards.
+
 # Building it
 
 Start with the <a href="/construction_guide.html">Explorer 1 construction guide</a>. Attach the breadboard to the robot - you can pull off the backing paper and use the self adhesive strip, or save it for later and just use some sticky tak. Stick it to the top - near the front, in front of the cable hole.
 
-![](/galleries/2013-11-14-explorer-wall-avoider-kit/close_up_of_breadboard_connections_grande.jpeg){: class="img-responsive"}
+![Close Up Of Wall Avoider breadboard Connections](/galleries/2013-11-14-explorer-wall-avoider-kit/close_up_of_breadboard_connections_grande.jpeg){: class="img-responsive"}
 
 The green lines over this image show the connected pins. Note that the main part of the board has a different orientation from the top and bottom rails. All breadboards (including the two types we have) follow the same basic idea. The sensors will plug into the front end of the pins on the vertical rails.
 
@@ -43,7 +44,7 @@ Then look at the pin labels printed on the back of the sensors. Each will have:
 * Gnd - Device ground
 * Trig - Trigger a ping
 * Echo - Detects the echo response.
-* <span class="caps">VCC</span> - Device power
+* VCC - Device power
 
 Plug a sensor into the board at each side - with the ultrasonic transducers (big round metal bits) facing forwards.
 
@@ -51,7 +52,7 @@ Plug a sensor into the board at each side - with the ultrasonic transducers (big
 
 If you inspect the breadboard - on some versions there are some coloured rails top and bottom - each having one red, and one blue. Convention is that the red one is used for power, and the blue for ground.
 
-Using the male-to-male cables, Wire the <span class="caps">VCC</span> from each sensor to the red rail at the back of the breadboard. Remember the pins are connected along the green lines in the diagram above. Then wire the Gnd from each sensor to the blue rail at the back of the board.
+Using the male-to-male cables, Wire the VCC from each sensor to the red rail at the back of the breadboard. Remember the pins are connected along the green lines in the diagram above. Then wire the Gnd from each sensor to the blue rail at the back of the board.
 
 For the left sensor:
 

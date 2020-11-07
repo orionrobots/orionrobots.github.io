@@ -390,8 +390,8 @@ the bluetooth module before using the USB cable to program it.
 
 If you have an Android phone or tablet with Bluetooth, you should be able to take control and drive the robot from it
 with the HC-06 module.
-First - download this free app -
-<a href="https://play.google.com/store/apps/details?id=mobi.dzs.android.BLE_SPP_PRO&amp;hl=en">Bluetooth SPP tools Pro</a>.
+
+Download a Bluetooth SPP app from the app store.
 
 Then, ensuring the robot is turned on with the module connected, launch the app and scan device - it should easily
 identify the HC-06, tap it, and pair with the code 1234. Enter "Keyboard mode" on the next page. You will see a bunch
