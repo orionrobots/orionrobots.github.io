@@ -13,6 +13,8 @@ It has already been showing off playing "When you wish upon a star" in a Tokyo h
 
 It is around 120cm tall and can walk.
 
+<p><a href="https://commons.wikimedia.org/wiki/File:Toyota_Robot_at_Toyota_Kaikan_f.jpg#/media/File:Toyota_Robot_at_Toyota_Kaikan_f.jpg"><img src="https://upload.wikimedia.org/wikipedia/commons/6/6f/Toyota_Robot_at_Toyota_Kaikan_f.jpg" alt="Toyota Robot at Toyota Kaikan f.jpg"></a><br><a href="http://creativecommons.org/licenses/by-sa/3.0/" title="Creative Commons Attribution-Share Alike 3.0">CC BY-SA 3.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=595652">Link</a></p>
+
 Honda have not release any ther technical details yet.
 
 It has been designed apparently with assisting the elderly, and care at heart, as well as having hands to do many tasks.
@@ -25,4 +27,3 @@ It also appears that all of the actuators (Servo Motors) are housed in the torso
 
 Movies and more are at <a class="wiki" href="http://www.toyota.co.jp/en/special/robot/index.html" target="_blank">http://www.toyota.co.jp/en/special/robot/index.html</a>
 
-![](/galleries/gallery-1-common-images/106-toyota-unnamed-bot.jpg)
