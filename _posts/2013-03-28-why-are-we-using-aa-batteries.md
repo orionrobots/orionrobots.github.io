@@ -3,17 +3,19 @@ layout: post
 title: Why are we using AA batteries?
 tags: [batteries, electronics, orion explorer 1, power, robot building, robots]
 ---
-{%assign gallery="/galleries/2013-03-28-why-are-we-using-aa-batteries" %}
-<img alt="6xAA battery box" src="{{gallery}}/1-IMG_0818_compact.JPG" style="float: left; margin-top: 4px; margin-right: 4px; margin-bottom: 4px;" /> A question that I have been asked a few times now is why the Orion Explorer 1 Robot kit comes with an AA battery box and not some customised battery decision. I'd like to explain why this was chosen.
+A question that I have been asked a few times now is why the Orion Explorer 1 Robot kit comes with an AA battery box and not some customised battery decision. I'd like to explain why this was chosen.
 
-The first is that AA batteries are easily replaceable. Specialist batteries would be hard to replace and expensive. Rechargeable batteries do eventually stop charging - have you ever tried to get replacement batteries for an old laptop? AA's can be found in shops everywhere.
+{%assign gallery="/galleries/2013-03-28-why-are-we-using-aa-batteries" %}
+[{{gallery}}/1-IMG_0818_compact.JPG](6xAA battery box)
+
+The first is that AA batteries are easily replaceable. Specialist batteries would be hard to replace and expensive. Rechargeable batteries do eventually stop charging - have you ever tried to get replacement batteries for an old laptop? AAs can be found in shops everywhere.
 
 Another thing is the cost - cost is important to me with my robot kit. Specialist batteries are expensive to develop, and expensive to make. Specialist charging hardware on the robot would also increase its cost, make it less simple and weigh more. AA batteries come in a range of prices - and can be bought cheaply in large numbers for education or for serious gadget geeks.
 
-Thinking about battery weight, Lithium Ion or Li Poly batteries would probably be lighter for the same power than AA's, but may not be able to provide the current needed for driving motors comfortably. Lead Acid batteries would deliver the current, but are quite heavy.
+Thinking about battery weight, Lithium Ion or Li Poly batteries would probably be lighter for the same power than AAs, but may not be able to provide the current needed for driving motors comfortably. Lead Acid batteries would deliver the current, but are quite heavy.
 
 Sending batteries is actually a little complicated - they can be risky. An AA battery box means the customer can easily buy their own AA batteries. Many delivery services refuse to take batteries without a special service because batteries have a reputation for causing damage, from leaking to becoming a fire or explosive risk. This complicates shipping from manufacturers to Orionrobots, and from Orionrobots to customers.
 
 Battery Technology - AA batteries have not been the leading edge of the technology, far from state of the art, but they have been changing. They are becoming higher capacity, able to deliver higher currents and are seeing battery chemistry improvements. If there was a bespoke solution - it would be harder to later modify to accept newer batteries.
 
-In short the main reasons are a little bit of future proofing, keeping costs reasonable and the size/weight of the robot. There is no reason a customer couldn't modify it and add in a different battery type of their choosing - an RC pack or similar if they wished to. Personally - I'll stick to my AA's.
+In short the main reasons are a little bit of future proofing, keeping costs reasonable and the size/weight of the robot. There is no reason a customer couldn't modify it and add in a different battery type of their choosing - an RC pack or similar if they wished to. Personally - I'll stick to my AAs.

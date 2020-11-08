@@ -18,3 +18,6 @@ After that, many local councils have a battery recycling policy - and some have 
 
 Finally - Ikea recycle batteries, and in most stores actually have a place to dump used batteries, so next time you shop there - take all your spent batteries with you.
 
+## 2020 Update
+
+Local supermarkets are starting to have battery recycling facilities.

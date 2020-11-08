@@ -22,4 +22,4 @@ OrionRobots do not currently have an Aibo, but any donations would be welcome!
 * <a  href="http://www.sonydigital-link.com/aibo/index.asp" rel="external" target="_blank">Official AIBO Europe Site</a>
 * <a  href="http://aibo.cs.uu.nl/" rel="external" target="_blank">Dutch Aibo Team</a>
 * <a  href="http://openr.aibo.com/" rel="external" target="_blank">OpenR Software Development Environment Website</a>
-* <a  href="http://www.wired.com/news/business/0,1367,48088,00.html" rel="external" target="_blank">History of the Sony dispute with AIBO hackers - Wired News: Aibo Owners Biting Mad at Sony</a>
+* [History of the Sony dispute with AIBO hackers - Wired News: Aibo Owners Biting Mad at Sony](https://www.wired.com/2001/11/aibo-owners-biting-mad-at-sony/)

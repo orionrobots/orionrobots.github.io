@@ -1,13 +1,13 @@
 ---
 created: 2008-03-09 08:04:00
-description: Get Your Hands On a Vexplorer kit with Robot Design and Building Contest!
+description: Get Your Hands On a VEXplorer kit with Robot Design and Building Contest!
 tags: [robot, robots, vex, robot kit, contest, competition, robot building]
-title: Get Your Hands On a Vexplorer kit with Robot Design and Building Contest!
+title: Get Your Hands On a VEXplorer kit with Robot Design and Building Contest!
 layout: post
 ---
 {% include JB/setup %}
 
-Botmag are currently hosting a contest to design and later build innovative robots using the Vexplorer kit. The builders need to get a description of a unique or creative use for the VEXplorer kit entered into  the contest before the 24th march 2008.
+Botmag are currently hosting a contest to design and later build innovative robots using the VEXplorer kit. The builders need to get a description of a unique or creative use for the VEXplorer kit entered into  the contest before the 24th march 2008.
 
 25 of those builders will be selected to receive a free VEXplorer kit to build their designs. They then need to make a YouTube video of their robot in action showing the innovative behaviour. The contest winner will get a grand prize of a $5000 scholarship.
 
@@ -17,4 +17,5 @@ The competition is put together by a group including Innovation First, Inc., Rev
 
 I personally would have entered just to get my hands on the free VEXplorer kit. The contest is sadly only open to US residents who are 14 or older. Those under 14 may be able to get a parent to represent them.
 
-(2018 - no working links remain for this competition)
+* [Revell VEXplorer Kit Build Review](https://www.cybermodeler.com/hobby/builds/rm/build_vexplorer.shtml)
+* [VEXplorer projects archive at BotMag](http://www.botmag.com/category/editors-bench/bot-projects/vexplorer/)

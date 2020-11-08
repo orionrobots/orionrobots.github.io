@@ -33,7 +33,7 @@ Many support high level languages like Python, Javascript or Lua and require onl
 
 The Raspberry Pi and Beaglebone are both Linux computers miniaturised. So any language you could run on linux will do. You will probably need to write the code onto an SD card for the pi and may need a screen and keyboard.
 
-The Arduino has a well known IDE and tool chain around C++ packaged in a surprisingly easy environment, and needs only a USB port. It has lots of library support and the internet will have example code or libraries for almost any sensor you can think up. It can be used to program the ESp8266 and ESP32 instead of the other interpreters.
+The [Arduino](https://www.arduino.cc) has a well known IDE and tool chain around C++ packaged in a surprisingly easy environment, and needs only a USB port. It has lots of library support and the internet will have example code or libraries for almost any sensor you can think up. It can be used to program the ESp8266 and ESP32 instead of the other interpreters.
 
 The Bare AVR requires a bit more with specific programming cables. An Arduino can be modified into an AVR programmer.
 
@@ -55,7 +55,6 @@ The 8051 is a somewhat venerable processor type, but are often present on quite 
 
 This page listed controllers previously that are less used currently, but preserved here for context.
 
-* [Arduino](//arduino.cc)
 * <a class="wiki" href="/wiki/pic.html" title="PIC">PIC</a> - Probably the basis of many of these others
 * <a class="wiki" href="/wiki/oopic.html" title="OOPic">OOPic</a> - The PIC dressed up with Object Oriented firmware
 * Basic Stamp - A PIC dressed up with a basic interpreter, was very popular

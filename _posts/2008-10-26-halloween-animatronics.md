@@ -31,5 +31,4 @@ Finally, another builder submitted how to do a skull with moving eyes and mouth,
 
 # More
 
-Have a good look around instructables - there is plenty there to build. Enough to keep anyone occupied. I would also encourage my readers to submit their own cool builds and how-to's there too!
-
+Have a good look around Instructables - there is plenty there to build. Enough to keep anyone occupied. I would also encourage my readers to submit their own cool builds and howto's there too!
