@@ -6,8 +6,7 @@ tags: [robotics, raspberry pi, raspberry pi projects, raspberry pi 3 projects, p
 ---
 {% include JB/setup %}
 
-
-# Piwars Acceptance
+## Piwars Acceptance
 
 Orionrobots has a robot accepted into PiWars 2020. Its name is Bangers & Bash. As a grand overview, I've based it on a lunchbox, as a continuation of the [MagPi Low-Cost Wheeled Robots]({% post_url 2019-11-05-magazine-series %}) series I have been writing.
 
@@ -15,31 +14,32 @@ We've decided to give the lunchbox 2 powered wheels and a ball castor at the fro
 
 Like so many PiWars entrants, I've been inspired by the talk by Brian Starkey, aka [@usedbytes](https://twitter.com/usedbytes) at the PiWars Mini-conference to use the camera for more. I'm going to attempt line following, and other challenges with it, instead of more single-purpose sensors. Using the camera for everything requires some interesting code.
 
-The Piwars 2020 theme is Disaster (Zone). However, because our robot is a lunchbox, we (Helena and I) have gone with a food theme. The lunchbox leads to the name "Bangers and Bash." In terms of styling, Helena plans to make the top of the lunchbox look like sizzling sausages on a barbecue. When we get a functioning NERF attachment, she will decorate it to look like a hot dog. 
+The Piwars 2020 theme is Disaster (Zone). However, because our robot is a lunchbox, we (Helena and I) have gone with a food theme. The lunchbox leads to the name "Bangers and Bash." In terms of styling, Helena plans to make the top of the lunchbox look like sizzling sausages on a barbecue. When we get a functioning NERF attachment, she will decorate it to look like a hot dog.
 
-Helena and I made a youtube video talking through our proposition.
+Helena and I made a video talking through our proposition.
 
 [Bangers and Bash part 1 - Piwars 2020 Planning](https://youtu.be/9Ff3qWnBnSc)
 
-# Parts
+## Parts
+
 Most parts for the robot are ordered, or already in my stock. The lunchbox is a simple Poundland model - nothing special there. I'll add 3D printed brackets to hold stuff together.
 
-I'm using a Raspberry Pi 3a+ as the controller. 
+I'm using a Raspberry Pi 3a+ as the controller.
 
-A [4400mAh LiIon battery pack](https://shop.pimoroni.com/products/lithium-ion-battery-pack?variant=23417820423) is a departure for me from using dual batteries in both the book robot, and the PiWars 2019 model, or just using an AA set for the 2018 robot. It can deliver more current without problems and should be enough to run motors and logic without dropouts. I'll test it lots to make sure this works. 
+A [4400mAh LiIon battery pack](https://shop.pimoroni.com/products/lithium-ion-battery-pack?variant=23417820423) is a departure for me from using dual batteries in both the book robot, and the PiWars 2019 model, or just using an AA set for the 2018 robot. It can deliver more current without problems and should be enough to run motors and logic without dropouts. I'll test it lots to make sure this works.
 
 For lights (sizzling effect), I have many LED strips in my cupboard - WS2812 and WS2801 types, as well as I2C types. I expect to put a couple of LED strips on top. LED's can be both for fun displays and a bit of debug/indication.
 
-The motors I've chosen are the [50:1 Micro Metal Gear motors](https://shop.pimoroni.com/products/micro-metal-gearmotor-extended-back-shaft?variant=3073681025), with an extended shaft and [optical encoders](https://shop.pimoroni.com/products/optical-encoder-pair-kit-for-micro-metal-gearmotors-3-3v). 
+The motors I've chosen are the [50:1 Micro Metal Gear motors](https://shop.pimoroni.com/products/micro-metal-gearmotor-extended-back-shaft?variant=3073681025), with an extended shaft and [optical encoders](https://shop.pimoroni.com/products/optical-encoder-pair-kit-for-micro-metal-gearmotors-3-3v).
 Hopefully, 50:1 is the right balance between mechanical advantage and speed. These have a stall current of 770mA each. I'll use the Pimoroni adaptors to put Lego wheels on the end of these, giving me plenty of tyre choices. The ball caster is a steel bearing castor.
 
-## Motor Controllers
+### Motor Controllers
 
-The robot needs a motor controller, with the least effort probably being a Raspberry Pi hat. There are a couple of options for this. 
+The robot needs a motor controller, with the least effort probably being a Raspberry Pi hat. There are a couple of options for this.
 
 I expect to use IO to drive some LED's (SPI, I2C or 2 general purpose IO depending on the type of strip), and to read the encoder (3.3v) output from the motors too (4 input pins). The choice of the motor controller should work with my choice of battery somehow too. Because an IMU is needed, then easy access to the I2C pins would be good. I may also have a couple of servo motors for attachments.
 
-For power, I intend to use a [DFRobot LiPo boost module](https://www.dfrobot.com/product-1613.html). The LiPo boost module has charging and power handling for the LiIon batteries and was sitting in my cupboard for a while. I'm not sure how I feel about the motors sharing the actual power rail for the Pi, but it could work. The DFRobot module can handle 2.5a - which may be a bit short for the motors and the pi. 
+For power, I intend to use a [DFRobot LiPo boost module](https://www.dfrobot.com/product-1613.html). The LiPo boost module has charging and power handling for the LiIon batteries and was sitting in my cupboard for a while. I'm not sure how I feel about the motors sharing the actual power rail for the Pi, but it could work. The DFRobot module can handle 2.5a - which may be a bit short for the motors and the pi.
 
 I have quite a few motor controller options, based on what I already have in stock:
 
@@ -53,13 +53,13 @@ I have quite a few motor controller options, based on what I already have in sto
 
 * An option that I've used before is the [PiConZero](https://4tronix.co.uk/blog/?p=1224). One way I could do this is to cannibalise a PiConZero off one of my older robots, with designs on respinning it using the RedBoard. The PiConZero can either share 5v from the DFRobot boost module or get a separate power feed from the battery. There's space for the camera cable because it's a smaller size. The motor channels can output 1.5a  each. However, it also doesn't expose the I2C pins.
 
-* SB Components motor shield - this is a straightforward Raspberry Pi hat, but the 6-12v motor supply makes it need more batteries than other options, and compared with the Red Board, it's a little too basic. 
+* SB Components motor shield - this is a straightforward Raspberry Pi hat, but the 6-12v motor supply makes it need more batteries than other options, and compared with the Red Board, it's a little too basic.
 
 * I have some simple drv8833, L293 and L298 things I could use too, but that comes with needing to consider soldering up a wiring board to keep things tidy. Also, nothing is more straightforward to mount than a hat on the Raspberry Pi.
 
 For now, I'll start with the Explorer Hat, and keep the RedBoard as a next potential option if I need it.
 
-# Drawings
+## Drawings
 
 I've then been using Fusion 360 to draw the robot. It's a bit more complicated than back-of-an-envelope sketches, but essential when I'll be 3d printing brackets for things inside the robot. I can use it to work out where I need to make holes in the lunchbox, and 3d print some simple studies to check what ideas work.
 
@@ -68,6 +68,3 @@ I've then been using Fusion 360 to draw the robot. It's a bit more complicated t
 I haven't got anything for the camera in yet, along with mounting the battery or the top section. There is an odd glitch with the breadboard floating off the Explorer Hat that I'll figure out, but the battery mounting comes first.
 
 For that, I'm going to do a little study in bendy 3d printing with PLA, so I can make clips to hold the battery in, releasable with a finger on a catch. Expect my next post to cover that.
-
-
-

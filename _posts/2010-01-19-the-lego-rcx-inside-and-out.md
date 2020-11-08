@@ -258,7 +258,7 @@ Keep the RCX face down – so stuff like the pads and buttons do not fall out. A
 
 To reassemble – follow the same steps backwards. You may need to lightly bend the power clips down before popping the board back into place.
 
-[More on Dissassembling the RCX](https://arcb.csc.ncsu.edu/~mueller/rt/mindstorm/www.crynwr.com/lego-robotics/)
+[More on Disassembling the RCX](https://arcb.csc.ncsu.edu/~mueller/rt/mindstorm/www.crynwr.com/lego-robotics/)
 
 ## Details on the Hitachi H8
 

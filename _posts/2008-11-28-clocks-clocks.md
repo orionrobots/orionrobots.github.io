@@ -18,7 +18,7 @@ Sometimes, a bedside table is low on space, at which point, its seriously worth 
 With the current iPod nano phase, using one to [build an alarm clock](https://makezine.com/2005/09/21/diy-ipod-nano-alarm-clock/) is a cool idea, as long as you don't need to actually prise the back cover off to do it. Luckily - all you need to butcher is the iPod dock. Another variant on this just uses a
 [speaker system](https://makezine.com/2005/09/15/ipod-nano-speaker-alarm-c/) with the Nano. Simpler, but more expensive and less featured.
 
-Those with much spare computer hardware, could make their own clocks with [Old](https://makezine.com/2005/08/30/how-to-make-a-hard-drive/) [Hard](https://makezine.com/2007/09/17/hard-drive-clock-1/) [Drives][https://makezine.com/2008/10/19/led-hard-drive-clock/]. With Red blue and white LEDs moving around illuminating the platter - the first one looks very cool, but it is one of the noisiest clocks I have seen.
+Those with much spare computer hardware, could make their own clocks with [Old Hard](https://makezine.com/2007/09/17/hard-drive-clock-1/) [Drives][http://www.ian.org/HD-Clock/]. With Red blue and white LEDs moving around illuminating the platter - the first one looks very cool, but it is one of the noisiest clocks I have seen.
 
 If you fancy taking a tube out of a defunct oscilloscope (providing its not the tube itself that is broken), you can build a clock with one here:
 [Homemade Scope Clock](http://www.webx.dk/oz2cpu/clock-scope/scope.htm). The reason (if you were wondering), it would not simply work with the inputs on a working scope, is that it blanks the point between segments of its curve - thus allowing many separate segments. Its very old style, and inspiring. The site
@@ -26,7 +26,7 @@ also has a number of free downloads to use with
 [PIC](/wiki/pic) [Microcontrollers](/wiki/microcontroller) if you build your own similar clock.
 
 If its all style, you can go for a master of style, by building this hand welded
-[Retro Ball Clock](http://www.finkbuilt.com/blog/ball-clock/). Or for an even more retro fell, why not go for the [Nixie Tube Clock](http://www.finkbuilt.com/blog/numerical-indicator-experimental-1/trackback/). Now if you have never heard of them - Nixie Tubes are a very neat old display which were expensive yet very attractive in their time (50s). They are based on blown glass neon bulbs, and each tube has a filament for all its possible digits. Not easily obtained - but they have a very distinctive look.
+[Retro Ball Clock](http://www.finkbuilt.com/blog/ball-clock/). Or for an even more retro fell, why not go for the [Nixie Tube Clock](http://www.finkbuilt.com/blog/numerical-indicator-experimental-1/). Now if you have never heard of them - Nixie Tubes are a very neat old display which were expensive yet very attractive in their time (50s). They are based on blown glass neon bulbs, and each tube has a filament for all its possible digits. Not easily obtained - but they have a very distinctive look.
 
 Now since we started on Lego, we will come back to Lego. Now we get one here based on the [RCX](/wiki/rcx) - [Chris Lomont's Lego Clock](http://lomont.org/lego/clock-i/) - what is odd is it has separate hands and faces four hour, minutes and seconds. However - it compares poorly with this fantastic 7 foot high, fully working [Lego Grandfather Clock](http://www.ericharshbarger.org/lego/clock.html) built by a rather intense Lego sculptor with a large portfolio.
 

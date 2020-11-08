@@ -12,4 +12,3 @@ They were held on March 20th and 21st 2004.
 Events include Soccer, Sumo, Fire-Fighting, Maze-Solving and a great deal more...
 
 It is an excellent way to encourage innovation, and allow some of the most crazy robot builders on the planet to meet each other and swap ideas.
-

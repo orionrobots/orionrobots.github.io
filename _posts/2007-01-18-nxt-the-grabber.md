@@ -48,7 +48,7 @@ Oh - and once you have assembled the subassembly, plug it in before locking it i
 
 With the Light Sensor fitted, I move on to seeing what kind of program challenge is next. I am now starting to get bolder with it, and tackle this one without having a peek at the help. I take the last program as a starting point, save it with a new name and modify it. This is when my laptop screen (1024 x 768) lets me down as the programming canvas is too small, there is also no zoom out feature. You can scroll with arrow keys or the pan tool, but there are no scroll bars. There is the map view however, in the bottom right corner, which helps a little here - not that the "Map Tab" always responds. Sometimes, if you have changed view in the main app, you need to switch to help, then back to map tab for it to actually show you the map after defaulting back to help and not actually setting the control. Others it is just blank.
 
-I did find a short list of community found NXT-G bugs <a href="http://forums.nxtasy.org/index.php?showtopic=178&amp;st=0&amp;#">here</a>, which did mention the Map Tab issue I saw. The reporter recommends switching between that and help a few times. Perhaps Lego will release a software update to sort that one out. I could not find anything referring to it on
+I did find a short list of community found NXT-G bugs on the old nxtasy forums, which did mention the Map Tab issue I saw. The reporter recommends switching between that and help a few times. Perhaps Lego will release a software update to sort that one out. I could not find anything referring to it on
   [lugnet](/wiki/lugnet "Lego Users Group Network"), perhaps the lugnet.dearlego forum would be a good place to mention the issue.
 
 I had to determine how many revolutions a full turn round would be - I could either do it through trial and error, or another method. My solution was somewhere between. I used a small axle, and an orange Technic tooth, slotting one onto a drive wheel, noting how much they turn for a full two motor spin. This may have been overkill, as I later note that the tutorial program just reverses, then hits 370 degrees.. It did the job close enough though -I got 370 for a result for both wheels. I did a full 180 degree spin on the robot. I also knocked the ball holder clear as unlike the tutorial code, my robot did not back off before spinning.
@@ -72,8 +72,6 @@ Next in the tutorials will be the Ultrasonic sensor - but you will have to wait.
 * [NXT](/wiki/nxt "Legos NeXT generation robotics kit")
 * [Mindstorms](/wiki/mindstorms "A Robotic construction toy system from Lego")
 * [Lego](/wiki/lego "The best known construction toy")
-* <a href="http://forums.nxtasy.org/index.php?showtopic=178&amp;st=0&amp;#" >NXTasy forums- NXT-G Bugs</a>
-* <a href="http://mindstorms.lego.com">Lego Mindstorms Home</a>
 
 
 <iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=GB&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=orionrobots-21&marketplace=amazon&region=GB&placement=B00BMKLVJ6&asins=B00BMKLVJ6&linkId=790d5f97e58d0e79ecb2fbe1b24a3108&show_border=true&link_opens_in_new_window=true"></iframe>

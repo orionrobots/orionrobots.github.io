@@ -4,18 +4,18 @@ title: Robot Tools
 date: 2007-02-04 01:23:38
 ---
 <h1 id="Respect">Respect</h1>
-<p>Treat all tools with respect. Tools can be very dangerous when used carelessly, even <a class="wiki" href="/wiki/lego.html" title="The best known construction toy">Lego</a> can have an eye out if thrown. Tools also can become useless if dented, blunted or misshapen through misuse.
-</p>
-<p>Generally, all tools should be used only for what they are intended. There are times when tools can be craftily, and cleverly repurposed, but ensure you know exactly what the consequences of that would be. If it looks like it is going to break the tool, or fly off and hit someone - DONT DO IT.
-</p>
-<p>Power tools are absolutely the most dangerous of all tools. They should only be used by adults, or with proper training and adult supervision. For all tools, know how to use them before trying to use them - not only will it make you much safer, but you will probably do a better job for it. A silly contrived example would be someone trying to use the back edge of a saw to cut something - there are many other ways to use a tool incorrectly rendering it just as useless and potentially dangerous.
-</p>
-<p>Never use any tool without the safety gear recommended for it, and never use a tool which is broken in a way that renders it dangerous. A loose handle on a hammer could result in a fatal injury.
-</p>
-<p>Further more, many tools are expensive, so they are worth taking care of. In addition to proper usage, store them well. Don't let them get wet, or store them where they could be trodden on, pulled down on someone's head or in a big pile where tools at the bottom tend to get broken and a users hands get damaged as they try to rummage for them.
-</p>
-<p>Also, chewed <a class="wiki" href="/wiki/lego.html" title="The best known construction toy">Lego</a> is worthless, so don't go using teeth to separate it.
-</p>
+Treat all tools with respect. Tools can be very dangerous when used carelessly, even <a class="wiki" href="/wiki/lego.html" title="The best known construction toy">Lego</a> can have an eye out if thrown. Tools also can become useless if dented, blunted or misshapen through misuse.
+
+Generally, all tools should be used only for what they are intended. There are times when tools can be craftily, and cleverly repurposed, but ensure you know exactly what the consequences of that would be. If it looks like it is going to break the tool, or fly off and hit someone - DONT DO IT.
+
+Power tools are absolutely the most dangerous of all tools. They should only be used by adults, or with proper training and adult supervision. For all tools, know how to use them before trying to use them - not only will it make you much safer, but you will probably do a better job for it. A silly contrived example would be someone trying to use the back edge of a saw to cut something - there are many other ways to use a tool incorrectly rendering it just as useless and potentially dangerous.
+
+Never use any tool without the safety gear recommended for it, and never use a tool which is broken in a way that renders it dangerous. A loose handle on a hammer could result in a fatal injury.
+
+Further more, many tools are expensive, so they are worth taking care of. In addition to proper usage, store them well. Don't let them get wet, or store them where they could be trodden on, pulled down on someone's head or in a big pile where tools at the bottom tend to get broken and a users hands get damaged as they try to rummage for them.
+
+Also, chewed <a class="wiki" href="/wiki/lego.html" title="The best known construction toy">Lego</a> is worthless, so don't go using teeth to separate it.
+
 <h1 id="Kits">Kits</h1>
 <p>For the absolute beginner, kits without any soldering, cutting or glueing are a good starting option. This generally means that no external tools whatsoever are needed.
 </p>
@@ -79,7 +79,7 @@ date: 2007-02-04 01:23:38
 </li><li> Soldering - A soldering kit is worth spending a whole page on. Please see our section on <a class="wiki" href="/wiki/soldering.html" title="The standard method of attaching connecting wires and components to a board">Soldering</a> for more information.
 </li><li> <a class="wiki" href="/wiki/multimeter.html" title="MultiMeter">MultiMeter</a> - These can be used for checking batteries (a check worth doing _first_ on a misbehaving robot), and also checking many other components. Please read the <a class="wiki" href="/wiki/multimeter.html" title="MultiMeter">MultiMeter</a> section for more.
 </li><li> <a class="wiki" href="/wiki/oscilloscope.html" title="Systems designed to view voltage/current over time">Oscilloscope</a> - Required for viewing and isolating signals. Please read the <a class="wiki" href="/wiki/oscilloscope.html" title="Systems designed to view voltage/current over time">Oscilloscope</a> section.
-</li><li> Signal Generator - One of these that can at least generate a square wave is useful for creating basic clocking for logic. If you are looking at ideas for <a class="wiki" href="/wiki/beam.html" title="Biology, Electronics, Aesthetics and Mechanics">BEAM</a> robots, a sine wave generator may allow you to test the mechanism before sticking on the electronics.
+</li><li> Signal Generator - One of these that can at least generate a square wave is useful for creating basic clocking for logic. If you are looking at ideas for <a class="wiki" href="/wiki/beam_robots.html" title="Biology, Electronics, Aesthetics and Mechanics">BEAM</a> robots, a sine wave generator may allow you to test the mechanism before sticking on the electronics.
 </li></ul><p>
 <br/>
 </p>
