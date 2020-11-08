@@ -7,24 +7,24 @@ description: "Building Robots!"
 
 [<img class="img-responsive" alt="The Orionrobots Youtube Channel" src="https://yt3.ggpht.com/-CTE7btpvjnc/VkekFJl9jfI/AAAAAAAAAIQ/AhXB_EanDOw/w2120-fcrop64=1,00005a57ffffa5a8-nd/CollageBanner2015.jpg" />](http://youtube.com/c/orionrobots)
 
-# ESP 8266 / Node MCU
+## ESP 8266 / Node MCU
 
 <div class="embed-responsive embed-responsive-16by9">
 <iframe src='https://www.youtube.com/embed/videoseries?list=PLXxP0FUTG0Fm4TeORqiYne44PhnMHKMDG' allowfullscreen="true"></iframe></div>
 
-# Robots I've Build
+## Robots I've Built
 
 <div class="embed-responsive embed-responsive-16by9">
 <iframe src='https://www.youtube.com/embed/videoseries?list=PLXxP0FUTG0FnG9SyMyclEkqCHqx_rcVZ2' allowfullscreen="true"></iframe></div>
 
-# CnC Machine
+## CnC Machine
 
 <div class="embed-responsive embed-responsive-16by9">
 <iframe src='https://www.youtube.com/embed/videoseries?list=PLXxP0FUTG0FmAFNfM0JDNe_kfRjlp-aDr' allowfullscreen="true"></iframe></div>
 
 
-Explorer 1 Videos
-=================
+## Explorer 1 Videos
+
 <div style="vertical-align: top">
 {% assign youtube_id="U8458u-jilI" %}
 {% assign description="Python on the Explorer 1 Robot With Raspberry Pi via Bluetooth" %}
@@ -45,8 +45,7 @@ Explorer 1 Videos
 {% include youtube_link %}
 </div>
 
-Explorer 1 Tutorials
-====================
+## Explorer 1 Tutorials
 
 [Orion Explorer 1 Robot Kit Construction Guide](/construction_guide.html)
 
@@ -57,8 +56,8 @@ Explorer 1 Tutorials
 
 [Building and Programming The Explorer One Wall Avoider](2013/11/14/explorer-wall-avoider-kit.html)
 
-Other Information and Tutorials
-===============================
-[The Arduino](http://arduino.cc)
+## Other Information and Tutorials
+
+[The Arduino](https://www.arduino.cc)
 
 [Robot Building Safety](/wiki/robot_building_safety.html "Building robots can be dangerous - tips to help your safety")

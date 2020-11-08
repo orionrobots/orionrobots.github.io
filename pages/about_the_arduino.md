@@ -20,4 +20,4 @@ The normal Arduino layout has 14 digital input/output pins and 6 analog inputs. 
 | IO Pins | 14 digital, 6 Analog, 6 PWM |
 | Memory | Depends on the board - The Uno has 32k of flash memory |
 
-The Arduino community can be found at <http://arduino.cc/en/>, where there is advice, full specs, circuit diagrams, sample projects, a full programming guide and reference.
+The Arduino community can be found at <https://www.arduino.cc/en/>, where there is advice, full specs, circuit diagrams, sample projects, a full programming guide and reference.
