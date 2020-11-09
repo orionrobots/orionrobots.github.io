@@ -23,7 +23,7 @@ It has an accessible coverage of the GBC standard, so you can get right in, look
 
 Forums are planned on the site, but as it is still under construction they are not up yet, so I would still recommend using Lugnet Robotics for dicussing it until then.
 
-There is a selection of [GBC events](http://www.greatballcontraption.com/wiki/Main_Page#Upcoming_GBC_Events). It has coverage of previous events, but might be handy to have a list of upcoming events, and an event registration form so other GBC events can be announced there.
+There is a selection of [GBC events](https://www.greatballcontraption.com/events). It has coverage of previous events, but might be handy to have a list of upcoming events, and an event registration form so other GBC events can be announced there.
 
 Overall, its a well presented site, and it is growing. It is about time there was a dedicated site to feed its obsession as opposed to it merely being an interesting niche corner in Lego robotics.
 

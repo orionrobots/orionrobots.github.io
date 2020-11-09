@@ -36,5 +36,5 @@ It also only allows current to flow if the voltage is greater than 0.6 volts.
 <p>In the case of the zener diode, it is part of its intended design that it can deal with a reverse flow without becoming damaged, and the breakdown would simply be a stronger spring in the other direction on the barrier.
 </p>
 <h1  id="Links">Links</h1>
-<p><a  href="http://orionrobots.co.uk/tiki-directory_redirect.php?siteId=143" rel="external" target="_blank">Diode Identification</a>
-</p>
+
+* [Discrete Semiconductor Kit Identification Guide](https://learn.sparkfun.com/tutorials/discrete-semiconductor-kit-identification-guide/diodes)

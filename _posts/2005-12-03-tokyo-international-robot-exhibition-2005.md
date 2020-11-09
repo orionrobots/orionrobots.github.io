@@ -28,7 +28,7 @@ This cool robot is designed for walking on different terrains, but was also pret
 
 ### BarmanBot
 
-A [Motoman DA20](https://www.robots.com/motoman/da20) barmanbot served punters and featured even in the Uk metro. <a href="https://www.youtube.com/watch?v=uxmbmplqCSk">MOTOMAN serves beer - RoboBar</a>
+A [Motoman DA20](https://www.robots.com/robots/motoman-da20) barmanbot served punters and featured even in the Uk metro. <a href="https://www.youtube.com/watch?v=uxmbmplqCSk">MOTOMAN serves beer - RoboBar</a>
 
 ### Hello Kitty
 
@@ -52,7 +52,7 @@ An information gathering, and presentation system developed by Sky.
 
 ### Swiffer BN-17
 
-A cute robot to provide company, and also mop/sweep up or help around the house a little bit. Created by Bandai. This guys also checks email - more information at <a href="http://uk.gizmodo.com/2005/12/02/mans_new_best_friend.html">Gizmodo - Mans New Best Friend</a> and <a href="http://gadgets.elliottback.com/2005/12/02/bandais-swiffer-robot-bn-17/">Cute Adorable Gadgets</a>
+A cute robot to provide company, and also mop/sweep up or help around the house a little bit. Created by Bandai. This guys also checks email - more information at <a href="http://uk.gizmodo.com/2005/12/02/mans_new_best_friend.html">Gizmodo - Mans New Best Friend</a> and <a href="https://www.neuraldump.net/2005/12/the-bandai-bn-17-swiffer-robot/">Cute Adorable Gadgets</a>
 
 ### RIDC-01
 
@@ -94,7 +94,7 @@ This is an interestingly named exosuit. Its name is an acronym for Hybrid Assist
 
 ### Real Life Pacman
 
-A huge pacman game was created by Bandai and Namco - more information here <a href="http://gadgets.elliottback.com/2005/11/30/real-life-pac-man/">Cute &amp; Adorable Gadgets - Real Life PacMan</a> and at <a href="http://www.gamesetwatch.com/2005/12/pacbot_terrorizes_irex_2005.php">GameSetWatch - Pac-Bot terrorises IREX 2005</a>.
+A huge pacman game was created by Bandai and Namco - more information here <a href="https://www.youtube.com/watch?v=IxoLTgI0_F4/">Cute &amp; Adorable Gadgets - Real Life PacMan</a> and at <a href="http://www.gamesetwatch.com/2005/12/pacbot_terrorizes_irex_2005.php">GameSetWatch - Pac-Bot terrorises IREX 2005</a>.
 
 ### KHR-1
 

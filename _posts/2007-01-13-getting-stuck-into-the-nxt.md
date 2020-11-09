@@ -69,7 +69,6 @@ Time for the grabber - when things start getting interesting...
 * [Lego](/wiki/lego "The best known construction toy")
 * [Mindstorms](/wiki/mindstorms "A Robotic construction toy system from Lego")
 * [NXT](/wiki/nxt "Legos NeXT generation robotics kit")
-* [http://mindstorms.lego.com](http://mindstorms.lego.com)
 * [Timephiz - Mindstorms NXT Test Run](http://timephiz.blogspot.com/2006/11/mindstorms-nxt-test-run.html) - A blog from a teacher going through a similar experience as I.
 
 

@@ -15,7 +15,7 @@ Those techniques have been used to great affect in films and now this is quite a
 
 First up - the Animatronic Rat. On instructables.com, some chap has created a rat which uses servos to move, has creepy LED eyes, and can squirt victims with water from a jet in its mouth.
 
-[The Animatronic Rat](http://www.instructables.com/id/Animatronic_Rat/)
+[The Animatronic Rat](https://www.instructables.com/Animatronic-Rat/)
 
 # The Simple Reaper
 

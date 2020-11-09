@@ -9,7 +9,7 @@ date: 2013-05-02 20:34:32
 
 ## Getting stuck in to a floor roving robot
 
-The <a  href="http://shop.orionrobots.co.uk/products/orion-explorer-1-robot-kit" rel="external" target="_blank">Orion Explorer One Robot Building Kit</a> is a good way to start off a robot project - it means that you will have all you need for a moving robot.  The Controller, motors, wheels, chassis, battery box are taken care of. A construction guide shows you how to put these parts together. Based on the popular Arduino, there is a huge amount of example code and hardware to use it with, and code on github to get basic functionality on day 1. There is no soldering here, only a screwdriver, batteries and a connected PC with a free USB port are needed.
+The Orion Explorer One Robot Building Kit is a good way to start off a robot project - it means that you will have all you need for a moving robot.  The Controller, motors, wheels, chassis, battery box are taken care of. A construction guide shows you how to put these parts together. Based on the popular Arduino, there is a huge amount of example code and hardware to use it with, and code on github to get basic functionality on day 1. There is no soldering here, only a screwdriver, batteries and a connected PC with a free USB port are needed.
 
 ## Next Steps
 

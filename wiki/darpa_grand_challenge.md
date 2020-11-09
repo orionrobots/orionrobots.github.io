@@ -15,8 +15,7 @@ All of the racers need to be able to deal with difficult rocky terrain, obstacle
 
 With the vehicals are chaser cars, to keep them out of danger, with a killswitch to stop them before they get into too much mischeive, this is both to stop them damaging something/one else, and also to preserve the machines themselves - some of which were not cheap to build. These are also probably one of the best places to observe the racers.
 
-<a class="wiki" href="http://www.darpa.mil/grandchallenge" target="_blank">http://www.darpa.mil/grandchallenge</a>
-<br/><a class="wiki" href="http://www.grandchallenge.org/" target="_blank">http://www.grandchallenge.org/</a>
+<http://www.grandchallenge.org/>
 
 <h1  id="Event">2005 Event</h1>
 

@@ -3,7 +3,7 @@ layout: page
 title: MindStorms
 date: 2009-04-24 23:55:12
 ---
-<a class="wiki" href="https://www.lego.com/en-us/mindstorms/?domainredir=mindstorms.lego.com">Mindstorms</a> is the <a class="wiki" href="/wiki/lego.html" title="The best known construction toy">Lego</a> companies system of robotic construction sets, which are great for kids and adults, and serve to entertain as well as educate.
+<a class="wiki" href="https://www.lego.com/en-us/mindstorms/">Mindstorms</a> is the <a class="wiki" href="/wiki/lego.html">Lego</a> companies system of robotic construction sets, which are great for kids and adults, and serve to entertain as well as educate.
 Sets/devices included are:
 
 * <a class="wiki" href="/wiki/nxt.html" title="Legos NeXT generation robotics kit">NXT</a> - The next generation kit, with <a class="wiki" href="/wiki/bluetooth.html" title="Bluetooth">BlueTooth</a>, <a class="wiki" href="/wiki/sonar.html" title="The use of sound as a sense medium">sonar</a> and intelligent <a class="wiki" href="/wiki/servo_motor.html" title="Servo Motor">servo</a> motors.

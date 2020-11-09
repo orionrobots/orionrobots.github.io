@@ -25,8 +25,6 @@ I will certainly be buying both systems, the gp2x at £124.99 and the breakout b
 
 # Links
 
-* [GP2X Home Site](http://gp2x.co.uk/go.pl?A694)
-* [The GP2x Breakout board](http://gp2x.co.uk/gp2xbreakoutboard.html)
 * [Engadget - Gamepark Holdings releases GP2X breakout board](http://www.engadget.com/2006/06/29/gamepark-holdings-releases-gp2x-breakout-board/)
 
 ## Background Info

@@ -29,7 +29,7 @@ The solderless easy to construct and modify Orion Explorer robot 1 kit is a good
 
 <p style="text-align: center;"><iframe src="//www.youtube.com/embed/SpMrGylvcs0" allowfullscreen="allowfullscreen" frameborder="0" height="225" width="300"></iframe></p>
 
-The kit includes the standard <a href="http://shop.orionrobots.co.uk/products/orion-explorer-1-robot-kit">Explorer 1 Robot platform</a>, with four wheel drive motors, wheels, Arduino (Uno R3 or Leonardo) compatible microcontroller, motor board and batteries. The whole assembly requires no soldering, cutting or drilling - only a screwdriver, computer and batteries are needed. It's designed to be extended and tinkered with - to Explore electronics and robotics.
+The kit includes the standard Explorer 1 Robot platform with four wheel drive motors, wheels, Arduino (Uno R3 or Leonardo) compatible microcontroller, motor board and batteries. The whole assembly requires no soldering, cutting or drilling - only a screwdriver, computer and batteries are needed. It's designed to be extended and tinkered with - to Explore electronics and robotics.
 
 It uses the HC-06 bluetooth serial module - a simple device that allows sending serial data to and from the robot. This means you can add other sensors, and read those from it.
 

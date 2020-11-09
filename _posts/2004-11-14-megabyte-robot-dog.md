@@ -7,7 +7,7 @@ The WowWee MegaByte is a fairly simple robot toy. It can move its head side to s
 
 It comes with a bone shaped Infra Red remote control. It also has a fairly sensitive sound sensor and can make a fairly aggressive noise when it wants to. It is also one of the few lower end robot dog toys that can turn corners - which would give it an advantage over the Tekno Robot Dog if it had any sensors to tell it when it hit something.
 
-It has a storage compartment in its back, which inconveniently isn't the right size for the remote (that would have been a neat thought). In its defence, this robot comes across as fairly simple internally and has been well hacked - have a look at <http://www.nyu.edu/projects/xdesign/feralrobots/>.
+It has a storage compartment in its back, which inconveniently isn't the right size for the remote (that would have been a neat thought). In its defence, this robot comes across as fairly simple internally and has been well hacked.
 
 WowWee have outdone themselves with their newer offering the [RoboSapien](/wiki/robosapien) which far outweighs this in features and functionality.
 

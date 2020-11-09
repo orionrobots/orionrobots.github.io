@@ -17,5 +17,5 @@ date: 2006-01-15 10:43:54
 <p><a class="wiki" href="/wiki/sports_robots.html" title="Sports Robots">Sports Robots</a>
 </p>
 <h1  id="Links">Links</h1>
-<ul><li> <a  href="http://www.robot-4u.com/robocup/" rel="external" target="_blank">Robot 4u- Robocup</a> - Many links on Robocup.
-</li></ul>
+
+* <https://www.robocup.org>

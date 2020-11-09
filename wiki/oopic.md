@@ -41,17 +41,16 @@ The OOPic requires a windows based computer to compile its code, as the compiler
 
 There is a problem experienced with all OOPics when using the serial port, known as the "Cosmic Wedgie" - this basically means that the board stops responding to the serial port, after downloading and running a program without a delay at the start. The program basically does not give the OOPic firmware a chance to respond. The way out involves plugging the OOPic board into the PC via a parallel port, which holds the reset line while programming it, or starting the board up with the eprom removed, then placing the eprom in after starting.
 
-If you are having trouble downloading the Savage OOPic Development executable  <a href="http://observe.phy.sfasu.edu/courses/phy475/Innerarity2003/OOPic/Apps/" rel="external" target="_blank">http://observe.phy.sfasu.edu/courses/phy475/Innerarity2003/OOPic/Apps/</a> - which is a mirror of these.
-
 <h1 id="Tell_us_what_you_think_">Tell us what you think!</h1>
+
 If anyone has any interesting details, caveats, designs or OOPic code then here is the place to share them.
 
 <h1 id="More_Information_and_comparisons">More Information and comparisons</h1>
+
 For more comparisons with other MicroControllers look at the <a class="wiki" href="/forums/electronics/preferred_microcontrollers.html" rel="">microcontrollers roundup</a> forum thread.
 
 Links:
 
 <ul><li> <a href="http://oopic.com" rel="external" target="_blank">The OOPic Home Page</a>
 </li><li> <a href="http://groups.yahoo.com/group/oopic" rel="external" target="_blank">OOPic Yahoo group</a> - This includes community discussion of the OOPic as well as additional files to enhance using the OOPic.
-</li><li> <a href="http://observe.phy.sfasu.edu/courses/phy475/Innerarity2003/OOPic/Apps/" rel="external" target="_blank">OOPic Apps Mirror</a>
 </li></ul>

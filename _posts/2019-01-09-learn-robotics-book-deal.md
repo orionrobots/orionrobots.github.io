@@ -6,7 +6,7 @@ layout: post
 ---
 For this week, my book Learn Robotics Programming is available for $5 at the Packt Publishing website for an ebook copy.
 
-[![Learn Robotics Programming](https://d255esdrn735hr.cloudfront.net/sites/default/files/imagecache/ppv4_main_book_cover/B11057.png)](https://www.packtpub.com/hardware-and-creative/learn-robotics-programming)
+[![Learn Robotics Programming](https://static.packt-cdn.com/products/9781789340747/cover/smaller)](https://www.packtpub.com/hardware-and-creative/learn-robotics-programming)
 
 This book is pitched at those beginning in building robots, and requires no prior experience other than having written a few lines of code and being willing to spend time making robots.
 

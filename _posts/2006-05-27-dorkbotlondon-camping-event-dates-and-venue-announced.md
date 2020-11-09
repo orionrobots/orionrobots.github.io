@@ -21,13 +21,12 @@ If you are interested, you are strongly advised to add your name to the [Dorkbot
 
 You are also advised to sign up to the dorkbot-announce, dorkbot-blabber and event mailing lists to lurk a while. The details are below.
 
-# Details
+## Details
 
 * Date: 1st-4th September 2006
 * Venue: Bentley Copse, near Dorking, Uk
 
-# Links
+## Links
 
 * <http://dorkbot.org/dorkbotlondon/> - Dorkbot London Homepage
 * <http://dorkbot.org/dorkbotlondon/camp06/> - Event wiki
-* <http://burningdork.slab.org/index.php/Mailing_list> - Event Mailing List details

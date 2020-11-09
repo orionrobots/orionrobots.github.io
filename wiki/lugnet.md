@@ -15,5 +15,5 @@ date: 2006-08-24 08:46:34
 </p>
 <p>They also have a list and guide to most Lego parts and sets - with pictures.  Used with <a class="wiki" href="/wiki/peeron.html" title="Online database of Lego Sets and Parts">Peeron</a> they are an invaluable resource.
 </p>
-<p><a  href="http://orionrobots.co.uk/tiki-directory_redirect.php?siteId=9" rel="external" target="_blank">Lugnet Website</a>
-</p>
+
+<a href="https://lugnet.com" rel="external" target="_blank">Lugnet Website</a>

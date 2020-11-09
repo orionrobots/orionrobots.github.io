@@ -16,7 +16,3 @@ It has previously been held in Arlington, Virginia at George Masons University. 
 On their site they have registration, as well as lists of the attendees. Lego fans can expect to see many of the different themes, including some that [adult fans](/wiki/afol) have come up with themselves. These will include the normal ones like Space and Town, as well as Technic and [Mindstorms](/wiki/mindstorms), and there is likely to be a large [Great Ball Contraption](/wiki/great_ball_contraption) set up as well.
 
 The event will be open to the general public (those not registered as exhibitors) during the Saturday and Sunday. On the Friday there will be a Media Day for journalists.
-
-# Links
-
-* <http://www.brickfest.com> - The brickfest website

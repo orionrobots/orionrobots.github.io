@@ -49,7 +49,7 @@ When you are constraining and defining parts to interface with Lego - you may fi
 
 Although studs are the standard unit of Lego measure- to interface with other systems, and for some more complex models, it is useful to have them in standard measurements. The goal is to represent brick heights and plate heights in millimeters. We will refer to gears using the number of teeth(ie 24t) - although the diameter of the holes, wheels and studs is also significant.
 
-According to [Steve Baker](http://sjbaker.org/steve/lego/dimensions.html "The Brick Bakery:Lego Dimensions") the distance between 2 Studs is 8mm. This is verified as Stud pitch = 7.985mm on Lugnet - although 8mm is commonly used.
+According to [Steve Baker](https://sjbaker.org/steve/lego/dimensions.html "The Brick Bakery:Lego Dimensions") the distance between 2 Studs is 8mm. This is verified as Stud pitch = 7.985mm on Lugnet - although 8mm is commonly used.
 
 Plate height(according to Lugnet) is 3.194 mm, although 3.2 mm or 16/5 mm are commonly used.
 
