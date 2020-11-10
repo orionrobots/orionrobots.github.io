@@ -7,7 +7,7 @@ layout: post
 ---
 {% include JB/setup %}
 
-Some time ago, my wife and mother conspired to accidentally damage my [Cybot](/wiki/cybot). First my mother managed to damage the tabs on the front panels holding the [IR](/wiki/infra_red) dome, and then may wife managed to snap the Castor.
+Some time ago, my wife and mother conspired to accidentally damage my [Cybot](/wiki/cybot.html). First my mother managed to damage the tabs on the front panels holding the [IR](/wiki/infra_red.html) dome, and then may wife managed to snap the Castor.
 
 I used the dome parts from the racing cybot and managed to repair that, but as I did not have a spare Castor at the time, I had attempted an initial repair.
 
@@ -42,6 +42,6 @@ It was clear that I could not use this without some serious repair. My first att
 
 ![](/galleries/gallery-6-orions-images/239-castorbaseandpegpinattempt.jpg)
 
-I did something at the time (this was a few years ago mind) that I would consider now a very foolish move. I used the heat of a soldering iron and a set of pliers to drive the pins in. It was clamped and I was using goggles - but a soldering iron is not designed for this and the smell was awful and may have been toxic. Before you ever try anything similar, please read my [Robot Building Safety Guide](/wiki/robot_building_safety).
+I did something at the time (this was a few years ago mind) that I would consider now a very foolish move. I used the heat of a soldering iron and a set of pliers to drive the pins in. It was clamped and I was using goggles - but a soldering iron is not designed for this and the smell was awful and may have been toxic. Before you ever try anything similar, please read my [Robot Building Safety Guide](/wiki/robot_building_safety.html).
 
 This lasted for about 2 meters, before it just fell off, and no matter which glue I tried, at was not going to happen. So I disassembled the Castor, keeping the wheel and axle, and discarded the broken pieces. I went back to the drawing board, and came up with a Lego substitute. I will post the rest of that when I dig out those photos - which were taken a few days later.

@@ -7,9 +7,9 @@ layout: post
 ---
 I have stumbled upon more rubiks cube solving robot footage on YouTube, and thought it work sharing.
 
-In fact, JP Brown's [Lego](/wiki/lego) cube solver may actually aid me with inspiration for the chuck mechanism for my lathe.
+In fact, JP Brown's [Lego](/wiki/lego.html) cube solver may actually aid me with inspiration for the chuck mechanism for my lathe.
 
-A solver, in [Fischertechnik](/wiki/fischertechnik "FischerTechnik") - <a href="https://youtube.com/watch?v=-mZ0CXcTozY" > FischerTechnik Cube Solver </a> . It is much slower than the other attempts seen, although it is also pretty different in the way that the outer limbs "jostle" the cube into position, the top limb clamps down, and then the turntable underneath rotates, holding the cube in a square depression. It is definitely worth seeing.
+A solver, in [Fischertechnik](/wiki/fischertechnik.html "FischerTechnik") - <a href="https://youtube.com/watch?v=-mZ0CXcTozY" > FischerTechnik Cube Solver </a> . It is much slower than the other attempts seen, although it is also pretty different in the way that the outer limbs "jostle" the cube into position, the top limb clamps down, and then the turntable underneath rotates, holding the cube in a square depression. It is definitely worth seeing.
 
  <h1 id="Links">
 Links

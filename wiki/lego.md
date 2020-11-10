@@ -17,27 +17,27 @@ The company are believed to be one of the oldest toy makers with plastic injecti
 
 # Lego content on Orionrobots
 
-- [Lego Specifications](/wiki/lego_specifications)
-- [Lego Pneumatic Specifications](/wiki/lego_pneumatic_specifications)
-- [General Lego Tips](/wiki/general_lego_tips)
-- [Lego Solar Panel](/wiki/lego_solar_panel)
-- [Lego Technic](/wiki/lego_technic)
-- [MindStorms](/wiki/mindstorms)
-  - [NXT](/wiki/nxt)
-  - [RCX](/wiki/rcx)
-  - [SpyBotics](/wiki/spybotics)
-  - [CyberMaster](/wiki/cybermaster)
-  - [Dacta RoboLab](/wiki/robolab)
+- [Lego Specifications](/wiki/lego_specifications.html)
+- [Lego Pneumatic Specifications](/wiki/lego_pneumatic_specifications.html)
+- [General Lego Tips](/wiki/general_lego_tips.html)
+- [Lego Solar Panel](/wiki/lego_solar_panel.html)
+- [Lego Technic](/wiki/lego_technic.html)
+- [MindStorms](/wiki/mindstorms.html)
+  - [NXT](/wiki/nxt.html)
+  - [RCX](/wiki/rcx.html)
+  - [SpyBotics](/wiki/spybotics.html)
+  - [CyberMaster](/wiki/cybermaster.html)
+  - [Dacta RoboLab](/wiki/robolab.html)
   - MicroScout
 - Lego CAD
-  - [LDraw](/wiki/ldraw_system)
-  - [LSynth](/wiki/lsynth)
-  - [MLCad](/wiki/mlcad)
-  - [LeoCad](/wiki/leocad)
+  - [LDraw](/wiki/ldraw_system.html)
+  - [LSynth](/wiki/lsynth.html)
+  - [MLCad](/wiki/mlcad.html)
+  - [LeoCad](/wiki/leocad.html)
   - BrickSmith - An OSX Lego CAD app
 - Lego Communities
-  - [Lugnet](/wiki/lugnet)
-  - [BrickLink](/wiki/bricklink)
+  - [Lugnet](/wiki/lugnet.html)
+  - [BrickLink](/wiki/bricklink.html)
 
 # Links
 
@@ -48,4 +48,4 @@ The company are believed to be one of the oldest toy makers with plastic injecti
 
 # Related Content
 
-* [Construction Toy](/wiki/construction_toy)
+* [Construction Toy](/wiki/construction_toy.html)

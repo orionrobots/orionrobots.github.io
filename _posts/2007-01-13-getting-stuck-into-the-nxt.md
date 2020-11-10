@@ -11,7 +11,7 @@ todo_improve: dewikify.
 
 # Starting Up
 
-Now I had the [NXT](/wiki/nxt) software installed, it was time to fire it up. I was expecting an all singing, all dancing presentation as was the case with the [RCX](/wiki/rcx) [Robot Invention System](/wiki/ris) and Mars Mission software, but those kind of intro movies seem to have withered away. They did add an element of excitement to Lego toys though. This instead fires up a rather good looking interface, which has a rounded, flattened and simplistic style reminiscent of LCARS (the Star Trek UI).
+Now I had the [NXT](/wiki/nxt.html) software installed, it was time to fire it up. I was expecting an all singing, all dancing presentation as was the case with the [RCX](/wiki/rcx.html) [Robot Invention System](/wiki/ris.html) and Mars Mission software, but those kind of intro movies seem to have withered away. They did add an element of excitement to Lego toys though. This instead fires up a rather good looking interface, which has a rounded, flattened and simplistic style reminiscent of LCARS (the Star Trek UI).
 
 Time to click the "Getting started" button. The software rapidly runs through a little presentation demo, and tells me I can now connect my NXT to download a program. I plug it in, turn it on connected and Windows detects it. I then click the next button on the presentation, already a step ahead - as usual, jumping the gun. It then tells me to plug in the cable, already ahead.
 
@@ -27,7 +27,7 @@ Okay...So I go back, and actually try it out as the presentation suggests with t
  </div>
 I start programming with a drag and drop, push the download button, press the orange button on the NXT four times, and I hear the sound "Good Job".
 
-I will have to play with the NXT-G drag and drop interface for a while, and see what it is really capable of, but I will probably be throwing a C compiler or [Lejos](/wiki/lejos) on it so I can port old familiar algorithms to the NXT.
+I will have to play with the NXT-G drag and drop interface for a while, and see what it is really capable of, but I will probably be throwing a C compiler or [Lejos](/wiki/lejos.html) on it so I can port old familiar algorithms to the NXT.
 
 Time to go start on the robo centre. I click on the Tribot and click through, noting that the paper instructions are shown in a small window pane on the screen. The pane is not expandable via dragging, but there is a zoom button. I am glad there were paper instructions - it is not that easy to see on my small laptop screen, and I can move much faster with the paper ones. I Note that there is an artefact at the end of the digital instructions that you will need to test with - which is available on the paper ones on page 60 of the User Guide.
 
@@ -66,9 +66,9 @@ Time for the grabber - when things start getting interesting...
 # Links
 
 * [OrionRobots gets our first NXT]({% post_url 2007-01-10-orionrobots-gets-our-first-nxt %})
-* [Lego](/wiki/lego "The best known construction toy")
-* [Mindstorms](/wiki/mindstorms "A Robotic construction toy system from Lego")
-* [NXT](/wiki/nxt "Legos NeXT generation robotics kit")
+* [Lego](/wiki/lego.html "The best known construction toy")
+* [Mindstorms](/wiki/mindstorms.html "A Robotic construction toy system from Lego")
+* [NXT](/wiki/nxt.html "Legos NeXT generation robotics kit")
 * [Timephiz - Mindstorms NXT Test Run](http://timephiz.blogspot.com/2006/11/mindstorms-nxt-test-run.html) - A blog from a teacher going through a similar experience as I.
 
 

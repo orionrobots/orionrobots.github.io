@@ -7,7 +7,7 @@ date: 2013-05-02 20:35:48
 
 ## Components
 
-<div style=" float: right;"><img class="img-responsive" src="/galleries/gallery-1-common-images/138-steppermotor.png"/> </div>
+<div style="float: right;"><img class="img-responsive" src="/galleries/gallery-1-common-images/138-steppermotor.png"/> </div>
 
 * <a href="/wiki/servo_motor.html" title="A motor with built in positioning control - easily interfaced with digital systems">Servo Motor</a>
 * <a href="/wiki/stepper_motors.html" title="Stepper Motors">Stepper Motors</a>
@@ -21,7 +21,7 @@ date: 2013-05-02 20:35:48
 * <a href="/wiki/led.html" title="Light Emitting Diode">LED</a>
 * <a href="/wiki/ic.html" title="Integrated Circuits">IC</a>
 * <a href="/wiki/transistor.html" title="Transistor">Transistor</a>
-* [Microcontroller](/wiki/microcontroller)
+* [Microcontroller](/wiki/microcontroller.html)
 
 <h1 id="Techniques">Techniques</h1>
 

@@ -15,7 +15,7 @@ In their own words:
 
 "Plans aren't set yet (add your ideas to the wiki), but imagine weekend of informal presentations, opendorks, workshops, headphone performances and other dorky activities set in beautiful surroundings with camping (indoor and outdoor), hot showers and wireless internet..."
 
-This is one camping trip where you would bring your gadgets, make magazine, [Lego](/wiki/lego) and battery powered robots. Talking geek is most definitely not off.  Please don't forget to enjoy being away from the city too!
+This is one camping trip where you would bring your gadgets, make magazine, [Lego](/wiki/lego.html) and battery powered robots. Talking geek is most definitely not off.  Please don't forget to enjoy being away from the city too!
 
 If you are interested, you are strongly advised to add your name to the [Dorkbot Camp Wiki](http://dorkbot.org/dorkbotlondon/camp06/) so they can estimate numbers and plan accordingly. It would also be a good idea to go to a few of the regular dorkbot events if you have not already first, to get to know the crowd, and the kind of crazy stuff they build.
 

@@ -14,7 +14,7 @@ Firstly - let me say that our support goes out to all affected by the Tsunami. I
 
 # Christmas
 
-On a more happy note - lets talk pressies. My wife bought me this rather cool Meccano remote control car, with which you build a creation, then race it around a bit. It is a proper 27Mhz RC as well, not some substitute. Although I am having a lot of fun with the included models, I will also be able to use it as a monster house robot during challenges. Also Dale (homer on orionrobots) surprised me when he bought me a cool [Lego](/wiki/lego) aircraft set - building a VTOL Jet and a Helicopter. Anybody who knows me - knows how much I love [construction toys](/wiki/construction_toy). I was also bought a Plasma Plate by my mother, which I will probably use to adorn a wall in larger challenges and parties (I have already done one robot party).
+On a more happy note - lets talk pressies. My wife bought me this rather cool Meccano remote control car, with which you build a creation, then race it around a bit. It is a proper 27Mhz RC as well, not some substitute. Although I am having a lot of fun with the included models, I will also be able to use it as a monster house robot during challenges. Also Dale (homer on orionrobots) surprised me when he bought me a cool [Lego](/wiki/lego.html) aircraft set - building a VTOL Jet and a Helicopter. Anybody who knows me - knows how much I love [construction toys](/wiki/construction_toy.html). I was also bought a Plasma Plate by my mother, which I will probably use to adorn a wall in larger challenges and parties (I have already done one robot party).
 
 There is also a Christmas gift for those club members who regularly attended last year when the new year starts.
 
@@ -32,7 +32,7 @@ Anyway I hope the rest of the year has a more positive spin on it, and wish a ha
 
 # Python on CE
 
-I have also started dabbling with running [Python](/wiki/python) - my pet programming language at the moment, on my [Pocket PC](/wiki/pocket_pc). It has been an interesting experience, and the fact that there is now an IDLE port for it has helped a lot, but I am still struggling to get the WX library port to load.
+I have also started dabbling with running [Python](/wiki/python.html) - my pet programming language at the moment, on my [Pocket PC](/wiki/pocket_pc.html). It has been an interesting experience, and the fact that there is now an IDLE port for it has helped a lot, but I am still struggling to get the WX library port to load.
 
 # Back to club
 

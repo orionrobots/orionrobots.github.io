@@ -76,13 +76,19 @@ The minimum is a compiler to actually build the code, and then a programmer to d
 
 Free/Open source tools:
 
-<ul><li> SDCC - The small device C Compiler
-</li><li> GCC - There are GCC bindings for cross compiling to some microcontrollers
-</li><li> PIC Forth - An Open source forth compiler for the <a href="/wiki/pic.html" title="PIC">PIC</a> (in fact a few of them)
-</li><li> Pyastra - A python to assembler translator - usable for programming PICs with python syntax
-</li><li> AnyC - An open source compiler for microcontrollers
-</li><li> FreeRTOS - A Real Time <a href="/wiki/os.html" title="An Operating System">OS</a> which can be built to run on a microcontroller
-</li><li> <a href="http://ldrolez.free.fr/hardware/" rel="external" target="_blank">http://ldrolez.free.fr/hardware/</a> - The hardware section of LUDs Open Source Corner has a number of PIC projects
-</li><li> <a href="http://www.gnupic.org" rel="external" target="_blank">http://www.gnupic.org</a> - A list of open source tools and stuff to use with the PIC
-</li></ul>
+  - SDCC - The small device C Compiler
+  - GCC - There are GCC bindings for cross compiling to some
+    microcontrollers
+  - PIC Forth - An Open source forth compiler for the
+    [PIC](/wiki/pic.html "PIC") (in fact a few of them)
+  - Pyastra - A python to assembler translator - usable for programming
+    PICs with python syntax
+  - AnyC - An open source compiler for microcontrollers
+  - FreeRTOS - A Real Time [OS](/wiki/os.html "An Operating System")
+    which can be built to run on a microcontroller
+  - <http://ldrolez.free.fr/hardware/> - The hardware section of LUDs
+    Open Source Corner has a number of PIC projects
+  - <http://www.gnupic.org> - A list of open source tools and stuff to
+    use with the PIC
+
 More tools are covered on the family specific pages above.

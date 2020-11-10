@@ -1,3 +1,4 @@
+---
 description: Photos from the Micromouse 2008 event at Millenium Point in Birmingham.
   This included many robots events - maze solving, drag racing, minisumo and walking
   robots. Discussion of these start at http://orionrobots.co.uk/blogs/1/185. OrionRobots
@@ -170,3 +171,4 @@ images:
   name: 28062008673.jpg, src: !!python/unicode '563-28062008673.jpg', thumb-src: null}
 layout: autogallery
 name: Micromouse 2008
+---
