@@ -12,8 +12,8 @@ a completely unexpected group who were contributing, collaborating and hacking t
 
 The Lego company watched,
 saw satellite businesses spring up, and even encouraged this.
-New sensors, devices, programming systems and even complete [OS's](/wiki/os "An Operating System") resulted.
-The [Lugnet Lego community](/wiki/lugnet "Lego Users Group Network") and Lego hosted discussion sites- and Lego's best selling toy went from strength to strength.
+New sensors, devices, programming systems and even complete [OS's](/wiki/os.html "An Operating System") resulted.
+The [Lugnet Lego community](/wiki/lugnet.html "Lego Users Group Network") and Lego hosted discussion sites- and Lego's best selling toy went from strength to strength.
 
 But then the company hit trouble, they lost touch with the Lugnet/AFOL community,
 and invested heavily in License deals.

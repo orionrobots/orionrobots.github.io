@@ -111,8 +111,8 @@ Most Lego bricks use high quality ABS plastic - which is slightly elastic.
 
 # Other related specifications
 
-[RCX Specifications](/wiki/rcx_specifications)
+[RCX Specifications](/wiki/rcx_specifications.html)
 
-[CyberMaster](/wiki/cybermaster)
+[CyberMaster](/wiki/cybermaster.html)
 
 [Lego Wheel Traction Specifications - A study by Phillippe Hurbain](http://philohome.com/traction/traction.htm "Wheels, Tyres and Traction")

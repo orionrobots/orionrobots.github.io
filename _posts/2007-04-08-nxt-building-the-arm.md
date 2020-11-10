@@ -36,13 +36,13 @@ Well the arm is not much fun without a hand. A hand will be useful to pick up a 
 
 It was an interesting build - the use of the knob wheel again. I really have not used these all that much at all. On the second set of claws, I actually put the ball pin in before the knob wheels - as it looked like it would be a better plan.
 
-Also, if it looks like this part of the arm is not quite coming together, have a bit of faith and carry on -it does work. Wire routing is much easier here than for the buggy, but for the stuff going under the [NXT](/wiki/nxt "Legos NeXT generation robotics kit") I had to remove the clips on one side, to lift it up a little to get the RJ plug through.
+Also, if it looks like this part of the arm is not quite coming together, have a bit of faith and carry on -it does work. Wire routing is much easier here than for the buggy, but for the stuff going under the [NXT](/wiki/nxt.html "Legos NeXT generation robotics kit") I had to remove the clips on one side, to lift it up a little to get the RJ plug through.
 
 # Programming the hand
 
 This was a more interesting program - the switch block (or If block - as it is only really if/else and not multi-case) was introduced.
 
-Again, after trying it out in a vanilla version, I had to tweak values when testing to make sure it did not overshoot. It may have been more clever to use a wait until touched for the downward movement, but since [OR](/wiki/or "OR") blocks have not been introduced, it could have got messy when it couldn't go any further.
+Again, after trying it out in a vanilla version, I had to tweak values when testing to make sure it did not overshoot. It may have been more clever to use a wait until touched for the downward movement, but since [OR](/wiki/or.html "OR") blocks have not been introduced, it could have got messy when it couldn't go any further.
 
 Even with much tweaking, it either grabs the pedestal with the ball. knocks the pedestal over before getting the ball, or knocks it over when it gets the ball. It also tends to knock over the other pedestal when dropping the ball. But at least it did pick the ball up and move it. I managed to reorganise the program so the arm lifted a little after machine the grab, and then moved, thus not knocking the pedestals over when it did so.
 
@@ -68,9 +68,9 @@ Well - in the NXT guide, we have animals next - the scorpion - Spike.. Cool..
 * [NXT - The Grabber]({% post_url 2007-01-18-nxt-the-grabber %})
 * [Getting stuck into the NXT]({% post_url 2007-01-13-getting-stuck-into-the-nxt %})
 * [OrionRobots gets our first NXT]({% post_url 2007-01-10-orionrobots-gets-our-first-nxt %})
-* [NXT](/wiki/nxt "Legos NeXT generation robotics kit")
-* [Lego](/wiki/lego "The best known construction toy")
-* [Mindstorms](/wiki/mindstorms "A Robotic construction toy system from Lego")
+* [NXT](/wiki/nxt.html "Legos NeXT generation robotics kit")
+* [Lego](/wiki/lego.html "The best known construction toy")
+* [Mindstorms](/wiki/mindstorms.html "A Robotic construction toy system from Lego")
 
 
 <iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=GB&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=orionrobots-21&marketplace=amazon&region=GB&placement=B00BMKLVJ6&asins=B00BMKLVJ6&linkId=790d5f97e58d0e79ecb2fbe1b24a3108&show_border=true&link_opens_in_new_window=true"></iframe>

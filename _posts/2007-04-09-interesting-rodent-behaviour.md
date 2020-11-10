@@ -11,7 +11,7 @@ The animals around us are clearly, much like us, and the robots we aspire to bui
 
 Had [Da Vinci](/wiki/leonardo_da_vinci "Leonardo Da Vinci") not thought about animal anatomy and behaviour, perhaps he would not have designed his flying machines, tanks and robot (seriously - this is not a joke, read [Leonardo Da Vincis Robot](/wiki/leonardo_da_vincis_robot "The Humanoid Robot Designed By Leonardo Da Vinci") ).
 
-More recent uses must be the [BEAM](/wiki/beam_robots "Biology, Electronics, Aesthetics and Mechanics") technology used by [Mark Tilden](/wiki/mark_tilden "Mark Tilden") creator of the Wow-wee [Robosapien](/wiki/robosapien "RoboSapien").
+More recent uses must be the [BEAM](/wiki/beam_robots "Biology, Electronics, Aesthetics and Mechanics") technology used by [Mark Tilden](/wiki/mark_tilden "Mark Tilden") creator of the Wow-wee [Robosapien](/wiki/robosapien.html "RoboSapien").
 
 Anyway, I recently spotted a couple of recent studies on animal behaviour which were most definitely interesting, and may also push their estimated IQ's up a notch or two. I will probably post other articles on them later.
 

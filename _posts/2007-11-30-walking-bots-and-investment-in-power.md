@@ -16,7 +16,7 @@ I have not explored the implications of this and I am not that interested in rea
 ## Links
 
 * <a href="http://youtube.com/watch?v=oVwbUljGs3g">YouTube - LAND WALKER -Japanese Robot suit</a>
-* [Mecha](/wiki/mecha "Large Robotic Suits")
+* [Mecha](/wiki/mecha.html "Large Robotic Suits")
 * <a href="http://en.wikipedia.org/wiki/Mecha#Mechas_in_real_life" >Wikipedia - Mechas in real life</a>
 
 # Google Power

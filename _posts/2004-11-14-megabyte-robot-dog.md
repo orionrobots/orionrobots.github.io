@@ -9,7 +9,7 @@ It comes with a bone shaped Infra Red remote control. It also has a fairly sen
 
 It has a storage compartment in its back, which inconveniently isn't the right size for the remote (that would have been a neat thought). In its defence, this robot comes across as fairly simple internally and has been well hacked.
 
-WowWee have outdone themselves with their newer offering the [RoboSapien](/wiki/robosapien) which far outweighs this in features and functionality.
+WowWee have outdone themselves with their newer offering the [RoboSapien](/wiki/robosapien.html) which far outweighs this in features and functionality.
 
 Taking it apart, the existing sensors could be used with a user customizable microcontroller.
 
