@@ -6,7 +6,7 @@ date: 2005-10-11 23:39:35
 <p>There are many advantages to be had by using modular design and building techniques with robots.
 </p>
 <h1 id="Reusability">Reusability</h1>
-<p>First is the advantage of reusing resources. Some electronic, mechanical and other parts are expensive so <a class="wiki" href="/wiki/part_reuse.html" title="Part Reuse">Part Reuse</a> is a desirable property.
+<p>First is the advantage of reusing resources. Some electronic, mechanical and other parts are expensive so <a href="/wiki/part_reuse.html" title="Part Reuse">Part Reuse</a> is a desirable property.
 </p>
 <p>If you spend time designing a system to perform a task, and you are aware (with some forethought) that you may use this component of the design again, try to modularise it. This is a concept common in software design, and applies just as well to hardware.
 </p>
@@ -27,11 +27,11 @@ date: 2005-10-11 23:39:35
 </p>
 <p>A system or larger module will have some specific parts as well as modules, dont be afraid to do that, but when you start building 5 similar robots with minor variances, then perhaps you can take the similar sections and make this a module.
 </p>
-<p>Ensure that the electronic interfaces are kept as simple as possible, over-complicating modules will mean it becomes much harder to use them in future. It is often a good plan to use well known and standardised connection systems and protocols, for example <a class="wiki" href="/wiki/serial_data_stream.html" title="Serial Data Stream">RS232 Serial</a>, or <a class="wiki" href="/wiki/universal_serial_bus.html" title="Universal Serial Bus">Universal Serial Bus</a>. This goes for mechanical connections too.
+<p>Ensure that the electronic interfaces are kept as simple as possible, over-complicating modules will mean it becomes much harder to use them in future. It is often a good plan to use well known and standardised connection systems and protocols, for example <a href="/wiki/serial_data_stream.html" title="Serial Data Stream">RS232 Serial</a>, or <a href="/wiki/universal_serial_bus.html" title="Universal Serial Bus">Universal Serial Bus</a>. This goes for mechanical connections too.
 </p>
 <p>If you are making a mechanical connection, for example a driving shaft, consider what forces it may undergo. Not just the rotation (in this example), but any shearing or bending stresses it may endure in normal use. This could be the difference between two sections holding well, or flying apart as the axle breaks.
 </p>
-<p><a class="wiki" href="/wiki/lego.html" title="The best known construction toy">Lego</a> and other Construction Toys are excellent modular building systems. You can use them to build larger modules and furthar embody this concept.
+<p><a href="/wiki/lego.html" title="The best known construction toy">Lego</a> and other Construction Toys are excellent modular building systems. You can use them to build larger modules and furthar embody this concept.
 </p>
 <h1 id="Disadvantages">Disadvantages</h1>
 <p>The big disadvantage of modules is that they require a great deal more forethought, research and design. But these are key qualities a good robot builder should be fostering anyway.
@@ -41,5 +41,5 @@ date: 2005-10-11 23:39:35
 <h1 id="When_not_to_use_modules">When not to use modules</h1>
 <p>If you are building a very simple or small robot, with few parts then obviously you do not need to go full on into a module. However, as soon as you find that you need block diagrams, then you probably have modules.
 </p>
-<p><a class="wiki" href="/wiki/building_tips.html" title="Hints and helpers for actually building robots, and other stuff.">Building Tips</a>
+<p><a href="/wiki/building_tips.html" title="Hints and helpers for actually building robots, and other stuff.">Building Tips</a>
 </p>

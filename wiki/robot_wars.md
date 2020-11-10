@@ -3,7 +3,7 @@ layout: page
 title: Robot Wars
 date: 2006-12-12 12:23:30
 ---
-The infamous British robot battling show, once hosted by <a class="wiki" href="/wiki/craig_charles.html" title="Craig Charles">Craig Charles</a> where robots smash each other in a ring.
+The infamous British robot battling show, once hosted by <a href="/wiki/craig_charles.html" title="Craig Charles">Craig Charles</a> where robots smash each other in a ring.
 
 <img class="img-responsive" src="/galleries/gallery-1-common-images/79-logo-robotwars.jpg"/>
 
@@ -11,33 +11,33 @@ It has served the community well, by publicising and improving the image of such
 
 There are some interesting technical merits here, but OrionRobots hopes that they would host TechnoGames more often.
 
-All of the robots in Robot Wars are <a class="wiki" href="/wiki/rc.html" title="Remote Control">remote controlled</a> - and do not feature any real <a class="wiki" href="/wiki/artificial_intelligence.html" title="Artificial Intelligence">Artificial Intelligence</a> or <a class="wiki" href="/wiki/autonomous.html" title="Autonomous">Autonomy</a>.  After all - with weapons like that - it could be very dangerous if any of them did!
+All of the robots in Robot Wars are <a href="/wiki/rc.html" title="Remote Control">remote controlled</a> - and do not feature any real <a href="/wiki/artificial_intelligence.html" title="Artificial Intelligence">Artificial Intelligence</a> or <a href="/wiki/autonomous.html" title="Autonomous">Autonomy</a>.  After all - with weapons like that - it could be very dangerous if any of them did!
 
 # Robots from the 2000's robot wars
 
 Infamous Robots on the early Robot Wars:
 
-* <a class="wiki" href="/wiki/chaos2.html" title="Chaos2">Chaos 2</a>
-* <a class="wiki" href="/wiki/firestorm.html" title="Firestorm">Firestorm</a>
-* <a class="wiki" href="/wiki/hypnodisc.html" title="Hypnodisc">Hypnodisc</a>
-* <a class="wiki" href="/wiki/sumpthing.html" title="Sumpthing">Sumpthing</a>
+* <a href="/wiki/chaos2.html" title="Chaos2">Chaos 2</a>
+* <a href="/wiki/firestorm.html" title="Firestorm">Firestorm</a>
+* <a href="/wiki/hypnodisc.html" title="Hypnodisc">Hypnodisc</a>
+* <a href="/wiki/sumpthing.html" title="Sumpthing">Sumpthing</a>
 
 House Robots:
 
-* <a class="wiki" href="/wiki/matilda.html" title="Matilda">Matilda</a>
-* <a class="wiki" href="/wiki/mr_psycho.html" title="Mr Psycho">Mr Psycho</a>
+* <a href="/wiki/matilda.html" title="Matilda">Matilda</a>
+* <a href="/wiki/mr_psycho.html" title="Mr Psycho">Mr Psycho</a>
 * Sir Killalot
-* <a class="wiki" href="/wiki/dead_metal.html" title="Dead Metal">Dead Metal</a>
+* <a href="/wiki/dead_metal.html" title="Dead Metal">Dead Metal</a>
 * Shunt
-* <a class="wiki" href="/wiki/sgt_bash.html" title="Sgt Bash">Sgt Bash</a>
+* <a href="/wiki/sgt_bash.html" title="Sgt Bash">Sgt Bash</a>
 * Robot Wars Ref Bot
 
 # Related Links:
 
-* <a class="wiki" href="/wiki/battlebot.html" title="BattleBot">BattleBot</a>
-* <a class="wiki" href="/wiki/building_a_battle_robot.html" title="Building A Battle Robot">Building a Battle Robot</a>
-* <a class="wiki" href="/wiki/dk_robot_warrior_kit.html" title="DK Robot Warrior Kit">DK Robot Warrior Kit</a>
-* <a class="wiki" href="/wiki/holding_school_robot_battle_events.html" title="Holding School Robot Battle Events">Holding School Robot Battle Events</a>
+* <a href="/wiki/battlebot.html" title="BattleBot">BattleBot</a>
+* <a href="/wiki/building_a_battle_robot.html" title="Building A Battle Robot">Building a Battle Robot</a>
+* <a href="/wiki/dk_robot_warrior_kit.html" title="DK Robot Warrior Kit">DK Robot Warrior Kit</a>
+* <a href="/wiki/holding_school_robot_battle_events.html" title="Holding School Robot Battle Events">Holding School Robot Battle Events</a>
 * <a  href="https://en.wikipedia.org/wiki/Robot_Wars" rel="external" target="_blank">Robot Wars on Wikipedia</a>
 * <a  href="https://www.fightingrobots.co.uk" rel="external" target="_blank">Fighting Robot Association</a>
 

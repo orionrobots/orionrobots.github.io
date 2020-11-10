@@ -14,6 +14,6 @@ I suggest you throw these away.  This technique may also be used on "tamper-proo
 
 Failing this, you may have to go to the more extreme tactic of actually drilling out the screw. Get yourself a screw removal drill bit - they tend to be slightly harder wearing, and have a different blade angle from a general purpose bit. Then drill out the center of the screw.
 
-<a class="wiki" href="/wiki/building_tips.html" title="Hints and helpers for actually building robots, and other stuff.">Building Tips</a>
+<a href="/wiki/building_tips.html" title="Hints and helpers for actually building robots, and other stuff.">Building Tips</a>
 
-<a class="wiki" href="/wiki/retreiving_dropped_screws.html" title="What to do when you drop a screw, nut or bolt into the gubbins of a machine">Retreiving Dropped Screws</a>
+<a href="/wiki/retreiving_dropped_screws.html" title="What to do when you drop a screw, nut or bolt into the gubbins of a machine">Retreiving Dropped Screws</a>

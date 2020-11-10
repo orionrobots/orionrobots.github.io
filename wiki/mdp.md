@@ -3,7 +3,7 @@ layout: page
 title: MDP
 date: 2006-03-14 16:58:39
 ---
-<p>This is a group of 100 <a class="wiki" href="/wiki/lego.html" title="The best known construction toy">Lego</a> enthusiasts brought together to develop for, beta test, and suggest new features/functionality for the <a class="wiki" href="/wiki/lego.html" title="The best known construction toy">Lego</a> <a class="wiki" href="/wiki/mindstorms.html" title="A Robotic construction toy system from Lego">Mindstorms</a> <a class="wiki" href="/wiki/nxt.html" title="Legos NeXT generation robotics kit">NXT</a> in early 2006.
+<p>This is a group of 100 <a href="/wiki/lego.html" title="The best known construction toy">Lego</a> enthusiasts brought together to develop for, beta test, and suggest new features/functionality for the <a href="/wiki/lego.html" title="The best known construction toy">Lego</a> <a href="/wiki/mindstorms.html" title="A Robotic construction toy system from Lego">Mindstorms</a> <a href="/wiki/nxt.html" title="Legos NeXT generation robotics kit">NXT</a> in early 2006.
 </p>
 <p>The group were selected from over 6000 applicants, and represented many walks of life, and most of the world, although there was a little over representation of IT people, and US residents.
 </p>

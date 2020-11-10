@@ -3,9 +3,9 @@ layout: page
 title: NAND
 date: 2006-04-23 00:36:19
 ---
-A <a class="wiki" href="/wiki/boolean.html" title="Boolean">boolean</a> <a class="wiki" href="/wiki/logic_gate.html" title="Devices designed to perform logical operations">Logic gate</a>.
+A <a href="/wiki/boolean.html" title="Boolean">boolean</a> <a href="/wiki/logic_gate.html" title="Devices designed to perform logical operations">Logic gate</a>.
 
-This is a negated <a class="wiki" href="/wiki/and.html" title="AND">AND</a> or <a class="wiki" href="/wiki/not.html" title="NOT">NOT</a> AND gate, and is actually very simple to create with simple electronics. It is basically the AND gate with an inverted output.
+This is a negated <a href="/wiki/and.html" title="AND">AND</a> or <a href="/wiki/not.html" title="NOT">NOT</a> AND gate, and is actually very simple to create with simple electronics. It is basically the AND gate with an inverted output.
 The first chip in the 7400 series, the 7400 itself, is indeed a quad NAND gate.
 
 Truth Table

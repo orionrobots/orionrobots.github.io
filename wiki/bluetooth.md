@@ -3,11 +3,11 @@ layout: page
 title: Bluetooth
 date: 2005-08-25 22:54:26
 ---
-A secure <a class="wiki" href="/wiki/wireless.html" title="Wireless">Wireless</a> transmission system designed for small mobile devices like phones, headsets and <a class="wiki" href="/wiki/personal_data_assistant.html" title="Personal Data Assistant">Personal Data Assistant</a>s.
+A secure <a href="/wiki/wireless.html" title="Wireless">Wireless</a> transmission system designed for small mobile devices like phones, headsets and <a href="/wiki/personal_data_assistant.html" title="Personal Data Assistant">Personal Data Assistant</a>s.
 
-It uses a <a class="wiki" href="/wiki/serial_data_stream.html" title="Serial Data Stream">Serial Data Stream</a> system and has fairly short range of up to a few meters.  The secure element is entirely up to the implementation and may not be present at all. It is fairly limited in the types of communications it supports, but the ability to support a virtual serial port is its strength. At its cost, and the high barrier of entry for development, it is currently mroe economical for a robot developer to look at more simple wireless serial port pairs, or a basic <a class="wiki" href="/wiki/rc.html" title="Remote Control">RC</a> protocol.
+It uses a <a href="/wiki/serial_data_stream.html" title="Serial Data Stream">Serial Data Stream</a> system and has fairly short range of up to a few meters.  The secure element is entirely up to the implementation and may not be present at all. It is fairly limited in the types of communications it supports, but the ability to support a virtual serial port is its strength. At its cost, and the high barrier of entry for development, it is currently mroe economical for a robot developer to look at more simple wireless serial port pairs, or a basic <a href="/wiki/rc.html" title="Remote Control">RC</a> protocol.
 
-The company AirCable supply wireless <a class="wiki" href="/wiki/centronics_parallel.html" title="Centronics Parallel">Centronics Parallel</a>,<a class="wiki" href="/wiki/rs232.html" title="A serial communication standard">RS232</a> and <a class="wiki" href="/wiki/universal_serial_bus.html" title="Universal Serial Bus">Universal Serial Bus</a> cable endings operating with BlueTooth.
+The company AirCable supply wireless <a href="/wiki/centronics_parallel.html" title="Centronics Parallel">Centronics Parallel</a>,<a href="/wiki/rs232.html" title="A serial communication standard">RS232</a> and <a href="/wiki/universal_serial_bus.html" title="Universal Serial Bus">Universal Serial Bus</a> cable endings operating with BlueTooth.
 
 For robots, off the shelf bluetooth chips, like the HC-06, are available and can be interfaced with <a href="/wiki/microcontroller.html">microcontrollers</a>.  Bear in mind the relatively short range of such systems.
 

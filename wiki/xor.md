@@ -3,7 +3,7 @@ layout: page
 title: XOR
 ---
 
-XOR means eXclusive Or.  It is a <a class="wiki" href="/wiki/boolean.html" title="Boolean">Boolean</a> operation which takes binary inputs and combines them for a single digital output.
+XOR means eXclusive Or.  It is a <a href="/wiki/boolean.html" title="Boolean">Boolean</a> operation which takes binary inputs and combines them for a single digital output.
 
 An XOR gate is explicitly a 2 input device, who's output is only true if and only if the inputs are different.
 

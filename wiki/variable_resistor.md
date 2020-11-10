@@ -7,7 +7,7 @@ date: 2005-05-04 10:39:46
 </p>
 <p>There is actually a subtle difference in the terminology, which will later be explained.
 </p>
-<p>A Standard <a class="wiki" href="/wiki/resistor.html" title="Resistor">Resistor</a> will resist the current flowing around a circuit - but in some applications, a fixed one is not suitable. If you wish to have manual control over its value, or to use it as a sensor, then some sort of variation is needed.
+<p>A Standard <a href="/wiki/resistor.html" title="Resistor">Resistor</a> will resist the current flowing around a circuit - but in some applications, a fixed one is not suitable. If you wish to have manual control over its value, or to use it as a sensor, then some sort of variation is needed.
 </p>
 <p>Almost all types of variable resistor consist of a strip of resistive (low conductive) material, with some kind of wiper contact which is moved along it.
 </p>

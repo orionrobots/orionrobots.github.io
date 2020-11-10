@@ -16,11 +16,11 @@ They even offer an advantage for slow going amphibious vehicles and the meta whe
 
 <h1 id="Complexity_and_design">Complexity and design</h1>
 
-The complexity for Tristar wheels is handled in the mechanical linkage of the leaf wheels to the main axle for the hub of each Tristar. This means that the drive mechanism can simply be <a class="wiki" href="/wiki/skid_steering.html" title="Skid Steering">Skid Steering</a> or similar, although these could be used with a <a class="wiki" href="/wiki/adder_subtractor_drive.html" title="Adder Subtractor Drive">Adder Subtractor Drive</a> for some very serious ability to deal with obstacles and hold course on relatively simple programming.
+The complexity for Tristar wheels is handled in the mechanical linkage of the leaf wheels to the main axle for the hub of each Tristar. This means that the drive mechanism can simply be <a href="/wiki/skid_steering.html" title="Skid Steering">Skid Steering</a> or similar, although these could be used with a <a href="/wiki/adder_subtractor_drive.html" title="Adder Subtractor Drive">Adder Subtractor Drive</a> for some very serious ability to deal with obstacles and hold course on relatively simple programming.
 
 ![Doug Carlsons TriStar wheel design](/galleries/gallery-1-common-images/431-tristar-wheel-model.jpg)
 
-The mechanical linkage is a set of gears, including slip gears which when powered will drive the leaf wheels until they cannot move and then power will go to turning the metawheel instead - an additional differential may be required to distribute the rotation between the leaf wheels and meta-wheel. The image above (courtesy of [Doug Carlson](https://amzn.to/38tHYRs) demonstrates one possible <a class="wiki" href="/wiki/lego.html" title="The best known construction toy">Lego</a> implementation. Note that the differential gear is used instead of slip gears.
+The mechanical linkage is a set of gears, including slip gears which when powered will drive the leaf wheels until they cannot move and then power will go to turning the metawheel instead - an additional differential may be required to distribute the rotation between the leaf wheels and meta-wheel. The image above (courtesy of [Doug Carlson](https://amzn.to/38tHYRs) demonstrates one possible <a href="/wiki/lego.html" title="The best known construction toy">Lego</a> implementation. Note that the differential gear is used instead of slip gears.
 
 <img class="img-responsive" src="image433"/>
 
@@ -30,14 +30,14 @@ This image shows tristar wheels being used in a complete vehicle. It was also cr
 
 * These wheels were famously used by the Landmaster in the film Damnation Alley.
 * They are also a concept part of the patented Lockheed TerraStar, an amphibious vehicle using a similar wheel arrangement.
-* A basic form of this is used in the <a class="wiki" href="/wiki/lego.html" title="The best known construction toy">Lego</a> SpyBotics GigaMesh robot - but on this each individual leaf wheel is static(they do not move). In normal operation, the leaf wheels will roll until an object is encountered.
+* A basic form of this is used in the <a href="/wiki/lego.html" title="The best known construction toy">Lego</a> SpyBotics GigaMesh robot - but on this each individual leaf wheel is static(they do not move). In normal operation, the leaf wheels will roll until an object is encountered.
 * They are mentioned in <a href="http://www.amazon.co.uk/gp/product/0830628002?ie=UTF8&amp;tag=orionrobots-21&amp;linkCode=as2&amp;camp=1634&amp;creative=6738&amp;creativeASIN=0830628002" rel="external" target="_blank">"The Robot Builder's Bonanza" by Gordon McComb</a>.
-* <a class="wiki" href="/wiki/james_jessiman.html" title="James Jessiman">James Jessiman</a> refined other <a href="/wiki/lego.html">Lego</a> builders designs on TriStar wheels in December 1995.
+* <a href="/wiki/james_jessiman.html" title="James Jessiman">James Jessiman</a> refined other <a href="/wiki/lego.html">Lego</a> builders designs on TriStar wheels in December 1995.
 
 <h1 id="Links">Links</h1>
 
 * <a href="http://www.brickshelf.com/cgi-bin/gallery.cgi?f=191414" rel="external" target="_blank">51andahalf - Lego Landmaster</a>
-* <a class="wiki" href="/wiki/robot_locomotion.html" title="Robot Locomotion">Robot Locomotion</a>
+* <a href="/wiki/robot_locomotion.html" title="Robot Locomotion">Robot Locomotion</a>
 * [LEGO Tristar step-wheel climber](https://lego.roerei.nl/tristar/tristar.html)
 
 <h1 id="Reference">Reference</h1>

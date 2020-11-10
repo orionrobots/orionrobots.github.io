@@ -9,7 +9,7 @@ Odometry is the technique of measuring how many revolutions a wheel has turned, 
 
 That way, the amount of distance travelled can be measured.
 
-<a class="wiki" href="/wiki/lego.html" title="The best known construction toy">Lego</a> have provided a rotation sensor for the <a class="wiki" href="/wiki/rcx.html" title="The Lego Robot Command Explorer">RCX</a>, and all of the <a class="wiki" href="/wiki/nxt.html" title="Legos NeXT generation robotics kit">NXT</a> motors have the ability to sense how far they have moved too. The RCX rotation sensor has only accuracy to 90 degree, and probably uses some form of quadrature encoding.
+<a href="/wiki/lego.html" title="The best known construction toy">Lego</a> have provided a rotation sensor for the <a href="/wiki/rcx.html" title="The Lego Robot Command Explorer">RCX</a>, and all of the <a href="/wiki/nxt.html" title="Legos NeXT generation robotics kit">NXT</a> motors have the ability to sense how far they have moved too. The RCX rotation sensor has only accuracy to 90 degree, and probably uses some form of quadrature encoding.
 
 <h2 id="Contact_vs_contactless">Contact vs contactless</h2>
 The Lego sensor, and some others, use rotating metal slips with brushes, however, these introduce friction into the system,and may also wear away. They would be a point of failure in a system. A more intelligent approach is contactless.
@@ -20,7 +20,7 @@ This can be achieved via a few ways, the most common being optical, followed als
 This term is referred to a specially patterned or prepared wheel which rotates in the system. This wheel will have encoding holes, contacts, magnets or whatever else is used to detect the rotation as part of its attributes.
 
 <h3 id="Optical">Optical</h3>
-Optical setups often use interrupters to break a light beam. This technique is very common, and is used in computer mice and trackballs. <a class="wiki" href="/wiki/salvage_tips.html" title="Tips on pulling stuff apart to build robots. How, where and what.">Salvage</a> builders look to mice for both the optical elements, and also the encoder wheels which are patterned. Another very advanced optical setup is the method used by purely optical mice. The best way to take advantage of that may be to take such a mouse, and try and interpret the PS2 signals from it.
+Optical setups often use interrupters to break a light beam. This technique is very common, and is used in computer mice and trackballs. <a href="/wiki/salvage_tips.html" title="Tips on pulling stuff apart to build robots. How, where and what.">Salvage</a> builders look to mice for both the optical elements, and also the encoder wheels which are patterned. Another very advanced optical setup is the method used by purely optical mice. The best way to take advantage of that may be to take such a mouse, and try and interpret the PS2 signals from it.
 
 It is possible to create an optical based odometry sensor with Lego by using the Light Sensor, and a pulley wheel. The pulley wheels holes are filled using alternate white and black round 1 stud plates. This however, relies upon the reflection of the light, and not interruption.
 
@@ -35,7 +35,7 @@ In robots which have a very large range of speeds, when it is too fast, the micr
 It is worth pointing out that odometry is still a best guess measurement, and does not give the assurance that a GPS system might give. But it is considerably cheaper and easier to implement.
 
 <h2 id="Use_in_BEAM_robotics">Use in BEAM robotics</h2>
-It also appears in recent news, that ants use it, and possibly other life, which means that it may be a valid method to use in <a class="wiki" href="/wiki/beam_robots.html" title="Biology, Electronics, Aesthetics and Mechanics">BEAM</a> robots.
+It also appears in recent news, that ants use it, and possibly other life, which means that it may be a valid method to use in <a href="/wiki/beam_robots.html" title="Biology, Electronics, Aesthetics and Mechanics">BEAM</a> robots.
 
 This could be achieved by incorporating a digital counter, but perhaps a more biological approach would be to use a capacitor, with each counter pulse giving a burst of charge to it, topping it up, and then its discharge time would then be relative to the number of pulses. Better still, depending on the discharge curve, the robot could then use this to control a locomotive system (perhaps to return to base), and as the curve progresses, slow down its approach to the target. This would emulate the recent experiments with ants, in that if you then changed the replay parameters or wheel diameter, the robot would most likely overshoot its target.
 

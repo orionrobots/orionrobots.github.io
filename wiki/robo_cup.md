@@ -12,9 +12,9 @@ date: 2006-01-15 10:43:54
 </p>
 <p>Maybe there will be robocup baseball and other sports cups, and we will one day see a Robo Cup super bowl.
 </p>
-<p>There are a number of <a class="wiki" href="/wiki/mindstorms.html" title="A Robotic construction toy system from Lego">Mindstorms</a> based Robot soccer challenges, and also <a class="wiki" href="/wiki/cybot.html" title="Cybot">Cybot</a> has a soccer based mode.
+<p>There are a number of <a href="/wiki/mindstorms.html" title="A Robotic construction toy system from Lego">Mindstorms</a> based Robot soccer challenges, and also <a href="/wiki/cybot.html" title="Cybot">Cybot</a> has a soccer based mode.
 </p>
-<p><a class="wiki" href="/wiki/sports_robots.html" title="Sports Robots">Sports Robots</a>
+<p><a href="/wiki/sports_robots.html" title="Sports Robots">Sports Robots</a>
 </p>
 <h1  id="Links">Links</h1>
 

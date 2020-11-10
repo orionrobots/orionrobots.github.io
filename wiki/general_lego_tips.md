@@ -3,7 +3,7 @@ layout: page
 title: General Lego Tips
 date: 2006-12-12 00:07:51
 ---
-<p>Please share any general <a class="wiki" href="/wiki/lego.html" title="The best known construction toy">Lego</a> tips.
+<p>Please share any general <a href="/wiki/lego.html" title="The best known construction toy">Lego</a> tips.
 </p>
 <p></p><div id="toc"><div id="toctitle"><h3>Table of contents</h3></div><ul class="toc"><ul><li><a class="link" href="#Do_not_use_your_teeth.">Do not use your teeth.</a>
 </li><li><a class="link" href="#Removing_a_troublesome_item_from_an_axle">Removing a troublesome item from an axle</a>
@@ -14,11 +14,11 @@ date: 2006-12-12 00:07:51
 </li><li><a class="link" href="#Pulling_small_plates_apart">Pulling small plates apart</a>
 </li><li><a class="link" href="#Sorting_Lego">Sorting Lego</a>
 </li></ul></ul><!--toc--></div>
-<p><a class="wiki" href="/wiki/lego_specifications.html" title="Lego Specifications">Lego Specifications</a>
+<p><a href="/wiki/lego_specifications.html" title="Lego Specifications">Lego Specifications</a>
 </p>
 <h2 id="Do_not_use_your_teeth.">Do not use your teeth.</h2>
 <p>
-<br/>No matter how tempting it is - please resist. Not only does it leave unsightly bite marks on the ABS but it also means your pieces may no longer fit together properly. Also if you are using <a class="wiki" href="/wiki/lego.html" title="The best known construction toy">Lego</a> with other systems - it may not be very healthy. Most of the Lego here at OrionRobots has probably used in various indoor and outdoor challenges - I wouldn't put it in my mouth.
+<br/>No matter how tempting it is - please resist. Not only does it leave unsightly bite marks on the ABS but it also means your pieces may no longer fit together properly. Also if you are using <a href="/wiki/lego.html" title="The best known construction toy">Lego</a> with other systems - it may not be very healthy. Most of the Lego here at OrionRobots has probably used in various indoor and outdoor challenges - I wouldn't put it in my mouth.
 </p>
 <p>There are definitely other methods of getting stuff off.
 </p>
@@ -45,7 +45,7 @@ date: 2006-12-12 00:07:51
 <br/>Get yourself two bricks (preferably longer than the two plates), and stick on each side of the two suck plates. Then pull them apart by bending - pushing a careful finger in between the two plates. You can then get these apart, and it is fairly easy to remove them from the bricks.
 </p>
 <h2 id="Sorting_Lego">Sorting Lego</h2>
-<p>This is a topic which has merited much discussion on <a class="wiki" href="/wiki/lugnet.html" title="Lego Users Group Network">Lugnet</a>. The first thing is it is generally considered better to sort by piece shape and function than by colour. Only sort by colour afterwards if you really have the patience and that amount of storage compartments. Believe me - it is easier pulling out a black 2x1 plate from a sea of multicoloured plates, than it is pulling out a  green 2x1 plate from a sea of mixed black pieces.
+<p>This is a topic which has merited much discussion on <a href="/wiki/lugnet.html" title="Lego Users Group Network">Lugnet</a>. The first thing is it is generally considered better to sort by piece shape and function than by colour. Only sort by colour afterwards if you really have the patience and that amount of storage compartments. Believe me - it is easier pulling out a black 2x1 plate from a sea of multicoloured plates, than it is pulling out a  green 2x1 plate from a sea of mixed black pieces.
 </p>
 <p>I prefer to use fishing tackle boxes and Ziploc bags for smaller parts, and stackable boxes for larger parts. I also use the CyberMaster metal carry case for storing most of my electrical and pneumatic parts. I recommend looking at the Games Workshop cases for carrying Lego robots into events. They have room to pad and store the bot, as well as ample room to store a few spare pieces.
 </p>

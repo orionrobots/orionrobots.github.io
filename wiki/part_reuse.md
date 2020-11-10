@@ -21,13 +21,13 @@ date: 2005-09-15 17:51:39
 </li></ul><p>
 <br/>Also this works well in the programming of robots, following a modular programming method - commonly known as Object Oriented programming also means you can snap in program components, or upgrade them while minimising impact on other areas.
 </p>
-<p>This is one reason <a class="wiki" href="/wiki/lego_robots.html" title="Lego Robots">Lego Robots</a> are very popular, although even then, larger <a class="wiki" href="/wiki/lego.html" title="The best known construction toy">Lego</a> modules are of great benefit. Of course there is no reason why another <a class="wiki" href="/wiki/construction_toy.html" title="Construction Toy">Construction Toy</a> could not be used.
+<p>This is one reason <a href="/wiki/lego_robots.html" title="Lego Robots">Lego Robots</a> are very popular, although even then, larger <a href="/wiki/lego.html" title="The best known construction toy">Lego</a> modules are of great benefit. Of course there is no reason why another <a href="/wiki/construction_toy.html" title="Construction Toy">Construction Toy</a> could not be used.
 </p>
 <p>Using screws, nuts and bolts as opposed to glue, welding and snap fit parts means that you can then re-use body panelling and framework in other robots.
 </p>
-<p>Of course - to continue the theme of re-use, and start to re-use designs as well as materials - please continue to the <a class="wiki" href="/wiki/modular_robot_design.html" title="Modular Robot Design">Modular Robot Design</a> topic.
+<p>Of course - to continue the theme of re-use, and start to re-use designs as well as materials - please continue to the <a href="/wiki/modular_robot_design.html" title="Modular Robot Design">Modular Robot Design</a> topic.
 </p>
 <h2  id="Other_links">Other links</h2>
-<p><a class="wiki" href="/wiki/building_tips.html" title="Hints and helpers for actually building robots, and other stuff.">Building Tips</a>
-<br/><a class="wiki" href="/wiki/robot_building_safety.html" title="Building robots can be dangerous - tips to help your safety">Robot Building Safety</a>
+<p><a href="/wiki/building_tips.html" title="Hints and helpers for actually building robots, and other stuff.">Building Tips</a>
+<br/><a href="/wiki/robot_building_safety.html" title="Building robots can be dangerous - tips to help your safety">Robot Building Safety</a>
 </p>

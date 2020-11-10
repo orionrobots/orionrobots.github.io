@@ -10,7 +10,7 @@ date: 2005-09-10 15:10:32
 <p> <a class="internal" href="browseimage217"> <img class="img-responsive" src="image217&amp;thumb=1"/> </a>
 </p>
 <p>You may find some in larger sealed packages with the value printed on them.
-<br/>Another form are resister networks/packs - a <a class="wiki" href="/wiki/sil.html" title="Single In Line Package">SIL</a> or <a class="wiki" href="/wiki/dil.html" title="DIL">DIL</a> chip - with many resistors on it, often with the same value- and sometimes sharing a common connection. Resistor packs are useful if you are going to use many resistors of the same value.
+<br/>Another form are resister networks/packs - a <a href="/wiki/sil.html" title="Single In Line Package">SIL</a> or <a href="/wiki/dil.html" title="DIL">DIL</a> chip - with many resistors on it, often with the same value- and sometimes sharing a common connection. Resistor packs are useful if you are going to use many resistors of the same value.
 </p>
 
 <p>

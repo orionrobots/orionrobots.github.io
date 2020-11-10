@@ -7,7 +7,7 @@ Matilda is a quirky House Robot on [Robot Wars](/wiki/robot_wars.html)  Of cours
 
 She is based upon a battery driven engine that can go at around 8mph, and weighs in at around 116 kilos - compared with <a href="{% post_url 2005-03-01-sir-killalot %}">Sir Killalot</a> this makes her a lightweight. She is 66cm wide by 66cm high and 140cm long.
 
-Her fibreglass shell is an easy target - but her lifting jaw is fairly powerful. She has a sting in her interchangeable chainsaw tail - although her vertical flywheel is seen more often recently. To be honest though - I would be more worried about Sir Killalot or <a class="wiki" href="/wiki/mr_psycho.html" title="Mr Psycho">Mr Psycho</a>. Because of her low weight, she has been flipped a few times as well.
+Her fibreglass shell is an easy target - but her lifting jaw is fairly powerful. She has a sting in her interchangeable chainsaw tail - although her vertical flywheel is seen more often recently. To be honest though - I would be more worried about Sir Killalot or <a href="/wiki/mr_psycho.html" title="Mr Psycho">Mr Psycho</a>. Because of her low weight, she has been flipped a few times as well.
 
 Her design is reminiscent of a triceratops crossed with a stegosaurus - although her collar has a slight hint of Ming The Merciless.
 

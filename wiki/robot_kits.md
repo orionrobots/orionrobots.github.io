@@ -11,15 +11,15 @@ date: 2013-05-02 14:04:54
 </p>
 <h2 id="Other_robot_development_education_and_construction_kits">Other robot development, education and construction kits</h2>
 <p>
-<br/>For more ideas visit the <a class="wiki" href="/wiki/construction_toy.html" title="Construction Toy">Construction Toys</a> and Robotic Gadgets And Toys pages.
+<br/>For more ideas visit the <a href="/wiki/construction_toy.html" title="Construction Toy">Construction Toys</a> and Robotic Gadgets And Toys pages.
 </p>
-<ul><li> <a class="wiki" href="/wiki/lego_robots.html" title="Lego Robots">Lego Robots</a> - We could not ignore the great contribution <a class="wiki" href="/wiki/lego.html" title="The best known construction toy">Lego</a>, <a class="wiki" href="/wiki/mindstorms.html" title="A Robotic construction toy system from Lego">MindStorms</a>, the <a class="wiki" href="/wiki/nxt.html" title="Legos NeXT generation robotics kit">NXT</a>, <a class="wiki" href="/wiki/rcx.html" title="The Lego RCX">Lego RCX</a> and CyberMaster have made to hobbyist robotics. <a class="wiki" href="/wiki/lego.html" title="The best known construction toy">Lego</a> also have the Dark Side Developer kit, and Micro kits.
-</li><li> <a class="wiki" href="/wiki/fischertechnik.html" title="FischerTechnik">FischerTechnik</a> Have a number of Robot building kits - and provide a <a class="wiki" href="/wiki/solenoid.html" title="Solenoid">Solenoid</a> part as well as controllers, mechanical components, sensors and pneumatic components.
+<ul><li> <a href="/wiki/lego_robots.html" title="Lego Robots">Lego Robots</a> - We could not ignore the great contribution <a href="/wiki/lego.html" title="The best known construction toy">Lego</a>, <a href="/wiki/mindstorms.html" title="A Robotic construction toy system from Lego">MindStorms</a>, the <a href="/wiki/nxt.html" title="Legos NeXT generation robotics kit">NXT</a>, <a href="/wiki/rcx.html" title="The Lego RCX">Lego RCX</a> and CyberMaster have made to hobbyist robotics. <a href="/wiki/lego.html" title="The best known construction toy">Lego</a> also have the Dark Side Developer kit, and Micro kits.
+</li><li> <a href="/wiki/fischertechnik.html" title="FischerTechnik">FischerTechnik</a> Have a number of Robot building kits - and provide a <a href="/wiki/solenoid.html" title="Solenoid">Solenoid</a> part as well as controllers, mechanical components, sensors and pneumatic components.
 </li><li> Maplin Uk regularly stock OWI USB Robot Arm kits which can be modified to add sensors.
-</li><li> <a class="wiki" href="/wiki/dk_robot_warrior_kit.html" title="DK Robot Warrior Kit">DK Robot Warrior Kit</a> - This is aimed at a fairly young group, and is all done using cardboard
-</li><li> Alex Animated Head - An animatronic head kit which gives advanced experience with servo motors and <a class="wiki" href="/wiki/pic.html" title="PIC">PIC Microcontrollers</a>
+</li><li> <a href="/wiki/dk_robot_warrior_kit.html" title="DK Robot Warrior Kit">DK Robot Warrior Kit</a> - This is aimed at a fairly young group, and is all done using cardboard
+</li><li> Alex Animated Head - An animatronic head kit which gives advanced experience with servo motors and <a href="/wiki/pic.html" title="PIC">PIC Microcontrollers</a>
 </li><li> TecArm Serial Controlled Arm - Constructs an arm that can be controlled from a computer. Very expensive for a fairly limited kit.
-</li><li> <a class="wiki" href="/wiki/robobrix.html" title="RoboBrix">RoboBrix</a> Mechanically compatible with <a class="wiki" href="/wiki/lego.html" title="The best known construction toy">Lego</a>, some brilliant controllers and modules.
+</li><li> <a href="/wiki/robobrix.html" title="RoboBrix">RoboBrix</a> Mechanically compatible with <a href="/wiki/lego.html" title="The best known construction toy">Lego</a>, some brilliant controllers and modules.
 </li></ul><p>
 <br/>Many of these can be bought from the stores details at our Robot Stores guide.
 </p>

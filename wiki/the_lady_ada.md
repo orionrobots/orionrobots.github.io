@@ -7,7 +7,7 @@ date: 2005-08-18 22:56:24
 </p>
 <p><img class="img-responsive" src="image94"/>
 </p>
-<p>Otherwise known as Ada Lovelace, she is said to be the worlds first computer programmer, and has earned her place in robot and computing history as such.  She used punched cards, and wrote programs for <a class="wiki" href="/wiki/charles_babbage.html" title="Charles Babbage">Charles Babbage</a>s Analytical Engine. The truth is that <a class="wiki" href="/wiki/charles_babbage.html" title="Charles Babbage">Charles Babbage</a> probably deserves the title - as he would have programmed his computers first, and taught her how. His assistants and sons had programmed it before, making her probably the 5th or 6th programmer- this is still an impressive title.
+<p>Otherwise known as Ada Lovelace, she is said to be the worlds first computer programmer, and has earned her place in robot and computing history as such.  She used punched cards, and wrote programs for <a href="/wiki/charles_babbage.html" title="Charles Babbage">Charles Babbage</a>s Analytical Engine. The truth is that <a href="/wiki/charles_babbage.html" title="Charles Babbage">Charles Babbage</a> probably deserves the title - as he would have programmed his computers first, and taught her how. His assistants and sons had programmed it before, making her probably the 5th or 6th programmer- this is still an impressive title.
 </p>
 <p>She is seen as the Founder of Scientific Computing.
 </p>

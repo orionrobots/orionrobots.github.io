@@ -26,12 +26,12 @@ How not to build safely</div>Always ensure you have the correct safety equipment
 <p>
 </p>
 <h1  id="Use_the_right_tool_for_the_job">Use the right tool for the job</h1>
-<p>All tools are potentially dangerous. In most cases the only safe way to use a tool is for that which it was designed. Always ensure you have the right tools for the job. Please read <a class="wiki" href="/wiki/robot_tools.html" title="Tools that are often required to get started in robot building">Robot Tools</a> for information on preparing a basic starting set of tools.
+<p>All tools are potentially dangerous. In most cases the only safe way to use a tool is for that which it was designed. Always ensure you have the right tools for the job. Please read <a href="/wiki/robot_tools.html" title="Tools that are often required to get started in robot building">Robot Tools</a> for information on preparing a basic starting set of tools.
 </p>
 <p>All robot builders, makers and DIYers not simple using Lego should have a vice and probably some helping hands to hold jobs when working on them. You really do not want to cut, drill or solder your or your mates fingers (OWWW!). Never Drill, Saw, cut or solder an unsecured piece. Failure to observe this could result in some pretty nasty injuries, especially when any power tool is involved.
 </p>
 <h1  id="Learn_to_stop_when_tired">Learn to stop when tired</h1>
-<p>Never use any tools, be they manual or powered, when you are tired or have taken any headache pills, alcohol etc... You are much more likely to damage yourself or your robot in this state. It is not even a good idea to build <a class="wiki" href="/wiki/lego.html" title="The best known construction toy">Lego</a> models like this. After all, who can stand <a class="wiki" href="/wiki/gruschtelling.html" title="Gruschtelling">Gruschtelling</a>, hammering or powertools at 2am? Tired builders are an accident waiting to happen.
+<p>Never use any tools, be they manual or powered, when you are tired or have taken any headache pills, alcohol etc... You are much more likely to damage yourself or your robot in this state. It is not even a good idea to build <a href="/wiki/lego.html" title="The best known construction toy">Lego</a> models like this. After all, who can stand <a href="/wiki/gruschtelling.html" title="Gruschtelling">Gruschtelling</a>, hammering or powertools at 2am? Tired builders are an accident waiting to happen.
 </p>
 <h1  id="Turn_off_all_powertools_and_learn_to_check_the_obvious">Turn off all powertools, and learn to check the obvious</h1>
 <p>It may seem obvious, but always ensure you have turned off a soldering iron when you have finished using it, and always use a stand. These things that seem obvious are the ones a safety concious person should be most aware of, as they may also be the things that people become complacent about and result in serious incidents.
@@ -41,7 +41,7 @@ How not to build safely</div>Always ensure you have the correct safety equipment
 </p>
 <h1  id="Ventilations">Ventilations</h1>
 
-When soldering, glueing, painting or etching <a class="wiki" href="/wiki/pcb.html" title="Printed Circuit Board">PCB's</a> always make sure you have ample ventilation. Many solder compounds contain lead and many components have mercury and emit other equally noxious substances. None of these things are good to inhale. For most applications, an open window and maybe a desk fan is sufficient, but when dealing with etching chemicals then a proper fume cupboard is recommended. Also remember that solder has some pretty unpleasant compounds which you probably do not want to inhale.
+When soldering, glueing, painting or etching <a href="/wiki/pcb.html" title="Printed Circuit Board">PCB's</a> always make sure you have ample ventilation. Many solder compounds contain lead and many components have mercury and emit other equally noxious substances. None of these things are good to inhale. For most applications, an open window and maybe a desk fan is sufficient, but when dealing with etching chemicals then a proper fume cupboard is recommended. Also remember that solder has some pretty unpleasant compounds which you probably do not want to inhale.
 
 <h1  id="Using_a_knife_or_cutting_tool">Using a knife or cutting tool</h1>
 

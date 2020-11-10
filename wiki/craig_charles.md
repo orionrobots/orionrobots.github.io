@@ -3,7 +3,7 @@ layout: page
 title: Craig Charles
 date: 2012-12-28 19:14:54
 ---
-Craig Charles hosted <a class="wiki" href="/wiki/robot_wars.html" title="The british robot smashing TV series.">Robot Wars</a> as well as playing David Lister in the British sci-fi comedy Red Dwarf.
+Craig Charles hosted <a href="/wiki/robot_wars.html" title="The british robot smashing TV series.">Robot Wars</a> as well as playing David Lister in the British sci-fi comedy Red Dwarf.
 He also provided a commentary for the British airing of Takeshi's Castle.
 
 <a href="http://en.wikipedia.org/wiki/Craig_Charles">More about Craig Charles</a>

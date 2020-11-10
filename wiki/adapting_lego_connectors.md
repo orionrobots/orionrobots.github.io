@@ -26,7 +26,7 @@ The most simple way to hook something into a Lego electronic device (like the Le
 
 ## Tools Required
 
-For finding and selecting tools. please read <a class="wiki" href="/wiki/robot_tools.html" title="Tools that are often required to get started in robot building">Robot Tools</a>
+For finding and selecting tools. please read <a href="/wiki/robot_tools.html" title="Tools that are often required to get started in robot building">Robot Tools</a>
 
 * Safety Goggles
 * Wire Cutters

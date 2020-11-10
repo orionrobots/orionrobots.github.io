@@ -7,9 +7,9 @@ date: 2006-06-17 13:10:24
 </p>
 <p>They ma also be known as Mecks, mechs and meka.
 </p>
-<p>These are a common feature in <a class="wiki" href="/wiki/scifi.html" title="scifi">SciFi</a>, especially Japanese Anime and video games.
+<p>These are a common feature in <a href="/wiki/scifi.html" title="scifi">SciFi</a>, especially Japanese Anime and video games.
 </p>
-<p>Practically speaking, on normal land, they may not actually be very practical, as has been demonstrated so well in <a class="wiki" href="/wiki/robot_wars.html" title="The british robot smashing TV series.">Robot Wars</a>, legs are a nice easy target for a tank to ram or fire at. However, on very rough or uneven terrain, like rubble and rocky landscape, they may become a great deal more useful.
+<p>Practically speaking, on normal land, they may not actually be very practical, as has been demonstrated so well in <a href="/wiki/robot_wars.html" title="The british robot smashing TV series.">Robot Wars</a>, legs are a nice easy target for a tank to ram or fire at. However, on very rough or uneven terrain, like rubble and rocky landscape, they may become a great deal more useful.
 </p>
 <p>Mecha may be two legged, or many legged, or may even have tank tracks instead. It is the fact that they have a generally human (or animal) appearance that may qualify them as mecha, although this is not a point that has been really hammered out.
 </p>
@@ -51,12 +51,12 @@ date: 2006-06-17 13:10:24
 </li><li> X-Men - The sentinels may be considered mecha for their size, but being unmanned, might not count.
 </li><li> Aliens - The powerloader is a mecha based forklift device.
 </li><li> MechaGodzilla - one of Godzilla's foes in battle.
-</li><li> <a class="wiki" href="/wiki/lego.html" title="The best known construction toy">Lego</a> - there were a few classic space Mecha, and now the Exoforce and Bionacle ranges are very much mecha.
+</li><li> <a href="/wiki/lego.html" title="The best known construction toy">Lego</a> - there were a few classic space Mecha, and now the Exoforce and Bionacle ranges are very much mecha.
 </li></ul><p>
 <br/>There are many, many shows that are not covered here yet, please use the comments feature to suggest more and they will be added.
 </p>
 <h1 id="Other_resources">Other resources</h1>
-<p>There is a group of <a class="wiki" href="/wiki/lego.html" title="The best known construction toy">Lego</a> builders particularly focused on building Mecha models at <a href="http://news.lugnet.com/build/mecha" rel="external" target="_blank">lugnet.build.mecha</a>, and more recently on <a href="http://www.mechahub.com" rel="external" target="_blank">http://www.mechahub.com</a>.
+<p>There is a group of <a href="/wiki/lego.html" title="The best known construction toy">Lego</a> builders particularly focused on building Mecha models at <a href="http://news.lugnet.com/build/mecha" rel="external" target="_blank">lugnet.build.mecha</a>, and more recently on <a href="http://www.mechahub.com" rel="external" target="_blank">http://www.mechahub.com</a>.
 </p>
 <h1 id="Links">Links</h1>
 <ul><li> <a href="http://www.mahq.net/" rel="external" target="_blank">http://www.mahq.net/</a> - Mecha and Anime HQ
@@ -68,7 +68,6 @@ date: 2006-06-17 13:10:24
 <p>Some plant machinery companies are investigating the use of six legged mecha for tree clearing robots, using hydraulic limbs.
 </p>
 <ul><li> <a href="http://www.americanantigravity.com/carlos-owens.shtml" rel="external" target="_blank">http://www.americanantigravity.com/carlos-owens.shtml</a> - Carlos Owen's Real Life Anime Mecha
-</li><li> <a href="http://www.darpa.mil/dso/thrust/matdev/ehpa.htm" rel="external" target="_blank">http://www.darpa.mil/dso/thrust/matdev/ehpa.htm</a> - Darpa on Exoskeletons
 </li><li> <a href="http://www.wired.com/wired/archive/13.01/ironmen.html" rel="external" target="_blank">http://www.wired.com/wired/archive/13.01/ironmen.html</a> - Wired Article - 'Iron Men' - on Mechas.
-</li><li> <a class="wiki" href="/wiki/bleex.html" title="Bleex">Bleex</a> - A real <a class="wiki" href="/wiki/exoskeleton.html" title="A device/vehical worn to enhance human abilities">exoskeleton</a> or exosuit.
+</li><li> <a href="/wiki/bleex.html" title="Bleex">Bleex</a> - A real <a href="/wiki/exoskeleton.html" title="A device/vehical worn to enhance human abilities">exoskeleton</a> or exosuit.
 </li></ul>

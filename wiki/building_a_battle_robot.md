@@ -4,11 +4,11 @@ title: Building A Battle Robot
 date: 2006-07-10 09:42:34
 ---
 <h1  id="Intro">Intro</h1>
-<p>So you want to be a contender eh? Not content with watching <a class="wiki" href="/wiki/robot_wars.html" title="The british robot smashing TV series.">Robot Wars</a> and BattleBots - you want to get off your armchair and build your own! Well done. Now this is not going to be easy - but follow the right advice, and you will get there.
+<p>So you want to be a contender eh? Not content with watching <a href="/wiki/robot_wars.html" title="The british robot smashing TV series.">Robot Wars</a> and BattleBots - you want to get off your armchair and build your own! Well done. Now this is not going to be easy - but follow the right advice, and you will get there.
 </p>
 <p>I am not going to deceive you, while it is fun, and almost anyone can achieve it, it really is not easy. You will need some hard work, some serious thinking and a great deal of determination. A lot of what I am going to say here is probably common sense, but collecting it and having it explicitly stated means that you are less likely to miss something.
 </p>
-<p>You don't need a huge bank account, or deep pockets - as some of the best robots, like <a class="wiki" href="/wiki/sumpthing.html" title="Sumpthing">SumpThing</a> are actually built from <a class="wiki" href="/wiki/salvage_tips.html" title="Tips on pulling stuff apart to build robots. How, where and what.">salvage</a> and scrap. You might need an array of tools, but not a lot that couldn't be borrowed, and for a battle bot, the controllers can be kept fairly simple.
+<p>You don't need a huge bank account, or deep pockets - as some of the best robots, like <a href="/wiki/sumpthing.html" title="Sumpthing">SumpThing</a> are actually built from <a href="/wiki/salvage_tips.html" title="Tips on pulling stuff apart to build robots. How, where and what.">salvage</a> and scrap. You might need an array of tools, but not a lot that couldn't be borrowed, and for a battle bot, the controllers can be kept fairly simple.
 </p>
 <p>In the next few paragraphs, I will take you through the basic essentials that you will need, and later all the considerations you need when designing. You can then use the rest of the OrionRobots knowledge resources to get things built.
 </p>
@@ -36,24 +36,24 @@ date: 2006-07-10 09:42:34
 </p>
 <p>First look at the event rules. Make sure you are aware of the competition regulations. Things like size and weight, weapon restrictions (most restrict untethered projectile weapons and flammable fluids for example), control requirements (dead mans switch or safety key to cut power). Be very clear about the scale of the robot you are building - is it a great huge car sized monster, or little ant weight, or something in-between - this knowledge is essential to the core of your design.
 </p>
-<p>Read our <a class="wiki" href="/wiki/robot_building_safety.html" title="Building robots can be dangerous - tips to help your safety">Robot Building Safety</a> guide.
+<p>Read our <a href="/wiki/robot_building_safety.html" title="Building robots can be dangerous - tips to help your safety">Robot Building Safety</a> guide.
 </p>
 <p>Also make sure you are aware of what constitutes a win - you need to make sure you design your robot for that goal.
 </p>
 <p>Scope out the competition - what kind of weapons are already in use, what is or is not successful, what weights/sizes are they? You might get some good ideas - and many are fairly sportsmanlike - but don't expect them to give away their top secrets. If this is a series event - Ie there have been previous ones, watch them and get a gist for it.
 </p>
 <h1  id="Preparation_-_Design">Preparation - Design</h1>
-<p>Now you should start the design of your robot. It is up to you how far you take it, napkin drawings or full <a class="wiki" href="/wiki/cad.html" title="Computer Aided Design">CAD</a>/CAM simulations.
+<p>Now you should start the design of your robot. It is up to you how far you take it, napkin drawings or full <a href="/wiki/cad.html" title="Computer Aided Design">CAD</a>/CAM simulations.
 </p>
 <p>I suggest a Brainstorm Session - getting all the ideas out first, then actually brainstorming each individual idea - weighing up its pros and cons and fleshing them out. Once you have settled on some ideas - you are prepared to make drawings.
 </p>
 <p>Some inspiration:
 </p>
-<ul><li><a class="wiki" href="/wiki/robot_locomotion.html" title="Robot Locomotion">Robot Locomotion</a>
-</li><li><a class="wiki" href="/wiki/battle_robot_weapons.html" title="Battle Robot Weapons">Battle Robot Weapons</a>
+<ul><li><a href="/wiki/robot_locomotion.html" title="Robot Locomotion">Robot Locomotion</a>
+</li><li><a href="/wiki/battle_robot_weapons.html" title="Battle Robot Weapons">Battle Robot Weapons</a>
 </li><li>Battle Robot Armour
 </li></ul><p>
-<br/>Just make sure you have a clear image of what your robot is going to look like, work like before you build it. Cost up and make sure your parts are available. Personally - I love salvaged parts - see my <a class="wiki" href="/wiki/salvage_tips.html" title="Tips on pulling stuff apart to build robots. How, where and what.">Salvage Tips</a> for more. Watch <a class="wiki" href="/wiki/scrapheap_challenge.html" title="Quirky British Gameshow">Scrapheap Challenge</a> for some serious inspiration in salvage. With salvaged parts, sometimes you need to think a bit more about the general shape and function of a part, and leave a bit of leeway in the design for that.
+<br/>Just make sure you have a clear image of what your robot is going to look like, work like before you build it. Cost up and make sure your parts are available. Personally - I love salvaged parts - see my <a href="/wiki/salvage_tips.html" title="Tips on pulling stuff apart to build robots. How, where and what.">Salvage Tips</a> for more. Watch <a href="/wiki/scrapheap_challenge.html" title="Quirky British Gameshow">Scrapheap Challenge</a> for some serious inspiration in salvage. With salvaged parts, sometimes you need to think a bit more about the general shape and function of a part, and leave a bit of leeway in the design for that.
 </p>
 <p>Design in a modular fashion to make task managing simpler - discrete goals along the way. This means you can test an analyse each one separately, and having the discrete goals gives you milestones - something that can really boost team motivation. As you design each module - you may think of a simple test rig, and cost and design this too. Unit Testing is great for program subroutines, single electronic chips and boards, gearboxes (make sure the outputs do what you expect them to) and structures (can it really withstand the stresses you thought it could?).
 </p>
@@ -62,18 +62,18 @@ date: 2006-07-10 09:42:34
 <p>By the end of this phase - you should have no loose ends, and every phase of your build should be clear.
 </p>
 <h2  id="Components_you_should_consider">Components you should consider</h2>
-<p>Drive system - What kind of wheels or tracks you will use, how many, how big - both diameter, tread width and tread depth. You need to make sure you can get enough traction - style is a factor, as well as clearance (more on that later). Also - don't go overboard - can you really build link tread for a tracked system? in the time allotted? Wheelchair, go-kart and lawnmower wheels make good salvage for this, or in ant weights - <a class="wiki" href="/wiki/lego.html" title="The best known construction toy">Lego</a> wheels are great. Don't try to work without tyres - otherwise you will have bad acceleration, bad steering and little pushing power. For tracks - you may be able to find some (good luck), but it is more likely you will have to build them. Consider well hinged links, with rubber (or leather if that is easier to get) boots across them to give traction. Metal plates alone have very little traction. Leather or rubber is easier to tool - if you want to give some character by putting a decal on every 9th tread or something.
+<p>Drive system - What kind of wheels or tracks you will use, how many, how big - both diameter, tread width and tread depth. You need to make sure you can get enough traction - style is a factor, as well as clearance (more on that later). Also - don't go overboard - can you really build link tread for a tracked system? in the time allotted? Wheelchair, go-kart and lawnmower wheels make good salvage for this, or in ant weights - <a href="/wiki/lego.html" title="The best known construction toy">Lego</a> wheels are great. Don't try to work without tyres - otherwise you will have bad acceleration, bad steering and little pushing power. For tracks - you may be able to find some (good luck), but it is more likely you will have to build them. Consider well hinged links, with rubber (or leather if that is easier to get) boots across them to give traction. Metal plates alone have very little traction. Leather or rubber is easier to tool - if you want to give some character by putting a decal on every 9th tread or something.
 </p>
 <p>Drive power - On a large robot, you are probably going to use wheelchair motors or lawnmower motors. Make sure you have enough power to drive those- they are pretty high consumers. Next you have drill and jigsaw motors- which are both quite high-torque motors, and may conveniently coe with their own battery packs. On the ant weight, you could salvage basic DC motors from tooth-brushes and kids toys, or you could use converted/hacked servos - which means you get your PWM speed controller built in, and can probably lug it straight into your RC unit.
 </p>
-<p>What gearing or chain mechanisms are you gonna use? Bicycles and motorbikes can supply chains for larger bots, <a class="wiki" href="/wiki/lego.html" title="The best known construction toy">Lego</a> for small ones. What about gears? Again use car and bike scrap for huge gears, or <a class="wiki" href="/wiki/lego.html" title="The best known construction toy">Lego</a> for very small ones.
+<p>What gearing or chain mechanisms are you gonna use? Bicycles and motorbikes can supply chains for larger bots, <a href="/wiki/lego.html" title="The best known construction toy">Lego</a> for small ones. What about gears? Again use car and bike scrap for huge gears, or <a href="/wiki/lego.html" title="The best known construction toy">Lego</a> for very small ones.
 </p>
 <p>Chassis and armour - for a large robot, sheet metal, mixed with cuts from car chassis makes for a sturdy and heavyweight design. Aluminium is slightly lighter, but more expensive, and less likely to be found in scrap, as are the hi-tech materials like polycarbonate. For ant-weights, you may still use very thin sheet metal, as well as plasticard and balsa wood for the non-impact areas. Try to get a frame work to hold the drive, weapon and control systems, leaving the outside for shelling with an armoured layer. Things like double skinned armour, or multi-material can be very effective. I have heard of leather armoured backed with a metal grid before - it was pretty effective - but had a weakness to piercing if you got in between the grid bars.
 <br/>Make sure your chassis and drive design takes into account ground clearance - to little, and you will scrape and drag - making steering a nightmare, too much - and you are easy prey for the flipping wedges.
 </p>
 <p>Control systems - First you need an RC system, you might be able to yank one from a kids RC toy, but these are generally only two channel - and you may need more than one of them(on slightly different wavelengths). You could buy a system - but they are not cheap - however - they would be more reliable, and should be easier to interface than salvaged ones.
 </p>
-<p>The RC controller alone may not have enough juice for large motors, and generally output <a class="wiki" href="/wiki/servo_motor.html" title="A motor with built in positioning control - easily interfaced with digital systems">Servo motor</a> <a class="wiki" href="/wiki/pwm.html" title="Pulse Width Modulation">PWM</a> signals. You will need speed controllers to interface those to the motors.
+<p>The RC controller alone may not have enough juice for large motors, and generally output <a href="/wiki/servo_motor.html" title="A motor with built in positioning control - easily interfaced with digital systems">Servo motor</a> <a href="/wiki/pwm.html" title="Pulse Width Modulation">PWM</a> signals. You will need speed controllers to interface those to the motors.
 </p>
 <p>Don't forget batteries- these are going to be your main weight source, and also cna be a pain - so make sure you can replace them easily and that you are ble to get backup packs to an event. If you design, or use a really obscure battery system - you will find yourself in dire straights. Normally - you would use rechargeable packs, and you might get away with a couple of packs from cordless electric screwdrivers/drills. in smaller robots - you are probably going to use a 9v battery, but consider some mobile phone and PDA batteries might be suitable.
 </p>
@@ -95,7 +95,7 @@ date: 2006-07-10 09:42:34
 <p>
 </p>
 <h1  id="Preparation_-_Tools_Safety">Preparation - Tools &amp; Safety</h1>
-<p>Now you should get hold of the tools - and safety gear. Make sure to read the <a class="wiki" href="/wiki/robot_tools.html" title="Tools that are often required to get started in robot building">Robot Tools</a> page and the <a class="wiki" href="/wiki/robot_building_safety.html" title="Building robots can be dangerous - tips to help your safety">Robot Building Safety</a> page and have covered all risks. People tend to drive robots badly if they have just lost an eye in a welding accident.
+<p>Now you should get hold of the tools - and safety gear. Make sure to read the <a href="/wiki/robot_tools.html" title="Tools that are often required to get started in robot building">Robot Tools</a> page and the <a href="/wiki/robot_building_safety.html" title="Building robots can be dangerous - tips to help your safety">Robot Building Safety</a> page and have covered all risks. People tend to drive robots badly if they have just lost an eye in a welding accident.
 </p>
 <p>Never attempt to substitute a tool for the wrong job - not only are you likely to get a bad result, but this is quite a major safety hazard.
 </p>
@@ -112,7 +112,7 @@ date: 2006-07-10 09:42:34
 <h1  id="Preparation_-_Acquiring_parts">Preparation - Acquiring parts</h1>
 <p>This is ongoing - and may continue through the build - just make sure that all the parts for each build phase are ready before it starts.
 </p>
-<p><a class="wiki" href="/wiki/salvage_tips.html" title="Tips on pulling stuff apart to build robots. How, where and what.">Salvage Tips</a>
+<p><a href="/wiki/salvage_tips.html" title="Tips on pulling stuff apart to build robots. How, where and what.">Salvage Tips</a>
 </p>
 <p>While you can try and barter and save money on parts - remember quality parts do make for quality robots. Salvage parts of a quality brand or type may be be better than cheap parts or substitutions.
 </p>
@@ -129,7 +129,7 @@ date: 2006-07-10 09:42:34
 </p>
 <p>Be prepared to alter your design as things come up, as I have already said, you will find things that worked in theory don't pan out in practice, and people sometimes just get a spark of inspiration while building. However - if that inspiration leads to shortcuts in safety or quality - you must still seriously consider their impact. If the new ideas are things in addition to the original concepts, then you may want to note them down, plan them for later, and make sure you at least satisfy the original requirement. Some things are best saved for "extra time" if you have it.
 </p>
-<p>Use our <a class="wiki" href="/wiki/building_tips.html" title="Hints and helpers for actually building robots, and other stuff.">Building Tips</a> page for specific tool and building ideas. And read our <a class="wiki" href="/wiki/robot_building_safety.html" title="Building robots can be dangerous - tips to help your safety">Robot Building Safety</a> page one more time just to make sure its all well instilled into your teams methodology.
+<p>Use our <a href="/wiki/building_tips.html" title="Hints and helpers for actually building robots, and other stuff.">Building Tips</a> page for specific tool and building ideas. And read our <a href="/wiki/robot_building_safety.html" title="Building robots can be dangerous - tips to help your safety">Robot Building Safety</a> page one more time just to make sure its all well instilled into your teams methodology.
 </p>
 <h1  id="Final_tests">Final tests</h1>
 <p>Have a thorough test of every function, and every foreseeable event before the competition. Although you can guarantee to be surprised by something you didn't think of - have a good idea of your battery life, what kind of knocks the robot can take, the real distance of any remote controls, the kind of damage/force a weapon can exert.

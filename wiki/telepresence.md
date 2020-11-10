@@ -3,7 +3,7 @@ layout: page
 title: telepresence
 date: 2006-07-09 13:27:09
 ---
-<p>Telepresence is a recurring concept in <a class="wiki" href="/wiki/scifi.html" title="scifi">SciFi</a>, and is increasingly becoming a reality. It is the idea of being able to attend a place, or a meeting, without actually being there.
+<p>Telepresence is a recurring concept in <a href="/wiki/scifi.html" title="scifi">SciFi</a>, and is increasingly becoming a reality. It is the idea of being able to attend a place, or a meeting, without actually being there.
 </p>
 <p>The most simplified form of this may be the common telephone, but adding in video (a videophone) at each end brings you closer to feeling like you are having a natural conversation with someone a logn way distant. Setups with a camera which may be controlled by the viewer, and a room full of people around a conference phone are now in the board rooms of many large companies.
 </p>

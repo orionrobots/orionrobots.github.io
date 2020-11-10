@@ -54,7 +54,7 @@ Google analytics is used from time to time to identify trends so Orionrobots can
 
 <h1  id="Summary">Summary</h1>
 
-Above all, please enjoy the site and strive to create/maintain a co-operative and friendly community of robot-builders.  If <a class="wiki" href="/wiki/lugnet.html" title="Lego Users Group Network">Lugnet</a> can be the friendliest site on the net, we can at least aim for second!
+Above all, please enjoy the site and strive to create/maintain a co-operative and friendly community of robot-builders.  If <a href="/wiki/lugnet.html" title="Lego Users Group Network">Lugnet</a> can be the friendliest site on the net, we can at least aim for second!
 
 <h1  id="Important_links">Links</h1>
 

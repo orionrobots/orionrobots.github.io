@@ -65,11 +65,11 @@ Goggles - I know many people hate them, but trust me - after having ended up wit
 * Long nose pliers - you'll need these to make the bends in the wires.
 * A positionable mini-clamp - aka Helping Hands. There is some pretty tricky soldering, so unless you have 3 heatproof hands - this is essential.
 
-<a class="wiki" href="/wiki/robot_building_safety.html" title="Building robots can be dangerous - tips to help your safety">Robot Building Safety</a>
+<a href="/wiki/robot_building_safety.html" title="Building robots can be dangerous - tips to help your safety">Robot Building Safety</a>
 
 # How to Freeform it.
 
-First, choose your diodes. Read <a class="wiki" href="/wiki/diode_bridge.html" title="Diode Bridge">Diode Bridge</a> to ensure that you understand how the circuit works, and that the power rating and electronic characteristics are suitable. All 4 should be identical, and have longish leads. A type suggested are 1 amp 1N4001. These are simple general purpose rectifiers - ideal for this.
+First, choose your diodes. Read <a href="/wiki/diode_bridge.html" title="Diode Bridge">Diode Bridge</a> to ensure that you understand how the circuit works, and that the power rating and electronic characteristics are suitable. All 4 should be identical, and have longish leads. A type suggested are 1 amp 1N4001. These are simple general purpose rectifiers - ideal for this.
 
 <center>The four 1N4001 diodes on bandolier tape.</center>
 
@@ -82,7 +82,7 @@ If you can find diodes on bandolier tape, as those produced by Maplin and other 
 
 # Method:
 
-Be sure you are wearing your safety goggles for this. I would strongly recommend reading this guide <a class="wiki" href="/wiki/robot_building_safety.html" title="Building robots can be dangerous - tips to help your safety">Robot Building Safety</a>.
+Be sure you are wearing your safety goggles for this. I would strongly recommend reading this guide <a href="/wiki/robot_building_safety.html" title="Building robots can be dangerous - tips to help your safety">Robot Building Safety</a>.
 
 <center>What we intend to end up with</center>
 ![]({{page.gal}}/157-bridgefreeforms4.png){: .img-responsive .center-block}

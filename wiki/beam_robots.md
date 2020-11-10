@@ -7,13 +7,13 @@ BEAM is an acronym for Biology Electronics Aesthetics and Mechanics.
 
 These robots are ingeniously simple and instead of having complex <a href="/wiki/microcontroller.html">Microcontroller</a> and programs, BEAM robots use wave generators which are very close to having their stability pulled out by sensors.
 
-Some of the BEAM robots use simple circuits with a <a class="wiki" href="/wiki/capacitor.html" title="Capacitor">capacitor</a>, which after reaching a trigger voltage, causes a <a class="wiki" href="/wiki/transistor.html" title="Transistor">Transistor</a> to flip.  This circuit will drive a motor for a brief burst of motion, then stop after the capacitor is fully discharged.  Such a circuit is a great use of <a class="wiki" href="/wiki/solar_panel.html" title="Solar Panel">Solar Panels</a> and pretty easy to build.
+Some of the BEAM robots use simple circuits with a <a href="/wiki/capacitor.html" title="Capacitor">capacitor</a>, which after reaching a trigger voltage, causes a <a href="/wiki/transistor.html" title="Transistor">Transistor</a> to flip.  This circuit will drive a motor for a brief burst of motion, then stop after the capacitor is fully discharged.  Such a circuit is a great use of <a href="/wiki/solar_panel.html" title="Solar Panel">Solar Panels</a> and pretty easy to build.
 
 Legged robots can be built in interesting ways using sine wave combinations offset by 90/180 degrees.  If used with Muscle Wire - it means you can get a set of flowing contractions just from the wave generators.
 
-Some people like the idea of taking the BEAM principles, and creating a <a class="wiki" href="/wiki/horse_and_rider.html" title="One system takes high-level control of a lower level system">Horse And Rider</a> Robot - a very interesting proposition indeed.
+Some people like the idea of taking the BEAM principles, and creating a <a href="/wiki/horse_and_rider.html" title="One system takes high-level control of a lower level system">Horse And Rider</a> Robot - a very interesting proposition indeed.
 
-<a class="wiki" href="/wiki/mark_tilden.html" title="Mark Tilden">Mark Tilden</a> owns many copyrights and patents in the BEAM robotics area.
+<a href="/wiki/mark_tilden.html" title="Mark Tilden">Mark Tilden</a> owns many copyrights and patents in the BEAM robotics area.
 
 # Junkbots, Bugbots and Bots on Wheels: Building Simple Robots with BEAM Technology
 

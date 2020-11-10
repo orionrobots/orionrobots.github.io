@@ -25,5 +25,5 @@ It can play trumpet by virtue of its advanced hands, and toyotas unique Lips - w
 
 It also appears that all of the actuators (Servo Motors) are housed in the torso - and wires(like human tendons) are used to transfer the movement to limbs - thus meaning the limbs are much lighter and more flexible.
 
-Movies and more are at <a class="wiki" href="http://www.toyota.co.jp/en/special/robot/index.html" target="_blank">http://www.toyota.co.jp/en/special/robot/index.html</a>
+Movies and more are at <a href="http://www.toyota.co.jp/en/special/robot/index.html" target="_blank">http://www.toyota.co.jp/en/special/robot/index.html</a>
 

@@ -3,11 +3,11 @@ layout: page
 title: Electronic Relay
 date: 2007-01-28 16:33:27
 ---
-<p>A Relay is an Electromagnetically Controlled Switch with moving mechanical contacts. It consists of a coil around a metal core acting as an electromagnet, which when engaged, pulls a switch bar over (much like a <a class="wiki" href="/wiki/solenoid.html" title="Solenoid">Solenoid</a> ).
+<p>A Relay is an Electromagnetically Controlled Switch with moving mechanical contacts. It consists of a coil around a metal core acting as an electromagnet, which when engaged, pulls a switch bar over (much like a <a href="/wiki/solenoid.html" title="Solenoid">Solenoid</a> ).
 </p>
 <p>You will find them in vehicle electronics (for example indicators - hence the ticking sound), modems, phone exchanges, older alarm systems, CRT computer monitors and in older or larger robots.
 </p>
-<p>This component can be used to allow low voltage circuits to safely control much higher voltage devices, and vice-versa. Relays are for the most part superseded by Power <a class="wiki" href="/wiki/transistor.html" title="Transistor">Transistor</a> technology, but their ability to control much larger currents still puts them in places for controlling high power devices - like industrial motors, large pneumatic solenoids and also for diverting large currents or voltages.
+<p>This component can be used to allow low voltage circuits to safely control much higher voltage devices, and vice-versa. Relays are for the most part superseded by Power <a href="/wiki/transistor.html" title="Transistor">Transistor</a> technology, but their ability to control much larger currents still puts them in places for controlling high power devices - like industrial motors, large pneumatic solenoids and also for diverting large currents or voltages.
 </p>
 <p>The switching speeds of relays are much lower than that of silicon technology- and the fact that they had moving parts meant that they would need replacing after relatively short periods. A power transistor normally has a breakdown voltage, at which it will not be isolating the input and output circuits. With a relay, you can be at much greater voltages before you risk danger of the isolation being compromised - although the relay might still have been damaged, you save upstream or downstream systems being completely fried. One way to achieve a similar level of isolation without the bulk or gradual wearing down of moving parts in a relay is to use opto-isolators.
 </p>

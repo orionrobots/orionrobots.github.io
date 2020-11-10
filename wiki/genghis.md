@@ -3,7 +3,7 @@ layout: page
 title: Genghis - iRobot
 date: 2005-01-10 14:20:29
 ---
-Genghis is a very classy walker created by <a class="wiki" href="/wiki/rodney_brooks.html" title="Rodney Brooks">Rodney Brooks</a> of iRobot.
+Genghis is a very classy walker created by <a href="/wiki/rodney_brooks.html" title="Rodney Brooks">Rodney Brooks</a> of iRobot.
 
 It has six legs, and uses Subsumption Architecture.
 

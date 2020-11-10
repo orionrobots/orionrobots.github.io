@@ -41,9 +41,9 @@ Whatever you do, have a great and safe new year. No matter how bad it seems, do 
 
 # Terms used
 
-* [Fuel Cell](/wiki/fuel_cell)
-* [WiFi](/wiki/wifi)
-* [USB](/wiki/usb)
+* [Fuel Cell](/wiki/fuel_cell.html)
+* [WiFi](/wiki/wifi.html)
+* [USB](/wiki/usb.html)
 
 # Image Sources
 

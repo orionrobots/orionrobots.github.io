@@ -12,7 +12,7 @@ date: 2004-11-19 23:30:33
 </p>
 <p>It is a very good choice for AI code because it encourages good readable code practices, and allows you to concentrate more on program behaviour than minute details.
 </p>
-<p><a class="wiki" href="/wiki/simple_parallel_port_led_board.html" title="How to attach and program an LED to the parallel port on a PC">Simple Parallel Port LED Board</a> - A project using Python to control an external device
+<p><a href="/wiki/simple_parallel_port_led_board.html" title="How to attach and program an LED to the parallel port on a PC">Simple Parallel Port LED Board</a> - A project using Python to control an external device
 </p>
 <p>
 </p>

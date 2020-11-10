@@ -1,10 +1,10 @@
 ---
 layout: page
-title: Rotundus
+title: Rotundus Ground Bot
 date: 2005-05-25 19:20:43
 ---
 ![](/galleries/gallery-1-common-images/168-rotundus.jpg)
-Rotundus is a spherical <a class="wiki" href="/wiki/security_robots.html" title="Security Robots">Security Robot</a>. As it is a small sphere - it can negotiate many landscapes, including water, though not stairs. Beyond its obvious weakness - it is capable of sensing intruders and alerting others to their presence.
+Rotundus was a spherical <a href="/wiki/security_robots.html" title="Security Robots">Security Robot</a>. As it is a small sphere - it can negotiate many landscapes, including water, though not stairs. Beyond its obvious weakness - it is capable of sensing intruders and alerting others to their presence.
 
 At the time of writing it is only a prototype, and may not be available for a short while.
 
@@ -14,12 +14,10 @@ It uses a pendulum based propulsion method - where the weight of the pendulum su
 
 The current version does not have enough power to deal with slopes very well - but expect later versions to do so. The spherical design means it is less likely to get stuck as some angular robots are prone to. However - like The Daleks, it has some trouble climbing stairs.
 
-From the pictures on the <a class="wiki" href="tiki-directory_redirect.php?siteId=124">infosheet</a> it appears to be around the size of a large bowling ball - and probably none too light. Given the way it can propel itself - this would make it very hard for an intruder to try and lift it, or interfere with it. The way Rotundus is constructed presents no external moving parts, and to be very airtight. Being airtight makes the robot great for sand and water.
+From the pictures on the infosheet it appears to be around the size of a large bowling ball - and probably none too light. Given the way it can propel itself - this would make it very hard for an intruder to try and lift it, or interfere with it. The way Rotundus is constructed presents no external moving parts, and to be very airtight. Being airtight makes the robot great for sand and water.
 
-The Swedish Rotundus company has commercialised the robot for Security usage. The company have an animation showing the locomotion mechanism on their website - <a class="wiki" href="/tiki-directory_redirect.php?siteId=125">Rotundus Animation</a>.
+The Swedish Rotundus company has commercialised the robot for Security usage.
 
 In this incarnation it can chase would be intruders, and is capable of raising the alarm, using microphones to record them, getting snapshots of them while moving or even calling for backup. It has a slightly ominous likeness to the white sphere in "The Prisoner".
 
-<a class="wiki" href="/tiki-directory_redirect.php?siteId=126" rel="">Movie of Rotundus performing in Snow</a>
-
-<a class="wiki" href="/tiki-directory_redirect.php?siteId=127" rel="">The Rotundus Website</a>
+* https://newatlas.com/rotundus-groundbot/20259/

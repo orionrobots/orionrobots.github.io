@@ -3,7 +3,8 @@ layout: page
 title: SpyBotics
 date: 2011-03-12 17:41:48
 ---
-These are designed for children to learn about spycraft, and robotics with <a class="wiki" href="/wiki/lego.html" title="The best known construction toy">Lego</a>.<div style="float:right; margin-left:5px; width:122px; height:92px"> <a class="internal" href="dl40&amp;display" rel="box[g]"> <img class="pluginImg40 img-responsive" height="90" src="dl40&amp;display&amp;x=120&amp;y=90" width="120"/> </a> </div>
+These are designed for children to learn about spycraft, and robotics with <a href="/wiki/lego.html" title="The best known construction toy">Lego</a>.
+<div style="float:right; margin-left:5px; width:122px; height:92px"> <a class="internal" href="dl40&amp;display" rel="box[g]"> <img class="pluginImg40 img-responsive" height="90" src="dl40&amp;display&amp;x=120&amp;y=90" width="120"/> </a> </div>
 <p>
 <br/>Being part of the <a class="wiki" href="/wiki/lego.html" title="The best known construction toy">Lego</a> <a class="wiki" href="/wiki/mindstorms.html" title="A Robotic construction toy system from Lego">Mindstorms</a> range, each set consists of a CD Rom , a Remote, a few peices and the SpyBotics Programmable Brick.
 </p>

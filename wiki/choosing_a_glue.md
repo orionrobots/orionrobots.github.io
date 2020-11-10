@@ -9,7 +9,7 @@ date: 2008-03-18 20:56:36
 <p>Some glues may react in a negative way with some substances, damaging the job, and giving off very poisonous fumes.
 </p>
 <h1  id="Safety">Safety</h1>
-<p>This is the boring bit. Be assured that glues when used properly are safe, but there are precautions a builder should take and things they should be aware of when using glues. Please make sure you read the <a class="wiki" href="/wiki/robot_building_safety.html" title="Building robots can be dangerous - tips to help your safety">Robot Building Safety</a> guide.
+<p>This is the boring bit. Be assured that glues when used properly are safe, but there are precautions a builder should take and things they should be aware of when using glues. Please make sure you read the <a href="/wiki/robot_building_safety.html" title="Building robots can be dangerous - tips to help your safety">Robot Building Safety</a> guide.
 </p>
 <p>It is important to bear in mind that many glues are toxic, and should under no circumstances be allowed to come into contact with food, drink or your mouth.
 </p>
@@ -85,5 +85,5 @@ date: 2008-03-18 20:56:36
 </p>
 <h1  id="Links">Links</h1>
 <p>
-<br/><a class="wiki" href="/wiki/building_tips.html" title="Hints and helpers for actually building robots, and other stuff.">Building Tips</a>
+<br/><a href="/wiki/building_tips.html" title="Hints and helpers for actually building robots, and other stuff.">Building Tips</a>
 </p>

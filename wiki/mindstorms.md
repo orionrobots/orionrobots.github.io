@@ -3,26 +3,26 @@ layout: page
 title: MindStorms
 date: 2009-04-24 23:55:12
 ---
-<a class="wiki" href="https://www.lego.com/en-us/mindstorms/">Mindstorms</a> is the <a class="wiki" href="/wiki/lego.html">Lego</a> companies system of robotic construction sets, which are great for kids and adults, and serve to entertain as well as educate.
+<a href="https://www.lego.com/en-us/mindstorms/">Mindstorms</a> is the <a href="/wiki/lego.html">Lego</a> companies system of robotic construction sets, which are great for kids and adults, and serve to entertain as well as educate.
 Sets/devices included are:
 
-* <a class="wiki" href="/wiki/nxt.html" title="Legos NeXT generation robotics kit">NXT</a> - The next generation kit, with <a class="wiki" href="/wiki/bluetooth.html" title="Bluetooth">BlueTooth</a>, <a class="wiki" href="/wiki/sonar.html" title="The use of sound as a sense medium">sonar</a> and intelligent <a class="wiki" href="/wiki/servo_motor.html" title="Servo Motor">servo</a> motors.
-* <a class="wiki" href="/wiki/rcx.html" title="The Lego RCX">RCX and RIS</a> - Robot Inventor Sets (RIS 1.0, 1.5, 2.0)
-* <a class="wiki" href="/wiki/cybermaster.html" title="CyberMaster">CyberMaster</a> - A predecessor to the RIS, with radio based communications and built in motors.
+* <a href="/wiki/nxt.html" title="Legos NeXT generation robotics kit">NXT</a> - The next generation kit, with <a href="/wiki/bluetooth.html" title="Bluetooth">BlueTooth</a>, <a href="/wiki/sonar.html" title="The use of sound as a sense medium">sonar</a> and intelligent <a href="/wiki/servo_motor.html" title="Servo Motor">servo</a> motors.
+* <a href="/wiki/rcx.html" title="The Lego RCX">RCX and RIS</a> - Robot Inventor Sets (RIS 1.0, 1.5, 2.0)
+* <a href="/wiki/cybermaster.html" title="CyberMaster">CyberMaster</a> - A predecessor to the RIS, with radio based communications and built in motors.
 * Scout - This is used in the Robot Discovery Set (RDS).
 * Micro Scout
-* <a class="wiki" href="/wiki/lego_vision_command.html" title="Lego Vision Command">Vision Command</a>
-* <a class="wiki" href="http://peeron.com/inv/sets/9748-1">Droid Development Kit</a> - a kit designed for building starwars based droids using the Micro Scout.
-* <a class="wiki" href="http://peeron.com/inv/sets/9754-1">Dark Side Developer Kit</a> - The same as above, with more black peices.
+* <a href="/wiki/lego_vision_command.html" title="Lego Vision Command">Vision Command</a>
+* <a href="http://peeron.com/inv/sets/9748-1">Droid Development Kit</a> - a kit designed for building starwars based droids using the Micro Scout.
+* <a href="http://peeron.com/inv/sets/9754-1">Dark Side Developer Kit</a> - The same as above, with more black peices.
 * Mars Explorer Kit
 * Ultimate Expansion
 
-They are based upon the <a class="wiki" href="/wiki/lego_technic.html" title="Lego Technic">Lego Technic</a> range and expand it with programmable or pre-programmed computers as well as sensors and motors.
-There is also a huge community built around these, both here at OrionRobots, and at <a class="wiki" href="/wiki/lugnet.html" title="Lego Users Group Network">Lugnet</a>. Lego have continued to work with the community, and in fact used this resource to help guide the design and testing of the <a class="wiki" href="/wiki/nxt.html" title="Legos NeXT generation robotics kit">NXT</a>.
+They are based upon the <a href="/wiki/lego_technic.html" title="Lego Technic">Lego Technic</a> range and expand it with programmable or pre-programmed computers as well as sensors and motors.
+There is also a huge community built around these, both here at OrionRobots, and at <a href="/wiki/lugnet.html" title="Lego Users Group Network">Lugnet</a>. Lego have continued to work with the community, and in fact used this resource to help guide the design and testing of the <a href="/wiki/nxt.html" title="Legos NeXT generation robotics kit">NXT</a>.
 
-The sets are sold through the Lego store online, and in retail stores, as well as in versions designed for classrooms from <a class="wiki" href="/wiki/dacta.html" title="DACTA">Dacta</a>.
+The sets are sold through the Lego store online, and in retail stores, as well as in versions designed for classrooms from <a href="/wiki/dacta.html" title="DACTA">Dacta</a>.
 
-There are a number of programming systems, both designed by Lego and by the community. Those from Lego include <a class="wiki" href="/wiki/robolab.html" title="Robolab">Robolab</a> and RCX Code, and those from the community include <a class="wiki" href="/wiki/nqc.html" title="Not Quite C - A Lego PBrick Programming Language">NQC</a>, <a class="wiki" href="/wiki/lejos.html" title="A Java Based Lego RCX OS">Lejos</a>, <a class="wiki" href="/wiki/brickos.html" title="An entire Embedded OS for the RCX">BrickOS</a> and plenty more.
+There are a number of programming systems, both designed by Lego and by the community. Those from Lego include <a href="/wiki/robolab.html" title="Robolab">Robolab</a> and RCX Code, and those from the community include <a href="/wiki/nqc.html" title="Not Quite C - A Lego PBrick Programming Language">NQC</a>, <a href="/wiki/lejos.html" title="A Java Based Lego RCX OS">Lejos</a>, <a href="/wiki/brickos.html" title="An entire Embedded OS for the RCX">BrickOS</a> and plenty more.
 
 <h1 id="Recommended_Reading">Recommended Reading</h1>
 

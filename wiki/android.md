@@ -17,7 +17,7 @@ date: 2005-10-06 14:04:31
 </li></ul><p>
 </p>
 <h1  id="Real_androids">Real androids</h1>
-<p>The closest we are to this is probably the work of <a class="wiki" href="/wiki/rodney_brooks.html" title="Rodney Brooks">Dr Rodney Brooks</a>. <a class="wiki" href="/wiki/cog.html" title="A robotic model of human form and behaviour">Cog</a> represents a humanoid head and torso. Also the <a class="wiki" href="/wiki/sony.html" title="Sony">Sony</a> <a class="wiki" href="/wiki/qrio.html" title="Qrio">QRio</a>, <a class="wiki" href="/wiki/honda.html" title="Honda">Honda</a> robots are functional androids.
+<p>The closest we are to this is probably the work of <a href="/wiki/rodney_brooks.html" title="Rodney Brooks">Dr Rodney Brooks</a>. <a href="/wiki/cog.html" title="A robotic model of human form and behaviour">Cog</a> represents a humanoid head and torso. Also the <a href="/wiki/sony.html" title="Sony">Sony</a> <a href="/wiki/qrio.html" title="Qrio">QRio</a>, <a href="/wiki/honda.html" title="Honda">Honda</a> robots are functional androids.
 </p>
 <p>Make no mistake - we have started making great steps towards creating advanced androids, but we are still some way off recreating the work of Dr Soong (Data's builder).
 </p>

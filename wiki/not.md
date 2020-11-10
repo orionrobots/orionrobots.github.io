@@ -3,11 +3,11 @@ layout: page
 title: NOT
 date: 2006-04-23 12:07:22
 ---
-The <a class="wiki" href="/wiki/boolean.html" title="Boolean">Boolean</a> NOT operation is a negation of its input.
+The <a href="/wiki/boolean.html" title="Boolean">Boolean</a> NOT operation is a negation of its input.
 
 That is, the output of a NOT gate is NOT its input.
 
-Look at this <a class="wiki" href="/wiki/truth_table.html" title="Truth Table">Truth Table</a>
+Look at this <a href="/wiki/truth_table.html" title="Truth Table">Truth Table</a>
 
 | In | Out |
 | -- | --  |

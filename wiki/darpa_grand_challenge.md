@@ -3,11 +3,11 @@ layout: page
 title: DARPA Grand Challenge
 date: 2005-10-08 22:33:05
 ---
-This is a challenge by <a class="wiki" href="/wiki/darpa.html" title="Defense Advanced Research Projects Agency">DARPA</a> for races of <a class="wiki" href="/wiki/agv.html" title="Automated Guided Vehical">AGV's</a> accross stretches of the US.
+This is a challenge by <a href="/wiki/darpa.html" title="Defense Advanced Research Projects Agency">DARPA</a> for races of <a href="/wiki/agv.html" title="Automated Guided Vehical">AGV's</a> accross stretches of the US.
 
 Some of the competitors look like a cross between Mad Max and Robot Wars - or even Wacky Races.
 
-The event means racing accross stretches of the Mojave desert in the US in 10 Hours. There have been two events so far, one in 2004 and one in 2005. The events sponsor, <a class="wiki" href="/wiki/darpa.html" title="Defense Advanced Research Projects Agency">DARPA</a> hope to see unmanned vehicals become competant enough to be deployed for long stretches in military situations.
+The event means racing accross stretches of the Mojave desert in the US in 10 Hours. There have been two events so far, one in 2004 and one in 2005. The events sponsor, <a href="/wiki/darpa.html" title="Defense Advanced Research Projects Agency">DARPA</a> hope to see unmanned vehicals become competant enough to be deployed for long stretches in military situations.
 
 In this one, the teams are not given the route of the race until the last possible moment, where a number of GPS waypoints are revealed - again to mirror a military situation, and to thoroughly test the adaptability of the racers.
 
@@ -19,7 +19,7 @@ With the vehicals are chaser cars, to keep them out of danger, with a killswitch
 
 <h1  id="Event">2005 Event</h1>
 
-<a class="wiki" href="{% post_url 2005-10-08-more-info-on-the-darpa-grand-challenge-result %}">My Blog post on the 2005 Darpa Grand Challenge</a>
+<a href="{% post_url 2005-10-08-more-info-on-the-darpa-grand-challenge-result %}">My Blog post on the 2005 Darpa Grand Challenge</a>
 
 <h1  id="Event_2">2004 Event</h1>
 15 Robots entered the race, and two were withdrawn before the race even started.

@@ -60,4 +60,4 @@ Another improvement would be multiple digits per player - which would be fairly 
 
 One thing that may save a bit of space, and make the soldering a little easier would be to use a resistor pack instead of 7 separate ones.
 
-Following with the theme of our previous session - we can even rig this up so a <a class="wiki" href="/wiki/parallel_port.html" title="Parallel Port">Parallel Port</a> can be used to trigger the clock, and reset buttons - giving a nice big counter display.
+Following with the theme of our previous session - we can even rig this up so a <a href="/wiki/parallel_port.html" title="Parallel Port">Parallel Port</a> can be used to trigger the clock, and reset buttons - giving a nice big counter display.

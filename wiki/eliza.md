@@ -13,5 +13,5 @@ date: 2005-10-05 19:41:34
 </li></ul><p>
 <br/>Indeed you can actually tell it to "pyschoanalyse-pinhead" and watch the swearing robot and pyscho-analysis bot chat to each other.
 </p>
-<p>It is not quite <a class="wiki" href="/wiki/artificial_intelligence.html" title="Artificial Intelligence">artificial Intelligence</a>, but can be quite amusing.
+<p>It is not quite <a href="/wiki/artificial_intelligence.html" title="Artificial Intelligence">artificial Intelligence</a>, but can be quite amusing.
 </p>

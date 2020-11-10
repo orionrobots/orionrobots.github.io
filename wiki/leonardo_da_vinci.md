@@ -7,12 +7,12 @@ As a Renaissance artist, inventor and scientist, Leonardo Da Vinci lived a hundr
 
 ![](https://upload.wikimedia.org/wikipedia/commons/c/cb/Francesco_Melzi_-_Portrait_of_Leonardo.png)
 
-Leonardo Da Vinci was famous for the Mona Lisa, The Last Supper and other paintings, as well as designing (but never building), a <a class="wiki" href="/wiki/helicopter.html" title="Helicopter">Helicopter</a>, a Iron man(robot), a tank, a <a class="wiki" href="/wiki/submarine.html" title="SubMarine">SubMarine</a> and many other wonderful contraptions.  He also studied anatomy, as well as physics and mechanics.
+Leonardo Da Vinci was famous for the Mona Lisa, The Last Supper and other paintings, as well as designing (but never building), a <a href="/wiki/helicopter.html" title="Helicopter">Helicopter</a>, a Iron man(robot), a tank, a <a href="/wiki/submarine.html" title="SubMarine">SubMarine</a> and many other wonderful contraptions.  He also studied anatomy, as well as physics and mechanics.
 
-<a class="wiki" href="/wiki/leonardo_da_vincis_robot.html" title="The Humanoid Robot Designed By Leonardo Da Vinci">Leonardo Da Vincis Robot</a>
+<a href="/wiki/leonardo_da_vincis_robot.html" title="The Humanoid Robot Designed By Leonardo Da Vinci">Leonardo Da Vincis Robot</a>
 Leonardo Da Vincis Helicopter
-<a class="wiki" href="/wiki/leonardo_da_vincis_tank.html" title="Leonardo Da Vincis Tank">Leonardo Da Vincis Tank</a>
-<a class="wiki" href="/wiki/leonardo_da_vincis_submarine.html" title="Leonardo Da Vincis Submarine">Leonardo Da Vincis Submarine</a>
+<a href="/wiki/leonardo_da_vincis_tank.html" title="Leonardo Da Vincis Tank">Leonardo Da Vincis Tank</a>
+<a href="/wiki/leonardo_da_vincis_submarine.html" title="Leonardo Da Vincis Submarine">Leonardo Da Vincis Submarine</a>
 
 This was probably a direct result of Leonardo's fathers choice to make him an apprentice to the workshop of Andrea del Verrochio in Florence. Leonardo had access to many literary and scholarly texts in his fathers home.
 

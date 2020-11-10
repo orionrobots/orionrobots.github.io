@@ -7,7 +7,7 @@ date: 2006-07-03 11:29:19
 <p>The ability to understand(to some limited degree) natural language aurally (through hearing).
 </p>
 <h1  id="Sci_Fi">Sci Fi</h1>
-<p>As recognising speech is an ability taken for granted by humans, it is also taken for granted that an advanced robot will do so too. In light of this, most <a class="wiki" href="/wiki/sci_fi_robots.html" title="Sci Fi Robots">Sci Fi robots</a> and computers possess some level of speech processing, often far in advance of contemporary technology.
+<p>As recognising speech is an ability taken for granted by humans, it is also taken for granted that an advanced robot will do so too. In light of this, most <a href="/wiki/sci_fi_robots.html" title="Sci Fi Robots">Sci Fi robots</a> and computers possess some level of speech processing, often far in advance of contemporary technology.
 </p>
 <p>While the bot may only be able to respond in beeps and whistles, they often have the ability to follow whole conversations. some simpler ones simply obey a command.
 </p>
@@ -28,7 +28,7 @@ date: 2006-07-03 11:29:19
 <p>Universities and Research groups are constantly striving to improve the current offerings, and remove many of the known limitations. Desktop software solutions like IBM Via Voice have certainly improved as the software is developed, and the machines that run it become a great deal more powerful. It has began to move on from simple command recognition towards dictation and capture. Of course its ability to deal with this is still limited by its inability to infer context or deal with any new words.
 </p>
 <h1  id="Uses">Uses</h1>
-<p>It is used a lot now in the toy and hobbyist robot community with <a class="wiki" href="/wiki/cybot.html" title="Cybot">Cybot</a>, and some of the more expensive toy robot offerings possessing the ability to deal with basic commands. They are often based upon the single chip recognition systems.
+<p>It is used a lot now in the toy and hobbyist robot community with <a href="/wiki/cybot.html" title="Cybot">Cybot</a>, and some of the more expensive toy robot offerings possessing the ability to deal with basic commands. They are often based upon the single chip recognition systems.
 </p>
 <p>Some offices use them for dictation, although a well trained typist will be excessively faster.
 </p>

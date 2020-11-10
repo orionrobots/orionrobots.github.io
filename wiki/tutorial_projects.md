@@ -9,7 +9,7 @@ date: 2013-05-02 14:16:27
 </p>
 <p>There are many educational robotic and electronic projects to get ideas. <a  href="http://instructables.com" rel="external" target="_blank">Instructables</a> is a superb resource of tutorials and ideas to build things.
 </p>
-<p><a class="wiki" href="/wiki/and.html" title="AND">Building an AND Gate demonstration</a> - This page has the definitions of the and gate, as well as going further and showing you how to build a basic one.
+<p><a href="/wiki/and.html" title="AND">Building an AND Gate demonstration</a> - This page has the definitions of the and gate, as well as going further and showing you how to build a basic one.
 </p>
-<p><a class="wiki" href="/wiki/multitasking_in_robots.html" title="Tutorial to get more than one thing happening at a time">multitasking in robots</a> - A quick demo of how do build a program that can do than more than one thing at a time.
+<p><a href="/wiki/multitasking_in_robots.html" title="Tutorial to get more than one thing happening at a time">multitasking in robots</a> - A quick demo of how do build a program that can do than more than one thing at a time.
 </p>

@@ -3,32 +3,32 @@ layout: page
 title: OOPic
 date: 2006-01-04 23:51:15
 ---
-OOPic is a mid-2000's brand of <a class="wiki" href="/wiki/pic.html" title="PIC">PIC</a> or <a class="wiki" href="/wiki/microcontroller.html" title="A programmable digital controller">Microcontroller</a> from Savage Innovations. It is basically a PIC, with some specific firmware and a high level programming system.
+OOPic is a mid-2000's brand of <a href="/wiki/pic.html" title="PIC">PIC</a> or <a href="/wiki/microcontroller.html" title="A programmable digital controller">Microcontroller</a> from Savage Innovations. It is basically a PIC, with some specific firmware and a high level programming system.
 
-It is different in that it uses <a class="wiki" href="/wiki/object_oriented.html" title="Object Oriented">Object Oriented</a> languages which look a little like VisualBasic/Java or C/C++. Unique to the OOPic is the concept of Virtual Circuits which can allow some behaviours to be specified very briefly.
+It is different in that it uses <a href="/wiki/object_oriented.html" title="Object Oriented">Object Oriented</a> languages which look a little like VisualBasic/Java or C/C++. Unique to the OOPic is the concept of Virtual Circuits which can allow some behaviours to be specified very briefly.
 
-The OOPic is programmable via a serial or parallel port depending on the board you have. It can perform bit-banged <a class="wiki" href="/wiki/i2c.html" title="Inter Integrated Circuit bus">I2C</a> and data serial, as well as DDE. However, serial control or communication is not their strongpoint.
+The OOPic is programmable via a serial or parallel port depending on the board you have. It can perform bit-banged <a href="/wiki/i2c.html" title="Inter Integrated Circuit bus">I2C</a> and data serial, as well as DDE. However, serial control or communication is not their strongpoint.
 
-Servo control definitely is the OOPics forte. The boards generally have PWM ports, although you will need to bring your own H-Bridges. The OOPic is normally packaged with an <a class="wiki" href="/wiki/eeprom.html" title="Electrically Erasable Programmable ROM">eeprom</a> which is used to store the user programs, as the PIC chip itself is running the firmware, however, there is not a lot of space for programs and data, or room for expansion on this.
+Servo control definitely is the OOPics forte. The boards generally have PWM ports, although you will need to bring your own H-Bridges. The OOPic is normally packaged with an <a href="/wiki/eeprom.html" title="Electrically Erasable Programmable ROM">eeprom</a> which is used to store the user programs, as the PIC chip itself is running the firmware, however, there is not a lot of space for programs and data, or room for expansion on this.
 
 There is a very active community, who have a mailing list based on yahoo groups. Some very interesting projects have been done using the OOPic, and it is definitely a nice quick prototyping board, though it is unlikely that it would be used in a production environment.
 
-There are three development boards - the S Style Board- which I think was the initial one, the R style board - second generation and the C Style board- a very low form factor version in one 24 pin wide DIP package.  They all have a DB9 RS232 <a class="wiki" href="/wiki/serial_data_stream.html" title="Serial Data Stream">serial port</a> for programming.
+There are three development boards - the S Style Board- which I think was the initial one, the R style board - second generation and the C Style board- a very low form factor version in one 24 pin wide DIP package.  They all have a DB9 RS232 <a href="/wiki/serial_data_stream.html" title="Serial Data Stream">serial port</a> for programming.
 
 <h1 id="OOPic_R_Board">OOPic R Board</h1>
 The R Board is recommended for development and experimentation.
-<br/>It has sets of AMP MT/Berg connectors - with a no soldering required philosophy, arranged with ground and power supply pins in a way that allows <a class="wiki" href="/wiki/servo_motor.html" title="A motor with built in positioning control - easily interfaced with digital systems">Servos</a> to be plugged directly into the board.
+<br/>It has sets of AMP MT/Berg connectors - with a no soldering required philosophy, arranged with ground and power supply pins in a way that allows <a href="/wiki/servo_motor.html" title="A motor with built in positioning control - easily interfaced with digital systems">Servos</a> to be plugged directly into the board.
 
 <ul><li> Built in Speaker/buzzer
-</li><li> Power <a class="wiki" href="/wiki/led.html" title="Light Emitting Diode">LED</a>
-</li><li> 16 Digital <a class="wiki" href="/wiki/io.html" title="Input Output">IO</a> lines
+</li><li> Power <a href="/wiki/led.html" title="Light Emitting Diode">LED</a>
+</li><li> 16 Digital <a href="/wiki/io.html" title="Input Output">IO</a> lines
 </li><li> 4 Analogue Input Lines
-</li><li> 6 Lines arranged for Dual <a class="wiki" href="/wiki/pwm.html" title="Pulse Width Modulation">PWM</a> motor control (H-Bridges not included!)
-</li><li> 3 Programmable function <a class="wiki" href="/wiki/led.html" title="Light Emitting Diode">LED's</a>
+</li><li> 6 Lines arranged for Dual <a href="/wiki/pwm.html" title="Pulse Width Modulation">PWM</a> motor control (H-Bridges not included!)
+</li><li> 3 Programmable function <a href="/wiki/led.html" title="Light Emitting Diode">LED's</a>
 </li><li> 3 Programmable button inputs
-</li><li> Digital IO Lines configured for Serial Interfacing with <a class="wiki" href="/wiki/lcd.html" title="Liquid Crystal Display">LCD Modules</a> and <a class="wiki" href="/wiki/ssc.html" title="Serial Servo Controller">SSC Modules</a>.
+</li><li> Digital IO Lines configured for Serial Interfacing with <a href="/wiki/lcd.html" title="Liquid Crystal Display">LCD Modules</a> and <a href="/wiki/ssc.html" title="Serial Servo Controller">SSC Modules</a>.
 </li><li> Two voltage regulators - and room for a third.
-</li><li> 96 bytes of Object space, 72 Bytes of variable space and 256 bytes on non-volatile fast <a class="wiki" href="/wiki/eeprom.html" title="Electrically Erasable Programmable ROM">EEPROM</a>.
+</li><li> 96 bytes of Object space, 72 Bytes of variable space and 256 bytes on non-volatile fast <a href="/wiki/eeprom.html" title="Electrically Erasable Programmable ROM">EEPROM</a>.
 </li></ul>
 <br/>The connectors themselves are available from RS, and are crimpable, so they require no soldering.
 
@@ -47,7 +47,7 @@ If anyone has any interesting details, caveats, designs or OOPic code then here 
 
 <h1 id="More_Information_and_comparisons">More Information and comparisons</h1>
 
-For more comparisons with other MicroControllers look at the <a class="wiki" href="/forums/electronics/preferred_microcontrollers.html" rel="">microcontrollers roundup</a> forum thread.
+For more comparisons with other MicroControllers look at the <a href="/forums/electronics/preferred_microcontrollers.html" rel="">microcontrollers roundup</a> forum thread.
 
 Links:
 

@@ -13,7 +13,7 @@ date: 2006-07-22 10:02:44
 </p>
 <p>The term MicroProcessor came about from the fact that at one time, old CPU's took up whole rooms, or at least a five foot by two foot by six foot module (which did not include storage, hard disks or displays). They were then massively miniaturised to the size now, which is most definitely comparatively micro.
 </p>
-<p>They are closely related to <a a="" brain")="" class="wiki" for="" href="/wiki/microcontroller.html" robot"="" title="A programmable digital controller (or ">MicroControllers</a> which tend to be based on a CPU, with additional on board <a class="wiki" href="/wiki/io.html" title="Input Output">IO</a> and memory.
+<p>They are closely related to <a a="" brain")="" for="" href="/wiki/microcontroller.html" robot"="" title="A programmable digital controller (or ">MicroControllers</a> which tend to be based on a CPU, with additional on board <a href="/wiki/io.html" title="Input Output">IO</a> and memory.
 </p>
 <h1  id="Old_CPU_s_and_Computers">Old CPU's and Computers</h1>
 <p>If anyone has had the privilege of seeing such a system, such as the one at the Bank of England registrars department, they would often have a cluster of 2 rows of 10 5 foot cabinets, which were the processing cores, surrounded by walls of tape loop machines, sets of Hard Disk Drives powered by motors the size of motorbike engines, and had a room full of chain printers (where the characters are embossed on dies which are mounted on a constantly spinning chains) for backups. The whole facility was about half the size of a gymnasium.

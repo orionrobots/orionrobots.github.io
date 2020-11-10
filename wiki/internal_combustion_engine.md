@@ -3,7 +3,7 @@ layout: page
 title: Internal Combustion Engine
 date: 2005-07-29 17:15:02
 ---
-<p>You will rarely, if ever find these in <a class="wiki" href="/wiki/robotic.html" title="Robotic">robotic</a> applications outside of the <a class="wiki" href="/wiki/darpa_grand_challenge.html" title="DARPA Grand Challenge">Darpa Grand Challenge</a>.
+<p>You will rarely, if ever find these in <a href="/wiki/robotic.html" title="Robotic">robotic</a> applications outside of the <a href="/wiki/darpa_grand_challenge.html" title="DARPA Grand Challenge">Darpa Grand Challenge</a>.
 </p>
 <p>They are your common car, which take a combustible fuel - usually petrol based, and ignite it inside a cylinder, which causes a rapid expansion. The expansion pushes a piston in the cylinder out, which turns a cam. By havinf a number of these on a row of cams, or a flywheel - you can get full rotations out of these.
 </p>

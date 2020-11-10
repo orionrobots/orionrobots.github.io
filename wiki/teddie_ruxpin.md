@@ -7,9 +7,9 @@ date: 2005-08-02 22:26:31
 </p>
 <p>It was popular enough that it even had its own cartoon TV Show. It was kind of a teaching toy.
 </p>
-<p>It was a little hackable - <a class="wiki" href="http://hacktopia.org/2005/07/31/teddy-ruxpin/" target="_blank">http://hacktopia.org/2005/07/31/teddy-ruxpin/</a>
+<p>It was a little hackable - <a href="http://hacktopia.org/2005/07/31/teddy-ruxpin/" target="_blank">http://hacktopia.org/2005/07/31/teddy-ruxpin/</a>
 </p>
-<p>We would like to hear from someone who did a ruxpin autopsy - are they multimotor, or (more likelly) a single motor with an interesting cam system like the <a class="wiki" href="/wiki/furby.html" title="Furby">Furby</a>?
+<p>We would like to hear from someone who did a ruxpin autopsy - are they multimotor, or (more likelly) a single motor with an interesting cam system like the <a href="/wiki/furby.html" title="Furby">Furby</a>?
 </p>
 <p>
 </p>

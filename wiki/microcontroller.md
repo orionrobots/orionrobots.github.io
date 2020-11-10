@@ -7,9 +7,9 @@ date: 2006-03-21 18:10:58
 A device which is normally a stripped down, low power MicroProcessor.
 In robotics - you will often come across these.
 
-They normally have many inputs and outputs which can be interfaced directly with devices (possibly they may need relays/power transistors).  They often include DigitalToAnalogue and AnalogueToDigital converters as well as <a class="wiki" href="/wiki/pwm.html" title="Pulse Width Modulation">PWM</a> motor controllers and <a class="wiki" href="/wiki/servo_motor.html" title="A motor with built in positioning control - easily interfaced with digital systems">Servo Motor</a> channels. You can purchase single chips, boards to whole them, or complete development kits.
+They normally have many inputs and outputs which can be interfaced directly with devices (possibly they may need relays/power transistors).  They often include DigitalToAnalogue and AnalogueToDigital converters as well as <a href="/wiki/pwm.html" title="Pulse Width Modulation">PWM</a> motor controllers and <a href="/wiki/servo_motor.html" title="A motor with built in positioning control - easily interfaced with digital systems">Servo Motor</a> channels. You can purchase single chips, boards to whole them, or complete development kits.
 
-They are sometimes used with <a class="wiki" href="/wiki/beam_robots.html" title="Biology, Electronics, Aesthetics and Mechanics">BEAM</a> or other semi-intelligent robot chassis for <a class="wiki" href="/wiki/horse_and_rider.html" title="One system takes high-level control of a lower level system">Horse And Rider</a> techniques.
+They are sometimes used with <a href="/wiki/beam_robots.html" title="Biology, Electronics, Aesthetics and Mechanics">BEAM</a> or other semi-intelligent robot chassis for <a href="/wiki/horse_and_rider.html" title="One system takes high-level control of a lower level system">Horse And Rider</a> techniques.
 
 <h1 id="Common_Controllers">Common Controllers</h1>
 
@@ -55,18 +55,18 @@ The 8051 is a somewhat venerable processor type, but are often present on quite 
 
 This page listed controllers previously that are less used currently, but preserved here for context.
 
-* <a class="wiki" href="/wiki/pic.html" title="PIC">PIC</a> - Probably the basis of many of these others
-* <a class="wiki" href="/wiki/oopic.html" title="OOPic">OOPic</a> - The PIC dressed up with Object Oriented firmware
+* <a href="/wiki/pic.html" title="PIC">PIC</a> - Probably the basis of many of these others
+* <a href="/wiki/oopic.html" title="OOPic">OOPic</a> - The PIC dressed up with Object Oriented firmware
 * Basic Stamp - A PIC dressed up with a basic interpreter, was very popular
-* <a class="wiki" href="/wiki/rcx.html" title="The Lego RCX">Lego RCX</a> - The center of the <a class="wiki" href="/wiki/ris.html" title="The Lego Robotic Invention System">RIS</a>, based on the Hitachi H8
-* <a class="wiki" href="/wiki/lego.html" title="The best known construction toy">Lego</a> <a class="wiki" href="/wiki/cybermaster.html" title="CyberMaster">CyberMaster</a> - The radio controlled predecessor of the <a class="wiki" href="/wiki/rcx.html" title="The Lego Robot Command Explorer">RCX</a>
-* <a class="wiki" href="/wiki/xport.html" title="A Gameboy Advance based alternative to the Lego RCX">XPort</a> - An interesting Nintendo gameboy advanced controller solution
+* <a href="/wiki/rcx.html" title="The Lego RCX">Lego RCX</a> - The center of the <a href="/wiki/ris.html" title="The Lego Robotic Invention System">RIS</a>, based on the Hitachi H8
+* <a href="/wiki/lego.html" title="The best known construction toy">Lego</a> <a href="/wiki/cybermaster.html" title="CyberMaster">CyberMaster</a> - The radio controlled predecessor of the <a href="/wiki/rcx.html" title="The Lego Robot Command Explorer">RCX</a>
+* <a href="/wiki/xport.html" title="A Gameboy Advance based alternative to the Lego RCX">XPort</a> - An interesting Nintendo gameboy advanced controller solution
 * ISOPOD controller board
 * Fischer Technik Robo
-* <a class="wiki" href="/wiki/megabitty.html" title="A very small AVR microcontroller board solution">MEGAbitty</a> - A tiny AVR based board.
-* <a class="wiki" href="/wiki/pc104.html" title="PC104">PC104</a> - A standard in industrial tiny PC based computing.
+* <a href="/wiki/megabitty.html" title="A very small AVR microcontroller board solution">MEGAbitty</a> - A tiny AVR based board.
+* <a href="/wiki/pc104.html" title="PC104">PC104</a> - A standard in industrial tiny PC based computing.
 
-For a comparison table on these devices - go to <a class="wiki" href="/forums/electronics/preferred_microcontrollers.html">microcontrollers roundup</a>.
+For a comparison table on these devices - go to <a href="/forums/electronics/preferred_microcontrollers.html">microcontrollers roundup</a>.
 
 ## Programming Older Microcontrollers
 
@@ -78,10 +78,10 @@ Free/Open source tools:
 
 <ul><li> SDCC - The small device C Compiler
 </li><li> GCC - There are GCC bindings for cross compiling to some microcontrollers
-</li><li> PIC Forth - An Open source forth compiler for the <a class="wiki" href="/wiki/pic.html" title="PIC">PIC</a> (in fact a few of them)
+</li><li> PIC Forth - An Open source forth compiler for the <a href="/wiki/pic.html" title="PIC">PIC</a> (in fact a few of them)
 </li><li> Pyastra - A python to assembler translator - usable for programming PICs with python syntax
 </li><li> AnyC - An open source compiler for microcontrollers
-</li><li> FreeRTOS - A Real Time <a class="wiki" href="/wiki/os.html" title="An Operating System">OS</a> which can be built to run on a microcontroller
+</li><li> FreeRTOS - A Real Time <a href="/wiki/os.html" title="An Operating System">OS</a> which can be built to run on a microcontroller
 </li><li> <a href="http://ldrolez.free.fr/hardware/" rel="external" target="_blank">http://ldrolez.free.fr/hardware/</a> - The hardware section of LUDs Open Source Corner has a number of PIC projects
 </li><li> <a href="http://www.gnupic.org" rel="external" target="_blank">http://www.gnupic.org</a> - A list of open source tools and stuff to use with the PIC
 </li></ul>

@@ -3,11 +3,11 @@ layout: page
 title: Genetic Algorithm
 date: 2005-04-01 15:16:11
 ---
-A <a class="wiki" href="/wiki/genetic.html" title="This word describes the system used by all known biological lifeforms to store sticky (permanent) or static data.">Genetic</a> Algorithm is a method of design using a code, and an evolution system (survival of the fittest- gene/individual/population).
+A <a href="/wiki/genetic.html" title="This word describes the system used by all known biological lifeforms to store sticky (permanent) or static data.">Genetic</a> Algorithm is a method of design using a code, and an evolution system (survival of the fittest- gene/individual/population).
 
 If you are interested in this area - I must highly recommend Richard Dawkins Selfish Gene.
 
-<a class="wiki" href="http://www.dhep.ga/">Distributed Hardware Evolution Project</a>
+<a href="http://www.dhep.ga/">Distributed Hardware Evolution Project</a>
 
 OrionRobots is conducting research into this area. I will put some of my more simple examples of code on the site in the future.
 

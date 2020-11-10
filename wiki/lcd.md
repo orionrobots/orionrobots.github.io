@@ -8,11 +8,11 @@ date: 2005-07-14 12:29:54
 <h1 id="Using_them_in_robotics">Using them in robotics</h1>
 <p>There are a number of commonly available modules, usually serial controlled, on the market. They can be bought from Maplin, RS and a other electronic part retailers.
 </p>
-<p>Some are simply based upon <a class="wiki" href="/wiki/rs232.html" title="A serial communication standard">RS232</a> serial, and more advanced ones use <a class="wiki" href="/wiki/i2c.html" title="Inter Integrated Circuit bus">I2C</a> bus connectors.
+<p>Some are simply based upon <a href="/wiki/rs232.html" title="A serial communication standard">RS232</a> serial, and more advanced ones use <a href="/wiki/i2c.html" title="Inter Integrated Circuit bus">I2C</a> bus connectors.
 </p>
 <p>When you are purchasing one, you need to consider carefully the requirements - how big the display is, in rows and columns of letters, or in pixels (picture cells) if you are displaying images. You need to take into account the viewing angle - many of these only display anything if you are in the range of view.
 </p>
-<p>Think through if you are going to need backlighting, or more expensive reflective systems. The backlight is an additional weight, and power concern - and you may be able to design it out of the system, or use a bright white <a class="wiki" href="/wiki/led.html" title="Light Emitting Diode">LED</a> instead.
+<p>Think through if you are going to need backlighting, or more expensive reflective systems. The backlight is an additional weight, and power concern - and you may be able to design it out of the system, or use a bright white <a href="/wiki/led.html" title="Light Emitting Diode">LED</a> instead.
 </p>
 <p>As always in robotics, the three major factors are weight, power consumption and cost. In most cases - these are simply used during debugging/development, and need not be in the robot on the field. Maybe then you are better off just using a serial link with a terminal.
 </p>

@@ -3,7 +3,7 @@ layout: page
 title: bit
 date: 2005-03-13 13:40:56
 ---
-<p>A bit is a single peice of digital information in <a class="wiki" href="/wiki/boolean.html" title="Boolean">Boolean</a> logic. It may be either On or Off (True or False/1 or 0).
+<p>A bit is a single peice of digital information in <a href="/wiki/boolean.html" title="Boolean">Boolean</a> logic. It may be either On or Off (True or False/1 or 0).
 </p>
 <p>It is by combining many of these simple units of information, that the information you see on your computer screen is stored, processed - and possibly presented (if you use a DVI digital to digital system). There power is that it is incredibly simple to manipulate these with fairly crude circuitry.
 </p>

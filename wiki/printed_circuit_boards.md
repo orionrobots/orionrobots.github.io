@@ -16,7 +16,7 @@ date: 2005-06-29 22:51:58
 </p>
 <h1 id="Why_design_with_PCB_s_">Why design with PCB's?</h1>
 <p>
-<br/>Firstly they lower the error rate. By taking them directly from an electronic design EDA or <a class="wiki" href="/wiki/cad.html" title="Computer Aided Design">CAD</a> system, you are able to correct errors in routing before you actually solder anything. This means you can worry more about your design. Designing with <a class="wiki" href="/wiki/cad.html" title="Computer Aided Design">CAD</a> means you can also minimize the space needed for a circuit.
+<br/>Firstly they lower the error rate. By taking them directly from an electronic design EDA or <a href="/wiki/cad.html" title="Computer Aided Design">CAD</a> system, you are able to correct errors in routing before you actually solder anything. This means you can worry more about your design. Designing with <a href="/wiki/cad.html" title="Computer Aided Design">CAD</a> means you can also minimize the space needed for a circuit.
 </p>
 <p>Matrix and Stripboards normally only come with one pin size in mind - this means if you have components with different footprints - for example switches and Trimpots then they will not fit in standard strip board, breadboard, vero-board or matrix board.
 </p>
@@ -25,9 +25,9 @@ date: 2005-06-29 22:51:58
 <h1 id="Making_PCB_s">Making PCB's</h1>
 <p>However - they are not without problems. First - you need to either own your own etching kit, or know someone else with one. Etching is something that is potentially very dangerous, and the fluids need to be treated with a great deal of care. You will require gloves, an etch-proof tray and a good, ventilated place to put them in between etches. You will also need some sort of neutralizer for the etching fluid.
 </p>
-<p>If you are new to this, although it may be cheaper to make your own, it is recommended you use an online supplier - they normally provide free auto-routing <a class="wiki" href="/wiki/cad.html" title="Computer Aided Design">CAD</a> software, and it is a lot less messier - for advanced boards, or any quantity - you will definately find them cheaper.
+<p>If you are new to this, although it may be cheaper to make your own, it is recommended you use an online supplier - they normally provide free auto-routing <a href="/wiki/cad.html" title="Computer Aided Design">CAD</a> software, and it is a lot less messier - for advanced boards, or any quantity - you will definately find them cheaper.
 </p>
-<p>If you are set on making your own at home, please read the <a class="wiki" href="/wiki/robot_building_safety.html" title="Building robots can be dangerous - tips to help your safety">Safety Guide</a> first.
+<p>If you are set on making your own at home, please read the <a href="/wiki/robot_building_safety.html" title="Building robots can be dangerous - tips to help your safety">Safety Guide</a> first.
 </p>
 <p>To create a PCB, you need to apply an etch-mask to a copper clad board. An etch mask basically stops the etching fluid from working on covered areas of the board.
 </p>
@@ -37,7 +37,7 @@ date: 2005-06-29 22:51:58
 </p>
 <p>There are systems where you can print onto special paper - which you then iron-on to the PCB to transfer it. These are quite neat - cheap and hobbyist friendly. You will often need to fill in a few gaps manually with a marker - make sure all of the mask is firmly down - otherwise the etch fluid will get under it.
 </p>
-<p>Many people use Photo-etching, where a board is primed with a photo-sensitive resistive mask. By exposing the mask to <a class="wiki" href="/wiki/uv.html" title="Ultra Violet Light">UV</a>, it then can be etched underneath. You print your design onto OHP slides, then project a <a class="wiki" href="/wiki/uv.html" title="Ultra Violet Light">UV</a> light through them onto the PCB. You can then continue to etch normally. This can be expensive - but also gives the best results.
+<p>Many people use Photo-etching, where a board is primed with a photo-sensitive resistive mask. By exposing the mask to <a href="/wiki/uv.html" title="Ultra Violet Light">UV</a>, it then can be etched underneath. You print your design onto OHP slides, then project a <a href="/wiki/uv.html" title="Ultra Violet Light">UV</a> light through them onto the PCB. You can then continue to etch normally. This can be expensive - but also gives the best results.
 </p>
 <p>You will also require a Pillar Drill and clamping table for it- as you will accurately need to drill via's (where the one layer crosses to the other) and connection holes for components and cables. I recommend still using sockets for IC's where possible, and going with headers for all cables - allowing some amount of modularity in your designs.
 </p>

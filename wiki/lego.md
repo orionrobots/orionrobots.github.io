@@ -41,7 +41,7 @@ The company are believed to be one of the oldest toy makers with plastic injecti
 
 # Links
 
-* [History Of Lego](http://www.legos.tabacaria.com.pt/Textos/timeline.htm) - This is a nice little pictorial history of the Lego Brick itself, with photo's from some of the earliest "self-binding bricks", including Kiddicraft.
+* [History Of Lego](https://www.lego.com/en-gb/aboutus/lego-group/the-lego-group-history/) - This is a nice little pictorial history of the Lego Brick itself, with photo's from some of the earliest "self-binding bricks", including Kiddicraft.
 * [Popular Mechanics | First Lego League - High School Students Turn Inventors](http://www.popularmechanics.com/technology/engineering/robots/high-school-students-turn-inventors-8372261) - How Lego is used to engage students in Science, Technology, Engineering and Math subjects by building robots.
 * [Popular Mechanics | 8 Incredible Lego Mods](http://www.popularmechanics.com/technology/engineering/gonzo/8-incredible-lego-mods?click=main_sr) - These are some amazing ways to use Lego - showing it as a functional and capable material for building real machines and prototypes.
 * [EuroBricks | How to repair a Lego Motor](http://www.eurobricks.com/forum/index.php?showtopic=56923) - Forum posts on dealing with Lego motors that have become stuck or had a shock. It is also a handy guide on how to open one up should you be so inclined.

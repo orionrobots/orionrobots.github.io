@@ -5,7 +5,7 @@ date: 2008-11-03 11:13:38
 ---
 <p> <a class="internal" href="browseimage315"> <img class="img-responsive" src="image315&amp;thumb=1"/> </a>
 </p>
-<p>In all but the most simple <a class="wiki" href="/wiki/direct_current.html" title="Direct Current">DC</a> circuits, the behaviour of the circuit is not merely a straight line. Timing may be everything, and an efficient way to gauge exactly what is going on, for example showing how a particular capacitor is charging and discharging.
+<p>In all but the most simple <a href="/wiki/direct_current.html" title="Direct Current">DC</a> circuits, the behaviour of the circuit is not merely a straight line. Timing may be everything, and an efficient way to gauge exactly what is going on, for example showing how a particular capacitor is charging and discharging.
 </p>
 <p>A basic oscilloscope is a dot on the screen, and the two axes governing its position are controlled by inputs, so the dot moves. If the dot moves fast enough, because of both the refresh time of the screen and human persistence of vision, it will form a solid line. With nothing on the inputs, you would merely see a solid dot in the centre of the screen (presuming it was calibrated and lined up).
 </p>
@@ -34,7 +34,7 @@ date: 2008-11-03 11:13:38
 <p>If you are interested in Lissajous Figures - it is perhaps these that are the best type. The maximum sample rate on these has much to do with the signal generator for the horizontal, and these are more easily pushed up the scale than a digital counterpart.
 </p>
 <h2 id="Digital">Digital</h2>
-<p>Digital Oscilloscopes come in two major flavours, standalone, and PC based ones. All suffer the issue of <a class="wiki" href="/wiki/quantisation.html" title="Digital signal degradation">quantisation</a>. This may be slightly improved by making sure the pre-amps and calibration circuits are all in a stage before the Analog to Digital converters, but in some of the cheapest ones, all of that is done in software.
+<p>Digital Oscilloscopes come in two major flavours, standalone, and PC based ones. All suffer the issue of <a href="/wiki/quantisation.html" title="Digital signal degradation">quantisation</a>. This may be slightly improved by making sure the pre-amps and calibration circuits are all in a stage before the Analog to Digital converters, but in some of the cheapest ones, all of that is done in software.
 </p>
 <p>Be aware of how many bits the A to D's are, and also check for the maximum sample rate. Because of the digitisation of the waveform, these oscilloscopes tend to offer more types of advanced analysis than an analog based one.
 </p>
@@ -42,7 +42,7 @@ date: 2008-11-03 11:13:38
 <p>Standalone digital oscilloscopes are fairly expensive. They offer the ability to store and replay a signal on screen from memory buffers. The larger the buffer the more you will get. Some may have options to connect with PC's or have a disk drive to store signal history. These often come now with LCD screens, but at the price, you may be better aiming at high-range PC based ones.
 </p>
 <h3 id="PC_based">PC based</h3>
-<p>PC based oscilloscopes are now widely available, both <a class="wiki" href="/wiki/usb.html" title="Universal Serial Bus">USB</a> and internal ones. These are very cheap, much cheaper than oscilloscopes have ever been, and are making this vital instrument available to many more hobbyists.
+<p>PC based oscilloscopes are now widely available, both <a href="/wiki/usb.html" title="Universal Serial Bus">USB</a> and internal ones. These are very cheap, much cheaper than oscilloscopes have ever been, and are making this vital instrument available to many more hobbyists.
 </p>
 <p>They tend to delegate a lot of their operation to software, and it is worth being aware as much of the software abilities as the hardware. after all - many use their own custom drivers and the software is not often interchangeable.
 </p>

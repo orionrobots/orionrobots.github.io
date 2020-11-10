@@ -3,7 +3,7 @@ layout: page
 title: William Grey Walter - Machina Speculatrix
 date: 2009-11-10 07:51:15
 ---
-These robots were built as learning platform by the late <a class="wiki" href="/wiki/william_grey_walter.html" title="William Grey Walter">William Grey Walter</a> in the 1940s.
+These robots were built as learning platform by the late <a href="/wiki/william_grey_walter.html" title="William Grey Walter">William Grey Walter</a> in the 1940s.
 
 <img class="img-responsive" src="/galleries/gallery-1-common-images/52-machinaspeculatrix.jpg" alt="Extract from the Festival Of Britain catalog Courtesy of The University of Berkeley, California"/>
 
@@ -11,7 +11,7 @@ These robots were built as learning platform by the late <a class="wiki" href="/
 
 They were phototropic - that is light following, and they were otherwise known as tortoises. A name derived from their plastic tortoise shaped shells, and a reference to <a href="http://amzn.to/2uevryU" rel="external" target="_blank">Alice in Wonderland</a> - "We called him tortoise because he taught-us".
 
-The first two of these were named "Elmer" and "Elsie". They consisted of a light sensor, touch sensor, propulsion motor, steering motor, and a two vacuum tube analogue computer. The simplicity of its design now would be similar to the <a class="wiki" href="/wiki/beam_robots.html" title="Biology, Electronics, Aesthetics and Mechanics">BEAM Robots</a>.
+The first two of these were named "Elmer" and "Elsie". They consisted of a light sensor, touch sensor, propulsion motor, steering motor, and a two vacuum tube analogue computer. The simplicity of its design now would be similar to the <a href="/wiki/beam_robots.html" title="Biology, Electronics, Aesthetics and Mechanics">BEAM Robots</a>.
 
 A second generation was built - and some of these now reside in a collection in the Smithsonian Institute.
 

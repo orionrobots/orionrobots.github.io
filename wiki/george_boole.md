@@ -4,9 +4,9 @@ title: George Boole
 date: 2006-04-23 12:38:32
 ---
 <table border="0" cellpadding="0" cellspacing="0" class="wikiplugin-split"><tr><td valign="top">
-George Boole FRS (1815 - 1864) was best known for his discussion on reducing logic into simple algebra, thus including the principles of it in mathematics. It had before been the realm of Aristotle's philosophy, and Boole's work to simplify and distill this into equations was probably one of the major contributors to computing as we know it. Indeed Digital computing with <a class="wiki" href="/wiki/binary.html" title="The storage method for digital information">binary</a> would probably not be where it is today without his work.
+George Boole FRS (1815 - 1864) was best known for his discussion on reducing logic into simple algebra, thus including the principles of it in mathematics. It had before been the realm of Aristotle's philosophy, and Boole's work to simplify and distill this into equations was probably one of the major contributors to computing as we know it. Indeed Digital computing with <a href="/wiki/binary.html" title="The storage method for digital information">binary</a> would probably not be where it is today without his work.
 
-It is Boole who distilled the <a class="wiki" href="/wiki/and.html" title="AND">AND</a>, <a class="wiki" href="/wiki/or.html" title="OR">OR</a> and <a class="wiki" href="/wiki/not.html" title="NOT">NOT</a> logical binary operations.
+It is Boole who distilled the <a href="/wiki/and.html" title="AND">AND</a>, <a href="/wiki/or.html" title="OR">OR</a> and <a href="/wiki/not.html" title="NOT">NOT</a> logical binary operations.
 
 Boole also contributed significantly to other areas of mathematics, such as various aspects of calculus and probability. He had been raised in Lincoln, which at the time was a very industrial town, and as such, he came from a working class background. However, it was his father who had a great passion for mathematics who passed on this aspect to his son.
 </td><td valign="top">

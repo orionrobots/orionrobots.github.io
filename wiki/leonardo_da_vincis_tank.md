@@ -3,7 +3,7 @@ layout: page
 title: Leonardo Da Vincis Tank
 date: 2005-01-31 23:24:15
 ---
-<a class="wiki" href="/wiki/leonardo_da_vinci.html" title="Leonardo Da Vinci">Leonardo Da Vinci</a> once designed a fighting vehicle.  Although never built, the design was ahead of its time.
+<a href="/wiki/leonardo_da_vinci.html" title="Leonardo Da Vinci">Leonardo Da Vinci</a> once designed a fighting vehicle.  Although never built, the design was ahead of its time.
 
 The tank had radial outward facing blunderbuss guns - for attack.  The top section could be separated from the other(presumably for vision).
 

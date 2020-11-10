@@ -3,7 +3,7 @@ layout: page
 title: OR
 date: 2006-04-23 00:35:43
 ---
-OR is a <a class="wiki" href="/wiki/boolean.html" title="Boolean">Boolean</a> operation which will be true when any of its inputs are 1.  That is (on a two input gate) when one input, OR another, OR both are true - the output is true.
+OR is a <a href="/wiki/boolean.html" title="Boolean">Boolean</a> operation which will be true when any of its inputs are 1.  That is (on a two input gate) when one input, OR another, OR both are true - the output is true.
 
 Consider the truth table for this:
 

@@ -3,7 +3,7 @@ layout: page
 title: FreeForm
 date: 2005-01-25 23:06:49
 ---
-<p>Freeforming is a technique used to bild circuitss without using <a class="wiki" href="/wiki/pcb.html" title="Printed Circuit Board">PCBs</a>. <a class="wiki" href="/wiki/mark_tilden.html" title="Mark Tilden">Mark Tilden</a> has used this technique, and it is used extensively in <a class="wiki" href="/wiki/beam_robots.html" title="Biology, Electronics, Aesthetics and Mechanics">BEAM Robots</a>.
+<p>Freeforming is a technique used to bild circuitss without using <a href="/wiki/pcb.html" title="Printed Circuit Board">PCBs</a>. <a href="/wiki/mark_tilden.html" title="Mark Tilden">Mark Tilden</a> has used this technique, and it is used extensively in <a href="/wiki/beam_robots.html" title="Biology, Electronics, Aesthetics and Mechanics">BEAM Robots</a>.
 </p>
 <p>Pros:
 </p>
@@ -19,14 +19,14 @@ date: 2005-01-25 23:06:49
 <br/>Freeforming usually means taking the bare components, bending, trimming and soldering leads together.
 </p>
 <h1  id="What_do_you_need">What do you need</h1>
-<p>You will require a good <a class="wiki" href="/wiki/robot_tools.html" title="Tools that are often required to get started in robot building">Toolset</a> including:
+<p>You will require a good <a href="/wiki/robot_tools.html" title="Tools that are often required to get started in robot building">Toolset</a> including:
 </p>
 <ul><li> Decent soldering iron
 </li><li> Long nosed pliers
 </li><li> Wire cutters
 </li><li> Quick setting glue
 </li></ul><p>
-<br/>Now - following our <a class="wiki" href="/wiki/robot_building_safety.html" title="Building robots can be dangerous - tips to help your safety">Safety Guide</a>- you should also have the following:
+<br/>Now - following our <a href="/wiki/robot_building_safety.html" title="Building robots can be dangerous - tips to help your safety">Safety Guide</a>- you should also have the following:
 </p>
 <ul><li> Good surface/soldering mat
 </li><li> Goggles (this is where you are quite likely to have small bits of wire fly up and hit you in the face as you cut them)
@@ -36,7 +36,7 @@ date: 2005-01-25 23:06:49
 <br/>Recommended:
 </p>
 <ul><li> Helping hands (the mini adjustable clamp variety) - to hold bits you dont have enough hands for
-</li><li> <a class="wiki" href="/wiki/multimeter.html" title="MultiMeter">MultiMeter</a> - Try to ensure you have tested the components before you solder them in
+</li><li> <a href="/wiki/multimeter.html" title="MultiMeter">MultiMeter</a> - Try to ensure you have tested the components before you solder them in
 </li></ul><p>
 <br/>You also need a lot of patience, and I seriously do not recommend doing this while tired.
 </p>
@@ -46,7 +46,7 @@ date: 2005-01-25 23:06:49
 <h1  id="Planning_a_freeform">Planning a freeform</h1>
 <p>First be aware of the circuit you are using. Take each of the components, and judge the size and shape. Think about how many input/output connections the circuit needs. It is usually a good idea to have most IO connections facing the right way. Once you have all of these - then it is a matter of inspiration. For each idea, sketch it out (which is difficult because these tend to be more '3D' than PCB circuits) and trace the pathways - make sure all the correct connections are there. Try to limit risks of leads that shouldnt be touching accidentally doing so. This may mean glueing a peice of paper between them.
 </p>
-<p><a class="wiki" href="/wiki/interfacing_an_led_to_an_rcx_port.html" title="Interfacing an LED to an RCX Port">Interfacing an LED to an RCX Port</a>
+<p><a href="/wiki/interfacing_an_led_to_an_rcx_port.html" title="Interfacing an LED to an RCX Port">Interfacing an LED to an RCX Port</a>
 <br/>[Freeforming a Diode Bridge](/2005/05/30/freeforming-a-rectifier-bridge.html)
 </p>
 <p>Good luck.

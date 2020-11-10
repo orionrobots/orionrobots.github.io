@@ -7,33 +7,33 @@ date: 2007-01-28 17:51:36
 </p>
 <p>You could even take it a step further and hunt down scrapyards or tin merchants in your area. I find it can be quite inspiring to look around the junk and think "What could I build with that?".
 </p>
-<p>I am sure many of you have seen <a class="wiki" href="/wiki/scrapheap_challenge.html" title="Quirky British Gameshow">Scrapheap Challenge</a>, as well as robots like <a class="wiki" href="/wiki/sumpthing.html" title="Sumpthing">Sumpthing</a> which have been built almost entirely from scrap salvage.
+<p>I am sure many of you have seen <a href="/wiki/scrapheap_challenge.html" title="Quirky British Gameshow">Scrapheap Challenge</a>, as well as robots like <a href="/wiki/sumpthing.html" title="Sumpthing">Sumpthing</a> which have been built almost entirely from scrap salvage.
 </p>
 <p>OrionRobots are planning on researching and doing a trip to a local scrap yard to go see what we can find. We are going to try metal merchants, council yards, the back of fridge/cooker repair places and similar stores.
 </p>
-<p>If you are hunting electronic components - get acquainted with <a class="wiki" href="/wiki/identifying_electronic_components.html" title="Identifying Electronic Components">Identifying Electronic Components</a> first. You should also think ahead and plan <a class="wiki" href="/wiki/component_storage.html" title="Component Storage">Component Storage</a> so you can store, and quickly retrieve your finds.
+<p>If you are hunting electronic components - get acquainted with <a href="/wiki/identifying_electronic_components.html" title="Identifying Electronic Components">Identifying Electronic Components</a> first. You should also think ahead and plan <a href="/wiki/component_storage.html" title="Component Storage">Component Storage</a> so you can store, and quickly retrieve your finds.
 </p>
 <p>Make sure when you visit these places, you are always well protected, wearing goggles and old clothes - preferably tough jeans, steel toecap boots and not your Sunday best. Safety is paramount in any robot exercise and should be your first concern.
 </p>
-<p>Make sure you have the right <a class="wiki" href="/wiki/robot_tools.html" title="Tools that are often required to get started in robot building">Tools</a> for the job! You will need most of those tools to do a good salvage job of anything. There is nothing worse than getting a great piece of kit, and not being able to get into it-or worse still destroying the parts of value through being over eager to get into it. A good socket set, hacksaw, screwdriver set are useful.
+<p>Make sure you have the right <a href="/wiki/robot_tools.html" title="Tools that are often required to get started in robot building">Tools</a> for the job! You will need most of those tools to do a good salvage job of anything. There is nothing worse than getting a great piece of kit, and not being able to get into it-or worse still destroying the parts of value through being over eager to get into it. A good socket set, hacksaw, screwdriver set are useful.
 </p>
 <p>Be aware of how you are going to get your salvage items back to your workshop - you may need a car, or at least some good cardboard boxes. You can get boxes around the back of supermarkets, self-storage companies or buy in a post-office shop.
 </p>
 <p>You should thoroughly test any items you pull from scrap in a safe way. After all- you should take due care and attention when tooling and applying power to any item as a matter of course. You should also thoroughly clean it - fridges and kitchen appliances can get a bit unpleasant.
 </p>
-<p><a class="wiki" href="/wiki/using_an_old_pc_to_flash_roms.html" title="Using An Old PC To Flash Roms">Using an Old PC To Flash Roms</a>
+<p><a href="/wiki/using_an_old_pc_to_flash_roms.html" title="Using An Old PC To Flash Roms">Using an Old PC To Flash Roms</a>
 </p>
 <div class="titlebar">So which household devices are useful?</div>
 <p>
-<br/>An electric toothbrush, has a great little motor for creating <a class="wiki" href="/wiki/beam_robots.html" title="Biology, Electronics, Aesthetics and Mechanics">BEAM Robots</a>.  These motors are pretty good, and can take extended usage. They also run on very low voltages. Depending on the model - it may also have some amount of water proofing in the case design. Think <a class="wiki" href="/wiki/submarine.html" title="SubMarine">Submarine</a>!
+<br/>An electric toothbrush, has a great little motor for creating <a href="/wiki/beam_robots.html" title="Biology, Electronics, Aesthetics and Mechanics">BEAM Robots</a>.  These motors are pretty good, and can take extended usage. They also run on very low voltages. Depending on the model - it may also have some amount of water proofing in the case design. Think <a href="/wiki/submarine.html" title="SubMarine">Submarine</a>!
 </p>
-<p>Computer disk drives, have some very fine <a class="wiki" href="/wiki/stepper_motors.html" title="Stepper Motors">Stepper Motors</a> as well as a 12v DC motor and MicroSwitches.  I am also sure that you might eventually be able to think of a use for the laser elements - both emitter and receiver are both light sensitive for <a class="wiki" href="/wiki/beam_robots.html" title="Biology, Electronics, Aesthetics and Mechanics">BEAM Robots</a>.  Some Hard Drives contain supermagnets for building MagBots.
+<p>Computer disk drives, have some very fine <a href="/wiki/stepper_motors.html" title="Stepper Motors">Stepper Motors</a> as well as a 12v DC motor and MicroSwitches.  I am also sure that you might eventually be able to think of a use for the laser elements - both emitter and receiver are both light sensitive for <a href="/wiki/beam_robots.html" title="Biology, Electronics, Aesthetics and Mechanics">BEAM Robots</a>.  Some Hard Drives contain supermagnets for building MagBots.
 </p>
-<p>Modems and other telephone equipment are great - they tend to have LM series Op-Amps and <a class="wiki" href="/wiki/electronic_relay.html" title="An electrically activated switch">relays</a> as well as a nice variety of other parts.
+<p>Modems and other telephone equipment are great - they tend to have LM series Op-Amps and <a href="/wiki/electronic_relay.html" title="An electrically activated switch">relays</a> as well as a nice variety of other parts.
 </p>
 <p>A real good find would be any old motorised toys - as even if some parts are faulty, the servos, or the RC circuits as well as linkages may be salvageable - and good wheels are always worthwhile stock. I am sure following Christmas - that someone will be throwing old broken toys away(do you know someone with kids?). RC Cars are obvious - with Servo Motors, gears, wheels, even body chassis which could be used for a robot base. The actual transceiver, and motor controllers are also useful. These are a gold find.
 </p>
-<p>Walkman's have nice little low voltage motors, and gears.  The tape sensors will have MicroSwitches and their may be <a class="wiki" href="/wiki/led.html" title="Light Emitting Diode">LED</a>'s. In <a href="Salvage Tips#junkbots">Dave Hrynkiw/Mark W. Tilden</a> they even use the chassis framework from one of these for a robot chassis.
+<p>Walkman's have nice little low voltage motors, and gears.  The tape sensors will have MicroSwitches and their may be <a href="/wiki/led.html" title="Light Emitting Diode">LED</a>'s. In <a href="Salvage Tips#junkbots">Dave Hrynkiw/Mark W. Tilden</a> they even use the chassis framework from one of these for a robot chassis.
 </p>
 <p>Discman components are even better, as you will have more than one motor - one of which may be a high quality servo (for head positioning), as well as the laser components.
 </p>

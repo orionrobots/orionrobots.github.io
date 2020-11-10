@@ -3,7 +3,7 @@ layout: page
 title: I2C
 date: 2006-03-06 11:42:53
 ---
-<p>The Phillips I2C bus is a <a class="wiki" href="/wiki/serial_data_stream.html" title="Serial Data Stream">Serial transfer</a> system that is supported by most <a a="" brain")="" class="wiki" for="" href="/wiki/microcontroller.html" robot"="" title="A programmable digital controller (or ">MicroControllers</a>. It is otherwise known is the Inter-Integrated-Circuit bus.
+<p>The Phillips I2C bus is a <a href="/wiki/serial_data_stream.html" title="Serial Data Stream">Serial transfer</a> system that is supported by most <a a="" brain")="" for="" href="/wiki/microcontroller.html" robot"="" title="A programmable digital controller (or ">MicroControllers</a>. It is otherwise known is the Inter-Integrated-Circuit bus.
 </p>
 <p>Being a very simple two wire bus with a 20 year legacy, is is robust and extendable enough to be useful in contemporary embedding and robotics applications.
 </p>

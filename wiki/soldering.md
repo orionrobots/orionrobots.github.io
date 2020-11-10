@@ -3,7 +3,7 @@ layout: page
 title: soldering
 date: 2007-01-28 20:01:52
 ---
-<p>When using perfboard, stripboard or <a class="wiki" href="/wiki/pcb.html" title="Printed Circuit Board">PCBs</a> as well as freeforming, soldering is the normal method of connection.
+<p>When using perfboard, stripboard or <a href="/wiki/pcb.html" title="Printed Circuit Board">PCBs</a> as well as freeforming, soldering is the normal method of connection.
 </p>
 <p>It involves heating a metal alloy with a low melting point, which then adheres to the conducting board surface, and to the component. When done correctly, this then facilitates both the electrical and mechanical connection between the component and the board.
 </p>
@@ -17,10 +17,10 @@ date: 2007-01-28 20:01:52
 <h1  id="Flux">Flux</h1>
 <p>Flux is a resinous substance used to clean contaminants and oxidants from a surface, smoothing it and priming it so the solder can flow well and make a good electronic bond. Flux may come inside the solder as a core, or can be bought separately and pumped in with a syringe or similar. Flux can be heated a fair way, but overheating it can make it bubble and spatter - not a good thing at all.
 </p>
-<p>5 core solder, which carries 5 veins of flux, is quite common for hobbyist electronic solder, and is easily available from stores like <a class="wiki" href="/wiki/maplin.html" title="Maplin">Maplin</a>.
+<p>5 core solder, which carries 5 veins of flux, is quite common for hobbyist electronic solder, and is easily available from stores like <a href="/wiki/maplin.html" title="Maplin">Maplin</a>.
 </p>
 <h1  id="Safety_and_tools">Safety and tools</h1>
-<p>Please read <a class="wiki" href="/wiki/robot_building_safety.html" title="Building robots can be dangerous - tips to help your safety">robot building safety</a> before learning to solder. With the heated element in a soldering iron, it is very, very easy to damage yourself, your property and the robot as well. It should be treated with all the care one would treat a very sharpened knife.
+<p>Please read <a href="/wiki/robot_building_safety.html" title="Building robots can be dangerous - tips to help your safety">robot building safety</a> before learning to solder. With the heated element in a soldering iron, it is very, very easy to damage yourself, your property and the robot as well. It should be treated with all the care one would treat a very sharpened knife.
 </p>
 <h2  id="Basic_Tools">Basic Tools</h2>
 <h3  id="Goggles">Goggles</h3>
@@ -38,12 +38,12 @@ date: 2007-01-28 20:01:52
 <h3  id="Clamp">Clamp</h3>
 <p>Some sort of clamp for the job being soldered is also essential. A steady hand is of little use when the piece being worked on is not steady itself. Holding a component in with your fingers is strongly advised against, as it will likely result in burnt fingers.
 </p>
-<p>There are a few clamps, like a <a class="wiki" href="/wiki/pcb.html" title="Printed Circuit Board">PCB</a> vice which hold the whole board in place, but also you can buy so called "Helping Hands" clamps which can hold a component in place on a board freeing your hands for soldering. Soldering normally requires two hands - one to hold the iron, and one to feed the solder in.
+<p>There are a few clamps, like a <a href="/wiki/pcb.html" title="Printed Circuit Board">PCB</a> vice which hold the whole board in place, but also you can buy so called "Helping Hands" clamps which can hold a component in place on a board freeing your hands for soldering. Soldering normally requires two hands - one to hold the iron, and one to feed the solder in.
 </p>
 <h3  id="Window_or_Extractor_Fan">Window or Extractor Fan</h3>
 <p>Soldering produces fumes, which should be regarded as quite unpleasant and unhealthy. An open window is definitely a good plan, but an extractor of some sort is often advisable.
 </p>
-<p>Danny Staple has <a class="wiki" href="/blogs/1/37" rel="">built a simple extractor</a> using some common PC parts, but is yet to write it up properly. It need not be an expensive industrial fan, but something to pull away the fumes.
+<p>Danny Staple has <a href="/blogs/1/37" rel="">built a simple extractor</a> using some common PC parts, but is yet to write it up properly. It need not be an expensive industrial fan, but something to pull away the fumes.
 </p>
 <h3  id="Stand">Stand</h3>
 <p>A soldering stand is absolutely essential. A powered up, heated soldering iron is easily a source of burns (both to furnishings and you) and fires. Never leave a soldering iron left element down on a surface.
@@ -81,7 +81,22 @@ date: 2007-01-28 20:01:52
 <ul><li> <a  href="http://www.instructables.com/group/solder/" rel="external" target="_blank">Instructables: How to solder</a> - The fantastic creative website Instructables has collected a number of tips on soldering.
 </li></ul><p>
 </p>
-<table class="normal" id="fancytable_1"> <thead> <tr> <th>Some Recommendations</th> </tr> </thead> <tbody> <tr> <td class="odd"> <a class="internal" href="http://www.amazon.co.uk/exec/obidos/ASIN/B0001K9P6Y/orionrobots-21" target="_blank"> <img class="img-responsive" src="image61"/> </a> </td> <td class="odd"><a  href="http://www.amazon.co.uk/exec/obidos/ASIN/B0001K9P6Y/orionrobots-21" rel="external" target="_blank">Draper 13366 Safety Goggles</a></td> <td class="odd">If you are soldering safety of your eyes should be your first priority. These are relatively inexpensive(less than a tenner), but being a good brand, are comfortable and hard wearing.  Uncomfortable and easily broken goggles will just not be worn- which means your eyes will be in danger again.</td> </tr> <tr> <td class="even"> <a class="internal" href="http://www.amazon.co.uk/exec/obidos/ASIN/B0001K9RAS/orionrobots-21" target="_blank"> <img class="img-responsive" src="image72"/> </a> </td> <td class="even"><a  href="http://www.amazon.co.uk/exec/obidos/ASIN/B0001K9RAS/orionrobots-21" rel="external" target="_blank">Draper 23554 Soldering Iron Stand</a></td> <td class="even"> This is inexpensive, and Draper are a trusted brand. There is no good reason not to use a holder when soldering.</td> </tr> <tr> <td class="odd"> <a class="internal" href="http://www.amazon.co.uk/exec/obidos/ASIN/B0001P07D4/orionrobots-21" target="_blank"> <img class="img-responsive" src="image422&amp;thumb=1"/> </a> </td> <td class="odd"><a  href="http://www.amazon.co.uk/exec/obidos/ASIN/B0001P07D4/orionrobots-21" rel="external" target="_blank">Faithfull Power Plus Soldering Iron 40w</a></td> <td class="odd"> This is a very inexpensive 40w soldering tool and is great to get a beginner started.</td> </tr> <tr> <td class="even"> <a class="internal" href="http://www.amazon.co.uk/exec/obidos/ASIN/B0001K9S3O/orionrobots-21" target="_blank"> <img class="img-responsive" src="image78"/> </a> </td> <td class="even"><a  href="http://www.amazon.co.uk/exec/obidos/ASIN/B0001K9S3O/orionrobots-21" rel="external" target="_blank">Draper 30309 Soldering Mat (Asbestos Free)</a></td> <td class="even"> It is worth having a Soldering Mat if you do not have a dedicated space for soldering, and even if you do, it leaves fewer scorch marks there. Some other soldering mats do contain asbestos - which should really be avoided(nasty stuff).</td> </tr> <tr> <td class="odd"> <a class="internal" href="http://www.amazon.co.uk/exec/obidos/ASIN/B000EOQ92K/orionrobots-21" target="_blank"> <img class="img-responsive" src="/image421&amp;thumb=1"/> </a> </td> <td class="odd"> <a  href="http://www.amazon.co.uk/exec/obidos/ASIN/B000EOQ92K/orionrobots-21" rel="external" target="_blank">Draper 22W Fluorescent Magnifying Lamp</a> </td> <td class="odd"> This lamp is flexible, bright, and comes with a magnifier too. It is ideal for precision jobs.</td> </tr> <tr> <td class="even"><img class="img-responsive" src="http://www.assoc-amazon.co.uk/e/ir?t=orionrobots-21&amp;l=ur2&amp;o=2"/> </td> <td class="even"> <a  href="http://www.amazon.co.uk/gp/redirect.html?ie=UTF8&amp;location=http%3A%2F%2Fwww.amazon.co.uk%2FDIY-Tools-Home-Garden%2Fb%3Fie%3DUTF8%26node%3D11052651&amp;tag=orionrobots-21&amp;linkCode=ur2&amp;camp=1634&amp;creative=6738" rel="external" target="_blank">DIY and Tools Home Page</a></td> <td class="even">Amazon have a nice range of affordable tools from decent brands for a beginner. In fact because of the advantage in price and quality, they are recommended over local DIY superstores.</td> </tr> </tbody> </table>
-<p>
-<br/>{AMAZONSELFOPTLINK(pub=&gt;orionrobots-21)/}
-</p>
+
+# Some Recommendations
+
+If you are soldering safety of your eyes should be your first priority. These are relatively inexpensive(less than a tenner), but being a good brand, are comfortable and hard wearing.  Uncomfortable and easily broken goggles will just not be worn- which means your eyes will be in danger again.
+
+<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=GB&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=orionrobots-21&language=en_GB&marketplace=amazon&region=GB&placement=B0865YXFWH&asins=B0865YXFWH&linkId=9f0a157e31025738cf6e2ee152194011&show_border=true&link_opens_in_new_window=true"></iframe>
+
+If you are going to invest in soldering equipment - you should make sure you have a soldering stand.  This is inexpensive, and Draper are a trusted brand.  There is no good reason not to use a holder when soldering.
+
+<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=GB&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=orionrobots-21&language=en_GB&marketplace=amazon&region=GB&placement=B0001K9RAS&asins=B0001K9RAS&linkId=8b7a7c989ef009a5678554e57092f489&show_border=true&link_opens_in_new_window=true"></iframe>
+
+
+These days, temperature controlled soldering irons are inexpensive. This is a good way to have the temperatures needed for different solder jobs.
+
+<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=GB&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=orionrobots-21&language=en_GB&marketplace=amazon&region=GB&placement=B07ZQDLPR8&asins=B07ZQDLPR8&linkId=5962a386804816fa73b44eb2f2e9fc12&show_border=true&link_opens_in_new_window=true"></iframe>
+
+If you are going to be soldering a lot, you probably do not want to put burn marks into your (or your mums) French polished table. It is worth having a Soldering Mat if you do not have a dedicated space for soldering.
+
+<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=GB&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=orionrobots-21&language=en_GB&marketplace=amazon&region=GB&placement=B0001K9S3O&asins=B0001K9S3O&linkId=3ed7fe6ed442cdc229b5a019cacc9a88&show_border=true&link_opens_in_new_window=true"></iframe>

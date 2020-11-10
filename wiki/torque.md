@@ -13,7 +13,7 @@ date: 2004-11-14 21:58:46
 <p>Note that a stalled motor becomes effectively a short circuit - which is extremely bad and may cause batteries or capacitors to heat up.
 </p>
 <p>If you wish to increase the torque a system can handle - you need to increase the axle diameters - and reduce their length. You can also double up the axles/gears for a particular transmission.
-<br/>You can use <a class="wiki" href="/wiki/helical_gears.html" title="Helical Gears">Helical Gears</a> to increase capacity - or simlpy larger/wider gears.
+<br/>You can use <a href="/wiki/helical_gears.html" title="Helical Gears">Helical Gears</a> to increase capacity - or simlpy larger/wider gears.
 </p>
 <p>Larger motors will deliver greater torque - although the diameter of their axle is a big factor in this. The more torque is required of a motor, the greater its current draw will be- so be aware that it could put a huge current dip in the system.
 </p>

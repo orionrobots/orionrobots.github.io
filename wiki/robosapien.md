@@ -3,10 +3,10 @@ layout: page
 title: RoboSapien
 date: 2013-05-02 20:23:04
 ---
-<div style=" float: right;"><img class="img-responsive" src="/image424"/> </div>The Wow-Wee Robo Sapien is a robot toy or gadget created by <a class="wiki" href="/wiki/mark_tilden.html" title="Mark Tilden">Mark Tilden</a>. It comes with a remote and has a number of great features.
+<div style=" float: right;"><img class="img-responsive" src="/image424"/> </div>The Wow-Wee Robo Sapien is a robot toy or gadget created by <a href="/wiki/mark_tilden.html" title="Mark Tilden">Mark Tilden</a>. It comes with a remote and has a number of great features.
 <p>The RoboSapien is currently taking the robot toys and gadgets market by storm at the moment. It is designed to be modded and opened up, but can also just be great fun to play with as is. A good starting point if you are interested in using a bipedal platform and want to skip some of the process. It is programmable and functional out of the box. RoboSapien stands at around 35 Cm tall.
 </p>
-<p>Robosapien is bipedal and walks properly with no tricks. Robosapien has hands and arms with enough <a class="wiki" href="/wiki/degrees_of_freedom.html" title="A term used for the axes of movement for a robot, or robot limb.">Degrees of Freedom</a> to grasp things in them. Using 7 motors gives it a fairly flexible and lifelike motion.
+<p>Robosapien is bipedal and walks properly with no tricks. Robosapien has hands and arms with enough <a href="/wiki/degrees_of_freedom.html" title="A term used for the axes of movement for a robot, or robot limb.">Degrees of Freedom</a> to grasp things in them. Using 7 motors gives it a fairly flexible and lifelike motion.
 </p>
 <p>It can perform whole bunch of actions like karate kicks, punches, dancing, sweeping, fetching, high-fives, throwing and boasts around 67 different moves. He has obstacle avoidance sensors in his feet.
 </p>

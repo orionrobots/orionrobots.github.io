@@ -3,7 +3,7 @@ layout: page
 title: Sci Fi Robots
 date: 2009-01-27 12:33:47
 ---
-<p>Famous Sci Fi robots, Replicants and <a class="wiki" href="/wiki/cyborg.html" title="Cybernetic Organism">Cyborgs</a>
+<p>Famous Sci Fi robots, Replicants and <a href="/wiki/cyborg.html" title="Cybernetic Organism">Cyborgs</a>
 </p>
 <p>OrionRobots are compiling a small list of sci-fi robots. This is not intended to include animatronic bots, but actual fictional robotic characters and monsters. Feel free to comment on new robots to add. We will include where possible a small biography, technical specs, any models or construction kits and pictures.
 </p>

@@ -12,7 +12,7 @@ date: 2006-09-05 21:22:03
 
 <strong>Learning</strong>
 
-OrionRobots is about using <a class="wiki" href="/wiki/robotic.html" title="Robotic">Robotics</a> for education, inspiration and innovation.
+OrionRobots is about using <a href="/wiki/robotic.html" title="Robotic">Robotics</a> for education, inspiration and innovation.
 
 Learning with robots lets you use and learn things in a practical way. Actually doing things makes for faster learning and better understanding. It's also more fun than lecturing theory. The theory does get used eventually but only when placed in context.
 

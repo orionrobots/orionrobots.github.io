@@ -3,7 +3,7 @@ layout: page
 title: IJCAI
 date: 2008-02-02 14:37:01
 ---
-<p>This is a biennial conference held since 1969 exploring the diverse realm of Artificial Intelligence, and the subjects surrounding it. It is frequented by names such as <a class="wiki" href="/wiki/rodney_brooks.html" title="Rodney Brooks">Rodney Brooks</a>.
+<p>This is a biennial conference held since 1969 exploring the diverse realm of Artificial Intelligence, and the subjects surrounding it. It is frequented by names such as <a href="/wiki/rodney_brooks.html" title="Rodney Brooks">Rodney Brooks</a>.
 </p>
 <h1  id="Recent_years">Recent years</h1>
 <ul><li> IJCAI-05 was held from 30th July through to the 5th August 2005 in Edinburgh, Scotland. Papers and details can be found <a  href="http://www.ijcai.org/proceedings05.php" rel="external" target="_blank">here</a>.
@@ -14,6 +14,6 @@ date: 2008-02-02 14:37:01
 <h1  id="Links">Links</h1>
 <p>
 </p>
-<ul><li> <a class="wiki" href="http://www.ijcai.org/" target="_blank">http://www.ijcai.org/</a>
+<ul><li> <a href="http://www.ijcai.org/" target="_blank">http://www.ijcai.org/</a>
 </li></ul><p>
 </p>

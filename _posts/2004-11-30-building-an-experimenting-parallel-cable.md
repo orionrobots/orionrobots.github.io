@@ -6,7 +6,7 @@ tags: [parallel port, pc]
 ---
 # Introduction
 
-When you are experimenting and attaching to the <a class="wiki" href="/wiki/parallel_port.html" title="Parallel Port">Parallel Port</a>, you probably do not want to buy many DB25s, but rather connect to them easily and effectively.
+When you are experimenting and attaching to the <a href="/wiki/parallel_port.html" title="Parallel Port">Parallel Port</a>, you probably do not want to buy many DB25s, but rather connect to them easily and effectively.
 
 <img class="img-responsive" src="/galleries/gallery-1-common-images/119-parallel.gif"/>
 
@@ -16,7 +16,7 @@ Our solution is to build a small cable between a 26 pin ribbon connector (aka ID
 
 This cable was used for the [Simple Parallel Port LED Board](/2004/11/05/simple-parallel-port-led.html) and can be used for  and further projects.
 
-Please read the <a class="wiki" href="/wiki/robot_building_safety.html" title="Building robots can be dangerous - tips to help your safety">Robot Building Safety</a> guide, and then the <a class="wiki" href="/wiki/robot_tools.html" title="Tools that are often required to get started in robot building">Tools</a> guide before continuing.
+Please read the <a href="/wiki/robot_building_safety.html" title="Building robots can be dangerous - tips to help your safety">Robot Building Safety</a> guide, and then the <a href="/wiki/robot_tools.html" title="Tools that are often required to get started in robot building">Tools</a> guide before continuing.
 
 # Required Tools
 
@@ -26,7 +26,7 @@ Please read the <a class="wiki" href="/wiki/robot_building_safety.html" title="B
 *  Safety Goggles
 *  Clothes you don't mind getting solder on
 *  A good workspace with good lighting.
-*  A <a class="wiki" href="/wiki/multimeter.html" title="MultiMeter">Multimeter</a>
+*  A <a href="/wiki/multimeter.html" title="MultiMeter">Multimeter</a>
 
 # Required Parts
 
@@ -41,4 +41,4 @@ This is very simple, you take the ribbon cable, and line up the Red Wire with pi
 
 # Testing it
 
-Okay - this can be tedious, but is very much worth it before you plug anything into your relatively expensive computer. Using the <a class="wiki" href="/wiki/multimeter.html" title="MultiMeter">multimeter</a>, systematically test the pins on the DB25 making sure that none of them are shorting with any neighbours. Then testing that each pin on the DB25 links to a corresponding pin on the IDC.
+Okay - this can be tedious, but is very much worth it before you plug anything into your relatively expensive computer. Using the <a href="/wiki/multimeter.html" title="MultiMeter">multimeter</a>, systematically test the pins on the DB25 making sure that none of them are shorting with any neighbours. Then testing that each pin on the DB25 links to a corresponding pin on the IDC.

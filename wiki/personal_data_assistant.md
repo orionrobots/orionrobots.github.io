@@ -5,13 +5,13 @@ date: 2005-07-14 11:09:04
 ---
 Otherwise know as a PDA, these devices were small and handheld, a precursor to the smart phones that are now common. They were considered potential material to build robots, at least before the Raspberry Pi, Beaglebone were available.
 
-<a class="wiki" href="/wiki/palm_computer.html" title="Palm Computer">Palm Computer</a> and PocketPC were some of the original PDA brands.
+<a href="/wiki/palm_computer.html" title="Palm Computer">Palm Computer</a> and PocketPC were some of the original PDA brands.
 
-The basics of these were a CPU, <a class="wiki" href="/wiki/lcd.html" title="Liquid Crystal Display">LCD</a> Touch Screen, wireless communication port( <a class="wiki" href="/wiki/ir.html" title="Acronym for Infra Red">IR</a>, <a class="wiki" href="/wiki/wifi.html" title="Wireless Lan">WiFi</a> or <a class="wiki" href="/wiki/bluetooth.html" title="Bluetooth">BlueTooth</a> ) and various expansion systems.
+The basics of these were a CPU, <a href="/wiki/lcd.html" title="Liquid Crystal Display">LCD</a> Touch Screen, wireless communication port( <a href="/wiki/ir.html" title="Acronym for Infra Red">IR</a>, <a href="/wiki/wifi.html" title="Wireless Lan">WiFi</a> or <a href="/wiki/bluetooth.html" title="Bluetooth">BlueTooth</a> ) and various expansion systems.
 
 They could be used for robot control systems but they were not cheap, and needed additional electronics and software to interface them.
 
-They also came with odd and poorly documented connectors, although the, older Palm Computers were actually better for this because they have a connector that can be wired as a <a class="wiki" href="/wiki/rs232.html" title="A serial communication standard">standard serial port</a>.
+They also came with odd and poorly documented connectors, although the, older Palm Computers were actually better for this because they have a connector that can be wired as a <a href="/wiki/rs232.html" title="A serial communication standard">standard serial port</a>.
 
 There were efforts to port Linux on them - variants of embedded Linux and ucLinux. This would make them a great deal more versatile for general computation and interfacing - although possibly less easy to use. In the age of the Raspberry Pi, it would not be particularly rewarding.
 

@@ -10,7 +10,7 @@ date: 2005-03-16 15:57:34
 </p>
 <p>Artificial Life
 
-<a class="wiki" href="/wiki/genetic_algorithm.html" title="Genetic Algorithm">Genetic Algorithms</a>
+<a href="/wiki/genetic_algorithm.html" title="Genetic Algorithm">Genetic Algorithms</a>
 <br/>Neural Networks
 
 <br/>Natural Language Processing

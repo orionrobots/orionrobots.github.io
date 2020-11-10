@@ -22,7 +22,7 @@ Richer IDE's may have a number of other features:
 * Folding - Many IDE's allow code blocks to be collapsed so a more brief view of the file can be presented.
 * Code generation wizards - point and click processes to build file templates, complete classes or just simply help with little common blocks.
 * Round trip tools to go between code and design diagrams, like UML entity diagrams, and to go back too.
-* Code documentation tools to generate navigable <a class="wiki" href="/wiki/api.html" title="Acronym: Application Programming Interface">API</a> references.
+* Code documentation tools to generate navigable <a href="/wiki/api.html" title="Acronym: Application Programming Interface">API</a> references.
 * GUI Builder Tools - designers and wizards like GLADE.
 * Code formatting - The ability to refine the style of code, and fix things like indenting styles and where braces have ended up.
 * Refactoring - Renaming a function or variable, and having all references updated too.
@@ -41,5 +41,5 @@ Most programmers may occasionally turn to simple editors like notepad and vi, bu
 
 <h1 id="Lego_Programming">Lego Programming</h1>
 
-Bricxcc is an open source IDE aimed squarely at developing code for the <a class="wiki" href="/wiki/lego.html" title="The best known construction toy">Lego</a> programmable bricks like the <a class="wiki" href="/wiki/nxt.html" title="Legos NeXT generation robotics kit">NXT</a> and <a class="wiki" href="/wiki/rcx.html" title="The Lego Robot Command Explorer">RCX</a>. SciTE can also be used for this purpose and give satisfactory highlighting.
+Bricxcc is an open source IDE aimed squarely at developing code for the <a href="/wiki/lego.html" title="The best known construction toy">Lego</a> programmable bricks like the <a href="/wiki/nxt.html" title="Legos NeXT generation robotics kit">NXT</a> and <a href="/wiki/rcx.html" title="The Lego Robot Command Explorer">RCX</a>. SciTE can also be used for this purpose and give satisfactory highlighting.
 
