@@ -29,13 +29,13 @@ I will certainly be buying both systems, the gp2x at £124.99 and the breakout b
 
 ## Background Info
 
-* [USB](/wiki/usb "Universal Serial Bus")
-* [PDA's](/wiki/personal_data_assistant "Personal Data Assistant")
-* [RS232](/wiki/rs232 "A serial communication standard")
-* [serial](/wiki/serial_data_stream "Serial Data Stream")
-* [BlueTooth](/wiki/bluetooth "Bluetooth")
-* [NXT](/wiki/nxt "Lego's NeXT generation robotics kit")
-* [API's](/wiki/api "Acronym: Application Programming Interface")
+* [USB](/wiki/usb.html "Universal Serial Bus")
+* [PDA's](/wiki/personal_data_assistant.html "Personal Data Assistant")
+* [RS232](/wiki/rs232.html "A serial communication standard")
+* [serial](/wiki/serial_data_stream.html "Serial Data Stream")
+* [BlueTooth](/wiki/bluetooth.html "Bluetooth")
+* [NXT](/wiki/nxt.html "Lego's NeXT generation robotics kit")
+* [API's](/wiki/api.html "Acronym: Application Programming Interface")
 
 <iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=GB&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=orionrobots-21&marketplace=amazon&region=GB&placement=B01D8KOZF4&asins=B01D8KOZF4&linkId=5e31910339bc64587ceb3fdaddcf90bd&show_border=true&link_opens_in_new_window=true"></iframe>
 

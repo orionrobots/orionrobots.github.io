@@ -193,9 +193,8 @@ Redirect 301 /HomePage /index.html
 
 RewriteRule "^MegaByte.?Robot.?Dog$"    /2004/11/14/megabyte-robot-dog.html [R,NC,L]
 
-Redirect 301 /USB /wiki/universal_serial_bus
-Redirect 301 /wiki/lego_rcx /wiki/rcx
-Redirect 301 /lego /wiki/lego
+Redirect 301 /wiki/lego_rcx /wiki/rcx.html
+Redirect 301 /lego /wiki/lego.html
 
 RewriteCond  %{QUERY_STRING} imageId=122
 RewriteRule "^tiki-browse_image.php"           /2010/01/19/the-lego-rcx-inside-and-out.html?#photos-of-the-innards     [R,L,NE]
