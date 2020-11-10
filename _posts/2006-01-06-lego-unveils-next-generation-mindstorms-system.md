@@ -18,8 +18,8 @@ The [Lugnet Lego community](/wiki/lugnet "Lego Users Group Network") and Lego ho
 But then the company hit trouble, they lost touch with the Lugnet/AFOL community,
 and invested heavily in License deals.
 Lego produced a raft of badly received toys, and then announced that to save costs the company would rein in and focus its market again.
-During this time, the community rumour mill speculated, was the amazing [Mindstorms](/wiki/mindstorms "A Robotic construction toy system from Lego") to be dropped or revamped? 
-Lego stayed silent. They released the [Spybotics](/wiki/spybotics "Lego Programmable robot kits") kits, which were interesting, but fairly limited in comparison.
+During this time, the community rumour mill speculated, was the amazing [Mindstorms](/wiki/mindstorms.html "A Robotic construction toy system from Lego") to be dropped or revamped? 
+Lego stayed silent. They released the [Spybotics](/wiki/spybotics.html "Lego Programmable robot kits") kits, which were interesting, but fairly limited in comparison.
 
 During this time, the community continued to innovate, but the limitations of the RCX were becoming well known. 
 The RCX was too awkward to interface with, sure there were custom sensors, but it was such a task to create them. 
@@ -31,8 +31,7 @@ but not before voicing their issues publicly.
 <img src="/galleries/gallery-6-orions-images/359-mindstormsnxt.jpg" style="float: left; width: 20%">
 Lego were listening and, in secrecy, quested after some of the top contributors to the community,
 brought them together and formed the MUP - the Mindstorms User Panel.
-This included Steve Hassenplug, a driving force behind the [Great Ball Contraption](/wiki/great_ball_contraption "Great Ball Contraption") efforts, 
-from Lafayette, Indiana, along with John Barnes, David Schilling, and Ralph Hempel (who is known for his pneumatic compressor designs).
+This included Steve Hassenplug, a driving force behind the [Great Ball Contraption](/wiki/great_ball_contraption.html "Great Ball Contraption") efforts, from Lafayette, Indiana, along with John Barnes, David Schilling, and Ralph Hempel (who is known for his pneumatic compressor designs).
 Between them, and Lego's own Søren Lund, they conspired to create something amazing.
 
 On January the 4th, at the Consumer Electronics Show 2006, Lego announced the NXT - the Next step in the Mindstorms line.
