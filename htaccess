@@ -225,25 +225,23 @@ RewriteCond %{REQUEST_FILENAME} -f [OR]
 RewriteCond %{REQUEST_FILENAME} -d
 RewriteRule (.*) - [L]
 
-#RewriteRule ^/wiki/([^/.?]+).html$                 wiki/$1                   [QSA,L]
+# Search engine friendly urls
+# RewriteCond %{REQUEST_FILENAME} !-d
+# RewriteCond %{REQUEST_FILENAME}\.html -f
+# RewriteCond %{REQUEST_URI} ^(.+)\.html$
+# RewriteRule (.*)\.html$ /$1 [R=301,L]
 
-# If it ends in .html, but doesn't exist
-RewriteCond %{REQUEST_URI} .html$
-RewriteCond %{DOCUMENT_ROOT}/%{REQUEST_URI}.html !-f
-# But does exist as a path
-RewriteCond %{DOCUMENT_ROOT}/%{REQUEST_URI} -d
-# Strip off the html
-RewriteRule ^/?(.+[^/]).html$ /$1/ [R,L]
-## Direct to it and stop processing
-
-## Deal with the slashes/html issue. 
-## If it doesn't end with html and doesn't exist as file or directory
-RewriteCond %{REQUEST_URI} !.html$
-RewriteCond %{DOCUMENT_ROOT}/%{REQUEST_URI} !-d
-RewriteCond %{DOCUMENT_ROOT}/%{REQUEST_URI} !-f
-
+# ## Deal with the html issue. 
+# ## If it doesn't end with html and doesn't exist as file or directory
+# RewriteCond %{REQUEST_URI} !.html$
+# RewriteCond %{DOCUMENT_ROOT}/%{REQUEST_URI} !-d
+# RewriteCond %{DOCUMENT_ROOT}/%{REQUEST_URI} !-f
+# ## If the .html version exists
+# RewriteCond %{DOCUMENT_ROOT}/%{REQUEST_URI}.html -f
+# RewriteRule ^/?(.+[^/])/?$ /$1.html [R,L]
+# ## Direct to it and stop processing
 ## If the .html version exists
-RewriteCond %{DOCUMENT_ROOT}/%{REQUEST_URI}.html -f
+RewriteCond %{REQUEST_FILENAME}.html -f
 RewriteRule ^/?(.+[^/])/?$ /$1.html [R,L]
 ## Direct to it and stop processing
 </IfModule>
