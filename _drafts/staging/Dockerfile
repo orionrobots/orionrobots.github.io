@@ -1,3 +1,3 @@
-FROM httpd:latest
-COPY . /usr/local/apache2/htdocs/
-COPY httpd.conf /usr/local/apache2/conf/httpd.conf
+FROM centos/httpd:latest
+COPY . /var/www/html/
+COPY http2.conf /etc/httpd/conf/httpd.conf
