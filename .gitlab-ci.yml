@@ -102,7 +102,7 @@ build:test:
     - apt-get update -y && apt-get install -y curl
     - curl -I -L -f http://site/
     - curl -I -L -f http://site/construction_guide.html 
-
+    - curl -I -L -f https://site/wiki/lego
 deploy:
   stage: deploy
   only: [master]
@@ -119,6 +119,10 @@ deploy:
     - chmod 600 ~/.ssh/id_rsa
     - rsync -avv _site/ orionrobots_host:public_html
     - scp _site/htaccess orionrobots_host:public_html/.htaccess
+    # checks
+    - curl -I -L -f https://orionrobots.co.uk/
+    - curl -I -L -f https://orionrobots.co.uk/construction_guide.html 
+    - curl -I -L -f https://orionrobots.co.uk/wiki/lego
   environment:
       name: production
       url: https://orionrobots.co.uk
