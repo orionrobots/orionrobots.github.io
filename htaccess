@@ -50,6 +50,13 @@ ErrorDocument 501 /404.html
 <IfModule mod_rewrite.c>
 RewriteEngine On
 
+# If the URL points to a real existing item then do nothing
+RewriteCond %{REQUEST_FILENAME} -s [OR]
+RewriteCond %{REQUEST_FILENAME} -l [OR]
+RewriteCond %{REQUEST_FILENAME} -f [OR]
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteRule (.*) - [L]
+
 ## FORUMS
 
 # Forum topics redirect section
@@ -202,46 +209,12 @@ Redirect 301 /lego /wiki/lego.html
 RewriteCond  %{QUERY_STRING} imageId=122
 RewriteRule "^tiki-browse_image.php"           /2010/01/19/the-lego-rcx-inside-and-out.html?#photos-of-the-innards     [R,L,NE]
 
-RewriteRule ^wiki-([A-Za-z0-9]+)    wiki/$1                     [QSA,L]
-RewriteRule ^page-([A-Za-z0-9]+)    wiki/$1                     [QSA,L]
+RewriteRule ^wiki-([A-Za-z0-9]+)    wiki/$1.html                     [QSA,L]
+RewriteRule ^page-([A-Za-z0-9]+)    wiki/$1.html                     [QSA,L]
 
 
-# Rewrite rules to maintain any hard-coded URLs following http://dev.tiki.org/ImgDirectoryRevamp
-RewriteRule ^img/icons2/(.*)$ img/icons/$1 
-RewriteRule ^pics/large/(.*)$ img/icons/large/$1
-RewriteRule ^img/mytiki/(.*)$ img/icons/large/$1
-RewriteRule ^pics/(.*)$ img/$1
-RewriteRule ^images/(.*)$ img/icons/$1
 
-# Apache does not pass Authorization header to CGI scripts
-# Rewrite rules for passing authorisation in CGI or FGI mode
-RewriteCond %{HTTP:Authorization} ^(.*)
-RewriteRule ^(.*) - [E=HTTP_AUTHORIZATION:%1]
-
-# If the URL points to a file then do nothing
-RewriteCond %{REQUEST_FILENAME} -s [OR]
-RewriteCond %{REQUEST_FILENAME} -l [OR]
-RewriteCond %{REQUEST_FILENAME} -f [OR]
-RewriteCond %{REQUEST_FILENAME} -d
-RewriteRule (.*) - [L]
-
-# Search engine friendly urls
-# RewriteCond %{REQUEST_FILENAME} !-d
-# RewriteCond %{REQUEST_FILENAME}\.html -f
-# RewriteCond %{REQUEST_URI} ^(.+)\.html$
-# RewriteRule (.*)\.html$ /$1 [R=301,L]
-
-# ## Deal with the html issue. 
-# ## If it doesn't end with html and doesn't exist as file or directory
-# RewriteCond %{REQUEST_URI} !.html$
-# RewriteCond %{DOCUMENT_ROOT}/%{REQUEST_URI} !-d
-# RewriteCond %{DOCUMENT_ROOT}/%{REQUEST_URI} !-f
-# ## If the .html version exists
-# RewriteCond %{DOCUMENT_ROOT}/%{REQUEST_URI}.html -f
-# RewriteRule ^/?(.+[^/])/?$ /$1.html [R,L]
-# ## Direct to it and stop processing
-## If the .html version exists
-RewriteCond %{REQUEST_FILENAME}.html -f
+# Otherwise try appending .html onto it and stop.
+RewriteCond %{REQUEST_URI} !.html$
 RewriteRule ^/?(.+[^/])/?$ /$1.html [R,L]
-## Direct to it and stop processing
 </IfModule>
