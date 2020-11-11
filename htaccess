@@ -203,7 +203,6 @@ Redirect 301 /HomePage /index.html
 RewriteRule "^MegaByte.?Robot.?Dog$"    /2004/11/14/megabyte-robot-dog.html [R,NC,L]
 
 Redirect 301 /wiki/rcx.html /wiki/lego_rcx.html
-Redirect 301 /lego /wiki/lego.html
 Redirect 301 /wiki/ir /wiki/infra_red.html
 Redirect 301 /wiki/ir.html /wiki/infra_red.html
 
@@ -212,7 +211,6 @@ RewriteRule "^tiki-browse_image.php"           /2010/01/19/the-lego-rcx-inside-a
 
 RewriteRule ^wiki-([A-Za-z0-9]+)    wiki/$1.html                     [QSA,L]
 RewriteRule ^page-([A-Za-z0-9]+)    wiki/$1.html                     [QSA,L]
-
 
 
 # Otherwise try appending .html onto it and stop.
