@@ -193,7 +193,6 @@ RewriteRule "^Simple.?Parallel.?Port.?LED.?Board" /2004/11/05/simple-parallel-po
 RewriteCond  %{QUERY_STRING} page=Simple.?Parallel.?Port.?LED.?Board
 RewriteRule "^tiki-index.php" /2004/11/05/simple-parallel-port-led.html [R,L]
 
-
 RewriteRule "^Building.?An.?Experimenting.?Parallel.?Cable" /2004/11/05/simple-parallel-port-led.html [R,L]
 RewriteRule "^Apache.?Monitor.?With.?Python.?And.?An.?LED" /2004/11/14/apache-monitor-with-led.html [R,L]
 RewriteRule "^Robot.?Stores(.*)" /pages/robot-stores.html [R]
@@ -205,6 +204,8 @@ RewriteRule "^MegaByte.?Robot.?Dog$"    /2004/11/14/megabyte-robot-dog.html [R,N
 
 Redirect 301 /wiki/rcx.html /wiki/lego_rcx.html
 Redirect 301 /lego /wiki/lego.html
+Redirect 301 /wiki/ir /wiki/infra_red.html
+Redirect 301 /wiki/ir.html /wiki/infra_red.html
 
 RewriteCond  %{QUERY_STRING} imageId=122
 RewriteRule "^tiki-browse_image.php"           /2010/01/19/the-lego-rcx-inside-and-out.html?#photos-of-the-innards     [R,L,NE]
