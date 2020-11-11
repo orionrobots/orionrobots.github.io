@@ -102,7 +102,7 @@ build:test:
     - apt-get update -y && apt-get install -y curl
     - curl -I -L -f http://site/
     - curl -I -L -f http://site/construction_guide.html 
-    - curl -I -L -f https://site/wiki/lego
+    - curl -I -L -f http://site/wiki/lego
 deploy:
   stage: deploy
   only: [master]
