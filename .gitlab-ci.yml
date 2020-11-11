@@ -77,7 +77,7 @@ build:staging:
     - *auto_devops
   script:
     - cp _drafts/staging/Dockerfile _site/
-    - cp _drafts/staging/httpd.conf _site/
+    - cp _drafts/staging/http2.conf _site/
     - cd _site/
     - mv htaccess .htaccess
     - setup_docker
