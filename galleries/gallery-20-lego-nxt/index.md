@@ -1,3 +1,4 @@
+---
 description: Photos relating to the mindstorms NXT system
 images:
 - {caption: The first robot from the start here box in the home NXT kit. With an added

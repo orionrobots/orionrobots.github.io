@@ -1,3 +1,4 @@
+---
 description: Images from DorkBot Events that Danny Staple has attended. Read the Blog
   for more details.
 images:
@@ -9,3 +10,4 @@ images:
     09:52:00', name: Image025.jpg, src: !!python/unicode '281-image025.jpg', thumb-src: !!python/unicode 'thm-281-80x64-image025.jpg'}
 layout: autogallery
 name: DorkBotLondon
+---
