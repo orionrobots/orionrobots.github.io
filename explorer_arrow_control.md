@@ -269,8 +269,8 @@ monitor. We'll then build a small app to easily use arrow keys to send your comm
 For using a PC to control the Arduino - I am going to use Processing - this a match well made with the Arduino IDE
 you have already been using as it has a very similar look and there is a lot of documentation on interfacing with
 Arduino compatible boards like the one on the Explorer.
-Please download and install <a href='https://processing.org/download/?processing'>processing</a>. On Windows - please
-use only the 32 bit version as the serial library isn't yet 64 bit windows compatible.
+
+Please download and install [processing](https://processing.org/download/?processing).
 
 Once again, a little basic design - we already have our tethered Arduino which received serial commands.
 The basic processing Sketch will need to do the following:

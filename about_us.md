@@ -36,12 +36,11 @@ One of our aims is to make building robots easy and widely available as a hobby,
 These robot ideas are for you to make, explore and play with- they are not industrial robots or robots for factory lines.
 You can use our robot ideas for anything you like, ie small scale automation in your home or a small business if you customised it - but they are hobbyist things and we do not aim to compete with ABB.
 
-Orionrobots has run as a robotics blog and website since 2004, has run robot clubs and hosted a couple of robot building themed birthday parties. 
+Orionrobots has run as a robotics blog and website since 2004, has run robot clubs and hosted a couple of robot building themed birthday parties.
 
 We are proudly based in the Uk and always have been, but we will engage people from across the globe so anybody can have a go, or so we can try cool new things.
 
 we want to make robotics cheaper, easier and more accessible than it has ever been. Orionrobots hope to bring out the inventor in anyone!
-
 
 An experience shared is an experience enhanced.
 

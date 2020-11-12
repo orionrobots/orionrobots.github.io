@@ -39,27 +39,28 @@ The amazing NXT has rekindled the community interest, and further extends Mindst
 who will buy the set early at reduced price, and contribute to the total experience.
 
 <div style="float: right; width: 20%; bgcolor: lightgrey; border: 2px dashed black; padding: 2px;">
-<table>
-<tr><th>Key Features</th></tr>
-<tr><td>3 Intelligent Servo Motors with Feedback</td></tr>
-<tr><td>6 Pin RJ style IO Connectors</td></tr>
-<tr><th>4 Innovative Sensors</th></tr>
-<tr><td>Light and Colour</td></tr>
-<tr><td>Sound</td></tr>
-<tr><td>Touch</td></tr>
-<tr><td>Ultrasound</td></tr>
-<tr><th>Connectivity</th></tr>
-<tr><td>USB 2.0 Connection</td></tr>
-<tr><td>Bluetooth Port</td></tr>
-<tr><td>Possible Phone Cam use</td></tr>
-<tr><th>Lego Bricks:</th></tr>
-<tr><td>519 Element kit.</td></tr>
-<tr><td>"Organically Styled"</td></tr>
-<tr><td>Mostly "studless" elements</td></tr>
-<tr><th>Code</th></tr>
-<tr><td>New LABView based code system.</td></tr>
-<tr><td>Community engagement for languages and accessories</td></tr>
-</table>
+
+| Key Features
+| --------------------------------------------------
+| 3 Intelligent Servo Motors with Feedback
+| 6 Pin RJ style IO Connectors
+| 4 Innovative Sensors
+| Light and Colour
+| Sound
+| Touch
+| Ultrasound
+| Connectivity
+| USB 2.0 Connection
+| Bluetooth Port
+| Possible Phone Cam use
+| Lego Bricks:
+| 519 Element kit.
+| "Organically Styled"
+| Mostly "studless" elements
+| Code
+| New LABView based code system.
+| Community engagement for languages and accessories
+
 </div>
 
 The NXT looks like an iPod - sleek and beautiful.
@@ -70,17 +71,18 @@ In terms of expandability, there have been those asking "what about visual proce
 
 The kit it comes with will have 519 elements, mostly studless ("liftarm") based, as well as styling pieces for a more "organic" and less angular look - although, there are also elements for creating more square constructions, as during the design, Steve Hassenplug brought up how awkward it was to build square frames with them. There are new right angle parts, design for connecting studless beams more conveniently. 
 
-<img src="/galleries/2006-01-06-lego-unveils-next-gen-mindstorms/80x52_ElbowJoint.jpg">
+![](/galleries/2006-01-06-lego-unveils-next-gen-mindstorms/80x52_ElbowJoint.jpg)
 
 The RCX code system has also been dropped, in favour of LABview based software. RCX users familiar with Robolab will take to it easily, though [NQC](/wiki/nqc.html) (Not Quite C) users may find it alien, but it is supposed to aid rapid development and combined with the building elements, give a much faster time from concept to device. The software will run on Windows, and Mac, though there is no word on Linux port. This may be only a matter of time, if Lego are as open with this as they were with the RCX, before there will be many alternative software systems.
 
-<img src="/galleries/2006-01-06-lego-unveils-next-gen-mindstorms/NXTImage.jpg" style="float: left; width: 20%;">
+![](/galleries/2006-01-06-lego-unveils-next-gen-mindstorms/NXTImage.jpg)
+
 Lego and the MUP team have kept all of this visionary change under wraps until the 4th - and surprised us all with this. I am still reeling, but now I know where the budget is going!
 They left a couple of things out, for example an AC adaptor (which was available on the RCX 1.0), and they didn't take on the requests for a greater number of sensor or motor ports.
 Like many enthusiasts, I personally cannot wait to get one, and I will most definitely be applying to try to be one of the 100.
 
-<img src="/galleries/2006-01-06-lego-unveils-next-gen-mindstorms/MindstormsNXTArm.jpg" style="float: right; width: 20%">
+![](/galleries/2006-01-06-lego-unveils-next-gen-mindstorms/MindstormsNXTArm.jpg)
 
-# Links
+## Links
 
 * [Lugnet Announcement on Mindstorms NXT](http://news.lugnet.com/announce/?n=3121)

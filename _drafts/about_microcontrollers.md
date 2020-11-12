@@ -37,11 +37,12 @@ Find a simple and safe task - like walking through a door.
 
 You, the "robot", can only do what you are told to do by your friend - and the instructions they can use are:
 
-<table>
-    <tr><td>Turn Left/Right</td><td>You must start turning in the direction they say</td></tr>
-    <tr><td>Forward/Back</td><td>You must start walking in the given direction</td></tr>
-    <tr><td>Stop</td><td>You must stop. Continue doing other instructions until you here this one.</td></tr>
-</table>
+Instruction     | Description
+--------------- | -------------------------------------------------------------------------
+Turn Left/Right | You must start turning in the direction they say
+Forward/Back    | You must start walking in the given direction
+Stop            | You must stop. Continue doing other instructions until you here this one.
+
 
 Your friend, the "programmer" will call the instructions until you are done.
 It is good fun, and may take a bit of practice - so walk slowly so you don't get hurt. Feel free to make silly noises
@@ -53,9 +54,11 @@ carry them out.
 You will require a bit of paper and a pen for this one.
 
 Now the game gets a bit more complicated. I'll introduce one more instruction:
-<table>
-    <tr><td>Continue For 1 Step</td><td>Continue the previous instruction for the number of steps given.</td></tr>
-</table>
+
+Instruction         | Description
+------------------- | ----------------------------------------------------------------
+Continue For 1 Step | Continue the previous instruction for the number of steps given.
+
 
 The "robot" should try to keep their steps or turning steps the same length for this.
 The "programmer" should now try to write down the instructions needed to get you to the door on the paper.
@@ -66,7 +69,7 @@ Awesome - you can now both program!
 ## Programming the Arduino
 
 So how can we start to turn what you saw in the game into something real on the robot?
-In this excercise, you'll need the Arduino plugged into the PC as above, access to the internet, and a little bit
+In this exercise, you'll need the Arduino plugged into the PC as above, access to the internet, and a little bit
 of time.
 
 The Arduino is designed primarily for running programs - and you'll use the PC to get a program - a set of written
@@ -97,7 +100,7 @@ You should see the following:
     }
 
 What you have here is the skeleton of an Arduino program. There are two "comments" - these aren't instructions but
-explainations for you or another programmer to say what your program means. These are inside "functions" - blocks
+explanations for you or another programmer to say what your program means. These are inside "functions" - blocks
 of program that you put instructions in. We will put our new instructions (or new 'code') into the setup function,
 because we only want to run once when the reset button is pressed.
 

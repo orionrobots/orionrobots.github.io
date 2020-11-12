@@ -4,7 +4,7 @@ title: Orion Explorer 1 Construction Guide | Page 2
 description: Building The Explorer 1 Robot | Page 2
 asset_location: /assets/construction_guide
 ---
-<a href="construction_guide.html">Construction Guide | First Page</a>
+[Construction Guide | First Page](construction_guide.html)
 
 # Building the Orion Explorer 1 | Page 2
 
@@ -55,12 +55,10 @@ The Robot should light up. There should be a blinking LED on the Arduino.
 
 ## Step 10 - Running your first program on it
 
-* Do not put the wheels on the robot yet!
-* Download the <a href="https://www.arduino.cc/en/Main/Software">Arduino app</a> on your computer from
-  
-* Follow the On-site instructions to install it. This works for Linux, Mac and Windows
-* For Windows 8 users: <a href="https://www.youtube.com/watch?v=CdE72XUYC7k">Installing the Arduino
-UNO under Windows 8</a>. Other OS's will not require this
+- Do not put the wheels on the robot yet!
+- Download the [Arduino app](https://www.arduino.cc/en/Main/Software) on your computer.
+- Follow the On-site instructions to install it. This works for Linux, Mac and Windows
+- For Windows 8 users: [Installing the Arduino UNO under Windows 8](https://www.youtube.com/watch?v=CdE72XUYC7k). Other OS's will not require this
 
 ### The Arduino IDE loaded
 
@@ -69,15 +67,16 @@ You should see something a bit like this when you've completed the above.
 
 ### Get My Starting Code
 
-The basic code for getting the robot running is on Github.
-<a href="http://github.com/dannystaple/OrionExplorerOneBasic/archive/june_2013.zip">Download the current release.</a>
+The basic code for getting the robot running is on Github. <a href="<http://github.com/dannystaple/OrionExplore>
+rOneBasic/archive/june_2013.zip">Download the current release.</a>
 Unzip this. Then open SimpleMotorBot/SimpleMotorBot.ino in the Arduino app.
 
 ![]({{ page.asset_location }}/step_10_2.png)
-* Click the highlighted button to send it to your robot.
-* The motors will turn on for a few seconds and then stop.
-* If you were impatient and put the wheels on the robot be prepared to catch it!
-* You can now unplug the robot
+
+- Click the highlighted button to send it to your robot.
+- The motors will turn on for a few seconds and then stop.
+- If you were impatient and put the wheels on the robot be prepared to catch it!
+- You can now unplug the robot
 
 ## Step 11 - Putting The Wheels On
 
@@ -111,4 +110,4 @@ The robot should start to move!
 ## It moves! Where to go from here...
 
 The robot is now ready for you to start playing with the program, or adding sensors.
-The <a href="/getting_started">Getting Started</a> section has more.
+The [Getting Started](/getting_started) section has more.
