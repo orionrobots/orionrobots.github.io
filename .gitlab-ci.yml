@@ -59,6 +59,7 @@ build:site:
   image: jekyll/builder:3
   stage: build
   script:
+    - gem install jekyll-toc
     - jekyll build
   artifacts:
     paths:
