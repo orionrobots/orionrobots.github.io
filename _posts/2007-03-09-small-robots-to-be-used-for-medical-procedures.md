@@ -5,7 +5,9 @@ tags: [robot,biology,medicine]
 title: Small robots to be used for medical procedures
 layout: post
 ---
-<div align="center">![](image434)</div>
+<div align="center">
+  <img src="/galleries/gallery-6-orions-images/434-minibot.jpg" alt="">
+</div>
 This was almost an inevitable, small robots, designed to be placed through an incision, can now be used for small scale medical procedures. This kind of technology has been predicted for some time by SciFi, and will pave the way to plenty of fantastic, and some quite worrying developments.
 
 The robots, developed by The Ritsumeikan University and announced on the 26th February 2007, are about 20mm long by 10mm wide.
