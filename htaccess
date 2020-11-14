@@ -206,6 +206,8 @@ Redirect 301 /wiki/rcx.html /wiki/lego_rcx.html
 Redirect 301 /wiki/ir /wiki/infra_red.html
 Redirect 301 /wiki/ir.html /wiki/infra_red.html
 Redirect 301 /wiki/usb.html /wiki/universal_serial_bus.html
+Redirect 301 /wiki/servo.html /wiki/servo_motor.html
+
 
 RewriteCond  %{QUERY_STRING} imageId=122
 RewriteRule "^tiki-browse_image.php"           /2010/01/19/the-lego-rcx-inside-and-out.html?#photos-of-the-innards     [R,L,NE]

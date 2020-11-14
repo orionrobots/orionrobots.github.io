@@ -11,4 +11,3 @@ Build:
     $ export DOCKER_HOST=ssh://sammy@your_server_ip
     $   docker run --rm -it -p 4000:4000 -v $(pwd):/srv/jekyll jekyll/builder:3 bash
     # jekyll build (or serve)
-    
