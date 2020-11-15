@@ -15,7 +15,7 @@ I rather eagerly opened it up, and put the free Duracell batteries to good use e
 
 ## Trying it out
 
-Connecting all the motors and sensor to the brick, I started it up, approving the cute sound, and started the tests. Kind of mixed results to be fair. I was a little disappointed with the light sensor, which is marketed as "detects different colours" - it is actually simply detecting light intensity, as the [RCX](/wiki/rcx "The Lego Robot Command Explorer") light sensor did, and does not compare with the HiTechnic Light Sensor, which uses three different colour sensors. The NXT light sensor can effectively differentiate many colours though, especially those of its two primary coloured playing balls.
+Connecting all the motors and sensor to the brick, I started it up, approving the cute sound, and started the tests. Kind of mixed results to be fair. I was a little disappointed with the light sensor, which is marketed as "detects different colours" - it is actually simply detecting light intensity, as the [RCX](/wiki/lego_rcx "The Lego Robot Command Explorer") light sensor did, and does not compare with the HiTechnic Light Sensor, which uses three different colour sensors. The NXT light sensor can effectively differentiate many colours though, especially those of its two primary coloured playing balls.
 
 The motor rotation sensors accuracy impressed me - after putting a nice long beam on it, I could accurately position it to the degree and have it detect it. Not bad. I did not test how much drift there is after a few rotations, and perhaps I should do.
 

@@ -1,14 +1,13 @@
 ---
 layout: page
-title: MDP
+title: The Mindstorms Developer Panel (MDP)
 date: 2006-03-14 16:58:39
 ---
-<p>This is a group of 100 <a href="/wiki/lego.html" title="The best known construction toy">Lego</a> enthusiasts brought together to develop for, beta test, and suggest new features/functionality for the <a href="/wiki/lego.html" title="The best known construction toy">Lego</a> <a href="/wiki/mindstorms.html" title="A Robotic construction toy system from Lego">Mindstorms</a> <a href="/wiki/nxt.html" title="Legos NeXT generation robotics kit">NXT</a> in early 2006.
-</p>
-<p>The group were selected from over 6000 applicants, and represented many walks of life, and most of the world, although there was a little over representation of IT people, and US residents.
-</p>
-<h1  id="Links">Links</h1>
-<ul><li> <a  href="http://orionrobots.co.uk/-- review bloglink --?blogId=1&amp;postId=62" rel="external" target="_blank">Lego announce US educational prices for range of NXT products</a>
-</li><li> <a  href="http://orionrobots.co.uk/-- review bloglink --?blogId=1&amp;postId=67" rel="external" target="_blank">Lego MDP for NXT Poll</a> - Tell us your experiences of trying to join the MPD.
-</li><li> <a  href="http://orionrobots.co.uk/-- review bloglink --?blogId=1&amp;postId=63" rel="external" target="_blank">Lego announces MPD selection process complete</a>
-</li></ul>
+This is a group of 100 [Lego](/wiki/lego.html "The best known construction toy") enthusiasts brought together to develop for, beta test, and suggest new features/functionality for the [Lego](/wiki/lego.html "The best known construction toy") [Mindstorms](/wiki/mindstorms.html "A Robotic construction toy system from Lego") [NXT](/wiki/nxt.html "Legos NeXT generation robotics kit") in early 2006.
+
+The group were selected from over 6000 applicants, and represented many walks of life, and most of the world, although there was a little over representation of IT people, and US residents.
+
+## Links
+
+- [Lego announce US educational prices for range of NXT products]({% post_url 2006-03-03-lego-announce-us-educational-prices-for-range-of-nxt-products %})
+- [Lego announces MPD selection process complete]({% post_url 2006-03-03-lego-announces-mpd-selection-process-complete %})

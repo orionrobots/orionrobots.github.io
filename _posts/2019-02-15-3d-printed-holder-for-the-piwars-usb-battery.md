@@ -61,9 +61,9 @@ I had a few ideas, and I toyed with them for a couple of weeks.
 * Create some cylindrical clips with a big front plate to hold the battery in place. I would 3D print the clips and the curvy part they would lock into. I decided this would be too hard to design and print within tolerances and could be bulky also.
 * Encasing it into the robot, and making a breakout board to charge the battery without removing it. I got as far as designing the board for this in KiCAD before I decided this was getting too complicated and was overkill.
 
-None of this seemed right, I was ready to give up on putting them underneath and put them on the top, but then it hit me, I could have curvy guide rails, 3d printed, and a clip with some detents (positions it would happily sit in) to keep the battery in place. Once I had this idea, it took about 3 hours to design it. I needed to account for the bolts holding the side brackets in place, and the top plate, but better yet  I could use those to mount the rail. 
+None of this seemed right, I was ready to give up on putting them underneath and put them on the top, but then it hit me, I could have curvy guide rails, 3d printed, and a clip with some detents (positions it would happily sit in) to keep the battery in place. Once I had this idea, it took about 3 hours to design it. I needed to account for the bolts holding the side brackets in place, and the top plate, but better yet  I could use those to mount the rail.
 
-Fusion 360 (my current 3D cad software) definitely delivered, although I had a few issues with performance. I had modelled the battery a couple of weeks ago when I first started on this problem. I also had most of the robot chassis modelled. I had been able to use that to design the Raspberry Pi mount, and the front Camera/sensor assembly. 
+Fusion 360 (my current 3D cad software) definitely delivered, although I had a few issues with performance. I had modelled the battery a couple of weeks ago when I first started on this problem. I also had most of the robot chassis modelled. I had been able to use that to design the Raspberry Pi mount, and the front Camera/sensor assembly.
 
 The Gearboxes and side brackets were partially modelled, but not in the same Fusion assembly.
 
@@ -73,7 +73,7 @@ For the rail, I started by placing planes to model the constraints of the clip, 
 
 I was then able to extrude this sketch out to the length of the battery pack. I projected the mounting holes for the other parts from the chassis into a new sketch and used this to cut rectangles around them to get nuts on to them, and holes for the screws to go through. This would let me slide the battery in, but it would keep sliding. So upon the innermost end of the rails, I sketched on the end of the rail, creating a lip that would stop the movement of the battery pack.
 
-![The Clip Design Mark 1](/galleries/2019/02/14-printable-usb-battery-holder/battery_clips.png){:class="img-responsive"}
+![The Clip Design Mark 1](/galleries/2019/02/14-printable-usb-battery-holder/battery-clips.png){:class="img-responsive"}
 
 I then needed some clips for the outermost end. For this, I created a hole for a screw, going through to one of the rectangles I cut earlier so I could put a nut the other end of it. Beside this screw hole, I use rounded rectangle shallow cuts, which would be the detents - the positions that the clip would be able to rest at. 
 

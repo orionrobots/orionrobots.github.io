@@ -11,8 +11,6 @@ A Happy New Year to all my readers.
 
 2008 has been interesting to say the least. Here are what I see as important for OrionRobots:
 
-![Honda Clarity FCX](/galleries/gallery-6-orions-images/256px-Honda_Clarity_Fuel_Cell_IMG_0301.jpg){:class="img-responsive"}
-
 It has brought us the first true to market fuel cell car - the Honda FCX Clarity, which by pushing fuel cells further into the mainstream, brings the possibility of seeing them in robots and laptop computers closer.
 
 2008 has also brought the economic gloom we know, but this may be an opportunity for change. While companies like Woolworths, a fairly old UK High street chain, have sunk under, companies like eBay and Amazon have had the best year ever - online shopping has almost become the main method during the Christmas rush.

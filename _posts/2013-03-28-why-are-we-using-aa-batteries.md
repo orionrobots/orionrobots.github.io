@@ -6,7 +6,7 @@ tags: [batteries, electronics, orion explorer 1, power, robot building, robots]
 A question that I have been asked a few times now is why the Orion Explorer 1 Robot kit comes with an AA battery box and not some customised battery decision. I'd like to explain why this was chosen.
 
 {%assign gallery="/galleries/2013-03-28-why-are-we-using-aa-batteries" %}
-[{{gallery}}/1-IMG_0818_compact.JPG](6xAA battery box)
+![6xAA battery box]){{gallery}}/1-IMG_0818_compact.JPG)
 
 The first is that AA batteries are easily replaceable. Specialist batteries would be hard to replace and expensive. Rechargeable batteries do eventually stop charging - have you ever tried to get replacement batteries for an old laptop? AAs can be found in shops everywhere.
 
