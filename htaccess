@@ -19,14 +19,6 @@
 # Using ETags will improve the YSlow scores
 FileETag none
 
-# If the site is stable, might be worth setting the expires header on all files for optimization.
-<IfModule mod_expires.c>
-	<FilesMatch "\.(js|png|gif|jpg|css|ico)$">
-		ExpiresActive on
-		ExpiresDefault "access plus 6 months"
-	</FilesMatch>
-</IfModule>
-
 ErrorDocument 404 /404.html
 ErrorDocument 401 /401.html
 ErrorDocument 403 /403.html
@@ -43,9 +35,6 @@ ErrorDocument 501 /404.html
     # SPECIFY FOOTER FILE
     ReadmeName /directory_footer.html
 </IfModule>
-
-# Permanent redirect: Add directive as the example below. This is useful if you were using another Web application or static HTML and you want to avoid broken links.
-# Redirect 301 /oldpage.html /tiki-index.php?page=newpage
 
 <IfModule mod_rewrite.c>
 RewriteEngine On
