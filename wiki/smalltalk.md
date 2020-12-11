@@ -16,7 +16,7 @@ Modern implementations include Squeak - which is available on Linux and other pl
 ## Links
 
 - [Smalltalk on Wikipedia](http://en.wikipedia.org/wiki/Smalltalk)
-- <http://www.smalltalk.org>
+- <http://www.squeak.org>
 
 ## Related
 

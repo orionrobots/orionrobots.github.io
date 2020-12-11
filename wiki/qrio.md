@@ -9,6 +9,6 @@ Its name is derived from "Quest for cuRIOsity" as they seek to replicate the cur
 
 This android) is very much designed for human interactivity - and although expensive - is well on its way to a robot playmate rather like ((Isaac Asimov's Robby. It has a very smooth lifelike movement - and not the jerkiness normally associated with robots. Capable of basic conversation, facial recognition and its own navigation/information gathering - there is clearly some fairly interesting artificial intelligence behind it.
 
-But don't take our word for it - see it yourself at their site: <http://www.sony.net/SonyInfo/QRIO/>
+But don't take our word for it - see it yourself: <https://www.youtube.com/watch?v=bllJXLpNecg>
 
 ![](/galleries/gallery-1-common-images/67-qrio1.jpg)

@@ -5,7 +5,7 @@ date: 2008-12-18 23:20:17
 ---
 The East Finchley Robotics Club ran from 2004-05.
 
-OrionRobots ran weekly robot related events in <a  href="http://www.mypropertyguide.co.uk/region/display/23/east-finchley.htm" rel="external" target="_blank">East Finchley</a> , London, UK. <a href="/wiki/roboteers.html" title="Roboteers">Roboteers</a> from anywhere in the UK were welcome. It was also an opportunity for robot builders in North London to get together and exchange <a href="/wiki/building_tips.html" title="Hints and helpers for actually building robots, and other stuff.">Building Tips</a>.
+OrionRobots ran weekly robot related events in East Finchley , London, UK. <a href="/wiki/roboteers.html" title="Roboteers">Roboteers</a> from anywhere in the UK were welcome. It was also an opportunity for robot builders in North London to get together and exchange <a href="/wiki/building_tips.html" title="Hints and helpers for actually building robots, and other stuff.">Building Tips</a>.
 
 Challenges - All of our challenges will require entrants to present their robots, maybe give a little background, and demonstrate it working. Points will be awarded for size, innovation, efficiency, style and power consumption.
 

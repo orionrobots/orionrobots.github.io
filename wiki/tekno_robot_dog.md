@@ -38,4 +38,3 @@ The Tekno 2.0 was similar, but also came with a wireless remote control.
 * [Instructions for Tekno Robot Puppy](http://www.virtualpet.com/vp/faq/instruct/archive/tekno%20puppy.pdf)
 * [Instructions for Tekno Newborn Puppy](http://www.virtualpet.com/vp/faq/instruct/archive/tekno%20newborn.pdf)
 * [Virtual Pets Page on Tekno](http://www.virtualpet.com/vp/farm/tekno/tekno.htm) - This includes images of the circuit boards and an early scan of the schematic as well as more basic information.
-* [Tekno or Robotpet - Which One Is For You?:RoboCommunity](http://www.robocommunity.com/article/10425/Tekno-or-Robopet---Which-Robotic-Dog-Is-For-You-/)

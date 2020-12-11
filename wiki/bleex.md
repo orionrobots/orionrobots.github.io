@@ -19,4 +19,3 @@ This technology was demonstrated at the DARPATech Symposium in March 2004.
 - [DARPA](/wiki/darpa.html "Defense Advanced Research Projects Agency")
 - [UC Berkely News on the Bleex](http://www.berkeley.edu/news/media/releases/2004/03/03_exo.shtml)
 - [UC Berkeley](http://me.berkeley.edu/hel/bleex.htm)
-

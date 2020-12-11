@@ -44,7 +44,6 @@ The 8051 is a somewhat venerable processor type, but are often present on quite 
 ## Links
 
 - <http://www.avrfreaks.net> - AVR Freaks - need we say more?
-- <http://electrons.psychogenic.com/avr/> - AVR Newbies Resource
 - <http://en.wikipedia.org/wiki/PIC_microcontroller> - Wikipedias PIC Page
 - <http://en.wikipedia.org/wiki/Atmel_AVR> - Wikipedia on the Atmel AVR
 - <http://www.makezine.org/> - Make magazine readers are often using microcontrollers of sorts at the heart of electronic gadgets
