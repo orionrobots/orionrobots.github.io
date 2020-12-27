@@ -2,11 +2,9 @@
 <a href="{{ link_url }}">
 <img width="200px" src="{{image}}" />
 <p width="200px">{{ description }}</p></a>
-<a href="//www.pinterest.com/pin/create/button/?url={{production_url}}/{{ link_url }}
-        &amp;media={{production_url}}/{{ image }}
-        &amp;description={{ description }}"
-        data-pin-do="buttonPin"
-        data-pin-config="beside">
-        <img src="//assets.pinterest.com/images/pidgets/pin_it_button.png" />
-    </a>
+<a href="https://www.pinterest.com/pin/create/button/"
+    data-pin-do="buttonPin"
+    data-pin-description="{{ description }}"
+    data-pin-media="{{production_url}}/{{ image }}"
+></a>
 </div>

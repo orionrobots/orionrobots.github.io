@@ -97,7 +97,7 @@
           <article id="col-main" class="content col-md-8">
             <div class="gcse-searchresults"></div>
             <h2 class="page-header">{{ page.title }} {% if page.tagline %}<small>{{page.tagline}}</small>{% endif %}</h2>
-            {% include social-sharing %}
+            {% include social-sharing.html %}
             {% unless page.tags == empty %}
                 <nav><ul id="tags" class="nav nav-pills">
                   {% assign tags_list = page.tags %}
