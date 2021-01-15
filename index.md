@@ -11,21 +11,21 @@ You can see my latest videos on [Orionrobots Youtube](https://youtube.com/orionr
 
 You can reach me on twitter [@orionrobots](https://twitter.com/orionrobots)
 
-# Learn Robotics Programming - With my new book!
+## Learn Robotics Programming - Second Edition!
 
-Danny Staple has just completed writing a book on making and programming a robot using a Raspberry Pi and Python. 
-This robot has many sensors, including the camera which it uses to sense coloured objects and drive towards them, or faces which it
-can point its "head" at. You can drive the robot with your phone, make it avoid walls, follow lines and make
-a mycroft based voice assistant to control the robot by speaking.
+You can start making your own robot with the book Danny Staple has written on the subject. Learn Robotics programming takes a step-by-step approach to making and programming robots. The book shows how to do so using a Raspberry Pi and Python3.
+
+Build a robot with ultrasonic sensors to detect distances, a camera for computer vision which it uses to sense coloured objects and drive towards them, or track faces and point its "head" at them. See how to write code to drive the robot with your phone, make it avoid walls, follow lines and make
+a voice recognition assistant to control the robot by speaking.
 
 <div style="margin-left: auto; margin-right: auto;">
-<a href="https://www.packtpub.com/hardware-and-creative/learn-robotics-programming"><img src="/galleries/2019/learn-robotics-programming/cover.jpg" class="img-responsive"><br/>
-Learn Robotics Programming | PACKT Books</a>
+  <a href="http://packt.live/2XccaKe"><img src="/galleries/learn-robotics-programming-2nd-edition/learn-robotics-programming-2nd-cover.jpg" class="img-responsive"><br />
+  Learn Robotics Programming 2nd Edition. Build and control autonomous robots with a Raspberry Pi and Python 3.</a>
 </div>
 
 <img src="/galleries/2018-11-25-robotics-book-info/2-robots-beer.jpg" alt="Two Robots Made Using The Book" class="img-responsive">
 
-# Recent Posts
+## Recent Posts
 
 <ul class="posts">
   {% for post in site.posts %}{% if forloop.index < 4 %}
@@ -53,10 +53,10 @@ Learn Robotics Programming | PACKT Books</a>
 {% assign link_url="/2013/05/23/building-a-bump-sensor" %}
 {% include pin_image_link.html %}
 
-# Events
+## Events
 
 [Robot Events](wiki/robot_events.html)
 
-# Policies
+## Policies
 
 <a href="/wiki/terms_and_conditions.html" title="Terms And Conditions">Terms And Conditions</a>
