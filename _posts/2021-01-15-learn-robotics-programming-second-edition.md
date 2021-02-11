@@ -8,7 +8,7 @@ Hello, I've some great news.
 
 On February 12th, 2021, Learn Robotics Programming 2nd Edition will be released and is now on pre-order!
 
-![Learn robotics Programming 2nd Edition Cover](/galleries/learn-robotics-programming-2nd-edition/learn-robotics-programming-2nd-cover.jpg)
+[![Learn robotics Programming 2nd Edition Cover](/galleries/learn-robotics-programming-2nd-edition/learn-robotics-programming-2nd-cover.jpg)](http://packt.live/2XccaKe)
 
 This is a step-by-step guide to building a #RaspberryPi #python #robot. Pick up #robotics fundamentals.
 
