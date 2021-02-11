@@ -56,7 +56,7 @@ stages:
   
 build:site:
   tags: [docker]
-  image: jekyll/builder:3
+  image: jekyll/builder:4
   stage: build
   script:
     - gem install jekyll-toc
