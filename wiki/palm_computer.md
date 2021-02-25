@@ -11,7 +11,7 @@ While linux says "Everything is a file", and windows makes it up as it goes alon
 
 There are program to interface their [Infra Red](/wiki/infra_red.html "A type of EM radiation commonly used for digital communications") ports with [Cybot](/wiki/cybot.html "Cybot") and the [Lego RCX](/wiki/rcx.html "The Lego RCX"). There are also programs to interface 3-series serial ports with other serial devices. Quite versatile - abd you can store all your phone numbers on them as well...
 
-[PPRK](/wiki/pprk.html "Palm Pilot Robot Kit") - Palm Pilot Robot Kit
+[PPRK](/2005/02/25/pprk.html "Palm Pilot Robot Kit") - Palm Pilot Robot Kit
 
 ### The Ultimate Palm Robot
 
