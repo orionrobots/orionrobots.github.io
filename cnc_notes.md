@@ -8,6 +8,8 @@ title: Home
 
 This is a Collection of notes on my adventures in CnC.
 
+We bought a CnC Machine, intending to use it to prototype new robot stuff, and because prototype fabrication is a fun use of robotics.
+
 I am new to this, but have experience with 3d cad, electronics, robotics, microcontrollers and code - so I should be able to get what I want out of it.
 License
 
