@@ -34,7 +34,7 @@ Pin No  | Name                         | Direction In/out | Register | Hardware 
 
 In the table - when hardware inverted is yes, it means that when you write a 1 to this pin, it will output a 0, and vice versa.
 
-You can learn to connect things to this, and program this port at our [Simple Parallel port LED Board](/wiki/simple_parallel_port_led_board.html "How to attach and program an LED to the parallel port on a PC") article.
+In the past, this was used to connect many peripherals, like you would now use the IO pins of a Raspberry Pi or Arduino. You can learn to connect things to this, and program this port at our [Simple Parallel port LED Board](/2004/11/05/simple_parallel_port_led.html "How to attach and program an LED to the parallel port on a PC") article.
 
 - [Jan Axelson's Parallel Port FAQ](http://janaxelson.com/jansfaq.htm) is somewhat helpful if you are having trouble with this.
 - [Interfacing to The IBM-PC Parallel Printer Port](http://www.massmind.org/techref/io/parallel/par.html) A nice resource with a few more projects to try.

@@ -47,7 +47,7 @@ Standalone digital oscilloscopes are fairly expensive. They offer the ability to
 
 ### PC based
 
-PC based oscilloscopes are now widely available, both [USB](/wiki/usb "Universal Serial Bus") and internal ones. These are very cheap, much cheaper than oscilloscopes have ever been, and are making this vital instrument available to many more hobbyists.
+PC based oscilloscopes are now widely available, both [USB](/wiki/universal_serial_bus "Universal Serial Bus") and internal ones. These are very cheap, much cheaper than oscilloscopes have ever been, and are making this vital instrument available to many more hobbyists.
 
 They tend to delegate a lot of their operation to software, and it is worth being aware as much of the software abilities as the hardware. after all - many use their own custom drivers and the software is not often interchangeable.
 
