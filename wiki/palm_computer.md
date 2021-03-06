@@ -1,9 +1,10 @@
 ---
 layout: page
 title: Palm Computer
+tags: [computing]
 date: 2005-08-28 09:43:21
 ---
-These are [Personal Data Assistant](/wiki/personal_data_assistant.html "Personal Data Assistant")s with a rather nice Operating System and a slightly different way of thinking.
+These were [Personal Data Assistant](/wiki/personal_data_assistant.html "Personal Data Assistant")s with a rather nice Operating System and a slightly different way of thinking.
 
 They are also commonly referred to as Palm Pilot's - the name of the original first model.
 

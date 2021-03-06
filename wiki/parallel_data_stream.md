@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Parallel Data Stream
+tags: [electronics, computing]
 date: 2004-11-20 01:47:19
 ---
 This style is best used for short range communications.

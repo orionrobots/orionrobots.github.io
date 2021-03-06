@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Oscilloscope
+tags: [electronics]
 date: 2008-11-03 11:13:38
 ---
 ![](/galleries/gallery-8-signal-generator-diode-bridge/315-full-wave.jpg)
@@ -20,6 +21,10 @@ Now you may find that the trace is only very slight, taking up the very middle o
 Many oscilloscopes allow dual trace, or more traces, which means they have more than one "vertical" input, all controlled by the same horizontal input. The ability to see more than one signal on the screen can be useful.
 
 Some allow you to hold a waveform, so you can see it for a little longer - this is useful on a very slow trace, where persistence of vision may not apply so well.
+
+<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=GB&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=orionrobots-21&language=en_GB&marketplace=amazon&region=GB&placement=B07XBL4BTL&asins=B07XBL4BTL&linkId=02a40c7b024853f9be695d9869544bb1&show_border=true&link_opens_in_new_window=true"></iframe>
+<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=GB&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=orionrobots-21&language=en_GB&marketplace=amazon&region=GB&placement=B0833X3RFK&asins=B0833X3RFK&linkId=58425c294144d37e3ebf27bdcea16295&show_border=true&link_opens_in_new_window=true"></iframe>
+<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=GB&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=orionrobots-21&language=en_GB&marketplace=amazon&region=GB&placement=B06XZML6RD&asins=B06XZML6RD&linkId=f1107f6fb688124aeffcdfb7324e8c46&show_border=true&link_opens_in_new_window=true"></iframe>
 
 ## Types of Oscilloscope
 
@@ -51,7 +56,7 @@ PC based oscilloscopes are now widely available, both [USB](/wiki/universal_seri
 
 They tend to delegate a lot of their operation to software, and it is worth being aware as much of the software abilities as the hardware. after all - many use their own custom drivers and the software is not often interchangeable.
 
-Recently one of the popular electronics magazines (Elecktor Electronics - September 2005) did a roundup of USB ones, and their quality and features vary wildly, but they are definitely available in the sub £100 band right up into thousands.
+In 2005 one of the popular electronics magazines (Elecktor Electronics - September 2005) did a roundup of USB ones, and their quality and features vary wildly, but they are definitely available in the sub £100 band right up into thousands.
 
 As they do not need to carry their own display, they are a lot smaller than any of the standalone types, and some are good enough to be pocket sized, and then combined with a laptop for measurement.
 

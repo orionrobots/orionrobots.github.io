@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Parallel Port
+tags: [electronics, computing]
 date: 2005-03-16T22:43:35.000Z
 ---
 Most PCs come with this port, traditionally used for connecting printers, and sometimes hobbyist kits like our [Simple Parallel port LED Board]({% post_url 2004-11-05-simple-parallel-port-led %}) "How to attach and program an LED to the parallel port on a PC"). Some newer ones have however done away with this with the rise of the [USB](/wiki/universal_serial_bus.html "Universal Serial Bus") printers.
