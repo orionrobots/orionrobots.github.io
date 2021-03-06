@@ -1,6 +1,6 @@
 ---
 created: 2018-01-01 21:45:09
-tags: [travel, robots, videos, edutech]
+tags: [travel, robots, robotics, raspberry pi, videos, edutech]
 title: Wrap Up Of The Year 2017
 layout: post
 author: Danny

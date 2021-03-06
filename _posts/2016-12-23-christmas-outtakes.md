@@ -1,6 +1,6 @@
 ---
 layout: post
-tags: [robots, electronics, humour]
+tags: [robots, electronics, video, humour]
 title: 2016 Christmas Outtakes
 ---
 First I have some goodies for the lab - for Helena, the Explorer Hat Pro Parts Kit and a Kitronic Motor Board for her to use with her microbit.

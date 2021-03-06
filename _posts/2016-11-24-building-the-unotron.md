@@ -1,6 +1,6 @@
 ---
 layout: post
-tags: [robots, electronics, arduino, 4tronix, jonathan, servo]
+tags: [robots, robotics, electronics, arduino, 4tronix, arduino, servo]
 title: Building a 4tronix UnoTron Robot
 ---
 

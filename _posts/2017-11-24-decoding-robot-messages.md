@@ -1,6 +1,6 @@
 ---
 layout: post
-tags: [code, python, programming, fun]
+tags: [code, python, robotics, robot, education, programming, fun]
 title: Decoding robot messages
 ---
 There are crazy sales this weekend at some of my favourite places to buy stuff to play with. Pimoroni, The PiHut and Cool Components are all having fun.

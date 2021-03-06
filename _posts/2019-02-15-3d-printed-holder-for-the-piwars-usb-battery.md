@@ -10,7 +10,7 @@ I've finally designed a USB Battery mount for my PiWars 2019 robot. I designed t
 
 Perhaps to find out why effort has gone into this, it's worth going back to previous PiWars. Piwars is a robot challenge event where teams build robots around a Raspberry Pi to compete on autonomous and manually driven events.
 
-# PiWars 2018
+## PiWars 2018
 
 I've not posted much yet about my piwars robots, but in last years event, my robot there had a couple of annoying (embarrassing) failure modes related to the batteries and power.
 
@@ -23,7 +23,7 @@ I've not posted much yet about my piwars robots, but in last years event, my rob
 
 I resolved to get these problems fixed. Sure, there were code bugs, but I could fix those on the day. These kind of hardware failures were a significant problem and threatened to cause corruption to the SD card or a robot that wouldn't come back. They were top priorities in my list of things to do better next year. The batteries were based on 2 sets a 4xAA batteries in a series configuration, which I'd tucked into the back of the robot, and held in by a lip of plastic, and later a bit of gaffer tape.
 
-# Writing a book 
+## Writing a book
 
 <div class="media">
   <div class="media-left"><a href="https://www.amazon.co.uk/Learn-Robotics-Programming-autonomous-Raspberry/dp/1789340748/ref=as_li_ss_il?ref_=nav_ya_signin&_encoding=UTF8&&linkCode=li1&tag=orionrobots-21&linkId=20d971f8cbb0b0f1890b9a399efab4a2&language=en_GB" target="_blank"><img border="0" src="//ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=1789340748&Format=_SL110_&ID=AsinImage&MarketPlace=GB&ServiceVersion=20070822&WS=1&tag=orionrobots-21&language=en_GB" ><img src="https://ir-uk.amazon-adsystem.com/e/ir?t=orionrobots-21&language=en_GB&l=li1&o=2&a=1789340748" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /></a></div>
@@ -38,7 +38,7 @@ For the motors I used a set of AA batteries, recommending Metal Hydride recharge
 
 Multiple battery packs like this can be bulky, and there may be smaller solutions using Lithium Polymer batteries, but they come with some tradeoffs in safety and protection circuit you'd need to figure out yourself. They also require special chargers - this is OK if you are using them a lot though.
 
-# The PiWars 2019 Design
+## The PiWars 2019 Design
 
 From the outset, I planned the Piwars 2019 robot to follow my book pattern, with separate battery packs for the logic and the motors, although I did toy with the Lithium Ion or Lithium polymer packs, like the racing packs used for RC cars, I decided it would be good to continue in practice what I'd recommended in my book. 
 

@@ -31,6 +31,14 @@ If you want to put Lego bricks into another cad system (ie FreeCAD/Fusion 360/So
 
 Note that the cylinders under a standard 2x2 and 2x4 brick are the same diameter as the technic holes for beams and pins.
 
+## Making Your Own Measurements
+
+Although measurements on the web are useful when making CAD designs or drawings, it's always a smart idea to mae further measurements of your own. You may also want to measure things you'll interface with Lego and 3D printed parts so you understand what margin of error you have. 
+
+An absolutely essential tool for this is a set of digital calipers. They need not be expensive ones, although paying more will give more precision, even a basic set will let you make precise measurements.
+
+<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=GB&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=orionrobots-21&language=en_GB&marketplace=amazon&region=GB&placement=B07DFFYCXS&asins=B07DFFYCXS&linkId=e835ac1ec71889090e44d90c1c22b7d0&show_border=true&link_opens_in_new_window=true"></iframe>
+
 ### Formulas for CAD Constraints
   
 When you are constraining and defining parts to interface with Lego - you may find these definitions/calculations using the above symbols useful:
@@ -42,8 +50,6 @@ When you are constraining and defining parts to interface with Lego - you may fi
 | hSt    | hB / 3 - thB    |
 | odCyl  | sqrt(2) * sSt - dSt |
 | thCyl  | (odCyl - dSt) / 2 |
-
-<a target="_blank" href="https://www.amazon.co.uk/deal/0246e199?_encoding=UTF8&linkCode=ib1&tag=orionrobots-21&linkId=767bc0f0a07acde1aeeb310e18ae8882&ref_=ihub_deals-promotions_0246e199">Gikfun IIC SPI OLED Display Module for Arduino Raspberry Pi</a><img src="//ir-uk.amazon-adsystem.com/e/ir?t=orionrobots-21&l=ib1&o=2" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
 
 ### Lego measurements in detail
 
@@ -66,6 +72,8 @@ Calculating:
 * = 5*8:6*8 (cancelling)
 * = 5:6.
 
+<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=GB&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=orionrobots-21&language=en_GB&marketplace=amazon&region=GB&placement=B00NVDP3ZU&asins=B00NVDP3ZU&linkId=15ef56a9446e2abffca1d712b68e94a6&show_border=true&link_opens_in_new_window=true"></iframe>
+
 ### Lego Plate Height
 
 Plates(thin bricks) are 1/3 standard bricks.
@@ -78,6 +86,14 @@ Calculating:
 * = 1:3.
 
 Therefore 5 plates thick is the width of 2 studs.
+
+<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=GB&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=orionrobots-21&language=en_GB&marketplace=amazon&region=GB&placement=B0042W8KSQ&asins=B0042W8KSQ&linkId=a963912f38a0d8d3c3980f8a861744c5&show_border=true&link_opens_in_new_window=true"></iframe>
+
+#### Buy a Lego Technic Starter Robot Kit
+
+If you or your kids are just starting in creating robots with Lego, it might be a great time to buy a starter kit. The LEGO Boost Creative Toolbox Robotics Kit offers simple programming for an absolute beginner, making satisfying mechanical builds with smart programmable behaviour.
+
+<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=GB&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=orionrobots-21&language=en_GB&marketplace=amazon&region=GB&placement=B06X6GN2VQ&asins=B06X6GN2VQ&linkId=e38b8884b137078eecfe3c21bd6f7aa3&show_border=true&link_opens_in_new_window=true"></iframe>
 
 ### LDU (LDraw Units)
 
@@ -101,6 +117,8 @@ In the Lego system, Technic gears have a ratio that the number of teeth are 8 ti
 | 40t   | 5              | 40 |
 
 More info on mounting these can be found at [The Brick Bakery](http://sjbaker.org/steve/lego/gearpairs.html "The Brick Bakery:Gear Mounting & Ratios").
+
+<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=GB&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=orionrobots-21&language=en_GB&marketplace=amazon&region=GB&placement=B00U23VMTS&asins=B00U23VMTS&linkId=fc6b420d6dd6a99d59e86d198f71583b&show_border=true&link_opens_in_new_window=true"></iframe>
 
 ## Lego Brick Materials
 

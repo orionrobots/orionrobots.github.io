@@ -11,7 +11,7 @@ Tonight I am proud to announce that available to buy in most online bookshops is
 
 In this book, aimed at enthusiasts who have done a little coding, I show them how to start building a robot step by step, creating plans and designs, understanding what parts are chosen and why, looking at the tradeoffs for building a robot.
 
-I then take thre reader through creating code, looking at how to build and think in blocks for libraries we will use to build behaviors. Sensors are introduced, connected mechanically and electronically to the Raspberry Pi, with code written to interact with the sensors, and then interesting interactive smart uses of those sensors are built on top of this. Servo motors and a camera are added so they can be used to experiment too.
+I then take the reader through creating code, looking at how to build and think in blocks for libraries we will use to build behaviors. Sensors are introduced, connected mechanically and electronically to the Raspberry Pi, with code written to interact with the sensors, and then interesting interactive smart uses of those sensors are built on top of this. Servo motors and a camera are added so they can be used to experiment too.
 
 Smart behaviors built include:
 

@@ -1,6 +1,6 @@
 ---
 created: 2018-2-26 22:01:01
-tags: [robots, raspberry pi, piwars, 4tronix, piconzero]
+tags: [robots, robotics, raspberry pi, piwars, 4tronix, piconzero]
 title: 2018-02-26-piwars-robot-status
 layout: post
 ---

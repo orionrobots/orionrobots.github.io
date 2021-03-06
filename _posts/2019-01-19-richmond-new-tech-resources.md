@@ -1,10 +1,10 @@
 ---
 created: 2019-01-09 20:04:30
-tags: [robotics, book, python, coder-dojo, makers]
+tags: [robotics, book, python, raspberry pi, coder-dojo, makers]
 title: Info from robotics talk at Richmond New Tech
 layout: post
 ---
-On Thuesday the 17th January 2019, I gave a talk at [Richmond New Technology](https://www.meetup.com/Richmond-New-Technology-Meetup/) on Creative Technology with Hobby Robotics where I made clear that robotics is about three main ideas:
+On Tuesday the 17th January 2019, I gave a talk at [Richmond New Technology](https://www.meetup.com/Richmond-New-Technology-Meetup/) on Creative Technology with Hobby Robotics where I made clear that robotics is about three main ideas:
 * Making things in your own way, in your own time.
 * Doing it because you want to (even if there are some hard bits to get through first).
 * Getting just outside your comfort zone.

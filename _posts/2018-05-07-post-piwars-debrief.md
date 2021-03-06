@@ -1,6 +1,6 @@
 ---
 created: 2018-5-7 20:04:30
-tags: [piwars, robot, raspberry pi]
+tags: [piwars, robot, robotics, raspberry pi]
 title: What Happened At Piwars 2018
 layout: post
 ---

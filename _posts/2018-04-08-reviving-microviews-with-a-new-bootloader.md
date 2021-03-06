@@ -4,16 +4,12 @@ tags: [sparkfun, microview, electronics, arduino]
 title: Reviving Sparkfun Microviews With a New Bootloader
 layout: post
 ---
-<script>
-$(function() {
-    $('img').addClass('img-responsive');
-});
-</script>
+
 ## Introduction and Background
 
 I've started planning on using a pair of Sparkfun Microviews on my PiWars 2018 robot. However, given I have only 2 functioning ones, I felt it was time to revive the other two. These have been sat in demo only state since 2014.
 
-To give some background, the Microview is an Arduino style chip paired up with an OLED display, which I backed as a kickstarter way back. The original ones arrived, and displayed demos, but couldn't be flashed. Unfortunately, in the batch I received, they'd been mass flashed with the demo without the bootloader. Sparkfun and the Microview team were very apologetic, and sent a fresh pair. However, they also made it clear the old ones could be kept and revived. I have to respect them for this - and thank them for a great device and a great way to make good their mistakes!
+To give some background, the Microview is an Arduino style chip paired up with an OLED display, which I backed as a Kickstarter way back. The original ones arrived, and displayed demos, but couldn't be flashed. Unfortunately, in the batch I received, they'd been mass flashed with the demo without the bootloader. Sparkfun and the Microview team were very apologetic, and sent a fresh pair. However, they also made it clear the old ones could be kept and revived. I have to respect them for this - and thank them for a great device and a great way to make good their mistakes!
 
 I started with finding a good guide from Make Magazine  - [How To Fix Your Broken Microview](https://makezine.com/2014/08/21/how-to-fix-your-broken-microview/). So how did it go for me?
 
@@ -21,7 +17,7 @@ I started with finding a good guide from Make Magazine  - [How To Fix Your Broke
 
 ## Getting it Apart
 
-So last night, I used a metal spudger to pry off the glass - this was a little fiddly, but definitely acheivable. The next part was soldering on some contacts for the programming pins. Annoyingly - I could not find that nice reel of 28 AWG wire - I've not seen it since we moved, which has been a common problem for a while.
+So last night, I used a metal spudger to pry off the glass - this was a little fiddly, but definitely achievable. The next part was soldering on some contacts for the programming pins. Annoyingly - I could not find that nice reel of 28 AWG wire - I've not seen it since we moved, which has been a common problem for a while.
 
 So I used some slightly thicker single core bell wire - which was tiny, but is stiff wire, not flexible.
 This was a really tricky job, and I definitely damaged each of the cases with the soldering iron in a minor way. It was frustrating, the cables kept falling out - and although done, I'm still worried that there is little mechanical strength in their connections.

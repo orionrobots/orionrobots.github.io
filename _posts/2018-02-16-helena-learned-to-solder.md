@@ -1,6 +1,6 @@
 ---
 created: 2018-2-16 12:01:55
-tags: [helena, soldering, electronics, cnc]
+tags: [soldering, electronics, cnc]
 title: 2018-02-16-helena-learned-to-solder
 layout: post
 ---
