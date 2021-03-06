@@ -1,6 +1,6 @@
 ---
 layout: post
-tags: [microcontrollers, electronics, code, esp8266, nodemcu]
+tags: [microcontrollers, electronics, code, esp8266, lua programming, programming, nodemcu]
 title: Attaching a Joystick or 2 Analog Sensors to a Nodemcu
 ---
 The ESP8266 is one of my favourite devices. I wanted, for various projects, to attach a Joystick to it. However, the joystick has 2 analog outputs, and the Esp8266 

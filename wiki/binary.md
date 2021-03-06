@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Binary
+tags: [electronics, programming, computing]
 date: 2006-04-19 16:08:27
 ---
 The basic computer method of storing information in a series of encoded zeros and ones - or [bits](/wiki/bit.html "Binary Digit"). Binary is manipulated with Arithmetic and [Boolean](/wiki/boolean.html "Boolean") operations.

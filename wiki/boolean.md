@@ -1,11 +1,11 @@
 ---
 layout: page
 title: Boolean
+tags: [programming, electronics]
 date: 2004-11-14 21:02:41
 ---
-<p>Boolean refers to the work of <a href="/wiki/george_boole.html" title="The creator of Boolean Logic - the root of all our digital computing">George Boole</a>.
-</p>
-<p>It is commonly used to describe the logical operations of <a href="/wiki/and.html" title="AND">AND</a>, <a href="/wiki/not.html" title="NOT">NOT</a>, <a href="/wiki/or.html" title="OR">OR</a> and <a href="/wiki/xor.html" title="XOR">XOR</a>, from which any other <a href="/wiki/logic_gate.html" title="Devices designed to perform logical operations">Logic Gate</a> may be constructed.
-</p>
-<p>Boolean arithmetic is meant to describe <a href="/wiki/binary.html" title="The storage method for digital information">Binary</a> manipulation.
-</p>
+Boolean refers to the work of [George Boole](/wiki/george_boole.html "The creator of Boolean Logic - the root of all our digital computing").
+
+It is commonly used to describe the logical operations of [AND](/wiki/and.html "AND"), [NOT](/wiki/not.html "NOT"), [OR](/wiki/or.html "OR") and [XOR](/wiki/xor.html "XOR"), from which any other [Logic Gate](/wiki/logic_gate.html "Devices designed to perform logical operations") may be constructed.
+
+Boolean arithmetic is meant to describe [Binary](/wiki/binary.html "The storage method for digital information") manipulation.

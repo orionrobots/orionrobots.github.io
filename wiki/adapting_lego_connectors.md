@@ -1,8 +1,9 @@
 ---
 layout: page
 title: Adapting Lego RCX Stud Style Connectors
+tags: [electronics]
 ---
-# Overview
+## Overview
 
 First - please note that this only applies to the "Stud" style connector, and not the old train 3-pin connector or the new RJ style connectors used on the [NXT](/wiki/nxt.html "Legos NeXT generation robotics kit"). It is expected that the RJ connectors may be orderable, and simply crimped.
 
@@ -12,19 +13,19 @@ Before you proceed with anything like this, bear in mind that you must still thi
 
 There are two basic ways to do this, the first is to cut into an original cable, and the second is to modify a brick to make your own connector.
 
-# Modifying an original cable
+## Modifying an original cable
 
-## Overview
+### Overview
 
 The most simple way to hook something into a Lego electronic device (like the Lego RCX), is to slice a lego cable, and then splice your device into the cable. Since you are cutting a connector in half, you get two adaptors this way.  The cables themselves are multicore, so you will probably need to tin them, and maybe even crimp them into a connector.
 
-## Materials Required
+### Materials Required
 
 * Original Lego stud based power cable
 * (Optional) 2 pin crimpable connector of your choice
 * (optional) Electrical Insulating Tape
 
-## Tools Required
+### Tools Required
 
 For finding and selecting tools. please read <a href="/wiki/robot_tools.html" title="Tools that are often required to get started in robot building">Robot Tools</a>
 
@@ -37,7 +38,7 @@ For finding and selecting tools. please read <a href="/wiki/robot_tools.html" ti
 * (Optional) Sharp Craft Knife and Cutting mat
 * Electrical Insulation Tape or heat shrink.
 
-## Method
+### Method
 
 First, please wear your goggles, and make sure you are doing this on a well lit bench. If you intend to solder you must have ventilation, and a soldering stand.
 
@@ -51,28 +52,28 @@ Select a Lego cable, probably one of the shorter ones will do (since the long on
 * If you wish to crimp it, then place each core into the crimpable connector, and crimp firmly with a suitable tool.
 * Depending on the type of connector, use heat shrink or tape to insulate the ends.
 
-# Modifying a Lego Electrical Plate
+## Modifying a Lego Electrical Plate
 
-## Overview
+### Overview
 
 This gives a nice finish, and may be both cheaper and more flexible. However using real Lego parts gives good compatibility. This does require soldering, and can be a little tricky as you are soldering onto very fine exposed metal areas and run the risk of melting plastic, which smells very bad.
 
-# Modifying a basic brick
+## Modifying a basic brick
 
-## Overview
+### Overview
 
 As 2x2 Basic bricks are abundant, this is the cheapest method. This can be achieved with stiff wire or 4mm cheese head screws, but they are more fiddly than this method. This method involves salvaging tin from a biscuit tin, and actually modifying the studs, so the potential for compatibility problems is increased.
 
-# PCB Method
+## PCB Method
 
-## Overview
+### Overview
 
 MindSensors also have an elegant method using a [PCB](/wiki/pcb.html) designed to fit over the contact studs. If you can design it, one of the many PCB services will be able to produce this for you. With a few surface mount components - tiny and flexible Lego compatible circuits can be made.
 
-## Other methods
+### Other methods
 
 There are probably plenty more methods, and variations on these. [Tweet Us](https://twitter.com/orionrobots)  your comments or links to this page if you have another method, or enhancements to a method here.
 
-# Considerations
+## Considerations
 
 Be aware, that as these Lego connectors are not polarised - you may(or may not) wish to add diodes to maintain the correct polarity.  You can use a single diode to allow one way only usage, or use a [Diode Bridge](diode_bridge.html) to allow any orientation.

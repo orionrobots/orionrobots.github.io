@@ -1,5 +1,6 @@
 ---
 layout: page
+tags: [lego technic, robotics]
 title: Adder Subtractor Drive
 ---
 A problem with <a href="/wiki/skid_steering.html" title="Skid Steering">Skid Steering</a> is that that two motors of the same model, from the same company, and even in the same batch, may still not be identical. This can make robots veer off course. For more on motor differences try <a href="https://sjbaker.org/steve/lego/motor_speed.html">The Brick Bakery: Analysis of Motor Speeds for Geared Motors.</a>

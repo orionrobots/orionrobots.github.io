@@ -1,9 +1,10 @@
 ---
 layout: page
-title: AND
+title: AND Gate
+tags: [electronics, computing, programming]
 date: 2005-09-09 14:28:43
 ---
-This is a [Boolean](/wiki/boolean.html "Boolean") operation, which gives a result of true only when its first input "AND" second input are true (in the case of a two input AND).
+This is a [Boolean](/wiki/boolean.html "Boolean") operation, which gives a result of true only when its first input "AND" second input are true (in the case of a two input AND). It is used both as an electronic element and in programming.
 
 ![](/galleries/gallery-1-common-images/120-and.jpg)
 
@@ -27,35 +28,35 @@ It also used for clocking. if you have a circuit which may at any time generate 
 
 Combined with [NOT](/wiki/not.html "NOT") and [OR](/wiki/or.html "OR") you can build extremely complex logic. It is this logic, in fact, which drives your home computer, your mobile phone and most other digital apparatus.
 
-## How could I build a simple demonstration
+## Building a simple AND gate demonstration
 
-This simple circuit/concept can be easily demonstrated, with a prop that takes minutes to build.
+This concept can be easily demonstrated with a circuit, with a prop that takes minutes to build. This is a great small project for children, suitable for parents and educators.
 
-## Required Materials
+### Required Materials
 
 - 2 Electrical Switches/buttons - push to make
-- Some jump leads with clips
+- Some jump leads with clips or a breadboard.
 - A power supply (approv 5/6v) - A bench supply or fresh batteries will do
 - An [LED](/wiki/led.html "Light Emitting Diode")
-- [Resistor](/wiki/resistor.html "Resistor") (around 470)
+- A [Resistor](/wiki/resistor.html "Resistor") (around 470)
 
-## Optional Materials
+### Optional Materials
 
 - Mounting cardboard
 
-## Required Tools:
+### Required Tools
 
 - Soldering Iron + Stand and Solder
 - Clamp/Helping Hands
 - Safety Goggles
 
-## Optional Tools
+### Optional Tools
 
 * Cardboard cutting scissors
 * Pens
 * Multimeter
 
-## Building it
+### Building it
 
 There is only a little soldering here, and if you have built the [Simple Parallel Port LED Board]({% post_url 2004-11-05-simple-parallel-port-led %} "How to attach and program an LED to the parallel port on a PC"), you may not need to do any soldering at all. Note though, because of how little there is, the soldering will be [Freeform](/wiki/freeform "FreeForm").
 
@@ -65,7 +66,7 @@ Now clip the jump leads to the switches - wiring them in series. This means the 
 
 I then suggest you mount the demo on a piece of card - labeling one of the switches/buttons A, one of them B, and then labelling the LED C. If you are feeling fancy, you could then draw the Logic Symbol for the and (As shown above) between them.
 
-## Testing it
+### Testing it
 
 Apply power to the circuit. The LED should be turned off - if it is already on, check that you have not used push to break switches.
 
@@ -73,7 +74,7 @@ Now try the combinations. Turn A) on, the LED should remain unlit, turn A) off a
 
 Finally turn on A) and B), and the LED should light. If the [LED](/wiki/led.html "Light Emitting Diode") still does not light, I suggest you first check the power supply, then check the switches, and your connections to the switches using a multimeter. Check that you have not used to high a resistance, and check your power alone lights the LED.
 
-## Demonstrating with it
+### Demonstrating with it
 
 You can then use this prop to show that the LED only lights when both A and B are on - providing a test of two separate conditions. If you use a simple situation role play, you can quite easily convey the principle.
 

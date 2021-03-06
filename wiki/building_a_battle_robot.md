@@ -1,17 +1,19 @@
 ---
 layout: page
 title: Building A Battle Robot
+tags: [robots, robotics]
 date: 2006-07-10 09:42:34
 ---
-<h1  id="Intro">Intro</h1>
-<p>So you want to be a contender eh? Not content with watching <a href="/wiki/robot_wars.html" title="The british robot smashing TV series.">Robot Wars</a> and BattleBots - you want to get off your armchair and build your own! Well done. Now this is not going to be easy - but follow the right advice, and you will get there.
-</p>
-<p>I am not going to deceive you, while it is fun, and almost anyone can achieve it, it really is not easy. You will need some hard work, some serious thinking and a great deal of determination. A lot of what I am going to say here is probably common sense, but collecting it and having it explicitly stated means that you are less likely to miss something.
-</p>
-<p>You don't need a huge bank account, or deep pockets - as some of the best robots, like <a href="/wiki/sumpthing.html" title="Sumpthing">SumpThing</a> are actually built from <a href="/wiki/salvage_tips.html" title="Tips on pulling stuff apart to build robots. How, where and what.">salvage</a> and scrap. You might need an array of tools, but not a lot that couldn't be borrowed, and for a battle bot, the controllers can be kept fairly simple.
-</p>
-<p>In the next few paragraphs, I will take you through the basic essentials that you will need, and later all the considerations you need when designing. You can then use the rest of the OrionRobots knowledge resources to get things built.
-</p>
+# Intro
+
+So you want to be a contender eh? Not content with watching [Robot Wars](/wiki/robot_wars.html "The british robot smashing TV series.") and BattleBots - you want to get off your armchair and build your own! Well done. Now this is not going to be easy - but follow the right advice, and you will get there.
+
+I am not going to deceive you, while it is fun, and almost anyone can achieve it, it really is not easy. You will need some hard work, some serious thinking and a great deal of determination. A lot of what I am going to say here is probably common sense, but collecting it and having it explicitly stated means that you are less likely to miss something.
+
+You don't need a huge bank account, or deep pockets - as some of the best robots, like [SumpThing](/wiki/sumpthing.html "Sumpthing") are actually built from [salvage](/wiki/salvage_tips.html "Tips on pulling stuff apart to build robots. How, where and what.") and scrap. You might need an array of tools, but not a lot that couldn't be borrowed, and for a battle bot, the controllers can be kept fairly simple.
+
+In the next few paragraphs, I will take you through the basic essentials that you will need, and later all the considerations you need when designing. You can then use the rest of the OrionRobots knowledge resources to get things built.
+
 <h1  id="Get_a_team">Get a team</h1>
 <p>
 <br/>Unless you are an elite, bachelor(I mean single - not having a degree although that might help too) engineer with huge amounts of time and money on your hands, you are simply not likely to have the resources to build a serious robot as a one man band. Very few- if any of the battling robots were built this way - your first step is to find a likely team of builders. Feel free to skim the ads in our <a  href="http://orionrobots.co.uk/tiki-view_forum.php?forumId=6" rel="external" target="_blank">Robot Market Forum</a> or place your own to attract the team.
@@ -20,7 +22,7 @@ date: 2006-07-10 09:42:34
 </p>
 <p>If your team members are under 18, I recommend at least one adult helper, who will have valuable advice and keep an eye on safety. Other than that proviso, generally anyone from age of 5 upwards could be helpful - even just for style and coming up with good ideas. Get a good mix of skills if you can, and a good mix of ages can usually help to provide that.
 </p>
-<p>Teams need not be all men (or boys), there are some pretty sucessful all-female teams, as well as mixed teams. Again - girls will help to introduce more varied skills and thinking to the team, adding to the inspiration and the potential of having all aspects considered.
+<p>Teams need not be all men (or boys), there are some pretty successful all-female teams, as well as mixed teams. Again - girls will help to introduce more varied skills and thinking to the team, adding to the inspiration and the potential of having all aspects considered.
 </p>
 <p>When you get people to join the team, you may want to appoint or become a leader, or at least a group coordinator, this does not mean being bossy, but more someone to martial ideas and to keep a little order and synchronisation in the teams activities. Make sure the team are aware of the kind of commitment they are going to need - half hearted maybes and no-shows have been the downfall of a few projects. Also, even if the event only allows for teams of a limited number, always have a few backups - understudies if you like, in case of someone being taken ill or running into problems.
 </p>

@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Bleex
+tags: [robots]
 date: 2007-01-28 20:14:59
 ---
 Bleex is an [Exoskeleton](/wiki/exoskeleton.html) suit being developed at the Berkeley Robotics Lab and funded by [DARPA](/wiki/darpa.html "Defense Advanced Research Projects Agency"). This project began in 2000.

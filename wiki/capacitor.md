@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Capacitor
+tags: [electronics]
 date: 2005-10-05 22:25:05
 ---
 A capacitor is an electronic component, which is in affect an electronic equivalent of a water tank with two inlets and a movable diaphragm in the middle. It can be charged until it is all in one direction, or charged the other way - but once charged, there is no more water flow, and so it must be discharged..

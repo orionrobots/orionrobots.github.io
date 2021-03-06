@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Chaos2
+tags: [robot wars]
 date: 2005-08-25 22:17:44
 ---
 Chaos 2 was one of the most infamous, and formidable flipper bots from the original UK Robot Wars.

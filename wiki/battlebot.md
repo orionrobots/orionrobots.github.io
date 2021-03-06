@@ -1,6 +1,7 @@
 ---
 layout: page
 title: BattleBot
+tags: [robot wars]
 date: 2004-11-15T14:39:58.000Z
 ---
 A robot designed to participate in destructive robot games like [Robot Wars](/wiki/robot_wars.html "The british robot smashing TV series.").

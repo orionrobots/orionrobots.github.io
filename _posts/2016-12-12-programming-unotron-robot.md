@@ -1,6 +1,6 @@
 ---
 layout: post
-tags: [robots, electronics, code, arduino, blockly]
+tags: [robots, robotics, electronics, code, arduino, blockly]
 title: Programming the UnoTron using ArduBlockly
 ---
 I've published a video where my son and Lab Helper Jon and I use the tool 

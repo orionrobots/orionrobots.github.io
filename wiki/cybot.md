@@ -1,11 +1,12 @@
 ---
 layout: page
 title: Cybot
+tags: [robots, robotics]
 date: 2004-11-14 20:46:28
 ---
-Cybot is a Robot which is built up step by step from the [Real Robots](/wiki/real_robots.html "Real Robots") magazine series.
+Cybot was a Robot built up step-by-step in the [Real Robots](/wiki/real_robots.html "Real Robots") magazine series.
 
-It features [Sonar](/wiki/sonar.html "The use of sound as a sense medium") range sensors, light sensors, a line following system, an [Infra Red](/wiki/infra_red.html "A type of EM radiation commonly used for digital communications") communication system, a handset with [Speech Processing](/wiki/speech_processing.html "Also known as speech recognition").
+It featured [Sonar](/wiki/sonar.html "The use of sound as a sense medium") range sensors, light sensors, a line following system, an [Infra Red](/wiki/infra_red.html "A type of EM radiation commonly used for digital communications") communication system, a handset with [Speech Processing](/wiki/speech_processing.html "Also known as speech recognition").
 
 Any tips, mods or ideas you can think of to do with it can go here.
 

@@ -1,6 +1,7 @@
 ---
 layout: page
 title: C Language
+tags: [computing, programming]
 date: 2007-01-01 15:49:24
 ---
 C is probably one of the most popular Programming Languages, and is almost considered a lowest common denominator. It is used heavily in embedded systems like [robotics](/wiki/robotic.html "Robotic"), even simple [microcontrollers](/wiki/microcontroller.html "A programmable digital controller (or ") like the [PIC](/wiki/pic.html "PIC") and the [RCX](/wiki/rcx.html "The Lego Robot Command Explorer") can be made to support it. It was developed in 1972, by Dennis Ritchie at Bell Labs, and went hand in hand with Unix. It still retains a good relationship with modern related systems like Linux, Solaris and BSD.

@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Charles Babbage
+tags: [computers]
 date: 2005-08-18 20:48:51
 ---
 Charles Babbage(1791-1871) was an early 18th-19th century mathematician and engineer.
