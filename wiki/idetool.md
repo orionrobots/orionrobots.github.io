@@ -3,7 +3,7 @@ layout: page
 title: IDETool
 date: 2006-08-16 21:44:44
 ---
-# IDE
+## IDE
 
 In the context of software development, an IDE refers to an Integrated development environment.
 
@@ -39,7 +39,7 @@ Historically, the Borland Turbo IDE's, even in the DOS era, were the real trend 
 
 Most programmers may occasionally turn to simple editors like notepad and vi, but would generally use an IDE in preference, not for the flash bells and whistles, but for the boost in speed and productivity it can bring.
 
-<h1 id="Lego_Programming">Lego Programming</h1>
+## Lego Programming
 
 Bricxcc is an open source IDE aimed squarely at developing code for the <a href="/wiki/lego.html" title="The best known construction toy">Lego</a> programmable bricks like the <a href="/wiki/nxt.html" title="Legos NeXT generation robotics kit">NXT</a> and <a href="/wiki/rcx.html" title="The Lego Robot Command Explorer">RCX</a>. SciTE can also be used for this purpose and give satisfactory highlighting.
 

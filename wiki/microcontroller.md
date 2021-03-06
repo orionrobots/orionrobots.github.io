@@ -1,6 +1,6 @@
 ---
 layout: page
-tags: microcontroller,robot,electronics
+tags: [microcontroller,robot,electronics, arduino, raspberry pi, esp8266, esp32, robot building]
 title: MicroController
 date: 2006-03-21 18:10:58
 ---

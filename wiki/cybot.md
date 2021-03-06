@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Cybot
-tags: [robots, robotics]
+tags: [robots, robotics, electronics]
 date: 2004-11-14 20:46:28
 ---
 Cybot was a Robot built up step-by-step in the [Real Robots](/wiki/real_robots.html "Real Robots") magazine series.

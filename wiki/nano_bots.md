@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Nano Bots
+tags: [robots, robot types]
 date: 2008-02-06 16:07:12
 ---
 Nanobots are microscopic robots which are far smaller than the eye can see, and are generally expected to work in a Swarm or [Clustered Group](/wiki/cluster_bots.html "Cluster Bots"). Much like insects, specifically ants, they become useful in larger numbers. This allows for redundancy, and massive generalisation.

@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Matilda
+tags: [robot wars]
 date: 2005-03-01 15:50:48
 ---
 Matilda is a quirky House Robot on [Robot Wars](/wiki/robot_wars.html)  Of course the big difference is that she is the only House Robot considered female. She has seen many battles - and taken damage more than once. She has also been completely rebuilt a few times - most infamously after Razer pulverized her.

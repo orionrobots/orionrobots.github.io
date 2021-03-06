@@ -25,7 +25,7 @@ Lego also offer the following cautions for its use:
 * Do not step on or otherwise place heavy weight on the solar cell
 * Ordinary incandescent lamps produce a lot of heat and should only be used for short periods and at a distance of at least 8 cm
 
-It can be purchased by individuals at [Bricklink](/wiki/bricklink.html "Lego Trading Commnity") or Commotion Group. Schools, Organisations and Colleges should contact their [Dacta](/wiki/dacta.html "DACTA") distributor.
+It can be purchased by individuals at [Bricklink](/wiki/bricklink.html "Lego Trading Community") or Commotion Group. Schools, Organisations and Colleges should contact their [Dacta](/wiki/dacta.html "DACTA") distributor.
 
 Although the standard Lego Motor (with 5225, RCX etc) runs at 9v, it can be run from these lower voltages.  Combine this set with the [Lego Capacitor](/wiki/lego_capacitor.html "Lego Capacitor") and a few other components - and you can build a Lego [BEAM Robots](/wiki/beam_robots.html "Biology, Electronics, Aesthetics and Mechanics") example.
 

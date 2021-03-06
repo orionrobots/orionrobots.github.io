@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Mark Tilden
+tags: [robots]
 date: 2007-01-28 19:35:46
 ---
 <img alt="Mark Tilden" class="img-responsive" src="/galleries/gallery-1-common-images/425-mark-tilden.jpg" title="Mark Tilden"/>

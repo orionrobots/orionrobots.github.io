@@ -1,14 +1,13 @@
 ---
 layout: page
 title: Direct Current
+tags: [electronics]
 date: 2004-11-16 14:57:19
 ---
 Direct Current is also commonly shortened to DC.
 
-It is an electrical current where the voltage flows in only one direction - this is the kind of voltage you would expect from a battery.  Most electronic and <a href="/wiki/robotic.html" title="Robotic">Robotic</a> applications require a DC Voltage to run them.
+It is an electrical current where the voltage flows in only one direction - this is the kind of voltage you would expect from a battery. Most electronic and [Robotic](/wiki/robotic.html "Robotic") applications require a DC Voltage to run them.
 
-Its opposite is <a href="/wiki/alternating_current.html" title="Alternating Current">Alternating Current</a>.
+Its opposite is [Alternating Current](/wiki/alternating_current.html "Alternating Current").
 
-<a href="/wiki/converting_ac_to_dc.html" title="Converting AC To DC">Converting AC to DC</a>
-<a href="/wiki/generating_ac_from_dc.html" title="Generating AC From DC">Generating AC from DC</a>
-
+[Converting AC to DC](/wiki/converting_ac_to_dc.html "Converting AC To DC") [Generating AC from DC](/wiki/generating_ac_from_dc.html "Generating AC From DC")

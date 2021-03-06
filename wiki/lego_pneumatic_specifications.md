@@ -1,12 +1,12 @@
 ---
 layout: page
 title: Lego Pneumatic Specifications
+tags: [robot building]
 date: 2005-01-18 16:03:33
 ---
-<p>If you are going to use Lego pneumatic parts in your design, it may be worth considering the technical specifications of some of the <a href="/wiki/lego.html" title="The best known construction toy">Lego</a> <a href="/wiki/pneumatic.html" title="Use of air to operate and power actuators">Pneumatic</a> parts. In most cases - this is not a worry but who knows when these figures may come in handy?
-</p>
-<p>We have here SI and imperial references. Remember that these figures may vary slightly between items - and have been somewhat averaged.
-</p>
+If you are going to use Lego pneumatic parts in your design, it may be worth considering the technical specifications of some of the [Lego](/wiki/lego.html "The best known construction toy") [Pneumatic](/wiki/pneumatic.html "Use of air to operate and power actuators") parts. In most cases - this is not a worry but who knows when these figures may come in handy?
+
+We have here SI and imperial references. Remember that these figures may vary slightly between items - and have been somewhat averaged.
 
 |                             | Large cylinder | Small cylinder |
 |---------------------------- |----------------|----------------|

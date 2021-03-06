@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Dual In Line
+tag: [electronics]
 date: 2005-05-28 23:41:45
 ---
 DIL is an acronym for "Dual In Line" chips/packages including <a href="/wiki/ic.html" title="Integrated Circuits">IC's</a>, connectors, and <a href="/wiki/resistor.html" title="Resistor">Resistor</a> Nets.

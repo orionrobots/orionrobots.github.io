@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Leonardo Da Vincis Robot
+tags: [robots]
 date: 2006-01-15 10:22:15
 ---
 <a href="/wiki/leonardo_da_vinci.html" title="Leonardo Da Vinci">Leonardo Da Vinci</a> made sketches of a humanoid robot using metal linkages and a lot of mechanical gears. It was possibly capable of sitting up, waving its arms, flexing its neck, moving its neck, and moving an anatomically correct jaw and was powered by falling weights.
@@ -11,7 +12,7 @@ This was done in around 1495, before he painted The Last Supper. Some even say h
 
 It was in the mould of a human scale armoured knight. Its shell was an authentic German-Italian armour from the late 15th century.
 
-It is theorised that he may have had inspiration from Greek texts. Al Jazari an earlier Arabic inventor, had similar intentions.
+It is theorised that he may have had inspiration from Greek texts. Al-Jazari an earlier Arabic inventor, had similar intentions.
 
 * [Leonaardo's robot on wikipedia](https://en.wikipedia.org/wiki/Leonardo%27s_robot)
 * [He may also have made a mechanical Lion](https://www.edgeofyesterday.com/time-travelers/reconstruction-of-mechanical-lion)

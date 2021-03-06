@@ -1,6 +1,7 @@
 ---
 layout: page
 title: William Grey Walter - Machina Speculatrix
+tags: [robots]
 date: 2009-11-10 07:51:15
 ---
 These robots were built as learning platform by the late <a href="/wiki/william_grey_walter.html" title="William Grey Walter">William Grey Walter</a> in the 1940s.

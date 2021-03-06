@@ -1,9 +1,10 @@
 ---
 layout: page
 title: Lego Capacitor
+tags: [electronics]
 date: 2005-03-01 11:11:37
 ---
-This <a href="/wiki/capacitor.html" title="Capacitor">Capacitor</a> is available as part of <a href="/wiki/lego.html" title="The best known construction toy">Legos</a> eLab <a href="/wiki/dacta.html" title="DACTA">Dacta</a> range.
+This <a href="/wiki/capacitor.html" title="Capacitor">Capacitor</a> is available as part of <a href="/wiki/lego.html" title="The best known construction toy">Lego's</a> eLab <a href="/wiki/dacta.html" title="DACTA">Dacta</a> range.
 
 It is available from the Commotion Group, <a href="/wiki/bricklink.html" title="Lego Trading Commnity">Bricklink</a> and other <a href="/wiki/dacta.html" title="DACTA">Dacta</a> distributors.
 
@@ -11,7 +12,7 @@ Its part number is <a href="http://www.peeron.com/inv/parts/32342">32342</a> and
 
 Set information from <a href="/wiki/peeron.html" title="Online database of Lego Sets and Parts">Peeron</a>.
 
-According to lego it is a 1F(as capcitors go thats huge by the way) 2.5V capacitor.
+According to lego it is a 1F (as capacitors go that's huge by the way) 2.5V capacitor.
 
 Other specs
 

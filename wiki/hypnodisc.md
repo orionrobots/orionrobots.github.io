@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Hypno-Disc
+tags: [robot wars, robots]
 date: 2005-01-02 23:48:22
 ---
 This was in its first season an absolute shocker of a robot on <a href="/wiki/robot_wars.html" title="The british robot smashing TV series.">Robot Wars</a>.

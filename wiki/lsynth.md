@@ -1,15 +1,16 @@
 ---
 layout: page
 title: LSynth
+tags: [cad]
 date: 2005-04-01 15:24:33
 ---
-LSynth is an <a href="/wiki/ldraw_system.html" title="The primary system for CAD representation of Lego parts">LDraw System</a> <a href="/wiki/lego.html" title="The best known construction toy">Lego</a> <a href="/wiki/cad.html" title="Computer Aided Design">CAD</a> tool. It allows generation of flexible items - like hoses, cables, rubber bands, tank treads and similar. It has (slightly buggy) object avoidance, and with positioning of parts using standard software like <a href="/wiki/mlcad.html" title="MLCad">MLCad</a> is quite easy to work with.
+LSynth is an [LDraw System](/wiki/ldraw_system.html "The primary system for CAD representation of Lego parts") [Lego](/wiki/lego.html "The best known construction toy") [CAD](/wiki/cad.html "Computer Aided Design") tool. It allows generation of flexible items - like hoses, cables, rubber bands, tank treads and similar. It has (slightly buggy) object avoidance, and with positioning of parts using standard software like [MLCad](/wiki/mlcad.html "MLCad") is quite easy to work with.
 
-It is currently the only tool of its kind for Lego that I am aware of - and can be very handy. Take a look at my <a href="/assets/downloads/PneumaticEngineLSynth.mpd">Pneumatic Engine</a> for an example. All the hoses in the image have been generated with LSynth.
+It is currently the only tool of its kind for Lego that I am aware of - and can be very handy. Take a look at my [Pneumatic Engine](/assets/downloads/PneumaticEngineLSynth.mpd) for an example. All the hoses in the image have been generated with LSynth.
 
 ![Pneumatic Engine](/galleries/2006-07-09-pneumatic-engine-repost/PneumaticEngineLSynth.jpg)
 
-The tool is available from the <a href="http://lsynth.sourceforge.net/">LSynth Website</a> as well as the <a href="/wiki/ldraw_system.html" title="The primary system for CAD representation of Lego parts">LDraw System</a> foundation.
+The tool is available from the [LSynth Website](http://lsynth.sourceforge.net/) as well as the [LDraw System](/wiki/ldraw_system.html "The primary system for CAD representation of Lego parts") foundation.
 
 You may note that he has an example pneumatic circuit which behaves in a similar way to mine.
 

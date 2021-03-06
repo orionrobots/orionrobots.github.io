@@ -1,11 +1,12 @@
 ---
 layout: page
 title: Diode Bridge
+tags: [electronics]
 date: 2005-09-10 13:18:24
 ---
 ## Overview
 
-The <a href="/wiki/diode.html" title="Diode">diode</a> bridge is a common and useful circuit. You will see it time and again, and it is a construct worth being aware of.
+The <a href="/wiki/diode.html" title="Diode">diode</a> bridge is a common and useful circuit. You will see it regularly, and it is a construct worth being aware of.
 
 ## How it works
 
@@ -23,11 +24,11 @@ It used for one of two main functions:
 * Used with a capacitor to convert <a href="/wiki/alternating_current" title="Alternating Current">AC</a> supplies to a <a href="/wiki/direct_current" title="Direct Current">DC</a> one
 * Allow a circuit to be used at any orientation (uncommon)
 
-The first of these is found in just about every power adaptor (wall wart) you will come accross. It is a very, very common circuit.
+The first of these is found in just about every power adaptor (wall wart) you will come across. It is a very, very common circuit.
 
 ## Orientations
 
-Breifly examining the latter, you must be aware that there is a small voltage drop accross each diode of around 0.6v giving a net result of a 1.2v drop. In a 9v application, that may bring the voltage below an acceptable level. The one place it is recommended is if you are building custom <a href="/wiki/rcx.html" title="The Lego RCX">Lego RCX</a> devices, which may need to be connected at multiple orientations.
+Briefly examining the latter, you must be aware that there is a small voltage drop across each diode of around 0.6v giving a net result of a 1.2v drop. In a 9v application, that may bring the voltage below an acceptable level. The one place it is recommended is if you are building custom <a href="/wiki/rcx.html" title="The Lego RCX">Lego RCX</a> devices, which may need to be connected at multiple orientations.
 
 RCX output power circuit - click to Enlarge
 <img class="img-responsive" src="/galleries/gallery-1-common-images/66-rcxoutputpower.png"/>

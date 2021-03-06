@@ -1,6 +1,7 @@
 ---
 layout: page
 title: George Boole
+tags: [computing, electronics]
 date: 2006-04-23 12:38:32
 ---
 George Boole FRS (1815 - 1864) was best known for his discussion on reducing logic into simple algebra, thus including the principles of it in mathematics. It had before been the realm of Aristotle's philosophy, and Boole's work to simplify and distil this into equations was probably one of the major contributors to computing as we know it. Indeed Digital computing with [binary](/wiki/binary.html "The storage method for digital information") would probably not be where it is today without his work.

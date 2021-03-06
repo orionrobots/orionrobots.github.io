@@ -1,6 +1,6 @@
 ---
 layout: page
-title: EV
+title: Electric Vehicles
 date: 2005-10-06 14:51:07
 ---
 Robots will only be enhanced by the gradual roll out of Electric

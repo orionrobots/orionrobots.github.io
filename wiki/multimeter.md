@@ -1,6 +1,7 @@
 ---
 layout: page
 title: MultiMeter
+tags: [electronics]
 date: 2005-08-23 23:01:52
 ---
 If you are building the electronic guts of many robots, you will often need to test circuit function and component values.

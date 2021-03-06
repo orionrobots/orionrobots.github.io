@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Lego RCX
+tags: [robot building]
 date: 2010-11-11 21:36:53
 ---
 <div style=" float: left;">

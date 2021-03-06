@@ -1,6 +1,7 @@
 ---
 layout: page
 title: MindStorms
+tags: [robots, robot building]
 date: 2009-04-24 23:55:12
 ---
 [Mindstorms](https://www.lego.com/en-us/mindstorms/) is the [Lego](/wiki/lego.html) companies system of robotic construction sets, which are great for kids and adults, and serve to entertain as well as educate. Sets/devices included are:

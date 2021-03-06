@@ -3,8 +3,8 @@ layout: page
 title: General Lego Tips
 date: 2006-12-12 00:07:51
 ---
-<p>Please share any general <a href="/wiki/lego.html" title="The best known construction toy">Lego</a> tips.
-</p>
+Please share any general [Lego](/wiki/lego.html "The best known construction toy") tips.
+
 <p></p><div id="toc"><div id="toctitle"><h3>Table of contents</h3></div><ul class="toc"><ul><li><a class="link" href="#Do_not_use_your_teeth.">Do not use your teeth.</a>
 </li><li><a class="link" href="#Removing_a_troublesome_item_from_an_axle">Removing a troublesome item from an axle</a>
 </li><li><a class="link" href="#Removing_an_item_from_an_axle-pin">Removing an item from an axle-pin</a>

@@ -1,5 +1,6 @@
 ---
 layout: page
+tags: [electronics]
 title: MicroProcessor
 date: 2006-07-22 10:02:44
 ---
