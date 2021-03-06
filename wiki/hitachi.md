@@ -8,7 +8,7 @@ Hitachi are probably best known for their consumer electronics division, althoug
 
 They are responsible for a number of [Microcontrollers](/wiki/microcontroller.html "A programmable digital controller (or ") including the one powering the [Lego RCX](/wiki/rcx.html "The Lego RCX").
 
-They have now also surfaced as a builder of robots, as is highlighted in my [Blog Article]({% post_url 2005-03-17-new-faster-wheeled-robot-from-hitachi.md %}) on there recent contribution.
+They have now also surfaced as a builder of robots, as is highlighted in my [Blog Article]({% post_url 2005-03-17-new-faster-wheeled-robot-from-hitachi %}) on there recent contribution.
 
 Hitachi are in the running to join the ranks of [Sony](/wiki/sony.html "Sony"), [Honda](/wiki/honda.html "Honda") and Toyota in the race to get commercial success with serious robotics.
 
