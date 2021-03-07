@@ -1,9 +1,9 @@
 ---
 layout: page
 title: Transistor
+tags: [electronics]
 date: 2005-09-01T21:24:41.000Z
 ---
-
 A Transistor is simply a block of [Semiconductor](/wiki/semiconductor.html "Semiconductor") material which drove the silicon revolution. Each single transistor effectively an electronic switch. When you supply current to its base, a current is allowed to flow from the Collector to the Emitter.
 
 A Selection of Transistors

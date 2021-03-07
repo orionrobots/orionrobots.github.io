@@ -64,3 +64,21 @@ There are resist pens, but resists are more often made using UV. This involved p
 There may be issues if the board is left for too long in the etch, or not long enough.
 
 The hobbyist will then need to cut and drill any holes needed. Two layer boards can be made - but registration for this gets somewhat harder. 
+
+## Making PCB's
+
+If you are new to this, although it may be cheaper to make your own, it is recommended you use an online supplier. It is a lot less messier - for advanced boards, or any quantity - you will definitely find them cheaper.
+
+If you are set on making your own at home, please read the [Safety Guide](/wiki/robot_building_safety.html "Building robots can be dangerous - tips to help your safety") first.
+
+To create a PCB, you need to apply an etch-mask to a copper clad board. An etch mask basically stops the etching fluid from working on covered areas of the board.
+
+There are a number of methods, varying in expense and flexibility. The simplest is to use a permanent marker and hand draw the design on the board - I really do not recommend this, although simple - it is not really much of a gain over hand wiring.
+
+There are also transfers you can use with standard lines, corners, pads etc. Again - you will need to line these up by hand. They are useful for accurately marking component pads when manually drawing the mask.
+
+There are systems where you can print onto special paper - which you then iron-on to the PCB to transfer it. These are quite neat - cheap and hobbyist friendly. You will often need to fill in a few gaps manually with a marker - make sure all of the mask is firmly down - otherwise the etch fluid will get under it.
+
+Many people use Photo-etching, where a board is primed with a photo-sensitive resistive mask. By exposing the mask to [UV](/wiki/uv.html "Ultra Violet Light"), it then can be etched underneath. You print your design onto OHP slides, then project a [UV](/wiki/uv.html "Ultra Violet Light") light through them onto the PCB. You can then continue to etch normally. This can be expensive - but also gives the best results.
+
+You will also require a Pillar Drill and clamping table for it- as you will accurately need to drill vias (where the one layer crosses to the other) and connection holes for components and cables. I recommend still using sockets for ICs where possible, and going with headers for all cables - allowing some amount of modularity in your designs.

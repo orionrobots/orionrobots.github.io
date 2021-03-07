@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Salvage Tips
+tags: [robotics, robot building]
 date: 2007-01-28 17:51:36
 ---
 Looking around your home, or a garage sale may yield some excellent places to find robot building materials. The advantages are that first - you may find components that are otherwise hard to get hold of, you are helping recycle (always a good thing), and best of all - it is free.

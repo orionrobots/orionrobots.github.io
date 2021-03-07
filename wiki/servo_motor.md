@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Servo Motor
+tags: [electronics, robot building]
 date: 2005-08-03 23:16:58
 ---
 When you build robots, you will often need precision control.

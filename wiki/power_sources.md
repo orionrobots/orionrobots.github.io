@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Power Sources
+tags: [robot building, robots, robotics]
 date: 2005-07-01 19:41:54
 ---
 One ongoing issue with robotics is reducing the size and weight of power

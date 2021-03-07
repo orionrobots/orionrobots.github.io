@@ -1,6 +1,7 @@
 ---
 layout: page
-title: PROM
+title: PROM - Programmable Read Ony Memory
+tags: [electronics]
 date: 2005-06-29 23:11:24
 ---
 This type of [ROM](/wiki/rom.html "Read Only Memory") allows a programmer to populate it once, and once only. It can be used when developing an item on a small scale - now normally only after most of the initial development has done and testing has started.

@@ -1,10 +1,9 @@
 ---
 layout: page
 title: Sgt Bash
+tags: [robots, robot wars]
 date: 2004-11-14 14:41:14
 ---
-<p>
-<br/>One of the <a href="/wiki/robot_wars.html" title="The british robot smashing TV series.">Robot Wars</a> House Robots.
-</p>
-<p>Probably most well known for having a flame thrower.
-</p>
+One of the [Robot Wars](/wiki/robot_wars.html "The british robot smashing TV series.") House Robots.
+
+Probably most well known for having a flame thrower.

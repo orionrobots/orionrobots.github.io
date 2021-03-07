@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Rotundus Ground Bot
+tags: [robots]
 date: 2005-05-25 19:20:43
 ---
 ![](/galleries/gallery-1-common-images/168-rotundus.jpg)

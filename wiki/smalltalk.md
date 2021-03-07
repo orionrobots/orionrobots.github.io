@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Smalltalk
+tags: [programming]
 date: 2007-01-01 15:49:59
 ---
 This is an [Object Oriented](/wiki/object_oriented.html "Object Oriented") and Dynamically Typed computer Programming Language. It has been used for [AI](/wiki/ai.html "Artificial Intelligence"), but is not common in robotics.

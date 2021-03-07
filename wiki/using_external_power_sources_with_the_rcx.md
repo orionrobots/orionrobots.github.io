@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Using External Power Sources With The RCX
+tags: [robot building, electronics]
 date: 2009-04-25 08:02:52
 ---
 The RCX requires a 9v power source capable of delivering a current of around 30mA.

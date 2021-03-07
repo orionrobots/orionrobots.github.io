@@ -1,6 +1,7 @@
 ---
 layout: page
 title: roomba
+tags: [robots]
 date: 2006-12-30 23:23:57
 ---
 The Roomba is a disk shaped robotic vacuum cleaner or "Robotic Floorvac", designed by [iRobot](/wiki/irobot "iRobot") and released in 2002\. It has also become a robot development platform for some.

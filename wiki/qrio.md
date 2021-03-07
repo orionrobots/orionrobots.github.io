@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Qrio
+tags: [robots]
 date: 2005-10-06 18:09:24
 ---
 This is another signature cute robot product from [Sony](/wiki/sony.html "Sony").

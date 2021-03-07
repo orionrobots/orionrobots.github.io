@@ -1,6 +1,7 @@
 ---
 title: Tekno Robot Dog
 layout: page
+tags: [robots]
 ---
 This information is for reference and information only. Orionrobots has no association with the Tekno Robot puppy - we do not sell or manufacture them.
 

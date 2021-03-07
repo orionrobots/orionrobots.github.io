@@ -1,6 +1,7 @@
 ---
 layout: page
 title: RCX MainBoard
+tags: [robot, robotics, electronics]
 date: 2005-08-27 09:41:11
 ---
 Please click on the items on the board for a close up of the major components of the [RCX](/wiki/lego_rcx "The Lego RCX") mainboard.<br>

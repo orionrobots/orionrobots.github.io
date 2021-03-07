@@ -1,6 +1,7 @@
 ---
 layout: page
 title: RoboSapien
+tags: [robots]
 date: 2013-05-02 20:23:04
 ---
 <div style=" float: right;">
@@ -19,4 +20,4 @@ It has some very basic programmable functionality, and also makes comedy sounds 
 
 It is designed using "Applied BioMorphic" robotics. This describes robots that have features and functions to make them seem like like living creatures. Although the RoboSapien achieves this fairly well, it is not the first robot to feature this. It is among the first commercial toys to feature such style. The Robosapien is a great toy - and anyone who feels like donating one to OrionRobots would be very welcome!
 
-Now it is a little dated, you might be able to buy one for around £40\. Robosapien has now been superseded by the Robosapien v2\. OrionRobots is not sure about how hackable it is, as that was one of the original advantages of the v1, nor the other spin offs like the robosapien dog and the roboraptor.
+Now it is a little dated, you might be able to buy one for around £40\. Robosapien has now been superseded by the Robosapien v2. OrionRobots is not sure about how hackable it is, as that was one of the original advantages of the v1, nor the other spin offs like the robosapien dog and the roboraptor.

@@ -1,6 +1,7 @@
 ---
 layout: page
 title: William Grey Walter
+tags: [robots]
 date: 2005-01-10 14:19:14
 ---
 William Grey Walter built one of the first robotic turtles in the 1940s.

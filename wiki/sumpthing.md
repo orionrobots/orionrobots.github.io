@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Sumpthing
+tags: [robot wars, robots]
 date: 2005-09-11 22:53:01
 ---
 Sumpthing is a monstrosity of a [Robot Wars](/wiki/robot_wars.html "The british robot smashing TV series.") competitor which was built almost entirely out of scavenged automobile scrap.

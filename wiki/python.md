@@ -1,9 +1,10 @@
 ---
 layout: page
 title: Python
+tags: [programming, robotics]
 date: 2004-11-19 23:30:33
 ---
-Python is a programming language which is great for testing and researching.
+Python is a programming language which is great for programming robots with the Raspberry Pi computers. It is the language used as the basis of my robotics book [Learn Robotics Programming, 2nd Edition](https://packt.live/2NoZqhx)
 
 It is interpreted, and not compiled like C. This means it takes a speed hit. However it is written with such a simple and high level command set that it more than compensates. It allows 400 line C programs to be written in 3 lines - which may boil down to faster more efficient C code than the 400 line program anyway.
 

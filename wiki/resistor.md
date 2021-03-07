@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Resistor
+tags: [electronics, robot building]
 date: 2005-09-10 15:10:32
 ---
 Resistor are designed to Resist current. That is they limit flow. They are one of the most common electronic components you will come across.

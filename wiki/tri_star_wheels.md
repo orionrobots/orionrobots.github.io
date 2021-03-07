@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Tri Star Wheels
+tags: [robot building, robots]
 date: 2007-03-03 15:29:32
 ---
 ## The Big Idea

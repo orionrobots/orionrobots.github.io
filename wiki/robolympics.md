@@ -1,6 +1,7 @@
 ---
 layout: page
 title: ROBOlympics
+tags: [robots]
 date: 2005-05-29 00:05:07
 ---
 The first Annual ROBOLympics took place in San Francisco, California, US.

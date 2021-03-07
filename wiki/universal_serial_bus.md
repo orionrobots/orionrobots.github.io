@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Universal Serial Bus
+tags: [electronics, computing]
 date: 2007-01-28 16:14:59
 ---
 Otherwise known as USB, this has become a very simple and well developed

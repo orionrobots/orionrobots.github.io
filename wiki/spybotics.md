@@ -1,6 +1,7 @@
 ---
 layout: page
 title: SpyBotics
+tags: [robotics, robots, robot building]
 date: 2011-03-12 17:41:48
 ---
 These are designed for children to learn about STEM and robotics with [Lego](/wiki/lego.html "The best known construction toy"), in the disguise of secret agent games.
@@ -13,7 +14,7 @@ The robots you can build are fairly interesting and colourful, going under such 
 
 The remote operates in three modes. One is secure mode - which simply sets the channel the remote operates in, and broadcasts this to the P-Bricks - the first two of these channels also corresponds to [Lego Manas](/wiki/lego_manas.html "Remote control Lego robot-like kits") channels. There is a control mode, which allows buttons 12 and 45 to control the movement of a P-Brick, or a [Lego Manas](/wiki/lego_manas.html "Remote control Lego robot-like kits"). In this mode . There is also a game mode, where the control codes sent are used to play one of the CD-Rom challenges.
 
-The P-Brick is programmed from the PC via a VLL socket in the back - using two half pins to connect it, and a triangle polarity lock. When disconnected- the light can be used for decorative purposes - and often is in the modes on the brick, an dthe other sensor used as a light sensor.
+The P-Brick is programmed from the PC via a VLL socket in the back - using two half pins to connect it, and a triangle polarity lock. When disconnected- the light can be used for decorative purposes - and often is in the modes on the brick, and the other sensor used as a light sensor.
 
 The P-Brick has two fixed motor outputs, a VLL output, an array of LED outputs, and a two IR outputs. It has a touch sensor input, two IR detectors, and a VLL input. The SpyBotics set can be programmed from MindScript and [NQC](/wiki/nqc.html "Not Quite C - A Lego PBrick Programming Language"). It is also capable of controlling [Lego Manas](/wiki/lego_manas.html "Remote control Lego robot-like kits") and communicating with the [Lego RCX](/wiki/rcx.html "The Lego RCX") as well as other SpyBotics bricks.
 

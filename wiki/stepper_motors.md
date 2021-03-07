@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Stepper Motors
+tags: [robot building, robots, electronics]
 date: 2007-01-28 16:24:57
 ---
 A stepper motor is a motor that is designed to be pulsed and move in defined repeatable steps. Its use is in situations where accurate positioning is needed.
@@ -17,10 +18,12 @@ Be aware of the fact that a stepper is an inductive load, and draws a fairly lar
 
 They are often used in disk drives, and are quite useful in robot arms, although in that field [servo motors](/wiki/servo_motor.html "A motor with built in positioning control - easily interfaced with digital systems") are rapidly becoming more common.
 
-Almost every printer, scanner or plotter is probably based on stepper motors to manouvre their heads. This is not surprising, as these devices are probably the most common household robots.
+Almost every printer, scanner or plotter is probably based on stepper motors to manoeuvre their heads. This is not surprising, as these devices are probably the most common household robots.
 
-It is not advised to use stepper motors for driving wheels, although they give a great deal of control, they would overheat, and be slow. A modified servo makes a much better locomotion motor. if you want exact positioning - remember that a wheel may loose traction and slip, so a stepper motor cannot really even guarantee that. Having [odometry](/wiki/odometry.html "Measurement of distance through step/rev counting") systems is a far better solution.
+Having [odometry](/wiki/odometry.html "Measurement of distance through step/rev counting") systems with geared DC motors, is an alternative found in many robots.
 
-# Related notes
+<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=GB&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=orionrobots-21&language=en_GB&marketplace=amazon&region=GB&placement=B087BYKB6T&asins=B087BYKB6T&linkId=3d581b4b4b900d79dc7950499d4ddf4e&show_border=true&link_opens_in_new_window=true"></iframe>
+
+## Related notes
 
 [Using The RCX with Stepper Motors](/wiki/using_the_rcx_with_stepper_motors.html "Using The RCX With Stepper Motors")
