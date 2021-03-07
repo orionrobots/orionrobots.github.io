@@ -1,6 +1,7 @@
 ---
 title: About the Arduino
 layout: page
+tags: [electronics, robot building]
 ---
 ![Arduino Leonardo](/galleries/orion-explorer1-robot/ArduinoLeonardoFront_2_200px.jpg)
 {: style="float: left" }
