@@ -1,7 +1,7 @@
 ---
 created: 2005-01-27 13:46:31
 description: Freeforming, Ball Contraptions and CAD Software
-tags: [lego,soldering,electronics,cad]
+tags: [lego, soldering, electronics, cad]
 title: Freeforming, Ball Contraptions and CAD Software
 layout: post
 ---

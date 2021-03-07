@@ -1,7 +1,7 @@
 ---
 created: 2005-07-22 10:10:19
 description: Images from DorkBotLondon
-tags: [london,dorkbot]
+tags: [london,electronics]
 title: Images from DorkBotLondon
 layout: post
 ---

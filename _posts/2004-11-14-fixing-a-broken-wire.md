@@ -1,13 +1,13 @@
 ---
 title: Fixing a Broken Wire
 layout: post
-tags: [electronics, repair]
+tags: [electronics, repair, robot building]
 ---
 # Intro
 
 Sometimes, when building from kits, or using modules- you will come across a snapped wire. If it is something you have soldered yourself, you may have the option of soldering in a new wire, but sometimes, wires have specialised connectors, and soldering a new wire in may just not be an option.
 
-I was asked this by someone in the [Cybot](/wiki/cybot.html) community and thought this page may be useful.
+I was asked this by someone in the [Cybot](/wiki/cybot.html) robot community and thought this page may be useful.
 
 Before attempting any of this, be absolutely clear which wires you want connected to which others - you will damage your devices, blow fuses or worse still electrocute yourself if you short circuit or reverse polarity on something.
 
@@ -18,19 +18,28 @@ These are intended to be both safer and more permanent than simply twisting wire
 First you need the right tools for the job, and should take into account the right safety precautions.
 
 Required Basic Tools:
-* Wire strippers - decent ones, not the cheap flappy ones on the back of a pound shop crimping tool.
+
+* Wire strippers - decent ones, not the cheap flappy ones on the back of a pound shop crimping tool. The Engineer brand are extremely good.
 * Wire cutters - side cutters, snips - must be able to make a clean cut without lots of pressure or needing to be "worked".
-* Goggles - as with all work with cutters and things that might ping off, eyewear is worth having. Just make sure they are  comfortable and clear so they are in front of your eyes and not on the top of your head.
+* Goggles - as with all work with cutters and things that might ping off, eyewear is worth having. Just make sure they are comfortable and clear so they are in front of your eyes and not on the top of your head. Get the anti-fog kind.
 * Multimeter or continuity tester - to check you've definitely repaired the break.
 
 As there are a few different approaches, additional tools are recommended for those.
 
+<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=GB&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=orionrobots-21&language=en_GB&marketplace=amazon&region=GB&placement=B07FDBW1PT&asins=B07FDBW1PT&linkId=621627f1b54786923da9a0ba65e3bd35&show_border=true&link_opens_in_new_window=true"></iframe>
+<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=GB&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=orionrobots-21&language=en_GB&marketplace=amazon&region=GB&placement=B001HQMWNY&asins=B001HQMWNY&linkId=7fd4c725dd01fd54dddefe9561b1e697&show_border=true&link_opens_in_new_window=true"></iframe>
+<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=GB&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=orionrobots-21&language=en_GB&marketplace=amazon&region=GB&placement=B0777F3CNC&asins=B0777F3CNC&linkId=3e5c905595f1cbd65f4800bc0a20744d&show_border=true&link_opens_in_new_window=true"></iframe>
+<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=GB&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=orionrobots-21&language=en_GB&marketplace=amazon&region=GB&placement=B085Q7N6XN&asins=B085Q7N6XN&linkId=55b813f06abe60d18cb582da5d33fdbe&show_border=true&link_opens_in_new_window=true"></iframe>
+
 # Safety
+
 In addition to the goggles, there are a few other safety warnings on this.
 
 Ensure you have turned off the power to the device, as you may at the very least destroy sensitive electronics, and at the worst give yourself a nasty shock.
 
-Beware of things connected to motor/relay coils or capacitors, these devices may still carry a charge. Old CRT TV's are especially likely to do this. You may want to consider a safe method of ensuring they are discharged before you start working. The safest way is to leave it unplugged for a day or so.
+Beware of things connected to motor/relay coils or capacitors, these devices may still carry a charge. Old CRT TV's are especially likely to do this. You may want to consider a safe method of ensuring capacitors and inductors are discharged before you start working. The safest way is to leave it unplugged for a day or so. If you are going to work close to the capacitors, carefully use a 1M resistor held in pliers with insulated handles to discharge the capacitors across their terminals.
+
+<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=GB&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=orionrobots-21&language=en_GB&marketplace=amazon&region=GB&placement=B072HR25LW&asins=B072HR25LW&linkId=5fc606b78a0ccc93537201d1e330aa88&show_border=true&link_opens_in_new_window=true"></iframe>
 
 # Easy Fixes
 
@@ -42,12 +51,15 @@ This is suitable for either low count wire connections, or fairly course things.
 
 You should be able to find these in any hardware store.
 
-### Required Additional Tools:
+<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=GB&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=orionrobots-21&language=en_GB&marketplace=amazon&region=GB&placement=B08HDC7HMK&asins=B08HDC7HMK&linkId=2126335c8ae17375a290c7b51603f4e8&show_border=true&link_opens_in_new_window=true"></iframe>
+
+### Required Additional Tools
 
 * screw driver - small flat bladed.
 * You will need some larger cutters or a sharp blade to cut the chunks of chopblock off.
 
-### Required Materials:
+### Required Materials
+
 chop-block or terminal strip - please do check the current capacity - it is dangerous to use these for applications with higher current than they are rated for.
 
 ### Method
@@ -61,15 +73,27 @@ For each wire, identify the ends you want to connect. Unscrew two connecting ter
 You will want to fix the chop-block down somewhere, otherwise it will rattle around and be a nuisance.
 Depending on the application (and it most robot cases it will be very low voltages at around 5v), you may want to use electrical tape to isolate the terminal to prevent it being dangerous, or remove the possibility of a damaging short.
 
+### Alternative - Wago Blocks
+
+An alternative to chop blocks are Wago connectors, which use a snap fitting to close firmly around leads.
+
+<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=GB&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=orionrobots-21&language=en_GB&marketplace=amazon&region=GB&placement=B08B69R7W3&asins=B08B69R7W3&linkId=67d7edc3c17b2aab23e8cfe53030d2a6&show_border=true&link_opens_in_new_window=true"></iframe>
+
+I recommend using a screwdriver (flat bladed) to flip these up/down as they can catch your finger. These Wago blocks come in different lengths for connecting multiple wires together.
+
 ## Crimp connections
 
 These are somewhat more permanent than chop block terminals, and look neater inline. They do require a crimping tool, they can still work mechanically loose. They are easily available in both hardware and car repair shops.
 There are straight through crimps - with a connection on each end which make this really easy if you have the tool.
 
-### Required Additional Tools:
-* Crimping tool
+### Required Additional Tools
+
+* Crimping tool - you may be able to get a crimping tool with crimps.
+
+<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=GB&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=orionrobots-21&language=en_GB&marketplace=amazon&region=GB&placement=B07JFK58R3&asins=B07JFK58R3&linkId=e52d4f3428cb39f1be677959ca091cf7&show_border=true&link_opens_in_new_window=true"></iframe>
 
 ### Required Materials
+
 * Double ended connection crimps - Ensure they have the right current capacity.
 
 Cut cleanly through the broken wires, and bare them. Twist the bared end tightly. Push each end of a connection into the crimp, and use the tool to crimp it. Repeat for the other end.
@@ -96,6 +120,7 @@ You can also get the D-Type connectors, which are used for parallel ports and pr
 D-Types are inherently polarised (stop you connecting it the wrong way), but the SIL and DIL systems can also have polarising tabs.
 
 ### Required Tools and Materials
+
 * Good pliers - square jawed not needle nose.
 * An matching IDC socket and plug. Consider the most suitable profile for these, make sure it has enough pins.
 
@@ -119,9 +144,11 @@ Many small headphones use these type of cables, in such a way that ensures that 
 
 # After any of the suggested fixes
 
-Use a multimeter or tester to probing either end of the wire anre ensure you have a good connection. It is worth doing this before applying the electricians tape or heat tubing, or in the case of the chop-block before fixing it down.
+Use a multimeter or tester to probing either end of the wire can ensure you have a good connection. It is worth doing this before applying the electricians tape or heat tubing, or in the case of the chop-block before fixing it down.
 
 There is nothing more frustrating than having to remove your heat shrink, or tape just to re-tighten, or replace the connection.
+
+<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=GB&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=orionrobots-21&language=en_GB&marketplace=amazon&region=GB&placement=B07FDBW1PT&asins=B07FDBW1PT&linkId=621627f1b54786923da9a0ba65e3bd35&show_border=true&link_opens_in_new_window=true"></iframe>
 
 # Gotchas
 

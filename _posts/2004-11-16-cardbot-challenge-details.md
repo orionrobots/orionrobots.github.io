@@ -2,7 +2,7 @@
 layout: post
 title: Cardbot Challenge Details
 date: 2004-11-16 16:10:56
-tags: [challenges, east finchley robotics club]
+tags: [challenges, east finchley robotics club, robotics, robots, robot building]
 ---
 This challenge is to build a robot capable of taking a deck of cards, shuffling it, and then dealing cards off the top of the deck.
 
@@ -34,3 +34,5 @@ We will be using standard playing cards for the challenge - so build your robot 
 # Whats the point?
 
 At OrionRobots our main goals are to encourage innovation and contact between local robot builders, a challenge does this, while getting you to start exploring and pushing technical knowledge. Following the challenge - we have a good excuse to sit down over a game of cards and discuss robotics.
+
+<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=GB&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=orionrobots-21&language=en_GB&marketplace=amazon&region=GB&placement=B082WD5YV9&asins=B082WD5YV9&linkId=e6031a2f307d66e1f776c2f804796727&show_border=true&link_opens_in_new_window=true"></iframe>

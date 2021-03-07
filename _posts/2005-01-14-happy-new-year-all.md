@@ -14,7 +14,7 @@ Firstly - let me say that our support goes out to all affected by the Tsunami. I
 
 # Christmas
 
-On a more happy note - lets talk pressies. My wife bought me this rather cool Meccano remote control car, with which you build a creation, then race it around a bit. It is a proper 27Mhz RC as well, not some substitute. Although I am having a lot of fun with the included models, I will also be able to use it as a monster house robot during challenges. Also Dale (homer on orionrobots) surprised me when he bought me a cool [Lego](/wiki/lego.html) aircraft set - building a VTOL Jet and a Helicopter. Anybody who knows me - knows how much I love [construction toys](/wiki/construction_toy.html). I was also bought a Plasma Plate by my mother, which I will probably use to adorn a wall in larger challenges and parties (I have already done one robot party).
+On a more happy note - lets talk presents. My wife bought me this rather cool Meccano remote control car, with which you build a creation, then race it around a bit. It is a proper 27Mhz RC as well, not some substitute. Although I am having a lot of fun with the included models, I will also be able to use it as a monster house robot during challenges. Also Dale (homer on orionrobots) surprised me when he bought me a cool [Lego](/wiki/lego.html) aircraft set - building a VTOL Jet and a Helicopter. Anybody who knows me - knows how much I love [construction toys](/wiki/construction_toy.html). I was also bought a Plasma Plate by my mother, which I will probably use to adorn a wall in larger challenges and parties (I have already done one robot party).
 
 There is also a Christmas gift for those club members who regularly attended last year when the new year starts.
 
@@ -24,7 +24,7 @@ Anyway - I hope you all had a happy Christmas, and thanks to the kids of the rob
 
 # New Year
 
-New years eve was a quiet night in with a few friends and the Telly, although I was shocked by a huge whizz and a bang. I ran out of the flat to see what had happened, and some over-enthusiastic youths had actually let off a firework inside the lifts of the building. I poked my head out just to catch them running away and smoke coming out of the lift. Luckily there was no damage to anybody or the lifts, but can I please stress how easily it could have been a tragedy - especially for the two youths responsible. Letting off fireworks in a confined space is particularly dangerous and stupid.
+New years eve was a quiet night in with a few friends and the television, although I was shocked by a huge whizz and a bang. I ran out of the flat to see what had happened, and some over-enthusiastic youths had actually let off a firework inside the lifts of the building. I poked my head out just to catch them running away and smoke coming out of the lift. Luckily there was no damage to anybody or the lifts, but can I please stress how easily it could have been a tragedy - especially for the two youths responsible. Letting off fireworks in a confined space is particularly dangerous and stupid.
 
 I actually managed to wake up fairly early on new years day, and saw the saddened, slightly subdued celebrations from around the world. We normally watch the Vienna Concert as a matter of course, but while still grand - it was a little tearful this year.
 

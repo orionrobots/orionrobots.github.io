@@ -1,7 +1,7 @@
 ---
 created: 2005-02-08 12:21:59
 description: Making a Pancake Flipping Robot, Chinese New Year &gt; Pancake Day Rolled Into One
-tags: []
+tags: [robots, robot building]
 title: Making a Pancake Flipping Robot
 layout: post
 ---
@@ -23,4 +23,3 @@ Now the reason I said a flipping robot, is even if you take away all of the cook
 On a less seasonal note - we are now looking to buy lego balls for our Great Ball Contraption modules.
 
 See you - have a great year of the Rooster!
-

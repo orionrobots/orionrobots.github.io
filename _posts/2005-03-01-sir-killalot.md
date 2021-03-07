@@ -22,7 +22,5 @@ His tracks are also a weakness - like many tracked designs, it you snap them it 
 For any real contender- it is a good design tactic to aim to build a robot to defeat Sir Killalot and then bring it down to size/weight constraints.
 
 
-![](/galleries/gallery-1-common-images/178-sirk.gif){:class="img-responsive"}
-
-![You really wouldnt want to get quite this close to Sir Killalot! Ouch](/galleries/gallery-1-common-images/179-killalot.jpg "You really wouldnt want to get quite this close to Sir Killalot! Ouch"){:class="img-responsive"}
-
+<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=GB&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=orionrobots-21&language=en_GB&marketplace=amazon&region=GB&placement=B07XGW8459&asins=B07XGW8459&linkId=2d630138af2bb17723f51040466b3736&show_border=true&link_opens_in_new_window=true"></iframe>
+<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=GB&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=orionrobots-21&language=en_GB&marketplace=amazon&region=GB&placement=B01JBF3SKS&asins=B01JBF3SKS&linkId=f2a409581b18aea4cb4addc0e36b629e&show_border=true&link_opens_in_new_window=true"></iframe>

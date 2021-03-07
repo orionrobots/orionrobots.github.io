@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Mindstorms Stormrunner
-tags: [lego, mindstorms, rcx, browser game]
+tags: [robots, mindstorms, rcx, browser game]
 ---
 This week I rediscovered the [Mindstorms Storm Runner game](http://www.instructables.com/topics/Lego-StormRunner-game/).
 Lego turned off this game some time ago, and I was glad to see it back - I have spent a fair bit of time over the last couple of days playing it. 

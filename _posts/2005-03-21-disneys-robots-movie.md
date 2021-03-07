@@ -1,16 +1,10 @@
 ---
 created: 2005-03-21 05:10:53
-description: Meeting Log, and movies
-tags: [lego,rcx,mindstorms]
-title: Meeting Log, and movies
+description: Disneys "Robots" Movie
+tags: [robots]
+title: Disneys Robots Movie
 layout: post
 ---
-## Meeting Log
-
-Well this weeks meeting ended up being just myself and Dale. However - since it was a very sunny day, we decided to go out on the green, and sketch concepts for robots and ball contraptions, and the new Lego RCX pneumatic valve design I am considering. All in all - a very pleasant meeting, and a loss for those who missed it.
-
-I cant say any more on the valve design - only that it may solve the [solenoid](/wiki/solenoid.html "Solenoid") problem for many.
-
 ## Movie - Disney's Robots
 
 Later, my wife, myself, Dale and his family went to see the new movie "Robots". It was a wonderful movie. It has lots of imagination. The robots themselves look great - and are wonderfully animated. The number of gadgets, gizmos and inventions are enough to make it a good movie, but the storyline is kind of sweet and compelling as well - although I am not sure about the musical aspects of the film.

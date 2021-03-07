@@ -1,13 +1,14 @@
 ---
 layout: post
 title: Recycling Batteries
+tags: [electronics]
 date: 2005-07-01 19:41:38
 ---
 One problem with conventional batteries is that they are not rechargeable, and even the rechargeable ones eventually won hold power any longer.
 
 What can be done to stop them filling up the landfills?
 
-Be aware, be very aware, that robot builders do go through a lot of batteries - especially considering that some robot electronics just cannot work with rechargeables, and it is really not recommended to use Ni-Cads with anything motorised. Most batteries contain all manner of unpleasant chemicals, and therefore are quite harmful to the environment when improperly disposed. Putting them simply in the bin guarantees that they will not be treated properly - and could definitely pose a tangible environmental hazard at a a dump.
+Be aware, be very aware, that robot builders do go through a lot of batteries - especially considering that some robot electronics just cannot work with rechargeable, and it is really not recommended to use Ni-Cads with anything motorised. Most batteries contain all manner of unpleasant chemicals, and therefore are quite harmful to the environment when improperly disposed. Putting them simply in the bin guarantees that they will not be treated properly - and could definitely pose a tangible environmental hazard at a a dump.
 
 You must never burn, pierce or open a battery unless you *really* know what you're doing, and unless it is your job to be doing such things, you don't - so please don't do it.
 Firstly - they can explode when pierced or burned, and also contain chemicals which are at least as harmful to you as they are to the environment. Car Batteries actually contain a certain amount of Sulphuric Acid, and the chemical roster just gets worse from there on in. They are quite capable of burning you, or poisoning you - so don't even think about messing with them.

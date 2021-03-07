@@ -1,7 +1,7 @@
 ---
 created: 2005-04-06 16:11:55
 description: Round up of the Challenge on Saturday the 2nd April 2005
-tags: [east finchley robotics club, lego]
+tags: [east finchley robotics club, robot building, robotics, lego]
 title: Round up of the Challenge on Saturday the 2nd April 2005
 layout: post
 gallery_browse: /galleries/2005-04-02-robot-building-challenge-saturday/target
@@ -19,7 +19,7 @@ The spec I had written for the challenge is as follows:
 
 This challenge is meant to get back to basics for a bit of fun, and there are prizes!
 
-Each team will use a manas handset and motor block, and build a robot around it. The robots will be required to have a sumo brawl, and race - so think about both speed as well as taking a good knock.
+Each team will use a Lego Manas handset and motor block, and build a robot around it. The robots will be required to have a sumo brawl, and race - so think about both speed as well as taking a good knock.
 
 The teams have 1 hour to build the robots, and the challenge events are expected to last around an hour.
 
@@ -124,7 +124,7 @@ We then started the sumo round. There was a little confusion over which part was
 
 The second sumo round saw Gabriel versus Dale - for some reason, Janak didn't go for driving any of the rounds. Again - the manoeuvrability saw D &amp; J win again. 10 points.. This was turning into a whitewash...
 
-The final sumo round was Danny versus Dale again. 2 minutes in, Dale rammed Danny with those bumpers, and a drive wheel fell off. Danny's vehicle was virtually useless, and Dale (a little gloatingly I may add) pushed him off. 10 points again.
+The final sumo round was Danny versus Dale again. 2 minutes in, Dale rammed Danny's robot with those bumpers, and a drive wheel fell off. Danny's vehicle was virtually useless, and Dale (a little gloatingly I may add) pushed him off. 10 points again.
 
 I took one more photo of each before the drop tests started
 
@@ -143,3 +143,5 @@ Drop Test Aftermath
 Now considering Dales gloating, and distraction techniques, I had to award the 12 behaviour points to Danny &amp; Gabriel - but alas - it was really not enough. The final score was 54 to 17.
 
 Anyway while this was the end of an era, this is not the end of the club, although this was the last event held at Prospect Ring, we will be starting a new group at our new location around August.
+
+<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=GB&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=orionrobots-21&language=en_GB&marketplace=amazon&region=GB&placement=B082WD5YV9&asins=B082WD5YV9&linkId=beb70788ccaaea84a7820473034e4cd9&show_border=true&link_opens_in_new_window=true"></iframe>
