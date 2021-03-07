@@ -1,13 +1,13 @@
 ---
 layout: post
-tags: [darpa, grand challenge, uav]
+tags: [darpa, robots, grand challenge, uav]
 title: A Grand Challenge comes to the UK!
 ---
 The UK Ministry Of Defence (MoD) have decided to take a leaf from the DARPA book, and created their own grand challenge.
 
 As the original did, this will intrigue and bring forth robot builders, makers and inventors from all over the country and potentially the globe to take part. I will certainly be keeping an eye on this.
 
-# So what is the challenge?
+## So what is the challenge?
 
 The MoD (Uk Ministry Of Defence) would like to encourage design of an autonomous vehicle capable of scouting out urban areas, and assessing for any potential threats. The vehicle must be able to remain undetected where possible. It should be able to deal well with returned fire if discovered, or be cheap enough to be expendable.
 
@@ -21,7 +21,7 @@ In short, it would have to be designed taking into account some of the training 
 
 Keeping costs down is played off versus actual armour or ability to take fire. Of course excellent ability to avoid detection may mean neither are necessary. Stealth is by far the most important factor, as it would also alert enemy troops that friendly troops are moving in.
 
-# Where, how and when?
+## Where, how and when?
 
 The competition is open to all kinds of companies, institutions and academic groups, with the MOD proposing to finance and offer a development contract to the winners. When putting in the R &amp; D for this, competitors may apply for funding in the form of grants from the MOD, but depending on their status, they may also be required to fund themselves.
 
@@ -29,7 +29,7 @@ The first event dates have not been announced, only that things will be kicked o
 
 You have only until the 15th May to get your applications in - you can enter through the website, and will go through a qualification process.
 
-# Links
+## Links
 
 * <http://www.challenge.mod.uk>
 * <http://www.theregister.com/2007/03/15/mod_grand_challenge_underway/>

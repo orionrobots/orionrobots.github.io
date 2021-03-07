@@ -1,7 +1,7 @@
 ---
 created: 2006-03-03 08:13:15
 description: Lego announces MPD selection process complete
-tags: [nxt, lego, mdp, mindstorms, robots, robotics]
+tags: [nxt, lego, mdp, mindstorms, robots, robot building, robotics]
 title: Lego announces MPD selection process complete
 layout: post
 ---
@@ -18,3 +18,4 @@ These were a tight knit group of serious [Lego](/wiki/lego.html "The best known 
 
 This group included Steve Hassenplug - who is also a major player in the [GBC](/wiki/gbc.html "Great Ball Contraption"). They led the development of the initial servers, the programming environment, requested any additional parts, and ensured that when the box was sold there were enough parts to make some good initial models.
 
+<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=GB&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=orionrobots-21&language=en_GB&marketplace=amazon&region=GB&placement=B082WD5YV9&asins=B082WD5YV9&linkId=75cbb40f8dd28c5b84d540cdd12f14a3&show_border=true&link_opens_in_new_window=true"></iframe>

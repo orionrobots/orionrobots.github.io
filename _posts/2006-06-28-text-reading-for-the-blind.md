@@ -1,7 +1,7 @@
 ---
 created: 2006-06-28 15:24:45
 description: Text Reading for the Blind
-tags: [robotics, blind, ocr, speech, innovation, pda]
+tags: [robotics, visual processing, speech, innovation]
 title: Text Reading for the Blind
 layout: post
 ---
@@ -13,7 +13,7 @@ Basically, it is a [Handheld Computer - PDA](/wiki/personal_data_assistant "Pers
 
 It is just these kind of developments that robotics is spurring and providing innovation for, and enabling those who are challenged is among some of the best uses for the technology.
 
-# Links
+## Links
 
 * [Ray Kurzweil: An Oral History Interview](https://www.namm.org/library/oral-history/ray-kurzweil)
 * <a href="http://www.kurzweiltech.com/aboutray.html" >About Ray Kurzweil</a>

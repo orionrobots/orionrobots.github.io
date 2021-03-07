@@ -1,6 +1,6 @@
 ---
 title: Servicing The Lego Minstorms RCX 1.0
-tags: [lego, lugnet, mindstorms, rcx]
+tags: [lego, electronics, lugnet, mindstorms, rcx]
 layout: post
 ---
 I have recently found a page on servicing the Lego RCX 1.0 supplied with the Lego Mindstorms RIS kit.
@@ -106,7 +106,7 @@ These connections should be bent slightly downward to ensure a tight connection 
 
 image missing
 
-Be sure the pc board standoffs are in their proper positions.
+Be sure the pc board stand-offs are in their proper positions.
 
 Reinstall the pc board under the large contact first and then under the small contact. Check to see that there is sufficient spring tension to make a good contact with the pc board circuit.
 
@@ -120,4 +120,3 @@ Install the lens for the IR diodes.
 Replace the four screws and batteries and the battery cover.
 Hit the start button to confirm operation.
 Load the firmware and check.
-

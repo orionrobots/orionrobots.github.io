@@ -1,7 +1,7 @@
 ---
 created: 2006-04-08 07:17:45
 description: Amazing Robot video
-tags: [robot, robotics, layered_x]
+tags: [robot, robotics]
 title: Amazing Robot video
 layout: post
 ---
@@ -13,6 +13,6 @@ Among the robots I have seen, few have been the crowd pleaser that this little c
 
 You only need to see it perform here to understand why. It walks, it dances, it transforms, and its legs can become arms and vice versa. It shows a talent of engineering, and control that is definitely exceptional. All of this from something which is just a bundle of simple servos and linkages. Top stuff!
 
-# Links
+## Links
 
 * <a href="http://www.asurada.jp/">http://www.asurada.jp/</a> - Asurada's website on RAYERD-X (Its real name)

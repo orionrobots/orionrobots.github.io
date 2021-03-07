@@ -1,7 +1,7 @@
 ---
 created: 2008-05-04 16:24:00
 description: Broken Cybot Repairs
-tags: [cybot, robot, robot kit]
+tags: [cybot, robot, robot building, robot kit]
 title: Broken Cybot Repairs
 layout: post
 ---
@@ -13,7 +13,7 @@ I used the dome parts from the racing cybot and managed to repair that, but as I
 
 All thumbnails can be clicked to enlarge:
 
-# Pictures
+## Pictures
 
 You can clearly see the replaced dome, and the cybot leaning forward with no Castor. The robot in the background is an audio sensing based robot kit.
 

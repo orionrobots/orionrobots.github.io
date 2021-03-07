@@ -1,7 +1,7 @@
 ---
 created: 2006-12-15 06:21:08
 description: Lego machines group on YouTube
-tags: [robots, lego, store, gbc, howstuffworks]
+tags: [robots, lego]
 title: Lego machines group on YouTube
 layout: post
 ---
@@ -16,6 +16,8 @@ This is a very simple demonstration of the logic behind a microwave, using [mind
 [Video of the Lego Microwave](http://www.youtube.com/watch?v=CSh0mvlnP38)
 
 The door must close before it will turn on, and the user must press the start button.
+
+<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=GB&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=orionrobots-21&language=en_GB&marketplace=amazon&region=GB&placement=B082WD5YV9&asins=B082WD5YV9&linkId=e40e6e6802507d8646f3131923f1dea1&show_border=true&link_opens_in_new_window=true"></iframe><!-- lego mindstorms review 2021 -->
 
 ## Lego Elevator
 

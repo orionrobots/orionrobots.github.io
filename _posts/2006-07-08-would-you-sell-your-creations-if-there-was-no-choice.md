@@ -29,7 +29,7 @@ This man may have lost what he had, but it does not mean he cannot go and create
 
 Wu Yulu is a 44 year old man from Mawu Village in Eastern Beijing. He left school at the age of 14, and has had no former technical training. He started building robots nearly 15 years ago. His robots have attracted international publicity, and even attention from government institutions. Hopefully, a robotics company will give this man employment.
 
-# Links
+## Links
 
 * [Salvage Tips](/wiki/salvage_tips "Tips on pulling stuff apart to build robots. How, where and what.") - OrionRobots Tips on building your own robots from salvaged materials.
 * [One India News - Homeless farmer forced to sell home-made robots](http://news.oneindia.in/2006/07/07/homeless-china-farmer-forced-to-sell-home-made-robots-1152252384.html)

@@ -1,7 +1,7 @@
 ---
 created: 2006-01-06 10:30:58
 description: Lego unveils the next generation Mindstorms system
-tags: [lego,nxt,mindstorms,robot,robots,robotics,rcx,gadget,electronics,technology,education]
+tags: [lego,nxt,mindstorms,robot,robots,robotics,robot building, rcx, electronics,technology,education]
 title: Lego unveils the next generation Mindstorms system
 layout: post
 ---
@@ -10,16 +10,16 @@ In September 1998, hobbyist robot builders woke up the world over to robot build
 The RCX changed everything. The plastic toy of our childhood resurfaced as a leader in technology- and created the army of AFOLS - adult fans of Lego,
 a completely unexpected group who were contributing, collaborating and hacking the product in ways Lego could not have dreamed of.
 
-The Lego company watched,
-saw satellite businesses spring up, and even encouraged this.
+The Lego company watched, saw satellite businesses spring up, and even encouraged this.
 New sensors, devices, programming systems and even complete [OS's](/wiki/os.html "An Operating System") resulted.
 The [Lugnet Lego community](/wiki/lugnet.html "Lego Users Group Network") and Lego hosted discussion sites- and Lego's best selling toy went from strength to strength.
 
-But then the company hit trouble, they lost touch with the Lugnet/AFOL community,
-and invested heavily in License deals.
+But then the company hit trouble, they lost touch with the Lugnet/AFOL community, and invested heavily in License deals.
 Lego produced a raft of badly received toys, and then announced that to save costs the company would rein in and focus its market again.
 During this time, the community rumour mill speculated, was the amazing [Mindstorms](/wiki/mindstorms.html "A Robotic construction toy system from Lego") to be dropped or revamped? 
 Lego stayed silent. They released the [Spybotics](/wiki/spybotics.html "Lego Programmable robot kits") kits, which were interesting, but fairly limited in comparison.
+
+<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=GB&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=orionrobots-21&language=en_GB&marketplace=amazon&region=GB&placement=B082WD5YV9&asins=B082WD5YV9&linkId=08332228f2cd7aed16ca05aa5a1f7372&show_border=true&link_opens_in_new_window=true"></iframe>
 
 During this time, the community continued to innovate, but the limitations of the RCX were becoming well known. 
 The RCX was too awkward to interface with, sure there were custom sensors, but it was such a task to create them. 

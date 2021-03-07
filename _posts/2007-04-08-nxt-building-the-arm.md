@@ -1,6 +1,6 @@
 ---
 created: 2007-04-08 15:48:14
-tags: [robots, robotics, lego, mindstorms, nxt]
+tags: [robots, robotics, robot building, lego, mindstorms, nxt]
 title: NXT - Building the Arm
 layout: post
 ---

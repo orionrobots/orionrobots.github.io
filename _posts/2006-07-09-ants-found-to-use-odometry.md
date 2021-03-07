@@ -1,7 +1,7 @@
 ---
 created: 2006-07-09 11:21:20
 description: Ants found to use odometry
-tags: [sensors,biology]
+tags: [robotics, sensors,biology]
 title: Ants found to use odometry
 layout: post
 ---

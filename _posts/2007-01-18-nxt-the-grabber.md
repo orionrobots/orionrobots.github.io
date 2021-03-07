@@ -1,6 +1,6 @@
 ---
 created: 2007-01-18 15:06:34
-tags: [lego, nxt, coding, mindstorms]
+tags: [lego, nxt, programming, robot building, mindstorms]
 title: NXT - The Grabber
 layout: post
 todo_needs_sat: ["Convert tiki download to local download"]

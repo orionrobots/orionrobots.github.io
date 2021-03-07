@@ -1,7 +1,7 @@
 ---
 created: 2007-03-09 14:28:30
 description: Small robots to be used for medical procedures
-tags: [robot,biology,medicine]
+tags: [robot,biology,robots]
 title: Small robots to be used for medical procedures
 layout: post
 ---
