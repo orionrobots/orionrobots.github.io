@@ -14,4 +14,4 @@ I also have found a kit of soldering tools at a pound shop which are almost like
 
 Salvaging is still tough work and I am glad I have finished for a while.
 
-OrionRobots has now also acquired a scanner - so I may scan in some older sketches, which will eventually be replaced when the new drawing application is sorted.
+OrionRobots has now also acquired a PC scanner - so I may scan in some older sketches, which will eventually be replaced when the new drawing application is sorted.

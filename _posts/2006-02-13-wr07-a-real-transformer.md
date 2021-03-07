@@ -1,7 +1,7 @@
 ---
 title: WR-07 A real transformer
 layout: post
-tags: [robot, transformer]
+tags: [robots, transformer]
 ---
 A real transforming robot has been revealed in Japan. Designed and built by Nakamura-san at Himeji Soft Works, it transforms to and from a car using a bunch of servo motors.
 

@@ -1,7 +1,7 @@
 ---
 created: 2006-07-23 14:55:38
 description: The NXT has been opened up
-tags: [lego, nxt, mindstorms, salvage, robots, disassembly, teardown]
+tags: [nxt, mindstorms, salvage, robots, disassembly, teardown]
 title: The NXT has been opened up
 layout: post
 ---
@@ -16,7 +16,7 @@ Its a shame there were no disassembly steps though.
 
 This ties nicely with another find this week, Take It Apart.net (2018 the site no longer responds), a website dedicated to the fine art of taking stuff apart. Although they do not necessarily use it for salvage or modding as we would here, its a fine place to see plenty of stuff taken apart, often with step-by-step instructions.
 
-# Links
+## Links
 
 * [Jørgen Stuber's images of the NXT board](http://www.jstuber.net/2006/07/23/some-pictures-of-nxt-production-hardware/)
 * [Salvage Tips](/wiki/salvage_tips.html "Tips on pulling stuff apart to build robots. How, where and what.")

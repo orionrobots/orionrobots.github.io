@@ -1,7 +1,7 @@
 ---
 created: 2006-06-23 13:56:11
 description: Microsoft Robotics Studio cool, but not quite there yet
-tags: [robotics, csharp, lego, rcx, nxt, vex, microsoft]
+tags: [robotics, robot building, programming]
 title: Microsoft Robotics Studio cool, but not quite there yet
 layout: post
 ---
@@ -14,11 +14,13 @@ It has been suggested that this will (via a remote control method) work with the
 
 Now if MS were to announce that they could compile down to native bytecode for the microcontrollers and let them then run standalone this would be much cooler - maybe in a couple of years that may be the case. Until then, may I suggest robot c (covered in [Beta C Programming Solution For NXT announced]({% post_url 2006-06-18-beta-c-programming-solution-for-nxt-announced %}) and SDCC as alternatives that both use C, and compile to bytecode on multiple targets, with the RCX, NXT and VEX on the former, and [PIC](/wiki/pic.html), 8051, Atmel AVR on the latter.
 
-Also great is that MS are sponsoring Carnegie Mellon University, who are relatively prolific in this field.
+Also great is that Microsoft sare sponsoring Carnegie Mellon University, who are relatively prolific in this field.
 
-# Links
+## Links
 
 * [Video Footage of this in action](http://channel9.msdn.com/ShowPost.aspx?PostID=206574) - Although the demo is rudimentary joystick control
 * [Robotics Studio on MSDN](http://msdn.microsoft.com/robotics/default.aspx)
 * [Lugnet Announcement Thread started by Dick Swan](http://news.lugnet.com/robotics/?n=26107) - Dick Swan is the creator of fast RCX firmware.
 * [The obligatory cynic thread also on Lugnet](http://news.lugnet.com/robotics/?n=26104) - Quite amusing though!
+
+<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=GB&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=orionrobots-21&language=en_GB&marketplace=amazon&region=GB&placement=B082WD5YV9&asins=B082WD5YV9&linkId=e40e6e6802507d8646f3131923f1dea1&show_border=true&link_opens_in_new_window=true"></iframe><!-- lego mindstorms review 2021 -->
