@@ -9,6 +9,8 @@ tags: [raspberry pi, raspberry pi pico, raspberry pi pico projects, micropython,
 
 I've been playing with the Raspberry Pi Pico a lot lately, and my daughter Helena joined me. In this article, I'll examine what we got running with the Pico and how the session went.
 
+![Raspberry Pi With Speaker and Book](/galleries/2021-03-06-raspberry-pi-pico-tones-with-helena/pico-with-buzzer-and-book.jpeg)
+
 ## The Raspberry Pi Pico
 
 I've not written much on the Orionrobots channel about the Raspberry Pi Pico, but it is a really awesome device. It's a microcontroller - capable of running code to control physical hardware. It's also pretty small. With a breakout board not so different from an Arduino Nano in size. 
@@ -23,7 +25,19 @@ This Pico already had headers soldered on, and I had previously put MicroPython 
 
 I gave Helena the Pico, some breadboard, and showed her a selection of sensors, LED displays and things she could connect it to. I asked her what she would like to do first. Her choice was that she wanted to see if she could make it make noise. 
 
-![Materials - Pico, breadboard, speaker]()
+![Materials - Pico, breadboard, speaker](/galleries/2021-03-06-raspberry-pi-pico-tones-with-helena/stuff-we-used-oscilloscope-raspberry-pi-pico.jpg)
+
+The materials we used today were:
+
+* [A Raspberry Pi Pico](https://thepihut.com/collections/featured-products/products/raspberry-pi-pico) with headers soldered on, and MicroPython on board.
+* [USB micro cable](https://thepihut.com/products/usb-to-micro-usb-cable-0-5m)
+* [A breadboard](https://amzn.to/3rwPBxv)
+* [A tiny beeper/piezo speaker](https://amzn.to/30ssPLb)
+* [4 male to male jump wires](https://thepihut.com/products/breadboarding-wire-bundle)
+* ["Get Started with MicroPython with on Raspberry Pi Pico"](https://thepihut.com/products/get-started-with-micropython-on-raspberry-pi-pico)
+* [A Digital Storage Oscilloscope](https://amzn.to/3cf0y04) - I used a Rigol DS1052E 
+* [An oscilloscope probe with croc clip and spring clip](https://amzn.to/3l4Kdz1)
+* A Laptop with [Thonny](https://thonny.org/) installed
 
 Awesome - lets do this!
 
@@ -38,7 +52,7 @@ We worked through the "Hello, LED!" example in Chapter 4, getting the built in L
 This got her a simple flashing LED. She was then playing with the light.
 It was from here that we started diverging from the book.
 
-![Pico Running Blinky On My Desk]()
+![Pico Running Blinky](/galleries/2021-03-06-raspberry-pi-pico-tones-with-helena/raspberry-pi-pico-lit.jpg)
 
 ## Talking Frequency
 
@@ -61,13 +75,14 @@ I now asked what she would do if she needed to change the rate? She first did th
         led_onboard.value(0)
         utime.sleep(sleep_time)
 
-She can now change frequency to get it to different speeds. She tried 1, 0.3, 30, and 100 - where she could no longer see the LED pulsing. She couldn't see it changing now. So I suggested it was time to bring out a bigger tool.... The oscilloscope.
+She can now change frequency to get it to different speeds. She tried 1, 0.3, 30, and 100 - where she could no longer see the LED pulsing. She couldn't see it changing now. So I suggested it was time to bring out a bigger tool... The oscilloscope.
 
-## Monitoring with the Oscilloscope
+
+## Monitoring with the Oscilloscope
 
 Helena is always excited when the Oscilloscope comes out - it has a colourful display and many buttons. It was at this point we plugged the Pico into a breadboard.
 
-![Breadboard connections and probes]()
+![Breadboard connections and probes](/galleries/2021-03-06-raspberry-pi-pico-tones-with-helena/raspberry-pico-on-breadboard.jpg)
 
 We set up a connection to ground, and then used GP15 as a monitor pin to connect our probes to. The idea being to make the same change to the monitor pin as GP25. This way we can see what signal is being sent to the LED. 
 
@@ -89,11 +104,11 @@ We set up a connection to ground, and then used GP15 as a monitor pin to connect
 
 We turned on the oscilloscope, powered on the scope and then the Pico. We then started the code. What we first saw:
 
-![Oscilloscope showing the wrong wave]()
+![Oscilloscope showing the wrong wave](/galleries/2021-03-06-raspberry-pi-pico-tones-with-helena/oscilloscope-wrong-reading.png)
 
-This was a curvy sine wave, at the wrong speed, and the wrong voltage size. Not what we were looking for. I then checked all the connections again - and found that the ground pin was not properly connected. Whew. We then got a square wave - at this point at the frequency of 100 hz. Yes - I explained that term - cycles per second.
+This was a curvy sine wave, at the wrong speed (50Hz), and the wrong voltage size. Not what we were looking for. I then checked all the connections again - and found that the ground pin was not properly connected. Whew. We then got a square wave - at this point at the frequency of 100 hz. Yes - I explained that term - cycles per second.
 
-![Oscilloscope square wave]()
+![Oscilloscope square wave](/galleries/2021-03-06-raspberry-pi-pico-tones-with-helena/oscilloscope_3v3_100.png)
 
 Looking at the captures, we can see a few things - first we have a couple of complete waves on the screen. The rate below shows the frequency at close enough to 100hz. The vertical axis is the voltage. From bottom to top we can see it is 3 and bit squares tall. This is the expected 3.3v from the Pico's output pin.
 
@@ -125,7 +140,7 @@ I suggested she add an on time, and off time variable:
 
 Now she could alter these - set the on time to 0.1, and the off time to 0.9. We were able to see such a change on the oscilloscope, and the LED was brighter.
 
-![Oscilloscope with 0.9 to 0.1 duty cycle]()
+![Oscilloscope with 0.9 to 0.1 duty cycle](/galleries/2021-03-06-raspberry-pi-pico-tones-with-helena/oscilloscope-100_0_1.png)
 
 I then suggested we can make a variable called duty_cycle, which we could alter to change both these variables at once. This snippet is only the variables section - the rest stays the same:
 
@@ -136,9 +151,13 @@ I then suggested we can make a variable called duty_cycle, which we could alter 
 
 With this, she was able to change duty cycle, and with the oscilloscope dialled in to get 5 divisions per cycle, we were able to clearly see the effect of this.
 
-![Duty cycle 0.4]()
+In this picture, she counted that 2/5 of the bars are full - this is 0.4.
 
-![duty cycle 0.1]()
+![Duty cycle 0.4](/galleries/2021-03-06-raspberry-pi-pico-tones-with-helena/oscilloscope-100_04.png)
+
+We then tried 0.9:
+
+![duty cycle 0.1](/galleries/2021-03-06-raspberry-pi-pico-tones-with-helena/oscilloscope-100_09.png)
 
 I explained how this is PWM (pulse width modulation), not sure she will remember the term, but I explained how it is how many motors are controlled - most of my robots use a principle like this, albeit controlled by hardware.
 
@@ -146,7 +165,7 @@ I explained how this is PWM (pulse width modulation), not sure she will remember
 
 So now she was itching to get a sound out of this. And we had a quick way to do it. We have a little piezo speaker (not a buzzer) which fit nicely over the breadboard middle channel. It has a polarity noted, so Helena made sure that this was connected the right way, with a pin going down to grown, and another to Pin 15 (out monitor pin).
 
-![Breadbaord with beeper connected]()
+![Breadbaord with beeper connected](/galleries/2021-03-06-raspberry-pi-pico-tones-with-helena/pico-with-buzzer-and-oscilloscope.jpg)
 
 She was then able to start the code again, and hear a tone from the speaker! Awesome.  We tried a few values. I remembered that 440hz was a musical note, and we tried it.
 
