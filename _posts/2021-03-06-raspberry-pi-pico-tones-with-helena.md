@@ -7,7 +7,7 @@ tags: [raspberry pi, raspberry pi pico, raspberry pi pico projects, micropython,
 ---
 {% include JB/setup %}
 
-I've been playing with the Raspberry Pi Pico a lot lately, and my daughter Helena joined me. In this article, I'll examine what we got running with the Pico and how the session went.
+I've been playing with the Raspberry Pi Pico a lot lately, and Mini_orionrobots (aka Helena) joined me. In this article, I'll examine what we got running with the Pico and how the session went.
 
 ![Raspberry Pi With Speaker and Book](/galleries/2021-03-06-raspberry-pi-pico-tones-with-helena/pico-with-buzzer-and-book.jpeg)
 
@@ -23,7 +23,7 @@ It's also only £3.60 - so I'm very happy to let my kids code and connect things
 
 This Pico already had headers soldered on, and I had previously put MicroPython on it.
 
-I gave Helena the Pico, some breadboard, and showed her a selection of sensors, LED displays and things she could connect it to. I asked her what she would like to do first. Her choice was that she wanted to see if she could make it make noise. 
+I gave Mini_orionrobots the Pico, some breadboard, and showed her a selection of sensors, LED displays and things she could connect it to. I asked her what she would like to do first. Her choice was that she wanted to see if she could make it make noise. 
 
 ![Materials - Pico, breadboard, speaker](/galleries/2021-03-06-raspberry-pi-pico-tones-with-helena/stuff-we-used-oscilloscope-raspberry-pi-pico.jpg)
 
@@ -47,7 +47,7 @@ So we talked about the first steps with a new controller, and I suggested making
 
 We have a copy of the excellent book "Getting Started with MicroPython on Raspberry Pi Pico" from the Raspberry Pi Press. This was used a reference, with the diagram of the pins bookmarked for frequent use. I really should put one of those on the wall.
 
-We worked through the "Hello, LED!" example in Chapter 4, getting the built in LED on GP25 to light. She played with turning it on and off. Helena is already familiar with variables. First she was manually flipping it on and of, then we carried on to the section importing utime, and created a while loop.
+We worked through the "Hello, LED!" example in Chapter 4, getting the built in LED on GP25 to light. She played with turning it on and off. Mini_orionrobots is already familiar with variables. First she was manually flipping it on and of, then we carried on to the section importing utime, and created a while loop.
 
 This got her a simple flashing LED. She was then playing with the light.
 It was from here that we started diverging from the book.
@@ -56,7 +56,7 @@ It was from here that we started diverging from the book.
 
 ## Talking Frequency
 
-I left it with the value(1) and value(0) calls here, to lead us to later experiments. First I asked Helena what time she would need to put the LED on for and off for to blink 5 times a second. 
+I left it with the value(1) and value(0) calls here, to lead us to later experiments. First I asked Mini_orionrobots what time she would need to put the LED on for and off for to blink 5 times a second. 
 
 Her first guess was to turn it on or 0.2 seconds, then off for 0.2 seconds. However, this means it is blinking a 2.5 times. I got her to think about it, and se that we need 10 LED changes a second to get 5 blinks per second. This means that it should be on for 0.1 seconds and off for 0.1 seconds. She got this working.
 
@@ -80,7 +80,7 @@ She can now change frequency to get it to different speeds. She tried 1, 0.3, 30
 
 ## Monitoring with the Oscilloscope
 
-Helena is always excited when the Oscilloscope comes out - it has a colourful display and many buttons. It was at this point we plugged the Pico into a breadboard.
+Mini_orionrobots is always excited when the Oscilloscope comes out - it has a colourful display and many buttons. It was at this point we plugged the Pico into a breadboard.
 
 ![Breadboard connections and probes](/galleries/2021-03-06-raspberry-pi-pico-tones-with-helena/raspberry-pico-on-breadboard.jpg)
 
@@ -112,7 +112,7 @@ This was a curvy sine wave, at the wrong speed (50Hz), and the wrong voltage siz
 
 Looking at the captures, we can see a few things - first we have a couple of complete waves on the screen. The rate below shows the frequency at close enough to 100hz. The vertical axis is the voltage. From bottom to top we can see it is 3 and bit squares tall. This is the expected 3.3v from the Pico's output pin.
 
-Helena found this exciting. I then asked if she could make the LED brighter. She wasn't sure how - maybe bring the frequency up. This didn't really help - but we could see it on the scope.
+Mini_orionrobots found this exciting. I then asked if she could make the LED brighter. She wasn't sure how - maybe bring the frequency up. This didn't really help - but we could see it on the scope.
 
 ## Introducing a duty cycle
 
@@ -163,7 +163,7 @@ I explained how this is PWM (pulse width modulation), not sure she will remember
 
 ## Turning this into tones
 
-So now she was itching to get a sound out of this. And we had a quick way to do it. We have a little piezo speaker (not a buzzer) which fit nicely over the breadboard middle channel. It has a polarity noted, so Helena made sure that this was connected the right way, with a pin going down to grown, and another to Pin 15 (out monitor pin).
+So now she was itching to get a sound out of this. And we had a quick way to do it. We have a little piezo speaker (not a buzzer) which fit nicely over the breadboard middle channel. It has a polarity noted, so Mini_orionrobots made sure that this was connected the right way, with a pin going down to grown, and another to Pin 15 (out monitor pin).
 
 ![Breadbaord with beeper connected](/galleries/2021-03-06-raspberry-pi-pico-tones-with-helena/pico-with-buzzer-and-oscilloscope.jpg)
 
@@ -173,7 +173,7 @@ She tried adjusting the duty cycle - this does not set audio volume, and can hav
 
 ## Making a noise maker
 
-Helena was finished for the day, but I have also been playing with Raspberry Pi Pico as a noise maker. I intend to show Helena how to take her code further, so she can make whoops, whistles, and tunes on the device. I'll show her how to use the built in PWM for somewhat more stable control, and a button to launch the sounds. An idea she had was to set up a dial (a potentiometer) to change the frequency, or a set of buttons like a keyboard.
+Mini_orionrobots was finished for the day, but I have also been playing with Raspberry Pi Pico as a noise maker. I intend to show Mini_orionrobots how to take her code further, so she can make whoops, whistles, and tunes on the device. I'll show her how to use the built in PWM for somewhat more stable control, and a button to launch the sounds. An idea she had was to set up a dial (a potentiometer) to change the frequency, or a set of buttons like a keyboard.
 
 We may even take this far further and into the realm of I2S (a sound output system). In principle, I could configure PIO pins to produce I2S output, I have an i2S amp and mic somewhere. This could give us more interesting ways to play with audio on the Raspberry Pi Pico.
 
