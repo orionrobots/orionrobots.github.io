@@ -2,12 +2,6 @@
 # AddHandler application/x-httpd-php54 .php
 # AddHandler php53-fcgi .php
 
-# This prevents reading of files with certain extensions.
-<FilesMatch "\.(bak|inc|lib|sh|tpl|sql)$">
-	order deny,allow
-	deny from all
-</FilesMatch>
-
 <IfModule mod_dir.c>
     DirectoryIndex index.html index.php
 </IfModule>
@@ -39,6 +33,9 @@ ErrorDocument 501 /404.html
 <IfModule mod_rewrite.c>
 RewriteEngine On
 
+RewriteCond %{SERVER_PORT} !=443
+RewriteRule ^(.*)$ https://orionrobots.co.uk/$1 [R=301,L]
+
 # If the URL points to a real existing item then do nothing
 RewriteCond %{REQUEST_FILENAME} -s [OR]
 RewriteCond %{REQUEST_FILENAME} -l [OR]
@@ -50,7 +47,7 @@ RewriteRule (.*) - [L]
 
 # Forum topics redirect section
 
-RewriteRule ^tiki-forums\.php" /forums [R,L]
+RewriteRule "^tiki-forums\.php" /forums [R,L]
 
 RewriteCond %{QUERY_STRING} ^forumId=([0-9]*)$
 RewriteRule ^tiki-view_forum\.php 			/forum%1 [L]
@@ -146,7 +143,6 @@ RewriteRule "^forumthread105" /forums/electronics/12vdc? [R,L]
 RewriteRule "^forumthread51" /forums/electronics/small_motors? [R,L]
 RewriteRule "^forumthread35" /forums/electronics/need_opinions_on_this_robot_controller_system? [R,L]
 # redirects for topic announcements
-RewriteRule "^forumthread293" /forums/announcements/problem_with_forums_posts? [R,L]
 RewriteRule "^forumthread269" /forums/announcements/downloads_fixed? [R,L]
 RewriteRule "^forumthread264" /forums/announcements/planned_outtage? [R,L]
 RewriteRule "^forumthread231" /forums/announcements/outtage? [R,L]
@@ -168,8 +164,8 @@ RewriteRule "^forumthread1" /forums/announcements/new_site? [R,L]
 # Non tiki
 RewriteRule ^blogs?$                archive.html                      [L]
 
-RewriteRule "^Construction.?Guide(?!\.html)" /construction_guide.html [R,NC]
-RewriteRule "^Getting[^_]?Started(.*)" /getting_started.html [R,NC]
+RewriteRule "^Construction.?Guide(?!\.html)" /construction_guide.html [R,L]
+RewriteRule "^Getting[^_]?Started(.*)" /getting_started.html [R,L]
 RewriteRule "^Leonardo.?Da.?Vincis.?Tank(.*)" /wiki/leonardo_da_vincis_tank.html [R]
 RewriteRule "^Leonardo.?Da.?Vincis.?Helicopter(.*)" /wiki/leonardo_da_vinci.html [R]
 RewriteRule "^Fixing.?A.?Broken.?Wire(.*)" /2004/11/14/fixing-a-broken-wire [R]

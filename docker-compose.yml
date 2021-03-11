@@ -6,4 +6,11 @@ services:
       - 4000:4000
     volumes:
       - .:/srv/jekyll
-    command: jekyll serve
+    command: jekyll build
+  staging:
+    build: _drafts/staging
+    ports:
+      - 8080:80
+    volumes:
+      - ./_site:/var/www/html
+
