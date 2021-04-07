@@ -9,7 +9,7 @@ tags: [robotics, piwars, 3d printing, raspberry pi, raspberry pi projects, raspb
 
 The Learn Robotics Programming books use a laser cut motor kit, and these usually come with the cheap yellow plastic motors, aka TT Motors. These motors are ubiquitous, but are not really the best of gear motors.  The kits that include these can be found around the world. There kits also used to come with wires soldered on the motors, but in recent years, probably for cost reasons, manufacturers are just selling the kits with the wires not soldered, or without them at all.
 
-![Mounted motor](https://github.com/rbricheno/motor-mash/blob/main/images/mounted_motor.jpg)
+![Mounted motor](https://github.com/rbricheno/motor-mash/blob/main/images/mounted_motor.jpg?raw=true)
 
 N20 motors, aka Micro Metal gear motors tend to be far higher quality. They are smaller too. Some of these motors come with handy shims for wiring too and encoders. When writing the books, finding kits with these motors was tricky, only the small circular robot kits seemed to come with them, which I considered too small for a beginner robot.
 
