@@ -16,3 +16,5 @@ N20 motors, aka Micro Metal gear motors tend to be far higher quality. They are 
 However, a smart robot builder and Piwars Mini Conference organiser Rob Bricheno has come up with an ingenious 3d print to use N20 motors where TT motors. He has ensured it will mount on the same robot chassis kit I recommend, and that it remains compatible with the encoders the robot uses. Since the gearing on the N20 motors is quite high, it would spin too fast for the Raspberry Pi to accurately measure it, but Rob has corrected for this with a 2 slot encoder instead of 20 slot encoder.
 
 [The amazing Motor Mash Motor Mount](https://github.com/rbricheno/motor-mash)
+
+The plans are all on github, with OpenSCAD files and stl files making it easy to adapt and print out for other robots.
