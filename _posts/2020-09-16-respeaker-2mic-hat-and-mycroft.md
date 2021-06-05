@@ -9,31 +9,32 @@ Voice Assistants like Mycroft are a cool bit of technology, and running them on 
 
 ![ReSpeaker hat on a Raspberry Pi 4](/galleries/2020-09-16-respeaker/20200918_134629.jpg)
 
-# Intro
+## Intro
 
-
-I am currently updating and refreshing content for a second edition of [Learn Robotics Programming](https://www.packtpub.com/product/learn-robotics-programming/9781789340747). One of the areas I was never happy with was the installation of this sound device. 
+I am currently updating and refreshing content for a second edition of [Learn Robotics Programming](http://packt.live/2XccaKe). One of the areas I was never happy with was the installation of this sound device.
 
 This is specifically for the ReSpeaker 2 Mic hat, which uses a WM8960 codec. It will not work for the other ReSpeaker devices.
 
 Installing sound drivers is not a core message for the book, so I've put this here to help anyone struggling to get this sound card to work. One thing that was annoying was that the default instructions required you to downgrade your linux kernel - not a satisfactory thing to do.
 
-This content assumes you are familiar with Raspberry Pi, Linux and editing files. There will be a couple of reboots - sorry. 
+This content assumes you are familiar with Raspberry Pi, Linux and editing files. There will be a couple of reboots - sorry.
 
 Let's get into it.
 
 # Setup Steps
 
-* Have a Raspbian SD card with Picroft set up. 
-* Choose the USB defaults when Picroft asks for a device to use. 
+* Have a Raspbian SD card with Picroft set up.
+* Choose the USB defaults when Picroft asks for a device to use.
 * Use ctrl-c to get to a bash prompt when at the sound test stage.
 * Update Raspbian with `sudo apt update -y && sudo apt upgrade -y`, then `sudo reboot`.
 * Use the repo  <https://github.com/waveshare/WM8960-Audio-HAT.git>. Clone this on the Raspberry Pi and run the `install.sh` script in it.
-```
+
+```bash
     git clone https://github.com/waveshare/WM8960-Audio-HAT.git
     cd WM8960-Audio-HAT
     sudo ./install.sh
 ```
+
 * This will require a reboot to work, however, you can preconfigure Mycroft to work once this is ready. Edit `/etc/mycroft/mycroft.conf`.
 * Where the file references `hw:0,0`, replace with `playback`.
 

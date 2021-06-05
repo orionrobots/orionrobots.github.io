@@ -13,7 +13,7 @@ I've been playing with the Raspberry Pi Pico a lot lately, and Mini_orionrobots 
 
 ## The Raspberry Pi Pico
 
-I've not written much on the Orionrobots channel about the Raspberry Pi Pico, but it is a really awesome device. It's a microcontroller - capable of running code to control physical hardware. It's also pretty small. With a breakout board not so different from an Arduino Nano in size. 
+I've not written much on the Orionrobots channel about the Raspberry Pi Pico, but it is a really awesome device. It's a microcontroller - capable of running code to control physical hardware. It's also pretty small. With a breakout board not so different from an Arduino Nano in size.
 
 The Raspberry Pi pico runs at 133Mhz, with dual cores. It is able to run MicroPython and Circuit Python, so it's vert suitable for teaching aspects of text coding with kids,
 
@@ -23,7 +23,7 @@ It's also only £3.60 - so I'm very happy to let my kids code and connect things
 
 This Pico already had headers soldered on, and I had previously put MicroPython on it.
 
-I gave Mini_orionrobots the Pico, some breadboard, and showed her a selection of sensors, LED displays and things she could connect it to. I asked her what she would like to do first. Her choice was that she wanted to see if she could make it make noise. 
+I gave Mini_orionrobots the Pico, some breadboard, and showed her a selection of sensors, LED displays and things she could connect it to. I asked her what she would like to do first. Her choice was that she wanted to see if she could make it make noise.
 
 ![Materials - Pico, breadboard, speaker](/galleries/2021-03-06-raspberry-pi-pico-tones-with-helena/stuff-we-used-oscilloscope-raspberry-pi-pico.jpg)
 
@@ -35,13 +35,13 @@ The materials we used today were:
 * [A tiny beeper/piezo speaker](https://amzn.to/30ssPLb)
 * [4 male to male jump wires](https://thepihut.com/products/breadboarding-wire-bundle)
 * ["Get Started with MicroPython with on Raspberry Pi Pico"](https://thepihut.com/products/get-started-with-micropython-on-raspberry-pi-pico)
-* [A Digital Storage Oscilloscope](https://amzn.to/3cf0y04) - I used a Rigol DS1052E 
+* [A Digital Storage Oscilloscope](https://amzn.to/3cf0y04) - I used a Rigol DS1052E
 * [An oscilloscope probe with croc clip and spring clip](https://amzn.to/3l4Kdz1)
 * A Laptop with [Thonny](https://thonny.org/) installed
 
 Awesome - lets do this!
 
-So we talked about the first steps with a new controller, and I suggested making a blinky - that is a blinking LED. She was enthusiastic. 
+So we talked about the first steps with a new controller, and I suggested making a blinky - that is a blinking LED. She was enthusiastic.
 
 ## Making a blinky
 
@@ -56,7 +56,7 @@ It was from here that we started diverging from the book.
 
 ## Talking Frequency
 
-I left it with the value(1) and value(0) calls here, to lead us to later experiments. First I asked Mini_orionrobots what time she would need to put the LED on for and off for to blink 5 times a second. 
+I left it with the value(1) and value(0) calls here, to lead us to later experiments. First I asked Mini_orionrobots what time she would need to put the LED on for and off for to blink 5 times a second.
 
 Her first guess was to turn it on or 0.2 seconds, then off for 0.2 seconds. However, this means it is blinking a 2.5 times. I got her to think about it, and se that we need 10 LED changes a second to get 5 blinks per second. This means that it should be on for 0.1 seconds and off for 0.1 seconds. She got this working.
 
@@ -77,14 +77,13 @@ I now asked what she would do if she needed to change the rate? She first did th
 
 She can now change frequency to get it to different speeds. She tried 1, 0.3, 30, and 100 - where she could no longer see the LED pulsing. She couldn't see it changing now. So I suggested it was time to bring out a bigger tool... The oscilloscope.
 
-
 ## Monitoring with the Oscilloscope
 
 Mini_orionrobots is always excited when the Oscilloscope comes out - it has a colourful display and many buttons. It was at this point we plugged the Pico into a breadboard.
 
 ![Breadboard connections and probes](/galleries/2021-03-06-raspberry-pi-pico-tones-with-helena/raspberry-pico-on-breadboard.jpg)
 
-We set up a connection to ground, and then used GP15 as a monitor pin to connect our probes to. The idea being to make the same change to the monitor pin as GP25. This way we can see what signal is being sent to the LED. 
+We set up a connection to ground, and then used GP15 as a monitor pin to connect our probes to. The idea being to make the same change to the monitor pin as GP25. This way we can see what signal is being sent to the LED.
 
     import machine
     import utime
@@ -119,7 +118,6 @@ Mini_orionrobots found this exciting. I then asked if she could make the LED bri
 I suggested that she could change how much time the LED was on in relation to how much time it was off. They didn't have to be equal. She got this. I spoke about hwo being on for longer would effectively mean there was more power going to the LED, so it would be brighter. I know this was a tangent to sounds, but since we had the scope, it seemed like a fun direction to go in.
 
 I suggested she add an on time, and off time variable:
-
 
     import machine
     import utime
@@ -165,7 +163,7 @@ I explained how this is PWM (pulse width modulation), not sure she will remember
 
 So now she was itching to get a sound out of this. And we had a quick way to do it. We have a little piezo speaker (not a buzzer) which fit nicely over the breadboard middle channel. It has a polarity noted, so Mini_orionrobots made sure that this was connected the right way, with a pin going down to grown, and another to Pin 15 (out monitor pin).
 
-![Breadbaord with beeper connected](/galleries/2021-03-06-raspberry-pi-pico-tones-with-helena/pico-with-buzzer-and-oscilloscope.jpg)
+![Breadboard with beeper connected](/galleries/2021-03-06-raspberry-pi-pico-tones-with-helena/pico-with-buzzer-and-oscilloscope.jpg)
 
 She was then able to start the code again, and hear a tone from the speaker! Awesome.  We tried a few values. I remembered that 440hz was a musical note, and we tried it.
 

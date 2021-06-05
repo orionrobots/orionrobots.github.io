@@ -15,7 +15,7 @@ During the evening I use this desk when writing robot books, robot code, or I mo
 
 The drawer has things I want to have to hand. But it also became a dumping ground. When I'd clear small parts off my desk, like components and wires, I'd stuff them in part of that drawer. So I could have easy access to them later. As you can imagine this became a little frustrating to find things in - stuff began to get lost in this dumping ground.
 
-## Inspiration from Tested 
+## Inspiration from Tested
 
 I am a fan of the tested.com videos by [Adam Savage](https://twitter.com/donttrythis). He is not actually a fan of drawers and sees them as a place things go to die - his principle of first class access to everything is great, but doesn't quite work for my tiny space. All my making is done in a space that is about 2m x 3m.
 
@@ -113,7 +113,7 @@ I took a break, and came back for the upper layer. The first thing I did was to 
 
 With this in mind, I started measuring the base for the second layer. I left a bit more slack in the sides, and left a few additional millimetres for the screw head.
 
-The rest fo the process was much like the first layer, knolling out the drawer contents, then placing walls around them. I got a little more ambitious here - going for the 45 degree wall for the Octosnap. The rest of the compartments are still rectangles though. 
+The rest fo the process was much like the first layer, knolling out the drawer contents, then placing walls around them. I got a little more ambitious here - going for the 45 degree wall for the Octosnap. The rest of the compartments are still rectangles though.
 
 This took another 45 minutes to cut, place and then glue the parts together.
 
