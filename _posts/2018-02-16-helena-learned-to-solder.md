@@ -4,7 +4,7 @@ tags: [soldering, electronics, cnc]
 title: 2018-02-16-helena-learned-to-solder
 layout: post
 ---
-# Helena Learning To Solder
+## Helena Learning To Solder
 
 I started a live video session, still working on Lee Lipinski's CnC Spindle Motor board.
 
@@ -15,4 +15,3 @@ After I had soldered the 3 pins on this, Helena asked to have a try. She built u
 </div>
 
 What can I say - she surprised me when she learned so quickly to make pretty neat soldering joints. I guess when there is more soldering to be done, she can be counted as part of my team!
-

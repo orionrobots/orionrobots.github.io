@@ -103,7 +103,7 @@ So we can loop over these, and use the python function ```ord``` to get the numb
     >>> message_numbers
     [73, 32, 99, 97, 110, 32, 110, 111, 119, 32, 109, 97, 107, 101, 32, 98, 105, 110, 97, 114, 121, 32, 109, 101, 115, 115, 97, 103, 101, 115]
 
-Now we have numbers, we need to convert these to binary. This is a little tricky. Python has a way to do this, but it's not quite as obvious. The ```string.format``` method uses format striings to specify what you want it to do with parameters. 
+Now we have numbers, we need to convert these to binary. This is a little tricky. Python has a way to do this, but it's not quite as obvious. The ```string.format``` method uses format striings to specify what you want it to do with parameters.
 
 ```"{}".format(73)``` would just make a string ```"73"```. The ```{}``` means to pick up the first parameter - in this case 73.  We want binary. Putting ```:b``` in the braces tells python how we want it to convert that 73 into binary.
 

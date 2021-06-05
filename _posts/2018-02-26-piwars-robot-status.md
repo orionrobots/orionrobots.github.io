@@ -4,7 +4,7 @@ tags: [robots, robotics, raspberry pi, piwars, 4tronix, piconzero]
 title: 2018-02-26-piwars-robot-status
 layout: post
 ---
-# PiWars 2018 Robot Status
+## PiWars 2018 Robot Status
 
 Orionrobots are currently reserves for the PiWars 2018 competition in Cambridge, Uk in April 2018.
 
@@ -50,7 +50,7 @@ Danny then started to pull it apart. Inside the main body section, there is a si
 
 ## Fitting the Initio platform
 
-Danny did a bit of squaring up - and managed to rig the Initio platform - the grid with holes for fitting many different board, onto the upper turntable section of the toy. 
+Danny did a bit of squaring up - and managed to rig the Initio platform - the grid with holes for fitting many different board, onto the upper turntable section of the toy.
 
 He attached a Pi, a USB power supply, used the original battery pack from the Toy + a PiConZero motor controller, and got the robot to drive using the PiConZero code already on the Pi.
 
@@ -99,4 +99,4 @@ Stuff like the bulky connectors, deck maintenance issues and meerkat looks can c
 
 ## Helena Learning 3D printing
 
-Danny has been teaching Helena some 3D printing basics. She has been using BlocksCAD for designs. Before trying to print those - she has also downloaded a simple Heart STL from thingiverse, and is learning how to use Cura to slice and print it. There will be a video of her first attempts.
+Danny has been teaching Helena some 3D printing basics. She has been using BlocksCAD for designs. Before trying to print those - she has also downloaded a simple Heart STL from Thingiverse, and is learning how to use Cura to slice and print it. There will be a video of her first attempts.

@@ -1,13 +1,14 @@
 ---
-title: Unboxing and Setup
-description: Unboxing and Setup
+title: CNC Mil Unboxing and Setup
+description: CNC Mill Unboxing and Setup
 tags: [cnc, stepper motors, mechanical]
 layout: default
 ---
 {% assign gallery_url="/galleries/unboxing_pictures/images/" %}
-# Unboxing - what was in it
 
-I received the CnC and it came in a large cardboard box - 22Kg's with a board underneath it. 
+## Unboxing - what was in it
+
+I received the CnC and it came in a large cardboard box - 22 Kgs with a board underneath it.
 
 <iframe width="560" height="315" src="//www.youtube.com/embed/MrDIu_dOczg" frameborder="0" allowfullscreen="true"> </iframe>
 
@@ -27,7 +28,7 @@ Then another smaller Alan key to tighten the collars onto the lead screws. I was
 
 ![]({{ site.baseurl }}{{ gallery_url }}img_3023.jpg)
 
-I then brought out the control box - with its 5 layers of bubble wrap, and plugged the cables into it. 
+I then brought out the control box - with its 5 layers of bubble wrap, and plugged the cables into it.
 
 I then did the initial tests - turning on the control box, ensuring the emergency stop was not pressed - and the fan started up fine. I then turned on the spindle, and heard it rev up nicely. Turned the spindle off, and then checked the steppers - try to manually turn each, noting the stiffness that in theory shows that the steppers are connected to their controllers. All was fine.
 

@@ -10,7 +10,7 @@ Since I cannot rely on Wifi - and it'd be inconvenient even if I could, I'm not 
 ## What information do I need?
 
 * Modes - in Piwars - there is a mode where it's manually being driven, and modes where it is autonomous for different challenges. I need a way of showing the current mode. What's more - this should hook up with the remote in some way to select them.
-* Debug - some way of telling me what it's doing - like sensor info - bargraphs, or other visual notes on that. Direction it is trying to go in. Lost contact with pad.
+* Debug - some way of telling me what it's doing - like sensor info - bar graphs, or other visual notes on that. Direction it is trying to go in. Lost contact with pad.
 
 And It could be used for other stuff - like being cute.
 
@@ -26,7 +26,7 @@ Next are the various Neopixel types. There are at least 3 I'm interested in for 
 
 ### Pros
 
-* It's able to display words and complicated pictures - it has fonts, and high level things for graphics and drawing. 
+* It's able to display words and complicated pictures - it has fonts, and high level things for graphics and drawing.
 * It's high resolution.
 * It's very bright.
 * It could be used to interface with additional devices.
@@ -63,7 +63,7 @@ Next are the various Neopixel types. There are at least 3 I'm interested in for 
 ## Neopixels
 
 This is a class of displays - which have a set of common pro's and cons, then some for each format.
-The defining features of them is that they are colourful, daisy chainable LED configurations.
+The defining features of them is that they are colourful, daisy-chainable LED configurations.
 
 ### Common pro's and cons
 
@@ -83,7 +83,7 @@ The defining features of them is that they are colourful, daisy chainable LED co
 
 ### Neopixel Strips pros and Cons
 
-There are strips that come on reels, and strips that also come in rigid bar form. 
+There are strips that come on reels, and strips that also come in rigid bar form.
 These are very adaptable.
 
 <iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=GB&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=orionrobots-21&marketplace=amazon&region=GB&placement=B01CFTBESA&asins=B01CFTBESA&linkId=0c07df8bf63fbaaf137f08a02d1b91c3&show_border=true&link_opens_in_new_window=true"></iframe>
@@ -147,7 +147,7 @@ Between the strips and the Microview comes down to a smaller set of criteria.
 
 * Neopixel strips are easier to mount - just about anywhere really. I won't need to 3D print (unless I want to) additional parts just to mount them. They might even be self adhesive come to think of it.
 * Neopixel strips are colourful - colour can be a powerful indicator.
-* The PiConZero has a pin right on board to drive the strips. I would have to make up a wiring harness specifically for the Microview. 
+* The PiConZero has a pin right on board to drive the strips. I would have to make up a wiring harness specifically for the Microview.
 * Correction to the power - my strips say 5v not 6-7v. That should be good to go then.
 * The Microview can display text and complicated figures - but can I read text during an event where the robot is moving?
 * Neopixels can give directional indications.
@@ -181,6 +181,6 @@ Ok - lets simply wrap one length around the top deck, and then another around th
 
 So I need to work out the mounts for the two further HC-SR04 devices.
 These will be on the left and the right of the robot.
-It's time to measure up for brackets for these. 
+It's time to measure up for brackets for these.
 
 More sketching and Fusion 360 next.

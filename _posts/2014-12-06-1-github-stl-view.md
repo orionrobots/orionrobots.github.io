@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Githubs awesome stl view
+title: Github's awesome stl view
 tags: [cnc, github, stl]
 ---
 So first some news-  today I've received a Reprap pro Ormerod 2 3d printer kit! I will be assembling it over the coming few days or weeks, and it is not something I will rush! As for the cnc - until I sort out a better dust control system for milling foam and MDF it is currently not doing a lot.

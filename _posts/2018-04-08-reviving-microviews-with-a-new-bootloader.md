@@ -33,7 +33,7 @@ On Sunday I then started wiring up the things I'll need:
 
 My first step was to put the code on the Arduino. That was easy - although I had to comment in the "use old wiring" for it.
 
-I then prewired the breadboard, and wired the Arduino connections in.
+I then pre-wired the breadboard, and wired the Arduino connections in.
 
 ![Arduino Set up to flash](/galleries/2018-04-08-reviving-microbit/arduino-set-up-to-flash.jpg)
 
@@ -60,7 +60,7 @@ In this - I brought up the three variables I'm most likely to change to the top,
 
 Ouch - result is that avrdude didn't recognise the devices.
 
-
+```dos
     C:\Users\danny\Downloads>avrdude -C "C:\Program Files (x86)\Arduino\hardware\tools\avr\etc\avrdude.conf" -P COM10 -b 19200 -c avrisp -p m328p -v -e -U flash:w:\Users\Danny\Downloads\MicroView_combined_8-19-14.hex -U lock:w:0x0F:m
     
     avrdude: Version 6.3, compiled on Dec 16 2016 at 13:33:19
@@ -91,6 +91,7 @@ Ouch - result is that avrdude didn't recognise the devices.
 
 
     avrdude done.  Thank you.
+```
 
 So I tried again, holding the connection in. This was still not happening.
 And then during this second attempt... a pad broke off. 😔

@@ -16,4 +16,3 @@ I've played with the designs, and idea in PCB CAD, and once I am happy I am prob
 So comments - would you be interested in it?
 
 I'll provide some proof of concept images to give an idea of the board soon.
-

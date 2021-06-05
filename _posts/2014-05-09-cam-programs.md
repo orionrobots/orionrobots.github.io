@@ -3,10 +3,10 @@ title: Choosing A CAM program
 layout: default
 tags: [cnc, cam, cad, software]
 ---
-I will fill in more details about the last few weeks - and me getting some of my first cuts from my CnC Milling machine, 
+I will fill in more details about the last few weeks - and me getting some of my first cuts from my CnC Milling machine,
 building a dust cover, and publishing videos. There was also a lot of terminology to learn too.
 
-I have started looking at CAM software - converting my ideas to actual milling toolpaths, hopefully aware of the endmill sizes. I have found that a lot of it is both expensive and complicated. Perhaps this is due to a niche audience, and a complicated task. 
+I have started looking at CAM software - converting my ideas to actual milling toolpaths, hopefully aware of the end mill sizes. I have found that a lot of it is both expensive and complicated. Perhaps this is due to a niche audience, and a complicated task.
 
 There is a larger amount of open source or low cost software for 3d printing, but this will not work well with milling - where as well as depth, mill radius, filling strategies and cutting direction need consideration.
 

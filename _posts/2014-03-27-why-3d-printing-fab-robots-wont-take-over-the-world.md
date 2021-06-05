@@ -13,6 +13,6 @@ None of these systems are or need to be "intelligent", "aware", "self replicatin
 
 My point is that the fabricator may be asked to print another fab from its hopper, but it's no more likely to take over the world than a printer.
 
-# Image Sources
+## Image Sources
 
 Image is my own CnC Machine - higher res and more details [here](/galleries/unboxing_pictures/target5.html).

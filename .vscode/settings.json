@@ -1,16 +1,21 @@
 {
     "cSpell.words": [
+        "CHPD",
         "Crickit",
         "Furby",
         "Kryten",
         "Lejos",
         "Lugnet",
+        "MISO",
+        "MORNSUN",
+        "MOSI",
         "MXQWY",
         "Pino",
         "Skittlebot",
         "UBEC",
         "XSHUT",
         "adsystem",
+        "avrisp",
         "cdetect",
         "croc",
         "exosuit",
@@ -19,6 +24,7 @@
         "mindstorms",
         "piconz",
         "pigpio",
+        "robobugs",
         "supercap"
     ]
 }

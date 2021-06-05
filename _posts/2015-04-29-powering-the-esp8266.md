@@ -7,44 +7,43 @@ If you are working with small devices, you will need power supplies for them. 5v
 
 I wanted to power the esp8266, and it took a few attempts to get it right. I've got footage, circuit diagrams and datasheets for each attempt, the limitations of it, and details of what worked brilliantly.
 
-# Attempt 1 - Using the TS2950CT
+## Attempt 1 - Using the TS2950CT
 
 First up - the TS2950CT - capable of 150mA max (this was the flaw).
-This is an easy to use regulator in a small TO92 package - which has 3 pins, is easy to breadboard, and was available in a local Maplin. 
+This is an easy to use regulator in a small TO92 package - which has 3 pins, is easy to breadboard, and was available in a local Maplin.
 
-It is "Ultra Low Dropout", so 5v+ is ample. Only a single 3.3uF cap was needed to get stable output from it. 
+It is "Ultra Low Dropout", so 5v+ is ample. Only a single 3.3uF cap was needed to get stable output from it.
 
 <div class="embed-responsive embed-responsive-16by9">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/TiqSaNfcxJo?rel=0" frameborder="0" allowfullscreen="True"></iframe>
-</div> 
+</div>
 
 However, after having this work, I had to order a new serial cable to talk with the 8266. When that arrived, I attempted to use it with the 8266.
- 
 
 <div class="embed-responsive embed-responsive-16by9">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/WTrF5spzkZA?rel=0" frameborder="0" allowfullscreen="True"></iframe>
 </div>
- 
+
 It didn't quite go right, I found it not particularly responsive - garbage characters and then a reboot loop - I diagnosed the power supply as being the problem.
 
 <div class="embed-responsive embed-responsive-16by9">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/LQSVA44UN3k?rel=0" frameborder="0" allowfullscreen="True"></iframe>
-</div> 
+</div>
 
 After some research, and checking current with a multimeter, and the datasheets for the chip along with information on the 8266, it became clear that this supply is underpowered for the esp8266.
 
-Datasheet for TS2950CT: http://www.farnell.com/datasheets/50395.pdf
+Datasheet for TS2950CT: <http://www.farnell.com/datasheets/50395.pdf>
 The 8266 can need 240/300mA when wifi is enabled.
 
-# Attempt 2 Powering it with An Arduino Uno R3
+## Attempt 2 Powering it with An Arduino Uno R3
 
-As a short term hack to get something, anything other than the reboot loop, I used an Arduino Uno rev 3 board to power it - this worked ok, but is a bit of an abuse of an Arduino, and according to it's datasheet, it was barey better than the original, but at least just enough not to be in the reboot loop.
+As a short term hack to get something, anything other than the reboot loop, I used an Arduino Uno rev 3 board to power it - this worked ok, but is a bit of an abuse of an Arduino, and according to it's datasheet, it was barely better than the original, but at least just enough not to be in the reboot loop.
 
 <div class="embed-responsive embed-responsive-16by9">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Kb08nfXgguY?rel=0" frameborder="0" allowfullscreen="True"></iframe>
 </div>
 
-# Specifying the actual power converter to use
+## Specifying the actual power converter to use
 
 I spent a bit of time choosing and checking the specification for a power regulator - inspecting the datasheets for it.
 
@@ -54,7 +53,7 @@ I spent a bit of time choosing and checking the specification for a power regula
 
 The part I chose: <http://www.farnell.com/datasheets/1776449.pdf>
 
-# Getting it to work
+## Getting it to work
 
 Finally, I received this part, built a circuit board with it and got the 8266 running, without tracebacks on it. This was the part used in all my further esp experiments.
 

@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Diagnosing the Cause of the blown components
+title: Diagnosing the Cause of the blown CNC components
 tags: [cnc, electronics, control board]
 ---
-After some investigation, it turned out that more than the FET was blown - the 7812 was gone, along with the fuses. So I had to determine how this happened. 
+After some investigation, it turned out that more than the FET was blown - the 7812 was gone, along with the fuses. So I had to determine how this happened.
 {% capture gallery %}{{ site.baseurl}}/galleries/2014-04-13-diagnosing-the-cause{% endcapture %}
 ![The whole control board]({{ gallery }}/the_whole_control_board.jpg)
 
 First was to gain a better understanding of the 555 timer based PWM circuit driving the FET. Going back to [the teardown]({{ site.baseurl }}/2014/02/05/teardown.html), there are two boards. The one above is the stepper control and computer interface board. This was not affected.
- 
+
 The board below, with the big green screw terminals is the power and spindle control board. The problems are all on this board, and I will be talking about it for the rest of the write up.
 
 After removing this board, I got a series of photos of the underside of the board - since it appears to be a one sided board, this will allow me to trace it in more detail.
@@ -16,7 +16,7 @@ After removing this board, I got a series of photos of the underside of the boar
 ![Underside of board]({{ gallery }}/20140209_152209_4.jpg)
 
 After my previous teardown, I found a few people had traced out fairly similar circuits for the board already so I can then cross reference this, taking into account that it may be slightly different.
- 
+
 ![Sketchy Trace Of The Board]({{gallery }}/YOC-PW3024-E-Diagram.jpg)
 
 Refreshing the damage - parts had been blown through, a FET, and a 7812. The damage was severe enough to leave a great big crack in one of the devices cases - something had pulled a large amount of current through it.
@@ -32,7 +32,7 @@ I started by replacing the obviously damaged 7812.
 I tried powering the board but the spindle did not move.
 I sat on the problem for a while before truing to understand the board better.
 
-At this point - I also bought a few tubes of spares - 7812's, 555's, replacement fuses, replacement FET's. This way - I was ready to handle anything. 
+At this point - I also bought a few tubes of spares - 7812's, 555's, replacement fuses, replacement FETs. This way - I was ready to handle anything.
 
 This meant learning a whole bunch of stuff about analogue electronics, power circuits, 555s and op amps oh my!
 
@@ -41,7 +41,7 @@ I got a simple led and 555 in stable mode going. figured out current sense and v
 
 Then I looked at the board and it's schematic and started seeing the blocks.
 
-# The Parts
+## The Parts
 
 12v regulated supply
 
@@ -53,30 +53,30 @@ High voltage/high current supply for the motor
 
 current sense.
 
-# Probing and tracing
+## Probing and tracing
 
 Now I'd got some parts, and some background, I decided to start by debugging it with a scope and a small rig. I used 4xAA batteries, 6v as a supply - and clipped it onto the board - a ground, and the +ve rail for the low voltage side, where the 7812 output would be.
 
-![]({{gallery}}/IMG_3402.jpg) 
+![Power Board Wired For Probing]({{gallery}}/IMG_3402.jpg)
 
-![]({{gallery}}/IMG_3403.JPG)
+![Croc clip Probe Under CNC power board]({{gallery}}/IMG_3403.JPG)
 
-I then plugged in the pwm pot, and hooked up my scope probes to it.  What I first saw is this: 
+I then plugged in the pwm pot, and hooked up my scope probes to it.  What I first saw is this:
 
-![]({{gallery}}/IMG_3407.JPG)
+![CNC Power board connected to Oscilloscope]({{gallery}}/IMG_3407.JPG)
 
 Its worth explaining this flat line. This would have pulled all the current through the 7812, kept the FET turned on, and spun the spindle as fast as it would go. Not good - it would have blown itself again immediately.
 
 The 555 for pwm was charging through one diode and discharging through another - each via the potentiometer - the large spindle speed dial. The proportion of one side to the other should exactly control the PWM duty cycle.
- 
+
 If I nudged the pot - I could get the PWM traces - but they were wrong:
- 
-![]({{gallery}}/IMG_3404.JPG)
-![]({{gallery}}/IMG_3405.JPG)
- 
+
+![CNC Power board trace on Oscilloscope - fast time base]({{gallery}}/IMG_3404.JPG)
+![CNC Power board trace on Oscilloscope - Slower time base]({{gallery}}/IMG_3405.JPG)
+
 I have to hold like the image below to get a regular trace:
 
-![]({{gallery}}/IMG_3406.JPG)
+![Holding the pot to get the clear Oscilloscope trace from CNC power board]({{gallery}}/IMG_3406.JPG)
 
 I took a video of this part of the diagnosis:
 
@@ -84,8 +84,7 @@ I took a video of this part of the diagnosis:
 
 My next task is to find a suitable pot - or a place to mount it.
 
- 
-# Links
+## Links
 
 I have come across a number of sites with people spending time on this machine
 

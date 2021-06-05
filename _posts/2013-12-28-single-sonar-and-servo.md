@@ -12,6 +12,7 @@ Using a single sensor on a servo driven head should give a way to improve the fl
 * the software is more complicated
 
 Pros are:
+
 * It needs one fewer digital IO pin
 * It can sweep - and take more readings than the 3 sensor version
 * You get to play with servo motors - I've done so before, and they are fun.
@@ -24,15 +25,16 @@ The kit is a two wheeled robot kit, with line following sensors, a Sensor Shield
 I assembled this - and immediately went to play with the servo mechanism.
 
 The first trick was just to take the servo sample from the Arduino IDE examples - the sweep program - and easily saw the servo going through it's sweep happily. However - my first problem was noting that the head was not in the middle.
-# Servo Positioning
 
-My solution was this - set the servo position to 90 - doing this in setup, and clearing the loop. I can then dissassemble the pan mechanism enough to re-centre the device. This was easy work with a screwdriver. I am not sure you can assume the position of a servo when you receive it - so this may be the only precise way to calibrate it - i may be missing a trick here..
+## Servo Positioning
+
+My solution was this - set the servo position to 90 - doing this in setup, and clearing the loop. I can then disassemble the pan mechanism enough to re-centre the device. This was easy work with a screwdriver. I am not sure you can assume the position of a servo when you receive it - so this may be the only precise way to calibrate it - i may be missing a trick here..
 
 I can see no markings on the servo spindle. Now even having attached it as close to the centre as I could - it didn't seem to be quite right - so I wrote a simple bit of code to read a number from serial, and set the servo to this as the position - finding in my case that 103 was about bang on. The spindle had 8 or 10 sides making it hard to get this perfect without using software adjustments to it. That is a 13 degree variance on this for now.
 
 <a href="https://gist.github.com/dannystaple/8159506">Code for the servo position from serial tool.</a>
 
-# Plan for sense and drive code
+## Plan for sense and drive code
 
 Instead of grabbing code from the web - I'll see what I cook up. I can then take a look at the others when I've got something working.
 
@@ -47,10 +49,12 @@ The next thing is to figure out how I'd do my sensing - my first plan is this:
 * if all are below some threshold - turn 270 degrees and try again - to the left.
 
 So we have 2 modes:
+
 * Drive and scan
 * Avoid
 
 Detail:
+
 * Drive and scan - going forward, while scanning a few different set places
 * Avoid - turning away to furthest location then go back forward drive.
 
