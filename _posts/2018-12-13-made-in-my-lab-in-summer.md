@@ -4,12 +4,12 @@ tags: [robotics, book, python, raspberry pi, maker, lab-gear]
 title: What did I make in my lab in the summer?
 layout: post
 ---
-I was pretty quiet over the summer, however, I made some videos showing what I've been up to. 
+I was pretty quiet over the summer, however, I made some videos showing what I've been up to.
 There has been a robotics book, some smaller makes, some stuff I needed while working on the book.
 
 ## The book
 
-For the majority of summer, I was working on my book, 
+For the majority of summer, I was working on my book,
 [Learn Robotics Programming: Build and control autonomous robots using Raspberry Pi 3 and Python](https://amzn.to/2RA5u43).
 This involved writing, robot building, electronics, coding and research. The research led to a couple of spin off videos, like getting LED's and line followers combined:
 
@@ -54,4 +54,3 @@ Also, with this robot (and a PiWars robot) I've been chewing through a lot of Me
 <div class="embed-responsive embed-responsive-16by9">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/FZ9fryPEvMU" frameborder="0" allowfullscreen="True"></iframe>
 </div>
-

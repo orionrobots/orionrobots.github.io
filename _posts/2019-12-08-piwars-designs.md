@@ -51,7 +51,7 @@ I have quite a few motor controller options, based on what I already have in sto
 
 * I've also looked at the option of a Pair of I2C connected Drv8833 boards from Pimoroni that don't waste any function. I'd need a wiring board for them plus any other parts like lights, encoders and IMU. While fun, the wiring board could make for a bit of mess, and more connections means more failure points.
 
-* An option that I've used before is the [PiConZero](https://4tronix.co.uk/blog/?p=1224). One way I could do this is to cannibalise a PiConZero off one of my older robots, with designs on respinning it using the RedBoard. The PiConZero can either share 5v from the DFRobot boost module or get a separate power feed from the battery. There's space for the camera cable because it's a smaller size. The motor channels can output 1.5a  each. However, it also doesn't expose the I2C pins.
+* An option that I've used before is the [PiConZero](https://4tronix.co.uk/blog/?p=1224). One way I could do this is to cannibalise a PiConZero off one of my older robots, with designs on re-spinning it using the RedBoard. The PiConZero can either share 5v from the DFRobot boost module or get a separate power feed from the battery. There's space for the camera cable because it's a smaller size. The motor channels can output 1.5a  each. However, it also doesn't expose the I2C pins.
 
 * SB Components motor shield - this is a straightforward Raspberry Pi hat, but the 6-12v motor supply makes it need more batteries than other options, and compared with the Red Board, it's a little too basic.
 

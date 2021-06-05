@@ -27,5 +27,3 @@ We placed an overall 12 out of 14 in the intermediates, having learned a lot. Tw
 While at Piwars I caught up with plenty of amazing people crossing the Raspberry Pi, electronics and robot building community including Pimoroni, OhBot, Red Robotics, Cat Lamin with PiTop, PiBorg, ModMyPi.
 
 Among my favourite robots of the show was the [Kenilworth Grammar School Rover](https://gccpiwars.wordpress.com/2018/04/20/final-word-before-the-competition/) - a robot with wheels on individual servo motors and using a rather neat system. Another one was a robot with a whole neopixel grid for the top surface across tank tracks, an altogether rigid and sturdy robot which had the superpower of being shoulder mountable! I didn't get a link for it, so if someone else has the details, let me know on [Twitter @orionrobots](//twitter.com/orionrobots).
-
-

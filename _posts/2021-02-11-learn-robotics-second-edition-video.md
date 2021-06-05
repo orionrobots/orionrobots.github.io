@@ -7,7 +7,7 @@ tags: [robotics, raspberry pi, raspberry pi projects, raspberry pi 3 projects, r
 ---
 {% include JB/setup %}
 
-Further to my recent announcements about the publication of my book, [Learn Robtoics Programming second edition](http://packt.live/2XccaKe) I have made a video talking about the books features, showing demonstrations of the robot you'll build in action.
+Further to my recent announcements about the publication of my book, [Learn Robotics Programming second edition](http://packt.live/2XccaKe) I have made a video talking about the books features, showing demonstrations of the robot you'll build in action.
 
 <div class="embed-responsive embed-responsive-16by9">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/wCL8LrQ8RcA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="true"></iframe>

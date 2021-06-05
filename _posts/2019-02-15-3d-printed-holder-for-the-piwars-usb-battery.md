@@ -34,13 +34,13 @@ Last year, after Piwars I wrote the book [Learn Robotics Programming](https://am
 
 For this I used a USB power supply (portable phone charger) for the Pi, it's already a nice regulated 5v, it's rechargeable from a USB mains adaptor with built-in safety circuits. These are quite easy to use with the Raspberry Pi and make a lot of sense. Very convenient.
 
-For the motors I used a set of AA batteries, recommending Metal Hydride rechargeables over straight Alkaline, merely because they can output more current, but in a pinch, alkaline batteries will do fine. Motors and their controllers tend to be tolerant over a small range of voltages, and the speed differences can be ironed out by using an encoder to detect the speed, a technique covered in the book. 
+For the motors I used a set of AA batteries, recommending Metal Hydride rechargeables over straight Alkaline, merely because they can output more current, but in a pinch, alkaline batteries will do fine. Motors and their controllers tend to be tolerant over a small range of voltages, and the speed differences can be ironed out by using an encoder to detect the speed, a technique covered in the book.
 
-Multiple battery packs like this can be bulky, and there may be smaller solutions using Lithium Polymer batteries, but they come with some tradeoffs in safety and protection circuit you'd need to figure out yourself. They also require special chargers - this is OK if you are using them a lot though.
+Multiple battery packs like this can be bulky, and there may be smaller solutions using Lithium Polymer batteries, but they come with some trade-offs in safety and protection circuit you'd need to figure out yourself. They also require special chargers - this is OK if you are using them a lot though.
 
 ## The PiWars 2019 Design
 
-From the outset, I planned the Piwars 2019 robot to follow my book pattern, with separate battery packs for the logic and the motors, although I did toy with the Lithium Ion or Lithium polymer packs, like the racing packs used for RC cars, I decided it would be good to continue in practice what I'd recommended in my book. 
+From the outset, I planned the Piwars 2019 robot to follow my book pattern, with separate battery packs for the logic and the motors, although I did toy with the Lithium Ion or Lithium polymer packs, like the racing packs used for RC cars, I decided it would be good to continue in practice what I'd recommended in my book.
 
 Making sure I'd used the two packs would solve problem number 3, the voltage sag issues that I'd experienced when the motors were loaded causing the Raspberry Pi to reset.
 
@@ -67,7 +67,7 @@ Fusion 360 (my current 3D cad software) definitely delivered, although I had a f
 
 The Gearboxes and side brackets were partially modelled, but not in the same Fusion assembly.
 
-For the rail, I started by placing planes to model the constraints of the clip, in terms of where the gearboxes would be. I used the battery as a guide. I sketched a rectangle, plus some concave curves to fit loosely around the USB battery pack. 
+For the rail, I started by placing planes to model the constraints of the clip, in terms of where the gearboxes would be. I used the battery as a guide. I sketched a rectangle, plus some concave curves to fit loosely around the USB battery pack.
 
 ## Rail Design Mark 1
 
@@ -75,7 +75,7 @@ I was then able to extrude this sketch out to the length of the battery pack. I 
 
 ![The Clip Design Mark 1](/galleries/2019/02/14-printable-usb-battery-holder/battery-clips.png){:class="img-responsive"}
 
-I then needed some clips for the outermost end. For this, I created a hole for a screw, going through to one of the rectangles I cut earlier so I could put a nut the other end of it. Beside this screw hole, I use rounded rectangle shallow cuts, which would be the detents - the positions that the clip would be able to rest at. 
+I then needed some clips for the outermost end. For this, I created a hole for a screw, going through to one of the rectangles I cut earlier so I could put a nut the other end of it. Beside this screw hole, I use rounded rectangle shallow cuts, which would be the detents - the positions that the clip would be able to rest at.
 
 The clip itself would be a simple rounded rectangle, with a hole at one end. It would also have a tiny protrusion, a little lump, designed to mate with the detent holes. I'm hoping that the PLA is springy enough for this to work, or I'll find some tiny compression washers to do this job for me.
 
@@ -93,14 +93,14 @@ Being a little impatient, I used the low quality (draft) print setting, a bit of
 
 The second print attempt came out beautifully. The battery slides in correctly, and clips fit over it. I am not entirely sure about the springiness and the single detent on each so I may need to add more to that. All of the bolt holes lined up correctly.
 
-There was one slightly significant flaw though, between the battery mounts and the chassis side plates, there was no way to get my fingers in to tighten any nuts. 
+There was one slightly significant flaw though, between the battery mounts and the chassis side plates, there was no way to get my fingers in to tighten any nuts.
 
 ## Mark 2 - Second Design
 
 I have options to consider here:
 
-1) Make cutouts for me to get my fingers in - this will be fiddly, and make the parts frustrating to change out later. It's by far the easiest option. Perhaps worth making just to move things forward.
-2) Make the nuts captive, so I don't have to worry about finger tightening - this is quite a compelling idea. Slightly tricky to get right, but I've done it before and made it work. 
+1) Make cut-outs for me to get my fingers in - this will be fiddly, and make the parts frustrating to change out later. It's by far the easiest option. Perhaps worth making just to move things forward.
+2) Make the nuts captive, so I don't have to worry about finger tightening - this is quite a compelling idea. Slightly tricky to get right, but I've done it before and made it work.
 3) An alternative version might be metal inserts. This would be new territory. I'm never afraid to learn new skills, but piwars is imminent and time is running out, perhaps not this time, but consider it on my list of stuff to get the hang of.
 
 I am going start with option 2, falling back to 1 if I run out of time. Option 3 will be shelved for now.
@@ -130,6 +130,6 @@ This design fits correctly and the battery is now held firmly. I used [M3 split 
 The models:
 
 * [The Battery Guide](https://a360.co/2SIWC0P) - this is one side, but it can be mirrored. Designed to be bolted under the side plates, with longer M3 bolts, with the M3 nuts pushed into the slots. Print the body, and the clip as separate models.
-* [The Anker Battery](https://a360.co/2DO2lYV) - this is a model for [the powr bank](https://amzn.to/2V4TVmH).
+* [The Anker Battery](https://a360.co/2DO2lYV) - this is a model for [the power bank](https://amzn.to/2V4TVmH).
 
 The next task, for another day, will be the AA batteries.

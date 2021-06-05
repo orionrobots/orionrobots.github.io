@@ -25,7 +25,7 @@ When building a robot, the fairly standard way to start is a small wheeled rover
 
 The PiCon Zero is a hat that fits directly over the Pi - it can be slotted straight onto the GPIO pins, exactly as the Motor board used in chapter 7. You should be able to following along with the section "Connecting the motors to the Raspberry Pi" in Chapter 7 of Learn Robotics Programming with a few modifications.
 
-If you are using the Raspberry Pi 3B+, along with the detailed square of insulating tape as shown in the book, I recommend using a standoff shim packaged with the PiConZero.
+If you are using the Raspberry Pi 3B+, along with the detailed square of insulating tape as shown in the book, I recommend using a stand-off shim packaged with the PiConZero.
 
 ![Steps for Stacking The PiCon zero With The Pi](/assets/2019-04-09-piconzero-book-part-1/stacking-the-piconzero.jpg){: class="img-responsive"}
 
@@ -46,8 +46,8 @@ You will need to then wire in the PiCon Zero as shown:
 
 SSH into the Raspberry Pi. To get the library onto the Pi use this code (from 4tronix):
 
-	wget http://4tronix.co.uk/piconz.sh -O piconz.sh
-	bash piconz.sh
+    wget http://4tronix.co.uk/piconz.sh -O piconz.sh
+    bash piconz.sh
 
 Running the command should create a subdirectory called piconzero with its source in it.
 
@@ -145,7 +145,7 @@ In behavior_path.py, we still need piconzero at the moment.
 To further separate our motor board implementation from our behaviours, we need some code to convert the speed. In robot.py, inside the **Robot** class add:
 
     def convert_speed(self, speed):
-		return (speed * 127) // 100
+        return (speed * 127) // 100
 
 You'll notice the double slash. That is so this produces an integer (whole number) value only.
 
@@ -163,7 +163,7 @@ You can then modify behaviour_path.py to use 0-100% values for speeds.
 That code still uses the pz.setMotor call, which is specific to the PiConZero. We can roll that, along with the speed conversion into our robot class.
 
     class Robot(object):
-        .	
+        .
         .
         .
         def set_left(self, speed):
@@ -190,5 +190,5 @@ In the next part, we'll look at adapting the sensor connections for this board.
 
 ### Example Code
 
-Code for this article can be found at https://github.com/PacktPublishing/Learn-Robotics-Programming/tree/python3/chapter15/full_system/piconzero_example. Going up from there shows the full Python 3 examples.
+Code for this article can be found at <https://github.com/PacktPublishing/Learn-Robotics-Programming/tree/python3/chapter15/full_system/piconzero_example>. Going up from there shows the full Python 3 examples.
 This code should work in both python3 and python2 versions.

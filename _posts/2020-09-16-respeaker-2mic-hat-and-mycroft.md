@@ -21,7 +21,7 @@ This content assumes you are familiar with Raspberry Pi, Linux and editing files
 
 Let's get into it.
 
-# Setup Steps
+## Setup Steps
 
 * Have a Raspbian SD card with Picroft set up.
 * Choose the USB defaults when Picroft asks for a device to use.
@@ -40,11 +40,11 @@ Let's get into it.
 
 Reboot your Pi with `sudo reboot` and Mycroft should be able to use this device.
   
-# Explanation
+## Explanation
 
 You must have the kernel up to date for this, as the Waveshare installer compiles modules for it, but will download the most recent kernel source and headers first. If your kernel doesn't match those, you are in for a rough ride. Yes - their installation could be fixed to use `uname` to get the right kernel.
 
-The Seeed repo on github has an old version of this code, which has not been updated for recent kernels. However, Waveshare, who make clones of the hat, have a repo with updated drivers. This Waveshare repo does get updated. It would be great if the Seeed repo accepted pull requests, or better yet, if Seeed and others worked on putting these drivers upstream into the Linux Kernel. For now, I'll stick with the Waveshare version. 
+The Seeed repo on github has an old version of this code, which has not been updated for recent kernels. However, Waveshare, who make clones of the hat, have a repo with updated drivers. This Waveshare repo does get updated. It would be great if the Seeed repo accepted pull requests, or better yet, if Seeed and others worked on putting these drivers upstream into the Linux Kernel. For now, I'll stick with the Waveshare version.
 
 Most other guides for setting up this card with Mycroft suggest referencing the hardware 1 (`hw:1,0`) device, without going through the ALSA plugins for mixing and playback. Using `hw:1,0` makes it incapable of playing sound files with different channel counts.  When connecting to ALSA it definitely makes sense to go through the mixers.
 
