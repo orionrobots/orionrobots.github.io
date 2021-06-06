@@ -4,7 +4,15 @@ title: "Foam Core Drawer Dividers"
 description: "Using foam core to make drawer dividers"
 category: "robot building"
 tags: [diy, tools, electronics]
-thumb: /galleries/2021/05-23-foam-core-drawer-dividers/drawer-upper-layer.jpg
+gallery:
+    - file: drawer-upper-layer.jpg
+      title: Foam Core Drawer Upper Layer
+    - file: drawer-lower-layer.jpg
+      title: Foam Core Drawer Lower Layer
+    - file: tools.jpg
+      title: Tools for Foam Core Drawer Divider
+asset_dir: galleries/2021/05-23-foam-core-drawer-dividers
+thumb: /galleries/2021/05-23-foam-core-drawer-dividers/thumbnails/drawer-upper-layer.jpg
 ---
 {% include JB/setup %}
 To get better access to tools in my closest drawer, I make dividers with foam core and hot glue. See how I made them, what inspired it and perhaps get inspired to try this too.
@@ -107,7 +115,7 @@ I then started lining up some of the above inventory on what would be the lower 
 
 This process took about an hour. But I began to get quicker at making the cuts, and getting things hot-glued in place. It also seemed to go through hot glue sticks pretty quickly!
 
-![Lower Layer](/galleries/2021/05-23-foam-core-drawer-dividers/drawer-lower-layer.jpg)
+[![Lower Layer](/galleries/2021/05-23-foam-core-drawer-dividers/thumbnails/drawer-lower-layer.jpg)](/galleries/2021/05-23-foam-core-drawer-dividers/drawer-lower-layer.jpg)
 
 ## Upper Layer
 

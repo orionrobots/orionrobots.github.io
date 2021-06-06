@@ -7,6 +7,16 @@ services:
     volumes:
       - .:/srv/jekyll
     command: jekyll serve
+  shell:
+    build: .
+    ports:
+      - 4000:4000
+    volumes:
+      - .:/srv/jekyll
+    stdin_open: true
+    tty: true
+    entrypoint: /bin/bash
+    # command: bash
   staging:
     build: _drafts/staging
     ports:

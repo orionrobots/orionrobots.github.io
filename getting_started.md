@@ -22,7 +22,6 @@ description: "Building Robots!"
 <div class="embed-responsive embed-responsive-16by9">
 <iframe src='https://www.youtube.com/embed/videoseries?list=PLXxP0FUTG0FmAFNfM0JDNe_kfRjlp-aDr' allowfullscreen="true"></iframe></div>
 
-
 ## Explorer 1 Videos
 
 <div style="vertical-align: top">

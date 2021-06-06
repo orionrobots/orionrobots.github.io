@@ -18,4 +18,5 @@
 # # RUN bundle exec jekyll build
 FROM jekyll/builder:4
 
-RUN gem install jekyll-toc
+RUN apk install imagemagick
+RUN gem install jekyll-toc rmagick

@@ -104,4 +104,14 @@ theme :
 
 .posts {
   list-style: none;
+  padding-left: 0;
+}
+
+body {
+  background-image: url(/assets/themes/orionrobots/images/orion_content_bg_bright.jpg);
+  background-size: cover;
+}
+
+body .container {
+  background-color: white;
 }
