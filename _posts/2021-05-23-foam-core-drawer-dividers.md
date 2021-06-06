@@ -4,8 +4,10 @@ title: "Foam Core Drawer Dividers"
 description: "Using foam core to make drawer dividers"
 category: "robot building"
 tags: [diy, tools, electronics]
+thumb: /galleries/2021/05-23-foam-core-drawer-dividers/drawer-upper-layer.jpg
 ---
 {% include JB/setup %}
+To get better access to tools in my closest drawer, I make dividers with foam core and hot glue. See how I made them, what inspired it and perhaps get inspired to try this too.
 
 Like so many makers, or people with multi-functional rooms, I have some drawers that have become dumping grounds, general places to stash stuff that I want access to. This is no more pronounced than the drawer to the immediate right of my work desk.
 

@@ -59,3 +59,49 @@ theme :
 #search-nav .gsc-search-button {
   width: inherit;
 }
+
+.navbar {
+  margin-bottom: 4px;
+}
+
+.page-header {
+  margin-top: 10px;
+  margin-bottom: 4px;
+}
+
+.gsc-control-cse {
+  padding: 0 !important;
+}
+
+.content .pin_image_thumb {
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+}
+
+.content .youtube_link_thumb {
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+}
+
+.pin_image_description {
+  width: 200px;
+}
+
+.youtube_link_block {
+  display:inline-block; 
+  width: 200px;
+  vertical-align: top;
+}
+
+.content img.index_post_thumb {
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+  max-width: none;
+}
+
+.posts {
+  list-style: none;
+}

@@ -28,21 +28,21 @@ description: "Building Robots!"
 <div style="vertical-align: top">
 {% assign youtube_id="U8458u-jilI" %}
 {% assign description="Python on the Explorer 1 Robot With Raspberry Pi via Bluetooth" %}
-{% include youtube_link %}
+{% include youtube_link.html %}
 {% assign youtube_id="cm5Y2_4iW7o" %}
 {% assign description="Orion Explorer 1 Robot Driven With From A Phone With Bluetooth" %}
-{% include youtube_link %}
+{% include youtube_link.html %}
 
 {% assign youtube_id="ElXsXAcqrUE" %}
 {% assign description="Orion Explorer 1 Robot Avoiding Walls with distance sensor" %}
-{% include youtube_link %}
+{% include youtube_link.html %}
 {% assign youtube_id="nMInkh0OysI" %}
 {% assign description="Orion Explorer 1 Robot pushing a kids ball" %}
-{% include youtube_link %}
+{% include youtube_link.html %}
 
 {% assign youtube_id="Zs0haQpuvd8" %}
 {% assign description="Orion Explorer 1 Robot Performing Simple Turn" %}
-{% include youtube_link %}
+{% include youtube_link.html %}
 </div>
 
 ## Explorer 1 Tutorials

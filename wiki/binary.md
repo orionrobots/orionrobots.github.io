@@ -27,7 +27,7 @@ If you have a multi-digit binary number, take each digit as being the presence o
 
 So - if you had the binary number 1101:
 
-```
+```text
 1  1  0  1
 +8 +4 +0 +1 = 13
 

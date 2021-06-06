@@ -942,3 +942,7 @@ a.btn:hover{
   line-height: 2;
   color: red;
 }
+
+.navbar {
+  margin-bottom: 2px;
+}

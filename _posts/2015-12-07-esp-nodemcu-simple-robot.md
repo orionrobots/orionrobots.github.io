@@ -10,7 +10,7 @@ The robot has two motorized wheels, and a castor.
 
 {% assign youtube_id="ZYZelug2SW0" %}
 {% assign description="Esp 8266 Flashing LED" %}
-{% include youtube_link %}
+{% include youtube_link.html %}
 
 In this video - I get the robot going through basic modes, with simple code.
 

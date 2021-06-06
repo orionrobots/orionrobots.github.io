@@ -9,10 +9,10 @@ Among the robots I have seen, few have been the crowd pleaser that this little c
 
 {% assign youtube_id="0m_cCP1wn94" %}
 {% assign description="Robo-One 9: Robot Competition - LAYERED-X" %}
-{% include youtube_link %}
+{% include youtube_link.html %}
 
 You only need to see it perform here to understand why. It walks, it dances, it transforms, and its legs can become arms and vice versa. It shows a talent of engineering, and control that is definitely exceptional. All of this from something which is just a bundle of simple servos and linkages. Top stuff!
 
 ## Links
 
-* <a href="http://www.asurada.jp/">http://www.asurada.jp/</a> - Asurada's website on RAYERD-X (Its real name)
+* <http://www.asurada.jp/> - Asurada's website on RAYERD-X (Its real name)
