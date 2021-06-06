@@ -59,8 +59,8 @@ build:site:
   image: jekyll/builder:4
   stage: build
   script:
+    - apk add imagemagick
     - gem install jekyll-toc rmagick
-    - apk install imagemagick
     - jekyll build
   artifacts:
     paths:
