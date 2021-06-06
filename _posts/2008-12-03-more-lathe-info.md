@@ -1,6 +1,6 @@
 ---
 created: 2008-12-03 04:35:00
-description: More Lathe Info
+description: More Lego Lathe Info
 tags: [lego, robotics, cnc]
 title: More Lathe Info
 layout: post

@@ -19,6 +19,6 @@ What makes a difference now more than ever, is that these UAVs will be cheap. Wi
 
 A robotic flying vehicle fleet would be as useful for searching for survivors, bringing in supplies, as it would for aerial attacks, defending a location and providing covering fire.
 
-# Links
+## Links
 
-<a href="http://www.strategypage.com/htmw/htairfo/articles/20070220.aspx">Warplanes: Fighters Threatened by Cheap Robots</a>
+[Warplanes: Fighters Threatened by Cheap Robots](http://www.strategypage.com/htmw/htairfo/articles/20070220.aspx)

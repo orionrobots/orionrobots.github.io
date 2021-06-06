@@ -13,7 +13,7 @@ It runs nicely in OSX, and probably Linux, once you have paired your NXT and set
 
 I am not yet sure of how Tony intends to license the project going forward, but I will be watching this one with interest. Its definitely usable, although there are a few things that may need to happen before prime time, including documentation.
 
-# Links
+## Links
 
 * <https://github.com/zuk/ruby-nxt> - The current module source for browsing
 * <http://news.lugnet.com/robotics/nxt/?n=58> - Announcement of this project on [lugnet](/wiki/lugnet.html "Lego Users Group Network")

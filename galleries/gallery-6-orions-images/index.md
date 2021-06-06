@@ -10,22 +10,6 @@ images:
   src: !!python/unicode '188-hitachirobot2.jpg', thumb-src: !!python/unicode 'thm-188-66x80-hitachirobot2.jpg'}
 - {caption: '', date: !!timestamp '2005-03-17 07:09:35', name: HitachiRobotAFP.jpg,
   src: !!python/unicode '189-hitachirobotafp.jpg', thumb-src: !!python/unicode 'thm-189-59x80-hitachirobotafp.jpg'}
-- {caption: '', date: !!timestamp '2005-05-04 16:11:37', name: MyCybot2.jpg, src: !!python/unicode '232-mycybot2.jpg',
-  thumb-src: !!python/unicode 'thm-232-80x60-mycybot2.jpg'}
-- {caption: '', date: !!timestamp '2005-05-04 16:13:29', name: MyCybot.jpg, src: !!python/unicode '233-mycybot.jpg',
-  thumb-src: !!python/unicode 'thm-233-80x45-mycybot.jpg'}
-- {caption: '', date: !!timestamp '2005-05-04 16:14:08', name: DamageOverview.jpg,
-  src: !!python/unicode '234-damageoverview.jpg', thumb-src: !!python/unicode 'thm-234-80x73-damageoverview.jpg'}
-- {caption: '', date: !!timestamp '2005-05-04 16:15:36', name: DamageClosupUnderside.jpg,
-  src: !!python/unicode '235-damageclosupunderside.jpg', thumb-src: !!python/unicode 'thm-235-80x60-damageclosupunderside.jpg'}
-- {caption: '', date: !!timestamp '2005-05-04 16:16:55', name: MyPoorCybot.jpg, src: !!python/unicode '236-mypoorcybot.jpg',
-  thumb-src: !!python/unicode 'thm-236-80x60-mypoorcybot.jpg'}
-- {caption: '', date: !!timestamp '2005-05-04 16:18:06', name: CastorDamageClose.jpg,
-  src: !!python/unicode '237-castordamageclose.jpg', thumb-src: !!python/unicode 'thm-237-80x60-castordamageclose.jpg'}
-- {caption: '', date: !!timestamp '2005-05-04 16:19:48', name: CastorBasePinned.jpg,
-  src: !!python/unicode '238-castorbasepinned.jpg', thumb-src: !!python/unicode 'thm-238-80x60-castorbasepinned.jpg'}
-- {caption: '', date: !!timestamp '2005-05-04 16:19:58', name: CastorBaseAndPegPinAttempt.jpg,
-  src: !!python/unicode '239-castorbaseandpegpinattempt.jpg', thumb-src: !!python/unicode 'thm-239-80x60-castorbaseandpegpinattempt.jpg'}
 - {caption: "Stanley, Standford Universities Champion of the 2005 grand Challenge,\
     \ Stands proud at the NQE event preceding the race.\r\n\r\nNote the array of sensory\
     \ gear on the rack over the roof.", date: !!timestamp '2005-10-08 16:38:02', name: Stanley.jpg,

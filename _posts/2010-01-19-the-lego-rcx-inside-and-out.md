@@ -9,7 +9,7 @@ Since I have written plenty on the Lego RCX, I have decided to distil the many d
 
 This contains info on programming an RCX, buying a Mindstorms Kit, adding your own sensors and powered devices, opening the RCX up, getting the RIS software and IR tower working on newer OS's and I will be collecting up and adding more in the next few weeks.
 
-# Collected Details For Using The Lego RCX
+## Collected Details For Using The Lego RCX
 
 <img src="/galleries/2010-01-19-the-lego-rcx-inside-and-out/lens8960751_1328563452-Lego-RCX-In-Use.jpg" class="pl-spacing" alt="The Lego RCX">
 
@@ -69,6 +69,7 @@ LeJOS is a TinyVM based Java programming language and API for the RCX. LeJOS is 
 
 Here is an example of some simple LeJOS code:
 
+```java
     import josx.platform.rcx.Motor;
     import java.lang.Thread;
 
@@ -80,6 +81,7 @@ Here is an example of some simple LeJOS code:
             Motor.A.stop();
         }
     }
+```
 
 This would cause motor A to start at power 3, go forward for 1 second, then stop.
 
@@ -87,7 +89,7 @@ I would recommend you start with [The LeJOS Tutorial](http://lejos.sourceforge.n
 
 ## Low friction RCX rotation sensor
 
-### A simple way to build an additional RCX sensor from existing kit parts.
+### A simple way to build an additional RCX sensor from existing kit parts
 
 The RCX has an optional rotation sensor that could be bought for it, but they are now fairly difficult to get hold of. They also used a brushed contact based system for sensing, so could be prone to wear and introduce friction into your drive chain. On the positive side, the RCX could have its sensor ports set into a mode that would automatically count the revolutions based on the sensors encoding.
 
@@ -110,7 +112,7 @@ Top find - a complete, even better MISB (mint in sealed box) RIS 1.0 set.
 
 ## The RCX Specifications
 
-### The Lego specifications first:
+### The Lego specifications first
 
 Its part number is 586346. There are two types of version 1- one with, and one without an external DC power input. The DC power input was a useful expansion.
 
@@ -155,8 +157,7 @@ Designs and programs are still being swapped now. It was the RIS - Robotic Inven
 
 The Lego RCX, combined with the Lego Robotics Construction Kit that it was sold with in retail, brought many people who had though they had grown out of Lego back to buying and using Lego. Mindstorms also brought many others into building robotics.
 
-The RCX has been used in schools and extra-curricular childrens clubs, including one I ran myself from 2004 to 2005. Mindstorms can be used to teach children engineering principles, mechanical concepts, control engineering and programming, about the use of sensors and motors and many other useful lessons. Lego is also great fun to tinker with.
-
+The RCX has been used in schools and extra-curricular children's clubs, including one I ran myself from 2004 to 2005. Mindstorms can be used to teach children engineering principles, mechanical concepts, control engineering and programming, about the use of sensors and motors and many other useful lessons. Lego is also great fun to tinker with.
 
 <!-- ignore for now - but links to other articles to convert
 ## Related Articles
@@ -225,7 +226,7 @@ To reassemble – follow the same steps backwards. You may need to lightly bend 
 
 ![H8 Pinout](/galleries/gallery-1-common-images/125-rcxh8pins.gif)
 
-The Hitachi H8 (now Renasys) is the microcontroller serving as the main processor on board the RCX. NQC is one way of compiling code for the H8.
+The Hitachi H8 (now Renesas) is the microcontroller serving as the main processor on board the RCX. NQC is one way of compiling code for the H8.
 
 Specifications:
 
@@ -322,7 +323,7 @@ In Windows 7, with the more expensive editions (which you can purchase through a
 
 Unfortunately, Lego do not support the consumer RCX so much any more, and the downloads have now also gone from their education site.
 
-For a simpler route in terms of drivers and so on, you may find <a href="http://bricxcc.sourceforge.net/nqc/" target="_blank">NQC</a> and <a href="http://bricxcc.sourceforge.net/" target="_blank">Bricx Command Centre</a> easier, although programming them takes more work and patience.
+For a simpler route in terms of drivers and so on, you may find <a href="http://bricxcc.sourceforge.net/nqc/" target="_blank">NQC</a> and <a href="http://bricxcc.sourceforge.net/" target="_blank">Brickx Command Centre</a> easier, although programming them takes more work and patience.
 
 ## More RCX, Mindstorms and Lego Information
 

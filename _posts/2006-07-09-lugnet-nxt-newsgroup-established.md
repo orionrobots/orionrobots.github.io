@@ -12,7 +12,7 @@ This also means that the normal robotics list may be less drowned out by the hug
 ## Links
 
 * [OrionRobots wiki page on Lugnet](/wiki/lugnet.html "Lego Users Group Network")
-* [OrionRobots wiki page on NXT](/wiki/nxt.html "Legos NeXT generation robotics kit")
+* [OrionRobots wiki page on NXT](/wiki/nxt.html "Lego's NeXT generation robotics kit")
 * <http://news.lugnet.com/robotics/nxt/> - NXT group on Lugnet
 * <http://news.lugnet.com/robotics/?n=26253> - Announcement of NXT group
 

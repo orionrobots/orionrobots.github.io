@@ -9,7 +9,7 @@ Some of the current trends in robot locomotion and movement are astounding.This 
 <iframe width="560" height="315" src="//www.youtube.com/embed/YSdKPxrY_gw" frameborder="0" allowfullscreen="allowfullscreen"> </iframe>
 </div>
 
-The quadcopters are amazing - at the PyCon event there was some really fun stuff done using Raspberry Pi's and quadcopters. They are much harder to code for, but fun to watch in action.
+The quadcopters are amazing - at the PyCon event there was some really fun stuff done using Raspberry Pis and quadcopters. They are much harder to code for, but fun to watch in action.
 
 The video has walkers - bipedal and multi-legged, fast ones, stable ones and commercial ones. Things that walk like dogs, or trot at speed like horses. The stable Boston Dynamics ones have people trying to trick them, or push them over by kicking and shoving.
 

@@ -7,7 +7,7 @@ layout: post
 ---
 ## A long wait
 
-For us, 2006 was a busy year, with the lathe project still in progress, the site refresh which is now nearing completion (I think you will like it!), and me gearing up to open a store front, then I held off on the [NXT](/wiki/nxt "Legos NeXT generation robotics kit") so I could finish other things. I new that as soon as I tore it open that I would be able to set my mind on little else. I had registered to join the [MDP](/wiki/mdp "The Mindstorns Developer Panel") , but wasn't among those picked. So after waiting a long while, a little too long, OrionRobots finally acquired one of these babies. There were a couple of delivery issues, having ordered it in the buildup for Christmas, but the [Lego](/wiki/lego "The best known construction toy") Shop@Home guys soon cleared it up.
+For us, 2006 was a busy year, with the lathe project still in progress, the site refresh which is now nearing completion (I think you will like it!), and me gearing up to open a store front, then I held off on the [NXT](/wiki/nxt "Lego's NeXT generation robotics kit") so I could finish other things. I new that as soon as I tore it open that I would be able to set my mind on little else. I had registered to join the [MDP](/wiki/mdp "The Mindstorms Developer Panel") , but wasn't among those picked. So after waiting a long while, a little too long, OrionRobots finally acquired one of these babies. There were a couple of delivery issues, having ordered it in the build up for Christmas, but the [Lego](/wiki/lego "The best known construction toy") Shop@Home guys soon cleared it up.
 
 ## Opening up
 
@@ -23,7 +23,11 @@ The Ultrasonic sensor is unfortunately just in my range of hearing, but then I a
 
 ## Start here
 
-<div style=" float: right;"><img src="/galleries/gallery-20-lego-nxt/409-p1010057.JPG"/></div>
+<div style=" float: right;">
+
+![Lego Mindstorms NXT Tribot Start Here Robot](/galleries/gallery-20-lego-nxt/409-p1010057.JPG)
+
+</div>
 
 Having so far ignored the "Start here" box, and thumbed around the instructions a little to try it out, I start constructing the robot detailed there. It is a shame [Lego](/wiki/lego "The best known construction toy") still have not got Dark Grey and Black differentiated well enough - I did start off by looking for a black piece for the third step before cottoning on. In the inventory lists - it s not so clear as in the construction diagrams. This is something I have also observed with [LDraw](/wiki/ldraw_system "The LDraw Lego CAD System") work.
 
@@ -44,7 +48,6 @@ I then started the software install on a candidate laptop. I unfortunately recei
 I register the software, and continue the installation of the drivers, which unfortunately prompts an annoying Windows habit of forcing me to restart before I can carry on. After the restart, it does a little more with a flash update (why is it always only "US" English?), and the icon is there on my desktop..
 
 And I am going to leave you there so I can go play with it.. I have plans - I have a BlueTooth camera phone, and a BlueTooth Pocket PC - which has Wi-Fi and is just about the right size for a robot. I see some very interesting robots to come... I still have to finish the lathe, but only after trying out the NXT properly!
-
 
 <iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=GB&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=orionrobots-21&marketplace=amazon&region=GB&placement=B00BMKLVJ6&asins=B00BMKLVJ6&linkId=790d5f97e58d0e79ecb2fbe1b24a3108&show_border=true&link_opens_in_new_window=true"></iframe>
 

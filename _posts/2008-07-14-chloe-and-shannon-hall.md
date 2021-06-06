@@ -1,11 +1,20 @@
 ---
-created: 2008-07-14 16:24:03
+created: 2008-07-14T16:24:03.000Z
 description: Chloe and Shannon
-tags: [robots, micromouse, uk, robot building, junkbuilding, technology, gadgets, events]
+tags:
+  - robots
+  - micromouse
+  - uk
+  - robot building
+  - junkbuilding
+  - technology
+  - gadgets
+  - events
 title: Chloe and Shannon
 layout: post
-todo_needs_sat: convert image refs, and gallery
+todo_needs_sat: 'convert image refs, and gallery'
 ---
+
 {% include JB/setup %}
 
 ![Shannon and Chloe Hall holding their robots Cheese Detective and Snoopy, both entries to the Junior Wall Follower event. Micromouse needs more non school Junior Wall follower entries - get building if you can!](/galleries/gallery-25-micromouse-2008/547-28062008657.jpg){:class="img-responsive"}
@@ -14,7 +23,7 @@ Shannon (in yellow) and Chloe (in pink) were the only two girls in the Micromous
 
 Their father, Derek, entered the robots that took first and second prizes in the non contact maze solving event, and has been a MicroMouse champion for 4 years running, so it kind of runs in the family. It all starts there, and Prof. Martin Smith even remembers Chloe being hauled along to MicroMouse events when still in the pushchair.
 
-# Their Robots
+## Their Robots
 
 ![The robot in the centre is RedEye - a non-contact wall follower inherited and maintained by Chloe Hall. The robot mid left is Snoopy - a robot built by Chloe with a design slightly pilfered from her older sister, and exhibiting a gearbox problem. The three identical looking robots above were kit robots brought by the Singapore teams. The controllers and coding were different, but the chassis were all identical.](/galleries/gallery-25-micromouse-2008/542-28062008652.jpg){:class="img-responsive"}
 
@@ -38,5 +47,5 @@ Do you think you have what it takes to beat these two youngsters? Who took first
 
 ## Links
 
-* Shannon has her own MicroMouse site at [The Mouse House](http://www.micromouse.me.uk).
-* There are more photos of Chloe, Shannon and all the MicroMouse robots at our <a href="/galleries/gallery-25-micromouse-2008">MicroMouse UK 2008 gallery</a>
+- Shannon has her own MicroMouse site at [The Mouse House](http://www.micromouse.me.uk).
+- There are more photos of Chloe, Shannon and all the MicroMouse robots at our [MicroMouse UK 2008 gallery](/galleries/gallery-25-micromouse-2008)

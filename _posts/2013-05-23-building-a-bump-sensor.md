@@ -5,28 +5,28 @@ title: Building a Bump Sensor For The Orion Explorer 1 Kits
 ---
 <img style="margin-right: 4px; float: left;" src="/assets/2013-05-23-building-a-bump-sensor/13-IMG_4874.CR2_compact.jpg" />The Explorer 1 can be extended fairly simply. Here is how to build a bump sensor that looks a little like insect antenna for the robot. It uses 2 IO pins on the Arduino, and needs 1 power pin. This can be done with parts from the kit, a bit of piano wire, a screwdriver and some pliers!
 
-# Materials Needed
+## Materials Needed
 
-## From The Explorer 1 Kit
+### From The Explorer 1 Kit
 
 * Your Explorer 1 Robot
 * 3 x 3m nuts
 * 2 x short 3m screws
 * A ribbon of 3 jumper cables
 
-## From A Hardware Store
+### From A Hardware Store
 
 * Around 20-30 cm of thick guitar string or piano wire. The lower G from a guitar seems to do. Must be the metal conductive type.
 * 1 x long 3m screw
 * 1 x 3m washer
 
-# Tools Required
+## Tools Required
 
-* Small flatbladed screwdriver
+* Small flat head screwdriver
 * Small wire stripper
 * Small long nosed pliers with cutting area
 
-# Method
+## Method
 
 First peel the strip of 3 cables from the remaining male-female jumpers in the kit. Cut the 3 cables a couple of centimeters from the female end. Strip about 0.5cm from each cable, and twist the copper ends of each.
 
@@ -46,7 +46,7 @@ You now need to make bends out from the kinked area using the pliers. The goal i
 
 Note that in the image - the sensor has been assembled on a new clear platform for clarity. You should still have the motor board attached.
 
-Now reassemble the robot - start with the battery box, ensuring that the sensor cables are in front of it, and not caught under it when you stick it back down. When reassemble the two halfs, push the sensor ribbon through the hole above.
+Now reassemble the robot - start with the battery box, ensuring that the sensor cables are in front of it, and not caught under it when you stick it back down. When you reassemble the two halves, push the sensor ribbon through the hole above.
 
 Screw the platforms back together. Connect the motors using the guide, and then connect the sensors middle pin to the 'IOREF' pin on the Arduino. The left, and right pins can be connected to any remaining digital IO - skipping 0 and 1.
 

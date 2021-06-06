@@ -15,7 +15,7 @@ More recent uses must be the [BEAM](/wiki/beam_robots "Biology, Electronics, Aes
 
 Anyway, I recently spotted a couple of recent studies on animal behaviour which were most definitely interesting, and may also push their estimated IQ's up a notch or two. I will probably post other articles on them later.
 
-# Rats Cognitive ability better than once thought
+## Rats Cognitive ability better than once thought
 
 Rats showed a few interesting abilities in a recent study at The University of Georgia, published in the Current Biology journal earlier this year.
 
@@ -27,7 +27,7 @@ The results showed an overall correlation that rats may have actually understood
 
 One big question is if this is conscious behaviour. It is certainly learning and use of acquired knowledge.
 
-# Links
+## Links
 
 * [Rats are smarter than we think - The Telegraph](http://www.telegraph.co.uk/connected/main.jhtml?xml=/connected/2007/03/12/ecrats12.xml)
 * [Rats Capable Of Reflecting On Mental Processes](https://www.sciencedaily.com/releases/2007/03/070308121856.htm)

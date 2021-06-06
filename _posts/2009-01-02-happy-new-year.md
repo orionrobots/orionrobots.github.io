@@ -23,26 +23,26 @@ And 2009? Who knows - I hope it will be safe, prosperous and bring more technolo
 
 So here are a couple of tips I have for 2009:
 
-# Road Safety - Don't Die Rushing
+## Road Safety - Don't Die Rushing
 
 OrionRobots has always been very hot on keeping its readers safe. Consider this, nothing you are trying to get to, be it a wedding, job interview or exam, is so important that you should risk your life to get there. Better planning may avoid you needing to as well.
 
-# Use Thinking Rock to plan
+## Use Thinking Rock to plan
 
 Talking of planning, this is a good habit to get into. Thinking Rock is some great multi-platform computer software for planning.
 
-# Plant some seeds
+## Plant some seeds
 
 Although robots are fun, don't make it all that you do. Try growing something, take some supermarket tomatoes, squirt the seeds onto a tray and grow them! This link will show you what you need to get them started.
 
 Whatever you do, have a great and safe new year. No matter how bad it seems, do not overlook the opportunities it may present.
 
-# Terms used
+## Terms used
 
 * [Fuel Cell](/wiki/fuel_cell.html)
 * [WiFi](/wiki/wifi.html)
 * [USB](/wiki/usb.html)
 
-# Image Sources
+## Image Sources
 
-* Honda Clarity: From [Wikipedia](https://commons.wikimedia.org/wiki/File:Honda_Clarity_Fuel_Cell_IMG_0301.jpg). License Alexander Migl / CC BY-SA (https://creativecommons.org/licenses/by-sa/4.0).
+* Honda Clarity: From [Wikipedia](https://commons.wikimedia.org/wiki/File:Honda_Clarity_Fuel_Cell_IMG_0301.jpg). License Alexander Migl / CC BY-SA (<https://creativecommons.org/licenses/by-sa/4.0>).

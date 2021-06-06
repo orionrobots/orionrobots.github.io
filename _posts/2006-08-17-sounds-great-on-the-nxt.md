@@ -13,12 +13,11 @@ Among them are tools to convert a midi file to an NXT melody file with the .rmd 
 
 These utilities add to an already neat set of [OSS](/wiki/open_source.html "Open Source Software") tools, like BrickTool - which can deal with both the [RCX](/wiki/rcx.html "The Lego Robot Command Explorer") and NXT, NeXTTool which is a suite designed for communicating with the NXT via Fantom and of course the Bricxcc Lego developer [IDE](/wiki/idetool.html "Integrated Development Environment") itself.
 
-# Links
+## Links
 
 * [Bricxcc Home](http://bricxcc.sourceforge.net/)
-* <a href="http://bricxcc.sourceforge.net/utilities.html">http://bricxcc.sourceforge.net/utilities.html</a> - Additional Utilities
-* <a href="http://news.lugnet.com/robotics/nxt/?n=84">Lugnet Robotics - New NXT Utilities</a> - John Hansen's announcement
-
+* <http://bricxcc.sourceforge.net/utilities.html> - Additional Utilities
+* [Lugnet Robotics - New NXT Utilities](http://news.lugnet.com/robotics/nxt/?n=84) - John Hansen's announcement
 
 <iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=GB&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=orionrobots-21&marketplace=amazon&region=GB&placement=B00BMKLVJ6&asins=B00BMKLVJ6&linkId=790d5f97e58d0e79ecb2fbe1b24a3108&show_border=true&link_opens_in_new_window=true"></iframe>
 

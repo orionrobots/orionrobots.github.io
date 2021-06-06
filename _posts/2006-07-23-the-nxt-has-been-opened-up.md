@@ -5,7 +5,7 @@ tags: [nxt, mindstorms, salvage, robots, disassembly, teardown]
 title: The NXT has been opened up
 layout: post
 ---
-![](http://www.jstuber.net/images/nxt-top_small.jpg){:class="img-responsive"}
+![Lego Mindstorms NXT Mainboard](http://www.jstuber.net/images/nxt-top_small.jpg){:class="img-responsive"}
 A resourceful Lugnet reader, Jørgen Stuber, has opened up the Lego Mindstorms NXT ,bared its innards and taken [Photos](http://www.jstuber.net/2006/07/23/some-pictures-of-nxt-production-hardware/).
 
 Now being a great fan of opening stuff up to see what makes it tick, I must recommend taking a look.

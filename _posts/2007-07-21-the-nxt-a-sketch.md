@@ -9,7 +9,7 @@ This is somehow really silly, but I have to admire them for the ingenuity. Some 
 
 I might build one myself for the giggle of it. The idea has set me wandering if I could build some games - use two motors to power a self-centring, force feedback joystick, and then have some basic graphics on the screen. I might start with a worm-eating-pills sort of game.
 
-# Link
+## Links
 
 * <a href="http://www.youtube.com/watch?v=Fq2Mu7hadI8" >YouTube - NXT-a-sketch</a>
 * <a href="http://www.legoengineering.com/nxt-a-sketch/">Another take on the idea</a>

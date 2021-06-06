@@ -17,30 +17,30 @@ All thumbnails can be clicked to enlarge:
 
 You can clearly see the replaced dome, and the cybot leaning forward with no Castor. The robot in the background is an audio sensing based robot kit.
 
-![](/galleries/gallery-6-orions-images/232-mycybot2.jpg)
-![](/galleries/gallery-6-orions-images/233-mycybot.jpg)
+![My Cybot on my desk](/galleries/2008/05/04-broken-cybot-repairs/232-mycybot2.jpg)
+![Cybot next to tools](/galleries/2008/05/04-broken-cybot-repairs/233-mycybot.jpg)
 
 Here is an overview of the damage to the cybot - you will also note that one side of the line sensing part has gone. I am still not sure when that happened.
 
-![](/galleries/gallery-6-orions-images/234-damageoverview.jpg)
+![Overview of the damage to Cybot](/galleries/2008/05/04-broken-cybot-repairs/234-damageoverview.jpg)
 
 Now you can clearly see from the closeup where the pin has broken (I think my wife placed a few books on top of it). It is not a very clean break.
 
-![](/galleries/gallery-6-orions-images/235-damageclosupunderside.jpg)
+![Close up of the broken caster pin in Cybot](/galleries/2008/05/04-broken-cybot-repairs/235-damageclosupunderside.jpg)
 
 My first step was to open up my cybot and remove the pin.
 
-![](/galleries/gallery-6-orions-images/236-mypoorcybot.jpg)
+![Cybot opened up to get to the damaged pin](/galleries/2008/05/04-broken-cybot-repairs/236-mypoorcybot.jpg)
 
 Then I examined the pin, and the rest of the Castor:
 
-![](/galleries/gallery-6-orions-images/237-castordamageclose.jpg)
+![Cybot castor both parts](/galleries/2008/05/04-broken-cybot-repairs/237-castordamageclose.jpg)
 
 It was clear that I could not use this without some serious repair. My first attempt at repair was to drive a pin(taken from a picture holder) and drive it into each to make a receptacle for it, and try to glue the two pieces together.
 
-![](/galleries/gallery-6-orions-images/238-castorbasepinned.jpg)
+![Castor with pin to mend it](/galleries/2008/05/04-broken-cybot-repairs/238-castorbasepinned.jpg)
 
-![](/galleries/gallery-6-orions-images/239-castorbaseandpegpinattempt.jpg)
+![Caster Pin Ready to Drive into Fragment](/galleries/2008/05/04-broken-cybot-repairs/239-castorbaseandpegpinattempt.jpg)
 
 I did something at the time (this was a few years ago mind) that I would consider now a very foolish move. I used the heat of a soldering iron and a set of pliers to drive the pins in. It was clamped and I was using goggles - but a soldering iron is not designed for this and the smell was awful and may have been toxic. Before you ever try anything similar, please read my [Robot Building Safety Guide](/wiki/robot_building_safety.html).
 

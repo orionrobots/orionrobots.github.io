@@ -7,13 +7,13 @@ layout: post
 ---
 {% include JB/setup %}
 
-# #Background
+## Background
 
 Since I have mentioned A-Life, and genetic algorithms a few times, I decided to make a simple demonstration model. It is based upon a couple of clips I saw on you tube, who must take some credit for this.
 
 I also admit to finding a rather neat Javascript library, and simply wanting to try it out. This was the result. I have quite simply called it "Evolution".
 
-# #Starting out
+## Starting out
 
 The example has only been tested in Firefox and IE, could Opera users let me know how they do?
 
@@ -23,7 +23,7 @@ You then want to open the following link in a new tab or window:
 
 For instructions read the readme at <https://github.com/orionrobots/browser_genetic_simulation/tree/master>
 
-## Warnings with GA's as problem solvers.
+## Warnings with GAs as problem solvers
 
 The first is that the solutions they come up with are not that likely to be human readable. Expect spaghetti code, and craziness like reusing the same piece of memory in 6 completely different but beneficially and incidentally related ways. The code will solve the problem, but not really in the way you would expect.
 

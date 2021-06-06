@@ -17,4 +17,3 @@ The researchers have created a number of different prototypes based on the techn
 Looking somewhat like a high-tech scarab, the system allows minute surgery to be conducted without massively invasive procedures. It is definitely a step in the right direction. One potential drawback is that it is still connected to the controlling computer via a cable. The cable may double up as a tether to retrieve an errant robot. This possibly makes it slightly less manoeuvrable than a completely wireless model, but the possibility of loosing one in a body and then requiring further invasive surgery is not a very welcome one.
 
 Examples of application are to send a robot on a mission to seek and destroy cancerous tissue in an area, by imaging and identifying then delivering a localised dose of a drug designed to destroy it. The potential is endless. As small robots like these, and smaller
-

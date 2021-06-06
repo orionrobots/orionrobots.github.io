@@ -18,7 +18,7 @@ This fascinated me, as well as the children who attended the OrionRobots club in
 
 Sadly, it has long been disassembled for parts, however, the LDraw CAD file remains. Find the CAD file in the links below. LSynth has been used to create the tubing, LPub, LGEO and POV were used for rendering it. I have not created a schematic for the engine, and may do so in the future to help explain its operation.
 
-# Links
+## Links
 
 * [LDraw CAD File for Pneumatic Engine](/assets/downloads/PneumaticEngineLSynth.mpd) - Download this for full building instructions. All unofficial LDraw files are now embedded in the file which is a multipart DAT.
 * [Timothy Smith - Easter Spring Chicken MOCs](http://www.maj.com/cgi-bin/gallery.cgi?f=109611) - A rather cute pneumatic toy based upon a system not unlike this.
