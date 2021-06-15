@@ -90,3 +90,28 @@ You can also set .value to vary this:
 
 This should be a value between -1.0 and 1.0 with 0 being the middle.
 Left and right should be elbow and shoulder angles.
+
+## Making servo sweeps
+
+The sweeps are using Python for loops, to incrementally change the value of a servo. You can change the sleep time - the smoothness is inverse to the time taken to move, with the time there to allow the servo to find a position before sensing the next update. 
+
+
+```python
+>>> import time
+>>> for n in range(0, 100):
+...   base.value = n/200
+...   time.sleep(0.01)
+```
+
+This could be made into a function:
+
+```python
+def servo_sweep(servo, min_range, max_range, steps, seek_time):
+    step_size = (max_range - min_range) / steps
+    for n in range(0, steps):
+        servo.value = min_range + n * step_size
+        time.sleep(seek_time)
+```
+
+This means you could sweep from and start to end item. Seek_time is used to specify how long to give a servo to move between steps.
+
