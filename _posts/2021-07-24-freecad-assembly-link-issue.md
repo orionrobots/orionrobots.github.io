@@ -5,8 +5,6 @@ description: "Fixing linked objects in FreeCAD assembly4 after moving files"
 category: "robot building"
 tags: [freecad, robot building, cad, python, programming]
 ---
-# Freecad File Link issue
-
 ## TLDR
 
 Use the python console. Load in the file that should be linked, and then use the Edit menu->Send to python console button on the Body within that file. Make a variable for this object with a more unique name.
