@@ -64,3 +64,6 @@ _theme_packages/*
 .jekyll-metadata
 .vscode/*
 .jekyll-cache
+
+## Thumbnail generator thumbs
+thumbnails
