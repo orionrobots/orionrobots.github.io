@@ -1,5 +1,3 @@
 # Environment for using JB
 
-From top level:
-
-    docker run --rm -v $(pwd):/srv/jekyll jekyll/jekyll:3 bash
+This is an http staging area - to test interactions between orionrobots code, htaccess files, and apache. The conf files intend to reflect a hosting companies settings.
