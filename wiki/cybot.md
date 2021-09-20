@@ -15,3 +15,7 @@ Any tips, mods or ideas you can think of to do with it can go here.
 [The Cybot Infra Red Protocol](/wiki/the_cybot_infra_red_protocol.html "The Cybot Infra Red Protocol")
 
 [Building Tips](/wiki/building_tips.html "Hints and helpers for actually building robots, and other stuff.")
+
+## Cybot links
+
+* [Cybot processor 1 module](http://www.lpilsley.co.uk/cybot/processor1_board.htm)
