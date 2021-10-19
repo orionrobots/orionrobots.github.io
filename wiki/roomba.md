@@ -25,12 +25,17 @@ Robotic Vacuum cleaners are a long way from the kind of robotics seen in any Sci
 ![](/galleries/gallery-1-common-images/190-roomba-image.jpg)
 
 # Links
+
 ## General Info
 
 - [iRobot](http://irobot.com/)
 - [iRobot Roomba Page](http://www.irobot.com/sp.cfm?pageid=122)
 - [Roomba on Wikipedia](http://en.wikipedia.org/wiki/Roomba)
 - <http://www.ianandwendy.com/roomba.htm> - Video of a Roomba's perspective cleaning a floor
+
+## Robot Vacuums
+
+- [9 Critical Tips to Read Before Buying a Robotic Vacuum Cleaner](https://www.flooringclarity.com/critical-tips-buying-robotic-vacuum/) - this is an article aimed at consumer use of a robotic vacuum more than as a robotics platform to hack.
 
 ## Roomba as a platform
 
