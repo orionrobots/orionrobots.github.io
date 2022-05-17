@@ -8,7 +8,7 @@ tags: [raspberry pi pico, robot building, rp2040, esp32, power supplies, oscillo
 These last few months, I've been working on things related to an upcoming Raspberry Pi Pico robotics book. The current few weeks have been relating to using an add on Wifi solution.
 While I'll go into detail in the book, there have been many difficulties in getting this to work.
 
-![My desk with the Raspberry Pi Pico Robot Wifi Work](/galleries/2022-04-08-pico-wireless/my_desk_with_robot_wifi_being_tested.jpg)
+![My desk with the Raspberry Pi Pico Robot Wifi Work](/galleries/2022-04-08-pico-wireless/my_desk_with_robot_wifi_being_tested.JPG)
 
 ## The basic solution
 
