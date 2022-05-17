@@ -7,13 +7,13 @@ tags: [raspberry pi pico, robot building, rp2040, electronics]
 ---
 If you are doing a lot of programming with the Raspberry Pi Pico, especially with a mobile platform like a robot, then you will be frequently unplugging your Pico.
 
-It uses a USB Micro port, which can start to feel less like a positive connection. 
+It uses a USB Micro port, which can start to feel less like a positive connection.
 
 There are a few ways to make this easier:
 
 ## Unplugging from USB to reset
 
-You need not unplug the Pico to reset it. 
+You need not unplug the Pico to reset it.
 You can add a button between pin 30, the RUN pin and Ground, and press this to reset Raspberry Pi Pico. One neat way to do this is the Captain Resetti accessory from Pimoroni, cheap and easy to solder on as a shim to a Pico setup.
 In a pinch, you can just have a breadboard wire you connect between the RUN pin and ground.
 
