@@ -5,9 +5,9 @@ description: "PuTTY is no longer working on MacOS"
 category: "robot building"
 tags: [raspberry pi, robot building, ssh, learn robotics programming, headless]
 ---
-## SSH and headless Raspberry Pi usage
-
 My robotics/Raspberry Pi books Learn Robotics Programming, and [Learn Robotics Programming - Second Edition](https://amzn.to/37XPYfO) takes the approach that using a network to connect to a robot makes it easier to program, configure or update it, also freeing the robot from being tethered to a screen, keyboard and mouse.
+
+## SSH and headless Raspberry Pi usage
 
 This approach also leads to being able to do interesting things like automation (not covered in the book, but I can make some posts or videos on this), and encourages a robot builder to keep their files somewhere other than the robot, so if there are issues with the robot and it's SD card, you don't lose the work.
 
