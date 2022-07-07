@@ -17,6 +17,9 @@ jobs:
       - uses: actions/checkout@v2
       - name: Setup dependencies
         run: |
+          touch new_file
+          mkdir new_folder
+          
           apk add imagemagick
           gem install jekyll-toc rmagick
       - name: build
