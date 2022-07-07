@@ -53,7 +53,8 @@ stages:
   - test
   - deploy
   - monitoring
-  
+  - manual
+
 build:site:
   tags: [docker]
   image: jekyll/builder:4
@@ -142,5 +143,28 @@ monitoring:link-checker:
     paths:
       - result.html
 
+create_new_post:
+  when: manual
+  stage: manual
+  variables:
+    POST_NAME: $POST_NAME
+    POST_CONTENT: $POST_CONTENT
+  script:
+    # Setup git
+    - 'which ssh-agent || ( apt-get update -y && apt-get install openssh-client -y )'
+    - |
+      export CI_PUSH_REPO=`echo $CI_REPOSITORY_URL | perl -pe 's#.*@(.+?(\:\d+)?)/#git@\1:#'`
 
+      ssh-keyscan -t rsa $CI_PUSH_REPO >> ~/.ssh/known_hosts
+      git config --global user.email "user@mail.com"
+      git config --global user.name "CI/CD User"
+      git remote set-url -push origin "${CI_PUSH_REPO}"
+    # Make and commit the changes
+    - |
+      file_name="_posts/$(date %Y-dm-%d)-${POST_NAME}"
+      echo "${POST_CONTENT}" > "${file_name}"
+      git add "${file_name}"
+      git commit -m "Creating post ${file_name}"
+    # push them
+    - git push origin HEAD:master
 
