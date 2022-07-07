@@ -21,7 +21,9 @@ jobs:
           gem install jekyll-toc rmagick
       - name: build
         run: |
-          sudo jekyll build
+          pwd
+          ls -la
+          jekyll build
       - name: upload site artifact
         uses: actions/upload-artifact@v3
         with: 
