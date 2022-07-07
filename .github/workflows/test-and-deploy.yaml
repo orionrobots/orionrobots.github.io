@@ -13,6 +13,8 @@ jobs:
     runs-on: ubuntu-latest
     container:
       image: jekyll/builder:4
+      # see https://github.com/actions/checkout/issues/47
+      options: --user 1001
     steps:
       - uses: actions/checkout@v2
       - name: Setup dependencies
@@ -21,8 +23,6 @@ jobs:
           gem install jekyll-toc rmagick
       - name: build
         run: |
-          pwd
-          ls -la
           jekyll build
       - name: upload site artifact
         uses: actions/upload-artifact@v3
