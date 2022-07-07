@@ -24,7 +24,7 @@ jobs:
           gem install jekyll-toc rmagick
       - name: build
         run: |
-          chown -R root .
+          mkdir .jekyll-cache
           jekyll build
       - name: upload site artifact
         uses: actions/upload-artifact@v3
