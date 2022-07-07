@@ -21,7 +21,7 @@ jobs:
           gem install jekyll-toc rmagick
       - name: build
         run: |
-          jekyll build
+          sudo jekyll build
       - name: upload site artifact
         uses: actions/upload-artifact@v3
         with: 
@@ -36,6 +36,7 @@ jobs:
 
   staging_test:
     runs-on: ubuntu-latest
+    needs: build_site
     steps:
       - uses: actions/checkout@v2
       - name: Fetch site artifact
@@ -73,6 +74,7 @@ jobs:
 
   deploy:
     runs-on: ubuntu-latest
+    needs: staging_test
     steps:
       - name: Fetch site artifact
         uses: actions/download-artifact@v3
