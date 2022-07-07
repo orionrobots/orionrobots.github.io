@@ -89,9 +89,6 @@ build:staging:
 
 build:test:
   tags: [docker]
-  # before_script:
-  #   - *auto_devops
-  #   - registry_login
   stage: test
   # Deploy the docker image somewhere as a service.
   services: 
@@ -105,6 +102,7 @@ build:test:
     - curl -I -L -f http://site/
     - curl -I -L -f http://site/construction_guide.html 
     - curl -I -L -f http://site/wiki/lego
+
 deploy:
   stage: deploy
   only: [master]
