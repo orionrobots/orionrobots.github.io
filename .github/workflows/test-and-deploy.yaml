@@ -10,7 +10,7 @@ on:
 
 jobs:
   build_site:
-    runs-on: ubuntu:latest
+    runs-on: ubuntu-latest
     container:
       image: jekyll/builder:4
     steps:
@@ -35,7 +35,7 @@ jobs:
           when: on_success
 
   staging_test:
-    runs-on: ubuntu:latest
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
       - name: Fetch site artifact
@@ -72,7 +72,7 @@ jobs:
           docker stop orionrobots
 
   deploy:
-    runs-on: ubuntu:latest
+    runs-on: ubuntu-latest
     steps:
       - name: Fetch site artifact
         uses: actions/download-artifact@v3
