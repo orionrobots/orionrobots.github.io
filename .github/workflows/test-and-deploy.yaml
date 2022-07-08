@@ -28,6 +28,7 @@ jobs:
         uses: actions/upload-artifact@v3
         with: 
           name: _site
+          path: _site
       - name: upload httpd.conf artifact
         uses: actions/upload-artifact@v3
         with: 
@@ -43,6 +44,7 @@ jobs:
         uses: actions/download-artifact@v3
         with:
           name: _site
+          path: _site
       - name: Fetch httpd conf artifact
         uses: actions/download-artifact@v3
         with:
@@ -80,6 +82,7 @@ jobs:
         uses: actions/download-artifact@v3
         with:
           name: _site
+          path: _site
       - name: Fetch httpd conf artifact
         uses: actions/download-artifact@v3
         with:
