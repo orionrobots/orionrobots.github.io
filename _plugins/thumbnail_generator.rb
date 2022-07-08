@@ -28,17 +28,23 @@ module Jekyll
             collection_asset_base = "#{Asset_base}/#{collection.label}"
             collection.docs.each do |doc|
                 asset_dir = doc.data["asset_dir"] || "#{collection_asset_base}/#{doc.data['slug']}";
-                print(asset_dir) if doc.data['asset_dir']
+                puts(asset_dir) if doc.data['asset_dir']
                 if File.exists? asset_dir
-                    thumbnails_dir = "#{asset_dir}/#{Thumbnails_dir}"
-                    print("thumbnails dir is " + thumbnails_dir) if doc.data['asset_dir']
-                    Dir.mkdir thumbnails_dir if not File.exists? thumbnails_dir
+                    asset_thumbnails_dir = "_site/#{asset_dir}/#{Thumbnails_dir}"
+                    puts("thumbnails dir is #{asset_thumbnails_dir}") if doc.data['asset_dir']
+                    begin
+                        Dir.mkdir(asset_thumbnails_dir) unless File.exists?(asset_thumbnails_dir)
+                    rescue SystemCallError
+                        puts("Could not create thumbnails dir: #{asset_thumbnails_dir}")
+                        system("ls -l _site/#{asset_dir}")
+                        system("ls -ld _site/#{asset_dir}")
+                    end
 
                     new_files = []
                     new_files.concat generate_gallery_thumbnails(site, doc, asset_dir)
                     new_files.concat generate_cover_thumbnail(site, doc, asset_dir)
 
-                    reader = StaticFileReader.new(site, thumbnails_dir)
+                    reader = StaticFileReader.new(site, asset_thumbnails_dir)
                     site.static_files.concat(reader.read(new_files))
                 end
             end
@@ -57,7 +63,7 @@ module Jekyll
         new_thumbnails = gallery.map do |item|
             image_file = "#{asset_dir}/#{item['file']}"
             image = Image.read(image_file)[0]
-            thumbnail_file = "#{asset_dir}/#{Thumbnails_dir}/#{item['file']}"
+            thumbnail_file = "_site/#{asset_dir}/#{Thumbnails_dir}/#{item['file']}"
 
             next nil if not thumbnail_needed?(image_file, thumbnail_file, @thumbnail_gallery)
 
@@ -77,7 +83,7 @@ module Jekyll
         return [] if ! File.exists? cover_file
 
         image = Image.read(cover_file)[0]
-        thumbnail_file = "#{asset_dir}/#{Thumbnails_dir}/#{cover}"
+        thumbnail_file = "_site/#{asset_dir}/#{Thumbnails_dir}/#{cover}"
 
         return [] if not thumbnail_needed?(cover_file, thumbnail_file, @thumbnail_cover)
 
