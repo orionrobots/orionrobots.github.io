@@ -21,6 +21,7 @@ jobs:
           gem install jekyll-toc rmagick
       - name: build
         run: |
+          chown jekyll . -R
           mkdir .jekyll-cache
           jekyll build
       - name: upload site artifact
@@ -56,7 +57,7 @@ jobs:
           cd _site/
           mv htaccess .htaccess
 
-      - name: Build
+      - name: Build container
         uses: docker/build-push-action@v3
         with: 
           context: "{{defaultContext}}:_site"
