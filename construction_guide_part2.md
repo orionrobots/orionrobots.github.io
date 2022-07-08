@@ -107,7 +107,7 @@ Put the robot on the floor.
 Locate the green jumper - and place it over BOTH pins of the on connector.
 The robot should start to move!
 
-## It moves! Where to go from here...
+## It moves! Where to go from here
 
 The robot is now ready for you to start playing with the program, or adding sensors.
 The [Getting Started](/getting_started) section has more.

@@ -33,6 +33,7 @@ Remove all the packaging.
 ### Required
 
 ![Tools Required]({{ page.asset_location }}/small_tools.jpg)
+
 * A small flat bladed screwdriver - jewellers size.
 * A computer with a USB port and internet connection.
 * 6 x AA batteries.
@@ -103,6 +104,7 @@ When the robot is built - you can use this as an off switch (or connect a switch
 ![]({{ page.asset_location }}/step_2_1_c.jpg)
 
 ### Installing The Board
+
 ![]({{ page.asset_location }}/step_2_2_a.jpg)
 ![]({{ page.asset_location }}/step_2_2_b.jpg)
 
@@ -161,7 +163,7 @@ Ensure that the cables are on the robots right hand.
 
 ![]({{ page.asset_location }}/step_3_2_a.jpg)
 
-Thread the	black and red wires from the battery box under the right hand motor cables.
+Thread the black and red wires from the battery box under the right hand motor cables.
 Screw in the cables
 
 ![]({{ page.asset_location }}/step_3_2_b.jpg)
@@ -184,10 +186,13 @@ Remove the backing
 Stick the cables onto it.
 
 ## Step 4 - Adding The Posts for Top Deck
+
 ![]({{ page.asset_location }}/step_4_0_parts_a.jpg)
 
 You'll need the posts and screws.
+
 ### Rear Post
+
 ![]({{ page.asset_location }}/step_4_1_a.jpg)
 
 Push a screw from beneath into the middle hole behind the motor control board.
@@ -236,7 +241,8 @@ and 2 respectively. You cable colours will be different.
 
 ![]({{ page.asset_location }}/step_5_1_c.jpg)
 Group the cable the same way on the male end. Ensure that the groups match at both ends.
-### Now plug the female connectors in as shown below.
+
+### Now plug the female connectors in as shown below
 
 ![]({{ page.asset_location }}/step_5_2_a.jpg)
 ![]({{ page.asset_location }}/step_5_2_b.jpg)
@@ -257,7 +263,9 @@ Push both of the ribbon cables through the port (big hole) in the top deck.
 
 ![]({{ page.asset_location }}/step_6_3.jpg)
 Place the top deck over the posts
+
 ### And screw it down
+
 ![]({{ page.asset_location }}/step_6_4_a.jpg)
 ![]({{ page.asset_location }}/step_6_4_b.jpg)
 ![]({{ page.asset_location }}/step_6_4_c.jpg)
