@@ -53,11 +53,8 @@ jobs:
           mv htaccess .htaccess
 
       - name: Build container
-        uses: docker/build-push-action@v3
-        with: 
-          context: "{{defaultContext}}:_site"
-          push: false
-          tags: "orionrobots:latest"
+        run: |
+          docker build -t orionrobots:latest _site
 
       - name: Run as service and test
         run: |

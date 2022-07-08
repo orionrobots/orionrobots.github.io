@@ -3,46 +3,44 @@ layout: page
 title: Privacy and Cookies
 description: About Your Privacy and the Use Of Cookies
 ---
-<h1>PRIVACY STATEMENT</h1>
-
-----
+# PRIVACY STATEMENT
 
 ## Words Used
 
 * Your details -> Your personal details
 * Consent -> You have allowed us to use your details in certain ways.
 
-# Recent Changes
+## Recent Changes
 
-* Most sections have had the words made easier to read. 
+* Most sections have had the words made easier to read.
 * Some parts removed (less is good here).
 
-## WHAT DO WE DO WITH YOUR INFORMATION?
+### WHAT DO WE DO WITH YOUR INFORMATION?
 
 When you buy something from our store, as part of the order process, we collect details you give us like your name, address and email.
- 
+
 When you browse our site, we also receive details about your computer browser and operating system. We use this to make our website work on many computers.
 
-Email marketing: With your permission, we may send you emails about our store, new products and other updates. 
+Email marketing: With your permission, we may send you emails about our store, new products and other updates.
 
-## CONSENT
+### CONSENT
 
-### How do you get my consent?
+#### How do you get my consent?
 
 When you give us your details to checkout, check your credit card, place an order, arrange for a delivery or return a purchase, you give us consent to collect it and use it for that reason only.
-If we ask for your details for other reasons, like marketing, we will either ask you directly for your consent, or provide you with an opportunity to say no. 
+If we ask for your details for other reasons, like marketing, we will either ask you directly for your consent, or provide you with an opportunity to say no.
 
-### How do I withdraw my consent?
+#### How do I withdraw my consent?
 
 If after you opt-in, you change your mind, you may remove your consent for us to contact you, or to not collect, use or share your details, at any time, by contacting us at customer.services@orionrobots.co.uk or mailing us at:
 orionrobots
 1 Queens Court, Richmond, TW10 6LA
 
-## Sharing
+### Sharing
 
-We may share your personal details if the law says we must or if you break our Terms of Service. 
+We may share your personal details if the law says we must or if you break our Terms of Service.
 
-## THIRD-PARTY SERVICES
+### THIRD-PARTY SERVICES
 
 In general, the third-party providers used by us will only collect, use and share your details where needed for them to perform the services they provide to us.
 
@@ -54,23 +52,23 @@ For example, if you are in Canada and a payment gateway in the US is used for yo
 
 Once you leave our store’s website or are redirected to a third-party website or app, you are no longer governed by this Privacy Policy or our website’s Terms of Service. 
 
-### Links
+#### Links
 
 When you click on links on our site, they may direct you away from our site. We are not responsible for the privacy practices of other sites and encourage you to read their privacy statements.
 
-### Disqus
+#### Disqus
 
 This site uses disqus for comments.
 
-### Google analytics
+#### Google analytics
 
-Our site uses Google Analytics to learn about who visits our site and how they use it. 
+Our site uses Google Analytics to learn about who visits our site and how they use it.
 
-## SECURITY
+### SECURITY
 
 To look after your information, we take reasonable measures and follow industry best practices to make sure it is not lost, misused, accessed, disclosed or altered.
 
-We don't collect or store credit card details - and do not directly use this form of payment. 
+We don't collect or store credit card details - and do not directly use this form of payment.
 
 ## COOKIES
 
@@ -86,6 +84,5 @@ We may change this privacy policy at any time, please do not assume it will stay
 
 ## QUESTIONS AND CONTACT INFORMATION
 
-If you would like to: see, change or delete any information we have about you, make a complaint, or simply want to know more contact us at customer.services@orionrobots.co.uk or by mail at 
-orionrobots
+If you would like to: see, change or delete any information we have about you, make a complaint, or simply want to know more contact us at customer.services@orionrobots.co.uk or by mail at orionrobots
 1 Queens Court, Richmond, TW10 6LA
