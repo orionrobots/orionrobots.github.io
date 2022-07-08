@@ -27,6 +27,7 @@ jobs:
           echo "---" > $file_name
           echo "title: ${{ inputs.title }}" >> $file_name
           echo "date: $(date +%Y-%m-%dT%H:%M:%S)" >> $file_name
+          echo "layout: post" >> $file_name
           echo "---" >> $file_name
           echo "${{ inputs.content }}" >> $file_name
       - name: Commit and push
