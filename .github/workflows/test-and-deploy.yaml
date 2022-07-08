@@ -87,7 +87,7 @@ jobs:
           switches: -avv
           path: _site/
           remote_path: public_html
-          remote_host: ${{ secrets.ORIONROBOTS_DEPLOY_HOST }}
+          remote_host: home738752777.1and1-data.host
           remote_user: ${{ secrets.ORIONROBOTS_DEPLOY_USER }}
           remote_key: ${{ secrets.ORIONROBOTS_DEPLOY_KEY }}
       - name: Copy over the htaccess file
@@ -96,7 +96,7 @@ jobs:
           switches: -avv
           path: _site/htaccess
           remote_path: public_html/.htaccess
-          remote_host: ${{ secrets.ORIONROBOTS_DEPLOY_HOST }}
+          remote_host: home738752777.1and1-data.host
           remote_user: ${{ secrets.ORIONROBOTS_DEPLOY_USER }}
           remote_key: ${{ secrets.ORIONROBOTS_DEPLOY_KEY }}
       # Checks
