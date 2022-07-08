@@ -15,7 +15,7 @@ The group who had the most points at the end of the rounds would get to choose t
 
 The spec I had written for the challenge is as follows:
 
-# Good Ole' Robot Brawl
+## Good Ole' Robot Brawl
 
 This challenge is meant to get back to basics for a bit of fun, and there are prizes!
 
@@ -25,7 +25,7 @@ The teams have 1 hour to build the robots, and the challenge events are expected
 
 Teams will not be allowed to modify their robots between rounds and events - no exceptions!
 
-## Scoring:
+## Scoring
 
 ### Weight
 
@@ -57,9 +57,9 @@ Also - to keep spirits good, there are 12 points for the best behaved team.
 
 This gives each team a potential of more than 60 points - I expect the points to be somewhat more distributed than this.
 
-# What actually happened
+## What actually happened
 
-Well the boys arrived on the day, and although the turnout was low (only 4), spirits were high. There was, after all, some decent prizes for grabs, and the points would be added to their previous totals.
+Well, the children arrived on the day, and although the turnout was low (only 4), spirits were high. There was, after all, some decent prizes for grabs, and the points would be added to their previous totals.
 
 They got down and built well. Dale successfully distracted little Danny - but I let him know what Dale was up to - and he wised up. I paired the teams - Danny with Gabriel, and Dale with Janak.
 
@@ -132,9 +132,9 @@ I took one more photo of each before the drop tests started
 
 On the drop test, Dale again volunteered to be first - Gabriel and Danny were glad to have a little time to ensure there model was rebuilt.
 
-Dale and Janaks vehicle lost a few small pieces on the first drop, but made it through 3 before taking critical damage. He got a total of 6 points.
+Dale and Janak's vehicle lost a few small pieces on the first drop, but made it through 3 before taking critical damage. He got a total of 6 points.
 
-Gabriel and Danny's fell apart on the second drop - one side the manas and a beam, and the rest of the vehicle on the other. A total of 3 points.
+Gabriel and Danny's fell apart on the second drop - one side the Manas and a beam, and the rest of the vehicle on the other. A total of 3 points.
 
 Drop Test Aftermath
 

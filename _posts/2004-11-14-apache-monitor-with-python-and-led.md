@@ -10,7 +10,7 @@ Building on the LED and cable last time, I linked this up to monitor Apache, a c
 After building the initial [Simple Parallel Port LED](/2004/11/05/simple-parallel-port-led.html) experiment one, I set about finding an interesting use for it. The first thing that came to mind was an internet activity monitor for the OrionRobots web site.
 
 Every time someone views a page on my website, the LED will flicker - kind of like a HDD Led, possibly with a small delay. The way it works means that other network activity would be ignored. The LED could easily be substituted for a counter that was activated by the pulse.
- 
+
 This will run on a linux box with the "ppdev" kernel module enabled and the "parallel" module for python available. It works by polling apache logs. I am sure a more efficient version could be created by adding a snippet into your page like a blank image, which when loaded, fired off the parallel port activation.
 
 The code here is mostly going to be in python. First pull in the right rules:
@@ -52,7 +52,7 @@ I left in some debug code here, for users to comment in if they are having troub
     #print "Select POLLIN is ", select.POLLIN, " pipe file no is ", pipe.fileno()
 
 If it fails to run, try commenting that back in. If the file pipe number is not a number, or negative, this generally means your file pipe open has failed, and the log file name and path above are incorrect.
- 
+
 Because we expect to run this as a constant service, we use `while True:` to go into an infinite loop. Normally, while will run the code inside the indented block after, until the condition in the bracket following the while keyword is false. As the condition in this case is the constant True - then it never exits. We can exit by ctrl-c or by using the kill command with the process number.
 
 The rest of the code is all under the while loop.

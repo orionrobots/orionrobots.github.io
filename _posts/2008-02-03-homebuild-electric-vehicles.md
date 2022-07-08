@@ -8,7 +8,7 @@ tags:
   - salvage
 ---
 
-EVs (Electric Vehicles) as sold by manufacturers are either unsightly, branded as deathtraps, or pretty wasteful in terms of manufacturing standards. However, one bright young chap in Michigan, US has been busy building or converting some of his own EV's.
+EVs (Electric Vehicles) as sold by manufacturers are either unsightly, branded as deathtraps, or pretty wasteful in terms of manufacturing standards. However, one bright young chap in Michigan, US has been busy building or converting some of his own EVs.
 
 Andrew's first project was to convert a 1988 Mazda pick-up truck into an EV. Albeit not the most effective one with a range of 40 miles per charge and a top speed of 55Mph. But the builder is 16 years old. If he is starting here, it is pretty clear Andrew is going to go far. He is now on a second project which is converting a 1992 Toyota Tercel.
 

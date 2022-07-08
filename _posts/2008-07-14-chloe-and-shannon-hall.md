@@ -19,7 +19,7 @@ todo_needs_sat: 'convert image refs, and gallery'
 
 ![Shannon and Chloe Hall holding their robots Cheese Detective and Snoopy, both entries to the Junior Wall Follower event. Micromouse needs more non school Junior Wall follower entries - get building if you can!](/galleries/gallery-25-micromouse-2008/547-28062008657.jpg){:class="img-responsive"}
 
-Shannon (in yellow) and Chloe (in pink) were the only two girls in the Micromouse 2008 competition. There is currently a disappointing tendency for robotics to be (like engineering and computing subjects in general) a very male dominated discipline. To meet two young ladies, who are not only interested, but built their own robots and competed in the challenges, is a real breath of fresh air, and proves that girls can have fun taking part in these things.
+Shannon (in yellow) and Chloe (in pink) were the only two girls in the Micromouse 2008 competition. There is currently a disappointing tendency for robotics to be (like engineering and computing subjects in general) a very male dominated discipline. To meet two young ladies, who are not only interested, but built their own robots and competed in the challenges, is a real breath of fresh air, and proves that anyone can have fun taking part in these things.
 
 Their father, Derek, entered the robots that took first and second prizes in the non contact maze solving event, and has been a MicroMouse champion for 4 years running, so it kind of runs in the family. It all starts there, and Prof. Martin Smith even remembers Chloe being hauled along to MicroMouse events when still in the pushchair.
 
