@@ -28,13 +28,11 @@ jobs:
         uses: actions/upload-artifact@v3
         with: 
           name: _site
-          when: on_success
       - name: upload httpd.conf artifact
         uses: actions/upload-artifact@v3
         with: 
           name: httpd.conf
           path: _drafts/staging/httpd.conf
-          when: on_success
 
   staging_test:
     runs-on: ubuntu-latest
