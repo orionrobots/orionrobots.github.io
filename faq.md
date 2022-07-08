@@ -9,7 +9,7 @@ Many things - I (Danny Staple) like to build them and tinker with them. I like t
 Currently, those kits are no longer for sale. For a great experience with this, I currently recommend the Trilobot from Pimoroni.
 
 <strong>Q: Do you still run the Orionrobots Club?</strong>
-The Orionrobots club has not run since 2005. However, I bring robots to various events including PyCon Uk, London Arduino Day, London Maker Faires and perhaps other events. I will announce when I run workshops.
+The Orionrobots club has not run since 2005. However, I bring robots to various events including Emfcamp, PyCon Uk, London Arduino Day, London Maker Faires and perhaps other events. I will announce when I run workshops.
 
 <strong>Q: What do you currently build robots with?</strong>
 I have built a number of robots with the Raspberry Pi models (and the Learn Robotics Programming book is based on the Raspberry Pi). I am using a Raspberry Pi Pico at the moment, but have also done stuff with the ESP8266 too. I then use a variety of other boards - motor controllers, sensors with it.

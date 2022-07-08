@@ -58,12 +58,12 @@ jobs:
 
       - name: Run as service and test
         run: |
-          docker run --rm -d --name orionrobots orionrobots:latest
+          docker run --rm -d -p8080:8080 --name orionrobots orionrobots:latest
           # Wait for the service to start
           sleep 10
-          curl -I -L -f http://site/
-          curl -I -L -f http://site/construction_guide.html 
-          curl -I -L -f http://site/wiki/lego
+          curl -I -L -f http://localhost:8080/
+          curl -I -L -f http://localhost:8080/construction_guide.html 
+          curl -I -L -f http://localhost:8080/wiki/lego
           docker stop orionrobots
 
   deploy:
