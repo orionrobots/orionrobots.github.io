@@ -36,8 +36,12 @@ module Jekyll
                         Dir.mkdir(asset_thumbnails_dir) unless File.exists?(asset_thumbnails_dir)
                     rescue SystemCallError
                         puts("Could not create thumbnails dir: #{asset_thumbnails_dir}")
+                        puts("Asset dir content:")
                         system("ls -l #{asset_dir}")
+                        puts("Asset dir permissions:")
                         system("ls -ld #{asset_dir}")
+                        print("I am:")
+                        system("whoami")
                     end
 
                     new_files = []
