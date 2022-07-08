@@ -45,11 +45,6 @@ jobs:
         with:
           name: _site
           path: _site
-      - name: Fetch httpd conf artifact
-        uses: actions/download-artifact@v3
-        with:
-          name: httpd.conf
-          path: _drafts/staging/httpd.conf
       - name: Prepare for docker build
         run: |
           cp _drafts/staging/Dockerfile _site/
