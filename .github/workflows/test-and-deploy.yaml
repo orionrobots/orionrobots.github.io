@@ -58,7 +58,7 @@ jobs:
 
       - name: Run as service and test
         run: |
-          docker run --rm -d -p8080:8080 --name orionrobots orionrobots:latest
+          docker run --rm -d -p8080:80 --name orionrobots orionrobots:latest
           # Wait for the service to start
           sleep 10
           curl -I -L -f http://localhost:8080/
