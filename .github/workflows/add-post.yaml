@@ -23,12 +23,12 @@ jobs:
       - uses: actions/checkout@v2
       - name: Add post
         run: |
-          file_name="_posts/$(date +%Y-dm-%d)-${POST_NAME}"
-          echo "---" > $file_name.md
-          echo "title: ${POST_TITLE}" >> $file_name.md
-          echo "date: $(date +%Y-%m-%dT%H:%M:%S)" >> $file_name.md
-          echo "---" >> $file_name.md
-          echo "${POST_CONTENT}" >> $file_name.md
+          file_name="_posts/$(date +%Y-%m-%d)-${{ inputs.slug }}.md"
+          echo "---" > $file_name
+          echo "title: ${{ inputs.title }}" >> $file_name
+          echo "date: $(date +%Y-%m-%dT%H:%M:%S)" >> $file_name
+          echo "---" >> $file_name
+          echo "${{ inputs.content }}" >> $file_name
       - name: Commit and push
         run: |
           git config user.name "github-actions[bot]"
