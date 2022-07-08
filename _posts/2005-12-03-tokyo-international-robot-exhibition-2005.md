@@ -52,7 +52,7 @@ An information gathering, and presentation system developed by Sky.
 
 ### Swiffer BN-17
 
-A cute robot to provide company, and also mop/sweep up or help around the house a little bit. Created by Bandai. This guys also checks email - more information at <a href="http://uk.gizmodo.com/2005/12/02/mans_new_best_friend.html">Gizmodo - Mans New Best Friend</a> and <a href="https://www.neuraldump.net/2005/12/the-bandai-bn-17-swiffer-robot/">Cute Adorable Gadgets</a>
+A cute robot to provide company, and also mop/sweep up or help around the house a little bit. Created by Bandai. This bot also checks email - more information at <a href="http://uk.gizmodo.com/2005/12/02/mans_new_best_friend.html">Gizmodo - Mans New Best Friend</a> and <a href="https://www.neuraldump.net/2005/12/the-bandai-bn-17-swiffer-robot/">Cute Adorable Gadgets</a>
 
 ### RIDC-01
 

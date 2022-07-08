@@ -15,7 +15,7 @@ However, the formulae is not quite the same - the robots are all created by one 
 
 [Robot Combat League](https://twitter.com/robotcombatsyfy)
 
-Each team is of two people, one with the physical skills to drive the robots, and the others who are robot builders. These guys are from education, movies, NASA and so on. The physical side of the teams are MMA fighters, boxers and sports jocks. Teams get assistance in repairing between rounds, but they need their own skills too.
+Each team is of two people, one with the physical skills to drive the robots, and the others who are robot builders. These people are from education, movies, NASA and so on. The physical side of the teams are MMA fighters, boxers and sports jocks. Teams get assistance in repairing between rounds, but they need their own skills too.
 
 The robots are essentially big hydraulic RC things with a high pressure feed permanently attached (and providing balance).
 

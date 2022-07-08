@@ -16,13 +16,13 @@ In the next few paragraphs, I will take you through the basic essentials that yo
 
 <h1  id="Get_a_team">Get a team</h1>
 <p>
-<br/>Unless you are an elite, bachelor(I mean single - not having a degree although that might help too) engineer with huge amounts of time and money on your hands, you are simply not likely to have the resources to build a serious robot as a one man band. Very few- if any of the battling robots were built this way - your first step is to find a likely team of builders. Feel free to skim the ads in our <a  href="http://orionrobots.co.uk/tiki-view_forum.php?forumId=6" rel="external" target="_blank">Robot Market Forum</a> or place your own to attract the team.
+<br/>Unless you are an elite, bachelor(I mean single - not having a degree although that might help too) engineer with huge amounts of time and money on your hands, you are simply not likely to have the resources to build a serious robot alone. Very few- if any of the battling robots were built this way - your first step is to find a likely team of builders. Feel free to skim the ads in our <a  href="http://orionrobots.co.uk/tiki-view_forum.php?forumId=6" rel="external" target="_blank">Robot Market Forum</a> or place your own to attract the team.
 </p>
 <p>A team could simply be some school friends, your local neighbourhood engineers, a biker club, an after school club - I am sure if you ask around a bit you can find someone interested.
 </p>
 <p>If your team members are under 18, I recommend at least one adult helper, who will have valuable advice and keep an eye on safety. Other than that proviso, generally anyone from age of 5 upwards could be helpful - even just for style and coming up with good ideas. Get a good mix of skills if you can, and a good mix of ages can usually help to provide that.
 </p>
-<p>Teams need not be all men (or boys), there are some pretty successful all-female teams, as well as mixed teams. Again - girls will help to introduce more varied skills and thinking to the team, adding to the inspiration and the potential of having all aspects considered.
+<p>Robotics is a gender inclusive sport. More people of all background will introduce more varied skills and thinking to the team, adding to the inspiration and the potential of having all aspects considered.
 </p>
 <p>When you get people to join the team, you may want to appoint or become a leader, or at least a group coordinator, this does not mean being bossy, but more someone to martial ideas and to keep a little order and synchronisation in the teams activities. Make sure the team are aware of the kind of commitment they are going to need - half hearted maybes and no-shows have been the downfall of a few projects. Also, even if the event only allows for teams of a limited number, always have a few backups - understudies if you like, in case of someone being taken ill or running into problems.
 </p>
@@ -105,7 +105,7 @@ In the next few paragraphs, I will take you through the basic essentials that yo
 </p>
 <p>In terms of working area, make sure that the flooring is suitable, and wont be easily damaged by dropping metal or you don't mind getting oil on it too much. A family living room is not suitable except maybe for ant weight robots.  Make sure you have enough room for the whole team to work when they need to - even if that means some parts being done in different peoples garages then pulled together later (this means having good modular design as discussed above). If you are limited for elbow room, tools become extremely dangerous.
 </p>
-<p>A gung-ho team member who flaunts safety recommendations and refuses to wear safety gear can be a real liability to the team - it is worth being fairly firm/stern on the subject. In my observations - girls do tend to be more sensible with regards to these things.
+<p>A gung-ho team member who flaunts safety recommendations and refuses to wear safety gear can be a real liability to the team - it is worth being fairly firm/stern on the subject.
 </p>
 <p>It is better to call in help from team members, than to fall behind. It is better to fall behind than stay up till 3am every morning finishing it though. Tired builders are an accident waiting to happen - whether the victim will be you or the build is entirely a matter of luck - just don't take that risk.
 </p>

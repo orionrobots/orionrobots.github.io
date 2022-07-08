@@ -7,7 +7,7 @@ layout: post
 ---
 ## A long wait
 
-For us, 2006 was a busy year, with the lathe project still in progress, the site refresh which is now nearing completion (I think you will like it!), and me gearing up to open a store front, then I held off on the [NXT](/wiki/nxt "Lego's NeXT generation robotics kit") so I could finish other things. I new that as soon as I tore it open that I would be able to set my mind on little else. I had registered to join the [MDP](/wiki/mdp "The Mindstorms Developer Panel") , but wasn't among those picked. So after waiting a long while, a little too long, OrionRobots finally acquired one of these babies. There were a couple of delivery issues, having ordered it in the build up for Christmas, but the [Lego](/wiki/lego "The best known construction toy") Shop@Home guys soon cleared it up.
+For us, 2006 was a busy year, with the lathe project still in progress, the site refresh which is now nearing completion (I think you will like it!), and me gearing up to open a store front, then I held off on the [NXT](/wiki/nxt "Lego's NeXT generation robotics kit") so I could finish other things. I new that as soon as I tore it open that I would be able to set my mind on little else. I had registered to join the [MDP](/wiki/mdp "The Mindstorms Developer Panel") , but wasn't among those picked. So after waiting a long while, a little too long, OrionRobots finally acquired one of these babies. There were a couple of delivery issues, having ordered it in the build up for Christmas, but the [Lego](/wiki/lego "The best known construction toy") Shop@Home people soon cleared it up.
 
 ## Opening up
 
