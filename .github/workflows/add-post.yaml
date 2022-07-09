@@ -17,7 +17,7 @@ on:
         type: string
       youtube_id:
         description: Optional youtube id
-        tyep: string
+        type: string
 
 jobs:
   add_post:
@@ -33,7 +33,7 @@ jobs:
           echo "layout: post" >> $file_name
           echo "---" >> $file_name
           echo "${{ inputs.content }}" >> $file_name
-          if [ -z "${{ inputs.youtube_id }}" ]; then
+          if [ ! -z "${{ inputs.youtube_id }}" ]; then
             echo "{% include youtube_responsive src=\"https://www.youtube.com/embed/${{ inputs.youtube_id }}\" %}" >> $file_name
           fi
       - name: Commit and push
