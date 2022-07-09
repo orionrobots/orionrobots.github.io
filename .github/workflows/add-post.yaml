@@ -18,6 +18,9 @@ on:
       youtube_id:
         description: Optional youtube id
         type: string
+      tags:
+        description: Optional tags. comma separated list.
+        type: string
 
 jobs:
   add_post:
@@ -31,6 +34,9 @@ jobs:
           echo "title: ${{ inputs.title }}" >> $file_name
           echo "date: $(date +%Y-%m-%dT%H:%M:%S)" >> $file_name
           echo "layout: post" >> $file_name
+          if [ ! -z "${{ inputs.tags }}" ]; then
+            echo "tags: [${{inputs.tags}}]" >> $file_name
+          fi
           echo "---" >> $file_name
           echo "${{ inputs.content }}" >> $file_name
           if [ ! -z "${{ inputs.youtube_id }}" ]; then
