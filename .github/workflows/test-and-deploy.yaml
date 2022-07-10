@@ -10,6 +10,7 @@ on:
 
 jobs:
   build_site:
+    concurrency: site_building
     runs-on: ubuntu-latest
     container:
       image: jekyll/builder:4
@@ -67,6 +68,7 @@ jobs:
           docker stop orionrobots
 
   deploy:
+    concurrency: live_environment
     runs-on: ubuntu-latest
     needs: staging_test
     steps:
