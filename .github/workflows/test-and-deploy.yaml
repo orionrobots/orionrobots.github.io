@@ -10,7 +10,9 @@ on:
 
 jobs:
   build_site:
-    concurrency: site_building
+    concurrency:
+      group: site_building
+      cancel-in-progress: true
     runs-on: ubuntu-latest
     container:
       image: jekyll/builder:4
@@ -37,6 +39,8 @@ jobs:
           path: _drafts/staging/httpd.conf
 
   staging_test:
+    concurrency:
+      group: site_building
     runs-on: ubuntu-latest
     needs: build_site
     steps:
