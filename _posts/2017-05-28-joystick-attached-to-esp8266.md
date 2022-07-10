@@ -10,7 +10,7 @@ has only 1 ADC (analog to digital converter). Clearly I'd have to be a bit sneak
 <iframe width="560" height="315" src="https://www.youtube.com/embed/b2gdgkvTiaA" frameborder="0" allowfullscreen="True"></iframe>
 </div>
 
-Github repo: <https://github.com/orionrobots/esp8266_video_series/tree/master/multiple_analog_inputs>
+You can find the code for this on [Github](https://github.com/orionrobots/esp8266_video_series/tree/master/multiple_analog_inputs).
 
 So here are detailed notes on the build. First - the joystick, as a circuit diagram, ignoring the switch, looks like this:
 
@@ -32,12 +32,13 @@ switching speed is not particularly demanding either.
 
 The To92 recommendation is only because they are nice for breadboarding.
 
-The file <https://raw.githubusercontent.com/orionrobots/esp8266_video_series/master/multiple_analog_inputs/circuitjs_example.txt> can be used in CircuitJS to simulate the transistor behaviour.
-CircuitJS can be found at <http://www.falstad.com/circuit/circuitjs.html> and is a rather awesome toy to play with.
+The [simulation file](https://raw.githubusercontent.com/orionrobots/esp8266_video_series/master/multiple_analog_inputs/circuitjs_example.txt) can be used in [CircuitJS](http://www.falstad.com/circuit/circuitjs.html) to simulate the transistor behaviour.
+
+CircuitJS is an in browser electornic circuit simulator, and is a rather awesome toy to play with.
 
 ## The Code
 
-The code is run in the NodeMCU Lua interpreter - and the whole source is in the github repo <https://github.com/orionrobots/esp8266_video_series/tree/master/multiple_analog_inputs> as joystick_read.lua.
+The code is run in the NodeMCU Lua interpreter - and the whole source is in the [github repo](https://github.com/orionrobots/esp8266_video_series/tree/master/multiple_analog_inputs) as joystick_read.lua.
 
 First I define the pins
 
