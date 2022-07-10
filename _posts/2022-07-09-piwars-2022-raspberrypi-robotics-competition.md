@@ -10,4 +10,4 @@ Watch the Saturday runs live stream:
 
 {% include youtube_responsive src="https://www.youtube.com/embed/Rx_0R5ChRJM" %}
 
-For more information visit https://piwars.org/2022-competition/broadcast/.
+For more information visit <https://piwars.org/2022-competition/broadcast/>.
