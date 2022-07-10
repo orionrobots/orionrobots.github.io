@@ -2,6 +2,6 @@
 <script>
       document.addEventListener('DOMContentLoaded', function(event) {
         cookieChoices.showCookieConsentBar('Cookies help us deliver our services. By using our services, you agree to our use of cookies.',
-          'Got It', 'Learn More', 'https://orionrobots.co.uk/privacy_and_cookies.html');
+          'Got It', 'Learn More', '/privacy_and_cookies.html');
       });
 </script>
