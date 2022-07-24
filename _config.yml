@@ -18,6 +18,16 @@ defaults:
 plugins:
   - jekyll-toc
 
+prose:
+  media: 'galleries'
+  rooturl: '_posts'
+  siteurl: 'http://orionrobots.co.uk'
+  ignore: 
+    - index.md
+    - _config.yml
+    - /_layouts
+    - /_includes
+
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
