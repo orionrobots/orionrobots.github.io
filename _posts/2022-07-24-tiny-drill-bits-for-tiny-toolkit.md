@@ -29,7 +29,7 @@ I decided I needed the metric parts - 1mm, 1.5mm, 2.0mm, 2.5mm and 3.0mm as thes
 
 I used FreeCAD to design the part:
 
-![Tiny Drill Bit Holder model in FreeCAD]({{site.baseurl}}/galleries/2022/07-24-tiny-toolkit-drill-parts/2022-07-24-FreeCADmodel.png)
+![Tiny Drill Bit Holder model in FreeCAD]({{site.baseurl}}/galleries/2022/07-24-tiny-toolkit-drill-parts/FreeCADmodel.png)
 
 The Freecad part starts of with a bottom sketch with the drill holes, and I constrained for a 0.5 mm gap between holes (using a dot on their circumference and horizontal constraints). I used a ShapeBinder to pick up the part outline, and extrude that reversed, then extruded the whole sketch up to create the base and holes.
 
