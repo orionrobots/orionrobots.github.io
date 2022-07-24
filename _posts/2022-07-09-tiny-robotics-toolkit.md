@@ -2,7 +2,7 @@
 title: Putting together a tiny toolkit
 date: 2022-07-09T10:35:39
 layout: post
-tags: [tools, robotics, emfcamp. robotics events]
+tags: [tools, toolkit, robotics, emfcamp. robotics events]
 ---
 Inspired by twitter user Jarkman, I decided to start making a mini portable robot toolkit.
 
