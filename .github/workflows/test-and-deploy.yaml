@@ -27,11 +27,14 @@ jobs:
           chown jekyll . -R
           mkdir .jekyll-cache
           jekyll build
+      - name: Tarball the size
+        run: |
+          tar -czf _site.tar.gz _site
       - name: upload site artifact
         uses: actions/upload-artifact@v3
         with: 
           name: _site
-          path: _site
+          path: _site.tar.gz
       - name: upload httpd.conf artifact
         uses: actions/upload-artifact@v3
         with: 
@@ -49,7 +52,10 @@ jobs:
         uses: actions/download-artifact@v3
         with:
           name: _site
-          path: _site
+          path: _site.tar.gz
+      - name: extract site artifact
+        run: |
+          tar -xzf _site.tar.gz
       - name: Prepare for docker build
         run: |
           cp _drafts/staging/Dockerfile _site/
@@ -81,6 +87,9 @@ jobs:
         with:
           name: _site
           path: _site
+      - name: extract site artifact
+        run: |
+          tar -xzf _site.tar.gz
       - name: Fetch httpd conf artifact
         uses: actions/download-artifact@v3
         with:
