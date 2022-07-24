@@ -50,6 +50,10 @@ prose:
         field:
           label: "Category"
           element: "text"
+      - name: "using_mathjax"
+        field:
+          label: "Using MathJax"
+          element: "checkbox"
 
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
