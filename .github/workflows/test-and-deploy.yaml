@@ -96,10 +96,10 @@ jobs:
           name: httpd.conf
           path: _drafts/staging/httpd.conf
       # Sync the files
-      - name: Install and prepare rsync
+      - name: Sync the site over
         uses: burnett01/rsync-deployments@5.2
         with:
-          switches: -avv
+          switches: -a
           path: _site/
           remote_path: public_html
           remote_host: home738752777.1and1-data.host
@@ -108,7 +108,7 @@ jobs:
       - name: Copy over the htaccess file
         uses: burnett01/rsync-deployments@5.2
         with:
-          switches: -avv
+          switches: -a
           path: _site/htaccess
           remote_path: public_html/.htaccess
           remote_host: home738752777.1and1-data.host
