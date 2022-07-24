@@ -35,11 +35,13 @@ jobs:
         with: 
           name: _site
           path: _site.tar.gz
+          if-no-files-found: error
       - name: upload httpd.conf artifact
         uses: actions/upload-artifact@v3
         with: 
           name: httpd.conf
           path: _drafts/staging/httpd.conf
+          if-no-files-found: error
 
   staging_test:
     concurrency:
@@ -52,7 +54,6 @@ jobs:
         uses: actions/download-artifact@v3
         with:
           name: _site
-          path: _site.tar.gz
       - name: extract site artifact
         run: |
           tar -xzf _site.tar.gz
@@ -86,7 +87,6 @@ jobs:
         uses: actions/download-artifact@v3
         with:
           name: _site
-          path: _site
       - name: extract site artifact
         run: |
           tar -xzf _site.tar.gz
