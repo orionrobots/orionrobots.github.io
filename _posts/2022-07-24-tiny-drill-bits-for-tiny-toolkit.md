@@ -15,11 +15,11 @@ I've included a small hand-drill in the kit, and intend it to make small holes o
 
 So I've improved it by 3D printing a tiny holder for the drill bits.
 
-![The Tiny Toolkit with the drill parts]({{site.baseurl}}/galleries/2022/07-24-tiny-toolkit-drill-parts-/IMG_6553.jpeg)
+![The Tiny Toolkit with the drill parts]({{site.baseurl}}/galleries/2022/07-24-tiny-toolkit-drill-parts/IMG_6553.jpeg)
 
 The picture above shows the toolkit. On the left is a small set of digital Calipers (more on that in another post). On the right, the top is the hand drill, held in place with elastic, and below are the drill bits.
 
-![The box of loose drill bits]({{site.baseurl}}/galleries/2022/07-24-tiny-toolkit-drill-parts-IMG_6554.jpeg)
+![The box of loose drill bits]({{site.baseurl}}/galleries/2022/07-24-tiny-toolkit-drill-parts/IMG_6554.jpeg)
 
 The tiny box of drill bits, beyond being bulky, has many odd sizes I'll never use - likely imperial sizes, or other small offsets. It's also totally disorganised. When using them, I frequently hunt and seek the right size with calipers. I can clearly do better than this, organise the most used drill bits into a smaller holder.
 
@@ -29,7 +29,7 @@ I decided I needed the metric parts - 1mm, 1.5mm, 2.0mm, 2.5mm and 3.0mm as thes
 
 I used FreeCAD to design the part:
 
-![Tiny Drill Bit Holder model in FreeCAD]({{site.baseurl}}/galleries/2022/07-24-tiny-toolkit-drill-parts-2022-07-24-FreeCADmodel.png)
+![Tiny Drill Bit Holder model in FreeCAD]({{site.baseurl}}/galleries/2022/07-24-tiny-toolkit-drill-parts/2022-07-24-FreeCADmodel.png)
 
 The Freecad part starts of with a bottom sketch with the drill holes, and I constrained for a 0.5 mm gap between holes (using a dot on their circumference and horizontal constraints). I used a ShapeBinder to pick up the part outline, and extrude that reversed, then extruded the whole sketch up to create the base and holes.
 
@@ -45,7 +45,7 @@ I then wanted to 3D print the part (my printer is a Flashforge Finder). I tried 
 
 My first attempts at printing didn't work at the first layer. I tried printing straight up, so there would be no question of the precision around the holes. The first layer kept detaching. I could have reoriented the print, but I was still keen on having the holes be the best part. So after re-levelling the bed (Fail) and trying to offset the Z closer (still fail), I decided to print with a raft.
 
-![Sliced print - In FlashPrint with the raft]({{site.baseurl}}/galleries/2022/07-24-tiny-toolkit-drill-parts-SlicingWithRaft.png)
+![Sliced print - In FlashPrint with the raft]({{site.baseurl}}/galleries/2022/07-24-tiny-toolkit-drill-parts/SlicingWithRaft.png)
 
 This worked - I was able to gently pry the raft of with pliers. Now despite my care with the holes, I still needed to ream them a little with their respective bits.
 
