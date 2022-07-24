@@ -27,6 +27,25 @@ prose:
     - _config.yml
     - /_layouts
     - /_includes
+  metadata:
+    _posts:
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "post"
+      - name: "title"
+        field:
+          element: "text"
+      - name: "description"
+        field:
+          element: "textarea"
+      # todo - generate a tags json p for selecting tags
+      - name: "tags"
+        field:
+          element: "text"
+      - name: "category"
+        field:
+          element: "text"
 
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
