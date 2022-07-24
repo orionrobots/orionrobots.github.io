@@ -35,16 +35,20 @@ prose:
           value: "post"
       - name: "title"
         field:
+          label: "Title"
           element: "text"
       - name: "description"
         field:
+          label: "Description"
           element: "textarea"
       # todo - generate a tags json p for selecting tags
       - name: "tags"
         field:
+          label: "Tags"
           element: "text"
       - name: "category"
         field:
+          label: "Category"
           element: "text"
 
 # Themes are encouraged to use these universal variables 
