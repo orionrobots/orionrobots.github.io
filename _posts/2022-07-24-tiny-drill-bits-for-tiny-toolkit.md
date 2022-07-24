@@ -1,6 +1,6 @@
 ---
 layout: post
-published: false
+published: true
 using_mathjax: false
 title: Tiny Drill Bit Holder For Tiny Toolkit
 description: How I used CAD to make a holder for drill bits in my tiny toolkit
