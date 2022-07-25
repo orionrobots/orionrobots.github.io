@@ -9,11 +9,11 @@ category: robot building
 ---
 Jarkman, the person who inspired my tiny toolkit suggested making and 3D Printing a tray so the bits are less likely to escape into the toolbag. This is building on the [Drill bits holder](https://orionrobots.co.uk/robot%20building/2022/07/24/tiny-drill-bits-for-tiny-toolkit.html) I made yesterday.
 
-I've used FreeCAD to make such a thing. I started by making a drawing of the original part for dimensions, and using that to draw the second aprt. I've not reliably found a way to sketch a new part related to/constrained by a first part in FreeCAD yet - I just have to sketch another part using the output dimensions from the first to constrain it. I'm probably still getting up to speed on FreeCAD.
+I've used FreeCAD to make such a thing. I started by making a drawing of the original part for dimensions, and using that to draw the second part. I've not reliably found a way to sketch a new part related to/constrained by a first part in FreeCAD yet - I just have to sketch another part using the output dimensions from the first to constrain it. I'm probably still getting up to speed on FreeCAD.
 
 ![freecad-tiny-drillbit-tray.png]({{site.baseurl}}/galleries/freecad-tiny-drillbit-tray.png)
 
-I based the vertical dimension on using the calipers (handilly in the same toolkit pocket as the drills) to measure the longest one.
+I based the vertical dimension on using the calipers (handily in the same toolkit pocket as the drills) to measure the longest one.
 
 ## My observations while making this
 
@@ -53,6 +53,3 @@ I'm also not convinced I use all the screwdriver types often enough to justify t
 I was considering putting the drill bit sizes on the front of the print, but they will be kinda tiny and I'm not sure the printer would make them that readable. Plus knowing the range and step of 0.5, it's pretty obvious now.
 
 I also want to indicate the front of the toolbox. Might be a place to put an orionrobots logo! 😀
-
-
-
