@@ -3,7 +3,9 @@ layout: post
 using_mathjax: false
 published: true
 title: Tiny Toolkit Drill bit tray
-description: Small improvement on yeseterdays drill bit holders
+description: >-
+  Small improvement on yesterdays drill bit holders for the tiny robotics
+  toolkit
 tags: 'tools, toolkit'
 category: robot building
 ---
