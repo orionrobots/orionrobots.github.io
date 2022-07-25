@@ -1,7 +1,7 @@
 ---
 layout: post
 using_mathjax: false
-published: false
+published: true
 title: Tiny Toolkit Drill bit tray
 description: Small improvement on yeseterdays drill bit holders
 tags: 'tools, toolkit'
