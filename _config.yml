@@ -21,7 +21,7 @@ plugins:
 prose:
   media: 'galleries'
   rooturl: '_posts'
-  siteurl: 'http://orionrobots.co.uk'
+  siteurl: 'https://orionrobots.co.uk'
   ignore: 
     - index.md
     - _config.yml
