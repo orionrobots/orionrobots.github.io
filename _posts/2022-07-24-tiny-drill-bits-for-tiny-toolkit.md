@@ -9,7 +9,7 @@ category: robot building
 ---
 # Tiny Drill Bit Holder
 
-I've recently been expanding the Tiny Toolkit and making what is already there more accessible or fit better.
+I've recently been expanding the [Tiny Toolkit]({{site.baseurl}}/2022/07/09/tiny-robotics-toolkit.html) and making what is already there more accessible or fit better.
 
 I've included a small hand-drill in the kit, and intend it to make small holes or finish holes. There was also a box of loose drill bits there - which didn't quite fit in the pouch and had nowhere to go.
 
