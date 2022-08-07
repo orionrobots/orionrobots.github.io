@@ -50,6 +50,10 @@ prose:
         field:
           label: "Category"
           element: "text"
+      - name: "published"
+        field:
+          label: "published"
+          element: "checkbox"
       - name: "using_mathjax"
         field:
           label: "Using MathJax"
