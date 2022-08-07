@@ -32,5 +32,5 @@ Adding a 0 in:
 
 ![Bluetooth plot of encoder speed with a 0 anchor]({{site.baseurl}}/galleries/Pasted image 20220807120614.png)
 
-Always be aware of graph anchoring and scaling - it can send results right off.
+Always be aware of graph anchoring and scaling - it can definitely send you on a wild goose chase.
 
