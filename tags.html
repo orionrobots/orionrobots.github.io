@@ -7,7 +7,7 @@ group: navigation
 {% include JB/setup %}
 
 <h1>Tag Cloud</h1>
-{% assign tags = site.tags | sort: "size" %}
+{% assign tags = site.tags | sort %}
 {% for tag in tags %}
  <span class="site-tag">
   <a href="/tags.html#{{ tag | first | slugify }}-ref">
@@ -16,7 +16,7 @@ group: navigation
 </span>
 {% endfor %}
 
-{% for tag in site.tags %} 
+{% for tag in site.tags %}
   <h2 id="{{ tag | first | slugify }}-ref">{{ tag[0] }}</h2>
   <ul>
     {% assign pages_list = tag[1] %}  
