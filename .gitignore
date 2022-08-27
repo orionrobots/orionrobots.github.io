@@ -67,3 +67,6 @@ _theme_packages/*
 
 ## Thumbnail generator thumbs
 thumbnails
+
+## Freecad backup files
+*.fcstd1
