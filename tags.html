@@ -7,12 +7,12 @@ group: navigation
 {% include JB/setup %}
 
 <h1>Tag Cloud</h1>
-{% assign tags = site.tags | sort | sort: "size" %}
+{% assign tags = site.tags | sort: "size" %}
 {% for tag in tags %}
  <span class="site-tag">
-    <a href="/tags.html#{{ tag | first | slugify }}-ref">
-            {{ tag[0] | replace:'-', ' ' }} ({{ tag | last | size }})
-    </a>
+  <a href="/tags.html#{{ tag | first | slugify }}-ref">
+    {{ tag[0] | replace:'-', ' ' }} ({{ tag | last | size }})
+  </a>
 </span>
 {% endfor %}
 
