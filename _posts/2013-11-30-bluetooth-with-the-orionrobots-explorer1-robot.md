@@ -29,7 +29,7 @@ You will also need the TurtleMotors library - create a new tab in the Arduino ID
 
 You should now be able to compile and upload this to your robot, which will be waiting for a device to connect to it.
 
-# Driving it
+## Driving it
 
 To prepare an Android device, you will need a Bluetooth SPP app. The one I originally used is still available.
 

@@ -12,6 +12,6 @@ Most real robots at the moment are confined either to laboratories of big busine
 
 With robots that do dishes, make music, prepare sushi and mix drinks, perhaps these are a generation that can make it out of the labs and into our homes.
 
-<a href="http://www.curiousread.com/2010/10/10-robots-you-can-actually-date.html" >10 Robots You Can Actually Date</a> covers these - don't worry there are no unsafe or unpleasant links in that.
+[10 Robots You Can Actually Date](http://www.curiousread.com/2010/10/10-robots-you-can-actually-date.html) covers these - don't worry there are no unsafe or unpleasant links in that.
 
 Perhaps my favourite is the one that can load the dishwasher. The list doesn't mention the Roomba, a robot that can vacuum floors autonomously.

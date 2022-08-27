@@ -7,4 +7,4 @@ title: Building RAM memory cells yourself
 
 It will neither be large enough or fast enough to have any hope of being able to extend your computer. However, understanding these circuits will aid you in programming, electronics, microcontroller usage, and will just be plain fun. Plus it may be handy for a couple of cheeky LED circuits.
 
-<a href="http://www.instructables.com/id/DIY-RAM-Memory-Register-Style/">DIY RAM Memory- Register Style</a>
+[DIY RAM Memory- Register Style](http://www.instructables.com/id/DIY-RAM-Memory-Register-Style/)

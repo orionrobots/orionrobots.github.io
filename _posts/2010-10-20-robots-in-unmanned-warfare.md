@@ -11,6 +11,3 @@ They may even be manned from a distance, flown or driven remotely.
 
 It is a double edged sword, as while I am no fan of killing machines, or warfare in general, if it must be done, doing it without putting people in the front line might be better. Could this develop into SkyNet? Unlikely and very improbable.
 
-<a href="http://www.criminaljusticedegrees.com/robot-wars-10-recent-developments-in-unmanned-warfare-you-havent-heard-about" >
-   Robot Wars - 10 Recent developments in unmanned warfare you haven't heard about
-  </a>

@@ -32,6 +32,4 @@ Now since we started on Lego, we will come back to Lego. Now we get one here bas
 
 At Lego ideas, there is an amazing idea for a mechanical pendulum clock kit with only stock lego parts - [LEGO IDEAS - Wall Clock](https://ideas.lego.com/projects/5f13f0c2-284c-4cb2-b649-f554f29e1514).
 
-If all this wasn't enough, the last link I will give you on the subject is [The Lego Clock Index](http://popbubble.com/Lego/LegoClocks/).
-
 Whew - well maybe that's enough of my little intense trip into clocks, I am lazy, so I just use my mobile - which works right up until the point where I forget to charge it.

@@ -315,15 +315,17 @@ It is one thing to get the RCX running with the likes of NQC and Lejos, but the 
 
 The first way is to consider using Virtual Box. This allows you to forward USB ports and serial ports to a virtual machine, in which you can then run an older version of Windows and then run the original Mindstorms disks as is.
 
-You may get somewhere in using an older version of Quicktime to prevent errors in the default software. The exact version needed is 6.5.2 for the RIS 2.0 software (the most recent). This can be downloaded from <a href="http://www.oldversion.com/download_QuickTime_6.5.2.html" target="_blank">Oldversion.com</a>.
+You may get somewhere in using an older version of Quicktime to prevent errors in the default software. The exact version needed is 6.5.2 for the RIS 2.0 software (the most recent).
 
-Virtual Box is freely downloadable at <a href="http://www.virtualbox.org/" target="_blank">Virtualbox.org</a>. You will just need a version of Windows – I recommend 98 (which dates the RCX!) as there are no patches needed for the Mindstorms software. Just make sure you use the Windows 98 VM only for Mindstorms and do not go on the net with Windows 98.
+Virtual Box is freely downloadable at [Virtualbox.org](http://www.virtualbox.org/). You will just need a version of Windows – I recommend 98 (which dates the RCX!) as there are no patches needed for the Mindstorms software. Just make sure you use the Windows 98 VM only for Mindstorms and do not go on the net with Windows 98.
+
 
 In Windows 7, with the more expensive editions (which you can purchase through an Anytime upgrade), you get a version of Virtual PC, with an older version of Windows running in it, for just this kind of compatibility problem. However that is XP, and the compatibility patches that Lego were hosting have long since been removed.
 
 Unfortunately, Lego do not support the consumer RCX so much any more, and the downloads have now also gone from their education site.
 
-For a simpler route in terms of drivers and so on, you may find <a href="http://bricxcc.sourceforge.net/nqc/" target="_blank">NQC</a> and <a href="http://bricxcc.sourceforge.net/" target="_blank">Brickx Command Centre</a> easier, although programming them takes more work and patience.
+For a simpler route in terms of drivers and so on, you may find [NQC](http://bricxcc.sourceforge.net/nqc/) and [Brickx Command Centre](http://bricxcc.sourceforge.net/) easier, although programming them takes more work and patience
+.
 
 ## More RCX, Mindstorms and Lego Information
 
@@ -334,7 +336,6 @@ While there is plenty here about interfacing with the RCX and what is inside it,
 You are welcome to tweet me your own Lego Mindstorms Robotics site here as long as the content is relevant to this page.
 
 * [RCX Internals](http://www.mralligator.com/rcx/)
-* [Upgrading Lego Mindstorms RIS 1.0?](https://www.boards.ie/b/thread/2055747086?mode=linear)
 * [RCX 1.0 Case Disassembly - iFixit](https://www.ifixit.com/Guide/Disassembling-RCX-1-0-Case/4352/2)
 * [Bricklink Catalog Entries for the RCX](https://www.bricklink.com/catalogList.asp?q=RCX)
 * [Lego Specifications](/wiki/lego_specifications.html) - When interfacing stuff with Lego, knowing conversions to MM from the Lego Units can be very handy.

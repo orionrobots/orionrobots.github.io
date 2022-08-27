@@ -19,4 +19,4 @@ The company building the robot, Inuktun are based in Nanaimo. The company specia
 
 * [Robot-Assisted Rescuers Seek Answers in Wake of Utah Mine Collapse](https://www.scientificamerican.com/article/robot-assisted-rescuers-s/)
 * [Video of Rescue Robot at Crandall Canyon Utah Mine](https://www.youtube.com/watch?v=yiAi3mO4EhI)
-* <a href="http://www.inuktun.com" >Inuktun Site</a>
+* [Onspec Robotics](https://robotics.eddyfi.com/en/products) - formerly Inuktun.

@@ -29,9 +29,8 @@ One big question is if this is conscious behaviour. It is certainly learning and
 
 ## Links
 
-* [Rats are smarter than we think - The Telegraph](http://www.telegraph.co.uk/connected/main.jhtml?xml=/connected/2007/03/12/ecrats12.xml)
 * [Rats Capable Of Reflecting On Mental Processes](https://www.sciencedaily.com/releases/2007/03/070308121856.htm)
-* [Rats Are Capable Of Reflecting On Mental Processes, UGA Research Shows - Medical News Today](http://www.medicalnewstoday.com/medicalnews.php?newsid=64856)
+* [Metacognition in the rat on from PubMed](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1861845/)
 * [Leonardo Da Vinci](/wiki/leonardo_da_vinci "Leonardo Da Vinci")
 * [Leonardo Da Vincis Robot](/wiki/leonardo_da_vincis_robot "The Humanoid Robot Designed By Leonardo Da Vinci")
 * [BEAM](/wiki/beam_robots "Biology, Electronics, Aesthetics and Mechanics")

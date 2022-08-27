@@ -21,4 +21,4 @@ Now I'll stick with my current robot kit for now - but it sounds like plenty of 
 ## Links
 
 <http://www.esa.int/Our_Activities/Technology/Building_a_lunar_base_with_3D_printing>
-<http://techcrunch.com/2013/03/03/red-whitaker/>
+[A Chat With Robotics Pioneer Red Whittaker On The Google Lunar X Prize And The Future Of Interstellar Exploration](http://techcrunch.com/2013/03/03/red-whitaker/)

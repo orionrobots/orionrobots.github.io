@@ -22,7 +22,6 @@ What is remarkable is the technology in the finishing cars drove them legally an
 * [DARPA Grand Challenge Site](https://www.grandchallenge.org)
 * [Tartan Racing (Carnegie Mellon University)](http://www.tartanracing.org/blog/index.html)
 * [Stanford University](http://cs.stanford.edu/group/roadrunner/)
-* [Victor Tango - Virginia Tech University](https://vtnews.vt.edu/articles/2007/08/2007-429.html/)
 * [CARNEGIE TAKES FIRST IN DARPA'S URBAN CHALLENGE](https://www.wired.com/2007/11/darpa-names-win/)
 * [Wired Danger Room - Urban Challenge Bots Ready to Race On Saturday](http://blog.wired.com/defense/2007/11/urban-challenge/) - this page shows the route the cars will take, and goes into some detail on the challenges they face.
 * [Darpa Urban Challenge on YouTube](http://www.youtube.com/results?search_query=DARPA+urban+challenge&amp;search=Search) - for those needing a more visual take, here are highlights in video courtesy of a pre-baked search of YouTube.

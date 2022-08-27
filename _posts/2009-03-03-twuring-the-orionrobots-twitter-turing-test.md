@@ -95,7 +95,7 @@ Eliza was probably the first Chat bot I knew about. Eliza emulated a psychoanaly
 
 I then had the pleasure of working with NIALL - The Non Intelligent Amos Language Learner. This ran on an Amiga and was distributed as its source code which ran in the popular AMOS basic system. It would use the Amiga speech system to help the illusion. What it did was learn a lexicon of words and word pairings - a very basic grammar.
 
-Later I came across a DOS program named Alice - which showed a moving face along with speech. It was a lot closer to the Eliza style chatting - based on rules and trigger words, but was much more capable of learning and remembering conversations. Versions of Alice are still on the web today under the name [Alicebot](https://www.chatbots.org/chatbot/a.l.i.c.e/) which is all singing, all dancing and uses a AIML markup language to form expert chatbot systems.
+Later I came across a DOS program named Alice - which showed a moving face along with speech. It was a lot closer to the Eliza style chatting - based on rules and trigger words, but was much more capable of learning and remembering conversations. Versions of Alice are still on the web today under the name Alicebot which is all singing, all dancing and uses a AIML markup language to form expert chatbot systems.
 
 Many websites now include a chatbot, for example the IKEA website has Anna which can answer some basic furnishing questions and will direct you (mostly helpfully) to the relevant pages on the Ikea website. It is questionably little more than a sophisticated search tool.
 
@@ -131,12 +131,6 @@ Perl chatbot info:
 - [Bot::BasicBot on CPAN](http://search.cpan.org/~hinrik/Bot-BasicBot-0.89/lib/Bot/BasicBot.pm) A Simple IRC interface for building an IRC chatbot. A perl interface to twitter built in this way would be great.
 
 A basic plan: Put a perl script on a cron job, that will (once every minute) check for any messages directed at it using the twitter API. It will then lex process and respond to these. Using either built up regular expressions, or the RecDescent module, grammar and lexical rules can be laid down.
-
-## C++ resources
-
-Twitter C++ API's:
-
-- [C And C++ - Creating A Chatbot | DreamInCode.net](http://www.dreamincode.net/forums/showtopic19392.htm)
 
 ## Ruby Resources
 

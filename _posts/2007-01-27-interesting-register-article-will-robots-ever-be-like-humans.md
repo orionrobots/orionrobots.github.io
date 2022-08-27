@@ -47,7 +47,7 @@ It is also a bit of good harmless fun.
 
 This is a rather odd and amazing concept. It is the idea of offering an [API](/wiki/api "Acronym: Application Programming Interface") that allows you to set tasks that an [AI](/wiki/ai "Artificial Intelligence") is not yet capable of, like identifying objects in photographs, and for those who perform such tasks, an opportunity for a quick mini-earner. It is not a lot, normally measured in cents, and for non-US people it earns Amazon vouchers.
 
-The system is currently a Beta, run by Amazon. I have played with it, and think it is a concept that could be very handy for tagging and creating a lot of metainformation, thus creating the "semantic web". Link concepts like this with the 20q engine - and you have a powerful expert system involving people as well as machines.
+The system is currently a Beta, run by Amazon. I have played with it, and think it is a concept that could be very handy for tagging and creating a lot of meta information, thus creating the "semantic web". Link concepts like this with the 20q engine - and you have a powerful expert system involving people as well as machines.
 
 It is actually named after an infamous 18th century chess machine, which appeared to play a really good game, but turned out to be a man curled up, a great hoax. This was known as the Turk, and by facilitating tasks that people would like a computer to be able to do, MTurk creates an automated way of linking up capable humans with tasks required by others or even by machines.
 
