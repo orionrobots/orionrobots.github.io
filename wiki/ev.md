@@ -11,8 +11,8 @@ with exactly the same look and feel of a standard boring car, with only
 the difference in what's under the bonnet - until that point, we cannot
 expect a large uptake of them.
 
-Companies like <http://goingreen.com> and Honda have commercialised on
-it. The Toyata Prius is an interesting compromise on the concept as
+Companies like Tesla, Toyota and Honda have commercialised on
+it. The Toyota Prius is an interesting compromise on the concept as
 well.
 
 ## What does this mean to robots (and builders)?

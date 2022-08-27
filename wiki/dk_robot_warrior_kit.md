@@ -1,7 +1,7 @@
 ---
 layout: page
 title: DK Robot Warrior Kit
-tags: [robt kits, robots, robot bulding, robotics]
+tags: [robot kits, robots, robot building, robotics]
 date: 2012-07-14 10:13:13
 ---
 This kit comes with a number of press out cardboard bits, a small two direction remote chassis and a small book.
@@ -29,7 +29,7 @@ Cons:
 * Falls apart easily.
 * While cheap - perhaps not that good value for money.
 
-# Links
+## Links
 
 * <a href="/wiki/robot_kits.html" title="Robot Kits">Robot Kits</a>
 * Robot Books

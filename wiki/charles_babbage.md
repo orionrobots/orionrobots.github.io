@@ -10,7 +10,7 @@ He is well known for his Difference Engine - the first successful automatic calc
 
 His later Analytical Engine was a much faster and more powerful machine - a replica of which resides in the London Science Museum.
 
-It is often said that it is Babbages machines, and [The Lady Adas](/wiki/the_lady_ada.html "History of The Countess Of Lovelace, and relationship to Computers and Robotics") programming that enabled us to get where we are with modern computing and robotics, with the help of (alan turing)) on the way. Indeed there are some very interesting Sci-Fi stories based on the premise of robots or huge war-engines built using a Babbage style analytical engine.
+It is often said that it is Babbage's machines, and [The Lady Ada's](/wiki/the_lady_ada.html "History of The Countess Of Lovelace, and relationship to Computers and Robotics") programming that enabled us to get where we are with modern computing and robotics, with the help of (alan turing)) on the way. Indeed there are some very interesting Sci-Fi stories based on the premise of robots or huge war-engines built using a Babbage style analytical engine.
 
 Babbage's Analytical Engine was basically a steam powered computer - capable of storing 1 thousand 50 digit numbers in its memory. He started work on this in 1834
 
@@ -21,7 +21,7 @@ It was [The Lady Ada](/wiki/the_lady_ada.html "History of The Countess Of Lovela
 He was Born in London on December 26, 1791\. He was the Son of a London Banker, Benjamin Babbage.
 
 A portrait of Charles Babbage
-![](https://upload.wikimedia.org/wikipedia/commons/6/6b/Charles_Babbage_-_1860.jpg)
+![Charles Babbge Portrait](https://upload.wikimedia.org/wikipedia/commons/6/6b/Charles_Babbage_-_1860.jpg)
 
 The Difference Engine 1
 

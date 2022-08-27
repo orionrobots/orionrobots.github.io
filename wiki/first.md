@@ -17,6 +17,4 @@ FIRST are a non-for-profit charitable group run by thousands of volunteers - wit
 ## Links
 
 - <http://www.usfirst.org/>
-- [FIRST Group in NASA GRC](http://www.grc.nasa.gov/WWW/OEP/FIRST.htm)
 - [FIRST on WikiPedia](http://en.wikipedia.org/wiki/FIRST)
-- [FIRST - Information on starting your own team](http://www.usfirst.org/involved/content.aspx?id=168) - Go on leap right in and get involved!

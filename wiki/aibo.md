@@ -14,12 +14,12 @@ The users have formed a community of hackers and enthusiasts as is normally the 
 
 There are a number of models, clearly some more hackable or programmable than others. The amount they are hackable allow them to cross from "expensive toy" to research platform. It is a good thing that the [Robosapien](/wiki/robosapien.html "RoboSapien") design took this into account.
 
+There was a software system OpenR for developing Aibo apps.
+
 OrionRobots do not currently have an Aibo, but any donations would be welcome!
 
 The Sony Dream Robots (SDR) division used techniques learned when building this to design [QRio](/wiki/qrio.html "Qrio").
 
-# Links
+## Links
 
-- [Official AIBO Europe Site](http://www.sonydigital-link.com/aibo/index.asp)
-- [OpenR Software Development Environment Website](http://openr.aibo.com/)
 - [History of the Sony dispute with AIBO hackers - Wired News: Aibo Owners Biting Mad at Sony](https://www.wired.com/2001/11/aibo-owners-biting-mad-at-sony/)

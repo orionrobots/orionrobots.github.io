@@ -18,12 +18,12 @@ C programs can often be made of many different C files, and good programming pra
 
 If you would like to use GCC on your system, it is highly recommended that you do not purchase a [PIC](/wiki/pic.html "PIC") and look around at alternatives like the Atmel AVR, or the 8051.
 
-# Related
+## Related
 
 - [NQC](/wiki/nqc.html "Not Quite C - A Lego PBrick Programming Language") - Not Quite C - a C like programming system for the [Lego RCX](/wiki/rcx.html "The Lego RCX")
 - [BrickOS](/wiki/brickos.html "An entire Embedded OS for the RCX") - Another way to program C with a Unix like OS for the [RCX](/wiki/rcx.html "The Lego Robot Command Explorer")
 
-# Links
+## Links
 
 - [The C programming Language on Wikipedia](http://en.wikipedia.org/wiki/C_%28programming_language%29)
 - [Small Device C Compiler](http://sdcc.sourceforge.net/) - Open Source Embedded Device C Compiler

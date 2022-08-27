@@ -6,7 +6,7 @@ date: 2005-09-09 14:28:43
 ---
 This is a [Boolean](/wiki/boolean.html "Boolean") operation, which gives a result of true only when its first input "AND" second input are true (in the case of a two input AND). It is used both as an electronic element and in programming.
 
-![](/galleries/gallery-1-common-images/120-and.jpg)
+![AND logic gate symbol](/galleries/gallery-1-common-images/120-and.jpg)
 
 A [Truth Table](/wiki/truth_table.html "Truth Table") for this operation:
 
@@ -36,7 +36,7 @@ This concept can be easily demonstrated with a circuit, with a prop that takes m
 
 - 2 Electrical Switches/buttons - push to make
 - Some jump leads with clips or a breadboard.
-- A power supply (approv 5/6v) - A bench supply or fresh batteries will do
+- A power supply (approx 5/6v) - A bench supply or fresh batteries will do
 - An [LED](/wiki/led.html "Light Emitting Diode")
 - A [Resistor](/wiki/resistor.html "Resistor") (around 470)
 

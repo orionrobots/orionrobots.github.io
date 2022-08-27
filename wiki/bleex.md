@@ -14,9 +14,8 @@ The system does not use any kind of keypad or joystick, but merely responds to t
 
 This technology was demonstrated at the DARPATech Symposium in March 2004.
 
-# Links
+## Links
 
 - [Exoskeleton](/wiki/exoskeleton.html "A device/vehicle worn to enhance human abilities")
 - [DARPA](/wiki/darpa.html "Defense Advanced Research Projects Agency")
 - [UC Berkely News on the Bleex](http://www.berkeley.edu/news/media/releases/2004/03/03_exo.shtml)
-- [UC Berkeley](http://me.berkeley.edu/hel/bleex.htm)

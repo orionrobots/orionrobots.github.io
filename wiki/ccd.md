@@ -8,7 +8,6 @@ A CCD is the optical element of a digital scanner or camera. You will find them 
 
 They are essentially an exposed portion of a chip made with the same fabrication techniques used to mass produce most of the other integrated chips in the rest of the device carrying them. This what has made them so cheap. The exposed portion is an array of capacitors which are sensitive to light, and linked together.
 
-
 ## Links
 
 - <http://en.wikipedia.org/wiki/Charge-coupled_device> - More detailed coverage on Wikipedia.

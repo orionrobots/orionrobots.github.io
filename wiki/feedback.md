@@ -16,7 +16,7 @@ More complex feedback allows for more complex behaviour, and may allow an advanc
 
 One interesting and important concept in feedback is understanding human senses, and a little about how we experience them.
 
-The term quale (pronounced kwa-li) is used to describe our experiences of such senses. What our senses are not, are little faithful reproductions of th outside world on a little movie theatre for our brain to process. The way we experience things is highly contextual.
+The term qualia (pronounced kwa-li) is used to describe our experiences of such senses. What our senses are not, are little faithful reproductions of th outside world on a little movie theatre for our brain to process. The way we experience things is highly contextual.
 
 You may _think_ you can see the whole room, but most of it is actually a blurry mess, apart from the limited area you are really focused on. The rest is reconstructed into what your brain thinks should be there until you actually look at it. It is through exploiting this that many illusions work.
 

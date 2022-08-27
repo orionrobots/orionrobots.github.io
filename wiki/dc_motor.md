@@ -25,7 +25,7 @@ Carbon is commonly used to lubricate the brushes on the commutators - as it is c
 
 ### Stator
 
-A DC motor or generator commonly has a static/stationary set of two or more permanent magnets or coils - these are referred to as the stator. 
+A DC motor or generator commonly has a static/stationary set of two or more permanent magnets or coils - these are referred to as the stator.
 
 Depending on their design, they may actually be on the inside, or the outside of the motor.
 
@@ -34,7 +34,6 @@ Depending on their design, they may actually be on the inside, or the outside of
 Commutators are the curved copper plates around the armature of a DC Motor - with insulating material between them. They are also used in Generators, and some older switching systems(though those may have been replaced by solid state gear).
 
 These plates are in contact with the brushes which allow them to transmit power from the source to the coil windings.
-
 
 In a DC Motor, as the commutators move past the brushes their polarities change, therefore changing the polarity of the magnetic fields of the coils.
 
@@ -53,7 +52,8 @@ When using DC motors with more complex control circuits, you may observe erratic
 
 If you are using motors on a device with ultrasonic sensors, the motors may also introduce a great deal of high frequency vibration - it is worth considering using suspension or damping foam around the Ultrasonic transducers to ensure it does not interfere with them.
 
-## Gearing 
+## Gearing
+
 Standard DC motors are in no way geared, and this may mean that their output may be too fast with very low torque. You should probably gear them down a few times. This may be your problem if you attached your wheels directly to the motor shaft.
 
 <a href="/wiki/lego.html" title="The best known construction toy">Lego</a> have both geared, and non-geared motor varieties.

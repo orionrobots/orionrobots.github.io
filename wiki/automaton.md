@@ -18,6 +18,6 @@ Al-Jazari created a handwashing automaton.
 
 ## Vaucanson's Duck
 
-Vaucanson was a french inventor, who created an duck automaton capable of eating,, and appearing to digest food. It excreted too - although there may have been a concealed pouch for this.
+Vaucanson was a french inventor, who created an duck automaton capable of eating and appearing to digest food. It excreted too - although there may have been a concealed pouch for this.
 
 Vaucanson also created one of the worlds first precision metal lathes using screws to adjust cutting depth for the tools, and factory machine automation for textiles.

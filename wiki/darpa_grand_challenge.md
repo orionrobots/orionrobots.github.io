@@ -18,11 +18,11 @@ With the vehicles are chaser cars, to keep them out of danger, with a killswitch
 
 <http://www.grandchallenge.org/>
 
-# 2005 Event
+## 2005 Event
 
 [My Blog post on the 2005 Darpa Grand Challenge]({% post_url 2005-10-08-more-info-on-the-darpa-grand-challenge-result %})
 
-# 2004 Event
+## 2004 Event
 
 15 Robots entered the race, and two were withdrawn before the race even started.
 

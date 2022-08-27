@@ -1,6 +1,6 @@
 ---
 layout: page
-title: FLL
+title: FLL - First lego League
 tags: [robots, robotics, robot building]
 date: 2006-03-03 14:10:10
 ---

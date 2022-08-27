@@ -8,7 +8,7 @@ Clusterbots are a robots working in a group to achieve the same goal. They may b
 
 Clustered robots are co-operative, and tend to have a neat short range communication system like BlueTooth or much simpler specialised communications. They tend to be very adaptable - and may even combine for some tasks.
 
-In this capacity - they may approach a problem combined - and split off when necessary. One Cluster may have separate bot components for different sensors and end-affectors. They may even have one bot specifically for uplink communications(others just operate short range), one for power management - where each other bot has a short life rechargeable lightweight battery - and this bot is basically a regulator + battery.
+In this capacity - they may approach a problem combined - and split off when necessary. One Cluster may have separate bot components for different sensors and end-effectors. They may even have one bot specifically for uplink communications(others just operate short range), one for power management - where each other bot has a short life rechargeable lightweight battery - and this bot is basically a regulator + battery.
 
 By far I find clusterbots one of the most interesting kinds of robots.
 

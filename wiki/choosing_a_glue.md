@@ -4,12 +4,13 @@ title: Choosing A Glue
 tags: [robotics]
 date: 2008-03-18 20:56:36
 ---
-# Using the correct glue
+## Using the correct glue
+
 When using glues make sure you are using the right glue for the right materials. Otherwise you can guarantee weak joints, or worse still a glue that actually damages the parts you are glueing. Some glues are designed to work as solvents- which is part of the way they bond.
 
 Some glues may react in a negative way with some substances, damaging the job, and giving off very poisonous fumes.
 
-# Safety
+## Safety
 
 This is the boring bit. Be assured that glues when used properly are safe, but there are precautions a builder should take and things they should be aware of when using glues. Please make sure you read the [Robot Building Safety](/wiki/robot_building_safety.html "Building robots can be dangerous - tips to help your safety") guide.
 
@@ -27,7 +28,7 @@ As with all building jobs, do not wear your best clothes. It is better to wear a
 
 Make sure you are working in a well lit area, and that you have clamps to hold a glued job in place. If you hold it manually, not only is it likely to slip and make a mess, but you risk getting the glue on your hands (and with most non-PVA glues that is not merely messy but could be dangerous), and also aching joints after trying to hold the same pressure in the same position for 20 minutes - something your body is just not good for.
 
-# Instructions
+## Instructions
 
 It is worth reading usage instructions - most glues advise cleaning the surface first. Some advise making sure the surface is flat, and others making sure the surface is rough.
 
@@ -35,9 +36,9 @@ The instructions packaged in a glue should detail any special safety measures yo
 
 Some glues are two-parters, some become active in other ways. Make sure you know these details before buying the glue and compare them with others.
 
-# Glue types
+## Glue types
 
-## Superglue
+### Superglue
 
 Superglue is a bit of a jack of all trades, but sometimes getting a specific glue for the purpose may give a better joint.
 
@@ -45,9 +46,7 @@ It holds much stronger that hot-glue, and does not require a gun. Much like poly
 
 It can glue ceramics, plastics, metals, wood, card and paper. It should be noted that they are solvents and can therefore scar materials.
 
-## PVA
-
-
+### PVA
 
 PVA is a very versatile glue, and should be the glue of choice for papers, cards, plaster, fabric (although it may not be washed) and thin wood. Be aware that it can contract quite a lot when drying - and dries transparently. As long a surface is relatively clean - you will have few problems with this. These are the safest glues- and they are fairly harmless to the skin and have little fumes. They are the safest glues when working with children. This is the glue most people would have used as a child at school, because of its properties and ease of use.
 
@@ -55,7 +54,7 @@ It is still better not to have contact with skin, and to use proper spreaders wi
 
 It does not make a very strong joint, and is easily peeled or pulled away. It can be used with some plastics and other materials safely - but again, it is just too weak to be used outside of paper/card models.
 
-## Poly cement
+### Poly cement
 
 Poly Cement is only really useful on Plastics and not all of them at that. This is really a little trial and error. As poly cement actually melts the plastic - it can have devastating effects on metals and softer plastics. Generally you need to clean the plastic well before applying it.
 
@@ -65,7 +64,7 @@ It does have fumes, and should be used in a well ventilated area. Contact with s
 
 When dried on skin it takes an almost ceramic quality and should really, really be avoided.
 
-# Two part Epoxy
+## Two part Epoxy
 
 Two Part epoxy glues normally consist of a glue, and a setting agent which need to be mixed and spread evenly as they are applied.
 
@@ -83,7 +82,7 @@ Beware - get this on your hands and you could have very serious burns. It can be
 
 Make sure you have a decent gun, and be aware that there are different types of glue sticks for better bonding on specific materials. A general purpose all rounder for the quick and easy.
 
-# Summary
+## Summary
 
 In brief the important points:
 
@@ -94,6 +93,6 @@ In brief the important points:
 - Clean the surfaces to be glued.
 - Use a clamp or something to hold glued parts together
 
-# Links
+## Links
 
 [Building Tips](/wiki/building_tips.html "Hints and helpers for actually building robots, and other stuff.")

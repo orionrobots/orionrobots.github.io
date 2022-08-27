@@ -1,12 +1,10 @@
 ---
 layout: page
-title: API
+title: API - Application Programming Interface
 tags: [programming]
 date: 2006-05-30 23:42:09
 ---
-Application Programming Interface
-
-An API is generally an interface that a program, utility or library allows a programmer to use to interact with it and its functions.
+An API is an interface that a program, utility or library allows a programmer to use to interact with it and its functions.
 
 They are a common aspect to all modern languages, allowing functionality to be extended by installing new apps/libraries or utilities and the API's which access them.
 

@@ -26,6 +26,6 @@ may be better to swap and choose.
 <iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=GB&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=orionrobots-21&language=en_GB&marketplace=amazon&region=GB&placement=B01B55C2KE&asins=B01B55C2KE&linkId=4bb019cb1f0dfb61a3ec06ea05c3b9e1&show_border=true&link_opens_in_new_window=true"></iframe>
 <iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=GB&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=orionrobots-21&language=en_GB&marketplace=amazon&region=GB&placement=B004SWVRSU&asins=B004SWVRSU&linkId=6cd7c467620d6a607de84aba3b50d908&show_border=true&link_opens_in_new_window=true"></iframe>
 
-We have also recently come across an interesting idea allow the interconnection
+There's an interesting idea that allows the interconnection
 of K Nex and [Lego](/wiki/lego.html "The best known construction toy") called
 Sploids.

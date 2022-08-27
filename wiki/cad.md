@@ -46,8 +46,8 @@ Lego also offer their own application, the designer, which is a bit more intelli
 
 ## Electronic CAD Systems
 
-EDA systems are aimed at electronics, and allow you to design schematics, and possibly even simulate or test them - to make sure they function as expected or find faults before production.  You can even use these to simulate component faults and see how the circuit behaves.  These are known as Schematic Capture or EDA packages.
+EDA systems are aimed at electronics, and allow you to design schematics, and possibly even simulate or test them - to make sure they function as expected or find faults before production. You can even use these to simulate component faults and see how the circuit behaves. These are known as Schematic Capture or EDA packages.
 
-SPICE is a simulation tool only, but projects like gEDA and programs like Multisim offer the full WYSIWIG editor and simulation.  Verilog is a system used both to model behaviour of complex logic devices, and sometimes actually program them - <a href="/wiki/fpga.html" title="Field Programmable Gate Array">FPGAs</a>.   It is a programming language, but you may find visual representations of its behaviour.  One well known implementation is the free Icarus simulator.  Multisim also can be augmented with a verilog simulator.
+SPICE is a simulation tool only, but projects like gEDA and programs like Multisim offer the full WYSIWIG editor and simulation.  Verilog is a system used both to model behaviour of complex logic devices, and sometimes actually program them - <a href="/wiki/fpga.html" title="Field Programmable Gate Array">FPGAs</a>. It is a programming language, but you may find visual representations of its behaviour. One well known implementation is the free Icarus simulator.  Multisim also can be augmented with a verilog simulator.
 
 OrionRobots are currently interested in getting information regarding CAD and EDA systems which can run on the move on phones and tablets. If anyone knows of any EDA or CAD systems that run on one- Please use twitter to let us know.

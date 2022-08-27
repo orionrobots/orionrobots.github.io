@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Carnegie Mellon University
+title: CMU - Carnegie Mellon University
 date: 2007-01-01 18:31:06
 ---
 This University is a private research and education institute established in 1900\. Part of it's name comes from John Carnegie. It has been previously known as Carnegie Technical Schools and Carnegie Institute of Technology.
@@ -11,6 +11,6 @@ They are based in Pittsburgh, Pennsylvania, USA but have other Campus's in Silic
 
 According to their own facts list, their Field Robotics Center created robots that were used to clean up nuclear waste at Three Mile Island, and similar robots were used at Chernobyl.
 
-# Links
+## Links
 
 - [About CMU](http://www.cmu.edu/about/index.shtml)

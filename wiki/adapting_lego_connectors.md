@@ -5,7 +5,7 @@ tags: [electronics]
 ---
 ## Overview
 
-First - please note that this only applies to the "Stud" style connector, and not the old train 3-pin connector or the new RJ style connectors used on the [NXT](/wiki/nxt.html "Legos NeXT generation robotics kit"). It is expected that the RJ connectors may be orderable, and simply crimped.
+First - please note that this only applies to the "Stud" style connector, and not the old train 3-pin connector or the new RJ style connectors used on the [NXT](/wiki/nxt.html "Lego's NeXT generation robotics kit"). It is expected that the RJ connectors may be orderable, and simply crimped.
 
 These stud connectors can be used with Lego motors, sensors, the [RCX](rcx.html) and [Cybermaster](cybermaster.html), as well as the Technic Control Centre and any other Lego part using the stud connector.
 
@@ -27,7 +27,7 @@ The most simple way to hook something into a Lego electronic device (like the Le
 
 ### Tools Required
 
-For finding and selecting tools. please read <a href="/wiki/robot_tools.html" title="Tools that are often required to get started in robot building">Robot Tools</a>
+For finding and selecting tools. please read [Robot Tools](/wiki/robot_tools.html "Tools that are often required to get started in robot building")
 
 * Safety Goggles
 * Wire Cutters
@@ -45,7 +45,7 @@ First, please wear your goggles, and make sure you are doing this on a well lit 
 Select a Lego cable, probably one of the shorter ones will do (since the long ones are less common and pretty useful intact). Cut it roughly in half.
 
 * You may optionally split the two lines a little using the craft knife and cutting mat by pushing it down point first between the cables with the blade parallel to their length, about 20mm from the ends, and pulling it through, away from your body. You must be careful here not to bare the inside of one of the cables.
-* Wrap both sides a little with the electrical tape to be sure there are not any exposed parts in the area you pulled it apart. You should probably put a small band of electrical tape around the neck of the split to prevent it splitting further up. If you are going to be using a connector, this step may be mandatory. 
+* Wrap both sides a little with the electrical tape to be sure there are not any exposed parts in the area you pulled it apart. You should probably put a small band of electrical tape around the neck of the split to prevent it splitting further up. If you are going to be using a connector, this step may be mandatory.
 * Strip 5mm bare on each cable. For safety, try to push the tool away from you, not towards you when you do so.
 * Put a few twists in each bared section.
 * (Optional) Tin the bared wired to keep them from tarnishing and make them easier to connect with other things. Tinning requires a soldering iron and a little solder, make sure you are still wearing goggles, and that you have a soldering stand before doing so, then melt a little solder on the tip of the iron. Clamp the wire into the helping hands, with the end free, then melt a little around the stripped part of the wire, taking care not to touch the tip of the soldering iron to the insulation - which will really smell if melted.

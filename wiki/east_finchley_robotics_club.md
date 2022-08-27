@@ -14,18 +14,18 @@ We met Saturday mornings until April 2005. Members ages were between 7 and 13.
 
 A small selection of Previous Events held in 2004:
 
-# Teamwork Sessions
+## Teamwork Sessions
 
  As the clubs tasks grew more sophisticated, members were encouraged to work in teams. One member was reluctant to join a team but through a 3 week plan came to understand the value of a team.
 
-# CAD experience and automatons
+## CAD experience and automatons
 
  Taking models made at the club and placing them in the CAD system to gain experience with this. Later on in the session, there was an introduction to control through mechanical means - the way automatons perform actions.
 
-# Wheels and Transmission
+## Wheels and Transmission
 
  The group covered wheels, transmission and steering. Builders were challenged to create small vehicles. There was also hold a small tutorial on [CAD](/wiki/cad.html "Computer Aided Design") with [LeoCAD](/wiki/leocad.html "The Open Source Lego CAD System"), getting the builders to select their best creations and put them on the website. Free software was given to members for them to use the CAD system on their own home PC's.
 
-# Structures and Bases
+## Structures and Bases
 
  We ran a set of challenges to teach our members about building stable and relatively strong structures. The session started with a challenge for each member to build a tower - points were awarded for height and surviving the drop test. There was then a theory section, showing how taller and stronger towers could be built, followed by a new building session where much better towers were built.
