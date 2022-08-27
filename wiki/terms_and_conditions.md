@@ -22,7 +22,7 @@ This site is aimed at a wide audience - therefore submission of inappropriate co
 
 Get in touch via twitter using [@orionrobots](https://twitter.com/orionrobots)
 
-# Spam
+## Spam
 
 Spammers will find they are blocked, and will be reported to appropriate authorities if they get through our defences.  WE remind spammers that it is now illegal to spam in the UK, and the CAN-SPAM act of the US equally regulates such unsavoury activities. OrionRobots has not, and will not send any spam or unsolicited mail. If you receive any mail that appears to be from us, please carefully check the headers as the message has most likely been forged. You may use the above contact details to pass it on to us where we may pursue the matter further.
 

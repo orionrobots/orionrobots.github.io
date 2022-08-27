@@ -20,4 +20,4 @@ They were developed at UNL Robotics and are condoned by the AA. The prototypes c
 
 ## Links
 
-<http://www.newscientist.com/news/news.jsp?id=ns99994932>
+<https://www.nbcnews.com/id/wbna4872379>

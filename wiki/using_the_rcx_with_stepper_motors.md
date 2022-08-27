@@ -16,7 +16,7 @@ First a Recap on [Stepper Motors](/wiki/stepper_motors.html "Stepper Motors").
 
 A stepper motor is a multiple coil motor(often 4), which moves a very short distance for each step - corresponding with the coil energised.
 
-![](/galleries/gallery-1-common-images/138-steppermotor.png)
+![Stepper motor schematic](/galleries/gallery-1-common-images/138-steppermotor.png)
 
 The coils normally have a common connection, and multiple signal connections. It is by signalling those in sequence, that you can move the motor. To reverse the motor, you reverse the sequence - "not the polarity".
 
@@ -24,13 +24,13 @@ The coils normally have a common connection, and multiple signal connections. It
 
 To get outputs from the [Lego RCX](/wiki/rcx.html "The Lego RCX") to do this, you need to bear a few things in mind. Check the voltage requirements of the Stepper, because of the control circuitry, and its requirements - you will need an external power supply (9-12v). This supply will need to be constant. We could not really use a sensor port - as although this may be enough for the control circuits, it would not be able to safely deliver the current required by the coils of the stepper. So we may need to use another output port. The problem being that even at full power- it is still PWM, so you will require a smoothing cap, and a voltage regulator for the control circuits.
 
-![](/galleries/gallery-1-common-images/139-shiftregpower.png)
+![Power Regulator](/galleries/gallery-1-common-images/139-shiftregpower.png)
 
 Activating the coils will require a shift register, which allows a roll - or carry operation when shifting, and is reversible - with two clock inputs.
 
 Now the PWM output from the controlling port can be used as a clock pulse for the circuit - but should probably be scaled down to a handle-able voltage of around 5v for the logic inputs - and in such a way that if it is positive it activates one input, and if negative - it activates another. The could be achieved with two transistors - one with a pull-down output, and the other a pull-up output. These outputs then go to the clock lines.
 
-![](/galleries/gallery-1-common-images/140-shiftreginput.png)
+![Signal input from RCX to shift register](/galleries/gallery-1-common-images/140-shiftreginput.png)
 
 The shift register will need to be initially loaded with a one to shift, and the clear line on it should be held low. This will mean it will require a priming method. The method I will go with is that if all the outputs are 0 - then prime it with a 1\. A four input NOR will do this.
 
@@ -38,9 +38,7 @@ The outputs of the shift register should then go to the power transistors, and n
 
 Bringing all together we have the following diagram. It has no component values.
 
-![](/galleries/gallery-1-common-images/141-shiftregall.png)
-
-The shift register IC providing the services we want may not actually exist, but it could be constructed from others fairly simply. When I next update this artical - I will have researched these...
+![RCX to Shift register control for a stepper motor](/galleries/gallery-1-common-images/141-shiftregall.png)
 
 ## Conclusions
 

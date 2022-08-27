@@ -14,7 +14,7 @@ When building machines and robots with Lego, dimension specifications for the st
 
 ## Lego Brick Measurements
 
-![](/galleries/lego-dimensions/lego-dimensions-thumb.jpg)
+![Lego brick dimensions](/galleries/lego-dimensions/lego-dimensions-thumb.jpg)
 
 If you want to put Lego bricks into another cad system (ie FreeCAD/Fusion 360/SolidWorks) - you will find the following helpful along with the formula table below:
 
@@ -33,7 +33,7 @@ Note that the cylinders under a standard 2x2 and 2x4 brick are the same diameter
 
 ## Making Your Own Measurements
 
-Although measurements on the web are useful when making CAD designs or drawings, it's always a smart idea to mae further measurements of your own. You may also want to measure things you'll interface with Lego and 3D printed parts so you understand what margin of error you have. 
+Although measurements on the web are useful when making CAD designs or drawings, it's always a smart idea to mae further measurements of your own. You may also want to measure things you'll interface with Lego and 3D printed parts so you understand what margin of error you have.
 
 An absolutely essential tool for this is a set of digital calipers. They need not be expensive ones, although paying more will give more precision, even a basic set will let you make precise measurements.
 

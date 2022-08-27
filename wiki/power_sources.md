@@ -8,7 +8,7 @@ One ongoing issue with robotics is reducing the size and weight of power
 systems. This is no easy feat - but would eventually allow for smaller
 and more advanced robots.
 
-# Conventional Batteries
+## Conventional Batteries
 
 The basic solution is conventional batteries - usually referred to as
 primary batteries. These are seriously flawed. Firstly - they represent
@@ -20,7 +20,7 @@ most other components.
 [Recycling
 Batteries](/wiki/recycling_batteries.html "Recycling Batteries")
 
-# Rechargeable batteries
+## Rechargeable batteries
 
 There are a number of types of rechargeable batteries. It is worth
 seriously considering the power your robot will need, and safely draw.
@@ -32,7 +32,7 @@ whole I recommend Metal Hydride for most things. Ni-Cad are becoming
 less common - and for good reason as they are fairly harmful to the
 environment.
 
-# Internal Combustion Engine
+## Internal Combustion Engine
 
 An [Internal Combustion
 Engine](/wiki/internal_combustion_engine.html "As used in the common automobile")
@@ -42,21 +42,20 @@ there are alternatives springing up like methanol based engines that fit
 in 1cm square with virtually no pollutants. We will be watching that
 technology as it may prove quite fruitful. There are people who
 consider ICE days numbered by [EV](/wiki/ev.html "Electric Vehicle")
-technology like <http://www.goingreen.com.>
+technology.
 
-# Solar Panels
+## Solar Panels
 
 [Solar Panels](/wiki/solar_panel.html "Solar Panel") are very
 idealistic. Yes they do not need to be changed or refueled, but they do
 not generate a great deal of power- especially in the levels we get in
 the uk. They are fine for [BEAM
-Robots](/wiki/beam_robots.html "Biology, Electronics, Aesthetics and Mechanics")
-- but things much bigger need greater surface areas. They can be still
+Robots](/wiki/beam_robots.html "Biology, Electronics, Aesthetics and Mechanics") - but things much bigger need greater surface areas. They can be still
 quite expensive, and a lot of people point out that they use a lot of
 very harmful chemicals in their construction. on the whole - for smaller
 robots - I prefer them until something better comes along.
 
-# Mains Power
+## Mains Power
 
 Mains DC converters (Wall-Warts) are useful for prototyping, and initial
 testing - if your robot is not mobile - this is a very good solution.
@@ -71,7 +70,7 @@ with the innards unless you really know what you are doing - they have
 big [capacitor](/wiki/capacitor.html "Capacitor")s which can deliver
 fatal shocks from their stored charge.
 
-# The future, and the Fuel Cell
+## The future, and the Fuel Cell
 
 The next big thing in power storage and generation is the [Fuel
 Cell](/wiki/fuel_cell.html "Fuel Cell"). There are already buses in

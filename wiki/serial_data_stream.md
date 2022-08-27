@@ -16,6 +16,6 @@ At the moment, even short range, interchip communication systems are going this 
 
 Remember - with a [Parallel Data Stream](/wiki/parallel_data_stream.html "Parallel Data Stream") system, the fastest the system can run is at the worst of its slowest line. If you are routing eight lines on a PCB - some of the lines will be slightly longer than others due to turning corners, at high speeds this is significant enough to cause severe sync problems.
 
-Serial Servo Controller
+[Serial Servo Controller](/wiki/ssc.html)
 
-Serial Communication On RCX
+[Serial Communication On RCX](/forums/lego_discussion/is_serial_communication_with_rcx_ports_possible.html)

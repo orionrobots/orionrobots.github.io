@@ -25,6 +25,3 @@ It weighs in at 35Kg.
 It can play trumpet by virtue of its advanced hands, and Toyota's unique Lips - which are as versatile as human lips.  As Toyota puts it "Toyota developed artificial lips that move with the same finesse as human lips, which, together with robots hands, enables the robots to play trumpets like humans do."
 
 It also appears that all of the actuators (Servo Motors) are housed in the torso - and wires(like human tendons) are used to transfer the movement to limbs - thus meaning the limbs are much lighter and more flexible.
-
-Movies and more are at <a href="http://www.toyota.co.jp/en/special/robot/index.html" target="_blank">http://www.toyota.co.jp/en/special/robot/index.html</a>
-

@@ -21,8 +21,4 @@ Prosopagnosia is very hard to explain to others, and can often be met with deris
 
 Of course, while AI developers could foreseeably create such a device, the real test would be whether the small number of those with this would actually use them.
 
-## Links on the condition
-
-- [Danny Staple Blog - Prosopagnosia](http://orionrobots.co.uk/blogs/1/46)
-- <http://www.prosopagnosia.com/> - A very good and comprehensive guide on this condition.
-- [BBC Inside Out on Face Blindness](http://www.bbc.co.uk/insideout/london/series10/week9/week9_face_blindness.shtml)
+https://en.wikipedia.org/wiki/Prosopagnosia

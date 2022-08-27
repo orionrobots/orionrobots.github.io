@@ -78,7 +78,3 @@ What can we learn from Sci-Fi?
 - StarFleet - Otherwise known as Dai-X or X-Bomber
 - The Transformers
 - Ro-Bear Berbils - Annoyingly cute robots from Thundercats.
-
-# Links
-
-[Robot 4u - Robot Movies](http://www.robot-4u.com/robotmovies/) - Links to sites about Robot Movies and Films.

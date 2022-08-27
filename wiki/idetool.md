@@ -42,4 +42,3 @@ Most programmers may occasionally turn to simple editors like notepad and vi, bu
 ## Lego Programming
 
 Bricxcc is an open source IDE aimed squarely at developing code for the <a href="/wiki/lego.html" title="The best known construction toy">Lego</a> programmable bricks like the <a href="/wiki/nxt.html" title="Legos NeXT generation robotics kit">NXT</a> and <a href="/wiki/rcx.html" title="The Lego Robot Command Explorer">RCX</a>. SciTE can also be used for this purpose and give satisfactory highlighting.
-

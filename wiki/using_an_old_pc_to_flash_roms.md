@@ -32,8 +32,8 @@ This method could be used for creating low-level boot bios roms for x86 based ro
 
 [TinyBios](http://www.pcengines.ch/tinybios.htm) - Open Source minimal embedded X86 bios code
 
-[Flexibility in ROM: A Stackable Open Source BIOS](http://tools.devchannel.org/devtoolschannel/03/12/08/1758202.shtml?tid=46) - An article reviewing linux base open source bios's
+[Flexibility in ROM: A Stackable Open Source BIOS](https://www.usenix.org/legacy/publications/library/proceedings/usenix03/tech/freenix03/agnew/agnew.pdf) - An article reviewing linux base open source bios's
 
-[BIOS Saviour](http://www.bit-tech.net/review/54) - A review of a bios switching device
+[BIOS Saviour](https://www.bios-mods.com/forum/Thread-SPI-bios-saviour) - A review of a bios switching device
 
 [The Overclocking Store](http://www.theoverclockingstore.co.uk) - A store which had a lot of hardware hacking stuff

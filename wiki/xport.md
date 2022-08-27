@@ -17,6 +17,6 @@ Charmed Labs also sold an <a href="/wiki/ir.html" title="Acronym for Infra Red">
 
 ![Xport robot](/galleries/gallery-1-common-images/114-xportrobot.jpg)
 
-# Links
+## Links
 
 * <a  href="http://charmedlabs.com/" rel="external" target="_blank">http://charmedlabs.com/</a>

@@ -15,5 +15,3 @@ It runs happily on both Linux, and Windows, and simple installers (binaries) can
 It uses [OpenGL](/wiki/opengl.html "The Open Graphics Library") and requires the GTK+ libraries on Linux.
 
 With Windows, there is a shell extension (plug in for the Windows file explorer) which allows you to get information on drawings from a right-click context menu.
-
-There is a relatively active community, and a couple of [mailing lists](http://www.leocad.org/lists.htm) where you can keep on top of its progress.

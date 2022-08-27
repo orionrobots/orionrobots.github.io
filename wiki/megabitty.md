@@ -15,8 +15,7 @@ The AVR it uses is the Atmel Mega8 Microcontroller. It is fairly fast running at
 
 This tiny and powerful device is ideal for getting going with tiny robots, and could be a space saving for a few larger ones too.
 
-# Links
+## Links
 
 - <http://www.bittybot.com/index.php?pageId=MEGAbitty> - Bittybot products - MEGAbitty
-- <http://www.robotmaker.co.uk/MEGAbitty/MEGAbitty_index.htm> - Robotmaker UK - MEGAbitty Controller boards
 - <http://www.bittybot.com/Docs/MEGAbittyProgrammingAndUsageInstructions.pdf> - MEGAbitty programming and usage instructions manual.

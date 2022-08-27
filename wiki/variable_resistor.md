@@ -18,7 +18,7 @@ There are also linear (slider) resistors which you sometimes find on mixing desk
 
 It is probably obvious that in many situations a basic variable resistor requires two connections, an input and an output, however - most of these have three connections. There is one connection to each end of the strip and one to the wiper. If all three connections are used, you have a Potential Divider - this is then when it is known as a potentiometer.
 
-# Water Analogies
+## Water Analogies
 
 The Variable Resistor is most easily compared to a simple tap or valve - when the dial is turned the flow rate of the water is more, or less restricted.
 

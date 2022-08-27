@@ -16,4 +16,4 @@ Solenoid valves are extremely useful, and at the moment fairly hard to get hold 
 
 It is also available as a spare 35327 £9.80. It is about 15 x 20 mm with push on fittings. They charge £2.00 P&P for spares and £5 for kits.
 
-An alternative is [Techno Stuff](http://www.techno-stuff.com/AirSol.htm) who do a brick compatible with a solenoid - but it looks less of a neat solution than the FischerTechnik. At about £25 ($44) the AirSol is more expensive as well.
+An alternative is the Techno Stuff AirSol - which was a brick compatible with a solenoid - but it looks less of a neat solution than the FischerTechnik. At about £25 ($44) the AirSol was more expensive as well.

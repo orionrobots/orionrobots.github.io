@@ -11,5 +11,3 @@ The first place to look is the Serial Port to Control Pad connection. It might b
 We would need to check if it is Pulse Coded IR (used by Sony Remote controls), Space Coded REC-80 (used by Panasonic Remote controls), Shift Coded RC-5 (used by Phillips) or otherwise.
 
 I am still searching the net for it - but have not yet turned anything good up.
-
-<http://cgl.bu.edu/GC/shammi/ir/>

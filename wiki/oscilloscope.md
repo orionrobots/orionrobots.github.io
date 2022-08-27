@@ -4,7 +4,7 @@ title: Oscilloscope
 tags: [electronics]
 date: 2008-11-03 11:13:38
 ---
-![](/galleries/gallery-8-signal-generator-diode-bridge/315-full-wave.jpg)
+![Full sine wave on Oscilloscope screen](/galleries/gallery-8-signal-generator-diode-bridge/315-full-wave.jpg)
 
 In all but the most simple [DC](/wiki/direct_current.html "Direct Current") circuits, the behaviour of the circuit is not merely a straight line. Timing may be everything, and an efficient way to gauge exactly what is going on, for example showing how a particular capacitor is charging and discharging.
 
@@ -12,7 +12,7 @@ A basic oscilloscope is a dot on the screen, and the two axes governing its posi
 
 It is normally the case (though this is an configurable thing) that the horizontal control of the dot is through a signal generator in the oscilloscope, which merely sends the dot from left to right, and then back to the left again - this would actually form a sawtooth wave.
 
-![](/galleries/gallery-1-common-images/318-newtest.gif)
+![Sawtooth wave](/galleries/gallery-1-common-images/318-newtest.gif)
 
 Now if there is no other signal controlling the vertical, you would see a line, or a tracing dot - depending upon the frequency of the control waveform. But once you put an input, you will see the waveform dancing on the line. By adjusting the speed of the dot trace, you are able to "tune in" to the wave form, and most scopes have a "triggering" mechanism which will try to sync up the horizontal trace to the vertical input signal.
 
@@ -71,11 +71,7 @@ All of them may of course be bought new, but as many hobbyists are on a tight bu
 - Homebuilds as above
 - Yard/Garage or car boot sales - If you are lucky you may find an old analog one there.
 - eBay may have any of them, just make sure you check out the seller and see what chance you have of it working when you get it. Try and at least get a guarantee that it will not be DOA.
-- FreeMesa - You may find a free scope locally on freemesa, or be able to place a wanted ad.
-
-[![](http://www.freemesa.org/img.php?b=3&p=146)](http://www.FreeMesa.org/?a=21&p=146&b=3)
-
 - GumTree - This online classifieds may have scopes for sale and you can also place wanted ads.
-- Freecycle - Freecycle is similar, but harder to use than freemesa.
+- Freecycle - Freecycle may have free scopes.
 
 Keep thinking along similar lines, and finding a second user scope is definitely achievable.

@@ -9,4 +9,4 @@ He created the system just as an extension to his interest, and his website has 
 
 He passed away sadly on July 25th, 1997. He will not be forgotten by a great many [Lego](/wiki/lego.html "The best known construction toy") users and contributors.
 
-[![](/galleries/gallery-1-common-images/40-memorial4.png)](http://www.ldraw.org/modules.php?op=modload&name=News&file=article&sid=222)
+[![James Jessiman memorial](/galleries/gallery-1-common-images/40-memorial4.png)](http://www.ldraw.org/modules.php?op=modload&name=News&file=article&sid=222)

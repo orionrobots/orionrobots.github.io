@@ -8,7 +8,7 @@ Resistor are designed to Resist current. That is they limit flow. They are one o
 
 They come in a few forms - the most common being a small cylinder in shades of brown or blue with a set of coloured bands and two wires sticking out.
 
-![](/galleries/gallery-1-common-images/217-resistor-1.jpg)
+![A resistor](/galleries/gallery-1-common-images/217-resistor-1.jpg)
 
 You may find some in larger sealed packages with the value printed on them.
 

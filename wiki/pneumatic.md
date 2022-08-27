@@ -14,6 +14,6 @@ It is possible to build fully automated systems with pneumatic components, which
 
 A good alternative for larger scale applications is [Hydraulic](/wiki/hydraulic.html "Hydraulic") systems.
 
-# Links
+## Links
 
 - <http://en.wikipedia.org/wiki/Lego_pneumatics> - Wikipedia Lego Pneumatics entry

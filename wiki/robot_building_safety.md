@@ -26,9 +26,7 @@ date: 2007-12-30 23:01:42
 <div style=" float: right;"><img class="img-responsive" src="/galleries/gallery-1-common-images/255-safetyguidedonots.jpg">
 How not to build safely</div>
 
-Always ensure you have the correct safety equipment, as well as ample room and space to work. The best space to work in is a well lit, non-cluttered and stable desk, with plenty of elbow room, a easily reachable power strip, two adjustable light sources, and preferably room to properly mount clamps/vices. 
-
-
+Always ensure you have the correct safety equipment, as well as ample room and space to work. The best space to work in is a well lit, non-cluttered and stable desk, with plenty of elbow room, a easily reachable power strip, two adjustable light sources, and preferably room to properly mount clamps/vices.
 
 ## Use the right tool for the job
 

@@ -25,6 +25,4 @@ Mendel's research reflected his personality. Once he crossed peas and mice of di
 
 Gregor Mendel was born in Heinzendorf, Austria on July 22, 1822. He died in Brno, Austria January 6, 1884. mendel's first presentation was on his eight years of experimentation with artificial plant hybridization. During his studies he became a member of the Zoologist-botanisher Vernin in Vienna. His first two communications were published in 1853 to 1854. Both articles contained information about damage to plants by insects. Between 1856 to 1863 Mendel cultivated and tested almost 28,000 plants.
 
-More info : [Gregor Mendel](http://www.mcn.org/c/irapilgrim/menhome.html)
-
 [MendelWeb](http://www.mendelweb.org/)

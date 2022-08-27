@@ -15,5 +15,5 @@ There is nothing however to stop you using multiple serial lines for high speed 
 
 Newer chips do offer I2C bus communications though - a serial standard.
 
-[Parallel Port](/wiki/parallel_port.html "Parallel Port")<br>
-[Simple Parallel Port LED Board](/2004/11/05/simple_parallel_port_led.html "How to attach and program an LED to the parallel port on a PC")
+- [Parallel Port](/wiki/parallel_port.html "Parallel Port")
+- [Simple Parallel Port LED Board](/2004/11/05/simple_parallel_port_led.html "How to attach and program an LED to the parallel port on a PC")

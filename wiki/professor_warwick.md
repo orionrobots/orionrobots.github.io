@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Professor Warwick
+title: Professor Kevin Warwick
 tags: [robots]
 date: 2005-01-26 23:28:34
 ---

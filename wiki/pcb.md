@@ -55,7 +55,7 @@ They can be designed by hand, and used to be done using transfers - this is rare
 
 Most PCB's are designed using CAD software - which can be a simple drawing application, or a complete electronic design system. These generate files which can be manufactured.
 
-The simplest way to manufacture PCB's now is to send them to one of the many inexpensive board houses, who will manufacture multilayer boards with full soldermask and silkscreen. They will also make sure that any vias, holes and cuts are made - and plated so there is copper through them. Board houses can deal with multiple boards - and do any routing, or VScores to make boards easy to separate from a sheet.
+The simplest way to manufacture PCB's now is to send them to one of the many inexpensive board houses, who will manufacture multilayer boards with full solder mask and silkscreen. They will also make sure that any vias, holes and cuts are made - and plated so there is copper through them. Board houses can deal with multiple boards - and do any routing, or VScores to make boards easy to separate from a sheet.
 
 However, PCB's can also be manufactured by a hobbyist in their own workshop. The process involves a resist and an etching fluid. PCB's clad in copper are given a resist layer to show where they will not be etched, then bathed in the etching fluid.
 

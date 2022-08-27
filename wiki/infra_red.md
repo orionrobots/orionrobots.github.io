@@ -18,7 +18,6 @@ Your TV remote definitely uses this system as do [Lego RCX](/wiki/rcx.html "The 
 
 Because of the range of IR wavelengths - it is not always possible for one programmable IR device to communicate with another - this would be like having two radios tuned to different frequencies and expecting them to talk. However some newer PDA's now have the ability to actually use both CIR and IRDA allowing them to be used as complex remote controls, or to control the [Lego](/wiki/lego.html "The best known construction toy") P-Bricks.
 
-
 One thing to be aware of when using InfraRed for communications is that a lot of items generate it, and therefore your application may be susceptible to interference. Sunlight, fluorescent lights as well as consumer remotes can and will interfere with [Lego](/wiki/lego.html "The best known construction toy") devices, and also impede the operation of IRDA communications. Also, IR is limited as a communication system by line of sight-if two transceivers are in different rooms - you need to consider something like [WiFi](/wiki/wifi.html "Wireless Lan") or [BlueTooth](/wiki/bluetooth.html "Bluetooth").
 
 ## Sensors

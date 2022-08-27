@@ -15,4 +15,3 @@ In fact, early robots - like Shakey, were connected to huge computers via a radi
 These are however susceptible to interference- and without encoding - interception or corruption. While these would present great troubles to a home grown or raw protocol, [Bluetooth](/wiki/bluetooth.html "Bluetooth") and [WiFi](/wiki/wifi.html "Wireless Lan") deal with such problems fairly well.
 
 Beware - noisy motors without suppressor [caps](/wiki/capacitor.html "Capacitor") may seriously degrade signal quality (and therefore range and download speed) quite significantly. If you are intending to sell any robot - you must consider the various RF laws and recommendations. Many bandwidths are pre-allocated, so using the hobbyist 27mhz band is recommended.
-

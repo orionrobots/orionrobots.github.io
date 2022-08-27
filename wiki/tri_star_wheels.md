@@ -8,7 +8,7 @@ date: 2007-03-03 15:29:32
 
 A Tri Star wheel consists of a three spoked wheel, with 3 leaf wheels on the end of each spoke, all powered. This means that at rest, each Tristar wheel is likely to have two leaf wheels in contact with the ground. On flat terrain, the leaf wheels will simply turn, and give simple, and relatively efficient traction. The whole assembly, leaf wheels and star is referred to as a "meta-wheel".
 
-![](/galleries/gallery-1-common-images/430-tristarwheel_plain.png)
+![Tristar wheel diagram](/galleries/gallery-1-common-images/430-tristarwheel_plain.png)
 
 However, once rough terrain is hit, and the leaf wheels cannot turn, then the whole meta-wheel turns, pushing one set of leaf wheels up and over the obstacle. This ability to climb obstacles make TriStar wheels very, very adept at dealing with rough, rocky and uneven terrain. More so than Caterpillar tracks, or simple individually powered wheels with a very flexible suspension (used in the Spirit Mars rovers).
 
@@ -24,7 +24,7 @@ The complexity for Tristar wheels is handled in the mechanical linkage of the le
 
 The mechanical linkage is a set of gears, including slip gears which when powered will drive the leaf wheels until they cannot move and then power will go to turning the metawheel instead - an additional differential may be required to distribute the rotation between the leaf wheels and meta-wheel. The image above (courtesy of [Doug Carlson](https://amzn.to/38tHYRs) demonstrates one possible [Lego](/wiki/lego "The best known construction toy") implementation. Note that the differential gear is used instead of slip gears.
 
-![](/galleries/gallery-1-common-images/433-tri3b_scaled.jpg)
+![Lego Technic tristar wheel vehicle](/galleries/gallery-1-common-images/433-tri3b_scaled.jpg)
 
 This image shows Tristar wheels being used in a complete vehicle. It was also created by Doug Carlson.
 

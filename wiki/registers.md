@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Registers
+title: Microcontroller Registers
 tags: [electronics, programming]
 date: 2005-10-03 14:39:50
 ---

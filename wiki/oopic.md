@@ -8,7 +8,7 @@ OOPic is a mid-2000's brand of [PIC](/wiki/pic.html "PIC") or [Microcontroller](
 
 It is different in that it uses [Object Oriented](/wiki/object_oriented.html "Object Oriented") languages which look a little like VisualBasic/Java or C/C++. Unique to the OOPic is the concept of Virtual Circuits which can allow some behaviours to be specified very briefly.
 
-The OOPic is programmable via a serial or parallel port depending on the board you have. It can perform bit-banged [I2C](/wiki/i2c.html "Inter Integrated Circuit bus") and data serial, as well as DDE. However, serial control or communication is not their strongpoint.
+The OOPic is programmable via a serial or parallel port depending on the board you have. It can perform bit-banged [I2C](/wiki/i2c.html "Inter Integrated Circuit bus") and data serial, as well as DDE. However, serial control or communication is not their strong point.
 
 Servo control definitely is the OOPics forte. The boards generally have PWM ports, although you will need to bring your own H-Bridges. The OOPic is normally packaged with an [eeprom](/wiki/eeprom.html "Electrically Erasable Programmable ROM") which is used to store the user programs, as the PIC chip itself is running the firmware, however, there is not a lot of space for programs and data, or room for expansion on this.
 
@@ -45,15 +45,10 @@ The OOPic requires a windows based computer to compile its code, as the compiler
 
 There is a problem experienced with all OOPics when using the serial port, known as the "Cosmic Wedgie" - this basically means that the board stops responding to the serial port, after downloading and running a program without a delay at the start. The program basically does not give the OOPic firmware a chance to respond. The way out involves plugging the OOPic board into the PC via a parallel port, which holds the reset line while programming it, or starting the board up with the eprom removed, then placing the eprom in after starting.
 
-## Tell us what you think!
+## Tell us what you think
 
 If anyone has any interesting details, caveats, designs or OOPic code then ping me on twitter [@orionrobots](https://twitter.com/orionrobots).
 
 ## More Information and comparisons
 
 For more comparisons with other MicroControllers look at the [microcontrollers roundup](/forums/electronics/preferred_microcontrollers.html) forum thread.
-
-## Links
-
-- [The OOPic Home Page](http://oopic.com)
-- [OOPic Yahoo group](http://groups.yahoo.com/group/oopic) - This includes community discussion of the OOPic as well as additional files to enhance using the OOPic.

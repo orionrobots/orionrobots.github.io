@@ -52,7 +52,7 @@ She was also one of the first people to envisage the use of computers in composi
 #### William Gibson, Bruce Sterling
 
 <iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=GB&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=orionrobots-21&language=en_GB&marketplace=amazon&region=GB&placement=0575600292&asins=0575600292&linkId=2dac1c9c94c900a40c7e21b0ba84d89b&show_border=true&link_opens_in_new_window=true"></iframe>
- 
+
 Although the story is fictional, its references to the Lady Ada, and what could have been are based very much in fact. I must admit to being a William Gibson fan anyway.
 
 ### Ada, the Enchantress of Numbers
@@ -63,58 +63,14 @@ Although the story is fictional, its references to the Lady Ada, and what could 
 
 A Selection from the Letters of Lord Byron's Daughter and Her Description of the First Computer (The Pickering Masters).
 
-### Augusta Ada Byron King, Countess of Lovelace
-
-#### Ashfield District Council
-
-[Augusta Ada Byron King, Countess of Lovelace](http://www.ashfield-dc.gov.uk/see_and_do/churches/ada_lovelace.shtml)
-
-A brief biographical resource with details on visiting local sites related to Ada.
-
-### The Babbage Pages, Augusta Ada Lovelace
-
 #### R A Hyman, University Of Exeter, October 1st 1996
 
 [he Babbage Pages, Augusta Ada Lovelace](http://www.ex.ac.uk/BABBAGE/ada.html)
 
 Brief descriptive passage with some poetic references and factual items.
 
-### Augusta Ada King, countess of Lovelace
-
-#### J J O'Connor and E F Robertson, University of St Andrews, Scotland, August 2002
-
-[Augusta Ada King, countess of Lovelace](http://www-gap.dcs.st-and.ac.uk/~history/Mathematicians/Lovelace.html)
-
-This has many biographical facts and figures, as well as quoted notes and memoires.
-
-### Amazing Ada
-
-#### Sarah Davies, 2003
-
-[Amazing Ada](http://home.clara.net/brillbabbage/ada.htm)
-
 ### Ada Byron, Lady Lovelace (1815-1852)
 
 #### Yale School of Computer Science, Contributed by Betty A. Toole
 
 [Ada Byron, Lady Lovelace (1815-1852)](http://www.cs.yale.edu/homes/tap/Files/ada-bio.html)
-
-### Ada Byron, Countess of Lovelace
-
-#### San Diego Supercomputer Center, 23 March 1998
-
-[Ada Byron, Countess of Lovelace](http://www.sdsc.edu/ScienceWomen/lovelace.html)
-
-### ADA BYRON LOVELACE, The First Computer Programmer
-
-#### Aims Education Foundation, 1993
-
-[ADA BYRON LOVELACE, The First Computer Programmer](http://www.aimsedu.org/Math_History/Samples/ADA/Ada.html)
-
-This is perhaps a more kid friendly brief version of the Countess' history.
-
-### Ada Lovelace
-
-#### Damon Whittenburg, University of West Georgia, April 25, 2000
-
-[Ada Lovelace](http://www.cs.westga.edu/gallery/daemon.htm)

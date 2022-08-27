@@ -6,7 +6,7 @@ date: 2008-07-07 19:02:05
 ---
 A big problem with building stuff like robots is that the builders may end up with many parts and components. This is true if scratch building, using [Construction Toys](/wiki/construction_toy.html "Construction Toy") like [Lego](/wiki/lego.html "The best known construction toy"), or building from junk.
 
-# Salvaging storage - on the cheap
+## Salvaging storage - on the cheap
 
 Anywhere you look around, you can find storage. It is possible to spend big bucks on storage systems, but that is only necessary if you want the "perfect system". If you already have shelves, you have a good start. Finding containers is easy.
 

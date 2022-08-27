@@ -11,15 +11,16 @@ They normally have many inputs and outputs which can be interfaced directly with
 
 They are sometimes used with [BEAM](/wiki/beam_robots.html "Biology, Electronics, Aesthetics and Mechanics") or other semi-intelligent robot chassis for [Horse And Rider](/wiki/horse_and_rider.html "One system takes high-level control of a lower level system") techniques.
 
-# Common Controllers
+## Common Controllers
 
-* Arduino - A common brand of controller boards & environments based around the AVR's.
+* Raspberry Pi Pico/RP2040 - an ARM based microcontroller with great IO, perfect for hobbyists to build with.
+* Arduino - A common brand of controller boards & environments based around the AVRs.
+* esp8266 - This controller offers wifi on a capable 32 bit espressif controller. Programmable in C, Python and Lua.
 * AVR -     The underlying technology behind the Arduino - the ATTiny series are great for cheap and small embedding.
 * 8051 -    A classic controller
 * ARM Cortex devices
-* Raspberry Pi - These are extremely capable arm based computers, but are used in hobby robots extensively.
+* Raspberry Pi - These are extremely capable arm based computers, but are used in hobby robots extensively - running Linux, more of a computer than Microcontroller.
 * Beaglebone - when you need more raw power than the Pi these are suitable, but more pricey.
-* esp8266 - This controller offers wifi on a capable 32 bit espressif controller. Programmable in C, Python and Lua.
 * Microbit - An education aimed board that can be used to control robots and make hobby devices with a lively community.
 * esp32   - A new version of the esp8266 with WiFi and Bluetooth capabilities.
 

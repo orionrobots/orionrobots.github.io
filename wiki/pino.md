@@ -30,9 +30,3 @@ This would be a little complex for a single [microcontroller](/wiki/microcontrol
 - [What is open source?](/wiki/open_source.html "Products and packages which are generally free.")
 - [What is an android?](/wiki/android.html "Android")
 - [Pino Toy](/wiki/pino_toy.html "The Pino Toy robot is a fairly large toy") - There is also a small toy designed to look like the copyrighted plastic shell for the PINO platform.
-
-## Links
-
-- <http://www.openpino.org/> - This used to be a main resource site for the PINO, however, the domain has long since gone.
-- <http://www.symbio.jst.go.jp/PINO/> - This site does not always seem to be up. [Cached Version](http://www.google.com/search?q=cache:q3v8uLV5i0EJ:www.symbio.jst.go.jp/PINO/&ct=clnk)
-- [EETimes.com - Pino robot teaches himself to walk, no lie](http://www.eetimes.com/story/OEG20020522S0051)

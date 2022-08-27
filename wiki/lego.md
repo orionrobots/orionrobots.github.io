@@ -49,4 +49,3 @@ The company are believed to be one of the oldest toy makers with plastic injecti
 ## Related Content
 
 * [Construction Toy](/wiki/construction_toy.html)
-

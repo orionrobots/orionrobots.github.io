@@ -56,15 +56,13 @@ While thinking about electronic and mechanical components, never forget the valu
 
 ## Places to find salvage
 
-Garage sales and carboots may have some peoples old electronic junk. If you can get it nice and cheap - you may find all sorts there.
+Garage sales and carboot sales may have some peoples old electronic junk. If you can get it nice and cheap - you may find all sorts there.
 
 At computer fairs, there are often people with a desk filled with various dead parts and modems - which are great to salvage.
 
 eBay sometimes have sales of components, and sales of old junk.
 
 You can also just let your family, and friends know that if they have any of the right kind of electronic junk - hand it to you.
-
-- [British computer Fairs](http://www.britishcomputerfairs.com)
 
 ## Council yards
 

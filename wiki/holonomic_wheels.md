@@ -8,7 +8,7 @@ This a drive, based on 4 omni-wheels, wheels that have 2 [Degrees Of Freedom](/w
 
 This allows for design of a based that can move in the X and Y directions without needing to turn, and also rotate while maintaining a straight line - giving the mobile base a full 3 degrees of freedom.
 
-[Charmed Labs](http://www.charmedlabs.com) actually produce a set of these that can be used with standard [Lego](/wiki/lego.html "The best known construction toy") axles.
+[Charmed Labs](http://www.charmedlabs.com) produce a set of these that can be used with standard [Lego](/wiki/lego.html "The best known construction toy") axles.
 
 I am still researching into who actually developed them - I know there has been more than one attempt to patent them.
 

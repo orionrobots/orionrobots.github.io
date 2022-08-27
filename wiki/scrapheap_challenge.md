@@ -27,7 +27,6 @@ This DVD has the best of the series, and shows top scrap builders doing their ve
 
 ### Behind the Scenes at Scrapheap Challenge
 
-
 <iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=GB&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=orionrobots-21&language=en_GB&marketplace=amazon&region=GB&placement=0752219995&asins=0752219995&linkId=eeed5dddfc43ab2941add708a31bd535&show_border=true&link_opens_in_new_window=true"></iframe>
 
 This book is hilarious, and anyone who has some vague idea of engineering with double with laughter. It is Roberts own take on the whole methodology of bodging. Inspiring, and funny.

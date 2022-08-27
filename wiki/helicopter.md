@@ -9,7 +9,7 @@ A flying vehicle using a vertically(as opposed to horizontally) orientated [Heli
 
 A helicopters rotor is a very specialist propeller, in that each blade can be individually orientated, so that the whole device can be tilted by the action of the propeller. This is achieved via a gimbal driving a swash plate. A swash plate is a fairly complicated bit of engineering.
 
-![](/galleries/gallery-1-common-images/37-swashplate_anim_metal.gif)
+![Swashplate animation](/galleries/gallery-1-common-images/37-swashplate_anim_metal.gif)
 
 Helicopters rarely have real wings, although the rotor blades themselves perform this function, however, they do have appendages that look like wings to mount instruments and devices on.
 

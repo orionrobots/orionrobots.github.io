@@ -12,7 +12,6 @@ These have been the subject of many [SciFi](/wiki/scifi.html "scifi") visions in
 
 - Jake 2.0
 - Stargate has seen a number of nanobots, generally all a bit of a problem
-
   - Nannites - A number of different nanobots were seen in SG1 and Atlantis, mostly acting like infectious diseases and later evolving into humanoid style creatures.
   - The Replicators - Robots created with the simple instruction to build more of themselves. The later version of these were nanobot based.
   - The Asurans - A race which evolved from nannites created to wage war against The Wraith.
@@ -39,6 +38,5 @@ While we are a distance from attaining such technology, as humanity begins to ex
 
 ## Links
 
-- [The Coming Revolution In Molecular Manufacturing](http://www.islandone.org/Foresight/NanoRev/index.html)
 - [The Center for Responsible Nanotechnology](http://crnano.org) - A slightly tongue in cheek reminder of how nanobots could be handy, but must be used responsibly.
 - [Nanobots help kids fight cancer today](https://archive.ieet.org/articles/hughes20060417.html) - How the computer game Re-Mission helps child cancer sufferers gain hope during treatments.

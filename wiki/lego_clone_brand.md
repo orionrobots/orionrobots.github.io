@@ -28,4 +28,3 @@ Finally, there are also the knock offs. MegaBloks, Oxford and some of the other 
 ## Links
 
 - <http://festum.de/1000steine/myimages/album53> - Website comparing clone brands. In German.
-

@@ -4,9 +4,7 @@ title: Sumpthing
 tags: [robot wars, robots]
 date: 2005-09-11 22:53:01
 ---
-Sumpthing is a monstrosity of a [Robot Wars](/wiki/robot_wars.html "The british robot smashing TV series.") competitor which was built almost entirely out of scavenged automobile scrap.
-
-It has come from the darkest depths of [Team Tetanus](http://www.teamtetanus.com) and The [Lo-Tek Alliance](http://uk.geocities.com/sumphq/TeKsNSpecs.html)
+Sumpthing was a monstrosity of a [Robot Wars](/wiki/robot_wars.html "The british robot smashing TV series.") competitor which was built almost entirely out of scavenged automobile scrap. It has come from the darkest depths of Team Tetanus and The Lo-Tek Alliance.
 
 It threw out many ideas of complex and highly technical robots for a very simple, yet functional bot with great features and an uncanny robustness.
 

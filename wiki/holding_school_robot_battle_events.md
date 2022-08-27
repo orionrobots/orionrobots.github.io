@@ -19,8 +19,6 @@ Rules should be drawn up beforehand, and agreed with the class. The teacher shou
 
 Rules should cover the following bases:
 
-
-
 - Basic safety rules
 - Disqualifications and disputes
 - Winning the match - requirements

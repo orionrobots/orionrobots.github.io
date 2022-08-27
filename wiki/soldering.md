@@ -22,7 +22,7 @@ Flux is a resinous substance used to clean contaminants and oxidants from a surf
 
 5 core solder, which carries 5 veins of flux, is quite common for hobbyist electronic solder, and is easily available from stores like [Maplin](/wiki/maplin.html "Maplin").
 
-# Safety and tools
+## Safety and tools
 
 Please read [robot building safety](/wiki/robot_building_safety.html "Building robots can be dangerous - tips to help your safety") before learning to solder. With the heated element in a soldering iron, it is very, very easy to damage yourself, your property and the robot as well. It should be treated with all the care one would treat a very sharpened knife.
 
@@ -54,7 +54,7 @@ There are a few clamps, like a [PCB](/wiki/pcb.html "Printed Circuit Board") vic
 
 Soldering produces fumes, which should be regarded as quite unpleasant and unhealthy. An open window is definitely a good plan, but an extractor of some sort is often advisable.
 
-Danny Staple has [built a simple extractor](/blogs/1/37) using some common PC parts, but is yet to write it up properly. It need not be an expensive industrial fan, but something to pull away the fumes.
+Danny Staple has built a simple extractor using some common PC parts, but is yet to write it up properly. It need not be an expensive industrial fan, but something to pull away the fumes.
 
 ### Stand
 
@@ -98,11 +98,11 @@ Some inexpensive side cutters should be used to trim down components leads after
 
 This can save your desk from scorch marks, and further reduces the risk of fire. These are often simple fire retardant mats which possibly conduct away heat.
 
-# Links
+## Links
 
 - [Instructables: How to solder](http://www.instructables.com/group/solder/) - The fantastic creative website Instructables has collected a number of tips on soldering.
 
-## Some Recommendations
+## Recommendations
 
 If you are soldering safety of your eyes should be your first priority. These are relatively inexpensive(less than a tenner), but being a good brand, are comfortable and hard wearing.  Uncomfortable and easily broken goggles will just not be worn- which means your eyes will be in danger again.
 
@@ -112,8 +112,7 @@ If you are going to invest in soldering equipment - you should make sure you hav
 
 <iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=GB&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=orionrobots-21&language=en_GB&marketplace=amazon&region=GB&placement=B0001K9RAS&asins=B0001K9RAS&linkId=8b7a7c989ef009a5678554e57092f489&show_border=true&link_opens_in_new_window=true"></iframe>
 
-
-These days, temperature controlled soldering irons are inexpensive. This is a good way to have the temperatures needed for different solder jobs.
+Temperature controlled soldering irons are inexpensive. This is a good way to have the temperatures needed for different solder jobs.
 
 <iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=GB&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=orionrobots-21&language=en_GB&marketplace=amazon&region=GB&placement=B07ZQDLPR8&asins=B07ZQDLPR8&linkId=5962a386804816fa73b44eb2f2e9fc12&show_border=true&link_opens_in_new_window=true"></iframe>
 

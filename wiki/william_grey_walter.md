@@ -8,7 +8,7 @@ William Grey Walter built one of the first robotic turtles in the 1940s.
 
 He was born Missouri on the 19th Feb, 1910 and grew up in England. As a Cambridge student and one of the most distinguished neurophysiologists of his day, he was responsible for the electroencephalograph; a machine which measures brain waves. With the machine he was able to study different patterns from the brain - for example those which indicated when a person is learning.
 
-His studies brought him to creating robots as simple artificial brains to study behaviour. The AI he created was a small mobile robot with a plastic shell - which acted as a bump sensor. It was phototropic - it could follow light. It was nicknamed the tortoise or turtle - because of its plastic shell - giving the appearance, and because of the explanation of mock-turtle in [Alice in Wonderland](http://www.amazon.co.uk/exec/obidos/ASIN/1552977544/orionrobots-21) - "We called him tortoise because he taught us". Walter expected to learn a lot from his machines.
+His studies brought him to creating robots as simple artificial brains to study behaviour. The AI he created was a small mobile robot with a plastic shell - which acted as a bump sensor. It was phototropic - it could follow light. It was nicknamed the tortoise or turtle - because of its plastic shell - giving the appearance, and because of the explanation of mock-turtle in [Alice in Wonderland](https://amzn.to/3QTqRvL) - "We called him tortoise because he taught us". Walter expected to learn a lot from his machines.
 
 Walters work inspired [Rodney Brooks](/wiki/rodney_brooks.html "Rodney Brooks") through his attempts to give his machine a basic artificial awareness, and gave them a genus species zoological name of [Machina Speculatrix](/wiki/machina_speculatrix.html "Early robots built by a pioneer") literally meaning the machine that watches. The simple stimuli-response mechanism of the robot emulated many real creatures. As Walter put it himself - "it explores its environment actively, persistently, systematically, as most animals do".
 
@@ -18,12 +18,12 @@ Unfortunately, Walter was injured in car accident in 1970, he never fully recove
 
 Walter gave his robots individual names- the first two were Elmer and Elsie, who were sadly cannibalised to create a further 6 tortoises with the aid of his colleague "Bunny" Warren.
 
-# More Information
+## More Information
 
 * [Wikipedia - William Grey Walter](https://en.wikipedia.org/wiki/William_Grey_Walter)
 * [Bristol University - Grey Walter and his tortoises](http://www.bristol.ac.uk/news/2008/212017945378.html)
 
-# Bibliography
+## Bibliography
 
 <table class="normal" id="fancytable_1"> 
 

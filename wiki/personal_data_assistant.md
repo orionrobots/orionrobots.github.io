@@ -24,4 +24,3 @@ There were efforts to port Linux on them - variants of embedded Linux and ucLinu
     The book pictured here includes specifications, beginner guides and is fairly easy to read. It Also has enough information for an experienced builder not to find it a waste of time.
     </div>
 </div>
-

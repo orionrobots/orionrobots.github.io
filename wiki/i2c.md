@@ -23,7 +23,3 @@ Older devices used 7 bit addressing, but the 10 bit and seven bit devices may be
 It has a 10 bit address space of 1024, allowing for many devices. A cable maximum length of around 500mm is suggested as a maximum without serious shielding or repeaters, as at this point the noise may make the line unusable.
 
 One interesting use of this in robotics is for nearly-intelligent sensors. With a 10 bit address space of 1024, a microcontroller with an I2C port could be interfaced with very cheap devices like I2C ADC's - therefore allow sensor inputs to be placed on a bus. This does away with having 20 separate sensor ports and all of the usual worries of sensor multiplexing. Since in many applications sensors are polled - then this would be a great way to do things. The alternative of event driven applications would give sensors the ability to transmit on the bus when it is free and the controller listening would then call any event code it may have.
-
-## Links
-
-- [Full I2C Specification PDF](http://www.semiconductors.philips.com/acrobat/literature/9398/39340011.pdf)

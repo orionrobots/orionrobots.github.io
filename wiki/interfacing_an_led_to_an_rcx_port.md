@@ -12,21 +12,21 @@ Before building anything, please ensure you (and in the case of younger readers,
 
 First you need to think through the electronic theory of it. We will assume that we are using one of the output ports on the devices. These output a [PWM](/wiki/pwm.html "Pulse Width Modulation") signal, which will be up to around 9 volts. 9v is somewhat excessive for an [LED](/wiki/led.html "Light Emitting Diode"), but considering the current is fairly low, limiting it further with a resistor should give us safe operation. If we do not want the [LED](/wiki/led.html "Light Emitting Diode") to flicker (this may be imperceptible - but might interfere with [IR](/wiki/infra_red.html "A type of EM radiation commonly used for digital communications") communications), we should probably have a capacitor to bridge the gaps in the duty cycle of the [PWM](/wiki/pwm.html "Pulse Width Modulation") output.
 
-![](/galleries/gallery-1-common-images/147-rcxled1.png)
+![RCX LED schematic diagram](/galleries/gallery-1-common-images/147-rcxled1.png)
 
 Now here you can make a design decision. You can either design it so you are using one [LED](/wiki/led.html "Light Emitting Diode") which will light regardless fo which ay it is connected, or so you can have two [LED's](/wiki/led.html "Light Emitting Diode") so you get a different colour depending on polarity.
 
 If you went with the first decision, you can build a diode bridge- to rectify the current before it goes into the capacitor. This will then give you the same direction of current into the LED regardless of how it is connected.
 
-![](/galleries/gallery-1-common-images/148-rcxled2.png)
+![RCX to LED Schematic with diode rectifier bridge](/galleries/gallery-1-common-images/148-rcxled2.png)
 
 The second is simpler, with one caveat. You could simply build it with the two opposing LED's in parallel and a capacitor across them to smooth it, but their may be an issue that the capacitor will then be working in a reversed polarity for the other LED.
 
-![](/galleries/gallery-1-common-images/149-rcxled3.png)
+![Lego RCX to two coloured LED schematic diagram](/galleries/gallery-1-common-images/149-rcxled3.png)
 
 This is not a problem for smaller disc capacitors, but for larger tantalum and electrolytic - this would be a problem. What we can do to stop this problem, is introduce an additional 2 diodes, and another capacitor.
 
-![](/galleries/gallery-1-common-images/150-rcxled4.png)
+![Lego RCX to coloured LEDs with persistence of vision capacitors](/galleries/gallery-1-common-images/150-rcxled4.png)
 
 This means that each capacitor is only working in one direction across the LED.
 

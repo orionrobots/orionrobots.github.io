@@ -15,7 +15,7 @@ It uses a pendulum based propulsion method - where the weight of the pendulum su
 
 The current version does not have enough power to deal with slopes very well - but expect later versions to do so. The spherical design means it is less likely to get stuck as some angular robots are prone to. However - like The Daleks, it has some trouble climbing stairs.
 
-From the pictures on the infosheet it appears to be around the size of a large bowling ball - and probably none too light. Given the way it can propel itself - this would make it very hard for an intruder to try and lift it, or interfere with it. The way Rotundus is constructed presents no external moving parts, and to be very airtight. Being airtight makes the robot great for sand and water.
+From the pictures on the datasheet it appears to be around the size of a large bowling ball - and probably none too light. Given the way it can propel itself - this would make it very hard for an intruder to try and lift it, or interfere with it. The way Rotundus is constructed presents no external moving parts, and to be very airtight. Being airtight makes the robot great for sand and water.
 
 The Swedish Rotundus company has commercialised the robot for Security usage.
 

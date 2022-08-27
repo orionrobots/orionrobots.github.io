@@ -12,4 +12,4 @@ This android) is very much designed for human interactivity - and although expen
 
 But don't take our word for it - see it yourself: <https://www.youtube.com/watch?v=bllJXLpNecg>
 
-![](/galleries/gallery-1-common-images/67-qrio1.jpg)
+![The Sony QRIO robot](/galleries/gallery-1-common-images/67-qrio1.jpg)
