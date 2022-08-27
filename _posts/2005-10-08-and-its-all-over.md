@@ -12,6 +12,6 @@ Its excellent that somebody has won it, and hopefully we will see the event agai
 
 With their vehicle, Stanley, based upon a Volkswagen Touareg, they took the race in 7 hours and 28 minutes. Not bad considering how much of a challenge the 212 Km course is, and the best attempts last year barely made it off the start line.
 
-<em>Stanley</em>, the vehicle in question had already shown its mettle when it managed to drive 200 miles unaided in the Arizona desert in testing. And considering they were a newcomer, its a fantastic result.
- 
+_Stanley_, the vehicle in question had already shown its mettle when it managed to drive 200 miles unaided in the Arizona desert in testing. And considering they were a newcomer, its a fantastic result.
+
 Well congratulations to them!

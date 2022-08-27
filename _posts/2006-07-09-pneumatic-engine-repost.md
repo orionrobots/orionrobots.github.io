@@ -21,7 +21,6 @@ Sadly, it has long been disassembled for parts, however, the LDraw CAD file rema
 ## Links
 
 * [LDraw CAD File for Pneumatic Engine](/assets/downloads/PneumaticEngineLSynth.mpd) - Download this for full building instructions. All unofficial LDraw files are now embedded in the file which is a multipart DAT.
-* [Timothy Smith - Easter Spring Chicken MOCs](http://www.maj.com/cgi-bin/gallery.cgi?f=109611) - A rather cute pneumatic toy based upon a system not unlike this.
 * [LSynth](/wiki/lsynth "LSynth")
 * [pneumatic](/wiki/pneumatic.html "Use of air to operate and power actuators")
 

@@ -27,7 +27,7 @@ There is a selection of [GBC events](https://www.greatballcontraption.com/events
 
 Overall, its a well presented site, and it is growing. It is about time there was a dedicated site to feed its obsession as opposed to it merely being an interesting niche corner in Lego robotics.
 
-# Links
+## Links
 
 * <http://www.greatballcontraption.com> - All about the GBC
 * <http://news.lugnet.com/robotics> - Lugnet discussion group where GBC is currently discussed

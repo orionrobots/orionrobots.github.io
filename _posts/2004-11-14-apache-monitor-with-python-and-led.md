@@ -95,5 +95,3 @@ Finally - we turn off the LED. Because this is still indented, the program will 
         p.setData(0)
 
 The app is not particularly complex - but a more safe stop could be added to stop it exiting with the LED on. I am sure that there are a number of improvements and enhancements, but I had written it as more of a demonstration or proof of concept. Putting a try/except block around the part with the LED perhaps.
-
-Running the program

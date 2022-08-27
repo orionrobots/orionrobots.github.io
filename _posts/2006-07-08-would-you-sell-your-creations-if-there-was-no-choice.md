@@ -5,7 +5,7 @@ tags: [maker, robot building, salvage, scrap, robot]
 ---
 A recent story in the news talked of a homeless Chinese farmer, Wu Yulu, who created robots, and when his house burnt down, he was riddled with debts, and the fantastic machines needed to be sold off.
 
-![](/galleries/2006-07-08-would-you-sell-your-creations-if-there-was-no-choice/wuyulurobot.jpg)
+![Wu Yulu's robot offering a drink](/galleries/2006-07-08-would-you-sell-your-creations-if-there-was-no-choice/wuyulurobot.jpg)
 
 The 25 machines had been built in a way that OrionRobots truly admires, from pure [salvage, junk and scrap](/wiki/salvage_tips "Tips on pulling stuff apart to build robots. How, where and what."). Bits of wire, screws, bent pieces of metal, and other rubbish found at dumps was his main material. Even the batteries were old ones.
 
@@ -17,7 +17,7 @@ His priciest robot was called Number Five (although only coincidental to Johnny 
 
 There is also Number Six (shame his naming conventions aren't as great as the bots themselves!), which is a monkey like robot with magnetic feet.
 
-![](/galleries/2006-07-08-would-you-sell-your-creations-if-there-was-no-choice/Wu-Yulu-and-his-robot-driven-rickshaw.jpg)
+![Wu Yulu's robot driven rickshaw](/galleries/2006-07-08-would-you-sell-your-creations-if-there-was-no-choice/Wu-Yulu-and-his-robot-driven-rickshaw.jpg)
 
 His transportation is every bit as crazy, with an eight legged walking machine capable of carrying two, or the robot pulled rickshaw. Number Eight has flexible fingers, and Wu’s ultimate goal is to build a thinking human like robot. At present these robots are remote controlled.
 
@@ -32,6 +32,7 @@ Wu Yulu is a 44 year old man from Mawu Village in Eastern Beijing. He left schoo
 ## Links
 
 * [Salvage Tips](/wiki/salvage_tips "Tips on pulling stuff apart to build robots. How, where and what.") - OrionRobots Tips on building your own robots from salvaged materials.
-* [One India News - Homeless farmer forced to sell home-made robots](http://news.oneindia.in/2006/07/07/homeless-china-farmer-forced-to-sell-home-made-robots-1152252384.html)
-* [We Make Money Not Art - Meet Mr Wu’s Wonderful Robots](http://we-make-money-not-art.com/archives/2004/11/meet-mr-wus-won.php#.VDWXevldWSo)
+* [At Home With the Man Who's Made Robot 'Children' for 30 Years
+](https://www.vice.com/en/article/aekqwb/at-home-with-the-man-whos-made-robot-children-for-30-years)
+* [We Make Money Not Art - Meet Mr Wu’s Wonderful Robots](https://we-make-money-not-art.com/meet_mr_wus_won/)
 * [The Amazing Robots of Wu Yulu](https://www.atlasobscura.com/places/robots-of-wu-yulu)

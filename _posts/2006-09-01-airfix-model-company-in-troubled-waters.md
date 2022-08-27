@@ -19,4 +19,4 @@ Well its a shame to see them go. However, this may not be the end of the road if
 
 ## Links
 
-* <a href="http://www.theregister.co.uk/2006/08/31/rip_airfix/">The Register - Airfix Crashes and Burns</a>
+- [The Register - Airfix Crashes and Burns](http://www.theregister.co.uk/2006/08/31/rip_airfix/)

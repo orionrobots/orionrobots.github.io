@@ -8,7 +8,7 @@ This challenge is to build a robot capable of taking a deck of cards, shuffling 
 
 One of the first problems is accurately taking one card off the top of a deck - and ensuring its not two or three. The robot will not need to know the value of the cards - but should be able to re-order them in a fairly random manner.
 
-# Scoring
+## Scoring
 
 Points will be awarded for the following:
 
@@ -19,7 +19,7 @@ Points will be awarded for the following:
 * Style - In the case of a tie - points will be awarded for interesting style and innovation.
 * When dealing cards - A user must be able to request X cards dealt from the top of the deck, and this number of cards must be dealt(no more or less). Speed is the main point winner here. Interfaces may simply be a button press per card, or a keypad with enter button - or go as far as speech recognition! The method of interaction here will go into the style category - as it is less important than the MechaTronics of manipulating the cards themselves - but we still encourage innovation here.
 
-# Other Notes
+## Other Notes
 
 A competitor may use whatever materials they wish - barring off the shelf card machines. <a href="/wiki/lego.html" title="The best known construction toy">Lego</a> is a good starting point for this.
 
@@ -31,7 +31,7 @@ We will be using standard playing cards for the challenge - so build your robot 
 
 <a href="/wiki/east_finchley_robotics_club.html" title="East Finchley Robotics Club">East Finchley Robotics Club</a>
 
-# Whats the point?
+## What's the point?
 
 At OrionRobots our main goals are to encourage innovation and contact between local robot builders, a challenge does this, while getting you to start exploring and pushing technical knowledge. Following the challenge - we have a good excuse to sit down over a game of cards and discuss robotics.
 

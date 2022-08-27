@@ -22,4 +22,4 @@ But isolating trust like that also implies how yet another human emotion is base
 ## Links
 
 * [More information on Prosopagnosia](/wiki/prosopagnosia "A human disability to see faces")
-* [World Science - How the "trust hormone" works](https://web.archive.org/web/20170922083418/http://www.world-science.net/othernews/051208_trustfrm.htm)
+* [The Neurobiology of Trust](https://www.scientificamerican.com/article/the-neurobiology-of-trust/)

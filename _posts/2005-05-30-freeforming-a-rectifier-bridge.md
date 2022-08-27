@@ -10,7 +10,7 @@ gal: /galleries/gallery-8-signal-generator-diode-bridge/
 
 ![Clear waveform]({{page.gal}}/314-clear-result.jpg){: .img-responsive .center-block}
 
-The diode bridge has been an essential part of making active sensors for the Lego Mindstorms RCX. It is also known as a full-wave rectifier as it will rectify AC current into DC, or (as in the case of the Lego connector), allow something to be connected at either polarity, even with fairly complicated circuitry. It does come with a minro disadvantage in that the voltage is dropped a little across each diode, and where possible, a mechanical means to guarantee polarity may be better.
+The diode bridge has been an essential part of making active sensors for the Lego Mindstorms RCX. It is also known as a full-wave rectifier as it will rectify AC current into DC, or (as in the case of the Lego connector), allow something to be connected at either polarity, even with fairly complicated circuitry. It does come with a minor disadvantage in that the voltage is dropped a little across each diode, and where possible, a mechanical means to guarantee polarity may be better.
 
 This can take up some space, and so freeforming it is an interesting way to save some. THis is also a fairly simple introduction to the concept of freeforming circuit blocks and can be used for other circuits with some imagination and thought. It requires no PCB, or veroboard, mostly just the components and a good iron. The full tool list is below - but it is fairly minimal.
 
@@ -18,7 +18,7 @@ The intention was to make one small enough to fit in a Lego brick, so it can be 
 
 Before connecting anything to an RCX, or any other system, be sure to test it. I'll discuss a few different methods of testing the module below.
 
-# What is the diode bridge?
+## What is the diode bridge?
 
 This circuit rectifies a waveform oscillating around 0 such that it is now oscillating above zero. It does so by using diodes - which allow current to flow in only one direction. These are set up in a group such that in the output from this one pin is always negative, and another is positive.
 
@@ -29,25 +29,25 @@ I do not have a dual trace oscilloscope, so this was the only way to do it.
 
 I note that the calibration of the scope has changed between the two measurements - but lets examine the results ignoring that.
 
-There also appears to be a DC offset on the diode outputs - not sure about that, given that I took it off the sinewave, however I can reason that it is shorter due to the 1.2 volts or so used by the bridge itself. The fact that the peaks are symmetrical shows that it is balanced and stable. 
+There also appears to be a DC offset on the diode outputs - not sure about that, given that I took it off the sine wave, however I can reason that it is shorter due to the 1.2 volts or so used by the bridge itself. The fact that the peaks are symmetrical shows that it is balanced and stable.
 
-In fact - if there was a DC offset on the input waveform, there would be two different sets of peaks - so it may merely be down to the dial on the oscilloscope. Any other explainations you could offer?
+In fact - if there was a DC offset on the input waveform, there would be two different sets of peaks - so it may merely be down to the dial on the oscilloscope. Any other explanations you could offer?
 
 If you look at the scope output - with the input wave and the converted wave superimposed (done later with a graphics program, and try to ignore the phase here), you will see that peaks and troughs both become peaks on the output waveform. It is worth noting that the diodes do also have a voltage drop across them, so the peaks of the output are less than the peaks of the input.
 
 This circuit is most commonly used when converting an AC source to a DC source, and then with a smoothing cap to change that sawtooth like waveform into a smoother line waveform.
 
-![]({{page.gal}}/609-bridge-schematic.png){: .img-responsive .center-block}
+![Bridge Rectifier schematic]({{page.gal}}/609-bridge-schematic.png){: .img-responsive .center-block}
 
 In the context of the RCX, where the pads for connecting sensors and outputs are not polarised, the output may be connected in any orientation, so this also safely ensures that the voltage ends up at the right polarity in your circuit. It is your decision in deciding if the space consumption and voltage drop are worth making for the ability to be able to plug in at any orientation.
 
 By freeforming it, as seen below, the space issue can be made much less, although modern electronics stockists now carry a single component which can carry this out.
 
-# Tools You Will Need
+## Tools You Will Need
 
 When you build anything, be sure to do it with the right tools and do it safely. I've tried to keep the tools to the minimum here, but please do make sure you do have the basics.
 
-![]({{page.gal}}/258-workshop.jpg){: .img-responsive .center-block}
+![My workshop for building the freeform rectifier]({{page.gal}}/258-workshop.jpg){: .img-responsive .center-block}
 
 ## Tooling Up Safely - Goggles
 
@@ -69,11 +69,11 @@ Goggles - I know many people hate them, but trust me - after having ended up wit
 * Long nose pliers - you'll need these to make the bends in the wires.
 * A positionable mini-clamp - aka Helping Hands. There is some pretty tricky soldering, so unless you have 3 heatproof hands - this is essential.
 
-<a href="/wiki/robot_building_safety.html" title="Building robots can be dangerous - tips to help your safety">Robot Building Safety</a>
+[Robot Building Safety](/wiki/robot_building_safety.html "Building robots can be dangerous - tips to help your safety")
 
-# How to Freeform it.
+## How to Freeform it
 
-First, choose your diodes. Read <a href="/wiki/diode_bridge.html" title="Diode Bridge">Diode Bridge</a> to ensure that you understand how the circuit works, and that the power rating and electronic characteristics are suitable. All 4 should be identical, and have longish leads. A type suggested are 1 amp 1N4001. These are simple general purpose rectifiers - ideal for this.
+Choose your diodes. Read <a href="/wiki/diode_bridge.html" title="Diode Bridge">Diode Bridge</a> to ensure that you understand how the circuit works, and that the power rating and electronic characteristics are suitable. All 4 should be identical, and have longish leads. A type suggested are 1 amp 1N4001. These are simple general purpose rectifiers - ideal for this.
 
 <center>The four 1N4001 diodes on bandolier tape.</center>
 
@@ -84,7 +84,7 @@ First, choose your diodes. Read <a href="/wiki/diode_bridge.html" title="Diode B
 <div class="clearfix"></div>
 If you can find diodes on bandolier tape, as those produced by Maplin and other electronic component retailers are sold, this will make your life easier later, but it is not essential though.
 
-# Method:
+## Method
 
 Be sure you are wearing your safety goggles for this. I would strongly recommend reading this guide <a href="/wiki/robot_building_safety.html" title="Building robots can be dangerous - tips to help your safety">Robot Building Safety</a>.
 

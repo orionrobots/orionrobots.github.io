@@ -15,6 +15,6 @@ It is just these kind of developments that robotics is spurring and providing in
 
 ## Links
 
-* [Ray Kurzweil: An Oral History Interview](https://www.namm.org/library/oral-history/ray-kurzweil)
-* <a href="http://www.kurzweiltech.com/aboutray.html" >About Ray Kurzweil</a>
-* <a href="http://www.kurzweiltech.com/ktihome.html" >Kurzweil Technologies Home</a>
+- [Ray Kurzweil: An Oral History Interview](https://www.namm.org/library/oral-history/ray-kurzweil)
+- [About Ray Kurzweil](http://www.kurzweiltech.com/aboutray.html)
+- [Kurzweil Technologies Home](http://www.kurzweiltech.com/ktihome.html)

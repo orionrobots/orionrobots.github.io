@@ -16,13 +16,14 @@ The [Lugnet Lego community](/wiki/lugnet.html "Lego Users Group Network") and Le
 
 But then the company hit trouble, they lost touch with the Lugnet/AFOL community, and invested heavily in License deals.
 Lego produced a raft of badly received toys, and then announced that to save costs the company would rein in and focus its market again.
-During this time, the community rumour mill speculated, was the amazing [Mindstorms](/wiki/mindstorms.html "A Robotic construction toy system from Lego") to be dropped or revamped? 
+During this time, the community rumour mill speculated, was the amazing [Mindstorms](/wiki/mindstorms.html "A Robotic construction toy system from Lego") to be dropped or revamped?
+
 Lego stayed silent. They released the [Spybotics](/wiki/spybotics.html "Lego Programmable robot kits") kits, which were interesting, but fairly limited in comparison.
 
 <iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=GB&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=orionrobots-21&language=en_GB&marketplace=amazon&region=GB&placement=B082WD5YV9&asins=B082WD5YV9&linkId=08332228f2cd7aed16ca05aa5a1f7372&show_border=true&link_opens_in_new_window=true"></iframe>
 
-During this time, the community continued to innovate, but the limitations of the RCX were becoming well known. 
-The RCX was too awkward to interface with, sure there were custom sensors, but it was such a task to create them. 
+During this time, the community continued to innovate, but the limitations of the RCX were becoming well known.
+The RCX was too awkward to interface with, sure there were custom sensors, but it was such a task to create them.
 There were not enough ports, the IR often played up, the RCX Code system did not go down well.
 As result of these, massive innovation in the community continued, but frustration brewed, and people were looking at other systems.
 They starting considering using alternative microcontrollers with Lego or those less targeted at Lego like the PIC,
@@ -69,19 +70,19 @@ It has 3 output ports, which support intelligent geared servo motors - these mot
 
 In terms of expandability, there have been those asking "what about visual processing, cameras?", the answer here is that the Bluetooth may well support camera phones. Also, those who complained about the complexity of interfacing sensors and actuators with it may be pleased to hear that the two wire system has now been dropped for a 6 wire system, based upon an RJ style connector - much like the telephone or Ethernet plugs you probably have in your home or workplace. This means no more dealing with the time-shared signal/voltage line on the sensors, or problems interfacing with a [PWM](/wiki/pwm.html) motor.
 
-The kit it comes with will have 519 elements, mostly studless ("liftarm") based, as well as styling pieces for a more "organic" and less angular look - although, there are also elements for creating more square constructions, as during the design, Steve Hassenplug brought up how awkward it was to build square frames with them. There are new right angle parts, design for connecting studless beams more conveniently. 
+The kit it comes with will have 519 elements, mostly studless ("liftarm") based, as well as styling pieces for a more "organic" and less angular look - although, there are also elements for creating more square constructions, as during the design, Steve Hassenplug brought up how awkward it was to build square frames with them. There are new right angle parts, design for connecting studless beams more conveniently.
 
-![](/galleries/2006-01-06-lego-unveils-next-gen-mindstorms/80x52_ElbowJoint.jpg)
+![Lego technic Elbow Joint part](/galleries/2006-01-06-lego-unveils-next-gen-mindstorms/80x52_ElbowJoint.jpg)
 
 The RCX code system has also been dropped, in favour of LABview based software. RCX users familiar with Robolab will take to it easily, though [NQC](/wiki/nqc.html) (Not Quite C) users may find it alien, but it is supposed to aid rapid development and combined with the building elements, give a much faster time from concept to device. The software will run on Windows, and Mac, though there is no word on Linux port. This may be only a matter of time, if Lego are as open with this as they were with the RCX, before there will be many alternative software systems.
 
-![](/galleries/2006-01-06-lego-unveils-next-gen-mindstorms/NXTImage.jpg)
+![NXT promotional material robot](/galleries/2006-01-06-lego-unveils-next-gen-mindstorms/NXTImage.jpg)
 
 Lego and the MUP team have kept all of this visionary change under wraps until the 4th - and surprised us all with this. I am still reeling, but now I know where the budget is going!
 They left a couple of things out, for example an AC adaptor (which was available on the RCX 1.0), and they didn't take on the requests for a greater number of sensor or motor ports.
 Like many enthusiasts, I personally cannot wait to get one, and I will most definitely be applying to try to be one of the 100.
 
-![](/galleries/2006-01-06-lego-unveils-next-gen-mindstorms/MindstormsNXTArm.jpg)
+![NXT Lego robot arm](/galleries/2006-01-06-lego-unveils-next-gen-mindstorms/MindstormsNXTArm.jpg)
 
 ## Links
 

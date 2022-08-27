@@ -17,4 +17,4 @@ You can then think of doing weight savings - shaving down to a smaller cap for a
 
 Please ensure you understand [robot building safety](/wiki/robot_building_safety.html) and the full instructions before attempting this.
 
-[SuperCap 9v Battery - Hackaday](http://hackaday.com/entry/1234000383070996/)
+[SuperCap 9v Battery - Hackaday](https://hackaday.com/2005/12/06/supercap-9v-battery/)

@@ -31,7 +31,6 @@ This is a fairly simple device built with one 4000 series IC per digit, and one 
 <iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=GB&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=orionrobots-21&language=en_GB&marketplace=amazon&region=GB&placement=B01N67ICEC&asins=B01N67ICEC&linkId=4d20b8e0cfbb655e6274c116fdf9bdf5&show_border=true&link_opens_in_new_window=true"></iframe><!-- pushbuttons -->
 <iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=GB&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=orionrobots-21&language=en_GB&marketplace=amazon&region=GB&placement=B07BMPVDMD&asins=B07BMPVDMD&linkId=700cf55692f56e93457284844ffc583d&show_border=true&link_opens_in_new_window=true"></iframe><!-- slide switch -->
 
-
 ## Required Tools
 
 * Soldering Iron

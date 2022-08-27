@@ -21,7 +21,7 @@ You can imagine the usual bunch of students from infamous universities as well a
 
 I would love to attend, but I am going to be in London, UK, and will keep up with events via the internet. I am not currently aware of any television coverage for this event, but there may be a webcast, and at least photo coverage from some of the teams own websites.
 
-# Links
+## Links
 
 * [MicroMouse USA](http://micromouseusa.com/?p=2103)
 * [Micromouse Online](http://www.micromouseonline.com/events/apec-2018-micromouse-contest/)

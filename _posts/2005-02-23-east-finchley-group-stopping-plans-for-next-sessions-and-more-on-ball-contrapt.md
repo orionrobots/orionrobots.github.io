@@ -14,7 +14,7 @@ This is due to the fact that the group was hosted at my flat in East Finchley, a
 As a result of this, I will firmly start to focus the next few sessions on effectively using the CAD tools
 [LDraw](/wiki/ldraw_system), [LeoCad](/wiki/leocad) and [MLCad](/wiki/mlcad) to document your Lego designs, as well as getting photos of your robots on the site (especially non-Lego ones), and how to use the blogging, forum and wiki tools here. We will be using our current project as a basis for this type of logging and documentation.
 
-# Progress on the Ball Contraption
+## Progress on the Ball Contraption
 
 We also have been building one of these for a short while, inspired by what we saw on Steve's Pages. I set the group a task of brainstorming, and building a ball elevation system, to get the ball up a tower built the week before (when only myself and Myuran were actually present!). Now I have also worked on a few of my own ideas, but I really want to see what the under 16s group can come up with. My own designs are to use a ball pump (which we can try when we have enough balls), a step ladder style thing with tipping trolleys. I tried building a large chain (having very few link tread pieces) using axle joiner pieces - but have so far not tried deploying it, and besides I didn't have enough of the right pieces to make it as long as I need it. I will in a short while be putting photos of all my attempts on the site...
 

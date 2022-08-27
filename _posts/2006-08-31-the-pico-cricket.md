@@ -15,7 +15,6 @@ It has a few really neat features, in the form of modules. These include a separ
 
 ## Links
 
-* <http://www.picocricket.com/whatisit.html> - What is the PicoCricket?
 * [Gizmodo - PicoCricket: Everything to do with Legos, Nothing to do with Crickets](http://gizmodo.com/gadgets/gadgets/picocricket-everything-to-do-with-legos-nothing-to-do-with-crickets-196847.php) - Good article, even if they do use the cringeworthy term "Legos".
 * [Lugnet Robotics - TLG & MIT Media Labs spawn another product: PicoCricket](http://news.lugnet.com/robotics/?n=26375) - Community response to this.
 

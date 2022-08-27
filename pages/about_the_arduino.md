@@ -13,7 +13,7 @@ At the heart of these boards is an Atmel AVR microcontroller - the very capable 
 
 The normal Arduino layout has 14 digital input/output pins and 6 analog inputs. 6 digital pins can be used as PWM outputs and are suitable for controlling motor speed with a motor drive (like the L298N Board) - these are used for this in the Orion Explorer 1 robot kits.
 
-# Technical Specifications
+## Technical Specifications
 
 | MCU | Atmel 328 or 168 |
 | Operating Voltage | 5v |

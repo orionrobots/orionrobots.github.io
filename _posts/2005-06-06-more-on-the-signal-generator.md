@@ -7,7 +7,7 @@ layout: post
 todo_needs_sat: recreate gallery from Picasa.
 gal: /galleries/gallery-8-signal-generator-diode-bridge/
 ---
-# Signal Generator build
+## Signal Generator build
 
 ![]({{page.gal}}/258-workshop.jpg){: .img-responsive .center-block}
 
@@ -24,4 +24,3 @@ I used the result to test the diode bridge.
 ![]({{page.gal}}/312-clean-result.jpg){: .img-responsive .center-block}
 
 [Gallery showing all images]({{page.gal}})
-
