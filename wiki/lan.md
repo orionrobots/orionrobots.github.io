@@ -1,6 +1,6 @@
 ---
 layout: page
-title: LAN
+title: LAN - Local Area Network
 date: 2005-05-28 17:12:41
 ---
 A LAN is the standard kind of network that you will see in a digital home or office. It consists of one small local sub network, and may have a local router/gateway connecting it to a broader network or the internet.

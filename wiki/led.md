@@ -1,12 +1,12 @@
 ---
 layout: page
-title: LED
+title: LED - light Emitting Diode
 tags: [electronics, robot, led, hacking, beam, sensor, ccd, robot building]
 date: 2005-09-10 14:21:41
 ---
 An LED is a special version of a [diode](/wiki/diode.html "Diode") which emits light. Although nearly every PN Junction emits, and is sensitive to light, these junctions are specially mastered to emit more.
 
-![](/galleries/gallery-1-common-images/131-led.jpg)
+![LED](/galleries/gallery-1-common-images/131-led.jpg)
 
 A FLED - Flashing Light Emitting diode is a special version of these which has a built in flasher circuit. You may find these which flash in one polarity, and light continuously in the other. They can actually be used to replace whole sections of small control circuits because of their unique properties.
 

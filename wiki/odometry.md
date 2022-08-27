@@ -4,6 +4,10 @@ title: odometry
 tags: [robots, robotics, robot building sensors]
 date: 2006-07-10 12:38:08
 ---
+For a practical guide on using encoders for odometry in a robot, and to control motion, try out [Learn Robotics Programming](https://amzn.to/3ToEwwP). This shows not only how to use encoder to drive in a straight line, but how to use them to make a turn and measure distances.
+
+## What is odometry?
+
 When working out how far a robot has gone, or where it needs to stop, simply timing the length of time the motor is turned on is a very simplistic approach, and does not take into account any variations in battery output, or terrain, or even if the robots wheels were simply stalled.
 
 Odometry is the technique of measuring how many revolutions a wheel has turned, or how many steps have been made (okay that's actually pedometry, but it is very similar). This can be applied to a drive wheel, but that does not take into account that a wheel may have turned in vain, and may be more effectively applied to a free-spinning wheel with high friction.
