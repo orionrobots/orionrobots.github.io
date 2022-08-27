@@ -28,9 +28,15 @@ gallery:
             src: l298-motor-controller-side.jpg
             alt: Dual motor control board
 ---
-# This is no longer for sale
+## This is no longer for sale
+
+The kit is no longer for sale, this information hre is for reference for owners of the Explorer 1 robot.
 
 ## No Soldering, Easy To Build
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/nMInkh0OysI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="">
+</iframe>
+
 
 This robot has everything you'll need to build your own floor roving robot quickly. This can be the starting point for a Science project, an experimentation platform, a personal robot or just a place for you to start playing around with robotics. You build it, you can extend it, and there is no soldering, drilling or sawing to do so. If you are in the Uk mainland - postage is Free. The example code, usage guide and tutorials are also FREE.
 
@@ -50,7 +56,7 @@ This robot requires NO SOLDERING, drilling, sawing or hot-glue and only a little
 
 A full online owners [construction guide](/construction_guide.html) is provided for step-by-step instructions to build your robot and put it through its first moves.
 
-## Kit Contents:
+## Kit Contents
 
 * A 4 wheel drive chassis with 2 levels.
 * 4 geared motors.
@@ -76,5 +82,3 @@ Overall specifications:
 * Interfaces: Fully programmable via a USB interface, 8 spare digital IO pins, 6 analogue input pins, capability to connect to I2C, SPI and TWI devices.
 * Self assembly with a small flathead screwdriver required.
 * NO SOLDERING REQUIRED.
-
-<p style="text-align: center;"><iframe src="http://www.youtube.com/embed/nMInkh0OysI?rel=0" height="169" width="300"></iframe></p>
