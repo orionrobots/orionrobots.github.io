@@ -4,7 +4,7 @@ using_mathjax: false
 published: false
 title: 'Machine bolts supplied with parts '
 description: ''
-tags: ''
+tags: [robot building]
 category: ''
 ---
 # Machine bolts in robot building

@@ -190,10 +190,6 @@ JB :
   # where [HELPER] is the name of the helper you are overriding.
 
 menu:
-  -
-    title: Home
-    description: Home Page
-    url: /index.html
   - title: Robot Building
     description: Information on Robot Building  
     url: /robot_building.html

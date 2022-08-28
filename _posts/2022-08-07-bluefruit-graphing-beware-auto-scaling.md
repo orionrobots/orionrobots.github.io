@@ -4,7 +4,7 @@ using_mathjax: false
 published: true
 title: Bluefruit graphing - beware auto scaling
 description: Dealing with an issue with graph output from encoders
-tags: ['Raspberry Pi Pico', 'CircuitPython', 'Bluetooth LE', 'Bluefruit', 'Bluefruit LE Connect',
+tags: ['Raspberry Pi Pico', 'CircuitPython', 'Bluetooth LE', 'Bluefruit', 'Bluefruit LE Connect', robot building,
   'plotting', 'robotics programming']
 category: robot building
 ---
