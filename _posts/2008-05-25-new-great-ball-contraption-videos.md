@@ -1,7 +1,7 @@
 ---
 created: 2008-05-25 09:40:00
 description: New Great Ball Contraption Videos
-tags: [lego, gbc]
+tags: [lego, robot news, gbc]
 title: New Great Ball Contraption Videos
 layout: post
 todo_needs_sat: replace with link to Steve's site, or remove whole entry

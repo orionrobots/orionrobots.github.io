@@ -1,7 +1,7 @@
 ---
 title: The reality of electronics repair
 layout: post
-tags: [electronics, repair, salvage, learning]
+tags: [electronics, robot building, repair, salvage, learning]
 ---
 <img src="/assets/2014-04-09-the-reality-of-repair.md/small/1-IMG_3406-001.JPG" alt="Me repairing some electronics" style="float:left; padding-right: 4px;" />
 If you've ever seen an episode of Stargate there is frequently some kind of alien electronic device which requires repair or repurposing. The show (in both it's good incarnations - SG1 and Atlantis) has a techy character who can look at it, stuck their teeth plumber style and have it done in a few hours.

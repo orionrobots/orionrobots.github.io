@@ -1,7 +1,7 @@
 ---
 title: Would you sell your creations if there was no choice?
 layout: post
-tags: [maker, robot building, salvage, scrap, robot]
+tags: [maker, robot news, salvage, scrap, robot]
 ---
 A recent story in the news talked of a homeless Chinese farmer, Wu Yulu, who created robots, and when his house burnt down, he was riddled with debts, and the fantastic machines needed to be sold off.
 

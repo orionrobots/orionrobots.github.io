@@ -1,7 +1,7 @@
 ---
 created: 2008-03-09 08:04:00
 description: Get Your Hands On a VEXplorer kit with Robot Design and Building Contest!
-tags: [robot, robots, vex, robot kit, contest, competition, robot building]
+tags: [robot, robot news, vex, robot kit, contest, competition, robot building]
 title: Get Your Hands On a VEXplorer kit with Robot Design and Building Contest!
 layout: post
 ---

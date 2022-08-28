@@ -1,7 +1,7 @@
 ---
 created: 2006-03-24 09:36:40
 description: Vexed with the Radio Shack VEX kits
-tags: [kits,robotics,electronics]
+tags: [kits, robot news,robotics,electronics]
 title: Vexed with the Radio Shack VEX kits
 layout: post
 ---

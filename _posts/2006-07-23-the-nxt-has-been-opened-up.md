@@ -1,7 +1,7 @@
 ---
 created: 2006-07-23 14:55:38
 description: The NXT has been opened up
-tags: [nxt, mindstorms, salvage, robots, disassembly, teardown]
+tags: [nxt, mindstorms, salvage, robot news, disassembly, teardown]
 title: The NXT has been opened up
 layout: post
 ---

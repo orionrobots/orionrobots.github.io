@@ -1,7 +1,7 @@
 ---
 created: 2005-02-23 10:48:19
 description: Robots in the news:Spam Filters may hold the key to Aids
-tags: [robots,ai,biology]
+tags: [robot news,ai,biology]
 title: Robots in the news:Spam Filters may hold the key to Aids
 layout: post
 ---

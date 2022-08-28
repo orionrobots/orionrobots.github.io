@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Tennis Robots
-tags: [robots]
+tags: [robots in the news]
 date: 2005-02-04 13:34:50
 ---
 There are Tennis Robots that can catch balls, or fire balls at a training player to test and train them.

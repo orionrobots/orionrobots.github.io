@@ -1,7 +1,7 @@
 ---
 created: 2013-03-17 05:08:00
 description: 3d printers in space
-tags: [3d printing, robot, space]
+tags: [3d printing, robot news, space]
 title: 3d printers in space
 layout: post
 ---

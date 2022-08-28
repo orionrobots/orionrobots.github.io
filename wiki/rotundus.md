@@ -1,10 +1,10 @@
 ---
 layout: page
 title: Rotundus Ground Bot
-tags: [robots]
+tags: [robot news]
 date: 2005-05-25 19:20:43
 ---
-![](/galleries/gallery-1-common-images/168-rotundus.jpg)
+![Rotundus robot in snow](/galleries/gallery-1-common-images/168-rotundus.jpg)
 Rotundus was a spherical <a href="/wiki/security_robots.html" title="Security Robots">Security Robot</a>. As it is a small sphere - it can negotiate many landscapes, including water, though not stairs. Beyond its obvious weakness - it is capable of sensing intruders and alerting others to their presence.
 
 At the time of writing it is only a prototype, and may not be available for a short while.
@@ -21,4 +21,4 @@ The Swedish Rotundus company has commercialised the robot for Security usage.
 
 In this incarnation it can chase would be intruders, and is capable of raising the alarm, using microphones to record them, getting snapshots of them while moving or even calling for backup. It has a slightly ominous likeness to the white sphere in "The Prisoner".
 
-* https://newatlas.com/rotundus-groundbot/20259/
+* [Rotundus GroundBot spherical surveillance robot broadcasts live in 3D](https://newatlas.com/rotundus-groundbot/20259/)

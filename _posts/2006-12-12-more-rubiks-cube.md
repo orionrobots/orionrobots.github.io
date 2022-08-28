@@ -1,7 +1,7 @@
 ---
 created: 2006-12-12 15:53:49
 description: More Rubiks cube
-tags: [robots, mindstorms, lego]
+tags: [robot news, mindstorms, lego]
 title: More Rubiks cube
 layout: post
 ---

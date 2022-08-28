@@ -7,7 +7,7 @@ tags:
   - phidgets
   - robot building
   - rc
-  - robots
+  - robot news
 ---
 
 <div style="text-align: left;">

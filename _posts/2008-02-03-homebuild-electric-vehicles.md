@@ -6,6 +6,7 @@ tags:
   - diy
   - power
   - salvage
+  - robot news
 ---
 
 EVs (Electric Vehicles) as sold by manufacturers are either unsightly, branded as deathtraps, or pretty wasteful in terms of manufacturing standards. However, one bright young chap in Michigan, US has been busy building or converting some of his own EVs.

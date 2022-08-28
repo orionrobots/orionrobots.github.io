@@ -1,7 +1,7 @@
 ---
 created: 2008-02-24 05:49:00
 description: The McRobot is coming
-tags: [robosapien, robot]
+tags: [robosapien, robot news]
 title: The McRobot is coming
 layout: post
 ---

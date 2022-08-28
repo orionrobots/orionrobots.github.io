@@ -1,7 +1,7 @@
 ---
 created: 2013-01-01 03:43:00
 description: Why in 2013 Lego is still the best toy company
-tags: [lego, ev3, mindstorms, robot]
+tags: [lego, ev3, mindstorms, robot news]
 title: Why in 2013 Lego is still the best toy company
 layout: post
 ---

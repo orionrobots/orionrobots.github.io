@@ -1,7 +1,7 @@
 ---
 created: 2006-03-31 08:15:12
 description: Comparing the NXT Educational with the NXT retail packs
-tags: [robot building, nxt, rcx, mindstorms, robots, robotics, education]
+tags: [robot building, nxt, rcx, mindstorms, robot news, robotics, education]
 title: Comparing the NXT Educational with the NXT retail packs
 layout: post
 ---

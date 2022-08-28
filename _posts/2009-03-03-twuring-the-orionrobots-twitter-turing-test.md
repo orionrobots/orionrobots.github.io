@@ -19,6 +19,7 @@ tags:
   - turing test
   - twitter chatbot
   - twitter programming
+  - robot news
 title: A Twitter Turing Contest - Put your best twitter bot Forward
 layout: post
 ---

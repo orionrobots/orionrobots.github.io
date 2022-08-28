@@ -1,9 +1,8 @@
 ---
 created: 2005-10-08 04:16:19
 description: And they're all set
-tags: [darpa, grand challenge, competitions, events]
+tags: [darpa, robot news, grand challenge, competitions, events]
 title: Darpa Grand Challenge - they're all set
-tags: [robots]
 layout: post
 ---
 After a number of qualifying events, robotic racing vehicles prepare for this years [DARPA Grand Challenge](/wiki/darpa_grand_challenge).

@@ -1,7 +1,7 @@
 ---
 created: 2010-10-03 14:07:00
 description: Using document protectors in folders for Part Storage
-tags: [parts, storage, electronics, robotics]
+tags: [parts, storage, robot news, electronics, robotics]
 title: Absolutely brilliant storage concept
 layout: post
 ---

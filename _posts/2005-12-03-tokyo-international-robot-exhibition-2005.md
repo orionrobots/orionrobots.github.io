@@ -1,9 +1,10 @@
 ---
 title: Tokyo International Robot Exhibition 2005
-tags: [robot, robots, events, exosuit, hitachi, japan, robotics]
+tags: [robot news, events, exosuit, hitachi, japan, robotics]
 layout: post
 ---
 ## Background
+
 At the time of writing, IREX is the Earths largest robot show. It has been held alternate years since 1973, and is organised by JARA(The Japan Robot Association).
 
 ## Tokyo International Robot Exhibition 2005

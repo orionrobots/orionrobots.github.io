@@ -1,7 +1,7 @@
 ---
 created: 2012-03-26 03:26:00
 description: Amazing Walking Robot on Instructables
-tags: [3d printing, arduino, robot, distance sensor, robotics]
+tags: [3d printing, arduino, robot news, distance sensor, robotics]
 title: Amazing Walking Robot on Instructables
 layout: post
 ---

@@ -1,7 +1,7 @@
 ---
 created: 2005-03-17 07:05:36
 description: New faster wheeled robot from Hitachi
-tags: [robots]
+tags: [robot news]
 title: New faster wheeled robot from Hitachi
 layout: post
 ---

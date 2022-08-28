@@ -1,7 +1,7 @@
 ---
 created: 2005-03-21 05:10:53
 description: Disneys "Robots" Movie
-tags: [robots]
+tags: [robot news]
 title: Disneys Robots Movie
 layout: post
 ---

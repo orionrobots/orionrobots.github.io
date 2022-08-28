@@ -1,7 +1,7 @@
 ---
 created: 2005-12-10 08:20:00
-description: Interesting discoveries
-tags: [ai, facial recognition, computer vision]
+description: Interesting AI discoveries
+tags: [robot news, ai, facial recognition, computer vision]
 title: Interesting discoveries
 layout: post
 ---

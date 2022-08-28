@@ -1,7 +1,7 @@
 ---
 created: 2007-08-26 09:08:19
 description: Robot searches for trapped miners
-tags: [robots, search, rescue]
+tags: [robot news, search, rescue]
 title: Robot searches for trapped miners
 layout: post
 ---

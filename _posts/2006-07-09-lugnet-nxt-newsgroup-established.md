@@ -1,7 +1,7 @@
 ---
 created: 2006-07-09 11:37:13
 description: Lugnet NXT Newsgroup established
-tags: [lugnet, nxt, mindstorms, robots]
+tags: [lugnet, nxt, mindstorms, robot news]
 title: Lugnet NXT Newsgroup established
 layout: post
 ---

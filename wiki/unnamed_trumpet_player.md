@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Unnamed Trumpet Player
-tags: [robots]
+tags: [robots in the news]
 date: 2004-11-14 14:41:26
 ---
 Toyota are currently developing an as-yet-unnamed robot that can play the trumpet.

@@ -1,7 +1,7 @@
 ---
 created: 2013-01-05 03:30:00
 description: The era of the Robot music band is upon us
-tags: [robot, robotic entertainment]
+tags: [robot news, robotic entertainment]
 title: The era of the Robot music band is upon us
 layout: post
 ---

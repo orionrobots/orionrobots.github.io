@@ -4,7 +4,7 @@ description: Walking Bots and Investment in power
 tags:
   - mecha
   - walker
-  - robot
+  - robot news
   - power
   - renewable
   - solar

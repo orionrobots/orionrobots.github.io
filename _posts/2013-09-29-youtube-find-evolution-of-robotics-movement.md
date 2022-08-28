@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Youtube find - The Evolution of Robotics Movement
-tags: [robot, robotics]
+tags: [robot news, robotics]
 ---
 Some of the current trends in robot locomotion and movement are astounding.This video captures the last decade in robotics in half an hour with lots of different cool stuff from labs all over.
 

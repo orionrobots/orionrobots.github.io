@@ -1,7 +1,7 @@
 ---
 created: 2008-10-26 13:19:44
 description: Halloween Animatronics
-tags: [electronics, diy, instructables, animatronics]
+tags: [electronics, diy, instructables, robot news, animatronics]
 title: Halloween Animatronics
 layout: post
 ---

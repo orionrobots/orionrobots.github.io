@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Robotic Traffic Cones
-tags: [robots]
+tags: [robot news]
 date: 2004-11-15 14:06:15
 ---
 Somebody really has created these devices.

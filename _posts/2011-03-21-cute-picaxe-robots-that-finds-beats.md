@@ -1,7 +1,7 @@
 ---
 layout: post
 title: A cute little Robot that finds beats
-tags: [distance sensor, music, pic, picaxe, robot, robot building, robotics, video]
+tags: [distance sensor, music, pic, picaxe, robot news, robot building, robotics, video]
 ---
 I love this video - it brings together two of my favourite things - homebrew hacked robots and music/rhythm experimentation. It uses the Picaxe controller board, caterpillar tracks, and a sonar distance sensor.
 

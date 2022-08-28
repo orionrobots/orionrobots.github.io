@@ -1,7 +1,7 @@
 ---
 created: 2006-05-27 12:50:18
 description: DorkbotLondon Camping Event Dates and Venue Announced
-tags: [electronics, opensource]
+tags: [electronics, robot news, opensource]
 title: DorkbotLondon Camping Event Dates and Venue Announced
 layout: post
 ---

@@ -4,7 +4,7 @@ title: "About The Eevblog"
 description: "My view and review  of the EevBlog"
 category: 
 author: Danny Staple
-tags: [youtubers, electronics]
+tags: [youtubers, robot news, electronics]
 ---
 {% include JB/setup %}
 

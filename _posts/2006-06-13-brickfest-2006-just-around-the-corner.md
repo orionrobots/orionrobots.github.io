@@ -1,7 +1,7 @@
 ---
 created: 2006-06-13 13:18:41
 description: Brickfest 2006 Just Around the corner
-tags: [mindstorms, brickfest, technic, afol]
+tags: [mindstorms, robot news, brickfest, technic, afol]
 title: Brickfest 2006 Just Around the corner
 layout: post
 ---

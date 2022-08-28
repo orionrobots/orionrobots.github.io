@@ -1,7 +1,7 @@
 ---
 created: 2006-02-17 06:37:17
 description: Who would have thought you could use mould in a robot?
-tags: [robot, beam robotics, robotics, hexapod, robots in the news]
+tags: [robot news, beam robotics, robotics, hexapod]
 title: Who would have thought you could use mould in a robot?
 layout: post
 ---

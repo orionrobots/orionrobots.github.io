@@ -1,7 +1,7 @@
 ---
 created: 2005-02-25 04:23:34
 description: A Lego Mindstorms Robot that plays the Ukelele
-tags: [robots]
+tags: [robot news]
 title: Mike and Jarvis - Ukelele Playing Robot
 layout: post
 ---

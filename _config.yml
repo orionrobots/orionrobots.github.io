@@ -194,7 +194,13 @@ menu:
     title: Home
     description: Home Page
     url: /index.html
-  -
+  - title: Robot Building
+    description: Information on Robot Building  
+    url: /robot_building.html
+  - title: Robot news
+    description: News about Robots
+    url: /robot_news.html
+  - 
     title: Getting Started
     description: Start building and playing with robots
     url: /getting_started.html

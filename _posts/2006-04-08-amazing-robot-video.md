@@ -1,7 +1,7 @@
 ---
 created: 2006-04-08 07:17:45
 description: Amazing Robot video
-tags: [robot, robotics]
+tags: [robot news, robotics]
 title: Amazing Robot video
 layout: post
 ---

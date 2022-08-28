@@ -1,7 +1,7 @@
 ---
 created: 2010-10-26 00:34:00
 description: Robots with real uses around people
-tags: [robots, robotics, domestic robots, home robots]
+tags: [robot news, robotics, domestic robots, home robots]
 title: Robots with real uses around people
 layout: post
 ---

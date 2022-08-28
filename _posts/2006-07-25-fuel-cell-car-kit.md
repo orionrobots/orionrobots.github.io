@@ -1,6 +1,6 @@
 ---
 title: Science Museum Fuel cell car toy with potential for robot building
-tags: [electronics, power, robots]
+tags: [electronics, power, robot news]
 layout: post
 ---
 Update: You can buy a simple demo fuel cell car kit at the Science Museum in London for £70 - I've been playing with one. The cell isn't very powerful, but it is nonetheless an interesting demonstration to play with.

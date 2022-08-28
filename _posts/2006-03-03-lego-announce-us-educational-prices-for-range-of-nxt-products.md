@@ -1,7 +1,7 @@
 ---
 created: 2006-03-03 07:10:29
 description: Lego announce US educational prices for range of NXT products
-tags: [nxt, mindstorms, fll, bluetooth, robots, robot building, robotics]
+tags: [nxt, mindstorms, fll, bluetooth, robot news, robot building, robotics]
 title: Lego announce US educational prices for range of NXT products
 layout: post
 ---

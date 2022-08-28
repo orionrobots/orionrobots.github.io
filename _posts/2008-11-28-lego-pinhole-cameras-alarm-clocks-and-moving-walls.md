@@ -1,11 +1,11 @@
 ---
 created: 2008-11-28 12:55:00
 description: Lego Pinhole cameras, alarm clocks and moving walls
-tags: [lego, maker]
+tags: [lego, maker, robot news]
 title: Lego Pinhole cameras, alarm clocks and moving walls
 layout: post
 ---
-Just to prove anything can be possible with some [Lego](/wiki/lego "The best known construction toy"), possibly a little modification and a lot of creative spirit, a chap over at <a href="https://www.diyphotography.net/you-can-build-everything-with-lego-even-a-pinhole-camera/">Found Photography</a> actually built a working real Pinhole camera, with film winder and everything using Lego.
+Just to prove anything can be possible with some [Lego](/wiki/lego "The best known construction toy"), possibly a little modification and a lot of creative spirit, a chap over at [Found Photography](https://www.diyphotography.net/you-can-build-everything-with-lego-even-a-pinhole-camera/) actually built a working real Pinhole camera, with film winder and everything using Lego.
 
 Meanwhile, I have been attending (in person) many London events like <a href="http://dorkbot.org/dorkbotlondon/">DorkBotLondon</a>, Lonix and British Computer Society events, only as a punter currently. If you are in London then I seriously recommend DorkBotLondon. There seems to be a number of people using Midi controlled microcontrollers to get robotic behaviour in digital arts situations- I am not sure I would use such a thing myself, but there have been some very interesting items - including a moving wall.
 
