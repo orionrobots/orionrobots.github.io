@@ -1,5 +1,5 @@
 ---
-layout: bs_post
+layout: post
 title: Teaching Angles With Turtle
 using_mathjax: True
 tags: [turtle, python, programming]

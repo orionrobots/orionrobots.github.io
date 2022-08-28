@@ -1,5 +1,5 @@
 ---
-layout: bs_post
+layout: post
 title: Powering An Arduino Uno and Servo from 4xAA 6v Batteries
 tags: [arduino, electronics, servo, robots]
 ---

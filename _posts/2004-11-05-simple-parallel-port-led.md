@@ -1,5 +1,5 @@
 ---
-layout: bs_post
+layout: post
 title: Simple Parallel Port LED
 tags: [electronics, led, parallel port]
 comments: true
