@@ -116,6 +116,20 @@ body .container {
   background-color: white;
 }
 
+a {
+  color: #418C5A;
+}
+
+.post_summary :first-child {
+  border-top: none;
+}
+
+.post_summary {
+  border-top: 1px solid #83b52b;
+  padding-top: 0.5em;
+  padding-bottom: 0.2em;
+}
+
 .post_excerpt h1 {
   font-size: 20px;
 }

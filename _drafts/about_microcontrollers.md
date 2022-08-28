@@ -8,7 +8,7 @@ description: About Microcontrollers
 <img {{'alt="'~alt~'"' if alt }} src="{{ media_url('images/construction_guide/'~res)}}" {{'class="'~class~'"' if class }} {{'style="'~style~'"' if style }}/>
 {% endmacro %}
 {% filter markdown -%}
-The <a href="http://shop.orionrobots.co.uk">Orion Explorer 1 robot kit</a> comes with an Arduino Microcontroller board.
+The Orion Explorer 1 robot kit came with an Arduino Microcontroller board.
 
 Just what is a microcontroller, and what can you do with it?
 
