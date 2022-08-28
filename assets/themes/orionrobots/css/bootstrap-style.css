@@ -115,3 +115,23 @@ body {
 body .container {
   background-color: white;
 }
+
+.post_excerpt h1 {
+  font-size: 20px;
+}
+
+.post_excerpt h2 {
+  font-size: 18px;
+}
+
+.post_excerpt h3 {
+  font-size: 17px;
+}
+
+.post_media .post_title {
+  font-size: 20px;
+}
+
+.post_summary .post_title {
+  font-size: 16px;
+}
