@@ -4,7 +4,9 @@ title: Robot Building on Orionrobots
 ---
 <ul class="posts">
   {% assign count = 0 %}
-  {% for post in site.posts %}
+  {% assign all_items = site.posts | concat: site.pages | sort: "date" | reverse %}
+
+  {% for post in all_items %}
     {% if post.tags contains "robot building" %}
       {% if count < 4 %}
         {% assign count = count | plus: 1 %}
@@ -18,7 +20,7 @@ title: Robot Building on Orionrobots
               <a class="post_title" href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a>
             </div>
             {% if post.excerpt %}
-            <p class="clearfix post_excerpt">{{ post.excerpt }}<a href="{{ BASE_PATH }}{{ post.url }}">more...</a></p>
+            <div class="clearfix post_excerpt">{{ post.excerpt }}<a href="{{ BASE_PATH }}{{ post.url }}">more...</a></div>
             {% endif %}
           </div>
           <p class="clearfix"></p>
