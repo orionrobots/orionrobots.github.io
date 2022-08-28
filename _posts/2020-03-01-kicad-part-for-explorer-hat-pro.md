@@ -18,8 +18,8 @@ I'm still gaining Kicad skills, so I expect the part not to be perfect, however 
 
 Download the files below:
 
-* [explorerhatpro.lib](/asserts/kicad-library-parts/explorerhatpro.lib)
-* [explorerhatpro.dcm](/asserts/kicad-library-parts/explorerhatpro.dcm)
+* [explorerhatpro.lib](/assets/kicad-library-parts/explorerhatpro.lib)
+* [explorerhatpro.dcm](/assets/kicad-library-parts/explorerhatpro.dcm)
 
 ![Nerf Gun On the Robot](https://pbs.twimg.com/media/ERVTiHkU8AER8cU?format=jpg&name=large){: class="img-responsive"}
 

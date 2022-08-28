@@ -13,11 +13,11 @@ With touch and light sensors, sound detection - as well as mobility - these may 
 
 ## Making Tekno Speak
 
-To get him to speak you will need to press the mode button (on the left of his body) and the nose sensor for 3 seconds until you hear four beeps, and the word "thanks". You then press his nose sensor to confirm it. To exit - you need to press the head and mode sensors for 3 seconds until you hear 4 beeps, and then press the head button to exit. 
+To get him to speak you will need to press the mode button (on the left of his body) and the nose sensor for 3 seconds until you hear four beeps, and the word "thanks". You then press his nose sensor to confirm it. To exit - you need to press the head and mode sensors for 3 seconds until you hear 4 beeps, and then press the head button to exit.
 
 ## Limitations
 
-One great limitation is that they only seem to walk forward. They do this on four legs, presumably all driven by the same motor. It is not using wheels or other tricks like the ratcheted wheels in the feet of the [Pino Toy](/wiki/pino_toy.md). There is a possibility that motors could be used to control the legs individually to get more flexible behaviour.
+One great limitation is that they only seem to walk forward. They do this on four legs, presumably all driven by the same motor. It is not using wheels or other tricks like the ratcheted wheels in the feet of the [Pino Toy](/wiki/pino_toy). There is a possibility that motors could be used to control the legs individually to get more flexible behaviour.
 
 ## Other features
 
