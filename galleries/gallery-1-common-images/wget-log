@@ -1,11 +1,0 @@
---2020-11-07 20:30:03--  http://orionrobots.co.uk/show_image.php?id=431
-Resolving orionrobots.co.uk (orionrobots.co.uk)... 217.160.0.14, 2001:8d8:100f:f000::28d
-Connecting to orionrobots.co.uk (orionrobots.co.uk)|217.160.0.14|:80... connected.
-HTTP request sent, awaiting response... 200 OK
-Length: unspecified [image/jpeg]
-Saving to: ‘show_image.php?id=431’
-
-show_image.php?id=431                                    [<=>                                                                                                                 ]       0  --.-KB/s               show_image.php?id=431                                    [ <=>                                                                                                                ]  18.15K  --.-KB/s    in 0.02s   
-
-2020-11-07 20:30:04 (912 KB/s) - ‘show_image.php?id=431’ saved [18589]
-
