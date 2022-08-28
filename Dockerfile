@@ -17,9 +17,9 @@
 # # RUN bundle exec jekyll --version
 # # RUN bundle exec jekyll build
 
-# Dockerfile for orionrobtos static builder
+# Dockerfile for orionrobots static builder
 
-FROM jekyll/builder:4
+FROM jekyll/builder:4.2.2
 
 RUN apk add imagemagick
 RUN gem install jekyll-toc rmagick webrick
