@@ -22,4 +22,4 @@
 FROM jekyll/builder:4
 
 RUN apk add imagemagick
-RUN gem install jekyll-toc rmagick
+RUN gem install jekyll-toc rmagick webrick
