@@ -4,6 +4,7 @@ title: MindStorms
 tags:
   - robots
   - robot building
+  - lego
 date: 2009-04-24T23:55:12.000Z
 ---
 

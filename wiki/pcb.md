@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Printed Circuit Board
+date: 2017-12-29
 tags: [electronics, robot building]
 ---
 A Printed Circuit Board is the normal system for holding components together in a circuit.

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: MicroSwitches
-tags: [electronics]
+tags: [electronics, robot building]
 date: 2004-11-15 14:41:58
 ---
 These are relatively small electrical switches ideal for touch sensors/bump sensors on robots.

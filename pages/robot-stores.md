@@ -1,6 +1,7 @@
 ---
 title: Robot Stores
 tagline: Useful robot shopping places
+date: 2014-06-01
 layout: page
 tags: [robots, robot building]
 ---
