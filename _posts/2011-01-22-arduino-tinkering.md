@@ -3,7 +3,7 @@ layout: post
 title: "Arduino tinkerings"
 description: "Tinkering with Arduino and LoginWay PIC-01 Board"
 category: "robot building"
-tags: [arduio, electronics, robot building]
+tags: [arduino, electronics, robot building]
 gallery:
     - file: freecad-assembly4-broken-link.png
       title: FreeCAD Assembly4 Broken Link
