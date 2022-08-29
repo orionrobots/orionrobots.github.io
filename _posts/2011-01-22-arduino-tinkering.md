@@ -5,8 +5,8 @@ description: "Tinkering with Arduino and LoginWay PIC-01 Board"
 category: "robot building"
 tags: [arduino, electronics, robot building]
 gallery:
-    - file: freecad-assembly4-broken-link.png
-      title: FreeCAD Assembly4 Broken Link
+    - file: 25012011148.jpg
+      title: Arduino UNO wired into LoginWay PIC01 Board
 asset_dir: galleries/2011
 thumb: /galleries/2011/thumbnails/25012011148.jpg
 ---
@@ -14,8 +14,8 @@ The Loginway PIC-01 board is a handy board for developing microcontroller projec
 
 I paired it with an Arduino UNO to get to know the Hitachi LCD display output, but connecting other stuff like LEDs was good fun anyway.
 
-![Arduino wired into LoginWay PIC-01 board](galleries/2011/25012011148.jpg)
+![Arduino wired into LoginWay PIC-01 board](/galleries/2011/25012011148.jpg)
 
 The other experiment I tried today was a USB-I2C converter from active-robots. This had, in addition to the I2C, a couple of GPIO pins, so I wired one into a pair of LED's - red/green to indicate True, False and drive those on a breadboard.
 
-![USB-I2C converter GPIO driving LEDS](galleries/2011/22012011146.jpg)
+![USB-I2C converter GPIO driving LEDS](/galleries/2011/22012011146.jpg)
