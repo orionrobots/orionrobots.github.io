@@ -1,11 +1,9 @@
 ---
 layout: post
-title: EEE PC Arduino Robot build
+title: EEE PC Robot build
 description: Building a robot with AN Eee PC
 category: robot building
 tags:
-  - arduino
-  - electronics
   - robot building
 gallery:
   - file: eeebot_24122009_076.jpg
