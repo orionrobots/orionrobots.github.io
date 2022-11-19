@@ -55,8 +55,8 @@ I made the main cut:
 </style>
 <table class="panel_images">
 <tr>
-<td><img alt="Cutting the main panel" src="../galleries/2022/11-19-batteries/IMG_6803.jpeg"></td>
-<td><img alt="Main panel cut" src="../galleries/2022/11-19-batteries/IMG_6805.jpeg"></td>
+<td><img alt="Cutting the main panel" src="/galleries/2022/11-19-batteries/IMG_6803.jpeg"></td>
+<td><img alt="Main panel cut" src="/galleries/2022/11-19-batteries/IMG_6805.jpeg"></td>
 </tr>
 </table>
 
@@ -64,9 +64,9 @@ Step 2 - next I needed to make a slot, so I could put a stand in. Being a bit la
 
 <table class="panel_images">
 <tr>
-<td><img alt="Cutting the slot" src="../galleries/2022/11-19-batteries/IMG_6807.jpeg"></td>
-<td><img alt="Marking the slot" src="../galleries/2022/11-19-batteries/IMG_6806.jpeg"></td>
-<td><img alt="Slot marked out" src="../galleries/2022/11-19-batteries/IMG_6811.jpeg"></td>
+<td><img alt="Cutting the slot" src="/galleries/2022/11-19-batteries/IMG_6807.jpeg"></td>
+<td><img alt="Marking the slot" src="/galleries/2022/11-19-batteries/IMG_6806.jpeg"></td>
+<td><img alt="Slot marked out" src="/galleries/2022/11-19-batteries/IMG_6811.jpeg"></td>
 </tr>
 </table>
 
@@ -74,8 +74,8 @@ Before I made these cuts, I also marked out the stand part in a similar way, usi
 
 <table class="panel_images">
 <tr>
-<td><img alt="Marking the stand" src="../galleries/2022/11-19-batteries/IMG_6809.jpeg"></td>
-<td><img alt="Stand marked out" src="../galleries/2022/11-19-batteries/IMG_6810.jpeg"></td>
+<td><img alt="Marking the stand" src="/galleries/2022/11-19-batteries/IMG_6809.jpeg"></td>
+<td><img alt="Stand marked out" src="/galleries/2022/11-19-batteries/IMG_6810.jpeg"></td>
 </tr>
 </table>
 
@@ -83,8 +83,8 @@ Now I was ready to cut the slots and stand out:
 
 <table class="panel_images">
 <tr>
-<td><img alt="Cutting the stand" src="../galleries/2022/11-19-batteries/IMG_6811 2.jpeg"></td>
-<td><img alt="Cutting the stand" src="../galleries/2022/11-19-batteries/IMG_6811 3.jpeg"></td>
+<td><img alt="Cutting the stand" src="/galleries/2022/11-19-batteries/IMG_6811 2.jpeg"></td>
+<td><img alt="Cutting the stand" src="/galleries/2022/11-19-batteries/IMG_6811 3.jpeg"></td>
 </tr>
 </table>
 
@@ -92,11 +92,11 @@ I marked another slot in this stand, again, using the depth of the original slot
 
 <table class="panel_images">
 <tr>
-<td><img alt="Marking the slot in the stand" src="../galleries/2022/11-19-batteries/IMG_6813.jpeg"></td>
-<td><img alt="Marking slot depth in the stand using the original guide" src="../galleries/2022/11-19-batteries/IMG_6814.jpeg"></td>
-<td><img alt="Marking slot depth in the stand using the original guide" src="../galleries/2022/11-19-batteries/IMG_6815.jpeg"></td>
-<td><img alt="Marking slot depth in the stand using the original guide" src="../galleries/2022/11-19-batteries/IMG_6816.jpeg"></td>
-<td><img alt="Marking slot depth in the stand using the original guide" src="../galleries/2022/11-19-batteries/IMG_6817.jpeg"></td>
+<td><img alt="Marking the slot in the stand" src="/galleries/2022/11-19-batteries/IMG_6813.jpeg"></td>
+<td><img alt="Marking slot depth in the stand using the original guide" src="/galleries/2022/11-19-batteries/IMG_6814.jpeg"></td>
+<td><img alt="Marking slot depth in the stand using the original guide" src="/galleries/2022/11-19-batteries/IMG_6815.jpeg"></td>
+<td><img alt="Marking slot depth in the stand using the original guide" src="/galleries/2022/11-19-batteries/IMG_6816.jpeg"></td>
+<td><img alt="Marking slot depth in the stand using the original guide" src="/galleries/2022/11-19-batteries/IMG_6817.jpeg"></td>
 </tr>
 </table>
 
@@ -104,11 +104,11 @@ Then I could cut this out:
 
 <table class="panel_images">
 <tr>
-<td><img alt="Cutting the slot in the stand" src="../galleries/2022/11-19-batteries/IMG_6819.jpeg"></td>
-<td><img alt="Cutting the slot in the stand" src="../galleries/2022/11-19-batteries/IMG_6820.jpeg"></td>
-<td><img alt="Cutting the slot in the stand" src="../galleries/2022/11-19-batteries/IMG_6821.jpeg"></td>
-<td><img alt="Cutting the slot in the stand" src="../galleries/2022/11-19-batteries/IMG_6824.jpeg"></td>
-<td><img alt="Cutting the slot in the stand" src="../galleries/2022/11-19-batteries/IMG_6826.jpeg"></td>
+<td><img alt="Cutting the slot in the stand" src="/galleries/2022/11-19-batteries/IMG_6819.jpeg"></td>
+<td><img alt="Cutting the slot in the stand" src="/galleries/2022/11-19-batteries/IMG_6820.jpeg"></td>
+<td><img alt="Cutting the slot in the stand" src="/galleries/2022/11-19-batteries/IMG_6821.jpeg"></td>
+<td><img alt="Cutting the slot in the stand" src="/galleries/2022/11-19-batteries/IMG_6824.jpeg"></td>
+<td><img alt="Cutting the slot in the stand" src="/galleries/2022/11-19-batteries/IMG_6826.jpeg"></td>
 </tr>
 </table>
 
@@ -116,10 +116,10 @@ And the main panel slot too:
 
 <table class="panel_images">
 <tr>
-<td><img alt="Cutting the slot in the main panel" src="../galleries/2022/11-19-batteries/IMG_6825.jpeg"></td>
-<td><img alt="Cutting the slot in the main panel" src="../galleries/2022/11-19-batteries/IMG_6827.jpeg"></td>
-<td><img alt="Cutting the slot in the main panel" src="../galleries/2022/11-19-batteries/IMG_6828.jpeg"></td>
-<td><img alt="Cutting the slot in the main panel" src="../galleries/2022/11-19-batteries/IMG_6829.jpeg"></td>
+<td><img alt="Cutting the slot in the main panel" src="/galleries/2022/11-19-batteries/IMG_6825.jpeg"></td>
+<td><img alt="Cutting the slot in the main panel" src="/galleries/2022/11-19-batteries/IMG_6827.jpeg"></td>
+<td><img alt="Cutting the slot in the main panel" src="/galleries/2022/11-19-batteries/IMG_6828.jpeg"></td>
+<td><img alt="Cutting the slot in the main panel" src="/galleries/2022/11-19-batteries/IMG_6829.jpeg"></td>
 </tr>
 </table>
 
@@ -127,8 +127,8 @@ These parts were easily slot together:
 
 <table class="panel_images">
 <tr>
-<td><img alt="Slotting the panel and stand together" src="../galleries/2022/11-19-batteries/IMG_6830.jpeg"></td>
-<td><img alt="The panel and stand slotted together" src="../galleries/2022/11-19-batteries/IMG_6831.jpeg"></td>
+<td><img alt="Slotting the panel and stand together" src="/galleries/2022/11-19-batteries/IMG_6830.jpeg"></td>
+<td><img alt="The panel and stand slotted together" src="/galleries/2022/11-19-batteries/IMG_6831.jpeg"></td>
 </tr>
 </table>
 
@@ -136,8 +136,8 @@ I tried this in the battery box and found a problem:
 
 <table class="panel_images">
 <tr>
-<td><img alt="Fitting the part into the battery holder" src="../galleries/2022/11-19-batteries/IMG_6832.jpeg"></td>
-<td><img alt="Part too big" src="../galleries/2022/11-19-batteries/IMG_6833.jpeg"></td>
+<td><img alt="Fitting the part into the battery holder" src="/galleries/2022/11-19-batteries/IMG_6832.jpeg"></td>
+<td><img alt="Part too big" src="/galleries/2022/11-19-batteries/IMG_6833.jpeg"></td>
 </td>
 </table>
 
@@ -147,9 +147,9 @@ I marked the part with a pencil, and then cut it down with a craft knife:
 
 <table class="panel_images">
 <tr>
-<td><img alt="Marking the part" src="../galleries/2022/11-19-batteries/IMG_6835.jpeg"></td>
-<td><img alt="Marked part" src="../galleries/2022/11-19-batteries/IMG_6836.jpeg"></td>
-<td><img alt="Cutting the part" src="../galleries/2022/11-19-batteries/IMG_6837.jpeg"></td>
+<td><img alt="Marking the part" src="/galleries/2022/11-19-batteries/IMG_6835.jpeg"></td>
+<td><img alt="Marked part" src="/galleries/2022/11-19-batteries/IMG_6836.jpeg"></td>
+<td><img alt="Cutting the part" src="/galleries/2022/11-19-batteries/IMG_6837.jpeg"></td>
 </tr>
 <table>
 
@@ -157,8 +157,8 @@ This was ready for another try, and it fitted:
 
 <table class="panel_images">
 <tr>
-<td><img alt="Slotting them back" src="../galleries/2022/11-19-batteries/IMG_6838.jpeg"></td>
-<td><img alt="Fitting the part into the battery holder" src="../galleries/2022/11-19-batteries/IMG_6840.jpeg"></td>
+<td><img alt="Slotting them back" src="/galleries/2022/11-19-batteries/IMG_6838.jpeg"></td>
+<td><img alt="Fitting the part into the battery holder" src="/galleries/2022/11-19-batteries/IMG_6840.jpeg"></td>
 </tr>
 </table>
 
