@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Why are we using AA batteries?
-tags: [batteries, electronics, orion explorer 1, power, robot building, robots]
+tags: [batteries, electronics, orion explorer 1, robot power, robot building, robots]
 ---
 A question that I have been asked a few times now is why the Orion Explorer 1 Robot kit comes with an AA battery box and not some customised battery decision. I'd like to explain why this was chosen.
 
@@ -12,7 +12,7 @@ The first is that AA batteries are easily replaceable. Specialist batteries woul
 
 Another thing is the cost - cost is important to me with my robot kit. Specialist batteries are expensive to develop, and expensive to make. Specialist charging hardware on the robot would also increase its cost, make it less simple and weigh more. AA batteries come in a range of prices - and can be bought cheaply in large numbers for education or for serious gadget geeks.
 
-Thinking about battery weight, Lithium Ion or Li Poly batteries would probably be lighter for the same power than AAs, but may not be able to provide the current needed for driving motors comfortably. Lead Acid batteries would deliver the current, but are quite heavy.
+Thinking about battery weight, Lithium Ion or Li Poly batteries would probably be lighter for the same power than AAs, but come with management issues and risks when using or shipping them. Lead Acid batteries would deliver the current, but are quite heavy.
 
 Sending batteries is actually a little complicated - they can be risky. An AA battery box means the customer can easily buy their own AA batteries. Many delivery services refuse to take batteries without a special service because batteries have a reputation for causing damage, from leaking to becoming a fire or explosive risk. This complicates shipping from manufacturers to Orionrobots, and from Orionrobots to customers.
 

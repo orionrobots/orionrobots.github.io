@@ -11,7 +11,7 @@ gal: /galleries/gallery-8-signal-generator-diode-bridge/
 
 ![The signal generator connected ready for use](/galleries/gallery-8-signal-generator-diode-bridge/P1010002.JPG){: .img-responsive .center-block}
 
-When I [built the Diode bridge]({% post_url 2005-05-30-freeforming-a-rectifier-bridge %}) - I needed to generate signals to test it. This is how I built the Signal Generator I used to test them.
+When I [built the Diode bridge]({% post_url 2005-05-30-freeforming-a-rectifier-bridge %}) - I needed to generate signals to test it. This is how I built the Signal Generator I used to test them. A signal generator is a helpful tool to learn robotics at home with. It can be used to test motors, servos, and other electronic components. It can also be used to generate signals for a microcontroller to test it's input and output pins. They also fun to hook up to an oscilloscope and see what the signal looks like.
 
 The build used a Velleman MK105 signal generator kit - which I soldered together first. I then chained this to a Velleman K4001 7W mono amp kit - both bought from a Maplin. I was able to power both with a single 9 volt battery. I used speaker spring terminals for the wiring, first two for the output from the signal generator, then a set of four - 2 for the amp input, and 2 for the amp output. This way the generator could be sued with or without the amplifier, or other sources could be passed through that amp.
 
