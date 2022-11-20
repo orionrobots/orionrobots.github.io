@@ -16,3 +16,9 @@ Further to my recent announcements about the publication of my book, [Learn Robo
 This is the second best place to see that Raspberry Pi based Python3 robot tracking and following coloured objects, tracking faces, sonar scans, avoiding obstacles and driven from a phone.
 
 The first best place is to buy the book and build one yourself! Where you'll be able to do speech recognition, driving fixed distances, line following and more.
+
+* Order hear: [Learn Robotics Programming second edition](http://packt.live/2XccaKe)
+* [More about the book]({% post_url 2021-01-15-learn-robotics-programming-second-edition %})
+* [Learn Robotics Programming Hardware List]({% post_url 2021-02-19-hardware-shopping-list-2nd-ed %})
+
+[![Learn robotics Programming 2nd Edition Cover](/galleries/learn-robotics-programming-2nd-edition/learn-robotics-programming-2nd-cover.jpg)](http://packt.live/2XccaKe)
