@@ -48,6 +48,17 @@ This list has some recommended links, but you are encouraged to shop around in y
 
 * Bonus part - you can buy another layer for the chassis itf you are running out of space. [Chassis layer](https://www.aliexpress.com/item/32848304260.html)
 
+## Tools
+
+You will require a few tools for this book:
+
+* [Screwdrivers](https://thepihut.com/products/straight-cross-screwdriver) - I recommend at least a small Phillips head and a small flat head. A miniature set will help for the tiny wire connections.
+* Soldering station - a soldering iron and holder. Do not use a soldering iron without a holder.
+* [Solder](https://thepihut.com/products/solder-wire-60-40-rosin-core-0-5mm-0-02-diameter-50-grams) - I recommend 60/40 for a beginner. Lead free is good, but can be more frustrating to work with.
+* [Solder tip cleaner](https://thepihut.com/products/soldering-tip-cleaner) - to clean the soldering iron tip - the brass wool type is good.
+* A well lit working area
+* A set of Miniature metric wrenches - I love this engineer metric kit - [Metric Spanner Set](https://thepihut.com/products/engineer-combination-spanner-set-1).
+
 ## Links
 
 * Links to order: <http://packt.live/2XccaKe>
