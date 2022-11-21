@@ -1,6 +1,6 @@
 ---
 created: 2019-02-09 08:04:30
-tags: [robotics, book, raspberry pi, leds]
+tags: [robotics, book, raspberry pi, leds, learn robotics at home]
 title: New addressable RGB LED's, perfect for a robot
 layout: post
 ---

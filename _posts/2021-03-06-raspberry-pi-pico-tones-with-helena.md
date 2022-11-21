@@ -15,7 +15,7 @@ I've been playing with the Raspberry Pi Pico a lot lately, and Mini_orionrobots 
 
 I've not written much on the Orionrobots channel about the Raspberry Pi Pico, but it is a really awesome device. It's a microcontroller - capable of running code to control physical hardware. It's also pretty small. With a breakout board not so different from an Arduino Nano in size.
 
-The Raspberry Pi pico runs at 133Mhz, with dual cores. It is able to run MicroPython and Circuit Python, so it's vert suitable for teaching aspects of text coding with kids,
+The Raspberry Pi pico runs at 133Mhz, with dual cores. It is able to run MicroPython and Circuit Python, so it's very suitable for teaching aspects of text coding with kids. It's a great tool to learn electronics, robotics or microcontroller programming at home with.
 
 It's also only £3.60 - so I'm very happy to let my kids code and connect things to it.
 
