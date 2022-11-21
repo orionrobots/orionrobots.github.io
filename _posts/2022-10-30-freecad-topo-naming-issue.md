@@ -14,3 +14,5 @@ The image shows the state of the model tree. There's a spreadsheet, a set of mas
 The rename means the shapebinders now all refer to the wrong edges.
 
 I saw this with a few operations. Either splitting a line, which would create 2 lines and so logically cause renaming, however, I also saw this when only changing the constraints on a sketch. Which led to multiple objects to rebuild. This is not fun. I'm using FreeCAD 0.20.
+
+While this is frustrating, to learn robotics at home, CAD is an essential skill. FreeCAD is the leading open source CAD tool, and it's getting better all the time. I'm going to keep using it, and keep reporting bugs.
