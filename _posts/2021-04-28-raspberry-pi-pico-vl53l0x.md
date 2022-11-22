@@ -4,9 +4,7 @@ title: Raspberry Pi Pico with the VL53L0x Distance sensor
 description: >-
   Get an optical laser based distance sensors or two working with the Raspberry
   Pi Pico
-tags: >-
-  raspberry pi,raspberry pi pico,raspberry pi pico
-  projects,micropython,programming,electronics,microcontroller,sensors,robotics
+tags: [raspberry pi,raspberry pi pico,raspberry pi pico projects,micropython,programming,electronics,microcontroller,sensors,learn robotics at home]
 published: true
 using_mathjax: false
 ---

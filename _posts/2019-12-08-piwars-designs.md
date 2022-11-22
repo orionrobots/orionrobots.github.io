@@ -2,7 +2,7 @@
 layout: post
 title: "Piwars 2020 Designs"
 description: "Designs and Initial Plans for PiWars 2020"
-tags: [robotics, raspberry pi, raspberry pi projects, raspberry pi 3 projects, piwars, robot, raspberry pi zero w projects, piwars, fusion360]
+tags: [robotics, raspberry pi, raspberry pi projects, raspberry pi 3 projects, piwars, robot, raspberry pi zero w projects, piwars, fusion360, learn robotics at home]
 ---
 {% include JB/setup %}
 

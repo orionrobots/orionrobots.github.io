@@ -9,25 +9,21 @@ description: "Who are Orionrobots and why do we love building robots?"
 
 We build robots for fun, learning and would like to share that with others.
 
+We (Danny, Pheobe and Jonathan) all are learning robotics at home, using tools, materials and techniques that are available to everyone.
+
 We love robotics. Here are 3 good reasons why:
-1. Robotics can be used to promote ICT/STEM learning - for both adults and children, this can increase computer, electronic, technological literacy.
+
+1. Robotics can promote STEM learning for  adults and children, increasing computer, electronic, technological literacy.
 2. Closing the gap between having an idea and building it - when a kid or adult has an idea for a new contraption, having kits to build upon, to experiment with to get there vastly reduces the barrier to entry.
 3. Because robots are fun and we personally like tinkering with them!
 
 We build other gadgets, play with code and generally use technology in a creative and fun way.
 
-OrionRobots is a company based upon providing information and education about technology and robotics 
-to any who are interested. The goals are ultimately advancement and enjoyment of such technology. We are
-more about bodging something that would work and someone can try out themselves, than crafting perfect
-solutions. Learning, playing and then teaching and mentoring is how we do things.
+OrionRobots is a company based upon providing information and education about technology and robotics to any who are interested. The goals are ultimately advancement and enjoyment of such technology. We are more about bodging something at home that would work and someone can try out themselves, than crafting perfect solutions. Learning, playing and then teaching and mentoring is how we do things.
 
-The website incorporates a number of sources and types of information, including factual information 
-and statistics, tutorials and walkthroughs, a directory of related material, forums for public 
-discussion, news and articals, and also blogs on opinions and viewpoints.
+The website incorporates news articles, tutorials and blogs about robotics and technology. We also have a YouTube channel where we post videos about our projects and other things we find interesting.
 
-Through such a collection we hope to create a rounded view of technology, and make it easy for 
-those trying to learn robotics, or even those who are on the cutting edge, to find what they need, 
-and share their experiences with others.
+Through such a collection we hope to make it easy for those trying to learn robotics at home, or even those who are on the cutting edge, to find what they need, and share their experiences with others.
 
 ### The Longer Version
 
@@ -82,10 +78,10 @@ I am professionally a computer programmer - specialising in automation of buildi
 
 I am a member of the British Computer Society, have attended PyCon Uk for the past 3 years, joining the growing education track there. I am in the process of becoming a STEM Ambassador and a member of the Computing At School initiative.
 
-# Contacting Us
+## Contacting Us
 
 The best ways to reach us are:
 
-* Twitter: [@orionrobots](https://twitter.com/orionrobots)
 * Facebook: [@orionrobots](https://facebook.com/orionrobots)
 * Youtube: [@orionrobots](https://youtube.com/orionrobots)
+* Twitter: [@orionrobots](https://twitter.com/orionrobots)
