@@ -40,3 +40,6 @@ On the Raspberry Pi Pico (or other Circuitpython/micropython devices), step debu
 
 Ulab is definitely worth getting to know on the Microcontroller Python variants.
 
+## Interesting gotcha with for loops
+
+It is fair to say that when using numpy, you are probably going to try to avoid loops at all costs. However, if you have them, beware that a problem with a range will show the last line of the loop, and not the first line. This can be quite confusing behaviour. I've seen this by leaving the .shape[0] off when looping over multiple arrays (ie one persistent array plus a temporary one so using an index).
