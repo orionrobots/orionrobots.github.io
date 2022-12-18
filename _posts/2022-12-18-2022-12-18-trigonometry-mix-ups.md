@@ -2,7 +2,7 @@
 layout: post
 published: true
 using_mathjax: true
-title: 2022-12-18-trigonometry-mix-ups
+title: Geometry and Trigonometry mix ups
 description: Geometry and trigonometry
 category: robot building
 tags: learn robotics at home, robotics, mathematics, programming
