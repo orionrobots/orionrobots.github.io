@@ -26,14 +26,14 @@ Lets take the intention as calculating the x and y displacement of a line of len
 $$x = cos(\theta) * r$$
 $$y = sin(\theta) * r$$
 
-In this case, the heading $theta=0$ will be pointing to the right. A positive change in theta would move the point around anticlockwise around the starting point. This is the orientation considered mathematically correct.
+In this case, the heading $theta=0$ will be pointing to the right, facing East. A positive change in theta would move the point around anticlockwise around the starting point. This is the orientation considered mathematically correct.
 
 ### Scenario 2 "True bearing"
 
 $$x = sin(\theta) * r$$
 $$y = cos(\theta) * r$$
 
-Now the heading $\theta=0$ will be point straight up (or forward). A positive change in theta will move the point around clockwise around the starting point.
+Now the heading $\theta=0$ will be point North, straight up (or forward). A positive change in theta will move the point around clockwise around the starting point.
 
 It's not hard to see how mixing these up will lead to completely odd behaviour. If the angles form a sensor are in terms of heading up, clockwise positive theta, while all your other calculations work the other way, you are going to get some odd behaviour from the robot.
 
