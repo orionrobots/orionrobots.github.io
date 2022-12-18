@@ -59,6 +59,10 @@ I have confirmed that the euler angles returned by the BNO055 IMU sensor definit
 
 My preferred appraoch will be to adopt standard position throughout the code, and convert to/from it where needed (at least before it needs optimising). 
 
+Converting this can be done with subtracting the true bearing from 90 (or $2/pi$), then taking back to the nearest +/- 180.
+
+$$\theta_{sd}=90-\theta_{tb}$$
+
 ## Dont get hung up on the symbols
 
 Theta sounds scary, but it's really just a name for a heading angle. The fancy greek lettering $\theta$ is a shorthand for it, and when scribbling these on a  back of an envelope (an awful lot of my robotics thinking takes place with a biro and a scrap of paper), is easier than writign the word "heading" every time. Doubly so if you've seen my handwriting.
