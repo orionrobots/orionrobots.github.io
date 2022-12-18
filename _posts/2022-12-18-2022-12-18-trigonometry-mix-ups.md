@@ -37,9 +37,19 @@ It's not hard to see how mixing these up will lead to completely odd behaviour. 
 
 This orientation seems intuitive to people as it matches compass headings instead.
 
+## SOHCAHTOA
+
+In terms of this, it's just about right angled triangles. It makes no determination really about which orientation the system is add. Recall though that by having an x offset, y offset and length r, we are talking about a right angled triangle. The length r is the hypotenuse - the longest side of the triangle. 
+
+If we go with scenario 1, then the X offset will be the Adjacent length, invoking CAH, and the Y, projected at the end of the line, would be the Opposite length, invoking SOH.
+
+In secnario 2, this is inverted, such that the Y offset is now the Adjacent and the X, would become the oposite.
+
 ## What about other functions
 
 This comes into interactions all over. There's interactions with sensors, code that assumes a system, then other trig functions like the tangent. WHich has been a bit of headache. First is to ensure you've understood which way up they think it will be, and then when you are clear on that (leave yourself comments in the code for when you forget), make sure you have good ways to convert.
+
+The tangent can be determined by gong back to SOHCAHTOA, with secnario 1, X is adjacent, Y is opposite, so $tan(o/a) = tan(dy/dx)$ which you would mostly expect. However, with scenario 2, you'll neeed to reverse this, so $tan(o/a) = tan(dx/dy)$.
 
 ## Dont get hung up on the symbols
 
