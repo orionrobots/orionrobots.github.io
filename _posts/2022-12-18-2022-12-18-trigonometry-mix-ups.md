@@ -4,6 +4,8 @@ published: false
 using_mathjax: true
 title: 2022-12-18-trigonometry-mix-ups
 description: Geometry and trigonometry
+category: robot building
+tags: 'learn robotics at home, robotics, mathematics, programming'
 ---
 ## Trigonometry in robotics
 
@@ -33,4 +35,4 @@ Now the heading $theta=0$ will be point straight up (or forward). A positive cha
 
 It's not hard to see how mixing these up will lead to completely odd behaviour. If the angles form a sensor are in terms of heading up, clockwise positive theta, while all your other calculations work the other way, you are going to get some odd behaviour from the robot.
 
-This orientation seems intuitive to people as it matches compass headings instead. 
+This orientation seems intuitive to people as it matches compass headings instead.
