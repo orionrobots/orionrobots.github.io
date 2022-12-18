@@ -55,6 +55,10 @@ The tangent can be determined by gong back to SOHCAHTOA, with standard position,
 
 I have confirmed that the euler angles returned by the BNO055 IMU sensor definitely expects North = 0, and is definitely clockwise from here.
 
+## Conversion from true bearing to standard position
+
+My preferred appraoch will be to adopt standard position throughout the code, and convert to/from it where needed (at least before it needs optimising). I think 90 minus the true bearing will do this conversion.
+
 ## Dont get hung up on the symbols
 
 Theta sounds scary, but it's really just a name for a heading angle. The fancy greek lettering $\theta$ is a shorthand for it, and when scribbling these on a  back of an envelope (an awful lot of my robotics thinking takes place with a biro and a scrap of paper), is easier than writign the word "heading" every time. Doubly so if you've seen my handwriting.
