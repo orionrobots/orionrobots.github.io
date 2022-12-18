@@ -21,13 +21,15 @@ However, there are two ways to use this, and while one may be _mathematically co
 
 Lets take the intention as calculating the x and y displacement of a line of length $r$ in direction $theta$.
 
-Scenario 1:
+### Scenario 1 "Standard position"
+
 $$x = cos(\theta) * r$$
 $$y = sin(\theta) * r$$
 
 In this case, the heading $theta=0$ will be pointing to the right. A positive change in theta would move the point around anticlockwise around the starting point. This is the orientation considered mathematically correct.
 
-Scenario 2:
+### Scenario 2 "True bearing"
+
 $$x = sin(\theta) * r$$
 $$y = cos(\theta) * r$$
 
@@ -41,17 +43,17 @@ This orientation seems intuitive to people as it matches compass headings instea
 
 In terms of this, it's just about right angled triangles. It makes no determination really about which orientation the system is add. Recall though that by having an x offset, y offset and length r, we are talking about a right angled triangle. The length r is the hypotenuse - the longest side of the triangle. 
 
-If we go with scenario 1, then the X offset will be the Adjacent length, invoking CAH, and the Y, projected at the end of the line, would be the Opposite length, invoking SOH.
+If we go with standard position, then the X offset will be the Adjacent length, invoking CAH, and the Y, projected at the end of the line, would be the Opposite length, invoking SOH.
 
-In secnario 2, this is inverted, such that the Y offset is now the Adjacent and the X, would become the oposite.
+In a true bearing, this is inverted, such that the Y offset is now the Adjacent and the X, would become the oposite.
 
 ## What about other functions
 
 This comes into interactions all over. There's interactions with sensors, code that assumes a system, then other trig functions like the tangent. WHich has been a bit of headache. First is to ensure you've understood which way up they think it will be, and then when you are clear on that (leave yourself comments in the code for when you forget), make sure you have good ways to convert.
 
-The tangent can be determined by gong back to SOHCAHTOA, with secnario 1, X is adjacent, Y is opposite, so $tan(o/a) = tan(dy/dx)$ which you would mostly expect. However, with scenario 2, you'll neeed to reverse this, so $tan(o/a) = tan(dx/dy)$.
+The tangent can be determined by gong back to SOHCAHTOA, with standard position, X is adjacent, Y is opposite, so $tan(o/a) = tan(dy/dx)$ which you would mostly expect. However, with a true bearing, you'll neeed to reverse this, so $tan(o/a) = tan(dx/dy)$.
 
-However, I have confirmed that the euler angles returned by an IMU sensor definitely expects North = 0, and is definitely clockwise from here.
+I have confirmed that the euler angles returned by the BNO055 IMU sensor definitely expects North = 0, and is definitely clockwise from here.
 
 ## Dont get hung up on the symbols
 
