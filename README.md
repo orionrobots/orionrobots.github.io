@@ -11,3 +11,5 @@ Build:
     $ docker build . -t orionrobots:builder
     $ docker run --rm -it -p 4000:4000 -v $(pwd):/srv/jekyll orionrobots:builder bash
     # jekyll build (or serve)
+
+Edit/make posts for authenticated users: https://prose.io/#orionrobots/orionrobots.github.io
