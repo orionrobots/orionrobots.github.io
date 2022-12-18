@@ -57,7 +57,7 @@ I have confirmed that the euler angles returned by the BNO055 IMU sensor definit
 
 ## Conversion from true bearing to standard position
 
-My preferred appraoch will be to adopt standard position throughout the code, and convert to/from it where needed (at least before it needs optimising). I think 90 minus the true bearing will do this conversion.
+My preferred appraoch will be to adopt standard position throughout the code, and convert to/from it where needed (at least before it needs optimising). 
 
 ## Dont get hung up on the symbols
 
