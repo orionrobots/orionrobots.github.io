@@ -51,6 +51,8 @@ This comes into interactions all over. There's interactions with sensors, code t
 
 The tangent can be determined by gong back to SOHCAHTOA, with secnario 1, X is adjacent, Y is opposite, so $tan(o/a) = tan(dy/dx)$ which you would mostly expect. However, with scenario 2, you'll neeed to reverse this, so $tan(o/a) = tan(dx/dy)$.
 
+However, I have confirmed that the euler angles returned by an IMU sensor definitely expects North = 0, and is definitely clockwise from here.
+
 ## Dont get hung up on the symbols
 
 Theta sounds scary, but it's really just a name for a heading angle. The fancy greek lettering $\theta$ is a shorthand for it, and when scribbling these on a  back of an envelope (an awful lot of my robotics thinking takes place with a biro and a scrap of paper), is easier than writign the word "heading" every time. Doubly so if you've seen my handwriting.
