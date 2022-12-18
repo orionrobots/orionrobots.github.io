@@ -24,6 +24,7 @@ Lets take the intention as calculating the x and y displacement of a line of len
 ### Scenario 1 "Standard position"
 
 $$x = cos(\theta) * r$$
+
 $$y = sin(\theta) * r$$
 
 In this case, the heading $theta=0$ will be pointing to the right, facing East. A positive change in theta would move the point around anticlockwise around the starting point. This is the orientation considered mathematically correct.
@@ -31,6 +32,7 @@ In this case, the heading $theta=0$ will be pointing to the right, facing East. 
 ### Scenario 2 "True bearing"
 
 $$x = sin(\theta) * r$$
+
 $$y = cos(\theta) * r$$
 
 Now the heading $\theta=0$ will be point North, straight up (or forward). A positive change in theta will move the point around clockwise around the starting point.
@@ -66,5 +68,9 @@ $$\theta_{sd}=90-\theta_{tb}$$
 ## Dont get hung up on the symbols
 
 Theta sounds scary, but theta is really just a name for a heading angle. The fancy greek lettering $\theta$ is a shorthand for the heading angle, and when scribbling these on the back of an envelope (an awful lot of my robotics thinking takes place with a biro and a scrap of paper), is easier than writign the word "heading" every time. Doubly so if you've seen my handwriting.
+
+## Broken mathjax
+
+In other news, it looks like mathjax is broken here, as the single dollar expansions don't yet work above. When I fix that, this message will no longer make sense.
 
 
