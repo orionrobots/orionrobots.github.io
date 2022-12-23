@@ -1,8 +1,9 @@
 ---
 layout: post
-published: false
+published: true
 using_mathjax: false
 title: Debugging motion data
+category: robot building
 ---
 I am currently working on a motion model for a robotics localisation system, more details of which will be in an upcoming book.
 
