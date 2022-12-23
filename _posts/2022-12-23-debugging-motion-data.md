@@ -122,3 +122,7 @@ This gave a fairly dull graph, with a full rotation of around -25 degrees (let's
 This also doesn't make for little rings. So the motion data doesn't currently hold with what all the poses are doing. 
 
 I will continue to investigate, but my guess so far is that when I'm applying the motion data to the poses, something is changing in that data across the range of poses.
+
+## Update
+
+After digging throughout the day, I was able to isolate the problem I had to being [a bug in ulab](https://github.com/adafruit/circuitpython/issues/7376) and raise this with CircuitPython.
