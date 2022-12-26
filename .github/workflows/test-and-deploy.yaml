@@ -157,7 +157,7 @@ jobs:
         run: |
           echo "OAUTH_CLIENT_ID=${{ secrets.ORIONROBOTS_OAUTH_CLIENT_ID }}" > netlify-cms-oauth-provider-php/.env.local
           echo "OAUTH_CLIENT_SECRET=${{ secrets.ORIONROBOTS_OAUTH_CLIENT_SECRET }}" >> netlify-cms-oauth-provider-php/.env.local
-          echo "REDIRECT_URI=https://orionrobots.co.uk/admin/oauth/callback" >> netlify-cms-oauth-provider-php/.env.local
+          echo "REDIRECT_URI=github-oauth2.orionrobots.co.uk/callback" >> netlify-cms-oauth-provider-php/.env.local
           echo "ORIGIN=https://orionrobots.co.uk" >> netlify-cms-oauth-provider-php/.env.local
           echo "APP_ENV=prod" >> netlify-cms-oauth-provider-php/.env.local
       - name: Copy over the oauth environment file
