@@ -32,12 +32,21 @@ My thought is to connect to these ports and try and send commands/get data. I'll
 Comtool had windows binaries, but is also open source at <https://github.com/sipeed/MetaSense-ComTool>. Going to try and git clone this, and see if it works on the mac. 
 
 * Clone it
-* Use poetry to make a local environment (based on its requirements.txt) (see https://stackoverflow.com/questions/62764148/how-to-import-requirements-txt-from-an-existing-project-using-poetry)
+* Make a python virtual env \`python3.9 -mvenv .venv\`, install requirements.
+* \`pip install -e .\`
 * Run it and see what it picks up.
 
-### Why poetry
+It launched - I saw a Sipeed logo and this interface:
 
-This app has a lot of requirements. I'm using poetry as a convenient wrapper to python venv. Perhaps lazy, but it kinda works. I could also just use venv and venv activate...
+![Sipeed comtool for Maixsense A010](/galleries/screenshot-2022-12-26-at-15.16.23.png)
+
+After this launches, I was able to select the serial port, add the graph tool they suggested, and click open. I had to try both before one worked.
+
+![Multiple serial ports](/galleries/screenshot-2022-12-26-at-15.26.34.png)
+
+This connected. I tried the graph thing. The next frustrating issue is that the window is too small and cannot be dragged out.
+
+However the bigger issue is that I am not receiving data from the device. I tried an AT+OK/r and other ideas - but literally getting nothing back. I think there's a fault with it.
 
 ## Links
 
