@@ -155,18 +155,18 @@ jobs:
       - name: Create the oauth environment file
         if: steps.filter.outputs.workflows == 'true'
         run: |
-          echo "OAUTH_CLIENT_ID=${{ secrets.ORIONROBOTS_OAUTH_CLIENT_ID }}" > netlify-cms-oauth-provider-php/.env
-          echo "OAUTH_CLIENT_SECRET=${{ secrets.ORIONROBOTS_OAUTH_CLIENT_SECRET }}" >> netlify-cms-oauth-provider-php/.env
-          echo "REDIRECT_URI=https://orionrobots.co.uk/admin/oauth/callback" >> netlify-cms-oauth-provider-php/.env
-          echo "ORIGIN=https://orionrobots.co.uk" >> netlify-cms-oauth-provider-php/.env
-          echo "APP_ENV=prod" >> netlify-cms-oauth-provider-php/.env
+          echo "OAUTH_CLIENT_ID=${{ secrets.ORIONROBOTS_OAUTH_CLIENT_ID }}" > netlify-cms-oauth-provider-php/.env.local
+          echo "OAUTH_CLIENT_SECRET=${{ secrets.ORIONROBOTS_OAUTH_CLIENT_SECRET }}" >> netlify-cms-oauth-provider-php/.env.local
+          echo "REDIRECT_URI=https://orionrobots.co.uk/admin/oauth/callback" >> netlify-cms-oauth-provider-php/.env.local
+          echo "ORIGIN=https://orionrobots.co.uk" >> netlify-cms-oauth-provider-php/.env.local
+          echo "APP_ENV=prod" >> netlify-cms-oauth-provider-php/.env.local
       - name: Copy over the oauth environment file
         if: steps.filter.outputs.workflows == 'true'
         uses: burnett01/rsync-deployments@5.2
         with:
           switches: -a
           path: netlify-cms-oauth-provider-php/.env.local
-          remote_path: github-oauth2/.env
+          remote_path: github-oauth2/.env.local
           remote_host: home738752777.1and1-data.host
           remote_user: ${{ secrets.ORIONROBOTS_DEPLOY_USER }}
           remote_key: ${{ secrets.ORIONROBOTS_DEPLOY_KEY }}      
