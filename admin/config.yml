@@ -20,3 +20,8 @@ collections:
       - {label: "tags", name: "tags", widget: "list"}
       - {label: "category", name: "category", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}
+    view_groups:
+      - label: Year
+        field: date
+        # groups items based on the value matched by the pattern
+        pattern: \d{4}

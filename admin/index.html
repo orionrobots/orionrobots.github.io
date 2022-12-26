@@ -8,17 +8,6 @@
     [data-slate-editor] { 
         -webkit-user-modify: read-write !important; 
     }
-
-    .frame-content img {
-      display: inline-block;
-      height: auto;
-      max-width: 100%;
-    }
-
-    .frame-content {
-      font-family: "Roboto","Helvetica Neue",Helvetica,Arial,sans-serif;
-      font-size: 14px;
-    }
     </style>
 </head>
 <body>
@@ -26,5 +15,9 @@
   <!-- https://cdn.jsdelivr.net/npm/netlify-cms@^2.0.0/dist/netlify-cms.js -->
   <!-- see https://www.netlifycms.org/docs/add-to-your-site/ -->
   <script src="https://unpkg.com/netlify-cms@^2.0.0/dist/netlify-cms.js"></script>
+  <script>
+    CMS.registerPreviewStyle('/admin/preview.css');
+  </script>
 </body>
 </html>
+
