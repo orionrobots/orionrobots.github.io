@@ -11,7 +11,7 @@ tags:
   - range-finding
 category: robot building
 ---
-The Sipeed Maixsense A010 is a 200x200 depth camera/sensor - using optical time-of-flight (TOFL) to get a picture that represents a depth field view of a room. This is a pretty exciting idea to me - it's inexpensive (less than £100), solid state - not spinning, and small.
+The Sipeed Maixsense A010 is a 100x100 depth camera/sensor - using optical time-of-flight (TOFL) to get a picture that represents a depth field view of a room. This is a pretty exciting idea to me - it's inexpensive (less than £100), solid state - not spinning, and small.
 
 ![MaixSense A010 Sensor in box](/galleries/img_6958.jpeg)
 
@@ -46,7 +46,9 @@ After this launches, I was able to select the serial port, add the graph tool th
 
 This connected. I tried the graph thing. The next frustrating issue is that the window is too small and cannot be dragged out.
 
-However the bigger issue is that I am not receiving data from the device. I tried an AT+OK/r and other ideas - but literally getting nothing back. I think there's a fault with it.
+However the bigger issue is that I am not receiving data from the device. I tried the buttons in the app, an AT+OK/r and other ideas - but literally getting nothing back. I think there's a fault with it. I've sent 969 bytes, and received 0.
+
+My next step is to try and contact SipeedIO for help, perhaps they know something I can try.
 
 ## Links
 
