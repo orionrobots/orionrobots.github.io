@@ -17,7 +17,7 @@ jobs:
     container:
       image: jekyll/builder:4
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
       - name: Setup dependencies
         run: |
           apk add imagemagick
@@ -49,7 +49,7 @@ jobs:
     runs-on: ubuntu-latest
     needs: build_site
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
       - name: Fetch site artifact
         uses: actions/download-artifact@v3
         with:
@@ -124,7 +124,7 @@ jobs:
   deploy_oauth_config:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
       - uses: dorny/paths-filter@v2
         id: filter
         with:
@@ -133,7 +133,7 @@ jobs:
               - '.github/workflows/**'
       # see https://github.com/mcdeck/netlify-cms-oauth-provider-php
       - name: Checkout the netlify-cms-oauth-provider-php
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
         with:
           repository: mcdeck/netlify-cms-oauth-provider-php
           path: netlify-cms-oauth-provider-php
@@ -159,12 +159,13 @@ jobs:
           echo "OAUTH_CLIENT_SECRET=${{ secrets.ORIONROBOTS_OAUTH_CLIENT_SECRET }}" >> netlify-cms-oauth-provider-php/.env
           echo "REDIRECT_URI=https://orionrobots.co.uk/admin/oauth/callback" >> netlify-cms-oauth-provider-php/.env
           echo "ORIGIN=https://orionrobots.co.uk" >> netlify-cms-oauth-provider-php/.env
+          echo "APP_ENV=prod" >> netlify-cms-oauth-provider-php/.env
       - name: Copy over the oauth environment file
         if: steps.filter.outputs.workflows == 'true'
         uses: burnett01/rsync-deployments@5.2
         with:
           switches: -a
-          path: netlify-cms-oauth-provider-php/.env
+          path: netlify-cms-oauth-provider-php/.env.local
           remote_path: github-oauth2/.env
           remote_host: home738752777.1and1-data.host
           remote_user: ${{ secrets.ORIONROBOTS_DEPLOY_USER }}
