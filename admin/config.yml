@@ -2,6 +2,7 @@ backend:
     name: github
     repo: orionrobots/orionrobots.github.io
     branch: master
+    base_url: https://github-oauth2.orionrobots.co.uk
 # This line should *not* be indented (for draft/review/publish workflow)
 # publish_mode: editorial_workflow 
 media_folder: "galleries"

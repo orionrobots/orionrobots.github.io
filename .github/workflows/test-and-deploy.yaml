@@ -120,4 +120,37 @@ jobs:
           curl -I -L -f https://orionrobots.co.uk/
           curl -I -L -f https://orionrobots.co.uk/construction_guide.html 
           curl -I -L -f https://orionrobots.co.uk/wiki/lego
-      
+      # see https://github.com/mcdeck/netlify-cms-oauth-provider-php
+      - name: Checkout the netlify-cms-oauth-provider-php
+        uses: actions/checkout@v2
+        with:
+          repository: https://github.com/mcdeck/netlify-cms-oauth-provider-php.git
+          path: netlify-cms-oauth-provider-php
+      - name: Perform the netlify compposer install
+        run: |
+          cd netlify-cms-oauth-provider-php
+          composer install
+      - name: Copy over the netlify-cms-oauth-provider-php files
+        uses: burnett01/rsync-deployments@5.2
+        with:
+          switches: -a
+          path: netlify-cms-oauth-provider-php/
+          remote_path: github-oauth2
+          remote_host: home738752777.1and1-data.host
+          remote_user: ${{ secrets.ORIONROBOTS_DEPLOY_USER }}
+          remote_key: ${{ secrets.ORIONROBOTS_DEPLOY_KEY }}
+      - name: Create the oauth environment file
+        run: |
+          echo "OAUTH_CLIENT_ID=${{ secrets.ORIONROBOTS_OAUTH_CLIENT_ID }}" > netlify-cms-oauth-provider-php/.env
+          echo "OAUTH_CLIENT_SECRET=${{ secrets.ORIONROBOTS_OAUTH_CLIENT_SECRET }}" >> netlify-cms-oauth-provider-php/.env
+          echo "REDIRECT_URI=https://orionrobots.co.uk/admin/oauth/callback" >> netlify-cms-oauth-provider-php/.env
+          echo "ORIGIN=https://orionrobots.co.uk" >> netlify-cms-oauth-provider-php/.env
+      - name: Copy over the oauth environment file
+        uses: burnett01/rsync-deployments@5.2
+        with:
+          switches: -a
+          path: netlify-cms-oauth-provider-php/.env
+          remote_path: github-oauth2/.env
+          remote_host: home738752777.1and1-data.host
+          remote_user: ${{ secrets.ORIONROBOTS_DEPLOY_USER }}
+          remote_key: ${{ secrets.ORIONROBOTS_DEPLOY_KEY }}
