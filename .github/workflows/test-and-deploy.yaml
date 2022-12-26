@@ -120,17 +120,30 @@ jobs:
           curl -I -L -f https://orionrobots.co.uk/
           curl -I -L -f https://orionrobots.co.uk/construction_guide.html 
           curl -I -L -f https://orionrobots.co.uk/wiki/lego
+
+  deploy_oauth_config:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: dorny/paths-filter@v2
+        id: filter
+        with:
+          filters: |
+            workflows:
+              - '.github/workflows/**'
       # see https://github.com/mcdeck/netlify-cms-oauth-provider-php
       - name: Checkout the netlify-cms-oauth-provider-php
         uses: actions/checkout@v2
         with:
-          repository: https://github.com/mcdeck/netlify-cms-oauth-provider-php.git
+          repository: mcdeck/netlify-cms-oauth-provider-php
           path: netlify-cms-oauth-provider-php
-      - name: Perform the netlify compposer install
+      - name: Perform the netlify composer install
+        if: steps.filter.outputs.workflows == 'true'
         run: |
           cd netlify-cms-oauth-provider-php
           composer install
       - name: Copy over the netlify-cms-oauth-provider-php files
+        if: steps.filter.outputs.workflows == 'true'
         uses: burnett01/rsync-deployments@5.2
         with:
           switches: -a
@@ -140,12 +153,14 @@ jobs:
           remote_user: ${{ secrets.ORIONROBOTS_DEPLOY_USER }}
           remote_key: ${{ secrets.ORIONROBOTS_DEPLOY_KEY }}
       - name: Create the oauth environment file
+        if: steps.filter.outputs.workflows == 'true'
         run: |
           echo "OAUTH_CLIENT_ID=${{ secrets.ORIONROBOTS_OAUTH_CLIENT_ID }}" > netlify-cms-oauth-provider-php/.env
           echo "OAUTH_CLIENT_SECRET=${{ secrets.ORIONROBOTS_OAUTH_CLIENT_SECRET }}" >> netlify-cms-oauth-provider-php/.env
           echo "REDIRECT_URI=https://orionrobots.co.uk/admin/oauth/callback" >> netlify-cms-oauth-provider-php/.env
           echo "ORIGIN=https://orionrobots.co.uk" >> netlify-cms-oauth-provider-php/.env
       - name: Copy over the oauth environment file
+        if: steps.filter.outputs.workflows == 'true'
         uses: burnett01/rsync-deployments@5.2
         with:
           switches: -a
@@ -153,4 +168,4 @@ jobs:
           remote_path: github-oauth2/.env
           remote_host: home738752777.1and1-data.host
           remote_user: ${{ secrets.ORIONROBOTS_DEPLOY_USER }}
-          remote_key: ${{ secrets.ORIONROBOTS_DEPLOY_KEY }}
+          remote_key: ${{ secrets.ORIONROBOTS_DEPLOY_KEY }}      
