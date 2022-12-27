@@ -19,6 +19,8 @@ This led me to questioning the power supply from the port I was using on my Macb
 
 I tried a different dock on the Macbook, which works! I was now able to see output on the sensors screen while connected to my laptop.
 
+![The MaixSense A010 sensor sensing depth of a robot](/galleries/focus_stacked_a010_and_robot-med.jpg)
+
 ## Comtool
 
 Yesterday, I'd set up comtool. Today I tried again, the graph screen was still left from before. I connected to the second serial port from the device, set the header, unticked and reticked USB and I started getting data from the device:
