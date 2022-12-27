@@ -11,7 +11,7 @@ tags:
   - distance-sensing
 category: robot-building
 ---
-In yesterdays [Maixsense A010 post](https://orionrobots.co.uk/robot%20building/2022/12/26/maixsense-a010-first-impressions.html) I had reached a block, and it hadn't worked either standalone, or via the serial port.
+In yesterday's [Maixsense A010 post](https://orionrobots.co.uk/robot%20building/2022/12/26/maixsense-a010-first-impressions.html) I had reached a block, and it hadn't worked either standalone, or via the serial port.
 
 I contacted Sipeed (the manufacturer) for help via twitter, and their Indigogo campaign. They responded within 24 hours, and suggested I try a USB power supply (no computer). I tried a simple 5v 2.4a USB power supply, and it worked - I got a display.
 
