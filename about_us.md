@@ -9,7 +9,7 @@ description: "Who are Orionrobots and why do we love building robots?"
 
 We build robots for fun, learning and would like to share that with others.
 
-We (Danny, Pheobe and Jonathan) all are learning robotics at home, using tools, materials and techniques that are available to everyone.
+We (Danny, Pheobe and Jonathan) all are learning robotics at home, using tools, materials and techniques that are available to everyone. You can get in touch with us on discord at https://discord.gg/4kcSNf4Npp.
 
 We love robotics. Here are 3 good reasons why:
 
@@ -82,6 +82,5 @@ I am a member of the British Computer Society, have attended PyCon Uk for the pa
 
 The best ways to reach us are:
 
-* Facebook: [@orionrobots](https://facebook.com/orionrobots)
+* Discord: [Danny Staple Robotics](https://discord.gg/4kcSNf4Npp)
 * Youtube: [@orionrobots](https://youtube.com/orionrobots)
-* Twitter: [@orionrobots](https://twitter.com/orionrobots)
