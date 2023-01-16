@@ -11,4 +11,5 @@ category: robot-building
 ---
 I've written books, articles, blog posts and made youtube videos. I've decided to make a place where my community can contact me to get support, talk about these robot materials, ask me questions, give me feedback, or feed into other books and content.
 
-I've made a discord server at https://discord.gg/4kcSNf4Npp.
+You can now reach me, and this community at:
+[Danny Staple Robotics Discord Server](https://discord.gg/4kcSNf4Npp).
