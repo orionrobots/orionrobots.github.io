@@ -2,6 +2,9 @@
 layout: page
 title: Frequently Asked Questions
 ---
+<strong>Q: How can we get support with robot building?</strong>
+Come visit the [Danny Staple Robotics discord server](https://discord.gg/4kcSNf4Npp).
+
 <strong>Q: What do you do with robots?</strong>
 Many things - I (Danny Staple) like to build them and tinker with them. I like to write about other robots seen in the news, and we have previously sold them.
 
