@@ -10,7 +10,7 @@ tags:
   - robot power
   - robot building
   - robots
-category: robot-building
+category: ""
 ---
 A question that I have been asked a few times now is why the Orion Explorer 1 Robot kit uses an AA battery box and not some customised battery solution.
 I'd like to explain why I chose this.
