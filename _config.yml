@@ -41,6 +41,7 @@ prose:
         field:
           label: "Description"
           element: "textarea"
+          required: false          
       # todo - generate a tags json p for selecting tags
       - name: "tags"
         field:
@@ -50,6 +51,7 @@ prose:
         field:
           label: "Category"
           element: "text"
+          required: false
       - name: "published"
         field:
           label: "published"
