@@ -1,7 +1,7 @@
 ---
-title: CNC Mil Unboxing and Setup
+title: CNC Mill Unboxing and Setup
 description: CNC Mill Unboxing and Setup
-tags: [cnc, stepper motors, mechanical]
+tags: [cnc, stepper motors, tools]
 layout: default
 ---
 {% assign gallery_url="/galleries/unboxing_pictures/images/" %}
