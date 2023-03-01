@@ -40,7 +40,7 @@ collections:
         name: "thumb"
         required: false
         widget: "image"
-        allow_multiple: "false"
+        allow_multiple: false
       - label: "Body"
         name: "body"
         widget: "markdown"
