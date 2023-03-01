@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Techno Games
-tags: [robots, robot events, robot wars]
+tags: [robots, robotics events, robot wars]
 date: 2004-11-14 14:41:18
 ---
 An event and tv show once featured on the BBC as a sister show to Robot Wars. A modern equivalent is Piwars.
