@@ -4,8 +4,8 @@ title: Interview with Packt Publishing on my upcoming book
 date: 2023-02-28T22:14:54.477Z
 description: Danny Staple talking about Robotics At Home with Raspberry Pi Pico
 tags:
-  - robotics-at-home
-  - raspberry-pi-pico
+  - robotics at home
+  - raspberry pi pico
   - books
 category: robot-books
 ---
