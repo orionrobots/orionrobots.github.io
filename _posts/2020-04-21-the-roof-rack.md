@@ -2,7 +2,7 @@
 layout: post
 title: "Piwars 2020 Robot design - The Roof Rack"
 description: "3D Printed Technic Lego Adaptor For Raspberry Pi Camera"
-tags: [robotics, raspberry pi, raspberry pi projects, raspberry pi 3 projects, piwars, robot, raspberry pi zero w projects, piwars, fusion360, 3d printing, technic lego, camera]
+tags: [robotics, raspberry pi, raspberry pi projects, raspberry pi 3 projects, piwars, robot, raspberry pi zero w projects, piwars, 3d cad, 3d printing, lego technic, robot building, robotics at home]
 ---
 {% include JB/setup %}
 
