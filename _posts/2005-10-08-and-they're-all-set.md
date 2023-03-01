@@ -1,7 +1,7 @@
 ---
 created: 2005-10-08 04:16:19
 description: And they're all set
-tags: [darpa, robot news, grand challenge, competitions, events]
+tags: [darpa, robot news, grand challenge, competitions, robotics events]
 title: Darpa Grand Challenge - they're all set
 layout: post
 ---
