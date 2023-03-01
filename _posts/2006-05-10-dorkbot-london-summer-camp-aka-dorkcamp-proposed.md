@@ -1,7 +1,7 @@
 ---
 created: 2006-05-10 10:32:42
 description: Dorkbot London Summer Camp - aka DorkCamp Proposed
-tags: [london, gadgets, maker, robot news, gadget, electronics]
+tags: [london, maker, robot news, electronics]
 title: Dorkbot London Summer Camp - aka DorkCamp Proposed
 layout: post
 todo: Convert gallery
