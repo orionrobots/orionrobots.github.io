@@ -6,7 +6,7 @@ tags:
   - micromouse
   - uk
   - robot building
-  - junkbuilding
+  - salage
   - technology
   - gadgets
   - events
