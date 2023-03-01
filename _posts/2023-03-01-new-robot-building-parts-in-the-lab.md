@@ -4,12 +4,13 @@ title: New robot building parts in the lab!
 date: 2023-03-01T10:54:02.634Z
 description: Robot parts from The Pi Hut
 tags:
-  - robotics-at-home
-  - robot-building
+  - learn robotics at home
+  - robot building
   - electronics
   - circuitpython
   - python
   - microcontroller
+  - building robots
 ---
 I am currently tutoring two children in robotics, which means practical and fun lessons ranging among a number of skills:
 
