@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Robot Events
-tags: [robots, robotics, events]
+tags: [robots, robotics events]
 ---
 Doing anything alone is not as much fun as being part of a community of people, 
 or going to where a large crowd are enjoying robots doing something interesting or spectacular.
