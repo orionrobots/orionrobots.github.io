@@ -12,7 +12,7 @@ collections:
     folder: "_posts"
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
-    fields: 
+    fields:
       - label: "Layout"
         name: "layout"
         widget: "hidden"
@@ -36,6 +36,11 @@ collections:
         name: "category"
         widget: "string"
         required: false
+      - label: "Thumbnail"
+        name: "thumb"
+        required: false
+        widget: "image"
+        allow_multiple: "false"
       - label: "Body"
         name: "body"
         widget: "markdown"
