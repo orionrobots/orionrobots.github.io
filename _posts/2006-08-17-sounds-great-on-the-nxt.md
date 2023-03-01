@@ -1,7 +1,7 @@
 ---
 created: 2006-08-17 00:32:49
 description: Sounds great on the NXT
-tags: [robotics, robot news, lugnet, lego, nxt, oss]
+tags: [robotics, robot news, lugnet, lego, nxt, open source]
 title: Sounds great on the NXT
 layout: post
 ---
