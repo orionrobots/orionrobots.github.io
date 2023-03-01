@@ -4,11 +4,11 @@ title: MaixSense A010 Day 2 - Sipeed Support
 date: 2022-12-27T12:47:10.295Z
 description: Getting the MaixSense depth sensor working
 tags:
-  - robot-building
+  - robot building
   - sensors
-  - learn-robotics-at-home
-  - time-of-flight
-  - distance-sensing
+  - learn robotics at home
+  - time of flight
+  - distance sensor
 category: robot-building
 ---
 In yesterday's [Maixsense A010 post](/robot%20building/2022/12/26/maixsense-a010-first-impressions.html) I had reached a block, and it hadn't worked either standalone, or via the serial port.
