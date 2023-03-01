@@ -1,7 +1,7 @@
 ---
 created: 2006-07-22 03:15:08
 description: MRAM Now Viable
-tags: [electronics,robot news,computing]
+tags: [electronics,robot news]
 title: MRAM Now Viable
 layout: post
 ---
