@@ -1,7 +1,7 @@
 ---
 created: 2005-07-22 09:56:48
 description: DorkBotLondon, New Survey
-tags: [london, electronics, events]
+tags: [london, electronics, robotics events]
 title: DorkBotLondon, New Survey
 layout: post
 ---
