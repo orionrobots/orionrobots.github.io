@@ -1,7 +1,7 @@
 ---
 created: 2007-11-20 17:00:12
 description: DARPA Urban Challenge
-tags: [events, competitions, robot news, robotics, ai]
+tags: [robotics events, competitions, robot news, robotics, ai]
 title: DARPA Urban Challenge
 layout: post
 ---
