@@ -6,10 +6,10 @@ tags:
   - micromouse
   - uk
   - robot building
-  - salage
+  - salvage
   - technology
   - gadgets
-  - events
+  - robotics events
 title: Chloe and Shannon
 layout: post
 todo_needs_sat: 'convert image refs, and gallery'
