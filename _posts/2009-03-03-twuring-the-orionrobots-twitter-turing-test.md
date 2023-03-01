@@ -2,7 +2,6 @@
 created: 2009-03-03T01:05:20.000Z
 description: Twuring - The Orionrobots Twitter Turing Test
 tags:
-  - twitter
   - turing
   - ai
   - chatbot
@@ -18,7 +17,6 @@ tags:
   - social networking
   - turing test
   - twitter chatbot
-  - twitter programming
   - robot news
 title: A Twitter Turing Contest - Put your best twitter bot Forward
 layout: post
