@@ -1,7 +1,7 @@
 ---
 created: 2006-07-09 16:04:29
 description: Pneumatic Engine Repost
-tags: [pneumatic, ldraw, leocad, cad, technic]
+tags: [pneumatic, ldraw, leocad, cad, lego technic]
 title: Pneumatic Engine Repost
 layout: post
 todo_needs_sat: ["Download file put into resources - take out of tiki", "tiki image refs"]
