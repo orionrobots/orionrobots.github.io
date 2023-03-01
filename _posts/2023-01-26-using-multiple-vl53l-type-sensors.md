@@ -9,7 +9,7 @@ tags:
   - robot electronics
   - robotics sensors
   - optical sensors
-  - distance sensors
+  - distance sensor
   - i2c bus
 category: robotics-at-home
 ---
