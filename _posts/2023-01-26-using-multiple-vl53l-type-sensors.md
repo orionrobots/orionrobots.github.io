@@ -4,13 +4,13 @@ title: Using multiple VL53L type sensors
 date: 2023-01-26T12:37:36.167Z
 description: Using multiple optical distance sensors
 tags:
-  - robot-building
-  - raspberry-pi-pico
-  - robot-electronics
-  - robotics-sensors
-  - optical-sensors
-  - distance-sensors
-  - i2c-bus
+  - robot building
+  - raspberry pi pico
+  - robot electronics
+  - robotics sensors
+  - optical sensors
+  - distance sensors
+  - i2c bus
 category: robotics-at-home
 ---
 The VL53LnX series sensors from ST are popular distance sensors. 
