@@ -2,7 +2,7 @@
 title: Day two of Piwars Raspberry Pi Robotics Competition 2022
 date: 2022-07-10T09:46:28
 layout: post
-tags: [robotics, raspberry pi, events, robot building]
+tags: [robotics, raspberry pi, robotics events, robot building, robotics at home]
 ---
 Today is day 2 of the Piwars Raspberry pi Robotics competition, with autonomous and manually driven robots by beginners, intermediate and pro robot builders. 
 
