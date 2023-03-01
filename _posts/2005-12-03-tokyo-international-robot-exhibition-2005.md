@@ -1,6 +1,6 @@
 ---
 title: Tokyo International Robot Exhibition 2005
-tags: [robot news, events, exosuit, hitachi, japan, robotics]
+tags: [robot news, robotics events, japan, robotics]
 layout: post
 ---
 ## Background
