@@ -1,7 +1,7 @@
 ---
 created: 2010-10-20 13:08:00
 description: Robots in unmanned warfare
-tags: [robot news, warfare, weapons, uav, unmanned, autonomous]
+tags: [robot news, uav, unmanned, autonomous]
 title: Robots in unmanned warfare
 layout: post
 ---
