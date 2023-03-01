@@ -4,7 +4,6 @@ description: Chloe and Shannon
 tags:
   - robot news
   - micromouse
-  - uk
   - robot building
   - salvage
   - technology
