@@ -149,3 +149,20 @@ a {
 .post_summary .post_title {
   font-size: 16px;
 }
+
+.video-container {
+  position: relative;
+  width: 100%;
+  height: 0;
+  /* set to 56.25% because 9 divided by 16 equals 0.5625, or 56.25% as a percentage. 
+    This is the aspect ratio of 16:9, which is the aspect ratio of HD video. */
+  padding-bottom: 56.25%;
+}
+
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
