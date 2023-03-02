@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Pino
-tags: [robots]
+tags: [robot toys, robotics projects]
 date: 2007-10-14 12:17:23
 ---
 Developed by Japan Science and Technology Corp. (JST), Pino is an [android](/wiki/android.html "Android") project, which has commercial, educational and research value. The engineering behind the PINO was later released under an [open source](/wiki/open_source.html "Products and packages which are generally free.") license while the stylised plastic shell is not.

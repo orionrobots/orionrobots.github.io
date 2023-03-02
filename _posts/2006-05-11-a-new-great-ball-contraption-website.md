@@ -1,7 +1,7 @@
 ---
 created: 2006-05-11 16:00:14
 description: A New Great Ball Contraption website
-tags: [gbc,lego,nxt,rcx,mindstorms,kugelbahn,innovation,contraption,invention]
+tags: [gbc,lego,nxt,rcx,mindstorms,kugelbahn,invention]
 title: A New Great Ball Contraption website
 layout: post
 ---

@@ -1,7 +1,7 @@
 ---
 created: 2007-11-25 15:20:00
 description: Genetic Algorithm Simulation
-tags: [programming, genetic algorithm, evolution, artificial life, genetic, algorithm, phenotype, genotype, evolution, simulation, alife]
+tags: [robotics programming, genetic algorithms, evolution, artificial life, phenotype, genotype, evolution, simulation, alife]
 title: Genetic Algorithm Simulation
 layout: post
 ---

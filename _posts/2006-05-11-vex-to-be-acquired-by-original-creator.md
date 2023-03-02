@@ -1,7 +1,7 @@
 ---
 created: 2006-05-11 15:23:01
 description: Vex to be acquired by original creator
-tags: [robot news, robotics, mecanno, vex, FirstRobotics, microcontroller]
+tags: [robot news, robotics, mecanno, vex, first robotics, microcontroller]
 title: Vex to be acquired by original creator
 layout: post
 ---
