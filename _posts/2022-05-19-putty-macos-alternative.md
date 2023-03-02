@@ -17,16 +17,26 @@ It also used to be the case that the application PuTTY offered a universal frien
 
 ## Problems on MacOS
 
-Currently in 2022, PuTTY on MacOS no longer works - when installed on Big Sur or later, you get some of the command line tools like plink and puttygen, but the main PuTTY program, with it's SSH window (also useful for managing serial devices) is not installed. It seems to be that certain underlying libraries no longer work.
+Currently in 2022, PuTTY on MacOS no longer works.
+When installed on Big Sur or later, you get some of the command line tools like plink and puttygen.
+However the main PuTTY program, with it's SSH window (also useful for managing serial devices) is not installed.
+It seems to be that certain underlying libraries no longer work.
 
 ## The proposed solution
 
-MacOS already comes with built in ssh clients. Open a terminal (typing `term` in spotlight will get you there), and you can type `ssh raspberrypi.local` or the name of your Raspberry pi to get there. I use this approach frequently on MacOS. It will also work on Linux, and recent versions of windows support this too. It allows you to specify a username in the command - `ssh pi@raspberrypi.local` along with other options, and opens the door to more interesting things like automation via ssh.
+MacOS already comes with built in ssh clients.
+Open a terminal (typing `term` in spotlight will get you there), and you can type `ssh raspberrypi.local` or the name of your Raspberry pi to get there.
+I use this approach frequently on MacOS.
+It will also work on Linux, and recent versions of windows support this too.
+It allows you to specify a username in the command - `ssh pi@raspberrypi.local` along with other options, and opens the door to more interesting things like automation via ssh.
 
 ## About Learn Robotics Programming - Second Edition
 
-In [Learn Robotics Programming - Second Edition](https://amzn.to/37XPYfO), a reader is shown how to build a Raspberry Pi based small robot. The little wheeled robot is programmed in Python, and the reader is shown how to add sensors, like encoders to track wheel movement and make accurate turns, distance sensors to detect walls and avoid collisions, an Inertial Measurement Unit to track compass headings.
+In [Learn Robotics Programming - Second Edition](https://amzn.to/37XPYfO), a reader is shown how to build a Raspberry Pi based small robot.
+The little wheeled robot is programmed in Python, and the reader is shown how to add sensors, like encoders to track wheel movement and make accurate turns, distance sensors to detect walls and avoid collisions, an Inertial Measurement Unit to track compass headings.
 
-Later in the book, the reader adds a camera, and can use it to track faces and follow objects. The reader is shown how to make a web service so they can drive the robot from their phone, while seeing from the camera as the robot sees. A voice control agent is added, so they can instruct the robot just through talking.
+Later in the book, the reader adds a camera, and can use it to track faces and follow objects.
+The reader is shown how to make a web service so they can drive the robot from their phone, while seeing from the camera as the robot sees.
+A voice control agent is added, so they can instruct the robot just through talking.
 
 This is all done in a step-by-step approach with demonstrations the reader can try out and is invited to expand upon.
