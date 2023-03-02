@@ -24,10 +24,10 @@ Repairing the same tool a second time is easier, and instead of thinking the thi
 
 ## What have I been repairing?
 
-This last couple of weeks I've been repairing the power board for my [CnC Machine](https://orionrobots.github.io/CnCNotes). It is for some probably a trivial device, but my skills have been more oriented to the digital side of electronics than the analogue and power stuff.
+This last couple of weeks I've been repairing the power board for my [CNC Machine](https://orionrobots.github.io/CNCNotes). It is for some probably a trivial device, but my skills have been more oriented to the digital side of electronics than the analogue and power stuff.
 
-![CnC Control Board](/assets/2014-04-09-the-reality-of-repair.md/small/1-IMG_3406.JPG){: class="img-responsive"}
+![CNC Control Board](/assets/2014-04-09-the-reality-of-repair.md/small/1-IMG_3406.JPG){: class="img-responsive"}
 
-I've had a crash course in regulators, op-amps and the astable mode of the 555. I will write detail on this on the CnCNotes blog, but it has all been good learning, that I had to make to be able to repair the device. It means ordering a 12v regulator - common, but not in my stock. It has taken at least a couple of weeks and I have no shame in admitting it.
+I've had a crash course in regulators, op-amps and the astable mode of the 555. I will write detail on this on the CNCNotes blog, but it has all been good learning, that I had to make to be able to repair the device. It means ordering a 12v regulator - common, but not in my stock. It has taken at least a couple of weeks and I have no shame in admitting it.
 
 Frustratingly it turned out to be a simple potentiometer that was a bit cheap and iffy - basically requiring a new part, which I have replaced, but I would like to understand how to repair one of those too - something not that easy, we are talking about stuff that was fused together in a highly controlled precision industrial environment. I'd had to replace the 12v regulator, and I've taken the precaution of ordering replacements for most of the other parts on the board too.

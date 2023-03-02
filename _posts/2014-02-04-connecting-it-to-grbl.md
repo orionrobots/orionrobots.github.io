@@ -1,6 +1,6 @@
 ---
-title: Connecting my CnC 3020 to grbl
-description: Connecting my CnC 3020 to grbl
+title: Connecting my CNC 3020 to grbl
+description: Connecting my CNC 3020 to grbl
 tags: [cnc projects, arduino, grbl, electronics, parallel port]
 layout: default
 ---
@@ -14,7 +14,7 @@ I flashed grbl onto an Arduino Uno R3 compatible board, using the hex file and t
 I wired this into the parallel connector at the back of the control box, and started up the machine.
 Grbl resets when the machine is powered on - however, putty is still connected - this may mean some power related fluctuation - I had also connected the Arduino to what I think was a ground on that port too - for the signals to make sense - they needed a common ground.
 
-Arduino Pin | Parallel port CnC Pin
+Arduino Pin | Parallel port CNC Pin
 ----------- | -----------------------
 A0          | Stop/Emergency reset 10
 2           | Step Pulse X 2

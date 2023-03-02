@@ -17,7 +17,7 @@ description: "Building Robots!"
 <div class="embed-responsive embed-responsive-16by9">
 <iframe src='https://www.youtube.com/embed/videoseries?list=PLXxP0FUTG0FnG9SyMyclEkqCHqx_rcVZ2' allowfullscreen="true"></iframe></div>
 
-## CnC Machine
+## CNC Machine
 
 <div class="embed-responsive embed-responsive-16by9">
 <iframe src='https://www.youtube.com/embed/videoseries?list=PLXxP0FUTG0FmAFNfM0JDNe_kfRjlp-aDr' allowfullscreen="true"></iframe></div>

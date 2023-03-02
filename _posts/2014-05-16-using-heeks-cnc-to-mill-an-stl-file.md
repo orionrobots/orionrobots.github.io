@@ -132,7 +132,7 @@ You are now ready to start generating toolpaths.
 
 First, from machining select "G0".
 This will start creating the toolpath program.
-It will make Python Code (PyCAM I think), that contains a higher level description of the CnC operations.
+It will make Python Code (PyCAM I think), that contains a higher level description of the CNC operations.
 
 Wait for this to complete, and then use the Machining->"G0 to NC Post" option.
 This will post-process the python (by running it with pyCAm and other libraries) into the GCode for your machine.

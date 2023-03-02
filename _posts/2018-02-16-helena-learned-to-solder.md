@@ -6,7 +6,7 @@ layout: post
 ---
 ## Helena Learning To Solder
 
-I started a live video session, still working on Lee Lipinski's CnC Spindle Motor board.
+I started a live video session, still working on Lee Lipinski's CNC Spindle Motor board.
 
 After I had soldered the 3 pins on this, Helena asked to have a try. She built up the Slice of Pi/IO board - an I2C based IO expander for the Raspberry Pi (and usable with other devices).
 

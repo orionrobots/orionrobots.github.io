@@ -1,9 +1,9 @@
 ---
-title: Choosing A CAM program
+title: Choosing A CAM program for my CNC Mill
 layout: default
 tags: [cnc projects, cam, cad software]
 ---
-I will fill in more details about the last few weeks, and about me getting some of my first cuts from my CnC Milling machine, building a dust cover, and publishing videos.
+I will fill in more details about the last few weeks, and about me getting some of my first cuts from my CNC Milling machine, building a dust cover, and publishing videos.
 There was also a lot of terminology to learn too.
 
 I have started looking at how to use CAM software to convert my ideas to actual milling toolpaths, hopefully aware of the end mill sizes.

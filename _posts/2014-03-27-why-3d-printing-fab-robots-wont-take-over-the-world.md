@@ -3,7 +3,7 @@ title: Why 3d printing robots wont take over the world
 tags: [3d printing, robot news, cnc news, fabrication, replicators]
 layout: post
 ---
-<img src="/galleries/unboxing_pictures/thumbnails/img_3023.jpg" alt="A CnC Fabrication Machine" style="float: left">The most interesting robots for me are those involved in exploration, fabrication and repair.
+<img src="/galleries/unboxing_pictures/thumbnails/img_3023.jpg" alt="A CNC Fabrication Machine" style="float: left">The most interesting robots for me are those involved in exploration, fabrication and repair.
 Fabrication and repair systems, like the 3d printers, CNC machines, automatic pick and place robots are basically all variations on printers and plotters.
 
 You design or download a design, load in the medium to print with, and hit a print button.
@@ -21,4 +21,4 @@ My point is that the fabricator may be asked to print another fab from its hoppe
 
 ## Image Sources
 
-Image is my own CnC Machine - higher res and more details [here](/galleries/unboxing_pictures/target5.html).
+Image is my own CNC Machine - higher res and more details [here](/galleries/unboxing_pictures/target5.html).

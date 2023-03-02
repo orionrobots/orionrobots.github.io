@@ -46,7 +46,7 @@ I won't use it all in one session - but clearly enough to have fun with.
 I started with a balsa block as stock.
 
 I needed to select the right kind of tooling.
-The CnC documentation suggested a fluted bit for wood, although it may be overkill for the balsa.
+The CNC documentation suggested a fluted bit for wood, although it may be overkill for the balsa.
 
 Attaching the bit was a little tricky but I got that to work.
 The next thing (and I've done this in the wrong order) was clamping the stock...
