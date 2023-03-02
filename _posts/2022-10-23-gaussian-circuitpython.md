@@ -2,7 +2,7 @@
 title: Gaussian distribution on Pico
 description: "Ideas for Guassian random number generation on Pico"
 layout: post
-tags: [robotics, electronics, pico, robotics programming, python, circuitpython, learn robotics at home]
+tags: [robotics, electronics, raspberry pi pico, robotics programming, python, circuitpython, learn robotics at home]
 ---
 I’m getting intimately familiar with Gaussian probability and generating them, along with combining `matplotlib` and `asyncio` for pc visualising.
 CircuitPython does not have random.gauss (or np.rand.normal).

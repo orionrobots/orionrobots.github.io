@@ -1,6 +1,6 @@
 ---
 layout: post
-tags: [robots, esp8266, lua, nodemcu]
+tags: [robots, esp8266, lua programming, robotics programming, nodemcu]
 title: Bounce! An Esp8266/nodemcu blocks coding system
 ---
 Bounce is a visual programming language based on Block.ly for the esp8266.

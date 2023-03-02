@@ -1,6 +1,6 @@
 ---
 created: 2018-2-10 15:27:26
-tags: [electronics, website, blog, soldering, cnc, cnc projects]
+tags: [robot electronics, website, blog, soldering, cnc projects]
 title: 2018-02-10-website-fixes-and-live-solder-video
 layout: post
 ---
@@ -18,7 +18,9 @@ Towards the end of the video I was asked about how I used the Arduino in my CnC 
 
 ## Site Improvement
 
-Today I figured out how to put a tag cloud on the site - to help people find their way around. There is actually quite a lot of stuff here - but some of it is well buried. Content has been here since 2002, and some it definitely needs revising and curating.
+Today I figured out how to put a tag cloud on the site - to help people find their way around.
+There is actually quite a lot of stuff here - but some of it is well buried.
+Content has been here since 2002, and some it definitely needs revising and curating.
 
 The tag cloud was made with assistance from code at <https://superdevresources.com/tag-cloud-jekyll/>. Thanks for that!
 
