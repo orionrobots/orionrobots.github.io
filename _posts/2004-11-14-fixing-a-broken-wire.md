@@ -1,7 +1,7 @@
 ---
 title: Fixing a Broken Wire
 layout: post
-tags: [electronics, repair, robot building]
+tags: [electronics, repair, robot building, robotics at home]
 ---
 ## Intro
 

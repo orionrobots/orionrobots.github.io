@@ -1,7 +1,7 @@
 ---
 title: megabyte robot dog
 layout: post
-tags: [robot toy, robot, toy hacking]
+tags: [robotic toys, robot, toy hacking]
 ---
 The WowWee MegaByte is a fairly simple robot toy. It can move its head side to side, its radar ears spin around, and has stationary legs with wheels at the feet which skid steer. It has LED's for eyes. It is also quite well made for converting into a robot platform.
 
