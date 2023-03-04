@@ -64,6 +64,10 @@ When you click on links on our site, they may direct you away from our site. We 
 
 Our site uses Google Analytics to learn about who visits our site and how they use it. This includes Google Signals which provides us data about which devices the website is being viewed on. We use this data to improve our site and make it easier to use. We do not use this data to identify you and do not share it with anyone else.
 
+Where data is collected by Google, it is stored on Google servers in the United States. Google has certified under the EU-US Privacy Shield Framework and the Swiss-US Privacy Shield Framework as set forth by the US Department of Commerce regarding the collection, use, and retention of personal information from European Union member countries and Switzerland. Google will use this information for the purpose of evaluating your use of the website, compiling reports on website activity for website operators and providing other services relating to website activity and internet usage. The legal basis for this processing is our legitimate interests, namely the proper administration of our website and business and the improvement of our website and the services we offer.
+
+You may access or delete such data via [My Activity](https://myactivity.google.com/myactivity) and you can also opt out of Google Analytics by installing the [Google Analytics opt-out browser add-on](https://tools.google.com/dlpage/gaoptout).
+
 ### SECURITY
 
 To look after your information, we take reasonable measures and follow industry best practices to make sure it is not lost, misused, accessed, disclosed or altered.
