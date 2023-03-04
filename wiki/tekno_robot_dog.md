@@ -1,13 +1,13 @@
 ---
 title: Tekno Robot Dog
 layout: page
-tags: [robots]
+tags: [robots, robotic toys]
 ---
 This information is for reference and information only. Orionrobots has no association with the Tekno Robot puppy - we do not sell or manufacture them.
 
 ![Tekno robot dog](/galleries/gallery-1-common-images/88-tek06.jpg)Created by Manley Toy Quest in May, 2000, the popular Tekno Robot Puppy has some features you would only expect on higher end robots - including sensors and movement. It is also marketed as "Teksta".
 
-Some people consider it a cheap alternative to buying the [Sony AIBO](/wiki/aibo.md).  They apparently have the intelligence of an 8-week old puppy out of the box, although it is really more just a set of interesting simple programmed behaviours. As such, it demands much attention, feeding and petting. In this respect, it is like a Tamagotchi with motors...
+Some people consider it a cheap alternative to buying the [Sony AIBO](/wiki/aibo).  They apparently have the intelligence of an 8-week old puppy out of the box, although it is really more just a set of interesting simple programmed behaviours. As such, it demands much attention, feeding and petting. In this respect, it is like a Tamagotchi with motors...
 
 With touch and light sensors, sound detection - as well as mobility - these may be great for a basic modding platform. It can also speak a couple of English words, such as "whoops" and "excuse me".. It is not very clear at all though. We had one to play with, and it seems to want to say "Tekno" too often - though that appears to be its response to music.
 

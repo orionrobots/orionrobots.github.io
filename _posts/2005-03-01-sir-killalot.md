@@ -13,7 +13,7 @@ What are his vital statistics? Weighing in at 500kg, he has a top speed of 5mph 
 
 He is a fairly large robot, at a squared 120 cm width and length, with a 130cm height. That is actually taller than many of the roboteers themselves.
 
-## What about his weaknesses? 
+## What about his weaknesses?
 
 I have seen the Hydraulics for his fireman's jaw severed at least once. Matilda managed to do that - and send hydraulic fluid all over the arena. He has a fairly slow turning circle, and exposed guts make some soft target areas to his rear. He is also a little top heavy - making him a little shaky at moments - you can see that when his rear lifts off the arena when he spins with a robot on his lance.
 
