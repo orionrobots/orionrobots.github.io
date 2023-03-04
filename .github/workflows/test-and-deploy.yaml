@@ -4,79 +4,18 @@ on:
   push:
     branches:
       - master
-  pull_request:
-    branches:
-      - master
+
+concurrency:
+  group: site_building
+  cancel-in-progress: true
 
 jobs:
   build_site:
-    concurrency:
-      group: site_building
-      cancel-in-progress: true
-    runs-on: ubuntu-latest
-    container:
-      image: jekyll/builder:4
-    steps:
-      - uses: actions/checkout@v3
-      - name: Setup dependencies
-        run: |
-          apk add imagemagick
-          gem install jekyll-toc rmagick
-      - name: build
-        run: |
-          chown jekyll . -R
-          mkdir .jekyll-cache
-          jekyll build
-      - name: Tarball the size
-        run: |
-          tar -czf _site.tar.gz _site
-      - name: upload site artifact
-        uses: actions/upload-artifact@v3
-        with: 
-          name: _site
-          path: _site.tar.gz
-          if-no-files-found: error
-      - name: upload httpd.conf artifact
-        uses: actions/upload-artifact@v3
-        with: 
-          name: httpd.conf
-          path: _drafts/staging/httpd.conf
-          if-no-files-found: error
+    uses: ./.github/workflows/on_call_build_site.yaml
 
   staging_test:
-    concurrency:
-      group: site_building
-    runs-on: ubuntu-latest
+    uses: ./.github/workflows/on_call_staging_test.yaml
     needs: build_site
-    steps:
-      - uses: actions/checkout@v3
-      - name: Fetch site artifact
-        uses: actions/download-artifact@v3
-        with:
-          name: _site
-      - name: extract site artifact
-        run: |
-          tar -xzf _site.tar.gz
-      - name: Prepare for docker build
-        run: |
-          cp _drafts/staging/Dockerfile _site/
-          cp _drafts/staging/http2.conf _site/
-          cd _site/
-          mv htaccess .htaccess
-
-      - name: Build container
-        run: |
-          docker build -t orionrobots:latest _site
-
-      - name: Run as service and test
-        run: |
-          docker run --rm -d -p8080:80 --name orionrobots orionrobots:latest
-          # Wait for the service to start
-          sleep 10
-          curl -I -L -f http://localhost:8080/
-          curl -I -L -f http://localhost:8080/construction_guide.html 
-          curl -I -L -f http://localhost:8080/wiki/lego
-          docker stop orionrobots
 
   deploy:
     concurrency: live_environment
