@@ -1,10 +1,9 @@
 ---
-title: Arduino Leonardo Original Board With Headers
-layout: product
+title: Arduino Leonardo Board
+layout: page
 sku: OR0015
 google_category: Electronics > Circuit Components > Circuit Prototyping
-price: £19.99
-tags: [arduino, atmel, avr, connectors, microcontroller, solderless]
+tags: [arduino, atmel, avr, microcontroller, solderless, robot electronics, robot building at home, robotics at home, robot kit]
 gallery:
     parent: /galleries/arduino-leonardo-board-with-headers/
     initial: leonardo-close-up-pins.jpg
@@ -31,10 +30,6 @@ It has a number of IO pins for interfacing inputs like buttons and sensors, and 
 It can be programmed with a freely downloadable app for Windows, Mac and Linux with a large community and many example programs to test with. A standard Micro USB cable is all that's needed to plug it in.
 
 This Arduino Leonardo can also be programmed to act as some standard USB type devices - so you could have sensors in a robot or gadget behaving like a keyboard - cool!
-
-This is the Arduino Leonardo in the original Arduino packaging.
-
-It comes with headers - so it can be used without soldering.
 
 Based on the Avr ATMega32u4, with 5v logic and IO, built in voltage regulator for a supply from 7-12v, 20 Digital IO Pins, 7 of which are PWM (motor control) channels, 12 Analog inputs - for reading sensors with varying voltage/resistance. The bootloader is preinstalled on the chip - so no specialist flashing devices are needed.
 
