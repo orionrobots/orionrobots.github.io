@@ -1,6 +1,7 @@
 ---
 layout: page
 title: animatronic
+tags: [animatronic, robot]
 date: 2006-03-06 13:55:18
 ---
 Animatronic devices are props made for special effects, using electronics and motors to animate them and bring them to life.

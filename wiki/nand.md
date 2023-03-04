@@ -1,6 +1,6 @@
 ---
 layout: page
-title: NAND
+title: NAND Gate
 tags: [electronics, programming, computing]
 date: 2006-04-23 00:36:19
 ---
@@ -10,11 +10,11 @@ It is a negated [AND](/wiki/and.html "AND") or [NOT](/wiki/not.html "NOT") AND g
 
 Truth Table
 
-a | b | c (output)
-- | - | ----------
-0 | 0 | 1
-0 | 1 | 1
-1 | 0 | 1
-1 | 1 | 0
+a  | b  | c (output)
+-- | -- | ----------
+0  | 0  | 1
+0  | 1  | 1
+1  | 0  | 1
+1  | 1  | 0
 
-![Nand Gates on the Lego RCX](/galleries/gallery-1-common-images/127-rcxnandgates.JPG)
+![74HC10D Nand Gates on the Lego RCX](/galleries/gallery-1-common-images/127-rcxnandgates.JPG)

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: The Sony Aibo
-tags: [robotics]
+tags: [robotics, robotic toys, toy hacking]
 date: 2006-12-12 12:36:41
 ---
 This is the series of wonderful and imaginative cute robot dog devices created by the now defunct "Sony Dream Robotics" a division of the [Sony corporation](/wiki/sony.html "Sony"), which specialised in designing and building recreational robots.

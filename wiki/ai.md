@@ -1,6 +1,6 @@
 ---
 layout: page
-title: AI
+title: AI - Artificial Intelligence
 date: 2005-03-16 15:57:34
 ---
 AI is an abbreviation for Artificial Intelligence.
@@ -10,7 +10,7 @@ There are many techniques which fall under this banner
 
 * Machine Learning
     * Artificial Life
-    * <a href="/wiki/genetic_algorithm.html" title="Genetic Algorithm">Genetic Algorithms</a>
+    * [Genetic Algorithms](/wiki/genetic_algorithm.html "Genetic Algorithm")
     * Neural Networks
 * Natural Language Processing
 * Subsumption Architecture

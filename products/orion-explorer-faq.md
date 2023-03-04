@@ -6,7 +6,7 @@ Please see the main [FAQ](/faq.html) for general site questions.
 
 <strong>Q: Where can I buy the Explorer 1 Robot kit?</strong>
 
-Currently, those kits are no longer for sale. However, I am looking into new robot kits that would be both more sophisticated, and cheaper than the Explorer 1, and I intend to run some robot building workshops with kits before they go on sale.
+Currently, those kits are no longer for sale. However, I am looking into new robot kits that would be both more sophisticated, and cheaper than the Explorer 1, and I intend to run some robot building workshops with kits.
 
 <strong>Q: What does solderless mean?</strong>
 
@@ -48,7 +48,7 @@ A: Yes - [all the robots are user serviceable](/2013/12/23/all-our-robots-are-us
 
 <strong>Q: What is easy about it?</strong>
 
-A: 
+A:
 
 * Easy to build - No soldering needed
 * Priced within your means

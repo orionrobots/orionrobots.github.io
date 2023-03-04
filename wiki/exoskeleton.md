@@ -1,7 +1,7 @@
 ---
 layout: page
 title: exoskeleton
-tags: [robots]
+tags: [robot types, exoskeleton]
 date: 2006-01-15 10:32:01
 ---
 An exoskeleton (also known as an exosuit) describes a robotic machine that is worn almost like a suit of clothing. It also may simply describe carapace (that is sliding plate) armour.

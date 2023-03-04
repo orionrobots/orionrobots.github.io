@@ -1,48 +1,83 @@
 ---
 layout: page
 title: Building A Battle Robot
-tags: [robots, robotics, robot building]
+tags: [robots, robotics, robot building, building a robot at home, robotics at home]
 date: 2006-07-10 09:42:34
 ---
 ## Intro
 
-So you want to be a contender eh? Not content with watching [Robot Wars](/wiki/robot_wars.html "The british robot smashing TV series.") and BattleBots - you want to get off your armchair and build your own! Well done. This is not going to be easy - but follow the right advice, and you will get there.
+So you want to be a contender eh?
+Not content with watching [Robot Wars](/wiki/robot_wars.html "The british robot smashing TV series.") and BattleBots, you want to get off your armchair and build your own!
+Well done.
+This is not going to be easy, but follow the right advice, and you will get there.
 
-While it is fun, and almost anyone can achieve it, it really is not easy. You will need hard work, serious thinking and a great deal of determination. A lot of what I am going to say here is common sense, but collecting it and having it explicitly stated means that you are less likely to miss something.
+While it is difficult, it will be fun, and almost anyone can achieve it.
+You will need hard work, serious thinking and a great deal of determination.
+Oh and you'll need a team.
+A lot of what I am going to say here is common sense, but collecting it and having it explicitly stated means that you are less likely to miss something.
 
-You don't need a huge bank account, or deep pockets - as some of the best robots, like [SumpThing](/wiki/sumpthing.html "Sumpthing") are actually built from [salvage](/wiki/salvage_tips.html "Tips on pulling stuff apart to build robots. How, where and what.") and scrap. You might need an array of tools, but not a lot that couldn't be borrowed, and for a battle bot, the controllers can be kept fairly simple.
+You don't need a huge bank account, or deep pockets as some of the best robots, like [SumpThing](/wiki/sumpthing.html "Sumpthing") are actually built from [salvage](/wiki/salvage_tips.html "Tips on pulling stuff apart to build robots. How, where and what.") and scrap.
+You might need an array of tools, but not a lot that couldn't be borrowed, and for a battle bot, the controllers can be kept fairly simple.
 
-In the next few paragraphs, I will take you through the basic essentials that you will need, and later all the considerations you need when designing. You can then use the rest of the OrionRobots knowledge resources to get things built.
+In the next few paragraphs, I will take you through the basic essentials that you will need, and later all the considerations you need when designing.
+You can then use the rest of the OrionRobots knowledge resources to get things built.
 
 ## Get a team
 
-Unless you are an elite, bachelor(I mean single - not having a degree although that might help too) engineer with huge amounts of time and money on your hands, you are simply not likely to have the resources to build a serious robot alone. Very few- if any of the battling robots were built this way - your first step is to find a likely team of builders. Social media like Facebook and twitter are good places to reach out and build a team.
+Unless you are an elite, bachelor (I mean single, not having a degree although that might help too) engineer with huge amounts of time and money on your hands, you are simply not likely to have the resources to build a serious robot alone.
+Very few, if any of the battling robots were built solo.
+Your first step is to find a likely team of builders.
+Social media like Discord, Facebook and twitter are good places to reach out and build a team.
 
-A team could simply be some school friends, your local neighbourhood engineers, a biker club, an after school club - I am sure if you ask around a bit you can find someone interested.
+A team could simply be some school friends, your local neighbourhood engineers, a biker club or an after school club.
+I am sure if you ask around a bit you can find someone interested.
 
-If your team members are under 18, I recommend at least one adult helper, who will have valuable advice and keep an eye on safety. Other than that proviso, generally anyone from age of 5 upwards could be helpful - even just for style and coming up with good ideas. Get a good mix of skills if you can, and a good mix of ages can usually help to provide that.
+If your team members are under 18, I recommend at least one adult helper who will have valuable advice and keep an eye on safety.
+Other than that proviso, generally anyone from age of 5 upwards could be helpful, even just for style and coming up with good ideas.
+Get a good mix of skills and ideas if you can, and a good mix of ages can usually provide that.
 
-Robotics is a gender inclusive sport. More people of all background will introduce more varied skills and thinking to the team, adding to the inspiration and the potential of having all aspects considered.
+Robotics is a gender inclusive sport.
+More people of all backgrounds will introduce more varied skills and thinking to the team, adding to the inspiration and the potential of having all aspects considered.
 
-When you get people to join the team, you may want to appoint or become a leader, or at least a group coordinator, this does not mean being bossy, but more someone to martial ideas and to keep a little order and synchronisation in the teams activities. Make sure the team are aware of the kind of commitment they are going to need - half hearted maybes and no-shows have been the downfall of a few projects. Also, even if the event only allows for teams of a limited number, always have a few backups - understudies if you like, in case of someone being taken ill or running into problems.
+When you get people to join the team, you may want to appoint or become a leader, or at least a group coordinator.
+Being a leader does not mean being bossy, but more someone to martial ideas and to keep a little order and synchronisation in the teams activities.
+Make sure the team are aware of the kind of commitment they are going to need.
+Half-hearted maybes and no-shows have been the downfall of a few projects.
+Also, even if the event only allows for teams of a limited number, always have a few backups. These can be understudies if you like, in case of someone being taken ill or running into problems.
+Just make it clear that only some of those members will be allowed to enter an event with limited numbers.
 
-Team enthusiasm is important, so make sure you have it in good supply, and if you start to see people flagging/getting tired, that is the time to consider the causes and deal with them. Team friction is something best addressed as soon as possible. Sometimes just coming round with drinks can be enough to lighten everybody up. Make sure everyone takes breaks - but never nag them to take a break - if they are saying "give me a minute" - then give them that.
+Team enthusiasm is important, so make sure you have it in good supply, and if you start to see people flagging/getting tired, that is the time to consider the causes and help them out.
+Team friction is something best addressed as soon as possible.
+Sometimes just coming round with drinks can be enough to lighten everybody up.
+Make sure everyone takes breaks but never nag them to take a break.
+If they are saying "give me a minute" then give them that.
 
-Teams do have bad days, and tempers do fray - it is sometimes worth sitting down with the team and discussing a strategy to deal with those days beforehand, which may actually allow for early airing of any issues that could arise later.
+Teams do have bad days, and tempers do fray, so it is sometimes worth sitting down with the team and discussing a strategy to deal with those days beforehand.
+This can allow for early airing of any issues that could arise later.
+Similarly, make time for a retrospective at the end of the project, to discuss what went well, what didn't, and what could be done better next time.
 
-Coming up with a team name, and a logo or mascot or similar team motifs can be the first great team building exercise. Although it is generally considered a secondary task to the robotics, having something to rally around and something to show early can be a real motivator.
+Coming up with a team name, and a logo or mascot or similar team motifs can be the first great team building exercise.
+Although it is generally considered a secondary task to the robotics, having something to rally around and something to show early can be a real motivator.
 
 ## Preparation - Competition Research
 
-Research the competition and techniques before building - there is no point in spending money on a fantastic contraption when it is disqualified straight away, or simply cannot compete for the correct event.
+Research the competition and techniques before building as there is no point in spending money on a fantastic contraption when it is disqualified straight away, or simply cannot compete for the correct event.
 
-First look at the event rules. Make sure you are aware of the competition regulations. Things like size and weight, weapon restrictions (most restrict untethered projectile weapons and flammable fluids for example), control requirements (dead man's switch or safety key to cut power). Be very clear about the scale of the robot you are building - is it a great huge car sized monster, or little ant weight, or something in-between - this knowledge is essential to the core of your design.
+First look at the event rules.
+Make sure you are aware of the competition regulations.
+Things like size and weight, weapon restrictions (most restrict untethered projectile weapons and flammable fluids for example), control requirements (dead man's switch or safety key to cut power).
+Be very clear about the scale of the robot you are building. Is it a great huge car sized monster, or little ant weight, or something in-between?
+This knowledge is essential to the core of your design.
 
 Read our [Robot Building Safety](/wiki/robot_building_safety.html "Building robots can be dangerous - tips to help your safety") guide.
 
 Ensure you are clear on what constitutes a win and design your robot for that goal.
 
-Scope out the competition - what kind of weapons are already in use, what is or is not successful, what weights/sizes are they? You might get some good ideas - and many are fairly sportsmanlike - but don't expect them to give away their top secrets. If this is a series event - Ie there have been previous ones, watch them and get a gist for it.
+Scope out the competition.
+Find out what kind of weapons are already in use, what is or is not successful, what weights/sizes are they?
+You might get some good ideas and many teams are fairly sportsmanlike.
+However don't expect them to give away their top secrets.
+If this is a series event where there have been previous recorded competitions, watch them and get a gist for it.
 
 ## Preparation - Design
 

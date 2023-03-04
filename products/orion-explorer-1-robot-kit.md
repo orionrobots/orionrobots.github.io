@@ -1,9 +1,7 @@
 ---
 title: Orion Explorer 1 Robot Kit
 layout: product
-sku: OR0001
 google_category: Electronics > Circuit Components > Circuit Prototyping
-price: £69.99
 tags: ["4wd car", "arduino", "arduino robot kit", "atmel", "avr", "breadboard", "explorer 1", "microcontroller", "robot", "robot car", "robot chassis", "solderless"]
 vendor: orionrobots
 gallery:
@@ -37,8 +35,7 @@ The kit is no longer for sale, this information hre is for reference for owners 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/nMInkh0OysI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="">
 </iframe>
 
-
-This robot has everything you'll need to build your own floor roving robot quickly. This can be the starting point for a Science project, an experimentation platform, a personal robot or just a place for you to start playing around with robotics. You build it, you can extend it, and there is no soldering, drilling or sawing to do so. If you are in the Uk mainland - postage is Free. The example code, usage guide and tutorials are also FREE.
+This robot has everything you'll need to build your own floor roving robot quickly. This can be the starting point for a Science project, an experimentation platform, a personal robot or just a place for you to start playing around with robotics. You build it, you can extend it, and there is no soldering, drilling or sawing to do so. The example code, usage guide and tutorials are also FREE.
 
 ## What was in it?
 
@@ -74,7 +71,7 @@ Batteries are not included.
 Overall specifications:
 
 * Drive: 4 wheels each driven by a single motor (connect 2 to each H bridge output) with tired wheels.
-* Predrilled platforms to mount everything on.
+* Pre-drilled platforms to mount everything on.
 * L298N H Bridge controller to drive the system.
 * 6xAA (9v) Battery Box to supply the system. Batteries not included.
 * Microcontroller based on the popular Atmega 328 16Mhz with the Arduino bootloader and the Arduino Uno configuration with plenty of digital and analogue IO to spare after connecting it up. 100% compatible with Arduino shields.

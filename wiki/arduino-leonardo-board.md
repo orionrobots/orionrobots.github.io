@@ -3,7 +3,7 @@ title: Arduino Leonardo Board
 layout: page
 sku: OR0015
 google_category: Electronics > Circuit Components > Circuit Prototyping
-tags: [arduino, atmel, avr, microcontroller, solderless, robot electronics, robot building at home, robotics at home, robot kit]
+tags: [arduino, microcontroller, robot electronics, robot building at home, robotics at home, robot kit]
 gallery:
     parent: /galleries/arduino-leonardo-board-with-headers/
     initial: leonardo-close-up-pins.jpg

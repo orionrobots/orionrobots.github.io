@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Alternating Current
+title: AC - Alternating Current
 tags: [electronics]
 date: 2005-10-05 22:17:44
 ---

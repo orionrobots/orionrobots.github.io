@@ -8,7 +8,7 @@ An Automaton is a kind of robotic or animated toy. They tend to exhibit fairly c
 
 They can range from [Leonardo Da Vincis Robot](/wiki/leonardo_da_vincis_robot.html "The Humanoid Robot Designed By Leonardo Da Vinci") and Vaucanson's Duck to victorian shoeboxes (a few of which can be found in the London waxworks), where a penny would see a small and spectacular piece of mechanical theatre.
 
-It could even be argued that more modern toys like the Tekno Robot Dog and [Furby](/wiki/furby.html "Furby") are automatons - although by replacing extremely intricate and complex mechanisms with [PICs](/wiki/pic.html "PIC") and multiple motors kind of takes some of the magic away.
+It could even be argued that more modern toys like the Tekno Robot Dog and [Furby](/wiki/furby.html "Furby") are automatons which replace intricate and complex mechanisms with [microcontrollers](/wiki/microcontroller.html).
 
 There have been automatons to handwrite.
 
