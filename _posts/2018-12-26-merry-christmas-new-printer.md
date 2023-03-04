@@ -1,7 +1,7 @@
 ---
 created: 2018-12-25 13:04:30
 tags: [3d-printer, lab, tools, unboxing]
-title: Merry Christmas 2018 - Flashforge Finder Printer Unboxing
+title: Merry Christmas 2018 - Flashforge Finder 3D Printer Unboxing
 layout: post
 ---
 For many years, I've made-do with the kit made Reprappro Ormerod 2 printer. It was a platform for learning about these devices, but has never been that reliable, and never earned my trust enough to confidently leave for long prints. I made small prints and rarely on it.
