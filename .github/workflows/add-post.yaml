@@ -26,7 +26,7 @@ jobs:
   add_post:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
       - name: Add post
         run: |
           file_name="_posts/$(date +%Y-%m-%d)-${{ inputs.slug }}.md"
