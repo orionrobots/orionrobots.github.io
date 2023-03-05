@@ -149,7 +149,7 @@ I expect that the existing UBEC will be able to power Raspberry Pi Zero W, even 
 
 I can then connect 5V and ground power lines from Pico to Raspberry Pi Zero W.
 
-I went to [RasPi.TV | how much power to Pi Zero w use?](https://raspi.tv/2017/how-much-power-does-pi-zero-w-use) to get some numbers for this. The relevant measurements are a Zero W which has wi-fi connected. The worst use case was 230 mA. A \[Toms Hardware Guide](Raspberry Pi Zero 2 W Review) suggests that under stress the Raspberry Pi Zero W consumes about 370 mA.
+I went to [RasPi.TV | how much power to Pi Zero w use?](https://raspi.tv/2017/how-much-power-does-pi-zero-w-use) to get some numbers for this. The relevant measurements are a Zero W which has wi-fi connected. The worst use case was 230 mA. A [Toms Hardware Guide](Raspberry Pi Zero 2 W Review) suggests that under stress the Raspberry Pi Zero W consumes about 370 mA.
 
 These figures should be fine for running from the UBEC. Although I am sure a fresh set of batteries is a good idea.
 
