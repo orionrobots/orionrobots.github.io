@@ -13,7 +13,7 @@ category: ""
 ---
 ## Background
 
-The Raspberry Pi Pico robot shown in "Robotics at Home with Raspberry Pi Pico" runs the sophisticated Monte Carlo Localisation simulation.
+The Raspberry Pi Pico robot shown in my soon to be released book "[Robotics at Home with Raspberry Pi Pico](https://amzn.to/3ZlxX0v)" runs the sophisticated Monte Carlo Localisation simulation.
 This can produce a lot of data very quickly.
 
 There's a component to visualise this data with matplotlib on a PC.
@@ -109,7 +109,8 @@ Here is how I plan to make this happen:
 * Shadow simulation running on the Raspberry Pi Zero W
 * Tagging poses and their descendants
 
-I've already decided I'll use Python on the Raspberry Pi for this, with Matplotlib. I'll use a simple flask serve to serve up visualisation data similar to those used in my "Learn Robotics Programming" books.
+I've already decided I'll use Python on the Raspberry Pi for this, with Matplotlib.
+I'll use a simple flask serve to serve up visualisation data similar to those used in my "[Learn Robotics Programming](https://amzn.to/41JdHr7)" books.
 
 ## Mounting plan
 
