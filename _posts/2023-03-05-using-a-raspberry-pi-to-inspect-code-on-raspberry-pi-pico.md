@@ -163,3 +163,14 @@ Ground can come from any ground rail on the breadboard.
 We then need the SPI pins for Clock, TX, RX to the Raspberry Pi Zero W. We could add chip select, although we are not really going to do much with that.
 
 ![Raspberry Pi Zero W connected to Raspberry Pi Pico via SPI](/galleries/screenshot-2023-03-05-at-11.03.10.png)
+
+## Continuing
+
+Throughout the next few days, I'll be fleshing out the other parts of this plan in follow up posts.
+
+## Links
+
+I used Gadgetoids awesome Raspberry Pi Pinouts for checking SPI pins.
+
+- [Raspberry Pi Pico Pinout](https://pico.pinout.xyz/)
+- [Raspberry Pi Pinout](https://pinout.xyz/pinout/spi)
