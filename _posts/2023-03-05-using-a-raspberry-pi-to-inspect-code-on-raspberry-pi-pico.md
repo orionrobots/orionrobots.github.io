@@ -6,6 +6,9 @@ description: Inspecting sophisticated output from Raspberry Pi Pico
 tags:
   - robot building
   - robotics at home
+  - raspberry pi
+  - raspberry pi pico
+  - spi bus
 category: ""
 ---
 ## Background
