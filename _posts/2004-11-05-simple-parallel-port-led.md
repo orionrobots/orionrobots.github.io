@@ -1,10 +1,14 @@
 ---
-layout: post
-title: Simple Parallel Port LED
-tags: [electronics, led, parallel port]
 comments: true
+date: '2004-11-05T12:00:00.000Z'
 disqus_url: http://orionrobots.co.uk/Simple+Parallel+Port+LED+Board
 gallery: /galleries/2004-11-05-simple-parallel-port-led
+layout: post
+tags:
+- electronics
+- led
+- parallel port
+title: Simple Parallel Port LED
 ---
 ## Intro
 
