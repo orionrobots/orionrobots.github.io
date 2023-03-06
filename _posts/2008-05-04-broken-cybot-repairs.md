@@ -1,9 +1,14 @@
 ---
 created: 2008-05-04 16:24:00
+date: '2008-05-04T12:00:00.000Z'
 description: Broken Cybot Repairs
-tags: [cybot, robot, robot building, robot kit]
-title: Broken Cybot Repairs
 layout: post
+tags:
+- cybot
+- robot
+- robot building
+- robot kit
+title: Broken Cybot Repairs
 ---
 {% include JB/setup %}
 

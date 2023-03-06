@@ -13,23 +13,35 @@ gallery:
       title: Tools for Foam Core Drawer Divider
 asset_dir: galleries/2021/05-23-foam-core-drawer-dividers
 thumb: /galleries/2021/05-23-foam-core-drawer-dividers/thumbnails/drawer-upper-layer.jpg
+lead_image: /galleries/2021/05-23-foam-core-drawer-dividers/drawer-upper-layer.jpg
 ---
 {% include JB/setup %}
-To get better access to tools in my closest drawer, I make dividers with foam core and hot glue. See how I made them, what inspired it and perhaps get inspired to try this too.
+To get better access to tools in my closest drawer, I make dividers with foam core and hot glue.
+read this to see how I made them, what inspired it and perhaps get inspired to try this too.
 
-Like so many makers, or people with multi-functional rooms, I have some drawers that have become dumping grounds, general places to stash stuff that I want access to. This is no more pronounced than the drawer to the immediate right of my work desk.
+Like so many makers, or people with multi-functional rooms, I have some drawers that have become dumping grounds, general places to stash stuff that I want access to.
+This is no more pronounced than the drawer to the immediate right of my work desk.
 
-My work desk serves a few purposes in the house. During the day - it is my home office, so I use it for my day job - mostly a matter of writing code and attending online meetings.
+My work desk serves a few purposes in the house. During the day it is my home office, so I use it for my day job.
+This is mostly a matter of writing code and attending online meetings.
 
-During the evening I use this desk when writing robot books, robot code, or I move the laptop so I can use the space for robot building and soldering. Yes - the desk has a few nicks in it already.
+During the evening I use this desk when writing robot books, robot code, or I move the laptop so I can use the space for robot building and soldering.
+Yes, the desk has a few nicks in it already.
 
-The drawer has things I want to have to hand. But it also became a dumping ground. When I'd clear small parts off my desk, like components and wires, I'd stuff them in part of that drawer. So I could have easy access to them later. As you can imagine this became a little frustrating to find things in - stuff began to get lost in this dumping ground.
+The drawer has things I want to have to hand.
+But it also became a dumping ground. When I'd clear small parts off my desk, like components and wires, I'd stuff them in part of that drawer.
+So I could have easy access to them later.
+As you can imagine this became a little frustrating to find things in, so stuff began to get lost in this dumping ground.
 
 ## Inspiration from Tested
 
-I am a fan of the tested.com videos by [Adam Savage](https://twitter.com/donttrythis). He is not actually a fan of drawers and sees them as a place things go to die - his principle of first class access to everything is great, but doesn't quite work for my tiny space. All my making is done in a space that is about 2m x 3m.
+I am a fan of the tested.com videos by [Adam Savage](https://twitter.com/donttrythis).
+He is not actually a fan of drawers and sees them as a place things go to die.
+I think his principle of first class access to everything is great, but doesn't quite work for my tiny space.
+All my making is done in a space that is about 2m x 3m.
 
-One of his videos showed him [making drawer dividers with foam core and a hot glue gun](https://www.youtube.com/watch?v=csu4jQNFfzA&ab_channel=AdamSavage%E2%80%99sTested). And I felt inspired - this was perhaps exactly what this drawer needed. Plus - I had a bit of foam core stock and a hot glue gun. Why not give it a go.
+One of his videos showed him [making drawer dividers with foam core and a hot glue gun](https://www.youtube.com/watch?v=csu4jQNFfzA&ab_channel=AdamSavage%E2%80%99sTested).
+And I felt inspired - this was perhaps exactly what this drawer needed. Plus - I had a bit of foam core stock and a hot glue gun. Why not give it a go.
 
 ## Inventory
 
