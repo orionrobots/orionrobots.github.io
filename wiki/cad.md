@@ -1,7 +1,7 @@
 ---
 layout: page
-title: CAD
-tags: [robotics, sodtware, cad, 3d printing]
+title: CAD - Computer Aided Design
+tags: [robotics, software, cad, 3d printing]
 date: 2005-08-11 13:27:17
 ---
 This term is used to refer to the process, practice and tools for using computer to design and engineer systems.  It goes hand-in-hand with <a href="/wiki/cam.html" title="CAM">CAM</a>. Using CAD is a valuable skill for a robot builder to learn.
