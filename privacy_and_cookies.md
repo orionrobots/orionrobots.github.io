@@ -15,7 +15,6 @@ description: About Your Privacy and the Use Of Cookies
 * Google analytics section has been expanded.
 * As orionrobots no longer accepts payments, details regarding payments have been removed. We will not collect, hold or expect payment details from you.
 * Email marketing has been removed. We have not used this for around a decade.
-* Disqus has been removed - we no longer use this.
 
 ### WHAT DO WE DO WITH YOUR INFORMATION?
 
@@ -59,6 +58,10 @@ Once you leave our store’s website or are redirected to a third-party website 
 #### Links
 
 When you click on links on our site, they may direct you away from our site. We are not responsible for the privacy practices of other sites and encourage you to read their privacy statements.
+
+#### Disqus
+
+This site uses disqus for comments.
 
 #### Google analytics
 
