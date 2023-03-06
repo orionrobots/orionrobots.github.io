@@ -17,8 +17,13 @@
     <link rel="shortcut icon" href="{{ ASSET_PATH }}/images/orion_favicon.png" />
 
     <meta property="generated-from" content="_includes/themes/orionrobots/bootstrap_default.html" />
+    {% if page.lead_image %}
+    <meta property="og:image" content="{{ page.lead_image }}" />
+    <meta name="twitter:image" content="{{ page.lead_image }}" />
+    {% else %}
     <meta property="og:image" content="{{ ASSET_PATH }}/images/social-banner.jpg" />
     <meta name="twitter:image" content="{{ ASSET_PATH }}/images/social-banner.jpg" />
+    {% endif %}
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{{ page.title }} | {{ site.title }} - {{ site.tagline }}</title>
@@ -103,13 +108,22 @@
           <article id="col-main" class="content col-md-8">
             <div class="gcse-searchresults"></div>
             <h2 class="page-header">{{ page.title }} {% if page.tagline %}<small>{{page.tagline}}</small>{% endif %}</h2>
-            {% include social-sharing.html %}
-            {% unless page.tags == empty %}
-                <nav><ul id="tags" class="nav nav-pills">
-                  {% assign tags_list = page.tags %}
-                  {% include JB/tags_list %}
-                </ul></nav>
-            {% endunless %}
+            <div class="media">
+              <div class="media-left">
+                {% if page.thumb %}
+                  <img src="{{ page.thumb }}" alt="{{ page.title }}">
+                {% endif %}        
+              </div>
+              <div class="media-body" style="width: inherit">
+                {% include social-sharing.html %}
+                {% unless page.tags == empty %}
+                    <nav><ul id="tags" class="nav nav-pills">
+                      {% assign tags_list = page.tags %}
+                      {% include JB/tags_list %}
+                    </ul></nav>
+                {% endunless %}      
+              </div>
+            </div>
             {{ content }}
             {% if page.comments %}
                 {% include discus_thread %}

@@ -1,40 +1,34 @@
 {% if site.sharing.twitter or site.sharing.facebook or site.sharing.googleplus or site.sharing.pinterest %}
 
-<div id="sharing" class="clearfix">
+<div id="sharing">
 
-<ul style="width:500px; overflow:visible;">
+  <ul class="social_list" style="overflow:visible;">
 
-  {% if site.sharing.twitter %}
-  <li style="width:80px">
-    <a href="//twitter.com/share" class="twitter-share-button" data-count="horizontal">Tweet</a>
-  </li>
-  {% endif %}
+    {% if site.sharing.twitter %}
+    <li>
+      <a href="//twitter.com/share" class="twitter-share-button" data-count="horizontal">Tweet</a>
+    </li>
+    {% endif %}
 
-  {% if site.sharing.pinterest %}
-  <li style="margin-left:10px; width:80px">
-    <a href="//pinterest.com/pin/create/button/?url={{ shop.url }}{{ product.url }}{{ article.url }}{{ blog.url }}&description={{ product.title | strip_html | escape | replace: ' ', '%20' }}&media={{ product.featured_image | product_img_url: 'original' }}" class="pin-it-button" count-layout="horizontal"><img border="0" src="//assets.pinterest.com/images/PinExt.png" title="Pin It" /></a>
-    <script
-      type="text/javascript"
-      async defer
-      src="//assets.pinterest.com/js/pinit.js"
-    ></script>
-  </li>
-  {% endif %}
+    {% if site.sharing.pinterest %}
+    <li style="margin-left:10px">
+      <a href="//pinterest.com/pin/create/button/?url={{ shop.url }}{{ product.url }}{{ article.url }}{{ blog.url }}&description={{ product.title | strip_html | escape | replace: ' ', '%20' }}&media={{ product.featured_image | product_img_url: 'original' }}" class="pin-it-button" count-layout="horizontal"><img border="0" src="//assets.pinterest.com/images/PinExt.png" title="Pin It" /></a>
+      <script
+        type="text/javascript"
+        async defer
+        src="//assets.pinterest.com/js/pinit.js"
+      ></script>
+    </li>
+    {% endif %}
 
-  {% if site.sharing.facebook %}
-  <li>
-    <div id="fb-root"></div>
-    <div class="fb-like" data-send="false" data-layout="button_count" data-show-faces="false"></div>
-  </li>
-  {% endif %}
+    {% if site.sharing.facebook %}
+    <li>
+      <div id="fb-root"></div>
+      <div class="fb-like" data-send="false" data-layout="button_count" data-show-faces="false"></div>
+    </li>
+    {% endif %}
 
-  {% if site.sharing.googleplus %}
-  <li style="margin-left: 20px">
-    <div class="g-plusone" data-size="medium" data-annotation="inline" data-width="90"></div>
-  </li>
-  {% endif %}
-
-</ul>
+  </ul>
 
 </div>
 
