@@ -12,6 +12,7 @@ tags:
   - microcontroller
   - building robots
   - raspberry pi pico
+thumb: /galleries/img_7061_thumb.jpeg
 ---
 I am currently tutoring two children in robotics, which means practical and fun lessons ranging among a number of skills:
 
@@ -27,9 +28,10 @@ I've been buying parts for this too, also so they can buy parts to take home ins
 
 ## The First Phase Parts Kit
 
-![](/galleries/2023-03-01-electronic-parts-for-robotics-kit.jpg)
+![New robotics kit parts in use](/galleries/img_7061.jpg "New robotics kit parts in use")
 
-The initial kit is based around a Raspberry Pi Pico W on the Pimoroni Inventor 2040W board. This gives a load of flexible exploration options.
+The initial kit is based around a Raspberry Pi Pico W on the Pimoroni Inventor 2040W board.
+This gives a load of flexible exploration options.
 
 Part list for the first phase:
 
@@ -37,7 +39,7 @@ Part list for the first phase:
 * 2 x Motors with encoders
 * A bunch of LEDs - 5mm and 10mm, in a bunch of colours
 * RGB LEDs - as in the 4 pin kind to practice PWM on (there are addressable LED's on the Inventor, but these are good too)
-* A peizo buzzer
+* A piezo buzzer
 * Breadboard
 * Through-hole Resistors
 * Through-hole Capacitors
