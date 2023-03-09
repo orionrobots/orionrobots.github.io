@@ -5,22 +5,26 @@ date: 2023-01-28T19:33:01.011Z
 description: Small note on CircuitPython ulab
 tags:
   - circuitpython
-  - raspberry-pi-pico
-  - robot-programming
+  - raspberry pi pico
+  - robot programming
   - python
   - microcontroller
-  - learn-robotics-at-home
+  - learn robotics at home
 category: robot-programming
+thumb: /galleries/raspberry-pi-pico-circuitpython-msg-size_thumb.png
 ---
 I am still investigating a number of areas in CircuitPython.
 
-One of them is efficiently sending arrays where communication is restricted. For example, UART at 9600 can be slow. So sending fewer bytes is important.
+One of them is efficiently sending arrays where communication is restricted.
+For example, UART at 9600 can be slow.
+So sending fewer bytes is important.
 
 What I have area largish ulab arrays of data to send.
 
 Ulab is an implementation of parts of Numpy and SciPy for microcontroller Python interpreters, like CircuitPython and Micropython.
 
-The arrays I am using contain floats. What I wanted to check was the overheads, in complexity, and size of sending base64 encoded bytes, instead of a JSON list.
+The arrays I am using contain floats.
+What I wanted to check was the overheads, in complexity, and size of sending base64 encoded bytes, instead of a JSON list.
 
 ## The JSON List
 
@@ -28,13 +32,17 @@ The JSON list has a clear advantage in readability, although I intend to let cod
 
 ## Base64 encoding
 
-Numpy (or ulab) arrays can be converted to and from a binary bytes representation - this is going to be the array header data plus the raw array buffer. The bytes representation is efficient.
+Numpy (or ulab) arrays can be converted to and from a binary bytes representation.
+This representation is going to be the array header data plus the raw array buffer.
+The bytes representation is efficient.
 
-Base64 encodes this back into string data, effectively using 64 printable characters. These are the lowercase letters, uppercase letter, numbers 0-9 and the '+' and '/' characters.
+Base64 encodes this back into string data, effectively using 64 printable characters.
+These are the lowercase letters, uppercase letter, numbers 0-9 and the '+' and '/' characters.
 
 ## Comparing their code
 
-Lets see the code to check both types. I am doing this in a CircuitPython REPL via serial.
+Lets see the code to check both types.
+I am doing this in a CircuitPython REPL via serial.
 
 We start with some imports:
 ```python
@@ -43,7 +51,7 @@ We start with some imports:
 >>> import json
 >>> import binascii
 ```
-I could probably use `from` imports to make the next bit more terse, but these will do.
+I could probably use `from` imports to make the next bit smaller, but these will do.
 
 Now I set up a test subject array, using random data:
 ```python
@@ -52,7 +60,9 @@ Now I set up a test subject array, using random data:
 array([0.587398, 0.72429, 0.226611, ..., 0.515096, 0.333402, 0.378693], dtype=float32)
 ```
 
-This is 200 items of data between 0 and 1. All floating point. Floating point use 4 bytes per item.
+This is 200 items of data between 0 and 1.
+They are all floating point.
+Floating point numbers use 4 bytes per item.
 
 We can now see the size of this list in JSON as an array:
 
@@ -63,7 +73,9 @@ We can now see the size of this list in JSON as an array:
 '[0.587398, 0.72429, 0.226611,...
 0.515096, 0.333402, 0.378693]'
 ```
-I've abridged the output. But it is, give or take, 2Kb. It converts the ndarray to a standard python list, then dumps it.
+I've abridged the output.
+But it is around 2Kb.
+It converts the ndarray to a standard python list, then dumps it.
 
 Let's try with tobytes.
 
@@ -73,11 +85,14 @@ Let's try with tobytes.
 ... ))
 1072
 ```
-It is around half the size, with a little overhead. It's wrapped in JSON again, so there's no unfair advantage there. We have to convert the np array to bytes, then to base64, then this would be wrapped in our json data.
+This bytes version is around half the size, with a little overhead.
+It's wrapped in JSON again, so there's no unfair advantage there.
+We have to convert the np array to bytes, then to base64, then this would be wrapped in our json data.
 
 ## What about integers?
 
-I would expect the savings here to be less, for example a 16 bit integer is only going to have up to 5 digits, so this may be more about the list representation overhead.
+I would expect the savings here to be less.
+For example, a 16 bit integer is only going to have up to 5 digits, so this may be more about the list representation overhead.
 
 Setting up the list:
 ```python
@@ -107,11 +122,14 @@ And in base64:
 ...==\\n"'
 ```
 
-At 540 bytes, it is still roughly holding to being half the size. So likely still worthwhile if size is the primary concern. I've abridged the output data.
+At 540 bytes, it is still roughly holding to being half the size.
+So likely still worthwhile if size is the primary concern.
+I've abridged the output data.
 
 ## Converting it back
 
-None of these tests show me retrieving values back on the computer Python Numpy. Does this work?
+None of these tests show me retrieving values back on the computer Python Numpy.
+Does this work?
 
 Going to try with uint16 first, then the float.
 
