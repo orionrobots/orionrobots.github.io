@@ -145,7 +145,8 @@ Lets try this on a python3, assuming Numpy is installed:
 ...==\\n"'
 ```
 
-We've got the imports ready. Let's make a conversion:
+We've got the imports ready.
+Let's make a conversion:
 
 ```python
 >>> raw_bytes = base64.b64decode(json.loads(data))
@@ -153,7 +154,9 @@ We've got the imports ready. Let's make a conversion:
 >>> d
 array([34024,  3334, 44281 ... ])
 ```
-Yes! These values are the right values. A float might be trickier.
+Yes!
+These values are the right values.
+A float might be trickier.
 
 Let's get a fresh set of floats on the CircuitPython side:
 
@@ -179,11 +182,13 @@ And load the other side:
 >>> d
 array([0.2953533 , 0.9674592 , 0.75963736 ... ])
 ```
-It looks good. Note that the PC is displaying a few more significant figures, but its the same data.
+It looks good.
+Note that the PC is displaying a few more significant figures, but its the same data.
 
 ## Further investigations to try
 
-I should investigate with 2 dimensional arrays and see how those differ. Loading them might be trickier as this assumes 1 dimension in from buffer.
+I should investigate with 2 dimensional arrays and see how those differ.
+Loading them might be trickier as this assumes 1 dimension in from buffer.
 
 
 
