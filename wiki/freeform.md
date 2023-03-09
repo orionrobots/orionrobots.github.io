@@ -51,5 +51,5 @@ t is also worth having a back of push in connectors. The reason for this is that
 
 First be aware of the circuit you are using. Take each of the components, and judge the size and shape. Think about how many input/output connections the circuit needs. It is usually a good idea to have most IO connections facing the right way. Once you have all of these - then it is a matter of inspiration. For each idea, sketch it out (which is difficult because these tend to be more '3D' than PCB circuits) and trace the pathways - make sure all the correct connections are there. Try to limit risks of leads that shouldn't be touching accidentally doing so. This may mean glueing a piece of paper between them.
 
-* [Interfacing an LED to an RCX Port](/wiki/interfacing_an_led_to_an_rcx_port.html "Interfacing an LED to an RCX Port")
+* [Interfacing an LED to an RCX Port]({% post_url 2006-07-12-interfacing_an_led_to_an_rcx_port %} "Interfacing an LED to an RCX Port")
 * [Freeforming a Diode Bridge](/2005/05/30/freeforming-a-rectifier-bridge.html)

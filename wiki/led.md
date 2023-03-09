@@ -1,7 +1,7 @@
 ---
 layout: page
 title: LED - light Emitting Diode
-tags: [electronics, robot, led, hacking, beam, sensor, ccd, robot building]
+tags: [electronics, robot, led, beam, sensor, ccd, robot building]
 date: 2005-09-10 14:21:41
 ---
 An LED is a special version of a [diode](/wiki/diode.html "Diode") which emits light. Although nearly every PN Junction emits, and is sensitive to light, these junctions are specially mastered to emit more.
@@ -21,7 +21,7 @@ Their use in small devices however - has been undone by the march of the [LCD](/
 ## LED Projects
 
 * [Building A Simple Parallel Port LED Board]({% post_url 2004-11-05-simple-parallel-port-led %} "How to attach and program an LED to the parallel port on a PC")
-* [Interfacing an LED to an RCX Port](/wiki/interfacing_an_led_to_an_rcx_port.html "Interfacing an LED to an RCX Port")
+* [Interfacing an LED to an RCX Port]({% post_url 2006-07-12-interfacing_an_led_to_an_rcx_port %} "Interfacing an LED to an RCX Port")
 * [Building a demonstration AND Gate](/wiki/and.html "AND")
 
 ## Light Sensing

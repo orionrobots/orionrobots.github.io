@@ -1,7 +1,7 @@
 ---
-layout: page
+layout: post
 title: Interfacing an LED to an RCX Port
-tags: [electronics]
+tags: [electronics, lego rcx, led, robot building]
 date: 2006-07-12 12:35:01
 ---
 Using an [LED](/wiki/led.html "Light Emitting Diode") with the [Lego RCX](/wiki/rcx.html "The Lego RCX"), or the [CyberMaster](/wiki/cybermaster.html "CyberMaster") is actually not as difficult as it sounds.
