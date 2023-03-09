@@ -6,7 +6,7 @@ description: Danny Staple talking about Robotics At Home with Raspberry Pi Pico
 tags:
   - robotics at home
   - raspberry pi pico
-  - books
+  - robotics books
   - build a robot at home
 category: robot-books
 thumb: /galleries/img_6304_thumb.png

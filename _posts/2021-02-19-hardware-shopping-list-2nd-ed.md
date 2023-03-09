@@ -2,7 +2,7 @@
 layout: post
 title: "Learn Robotics Programming 2nd Edition - Hardware Shopping List"
 description: "A shopping list for Learn Robotics Programming, Second Edition"
-tags: [robotics, raspberry pi, robot, robot book, python, robot building, learn robotics at home, robot electronics, robot chassis]
+tags: [robotics books, raspberry pi, robot, python, robot building, learn robotics at home, robot electronics, robot chassis, learn robotics programming]
 ---
 {% include JB/setup %}
 

@@ -1,6 +1,6 @@
 ---
 created: 2019-01-09 20:04:30
-tags: [robotics, book, python, raspberry pi, programming, computer vision, mycroft]
+tags: [robotics books, python, raspberry pi, programming, computer vision, mycroft, learn robotics programming, robotics at home]
 title: My Book - Learn Robotics Programming on Sale Today
 layout: post
 ---
