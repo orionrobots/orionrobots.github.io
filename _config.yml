@@ -65,17 +65,16 @@ prose:
 # so be sure to set them if your theme uses them.
 #
 title: Orionrobots
-tagline: Building Robots Has Never Been So Easy
+tagline: Learn to build robots at home
 author :
   name : Dany Staple
-  email : danny@orionrobots.co.uk
+  email :
   github : orionrobots
   twitter : orionrobots
   feedburner : orionrobots
 sharing:
     facebook: True
     twitter: True
-    googleplus: True
     pinterest: True
 
 # The production_url is only used when full-domain names are needed
@@ -86,7 +85,7 @@ sharing:
 # Else if you are pushing to username.github.io, replace with your username.
 # Finally if you are pushing to a GitHub project page, include the project name at the end.
 #
-production_url : http://orionrobots.co.uk
+production_url : https://orionrobots.co.uk
 
 
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
@@ -190,12 +189,12 @@ menu:
     description: News about Robots
     url: /robot_news.html
   - 
-    title: Getting Started
+    title: Robotics at home
     description: Start building and playing with robots
-    url: /getting_started.html
+    url: /robotics_at_home.html
   -
     title: FAQ
-    description: About the Orion Explorer 1 Robot Kits
+    description: Orionrobots frequently asked questions
     url: /faq.html
   -
     title: Blog
