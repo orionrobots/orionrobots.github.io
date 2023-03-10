@@ -41,6 +41,11 @@ collections:
         required: false
         widget: "image"
         allow_multiple: false
+      - label: "Lead image"
+        name: "lead_image"
+        required: false
+        widget: "image"
+        allow_multiple: false
       - label: "Body"
         name: "body"
         widget: "markdown"
