@@ -27,6 +27,8 @@ One answer could be to buy the SPI Bluefruit BLE Friend, which might be faster, 
 
 ![Sending data from a Raspberry Pi Pico on a robot via Bluetooth BLE to a computer](/galleries/raspberry-pi-pico-circuitpython-msg-size.png "The bluetooth BLE use case")
 
+You can build this robot yourself using [Robotics at Home with Raspberry Pi Pico](https://amzn.to/3ZBxtDr) available from the 17th March 2023! Build autonomous robots with the versatile low-cost Raspberry Pi Pico controller and Python.
+
 So the other answer is to see what I can fix in software.
 I can probably use fewer bytes to send the same data, with savings that might be quite significant.
 
