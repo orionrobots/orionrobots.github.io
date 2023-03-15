@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Pi Day: Raspberry Pi on Pico Bot"
-date: 2022-03-14T18:30:00.000Z
+date: 2023-03-14T18:30:00.000Z
 description: "Pi Day: Raspberry Pi on Pico Bot"
 tags:
   - raspberry pi
