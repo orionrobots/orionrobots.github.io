@@ -25,15 +25,19 @@ My book, Robotics at Home With Raspberry Pi Pico drops in 3 days! On the 17th Ma
 
 ## Retrofitting the Raspberry Pi Zero W
 
-In my last post on this, [Using a Raspberry Pi to inspect code on Raspberry Pi Pico]({% post_url 2023-03-05-using-a-raspberry-pi-to-inspect-code-on-raspberry-pi-pico %}) I drew plans to add this to the robot. I started today with having located the Pi Zero W, flashing Raspberry Pi OS on an SD card and simplifying my plans.
+In my last post on this, \[Using a Raspberry Pi to inspect code on Raspberry Pi Pico]({% post_url 2023-03-05-using-a-raspberry-pi-to-inspect-code-on-raspberry-pi-pico %}) I drew plans to add this to the robot. I started today with having located the Pi Zero W, flashing Raspberry Pi OS on an SD card and simplifying my plans.
 
 My original plan for mounting was a 3D printed mount. I still plan that, but since I want to get this working quickly, I'm going to use a simple Pi Zero case and stick velcro dots on it, to match the other parts on the sensor shelf.
+
+
+
+![Velcro for mounting a Raspberry Pi Zero W](/galleries/img_7086.jpg "Velcro for mounting a Raspberry Pi Zero W")
 
 ## Powering the Raspberry Pi
 
 My initial plan was to power it from the 5V ish supply. This is a 5v output of a UBEC with a Schottky diode to prevent USB voltage back-powering it. The Raspberry Pi Zero didn't like this, it was at about 4.5 to 4.6v, and the Pi wants about 4.75v or higher.
 
-This is an easy fix, as I just need to wie things so that the Raspberry Pi is before the Schottky diode instead.
+This is an easy fix, as I just need to wire things so that the Raspberry Pi is before the Schottky diode instead.
 I had to change the wiring a tiny bit on the breadboard to accommodate it.
 
 Hopefully, I was powering both. The light was now on the Raspberry Pi Zero W, but it was not on my network.
@@ -47,18 +51,18 @@ Once all up and running, the next thing was to get them to talk to each other vi
 The Raspberry Pi already has Python 3.9.2 installed, so I didn't need to do anything there.
 In addition to the Raspberry Pi OS, I also installed the following software:
 
-- sudo apt-get install -y python3-pip
+* sudo apt-get install -y python3-pip
 
 Then the following python requirements (which took a while):
 
-- pip3 install Adafruit-Blinka
-- pip3 install numpy
+* pip3 install Adafruit-Blinka
+* pip3 install numpy
 
 I may add more later, but this should get us ready to test some simple communications. I was trying [Blinka](https://docs.circuitpython.org/projects/blinka/en/latest/api.html#busio.SPI) so I could migrate some code between the Raspberry Pi and the Raspberry Pi Pico.
 
 We then need to enable SPI on the Raspberry Pi.
 
-- sudo raspi-config
+* sudo raspi-config
 
 Then go to Interfacing Options, and enable SPI.
 
@@ -110,7 +114,7 @@ print(spi.frequency)
 On the Raspberry Pi, this was 100000, and on the Pico is was 250000. That won't help.
 
 On the Pico code, after we lock, lets set this.
-    
+
 ```python
 spi.configure(baudrate=100000)
 ```
