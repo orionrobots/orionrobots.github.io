@@ -2,7 +2,16 @@
 layout: post
 title: "Pi Day: Raspberry Pi on Pico Bot"
 date: 2022-03-14T18:30:00.000Z
-tags: [raspberry pi, raspberry pi pico, pi day, learn robotics at home, building a home robot, robotics books]
+description: "Pi Day: Raspberry Pi on Pico Bot"
+tags:
+  - raspberry pi
+  - raspberry pi pico
+  - pi day
+  - learn robotics at home
+  - building a home robot
+  - robotics books
+thumb: /galleries/img_7087-thumb.jpg
+lead_image: /galleries/img_7087.jpg
 ---
 Today is Pi day. As in the number 3.141592, and also the Raspberry Pi.
 
