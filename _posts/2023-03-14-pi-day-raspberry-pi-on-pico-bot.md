@@ -168,7 +168,7 @@ This is when i found out that the CircuitPython libraries, and therefore Blinka,
 
 For each library, the question will be, can they play the role of secondary? Failing that, will I need to bit-bang something like it?
 
-Looking at it - bit banging on the Raspberry Pi in python is likely doomed. The library spidev seems oriented towards the Raspberry Pi being the main, and the other device being the secondar. I'm not sure if it can be used the other way around. This may even be a hardware restriction on the Raspberry Pi.
+Looking at it - bit banging on the Raspberry Pi in python is likely doomed. The library spidev seems oriented towards the Raspberry Pi being the main, and the other device being the secondary. I'm not sure if it can be used the other way around. This may even be a hardware restriction on the Raspberry Pi.
 
 ## Other Plans
 
