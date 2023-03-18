@@ -23,4 +23,3 @@ services:
       - 8080:80
     volumes:
       - ./_site:/var/www/html
-

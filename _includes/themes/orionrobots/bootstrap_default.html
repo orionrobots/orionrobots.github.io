@@ -71,6 +71,40 @@
         }
       </style>
 </head>
+<script>
+  const newSlug = "{{ page.date | date: '%Y-%m-%d' }}-{{ page.slug }}";
+  document.addEventListener("DOMContentLoaded", function(event) {
+    var navbar = document.querySelector(".nav, .navbar-nav");
+    
+    // Temporary
+    const adminLi = document.createElement('li');
+    const adminButton = document.createElement('a');
+    adminButton.href = "/admin/collections/blog/entries/" + newSlug;
+    adminButton.className = "active";            
+    adminButton.textContent = "Edit";
+    adminLi.appendChild(adminButton);
+    navbar.appendChild(adminLi);
+    // Temporary end
+
+    const user = netlifyIdentity.currentUser();
+    if (user) {
+      user.jwt().then(token => {
+        fetch('https://api.github.com/user/orgs', {
+          headers: {
+            Authorization: `Bearer ${token}`,
+          },
+        })
+        .then(response => response.json())
+        .then(orgs => {
+          const adminOrg = orgs.find(org => org.login === 'orionrobots');
+          if (adminOrg) {
+            navbar.appendChild(adminLi);
+          }
+        })
+      });
+    }
+  });
+</script>
 <body class="template">
     <!-- Header -->
     <div class="container">
