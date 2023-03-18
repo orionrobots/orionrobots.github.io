@@ -1,5 +1,5 @@
 ---
-theme :
+theme:
   name : orionrobots
 ---
 {% include JB/setup %}
@@ -165,4 +165,35 @@ a {
   left: 0;
   width: 100%;
   height: 100%;
+}
+
+#site-title h1 {
+  font-size: 20px;
+  font-weight: normal;
+  line-height: 1.1;
+  margin-top: 0.1em;
+  margin-bottom: 0;
+}
+.navbar-brand {
+  font-family: BebasNeueRegular, arial, sans-serif;
+}
+
+.navbar-default {
+  background-image: url(/assets/themes/orionrobots/orion_header_new.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+}
+
+#tags.nav {
+    line-height: 14px;
+    padding: 2px 2px;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: #ffffff;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+  color: #78e49c;
 }

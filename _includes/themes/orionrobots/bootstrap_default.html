@@ -33,9 +33,9 @@
     {% if page.description %}<meta name="description" content="{{ page.description }}">{% endif %}
     <meta name="author" content="{{ site.author.name }}">
 
-    <link href="{{ ASSET_PATH }}/css/bootstrap-style.css" rel="stylesheet" type="text/css" media="all">
     <link href="{{ ASSET_PATH }}/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" media="all">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link href="{{ ASSET_PATH }}/css/bootstrap-style.css" rel="stylesheet" type="text/css" media="all">
     <!--<link href="{{ ASSET_PATH }}/bootstrap/css/bootstrap-theme.css" rel="stylesheet" type="text/css" media="all">-->
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
     <script type="text/javascript" async src="{{ ASSET_PATH }}/bootstrap/js/bootstrap.min.js"></script>
@@ -46,30 +46,6 @@
     <!-- atom & rss feed -->
     <link href="{{ BASE_PATH }}{{ site.JB.atom_path }}" type="application/atom+xml" rel="alternate" title="Sitewide ATOM Feed">
     <link href="{{ BASE_PATH }}{{ site.JB.rss_path }}" type="application/rss+xml" rel="alternate" title="Sitewide RSS Feed">
-    <style type="text/css">
-        #site-title h1 {
-          font-size: 20px;
-          font-weight: normal;
-          line-height: 1.1;
-          margin-top: 0.1em;
-          margin-bottom: 0;
-        }
-        .navbar-brand {
-          font-family: BebasNeueRegular, arial, sans-serif;
-        }
-
-        .navbar-default {
-          background-image: url({{ ASSET_PATH }}/orion_header_new.jpg);
-          background-size: cover;
-          background-repeat: no-repeat;
-          color: white;
-        }
-
-        #tags.nav {
-            line-height: 14px;
-            padding: 2px 2px;
-        }
-      </style>
 </head>
 <script>
   const newSlug = "{{ page.date | date: '%Y-%m-%d' }}-{{ page.slug }}";
@@ -79,30 +55,11 @@
     // Temporary
     const adminLi = document.createElement('li');
     const adminButton = document.createElement('a');
-    adminButton.href = "/admin/collections/blog/entries/" + newSlug;
+    adminButton.href = "/admin/#/collections/blog/entries/" + newSlug;
     adminButton.className = "active";            
     adminButton.textContent = "Edit";
     adminLi.appendChild(adminButton);
     navbar.appendChild(adminLi);
-    // Temporary end
-
-    const user = netlifyIdentity.currentUser();
-    if (user) {
-      user.jwt().then(token => {
-        fetch('https://api.github.com/user/orgs', {
-          headers: {
-            Authorization: `Bearer ${token}`,
-          },
-        })
-        .then(response => response.json())
-        .then(orgs => {
-          const adminOrg = orgs.find(org => org.login === 'orionrobots');
-          if (adminOrg) {
-            navbar.appendChild(adminLi);
-          }
-        })
-      });
-    }
   });
 </script>
 <body class="template">
