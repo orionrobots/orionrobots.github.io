@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "Robotics at Home with Raspberry Pi Pico Book Launched"
+title: Robotics at Home with Raspberry Pi Pico Book Launched
 date: 2023-03-17T18:30:00.000Z
-description: "Robotics at Home with Raspberry Pi Pico Book now available on Amazon!"
+description: Robotics at Home with Raspberry Pi Pico Book now available on Amazon!
 tags:
   - raspberry pi pico
   - learn robotics at home
@@ -10,6 +10,8 @@ tags:
   - robotics books
   - circuitpython
   - autonomous robots
+thumb: /galleries/41afhgihh6l._sx404_bo1-204-203-200_.jpg
+lead_image: /galleries/2023-03-18-book-robots-with-rendered-book.jpg
 ---
 📕Today my new book "Robotics at Home with Raspberry Pi Pico" is out 🎉! The last year and a half of work, with research into Raspberry Pi Pico PIO, hand tool chassis build techniques, probability and Monte Carlo has finally paid off with the book available.
 
@@ -45,3 +47,9 @@ Is this book for you?
 This is my third robotics book with Packt 🚀! The book presents a step-by-step hands on robot building and programming journey, with an extendable rover designed for experimentation and enhancement.
 
 Buy the book in print or as an ebook at <https://packt.link/5swS2>.
+
+## Note on the lead image
+
+I am still to have the print version delivered. Until then, the above image will have to do. The book is a render from Blender with the texture on a correctly proportioned cuboid, and the picture composited with GIMP, the foreground selection tool for the two robots and some patience.
+
+I'll make an updated image for a follow up article when I receive my print books!
