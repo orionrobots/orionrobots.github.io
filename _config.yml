@@ -5,7 +5,7 @@ permalink: /:categories/:year/:month/:day/:title.html
 
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", "gemfile", "History.markdown",
           ".idea", ".git", ".gitignore", "Thumbs.db", "site.tgz", "fabfile.py", "Dockerfile", "Vagrantfile",
-          "*.log", "autogen_gallery.py"]
+          "*.log", "autogen_gallery.py", "node_modules"]
 highlighter: rouge
 excerpt_separator: "\n\n"
 markdown: kramdown

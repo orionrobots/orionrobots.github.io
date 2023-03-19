@@ -70,3 +70,4 @@ thumbnails
 
 ## Freecad backup files
 *.fcstd1
+node_modules
