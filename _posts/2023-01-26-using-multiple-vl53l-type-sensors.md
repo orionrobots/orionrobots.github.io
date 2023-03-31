@@ -11,7 +11,9 @@ tags:
   - optical sensors
   - distance sensor
   - i2c bus
+  - robotics at home
 category: robotics-at-home
+thumb: /galleries/vl53l0x-distance-sensors-on-pico-thumnbail.jpeg
 ---
 The VL53LnX series sensors from ST are popular distance sensors. 
 
