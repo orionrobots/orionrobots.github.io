@@ -35,7 +35,7 @@ You will also need consumables. These are parts needed for the robot, but come i
 | Precut Jumper Wire                                 | <https://thepihut.com/products/jumper-wire-kit-140-piece>                           | £4.00  | 1             | £4.00  |          |
 | Diode kit with 1n5817 Schottky diode               | <https://amzn.to/3lQixlS>                                                           | £5.96  | 1             | £5.96  |          |
 | 3mm styrene sheets                                 | <https://amzn.to/3GfJjvh>                                                           | £14.99 | 1             | £14.99 |          |
-| Standoff/hex kit M.25 and M3                       | <https://amzn.to/3ZKk3EB>                                                           | £15.99 | 1             | £15.99 |          |
+| Standoff/hex kit M2.5 and M3                       | <https://amzn.to/3ZKk3EB>                                                           | £15.99 | 1             | £15.99 |          |
 | Plug Pin headers                                   | <https://thepihut.com/products/2mm-pitch-40-pin-break-apart-male-headers-pack-of-5> | £2.60  | 1             | £2.60  |          |
 | 10-20mm hook and loop (Velcro) self adhesive discs | <https://amzn.to/41h9gDX>                                                           | £1.83  | 1             | £1.83  |          |
 |                                                    |                                                                                     |        |               |        | Subtotal |
