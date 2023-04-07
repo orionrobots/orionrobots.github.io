@@ -23,10 +23,10 @@ Robot parts:
 | N20 Gear motors with encoders 298:1 | <https://thepihut.com/products/adafruit-n20-dc-motor-with-magnetic-encoder-6v-with-1-298-gear-ratio>           | £12.40 | 2             | £24.80  |          |
 | Ball castor                         | <https://thepihut.com/products/20mm-height-metal-caster-bearing-wheel>                                         | £1.90  | 1             | £1.90   |          |
 | Wheels                              | <https://thepihut.com/products/pololu-wheel-70x8mm-pair-white>                                                 | £6.40  | 1             | £6.40   |          |
-| VL53L1X Sensors                     | <https://thepihut.com/products/time-of-flight-tof-distance-ranging-sensor-vl53l1x>                             | £16.20 | 1             | £16.20  |          |
+| VL53L1X Sensors                     | <https://thepihut.com/products/time-of-flight-tof-distance-ranging-sensor-vl53l1x>                             | £16.20 | 2             | £32.40  |          |
 | BNO055 Sensor                       | <https://thepihut.com/products/adafruit-9-dof-absolute-orientation-imu-fusion-breakout-bno055-stemma-qt-qwiic> | £29.80 | 1             | £29.80  |          |
 | Motor brackets                      | <https://thepihut.com/products/pololu-micro-metal-gearmotor-bracket-pair-black>                                | £2.90  | 1             | £2.90   | Subtotal |
-|                                     |                                                                                                                |        | Section Total | £109.78 | £109.78  |
+|                                     |                                                                                                                |        | Section Total | £125.98 | £125.98  |
 
 You will also need consumables. These are parts needed for the robot, but come in quantity so you will have a stock for other robot and maker projects. You may already have some of these around.
 
@@ -39,7 +39,7 @@ You will also need consumables. These are parts needed for the robot, but come i
 | Plug Pin headers                                   | <https://thepihut.com/products/2mm-pitch-40-pin-break-apart-male-headers-pack-of-5> | £2.60  | 1             | £2.60  |          |
 | 10-20mm hook and loop (Velcro) self adhesive discs | <https://amzn.to/41h9gDX>                                                           | £1.83  | 1             | £1.83  |          |
 |                                                    |                                                                                     |        |               |        | Subtotal |
-|                                                    |                                                                                     |        | Section total | £45.37 | £155.15  |
+|                                                    |                                                                                     |        | Section total | £45.37 | £171.35  |
 
 The next thing you will need are tools. You may also already have these in your home. These will be usable in other robotics projects, or are the kind of thing you'll find in a maker space or school workshops.
 
@@ -58,7 +58,7 @@ The next thing you will need are tools. You may also already have these in your 
 | Precision Metric wrench set - tiny type                            | <https://amzn.to/3EyWkPW>                                                             | £8.96  | 1             | £8.96  |          |
 | Screwdrivers: Philips PH0, Ph1 and flat bladed 2mm/3mm.            | <https://www.amazon.co.uk/Rolson-28882-Screwdriver-Set-Pieces/dp/B00JITIPFG>          | £17.87 | 1             | £17.87 |          |
 | USB Micro Cable                                                    | <https://thepihut.com/products/usb-to-micro-usb-cable-0-5m?variant=37979679293635>    | £2.50  | 1             | £2.50  | Subtotal |
-|                                                                    |                                                                                       |        | Section total | £88.08 | £243.23  |
+|                                                                    |                                                                                       |        | Section total | £88.08 | £259.43  |
 
 Finally, there is the optional part of crimping. I feel this makes the connections from the motors, batteries and UBEC neat. Crimping tools are not cheap, but this falls into tools and consumables for more projects.
 
@@ -68,6 +68,6 @@ Finally, there is the optional part of crimping. I feel this makes the connectio
 | --------------------------- | ------------------------------------------------------------------------------------------ | ------ | ------------- | ------ | -------- |
 | Dupont Crimp Kit            | <https://amzn.to/3Kz4mLY>                                                                  | £8.99  | 1             | £8.99  |          |
 | PA09 Engineer Crimping tool | <https://thepihut.com/products/universal-micro-crimping-pliers-1-0-to-1-9mm-size-contacts> | £43.60 | 1             | £43.60 | subtotal |
-|                             |                                                                                            |        | Section total | £52.59 | £295.82  |
+|                             |                                                                                            |        | Section total | £52.59 | £259.43 |
 
 Part availability and prices are changing rapidly at the moment, and hopefully some of the sensors and motors will come down in price, closer to where they were when this started.
