@@ -1,6 +1,6 @@
 ---
 layout: post
-title: multitasking in robots
+title: Multitasking in Robots
 date: 2006-06-30 07:48:54
 tags: [robotics, robot building, programming, code, microcontrollers, robotics at home]
 ---
@@ -91,9 +91,9 @@ function main:
     advance_algorithm_status = advance_algorithm(advance_algorithm_status)
 ```
 
-It will now do a,d,b,e,c,f,a,d.... and so on.
+It will now do `a,d,b,e,c,f,a,d....` and so on.
 
-What really bears serious analysis in your design is the persisting data.
+What really requires serious analysis in your design is the persisting data.
 My simplified example had only an incrementing variable, but sometimes complete structures or objects would be passed around.
 This is a model that works excellently for C.
 The best thing is that if in C, you pass around a struct pointer, and you do not need to return anything.
