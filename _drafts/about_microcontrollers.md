@@ -16,7 +16,7 @@ It helps to think of electronics as a set of building blocks that you put togeth
 robot, a washing machine, a TV remote or a mobile phone. The microcontroller is a fairly widely used block - and it is
 found in all the above things and many more electronic items.
 
-## Plug it in!
+## Plug it in
 
 In your kit - you will have an Arduino UNO R3 board, and a USB cable. If you have already assembled the robot - you may
 want to remove the wheels first.
@@ -89,6 +89,7 @@ In the Arduino App, go to the menu and click: File->Examples->01.Basics->Bare Mi
 
 You should see the following:
 
+```c++
     void setup() {
       // put your setup code here, to run once:
 
@@ -98,6 +99,7 @@ You should see the following:
       // put your main code here, to run repeatedly:
 
     }
+```
 
 What you have here is the skeleton of an Arduino program. There are two "comments" - these aren't instructions but
 explanations for you or another programmer to say what your program means. These are inside "functions" - blocks
@@ -108,10 +110,12 @@ The LED is on an "IO" pin - an Input/Output pin. When you use a pin for informat
 microcontroller this is output. The Pin this LED is connected to is 13 (they are all numbered).
 So lets set this to an output in the setup function:
 
+```c++
     void setup() {
       // put your setup code here, to run once:
       pinMode(13, OUTPUT);
     }
+```
 
 What you are doing here is sending the "pin mode" instruction for pin 13 with mode OUTPUT.
 The instructions for the Arduino are written this way - with some information in the brackets "()" and a semicolon ";" to
@@ -120,11 +124,14 @@ end each one.
 The LED pin is now an output, and it is a digital output. We now want to make sure we write/put a "HIGH" or "ON" level on
 it to turn the light on:
 
+
+```c++
     void setup() {
       // put your setup code here, to run once:
       pinMode(13, OUTPUT);
       digitalWrite(13, HIGH);
     }
+```
 
 The code here is using a "digitalWrite" instruction for pin 13 with the information HIGH.
 Leave the "loop" function alone. We can talk about the other parts later.

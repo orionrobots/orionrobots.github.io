@@ -6,7 +6,7 @@ layout: post
 ---
 So let's start with the ugly truth.
 
-The first edition of my Learn Robotics Programming book is based on python 2. I've said it. The good news is that the book has info on converting it to 3,and the github repo reflects that. 
+The first edition of my Learn Robotics Programming first edition is based on python 2. I've said it. The good news is that the book has info on converting it to 3,and the github repo reflects that.
 
 But why is that so?
 
@@ -22,7 +22,7 @@ When I started writing the book, ath the beginning of 2018, installing opencv on
 
 a) get the dev tools , compile it yourself. Go out for an evening, it might be done in 4-6 hours. This way you can have the latest opencv and python.
 b) There are some people who distribute custom Raspberry Pi builds where they had compiled it. Could I recommend one of these?
-c) install it from apt. No compilation time. Nice and headless. Downside is you got open cv 2.4.9 and python 2.7. 
+c) install it from apt. No compilation time. Nice and headless. Downside is you got open cv 2.4.9 and python 2.7.
 
 I'd been through step a, a few times. It had at one point been a bit of friction to getting started. I decided that this compilation, in terms of the complication and time was not something I would inflict upon my reader to do so this option was definitely taken off the table.
 
@@ -34,11 +34,11 @@ Later in the process something that would have been a perfect option D arrived. 
 
 ## Impact On The Book
 
-Other libraries I've built upon are likely to have changes in syntax, paramters, and I'm aware of a big change to GPIOZero in the pipeline. And yet, the concepts, the block diagrams do not change.  It is also possible that Raspbian will make Python 3 the default interpreter - which will also make option C good again too.
+Other libraries I've built upon are likely to have changes in syntax, parameters, and I'm aware of a big change to GPIOZero in the pipeline. And yet, the concepts, the block diagrams do not change.  It is also possible that Raspbian will make Python 3 the default interpreter - which will also make option C good again too.
 
-Technology always shifts, new paths to do things with least resistance emerge. In the day-to-day, I just adapt and carry on. But when writing something like this, seeing shifts between when drafts were completed and then those parts are published, it is rather like seeing an old friends children, who seem to have suddenly grown, compared with the imperceptable growth of your own children you see every day. 
+Technology always shifts, new paths to do things with least resistance emerge. In the day-to-day, I just adapt and carry on. But when writing something like this, seeing shifts between when drafts were completed and then those parts are published, it is rather like seeing an old friends children, who seem to have suddenly grown, compared with the imperceptible growth of your own children you see every day.
 
-A section in the appendix covers python 3 conversion, and it is actually not particularly complicated in terms of the code. There was testing to see things work in Python 3. The changes are minor and syntactic in nature. I toyed with making polyglot code, but thought it would cloud things if I added `from __future__` statements throughout the code, while some of the more minor syntactic changes I was able to roll back in. 
+A section in the appendix covers python 3 conversion, and it is actually not particularly complicated in terms of the code. There was testing to see things work in Python 3. The changes are minor and syntactic in nature. I toyed with making polyglot code, but thought it would cloud things if I added `from __future__` statements throughout the code, while some of the more minor syntactic changes I was able to roll back in.
 
 The start of the book already had changes made as the 3B+ arrived and I switched to it. Just as I was in the very final stages of approving things, the Raspberry Pi 3A+ was announced, smaller, lighter and cheaper, all good things that I would love to incorporate too. My reviewer found 3v versions of sensors that had previously only been available as 5v and needed converters. I provided code in the github repo for alternative LED strips, and will add code for alternative motor boards or sensors if people ask for it.
 

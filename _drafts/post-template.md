@@ -1,5 +1,6 @@
 ---
 layout: post
+date: 2019-02-15 08:04:30
 title: "Raspberry Pi Pico Wireless pack and Motors"
 description: "Using CircuitPython, Raspberry Pi Pico, Pimoroni wireless Pack and Kitronic Motor Board Together"
 category: "robot building"

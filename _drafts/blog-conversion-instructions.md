@@ -1,6 +1,6 @@
 # How to convert the blog items
 
-# Requirements
+## Requirements
 
 Git clone this repo. Make yourself a branch:
 
@@ -24,9 +24,9 @@ If you are wandering about that last commandline:
 
 You should wait for a bit, and then be able to see your site at: http://localhost:4000
 
-# Getting an item to work on
+## Getting an item to work on
 
-# Images
+## Images
 
 If there are images in the path, the post will need a gallery directory.
 
