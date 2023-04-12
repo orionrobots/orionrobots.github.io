@@ -11,7 +11,9 @@ tags:
   - optical sensors
   - distance sensor
   - i2c bus
+  - robotics at home
 category: robotics-at-home
+thumb: /galleries/vl53l0x-distance-sensors-on-pico-thumnbail.jpeg
 ---
 The VL53LnX series sensors from ST are popular distance sensors. 
 
@@ -19,7 +21,8 @@ They are small compared with the HC-SR04 distance sensors, and faster being base
 
 The devices connect via I2C, and I2C normally allows multiple devices to share a bus, keeping pin usage low. However, one common problem for the VL53 series is that they all come with a single preprogrammed I2C address. Lets see some solutions for this.
 
-See  <https://www.youtube.com/watch?v=XQrxPcq2tZ8&lc> for accompanying video content.
+<iframe width="560" height="315" src="https://www.youtube.com/embed/XQrxPcq2tZ8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"allowfullscreen="true"></iframe>
+</div>
 
 ## Simple solution - 2 I2C buses
 

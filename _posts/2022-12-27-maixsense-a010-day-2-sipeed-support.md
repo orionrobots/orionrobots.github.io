@@ -10,6 +10,7 @@ tags:
   - time of flight
   - distance sensor
 category: robot-building
+lead_image: /galleries/focus_stacked_a010_and_robot-med.jpg
 ---
 In yesterday's [Maixsense A010 post](/robot%20building/2022/12/26/maixsense-a010-first-impressions.html) I had reached a block, and it hadn't worked either standalone, or via the serial port.
 
