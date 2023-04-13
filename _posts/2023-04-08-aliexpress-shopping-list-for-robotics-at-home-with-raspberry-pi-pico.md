@@ -10,7 +10,7 @@ tags:
   - hobby robotics
   - electronics
 ---
-A common question from readers is why I recommend stores like Pimoroni, Adafruit and The Pi Hut over the generic items on Alibaba and AliExpress.
+A common question from readers of [Robotics at Home with Raspberry Pi Pico](https://packt.link/5swS2) is why I recommend stores like Pimoroni, Adafruit and The Pi Hut over the generic items on Alibaba and AliExpress.
 
 In this post, lets discuss why I prefer those stores, but also get into an AliExpress shopping list that covers the items the book needs (or close enough). I try here to stick to items that are like-for-like that do not vary far from the book recommendations.
 

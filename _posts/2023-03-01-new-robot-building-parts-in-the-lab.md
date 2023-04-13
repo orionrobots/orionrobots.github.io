@@ -25,7 +25,7 @@ I am currently tutoring two children in robotics, which means practical and fun 
 * Making designs - sketching/scribbling by hand, cardboard mock ups, 3D CAD, 2D inkscape.
 * Tool use - hand tools for wiring, crimping, soldering, cutting plastics. 3D printing.
 
-I've been buying parts for this too, also so they can buy parts to take home instead of relying on my part bin when they are in my lab. 
+I've been buying parts for this too, also so they can buy parts to take home instead of relying on my part bin when they are in my lab.
 
 ## The First Phase Parts Kit
 
@@ -49,6 +49,7 @@ Part list for the first phase:
 * Different types of Dupont jumper wires
 
 A lot of those items come in starter electronic kits.
+This will allow me to mentor with a variant on the [Robotics at Home with Raspberry Pi Pico](https://packt.link/5swS2) robot as a starting platform.
 
 ## Adapting Cables
 

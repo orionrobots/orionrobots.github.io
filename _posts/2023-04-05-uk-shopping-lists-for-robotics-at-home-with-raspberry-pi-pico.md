@@ -7,7 +7,7 @@ tags:
   - robotics at home
   - robot building
 ---
-If you are based in the UK here is an item shopping list suitable for building a robot as shown in the [Robotics at Home with Raspberry Pi Pico book]( https://packt.link/5swS2). These are made using ThePiHut, a reputable UK electronics vendor with a broad selection and Amazon. You could definitely find parts cheaper on eBay or Alibaba, however you will have longer lead times and the quality will vary.
+If you are based in the UK here is an item shopping list suitable for building a robot as shown in the [Robotics at Home with Raspberry Pi Pico book](https://packt.link/5swS2). These are made using ThePiHut, a reputable UK electronics vendor with a broad selection and Amazon. You could definitely find parts cheaper on eBay or Alibaba, however you will have longer lead times and the quality will vary.
 
 Some parts have already been adapted to newer versions in this list.
 

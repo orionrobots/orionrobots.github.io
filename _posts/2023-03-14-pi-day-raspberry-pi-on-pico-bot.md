@@ -15,7 +15,7 @@ lead_image: /galleries/img_7087.jpg
 ---
 Today is Pi day. As in the number 3.141592, and also the Raspberry Pi.
 
-As part of my work on [Robotics at Home with Raspberry Pi Pico](https://www.amazon.com/Robotics-Home-Raspberry-Pi-Pico/dp/1492079941), I've been working on a robot that uses a Raspberry Pi Pico as its brain. This is a great way to learn about robotics, and also to learn about the Raspberry Pi Pico.
+As part of my work on [Robotics at Home with Raspberry Pi Pico](https://packt.link/5swS2), I've been working on a robot that uses a Raspberry Pi Pico as its brain. This is a great way to learn about robotics, and also to learn about the Raspberry Pi Pico.
 
 I've decided, for various reasons, to retrofit it with a Raspberry Pi Zero W for WiFi debugging, and running code to assist improving the code ont the robot.
 

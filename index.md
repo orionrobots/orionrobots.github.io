@@ -10,12 +10,15 @@ pin_links:
     thumb: /galleries/2013-11-14-explorer-wall-avoider-kit/close_up_of_sensors_in_breadboard.jpg
     description: How to build a wall avoiding robot
     link: /2013/11/14/explorer-wall-avoider-kit
-
+  - image: /galleries/2023/Robotics-at-Home-with-Raspberry-Pi-Pico-banner.png
+    thumb: /galleries/2023/Robotics-at-Home-with-Raspberry-Pi-Pico-banner.png
+    description: Learn to build and Program Robots using Robotics at Home with Raspberry Pi Pico
+    link: https://www.amazon.com/Robotics-Home-Raspberry-Pi-Pico/dp/1492079941
 ---
 At Orionrobots, Danny builds robots, electronics, gadgets and stuff that moves. I get kids like my regular helpers Jonathan and Helena to join in, and occasionally others too.
 I aim to make some of the cool robotics things easy for anyone to build, and push the boundaries of what is easy. Oh and just to have lots of fun doing it too...
 
-[![Build and Program Robots - Learn Robotics Programming](/galleries/index/2021-06-06-hero.jpg)](/2021/01/15/learn-robotics-programming-second-edition.html)
+[![Learn to build and Program Robots using Robotics at Home with Raspberry Pi Pico](/galleries/2023/Robotics-at-Home-with-Raspberry-Pi-Pico-banner.png)](https://packt.link/5swS2)
 
 You can support my work at [Orionrobots on Patreon](https://patreon.com/orionrobots) where there are also previews, polls and other perks for supporters.
 

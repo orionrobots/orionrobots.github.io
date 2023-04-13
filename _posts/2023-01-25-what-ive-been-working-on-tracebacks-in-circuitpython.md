@@ -8,9 +8,10 @@ tags:
   - raspberry-pi-pico
   - python
   - error-handling
+  - robotics-at-home
 category: robot-building
 ---
-What have I currently been working on? I discovered a problem in CircuitPython with the traceback module, although i was perhaps more of a misunderstanding on my part.
+What have I currently been working on? As part of my work on [Robotics at Home with Raspberry Pi Pico](https://packt.link/5swS2) I discovered a problem in CircuitPython with the traceback module, although i was perhaps more of a misunderstanding on my part.
 
 ## What is the traceback module?
 
