@@ -20,7 +20,7 @@ I aim to make some of the cool robotics things easy for anyone to build, and pus
 
 [![Learn to build and Program Robots using Robotics at Home with Raspberry Pi Pico](/galleries/2023/Robotics-at-Home-with-Raspberry-Pi-Pico-banner.png)](https://packt.link/5swS2)
 
-You can support my work at [Orionrobots on Patreon](https://patreon.com/orionrobots) where there are also previews, polls and other perks for supporters.
+Discuss [robot building on Our Discord Server](https://discord.gg/sMnPxFhAe2)!
 
 You can see my latest videos on [Orionrobots Youtube](https://youtube.com/orionrobots).
 
