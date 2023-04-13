@@ -18,7 +18,7 @@ pin_links:
 At Orionrobots, Danny builds robots, electronics, gadgets and stuff that moves. I get kids like my regular helpers Jonathan and Helena to join in, and occasionally others too.
 I aim to make some of the cool robotics things easy for anyone to build, and push the boundaries of what is easy. Oh and just to have lots of fun doing it too...
 
-[![Learn to build and Program Robots using Robotics at Home with Raspberry Pi Pico](/galleries/2023/Robotics-at-Home-with-Raspberry-Pi-Pico-banner.png)](https://packt.link/5swS2)
+[![Learn to build and Program Robots using Robotics at Home with Raspberry Pi Pico](/galleries/2023/Robotics-at-Home-with-Raspberry-Pi-Pico-banner.jpg)](https://packt.link/5swS2)
 
 Discuss [robot building on Our Discord Server](https://discord.gg/sMnPxFhAe2)!
 
@@ -48,26 +48,6 @@ You can reach me on twitter [@orionrobots](https://twitter.com/orionrobots)
     </li>
   {% endfor %}
 </ul>
-
-{% assign image="/assets/construction_guide/RobotExplodedStep0.png" %}
-{% assign thumb="/assets/construction_guide/RobotExplodedStep0.png" %}
-{% assign description="Building The Orionrobots Explorer Robot kit" %}
-{% assign link_url="/construction_guide.html" %}
-{% include pin_image_link.html %}
-{% assign image='/galleries/2013-11-14-explorer-wall-avoider-kit/close_up_of_sensors_in_breadboard.jpg' %}
-{% assign thumb='/galleries/2013-11-14-explorer-wall-avoider-kit/close_up_of_sensors_in_breadboard.jpg' %}
-{% assign description='How to build a wall avoiding robot' %}
-{% assign link_url='/2013/11/14/explorer-wall-avoider-kit' %}
-{% include pin_image_link.html %}
-{% assign youtube_pinterest="true" %}
-{% assign description="Adding a robot to a raspberry pi" %}
-{% assign youtube_id="U8458u-jilI" %}
-{% include youtube_link.html %}
-{% assign image="/assets/2013-05-23-building-a-bump-sensor/13-IMG_4874.CR2_compact.jpg" %}
-{% assign thumb="/assets/2013-05-23-building-a-bump-sensor/13-IMG_4874.CR2_compact.jpg" %}
-{% assign description="Building a bump sensor for the Explorer Robot Kits" %}
-{% assign link_url="/2013/05/23/building-a-bump-sensor" %}
-{% include pin_image_link.html %}
 
 ## Events
 
