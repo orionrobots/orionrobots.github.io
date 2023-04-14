@@ -7,8 +7,8 @@ pin_links:
     description: Learn to build and Program Robots using Robotics at Home with Raspberry Pi Pico
     link: https://www.amazon.com/Robotics-Home-Raspberry-Pi-Pico/dp/1492079941
 ---
-At Orionrobots, Danny builds robots, electronics, gadgets and stuff that moves. I get kids like my regular helpers Jonathan and Helena to join in, and occasionally others too.
-I aim to make some of the cool robotics things easy for anyone to build, and push the boundaries of what is easy. Oh and just to have lots of fun doing it too...
+At Orionrobots, Danny and his team build robots, electronics, gadgets and stuff that moves.
+We aim to make robots easy for anyone to build, and push the boundaries of what is easy. Oh and just to have lots of fun doing it too!
 
 <a href="https://packt.link/5swS2" title="Learn to build and Program Robots using Robotics at Home with Raspberry Pi Pico"><img src="/galleries/2023/Robotics-at-Home-with-Raspberry-Pi-Pico-banner-2048.jpg"
   alt="Learn to build and Program Robots using Robotics at Home with Raspberry Pi Pico"
