@@ -2,23 +2,15 @@
 layout: index
 title: Welcome to Orionrobots
 pin_links:
-  - image: /assets/construction_guide/RobotExplodedStep0.png
-    thumb: /assets/construction_guide/RobotExplodedStep0.png
-    description: Building The Orionrobots Explorer Robot kit
-    link_url: /construction_guide.html
-  - image: /galleries/2013-11-14-explorer-wall-avoider-kit/close_up_of_sensors_in_breadboard.jpg
-    thumb: /galleries/2013-11-14-explorer-wall-avoider-kit/close_up_of_sensors_in_breadboard.jpg
-    description: How to build a wall avoiding robot
-    link: /2013/11/14/explorer-wall-avoider-kit
-  - image: /galleries/2023/Robotics-at-Home-with-Raspberry-Pi-Pico-banner.png
-    thumb: /galleries/2023/Robotics-at-Home-with-Raspberry-Pi-Pico-banner.png
+  - image: /galleries/2023/Robotics-at-Home-with-Raspberry-Pi-Pico-banner-2048.png
+    thumb: /galleries/2023/Robotics-at-Home-with-Raspberry-Pi-Pico-banner-2048.png
     description: Learn to build and Program Robots using Robotics at Home with Raspberry Pi Pico
     link: https://www.amazon.com/Robotics-Home-Raspberry-Pi-Pico/dp/1492079941
 ---
 At Orionrobots, Danny builds robots, electronics, gadgets and stuff that moves. I get kids like my regular helpers Jonathan and Helena to join in, and occasionally others too.
 I aim to make some of the cool robotics things easy for anyone to build, and push the boundaries of what is easy. Oh and just to have lots of fun doing it too...
 
-<a href="https://packt.link/5swS2" title="Learn to build and Program Robots using Robotics at Home with Raspberry Pi Pico"><img src="/galleries/2023/Robotics-at-Home-with-Raspberry-Pi-Pico-banner.jpg"
+<a href="https://packt.link/5swS2" title="Learn to build and Program Robots using Robotics at Home with Raspberry Pi Pico"><img src="/galleries/2023/Robotics-at-Home-with-Raspberry-Pi-Pico-banner-2048.jpg"
   alt="Learn to build and Program Robots using Robotics at Home with Raspberry Pi Pico"
   sizes="(min-width: 1200px) 1140px, (min-width: 1000px) 940px, (min-width: 800px) 720px, 93.75vw"
   srcset="/galleries/2023/Robotics-at-Home-with-Raspberry-Pi-Pico-banner-720.jpg 720w, /galleries/2023/Robotics-at-Home-with-Raspberry-Pi-Pico-banner-1140.jpg 1140w, /galleries/2023/Robotics-at-Home-with-Raspberry-Pi-Pico-banner-1280.jpg 1280w"></a>
