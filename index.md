@@ -18,7 +18,10 @@ pin_links:
 At Orionrobots, Danny builds robots, electronics, gadgets and stuff that moves. I get kids like my regular helpers Jonathan and Helena to join in, and occasionally others too.
 I aim to make some of the cool robotics things easy for anyone to build, and push the boundaries of what is easy. Oh and just to have lots of fun doing it too...
 
-[![Learn to build and Program Robots using Robotics at Home with Raspberry Pi Pico](/galleries/2023/Robotics-at-Home-with-Raspberry-Pi-Pico-banner.jpg)](https://packt.link/5swS2)
+<a href="https://packt.link/5swS2" title="Learn to build and Program Robots using Robotics at Home with Raspberry Pi Pico"><img src="/galleries/2023/Robotics-at-Home-with-Raspberry-Pi-Pico-banner.jpg"
+  alt="Learn to build and Program Robots using Robotics at Home with Raspberry Pi Pico"
+  sizes="(min-width: 1200px) 1140px, (min-width: 1000px) 940px, (min-width: 800px) 720px, 93.75vw"
+  srcset="/galleries/2023/Robotics-at-Home-with-Raspberry-Pi-Pico-banner-720.jpg 720w, /galleries/2023/Robotics-at-Home-with-Raspberry-Pi-Pico-banner-1140.jpg 1140w, /galleries/2023/Robotics-at-Home-with-Raspberry-Pi-Pico-banner-1280.jpg 1280w"></a>
 
 Discuss [robot building on Our Discord Server](https://discord.gg/sMnPxFhAe2)!
 
