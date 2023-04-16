@@ -28,10 +28,10 @@ module Jekyll
             collection_asset_base = "#{Asset_base}/#{collection.label}"
             collection.docs.each do |doc|
                 asset_dir = doc.data["asset_dir"] || "#{collection_asset_base}/#{doc.data['slug']}";
-                puts(asset_dir) if doc.data['asset_dir']
+                # puts(asset_dir) if doc.data['asset_dir']
                 if File.exists? asset_dir
                     asset_thumbnails_dir = "#{asset_dir}/#{Thumbnails_dir}"
-                    puts("thumbnails dir is #{asset_thumbnails_dir}") if doc.data['asset_dir']
+                    # puts("thumbnails dir is #{asset_thumbnails_dir}") if doc.data['asset_dir']
                     begin
                         Dir.mkdir(asset_thumbnails_dir) unless File.exists?(asset_thumbnails_dir)
                     rescue SystemCallError
