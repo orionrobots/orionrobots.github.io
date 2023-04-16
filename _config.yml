@@ -1,13 +1,17 @@
 encoding: UTF-8
-# This is the default format. 
+# This is the default format.
 # For more see: http://jekyllrb.com/docs/permalinks/
 permalink: /:categories/:year/:month/:day/:title.html
 # anything underscore or . prefixed should already be excluded
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", "gemfile", "History.markdown",
-          ".idea", ".git", ".gitignore", "Thumbs.db", "site.tgz", "fabfile.py", "Dockerfile", "Vagrantfile",
-          "*.log", "autogen_gallery.py", "node_modules"]
+          ".idea", ".git", ".gitignore", "Thumbs.db", "site.tgz", "Dockerfile", "Vagrantfile",
+          "*.log", "autogen_gallery.py", "node_modules", "package.json", "package-lock.json",
+          "webpack.config.js"]
 # todo - shuttle things into a downloads folder for usable downloadable stuff (unless github makes more sense)
 include:
+  - assets
+  # css/js precompiled with webpack out here
+  - dist
   # should go into downloads (with a redirect/rewrite)
   - fritzing_library
   - js
@@ -18,9 +22,9 @@ highlighter: rouge
 excerpt_separator: "\n\n"
 markdown: kramdown
 defaults:
-  - 
+  -
     values:
-      theme: 
+      theme:
         name: orionrobots
 
 plugins:
@@ -30,7 +34,7 @@ prose:
   media: 'galleries'
   rooturl: '_posts'
   siteurl: 'https://orionrobots.co.uk'
-  ignore: 
+  ignore:
     - index.md
     - _config.yml
     - /_layouts
@@ -49,7 +53,7 @@ prose:
         field:
           label: "Description"
           element: "textarea"
-          required: false          
+          required: false
       # todo - generate a tags json p for selecting tags
       - name: "tags"
         field:
@@ -69,7 +73,7 @@ prose:
           label: "Using MathJax"
           element: "checkbox"
 
-# Themes are encouraged to use these universal variables 
+# Themes are encouraged to use these universal variables
 # so be sure to set them if your theme uses them.
 #
 title: Orionrobots
@@ -86,7 +90,7 @@ sharing:
     pinterest: True
 
 # The production_url is only used when full-domain names are needed
-# such as sitemap.txt 
+# such as sitemap.txt
 # Most places will/should use BASE_PATH to make the urls
 #
 # If you have set a CNAME (pages.github.com) set your custom domain here.
@@ -106,11 +110,11 @@ JB :
   # however this value will be dynamically changed depending on your deployment situation.
   #
   # CNAME (http://yourcustomdomain.com)
-  #   DO NOT SET BASE_PATH 
+  #   DO NOT SET BASE_PATH
   #   (urls will be prefixed with "/" and work relatively)
   #
   # GitHub Pages (http://username.github.io)
-  #   DO NOT SET BASE_PATH 
+  #   DO NOT SET BASE_PATH
   #   (urls will be prefixed with "/" and work relatively)
   #
   # GitHub Project Pages (http://username.github.io/project-name)
@@ -129,7 +133,7 @@ JB :
   # ex: [BASE_PATH]/assets/themes/[THEME-NAME]
   #
   # Override this by defining an absolute path to assets here.
-  # ex: 
+  # ex:
   #   http://s3.amazonaws.com/yoursite/themes/watermelon
   #   /assets
   #
@@ -157,32 +161,32 @@ JB :
       num_posts: 5
       width: 580
       colorscheme: light
-   
+
   # Settings for analytics helper
   # Set 'provider' to the analytics provider you want to use.
   # Set 'provider' to false to turn analytics off globally.
-  #        
+  #
   analytics :
-    provider : google 
-    google : 
+    provider : google
+    google :
         tracking_id : 'UA-465086-1'
         site: orionrobots.co.uk
     mixpanel :
         token : '_MIXPANEL_TOKEN_'
 
-  # Settings for sharing helper. 
+  # Settings for sharing helper.
   # Sharing is for things like tweet, plusone, like, reddit buttons etc.
   # Set 'provider' to the sharing provider you want to use.
   # Set 'provider' to false to turn sharing off globally.
   #
   sharing :
     provider : false
-    
-  # Settings for all other include helpers can be defined by creating 
+
+  # Settings for all other include helpers can be defined by creating
   # a hash with key named for the given helper. ex:
   #
   #   pages_list :
-  #     provider : "custom"   
+  #     provider : "custom"
   #
   # Setting any helper's provider to 'custom' will bypass the helper code
   # and include your custom code. Your custom file must be defined at:
@@ -191,12 +195,12 @@ JB :
 
 menu:
   - title: Robot Building
-    description: Information on Robot Building  
+    description: Information on Robot Building
     url: /robot_building.html
   - title: Robot news
     description: News about Robots
     url: /robot_news.html
-  - 
+  -
     title: Robotics at home
     description: Start building and playing with robots
     url: /robotics_at_home.html
