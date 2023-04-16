@@ -2,10 +2,18 @@ encoding: UTF-8
 # This is the default format. 
 # For more see: http://jekyllrb.com/docs/permalinks/
 permalink: /:categories/:year/:month/:day/:title.html
-
+# anything underscore or . prefixed should already be excluded
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", "gemfile", "History.markdown",
           ".idea", ".git", ".gitignore", "Thumbs.db", "site.tgz", "fabfile.py", "Dockerfile", "Vagrantfile",
           "*.log", "autogen_gallery.py", "node_modules"]
+# todo - shuttle things into a downloads folder for usable downloadable stuff (unless github makes more sense)
+include:
+  # should go into downloads (with a redirect/rewrite)
+  - fritzing_library
+  - js
+  # this should go into assets? Do we even use it in the site, or should it be another repo?
+  - orionrobots_identity
+  - admin
 highlighter: rouge
 excerpt_separator: "\n\n"
 markdown: kramdown

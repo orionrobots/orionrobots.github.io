@@ -23,3 +23,7 @@ FROM jekyll/builder:4.2.2
 
 RUN apk add imagemagick
 RUN gem install jekyll-toc rmagick webrick
+RUN mkdir -p /tmp/_site && chmod o+rwx /tmp/_site
+# RUN mkdir -p /tmp/_cache && chmod o+rwx /tmp/_cache
+# ENV OUTPUT /srv/jekyll/_site
+# ENTRYPOINT mkdir -p "$OUTPUT" && chmod o+rwx "$OUTPUT" && $@

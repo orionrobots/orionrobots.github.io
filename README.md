@@ -13,6 +13,9 @@ Build:
     # jekyll build (or serve)
 ```
 
+You can use `jekyll build --profile` to diagnose build speed issues.
+You can also pass `-d /tmp/_site` to jekyll build in the session to speed up build times, if you do not intend to keep the site output.
+
 ## Using Prose to edit
 
 Edit/make posts for authenticated users: https://prose.io/#orionrobots/orionrobots.github.io
