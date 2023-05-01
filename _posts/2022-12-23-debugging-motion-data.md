@@ -23,11 +23,13 @@ I was able to dump the extended pose data with raw encoder sensor data, and then
 
 I captured this data (copy pasted) from a serial terminal, into a jupyter notebook, and imported matplotlib along with numpy:
 
-Imports: 
+Imports:
+
 ```python
 import numpy as np
 from matplotlib import pyplot as plt
 ```
+
 Data:
 
 ```python
@@ -52,6 +54,7 @@ ax.set_ylim(0, 2000)
 u, v = np.cos(np.radians(new_data[:, 2])), np.sin(np.radians(new_data[:, 2]))
 ax.quiver(new_data[:, 0], new_data[:, 1], u, v)
 ```
+
 Plotting this yielded what seemed to be sensible.
 
 ![Quiver plot of a single pose over time]({{site.baseurl}}/galleries/quiver_first_pose.png)
@@ -67,6 +70,7 @@ poses_raw_data = """
 ```
 
 This data is quite raw, it's json with some fluff, so I processed it into numpy arrays again:
+
 ```python
 import json
 poses_lines = poses_raw_data.split("\n")
@@ -100,29 +104,42 @@ for pose_index in range(poses_over_time.shape[1]):
 ![Multiple poses over time plotted in matplotlib]({{site.baseurl}}/galleries/scatter-multiple-poses-over-time.png)
 
 This makes no sense, it matches what I saw - with little circles. But all the poses should have had the same motion data. What does that motion data look like? The translation data should have the robot moving forward in whatever heading it is at (this is from the first dataset):
+
 ```python
 fig, ax = plt.subplots()
 ax.plot(np.arange(len(data)), data[:, 6])
 ax.legend(["overall speed"])
 ```
+
 ![Plotting the speed/translation]({{site.baseurl}}/galleries/translation-speed-plot.png)
 
 So there's a consistent forward speed (the robot was mostly driving forward), the variation is likely due to timing (multiple routines are in play, these are not consistent time ticks) but it's overall 60 units per update. Those little rings didn't appear to have much forward motion in them.
 
 What about the rotation? I don't expect much due to the robot mostly moving forward. Since we got rings, graphing the cumulative sum of the rotations seemed like a useful output:
+
 ```python
 cumulative_rotation = np.cumsum(data[:, 5] + data[:, 7])
 fig, ax = plt.subplots()
 ax.plot(np.arange(len(cumulative_rotation)), cumulative_rotation)
 ax.legend(["cumulative rotation"])
 ```
+
 This gave a fairly dull graph, with a full rotation of around -25 degrees (let's say we don't 100% trust it):
 ![Cumulative rotation plotted]({{site.baseurl}}/galleries/cumulative-rotation.png)
 
-This also doesn't make for little rings. So the motion data doesn't currently hold with what all the poses are doing. 
+This also doesn't make for little rings. So the motion data doesn't currently hold with what all the poses are doing.
 
 I will continue to investigate, but my guess so far is that when I'm applying the motion data to the poses, something is changing in that data across the range of poses.
 
 ## Update
 
 After digging throughout the day, I was able to isolate the problem I had to being [a bug in ulab](https://github.com/adafruit/circuitpython/issues/7376) and raise this with CircuitPython.
+
+## Robotics at Home with Raspberry Pi Pico
+
+This post was based on research I did for the book [Robotics at Home with Raspberry Pi Pico](https://packt.link/5swS2) which is available now.
+
+<a href="https://packt.link/5swS2" title="Learn to build and Program Robots using Robotics at Home with Raspberry Pi Pico"><img src="/galleries/2023/Robotics-at-Home-with-Raspberry-Pi-Pico-banner-2048.jpg"
+  alt="Learn to build and Program Robots using Robotics at Home with Raspberry Pi Pico"
+  sizes="(min-width: 1200px) 1140px, (min-width: 1000px) 940px, (min-width: 800px) 720px, 93.75vw"
+  srcset="/galleries/2023/Robotics-at-Home-with-Raspberry-Pi-Pico-banner-720.jpg 720w, /galleries/2023/Robotics-at-Home-with-Raspberry-Pi-Pico-banner-1140.jpg 1140w, /galleries/2023/Robotics-at-Home-with-Raspberry-Pi-Pico-banner-1280.jpg 1280w"></a>
