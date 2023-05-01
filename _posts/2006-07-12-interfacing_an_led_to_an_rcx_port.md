@@ -10,13 +10,15 @@ Before building anything, please ensure you (and in the case of younger readers,
 
 ## Electronics
 
-First you need to think through the electronic theory of it. We will assume that we are using one of the output ports on the devices. These output a [PWM](/wiki/pwm.html "Pulse Width Modulation") signal, which will be up to around 9 volts. 9v is somewhat excessive for an [LED](/wiki/led.html "Light Emitting Diode"), but considering the current is fairly low, limiting it further with a resistor should give us safe operation. If we do not want the [LED](/wiki/led.html "Light Emitting Diode") to flicker (this may be imperceptible - but might interfere with [IR](/wiki/infra_red.html "A type of EM radiation commonly used for digital communications") communications), we should probably have a capacitor to bridge the gaps in the duty cycle of the [PWM](/wiki/pwm.html "Pulse Width Modulation") output.
+First you need to think through the electronic theory of it. We will assume that we are using one of the output ports on the devices. These output a [PWM](/wiki/pwm.html "Pulse Width Modulation") signal, which will be up to around 9 volts. 9v is somewhat excessive for an [LED](/wiki/led.html "Light Emitting Diode"), but considering the current is fairly low, limiting it further with a resistor should give us safe operation.
+
+If we do not want the [LED](/wiki/led.html "Light Emitting Diode") to flicker (this may be imperceptible but might interfere with [IR](/wiki/infra_red.html "A type of EM radiation commonly used for digital communications") communications), we should probably have a capacitor to bridge the gaps in the duty cycle of the [PWM](/wiki/pwm.html "Pulse Width Modulation") output.
 
 ![RCX LED schematic diagram](/galleries/gallery-1-common-images/147-rcxled1.png)
 
-Now here you can make a design decision. You can either design it so you are using one [LED](/wiki/led.html "Light Emitting Diode") which will light regardless fo which ay it is connected, or so you can have two [LED's](/wiki/led.html "Light Emitting Diode") so you get a different colour depending on polarity.
+Now here you can make a design decision. You can either design it so you are using one [LED](/wiki/led.html "Light Emitting Diode") which will light regardless of which way it is connected, or so you can have two [LED's](/wiki/led.html "Light Emitting Diode") so you get a different colour depending on polarity.
 
-If you went with the first decision, you can build a diode bridge- to rectify the current before it goes into the capacitor. This will then give you the same direction of current into the LED regardless of how it is connected.
+If you went with the first decision, you can build a diode bridge to rectify the current before it goes into the capacitor. This will then give you the same direction of current into the LED regardless of how it is connected.
 
 ![RCX to LED Schematic with diode rectifier bridge](/galleries/gallery-1-common-images/148-rcxled2.png)
 
@@ -32,7 +34,7 @@ This means that each capacitor is only working in one direction across the LED.
 
 ## Physical Connection
 
-You can probably fit each of those simple circuits in a single Lego block - I would say a 2 by 2 brick for the 1 LED model, and 2 by 4 for the Two LED models.
+You can probably fit each of those simple circuits in a single Lego block. I would guess you need a 2 by 2 brick for the 1 LED model, and 2 by 4 for the Two LED models.
 
 The best way to do this would be to take the brick, and drill out the central column - to fit a small PCB inside. Then you drill out one side for the LED. You can then solder the PCB and push it through (LED first). For the connections - you can use one of a few methods:
 
