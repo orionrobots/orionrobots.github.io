@@ -89,4 +89,4 @@ def get_broken_list(site_root):
         print("Bad link chains so far:")
         pprint([(make_link_chain(links_seen, url), body) for url, body in bad_links])
 
-get_broken_list('http://orionrobots.co.uk')
+get_broken_list('https://orionrobots.co.uk')
