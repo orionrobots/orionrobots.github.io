@@ -81,12 +81,12 @@ def get_broken_list(site_root):
                     [add_to_links_seen(url, current_url) for url in urls]
                     [new.add(url) for url in urls if url not in visited]
 
-            print "Bad urls counted is", len(bad_links)
-            print "Visited length is", len(visited)
+            print("Bad urls counted is", len(bad_links))
+            print("Visited length is", len(visited))
             if len(bad_links) >= 5:
                 break
     finally:
-        print "Bad link chains so far:"
+        print("Bad link chains so far:")
         pprint([(make_link_chain(links_seen, url), body) for url, body in bad_links])
 
 get_broken_list('http://orionrobots.co.uk')

@@ -63,13 +63,13 @@ class ColumnViewGadget(tk.Frame):
 class Application(tk.Frame):
 
     def show_visited(self):
-        print "Showing visited"
+        print("Showing visited")
 
     def show_bad_links(self):
-        print "Showing bad links"
+        print("Showing bad links")
 
     def start(self):
-        print "Starting/resuming scan"
+        print("Starting/resuming scan")
 
     def populate_list(self):
 

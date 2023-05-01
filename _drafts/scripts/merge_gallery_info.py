@@ -34,7 +34,7 @@ def test_find_img_in_merge_data():
     result = find_img_in_merge_data(sample_data, 272)
     assert(result=={'caption': '', 'date': '2005-05-30 15:48:22', 'name': 'P1010135.jpg', 'src': '272-p1010135.jpg',
             'thumb-src': 'thm-272-80x70-p1010135.jpg'})
-    
+
 def process_together(main_data, merge_data):
     new_data = []
     for item in main_data:
@@ -49,20 +49,19 @@ def process_together(main_data, merge_data):
                 'date': item.get('date', merge_item['date']),
             }
         except StopIteration:
-            print "Image {s} with id {i} not found".format(s=item['src'], i=image_id)
+            print("Image {s} with id {i} not found".format(s=item['src'], i=image_id))
             raise
         new_data.append(new_item)
     return new_data
 
 
 def main():
-    print sys.argv
+    print(sys.argv)
     main_data, merge_data = load_files(sys.argv[1], sys.argv[2])
     main_data = main_data['images']
     new_data = process_together(main_data, merge_data)
-    print yaml.dump(new_data, default_flow_style=False)
+    print(yaml.dump(new_data, default_flow_style=False))
 
 
 if __name__ == '__main__':
     main()
-

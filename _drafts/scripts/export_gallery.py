@@ -40,11 +40,11 @@ def get_thumbnail(image_id):
     return thumbs.fetchone()
 
 def process_image(image_row):
-    image_filename = make_image_filename('{i}-{fn}'.format(i=image_row[Tables.images.c.imageId], 
+    image_filename = make_image_filename('{i}-{fn}'.format(i=image_row[Tables.images.c.imageId],
         fn=image_row[Tables.images_data.c.filename]))
     thumb = get_thumbnail(image_row[Tables.images.c.imageId])
     if thumb:
-        thumb_filename = make_image_filename('thm-{i}-{fn}'.format(i=image_row[Tables.images.c.imageId], 
+        thumb_filename = make_image_filename('thm-{i}-{fn}'.format(i=image_row[Tables.images.c.imageId],
             fn=thumb[Tables.images_data.c.filename]))
     else:
         thumb_filename = None
@@ -60,19 +60,19 @@ def process_image(image_row):
     if thumb:
         with open(os.path.join('extract_images', thumb_filename), 'wb') as fd:
             fd.write(thumb[Tables.images_data.c.data])
-    
+
     return image_data
 
 def main():
-    print "Connecting to DB"
+    print("Connecting to DB")
     conn = Tables.conn
 
     s = select([Tables.images, Tables.images_data])
     s = s.where(and_(
-        Tables.images.c.galleryId==os.getenv('GALLERY_ID'), 
-        Tables.images.c.imageId == Tables.images_data.c.imageId, 
+        Tables.images.c.galleryId==os.getenv('GALLERY_ID'),
+        Tables.images.c.imageId == Tables.images_data.c.imageId,
         Tables.images_data.c.type=='o'))
-    
+
     images = conn.execute(s)
     images_data = [process_image(image) for image in images]
     gallery_q = select([Tables.galleries]).where(Tables.galleries.c.galleryId == os.getenv('GALLERY_ID'))
@@ -84,10 +84,10 @@ def main():
         'description': gallery.description,
         'layout': 'autogallery'
     }
-    print "Outputting data."
+    print("Outputting data.")
     with open(os.path.join('extract_images', 'index.md'), 'w') as fd:
         yaml.dump(output, fd)
-    print "Done."
+    print("Done.")
 
 if __name__ == '__main__':
     main()
