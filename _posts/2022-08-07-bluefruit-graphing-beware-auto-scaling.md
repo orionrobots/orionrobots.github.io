@@ -23,7 +23,7 @@ I thought it was my code doing something janky, when measuring speed (distance/t
 
 I thought I had some stability issue in my encoder reading, or the PIO code I'd written to sample the encoder was wrong. So I went from the d/t to simply plotting encoder counts on a line:
 
-![Bleutooth plot of encoder counts]({{site.baseurl}}/galleries/Pasted image 20220807115906.png)
+![Bluetooth plot of encoder counts]({{site.baseurl}}/galleries/Pasted image 20220807115906.png)
 
 This led to see there's nothing wrong with the encoders.
 And then it dawned on me - the scale was different.
@@ -35,3 +35,12 @@ Adding a 0 in:
 ![Bluetooth plot of encoder speed with a 0 anchor]({{site.baseurl}}/galleries/Pasted image 20220807120614.png)
 
 Always be aware of graph anchoring and scaling - it can definitely send you on a wild goose chase.
+
+## Robotics at Home with Raspberry Pi Pico
+
+This post was based on research I did for the book [Robotics at Home with Raspberry Pi Pico](https://packt.link/5swS2) which is available now.
+
+<a href="https://packt.link/5swS2" title="Learn to build and Program Robots using Robotics at Home with Raspberry Pi Pico"><img src="/galleries/2023/Robotics-at-Home-with-Raspberry-Pi-Pico-banner-2048.jpg"
+  alt="Learn to build and Program Robots using Robotics at Home with Raspberry Pi Pico"
+  sizes="(min-width: 1200px) 1140px, (min-width: 1000px) 940px, (min-width: 800px) 720px, 93.75vw"
+  srcset="/galleries/2023/Robotics-at-Home-with-Raspberry-Pi-Pico-banner-720.jpg 720w, /galleries/2023/Robotics-at-Home-with-Raspberry-Pi-Pico-banner-1140.jpg 1140w, /galleries/2023/Robotics-at-Home-with-Raspberry-Pi-Pico-banner-1280.jpg 1280w"></a>

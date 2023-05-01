@@ -95,3 +95,12 @@ I made a short video on this power supply [WPS3010H Bench Power Supply Review an
 ## Conclusion
 
 I'm not done with this yet. There are still bugs. I will follow up with information about the firmware updates, changes I made to the CircuitPython libraries, and work on potentially investigating the Nina FW itself.
+
+## Robotics at Home with Raspberry Pi Pico
+
+This post was based on research I did for the book [Robotics at Home with Raspberry Pi Pico](https://packt.link/5swS2) which is available now.
+
+<a href="https://packt.link/5swS2" title="Learn to build and Program Robots using Robotics at Home with Raspberry Pi Pico"><img src="/galleries/2023/Robotics-at-Home-with-Raspberry-Pi-Pico-banner-2048.jpg"
+  alt="Learn to build and Program Robots using Robotics at Home with Raspberry Pi Pico"
+  sizes="(min-width: 1200px) 1140px, (min-width: 1000px) 940px, (min-width: 800px) 720px, 93.75vw"
+  srcset="/galleries/2023/Robotics-at-Home-with-Raspberry-Pi-Pico-banner-720.jpg 720w, /galleries/2023/Robotics-at-Home-with-Raspberry-Pi-Pico-banner-1140.jpg 1140w, /galleries/2023/Robotics-at-Home-with-Raspberry-Pi-Pico-banner-1280.jpg 1280w"></a>

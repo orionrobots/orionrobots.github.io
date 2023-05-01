@@ -1,16 +1,13 @@
 ---
 layout: post
 using_mathjax: false
-published: false
-title: 'Machine bolts supplied with parts '
-description: ''
-tags: [robot building]
-category: ''
+published: true
+title: 'Machine bolts supplied with parts'
+tags: [robot building, robot building tips, learn robotics at home]
 ---
 # Machine bolts in robot building
 
 Some handy robot kits and parts come with machine bolts (screws) and nuts.
-
 
 These are handy if you don't have the exact size needed but are often flawed in two major ways.
 
@@ -32,11 +29,10 @@ My preferred type have a hex socket head. These do not slide out like a flat hea
 
 ## Example parts
 
-Pimoroni have some lovely n20  motor brackets. These fit over n20 motors, and with two bolts,  secure the motors nicely to a  chassis.
+Pimoroni have some lovely n20 motor brackets. These fit over n20 motors, and with two bolts,  secure the motors nicely to a chassis.
 
 The nylon bolts are suitable in that they keep the cost down, and are easily clipped to length. I'm not sure if these nylon type could be done with hex, but pozi would be an improvement.
 
 ## What I use
 
 I use a hardware kit with a selection of thread sizes and lengths, hex head machine screws, with nuts and washers.
-

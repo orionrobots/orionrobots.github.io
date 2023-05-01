@@ -15,7 +15,7 @@ It is probably time I revise my usage of mainly AA batteries for robots. I am st
 
 In the Raspberry Pi based [Learn Robotics Programming](http://packt.live/2XccaKe) book I use a USB power bank to provide power to the Raspberry Pi and electronics, while AA batteries are used for motor power. These USB power banks can be pricey, but are a safe option in that they usually have battery management built in, and are designed to be used with electronics. They are easy to charge and don't require any specialist chargers.
 
-They can be bulky, and you have to shop around for those with enough current capacity to handle a Pi. The awesome [Pimoroni Trilobot](https://shop.pimoroni.com/products/trilobot) uses a USB power bank to power the Rasberry Pi and the motors so may be a model to consider.
+They can be bulky, and you have to shop around for those with enough current capacity to handle a Pi. The awesome [Pimoroni Trilobot](https://shop.pimoroni.com/products/trilobot) uses a USB power bank to power the Raspberry Pi and the motors so may be a model to consider.
 
 ## 18650 Battery cells
 

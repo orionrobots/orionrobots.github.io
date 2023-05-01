@@ -213,3 +213,12 @@ Note that the PC is displaying a few more significant figures, but it's the same
 
 I should investigate with 2 dimensional arrays and see how those differ.
 Loading them might be trickier as this assumes 1 dimension in from buffer.
+
+## Robotics at Home with Raspberry Pi Pico
+
+This post was based on research I did for the book [Robotics at Home with Raspberry Pi Pico](https://packt.link/5swS2) which is available now.
+
+<a href="https://packt.link/5swS2" title="Learn to build and Program Robots using Robotics at Home with Raspberry Pi Pico"><img src="/galleries/2023/Robotics-at-Home-with-Raspberry-Pi-Pico-banner-2048.jpg"
+  alt="Learn to build and Program Robots using Robotics at Home with Raspberry Pi Pico"
+  sizes="(min-width: 1200px) 1140px, (min-width: 1000px) 940px, (min-width: 800px) 720px, 93.75vw"
+  srcset="/galleries/2023/Robotics-at-Home-with-Raspberry-Pi-Pico-banner-720.jpg 720w, /galleries/2023/Robotics-at-Home-with-Raspberry-Pi-Pico-banner-1140.jpg 1140w, /galleries/2023/Robotics-at-Home-with-Raspberry-Pi-Pico-banner-1280.jpg 1280w"></a>
