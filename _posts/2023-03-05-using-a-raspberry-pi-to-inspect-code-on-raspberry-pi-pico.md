@@ -158,7 +158,7 @@ These figures should be fine for running from the UBEC. Although I am sure a fre
 
 With the above considerations, the wiring seems pretty clear now.
 
-We need 5V power, from the VSys pin of the Raspberry Pi Pico to the Raspberry Pi. 
+We need 5V power, from the VSys pin of the Raspberry Pi Pico to the Raspberry Pi.
 
 Ground can come from any ground rail on the breadboard.
 We then need the SPI pins for Clock, TX, RX to the Raspberry Pi Zero W. We could add chip select, although we are not really going to do much with that.
@@ -171,7 +171,12 @@ Throughout the next few days, I'll be fleshing out the other parts of this plan 
 
 ## Links
 
-I used Gadgetoids awesome Raspberry Pi Pinouts for checking SPI pins.
+I used Gadgetoid's awesome Raspberry Pi Pinouts for checking SPI pins.
 
 - [Raspberry Pi Pico Pinout](https://pico.pinout.xyz/)
 - [Raspberry Pi Pinout](https://pinout.xyz/pinout/spi)
+
+<a href="https://packt.link/5swS2" title="Learn to build and Program Robots using Robotics at Home with Raspberry Pi Pico"><img src="/galleries/2023/Robotics-at-Home-with-Raspberry-Pi-Pico-banner-2048.jpg"
+  alt="Learn to build and Program Robots using Robotics at Home with Raspberry Pi Pico"
+  sizes="(min-width: 1200px) 1140px, (min-width: 1000px) 940px, (min-width: 800px) 720px, 93.75vw"
+  srcset="/galleries/2023/Robotics-at-Home-with-Raspberry-Pi-Pico-banner-720.jpg 720w, /galleries/2023/Robotics-at-Home-with-Raspberry-Pi-Pico-banner-1140.jpg 1140w, /galleries/2023/Robotics-at-Home-with-Raspberry-Pi-Pico-banner-1280.jpg 1280w"></a>
