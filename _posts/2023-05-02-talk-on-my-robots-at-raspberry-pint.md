@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Talk about my robots are Raspberry Pint
+title: Talk about my robots at Raspberry Pint
 date: 2023-05-02T17:45:00.000Z
 description: A discussion about my robots at Raspberry Pint
 tags:
