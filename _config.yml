@@ -6,9 +6,10 @@ permalink: /:categories/:year/:month/:day/:title.html
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", "gemfile", "History.markdown",
           ".idea", ".git", ".gitignore", "Thumbs.db", "site.tgz", "Dockerfile", "Vagrantfile",
           "*.log", "autogen_gallery.py", "node_modules", "package.json", "package-lock.json",
-          "webpack.config.js"]
+          "webpack.config.js", "src"]
 # todo - shuttle things into a downloads folder for usable downloadable stuff (unless github makes more sense)
 include:
+  - ads.txt
   - assets
   # css/js precompiled with webpack out here
   - dist
