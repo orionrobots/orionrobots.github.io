@@ -43,7 +43,6 @@ Turn Left/Right | You must start turning in the direction they say
 Forward/Back    | You must start walking in the given direction
 Stop            | You must stop. Continue doing other instructions until you here this one.
 
-
 Your friend, the "programmer" will call the instructions until you are done.
 It is good fun, and may take a bit of practice - so walk slowly so you don't get hurt. Feel free to make silly noises
 if they walk you into a wall or a door frame. You can then reverse the game - so you say the instructions, and they
@@ -58,7 +57,6 @@ Now the game gets a bit more complicated. I'll introduce one more instruction:
 Instruction         | Description
 ------------------- | ----------------------------------------------------------------
 Continue For 1 Step | Continue the previous instruction for the number of steps given.
-
 
 The "robot" should try to keep their steps or turning steps the same length for this.
 The "programmer" should now try to write down the instructions needed to get you to the door on the paper.
@@ -124,7 +122,6 @@ end each one.
 The LED pin is now an output, and it is a digital output. We now want to make sure we write/put a "HIGH" or "ON" level on
 it to turn the light on:
 
-
 ```c++
     void setup() {
       // put your setup code here, to run once:
@@ -147,6 +144,7 @@ What we'll do is set it HIGH (on), then wait a second, set it LOW, wait, and the
 The instruction to wait is "delay" - and the information for it is in milliseconds (1000th of a second), so use 1000 to
 wait a whole second:
 
+```c++
     void setup() {
       // put your setup code here, to run once:
       pinMode(13, OUTPUT);
@@ -157,6 +155,7 @@ wait a whole second:
       delay(1000);
       digitalWrite(13, HIGH);
     }
+```
 
 Now send the code to the Arduino to run it - and each time you reset it should blink once and then stay off.
 

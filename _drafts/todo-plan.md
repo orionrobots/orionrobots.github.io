@@ -6,8 +6,8 @@
 * Link checker stuff - ensure there aren't dead links.
     * NOTE: Use the staged version of orionrobots - as the .htaccess file is active there - this will get dead links (local ones are just a speed thing)
     * Set up the automation for this - then easier to resume work.
-        * https://www.google.co.uk/search?q=link+checker+command+line&oq=link+checker+comma&aqs=chrome.0.0j69i57j0l3j69i64.5221j0j7&sourceid=chrome&ie=UTF-8
-        * https://wummel.github.io/linkchecker/man1/linkchecker.1.html
+        * <https://www.google.co.uk/search?q=link+checker+command+line&oq=link+checker+comma&aqs=chrome.0.0j69i57j0l3j69i64.5221j0j7&sourceid=chrome&ie=UTF-8>
+        * <https://wummel.github.io/linkchecker/man1/linkchecker.1.html>
         * Work out where to install it on ODM cloud 1 - or in a docker container for the purpose.
     * Use the "LinkChecker" app on my laptop to check it for dead links.
     * Make changes, and push them across to the staging thing.
@@ -18,8 +18,8 @@
 * Add the image descriptions to that yaml for gallery 8.
 
 * Reduce the file count - duplicates
-    * "fdupes -r galleries"
-    * for file in $(ls -d */); do echo $file $(find $file -type f | wc -l); done
+    * `fdupes -r galleries`
+    * `for file in $(ls -d */); do echo $file $(find $file -type f | wc -l); done`
         assets/ 157
         forums/ 96
         fritzing_library/ 2
