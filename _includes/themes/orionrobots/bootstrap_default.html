@@ -33,11 +33,11 @@
     {% if page.description %}<meta name="description" content="{{ page.description }}">{% endif %}
     <meta name="author" content="{{ site.author.name }}">
 
-    <link href="{{ ASSET_PATH }}/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" media="all">
-    <link href="{{ ASSET_PATH }}/css/bootstrap-style.css" rel="stylesheet" type="text/css" media="all">
+    <!-- <link href="{{ ASSET_PATH }}/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" media="all"> -->
+    <script type="text/javascript" src="/dist/main.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-    <script type="text/javascript" async src="{{ ASSET_PATH }}/bootstrap/js/bootstrap.min.js"></script>
+    <link href="{{ ASSET_PATH }}/css/bootstrap-style.css" rel="stylesheet" type="text/css" media="all">
+    <!-- <script type="text/javascript" async src="{{ ASSET_PATH }}/bootstrap/js/bootstrap.min.js"></script> -->
 
     <!--Fav and touch icons -->
     <link rel="shortcut icon" href="/favicon.png">
@@ -49,17 +49,7 @@
 <script>
   const newSlug = "{{ page.date | date: '%Y-%m-%d' }}-{{ page.slug }}";
   document.addEventListener("DOMContentLoaded", function(event) {
-    var navbar = document.querySelector(".nav, .navbar-nav");
-    
-    // Temporary
-    const adminLi = document.createElement('li');
-    const adminButton = document.createElement('a');
-    adminButton.href = "/admin/#/collections/blog/entries/" + newSlug;
-    adminButton.rel = "nofollow";
-    adminButton.className = "active";            
-    adminButton.textContent = "Edit";
-    adminLi.appendChild(adminButton);
-    navbar.appendChild(adminLi);
+    siteLibrary.addPostAdminButton(newSlug);
   });
 </script>
 <body class="template">
@@ -106,7 +96,7 @@
               <div class="media-left">
                 {% if page.thumb %}
                   <img src="{{ page.thumb }}" alt="{{ page.title }}">
-                {% endif %}        
+                {% endif %}
               </div>
               <div class="media-body" style="width: inherit">
                 {% include social-sharing.html %}
@@ -115,7 +105,7 @@
                       {% assign tags_list = page.tags %}
                       {% include JB/tags_list %}
                     </ul></nav>
-                {% endunless %}      
+                {% endunless %}
               </div>
             </div>
             {{ content }}
