@@ -1,5 +1,8 @@
+# Jekyll output
 _site/
 _diffsite/
+# Ignored for webpack
+dist/
 
 # =========================
 # Operating System Files
