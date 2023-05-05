@@ -10,12 +10,19 @@ module.exports = {
             },
         ]
     },
+    // plugins: [
+    //     [
+    //         "add-module-exports",
+    //         {
+    //         "addDefaultProperty": true
+    //         }
+    //     ]
+    // ],
     mode: 'development',
     entry: './src/index.js',
     output: {
-        path: path.join(__dirname, 'dist'),
-        filename: "[name].js",
-        sourceMapFilename: "[name].js.map"
+        filename: 'bundle.js',
+        path: path.resolve(__dirname, 'dist'),
     },
     devtool: "source-map"
 }

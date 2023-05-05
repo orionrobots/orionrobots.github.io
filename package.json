@@ -20,7 +20,6 @@
   },
   "homepage": "https://github.com/orionrobots/orionrobots.github.io#readme",
   "devDependencies": {
-    "@11ty/eleventy": "^2.0.1",
     "css-loader": "^6.7.3",
     "exports-loader": "^4.0.0",
     "expose-loader": "^4.1.0",

@@ -1,3 +1,4 @@
+'use strict'
 import "jquery";
 import "bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -15,5 +16,3 @@ function addPostAdminButton(postSlug) {
     adminLi.appendChild(adminButton);
     navbar.appendChild(adminLi);
 }
-
-export { addPostAdminButton };
