@@ -1,17 +1,17 @@
 ____________________________________________________________________________________________________
-    _____     _     _    __      ____      _   _     __        ______    _     _    ____      _____ 
+    _____     _     _    __      ____      _   _     __        ______    _     _    ____      _____
     /    )    /    /     / |     /    )    /  /|     / |         /       |    /     /    )    /    '
 ---/----/----/___ /-----/__|----/___ /----/| /-|----/__|--------/--------|---/-----/____/----/__----
-  /    /    /    /     /   |   /    |    / |/  |   /   |       /         |  /     /         /       
+  /    /    /    /     /   |   /    |    / |/  |   /   |       /         |  /     /         /
 _/____/____/____/_____/____|__/_____|___/__/___|__/____|______/__________|_/_____/_________/____ ___
-                                                                          /                         
+                                                                          /
                                                                       (_ /     DHARMA TYPE FREE FONTs
 
 
 EULA ( the End User License Agreement )
 
-This document is a legal agreement between you the end user, and Dharma Type.  
-By using or installing Dharma Type font(s), you agree to be bound by the terms of this Agreement. 
+This document is a legal agreement between you the end user, and Dharma Type.
+By using or installing Dharma Type font(s), you agree to be bound by the terms of this Agreement.
 
 1. You may use this font for both commercial and non-commercial works at no charge.
 2. You may use this font to create images on the website or printed matter on papre, logomark.....up to you.
@@ -19,7 +19,7 @@ By using or installing Dharma Type font(s), you agree to be bound by the terms o
 4. You may not redistribute this font without permission.
 5. You may not modify, adapt, translate, reverse engineer, decompile, disassemble, or create derivative works based on this font.
 6. This font are Copyrighted by Ryoichi Tsunekawa. All rights reserved. You may not claim copyrgiht rights for this font.
-7. DISCLAIMER 
+7. DISCLAIMER
 This font is provided to you free of charge.
 Dharma Type give no warranty in relation to this font, and you use this at your own risk.
 Dharma Type will not be liable for any damage to your system, any loss or corruption of any data or software,
