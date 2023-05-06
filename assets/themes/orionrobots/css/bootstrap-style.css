@@ -196,3 +196,29 @@ a {
 .navbar-default .navbar-nav > li > a:hover {
   color: #78e49c;
 }
+body {
+  font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #3e3f3a;
+  background-color: #ffffff;
+}
+.navbar .nav>li>a {
+  font-size: 11px;
+  line-height: 22px;
+  font-weight: 500;
+  text-transform: uppercase
+}
+.nav>li>a {
+  position: relative;
+  display: block;
+  padding: 20px 15px;
+}
+/*
+#site-title h1 {
+  font-size: 20px;
+  font-weight: normal;
+  line-height: 1.1;
+  margin-top: 0.1em;
+  margin-bottom: 0;
+} */
