@@ -6,7 +6,7 @@ services:
       - 4000:4000
     volumes:
       - .:/srv/jekyll
-    command: jekyll serve --force_polling
+    command: jekyll serve --force_polling -d /tmp/_site
   shell:
     build: .
     ports:

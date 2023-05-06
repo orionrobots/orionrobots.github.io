@@ -4,7 +4,6 @@ title: Orion Explorer 1 Construction Guide
 description: Building The Explorer 1 Robot
 asset_location: /assets/construction_guide
 ---
-{% include JB/setup %}
 # Building the Orion Explorer 1
 
 ![The Assembled Robot]({{ page.asset_location }}/IMG_1118.jpg)
@@ -47,7 +46,7 @@ Remove all the packaging.
 
 ### Backing
 
-The chassis parts have a backing sheet to prevent damage during shipping. The robot 
+The chassis parts have a backing sheet to prevent damage during shipping. The robot
 will look better if this is all peeled off before assembly - although this is optional.
 
 ### Adding the motors

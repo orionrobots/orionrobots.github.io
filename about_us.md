@@ -3,8 +3,6 @@ layout: page
 title: "About Us"
 description: "Who are Orionrobots and why do we love building robots?"
 ---
-{% include JB/setup %}
-
 ## About OrionRobots
 
 We build robots for fun, learning and would like to share that with others.

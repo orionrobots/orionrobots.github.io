@@ -3,7 +3,6 @@ layout: page
 title: "Orion Explorer 1 Robot | Explorer Arrow Control"
 description: "Putting an Explorer 1 robot under Arrow Key Control"
 ---
-{% include JB/setup %}
 # Putting an Explorer 1 under Arrow Key Control
 
 This tutorial will be in two major stages. The first will be tethered control where a connected PC or Laptop with a
