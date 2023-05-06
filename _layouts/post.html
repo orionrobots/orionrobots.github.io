@@ -1,4 +1,33 @@
 ---
 layout: default
 ---
-{% include themes/orionrobots/bootstrap_post.html %}
+<div class="row-fluid post-full">
+    <div class="span12">
+        <div class="date">
+        <time>{{ page.date | date_to_long_string }}</time>
+        </div>
+
+        <article class="content">
+        {{ content }}
+        </article>
+
+
+        <hr>
+        <nav>
+        <ul  class="pagination">
+        {% if page.previous %}
+            <li><a href="{{ BASE_PATH }}{{ page.previous.url }}" title="{{ page.previous.title }}">Prev</a></li>
+        {% else %}
+            <li class="disabled"><a>Prev</a></li>
+        {% endif %}
+            <li><a href="{{ BASE_PATH }}{{ site.JB.archive_path }}">Archive</a></li>
+        {% if page.next %}
+            <li><a href="{{ BASE_PATH }}{{ page.next.url }}" title="{{ page.next.title }}">Next</a></li>
+        {% else %}
+            <li class="disabled"><a>Next</a>
+        {% endif %}
+        </ul>
+        </nav>
+        <hr>
+    </div>
+</div>
