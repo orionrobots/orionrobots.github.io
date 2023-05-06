@@ -74,12 +74,13 @@ Name|Cost|Count|Total
 Metric Metal ruler min 200mm - Covered by the above item| |1|
 [Sandpaper, selection of 400, 600 and 1000 grit](https://www.aliexpress.com/item/1005001315557467.html?spm=a2g0o.productlist.main.1.27265427rvv2Tg&algo_pvid=0535225b-4b42-421a-adef-684c203e072b&algo_exp_id=0535225b-4b42-421a-adef-684c203e072b-0&pdp_npi=3%40dis%21GBP%2113.95%214.08%21%21%21%21%21%40211bd3cb16808755220657594d0753%2112000015667744249%21sea%21UK%21108888535&curPageLogUid=qWbPC66CSyfH)|£7.39|1|£7.39
 [Temperature controlled soldering iron](https://www.aliexpress.com/item/32827889696.html?spm=a2g0o.productlist.main.5.50236791NscBsj&algo_pvid=d48e0f5b-ed0a-4c9c-879d-e838d8ca1239&algo_exp_id=d48e0f5b-ed0a-4c9c-879d-e838d8ca1239-2&pdp_npi=3%40dis%21GBP%2117.69%217.43%21%21%21%21%21%4021021a7216808710529952171d0765%2165133634529%21sea%21UK%21108888535&curPageLogUid=NXoUIf5wzFZ8)|£7.43|1|£7.43
-Soldering iron stand - Covered by the above item| |1| 
+Soldering iron stand - Covered by the above item| |1|
 [Brass wool soldering tip cleaner (optional)](https://www.aliexpress.com/item/1005004038830896.html?spm=a2g0o.productlist.main.11.141118e8Ryqe1F&algo_pvid=808cc88d-6d9c-4866-a725-8f3a9a8bcfd8&algo_exp_id=808cc88d-6d9c-4866-a725-8f3a9a8bcfd8-5&pdp_npi=3%40dis%21GBP%214.57%212.97%21%21%21%21%21%40210213c816808710914798975d071e%2112000027822818192%21sea%21UK%21108888535&curPageLogUid=hQnB6K92fc8w)|£2.97|1|£2.97
 [Pin vice drill, with 2mm and 3mm bits](https://www.aliexpress.com/item/1005005094089734.html?spm=a2g0o.productlist.main.5.22177bb8hlK7BT&algo_pvid=5ebcab73-1623-4c59-a540-7aa208b17daf&algo_exp_id=5ebcab73-1623-4c59-a540-7aa208b17daf-2&pdp_npi=3%40dis%21GBP%215.11%212.3%21%21%21%21%21%40211bd93f16808711530758751d0778%2112000031634023270%21sea%21UK%21108888535&curPageLogUid=k88C0wS5xTEy)|£2.30|1|£2.30
 [Tiny Metric wrench set](https://www.aliexpress.com/item/1005004295161113.html?spm=a2g0o.productlist.main.17.17196fbflef7Kv&algo_pvid=4f532b48-6d54-4284-9147-ed4189e72dd4&algo_exp_id=4f532b48-6d54-4284-9147-ed4189e72dd4-8&pdp_npi=3%40dis%21GBP%2110.68%217.48%21%21%21%21%21%4021021a7216808756292707891d0765%2112000028666761542%21sea%21UK%21108888535&curPageLogUid=IbF09W8qzNHX)|£7.48|1|£7.48
 [Screwdrivers: Philips PH0, Ph1 and flat bladed 2mm/3mm.](https://www.aliexpress.com/item/1005005137386804.html?spm=a2g0o.cart.0.0.624a38da6t4j8c&mp=1)|£4.82|1|£4.82
 [USB Micro Data Cable](https://www.aliexpress.com/item/1005004011620185.html?spm=a2g0o.productlist.main.1.304071dcpTfkAh&algo_pvid=b6329cb8-71f7-4c36-8bda-4f7b16a40888&algo_exp_id=b6329cb8-71f7-4c36-8bda-4f7b16a40888-0&pdp_npi=3%40dis%21GBP%213.43%210.82%21%21%21%21%21%4021021a7216808714888135379d0765%2112000027732934934%21sea%21UK%21108888535&curPageLogUid=7wquRdlagjH2)|£1.54|1|£1.54
+
 Section total: £41.47
 
 Subtotal: £93.87
@@ -91,7 +92,7 @@ Plus shipping: £140.38
 Name|Cost|Count|Total
 ---|---|---|---|---
 [Dupont Crimp Kit](https://www.aliexpress.com/item/4000823925393.html?spm=a2g0o.productlist.main.1.378e1bf55rzxWx&algo_pvid=2a0d0d19-15a6-48d8-9eff-20984e1c5e31&algo_exp_id=2a0d0d19-15a6-48d8-9eff-20984e1c5e31-0&pdp_npi=3%40dis%21GBP%2118.42%2111.43%21%21%21%21%21%4021227e5116808715522722414d070b%2110000008636241758%21sea%21UK%21108888535&curPageLogUid=OwempbAU6LE3)|£11.43|1|£11.43
-Crimping tool - covered by the above | |1| 
+Crimping tool - covered by the above | |1|
 
 Section total: £11.43
 

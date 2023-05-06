@@ -17,7 +17,7 @@ theme:
        url('/assets/fonts/BebasNeue/BebasNeue-webfont.svg#webfontfvFLBU0N') format('svg');
   font-weight: normal;
   font-style: normal;
-  }
+}
 
 .prodtable td {
     padding-right: 4px;
@@ -48,19 +48,6 @@ theme:
     display: inline-block;
     height: auto;
     max-width: 100%;
-}
-
-#search-nav {
-  color: black;
-  margin-top: 8px;
-}
-
-#search-nav .gsc-search-button {
-  width: inherit;
-}
-
-.navbar {
-  margin-bottom: 4px;
 }
 
 .page-header {
@@ -173,11 +160,20 @@ a {
   margin-top: 0.1em;
   margin-bottom: 0;
 }
-.navbar-brand {
-  font-family: BebasNeueRegular, arial, sans-serif;
+
+/* Navbar css */
+.navbar {
+  margin-bottom: 4px;
+  --bs-navbar-brand-font-size: 18px;
+  --bs-navbar-color: white;
 }
 
-.navbar-default {
+.navbar-brand {
+  font-family: BebasNeueRegular, arial, sans-serif;
+  color: white;
+}
+
+.navbar-light {
   background-image: url(/assets/themes/orionrobots/orion_header_new.jpg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -189,12 +185,17 @@ a {
     padding: 2px 2px;
 }
 
-.navbar-default .navbar-nav > li > a {
+.navbar-light .navbar-nav .nav-link  {
   color: #ffffff;
 }
 
-.navbar-default .navbar-nav > li > a:hover {
+.navbar-light .navbar-nav .nav-link:hover {
   color: #78e49c;
+}
+.navbar-toggler {
+  background-color: white;
+  padding: 0px;
+  border: none;
 }
 body {
   font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -203,7 +204,7 @@ body {
   color: #3e3f3a;
   background-color: #ffffff;
 }
-.navbar .nav>li>a {
+.nav-link {
   font-size: 11px;
   line-height: 22px;
   font-weight: 500;
@@ -222,3 +223,19 @@ body {
   margin-top: 0.1em;
   margin-bottom: 0;
 } */
+.card {
+  margin-bottom: 4px;
+}
+
+
+h2 {
+  font-size: 30px;
+}
+/* tags */
+#tags li a {
+  color: #98978b;
+  text-decoration: none;
+  font-size: 11px;
+  font-weight: 500;
+  text-transform: uppercase
+}
