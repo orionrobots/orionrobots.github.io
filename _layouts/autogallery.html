@@ -1,7 +1,6 @@
 ---
 layout: default
 ---
-{% include JB/setup %}
 {% include themes/orionrobots/page.html %}
 <style>
     .hide-bullets {
@@ -19,7 +18,7 @@ layout: default
     .thumbnail > img {
         height: 100%;
         margin: 0;
-        padding: 0; 
+        padding: 0;
         width: auto;
     }
 
@@ -53,7 +52,7 @@ layout: default
     <div class="caption-container caption"></div>
     <p>Date:<span class="date"></span></p>
 </div>
-    
+
 <div class="row" id="thumbs">
     <ul class="hide-bullets">
         {% for image in page.images %}
@@ -67,7 +66,7 @@ layout: default
                             onClick="$('body').trigger('imageSelected', '{{image.src|slugify}}');"/>
                 {% endif %}
                     </a>
-            </li>   
+            </li>
         {% endfor %}
     </ul>
 </div>
