@@ -5,8 +5,6 @@ tags: [robot news, ai]
 title: Interesting rodent behaviour
 layout: post
 ---
-{% include JB/setup %}
-
 The animals around us are clearly, much like us, and the robots we aspire to build, some collection of complex sensors, actuators and behaviours. These form the inspiration for our building, and sometimes certain recent science reveals surprising things that may help in building robots with such behaviours. As such, I am always interested in these behaviours, as well as animals with extra-ordinary senses or limbs. One of the great things about robotics is that you get to be multi-disciplinary like that.
 
 Had [Da Vinci](/wiki/leonardo_da_vinci "Leonardo Da Vinci") not thought about animal anatomy and behaviour, perhaps he would not have designed his flying machines, tanks and robot (seriously - this is not a joke, read [Leonardo Da Vincis Robot](/wiki/leonardo_da_vincis_robot "The Humanoid Robot Designed By Leonardo Da Vinci") ).

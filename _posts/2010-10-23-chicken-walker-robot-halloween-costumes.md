@@ -5,8 +5,6 @@ tags: [robot news, costume, halloween, chicken walker, steampunk, mecha]
 title: Chicken Walker Robot Halloween Costumes
 layout: post
 ---
-{% include JB/setup %}
-
 Why not be inspired to make a halloween costume based on your favourites - either from Sci fi or even reality. Here are 2 ways to build a chicken walker - one as a robot, one as a costume. Enjoy!
 
 ## What are Chicken Walkers?

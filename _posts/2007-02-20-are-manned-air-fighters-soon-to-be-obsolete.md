@@ -5,8 +5,6 @@ tags: [uavs, robot news]
 title: Are manned air fighters soon to be obsolete?
 layout: post
 ---
-{% include JB/setup %}
-
 If the current interest shown by the US Military in flying [UAV](/wiki/uav "Unmanned Aerial Vehicles") fighters is fruitful, then the manned fighters and bombers may become a thing of the past.
 
 This has many implications. Of course, the oldest argument about fighters loosing their cockpit jobs will be the first, although to be fair, any development that takes humans out of a dangerous situation is generally a good one. That would however mean that those who enjoy such high adrenaline exercises may have to find other ways to satisfy such a need.

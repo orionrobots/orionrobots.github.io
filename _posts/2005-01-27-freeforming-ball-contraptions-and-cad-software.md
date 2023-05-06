@@ -5,8 +5,6 @@ tags: [lego, soldering, electronics, cad]
 title: Freeforming, Ball Contraptions and CAD Software
 layout: post
 ---
-{% include JB/setup %}
-
 ## Using C# dot net
 
 Well it looks like I am going to be learning C#.net.  We are going to be building (as discussed) a multi-platform, advanced 3D Cad system here. As a result of this, I am now considering a number of cross platform systems. My favourite was [Python](/wiki/python) along with wxWidgets - which is very cross platform, and has an easy learning curve. However - porting to the

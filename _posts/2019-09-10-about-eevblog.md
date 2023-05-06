@@ -2,12 +2,10 @@
 layout: post
 title: "About The Eevblog"
 description: "My view and review  of the EevBlog"
-category: 
+category:
 author: Danny Staple
 tags: [youtubers, robot news, electronics]
 ---
-{% include JB/setup %}
-
 The [EevBlog](//youtube.com/eevblog), aka the Electronics engineering video blog is a Video blog about electronics engineering. That is, a Youtube channel with original content that is intended for people who like to dabble with all thinks electronics.
 
 The EevBlog is hosted by Dave Jones, an Australian who has a lot of opinion. He knows his stuff about electronics, and takes viewers through his particular way to see the world.

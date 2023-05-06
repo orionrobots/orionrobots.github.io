@@ -5,8 +5,6 @@ tags: [robotics events, competitions, robot news, robotics, ai]
 title: DARPA Urban Challenge
 layout: post
 ---
-{% include JB/setup %}
-
 While I have been busy with another project (which readers will hear about very soon), some interesting things have been happening in the world of robotics. This years DARPA Urban Challenge is perhaps the most interesting of them.
 
 On the heels of the previous successful [DARPA Grand Challenge](/wiki/darpa_grand_challenge), the Urban Challenge adds the complication of driving through complex urban routes. This meant having skills to deal safely with other road users. The "Tartan Racing" team from Carnegie Mellon University won with with "Boss". Tartan Racing had a 20 minute lead based on calculated starting times and official stoppage time. The earlier title holders Stanford University followed with "Junior" in second place. Victor Tango's "Odin" from Virginia Tech came in third.

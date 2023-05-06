@@ -5,8 +5,6 @@ tags: [robotics programming, genetic algorithms, evolution, artificial life, phe
 title: Genetic Algorithm Simulation
 layout: post
 ---
-{% include JB/setup %}
-
 ## Background
 
 Since I have mentioned A-Life, and genetic algorithms a few times, I decided to make a simple demonstration model. It is based upon a couple of clips I saw on you tube, who must take some credit for this.

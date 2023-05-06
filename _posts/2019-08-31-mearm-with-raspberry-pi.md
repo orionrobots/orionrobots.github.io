@@ -4,8 +4,6 @@ title: "Connecting a MeArm to the Raspberry Pi"
 description: "Connecting a MeArm to the Raspberry Pi"
 tags: [robotics, robot arm, raspberry pi, raspberry pi projects, raspberry pi 3 projects, mearm, Laser Cut robot arm, raspberry pi zero w projects, learn robotics at home]
 ---
-{% include JB/setup %}
-
 ## Building the Arm
 
 In my last few posts I've been playing with robot arms. In a recent video, I built the MeArm robot kit and thoroughly enjoyed doing so. In rather nice Nuke Cola blue laser cut plastic, it went together very nicely. It is cheap enough and simple enough for learning robotics at home with.

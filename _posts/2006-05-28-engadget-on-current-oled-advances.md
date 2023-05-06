@@ -5,8 +5,6 @@ tags: [electronics, robot news, robotics, led, oled]
 title: Engadget on current OLED Advances
 layout: post
 ---
-{% include JB/setup %}
-
 OLEDS are now moving forward as the future in optics and display. With the printable OLED's some universities are talking about, and the flexible OLEDs than can be produced on just about any surface, the potential uses for these are abundant in number.
 
 Imagine being able to just print a robots display straight on to the surface, without cutting holes for LED's, and being able to dictate the shape of illuminated surface with ease.

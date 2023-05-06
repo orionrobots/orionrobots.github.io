@@ -5,8 +5,6 @@ tags: [robot building, nxt, rcx, mindstorms, robot news, robotics, education]
 title: Comparing the NXT Educational with the NXT retail packs
 layout: post
 ---
-{% include JB/setup %}
-
 It is clear that there will be differences in the kits Lego are supplying for the new [NXT](/wiki/nxt.html) controller. But what will they be?
 
 Most people who have been closely following the NXT's development are fairly aware that there will be things like an external DC power supply, cables to adapt existing [RCX](/wiki/rcx.html) sensors and possibly enhanced software to expect with the education version of the kit, although the retail one will be available sooner, and unless you are able to approach a Lego [DACTA](/wiki/dacta.html) supplier, you may be stuck with the retail version anyway.

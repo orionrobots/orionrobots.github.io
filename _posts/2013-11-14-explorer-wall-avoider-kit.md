@@ -5,8 +5,6 @@ tags: [robotics, orion explorer 1, arduino, distance sensor, robot building, rob
 title: The Explorer Wall Avoider Kit Now On the Shop
 layout: post
 ---
-{% include JB/setup %}
-
 2020: This kit is no longer available.
 
 The Orionrobots shop now has a new product bundle. The Orion Explorer 1 Wall Avoider kit.

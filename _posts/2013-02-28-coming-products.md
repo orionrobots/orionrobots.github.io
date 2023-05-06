@@ -5,8 +5,6 @@ tags: [components, robot, electronics]
 title: Coming Products
 layout: post
 ---
-{% include JB/setup %}
-
 NOTE: The shop is now closed - this is historic information.
 
 This shop is in its early stages - but we are planning to expand our range. Among the lines we are considering adding:

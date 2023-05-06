@@ -5,8 +5,6 @@ tags: [robot news, robotics, lego, assembly, rcx, mindstorms]
 title: Lego Assembly Line Machine
 layout: post
 ---
-{% include JB/setup %}
-
 Another Lego robotics smashing YouTube find today - Mindstorms Autofabrik
 {% include youtube_responsive src="http://www.youtube.com/embed/GQ3AcPEPbH0" %}
 

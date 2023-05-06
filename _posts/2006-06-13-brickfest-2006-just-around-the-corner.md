@@ -5,8 +5,6 @@ tags: [mindstorms, robot news, robot events, lego technic, afol]
 title: Brickfest 2006 Just Around the corner
 layout: post
 ---
-{% include JB/setup %}
-
 Brickfest is due to take place this year from Friday, August the 25th.
 
 Brickfest is a gathering of [Lego](/wiki/lego.html) fans to show and peruse creations by others from the community. There are presentations, workshops, as well as challenges and special events. It takes place over a weekend, and is based in the United States.

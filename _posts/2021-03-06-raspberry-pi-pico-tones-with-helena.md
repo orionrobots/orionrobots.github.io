@@ -5,8 +5,6 @@ description: ""
 category: electronics
 tags: [raspberry pi, raspberry pi pico, raspberry pi pico projects, micropython, programming, electronics, microcontroller]
 ---
-{% include JB/setup %}
-
 I've been playing with the Raspberry Pi Pico a lot lately, and Mini_orionrobots (aka Helena) joined me. In this article, I'll examine what we got running with the Pico and how the session went.
 
 ![Raspberry Pi With Speaker and Book](/galleries/2021-03-06-raspberry-pi-pico-tones-with-helena/pico-with-buzzer-and-book.jpeg)
