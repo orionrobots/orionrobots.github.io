@@ -95,9 +95,9 @@ module Jekyll
         save_thumbnail image, thumbnail_file, @thumbnail_cover
 
         return [] if preexisting
-        
+
         [cover]
-        
+
     end
 
     def save_thumbnail(image, file, size)
