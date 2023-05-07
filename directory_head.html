@@ -18,12 +18,9 @@ theme :
     {% if page.description %}<meta name="description" content="{{ page.description }}">{% endif %}
     <meta name="author" content="{{ site.author.name }}">
 
+    <script type="text/javascript" src="/dist/bundle.js"></script>
     <link href="{{ ASSET_PATH }}/css/bootstrap-style.css?body=1" rel="stylesheet" type="text/css" media="all">
-    <link href="{{ ASSET_PATH }}/bootstrap/css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-    <!--<link href="{{ ASSET_PATH }}/bootstrap/css/bootstrap-theme.css" rel="stylesheet" type="text/css" media="all">-->
-    <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-    <script type="text/javascript" src="{{ ASSET_PATH }}/bootstrap/js/bootstrap.js"></script>
     <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 
     <!--Fav and touch icons -->
@@ -63,39 +60,10 @@ theme :
       </style>
 </head>
 <body class="template">
-    <script src="/js/cookiechoices.js"></script>
-    <script>
-      document.addEventListener('DOMContentLoaded', function(event) {
-        cookieChoices.showCookieConsentBar('Cookies help us deliver our services. By using our services, you agree to our use of cookies.',
-          'Got It', 'Learn More', '/privacy_and_cookies.html');
-      });
-    </script>
     <!-- Header -->
     <div class="container">
-      <nav class="navbar navbar-default" role="navigation">
-        <div class="container-fluid">
-          <div class="navbar-header">
-              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-navbar-collapse-1">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
-              <a class="navbar-brand" href="/" title="Home"><img src="/favicon.png" style="display:inline-block; padding-right:2px;">Orionrobots</a>
-          </div>
-          <div class="collapse navbar-collapse" id="main-navbar-collapse-1">
-              <ul class="nav navbar-nav">
-                 {% for node in site.menu %}
-                    {% if page.url == node.url %}
-                        <li class="active"><a href="{{node.url}}" class="active">{{node.title}}</a></li>
-                    {% else %}
-                        <li><a href="{{node.url}}">{{node.title}}</a></li>
-                    {% endif %}
-                 {% endfor %}
-              </ul>
-          </div>
-        </div>
-      </nav>
+          <!-- Header -->
+        {% include nav %}
     </div>
 
     <!-- Content -->

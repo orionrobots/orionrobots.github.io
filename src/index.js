@@ -2,6 +2,8 @@
 import "jquery";
 import "bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
+import "./cookiechoices.js"
+import { setup_choices } from "./cookiechoices.js";
 
 export function addPostAdminButton(postSlug) {
     var navbar = document.querySelector(".nav, .navbar-nav");
@@ -18,3 +20,9 @@ export function addPostAdminButton(postSlug) {
 }
 
 document.addPostAdminButton = addPostAdminButton;
+
+document.addEventListener('load', function(event) {
+    setup_choices(this);
+    cookieChoices.showCookieConsentBar('Cookies help us deliver our services. By using our services, you agree to our use of cookies.',
+        'Got It', 'Learn More', '/privacy_and_cookies.html');
+});

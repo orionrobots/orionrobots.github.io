@@ -14,7 +14,7 @@
  limitations under the License.
  */
 
-(function(window) {
+export function setup_choices(window) {
 
   if (!!window.cookieChoices) {
     return window.cookieChoices;
@@ -168,4 +168,4 @@
 
   window.cookieChoices = cookieChoices;
   return cookieChoices;
-})(this);
+}
