@@ -2,23 +2,11 @@
 layout: page
 ---
 <style>
-    .hide-bullets {
-        list-style:none;
-        margin-left: -40px;
-        margin-top:20px;
-    }
-
-    .thumbnail {
-        width: 60px;
-        height: 60px;
-        overflow: hidden;
-    }
-
     .thumbnail > img {
-        height: 100%;
-        margin: 0;
-        padding: 0;
-        width: auto;
+        padding-bottom: 4px;
+        height: 60px;
+        /* width: 60px; */
+        max-width: fit-content;
     }
 
     .caption-container {
@@ -53,19 +41,17 @@ layout: page
 </div>
 
 <div class="row" id="thumbs">
-    <ul class="hide-bullets">
-        {% for image in page.images %}
-            <li class="col-sm-1">
-                <a class="thumbnail">
-                    {% if image.thumb-src %}
-                        <img src="{{image.thumb-src}}" alt="{{image.caption}}" class="center-block"
-                            onClick="$('body').trigger('imageSelected', '{{image.src|slugify}}');"/>
-                    {% else %}
-                        <img src="{{image.src}}" alt="{{image.caption}}" class="center-block"
-                            onClick="$('body').trigger('imageSelected', '{{image.src|slugify}}');"/>
-                {% endif %}
-                    </a>
-            </li>
-        {% endfor %}
-    </ul>
+    {% for image in page.images %}
+        <div class="col">
+            <a class="thumbnail">
+                {% if image.thumb-src %}
+                    <img src="{{image.thumb-src}}" alt="{{image.caption}}" class="center-block"
+                        onClick="$('body').trigger('imageSelected', '{{image.src|slugify}}');"/>
+                {% else %}
+                    <img src="{{image.src}}" alt="{{image.caption}}" class="center-block"
+                        onClick="$('body').trigger('imageSelected', '{{image.src|slugify}}');"/>
+            {% endif %}
+                </a>
+        </div>
+    {% endfor %}
 </div>

@@ -144,8 +144,6 @@ images:
     16:51:14', name: sawtooth.gif, src: !!python/unicode '318-newtest.gif', thumb-src: !!python/unicode 'thm-318-80x40-sawtooth.gif'}
 - {caption: A Malp from StarGate SG1 ((Stargate - MALP)), date: !!timestamp '2006-07-07
     05:35:59', name: sg1malp.jpg, src: !!python/unicode '382-sg1malp.jpg', thumb-src: !!python/unicode 'thm-382-80x62-sg1malp.jpg'}
-- {caption: LDraw Banner, date: !!timestamp '2006-09-24 04:51:57', name: LDrawBanner468x60.png,
-  src: !!python/unicode '392-banner-468x60-002.png', thumb-src: !!python/unicode 'thm-392-80x10-ldrawbanner468x60.png'}
 - {caption: '', date: !!timestamp '2007-01-28 12:12:20', name: robosapien.jpg, src: !!python/unicode '424-robosapien.jpg',
   thumb-src: !!python/unicode 'thm-424-55x80-robosapien.jpg'}
 - {caption: '', date: !!timestamp '2007-01-28 13:17:32', name: cog-with-hand.jpg,
