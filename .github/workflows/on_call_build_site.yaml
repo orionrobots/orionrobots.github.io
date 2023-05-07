@@ -23,6 +23,7 @@ jobs:
       - name: Build site
         run: |
           mkdir .jekyll-cache
+          chmod +w .
           docker run --rm -v $PWD:/srv/jekyll orionrobots_builder jekyll build
 
       # - name: Setup dependencies
