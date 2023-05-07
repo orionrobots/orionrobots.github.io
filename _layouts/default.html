@@ -77,17 +77,6 @@ layout: common
 <script>
   const newSlug = "{{ page.date | date: '%Y-%m-%d' }}-{{ page.slug }}";
   document.addEventListener("DOMContentLoaded", function(event) {
-    var navbar = document.querySelector(".navbar-nav");
-
-    // Temporary
-    const adminLi = document.createElement('li');
-    const adminButton = document.createElement('a');
-    adminButton.href = "/admin/#/collections/blog/entries/" + newSlug;
-    adminButton.rel = "nofollow";
-    adminButton.textContent = "Edit";
-    adminButton.className = "nav-link"
-    adminLi.classList.add(["nav-item", "active"]);
-    adminLi.appendChild(adminButton);
-    navbar.appendChild(adminLi);
+    document.addPostAdminButton(newSlug);
   });
 </script>

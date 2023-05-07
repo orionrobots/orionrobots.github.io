@@ -1,5 +1,8 @@
+# Jekyll output
 _site/
-_diffsite/
+# Ignored for webpack
+dist/
+node_modules
 
 # =========================
 # Operating System Files
@@ -12,7 +15,7 @@ _diffsite/
 .AppleDouble
 .LSOverride
 
-# Icon must ends with two \r.
+# Icon must end with two \r.
 Icon
 
 .rbenv-version
@@ -45,7 +48,7 @@ $RECYCLE.BIN/
 *.msm
 *.msp
 
-# Pycharm bits
+# Pycharm
 .idea
 .rbenv-version
 .rvmrc
@@ -70,4 +73,3 @@ thumbnails
 
 ## Freecad backup files
 *.fcstd1
-node_modules

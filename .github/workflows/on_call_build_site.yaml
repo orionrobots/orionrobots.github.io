@@ -5,31 +5,46 @@ on:
 jobs:
   build_site:
     runs-on: ubuntu-latest
-    container:
-      image: jekyll/builder:4
+    # container:
+    #   image: jekyll/builder:4
     steps:
       - uses: actions/checkout@v3
-      - name: Setup dependencies
+
+      - name: Build container
+        # Todo: when Dockerfile changed. Otherwise, use the last built image.
         run: |
-          apk add imagemagick
-          gem install jekyll-toc rmagick
-      - name: build
+          docker build -t orionrobots_builder .
+
+      - name: Build webpack dist
         run: |
-          chown jekyll . -R
-          mkdir .jekyll-cache
-          jekyll build
+          npm install
+          npm run dist
+
+      - name: Build site
+        run: |
+          docker run --rm -v $PWD:/srv/jekyll orionrobots_builder jekyll build
+
+      # - name: Setup dependencies
+      #   run: |
+      #     apk add imagemagick
+      #     gem install jekyll-toc rmagick
+      # - name: build
+      #   run: |
+      #     chown jekyll . -R
+      #     mkdir .jekyll-cache
+      #     jekyll build
       - name: Tarball the size
         run: |
           tar -czf _site.tar.gz _site
       - name: upload site artifact
         uses: actions/upload-artifact@v3
-        with: 
+        with:
           name: _site
           path: _site.tar.gz
           if-no-files-found: error
       - name: upload httpd.conf artifact
         uses: actions/upload-artifact@v3
-        with: 
+        with:
           name: httpd.conf
           path: _drafts/staging/httpd.conf
           if-no-files-found: error
