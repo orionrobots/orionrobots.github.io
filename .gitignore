@@ -3,6 +3,7 @@ _site/
 # Ignored for webpack
 dist/
 node_modules
+stats.json
 
 # =========================
 # Operating System Files
