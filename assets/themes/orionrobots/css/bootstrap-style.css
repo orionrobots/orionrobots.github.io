@@ -33,15 +33,14 @@ theme:
 #sharing{
   margin: 16px 0 0 0;
   padding: 4px 0 0 0;
-  border-top: 1px solid #dddddd;
-  }
+}
 #sharing ul{
   list-style: none;
-  }
+}
 #sharing li{
   margin: 0;
   float: left;
-  }
+}
 
 /* Make all images responsive in the content section */
 .content img {
@@ -197,23 +196,18 @@ a {
   padding: 0px;
   border: none;
 }
+
 body {
   font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 1.42857143;
-  color: #3e3f3a;
-  background-color: #ffffff;
 }
+
 .nav-link {
   font-size: 11px;
   line-height: 22px;
   font-weight: 500;
   text-transform: uppercase
-}
-.nav>li>a {
-  position: relative;
-  display: block;
-  padding: 20px 15px;
 }
 /*
 #site-title h1 {
@@ -233,10 +227,10 @@ h2 {
 }
 /* tags */
 #tags li a {
-  color: #98978b;
+  /* color: #98978b; */
   text-decoration: none;
-  font-size: 11px;
-  font-weight: 500;
+  /* font-size: 11px;
+  font-weight: 500; */
   text-transform: uppercase
 }
 

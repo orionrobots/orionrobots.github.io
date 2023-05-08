@@ -7,19 +7,21 @@ layout: common
   <article id="col-main" class="content col-md-8">
     <div class="gcse-searchresults"></div>
     <h2 class="page-header">{{ page.title }} {% if page.tagline %}<small>{{page.tagline}}</small>{% endif %}</h2>
-    <div class="media">
-      <div class="media-left">
-        {% if page.thumb %}
-          <img src="{{ page.thumb }}" alt="{{ page.title }}">
-        {% endif %}
-      </div>
-      <div class="d-flex justify-content-between">
+    <div class="row g-0">
+      {% if page.thumb %}
+        <div class="col">
+            <img src="{{ page.thumb }}" alt="{{ page.title }}">
+        </div>
+      {% endif %}
+      <div class="col">
         {% include social-sharing.html %}
+      </div>
+      <div class="col-6">
         {% unless page.tags == empty %}
-            <nav><ul id="tags" class="nav nav-pills">
+            <nav>
               {% assign tags_list = page.tags %}
               {% include JB/tags_list %}
-            </ul></nav>
+            </nav>
         {% endunless %}
       </div>
     </div>
@@ -31,15 +33,6 @@ layout: common
   </article>
   <aside class="col-md-4">
       {% include sidebar-book.html %}
-      <div class="panel panel-default">
-          <div class="panel-heading">Other places to find us</div>
-          <div class="panel-body list-group">
-              <a href="https://discord.gg/sMnPxFhAe2" class="list-group-item"><i class="fa fa-discord"></i> Discuss robot building on Our Discord Server!</a>
-              <a href="https://www.youtube.com/channel/UCVllQ0CH357h7jTpzLB9hCA" class="list-group-item"><i class="fa fa-youtube-square"></i> Youtube</a>
-              <a href="https://www.twitter.com/orionrobots" class="list-group-item"><i class="fa fa-twitter-square"></i> Twitter</a>
-              <a href="https://www.facebook.com/orionrobots" class="list-group-item"><i class="fa fa-facebook-square"></i> Facebook</a>
-          </div>
-      </div>
       {% include sidebar_ads.html %}
   </aside>
 </div>

@@ -9,10 +9,10 @@ layout: common
     <h2 class="page-header">{{ page.title }} {% if page.tagline %}<small>{{page.tagline}}</small>{% endif %}</h2>
     {% include social-sharing.html %}
     {% unless page.tags == empty %}
-        <nav><ul id="tags" class="nav nav-pills">
+        <nav>
           {% assign tags_list = page.tags %}
           {% include JB/tags_list %}
-        </ul></nav>
+        </nav>
     {% endunless %}
     {{ content }}
     {% if page.comments %}

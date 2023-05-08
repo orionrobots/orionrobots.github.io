@@ -11,23 +11,20 @@ layout: default
         {{ content }}
         </article>
 
-
-        <hr>
         <nav>
-        <ul  class="pagination">
-        {% if page.previous %}
-            <li><a href="{{ BASE_PATH }}{{ page.previous.url }}" title="{{ page.previous.title }}">Prev</a></li>
-        {% else %}
-            <li class="disabled"><a>Prev</a></li>
-        {% endif %}
-            <li><a href="{{ BASE_PATH }}{{ site.JB.archive_path }}">Archive</a></li>
-        {% if page.next %}
-            <li><a href="{{ BASE_PATH }}{{ page.next.url }}" title="{{ page.next.title }}">Next</a></li>
-        {% else %}
-            <li class="disabled"><a>Next</a>
-        {% endif %}
-        </ul>
+            <ul  class="pagination">
+            {% if page.previous %}
+                <li class="page-item"><a class="page-link" href="{{ BASE_PATH }}{{ page.previous.url }}" title="{{ page.previous.title }}">Prev</a></li>
+            {% else %}
+                <li class="page-item disabled"><a class="page-link" >Prev</a></li>
+            {% endif %}
+                <li class="page-item"><a class="page-link"  href="{{ BASE_PATH }}{{ site.JB.archive_path }}">Archive</a></li>
+            {% if page.next %}
+                <li class="page-item"><a class="page-link"  href="{{ BASE_PATH }}{{ page.next.url }}" title="{{ page.next.title }}">Next</a></li>
+            {% else %}
+                <li class="page-item disabled"><a class="page-link" >Next</a>
+            {% endif %}
+            </ul>
         </nav>
-        <hr>
     </div>
 </div>
