@@ -239,3 +239,7 @@ h2 {
   font-weight: 500;
   text-transform: uppercase
 }
+
+.site-tag a, .tag_box a {
+  text-decoration: none;
+}
