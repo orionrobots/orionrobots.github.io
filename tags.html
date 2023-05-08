@@ -7,9 +7,9 @@ group: navigation
 <h1>Tags</h1>
 {% assign tags = site.tags | sort %}
 {% for tag in tags %}
- <span class="site-tag">
-  <a href="/tags.html#{{ tag | first | slugify }}-ref">
-    {{ tag[0] | replace:'-', ' ' }} ({{ tag | last | size }})
+ <span>
+  <a  class="badge text-bg-light" href="/tags.html#{{ tag | first | slugify }}-ref">
+    {{ tag[0] | replace:'-', ' ' }} <span class="badge text-bg-info rounded-pill">{{ tag | last | size }}</span>
   </a>
 </span>
 {% endfor %}
