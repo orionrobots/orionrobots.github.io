@@ -1,7 +1,7 @@
 'use strict'
 import "jquery";
 import "bootstrap";
-// import "bootstrap/dist/css/bootstrap.min.css";
+
 import './bundle.scss';
 import "./cookiechoices.js"
 import { setup_choices } from "./cookiechoices.js";
