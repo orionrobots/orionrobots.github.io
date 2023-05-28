@@ -1,10 +1,15 @@
 ---
 layout: post
-tags: [microcontrollers, electronics, code, esp8266, lua programming, programming, nodemcu]
+tags: [microcontrollers, electronics, code, esp8266, lua programming, programming, nodemcu, robot building, robotics at home, making robots]
 title: Attaching a Joystick or 2 Analog Sensors to a Nodemcu
 ---
-The ESP8266 is one of my favourite devices. I wanted, for various projects, to attach a Joystick to it. However, the joystick has 2 analog outputs, and the esp8266
-has only 1 ADC (analog to digital converter). Clearly I'd have to be a bit sneaky if I wanted to interface them.
+The ESP8266 is one of my favourite devices. I wanted, for various projects, to attach a Joystick to it.
+
+A wireless controller with my own code on it would be an ideal way to control a robot.
+
+However, the joystick has 2 analog outputs, and the esp8266 has only 1 ADC (analog to digital converter).
+
+Clearly I'd have to be a bit sneaky if I wanted to interface them.
 
 <div class="embed-responsive embed-responsive-16by9">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/b2gdgkvTiaA" frameborder="0" allowfullscreen="True"></iframe>
