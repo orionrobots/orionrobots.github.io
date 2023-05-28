@@ -21,14 +21,14 @@ If you want to put Lego bricks into another cad system (ie FreeCAD/Fusion 360/So
 
 |  Description             | Short name | Size in mm |
 |--------------------------|------------|------------|
-| Spacing of stud centers  | sSt        | 8          |
-| Diameter of studs        | dSt        | 5          |
-| Height of block          | hB         | 9.6 (48/5 mm )  |
-| Height of studs          | hSt        | 1.7        |
-| Plate Height             | hP         | 3.2mm (16/5 mm) |
-| Thickness of brick walls | thB        | 1.5        |
-| Outer diameter of cylinders (found on underside of bricks) | odCyl | 6.31 |
-| Thickness of cylinder walls | thCyl   | 0.657       |
+| Spacing of stud centers  | stud_spacing        | 8          |
+| Diameter of studs        | stud_diameter        | 5          |
+| Height of block          | block_height      | 9.6 (48/5 mm )  |
+| Height of studs          | stud_height        | 1.7        |
+| Plate Height             | plate_height         | 3.2mm (16/5 mm) |
+| Thickness of brick walls | wall_thickness        | 1.5        |
+| Outer diameter of cylinders (found on underside of bricks) | cyl_outer_diam | 6.31 |
+| Thickness of cylinder walls | cyl_thickness   | 0.657       |
 
 Note that the cylinders under a standard 2x2 and 2x4 brick are the same diameter as the technic holes for beams and pins.
 
@@ -46,11 +46,11 @@ When you are constraining and defining parts to interface with Lego - you may fi
 
 | Symbol | Calculation to derive from others |
 |--------|-----------------------------------|
-| hB     | `sSt * 6 / 5`     |
-| thB    | `(sSt - dSt) / 2` |
-| hSt    | `hB / 3 - thB`    |
-| odCyl  | `sqrt(2) * sSt - dSt` |
-| thCyl  | `(odCyl - dSt) / 2` |
+| block_height     | `stud_spacing * 6 / 5`     |
+| wall_thickness    | `(stud_spacing - stud_diameter) / 2` |
+| stud_height    | `block_height / 3 - wall_thickness`    |
+| cyl_outer_diam  | `sqrt(2) * stud_spacing - stud_diameter` |
+| cyl_thickness  | `(cyl_outer_diam - stud_diameter) / 2` |
 
 ### Lego measurements in detail
 
