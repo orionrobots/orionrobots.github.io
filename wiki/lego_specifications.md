@@ -104,9 +104,10 @@ If you or your kids are just starting in creating robots with Lego, it might be 
 
 In LDU (LDraw units), the measurements are:
 
-Brick height = 24
-Plate height =  8
-Stud pitch   = 20
+* 1 LDU = 0.4 mm
+* Brick height = 24
+* Plate height =  8
+* Stud pitch   = 20
 
 ## Lego Technic Gears
 
@@ -123,12 +124,14 @@ In the Lego system, Technic gears have a ratio that the number of teeth are 8 ti
 
 More info on mounting these can be found at [The Brick Bakery](http://sjbaker.org/steve/lego/gearpairs.html "The Brick Bakery:Gear Mounting & Ratios").
 
-<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=GB&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=orionrobots-21&language=en_GB&marketplace=amazon&region=GB&placement=B00U23VMTS&asins=B00U23VMTS&linkId=fc6b420d6dd6a99d59e86d198f71583b&show_border=true&link_opens_in_new_window=true"></iframe>
+<iframe sandbox="allow-popups allow-scripts allow-modals allow-forms allow-same-origin" style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=orionrobots05-20&language=en_US&marketplace=amazon&region=US&placement=B00U23VMTS&asins=B00U23VMTS&linkId=b186e638e0807e594b64a3a6446f8508&show_border=true&link_opens_in_new_window=true"></iframe>
 
 ## Lego Brick Materials
 
 Most Lego bricks use high quality ABS plastic - which is slightly elastic.
 
+| Property                 | Value       |
+|--------------------------|-------------|
 | Specific Gravity/Density | 1.05 g/cm^3 |
 | Tensile Strength         | 44 MPa      |
 | Elongation At Break      | 23-25 %     |
