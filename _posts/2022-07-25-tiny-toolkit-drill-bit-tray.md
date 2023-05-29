@@ -13,7 +13,7 @@ Jarkman, the person who inspired my tiny toolkit suggested making and 3D Printin
 
 I've used FreeCAD to make such a thing. I started by making a drawing of the original part for dimensions, and using that to draw the second part. I've not reliably found a way to sketch a new part related to/constrained by a first part in FreeCAD yet - I just have to sketch another part using the output dimensions from the first to constrain it. I'm probably still getting up to speed on FreeCAD.
 
-![freecad-tiny-drillbit-tray.png]({{site.baseurl}}/galleries/freecad-tiny-drillbit-tray.png)
+![Tiny Drill bit Tray Design in FreeCAD](/galleries/freecad-tiny-drillbit-tray.png)
 
 I based the vertical dimension on using the calipers (handily in the same toolkit pocket as the drills) to measure the longest one.
 
@@ -25,23 +25,22 @@ I based the vertical dimension on using the calipers (handily in the same toolki
 - My FlashForge Printer always pre-extrudes, even when I say not to (the default settings in Flashforge are to).
 - It printed well other than the annoying pre-extrusion I had to quickly clear.
 
-![IMG_6556.jpeg]({{site.baseurl}}/galleries/IMG_6556.jpeg)
+![Tiny drill bit tray on the 3D print bed](/galleries/2022-07-25-tiny-drill-tray-on-3d-print-bed.jpeg)
 
 - I may have been pushing my luck with tight tolerances and the bridging needed on the front layer. I needed only a little filing finish on that overhang
 
-![IMG_6557.jpeg]({{site.baseurl}}/galleries/IMG_6557.jpeg)
-
+![The Tiny Drillbit Tray in place in the toolkit](/galleries/2022-07-25-tiny-drillbit-tray-in-tiny-toolkit.jpeg)
 
 - It was a 17 minute print - fairly quick really.
 - Perhaps this was too simplistic, and should have drill bit separators, but it will keep things together a bit more.
 
-![flashprint-tiny-drillbit-tray.png]({{site.baseurl}}/galleries/flashprint-tiny-drillbit-tray.png)
+![The Part design in FlashPrint ready to send to the 3D Printer](/galleries/flashprint-tiny-drillbit-tray.png)
 
 ## A victory
 
 I'm already using this toolkit enough to really help. When making this - having the drill handle and bits (in the loose box) meant not going over to the larger toolchests. Having the calipers handy meant this was an easy reach. I had the file in another pocket of the same toolkit - so between the 3D printer (at my desk), the laptop (at my desk) and the toolkit - I didn't have to move around at all (I should go take a walk to exercise a bit) while making this. Definitely improving my making experience.
 
-![IMG_6559.jpeg]({{site.baseurl}}/galleries/IMG_6559.jpeg)
+![The Tiny Drillbit Holder with Other tools in the Kit](/galleries/2022-07-25-the-tiny-toolbit-with-other-tools-in-the-kit.jpeg)
 
 Last night, while doing some minor work on a Raspberry pi Pico robot (for my upcoming book), I was similarly able to use this kit to do all the part changes - some measurements, pencil markings and 4 2mm holes. I had the spanner handy, did have to reach for the tiny bolts, washers and nuts along with the small alan key needed (that is gonna go in next).
 

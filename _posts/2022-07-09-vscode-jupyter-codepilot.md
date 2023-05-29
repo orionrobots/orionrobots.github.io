@@ -1,6 +1,7 @@
 ---
-title: Copilot and Jupyter work well together
+title: Copilot and Jupyter are an awesome combination
 date: 2022-07-09T20:54:27
+description: Supercharge graphing and messing with data using VSCode, Jupyter and Copilot
 layout: post
 tags: [graphing, jupyter, programming ide, python, robotics programming, vscode, matplotlib, AI]
 ---
