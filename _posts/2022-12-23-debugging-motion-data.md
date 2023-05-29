@@ -3,7 +3,9 @@ layout: post
 published: true
 using_mathjax: false
 title: Debugging motion data
+description: How I use matplotlib to debug robot motion tracking data
 category: robot building
+tags: [robotics, motion, debugging, matplotlib, python, numpy, robotics at home, robot building, monte carlo localisation, motion model]
 ---
 I am currently working on a motion model for a robotics localisation system, more details of which will be in an upcoming book.
 

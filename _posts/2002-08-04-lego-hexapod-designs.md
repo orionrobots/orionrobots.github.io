@@ -3,7 +3,7 @@ date: 2002-08-04 12:00:00
 layout: post
 title: Lego Hexapod Design Mk1
 description: "A hexapod design using Lego Technic"
-tags: [lego, hexapod, rcx, mindstorms, robot, design, lego technic, walking robot, robot building]
+tags: [lego, hexapod, rcx, mindstorms, robot, design, lego technic, walking robot, robot building, how to build a lego technic robot]
 ---
 ![Lego Technic Hexapod MkI](/assets/2002-08-04-HexapodMkI.png)
 
