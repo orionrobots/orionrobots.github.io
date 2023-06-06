@@ -1,6 +1,6 @@
 ---
 layout: post
-tags: [robot building, arduino, arduino kit, orion explorer 1, robot kit]
+tags: [robot building, arduino, arduino kit, orion explorer 1, robot kit, robotics at home]
 title: Building a Bump Sensor For The Orion Explorer 1 Kits
 ---
 <img style="margin-right: 4px; float: left;" src="/assets/2013-05-23-building-a-bump-sensor/13-IMG_4874.CR2_compact.jpg" />The Explorer 1 can be extended fairly simply. Here is how to build a bump sensor that looks a little like insect antenna for the robot. It uses 2 IO pins on the Arduino, and needs 1 power pin. This can be done with parts from the kit, a bit of piano wire, a screwdriver and some pliers!
