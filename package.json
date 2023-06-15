@@ -9,7 +9,8 @@
     "dev": "webpack --mode development -c webpack.config.js",
     "stats": "webpack -c webpack.config.js --profile --json > stats.json",
     "stats-cli": "webpack-bundle-analyzer stats.json",
-    "11ty": "npx @11ty/eleventy"
+    "11ty": "npx @11ty/eleventy",
+    "serve_generated": "npx @11ty/eleventy --serve"
   },
   "repository": {
     "type": "git",

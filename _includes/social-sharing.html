@@ -34,7 +34,7 @@
 
     {% if site.sharing.pinterest %}
     <div class="col">
-      <a href="//pinterest.com/pin/create/button/?url={{ shop.url }}{{ product.url }}{{ article.url }}{{ blog.url }}&description={{ product.title | strip_html | escape | replace: ' ', '%20' }}&media={{ product.featured_image | product_img_url: 'original' }}" class="pin-it-button" count-layout="horizontal"><img border="0" src="//assets.pinterest.com/images/PinExt.png" title="Pin It" /></a>
+      <a href="//pinterest.com/pin/create/button/?url={{ shop.url }}{{ product.url }}{{ article.url }}{{ blog.url }}&description={{ product.title | strip_html | escape | replace: ' ', '%20' }}&media={{ product.featured_image }}" class="pin-it-button" count-layout="horizontal"><img border="0" src="//assets.pinterest.com/images/PinExt.png" title="Pin It" /></a>
       <script
         type="text/javascript"
         async defer

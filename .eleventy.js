@@ -47,4 +47,14 @@ module.exports = function(eleventyConfig) {
     eleventyConfig.addLiquidFilter("date_to_string", function(date) {
         return date.toDateString();
     });
+
+    // Liquid filter for long date string
+    eleventyConfig.addLiquidFilter("date_to_long_string", function(date) {
+        return date.toLocaleDateString("en-GB", { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' });
+    });
+
+    // Universal filter for jsonify
+    eleventyConfig.addFilter("jsonify", function(value) {
+        return JSON.stringify(value);
+    });
 };
