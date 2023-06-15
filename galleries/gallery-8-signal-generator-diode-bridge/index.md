@@ -81,18 +81,18 @@ images:
   - caption: ''
     date: 2005-05-30 15:48:44
     name: P1010136.jpg
-    src: !!python/unicode '273-legs-trimmed.jpg'
+    src: '273-legs-trimmed.jpg'
     thumb-src: null
   - caption: ''
     date: 2005-05-30 15:49:00
     name: P1010137.jpg
-    src: !!python/unicode '274-bring-sets-together.jpg'
+    src: '274-bring-sets-together.jpg'
     thumb-src: null
   - caption: ''
     date: 2005-05-30 15:49:13
     name: P1010140.jpg
-    src: !!python/unicode '275-two-sets-soldered.jpg'
-    # thumb-src: !!python/unicode 'thm-275-80x75-p1010140.jpg'
+    src: '275-two-sets-soldered.jpg'
+    # thumb-src: 'thm-275-80x75-p1010140.jpg'
   - caption: "Here you get a good view of the full rig, including one of the better\
       \ shots of the signal generator (in the transparent box).\r\n\r\nThe freeform\
       \ bridge is tiny in the jump-leads, enough that I nearly dropped and lost it.\
