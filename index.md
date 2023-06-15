@@ -27,9 +27,9 @@ You can reach me on twitter [@orionrobots](https://twitter.com/orionrobots)
 <ul class="posts">
   {% for post in collections.recent_posts limit: 6 %}
     <li class="post media">
-      {% if post.data.thumb %}
-        <a class="media-left" href="{{ BASE_PATH }}{{ post.url }}"><img alt="{{ post.data.title }}" class="media-object index_post_thumb" src="{{ post.data.thumb }}"></a>
-      {% endif %}
+      {% when_has_thumbnail post %}
+      <a class="media-left" href="{{ BASE_PATH }}{{ post.url }}"><img alt="{{ post.data.title }}" class="media-object index_post_thumb" src="{% thumbnail post %}"></a>
+      {% endwhen_has_thumbnail %}
       <div class="post-content media-body">
         <div class="media-heading"><span class="post_date">{{ post.date | date_to_string }}</span> &raquo;
           <a class="post_title" href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a>

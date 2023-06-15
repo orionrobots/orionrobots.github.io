@@ -57,6 +57,15 @@ module.exports = function(eleventyConfig) {
     // Defines shortcode for generating post excerpts
     eleventyConfig.addShortcode('excerpt', post => extractExcerpt(post));
 
+    // Shortcode to get link to thumbnail image for a post
+    eleventyConfig.addShortcode("thumbnail", post => getPostThumbnail(post));
+    // TODO: Make a bit more efficient
+    eleventyConfig.addPairedShortcode("when_has_thumbnail", function(content, post) {
+        if (getPostThumbnail(post) != "/assets/images/placeholder.png") {
+            return content;
+        }
+    });
+
     eleventyConfig.addFilter("strip_images", value=> value.replace(/<img[^>]*>/g,""));
     eleventyConfig.addFilter("strip_links", value=> value.replace(/<a[^>]*>([^<]*)<\/a>/g,"$1"));
     eleventyConfig.addFilter("strip_decorators", value=> value.replace(/\{: (class|style)=.*\}/g,""));
@@ -77,31 +86,32 @@ module.exports = function(eleventyConfig) {
     });
 
     // Read the menu data from _config.yml and add it to the global data
-    eleventyConfig.addGlobalData("menu", function() {
-        // Load the _config.yml file
-        const yaml = require("js-yaml");
-        const fs = require("fs");
-        const config = yaml.load(fs.readFileSync("_config.yml", "utf-8"));
-        // Return the menu data
-        return config.menu;
-    });
+    eleventyConfig.addGlobalData("menu", () => getDataFromConfigYaml("menu"));
+    eleventyConfig.addGlobalData("site_title",  () => getDataFromConfigYaml("title"));
+    eleventyConfig.addGlobalData("site_tagline",  () => getDataFromConfigYaml("tagline"));
+
+
 
     // Ordered most recent 6 posts
     eleventyConfig.addCollection("recent_posts", function(collectionApi) {
         return collectionApi.getFilteredByGlob("_posts/*.md").reverse().slice(0, 6);
     });
 
-    // Shortcode to get link to thumbnail image for a post
-    eleventyConfig.addShortcode("thumbnail", function(post) {
-        return post.data.thumbnail || "/assets/images/placeholder.png";
-    });
 
 };
 
+function getDataFromConfigYaml(key) {
+    // Load the _config.yml file
+    const yaml = require("js-yaml");
+    const fs = require("fs");
+    const config = yaml.load(fs.readFileSync("_config.yml", "utf-8"));
+    // Return the menu data
+    return config[key];
+}
 
 // Excerpt code from https://github.com/11ty/eleventy/issues/179#issuecomment-413119342 (modified)
 const excerptMinimumLength = 140;
-const excerptSeparator = '<!--more-->'
+const excerptSeparator = '\n'
 
 /**
  * Extracts the excerpt from a document.
@@ -150,4 +160,20 @@ function findExcerptEnd(content, skipLength = 0) {
     }
 
     return paragraphEnd;
+}
+
+function getPostThumbnail(post) {
+    if (post.data.thumbnail) {
+        return post.data.thumbnail;
+    } else {
+        // find the first image in the post
+        const content = post.templateContent;
+        const imageRegex = /<img[^>]*src="([^"]*)"[^>]*>/g;
+        const match = imageRegex.exec(content);
+        if (match) {
+            return match[1];
+        } else {
+            return "/assets/images/placeholder.png";
+        }
+    }
 }
