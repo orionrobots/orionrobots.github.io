@@ -1,12 +1,12 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-light rounded">
     <div class="container-fluid">
-        <a class="navbar-brand" href="/" title="Home"><img src="/favicon.png" style="display:inline-block; padding-right:2px;">Orionrobots</a>
+        <a class="navbar-brand" href="/" title="Home"><img src="{{ ASSET_PATH }}/images/orion_favicon.png" style="display:inline-block; padding-right:2px;">Orionrobots</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-navbar-collapse-1" aria-controls="main-navbar-collapse-1" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="main-navbar-collapse-1">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                {% for node in site.menu %}
+                {% for node in menu %}
                     <li class="nav-item {% if page.url == node.url %}active{% endif %}">
                         <a class="nav-link" href="{{node.url}}">{{node.title}}</a>
                     </li>

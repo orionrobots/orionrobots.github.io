@@ -1,8 +1,7 @@
 {% capture jbcache %}
   <!--
   - Dynamically set liquid variables for working with URLs/paths
-  -->
-  {% if site.JB.setup.provider == "custom" %}
+  -->{% if site.JB.setup.provider == "custom" %}
     {% include custom/setup %}
   {% else %}
     {% if site.safe and site.JB.BASE_PATH and site.JB.BASE_PATH != '' %}
@@ -13,10 +12,7 @@
       {% assign HOME_PATH = "/" %}
     {% endif %}
 
-    {% if site.JB.ASSET_PATH %}
-      {% assign ASSET_PATH = site.JB.ASSET_PATH %}
-    {% else %}
-      {% capture ASSET_PATH %}{{ BASE_PATH }}/assets/themes/{{ layout.theme.name }}{% endcapture %}
-    {% endif %}
+    {% capture ASSET_PATH %}{{ BASE_PATH }}/assets/themes/{{ theme.name }}{% endcapture %}
   {% endif %}
-{% endcapture %}{% assign jbcache = nil %}
+{% endcapture %}
+{% assign jbcache = nil %}

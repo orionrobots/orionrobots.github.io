@@ -10,7 +10,7 @@
     "stats": "webpack -c webpack.config.js --profile --json > stats.json",
     "stats-cli": "webpack-bundle-analyzer stats.json",
     "11ty": "npx @11ty/eleventy",
-    "serve_generated": "npx @11ty/eleventy --serve"
+    "serve": "npx @11ty/eleventy --serve"
   },
   "repository": {
     "type": "git",
@@ -41,6 +41,7 @@
   },
   "dependencies": {
     "bootstrap": "^5.2.3",
-    "jquery": "^3.6.4"
+    "jquery": "^3.6.4",
+    "js-yaml": "^4.1.0"
   }
 }

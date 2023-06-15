@@ -13,12 +13,23 @@ module.exports = function(eleventyConfig) {
 
     eleventyConfig.ignores.add("README.md");
     eleventyConfig.ignores.add("_drafts/**");
+    eleventyConfig.ignores.add("src/**");
+
+    //copy through assets
+    eleventyConfig.addPassthroughCopy("assets");
+    eleventyConfig.addPassthroughCopy("dist");
+    eleventyConfig.addPassthroughCopy("galleries/**/*.{jpg,JPG,png,gif,svg}");
 
     let $collectionApi = null;
 
     eleventyConfig.addCollection("posts", function(collectionApi) {
         $collectionApi = collectionApi;
         return collectionApi.getFilteredByGlob("_posts/*.md");
+    });
+
+    eleventyConfig.addCollection("galleries", function(collectionApi) {
+        $collectionApi = collectionApi;
+        return collectionApi.getFilteredByGlob("galleries/**");
     });
 
     eleventyConfig.setLiquidOptions({
@@ -56,5 +67,15 @@ module.exports = function(eleventyConfig) {
     // Universal filter for jsonify
     eleventyConfig.addFilter("jsonify", function(value) {
         return JSON.stringify(value);
+    });
+
+    // Read the menu data from _config.yml and add it to the global data
+    eleventyConfig.addGlobalData("menu", function() {
+        // Load the _config.yml file
+        const yaml = require("js-yaml");
+        const fs = require("fs");
+        const config = yaml.load(fs.readFileSync("_config.yml", "utf-8"));
+        // Return the menu data
+        return config.menu;
     });
 };
