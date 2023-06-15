@@ -11,6 +11,9 @@ module.exports = function(eleventyConfig) {
     eleventyConfig.addLayoutAlias('product', 'layouts/product.html');
     eleventyConfig.addLayoutAlias('subject_page', 'layouts/subject_page.html');
 
+    eleventyConfig.ignores.add("README.md");
+    eleventyConfig.ignores.add("_drafts/**");
+
     let $collectionApi = null;
 
     eleventyConfig.addCollection("posts", function(collectionApi) {
