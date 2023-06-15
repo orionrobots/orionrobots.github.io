@@ -7,17 +7,21 @@ description: "Who are Orionrobots and why do we love building robots?"
 
 We build robots for fun, learning and would like to share that with others.
 
-We (Danny, Pheobe and Jonathan) all are learning robotics at home, using tools, materials and techniques that are available to everyone. You can get in touch with us on discord at https://discord.gg/4kcSNf4Npp.
+We (Danny, Pheobe and Jonathan) are all learning robotics at home, using tools, materials and techniques that are available to everyone.
+Join our community on Discord at <https://discord.gg/4kcSNf4Npp> to connect with us and fellow robotics enthusiasts!
 
 We love robotics. Here are 3 good reasons why:
 
-1. Robotics can promote STEM learning for  adults and children, increasing computer, electronic, technological literacy.
+1. Robotics can promote STEM learning for adults and children, increasing computer, electronic, technological literacy.
 2. Closing the gap between having an idea and building it - when a kid or adult has an idea for a new contraption, having kits to build upon, to experiment with to get there vastly reduces the barrier to entry.
 3. Because robots are fun and we personally like tinkering with them!
 
 We build other gadgets, play with code and generally use technology in a creative and fun way.
 
-OrionRobots is a company based upon providing information and education about technology and robotics to any who are interested. The goals are ultimately advancement and enjoyment of such technology. We are more about bodging something at home that would work and someone can try out themselves, than crafting perfect solutions. Learning, playing and then teaching and mentoring is how we do things.
+OrionRobots is a company based upon providing information and education about technology and robotics to any who are interested.
+The goals are ultimately advancement and enjoyment of such technology.
+We are more about bodging something at home that would work and someone can try out themselves, than crafting perfect solutions.
+Learning, playing and then teaching and mentoring is how we do things.
 
 The website incorporates news articles, tutorials and blogs about robotics and technology. We also have a YouTube channel where we post videos about our projects and other things we find interesting.
 
