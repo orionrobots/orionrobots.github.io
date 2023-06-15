@@ -25,20 +25,19 @@ You can reach me on twitter [@orionrobots](https://twitter.com/orionrobots)
 ## Recent Posts
 
 <ul class="posts">
-  {% for post in site.posts limit: 6 %}
+  {% for post in collections.recent_posts limit: 6 %}
     <li class="post media">
-      {% if post.thumb %}
-        <a class="media-left" href="{{ BASE_PATH }}{{ post.url }}"><img alt="{{ post.title }}" class="media-object index_post_thumb" src="{{ post.thumb }}"></a>
+      {% if post.data.thumb %}
+        <a class="media-left" href="{{ BASE_PATH }}{{ post.url }}"><img alt="{{ post.data.title }}" class="media-object index_post_thumb" src="{{ post.data.thumb }}"></a>
       {% endif %}
       <div class="post-content media-body">
         <div class="media-heading"><span class="post_date">{{ post.date | date_to_string }}</span> &raquo;
           <a class="post_title" href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a>
         </div>
-        {% if post.excerpt %}
           <div class="clearfix post_excerpt">
-            {{ post.excerpt }}<a href="{{ BASE_PATH }}{{ post.url }}">more...</a>
+            {% capture post_excerpt %}{% excerpt post %} {% endcapture %}
+            {{ post_excerpt | strip_images | strip_links | strip_decorators }}<a href="{{ BASE_PATH }}{{ post.url }}">more...</a>
           </div>
-        {% endif %}
       </div>
         <p class="clearfix"></p>
     </li>
