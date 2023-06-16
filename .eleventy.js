@@ -171,7 +171,7 @@ function findExcerptEnd(content, skipLength = 0) {
 }
 
 function getPostThumbnail(post) {
-    if (post.data.thumbnail) {
+    if ("data" in post && "thumbnail" in post.data) {
         return post.data.thumbnail;
     } else {
         // find the first image in the post

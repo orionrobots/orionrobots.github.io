@@ -1,0 +1,20 @@
+---
+layout: page
+pagination:
+  data: collections
+  size: 1
+  alias: category
+permalink: /categories/{{ category }}/
+---
+<h1>{{ category | capitalize }}</h1>
+
+<ul class="posts">
+{% for post in collections[ category ] | sort: "post.date" | reverse %}
+    <li class="post_summary">
+
+        <div class="media-heading"><span class="post_date">{{ post.date | date: '%d %b %Y' }}</span> &raquo;
+            <a class="post_title" href="{{ post.url }}">{{ post.data.title }}</a>
+          </div>
+    </li>
+{% endfor %}
+</ul>

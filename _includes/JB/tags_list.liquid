@@ -1,10 +1,10 @@
 {% if tags_list.first[0] == null %}
-  First branch<br>
+  <!-- First branch -->
   {% for tag in tags_list %}
     <span><a href="{{ BASE_PATH }}{{ site.tags_path }}#{{ tag | slugify }}-ref" class="badge text-bg-light">{{ tag }} <span class="badge text-bg-info rounded-pill">{{ site.tags[tag].size }}</span></a></span>
   {% endfor %}
 {% else %}
-  Second branch<br>
+  <!-- Second branch -->
   {% for tag in tags_list %}
     <span><a href="{{ BASE_PATH }}{{ site.tags_path }}#{{ tag | slugify }}-ref" class="badge text-bg-light">{{ tag }} <span class="badge text-bg-info rounded-pill">{{ tag[1].size }}</span></a></span>
   {% endfor %}
