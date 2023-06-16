@@ -38,5 +38,10 @@
             "description": "About Us",
             "url": "/about_us.html"
         }
-    ]
+    ],
+    "sharing": {
+        "facebook": true,
+        "twitter": true,
+        "pinterest": true
+    }
 }

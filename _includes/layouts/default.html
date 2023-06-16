@@ -6,27 +6,27 @@ layout: common
 <div class="row">
   <article id="col-main" class="content col-md-8">
     <div class="gcse-searchresults"></div>
-    <h2 class="page-header">{{ page.title }} {% if page.tagline %}<small>{{page.tagline}}</small>{% endif %}</h2>
+    <h2 class="page-header">{{ title }} {% if tagline %}<small>{{tagline}}</small>{% endif %}</h2>
     <div class="row g-0">
-      {% if page.thumb %}
+      {% if thumb %}
         <div class="col">
-            <img src="{{ page.thumb }}" alt="{{ page.title }}">
+            <img src="{{ thumb }}" alt="{{ title }}">
         </div>
       {% endif %}
       <div class="col">
-        {% include social-sharing.html %}
+        {% include social-sharing %}
       </div>
       <div class="col-6">
-        {% unless page.tags == empty %}
+        {% unless tags == empty %}
             <nav>
-              {% assign tags_list = page.tags %}
+              {% assign tags_list = tags %}
               {% include JB/tags_list %}
             </nav>
         {% endunless %}
       </div>
     </div>
     {{ content }}
-    {% if page.comments %}
+    {% if comments %}
         {% include discus_thread %}
     {% endif %}
 
@@ -48,11 +48,11 @@ layout: common
     </ul>
       </div>
   </div>
-    <p>&copy; {{ site.time | date: '%Y' }} OrionRobots. Orionrobots is a trademark.
+    <p>&copy; {{ time | date: '%Y' }} OrionRobots. Orionrobots is a trademark.
       with help from <a href="https://twitter.github.com/bootstrap/" target="_blank">Bootstrap</a>
     </p>
 </footer>
-{% if page.using_mathjax %}
+{% if using_mathjax %}
     <script>
         MathJax = {
           tex: {
@@ -67,7 +67,7 @@ layout: common
     <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 {% endif %}
 <script>
-  const newSlug = "{{ page.date | date: '%Y-%m-%d' }}-{{ page.slug }}";
+  const newSlug = "{{ date | date: '%Y-%m-%d' }}-{{ slug }}";
   document.addEventListener("DOMContentLoaded", function(event) {
     document.addPostAdminButton(newSlug);
   });
