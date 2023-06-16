@@ -201,23 +201,18 @@ menu:
   - title: Robot news
     description: News about Robots
     url: /robot_news.html
-  -
-    title: Robotics at home
+  - title: Robotics at home
     description: Start building and playing with robots
     url: /robotics_at_home.html
-  -
-    title: FAQ
+  - title: FAQ
     description: Orionrobots frequently asked questions
     url: /faq.html
-  -
-    title: Blog
+  - title: Blog
     description: Blog
     url: /archive.html
-  -
-    title: Tags
+  - title: Tags
     description: Tags
     url: /tags
-  -
-    title: About Us
+  - title: About Us
     description: About Us
     url: /about_us.html

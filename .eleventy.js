@@ -1,4 +1,12 @@
+const markdownIt = require("markdown-it");
+const markdownItAnchor = require("markdown-it-anchor");
+
 module.exports = function(eleventyConfig) {
+    // Configure markdown parser
+    const markdownLib = markdownIt({html: true, typographer: true});
+    markdownLib.use(markdownItAnchor);
+    eleventyConfig.setLibrary("md", markdownLib);
+
     // TODO: Make this list defined
     eleventyConfig.addLayoutAlias('autogallery', 'layouts/autogallery.html');
     eleventyConfig.addLayoutAlias('common', 'layouts/common.html');
