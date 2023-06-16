@@ -43,5 +43,9 @@
         "facebook": true,
         "twitter": true,
         "pinterest": true
+    },
+    "tags_path" : "/tags.html",
+    "JB": {
+        "archive_path": "/archive.html"
     }
 }

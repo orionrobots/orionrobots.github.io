@@ -1,33 +1,11 @@
-{% comment %}<!--
-The tags_list include is a listing helper for tags.
-Usage:
-  1) assign the 'tags_list' variable to a valid array of tags.
-  2) include JB/tags_list
-  example:
-    <ul>
-  	  {% assign tags_list = site.tags %}
-  	  {% include JB/tags_list %}
-  	</ul>
-
-  Notes:
-    Tags can be either a Hash of tag objects (hashes) or an Array of tag-names (strings).
-    The encapsulating 'if' statement checks whether tags_list is a Hash or Array.
-    site.tags is a Hash while page.tags is an array.
-
-  This helper can be seen in use at: ../_layouts/default.html
--->{% endcomment %}
-
-{% if site.JB.tags_list.provider == "custom" %}
-  {% include custom/tags_list %}
+{% if tags_list.first[0] == null %}
+  First branch<br>
+  {% for tag in tags_list %}
+    <span><a href="{{ BASE_PATH }}{{ site.tags_path }}#{{ tag | slugify }}-ref" class="badge text-bg-light">{{ tag }} <span class="badge text-bg-info rounded-pill">{{ site.tags[tag].size }}</span></a></span>
+  {% endfor %}
 {% else %}
-  {% if tags_list.first[0] == null %}
-    {% for tag in tags_list %}
-    	<span><a href="{{ BASE_PATH }}{{ site.JB.tags_path }}#{{ tag | slugify }}-ref" class="badge text-bg-light">{{ tag }} <span class="badge text-bg-info rounded-pill">{{ site.tags[tag].size }}</span></a></span>
-    {% endfor %}
-  {% else %}
-    {% for tag in tags_list %}
-    	<span><a href="{{ BASE_PATH }}{{ site.JB.tags_path }}#{{ tag[0] | slugify }}-ref" class="badge text-bg-light">{{ tag[0] }} <span class="badge text-bg-info rounded-pill">{{ tag[1].size }}</span></a></span>
-    {% endfor %}
-  {% endif %}
+  Second branch<br>
+  {% for tag in tags_list %}
+    <span><a href="{{ BASE_PATH }}{{ site.tags_path }}#{{ tag | slugify }}-ref" class="badge text-bg-light">{{ tag }} <span class="badge text-bg-info rounded-pill">{{ tag[1].size }}</span></a></span>
+  {% endfor %}
 {% endif %}
-{% assign tags_list = nil %}

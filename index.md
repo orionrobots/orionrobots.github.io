@@ -31,8 +31,8 @@ You can reach me on twitter [@orionrobots](https://twitter.com/orionrobots)
       <a class="media-left" href="{{ BASE_PATH }}{{ post.url }}"><img alt="{{ post.data.title }}" class="media-object index_post_thumb" src="{% thumbnail post %}"></a>
       {% endwhen_has_thumbnail %}
       <div class="post-content media-body">
-        <div class="media-heading"><span class="post_date">{{ post.date | date_to_string }}</span> &raquo;
-          <a class="post_title" href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a>
+        <div class="media-heading"><span class="post_date">{{ post.date | date: '%d %b %Y' }}</span> &raquo;
+          <a class="post_title" href="{{ BASE_PATH }}{{ post.url }}">{{ post.data.title }}</a>
         </div>
           <div class="clearfix post_excerpt">
             {% capture post_excerpt %}{% excerpt post %} {% endcapture %}

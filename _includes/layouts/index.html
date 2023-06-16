@@ -2,20 +2,21 @@
 theme :
   name : orionrobots
 layout: common
+date: Last Modified
 ---
 <div class="row">
   <article id="col-main" class="content col-md-12">
     <div class="gcse-searchresults"></div>
-    <h2 class="page-header">{{ page.title }} {% if page.tagline %}<small>{{page.tagline}}</small>{% endif %}</h2>
-    {% include social-sharing.html %}
-    {% unless page.tags == empty %}
+    <h2 class="page-header">{{ title }} {% if tagline %}<small>{{tagline}}</small>{% endif %}</h2>
+    {% include social-sharing %}
+    {% unless tags == empty %}
         <nav>
-          {% assign tags_list = page.tags %}
+          {% assign tags_list = tags %}
           {% include JB/tags_list %}
         </nav>
     {% endunless %}
     {{ content }}
-    {% if page.comments %}
+    {% if comments %}
         {% include discus_thread %}
     {% endif %}
 
@@ -33,11 +34,11 @@ layout: common
     </ul>
       </div>
   </div>
-    <p>&copy; {{ site.time | date: '%Y' }} OrionRobots. Orionrobots is a trademark.
+    <p>&copy; {{ page.date | date: '%Y' }} OrionRobots. Orionrobots is a trademark.
       with help from <a href="https://twitter.github.com/bootstrap/" target="_blank">Bootstrap</a>
     </p>
 </footer>
-{% if page.using_mathjax %}
+{% if using_mathjax %}
     <script>
         MathJax = {
           tex: {
