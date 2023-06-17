@@ -81,8 +81,8 @@ theme:
 }
 
 .content img.index_post_thumb {
-  height: 200px;
-  width: 200px;
+  height: 128px;
+  width: 128px;
   object-fit: cover;
   max-width: none;
 }

@@ -1,5 +1,6 @@
 const markdownIt = require("markdown-it");
 const markdownItAnchor = require("markdown-it-anchor");
+const moment = require("moment");
 
 module.exports = function(eleventyConfig) {
     // Configure markdown parser
@@ -17,7 +18,7 @@ module.exports = function(eleventyConfig) {
     eleventyConfig.addLayoutAlias('page', 'layouts/page.html');
     eleventyConfig.addLayoutAlias('post', 'layouts/post.html');
     eleventyConfig.addLayoutAlias('product', 'layouts/product.html');
-    eleventyConfig.addLayoutAlias('subject_page', 'layouts/subject_page.html');
+    eleventyConfig.addLayoutAlias('subject_page', 'layouts/subject_page.njk');
 
     eleventyConfig.ignores.add("README.md");
     eleventyConfig.ignores.add("_drafts/**");
@@ -64,15 +65,18 @@ module.exports = function(eleventyConfig) {
 
     // Defines shortcode for generating post excerpts
     eleventyConfig.addShortcode('excerpt', post => extractExcerpt(post));
+    eleventyConfig.addFilter('excerpt', post => extractExcerpt(post));
 
+    eleventyConfig.addFilter("with_titles", items => {
+        return items.filter(item => "title" in item.data);
+    });
     // Shortcode to get link to thumbnail image for a post
     eleventyConfig.addShortcode("thumbnail", post => getPostThumbnail(post));
+    console.log("Adding thumbnail filter here...");
+    eleventyConfig.addFilter("thumb", post => getPostThumbnail(post));
     // TODO: Make a bit more efficient
-    eleventyConfig.addPairedShortcode("when_has_thumbnail", function(content, post) {
-        if (getPostThumbnail(post) != "/assets/images/placeholder.png") {
-            return content;
-        }
-    });
+    eleventyConfig.addFilter("has_thumbnail", post =>
+        getPostThumbnail(post) != "/assets/images/placeholder.png");
 
     eleventyConfig.addFilter("strip_images", value=> value.replace(/<img[^>]*>/g,""));
     eleventyConfig.addFilter("strip_links", value=> value.replace(/<a[^>]*>([^<]*)<\/a>/g,"$1"));
@@ -105,6 +109,14 @@ module.exports = function(eleventyConfig) {
         return collectionApi.getFilteredByGlob("_posts/*.md").reverse().slice(0, 6);
     });
 
+    // Ordered posts by date
+    eleventyConfig.addFilter("posts_by_date", function(posts) {
+        return posts.sort((a, b) => b.date - a.date);
+    });
+
+    eleventyConfig.addNunjucksFilter("date", function(date, format) {
+        return moment(date).format(format);
+    });
 
 };
 
@@ -128,6 +140,9 @@ const excerptSeparator = '\n'
  * @returns {String} the excerpt.
  */
 function extractExcerpt(doc) {
+    if(doc.url.includes("category")) {
+        return;
+    }
     if (!doc.hasOwnProperty('templateContent')) {
         console.warn('Failed to extract excerpt: Document has no property `templateContent`.');
         return;
@@ -171,11 +186,14 @@ function findExcerptEnd(content, skipLength = 0) {
 }
 
 function getPostThumbnail(post) {
-    if ("data" in post && "thumbnail" in post.data) {
+    if ("thumbnail" in post.data) {
         return post.data.thumbnail;
     } else {
         // find the first image in the post
-        const content = post.templateContent;
+        if(post.url.includes("category")) {
+            return "/assets/images/placeholder.png";
+        }
+        const content = post.content;
         const imageRegex = /<img[^>]*src="([^"]*)"[^>]*>/g;
         const match = imageRegex.exec(content);
         if (match) {

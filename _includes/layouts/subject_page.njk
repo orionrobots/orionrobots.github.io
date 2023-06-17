@@ -1,0 +1,29 @@
+---
+layout: page
+---
+{{ content }}
+<ul class="posts">
+    {% set categorylist = collections[ subject ] %}
+  {% for post in categorylist | with_titles | reverse %}
+      {% if loop.index <= 4 %}
+        <li class="post_media d-flex">
+          {% if post | has_thumbnail %}
+            <a class="flex-shrink-0" href="{{ post.url }}"><img alt="{{ post.data.title }}"
+            class="index_post_thumb" src="{{ post | thumb }}"></a>
+          {% endif %}
+          <div class="flex-grow-1 ms-3">
+            <div class="mt-0"><span class="post_date">{{ post.date | date('Do MMM YYYY') }}</span> &raquo;
+              <a class="post_title" href="{{ BASE_PATH }}{{ post.url }}">{{ post.data.title }}</a>
+            </div>
+            {{ post | excerpt | striptags }}<a href="{{ BASE_PATH }}{{ post.url }}">more...</a>
+          </div>
+        </li>
+      {% else %}
+      <li class="post_summary d-flex">
+        <div class="mt-0"><span class="post_date">{{ post.date | date('Do MMM YYYY') }}</span> &raquo;
+            <a class="post_title" href="{{ post.url }}">{{ post.data.title }}</a>
+        </div>
+      </li>
+      {% endif %}
+  {% endfor %}
+</ul>
