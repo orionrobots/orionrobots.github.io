@@ -3,15 +3,16 @@ layout: page
 pagination:
   data: collections
   size: 1
-  alias: category
-permalink: "/category/{{ category }}/"
-is_category: true
+  alias: tag
+title: Tags
+permalink: "/tags/{{ tag }}/"
+group: navigation
 ---
-<h1>{{ category | capitalize }}</h1>
+<h1>Tags</h1>
 
 <ul class="posts">
-  {% set categorylist = collections[ category ] %}
-{% for post in categorylist | with_titles | reverse %}
+  {% set tagList = collections[ tag ] %}
+{% for post in tagList | with_titles | reverse %}
     {% if loop.index <= 4 %}
       <li class="post_media d-flex">
         {% if post | has_thumbnail %}

@@ -9,16 +9,16 @@ module.exports = function(eleventyConfig) {
     eleventyConfig.setLibrary("md", markdownLib);
 
     // TODO: Make this list defined
-    eleventyConfig.addLayoutAlias('autogallery', 'layouts/autogallery.html');
-    eleventyConfig.addLayoutAlias('common', 'layouts/common.html');
-    eleventyConfig.addLayoutAlias('default', 'layouts/default.html');
-    eleventyConfig.addLayoutAlias('gallery', 'layouts/gallery.html');
-    eleventyConfig.addLayoutAlias('galleryitem', 'layouts/galleryitem.html');
-    eleventyConfig.addLayoutAlias('index', 'layouts/index.html');
-    eleventyConfig.addLayoutAlias('page', 'layouts/page.html');
-    eleventyConfig.addLayoutAlias('post', 'layouts/post.html');
-    eleventyConfig.addLayoutAlias('product', 'layouts/product.html');
-    eleventyConfig.addLayoutAlias('subject_page', 'layouts/subject_page.njk');
+    // eleventyConfig.addLayoutAlias('autogallery', 'layouts/autogallery.html');
+    // eleventyConfig.addLayoutAlias('common', 'layouts/common.html');
+    // eleventyConfig.addLayoutAlias('default', 'layouts/default.html');
+    // eleventyConfig.addLayoutAlias('gallery', 'layouts/gallery.html');
+    // eleventyConfig.addLayoutAlias('galleryitem', 'layouts/galleryitem.html');
+    // eleventyConfig.addLayoutAlias('index', 'layouts/index.html');
+    // eleventyConfig.addLayoutAlias('page', 'layouts/page.html');
+    // eleventyConfig.addLayoutAlias('post', 'layouts/post.html');
+    // eleventyConfig.addLayoutAlias('product', 'layouts/product.html');
+    // eleventyConfig.addLayoutAlias('subject_page', 'layouts/subject_page.njk');
 
     eleventyConfig.ignores.add("README.md");
     eleventyConfig.ignores.add("_drafts/**");
@@ -72,7 +72,6 @@ module.exports = function(eleventyConfig) {
     });
     // Shortcode to get link to thumbnail image for a post
     eleventyConfig.addShortcode("thumbnail", post => getPostThumbnail(post));
-    console.log("Adding thumbnail filter here...");
     eleventyConfig.addFilter("thumb", post => getPostThumbnail(post));
     // TODO: Make a bit more efficient
     eleventyConfig.addFilter("has_thumbnail", post =>
@@ -118,6 +117,11 @@ module.exports = function(eleventyConfig) {
         return moment(date).format(format);
     });
 
+    return {
+        dir: {
+            layouts: "_includes/layouts"
+        }
+    }
 };
 
 function getDataFromConfigYaml(key) {
