@@ -3,7 +3,7 @@ title: Copilot and Jupyter are an awesome combination
 date: 2022-07-09T20:54:27
 description: Supercharge graphing and messing with data using VSCode, Jupyter and Copilot
 layout: post
-tags: [graphing, jupyter, programming ide, python, robotics programming, vscode, matplotlib, AI]
+tags: [graphing, jupyter, programming ide, python, robotics programming, vscode, matplotlib, ai]
 ---
 Today I needed to create a graph for my upcoming book [Robotics at Home with Raspberry Pi Pico](https://packt.link/yPPkw).
 After spending time in Inkscape and seeing this was not the way, I reached to Jupyter notebooks with matplotlib.
