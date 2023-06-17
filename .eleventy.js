@@ -90,16 +90,21 @@ module.exports = function(eleventyConfig) {
     eleventyConfig.addCollection("tagList", (collection) => {
         const tagsSet = new Set();
 
+        const tagsDict = {};
+
         // Iterate over all content files and collect tags
         collection.getAll().forEach((item) => {
             if (item.data.tags) {
                 item.data.tags.forEach((tag) => {
-                    tagsSet.add(slugify(tag));
+                    const slugTag = slugify(tag);
+                    if (!(slugTag in tagsDict)) {
+                        tagsDict[slugTag] = [];
+                    }
+                    tagsDict[slugTag].push(item);
                 });
             }
         });
-        console.log("Tags: " + Array.from(tagsSet));
-        return Array.from(tagsSet);
+        return tagsDict;
     });
 
     return {

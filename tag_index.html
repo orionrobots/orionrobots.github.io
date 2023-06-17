@@ -6,10 +6,10 @@ permalink: "/tags/index.html"
 ---
 <h1>All Tags</h1>
 <ul>
-    <li>
-    {% assign tags = collections.tagList | sort %}
+    {% assign tags = collections.tagList %}
     {% for tag in tags %}
-        <a href="/tags/{{ tag.url | slugify }}">{{ tag }}</a>
-    {% endfor %}
+    <li>
+        <a href="/tags/{{ tag[0] | slugify }}">{{ tag[0] }}</a>
     </li>
+    {% endfor %}
 </ul>

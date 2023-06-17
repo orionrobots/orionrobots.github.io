@@ -1,0 +1,38 @@
+---
+layout: page
+pagination:
+  data: collections.tagList
+  size: 1
+  alias: tag
+title: Tag
+permalink: "/tags/{{ tag }}/"
+eleventyExcludeFromCollections: true
+---
+<h1>{{ tag }}</h1>
+
+<ul class="posts">
+  {% assign postList = collections.tagList[tag] | sort: "date" | reverse %}
+{% for item in postList | with_titles %}
+    {{ item.data.title }}
+    {% if forloop.index <= 4 %}
+      <li class="post_media d-flex">
+        {% if item | has_thumbnail %}
+          <a class="flex-shrink-0" href="{{ item.url }}"><img alt="{{ item.data.title }}"
+          class="index_post_thumb" src="{{ item | thumb }}"></a>
+        {% endif %}
+        <div class="flex-grow-1 ms-3">
+          <div class="mt-0"><span class="post_date">{{ item.date | date }}</span> &raquo;
+            <a class="post_title" href="{{ BASE_PATH }}{{ item.url }}">{{ item.data.title }}</a>
+          </div>
+          {{ item | excerpt | strip_html }}<a href="{{ BASE_PATH }}{{ item.url }}">more...</a>
+        </div>
+      </li>
+    {% else %}
+    <li class="post_summary d-flex">
+      <div class="mt-0"><span class="post_date">{{ item.date | date }}</span> &raquo;
+          <a class="post_title" href="{{ item.url }}">{{ item.data.title }}</a>
+      </div>
+    </li>
+    {% endif %}
+{% endfor %}
+</ul>
