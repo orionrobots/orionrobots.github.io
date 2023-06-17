@@ -1,0 +1,31 @@
+---
+layout: page
+---
+{{ content }}
+
+<ul class="posts">
+    {% assign itemList = collections.tagList[ subject ] | sort: "date" | reverse %}
+    {{ itemList | size }} posts found.
+    {% for item in itemList %}
+      {% if forloop.index <= 4 %}
+        <li class="post_media d-flex">
+          {% if item | has_thumbnail %}
+            <a class="flex-shrink-0" href="{{ item.url }}"><img alt="{{ item.data.title }}"
+            class="index_post_thumb" src="{{ item | thumb }}"></a>
+          {% endif %}
+          <div class="flex-grow-1 ms-3">
+            <div class="mt-0"><span class="post_date">{{ item.date | date: '%d %b %Y' }}</span> &raquo;
+              <a class="post_title" href="{{ BASE_PATH }}{{ item.url }}">{{ item.data.title }}</a>
+            </div>
+            {{ item | excerpt | strip_html }}<a href="{{ BASE_PATH }}{{ item.url }}">more...</a>
+          </div>
+        </li>
+      {% else %}
+      <li class="post_summary d-flex">
+        <div class="mt-0"><span class="post_date">{{ item.date | date: '%d %b %Y' }}</span> &raquo;
+            <a class="post_title" href="{{ item.url }}">{{ item.data.title }}</a>
+        </div>
+      </li>
+      {% endif %}
+  {% endfor %}
+</ul>
