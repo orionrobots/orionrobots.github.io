@@ -2,6 +2,7 @@
 layout: page
 title: "About Us"
 description: "Who are Orionrobots and why do we love building robots?"
+permalink: /about_us.html
 ---
 ## About OrionRobots
 

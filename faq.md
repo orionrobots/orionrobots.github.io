@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Frequently Asked Questions
+permalink: /faq.html
 ---
 <strong>Q: How can we get support with robot building?</strong>
 Come visit the [Danny Staple Robotics discord server](https://discord.gg/4kcSNf4Npp).
