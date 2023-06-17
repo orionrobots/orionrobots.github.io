@@ -1,0 +1,13 @@
+---
+layout: page
+title: Tags
+eleventyExcludeFromCollections: true
+---
+<h1>All Tags</h1>
+<ul>
+    <li>
+    {% for tag in collections[ tags ] %}
+        <a href="{{ tag.url | relative_url }}">{{ tag.name }}</a>
+    {% endfor %}
+    </li>
+</ul>

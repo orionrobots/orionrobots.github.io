@@ -60,11 +60,6 @@ prose:
         field:
           label: "Tags"
           element: "text"
-      - name: "category"
-        field:
-          label: "Category"
-          element: "text"
-          required: false
       - name: "published"
         field:
           label: "published"

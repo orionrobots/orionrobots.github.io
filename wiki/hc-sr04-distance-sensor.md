@@ -11,6 +11,7 @@ gallery:
 layout: page
 title: HC SR04 Distance Sensor
 tags: [arduino, distance sensor, microcontroller, robot building at home, robotics at home, sonar ranger module, raspberry pi, raspberry pi pico]
+date: 2014-11-06
 ---
 The HC-SR04 is a simple but capable distance sensor. It is able to sense a 30 degree range, using 2 IO pins on your microcontroller. They are sensitive from 4cm's to around 3 meters, with sub-centimeter measuring accuracy.
 

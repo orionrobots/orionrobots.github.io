@@ -4,11 +4,11 @@ pagination:
   data: collections
   size: 1
   alias: tag
-title: Tags
+title: Tag
 permalink: "/tags/{{ tag }}/"
-group: navigation
+eleventyExcludeFromCollections: true
 ---
-<h1>Tags</h1>
+<h1>{{ tag }}</h1>
 
 <ul class="posts">
   {% set tagList = collections[ tag ] %}

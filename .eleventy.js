@@ -67,10 +67,6 @@ module.exports = function(eleventyConfig) {
     eleventyConfig.addFilter("has_thumbnail", post =>
         getPostThumbnail(post) != "/assets/images/placeholder.png");
 
-    eleventyConfig.addFilter("strip_images", value=> value.replace(/<img[^>]*>/g,""));
-    eleventyConfig.addFilter("strip_links", value=> value.replace(/<a[^>]*>([^<]*)<\/a>/g,"$1"));
-    eleventyConfig.addFilter("strip_decorators", value=> value.replace(/\{: (class|style)=.*\}/g,""));
-
     // Liquid filter to convert a date to a string
     eleventyConfig.addLiquidFilter("date_to_string", function(date) {
         return date.toString();
@@ -90,11 +86,6 @@ module.exports = function(eleventyConfig) {
     eleventyConfig.addGlobalData("menu", () => getDataFromConfigYaml("menu"));
     eleventyConfig.addGlobalData("site_title",  () => getDataFromConfigYaml("title"));
     eleventyConfig.addGlobalData("site_tagline",  () => getDataFromConfigYaml("tagline"));
-
-    // Ordered most recent 6 posts
-    eleventyConfig.addCollection("recent_posts", function(collectionApi) {
-        return collectionApi.getFilteredByGlob("_posts/*.md").reverse().slice(0, 6);
-    });
 
     eleventyConfig.addNunjucksFilter("date", function(date, format) {
         return moment(date).format(format);
@@ -127,9 +118,6 @@ const excerptSeparator = '\n'
  * @returns {String} the excerpt.
  */
 function extractExcerpt(doc) {
-    if(doc.url.includes("category")) {
-        return;
-    }
     if (!doc.hasOwnProperty('templateContent')) {
         console.warn('Failed to extract excerpt: Document has no property `templateContent`.');
         return;
@@ -177,9 +165,6 @@ function getPostThumbnail(post) {
         return post.data.thumbnail;
     } else {
         // find the first image in the post
-        if(post.url.includes("category")) {
-            return "/assets/images/placeholder.png";
-        }
         const content = post.content;
         const imageRegex = /<img[^>]*src="([^"]*)"[^>]*>/g;
         const match = imageRegex.exec(content);

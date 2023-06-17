@@ -4,12 +4,12 @@ title: Motion tracking workbench accessories
 date: 2022-12-27T14:43:36.558Z
 description: Ideas for a motion tracking workbench helper
 tags:
-  - robot-building
-  - robotics-tools
-  - learn-robotics-at-home
-  - robot-videos
-  - robotics-blogging
-  - robotics-content
+  - robot building
+  - robotics tools
+  - learn robotics at home
+  - robot videos
+  - robotics blogging
+  - robotics content
 category: robot-building
 ---
 Twitter user Rue Mohr recently suggested building a [motion tracking workbench lamp](https://twitter.com/RueNahcMohr/status/1607616703881678850). This is a great idea, as if you are moving around on the bench, and you need light focusing on where you are working, you could have the device adjust the focus for you.
@@ -21,7 +21,7 @@ I also see how this would be useful for taking photos or making videos, where th
 To make something like this work, I came up with a list of parts (hardware and software) for it.
 - A Raspberry Pi as a controller.
 - A Raspberry Pi HQ Camera (assuming the pictures are high quality).
-- An LED filming lamp - light, but good enough for both the work and the camera. 
+- An LED filming lamp - light, but good enough for both the work and the camera.
 - A gantry or arm, with 2 stepper motors.
 - Mounts for the camera and light on the gantry/arm.
 - Cable guides/protection for the assembly.

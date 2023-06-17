@@ -2,7 +2,7 @@
 title: FreeCAD annotations issue
 description: "A problem with FreeCAD annotations"
 layout: post
-tags: [robotics, electronics, FreeCAD]
+tags: [robotics, electronics, freecad]
 ---
 Today I'm trying out a freecad weekly build. I've been doing a lot in TechDraw, and needed to replace a view, but all the annotations are behind the view. I'm hoping the weekly build has the view stacking implementation for <https://github.com/FreeCAD/FreeCAD/issues/6012> so I can get the annotations in front of the view.
 

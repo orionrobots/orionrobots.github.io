@@ -6,9 +6,10 @@ pin_links:
     thumb: /galleries/2023/Robotics-at-Home-with-Raspberry-Pi-Pico-banner-2048.png
     description: Learn to build and Program Robots using Robotics at Home with Raspberry Pi Pico
     link: https://www.amazon.com/Robotics-Home-Raspberry-Pi-Pico/dp/1492079941
-tags: [robot-building, robotics-at-home, making-robots]
+tags: [robot building, robotics at home, making robots]
 eleventyImport:
-  collections: ["post"]
+  collections: ["all"]
+eleventyExcludeFromCollections: true
 ---
 At Orionrobots, Danny and his team build robots, electronics, gadgets and stuff that moves.
 We aim to make robots easy for anyone to build, and push the boundaries of what is easy. Oh and just to have lots of fun doing it too!
@@ -27,7 +28,7 @@ You can reach me on twitter [@orionrobots](https://twitter.com/orionrobots)
 ## Recent Posts
 
 <ul class="posts">
-  {% assign posts = collections.posts | reverse %}
+  {% assign posts = collections.all | reverse %}
   {% for post in posts limit: 6 %}
     <li class="post media d-flex">
       <a class="media-left" href="{{ BASE_PATH }}{{ post.url }}"><img alt="{{ post.data.title }}"       class="media-object index_post_thumb"
