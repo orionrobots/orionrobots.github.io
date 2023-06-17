@@ -2,6 +2,7 @@ const markdownIt = require("markdown-it");
 const markdownItAnchor = require("markdown-it-anchor");
 const markdownItAttrs = require("markdown-it-attrs");
 const moment = require("moment");
+const slugify = require("slugify");
 
 module.exports = function(eleventyConfig) {
     // Configure markdown parser
@@ -84,6 +85,21 @@ module.exports = function(eleventyConfig) {
 
     eleventyConfig.addNunjucksFilter("date", function(date, format) {
         return moment(date).format(format);
+    });
+
+    eleventyConfig.addCollection("tagList", (collection) => {
+        const tagsSet = new Set();
+
+        // Iterate over all content files and collect tags
+        collection.getAll().forEach((item) => {
+            if (item.data.tags) {
+                item.data.tags.forEach((tag) => {
+                    tagsSet.add(slugify(tag));
+                });
+            }
+        });
+        console.log("Tags: " + Array.from(tagsSet));
+        return Array.from(tagsSet);
     });
 
     return {

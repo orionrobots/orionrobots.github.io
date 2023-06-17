@@ -1,7 +1,7 @@
 ---
 layout: page
 pagination:
-  data: collections
+  data: collections.tagList
   size: 1
   alias: tag
 title: Tag
@@ -11,7 +11,7 @@ eleventyExcludeFromCollections: true
 <h1>{{ tag }}</h1>
 
 <ul class="posts">
-  {% set tagList = collections[ tag ] %}
+  {% assign tagList = collections[ tag ] %}
 {% for post in tagList | with_titles | reverse %}
     {% if loop.index <= 4 %}
       <li class="post_media d-flex">
@@ -20,15 +20,15 @@ eleventyExcludeFromCollections: true
           class="index_post_thumb" src="{{ post | thumb }}"></a>
         {% endif %}
         <div class="flex-grow-1 ms-3">
-          <div class="mt-0"><span class="post_date">{{ post.date | date('Do MMM YYYY') }}</span> &raquo;
+          <div class="mt-0"><span class="post_date">{{ post.date | date }}</span> &raquo;
             <a class="post_title" href="{{ BASE_PATH }}{{ post.url }}">{{ post.data.title }}</a>
           </div>
-          {{ post | excerpt | striptags }}<a href="{{ BASE_PATH }}{{ post.url }}">more...</a>
+          {{ post | excerpt | strip_html }}<a href="{{ BASE_PATH }}{{ post.url }}">more...</a>
         </div>
       </li>
     {% else %}
     <li class="post_summary d-flex">
-      <div class="mt-0"><span class="post_date">{{ post.date | date('Do MMM YYYY') }}</span> &raquo;
+      <div class="mt-0"><span class="post_date">{{ post.date | date }}</span> &raquo;
           <a class="post_title" href="{{ post.url }}">{{ post.data.title }}</a>
       </div>
     </li>
