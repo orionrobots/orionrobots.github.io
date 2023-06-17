@@ -30,6 +30,7 @@
     "exports-loader": "^4.0.0",
     "expose-loader": "^4.1.0",
     "markdown-it-anchor": "^8.6.7",
+    "markdown-it-attrs": "^4.1.6",
     "mini-css-extract-plugin": "^2.7.5",
     "moment": "^2.29.4",
     "postcss-loader": "^7.3.0",

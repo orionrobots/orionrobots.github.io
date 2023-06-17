@@ -1,24 +1,14 @@
 const markdownIt = require("markdown-it");
 const markdownItAnchor = require("markdown-it-anchor");
+const markdownItAttrs = require("markdown-it-attrs");
 const moment = require("moment");
 
 module.exports = function(eleventyConfig) {
     // Configure markdown parser
     const markdownLib = markdownIt({html: true, typographer: true});
     markdownLib.use(markdownItAnchor);
+    markdownLib.use(markdownItAttrs);
     eleventyConfig.setLibrary("md", markdownLib);
-
-    // TODO: Make this list defined
-    // eleventyConfig.addLayoutAlias('autogallery', 'layouts/autogallery.html');
-    // eleventyConfig.addLayoutAlias('common', 'layouts/common.html');
-    // eleventyConfig.addLayoutAlias('default', 'layouts/default.html');
-    // eleventyConfig.addLayoutAlias('gallery', 'layouts/gallery.html');
-    // eleventyConfig.addLayoutAlias('galleryitem', 'layouts/galleryitem.html');
-    // eleventyConfig.addLayoutAlias('index', 'layouts/index.html');
-    // eleventyConfig.addLayoutAlias('page', 'layouts/page.html');
-    // eleventyConfig.addLayoutAlias('post', 'layouts/post.html');
-    // eleventyConfig.addLayoutAlias('product', 'layouts/product.html');
-    // eleventyConfig.addLayoutAlias('subject_page', 'layouts/subject_page.njk');
 
     eleventyConfig.ignores.add("README.md");
     eleventyConfig.ignores.add("_drafts/**");
@@ -101,16 +91,9 @@ module.exports = function(eleventyConfig) {
     eleventyConfig.addGlobalData("site_title",  () => getDataFromConfigYaml("title"));
     eleventyConfig.addGlobalData("site_tagline",  () => getDataFromConfigYaml("tagline"));
 
-
-
     // Ordered most recent 6 posts
     eleventyConfig.addCollection("recent_posts", function(collectionApi) {
         return collectionApi.getFilteredByGlob("_posts/*.md").reverse().slice(0, 6);
-    });
-
-    // Ordered posts by date
-    eleventyConfig.addFilter("posts_by_date", function(posts) {
-        return posts.sort((a, b) => b.date - a.date);
     });
 
     eleventyConfig.addNunjucksFilter("date", function(date, format) {

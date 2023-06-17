@@ -4,7 +4,7 @@ title: Apache Server Monitor With Python And Led
 tags: [electronics, led, apache, python, parallel port]
 gallery: /galleries/2004-11-05-simple-parallel-port-led
 ---
-![Parallel Cable With LED]({{ page.gallery }}/thumb_cable-with-led.jpg){: class="img-rounded" style="float:left; padding-right: 4px"}
+![Parallel Cable With LED]({{ page.gallery }}/thumb_cable-with-led.jpg){.class="img-rounded" style="float:left; padding-right: 4px"}
 Building on the LED and cable last time, I linked this up to monitor Apache, a common webserver, which at the time of writing, I am using to host orionrobots.
 
 After building the initial [Simple Parallel Port LED](/2004/11/05/simple-parallel-port-led.html) experiment one, I set about finding an interesting use for it. The first thing that came to mind was an internet activity monitor for the OrionRobots web site.
@@ -42,7 +42,7 @@ This next section sets up a poller, and the file pipe we just opened to be the s
 
     # Use the select module to create an IO poller
     poll = select.poll()
-    
+
     # Add the pipe file to the poller
     poll.register(pipe)
 

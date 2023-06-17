@@ -5,13 +5,13 @@ tags: [arduino,arduino kit,bluetooth,orion explorer 1,robot building,robot kit,r
 ---
 How do you combine an Arduino robot with a Bluetooth module? We've built a kit based on this, and played with it in the Orionrobots lab.
 
-![](/assets/2013-11-30-bluetooth-with-the-orionrobots-explorer1-robot/03-1-IMG_4856-001_small.jpg){: style="float=left" }
+![](/assets/2013-11-30-bluetooth-with-the-orionrobots-explorer1-robot/03-1-IMG_4856-001_small.jpg){.style="float=left" }
 
 First - use the [construction guide to build the robot](/construction_guide.html) then you will be able to add the bluetooth module.
 
 Then plug it in using the following diagram:
 
-![](/assets/2013-11-30-bluetooth-with-the-orionrobots-explorer1-robot/ArduinoBluetooth_bb_large.png){: class="img-responsive"}
+![](/assets/2013-11-30-bluetooth-with-the-orionrobots-explorer1-robot/ArduinoBluetooth_bb_large.png){.class="img-responsive"}
 
 The module can easily be tucked into that top circle, or sticky tacked on to the robot - it's location isn't too important and it doesn't require any rigid mounting.
 
