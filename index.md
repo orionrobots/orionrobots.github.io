@@ -27,20 +27,20 @@ You can reach me on twitter [@orionrobots](https://twitter.com/orionrobots)
 ## Recent Posts
 
 <ul class="posts">
-  {% for post in collections.posts reversed limit: 6 %}
+  {% assign posts = collections.posts | reverse %}
+  {% for post in posts limit: 6 %}
     <li class="post media d-flex">
-      {% if post | has_thumbnail %}
-      <a class="media-left" href="{{ BASE_PATH }}{{ post.url }}"><img alt="{{ post.data.title }}" class="media-object index_post_thumb" src="{% thumbnail post %}"></a>
-      {% endif %}
-      <div class="post-content media-body">
+      <a class="media-left" href="{{ BASE_PATH }}{{ post.url }}"><img alt="{{ post.data.title }}"       class="media-object index_post_thumb"
+        {% if post | has_thumbnail %}src="{% thumbnail post %}"{% endif %}></a>
+      <div class="flex-grow-1 ms-3">
         <div class="media-heading"><span class="post_date">{{ post.date | date: '%d %b %Y' }}</span> &raquo;
           <a class="post_title" href="{{ BASE_PATH }}{{ post.url }}">{{ post.data.title }}</a>
         </div>
           <div class="clearfix post_excerpt">
-            {{ post | excerpt | strip_html }}<a href="{{ BASE_PATH }}{{ post.url }}">more...</a>
+            {{ post | excerpt | strip_html }}
+            <a href="{{ BASE_PATH }}{{ post.url }}">more...</a>
           </div>
       </div>
-        <p class="clearfix"></p>
     </li>
   {% endfor %}
 </ul>

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: IJCAI
-tags: [AI]
+tags: [ai]
 date: 2008-02-02 14:37:01
 ---
 This is a biennial conference held since 1969 exploring the diverse realm of Artificial Intelligence, and the subjects surrounding it. It is frequented by names such as [Rodney Brooks](/wiki/rodney_brooks.html "Rodney Brooks").
