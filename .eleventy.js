@@ -26,11 +26,6 @@ module.exports = function(eleventyConfig) {
         return collectionApi.getFilteredByGlob("_posts/*.md");
     });
 
-    eleventyConfig.addCollection("galleries", function(collectionApi) {
-        $collectionApi = collectionApi;
-        return collectionApi.getFilteredByGlob("galleries/**");
-    });
-
     eleventyConfig.setLiquidOptions({
         dynamicPartials: false,
     });
