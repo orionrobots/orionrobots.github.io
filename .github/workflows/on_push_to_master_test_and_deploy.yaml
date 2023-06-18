@@ -57,7 +57,7 @@ jobs:
       - name: Check if the site is up
         run: |
           curl -I -L -f https://orionrobots.co.uk/
-          curl -I -L -f https://orionrobots.co.uk/construction_guide.html 
+          curl -I -L -f https://orionrobots.co.uk/construction_guide.html
           curl -I -L -f https://orionrobots.co.uk/wiki/lego
 
   deploy_oauth_config:
@@ -108,4 +108,4 @@ jobs:
           remote_path: github-oauth2/.env.local
           remote_host: home738752777.1and1-data.host
           remote_user: ${{ secrets.ORIONROBOTS_DEPLOY_USER }}
-          remote_key: ${{ secrets.ORIONROBOTS_DEPLOY_KEY }}      
+          remote_key: ${{ secrets.ORIONROBOTS_DEPLOY_KEY }}
