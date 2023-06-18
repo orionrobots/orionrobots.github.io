@@ -1,6 +1,6 @@
 ---
 layout: page
-title: OR
+title: OR Gate
 tags: [electronics, programming, computing]
 date: 2006-04-23 00:35:43
 ---
@@ -15,3 +15,5 @@ Inputs |       | Output
 0      | 1     | 1
 1      | 0     | 1
 1      | 1     | 1
+
+![Or Gate](/galleries/or.excalidraw.png)
