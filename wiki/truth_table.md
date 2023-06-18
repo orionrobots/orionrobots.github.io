@@ -1,6 +1,6 @@
 ---
 layout: page
-tags: [electronics, programming]
+tags: [electronics, programming, logic gates]
 title: Truth Table
 ---
 A table showing the operation of a [Boolean](boolean.html) logic gate, or combination of them.

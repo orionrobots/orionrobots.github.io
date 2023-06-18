@@ -2,6 +2,7 @@
 layout: page
 title: Terms And Conditions
 date: 2012-07-14 10:34:01
+permalink: /wiki/terms_and_conditions.html
 ---
 <h1  id="Definition_of_terms">Definition of terms</h1>
 
