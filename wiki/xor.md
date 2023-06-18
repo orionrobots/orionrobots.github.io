@@ -1,7 +1,7 @@
 ---
 layout: page
 title: XOR
-tags: [electronics, computing, programming]
+tags: [electronics, computing, programming, logic gates]
 ---
 
 XOR means eXclusive Or.  It is a <a href="/wiki/boolean.html" title="Boolean">Boolean</a> operation which takes binary inputs and combines them for a single digital output.

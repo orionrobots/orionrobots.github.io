@@ -1,7 +1,7 @@
 ---
 layout: page
 title: NOT Gate
-tags: [electronics, programming, computing]
+tags: [electronics, programming, computing, logic gates]
 date: 2006-04-23 12:07:22
 ---
 The <a href="/wiki/boolean.html" title="Boolean">Boolean</a> NOT operation is a negation of its input.
