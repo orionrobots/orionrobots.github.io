@@ -2,7 +2,7 @@
 theme:
   name: orionrobots
 ---
-{% include JB/setup %}
+{% include JB/setup.liquid %}
 <!DOCTYPE html>
 <!--[if lt IE 7 ]> <html lang="en" class="no-js ie6"> <![endif]-->
 <!--[if IE 7 ]>    <html lang="en" class="no-js ie7"> <![endif]-->
@@ -10,7 +10,7 @@ theme:
 <!--[if (gt IE 9)|!(IE)]><!--> <html lang="en" class="no-js"> <!--<![endif]-->
 <head>
     <meta charset="utf-8">
-    {% include JB/analytics %}
+    {% include JB/analytics.liquid %}
     <!-- <meta http-equiv="Content-Security-Policy" content="default-src 'self' 'unsafe-inline' 'unsafe-eval'
     *.google.com *.googleapis.com *.googlesyndication.com *.bootstrapcdn.com *.gstatic.com
     *.pinterest.com *.youtube.com *.amazon-adsystem.com *.twitter.com *.google-analytics.com *.facebook.net *.facebook.com
@@ -38,7 +38,6 @@ theme:
     <meta name="author" content="{{ site.author.name }}">
 
     <script type="text/javascript" src="/dist/bundle.js"></script>
-    <link rel="stylesheet" href="/dist/style.css">
     <link href="{{ ASSET_PATH }}/css/bootstrap-style.css" rel="stylesheet" type="text/css" media="all">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 
@@ -49,7 +48,7 @@ theme:
 <body class="template">
     <div class="container">
         <!-- Header -->
-        {% include nav %}
+        {% include nav.liquid %}
 
         <!-- Content -->
         {{ content }}
