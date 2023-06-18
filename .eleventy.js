@@ -3,6 +3,7 @@ const markdownItAnchor = require("markdown-it-anchor");
 const markdownItAttrs = require("markdown-it-attrs");
 const moment = require("moment");
 const slugify = require("slugify");
+const Image = require("@11ty/eleventy-img");
 
 module.exports = function(eleventyConfig) {
     // Configure markdown parser
@@ -49,6 +50,48 @@ module.exports = function(eleventyConfig) {
         }
     });
 
+    eleventyConfig.addShortcode("image", async function(src, alt, sizes) {
+        let metadata = await Image(src, {
+            widths: [300, 600, 900, 1200, 1800, 2400],
+            formats: ["avif", "jpeg", "png"],
+            urlPath: "/assets/images/",
+            outputDir: "./_site/assets/images/"
+        });
+
+		let imageAttributes = {
+			alt,
+			sizes,
+			loading: "lazy",
+			decoding: "async",
+		};
+
+		// You bet we throw an error on a missing alt (alt="" works okay)
+		return Image.generateHTML(metadata, imageAttributes);
+	});
+
+    eleventyConfig.addShortcode("thumbnail_for_post", async function(post) {
+        const imageSrc = stripLeadingSlash(getPostThumbnail(post));
+        if (imageSrc == "assets/images/placeholder.png" || imageSrc.includes("amazon-adsystem")) {
+            return "";
+        } else {
+            console.log("Generating thumbnail for " + imageSrc);
+            const metadata = await Image(imageSrc, {
+                widths: [128, 256, 512],
+                formats: ["avif", "jpeg", "png"],
+                urlPath: "/assets/thumbnails/",
+                outputDir: "./_site/assets/thumbnails/"
+            });
+            const imageAttributes = {
+                alt: post.data.title,
+                sizes: "128, 256",
+                loading: "lazy",
+                decoding: "async",
+                class: "media-object index_post_thumb",
+            };
+            return Image.generateHTML(metadata, imageAttributes);
+        }
+    });
+
     // Defines shortcode for generating post excerpts
     eleventyConfig.addShortcode('excerpt', post => extractExcerpt(post));
     eleventyConfig.addFilter('excerpt', post => extractExcerpt(post));
@@ -57,7 +100,7 @@ module.exports = function(eleventyConfig) {
         return items.filter(item => "title" in item.data);
     });
     // Shortcode to get link to thumbnail image for a post
-    eleventyConfig.addShortcode("thumbnail", post => getPostThumbnail(post));
+    // eleventyConfig.addShortcode("thumbnail", post => getPostThumbnail(post));
     eleventyConfig.addFilter("thumb", post => getPostThumbnail(post));
     // TODO: Make a bit more efficient
     eleventyConfig.addFilter("has_thumbnail", post =>
@@ -214,4 +257,18 @@ function getPostThumbnail(post) {
             return "/assets/images/placeholder.png";
         }
     }
+}
+
+function stripLeadingSlash(path) {
+    // Check if path starts with "//" (implied https)
+    if (path.startsWith("//")) {
+        return "https:" + path;
+    }
+
+    // Strip leading slash if present
+    if (path.startsWith("/")) {
+        return path.substring(1);
+    }
+
+    return path;
 }

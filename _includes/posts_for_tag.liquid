@@ -3,10 +3,7 @@
 {% for item in itemList %}
     {% if forloop.index <= preview_count %}
       <li class="post_media d-flex">
-        {% if item | has_thumbnail %}
-          <a class="flex-shrink-0" href="{{ item.url }}"><img alt="{{ item.data.title }}"
-          class="index_post_thumb" src="{{ item | thumb }}"></a>
-        {% endif %}
+        <a class="flex-shrink-0" href="{{ item.url }}">{% thumbnail_for_post item %}</a>
         <div class="flex-grow-1 ms-3">
           <div class="mt-0"><span class="post_date">{{ item.date | date: '%d %b %Y' }}</span> &raquo;
             <a class="post_title" href="{{ BASE_PATH }}{{ item.url }}">{{ item.data.title }}</a>
