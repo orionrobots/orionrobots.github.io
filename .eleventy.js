@@ -11,10 +11,6 @@ module.exports = function(eleventyConfig) {
     markdownLib.use(markdownItAttrs);
     eleventyConfig.setLibrary("md", markdownLib);
 
-    eleventyConfig.ignores.add("README.md");
-    eleventyConfig.ignores.add("_drafts/**");
-    eleventyConfig.ignores.add("src/**");
-
     //copy through assets
     eleventyConfig.addPassthroughCopy("assets");
     eleventyConfig.addPassthroughCopy("dist");

@@ -19,3 +19,5 @@ Look at the [Truth Table](truth_table.html):
 |   0   |   1   |    1   |
 |   1   |   0   |    1   |
 |   1   |   1   |    0   |
+
+![XOR Gate](/galleries/xor.excalidraw.png)
