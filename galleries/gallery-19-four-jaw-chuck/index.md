@@ -35,4 +35,6 @@ images:
   name: Chuck1_7.JPG, src: '408-chuck1-7.JPG', thumb-src: null}
 layout: autogallery
 name: FourJawChuck
+date: 2007-01-03
+title: Lego Technic Four Jaw Chuck
 ---

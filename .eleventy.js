@@ -18,6 +18,8 @@ module.exports = function(eleventyConfig) {
     //copy through assets
     eleventyConfig.addPassthroughCopy("assets");
     eleventyConfig.addPassthroughCopy("dist");
+    eleventyConfig.addPassthroughCopy("admin");
+    eleventyConfig.addPassthroughCopy("google5458abc1104b04dd.html");
     eleventyConfig.addPassthroughCopy("galleries/**/*.{jpg,JPG,png,gif,svg}");
 
     let $collectionApi = null;
@@ -78,6 +80,29 @@ module.exports = function(eleventyConfig) {
         return JSON.stringify(value);
     });
 
+    eleventyConfig.addFilter("group_by_year", function(items) {
+        const groups = {};
+        items.forEach(item => {
+            const year = item.date.getFullYear();
+            if (!(year in groups)) {
+                groups[year] = [];
+            }
+            if (!("title" in item.data)) {
+                console.log("No title in item: " + item.inputPath);
+            }
+            groups[year].push(item);
+        });
+        // Convert this into a list, of objects: {year: 2020, items: [...]}
+        const groupList = [];
+        for (const year in groups) {
+            groupList.push({year: year, items: groups[year]});
+        }
+
+        return groupList.sort((a, b) => b.year - a.year);
+    });
+
+    eleventyConfig.addShortcode("log", (value) => console.log(value) );
+
     // Read the menu data from _config.yml and add it to the global data
     eleventyConfig.addGlobalData("menu", () => getDataFromConfigYaml("menu"));
     eleventyConfig.addGlobalData("site_title",  () => getDataFromConfigYaml("title"));
@@ -134,11 +159,10 @@ const excerptSeparator = '\n'
  * @returns {String} the excerpt.
  */
 function extractExcerpt(doc) {
-    if (!doc.hasOwnProperty('templateContent')) {
+    if (!'templateContent' in doc) {
         console.warn('Failed to extract excerpt: Document has no property `templateContent`.');
         return;
     }
-
     const content = doc.templateContent;
 
     if (content.includes(excerptSeparator)) {

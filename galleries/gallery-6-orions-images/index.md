@@ -1,4 +1,5 @@
 ---
+eleventyExcludeFromCollections: true
 description: Images I use in my Blog, and maybe elsewhere.
 images:
 - {caption: '', date: !!timestamp '2007-02-04 01:29:41', name: jimgray.gif, src: '427-jimgray.gif',

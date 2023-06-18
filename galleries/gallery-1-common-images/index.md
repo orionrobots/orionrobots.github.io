@@ -1,5 +1,6 @@
 ---
 description: Images used in Wiki or Article pages
+eleventyExcludeFromCollections: true
 images:
 - {caption: null, date: !!timestamp '2004-11-14 07:40:32', name: cybermaster-innards.jpg,
   src: '30-cybermaster-innards.jpg', thumb-src: 'thm-30-cybermaster-innards.jpg'}

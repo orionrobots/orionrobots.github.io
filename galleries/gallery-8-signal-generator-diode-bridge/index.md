@@ -1,7 +1,9 @@
 ---
-description:  Diode Bridge And Signal Generator Experiments
+description: Diode Bridge And Signal Generator Experiments
+title: Diode Bridge And Signal Generator Experiments
+date: 2005-01-25
 images:
-  - caption: How to freeform a diode rectifier bridge. There will be an artical on constructing
+  - caption: How to freeform a diode rectifier bridge. There will be an article on constructing
       this shortly - but for some this picture may be inspiration enough.
     date: Tuesday 25 of January, 2005 23:02:37 GMT
     name: bridgefreeforms4.png
@@ -32,7 +34,7 @@ images:
     name: Diodes2.jpg
     src: 262-diodes-2.jpg
     thumb-src: null
-  - caption: The two sets of diodes, seperated for assembly.
+  - caption: The two sets of diodes, separated for assembly.
     date: Monday 30 of May, 2005
     name: TwoSets.jpg
     src: 263-diodes-2-sets.jpg
@@ -116,7 +118,7 @@ images:
     thumb-src: null
   - caption: "I then added the capacitors to trim off the DC offset - and behold, a\
       \ fully rectified waveform. Exactly what I was looking for.\r\nSo this tiny little\
-      \ bridge works, and being small enough to fit inside a Lego brick, or other aparatus\
+      \ bridge works, and being small enough to fit inside a Lego brick, or other apparatus\
       \ will come in very handy."
     date: 2005-10-07 07:29:27
     name: cleanresult.jpg
@@ -160,8 +162,8 @@ images:
     name: BridgeReadyForTesting.jpg
     src: 317-bridge-ready-for-testing.jpg
     thumb-src: null
-  - caption: "Here I have used Picasa's collage to try and super impose the two waveforms\
-      \ - not to bad!\r\nI do not have a dual trace oscilloscope, so this was the only\
+  - caption: "Here I've used Picasas collage to try and super impose the two waveforms\
+      \ - not too bad!\r\nI do not have a dual trace oscilloscope, so this was the only\
       \ way to do it.\r\nI note that the calibration of the scope has changed between\
       \ the two measurements - but lets examine the results ignoring that.\r\nThere\
       \ also appears to be a DC offset on the diode outputs - not sure about that, given\
@@ -169,7 +171,7 @@ images:
       \ to the 1.2 volts or so used by the bridge itself. The fact that the peaks are\
       \ symmetrical shows that it is balanced and stable. \r\nIn fact - if there was\
       \ a DC offset on the input waveform, there would be two different sets of peaks\
-      \ - so it may merely be down to the dial on the oscilloscope. Any other explainations\
+      \ - so it may merely be down to the dial on the oscilloscope. Any other explanations\
       \ you could offer?"
     date: 2005-10-07 18:05:38
     name: SuperImposed.jpg

@@ -3,6 +3,7 @@ layout: page
 title: Orion Explorer 1 Construction Guide
 description: Building The Explorer 1 Robot
 asset_location: /assets/construction_guide
+date: 2014-01-13
 ---
 # Building the Orion Explorer 1
 
