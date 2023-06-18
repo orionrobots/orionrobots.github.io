@@ -5,10 +5,10 @@ date: 2023-01-25T10:52:56.883Z
 description: Tracebacks for error handling in circuitpython
 tags:
   - circuitpython
-  - raspberry-pi-pico
+  - raspberry pi pico
   - python
-  - error-handling
-  - robotics-at-home
+  - error handling
+  - robotics at home
 category: robot-building
 ---
 What have I currently been working on? As part of my work on [Robotics at Home with Raspberry Pi Pico](https://packt.link/5swS2) I discovered a problem in CircuitPython with the traceback module, although i was perhaps more of a misunderstanding on my part.
@@ -36,14 +36,14 @@ except Exception as exc:
 This catches the exception, and stores it in the variable `exc`. In true python style, an exception is an object that can be stored in a variable.
 
 This would be passed through format_exception, producing a string, which we then put into a small dictionary and pass into a send_json function.
- 
+
 There's still a `raise` at the end, this lets the exception bubble up. In the robot case, you want motors to stop doing something if there's a problem as carrying on could be a bad idea.
- 
+
 ## Where was the problem?
 
 CircuitPython is undergoing very active development. This is actually one of the great things about it - it's not stagnant, and watching the speed at which the Adafruit team and community are making changes and fixes to improve it is great.
 
-However, this meant that the documentation had moved ahead of the stable version. In the unstable, development version of CircuitPython the format_exception function needs only the exception parameter as shown above. Very handy. This is also what the current latest documentation shows. 
+However, this meant that the documentation had moved ahead of the stable version. In the unstable, development version of CircuitPython the format_exception function needs only the exception parameter as shown above. Very handy. This is also what the current latest documentation shows.
 
 However, the stable (released) version of CircuitPython, 7.3.x still expects 3 parameters for format_exception. So the above code will raise a TypeError.
 
@@ -53,15 +53,15 @@ There are two fixes I can use now. Each with their trade offs.
 
 ## Option 1 - Use the unstable version of CircuitPython
 
-This is easy in that my code won't need to change, I just flash the Pico with this version (8.x) and go. 
+This is easy in that my code won't need to change, I just flash the Pico with this version (8.x) and go.
 
-It may just work, and by the time this is published, unstable may be the stable release. 
+It may just work, and by the time this is published, unstable may be the stable release.
 
 However, if it is still unstable, depending on the level of changes and testing, theres a possibility that the unstable may have other new and interesting bugs for the reader to find.
 
 ## Option 2 - Use the more complex current form of format_exception
 
-This is required to stick with the 7.3.x stable Pico CircuitPython. 
+This is required to stick with the 7.3.x stable Pico CircuitPython.
 
 This would look like:
 `send_json({"exception": traceback.format_exception(exc, exc, exc.__traceback__)})`.

@@ -1,0 +1,51 @@
+{
+    "title": "Orionrobots",
+    "tagline": "Learn to build robots at home",
+    "production_url": "http://www.orionrobots.co.uk",
+    "menu": [
+        {
+            "title": "Robot Building",
+            "description": "Information on Robot Building",
+            "url": "/robot_building.html"
+        },
+        {
+            "title": "Robot news",
+            "description": "News about Robots",
+            "url": "/robot_news.html"
+        },
+        {
+            "title": "Robotics at home",
+            "description": "Start building and playing with robots",
+            "url": "/robotics_at_home.html"
+        },
+        {
+            "title": "FAQ",
+            "description": "Orionrobots frequently asked questions",
+            "url": "/faq.html"
+        },
+        {
+            "title": "Blog",
+            "description": "Blog",
+            "url": "/archive.html"
+        },
+        {
+            "title": "Tags",
+            "description": "Tags",
+            "url": "/tags"
+        },
+        {
+            "title": "About Us",
+            "description": "About Us",
+            "url": "/about_us.html"
+        }
+    ],
+    "sharing": {
+        "facebook": true,
+        "twitter": true,
+        "pinterest": true
+    },
+    "tags_path" : "/tags.html",
+    "JB": {
+        "archive_path": "/archive.html"
+    }
+}

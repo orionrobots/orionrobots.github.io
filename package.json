@@ -8,7 +8,9 @@
     "dist": "webpack --mode production -c webpack.config.js",
     "dev": "webpack --mode development -c webpack.config.js",
     "stats": "webpack -c webpack.config.js --profile --json > stats.json",
-    "stats-cli": "webpack-bundle-analyzer stats.json"
+    "stats-cli": "webpack-bundle-analyzer stats.json",
+    "11ty": "npx @11ty/eleventy",
+    "serve": "npx @11ty/eleventy --serve --quiet"
   },
   "repository": {
     "type": "git",
@@ -24,20 +26,27 @@
   "devDependencies": {
     "compression-webpack-plugin": "^10.0.0",
     "css-loader": "^6.7.3",
+    "eleventy": "^1.0.6",
     "exports-loader": "^4.0.0",
     "expose-loader": "^4.1.0",
+    "markdown-it-anchor": "^8.6.7",
+    "markdown-it-attrs": "^4.1.6",
     "mini-css-extract-plugin": "^2.7.5",
+    "moment": "^2.29.4",
     "postcss-loader": "^7.3.0",
     "sass": "^1.62.1",
     "sass-loader": "^13.2.2",
+    "slugify": "^1.6.6",
     "source-map-loader": "^4.0.1",
     "style-loader": "^3.3.2",
+    "v": "^0.3.0",
     "webpack": "^5.79.0",
     "webpack-bundle-analyzer": "^4.8.0",
     "webpack-cli": "^5.0.1"
   },
   "dependencies": {
     "bootstrap": "^5.2.3",
-    "jquery": "^3.6.4"
+    "jquery": "^3.6.4",
+    "js-yaml": "^4.1.0"
   }
 }

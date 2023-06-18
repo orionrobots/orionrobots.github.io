@@ -1,0 +1,66 @@
+{% if site.sharing.twitter or site.sharing.facebook or site.sharing.googleplus or site.sharing.pinterest %}
+
+<nav id="sharing" class="row" style="overflow:visible;">
+    {% if site.sharing.twitter %}
+    <div class="col">
+      <a class="twitter-share-button" data-count="horizontal"
+        href="https://twitter.com/intent/tweet?text={{production_url}}{{ page.url }}">
+        Tweet</a>
+
+      <!-- twitter script -->
+      <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            window.twttr = (function(d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0],
+              t = window.twttr || {};
+            if (d.getElementById(id)) return t;
+            js = d.createElement(s);
+            js.id = id;
+            js.src = "https://platform.twitter.com/widgets.js";
+            fjs.parentNode.insertBefore(js, fjs);
+
+            t._e = [];
+            t.ready = function(f) {
+              t._e.push(f);
+            };
+
+            return t;
+          }(document, "script", "twitter-wjs"));
+        });
+      </script>
+    </div>
+
+    {% endif %}
+
+    {% if site.sharing.pinterest %}
+    <div class="col">
+      <a href="//pinterest.com/pin/create/button/?url={{ shop.url }}{{ product.url }}{{ article.url }}{{ blog.url }}&description={{ product.title | strip_html | escape | replace: ' ', '%20' }}&media={{ product.featured_image }}" class="pin-it-button" count-layout="horizontal"><img border="0" src="//assets.pinterest.com/images/PinExt.png" title="Pin It" /></a>
+      <script
+        type="text/javascript"
+        async defer
+        src="//assets.pinterest.com/js/pinit.js"
+      ></script>
+    </div>
+    {% endif %}
+
+    {% if site.sharing.facebook %}
+    <div class="col">
+      <div id="fb-root"></div>
+      <div class="fb-like" data-send="false" data-layout="button_count" data-show-faces="false"></div>
+        <style>
+          .fb_iframe_widget iframe { z-index: 4000 }
+        </style>
+
+        <!-- fb like button -->
+        <div id="fb-root"></div>
+        <script defer>(function(d, s, id) {
+          var js, fjs = d.getElementsByTagName(s)[0];
+          if (d.getElementById(id)) {return;}
+          js = d.createElement(s); js.id = id;
+          js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+          fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));</script>
+    </div>
+    {% endif %}
+</nav>
+{% endif %}

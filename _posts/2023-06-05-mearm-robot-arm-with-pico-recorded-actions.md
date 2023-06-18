@@ -4,6 +4,7 @@ title: MeArm Robot Arm with Pico - Record and Playback
 date: 2023-06-05T17:45:00.000Z
 description: Record and playback actions with the MeArm Robot Arm with Pico
 tags: [robotics at home, robot building, raspberry pi pico, mearm, robot arm, robotics]
+thumbnail: https://img.youtube.com/vi/vFCvAw8L5ag/mqdefault.jpg
 ---
 We've been playing recently with a MeArm Maker robot arm. Our current experiments include a Wifi enabled Raspberry Pi Pico-W version, and using a web server running on the PicoW to record arm positions, then smoothly interpolate while playing them back to create smooth motion.
 

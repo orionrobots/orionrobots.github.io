@@ -1,0 +1,9 @@
+---
+layout: default
+title : Orionrobots Blog
+header : Post Archive
+group: navigation
+permalink: /archive.html
+---
+{% assign posts_collate = collections.all | sort: "date" | reverse %}
+{% include JB/posts_collate %}

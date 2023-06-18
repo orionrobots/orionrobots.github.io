@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Boolean
-tags: [programming, electronics]
+tags: [programming, electronics, logic gates]
 date: 2004-11-14 21:02:41
 ---
 Boolean refers to the work of [George Boole](/wiki/george_boole.html "The creator of Boolean Logic - the root of all our digital computing").

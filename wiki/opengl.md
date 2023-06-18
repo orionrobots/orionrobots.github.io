@@ -1,7 +1,7 @@
 ---
 layout: page
 title: OpenGL
-tags: [cad, computing. programming]
+tags: [cad, computing, programming]
 date: 2006-02-10 11:32:10
 ---
 OpenGL is a system designed to provide a simple, open standards based 3D Graphics layer for [CAD](/wiki/cad.html "Computer Aided Design") applications. This may also be useful in simulation, though tools like Pagoda or systems like Godot and Unity might be more appropriate.

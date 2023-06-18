@@ -1,7 +1,3 @@
----
-theme:
-  name : orionrobots
----
 /** Derived from styles for oriongreen, and radiance. **/
 
 /**
@@ -10,8 +6,9 @@ theme:
  */
 @font-face {
   font-family: 'BebasNeueRegular';
-  src: url('/assets/fonts/BebasNeue/BebasNeue-webfont.eot');
-  src: url('/assets/fonts/BebasNeue/BebasNeue-webfont.eot?iefix') format('eot'),
+  src: local('BebasNeueRegular'),
+       url('/assets/fonts/BebasNeue/BebasNeue-webfont.eot'),
+       url('/assets/fonts/BebasNeue/BebasNeue-webfont.eot?iefix') format('eot'),
        url('/assets/fonts/BebasNeue/BebasNeue-webfont.woff') format('woff'),
        url('/assets/fonts/BebasNeue/BebasNeue-webfont.ttf') format('truetype'),
        url('/assets/fonts/BebasNeue/BebasNeue-webfont.svg#webfontfvFLBU0N') format('svg');
@@ -81,8 +78,8 @@ theme:
 }
 
 .content img.index_post_thumb {
-  height: 200px;
-  width: 200px;
+  height: 128px;
+  width: 128px;
   object-fit: cover;
   max-width: none;
 }
