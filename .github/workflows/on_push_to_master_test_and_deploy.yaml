@@ -44,15 +44,7 @@ jobs:
           remote_host: home738752777.1and1-data.host
           remote_user: ${{ secrets.ORIONROBOTS_DEPLOY_USER }}
           remote_key: ${{ secrets.ORIONROBOTS_DEPLOY_KEY }}
-      - name: Copy over the htaccess file
-        uses: burnett01/rsync-deployments@5.2
-        with:
-          switches: -a
-          path: _site/htaccess
-          remote_path: public_html/.htaccess
-          remote_host: home738752777.1and1-data.host
-          remote_user: ${{ secrets.ORIONROBOTS_DEPLOY_USER }}
-          remote_key: ${{ secrets.ORIONROBOTS_DEPLOY_KEY }}
+
       # Checks
       - name: Check if the site is up
         run: |
