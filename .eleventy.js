@@ -81,14 +81,16 @@ module.exports = function(eleventyConfig) {
     eleventyConfig.addFilter("group_by_year", function(items) {
         const groups = {};
         items.forEach(item => {
-            const year = item.date.getFullYear();
-            if (!(year in groups)) {
-                groups[year] = [];
+            if ('date' in item.data) {
+                const year = item.date.getFullYear();
+                if (!(year in groups)) {
+                    groups[year] = [];
+                }
+                if (!("title" in item.data)) {
+                    console.log("No title in item: " + item.inputPath);
+                }
+                groups[year].push(item);
             }
-            if (!("title" in item.data)) {
-                console.log("No title in item: " + item.inputPath);
-            }
-            groups[year].push(item);
         });
         // Convert this into a list, of objects: {year: 2020, items: [...]}
         const groupList = [];

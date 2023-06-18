@@ -2,6 +2,7 @@
 layout: page
 tags: [electronics, microcontrollers, sensors]
 title: Analog to Digital Converter
+date: 2015-09-03
 ---
 Abbreviation for Analog to Digital Converter.
 
