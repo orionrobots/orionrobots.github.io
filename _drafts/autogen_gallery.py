@@ -1,4 +1,4 @@
-"""Auto generate the autogallery form the images in a directory"""
+"""Auto generate the autogallery from the images in a directory"""
 import pyaml
 import os
 

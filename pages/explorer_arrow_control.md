@@ -2,6 +2,8 @@
 layout: page
 title: "Orion Explorer 1 Robot | Explorer Arrow Control"
 description: "Putting an Explorer 1 robot under Arrow Key Control"
+date: 2014-01-13
+permalink: /explorer_arrow_control.html
 ---
 # Putting an Explorer 1 under Arrow Key Control
 

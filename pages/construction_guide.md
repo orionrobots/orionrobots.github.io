@@ -3,6 +3,7 @@ layout: page
 title: Orion Explorer 1 Construction Guide
 description: Building The Explorer 1 Robot
 asset_location: /assets/construction_guide
+permalink: /construction_guide.html
 date: 2014-01-13
 ---
 # Building the Orion Explorer 1
@@ -37,7 +38,6 @@ Remove all the packaging.
 * A small flat bladed screwdriver - jewellers size.
 * A computer with a USB port and internet connection.
 * 6 x AA batteries.
-
 
 ### Optional
 

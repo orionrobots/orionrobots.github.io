@@ -3,6 +3,7 @@ layout: page
 title: Orion Explorer 1 Construction Guide | Page 2
 description: Building The Explorer 1 Robot | Page 2
 asset_location: /assets/construction_guide
+permalink: /construction_guide_part2.html
 ---
 [Construction Guide | First Page](construction_guide.html)
 

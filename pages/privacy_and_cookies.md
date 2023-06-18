@@ -2,6 +2,7 @@
 layout: page
 title: Privacy and Cookies
 description: About Your Privacy and the Use Of Cookies
+permalink: /privacy_and_cookies.html
 ---
 # PRIVACY STATEMENT
 

@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Projects
+permalink: /projects.html
 ---
 # What are we working on?
 
