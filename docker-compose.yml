@@ -1,23 +1,6 @@
 version: "3.1"
 services:
   web:
-    build: .
-    ports:
-      - 4000:4000
-    volumes:
-      - .:/srv/jekyll
-    command: jekyll serve --force_polling -d /tmp/_site
-  shell:
-    build: .
-    ports:
-      - 4001:4000
-    volumes:
-      - .:/srv/jekyll
-    stdin_open: true
-    tty: true
-    entrypoint: /bin/bash
-    # command: bash
-  staging:
     build: _drafts/staging
     ports:
       - 8080:80
