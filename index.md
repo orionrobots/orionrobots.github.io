@@ -28,7 +28,7 @@ You can reach me on twitter [@orionrobots](https://twitter.com/orionrobots)
 ## Recent Posts
 
 <ul class="posts">
-  {% assign posts = collections.all | reverse %}
+  {% assign posts = collections.all | reverse | with_explicit_date %}
   {% for post in posts limit: 6 %}
     <li class="post media d-flex">
       <a class="media-left" href="{{ BASE_PATH }}{{ post.url }}"><img alt="{{ post.data.title }}"       class="media-object index_post_thumb"

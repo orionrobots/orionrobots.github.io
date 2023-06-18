@@ -5,5 +5,5 @@ header : Post Archive
 group: navigation
 permalink: /archive.html
 ---
-{% assign posts_collate = collections.all | sort: "date" | reverse %}
+{% assign posts_collate = collections.all | with_explicit_date | sort: "date" | reverse %}
 {% include JB/posts_collate %}
