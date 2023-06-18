@@ -1,5 +1,5 @@
 ---
-created: 2010-11-15 16:25:00
+date: 2010-11-15 16:25:00
 tags: [lego technic, robot news, lego, gbc, kugelbahn, dominoes, nxt, mindstorms]
 title: More amazing lego innovation
 layout: post

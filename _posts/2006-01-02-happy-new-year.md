@@ -1,5 +1,5 @@
 ---
-created: 2006-02-11 09:56:48
+date: 2006-02-11 09:56:48
 description: Happy New Year!
 tags: [london, robot news, robotics, clubs, events, lego, mindstorms]
 title: Happy New Year (2006)!

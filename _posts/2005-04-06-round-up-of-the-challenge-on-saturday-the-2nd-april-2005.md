@@ -1,5 +1,5 @@
 ---
-created: 2005-04-06 16:11:55
+date: 2005-04-06 16:11:55
 description: Round up of the Challenge on Saturday the 2nd April 2005
 tags: [east finchley robotics club, robot building, robotics, lego]
 title: Round up of the Challenge on Saturday the 2nd April 2005

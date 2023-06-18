@@ -1,5 +1,5 @@
 ---
-created: 2005-03-21 05:10:53
+date: 2005-03-21 05:10:53
 description: Review of Disney's "Robots" Movie
 tags: [robot news]
 title: Reviewing Disney's Robots Movie

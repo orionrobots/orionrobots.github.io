@@ -1,5 +1,5 @@
 ---
-created: 2013-02-27 03:57:00
+date: 2013-02-27 03:57:00
 description: Robot Combat League - Oh Wow...
 tags: [robot news, robotic entertainment, robots on tv]
 title: Robot Combat League - Oh Wow...

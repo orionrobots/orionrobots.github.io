@@ -1,5 +1,5 @@
 ---
-created: 2010-10-23 05:24:00
+date: 2010-10-23 05:24:00
 description: Chicken walker robot Halloween costumes...
 tags: [robot news, costume, halloween, chicken walker, steampunk, mecha]
 title: Chicken Walker Robot Halloween Costumes

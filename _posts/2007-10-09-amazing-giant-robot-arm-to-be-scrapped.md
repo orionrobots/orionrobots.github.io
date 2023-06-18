@@ -1,5 +1,5 @@
 ---
-created: 2007-10-09T00:24:11.000Z
+date: 2007-10-09T00:24:11.000Z
 description: Amazing giant robot arm to be scrapped
 tags:
   - robot news

@@ -1,5 +1,5 @@
 ---
-created: 2007-11-26 00:52:34
+date: 2007-11-26 00:52:34
 description: GA Simulation now supports IE
 tags: [genetic algorithms]
 title: GA Simulation now supports IE

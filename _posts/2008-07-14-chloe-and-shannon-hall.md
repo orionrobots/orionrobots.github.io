@@ -1,5 +1,5 @@
 ---
-created: 2008-07-14T16:24:03.000Z
+date: 2008-07-14T16:24:03.000Z
 description: Chloe and Shannon
 tags:
   - robot news

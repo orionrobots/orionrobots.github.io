@@ -1,5 +1,5 @@
 ---
-created: 2013-11-14 12:00:00
+date: 2013-11-14 12:00:00
 description: The Explorer Wall Avoider Kit Now On the Shop
 tags: [robotics, orion explorer 1, arduino, distance sensor, robot building, robot kit, arduino kit]
 title: The Explorer Wall Avoider Kit Now On the Shop

@@ -1,5 +1,5 @@
 ---
-created: 2008-11-28 14:36:00
+date: 2008-11-28 14:36:00
 description: clocks, clocks
 tags: [electronics, code, maker, robot news, microcontroller]
 title: Making Custom Clocks

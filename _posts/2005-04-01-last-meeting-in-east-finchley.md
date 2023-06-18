@@ -1,5 +1,5 @@
 ---
-created: 2005-04-01 05:54:54
+date: 2005-04-01 05:54:54
 description: Last Meeting in East Finchley
 tags: [east finchley robotics club, robotics, robot building]
 title: Last Meeting in East Finchley

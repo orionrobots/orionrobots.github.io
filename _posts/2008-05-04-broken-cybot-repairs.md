@@ -1,5 +1,5 @@
 ---
-created: 2008-05-04 16:24:00
+date: 2008-05-04 16:24:00
 date: '2008-05-04T12:00:00.000Z'
 description: Broken Cybot Repairs
 layout: post

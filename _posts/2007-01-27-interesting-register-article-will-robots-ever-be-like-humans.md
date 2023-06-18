@@ -1,5 +1,5 @@
 ---
-created: 2007-01-27 08:18:51
+date: 2007-01-27 08:18:51
 description: Interesting Register Article - Will Robots Ever Be Like Humans?
 tags: [robot news, technology, ai]
 title: Interesting Register Article - Will Robots Ever Be Like Humans?

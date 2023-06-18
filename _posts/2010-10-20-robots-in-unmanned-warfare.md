@@ -1,5 +1,5 @@
 ---
-created: 2010-10-20 13:08:00
+date: 2010-10-20 13:08:00
 description: Robots in unmanned warfare
 tags: [robot news, uav, unmanned, autonomous]
 title: Robots in unmanned warfare
@@ -10,4 +10,3 @@ One of the things occurring in modern robotics is that they are increasingly bei
 They may even be manned from a distance, flown or driven remotely.
 
 It is a double edged sword, as while I am no fan of killing machines, or warfare in general, if it must be done, doing it without putting people in the front line might be better. Could this develop into SkyNet? Unlikely and very improbable.
-

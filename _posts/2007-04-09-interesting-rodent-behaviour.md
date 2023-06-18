@@ -1,5 +1,5 @@
 ---
-created: 2007-04-09 12:12:37
+date: 2007-04-09 12:12:37
 description: Interesting rodent behaviour
 tags: [robot news, ai]
 title: Interesting rodent behaviour

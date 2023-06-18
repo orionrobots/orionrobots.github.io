@@ -1,5 +1,5 @@
 ---
-created: 2011-03-12 11:11:00
+date: 2011-03-12 11:11:00
 description: Awesome Lego Walker - pneumatic based!
 tags: [lego, robots, pneumatic]
 title: Awesome Lego Walker - pneumatic based!

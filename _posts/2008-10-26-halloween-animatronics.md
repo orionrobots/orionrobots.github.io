@@ -1,5 +1,5 @@
 ---
-created: 2008-10-26 13:19:44
+date: 2008-10-26 13:19:44
 description: Halloween Animatronics
 tags: [electronics, diy, instructables, robot news, animatronic, build robots at home]
 title: Halloween Animatronics

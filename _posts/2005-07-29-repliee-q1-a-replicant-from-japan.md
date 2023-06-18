@@ -1,5 +1,5 @@
 ---
-created: 2005-07-29 15:19:31
+date: 2005-07-29 15:19:31
 description: Repliee Q1 - A replicant from Japan
 tags: [robot news]
 title: Repliee Q1 - A replicant from Japan

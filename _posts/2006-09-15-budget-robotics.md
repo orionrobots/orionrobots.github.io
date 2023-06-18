@@ -1,5 +1,5 @@
 ---
-created: 2006-09-15 16:35:45
+date: 2006-09-15 16:35:45
 description: Budget Robotics
 tags: [robotics, robot building, robot news, electronics, stores, oopic]
 title: Budget Robotics

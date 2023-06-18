@@ -1,5 +1,5 @@
 ---
-created: 2005-06-06 10:23:32
+date: 2005-06-06 10:23:32
 description: More on the signal generator
 tags: [electronics, robotics tools]
 title: More on the signal generator

@@ -1,5 +1,5 @@
 ---
-created: 2006-05-28 05:14:12
+date: 2006-05-28 05:14:12
 description: Engadget on current OLED Advances
 tags: [electronics, robot news, robotics, led, oled]
 title: Engadget on current OLED Advances

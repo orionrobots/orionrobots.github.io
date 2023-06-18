@@ -1,5 +1,5 @@
 ---
-created: 2007-02-20 11:02:30
+date: 2007-02-20 11:02:30
 description: Are manned air fighters soon to be obsolete?
 tags: [uavs, robot news]
 title: Are manned air fighters soon to be obsolete?

@@ -1,5 +1,5 @@
 ---
-created: 2009-01-02 06:32:23
+date: 2009-01-02 06:32:23
 description: Happy New Year!
 tags: [computers, fuel cell, renewable, eeepc]
 title: Happy New Year!

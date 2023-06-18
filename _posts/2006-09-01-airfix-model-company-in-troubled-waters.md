@@ -1,5 +1,5 @@
 ---
-created: 2006-09-01 01:39:45
+date: 2006-09-01 01:39:45
 description: Airfix model company in troubled waters
 tags: [modelling, robot news, toys, hobbies, modding, business]
 title: Airfix model company in troubled waters

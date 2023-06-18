@@ -1,5 +1,5 @@
 ---
-created: 2008-01-28 14:58:42
+date: 2008-01-28 14:58:42
 description: Happy Birthday Lego!
 tags: [lego, afol, nxt, mindstorms]
 title: Happy Birthday Lego!

@@ -1,5 +1,5 @@
 ---
-created: 2008-11-16 08:25:00
+date: 2008-11-16 08:25:00
 description: Are Communications Between Cybot And RCX possible?
 tags: [cybot, rcx, robot, mindstorms]
 title: Communications Between Cybot And RCX

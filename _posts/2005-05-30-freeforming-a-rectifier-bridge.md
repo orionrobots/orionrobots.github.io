@@ -1,5 +1,5 @@
 ---
-created: 2005-05-30 09:03:32
+date: 2005-05-30 09:03:32
 description: Freeforming a Rectifier Bridge
 tags: [diode, electronics, waveform, oscilloscope]
 title: Freeforming a Rectifier Bridge

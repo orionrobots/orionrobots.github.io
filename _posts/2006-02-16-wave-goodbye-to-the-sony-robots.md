@@ -1,5 +1,5 @@
 ---
-created: 2006-02-16 07:03:03
+date: 2006-02-16 07:03:03
 description: Wave Goodbye to The Sony Robots
 tags: [robot news]
 title: Wave Goodbye to The Sony Robots

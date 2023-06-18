@@ -1,5 +1,5 @@
 ---
-created: 2006-04-08 07:17:45
+date: 2006-04-08 07:17:45
 description: Amazing Robot video
 tags: [robot news, robotics]
 title: Amazing Robot video

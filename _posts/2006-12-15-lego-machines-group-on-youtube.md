@@ -1,5 +1,5 @@
 ---
-created: 2006-12-15 06:21:08
+date: 2006-12-15 06:21:08
 description: Lego machines group on YouTube
 tags: [robot news, lego]
 title: Lego machines group on YouTube

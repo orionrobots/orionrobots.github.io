@@ -1,5 +1,5 @@
 ---
-created: 2005-10-08 16:39:26
+date: 2005-10-08 16:39:26
 description: More info on the Darpa Grand Challenge Result
 tags: [robot news, robotics events]
 title: More info on the Darpa Grand Challenge Result

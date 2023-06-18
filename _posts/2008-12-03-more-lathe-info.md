@@ -1,5 +1,5 @@
 ---
-created: 2008-12-03 04:35:00
+date: 2008-12-03 04:35:00
 description: More Lego Lathe Info
 tags: [lego, robotics, desktop manufacture]
 title: More Lathe Info

@@ -1,5 +1,5 @@
 ---
-created: 2005-10-08 15:08:57
+date: 2005-10-08 15:08:57
 description: Darpa Grand Challenge - And its all over
 tags: [darpa, grand challenge, robot, robots, robotics, vehicle, car, stanley, stanford university, robot news]
 title: Darpa Grand Challenge - And its all over
