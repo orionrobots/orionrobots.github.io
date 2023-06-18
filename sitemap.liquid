@@ -1,0 +1,9 @@
+---
+# Remember to set production_url in your _config.yml file!
+title : Sitemap
+permalink: /sitemap.txt
+eleventyExcludeFromCollections: true
+---
+{% for item in collections.all %}
+    {{site.production_url}}{{ item.url }}
+{% endfor %}
