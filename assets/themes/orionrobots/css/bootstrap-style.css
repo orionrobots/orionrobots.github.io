@@ -234,3 +234,8 @@ h2 {
 .site-tag a, .tag_box a {
   text-decoration: none;
 }
+
+.fa-img {
+  width:  16px;
+  height: 16px;
+}

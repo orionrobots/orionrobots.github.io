@@ -25,6 +25,7 @@
   "homepage": "https://github.com/orionrobots/orionrobots.github.io#readme",
   "devDependencies": {
     "@11ty/eleventy-img": "^3.1.0",
+    "@fortawesome/fontawesome-svg-core": "^6.4.0",
     "@vidhill/fortawesome-brands-11ty-shortcode": "^1.0.2",
     "compression-webpack-plugin": "^10.0.0",
     "css-loader": "^6.7.3",
