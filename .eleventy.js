@@ -4,6 +4,7 @@ const markdownItAttrs = require("markdown-it-attrs");
 const moment = require("moment");
 const slugify = require("slugify");
 const Image = require("@11ty/eleventy-img");
+const fs = require('fs');
 
 module.exports = function(eleventyConfig) {
     // Configure markdown parser
@@ -71,7 +72,7 @@ module.exports = function(eleventyConfig) {
 
     eleventyConfig.addShortcode("thumbnail_for_post", async function(post) {
         const imageSrc = stripLeadingSlash(getPostThumbnail(post));
-        if (imageSrc == "assets/images/placeholder.png" || imageSrc.includes("amazon-adsystem")) {
+        if (imageSrc == "assets/images/placeholder.png" || imageSrc.includes("amazon-adsystem") || !fs.existsSync(imageSrc)) {
             return "";
         } else {
             console.log("Generating thumbnail for " + imageSrc);

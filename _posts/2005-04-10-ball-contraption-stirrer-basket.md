@@ -7,7 +7,7 @@ layout: post
 image_gallery: /galleries/lego-great-ball-contraption-stirrer-basket/
 ---
 I have decided to post a number of [Lego](/wiki/lego "The best known construction toy") MOCs to my blog, so readers can see what I sometimes get up to.
-Please excuse my appalling photography.
+
 While I have been playing around with building a Ball Contraption - or more to the point, trying to coach the club kids into building some, I identified the need for a good ball hopper.
 
 If you look at these first photos - you can clearly see that with a simple hopper, Lego balls tend to catch on the bricks, and you get jams.
@@ -17,8 +17,8 @@ This was how I explained the purpose of the device to the kids at the club.
 <a href="{{ image_gallery }}target4.html"> ![]({{ image_gallery }}thumbnails/p1010010_2.jpg)</a>
 
 So I thought about building a mechanism to stir the balls
- My inspiration came from seeing the stirrers used in the belt lift components in RokenBok.
- I created the basket itself, and the actual mechanism to turn the stirrers - as seen from this underside shot.
+My inspiration came from seeing the stirrers used in the belt lift components in RokenBok.
+I created the basket itself, and the actual mechanism to turn the stirrers - as seen from this underside shot.
 
 <a href="{{ image_gallery }}target7.html">![]({{ image_gallery }}thumbnails/p1010017_2.jpg)</a>
 
