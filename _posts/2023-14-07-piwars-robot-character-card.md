@@ -7,7 +7,7 @@ date: 2023-06-14T20:51:00.000Z
 ---
 I thought it would be fun to make a specs card for the robot I am entering into Piwars 2023.
 
-![PiWars 2023 robot character card](/galleries/2023/piwars-robot-info/2023-big-ole-yellow-robot-card.png)
+{% image "galleries/2023/piwars-robot-info/2023-big-ole-yellow-robot-card.png", "PiWars 2023 robot character card", "720, 940, 1140, 1280, 2048" %}
 
 Dimensions without attachments:
 
