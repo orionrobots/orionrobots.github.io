@@ -53,7 +53,7 @@ module.exports = function(eleventyConfig) {
 
     eleventyConfig.addShortcode("image", async function(src, alt, sizes) {
         let metadata = await Image(src, {
-            widths: [300, 600, 900, 1200, 1800, 2400],
+            widths: [300, 400, 600, 900, 1200, 1800, 2400],
             formats: ["avif", "jpeg", "png"],
             urlPath: "/assets/images/",
             outputDir: "./_site/assets/images/"
@@ -70,12 +70,32 @@ module.exports = function(eleventyConfig) {
 		return Image.generateHTML(metadata, imageAttributes);
 	});
 
+    eleventyConfig.addShortcode("image_with_class", async function(src, alt, sizes, class_names) {
+        let metadata = await Image(src, {
+            widths: [300, 400, 600, 900, 1200, 1800, 2400],
+            formats: ["avif", "jpeg", "png"],
+            urlPath: "/assets/images/",
+            outputDir: "./_site/assets/images/"
+        });
+
+		let imageAttributes = {
+			alt,
+			sizes,
+            class: class_names,
+			loading: "lazy",
+			decoding: "async",
+		};
+
+		// You bet we throw an error on a missing alt (alt="" works okay)
+		return Image.generateHTML(metadata, imageAttributes);
+	});
+
     eleventyConfig.addShortcode("thumbnail_for_post", async function(post) {
         const imageSrc = stripLeadingSlash(getPostThumbnail(post));
         if (imageSrc == "assets/images/placeholder.png" || imageSrc.includes("amazon-adsystem") || !fs.existsSync(imageSrc)) {
             return "";
         } else {
-            console.log("Generating thumbnail for " + imageSrc);
+            // console.log("Generating thumbnail for " + imageSrc);
             const metadata = await Image(imageSrc, {
                 widths: [128, 256, 512],
                 formats: ["avif", "jpeg", "png"],
