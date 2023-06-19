@@ -6,12 +6,18 @@ const slugify = require("slugify");
 const Image = require("@11ty/eleventy-img");
 const fs = require('fs');
 
+const {
+    fortawesomeBrandsPlugin,
+} = require('@vidhill/fortawesome-brands-11ty-shortcode');
+
+
 module.exports = function(eleventyConfig) {
     // Configure markdown parser
     const markdownLib = markdownIt({html: true, typographer: true});
     markdownLib.use(markdownItAnchor);
     markdownLib.use(markdownItAttrs);
     eleventyConfig.setLibrary("md", markdownLib);
+    eleventyConfig.addPlugin(fortawesomeBrandsPlugin);
 
     //copy through assets
     eleventyConfig.addPassthroughCopy("assets");
