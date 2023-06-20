@@ -5,6 +5,7 @@ const moment = require("moment");
 const slugify = require("slugify");
 const Image = require("@11ty/eleventy-img");
 const fs = require('fs');
+const CleanCSS = require("clean-css");
 
 const {
     fortawesomeBrandsPlugin,
@@ -55,6 +56,10 @@ module.exports = function(eleventyConfig) {
                 return matching_posts[0].url;
             }
         }
+    });
+
+    eleventyConfig.addFilter("cssmin", function(code) {
+        return new CleanCSS({}).minify(code).styles;
     });
 
     eleventyConfig.addShortcode("image", async function(src, alt, sizes) {
