@@ -5,14 +5,14 @@ date: 2014-06-01
 layout: page
 tags: [robots, robot building]
 ---
-Stores to find robot kits, electronic boards, motors and supplies for making or building your own gadgets used to be hard to find. I've collected a list of those robotics shops I have found useful or plain fun here.
+Stores to find robot kits, electronic boards, motors and supplies for making or building your own gadgets used to be hard to find. I've collected a list of those I have found useful or plain fun here.
 
-# UK
+## UK
 
-* [Pimoroni](https://shop.pimoroni.com) sell lots of brilliant Raspberry pi kits, including robotics stuff. They are often updating, have a playful approach and some great videos. Great for kits, components and tools.  They have a load of the DFRobot and Adafruit parts too.
+* [Pimoroni](https://shop.pimoroni.com) Pimoroni make and sell awesome robots and robotic gadgets. They are often updating, have a playful approach and some great videos. Great for kits, components and tools.  They have a load of the DFRobot and Adafruit parts too.
 * [4Tronix](https://shop.4tronix.co.uk) have robots front and centre of their shop, always experimenting with robot chassis and control systems. They are the creator of [The PiConZero board](/2019/04/09/piconzero-with-learn-robotics-part1), an Orionrobots favourite for motor control. Great for Chassis, and breakout boards.
-* [Cool Components](http://coolcomponents.co.uk) have lots of electronics modules, gadgets, tools and components. While they are not always the cheapest place, they are expert at what they do and have curated a very relevant range. Especially good with Arduino shields and compatible goodies. In their range are also 3d printers and CnC machines, servo motors, RF communications boards. They are London based but do not have a walk up store - they are exclusively web based.
 * [PiHut](https://thepihut.com/) A great UK reseller of Raspberry Pi accessories, including boards, robotics components, makers stuff and micro:bit things.
+* [Cool Components](http://coolcomponents.co.uk) lots of electronics modules, tools and components. I've bought lots of neat gadgets to play and experiment with here. While they are not always the cheapest place, they are expert at what they do and have curated a very relevant range. Especially good with Arduino shields and compatible goodies. In their range are also 3d printers and CNC machines, servo motors, RF communications boards. They are London based but do not have a walk up store - they are exclusively web based.
 * [Technobots](http://www.technobotsonline.com) Technobots have a very large range of electronic and mechanical parts. This includes most microcontroller types with shields and sensors, electronics components and hardware too.
 * RS, Farnell, CpC (now a Farnell subsidiary) and Rapid Electronics are traditionally trade electronic order catalogues. They've increasingly got hobbyist electronic parts like Arduino shields and Raspberry Pi stuff, as well as most components. They have walk up trade counters, but they can often deliver next day. These are better if you know what you want down to the part number, but want to find it online, in bulk or cheaper.
 * [Robot Electronics](http://www.robot-electronics.co.uk/) I bought parts for making the EEBot here, they carry lots of controller boards and combination kits. My find was a complete drive chain - i2c based control board + motors + wheels + brackets and encoders in one kit. It meant making the EEbot was a doddle.
