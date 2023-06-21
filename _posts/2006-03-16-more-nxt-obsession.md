@@ -1,5 +1,5 @@
 ---
-created: 2006-03-16 10:18:34
+date: 2006-03-16 10:18:34
 description: More NXT Obsession
 tags: [lego, robot news, robotics, mindstorms, rcx, nxt]
 title: More NXT Obsession

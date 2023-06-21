@@ -1,12 +1,10 @@
 ---
-created: 2008-11-28 14:36:00
+date: 2008-11-28 14:36:00
 description: clocks, clocks
 tags: [electronics, code, maker, robot news, microcontroller]
 title: Making Custom Clocks
 layout: post
 ---
-{% include JB/setup %}
-
 It seems that a lot of people are trying to customise the idea of clocks recently. I've recently seen a [screen scraping train clock](https://makezine.com/2007/08/28/my-train-schedule-alarm-clock/), an incredible motorised moving clock and you only need to look around to see many people are building variants on clocks.
 
 Some crazy people, having seen the 2008 BBC TV series "Rocket Man" are making their own Orreries, clocks that models movements of planets. Another more unusual clock is [The Clock Of The Long Now](http://longnow.org/clock/) - which keeps time using only mechanical means and can keep time for 10 millennia, using a series of binary calculation mechanisms. Being as much sculpture as a timepiece, it is shining metal topped with a mini Orrery.

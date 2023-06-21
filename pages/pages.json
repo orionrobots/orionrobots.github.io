@@ -1,0 +1,3 @@
+{
+    "permalink": "pages/{{ page.fileSlug }}.html"
+}

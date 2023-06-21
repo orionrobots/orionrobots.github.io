@@ -1,6 +1,6 @@
 ---
 layout: page
-title: IO
+title: IO- Input and Output
 tags: [electronics, raspberry pi, arduino]
 date: 2006-04-19 16:05:31
 ---

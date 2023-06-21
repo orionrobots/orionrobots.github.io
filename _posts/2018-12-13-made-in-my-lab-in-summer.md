@@ -1,5 +1,5 @@
 ---
-created: 2018-12-12 22:00
+date: 2018-12-12
 tags: [robotics books, python, raspberry pi, maker, lab-gear]
 title: What did I make in my lab in the summer?
 layout: post

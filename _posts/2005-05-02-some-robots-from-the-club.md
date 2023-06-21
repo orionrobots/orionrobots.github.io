@@ -1,5 +1,5 @@
 ---
-created: 2005-05-02 08:59:49
+date: 2005-05-02 08:59:49
 description: Some robots from the club
 tags: [east finchley robotics club, robot building, robotics, lego]
 title: Some robots from the club

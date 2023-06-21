@@ -4,11 +4,11 @@ title: Maixsense A010 first impressions
 date: 2022-12-26T13:36:05.072Z
 description: Getting started with a Maixsense depth camera
 tags:
-  - robot-building
-  - learn-robotics-at-home
+  - robot building
+  - learn robotics at home
   - electronics
   - sensors
-  - range-finding
+  - range finding
 category: robot building
 ---
 The Sipeed Maixsense A010 is a 100x100 depth camera/sensor - using optical time-of-flight (TOFL) to get a picture that represents a depth field view of a room. This is a pretty exciting idea to me - it's inexpensive (less than £100), solid state - not spinning, and small.
@@ -29,7 +29,7 @@ My thought is to connect to these ports and try and send commands/get data. I'll
 
 ## Trying the Comtool
 
-Comtool had windows binaries, but is also open source at <https://github.com/sipeed/MetaSense-ComTool>. Going to try and git clone this, and see if it works on the mac. 
+Comtool had windows binaries, but is also open source at <https://github.com/sipeed/MetaSense-ComTool>. Going to try and git clone this, and see if it works on the mac.
 
 * Clone it
 * Make a python virtual env \`python3.9 -mvenv .venv\`, install requirements.

@@ -1,5 +1,5 @@
 ---
-created: 2018-12-06 10:04:30
+date: 8-12-06 10:04:30
 tags: [robotics, book, python, raspberry pi, programming]
 title: Learn Robotics Programming - The Python 3 Question
 layout: post

@@ -1,5 +1,5 @@
 ---
-created: 2018-4-10 20:04:30
+date: 2018-4-10 20:04:30
 tags: [piwars, robot, raspberry pi]
 title: PiWars 2019 Build Journal - Pi Problems With IP
 layout: post
@@ -18,10 +18,10 @@ This is usually easy enough, it takes a while, and sometimes there may be a pack
 
 ```shell
     pi@orionrobots-piwars-2019:~ $ sudo apt-get update && sudo apt-get upgrade -y
-    Get:1 http://raspbian.raspberrypi.org/raspbian stretch InRelease [15.0 kB]                                
-    Get:2 http://raspbian.raspberrypi.org/raspbian stretch/main armhf Packages [11.7 MB]                      
-    Get:3 http://raspbian.raspberrypi.org/raspbian stretch/non-free armhf Packages [95.5 kB]                  
-    0% [Connecting to archive.raspberrypi.org (2a00:1098:0:82:1000:13:0:7)]                                   
+    Get:1 http://raspbian.raspberrypi.org/raspbian stretch InRelease [15.0 kB]
+    Get:2 http://raspbian.raspberrypi.org/raspbian stretch/main armhf Packages [11.7 MB]
+    Get:3 http://raspbian.raspberrypi.org/raspbian stretch/non-free armhf Packages [95.5 kB]
+    0% [Connecting to archive.raspberrypi.org (2a00:1098:0:82:1000:13:0:7)]
     0% [Connecting to archive.raspberrypi.org (2a00:1098:0:80:1000:13:0:6)]
     0% [Connecting to archive.raspberrypi.org (2a00:1098:0:80:1000:13:0:6)]
     0% [Connecting to archive.raspberrypi.org (2a00:1098:0:80:1000:13:0:6)]^C

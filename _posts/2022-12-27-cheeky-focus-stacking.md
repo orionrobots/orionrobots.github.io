@@ -2,7 +2,7 @@
 layout: post
 title: Cheeky focus stacking
 date: 2022-12-27T13:33:46.374Z
-description: Cheeky focus stacking using GIMP
+description: How to do simple focus stacking using GIMP
 tags:
   - robot-photos
   - robot-blogging

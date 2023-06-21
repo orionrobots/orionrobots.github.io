@@ -4,6 +4,7 @@ title: 8x8 Red LED Dot Matrix Module Assembled
 tags: [arduino, electronic module, leds, solderless]
 sku: OR0016
 price: $10.00
+date: 2014-07-07
 ---
 ![](/galleries/orionrobots-kit-of-awesome-v1/mid/led_display_8x8.jpg)
 This cool module gives your robot or project a simple display to communicate back to you with. It is assembled with headers already attached so you can start using it with breadboards and Arduino controllers without reaching for a soldering iron.

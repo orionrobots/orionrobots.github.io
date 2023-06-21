@@ -4,8 +4,6 @@ description: Happy New Year for 2005!
 tags: [robots, club, lego]
 layout: post
 ---
-{% include JB/setup %}
-
 Well I certainly had a hectic Christmas, and its looking to be a busy new year.
 
 ## DEC

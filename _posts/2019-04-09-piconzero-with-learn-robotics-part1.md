@@ -1,10 +1,10 @@
 ---
-created: 2019-02-15 08:04:30
+date: 2019-02-15 08:04:30
 tags: [piwars, raspberry pi, picon zero, i2c bus, robotics books, robotics at home, learn robotics programming, robot building]
 title: Using The Picon Zero with Learn Robotics Programming - Part 1
 layout: post
 ---
-![Title image](/assets/2019-04-09-piconzero-book-part-1/IMG_20190409_213027.jpg){: class="img-responsive"}
+![Title image](/assets/2019-04-09-piconzero-book-part-1/IMG_20190409_213027.jpg){.class="img-responsive"}
 When writing the book [Learn Robotics Programming](https://amzn.to/2RZqPIy), I took the reader through choosing a motor controller, so they would be able to pick their own.
 I then made a recommendation for the Full Function Motor Hat - a motor hat available from Alibaba, eBay and Amazon from time to time.
 This hat is internationally available, but my preferred motor controller board, if you can purchase it, is the 4Tronix Picon Zero.
@@ -15,7 +15,7 @@ In the posts following today's, I will look at getting it connected to sensors i
 
 ## A bit of background
 
-![PiConZero Close Up](/assets/2019-04-09-piconzero-book-part-1/piconzero-sequence-drawio.png){: class="img-responsive"}
+![PiConZero Close Up](/assets/2019-04-09-piconzero-book-part-1/piconzero-sequence-drawio.png){.class="img-responsive"}
 
 When working with the Raspberry Pi, a hat is a board that you attach to it to extend Raspberry Pi functionality, perhaps connecting GPIO pins to external devices.
 
@@ -34,7 +34,7 @@ You should be able to following along with the section "Connecting the motors to
 
 If you are using the Raspberry Pi 3B+, along with the detailed square of insulating tape as shown in the book, I recommend using a stand-off shim packaged with the PiConZero.
 
-![Steps for Stacking The PiCon zero With The Pi](/assets/2019-04-09-piconzero-book-part-1/stacking-the-piconzero.jpg){: class="img-responsive"}
+![Steps for Stacking The PiCon zero With The Pi](/assets/2019-04-09-piconzero-book-part-1/stacking-the-piconzero.jpg){.class="img-responsive"}
 
 1. For the 3A+ you'll need the PiCon Zero, the Raspberry Pi 3A+ and some insulating tape.
    I've put a bit of tape on the USB socket, to stop the PiConZero catching it.
@@ -46,7 +46,7 @@ If you are using the Raspberry Pi 3B+, along with the detailed square of insulat
 
 You will need to then wire in the PiCon Zero as shown:
 
-![Connecting The PiCon Zero to the Raspberry Pi](/assets/2019-04-09-piconzero-book-part-1/connecting_motor_wires_to_piconzero_drawio.png){: class="img-responsive"}
+![Connecting The PiCon Zero to the Raspberry Pi](/assets/2019-04-09-piconzero-book-part-1/connecting_motor_wires_to_piconzero_drawio.png){.class="img-responsive"}
 
 ## Preparing The Pi
 
@@ -66,7 +66,7 @@ Running the command should create a subdirectory called piconzero with its sourc
 The steps for finding the motor hat are the same as the book, other than when running `i2cdetect -y 1`, the PiCon Zero is at address 22 and not 6f.
 
 ```bash
-    pi@myrobot:~ $ sudo i2cdetect -y 1 
+    pi@myrobot:~ $ sudo i2cdetect -y 1
          0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f
     00:       -- -- -- -- -- -- -- -- -- -- -- -- --
     10: -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
@@ -119,7 +119,7 @@ The same troubleshooting steps apply, with this additional one:
 If you see:
 
 ```bash
-    $ python test_motors.py 
+    $ python test_motors.py
     Traceback (most recent call last):
     File "test_motors.py", line 1, in <module>
         import piconzero as pz
@@ -129,7 +129,7 @@ You need to make sure that you have installed piconzero, as shown in Installing 
 You also need to ensure you start the code with the PYTHONPATH in front:
 
 ```bash
-    PYTHONPATH=~/piconzero 
+    PYTHONPATH=~/piconzero
 ```
 
 ### Test - spinning backwards
@@ -157,7 +157,7 @@ I put this in `pz_robot.py`:
         def __init__(self):
             pz.init()
             atexit.register(self.stop_motors)
-            
+
         def stop_motors(self):
             pz.stop()
 ```

@@ -1,0 +1,3 @@
+{% for tag in tags_list %}
+  <span><a href="/tags/{{ tag | slugify }}" class="badge text-bg-light">{{ tag }} <span class="badge text-bg-info rounded-pill">{{ collections[tag] | size }}</span></a></span>
+{% endfor %}

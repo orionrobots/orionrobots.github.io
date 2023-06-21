@@ -1,6 +1,6 @@
 ---
 layout: page
-title: UserPageorion
+title: About Danny Staple, AKA Orionr
 date: 2005-12-19 23:50:48
 ---
 I am Danny Staple, otherwise known as Orion.

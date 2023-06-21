@@ -4,9 +4,9 @@ encoding: UTF-8
 permalink: /:categories/:year/:month/:day/:title.html
 # anything underscore or . prefixed should already be excluded
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", "gemfile", "History.markdown",
-          ".idea", ".git", ".gitignore", "Thumbs.db", "site.tgz", "Dockerfile", "Vagrantfile",
+          ".idea", ".git", ".gitignore", ".github", "Thumbs.db", "site.tgz", "Dockerfile", "Vagrantfile",
           "*.log", "autogen_gallery.py", "node_modules", "package.json", "package-lock.json",
-          "webpack.config.js", "src"]
+          "webpack.config.js", "src", "_plugins"]
 # todo - shuttle things into a downloads folder for usable downloadable stuff (unless github makes more sense)
 include:
   - ads.txt
@@ -60,11 +60,6 @@ prose:
         field:
           label: "Tags"
           element: "text"
-      - name: "category"
-        field:
-          label: "Category"
-          element: "text"
-          required: false
       - name: "published"
         field:
           label: "published"
@@ -201,23 +196,18 @@ menu:
   - title: Robot news
     description: News about Robots
     url: /robot_news.html
-  -
-    title: Robotics at home
+  - title: Robotics at home
     description: Start building and playing with robots
     url: /robotics_at_home.html
-  -
-    title: FAQ
+  - title: FAQ
     description: Orionrobots frequently asked questions
     url: /faq.html
-  -
-    title: Blog
-    description: Blog
+  - title: All Items
+    description: All Items
     url: /archive.html
-  -
-    title: Tags
+  - title: Tags
     description: Tags
     url: /tags
-  -
-    title: About Us
+  - title: About Us
     description: About Us
     url: /about_us.html

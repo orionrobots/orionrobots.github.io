@@ -1,5 +1,5 @@
 ---
-created: 2006-06-28 15:24:45
+date: 2006-06-28 15:24:45
 description: Text Reading for the Blind
 tags: [robotics, visual processing, speech, innovation]
 title: Text Reading for the Blind

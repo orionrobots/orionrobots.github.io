@@ -1,12 +1,10 @@
 ---
-created: 2010-10-04 02:47:00
+date: 2010-10-04 02:47:00
 description: 3d Printers proliferate
 tags: [cnc news, 3d printing, reprap, micromanufacture, desktop manufacture, microfabrication, fabrication]
 title: 3d Printers proliferate
 layout: post
 ---
-{% include JB/setup %}
-
 The IEEE Spectrum has an article this month on 3d printers, and how they are still not quite the vision of desktop manufacture myself, and others would like them to become:
 
 [3-D Printers Proliferate](http://spectrum.ieee.org/robotics/diy/3d-printers-proliferate)

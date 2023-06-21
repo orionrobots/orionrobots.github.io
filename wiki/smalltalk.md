@@ -1,12 +1,12 @@
 ---
 layout: page
-title: Smalltalk
+title: Smalltalk programming language
 tags: [programming]
 date: 2007-01-01 15:49:59
 ---
 This is an [Object Oriented](/wiki/object_oriented.html "Object Oriented") and Dynamically Typed computer Programming Language. It has been used for [AI](/wiki/ai.html "Artificial Intelligence"), but is not common in robotics.
 
-It is actually heralded as one of the better attempts at a properly object oriented language, which compared favourably in syntax with C++ or Java, but did not go as low level as C++. It was always a little esoteric, and developed (and still has) what can only be described as a cult following. It never seems to have been taken seriously enough to be used for a business language.
+Smalltalk is sometimes seen as one of the better attempts at a properly object oriented language, which compared favourably in syntax with C++ or Java, but did not go as low level as C++. It was always a little esoteric, and developed (and still has) what can only be described as a cult following. It never seems to have been taken seriously enough to be used for a business language.
 
 From the outset it included a full GUI mouse driven system, and a rich framework which actually implemented much of the kernel and [IDE](/wiki/idetool.html "Integrated Development Environment") environment in SmallTalk code. Any of this code could be rewritten, or overridden. This means it is fairly powerful and adaptable. It is also a little slow because of this though.
 

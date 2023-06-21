@@ -1,12 +1,10 @@
 ---
-created: 2009-01-02 06:32:23
+date: 2009-01-02 06:32:23
 description: Happy New Year!
 tags: [computers, fuel cell, renewable, eeepc]
 title: Happy New Year!
 layout: post
 ---
-{% include JB/setup %}
-
 A Happy New Year to all my readers.
 
 2008 has been interesting to say the least. Here are what I see as important for OrionRobots:

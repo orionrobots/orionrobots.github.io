@@ -1,5 +1,5 @@
 ---
-created: 2007-11-30T17:01:39.000Z
+date: 2007-11-30T17:01:39.000Z
 description: Walking Bots and Investment in power
 tags:
   - mecha

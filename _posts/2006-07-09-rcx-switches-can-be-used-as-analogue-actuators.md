@@ -1,5 +1,5 @@
 ---
-created: 2006-07-09 04:15:05
+date: 2006-07-09 04:15:05
 description: RCX Switches can be used as analogue actuators
 tags: [rcx, robot building, mindstorms, robotics]
 title: RCX Switches can be used as analogue actuators

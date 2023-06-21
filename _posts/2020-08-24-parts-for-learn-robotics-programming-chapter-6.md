@@ -4,8 +4,6 @@ title: "Parts for Learn Robotics Programming Chapter 6"
 description: "Parts needed for Chapter 6 in the book"
 tags: [robotics, raspberry pi, raspberry pi projects, raspberry pi 3 projects, robot, electronics]
 ---
-{% include JB/setup %}
-
 I have been asked by some readers of my book, Learn Robotics Programming (first edition), what parts I've specifically used for chapter 6.
 I will start out by saying that the full intent of the book is that a reader learns how to find parts, including alternative ones,
 and adapt them to their robot. But I also understand that can be overwhelming for a first build.
@@ -16,7 +14,7 @@ So what parts do I use?
 
 * The Raspberry Pi 3b+.
 * The chassis kit - the model I used specifically is listed as a ["2WD Robot Smart Car Chassis"](https://amzn.to/2YLyYlp).
-    * Any 2WD platform with motors you can drive at 5-7v which is big enough will do.  
+    * Any 2WD platform with motors you can drive at 5-7v which is big enough will do.
     * Some may require you to solder on the leads.
 * [AA battery box](https://amzn.to/3gmI25X)
     * This is the 4xAA type. Cables are pre-attached, and it is the reduced space kind.

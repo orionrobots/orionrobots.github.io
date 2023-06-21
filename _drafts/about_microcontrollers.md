@@ -1,13 +1,9 @@
 ---
 layout: page
 title: About Microcontrollers
-tags: [arduino]
+tags: [arduino, microcontrollers, electronics, programming, robotics at home]
 description: About Microcontrollers
 ---
-{% macro guide_image(res, alt=None, class=None, style=None) %}
-<img {{'alt="'~alt~'"' if alt }} src="{{ media_url('images/construction_guide/'~res)}}" {{'class="'~class~'"' if class }} {{'style="'~style~'"' if style }}/>
-{% endmacro %}
-{% filter markdown -%}
 The Orion Explorer 1 robot kit came with an Arduino Microcontroller board.
 
 Just what is a microcontroller, and what can you do with it?
@@ -76,7 +72,7 @@ down instructions, into it.
 Please download and install the [Arduino software](http://www.arduino.cc/en/Main/Software).
 
 Start the Arduino software, and you'll see something like this:
-{{ guide_image("step_10_1.png") }}
+![The Arduino IDE](/assets/construction_guide/step_10_1.png)
 
 It is here that you will start typing instructions for your Arduino.
 
@@ -136,7 +132,8 @@ Leave the "loop" function alone. We can talk about the other parts later.
 Lets run this on the Arduino - hit the button highlighted in the picture to send your code to the Arduino.
 When you've sent it, which will take half a minute or so (lights will flicker on the Arduino while you are
 sending the program), that light will turn on and stay on. This is your first program!
-{{ guide_image("step_10_2.png", class="leftimg") }}
+
+![Use the play button in Arduino to run your code](/assets/construction_guide/step_10_2.png)
 
 Lets add a little more to make the light blink. We'll use what you've already seen here and in the game before.
 

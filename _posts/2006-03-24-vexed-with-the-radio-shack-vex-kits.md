@@ -1,5 +1,5 @@
 ---
-created: 2006-03-24 09:36:40
+date: 2006-03-24 09:36:40
 description: Vexed with the Radio Shack VEX kits
 tags: [robot news,robotics,electronics]
 title: Vexed with the Radio Shack VEX kits

@@ -1,5 +1,5 @@
 ---
-created: 2008-02-06T09:10:01.000Z
+date: 2008-02-06T09:10:01.000Z
 description: Magnetically Linking Robots
 tags:
   - robot news

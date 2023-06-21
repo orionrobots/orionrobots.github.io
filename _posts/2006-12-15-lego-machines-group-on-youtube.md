@@ -1,12 +1,10 @@
 ---
-created: 2006-12-15 06:21:08
+date: 2006-12-15 06:21:08
 description: Lego machines group on YouTube
 tags: [robot news, lego]
 title: Lego machines group on YouTube
 layout: post
 ---
-{% include JB/setup %}
-
 I recently came across a Lego Machines group on YouTube, which has a number of excellent creations with moving parts and all kinds of functions.
 
 ## The Lego Microwave

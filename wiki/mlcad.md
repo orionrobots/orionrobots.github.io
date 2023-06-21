@@ -1,7 +1,7 @@
 ---
 layout: page
 title: MLCad
-tags: [CAD]
+tags: [cad, lego, ldraw, lego robotics]
 date: 2005-08-28 00:44:55
 ---
 This is Mikes [Lego](/wiki/lego.html "The best known construction toy") [CAD](/wiki/cad.html "Computer Aided Design").

@@ -1,7 +1,8 @@
 ---
 layout: page
-title: XOR
-tags: [electronics, computing, programming]
+title: XOR Logic Gate
+tags: [electronics, computing, programming, logic gates]
+date: 2006-04-23 00:36:19
 ---
 
 XOR means eXclusive Or.  It is a <a href="/wiki/boolean.html" title="Boolean">Boolean</a> operation which takes binary inputs and combines them for a single digital output.
@@ -19,3 +20,5 @@ Look at the [Truth Table](truth_table.html):
 |   0   |   1   |    1   |
 |   1   |   0   |    1   |
 |   1   |   1   |    0   |
+
+![XOR Gate](/galleries/xor.excalidraw.png)

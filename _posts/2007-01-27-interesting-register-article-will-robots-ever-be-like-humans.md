@@ -1,12 +1,10 @@
 ---
-created: 2007-01-27 08:18:51
+date: 2007-01-27 08:18:51
 description: Interesting Register Article - Will Robots Ever Be Like Humans?
 tags: [robot news, technology, ai]
 title: Interesting Register Article - Will Robots Ever Be Like Humans?
 layout: post
 ---
-{% include JB/setup %}
-
 The Register is an internet publication I regularly read which discusses technology and other areas of interest from an editorial point of view. It is not always the most accurate and impartial place to read things, but it is often quite fun and interesting. I have been on a reading spree and come across a number of articles that I think are somewhat relevant in robotics.
 
 Some of the most fun ones are those based upon reader questions, which can sometimes live up to the adage of "ask a silly question, get a silly answer", but can sometimes be insightful and informative. These have all been stumbled upon.

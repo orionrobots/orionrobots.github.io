@@ -1,7 +1,7 @@
 ---
 layout: page
 title: AND Gate
-tags: [electronics, computing, programming]
+tags: [electronics, computing, programming, logic gates]
 date: 2005-09-09 14:28:43
 ---
 This is a [Boolean](/wiki/boolean.html "Boolean") operation, which gives a result of true only when its first input "AND" second input are true (in the case of a two input AND). It is used both as an electronic element and in programming.

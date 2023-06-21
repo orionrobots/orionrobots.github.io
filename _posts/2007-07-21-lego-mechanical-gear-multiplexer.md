@@ -1,12 +1,10 @@
 ---
-created: 2007-07-21 09:37:57
+date: 2007-07-21 09:37:57
 description: Lego Mechanical Gear Multiplexer
 tags: [lego technic, robot building]
 title: Lego Mechanical Gear Multiplexer
 layout: post
 ---
-{% include JB/setup %}
-
 I have just found a rather cool machine on youtube that uses two motors to choose between operating 12 (which could be more or fewer) outputs. Only one output can run at one time.
 
 It does (as the comments note) have an issue that the gears not being targeted are moved as the arm moves past, cause some kind of crosstalk between them.

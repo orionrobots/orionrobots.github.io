@@ -1,5 +1,5 @@
 ---
-created: 2008-07-14T16:24:03.000Z
+date: 2008-07-14T16:24:03.000Z
 description: Chloe and Shannon
 tags:
   - robot news
@@ -13,9 +13,6 @@ title: Chloe and Shannon
 layout: post
 todo_needs_sat: 'convert image refs, and gallery'
 ---
-
-{% include JB/setup %}
-
 ![Shannon and Chloe holding their robots Cheese Detective and Snoopy, both entries to the Junior Wall Follower event. Micromouse needs more non school Junior Wall follower entries - get building if you can!](/galleries/gallery-25-micromouse-2008/547-28062008657.jpg){:class="img-responsive"}
 
 They were the only two girls in the Micromouse 2008 competition. There is currently a disappointing tendency for robotics to be (like engineering and computing subjects in general) a very male dominated discipline. To meet two young ladies, who are not only interested, but built their own robots and competed in the challenges, is a real breath of fresh air, and proves that anyone can have fun taking part in these things.

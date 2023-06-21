@@ -1,5 +1,5 @@
 ---
-created: 2006-03-20 06:35:41
+date: 2006-03-20 06:35:41
 description: Micromouse contest at APEC 2006
 tags: [robot news, micromouse, robotics events, MIT]
 title: Micromouse contest at APEC 2006

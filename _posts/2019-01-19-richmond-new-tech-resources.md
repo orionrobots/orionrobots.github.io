@@ -1,5 +1,5 @@
 ---
-created: 2019-01-09 20:04:30
+date: 2019-01-09 20:04:30
 tags: [robotics books, python, raspberry pi, coder-dojo, makers]
 title: Info from robotics talk at Richmond New Tech
 layout: post
@@ -12,7 +12,7 @@ On Tuesday the 17th January 2019, I gave a talk at [Richmond New Technology](htt
 
 ![Frame from my talk at richmond new tech](/galleries/2019/01/19-richmond-new-tech/frame_from_talk.JPG){:class="img-responsive"}
 
-Many people at the talk had questions, and wanted further information about what I do.  
+Many people at the talk had questions, and wanted further information about what I do.
 
 Some resources, and contact information about myself, and the coder dojo's (which many people seemed interested in).
 

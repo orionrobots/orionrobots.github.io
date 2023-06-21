@@ -1,7 +1,7 @@
 ---
 layout: page
 title: NAND Gate
-tags: [electronics, programming, computing]
+tags: [electronics, programming, computing, logic gates]
 date: 2006-04-23 00:36:19
 ---
 The NAND gate or logic element is a [boolean](/wiki/boolean.html "Boolean") [Logic gate](/wiki/logic_gate.html "Devices designed to perform logical operations").

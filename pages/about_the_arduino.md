@@ -5,7 +5,7 @@ date: 2014-05-27
 tags: [electronics, robot building]
 ---
 ![Arduino Leonardo](/galleries/orion-explorer1-robot/ArduinoLeonardoFront_2_200px.jpg)
-{: style="float: left" }
+{.style="float: left" }
 The Arduino is the simplest control board to get your robot up and running. The boards we use are all fully assembled with headers and can be used in a solderless setting. We only use boards that can be programmed using a USB cable (included) and a simple bit of software that is freely available with a thriving community of hobbyists, robot builders and backyard scientists. This works on Windows, Linux and Mac.
 
 It easy to find sample code and simple diagrams so an Arduino can interact with the real world. It is great to start customizing and making your ideas come to life.

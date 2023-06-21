@@ -1,12 +1,10 @@
 ---
-created: 2005-02-23 09:47:51
+date: 2005-02-23 09:47:51
 description: East Finchley Group Stopping, Plans for next sessions, and more on Ball Contraption
 tags: [robot building, robots]
 title: East Finchley Group Stopping, Plans for next sessions, and more on Ball Contraption
 layout: post
 ---
-{% include JB/setup %}
-
 First I will kick off with a little sad news. The current East Finchley Robotics Group will not be meeting for a while after the last weekend of April.
 
 This is due to the fact that the group was hosted at my flat in East Finchley, and I will be moving to another part of London. However, there are plans that the group may later (when all the fuss of moving has died down) be held in the Green Man centre or in a more central location - however this will raise costs, and therefore subs will have to be charged. I do hope all those who took part in the group will stay in contact, continue to build and use the website for sharing their results with the community.

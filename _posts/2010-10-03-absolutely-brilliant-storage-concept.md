@@ -1,12 +1,10 @@
 ---
-created: 2010-10-03 14:07:00
+date: 2010-10-03 14:07:00
 description: Using document protectors in folders for Part Storage
 tags: [parts, storage, robot news, electronics, robotics]
 title: Absolutely brilliant storage concept
 layout: post
 ---
-{% include JB/setup %}
-
 Those who have followed me for some time may know that one of my bugbears for robotics, electronics and lego was finding an effective way to store many small components, not waste space, but have them easily retrievable.
 
 I have tried various methods, fishing tackle trays, large component racks, grip seal bags in self made boxes (which was okay), but all came with flaws or lead to trying too many slots before the required component was found.

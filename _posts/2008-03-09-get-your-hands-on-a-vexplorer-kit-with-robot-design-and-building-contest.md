@@ -1,12 +1,10 @@
 ---
-created: 2008-03-09 08:04:00
+date: 2008-03-09 08:04:00
 description: Get Your Hands On a VEXplorer kit with Robot Design and Building Contest!
 tags: [robot, robot news, vex, robot kit, contest, competition, robot building]
 title: Get Your Hands On a VEXplorer kit with Robot Design and Building Contest!
 layout: post
 ---
-{% include JB/setup %}
-
 Botmag are currently hosting a contest to design and later build innovative robots using the VEXplorer kit. The builders need to get a description of a unique or creative use for the VEXplorer kit entered into  the contest before the 24th march 2008.
 
 25 of those builders will be selected to receive a free VEXplorer kit to build their designs. They then need to make a YouTube video of their robot in action showing the innovative behaviour. The contest winner will get a grand prize of a $5000 scholarship.

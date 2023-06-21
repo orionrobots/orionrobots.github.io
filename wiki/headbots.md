@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Headbots
-tags: [robots, BEAM, hacking, Servo, microcontroller, electronics]
+tags: [robot building, beam robotics, hacking, servo, microcontroller, electronics]
 date: 2005-11-30 19:38:01
 ---
 A headbot is basically a study of sensors. In the [BEAM Robots](/wiki/beam_robots.html "Biology, Electronics, Aesthetics and Mechanics") definition, they consist of a [Servo](/wiki/servo_motor "Servo Motor") controlled head, which scans until it can find equilibrium on a given sensor condition - typically light, but it could be used with a sonar distance sensor to find which direction yields the nearest wall or similar.

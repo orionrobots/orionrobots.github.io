@@ -1,5 +1,5 @@
 ---
-created: 2005-02-25 04:23:34
+date: 2005-02-25 04:23:34
 description: A Lego Mindstorms Robot that plays the Ukulele
 tags: [robot news]
 title: Mike and Jarvis - Ukulele Playing Robot
