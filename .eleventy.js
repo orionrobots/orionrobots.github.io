@@ -6,6 +6,8 @@ const slugify = require("slugify");
 const Image = require("@11ty/eleventy-img");
 const fs = require('fs');
 const CleanCSS = require("clean-css");
+const purgeCssPlugin = require("eleventy-plugin-purgecss");
+
 
 const {
     fortawesomeBrandsPlugin,
@@ -19,6 +21,14 @@ module.exports = function(eleventyConfig) {
     markdownLib.use(markdownItAttrs);
     eleventyConfig.setLibrary("md", markdownLib);
     eleventyConfig.addPlugin(fortawesomeBrandsPlugin);
+    // For this to work, I need to split the boostrap css into a separate file in webpack config
+    eleventyConfig.addPlugin(purgeCssPlugin, {
+        // Optional: Specify the location of your PurgeCSS config
+        config: "./purgecss.config.js",
+
+        // Optional: Set quiet: true to suppress terminal output
+        quiet: false,
+    });
 
     //copy through assets
     eleventyConfig.addPassthroughCopy("assets");
