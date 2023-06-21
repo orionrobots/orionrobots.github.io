@@ -1,21 +1,30 @@
 The Schooner
 ============
-As I mentioned in a previous artical, after swappping the power supply, and CPU, the VGA fan was still quite noisy - a whine. So I decided last week to take the plunge and buy a ThermalTake Schooner device. This is a passive cooling system involving large heatsinks, copper heatpipes and an external set of cooling vanes that sit outsite the case on a heatpipe protruding from the backplane (for PCI devices) below the graphics card. 
+As I mentioned in a previous article, after swapping the power supply, and CPU, the VGA fan was still quite noisy - a whine. So I decided last week to take the plunge and buy a ThermalTake Schooner device.
+This is a passive cooling system involving large heatsinks, copper heatpipes and an external set of cooling vanes that sit outside the case on a heatpipe protruding from the backplane (for PCI devices) below the graphics card.
 
-This set me back around £20 from [http://www.thermaltech.co.uk|ThermalTech.co.uk]. Now I should have done more research here, as disaster was about to strike.
+This set me back around ï¿½20 from [http://www.thermaltech.co.uk|ThermalTech.co.uk].
+Now I should have done more research here, as disaster was about to strike.
 
-The card is advertised as having a universal clip, to fit NVidia and ATI cards. However, not mentioned on the the ThermalTech website is the fact that there are some types of NVidia card that this system is NOT designed to work with. 
+The card is advertised as having a universal clip, to fit NVidia and ATI cards.
+However, not mentioned on the the ThermalTech website is the fact that there are some types of NVidia card that this system is NOT designed to work with.
 
-NVidia card produced on the initial introduction of PCI-express were based on cores designed specifically for PCI-e. However, NVidia soon realised that the upgrade market on AGP was not going to die. So they then created a series of chips that could be used as a bus adapting bridge to allow these cores to be used on AGP cards. These are the HSI chips - the High Speed Interconnect. Among such cores was the Geforce 6600. The Schooner is not designed to work with these, and the universal clip will not fasten to them. This is mentioned on the manufacturers site, but annoyingly, not on the retailers site (ThermalTech) where I purchased it. Guess what - my card is a Geforce 6600.
+NVidia card produced on the initial introduction of PCI-express were based on cores designed specifically for PCI-e.
+However, NVidia soon realised that the upgrade market on AGP was not going to die.
+So they then created a series of chips that could be used as a bus adapting bridge to allow these cores to be used on AGP cards.
+These are the HSI chips - the High Speed Interconnect. Among such cores was the NVidia Geforce 6600. The Schooner is not designed to work with these, and the universal clip will not fasten to them.
+This is mentioned on the manufacturers site, but annoyingly, not on the retailers site (ThermalTech) where I purchased it. Guess what - my card is a Geforce 6600.
 
-The card has a diagonally placed core, with the fan and heatsink holes placed furthar apart thant the normal setup. Also, the HSI chip (a seperate core) needs its own heatsink too.
+The card has a diagonally placed core, with the fan and heatsink holes placed further apart thant the normal setup. Also, the HSI chip (a separate core) needs its own heatsink too.
 
-Now - I found this out after having removed the original cards heatsink and fan, and cleaning off all the thermal grease, then starting to follow the schooner guide, greasing up the core and placing the initial thermal block onto it. It was only when I realised the universal clip was just too small that I started reading up on the net more and uncovered the problem. Clearly - a case of not enough research, although I think ThermalTech could have kept the warning of the exception as "universal clip for nVidia and ATI" implies that this wouldnt be a problem.
+Now - I found this out after having removed the original cards heatsink and fan, and cleaning off all the thermal grease, then starting to follow the schooner guide, greasing up the core and placing the initial thermal block onto it.
+It was only when I realised the universal clip was just too small that I started reading up on the net more and uncovered the problem.
+Clearly - a case of not enough research, although I think ThermalTech could have kept the warning of the exception as "universal clip for nVidia and ATI" implies that this wouldn't be a problem.
 
 So, being me, I thought about it, slept on it, and decided to try and adapt the system instead of giving up and selling it. I will let you know how I get on later...
 
 !Links
 * [http://thermaltech.co.uk/shop/thermaltake-schooner-clg0009-cooler-p-113.html|ThermalTake Schooner CL-G0009 Vga Cooler on ThermalTech.co.uk]
-* [http://thermaltake.com/product/Cooler/VGAnCHIPnMEM/CL-G0009/cl-g0009.asp|ThermalTake Schooner -Manufacurers site]
-* Previous artical
+* [http://thermaltake.com/product/Cooler/VGAnCHIPnMEM/CL-G0009/cl-g0009.asp|ThermalTake Schooner -Manufacturers site]
+* Previous article
 * First in series
