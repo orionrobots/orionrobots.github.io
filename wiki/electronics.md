@@ -1,33 +1,36 @@
 ---
 layout: page
 title: Electronics
+tag: [electronics, robot building]
 date: 2013-05-02 20:35:48
 ---
-<a class="wiki" href="/wiki/robot_building_safety.html" title="Building robots can be dangerous - tips to help your safety">Robot Building Safety</a>
+[Robot Building Safety](/wiki/robot_building_safety.html "Building robots can be dangerous - tips to help your safety")
 
 ## Components
 
-<div style=" float: right;"><img class="img-responsive" src="/galleries/gallery-1-common-images/138-steppermotor.png"/> </div>
+<div style="float: right;">
+  <img class="img-responsive" src="/galleries/gallery-1-common-images/138-steppermotor.png">
+</div>
 
-* <a class="wiki" href="/wiki/servo_motor.html" title="A motor with built in positioning control - easily interfaced with digital systems">Servo Motor</a>
-* <a class="wiki" href="/wiki/stepper_motors.html" title="Stepper Motors">Stepper Motors</a>
-* <a class="wiki" href="/wiki/solenoid.html" title="Solenoid">Solenoid</a>
-* <a class="wiki" href="/wiki/electronic_relay.html" title="An electrically activated switch">Relay</a>
-* <a class="wiki" href="/wiki/direct_current" title="Direct Current">DC</a>
-* <a class="wiki" href="/wiki/alternating_current" title="Alternating Current">AC</a>
-* <a class="wiki" href="/wiki/diode_bridge.html" title="Diode Bridge">Diode Bridge</a>
-* <a class="wiki" href="/wiki/diode.html" title="Diode">Diode</a>
-* <a class="wiki" href="/wiki/resistor.html" title="Resistor">Resistor</a>
-* <a class="wiki" href="/wiki/led.html" title="Light Emitting Diode">LED</a>
-* <a class="wiki" href="/wiki/ic.html" title="Integrated Circuits">IC</a>
-* <a class="wiki" href="/wiki/transistor.html" title="Transistor">Transistor</a>
-* [Microcontroller](/wiki/microcontroller)
+- [Servo Motor](/wiki/servo_motor.html "A motor with built in positioning control - easily interfaced with digital systems")
+- [Stepper Motors](/wiki/stepper_motors.html "Stepper Motors")
+- [Solenoid](/wiki/solenoid.html "Solenoid")
+- [Relay](/wiki/electronic_relay.html "An electrically activated switch")
+- [DC](/wiki/direct_current "Direct Current")
+- [AC](/wiki/alternating_current "Alternating Current")
+- [Diode Bridge](/wiki/diode_bridge.html "Diode Bridge")
+- [Diode](/wiki/diode.html "Diode")
+- [Resistor](/wiki/resistor.html "Resistor")
+- [LED](/wiki/led.html "Light Emitting Diode")
+- [IC](/wiki/ic.html "Integrated Circuits")
+- [Transistor](/wiki/transistor.html "Transistor")
+- [Microcontroller](/wiki/microcontroller.html)
 
-<h1 id="Techniques">Techniques</h1>
+## Techniques
 
-* <a class="wiki" href="/wiki/breadboard.html" title="breadboard">breadboard</a>
-* <a class="wiki" href="/wiki/smt.html" title="Surface Mount Technology">SMT</a>
-* <a class="wiki" href="/wiki/pcb.html" title="Printed Circuit Board">PCB</a>
-* <a class="wiki" href="/wiki/soldering.html" title="The standard method of attaching connecting wires and components to a board">Soldering</a>
-* perfboard
-* stripboard
+- [breadboard](/wiki/breadboard.html "breadboard")
+- [SMT](/wiki/smt.html "Surface Mount Technology")
+- [PCB](/wiki/pcb.html "Printed Circuit Board")
+- [Soldering](/wiki/soldering.html "The standard method of attaching connecting wires and components to a board")
+- perfboard
+- stripboard

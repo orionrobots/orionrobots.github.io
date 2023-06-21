@@ -3,9 +3,9 @@ title: A supercap used as a 9v rechargeable battery
 layout: post
 tags: [electronics, power, robots, gadgets, hacks]
 ---
-A supercap, is essentially a large, and powerful capacitor.
+A supercap is essentially a large, and powerful capacitor.
 
-One clever fellow at hackaday has worked out how to turn one of these powerful capacitors into a rechargeable nine volt battery - perfect for use in robotics.
+One clever fellow at Hackaday has worked out how to turn one of these powerful capacitors into a rechargeable nine volt battery - perfect for use in robotics.
 
 The best thing about the hack - It actually fits into a 9v battery slot - now that's very cool. Clearly, as the design gets absorbed into the community and refined, we may actually see some slipstreamed development in this area.
 
@@ -15,6 +15,6 @@ It carries few of the warnings I normally give on using rechargeable batteries w
 
 You can then think of doing weight savings - shaving down to a smaller cap for a lightweight short run robot, or a heavier version for a larger bot. This hack has great potential.
 
-Please ensure you understand <a href="/wiki/robot_building_safety.html">robot building safety</a> and the full instructions before attempting this.
+Please ensure you understand [robot building safety](/wiki/robot_building_safety.html) and the full instructions before attempting this.
 
-<a href="http://hackaday.com/entry/1234000383070996/">SuperCap 9v Battery - Hackaday</a>
+[SuperCap 9v Battery - Hackaday](https://hackaday.com/2005/12/06/supercap-9v-battery/)

@@ -1,23 +1,21 @@
 ---
-created: 2007-01-27 08:18:51
+date: 2007-01-27 08:18:51
 description: Interesting Register Article - Will Robots Ever Be Like Humans?
-tags: [robots, technology, ai]
+tags: [robot news, technology, ai]
 title: Interesting Register Article - Will Robots Ever Be Like Humans?
 layout: post
 ---
-{% include JB/setup %}
-
 The Register is an internet publication I regularly read which discusses technology and other areas of interest from an editorial point of view. It is not always the most accurate and impartial place to read things, but it is often quite fun and interesting. I have been on a reading spree and come across a number of articles that I think are somewhat relevant in robotics.
 
 Some of the most fun ones are those based upon reader questions, which can sometimes live up to the adage of "ask a silly question, get a silly answer", but can sometimes be insightful and informative. These have all been stumbled upon.
 
-# Will Robots Ever Be Like Humans?
+## Will Robots Ever Be Like Humans?
 
 The [article](http://www.theregister.co.uk/2006/12/23/the_odd_body_robots/) is interesting because it actually cites a number of sources. The main gist of the answer is not so much about the [AI](/wiki/ai "Artificial Intelligence") development but more the actual physical body structure. I would suspect that having human like dexterity and suppleness may actually be closer than having human like intelligence.
 
 Effectively and adaptively controlling so many actuators may require a vaster intelligence and [servo motor](/wiki/servo_motor "A motor with built in positioning control - easily interfaced with digital systems") control than artificial intelligence currently offers, however, much like the [Honda](/wiki/honda "Honda") [Asimo](/wiki/asimo "Asimo") in the current adverts, it could be preprogrammed with a few very lifelike activities.
 
-# Is an artificial eye close to reality?
+## Is an artificial eye close to reality?
 
 [The Register - Is an artificial eye close to reality?](http://www.theregister.co.uk/2006/11/24/the_odd_body_artificial_eye/)
 
@@ -31,7 +29,7 @@ Another question answered in this article is if colours can be detected by touch
 
 The Register have cited a reference to a lady who believes she can do this. Of course, it is very likely that most people who claim this are little more than elaborate (and not always so elaborate) hoaxes.
 
-# 20 Questions
+## 20 Questions
 
 [http://www.20q.net/](http://www.20q.net/)
 
@@ -41,17 +39,17 @@ It is actually fairly astute, and can guess most things within 20 questions. It 
 
 It is also a bit of good harmless fun.
 
-# Mechanical Turk
+## Mechanical Turk
 
 [http://mturk.com](http://mturk.com)
 
 This is a rather odd and amazing concept. It is the idea of offering an [API](/wiki/api "Acronym: Application Programming Interface") that allows you to set tasks that an [AI](/wiki/ai "Artificial Intelligence") is not yet capable of, like identifying objects in photographs, and for those who perform such tasks, an opportunity for a quick mini-earner. It is not a lot, normally measured in cents, and for non-US people it earns Amazon vouchers.
 
-The system is currently a Beta, run by Amazon. I have played with it, and think it is a concept that could be very handy for tagging and creating a lot of metainformation, thus creating the "semantic web". Link concepts like this with the 20q engine - and you have a powerful expert system involving people as well as machines.
+The system is currently a Beta, run by Amazon. I have played with it, and think it is a concept that could be very handy for tagging and creating a lot of meta information, thus creating the "semantic web". Link concepts like this with the 20q engine - and you have a powerful expert system involving people as well as machines.
 
 It is actually named after an infamous 18th century chess machine, which appeared to play a really good game, but turned out to be a man curled up, a great hoax. This was known as the Turk, and by facilitating tasks that people would like a computer to be able to do, MTurk creates an automated way of linking up capable humans with tasks required by others or even by machines.
 
-# Links
+## Links
 
 * [The Register - Will robots ever become just like humans?](http://www.theregister.co.uk/2006/12/23/the_odd_body_robots/)
 * [Is an artificial eye close to reality?](http://www.theregister.co.uk/2006/11/24/the_odd_body_artificial_eye/)

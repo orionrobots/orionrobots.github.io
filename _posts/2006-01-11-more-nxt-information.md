@@ -1,16 +1,15 @@
 ---
-created: 2006-01-11 10:30:58
+date: 2006-01-11 10:30:58
 description: More NXT Information
-tags: [lego,nxt,mindstorms,robot]
+tags: [lego,nxt,robot building, mindstorms,robot news]
 title: More NXT Information
 layout: post
 ---
-I have just come across a [Lego](/wiki/lego "The best known construction toy") Mindstorms FAQ which details a great more information about the NXT and what it will be able to do, including burning questions about using it as a USB host - which Lego say not.
+I have just come across a [Lego](/wiki/lego.html "The best known construction toy") Mindstorms FAQ which details a great more information about the NXT and what it will be able to do, including burning questions about using it as a USB host - which Lego say not.
 
 <a href="https://www.lego.com/en-gb/mindstorms">Lego FAQ on Mindstorms NXT</a>
 
-The device is purely a USB device, and cannot be configured as host. That is not to say that the clever community don't come up with some hack to get more out of its [USB](/wiki/usb "Universal Serial Bus") connector, who knows. One suggestion is a simple host board, which requests a particular file from one of its devices, and then uses that as a set of instructions to act upon.
-
+The device is purely a USB device, and cannot be configured as host. That is not to say that the clever community don't come up with some hack to get more out of its [USB](/wiki/usb.html "Universal Serial Bus") connector, who knows. One suggestion is a simple host board, which requests a particular file from one of its devices, and then uses that as a set of instructions to act upon.
 
 <iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=GB&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=orionrobots-21&marketplace=amazon&region=GB&placement=B00BMKLVJ6&asins=B00BMKLVJ6&linkId=790d5f97e58d0e79ecb2fbe1b24a3108&show_border=true&link_opens_in_new_window=true"></iframe>
 

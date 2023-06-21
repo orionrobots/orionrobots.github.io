@@ -1,21 +1,21 @@
 ---
 layout: page
 title: Modding Robots
+tags: [robot building, robots]
 date: 2013-05-02 14:17:40
 ---
-<p>Modding is a term shortening modification.
-</p>
-<p>A number of robot, toy and other products may be modified in ways that are great for building robots.  Here are a few of them - each with their own modding tips:
-</p>
-<ul><li> <a class="wiki" href="/wiki/rcx.html" title="The Lego RCX">Lego RCX</a>
-</li><li> <a class="wiki" href="/wiki/lego_manas.html" title="Remote control Lego robot-like kits">Lego Manas</a>
-</li><li> <a class="wiki" href="/wiki/lego.html" title="The best known construction toy">Lego</a> <a class="wiki" href="/wiki/cybermaster.html" title="CyberMaster">CyberMaster</a>
-</li><li> <a class="wiki" href="/wiki/cybot.html" title="Cybot">Cybot</a>
-</li><li> Tekno Robot Dog
-</li><li> i-Cybie Robot Dog
-</li><li> <a class="wiki" href="/wiki/furby.html" title="Furby">Furby</a>
-</li><li> <a class="wiki" href="/wiki/palm_computer.html" title="Palm Computer">Palm Computer</a>
-</li><li> <a class="wiki" href="/wiki/pocket_pc.html" title="Pocket PC">Pocket PC</a>
-</li><li> <a class="wiki" href="/wiki/aibo.html" title="The SONY Robot Dog">Sony AIBO</a>
-</li><li> <a class="wiki" href="/wiki/pino_toy.html" title="The Pino Toy robot is a fairly large toy">Pino Toy</a> - Not to be confused (although similar to) <a class="wiki" href="/wiki/pino.html" title="The Pino Project aka Open Pino is intended as a standard platform for humanoid robotics.">Open Pino</a>
-</li></ul>
+Modding is a term abbreviating modification.
+
+A number of robot, toy and other products may be modified in ways that are great for building robots. Here are a few of them - each with their own modding tips:
+
+- [Lego RCX](/wiki/rcx.html "The Lego RCX")
+- [Lego Manas](/wiki/lego_manas.html "Remote control Lego robot-like kits")
+- [Lego](/wiki/lego.html "The best known construction toy") [CyberMaster](/wiki/cybermaster.html "CyberMaster")
+- [Cybot](/wiki/cybot.html "Cybot")
+- Tekno Robot Dog
+- i-Cybie Robot Dog
+- [Furby](/wiki/furby.html "Furby")
+- [Palm Computer](/wiki/palm_computer.html "Palm Computer")
+- [Pocket PC](/wiki/pocket_pc.html "Pocket PC")
+- [Sony AIBO](/wiki/aibo.html "The SONY Robot Dog")
+- [Pino Toy](/wiki/pino_toy.html "The Pino Toy robot is a fairly large toy") - Not to be confused (although similar to) [Open Pino](/wiki/pino.html "The Pino Project aka Open Pino is intended as a standard platform for humanoid robotics.")

@@ -1,7 +1,7 @@
 ---
-created: 2007-08-26 09:08:19
+date: 2007-08-26 09:08:19
 description: Robot searches for trapped miners
-tags: [robots, search, rescue]
+tags: [robot news, search, rescue]
 title: Robot searches for trapped miners
 layout: post
 ---
@@ -15,8 +15,8 @@ While this has come a little late for the actual rescue needed, the companies ex
 
 The company building the robot, Inuktun are based in Nanaimo. The company specialise in remote control robots used for tunnel and pipe inspection. They were also involved in robots used for search and rescue operations in the aftermath of September the 11th 2001.
 
-# Links
+## Links
 
 * [Robot-Assisted Rescuers Seek Answers in Wake of Utah Mine Collapse](https://www.scientificamerican.com/article/robot-assisted-rescuers-s/)
 * [Video of Rescue Robot at Crandall Canyon Utah Mine](https://www.youtube.com/watch?v=yiAi3mO4EhI)
-* <a href="http://www.inuktun.com" >Inuktun Site</a>
+* [Onspec Robotics](https://robotics.eddyfi.com/en/products) - formerly Inuktun.

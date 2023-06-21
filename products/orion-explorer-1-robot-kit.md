@@ -1,9 +1,7 @@
 ---
 title: Orion Explorer 1 Robot Kit
 layout: product
-sku: OR0001
 google_category: Electronics > Circuit Components > Circuit Prototyping
-price: £69.99
 tags: ["4wd car", "arduino", "arduino robot kit", "atmel", "avr", "breadboard", "explorer 1", "microcontroller", "robot", "robot car", "robot chassis", "solderless"]
 vendor: orionrobots
 gallery:
@@ -28,15 +26,20 @@ gallery:
             src: l298-motor-controller-side.jpg
             alt: Dual motor control board
 ---
-# This is no longer for sale
+## This is no longer for sale
+
+The kit is no longer for sale, this information hre is for reference for owners of the Explorer 1 robot.
 
 ## No Soldering, Easy To Build
 
-This robot has everything you'll need to build your own floor roving robot quickly. This can be the starting point for a Science project, an experimentation platform, a personal robot or just a place for you to start playing around with robotics. You build it, you can extend it, and there is no soldering, drilling or sawing to do so. If you are in the Uk mainland - postage is Free. The example code, usage guide and tutorials are also FREE.
+<iframe width="560" height="315" src="https://www.youtube.com/embed/nMInkh0OysI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="">
+</iframe>
+
+This robot has everything you'll need to build your own floor roving robot quickly. This can be the starting point for a Science project, an experimentation platform, a personal robot or just a place for you to start playing around with robotics. You build it, you can extend it, and there is no soldering, drilling or sawing to do so. The example code, usage guide and tutorials are also FREE.
 
 ## What was in it?
 
-Included in the kit was [4 wheel drive robot platform](more-about-the-orion-explorer-1-chassis.html), an [Arduino](/pages/about_the_arduino.html) (Uno or Leonardo) compatible board, an [H-Bridge Motor controller](/products/dual-motor-2a-control-board.html) to connect the Arduino to the motors, the [required cables](/products/jump-cables-40-pin-male-female.html) with plenty to spare for extension/experimentation later, a [battery box](/products/battery-box-6xaa.html) and stuff to assemble it all.
+Included in the kit was [4 wheel drive robot platform](/products/more-about-the-orion-explorer-1-chassis.html), an [Arduino](/pages/about_the_arduino.html) (Uno or Leonardo) compatible board, an [H-Bridge Motor controller](/products/dual-motor-2a-control-board.html) to connect the Arduino to the motors, the [required cables](/products/jump-cables-40-pin-male-female.html) with plenty to spare for extension/experimentation later, a [battery box](/products/battery-box-6xaa.html) and stuff to assemble it all.
 
 ## What can I do with it?
 
@@ -50,7 +53,7 @@ This robot requires NO SOLDERING, drilling, sawing or hot-glue and only a little
 
 A full online owners [construction guide](/construction_guide.html) is provided for step-by-step instructions to build your robot and put it through its first moves.
 
-## Kit Contents:
+## Kit Contents
 
 * A 4 wheel drive chassis with 2 levels.
 * 4 geared motors.
@@ -68,7 +71,7 @@ Batteries are not included.
 Overall specifications:
 
 * Drive: 4 wheels each driven by a single motor (connect 2 to each H bridge output) with tired wheels.
-* Predrilled platforms to mount everything on.
+* Pre-drilled platforms to mount everything on.
 * L298N H Bridge controller to drive the system.
 * 6xAA (9v) Battery Box to supply the system. Batteries not included.
 * Microcontroller based on the popular Atmega 328 16Mhz with the Arduino bootloader and the Arduino Uno configuration with plenty of digital and analogue IO to spare after connecting it up. 100% compatible with Arduino shields.
@@ -76,5 +79,3 @@ Overall specifications:
 * Interfaces: Fully programmable via a USB interface, 8 spare digital IO pins, 6 analogue input pins, capability to connect to I2C, SPI and TWI devices.
 * Self assembly with a small flathead screwdriver required.
 * NO SOLDERING REQUIRED.
-
-<p style="text-align: center;"><iframe src="http://www.youtube.com/embed/nMInkh0OysI?rel=0" height="169" width="300"></iframe></p>

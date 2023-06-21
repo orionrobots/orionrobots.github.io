@@ -1,22 +1,20 @@
 ---
 layout: page
-title: NAND
+title: NAND Gate
+tags: [electronics, programming, computing, logic gates]
 date: 2006-04-23 00:36:19
 ---
-A <a class="wiki" href="/wiki/boolean.html" title="Boolean">boolean</a> <a class="wiki" href="/wiki/logic_gate.html" title="Devices designed to perform logical operations">Logic gate</a>.
+The NAND gate or logic element is a [boolean](/wiki/boolean.html "Boolean") [Logic gate](/wiki/logic_gate.html "Devices designed to perform logical operations").
 
-This is a negated <a class="wiki" href="/wiki/and.html" title="AND">AND</a> or <a class="wiki" href="/wiki/not.html" title="NOT">NOT</a> AND gate, and is actually very simple to create with simple electronics. It is basically the AND gate with an inverted output.
-The first chip in the 7400 series, the 7400 itself, is indeed a quad NAND gate.
+It is a negated [AND](/wiki/and.html "AND") or [NOT](/wiki/not.html "NOT") AND gate, and is actually very simple to create with simple electronics. It is basically the AND gate with an inverted output. The first chip in the 7400 series, the 7400 itself, is indeed a quad NAND gate.
 
 Truth Table
 
-<table class="normal" id="fancytable_1"> 
-<thead> <tr> <th>a</th> <th>b</th> <th>c(output</th> </tr> </thead>
-<tbody> 
-<tr><td>0</td><td>0</td><td>1</td></tr>
-<tr><td>0</td><td>1</td><td>1</td></tr>
-<tr><td>1</td><td>0</td><td>1</td></tr>
-<tr><td>1</td><td>1</td><td>0</td></tr>
-</tbody> </table>
+a  | b  | c (output)
+-- | -- | ----------
+0  | 0  | 1
+0  | 1  | 1
+1  | 0  | 1
+1  | 1  | 0
 
-<img class="img-responsive" src="/galleries/gallery-1-common-images/127-rcxnandgates.JPG">
+![74HC10D Nand Gates on the Lego RCX](/galleries/gallery-1-common-images/127-rcxnandgates.JPG)

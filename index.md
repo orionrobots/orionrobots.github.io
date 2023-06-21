@@ -1,62 +1,51 @@
 ---
-layout: bs_default
+layout: index
 title: Welcome to Orionrobots
+pin_links:
+  - image: /galleries/2023/Robotics-at-Home-with-Raspberry-Pi-Pico-banner-2048.png
+    thumb: /galleries/2023/Robotics-at-Home-with-Raspberry-Pi-Pico-banner-2048.png
+    description: Learn to build and Program Robots using Robotics at Home with Raspberry Pi Pico
+    link: https://www.amazon.com/Robotics-Home-Raspberry-Pi-Pico/dp/1492079941
+tags: [robot building, robotics at home, making robots]
+eleventyImport:
+  collections: ["all"]
+eleventyExcludeFromCollections: true
 ---
-At Orionrobots, Danny builds robots, electronics, gadgets and stuff that moves. I get kids like my regular helpers Jonathan and Helena to join in, and occasionally others too.
-I aim to make some of the cool robotics things easy for anyone to build, and push the boundaries of what is easy. Oh and just to have lots of fun doing it too...
+At Orionrobots, Danny and his team build robots, electronics, gadgets and stuff that moves.
+We aim to make robots easy for anyone to build, and push the boundaries of what is easy. Oh and just to have lots of fun doing it too!
 
-You can support my work at [Orionrobots on Patreon](https://patreon.com/orionrobots) where there are also previews, polls and other perks for supporters.
+<a href="https://packt.link/5swS2" title="Learn to build and Program Robots using Robotics at Home with Raspberry Pi Pico">{% image ,"galleries/2023/Robotics-at-Home-with-Raspberry-Pi-Pico-banner-2048.png", "Learn to build and Program Robots using Robotics at Home with Raspberry Pi Pico", "720, 940, 1140, 1280, 2048" %}</a>
+
+Discuss [robot building on Our Discord Server](https://discord.gg/sMnPxFhAe2)!
 
 You can see my latest videos on [Orionrobots Youtube](https://youtube.com/orionrobots).
 
 You can reach me on twitter [@orionrobots](https://twitter.com/orionrobots)
 
-# Learn Robotics Programming - With my new book!
-
-Danny Staple has just completed writing a book on making and programming a robot using a Raspberry Pi and Python. 
-This robot has many sensors, including the camera which it uses to sense coloured objects and drive towards them, or faces which it
-can point its "head" at. You can drive the robot with your phone, make it avoid walls, follow lines and make
-a mycroft based voice assistant to control the robot by speaking.
-
-<div style="margin-left: auto; margin-right: auto;">
-<a href="https://www.packtpub.com/hardware-and-creative/learn-robotics-programming"><img src="https://d255esdrn735hr.cloudfront.net/sites/default/files/imagecache/ppv4_main_book_cover/B11057.png"><br/>
-Learn Robotics Programming | PACKT Books</a>
-</div>
-
-<img src="/galleries/2018-11-25-robotics-book-info/2-robots-beer.jpg" alt="Two Robots Made Using The Book" class="img-responsive">
-
-# Recent Posts
+## Recent Posts
 
 <ul class="posts">
-  {% for post in site.posts %}{% if forloop.index < 4 %}
-        <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a><p class="clearfix">{{ post.excerpt }}<a href="{{ BASE_PATH }}{{ post.url }}">more...</a></p><p class="clearfix"></p></li>
-  {% endif %}{% endfor %}
+  {% assign posts = collections.all | reverse | with_explicit_date %}
+  {% for post in posts limit: 6 %}
+    <li class="post media d-flex">
+      <a class="media-left" href="{{ BASE_PATH }}{{ post.url }}">{% thumbnail_for_post post %}</a>
+      <div class="flex-grow-1 ms-3">
+        <div class="media-heading"><span class="post_date">{{ post.date | date: '%d %b %Y' }}</span> &raquo;
+          <a class="post_title" href="{{ BASE_PATH }}{{ post.url }}">{{ post.data.title }}</a>
+        </div>
+          <div class="clearfix post_excerpt">
+            {{ post | excerpt | strip_html }}
+            <a href="{{ BASE_PATH }}{{ post.url }}">more...</a>
+          </div>
+      </div>
+    </li>
+  {% endfor %}
 </ul>
 
-{% assign image="/assets/construction_guide/RobotExplodedStep0.png" %}
-{% assign thumb="/assets/construction_guide/RobotExplodedStep0.png" %}
-{% assign description="Building The Orionrobots Explorer Robot kit" %}
-{% assign link_url="/construction_guide.html" %}
-{% include pin_image_link.html %}
-{% assign image='/galleries/2013-11-14-explorer-wall-avoider-kit/close_up_of_sensors_in_breadboard.jpg' %}
-{% assign thumb='/galleries/2013-11-14-explorer-wall-avoider-kit/close_up_of_sensors_in_breadboard.jpg' %}
-{% assign description='How to build a wall avoiding robot' %}
-{% assign link_url='/2013/11/14/explorer-wall-avoider-kit' %}
-{% include pin_image_link.html %}
-{% assign youtube_pinterest="true" %}
-{% assign description="Adding a robot to a raspberry pi" %}
-{% assign youtube_id="U8458u-jilI" %}
-{% include youtube_link %}
-{% assign image="/assets/2013-05-23-building-a-bump-sensor/13-IMG_4874.CR2_compact.jpg" %}
-{% assign thumb="/assets/2013-05-23-building-a-bump-sensor/13-IMG_4874.CR2_compact.jpg" %}
-{% assign description="Building a bump sensor for the Explorer Robot Kits" %}
-{% assign link_url="/2013/05/23/building-a-bump-sensor" %}
-{% include pin_image_link.html %}
-
-# Events
+## Events
 
 [Robot Events](wiki/robot_events.html)
 
-# Policies
+## Policies
 
 <a href="/wiki/terms_and_conditions.html" title="Terms And Conditions">Terms And Conditions</a>

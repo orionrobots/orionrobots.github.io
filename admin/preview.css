@@ -1,0 +1,10 @@
+.frame-content img {
+    display: inline-block;
+    height: auto;
+    max-width: 100%;
+}
+
+.frame-content {
+    font-family: "Roboto","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+}

@@ -1,14 +1,14 @@
 ---
 layout: page
 title: BattleBot
-date: 2004-11-15 14:39:58
+tags: [robot wars]
+date: 2004-11-15T14:39:58.000Z
 ---
-<p>A robot designed to participate in destructive robot games like <a class="wiki" href="/wiki/robot_wars.html" title="The british robot smashing TV series.">Robot Wars</a>.
-</p>
-<p>Some people object to these being called robots as they posses little or no autonomy and intelligence.
-</p>
-<p>OrionRobots will be building some of these at the <a class="wiki" href="/wiki/east_finchley_robotics_club.html" title="East Finchley Robotics Club">East Finchley Robotics Club</a>
-</p>
-<p><a class="wiki" href="/wiki/building_a_battle_robot.html" title="Building A Battle Robot">Building A Battle Robot</a>
-<br/><a class="wiki" href="/wiki/holding_school_robot_battle_events.html" title="Holding School Robot Battle Events">Holding School Robot Battle Events</a>
-</p>
+A robot designed to participate in destructive robot games like [Robot Wars](/wiki/robot_wars.html "The british robot smashing TV series.").
+
+Some people object to these being called robots as they posses little or no autonomy and intelligence.
+
+OrionRobots will be building some of these at the [East Finchley Robotics Club](/wiki/east_finchley_robotics_club.html "East Finchley Robotics Club")
+
+[Building A Battle Robot](/wiki/building_a_battle_robot.html "Building A Battle Robot")<br>
+[Holding School Robot Battle Events](/wiki/holding_school_robot_battle_events.html "Holding School Robot Battle Events")

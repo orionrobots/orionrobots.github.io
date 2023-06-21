@@ -1,19 +1,23 @@
 ---
 layout: page
 title: Automaton
+tags: [robots]
 date: 2013-05-18 17:02:35
 ---
-<p>An Automaton is a kind of robotic toy. They tend to exhibit fairly complex and anthropomorphic (human or animal like) behaviour.
-</p>
-<p>They can range from <a class="wiki" href="/wiki/leonardo_da_vincis_robot.html" title="The Humanoid Robot Designed By Leonardo Da Vinci">Leonardo Da Vincis Robot</a> and Vaucansons Duck to victorian showboxes (a few of which can be found in the London waxworks), where a penny would see a small and spectacular piece of mechanical theatre.
-</p>
-<p>It could even be argued that more modern toys like the Tekno Robot Dog and <a class="wiki" href="/wiki/furby.html" title="Furby">Furby</a> are automatons - although by replacing extremely intricate and complex mechanisms with <a class="wiki" href="/wiki/pic.html" title="PIC">PICs</a> and multiple motors kind of takes some of the magic away.
-</p>
-<p>There have been automatons to handwrite.
-</p>
-<p>Al Jazari created a handwashing automaton.
-</p>
-<p>Because of the varied and ever growing nature of their complexity - the line between automaton, robot toy and robot and beginning to blur more.
-</p>
-<p><a  href="http://www.nyu.edu/pages/linguistics/courses/v610051/gelmanr/" rel="external" target="_blank">Automata Gallery</a>
-</p>
+An Automaton is a kind of robotic or animated toy. They tend to exhibit fairly complex and anthropomorphic (human or animal like) behaviour.
+
+They can range from [Leonardo Da Vincis Robot](/wiki/leonardo_da_vincis_robot.html "The Humanoid Robot Designed By Leonardo Da Vinci") and Vaucanson's Duck to victorian shoeboxes (a few of which can be found in the London waxworks), where a penny would see a small and spectacular piece of mechanical theatre.
+
+It could even be argued that more modern toys like the Tekno Robot Dog and [Furby](/wiki/furby.html "Furby") are automatons which replace intricate and complex mechanisms with [microcontrollers](/wiki/microcontroller.html).
+
+There have been automatons to handwrite.
+
+Al-Jazari created a handwashing automaton.
+
+<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=GB&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=orionrobots-21&language=en_GB&marketplace=amazon&region=GB&placement=B01NBMX9GD&asins=B01NBMX9GD&linkId=8bd2b98904fd1fa8ee86267af772afc6&show_border=true&link_opens_in_new_window=true"></iframe>
+
+## Vaucanson's Duck
+
+Vaucanson was a french inventor, who created an duck automaton capable of eating and appearing to digest food. It excreted too - although there may have been a concealed pouch for this.
+
+Vaucanson also created one of the worlds first precision metal lathes using screws to adjust cutting depth for the tools, and factory machine automation for textiles.

@@ -11,4 +11,3 @@ I've so far learned that it will retain commands between power cycles, that you 
 These modules connect via simple serial, and process up to 5 voice commands on board - delivering simple numbers via the serial connection when the commands are heard. It can store 3 banks of these - giving 15, but only one bank of 5 is active at once.
 
 The code so far - <https://github.com/orionrobots/RecordVoiceModule>
-

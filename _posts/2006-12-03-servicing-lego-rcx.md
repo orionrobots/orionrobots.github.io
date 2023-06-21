@@ -1,17 +1,17 @@
 ---
-title: Servicing The Lego Minstorms RCX 1.0
-tags: [lego, lugnet, mindstorms, rcx]
+title: Servicing The Lego Mindstorms RCX 1.0
+tags: [lego, electronics, lugnet, mindstorms, rcx]
 layout: post
 ---
 I have recently found a page on servicing the Lego RCX 1.0 supplied with the Lego Mindstorms RIS kit.
 
-Bob Fay, a regular poster to <a href="http://news.lugnet.com/robotics">lugnet.robotics</a> has created a short guide to opening up and cleaning the brick, with a few warnings that "this procedure is at your own risk".
+Bob Fay, a regular poster to [lugnet.robotics](http://news.lugnet.com/robotics) has created a short guide to opening up and cleaning the brick, with a few warnings that "this procedure is at your own risk".
 
 However - if you are finding that your RCX buttons or IR port are not responding properly, and could be a bit grubby after a few years of (mis)use, then this would be a worthwhile project. Its probably worth setting aside a full Sunday afternoon with no distractions to do the job properly.
 
 His guide is designed primarily for the RCX brick which came with an external power supply plug, but may also be usable to some degree with the others.
 
-# Tools
+## Tools
 
 You will require the following tools:
 
@@ -27,7 +27,7 @@ Update 2014 - Since the original has gone - including the images, here are the s
 
 Warning - review all of this, not all the images were cached. If you are able to source the missing images (they aren't in the wayback machine, I tried), then please let me know.
 
-# Note
+## Note
 
 This information relates to the RCX 1.0 with external power plug.
 The purpose of this service is to repair lost connections to the battery
@@ -36,23 +36,23 @@ The following is a delicate procedure and must be performed with care.
 
 USE OF THIS PROCEDURE IS AT YOUR OWN RISK
 
-# step 1
+## step 1
 
-![](/assets/2006-12-03-servicing-lego-rcx/StartFinish.jpg)
+![Removing the grey cover](/assets/2006-12-03-servicing-lego-rcx/StartFinish.jpg)
 
 Remove the Dark Grey cover and the batteries.
 
 PRESS THE RED ON/OFF BUTTON TO DISCHARGE THE BACK UP POWER.
 
-# step 2
+## step 2
 
-![](/assets/2006-12-03-servicing-lego-rcx/batterybox.jpg)
+![Screws to remove in the battery box](/assets/2006-12-03-servicing-lego-rcx/batterybox.jpg)
 
 Remove 4 Philips head screws.
 
 WARNING! DO NOT try to remove the battery compartment now.
 
-# step 3
+## step 3
 
 image missing
 
@@ -63,56 +63,56 @@ The lens will come loose.
 
 Place the RCX on a flat surface hold the top edge of the pc board and lift the front edge of the control panel upward.
 
-![](/assets/2006-12-03-servicing-lego-rcx/thumbnail.jpg)
+![Using thumbnail to remove IR lens](/assets/2006-12-03-servicing-lego-rcx/thumbnail.jpg)
 
-# step 4 - Separating the control panel from the pc board/battery case assembly.
+## step 4 - Separating the control panel from the pc board/battery case assembly
 
-![](/assets/2006-12-03-servicing-lego-rcx/boardview2.jpg)
+![View of the RCX's board](/assets/2006-12-03-servicing-lego-rcx/boardview2.jpg)
 
 Note the arrows point to the spring contacts that connect the pc board to the battery power.
 Also note the spring contacts that connect the pc board to the control panel.
 
-# Step 5
+## Step 5
 
 image missing
 
 Note: The upper arrow is pointing to typical lugs to connect the pc board to the control panel. The lower arrow is pointing to a typical conductive segment in the control buttons.
 
-# Step 6
+## Step 6
 
-![](/assets/2006-12-03-servicing-lego-rcx/boardview1.jpg)
+![Lego RCX Main board. Arrows Indicate battery contacts](/assets/2006-12-03-servicing-lego-rcx/boardview1.jpg)
 
 Carefully move the right end of the pc board upward just far enough to clear the small battery contact at the bottom right arrow.
 
 The board can now be tilted to remove it from under the large battery contact at the left upper arrow.
 
-# Step 7
+## Step 7
 
-![](/assets/2006-12-03-servicing-lego-rcx/boardalone.jpg)
+![Lego Mindstroms RCX Mainboard - with surfaces to clean marked](/assets/2006-12-03-servicing-lego-rcx/boardalone.jpg)
 
 Gently clean the above marked surfaces with a Q-tip moistened with TV tuner cleaner or video head cleaner. Also clean the conductive surface shown in the control panel buttons.
 
-# Step 8
+## Step 8
 
-![](/assets/2006-12-03-servicing-lego-rcx/batteryconnections.jpg)
+![Lego RCX Battery Connection Pads](/assets/2006-12-03-servicing-lego-rcx/batteryconnections.jpg)
 
 Gently clean under the two battery connections.
 
-![](/assets/2006-12-03-servicing-lego-rcx/springs.jpg)
+![Lego RCX Battery Contact Springs](/assets/2006-12-03-servicing-lego-rcx/springs.jpg)
 
 These connections should be bent slightly downward to ensure a tight connection with the pc board circuit.
 
-# Step 9
+## Step 9
 
 image missing
 
-Be sure the pc board standoffs are in their proper positions.
+Be sure the pc board stand-offs are in their proper positions.
 
 Reinstall the pc board under the large contact first and then under the small contact. Check to see that there is sufficient spring tension to make a good contact with the pc board circuit.
 
-# Step 10
+## Step 10
 
-![](/assets/2006-12-03-servicing-lego-rcx/reassy2.jpg)
+![Lego Mindstorms RCX Reassembly](/assets/2006-12-03-servicing-lego-rcx/reassy2.jpg)
 
 Place the control panel face down and install the pc board assembly starting at the external power end gently pressing the assembly into the control panel.
 
@@ -120,4 +120,3 @@ Install the lens for the IR diodes.
 Replace the four screws and batteries and the battery cover.
 Hit the start button to confirm operation.
 Load the firmware and check.
-

@@ -1,18 +1,18 @@
 ---
-created: 2013-11-14 12:00:00
+date: 2013-11-14 12:00:00
 description: The Explorer Wall Avoider Kit Now On the Shop
 tags: [robotics, orion explorer 1, arduino, distance sensor, robot building, robot kit, arduino kit]
 title: The Explorer Wall Avoider Kit Now On the Shop
 layout: post
 ---
-{% include JB/setup %}
+2020: This kit is no longer available.
 
-The Orionrobots shop now has a new product bundle. [The Orion Explorer 1 Wall Avoider kit](/products/orion-explorer-1-complete-wall-avoider-kit.html).
+The Orionrobots shop now has a new product bundle. The Orion Explorer 1 Wall Avoider kit.
 
 The kit takes the Explorer 1 kit, and adds sensors and a breadboard - making it more expandable and fun. Robots are far more interesting when you add sensors to them!
 
-* <a href="#first-steps-with-thekit">Building it</a>.
-* <a href="#programming-the-robot---how-to-make-it-avoidwalls">Programming it</a>.
+* [Building it](#first-steps-with-the-kit)
+* [Programming it](#programming-the-robot---how-to-make-it-avoid-walls)
 
 So you can use this kit to make wall avoiding behaviour - making a robot turn away from any object too close. It uses ultrasonic sensors, which in practice tend to work with hard surfaces better than fabrics or plush surfaces. Things which scatter and diffuse sound will be hard, things that reflect it will work fantastically.
 
@@ -23,16 +23,18 @@ Here is a video of me experimenting before making it into this kit:
 <div class="embed-responsive embed-responsive-16by9">
 <iframe src="//www.youtube.com/embed/ElXsXAcqrUE" allowfullscreen="allowfullscreen" frameborder="0" height="315" width="560"></iframe>
 </div>
+
 Orion Explorer 1 Robot Avoiding Walls with distance sensor
 
-# First Steps with the kit
+## First Steps with the kit
 
 The basic avoiding behaviour with two sensors out front is this: drive forwards, read each sensor, and if either is closer than some threshold, then turn away from the closer one, then carry on driving forwards.
-# Building it
+
+## Building it
 
 Start with the <a href="/construction_guide.html">Explorer 1 construction guide</a>. Attach the breadboard to the robot - you can pull off the backing paper and use the self adhesive strip, or save it for later and just use some sticky tak. Stick it to the top - near the front, in front of the cable hole.
 
-![](/galleries/2013-11-14-explorer-wall-avoider-kit/close_up_of_breadboard_connections_grande.jpeg){: class="img-responsive"}
+![Close Up Of Wall Avoider breadboard Connections](/galleries/2013-11-14-explorer-wall-avoider-kit/close_up_of_breadboard_connections_grande.jpeg){.class="img-responsive"}
 
 The green lines over this image show the connected pins. Note that the main part of the board has a different orientation from the top and bottom rails. All breadboards (including the two types we have) follow the same basic idea. The sensors will plug into the front end of the pins on the vertical rails.
 
@@ -41,15 +43,15 @@ Then look at the pin labels printed on the back of the sensors. Each will have:
 * Gnd - Device ground
 * Trig - Trigger a ping
 * Echo - Detects the echo response.
-* <span class="caps">VCC</span> - Device power
+* VCC - Device power
 
 Plug a sensor into the board at each side - with the ultrasonic transducers (big round metal bits) facing forwards.
 
-![Close Up Image of sensors plugged into breadboard](/galleries/2013-11-14-explorer-wall-avoider-kit/close_up_of_sensors_in_breadboard.jpg){: class="img-responsive"}
+![Close Up Image of sensors plugged into breadboard](/galleries/2013-11-14-explorer-wall-avoider-kit/close_up_of_sensors_in_breadboard.jpg){.class="img-responsive"}
 
 If you inspect the breadboard - on some versions there are some coloured rails top and bottom - each having one red, and one blue. Convention is that the red one is used for power, and the blue for ground.
 
-Using the male-to-male cables, Wire the <span class="caps">VCC</span> from each sensor to the red rail at the back of the breadboard. Remember the pins are connected along the green lines in the diagram above. Then wire the Gnd from each sensor to the blue rail at the back of the board.
+Using the male-to-male cables, Wire the VCC from each sensor to the red rail at the back of the breadboard. Remember the pins are connected along the green lines in the diagram above. Then wire the Gnd from each sensor to the blue rail at the back of the board.
 
 For the left sensor:
 
@@ -65,9 +67,9 @@ Finally connect a wire from the blue rail to a <span class="caps">GND</span> pin
 
 The diagram below shows the connections. The sensors are at the top - with their pins labelled. The connections in blue are those you’ve already made in constructing the robot. Those in green connect the Arduino to the breadboard and those in yellow are on the breadboard only.
 
-![](/galleries/2013-11-14-explorer-wall-avoider-kit/wall_avoider_diagram_bb_48b11cd2-300a-4bf2-981e-360bc8ea6513_large.png){: class="img-responsive"}
+![Explorer 1 Arduino Robot Wall Avoider Circuit Diagram](/galleries/2013-11-14-explorer-wall-avoider-kit/wall_avoider_diagram_bb_48b11cd2-300a-4bf2-981e-360bc8ea6513_large.png){.class="img-responsive"}
 
-# Programming the robot - How to make it avoid walls
+## Programming the robot - How to make it avoid walls
 
 First lets look at the high level code:
 
@@ -97,7 +99,7 @@ On top of this, a high level turtle library can be used to control the motors a 
 
 <script src="https://gist.github.com/dannystaple/7586031.js?file=TurtleMotors.h_second"></script>
 
-The full source for that part is at <a href="https://gist.github.com/dannystaple/7586031#file-turtlemotors-h">https://gist.github.com/dannystaple/7586031#file-turtlemotors-h</a>
+The full source for that part is at <https://gist.github.com/dannystaple/7586031#file-turtlemotors-h>.
 
 Finally we’ll need a distance sensor library. The comments in the code explain its operation. In short it triggers a ping, then times the return pulse, and uses the speed of sound to get the length. Put the following in a new tab called “DistanceSensor.h”:
 

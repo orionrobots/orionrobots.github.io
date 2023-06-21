@@ -1,7 +1,7 @@
 ---
-created: 2005-03-17 08:48:40
+date: 2005-03-17 08:48:40
 description: This weeks meeting
-tags: [east finchley robotics club, lego, gbc]
+tags: [east finchley robotics club, robots, robot building]
 title: This weeks meeting
 layout: post
 ---
@@ -16,6 +16,8 @@ I am looking for at least one of the teams to finish a module - and the first te
 * Low Piece count - While sometimes big is beautiful, we also believe in keeping it simple - if there are two models with similar characteristics, the one with fewer pieces will get additional points
 * Low weight - I will be weighing the entries - this really is a similar criteria to piece count, but now the kind of pieces are important too.
 
-The teams have already been allocated, and we have one group using the [Lego RCX](/wiki/rcx "The Lego RCX") and another using the Lego Cybermaster. There may also be a [SpyBotics](/wiki/spybotics "Lego Programmable robot kits") based module. This seems overkill - as a team may get the whole thing working on a single motor and battery box- which is great.
+The teams have already been allocated, and we have one group using the [Lego RCX](/wiki/rcx.html "The Lego RCX") and another using the Lego Cybermaster. There may also be a [SpyBotics](/wiki/spybotics.html "Lego Programmable robot kits") based module. This seems overkill - as a team may get the whole thing working on a single motor and battery box- which is great.
 
-So, I hope to see you all there - have fun, and keep it simple. Remember the modules we saw with Steve Hassenplugs team, and Philo's modules - this is what we are aiming for.
+So, I hope to see you all there - have fun, and keep it simple. Remember the modules we saw with Steve Hassenplug's team, and Philo's modules - this is what we are aiming for.
+
+<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=GB&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=orionrobots-21&language=en_GB&marketplace=amazon&region=GB&placement=B082WD5YV9&asins=B082WD5YV9&linkId=beb70788ccaaea84a7820473034e4cd9&show_border=true&link_opens_in_new_window=true"></iframe>

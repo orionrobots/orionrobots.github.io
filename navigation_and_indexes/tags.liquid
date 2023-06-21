@@ -1,0 +1,13 @@
+---
+layout: page
+pagination:
+  data: collections.tagList
+  size: 1
+  alias: tag
+title: Tag
+permalink: "/tags/{{ tag }}/"
+eleventyExcludeFromCollections: true
+preview_count: 4
+---
+<h1>{{ tag }}</h1>
+{% include posts_for_tag %}

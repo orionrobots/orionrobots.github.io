@@ -1,6 +1,6 @@
 ---
 layout: post
-tags: [electronics, microbit, code, programming]
+tags: [electronics, microbit, leds, python, micropython, simple code for kids, code, programming]
 title: Microbit Merry Christmas!
 ---
 I found today, on Christmas jumper day, I was caught short and couldn't find a good jumper.
@@ -43,3 +43,5 @@ Here is the code - it's pretty simple:
 ```
 
 This was somewhat inspired by [@Richard Hayler](https://twitter.com/rdhayler) and his hat at the [@Ham Coder Dojo](https://twitter.com/CoderDojoHam).
+
+<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=GB&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=orionrobots-21&language=en_GB&marketplace=amazon&region=GB&placement=B08TR1QMR1&asins=B08TR1QMR1&linkId=e5b58fab275f345c7472b4de44233481&show_border=true&link_opens_in_new_window=true"></iframe>

@@ -1,9 +1,9 @@
 ---
 title: i Cybie Robot Dog
 layout: post
-tags: [toys, robots]
+tags: [robotic toys]
 ---
-![](/galleries/2004-11-14-i-cybie-robot-dog/i-cybie-dog.jpg){: style="float: left; margin-right: 4px" }
+![i Cybie Robot Dog](/galleries/2004-11-14-i-cybie-robot-dog/i-cybie-dog.jpg){.style="float: left; margin-right: 4px" }
 The i-Cybie was an intelligent robot dog toy, more advanced than many of the other cheap models like [The Tekno Robot Dog](/wiki/tekno_robot_dog.html). Although not as sophisticated as the [AIBO](/wiki/aibo.html). It has multiple
 motors for each leg, and much more intelligent behaviours than some other toy bots.
 
@@ -19,7 +19,7 @@ It may be possible that this can be programmed without a great deal of modificat
 
 Version 2 introduced more natural movement, and extended battery life with better recharge times. The Version 1 NiCad battery was replaced with NiMh (Metal Hydride) battery.
 
-# Related
+## Related
 
 * [MegaByte Robot Dog](/2004/11/14/megabyte-robot-dog.html)
 * [Sony AIBO](/wiki/aibo.html)
@@ -27,8 +27,8 @@ Version 2 introduced more natural movement, and extended battery life with bette
 * [Furby](/wiki/furby.html)
 * [Robotic Gadgets And Toys](/2005/08/02/robotic-toys-and-gadgets.html)
 
-# Links
+## Links
 
-* <http://www.i-cybie.com/English/Efaq.html> - Answers to common questions
-* <http://www.i-cybie.com> - You are able to download a manual here
 * [I-Cybie Robot Dog - Virtual Pet.com](http://virtualpet.com/vp/farm/icybie/icybie.htm)
+
+<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=GB&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=orionrobots-21&language=en_GB&marketplace=amazon&region=GB&placement=B08HRP66YD&asins=B08HRP66YD&linkId=431432826f5b82164ed10379f5b7a763&show_border=true&link_opens_in_new_window=true"></iframe>

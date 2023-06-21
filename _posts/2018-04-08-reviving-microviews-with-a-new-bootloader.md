@@ -1,19 +1,15 @@
 ---
-created: 2018-4-8 17:42:52
+date: 2018-4-8 17:42:52
 tags: [sparkfun, microview, electronics, arduino]
 title: Reviving Sparkfun Microviews With a New Bootloader
 layout: post
 ---
-<script>
-$(function() {
-    $('img').addClass('img-responsive');
-});
-</script>
+
 ## Introduction and Background
 
 I've started planning on using a pair of Sparkfun Microviews on my PiWars 2018 robot. However, given I have only 2 functioning ones, I felt it was time to revive the other two. These have been sat in demo only state since 2014.
 
-To give some background, the Microview is an Arduino style chip paired up with an OLED display, which I backed as a kickstarter way back. The original ones arrived, and displayed demos, but couldn't be flashed. Unfortunately, in the batch I received, they'd been mass flashed with the demo without the bootloader. Sparkfun and the Microview team were very apologetic, and sent a fresh pair. However, they also made it clear the old ones could be kept and revived. I have to respect them for this - and thank them for a great device and a great way to make good their mistakes!
+To give some background, the Microview is an Arduino style chip paired up with an OLED display, which I backed as a Kickstarter way back. The original ones arrived, and displayed demos, but couldn't be flashed. Unfortunately, in the batch I received, they'd been mass flashed with the demo without the bootloader. Sparkfun and the Microview team were very apologetic, and sent a fresh pair. However, they also made it clear the old ones could be kept and revived. I have to respect them for this - and thank them for a great device and a great way to make good their mistakes!
 
 I started with finding a good guide from Make Magazine  - [How To Fix Your Broken Microview](https://makezine.com/2014/08/21/how-to-fix-your-broken-microview/). So how did it go for me?
 
@@ -21,7 +17,7 @@ I started with finding a good guide from Make Magazine  - [How To Fix Your Broke
 
 ## Getting it Apart
 
-So last night, I used a metal spudger to pry off the glass - this was a little fiddly, but definitely acheivable. The next part was soldering on some contacts for the programming pins. Annoyingly - I could not find that nice reel of 28 AWG wire - I've not seen it since we moved, which has been a common problem for a while.
+So last night, I used a metal spudger to pry off the glass - this was a little fiddly, but definitely achievable. The next part was soldering on some contacts for the programming pins. Annoyingly - I could not find that nice reel of 28 AWG wire - I've not seen it since we moved, which has been a common problem for a while.
 
 So I used some slightly thicker single core bell wire - which was tiny, but is stiff wire, not flexible.
 This was a really tricky job, and I definitely damaged each of the cases with the soldering iron in a minor way. It was frustrating, the cables kept falling out - and although done, I'm still worried that there is little mechanical strength in their connections.
@@ -37,7 +33,7 @@ On Sunday I then started wiring up the things I'll need:
 
 My first step was to put the code on the Arduino. That was easy - although I had to comment in the "use old wiring" for it.
 
-I then prewired the breadboard, and wired the Arduino connections in.
+I then pre-wired the breadboard, and wired the Arduino connections in.
 
 ![Arduino Set up to flash](/galleries/2018-04-08-reviving-microbit/arduino-set-up-to-flash.jpg)
 
@@ -64,9 +60,9 @@ In this - I brought up the three variables I'm most likely to change to the top,
 
 Ouch - result is that avrdude didn't recognise the devices.
 
-
+```dos
     C:\Users\danny\Downloads>avrdude -C "C:\Program Files (x86)\Arduino\hardware\tools\avr\etc\avrdude.conf" -P COM10 -b 19200 -c avrisp -p m328p -v -e -U flash:w:\Users\Danny\Downloads\MicroView_combined_8-19-14.hex -U lock:w:0x0F:m
-    
+
     avrdude: Version 6.3, compiled on Dec 16 2016 at 13:33:19
             Copyright (c) 2000-2005 Brian Dean, http://www.bdmicro.com/
             Copyright (c) 2007-2014 Joerg Wunsch
@@ -95,6 +91,7 @@ Ouch - result is that avrdude didn't recognise the devices.
 
 
     avrdude done.  Thank you.
+```
 
 So I tried again, holding the connection in. This was still not happening.
 And then during this second attempt... a pad broke off. 😔

@@ -1,21 +1,19 @@
 ---
-created: 2007-04-09 12:12:37
+date: 2007-04-09 12:12:37
 description: Interesting rodent behaviour
-tags: [robots, ai]
+tags: [robot news, ai]
 title: Interesting rodent behaviour
 layout: post
 ---
-{% include JB/setup %}
-
 The animals around us are clearly, much like us, and the robots we aspire to build, some collection of complex sensors, actuators and behaviours. These form the inspiration for our building, and sometimes certain recent science reveals surprising things that may help in building robots with such behaviours. As such, I am always interested in these behaviours, as well as animals with extra-ordinary senses or limbs. One of the great things about robotics is that you get to be multi-disciplinary like that.
 
 Had [Da Vinci](/wiki/leonardo_da_vinci "Leonardo Da Vinci") not thought about animal anatomy and behaviour, perhaps he would not have designed his flying machines, tanks and robot (seriously - this is not a joke, read [Leonardo Da Vincis Robot](/wiki/leonardo_da_vincis_robot "The Humanoid Robot Designed By Leonardo Da Vinci") ).
 
-More recent uses must be the [BEAM](/wiki/beam_robots "Biology, Electronics, Aesthetics and Mechanics") technology used by [Mark Tilden](/wiki/mark_tilden "Mark Tilden") creator of the Wow-wee [Robosapien](/wiki/robosapien "RoboSapien").
+More recent uses must be the [BEAM](/wiki/beam_robots "Biology, Electronics, Aesthetics and Mechanics") technology used by [Mark Tilden](/wiki/mark_tilden "Mark Tilden") creator of the Wow-wee [Robosapien](/wiki/robosapien.html "RoboSapien").
 
 Anyway, I recently spotted a couple of recent studies on animal behaviour which were most definitely interesting, and may also push their estimated IQ's up a notch or two. I will probably post other articles on them later.
 
-# Rats Cognitive ability better than once thought
+## Rats Cognitive ability better than once thought
 
 Rats showed a few interesting abilities in a recent study at The University of Georgia, published in the Current Biology journal earlier this year.
 
@@ -27,11 +25,10 @@ The results showed an overall correlation that rats may have actually understood
 
 One big question is if this is conscious behaviour. It is certainly learning and use of acquired knowledge.
 
-# Links
+## Links
 
-* [Rats are smarter than we think - The Telegraph](http://www.telegraph.co.uk/connected/main.jhtml?xml=/connected/2007/03/12/ecrats12.xml)
 * [Rats Capable Of Reflecting On Mental Processes](https://www.sciencedaily.com/releases/2007/03/070308121856.htm)
-* [Rats Are Capable Of Reflecting On Mental Processes, UGA Research Shows - Medical News Today](http://www.medicalnewstoday.com/medicalnews.php?newsid=64856)
+* [Metacognition in the rat on from PubMed](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1861845/)
 * [Leonardo Da Vinci](/wiki/leonardo_da_vinci "Leonardo Da Vinci")
 * [Leonardo Da Vincis Robot](/wiki/leonardo_da_vincis_robot "The Humanoid Robot Designed By Leonardo Da Vinci")
 * [BEAM](/wiki/beam_robots "Biology, Electronics, Aesthetics and Mechanics")

@@ -1,22 +1,29 @@
 ---
-created: 2008-02-06 09:10:01
+date: 2008-02-06T09:10:01.000Z
 description: Magnetically Linking Robots
-tags: [robots, nanobots, swarmbots, clusterbots, swarm, nanotech]
+tags:
+  - robot news
+  - nanobots
+  - swarmbots
+  - clusterbots
+  - swarm
+  - nanotech
 title: Magnetically Linking Robots
 layout: post
 ---
-Among the things mentioned occasionally on OrionRobots are Swarm Bots, [Nano Bots](/wiki/nano_bots "Microscopic or Nano scale robots")  and [cluster Bots](/wiki/cluster_bots).
 
-One cool idea among these is that the robots can join together in some movable arrangement to perform tasks - to cluster together. Of course, while taking into account lessons from SciFi (like The Replicators who do just this), they could be very handy for all kinds of things, including rapid prototyping, bridge forming, creating robotic manipulators and other stuff.
+Among the things mentioned occasionally on OrionRobots are Swarm Bots, [Nano Bots](/wiki/nano_bots.html "Microscopic or Nano scale robots") and [cluster Bots](/wiki/cluster_bots.html).
 
-Now having real ones on Nano Scale is still quite a distance away, however, a team at <a href="/wiki/carnegie_mellon_university" title="An institution involved in Robotics, Technology and Science">Carnegie Mellon University</a>
-led by Seth Goldstein have come up with some demonstration robots which use a ring of electromagnets around their perimeter to bind and move around each other. The goal is to create the microscopic swarming robots eventually, and small electrical charges instead of magnets are likely to be more efficient at that scale.
+One cool idea among these is that the robots can join together in some movable arrangement to perform tasks - to cluster together. They could be very handy for all kinds of things, including rapid prototyping, bridge forming, creating robotic manipulators and other stuff. Avoid however creating something like the Stargate replicators.
 
-These demonstrations of robots has been dubbed "claytronic". NewScientist created a video of this demo in action.
+Having real swarmbots on Nano Scale is still quite a distance away, however, a team at [Carnegie Mellon University](/wiki/carnegie_mellon_university.html "An institution involved in Robotics, Technology and Science") led by Seth Goldstein have come up with demonstration robots which use a ring of electromagnets around their perimeter to bind and move around each other. The goal is to create the microscopic swarming robots eventually, and use electrical charges instead of magnets.
 
-<iframe width="420" height="315" src="//www.youtube.com/embed/e44hA6IBtkA?rel=0" frameborder="0" allowfullscreen="true"> </iframe>
+These demonstrations of robots have been dubbed "claytronic". NewScientist created a video of this demo in action.
 
-# Links
+<iframe width="420" height="315" src="//www.youtube.com/embed/e44hA6IBtkA?rel=0" frameborder="0" allowfullscreen="true">
+</iframe>
 
-* [NewsScientistTech : Shape-shifting robot forms from magnetic swarm](http://technology.newscientist.com/channel/tech/dn13244-shapeshifting-robot-forms-from-magnetic-swarm.html?feedId=online-news_rss20)
-* [Engadget : Shape-shifting magnetic bots take a page out of the Dharma playbook](http://www.engadget.com/2008/01/29/shape-shifting-magnetic-bots-take-a-page-out-of-the-dharma-playb/)
+## Links
+
+- [NewsScientistTech : Shape-shifting robot forms from magnetic swarm](https://www.newscientist.com/article/dn13244-shape-shifting-robot-forms-from-magnetic-swarm/)
+- [Engadget : Shape-shifting magnetic bots take a page out of the Dharma playbook](http://www.engadget.com/2008/01/29/shape-shifting-magnetic-bots-take-a-page-out-of-the-dharma-playb/)

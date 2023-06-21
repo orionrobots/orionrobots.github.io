@@ -1,0 +1,14 @@
+---
+on:
+  pull_request:
+    branches:
+      - master
+
+jobs:
+  build_site:
+    uses: ./.github/workflows/on_call_build_site.yaml
+
+  staging_test:
+    uses: ./.github/workflows/on_call_staging_test.yaml
+    needs: build_site
+  

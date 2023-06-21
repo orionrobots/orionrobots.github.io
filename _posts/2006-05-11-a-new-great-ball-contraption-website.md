@@ -1,7 +1,7 @@
 ---
-created: 2006-05-11 16:00:14
+date: 2006-05-11 16:00:14
 description: A New Great Ball Contraption website
-tags: [gbc,lego,nxt,rcx,mindstorms,kugelbahn,innovation,contraption,invention]
+tags: [gbc,lego,nxt,rcx,mindstorms,kugelbahn,invention]
 title: A New Great Ball Contraption website
 layout: post
 ---
@@ -21,14 +21,15 @@ Dave's site complements Steve Hassenplug's pages on the subject (Steve is a GBC 
 
 It has an accessible coverage of the GBC standard, so you can get right in, look at some of the others, and the standards and build you own. He includes a set of GBC and Lego links, including back to Lugnet and Steve's site. So event organisers can plan how big a space they need for GBC set ups, the site has a registration form, where you can also give details of how your module operates, its ball throughput and so on. This stops one very fast batch module potentially choking a single pathed module.
 
-Forums are planned on the site, but as it is still under construction they are not up yet, so I would still recommend using Lugnet Robotics for dicussing it until then.
+Forums are planned on the site, but as it is still under construction they are not up yet, so I would still recommend using Lugnet Robotics for discussing it until then.
 
-There is a selection of [GBC events](http://www.greatballcontraption.com/wiki/Main_Page#Upcoming_GBC_Events). It has coverage of previous events, but might be handy to have a list of upcoming events, and an event registration form so other GBC events can be announced there.
+There is a selection of [GBC events](https://www.greatballcontraption.com/events). It has coverage of previous events, but might be handy to have a list of upcoming events, and an event registration form so other GBC events can be announced there.
 
 Overall, its a well presented site, and it is growing. It is about time there was a dedicated site to feed its obsession as opposed to it merely being an interesting niche corner in Lego robotics.
 
-# Links
+## Links
 
 * <http://www.greatballcontraption.com> - All about the GBC
 * <http://news.lugnet.com/robotics> - Lugnet discussion group where GBC is currently discussed
 
+<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=GB&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=orionrobots-21&language=en_GB&marketplace=amazon&region=GB&placement=B082WD5YV9&asins=B082WD5YV9&linkId=e40e6e6802507d8646f3131923f1dea1&show_border=true&link_opens_in_new_window=true"></iframe><!-- lego mindstorms review 2021 -->

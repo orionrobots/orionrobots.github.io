@@ -1,0 +1,38 @@
+# See https://pre-commit.com for more information
+# See https://pre-commit.com/hooks.html for more hooks
+exclude: "^_site/.*$"
+repos:
+# All files
+-   repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v4.4.0
+    hooks:
+    -   id: check-added-large-files
+        args: [--maxkb=1512]
+    -   id: check-case-conflict
+    -   id: check-merge-conflict
+    -   id: check-symlinks
+    -   id: destroyed-symlinks
+# Some exclusions
+    -   id: trailing-whitespace
+        exclude: "^.*drawio$"
+    -   id: end-of-file-fixer
+        exclude: "^.*drawio$"
+    -   id: check-yaml
+        exclude: "^.*drawio$"
+    -   id: check-json
+        exclude: "^.*drawio$"
+    -   id: check-xml
+        exclude: "^.*drawio$"
+    -   id: check-toml
+        exclude: "^.*drawio$"
+    -   id: detect-private-key
+        exclude: "^.*drawio$"
+    -   id: detect-aws-credentials
+        exclude: "^.*drawio$"
+    -   id: check-ast
+        exclude: "^.*drawio$"
+    -   id: check-shebang-scripts-are-executable
+# -   repo: https://github.com/streetsidesoftware/cspell-cli
+#     rev: v6.31.0
+#     hooks:
+#     -   id: cspell

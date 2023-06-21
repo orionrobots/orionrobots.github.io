@@ -2,10 +2,8 @@
 layout: product
 title: Arduino Compatible Dual Motor 2A control board with debug LED's
 tags: [DC motor, hbridge chip, l298n, motor controller, motor driver, power, robot motor, solderless]
-sku: OR0004
 google_category: Electronics > Circuit Components > Circuit Prototyping > Development Boards
 size: 55mm x 60mm  30mm
-price: £20.00
 gallery:
     parent: /galleries/dual-motor-2a-control-board/
     initial: l298-motor-controller-side.jpg
@@ -25,7 +23,7 @@ With this board, (no soldering required) you need only plug in the controller, m
 
 Movement is simple - each channel has an enable to make it move, and two direction inputs to say where it will go. It is suited to PWM control so the speed of the motors can also be independently controlled. The board also includes power, direction and control indicator lights, making debugging a robot easy - not many of these boards include this. It also has current detection on the power input.
 
-The board includes a voltage regulator, so a    single supply can be used for the motors, and the 5v supply for logic devices and microcontrollers.
+The board includes a voltage regulator, so a single supply can be used for the motors, and the 5v supply for logic devices and microcontrollers.
 
 The board is small enough for simple robot rovers. It is fully populated and requires no soldering - all the headers and terminals are present.
 
@@ -39,5 +37,5 @@ There are 2 debug LED's per motor - indicating direction.
 * Logic current operating range: 0 ~ 36mA
 * Maximum power consumption: 20W
 * Storage Temperature: -25 ℃ ~ +130 ℃
-* Board Size: 55mm * 60mm * 30mm (the heatsink accounts for the vertical space)
+* Board Size: 55mm x 60mm x 30mm (the heatsink accounts for the vertical space)
 * Board Weight: 33g

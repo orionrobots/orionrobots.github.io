@@ -1,6 +1,8 @@
 ---
 layout: page
+tags: [electronics, programming, logic gates]
 title: Truth Table
+date: 2015-10-02
 ---
 A table showing the operation of a [Boolean](boolean.html) logic gate, or combination of them.
 

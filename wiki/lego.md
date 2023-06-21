@@ -2,9 +2,8 @@
 layout: page
 title: Lego
 description: The best known construction toy
+date: 2015-03-09
 ---
-{% include JB/setup %}
-
 Lego is probably the best known brand of Construction Toy. Lego has had the largest fanbase, including the well known Lugnet site.
 
 Lego uses basic studs and sockets allowing the simple bricks to clip together. The initial bricks and blocks eventually evolved into more complex designs which use pins(similar to rivets) and axles, as well as gears, Pneumatic valves and pistons, motors and even Microcontrollers.
@@ -15,37 +14,37 @@ They have some great kits for building robots in the MindStorms and Dacta RoboLa
 
 The company are believed to be one of the oldest toy makers with plastic injection moulding machinery, and as such have contributed largely to the techniques. They are also believed to currently have one of the most advanced plastic injection moulding plants in the world to date.
 
-# Lego content on Orionrobots
+## Lego content on Orionrobots
 
-- [Lego Specifications](/wiki/lego_specifications)
-- [Lego Pneumatic Specifications](/wiki/lego_pneumatic_specifications)
-- [General Lego Tips](/wiki/general_lego_tips)
-- [Lego Solar Panel](/wiki/lego_solar_panel)
-- [Lego Technic](/wiki/lego_technic)
-- [MindStorms](/wiki/mindstorms)
-  - [NXT](/wiki/nxt)
-  - [RCX](/wiki/rcx)
-  - [SpyBotics](/wiki/spybotics)
-  - [CyberMaster](/wiki/cybermaster)
-  - [Dacta RoboLab](/wiki/robolab)
+- [Lego Specifications](/wiki/lego_specifications.html)
+- [Lego Pneumatic Specifications](/wiki/lego_pneumatic_specifications.html)
+- [General Lego Tips](/wiki/general_lego_tips.html)
+- [Lego Solar Panel](/wiki/lego_solar_panel.html)
+- [Lego Technic](/wiki/lego_technic.html)
+- [MindStorms](/wiki/mindstorms.html)
+  - [NXT](/wiki/nxt.html)
+  - [RCX](/wiki/rcx.html)
+  - [SpyBotics](/wiki/spybotics.html)
+  - [CyberMaster](/wiki/cybermaster.html)
+  - [Dacta RoboLab](/wiki/robolab.html)
   - MicroScout
 - Lego CAD
-  - [LDraw](/wiki/ldraw_system)
-  - [LSynth](/wiki/lsynth)
-  - [MLCad](/wiki/mlcad)
-  - [LeoCad](/wiki/leocad)
+  - [LDraw](/wiki/ldraw_system.html)
+  - [LSynth](/wiki/lsynth.html)
+  - [MLCad](/wiki/mlcad.html)
+  - [LeoCad](/wiki/leocad.html)
   - BrickSmith - An OSX Lego CAD app
 - Lego Communities
-  - [Lugnet](/wiki/lugnet)
-  - [BrickLink](/wiki/bricklink)
+  - [Lugnet](/wiki/lugnet.html)
+  - [BrickLink](/wiki/bricklink.html)
 
-# Links
+## Links
 
-* [History Of Lego](http://www.legos.tabacaria.com.pt/Textos/timeline.htm) - This is a nice little pictorial history of the Lego Brick itself, with photo's from some of the earliest "self-binding bricks", including Kiddicraft.
+* [History Of Lego](https://www.lego.com/en-gb/aboutus/lego-group/the-lego-group-history/) - This is a nice little pictorial history of the Lego Brick itself, with photo's from some of the earliest "self-binding bricks", including Kiddicraft.
 * [Popular Mechanics | First Lego League - High School Students Turn Inventors](http://www.popularmechanics.com/technology/engineering/robots/high-school-students-turn-inventors-8372261) - How Lego is used to engage students in Science, Technology, Engineering and Math subjects by building robots.
 * [Popular Mechanics | 8 Incredible Lego Mods](http://www.popularmechanics.com/technology/engineering/gonzo/8-incredible-lego-mods?click=main_sr) - These are some amazing ways to use Lego - showing it as a functional and capable material for building real machines and prototypes.
 * [EuroBricks | How to repair a Lego Motor](http://www.eurobricks.com/forum/index.php?showtopic=56923) - Forum posts on dealing with Lego motors that have become stuck or had a shock. It is also a handy guide on how to open one up should you be so inclined.
 
-# Related Content
+## Related Content
 
-* [Construction Toy](/wiki/construction_toy)
+* [Construction Toy](/wiki/construction_toy.html)

@@ -1,13 +1,11 @@
 ---
-created: 2008-03-09 08:04:00
-description: Get Your Hands On a Vexplorer kit with Robot Design and Building Contest!
-tags: [robot, robots, vex, robot kit, contest, competition, robot building]
-title: Get Your Hands On a Vexplorer kit with Robot Design and Building Contest!
+date: 2008-03-09 08:04:00
+description: Get Your Hands On a VEXplorer kit with Robot Design and Building Contest!
+tags: [robot, robot news, vex, robot kit, contest, competition, robot building]
+title: Get Your Hands On a VEXplorer kit with Robot Design and Building Contest!
 layout: post
 ---
-{% include JB/setup %}
-
-Botmag are currently hosting a contest to design and later build innovative robots using the Vexplorer kit. The builders need to get a description of a unique or creative use for the VEXplorer kit entered into  the contest before the 24th march 2008.
+Botmag are currently hosting a contest to design and later build innovative robots using the VEXplorer kit. The builders need to get a description of a unique or creative use for the VEXplorer kit entered into  the contest before the 24th march 2008.
 
 25 of those builders will be selected to receive a free VEXplorer kit to build their designs. They then need to make a YouTube video of their robot in action showing the innovative behaviour. The contest winner will get a grand prize of a $5000 scholarship.
 
@@ -17,4 +15,6 @@ The competition is put together by a group including Innovation First, Inc., Rev
 
 I personally would have entered just to get my hands on the free VEXplorer kit. The contest is sadly only open to US residents who are 14 or older. Those under 14 may be able to get a parent to represent them.
 
-(2018 - no working links remain for this competition)
+* [Revell VEXplorer Kit Build Review](https://www.cybermodeler.com/hobby/builds/rm/build_vexplorer.shtml)
+
+<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=GB&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=orionrobots-21&language=en_GB&marketplace=amazon&region=GB&placement=B082WD5YV9&asins=B082WD5YV9&linkId=e40e6e6802507d8646f3131923f1dea1&show_border=true&link_opens_in_new_window=true"></iframe><!-- lego mindstorms review 2021 -->

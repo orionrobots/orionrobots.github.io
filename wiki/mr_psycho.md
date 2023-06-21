@@ -1,9 +1,10 @@
 ---
 layout: page
 title: Mr Psycho
+tags: [robot wars]
 date: 2005-10-06 22:56:58
 ---
-First appearing in the First heat of the Sixth Season of <a class="wiki" href="/wiki/robot_wars.html" title="The british robot smashing TV series.">Robot Wars</a>, this formiddable house robot packs a punch.
+First appearing in the First heat of the Sixth Season of <a href="/wiki/robot_wars.html" title="The british robot smashing TV series.">Robot Wars</a>, this formidable house robot packs a punch.
 
 He has a huge pounding hammer and a very menacing look - almost like a butcher. This is apt - he will grind down smaller bots quite effectively.
 

@@ -1,7 +1,7 @@
 ---
-created: 2007-07-21 09:03:13
+date: 2007-07-21 09:03:13
 description: The NXT-A-Sketch
-tags: [nxt, mindstorms, lego]
+tags: [nxt, robot news, mindstorms, lego]
 title: The NXT-A-Sketch
 layout: post
 ---
@@ -9,11 +9,11 @@ This is somehow really silly, but I have to admire them for the ingenuity. Some 
 
 I might build one myself for the giggle of it. The idea has set me wandering if I could build some games - use two motors to power a self-centring, force feedback joystick, and then have some basic graphics on the screen. I might start with a worm-eating-pills sort of game.
 
-# Link
+## Links
 
 * <a href="http://www.youtube.com/watch?v=Fq2Mu7hadI8" >YouTube - NXT-a-sketch</a>
 * <a href="http://www.legoengineering.com/nxt-a-sketch/">Another take on the idea</a>
-* <a href="http://www.idreamincode.com/2007/01/nxt-a-sketch-cs190-project-emory/" >I Dream In Code - NXT-a-Sketch</a>
+* [I Dream In Code - NXT-a-Sketch](https://www.idreamincode.com/2007/01/16/nxt-a-sketch-cs190-project-emory/)
 
 <iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=GB&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=orionrobots-21&marketplace=amazon&region=GB&placement=B00BMKLVJ6&asins=B00BMKLVJ6&linkId=790d5f97e58d0e79ecb2fbe1b24a3108&show_border=true&link_opens_in_new_window=true"></iframe>
 

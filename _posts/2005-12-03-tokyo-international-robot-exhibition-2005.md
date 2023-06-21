@@ -1,12 +1,13 @@
 ---
 title: Tokyo International Robot Exhibition 2005
-tags: [robot, events, exosuit, hitachi, japan, robotics]
+tags: [robot news, robotics events, japan, robotics]
 layout: post
 ---
-# Background
+## Background
+
 At the time of writing, IREX is the Earths largest robot show. It has been held alternate years since 1973, and is organised by JARA(The Japan Robot Association).
 
-# Tokyo International Robot Exhibition 2005
+## Tokyo International Robot Exhibition 2005
 
 Unfortunately I was not able to attend the 2005 show in person. It was held in the Tokyo International Exhibition Centre in Ariake for four days from 30th November to Saturday 3rd December. Showcasing 192 groups (152 private companies, and 40 organisations), the show had a huge range of different kinds of robots.
 
@@ -24,11 +25,13 @@ A robot receptionist/concierge which could bow, and greet people.
 
 ### HRP-2P Dancing Robot
 
-This cool robot is designed for walking on different terrains, but was also pretty good at dancing too. <a href="http://uk.gizmodo.com/2005/12/02/dancing_robot.html">Gizmodo - Dancing Robot</a>
+This cool robot is designed for walking on different terrains, but was also pretty good at dancing too. [Humanoid robot HRP-2 in performance
+](<https://www.researchgate.net/figure/Humanoid-robot-HRP-2-in-performance-The-robot-mimics-the-human-dancers-movements-within_fig3_232628535>
+)
 
 ### BarmanBot
 
-A [Motoman DA20](https://www.robots.com/motoman/da20) barmanbot served punters and featured even in the Uk metro. <a href="https://www.youtube.com/watch?v=uxmbmplqCSk">MOTOMAN serves beer - RoboBar</a>
+A [Motoman DA20](https://www.robots.com/robots/motoman-da20) barmanbot served punters and featured even in the Uk metro. [MOTOMAN serves beer - RoboBar](https://www.youtube.com/watch?v=uxmbmplqCSk)
 
 ### Hello Kitty
 
@@ -52,11 +55,11 @@ An information gathering, and presentation system developed by Sky.
 
 ### Swiffer BN-17
 
-A cute robot to provide company, and also mop/sweep up or help around the house a little bit. Created by Bandai. This guys also checks email - more information at <a href="http://uk.gizmodo.com/2005/12/02/mans_new_best_friend.html">Gizmodo - Mans New Best Friend</a> and <a href="http://gadgets.elliottback.com/2005/12/02/bandais-swiffer-robot-bn-17/">Cute Adorable Gadgets</a>
+A cute robot to provide company, and also mop/sweep up or help around the house a little bit. Created by Bandai. This bot also checks email - more information at [Cute Adorable Gadgets](https://neuraldump.net/2005/12/the-bandai-bn-17-swiffer-robot/)
 
 ### RIDC-01
 
-Previewed briefly before the event was another floor cleaning robot - RIDC-01 - which has speech recognition, talks and is around 1.3 meters high. It also can project movies (maybe you can replay "Help Me Obi-wan") from DVD or information. No one can explain what look like fur-mittens on its hands though... Created by the Japanese company Tmsuk. More info at <a href="https://www.youtube.com/watch?v=kK60UwPNYzU">RIDC Video</a>
+Previewed briefly before the event was another floor cleaning robot - RIDC-01 - which has speech recognition, talks and is around 1.3 meters high. It also can project movies (maybe you can replay "Help Me Obi-wan") from DVD or information. No one can explain what look like fur-mittens on its hands though... Created by the Japanese company Tmsuk. More info at [RIDC Video](https://www.youtube.com/watch?v=kK60UwPNYzU)
 
 ## Disaster/Emergency and Rescue Robots
 
@@ -94,7 +97,7 @@ This is an interestingly named exosuit. Its name is an acronym for Hybrid Assist
 
 ### Real Life Pacman
 
-A huge pacman game was created by Bandai and Namco - more information here <a href="http://gadgets.elliottback.com/2005/11/30/real-life-pac-man/">Cute &amp; Adorable Gadgets - Real Life PacMan</a> and at <a href="http://www.gamesetwatch.com/2005/12/pacbot_terrorizes_irex_2005.php">GameSetWatch - Pac-Bot terrorises IREX 2005</a>.
+A huge pacman game was created by Bandai and Namco - more information here <a href="https://www.youtube.com/watch?v=IxoLTgI0_F4/">Cute &amp; Adorable Gadgets - Real Life PacMan</a>.
 
 ### KHR-1
 

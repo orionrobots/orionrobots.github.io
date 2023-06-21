@@ -1,7 +1,7 @@
 ---
-created: 2013-01-05 03:30:00
+date: 2013-01-05 03:30:00
 description: The era of the Robot music band is upon us
-tags: [robot, robotic entertainment]
+tags: [robot news, robotic entertainment]
 title: The era of the Robot music band is upon us
 layout: post
 ---
@@ -9,8 +9,6 @@ Electronic machines have played a part in music for around half a century now, a
 
 However, I've seen very few attempts to combine robot and acoustic instruments. And up until today - I'd not seen a robotic rock/metal band.
 
-I introduce [CompressorHeads](http://www.compressorheadband.com/) - performing The Ace of Spades:
+I introduce [CompressorHeads](https://en.wikipedia.org/wiki/Compressorhead) - performing The Ace of Spades:
 
-<div class="embed-responsive embed-responsive-16by9">
-<object type="application/x-shockwave-flash" data="http://www.youtube.com/v/3RBSkq-_St8" width="425" height="350" id="wp-flash-522dd050b7514" style="visibility: visible;"><param name="quality" value="high"><param name="wmode" value="transparent"><param name="allowFullScreen" value=""><param name="related" value=""><param name="background" value=""><param name="border" value=""><param name="allowscriptaccess" value="always"></object>
-</div>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/3RBSkq-_St8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

@@ -1,17 +1,19 @@
 ---
 layout: page
 title: Sports Robots
+tags: [robots]
 date: 2005-02-04 11:28:06
 ---
-<p>Robots in use appear to be popping up everywhere. Including sports. As well as things as extravagant as the <a class="wiki" href="/wiki/robo_cup.html" title="Robo Cup">Robo Cup</a>, robots are also used for training players.
-</p>
-<div class="titlebar">Conventional Sports With Robots</div>
-<ul><li> <a class="wiki" href="/wiki/tennis_robots.html" title="Tennis Robots">Tennis Robots</a>
-</li><li> <a class="wiki" href="/wiki/robo_cup.html" title="Robo Cup">Robo Cup</a>
-</li><li> Dancing Robots
-</li></ul><p>
-</p>
-<div class="titlebar">New Sports Designed With Robots</div>
-<ul><li> <a class="wiki" href="/wiki/robot_wars.html" title="The british robot smashing TV series.">Robot Wars</a> - This really could be seen as robot pugelism
-</li></ul><p>
-</p>
+Robots in use appear to be popping up everywhere. Including sports. As well as things as extravagant as the [Robo Cup](/wiki/robo_cup.html "Robo Cup"), robots are also used for training players.
+
+## Sports Designed With Robots
+
+- [PiWars](https://piwars.org/) - An international Raspberry Pi robotics competition.
+- [Robot Wars](/wiki/robot_wars.html "The british robot smashing TV series.") - Robots smashing each other.
+
+## Conventional Sports With Robots
+
+
+- [Tennis Robots](/wiki/tennis_robots.html "Tennis Robots")
+- [Robo Cup](/wiki/robo_cup.html "Robo Cup")
+- Dancing Robots

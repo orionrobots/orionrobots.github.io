@@ -1,9 +1,7 @@
 ---
 title: 40 Pin Male-Female Jumper Cables
 layout: product
-sku: OR0006
 google_category: Electronics > Circuit Components > Circuit Prototyping
-price: £5.00
 gallery:
     parent: /galleries/jump_cables_40_pin_male_female/
     initial: cable.jpg
@@ -37,5 +35,3 @@ They are perfect for connecting an [Arduino Uno](http://orionrobots.myshopify.co
 These cables are handy for many projects, and can be reused. They are multicoloured- so you can trace connections.
 
 The cables come joined as a single 40 line ribbon cable loosely joined, and can be peeled away as needed. If you need 1 - peel of a single connection, if you need 6,peel off 6 and you don't need extra gear to keep them neat.
-
-Uk Mainland Free Shipping for orders over £25.

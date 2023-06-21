@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 2nd International LEGO MINDSTORMS Competition
-tags: [lego, mindstorms, nxt, rcx, robot, robotics]
+tags: [robot building, robot news, mindstorms, nxt, rcx, robot, robotics]
 ---
 In Billund, Denmark, from the 6th to the 8th of October 2006 there will be a competition, hailing some of the best Lego Mindstorms creations.
 
@@ -13,18 +13,18 @@ Potential participants and attendees should make contact with Steve Witt. You sh
 
 We can expect more detailed info to be disclosed in August during the run up to this event.
 
-# Event Information
+## Event Information
+
 * Still to be confirmed
 * Date: 6-8th October
 * Venue: Billund, Denmark
 * Contact: steve at lego.com
 
-# Links
+## Links
 
 * <http://news.lugnet.com/announce/?n=3233> - Announcement discussion thread on Lugnet
 * <http://www.freelug.org/> - Freelug home page (in French)
 * <http://www.teamhassenplug.org/> - Team Hassenplug homepage
-
 
 <iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=GB&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=orionrobots-21&marketplace=amazon&region=GB&placement=B00BMKLVJ6&asins=B00BMKLVJ6&linkId=790d5f97e58d0e79ecb2fbe1b24a3108&show_border=true&link_opens_in_new_window=true"></iframe>
 

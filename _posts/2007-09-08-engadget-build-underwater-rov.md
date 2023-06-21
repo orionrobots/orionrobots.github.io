@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Engadget Underwater ROV Kit
-tags: [diy, kit, robot, robot building, robot kit, rov, underwater]
+tags: [diy, robot news, robot building, robot kit, rov, underwater]
 ---
 Engadget have been playing with an underwater ROV kit created by Carl Hayden High School for use in the National Underwater Robotics Challenge.
 

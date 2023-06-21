@@ -1,10 +1,9 @@
 ---
 layout: page
 title: Roboteers
+tags: [robots, robot wars]
 date: 2004-11-14 14:41:11
 ---
-<p>
-<br/>A term commonly used in <a class="wiki" href="/wiki/robot_wars.html" title="The british robot smashing TV series.">Robot Wars</a> to describe robot building and competing teams.
-</p>
-<p>I am not sure if <a class="wiki" href="/wiki/craig_charles.html" title="Craig Charles">Craig Charles</a> or the commentator coined the phrase, or if indeed there is prior usage.
-</p>
+A term commonly used in [Robot Wars](/wiki/robot_wars.html "The british robot smashing TV series.") to describe robot building and competing teams.
+
+I am not sure if [Craig Charles](/wiki/craig_charles.html "Craig Charles") or the commentator coined the phrase, or if indeed there is prior usage.

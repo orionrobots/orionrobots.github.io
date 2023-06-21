@@ -13,10 +13,8 @@ First you should test you have a real working Arduino- plug it into a USB port, 
 
 If you've not already - now is the time to download the Arduino software.
 
-* Download the Arduino app on your computer from http://arduino.cc/en/Main/Software
+* Download the [Arduino app](https://www.arduino.cc/en/Main/Software) on your computer
 * Follow the On-site instructions to install it. This works for Linux, Mac and Windows
 * You will have either an Uno or Leonardo based board. Follow these to get it installed and communicated:
-** Leonardo: http://arduino.cc/en/Guide/ArduinoLeonardoMicro#toc8
-** Uno: http://arduino.cc/en/Guide/HomePage  (choose your platform in the installation section)
-
-# Getting The Basics Moving
+** [Leonardo](https://www.arduino.cc/en/Guide/ArduinoLeonardoMicro#toc8)
+** [Uno](https://www.arduino.cc/en/Guide/HomePage)  (choose your platform in the installation section)
