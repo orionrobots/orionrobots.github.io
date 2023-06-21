@@ -5,7 +5,7 @@ published: true
 title: Bluefruit graphing - beware auto scaling
 description: Dealing with an issue with graph output from encoders
 tags: [raspberry pi pico, circuitpython, bluetooth le, bluefruit le connect, robot building,
-  plotting, robotics programming]
+  plotting data, robotics programming, graphing data]
 category: robot building
 ---
 ## Bluefruit app
@@ -16,25 +16,29 @@ While I'll go into specifics in the book, I thought this particular adventure, a
 
 ## Story
 
-I was debugging an encoder problem.
-I thought it was my code doing something janky, when measuring speed (distance/time, with a ticks to mm conversion) I got this kind of graph:
+I was debugging an encoder problem. I thought it was my code doing something janky, when measuring speed (distance/time, with a ticks to mm conversion) I got this kind of graph:
 
-![Bluetooth plot of encoder speed - looking very rough]({{site.baseurl}}/galleries/Pasted image 20220807115307.png)
+![Bluetooth plot of encoder speed - looking very rough](/galleries/2022-08-07-bluefruit-encoder-speed-looks-very-rough.png)
+
+The red and blue lines show the left and right encoder speeds. The graph makes it looks like there are large differences in their behaviour. In reality, these differences are tiny, and the graph is just auto-scaling to make it look like there are big differences.
 
 I thought I had some stability issue in my encoder reading, or the PIO code I'd written to sample the encoder was wrong. So I went from the d/t to simply plotting encoder counts on a line:
 
-![Bluetooth plot of encoder counts]({{site.baseurl}}/galleries/Pasted image 20220807115906.png)
+![Bluetooth plot of encoder counts](/galleries/2022-08-07-bluetooth-plot-of-encoder-counts.png)
 
 This led to see there's nothing wrong with the encoders.
 And then it dawned on me - the scale was different.
-The top graph didn't start at 0 - the tiny variations (which might do horrid things for a derivative without an LPF) were amplified over this scale because the speed was actually stable in a fairly small range.
+The top graph didn't start at 0 - the tiny variations (which might do horrid things for a derivative without a low-pass-filter) were amplified over this scale because the speed was actually stable in a fairly small range.
 
-Adding a 0 in:
-```uart.write(f"{left_speed:.3f},{right_speed:.3f},0\n".encode() )``` allows me to anchor the graph at 0, and see that the encoders are very stable.
+Adding a 0 into the graphing code allows me to anchor the graph at 0, and see that the encoders are very stable:
 
-![Bluetooth plot of encoder speed with a 0 anchor]({{site.baseurl}}/galleries/Pasted image 20220807120614.png)
+```python
+uart.write(f"{left_speed:.3f},{right_speed:.3f},0\n".encode())
+```
 
-Always be aware of graph anchoring and scaling - it can definitely send you on a wild goose chase.
+![Bluetooth plot of encoder speed with a 0 anchor](/galleries/2022-08-07-bluefruit-encoder-speed-with-0-anchor.png)
+
+Always be aware of graph anchoring and scaling - it can send you on a wild goose chase.
 
 ## Robotics at Home with Raspberry Pi Pico
 

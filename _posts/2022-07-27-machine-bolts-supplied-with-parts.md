@@ -5,7 +5,7 @@ published: true
 title: 'Machine bolts supplied with parts'
 tags: [robot building, robot building tips, learn robotics at home]
 ---
-# Machine bolts in robot building
+## Machine bolts in robot building
 
 Some handy robot kits and parts come with machine bolts (screws) and nuts.
 
@@ -13,9 +13,9 @@ These are handy if you don't have the exact size needed but are often flawed in 
 
 ## Materials
 
-First they are often Nylon. That makes them cross thread easily. Be really careful not to over  tighten these.
+First they are often Nylon. That makes them cross thread easily. Be really careful not to over tighten these.
 
-It is handy in that these threads can be cut to size, but be careful  not to leave a rough edge that would make it hard to thread the nut on.
+It is helpful in that these threads can be cut to size, but be careful not to leave a rough edge that would make it hard to thread the nut on.
 
 I generally prefer metal bolts, and get a selection of thread lengths so I do not need to cut them.
 

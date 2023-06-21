@@ -1,12 +1,10 @@
 ---
-created: 2010-11-11 00:52:00
+date: 2010-11-11 00:52:00
 description: Factories Built With Lego
 tags: [lego, rcx, robot news, mindstorms, nxt, motor, sensors, factory, fabrication, assembly line]
 title: Factories Built With Lego
 layout: post
 ---
-{% include JB/setup %}
-
 I've been considering building my own pick and place machine, CNC or similar manufacturing gear for some time.I had considered Lego as a material for fun.
 
 It appears that others have definitely got there first with some amazing factories, built entirely with Lego, using Mindstorms kits to pick and place and manufacture Lego models. Indeed the earliest I saw (and possibly not the earliest built), was a few years ago. So what is there?

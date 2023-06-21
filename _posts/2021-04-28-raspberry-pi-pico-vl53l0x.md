@@ -8,8 +8,6 @@ tags: [raspberry pi,raspberry pi pico,raspberry pi pico projects,micropython,pro
 published: true
 using_mathjax: false
 ---
-{% include JB/setup %}
-
 This weekend, I got an optical laser based distance sensors or two working with the Raspberry Pi Pico with Micropython. I managed to get a single one working, after some frustration with the XSHUT pin, and then I managed to get 2 of the devices working. Some GPIO trickery with the XSHUT pin, and there are multiple VL53L0x sensors working.
 
 First I got them working on 2 separate i2c buses, and then both running on a single bus. A pair of these will be perfect on my next robot build.

@@ -1,5 +1,5 @@
 ---
-created: 2008-01-13 06:25:14
+date: 2008-01-13 06:25:14
 description: Gumball Candy Sorting with Lego Mindstorms
 tags: [lego, nxt, mindstorms, robot news]
 title: NXT Gumball Sorter

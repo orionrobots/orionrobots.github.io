@@ -1,5 +1,5 @@
 ---
-created: 2018-4-8 17:42:52
+date: 2018-4-8 17:42:52
 tags: [sparkfun, microview, electronics, arduino]
 title: Reviving Sparkfun Microviews With a New Bootloader
 layout: post
@@ -62,7 +62,7 @@ Ouch - result is that avrdude didn't recognise the devices.
 
 ```dos
     C:\Users\danny\Downloads>avrdude -C "C:\Program Files (x86)\Arduino\hardware\tools\avr\etc\avrdude.conf" -P COM10 -b 19200 -c avrisp -p m328p -v -e -U flash:w:\Users\Danny\Downloads\MicroView_combined_8-19-14.hex -U lock:w:0x0F:m
-    
+
     avrdude: Version 6.3, compiled on Dec 16 2016 at 13:33:19
             Copyright (c) 2000-2005 Brian Dean, http://www.bdmicro.com/
             Copyright (c) 2007-2014 Joerg Wunsch

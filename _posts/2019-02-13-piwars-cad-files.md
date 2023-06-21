@@ -1,6 +1,6 @@
 ---
-created: 2019-02-13 08:04:30
-tags: [robotics, piwars, 3d-printer, fusion360, raspberry pi]
+date: 2019-02-13 08:04:30
+tags: [robotics, piwars, 3d-printer, fusion360, raspberry pi, robotics at home, robotics competitions, cad]
 title: Fusion 360 CAD Files For My Piwars Robot
 layout: post
 ---

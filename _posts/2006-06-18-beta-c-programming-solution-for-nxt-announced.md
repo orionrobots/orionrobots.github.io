@@ -1,12 +1,10 @@
 ---
-created: 2006-06-18 05:19:40
+date: 2006-06-18 05:19:40
 description: Beta C Programming Solution for NXT Announced
 tags: [robot building, lego, robot news, programming, nxt,mindstorms]
 title: Beta C Programming Solution for NXT Announced
 layout: post
 ---
-{% include JB/setup %}
-
 On Friday the 15th, Dick Swan announced on the [lugnet](/wiki/lugnet.html "Lego Users Group Network") robotics board that new firmware and software has been created to provide a C based solution for programming the [Lego](/wiki/lego.html "The best known construction toy") [NXT](/wiki/nxt.html "Legos NeXT generation robotics kit").
 
 This is fantastic for those who are not comfortable with the [Robolab](/wiki/robolab.html "Robolab") style programming system, especially software engineers who find C much more to their taste.

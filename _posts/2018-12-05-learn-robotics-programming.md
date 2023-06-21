@@ -1,5 +1,5 @@
 ---
-created: 2018-12-05 20:04:30
+date: 2018-12-05 20:04:30
 tags: [robotics books, python, raspberry pi, programming, computer vision, mycroft, learn robotics programming, robotics at home]
 title: Announcing My Book - Learn Robotics Programming
 layout: post

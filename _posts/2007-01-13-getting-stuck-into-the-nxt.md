@@ -1,12 +1,10 @@
 ---
-created: 2007-01-13 08:37:28
+date: 2007-01-13 08:37:28
 description: Getting Stuck into the NXT
 tags: [nxt, mindstorms, robot building, lego, robot]
 title: Getting Stuck into the NXT
 layout: post
 ---
-{% include JB/setup %}
-
 ## Starting Up
 
 Now I had the [NXT](/wiki/nxt.html) software installed, it was time to fire it up. I was expecting an all singing, all dancing presentation as was the case with the [RCX](/wiki/rcx.html) [Robot Invention System](/wiki/ris.html) and Mars Mission software, but those kind of intro movies seem to have withered away. They did add an element of excitement to Lego toys though. This instead fires up a rather good looking interface, which has a rounded, flattened and simplistic style reminiscent of LCARS (the Star Trek UI).

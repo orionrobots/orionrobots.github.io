@@ -1,5 +1,5 @@
 ---
-created: 2010-01-19 06:44:06
+date: 2010-01-19 06:44:06
 description: The Lego RCX, Inside and Out
 tags: [robots, robotics, lego, rcx, mindstorms, microcontroller, ir, technic]
 title: The Lego RCX, Inside and Out
@@ -140,10 +140,10 @@ The RCX uses three MLX10402CA motor controller chips(one for each port).
 ### Photos of The Innards
 
 <!-- TODO: Photo carousel? -->
-{% include figure.html description="A close up of the Motor Driver Chip used on the RCX." url="/galleries/gallery-1-common-images/121-motor-chip.JPG" %}
-{% include figure.html description="The RCX Mainboard" url="/galleries/gallery-1-common-images/123-rcx-mainboard-with-pointers.gif" %}
-{% include figure.html description="Closeup of the Hitachi/Renasys H8 Processor on the Lego RCX mainboard" url="/galleries/gallery-1-common-images/122-h8.JPG" %}
-{% include figure.html description="The H8 Pin Diagram" url="/galleries/gallery-1-common-images/125-rcxh8pins.gif" %}
+{% render figure, description:"A close up of the Motor Driver Chip used on the RCX.", url:"/galleries/gallery-1-common-images/121-motor-chip.JPG" %}
+{% render figure, description:"The RCX Mainboard", url:"/galleries/gallery-1-common-images/123-rcx-mainboard-with-pointers.gif" %}
+{% render figure, description:"Closeup of the Hitachi/Renasys H8 Processor on the Lego RCX mainboard", url:"/galleries/gallery-1-common-images/122-h8.JPG" %}
+{% render figure, description:"The H8 Pin Diagram", url:"/galleries/gallery-1-common-images/125-rcxh8pins.gif" %}
 
 ## Lego RCX - The Genre Defining Robot Toy
 

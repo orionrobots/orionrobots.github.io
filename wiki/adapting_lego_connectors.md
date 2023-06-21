@@ -2,6 +2,7 @@
 layout: page
 title: Adapting Lego RCX Stud Style Connectors
 tags: [electronics, lego robotics, lego rcx]
+date: 2015-09-03
 ---
 ## Overview
 

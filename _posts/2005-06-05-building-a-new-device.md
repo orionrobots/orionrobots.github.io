@@ -1,5 +1,5 @@
 ---
-created: 2005-06-05 18:22:13
+date: 2005-06-05 18:22:13
 description: Building an amplified signal generator
 tags: [electronics, soldering, maker, robotics tools]
 title: Building an amplified signal generator

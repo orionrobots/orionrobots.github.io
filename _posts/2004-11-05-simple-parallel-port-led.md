@@ -12,7 +12,7 @@ title: Simple Parallel Port LED
 ---
 ## Intro
 
-![Parallel Cable With LED]({{ page.gallery }}/thumb_cable-with-led.jpg){: class="img-rounded" style="float:left; padding-right: 4px"}
+![Parallel Cable With LED]({{ gallery }}/thumb_cable-with-led.jpg){.class="img-rounded" style="float:left; padding-right: 4px"}
 Plugging things into your desktop PC is neat - there is a great feeling of satisfaction when you can program even the simplest of hand made peripherals to light up. This project tutorial will start you with basic interfacing with your computer. Please be a little careful here, as shorting pins on your parallel port could be very bad for your computer.
 
 The Light Emitting Diode (LED) draws very little current when limited by a resistor and some can be lit at low voltages like 0.6v. For a single LED you will not need an external power supply. Without the resistor it may destroy the LED and the port too. We will use a 470 Ohm resistor for this.
@@ -47,7 +47,7 @@ This cable can be used for other experiments, and is just a breakout cable to wo
 
 ### Making it
 
-![Parallel Port]({{ page.gallery }}/parallel.gif){: style="float:left"}
+![Parallel Port]({{ gallery }}/parallel.gif){.style="float:left"}
 
 Inspect the DB-25 connector - it should have a tiny (and possibly hard to read) 1 or some notation for pin 1. Line up one end of the ribbon cable with this, push the ribbon through so every wire is sat on a tooth of the connector, then push this down (pliers will help) so the teeth have bitten well into the cable.
 

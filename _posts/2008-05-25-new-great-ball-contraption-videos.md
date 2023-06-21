@@ -1,5 +1,5 @@
 ---
-created: 2008-05-25 09:40:00
+date: 2008-05-25 09:40:00
 description: New Great Ball Contraption Videos
 tags: [lego, robot news, gbc]
 title: New Great Ball Contraption Videos

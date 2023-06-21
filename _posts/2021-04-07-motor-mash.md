@@ -5,8 +5,6 @@ description: "Motor Mash - N20 to TT Motor Adaptor - handy for Learn Robotics Pr
 category: "robot building"
 tags: [robotics, piwars, 3d printing, raspberry pi, raspberry pi projects, raspberry pi 3 projects, raspberry pi 4 projects, robot, electronics, learn robotics at home]
 ---
-{% include JB/setup %}
-
 The Learn Robotics Programming books use a laser cut motor kit, and these usually come with the cheap yellow plastic motors, aka TT Motors. These motors are ubiquitous, but are not really the best of gear motors.  The kits that include these can be found around the world. There kits also used to come with wires soldered on the motors, but in recent years, probably for cost reasons, manufacturers are just selling the kits with the wires not soldered, or without them at all.
 
 ![Mounted motor](https://github.com/rbricheno/motor-mash/blob/main/images/mounted_motor.jpg?raw=true)

@@ -1,5 +1,5 @@
 ---
-created: 2007-10-09T00:24:11.000Z
+date: 2007-10-09T00:24:11.000Z
 description: Amazing giant robot arm to be scrapped
 tags:
   - robot news
@@ -7,9 +7,6 @@ tags:
 title: Amazing giant robot arm to be scrapped
 layout: post
 ---
-
-{% include JB/setup %}
-
 I was shown a story today about a really rather fantastic robot arm - one that is large enough (between 7 and 8 meters!), and powerful enough to crush cars. Robohand is built entirely from scrap for the Robodock 2007 festival in Amsterdam last month.
 
 Created by a team led by Christian Ristow, this behemoth lifted vehicles under the control of spectators, and is described as granted feelings of power and awe.

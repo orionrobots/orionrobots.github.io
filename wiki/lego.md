@@ -2,9 +2,8 @@
 layout: page
 title: Lego
 description: The best known construction toy
+date: 2015-03-09
 ---
-{% include JB/setup %}
-
 Lego is probably the best known brand of Construction Toy. Lego has had the largest fanbase, including the well known Lugnet site.
 
 Lego uses basic studs and sockets allowing the simple bricks to clip together. The initial bricks and blocks eventually evolved into more complex designs which use pins(similar to rivets) and axles, as well as gears, Pneumatic valves and pistons, motors and even Microcontrollers.

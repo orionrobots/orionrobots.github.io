@@ -1,12 +1,10 @@
 ---
-created: 2008-10-26 13:19:44
+date: 2008-10-26 13:19:44
 description: Halloween Animatronics
 tags: [electronics, diy, instructables, robot news, animatronic, build robots at home]
 title: Halloween Animatronics
 layout: post
 ---
-{% include JB/setup %}
-
 Halloween presents a great time to build and exhibit some scary animatronic creatures. In fact, some of the robotics kit that is now taken for granted was developed for movies using animatronic techniques.
 
 Those techniques have been used to great affect in films and now this is quite accessible to robot builders. Looking around on instructables, just before halloween has revealed a few cool but creepy instructions on building your own animatronic horrors.

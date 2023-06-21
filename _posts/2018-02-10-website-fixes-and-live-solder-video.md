@@ -1,5 +1,5 @@
 ---
-created: 2018-2-10 15:27:26
+date: 2018-2-10 15:27:26
 tags: [robot electronics, website, blog, soldering, cnc projects]
 title: 2018-02-10-website-fixes-and-live-solder-video
 layout: post

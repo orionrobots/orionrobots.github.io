@@ -1,5 +1,5 @@
 ---
-created: 2006-01-30 09:00:00
+date: 2006-01-30 09:00:00
 description: Gung Hei Fat Choi!
 tags: [lego, robotics, robot building, nxt, rcx, mecha, i2c bus, mindstorms]
 title: Gung Hei Fat Choi and Lego NXT developments!

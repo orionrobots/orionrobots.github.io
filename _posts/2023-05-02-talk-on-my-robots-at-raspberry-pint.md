@@ -10,6 +10,7 @@ tags:
   - raspberry pi pico
   - arduino
   - esp8266
+thumbnail: https://img.youtube.com/vi/0OLOFyvcDIc/mqdefault.jpg
 ---
 Last week, I made a live talk about the robots in my lab, showing each one and discussing difficulties along with how I would improve each of them. I show where each has further areas to work on, what I've learned so far from each. These robots include Raspberry Pis, Raspberry Pi Pico's, Arduino's, and ESP8266s. There's a hexapod, a buggy with an arm on board, my various PiWars entries, and more. This was also recorded from my new lab.
 

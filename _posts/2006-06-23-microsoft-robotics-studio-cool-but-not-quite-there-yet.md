@@ -1,5 +1,5 @@
 ---
-created: 2006-06-23 13:56:11
+date: 2006-06-23 13:56:11
 description: Microsoft Robotics Studio cool, but not quite there yet
 tags: [robotics, robot news, robot building, programming]
 title: Microsoft Robotics Studio cool, but not quite there yet

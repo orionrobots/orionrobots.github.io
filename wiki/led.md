@@ -1,7 +1,7 @@
 ---
 layout: page
 title: LED - light Emitting Diode
-tags: [electronics, robot, led, beam, sensor, ccd, robot building]
+tags: [electronics, robot, led, beam robotics, sensor, ccd, robot building]
 date: 2005-09-10 14:21:41
 ---
 An LED is a special version of a [diode](/wiki/diode.html "Diode") which emits light. Although nearly every PN Junction emits, and is sensitive to light, these junctions are specially mastered to emit more.

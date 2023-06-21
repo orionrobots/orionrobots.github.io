@@ -1,12 +1,10 @@
 ---
-created: 2006-09-01 01:39:45
+date: 2006-09-01 01:39:45
 description: Airfix model company in troubled waters
 tags: [modelling, robot news, toys, hobbies, modding, business]
 title: Airfix model company in troubled waters
 layout: post
 ---
-{% include JB/setup %}
-
 The company Airfix, who many of our readers would probably remember from childhood, and may even use their kits for modding purposes, have gone into administration after a very difficult period. The company are similar to Revell and specialise in model aircraft, some tanks, and ships. I personally remember painstakingly putting together one of the huge aircraft carrier models that had.
 
 They seemed to feel that they were fighting a loosing battle with TV, Computer games and the Internet. Some modellers also pointed out that their quality had been in decline, with poor glues, and Humbrol enamel paints. Acrylic paints are generally considered easier to work with.

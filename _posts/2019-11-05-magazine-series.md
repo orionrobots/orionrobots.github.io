@@ -4,8 +4,6 @@ title: "Raspberry Pi Magazine Robotics"
 description: "Raspberry Pi Magazine Robotics"
 tags: [robotics, raspberry pi, raspberry pi projects, raspberry pi 3 projects, piwars, robot, raspberry pi zero w projects]
 ---
-{% include JB/setup %}
-
 ## Build A Low-Cost Wheeled Robot
 
 Over the last few months I have been writing a magazine series on Building a Low Cost Wheel Robot, with Raspberry Pi.

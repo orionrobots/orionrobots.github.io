@@ -1,5 +1,5 @@
 ---
-created: 2005-12-10 08:20:00
+date: 2005-12-10 08:20:00
 description: Interesting AI discoveries
 tags: [robot news, ai, facial recognition, computer vision]
 title: Interesting discoveries

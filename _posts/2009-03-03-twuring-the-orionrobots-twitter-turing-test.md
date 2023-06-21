@@ -1,5 +1,5 @@
 ---
-created: 2009-03-03T01:05:20.000Z
+date: 2009-03-03T01:05:20.000Z
 description: Twuring - The Orionrobots Twitter Turing Test
 tags:
   - turing

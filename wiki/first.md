@@ -1,7 +1,7 @@
 ---
 layout: page
 title: FIRST Robotic Competition
-tags: [robots, robotics, events, robot building, STEM]
+tags: [robots, robotics, events, robot building, stem]
 date: 2007-01-03 20:42:51
 ---
 The FIRST organisation are a group which believe in investing in and encouraging the uptake, learning and development of technology and science, mostly through challenges and events aimed to inspire and get young people involved. They are a credit to the maker crowd, and certainly OrionRobots commend them.

@@ -10,6 +10,10 @@
 	AddOutputFilterByType DEFLATE text/html text/plain text/xml text/css application/x-javascript application/javascript
 </IfModule>
 
+<FilesMatch ".(ico|pdf|jpg|jpeg|png|gif|html|js|css)$">
+    Header set Cache-Control "max-age=1800, public"
+</FilesMatch>
+
 # Using ETags will improve the YSlow scores
 FileETag none
 
@@ -18,17 +22,6 @@ ErrorDocument 401 /401.html
 ErrorDocument 403 /403.html
 ErrorDocument 400 /400.html
 ErrorDocument 501 /404.html
-
-<IfModule mod_autoindex.c>
-    IndexOptions IgnoreCase FancyIndexing FoldersFirst NameWidth=* DescriptionWidth=* SuppressHTMLPreamble
-    # SET DISPLAY ORDER
-    IndexOrderDefault Descending Name
-    # SPECIFY HEADER FILE
-    HeaderName /directory_head.html
-
-    # SPECIFY FOOTER FILE
-    ReadmeName /directory_footer.html
-</IfModule>
 
 <IfModule mod_rewrite.c>
 RewriteEngine On

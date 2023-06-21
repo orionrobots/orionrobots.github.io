@@ -1,7 +1,7 @@
 ---
 title: Fixing a Broken Wire
 layout: post
-date: 2004-11-14 00:00:00 +0000
+date: 2004-11-14 00:00:00
 tags: [electronics, repair, robot building, robotics at home]
 ---
 ## Intro

@@ -1,12 +1,10 @@
 ---
-created: 2008-11-16 08:25:00
+date: 2008-11-16 08:25:00
 description: Are Communications Between Cybot And RCX possible?
 tags: [cybot, rcx, robot, mindstorms]
 title: Communications Between Cybot And RCX
 layout: post
 ---
-{% include JB/setup %}
-
 This is theoretically possible although I have not seen it or done it yet.
 
 For short range you could go via serial wire communications - using ports on the

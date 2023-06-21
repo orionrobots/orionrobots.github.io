@@ -1,12 +1,10 @@
 ---
-created: 2006-09-15 16:35:45
+date: 2006-09-15 16:35:45
 description: Budget Robotics
 tags: [robotics, robot building, robot news, electronics, stores, oopic]
 title: Budget Robotics
 layout: post
 ---
-{% include JB/setup %}
-
 The budget robotics site (now gone) had cheap kits for complete bots, servos, wheels and all. They are pictured with an ooPIC R, although the site does not sell the ooPIC itself (or if it did I couldn't find it). The robot kits generally under $100 (or under £50), but would need to be shipped from US. Not that its a big problem here in the Uk.
 
 Grippers and manipulators for less than $30 (£16), and even one at less than $7.00 (£3.50). They have sensor mount turrets, and even a full servo controlled pan and tilt head for a camera.

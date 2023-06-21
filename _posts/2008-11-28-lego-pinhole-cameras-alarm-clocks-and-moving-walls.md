@@ -1,5 +1,5 @@
 ---
-created: 2008-11-28 12:55:00
+date: 2008-11-28 12:55:00
 description: Lego Pinhole cameras, alarm clocks and moving walls
 tags: [lego, maker, robot news]
 title: Lego Pinhole cameras, alarm clocks and moving walls

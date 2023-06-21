@@ -1,12 +1,10 @@
 ---
-created: 2007-01-07 12:55:57
+date: 2007-01-07 12:55:57
 description: Lego Assembly Line Machine
 tags: [robot news, robotics, lego, assembly, rcx, mindstorms]
 title: Lego Assembly Line Machine
 layout: post
 ---
-{% include JB/setup %}
-
 Another Lego robotics smashing YouTube find today - Mindstorms Autofabrik
 {% include youtube_responsive src="http://www.youtube.com/embed/GQ3AcPEPbH0" %}
 

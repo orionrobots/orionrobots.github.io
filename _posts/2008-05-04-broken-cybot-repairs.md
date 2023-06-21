@@ -1,6 +1,5 @@
 ---
-created: 2008-05-04 16:24:00
-date: '2008-05-04T12:00:00.000Z'
+date: 2008-05-04 16:24:00
 description: Broken Cybot Repairs
 layout: post
 tags:
@@ -10,8 +9,6 @@ tags:
 - robot kit
 title: Broken Cybot Repairs
 ---
-{% include JB/setup %}
-
 Some time ago, my wife and mother conspired to accidentally damage my [Cybot](/wiki/cybot.html). First my mother managed to damage the tabs on the front panels holding the [IR](/wiki/infra_red.html) dome, and then may wife managed to snap the Castor.
 
 I used the dome parts from the racing cybot and managed to repair that, but as I did not have a spare Castor at the time, I had attempted an initial repair.
