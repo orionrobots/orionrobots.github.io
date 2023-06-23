@@ -3,6 +3,7 @@ layout: post
 title: Current state of the 2024 PiWars robot
 description: Assessing the robot I'll be entering into PiWars 2024
 tags: [robotics at home, robot building, raspberry pi, robotics competitions, rover]
+thumbnail: galleries/2023/piwars-robot-info/piwars-robot-power-pack.JPG
 date: 2023-06-21
 ---
 The robot "Big Ole Yellow" has been sat on a shelf since Piwars 2019 gathering dust. That means none of it has been powered on, so some inspection and testing is needed before we can start working on it. The [current initiatives](/2023/06/14/piwars-robot-character-card.html#initiatives) list has Up and Running as the first step.

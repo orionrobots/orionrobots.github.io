@@ -4,6 +4,7 @@ title: What electronics did I use in the PiWars 2019 Metal Chassis Robot
 description: Electronics in the robot for Piwars 2024
 tags: [piwars, robotics at home, electronics, big ole yellow]
 date: 2023-06-22
+thumbnail: galleries/2023/piwars-robot-info/perma-proto-tidied-up.png
 ---
 The robot I am repurposing for Piwars 2024 is repurposed from my 2019 robot Big Ole Yellow. This used a Raspberry Pi with an perma-proto hat. Before turning it on, I needed to understand the wiring, if it make sense or was the correct polarity. Simply powering this up if wires have gone awry could lead to damaging parts. Most connectors here are the locking polarised type, so I can be confident those are in the right way. However, some are just Duponts which could easily be in reversed. These are 4 way Duponts though, so could only be wrong one way. They also have a red-marked wire on them.
 
