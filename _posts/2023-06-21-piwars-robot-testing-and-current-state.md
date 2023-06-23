@@ -33,4 +33,8 @@ Plugging it in shows 2 fully lit lights, the 3rd blinking, so it could still cha
 
 After 24 hours, it charged to the full 4 lights, so this power pack is still good.
 
-{% image "/galleries/2023/piwars-robot-info/piwars-robot-power-pack.JPG", "Anker PowerCore 10000 fully charged", ""720, 940, 1140"}
+{% image "/galleries/2023/piwars-robot-info/piwars-robot-power-pack.JPG", "Anker PowerCore 10000 fully charged", "720, 940, 1140"}
+
+## Next Steps
+
+Tomorrow I want to get into the electronics on this robot. I'll verify them and the connections before trying to turn any of it on.
