@@ -1,7 +1,12 @@
 ---
+date: '2014-12-06'
 layout: post
+tags:
+- cnc news
+- 3d printing
+- github
+- stl
 title: Github's awesome stl view
-tags: [cnc news, 3d printing, github, stl]
 ---
 So first some great news.
 Today I've received a Reprap pro Ormerod 2 3d printer kit!

@@ -1,7 +1,12 @@
 ---
-title: Understanding the CNC Power Board
+date: '2014-05-07'
 layout: post
-tags: [cnc projects, electronics, power-board, soldering]
+tags:
+- cnc projects
+- electronics
+- power-board
+- soldering
+title: Understanding the CNC Power Board
 ---
 ![]({{ site.baseurl }}/galleries/inside__control_box/images/img_3027.jpg)
 

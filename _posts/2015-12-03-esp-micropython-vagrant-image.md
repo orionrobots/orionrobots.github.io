@@ -1,7 +1,12 @@
 ---
+date: '2015-12-03'
 layout: post
+tags:
+- esp8266
+- micropython
+- microcontrollers
+- programming
 title: Getting a quick ESP8266 build environment
-tags: [esp8266, micropython, microcontrollers, programming]
 ---
 The ESp8266 is currently my favourite toy right now. I've mostly been using NodeMCU, but also experimented with Micropython.
 

@@ -1,8 +1,15 @@
 ---
+date: '2020-08-24'
+description: Parts needed for Chapter 6 in the book
 layout: post
-title: "Parts for Learn Robotics Programming Chapter 6"
-description: "Parts needed for Chapter 6 in the book"
-tags: [robotics, raspberry pi, raspberry pi projects, raspberry pi 3 projects, robot, electronics]
+tags:
+- robotics
+- raspberry pi
+- raspberry pi projects
+- raspberry pi 3 projects
+- robot
+- electronics
+title: Parts for Learn Robotics Programming Chapter 6
 ---
 I have been asked by some readers of my book, Learn Robotics Programming (first edition), what parts I've specifically used for chapter 6.
 I will start out by saying that the full intent of the book is that a reader learns how to find parts, including alternative ones,

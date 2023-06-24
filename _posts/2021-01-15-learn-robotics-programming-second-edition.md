@@ -1,9 +1,25 @@
 ---
+date: '2021-01-15'
+description: The release of Learn Robotics Programming, second edition
 layout: post
-title: "Learn Robotics Programming second edition"
-description: "The release of Learn Robotics Programming, second edition"
-tags: [robotics, raspberry pi, raspberry pi projects, raspberry pi 3 projects, raspberry pi 4 projects, robot, electronics, computer vision, voice recognition,
-engineering, technology, artificial intelligence, automation, python, robot building, learn robotics at home]
+tags:
+- robotics
+- raspberry pi
+- raspberry pi projects
+- raspberry pi 3 projects
+- raspberry pi 4 projects
+- robot
+- electronics
+- computer vision
+- voice recognition
+- engineering
+- technology
+- artificial intelligence
+- automation
+- python
+- robot building
+- learn robotics at home
+title: Learn Robotics Programming second edition
 ---
 Hello, I've some great news.
 

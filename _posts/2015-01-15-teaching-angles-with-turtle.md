@@ -1,9 +1,13 @@
 ---
-layout: post
-title: Teaching Angles With Turtle
-using_mathjax: True
-tags: [turtle, python, programming]
+date: '2015-01-15'
 gallery: /galleries/2015-01-15-teaching-angles-with-turtle
+layout: post
+tags:
+- turtle
+- python
+- programming
+title: Teaching Angles With Turtle
+using_mathjax: true
 ---
 
 Today I had time with my eldest child, 5 at the time of writing. She has been learning python, and experimenting with Turtle with me for a while, but I always typed in the turn numbers as angles are a bit difficult for a young child. To clarify - this is the Python turtle module.

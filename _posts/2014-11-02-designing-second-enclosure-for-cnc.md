@@ -1,7 +1,11 @@
 ---
+date: '2014-11-02'
 layout: post
+tags:
+- cnc projects
+- enclosure
+- dust control
 title: Designing a second enclosure for my CNC machine
-tags: [cnc projects, enclosure, dust control]
 ---
 My first attempt at an enclosure was wrong in a number of ways.
 The basic idea was a frame in wood with clear plastic sheets around it, the flexible kind of thick sheets used in gardening.

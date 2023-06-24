@@ -1,8 +1,18 @@
 ---
+date: '2019-08-31'
+description: Connecting a MeArm to the Raspberry Pi
 layout: post
-title: "Connecting a MeArm to the Raspberry Pi"
-description: "Connecting a MeArm to the Raspberry Pi"
-tags: [robotics, robot arm, raspberry pi, raspberry pi projects, raspberry pi 3 projects, mearm, Laser Cut robot arm, raspberry pi zero w projects, learn robotics at home]
+tags:
+- robotics
+- robot arm
+- raspberry pi
+- raspberry pi projects
+- raspberry pi 3 projects
+- mearm
+- Laser Cut robot arm
+- raspberry pi zero w projects
+- robotics at home
+title: Connecting a MeArm to the Raspberry Pi
 ---
 ## Building the Arm
 

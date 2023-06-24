@@ -1,8 +1,21 @@
 ---
+date: '2019-12-08'
+description: Designs and Initial Plans for PiWars 2020
 layout: post
-title: "Piwars 2020 Designs"
-description: "Designs and Initial Plans for PiWars 2020"
-tags: [robotics, raspberry pi, raspberry pi projects, raspberry pi 3 projects, piwars, robot, raspberry pi zero w projects, piwars, fusion360, robot building, learn robotics at home, i2c bus]
+tags:
+- robotics
+- raspberry pi
+- raspberry pi projects
+- raspberry pi 3 projects
+- piwars
+- robot
+- raspberry pi zero w projects
+- piwars
+- fusion360
+- robot building
+- learn robotics at home
+- i2c bus
+title: Piwars 2020 Designs
 ---
 ## Piwars Acceptance
 

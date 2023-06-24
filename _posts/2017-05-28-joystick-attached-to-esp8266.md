@@ -1,6 +1,17 @@
 ---
+date: '2017-05-28'
 layout: post
-tags: [microcontrollers, electronics, code, esp8266, lua programming, programming, nodemcu, robot building, robotics at home, making robots]
+tags:
+- microcontrollers
+- electronics
+- code
+- esp8266
+- lua programming
+- programming
+- nodemcu
+- robot building
+- robotics at home
+- making robots
 title: Attaching a Joystick or 2 Analog Sensors to a Nodemcu
 ---
 The ESP8266 is one of my favourite devices. I wanted, for various projects, to attach a Joystick to it.

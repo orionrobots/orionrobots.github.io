@@ -1,7 +1,14 @@
 ---
-title: Using Heeks CAD to Mill an STL file
+date: '2014-05-16'
 layout: default
-tags: [cnc projects, cam, 3d cad, software, heeks, toolpath]
+tags:
+- cnc projects
+- cam
+- 3d cad
+- software
+- heeks
+- toolpath
+title: Using Heeks CAD to Mill an STL file
 ---
 After playing with a few different types of CAM software, I settled on [Heeks CNC](https://sites.google.com/site/heekscad/).
 Heeks CNC is open source and free, although Windows users are asked to pay £10 for the binaries.

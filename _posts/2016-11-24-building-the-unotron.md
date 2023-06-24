@@ -1,6 +1,14 @@
 ---
+date: '2016-11-24'
 layout: post
-tags: [robots, robotics, electronics, arduino, 4tronix, arduino, servo]
+tags:
+- robots
+- robotics at home
+- electronics
+- arduino
+- 4tronix
+- arduino
+- servo
 title: Building a 4tronix UnoTron Robot
 ---
 

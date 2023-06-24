@@ -1,8 +1,18 @@
 ---
+date: '2021-02-19'
+description: A shopping list for Learn Robotics Programming, Second Edition
 layout: post
-title: "Learn Robotics Programming 2nd Edition - Hardware Shopping List"
-description: "A shopping list for Learn Robotics Programming, Second Edition"
-tags: [robotics books, raspberry pi, robot, python, robot building, learn robotics at home, robot electronics, robot chassis, learn robotics programming]
+tags:
+- robotics books
+- raspberry pi
+- robot
+- python
+- robot building
+- learn robotics at home
+- robot electronics
+- robot chassis
+- learn robotics programming
+title: Learn Robotics Programming 2nd Edition - Hardware Shopping List
 ---
 The [second edition of Learn Robotics Programming](http://packt.live/2XccaKe) is now for sale. Readers have been asking for a shopping list for this book. This is for the robot hardware components. I can follow up with a tools article if necessary.
 

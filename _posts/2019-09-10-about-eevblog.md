@@ -1,10 +1,14 @@
 ---
-layout: post
-title: "About The Eevblog"
-description: "My view and review  of the EevBlog"
-category:
 author: Danny Staple
-tags: [youtubers, robot news, electronics]
+category: null
+date: '2019-09-10'
+description: My view and review of the EevBlog
+layout: post
+tags:
+- youtubers
+- robot news
+- electronics
+title: About The Eevblog
 ---
 The [EevBlog](//youtube.com/eevblog), aka the Electronics engineering video blog is a Video blog about electronics engineering. That is, a Youtube channel with original content that is intended for people who like to dabble with all thinks electronics.
 

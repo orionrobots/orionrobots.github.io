@@ -1,6 +1,16 @@
 ---
+date: '2017-01-03'
 layout: post
-tags: [robots, electronics, code, microbit, python, robotics, robot building, robotics at home, robotics projects for kids]
+tags:
+- robots
+- electronics
+- code
+- microbit
+- python
+- robotics
+- robot building
+- robotics at home
+- robotics projects for kids
 title: Building a Microbit Robot with the Kitronic v2 Motor Board
 ---
 In my previous post, I mentioned getting the <a href="https://twitter.com/Kitronik">Kitronic</a> V2 motor board for

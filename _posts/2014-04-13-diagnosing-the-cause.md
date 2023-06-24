@@ -1,7 +1,11 @@
 ---
+date: '2014-04-13'
 layout: post
+tags:
+- cnc projects
+- electronics
+- control board
 title: Diagnosing the Cause of the blown CNC components
-tags: [cnc projects, electronics, control board]
 ---
 After some investigation, it turned out that more than the FET was blown and the 7812 voltage regulator was gone, along with the fuses.
 So I had to determine how this happened.

@@ -1,7 +1,14 @@
 ---
+date: '2015-04-29'
 layout: post
+tags:
+- power supply
+- electronics
+- esp8266
+- microcontroller
+- wifi
+- projects
 title: Powering the esp8266 Wifi Microcontroller
-tags: [power supply, electronics, esp8266, microcontroller, wifi, projects]
 ---
 If you are working with small devices, you will need power supplies for them. 5v is generally easily supplied by a USB port (be careful here - get it wrong, and you may damage your laptop). 3.3v needs a few tweaks.
 

@@ -1,7 +1,14 @@
 ---
-title: Idea - a directional distance sensor board
-tags: [sensors, arduino, orion explorer 1, i2c bus, robotics at home, robot kit]
+date: '2014-06-11'
 layout: post
+tags:
+- sensors
+- arduino
+- orion explorer 1
+- i2c bus
+- robotics at home
+- robot kit
+title: Idea - a directional distance sensor board
 ---
 I've been toying with different ways to make adding the sensor to the robots easier.
 While a breadboard is flexible, the wiring is complicated for less experienced users, and its a bit tricky to get the angles right.

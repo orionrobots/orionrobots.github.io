@@ -1,6 +1,15 @@
 ---
+date: '2016-12-16'
 layout: post
-tags: [electronics, microbit, leds, python, micropython, simple code for kids, code, programming]
+tags:
+- electronics
+- microbit
+- leds
+- python
+- micropython
+- simple code for kids
+- code
+- programming
 title: Microbit Merry Christmas!
 ---
 I found today, on Christmas jumper day, I was caught short and couldn't find a good jumper.

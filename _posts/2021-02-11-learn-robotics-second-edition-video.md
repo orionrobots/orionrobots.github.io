@@ -1,9 +1,19 @@
 ---
+category: null
+date: '2021-02-11'
+description: Announcement Video For Learn Robotics Programming Second Edition
 layout: post
-title: "Learn Robotics Programming Second Edition Video Announcement"
-description: "Announcement Video For Learn Robotics Programming Second Edition"
-category:
-tags: [robotics, raspberry pi, raspberry pi projects, raspberry pi 3 projects, raspberry pi 4 projects, robot, electronics, computer vision, voice recognition]
+tags:
+- robotics
+- raspberry pi
+- raspberry pi projects
+- raspberry pi 3 projects
+- raspberry pi 4 projects
+- robot
+- electronics
+- computer vision
+- voice recognition
+title: Learn Robotics Programming Second Edition Video Announcement
 ---
 Further to my recent announcements about the publication of my book, [Learn Robotics Programming second edition](http://packt.live/2XccaKe) I have made a video talking about the books features, showing demonstrations of the robot you'll build in action.
 

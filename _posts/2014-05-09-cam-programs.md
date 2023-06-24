@@ -1,7 +1,11 @@
 ---
-title: Choosing A CAM program for my CNC Mill
+date: '2014-05-09'
 layout: default
-tags: [cnc projects, cam, cad software]
+tags:
+- cnc projects
+- cam
+- cad software
+title: Choosing A CAM program for my CNC Mill
 ---
 I will fill in more details about the last few weeks, and about me getting some of my first cuts from my CNC Milling machine, building a dust cover, and publishing videos.
 There was also a lot of terminology to learn too.

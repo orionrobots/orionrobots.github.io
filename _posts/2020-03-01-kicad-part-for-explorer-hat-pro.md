@@ -1,8 +1,16 @@
 ---
+date: '2020-03-01'
+description: Explorer Hat Pro Part For Kicad
 layout: post
-title: "Piwars 2020: Kicad Part For the Pimoroni Explorer Hat Pro"
-description: "Explorer Hat Pro Part For Kicad"
-tags: [robotics, raspberry pi, raspberry pi projects, raspberry pi 3 projects, piwars, robot, kicad]
+tags:
+- robotics
+- raspberry pi
+- raspberry pi projects
+- raspberry pi 3 projects
+- piwars
+- robot
+- kicad
+title: 'Piwars 2020: Kicad Part For the Pimoroni Explorer Hat Pro'
 ---
 My Piwars 2020 robot, Bangers 'N Bash, is built around a Raspberry Pi 3A+ sporting a Pimoroni Explorer Hat Pro on top. I've been building a Nerf turret and attached it to the top of the robot. However, this comes with some electronic considerations.
 

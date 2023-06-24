@@ -1,6 +1,12 @@
 ---
+date: '2017-04-25'
 layout: post
-tags: [electronics, raspberry pi, leds, code, programming]
+tags:
+- electronics
+- raspberry pi
+- leds
+- code
+- programming
 title: Pi Bakery and Scroll Phat
 ---
 In March 2017, I attended the Raspberry Pi Birthday party in Cambridge. While there, all attendees got a goodie bag each day. In my goodie bag was the rather awesome Pimoroni Scroll PHat - a Raspberry Pi Zero sized hat which uses an I2C chip to control a grid of LED's, allowing you to scroll messages or graphical stuff across them.

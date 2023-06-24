@@ -1,7 +1,10 @@
 ---
+date: '2015-03-01'
 layout: post
+tags:
+- lego technic
+- stem
 title: Making A lego Technic Bike
-tags: [lego technic, stem]
 ---
 This week I built a Lego Technic bike after one of my children asked me how a bicycle worked.
 I also used this as an opportunity to demonstrate chain drives, and gear ratios.

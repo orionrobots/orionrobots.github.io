@@ -1,8 +1,16 @@
 ---
+date: '2019-11-05'
+description: Raspberry Pi Magazine Robotics
 layout: post
-title: "Raspberry Pi Magazine Robotics"
-description: "Raspberry Pi Magazine Robotics"
-tags: [robotics, raspberry pi, raspberry pi projects, raspberry pi 3 projects, piwars, robot, raspberry pi zero w projects]
+tags:
+- robotics
+- raspberry pi
+- raspberry pi projects
+- raspberry pi 3 projects
+- piwars
+- robot
+- raspberry pi zero w projects
+title: Raspberry Pi Magazine Robotics
 ---
 ## Build A Low-Cost Wheeled Robot
 

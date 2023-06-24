@@ -1,9 +1,18 @@
 ---
-layout: post
-title: "Raspberry Pi Pico Session with Mini Orionrobots - LED flashing and speaker tones."
-description: ""
 category: electronics
-tags: [raspberry pi, raspberry pi pico, raspberry pi pico projects, micropython, programming, electronics, microcontroller]
+date: '2021-03-06'
+description: ''
+layout: post
+tags:
+- raspberry pi
+- raspberry pi pico
+- raspberry pi pico projects
+- micropython
+- programming
+- electronics
+- microcontroller
+title: Raspberry Pi Pico Session with Mini Orionrobots - LED flashing and speaker
+  tones.
 ---
 I've been playing with the Raspberry Pi Pico a lot lately, and Mini_orionrobots (aka Helena) joined me. In this article, I'll examine what we got running with the Pico and how the session went.
 

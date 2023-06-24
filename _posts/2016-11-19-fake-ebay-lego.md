@@ -1,6 +1,9 @@
 ---
+date: '2016-11-19'
 layout: post
-tags: [lego, ebay]
+tags:
+- lego
+- ebay
 title: Beware - Fake Lego on eBay
 ---
 It probably will not come as a shock, but some Lego on ebay is fake.

@@ -1,8 +1,17 @@
 ---
+date: '2019-04-23'
+description: How to use the Raspberry Pi to drive the Maplin USB Robot Arm
 layout: post
-title: "Use OWI Edge Maplin USB robot arm with the Raspberry Pi"
-description: "How to use the Raspberry Pi to drive the Maplin USB Robot Arm"
-tags: [robotics, robot arm, raspberry pi, raspberry pi projects, raspberry pi 3 projects, maplin usb arm, owi edge robot arm, raspberry pi zero w projects]
+tags:
+- robotics
+- robot arm
+- raspberry pi
+- raspberry pi projects
+- raspberry pi 3 projects
+- maplin usb arm
+- owi edge robot arm
+- raspberry pi zero w projects
+title: Use OWI Edge Maplin USB robot arm with the Raspberry Pi
 ---
 If you bought one of those cheap (£30) robot arms from Maplin a few years back (when there still was a Maplin) or find yourself in possession of one now, changes to Windows have made it feel like a bit of a paperweight.
 

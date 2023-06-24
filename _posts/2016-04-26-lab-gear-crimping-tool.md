@@ -1,6 +1,9 @@
 ---
+date: '2016-04-26'
 layout: post
-tags: [tools, electronics]
+tags:
+- tools
+- electronics
 title: Lab Gear - a Crimping Tool
 ---
 A crimping tool is an essential part of an electronics hobbyists toolkit. While
