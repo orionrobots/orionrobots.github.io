@@ -1,8 +1,15 @@
 ---
-title: Pneumatic Lego Gripper
+date: '2005-05-04'
 description: Some Lego creations of my own
-tags: [robot building, robotics, mindstorms, lego technic, pneumatic, rcx]
 layout: post
+tags:
+- robot building
+- robotics
+- mindstorms
+- lego technic
+- pneumatic
+- rcx
+title: Pneumatic Lego Gripper
 ---
 With an imminent move planned, a number of old Lego builds needed to be taken apart, so I took photos of them all.
 

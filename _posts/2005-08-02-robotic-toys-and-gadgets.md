@@ -1,7 +1,11 @@
 ---
+date: '2005-08-02'
 layout: post
+tags:
+- modding
+- toys
+- robots
 title: Robotic Gadgets And Toys
-tags: [modding,toys,robots]
 ---
 There are a number of easily available robot gadgets, kits and toys on the market. At OrionRobots we try to review them, examine them, hack them up and modify them if we can. Have a look at this list if you have a gadget and want to know what it does, or if you are considering your next one!
 

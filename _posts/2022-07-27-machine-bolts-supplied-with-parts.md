@@ -1,9 +1,13 @@
 ---
+date: '2022-07-27'
 layout: post
-using_mathjax: false
 published: true
-title: 'Machine bolts supplied with parts'
-tags: [robot building, robot building tips, learn robotics at home]
+tags:
+- robot building
+- robot building tips
+- learn robotics at home
+title: Machine bolts supplied with parts
+using_mathjax: false
 ---
 ## Machine bolts in robot building
 

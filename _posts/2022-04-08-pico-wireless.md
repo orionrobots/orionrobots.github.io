@@ -1,9 +1,19 @@
 ---
+category: robot building
+date: '2022-04-08'
+description: Problems with wireless
 layout: post
-title: "Raspberry Pi Pico Wifi and Wireless"
-description: "Problems with wireless"
-category: "robot building"
-tags: [raspberry pi pico, robot building, rp2040, esp32, power supplies, oscilloscope, electronics, wifi, learn robotics at home]
+tags:
+- raspberry pi pico
+- robot building
+- rp2040
+- esp32
+- power supplies
+- oscilloscope
+- electronics
+- wifi
+- learn robotics at home
+title: Raspberry Pi Pico Wifi and Wireless
 ---
 These last few months, I've been working on things related to an upcoming Raspberry Pi Pico robotics book. The current few weeks have been relating to using an add on Wifi solution.
 While I'll go into detail in the book, there have been many difficulties in getting this to work.

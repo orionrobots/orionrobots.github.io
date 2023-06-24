@@ -1,8 +1,14 @@
 ---
-layout: post
-title: Apache Server Monitor With Python And Led
-tags: [electronics, led, apache, python, parallel port]
+date: '2004-11-14'
 gallery: /galleries/2004-11-05-simple-parallel-port-led
+layout: post
+tags:
+- electronics
+- led
+- apache
+- python
+- parallel port
+title: Apache Server Monitor With Python And Led
 ---
 ![Parallel Cable With LED]({{ gallery }}/thumb_cable-with-led.jpg){.class="img-rounded" style="float:left; padding-right: 4px"}
 Building on the LED and cable last time, I linked this up to monitor Apache, a common webserver, which at the time of writing, I am using to host orionrobots.

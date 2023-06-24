@@ -1,11 +1,17 @@
 ---
+category: robot building
+date: '2022-07-24'
+description: How I used FreeCAD and a 3D Printer to make a holder for drill bits in
+  my tiny toolkit
 layout: post
 published: true
-using_mathjax: false
+tags:
+- tools
+- toolkit
+- 3d printing
+- freecad
 title: Tiny Drill Bit Holder For Tiny Toolkit
-description: How I used FreeCAD and a 3D Printer to make a holder for drill bits in my tiny toolkit
-tags: [tools, toolkit, 3d printing, freecad]
-category: robot building
+using_mathjax: false
 ---
 ## Tiny Drill Bit Holder
 

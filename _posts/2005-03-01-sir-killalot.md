@@ -1,7 +1,11 @@
 ---
+date: '2005-03-01'
 layout: post
+tags:
+- robots
+- robot wars
+- tv
 title: Sir Killalot
-tags: [robots, robot wars, tv]
 ---
 Of all the Robot Wars House Robots - this one has always been the most impressive, with his glowing eyes, piercing drilling lance and fireman's jaw he is a formidable robot.
 

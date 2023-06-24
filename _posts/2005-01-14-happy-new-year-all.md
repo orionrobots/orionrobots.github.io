@@ -1,8 +1,12 @@
 ---
-title: Happy New Year all!
+date: '2005-01-14'
 description: Happy New Year for 2005!
-tags: [robots, club, lego]
 layout: post
+tags:
+- robots
+- club
+- lego
+title: Happy New Year all!
 ---
 Well I certainly had a hectic Christmas, and its looking to be a busy new year.
 

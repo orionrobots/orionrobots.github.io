@@ -1,7 +1,9 @@
 ---
-title: WR-07 A real transformer
+date: '2006-02-13'
 layout: post
-tags: [robot news]
+tags:
+- robot news
+title: WR-07 A real transformer
 ---
 A real transforming robot has been revealed in Japan. Designed and built by Nakamura-san at Himeji Soft Works, it transforms to and from a car using a bunch of servo motors.
 

@@ -1,7 +1,13 @@
 ---
-title: A supercap used as a 9v rechargeable battery
+date: '2005-12-08'
 layout: post
-tags: [electronics, power, robots, gadgets, hacks]
+tags:
+- electronics
+- power
+- robots
+- gadgets
+- hacks
+title: A supercap used as a 9v rechargeable battery
 ---
 A supercap is essentially a large, and powerful capacitor.
 

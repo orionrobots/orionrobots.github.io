@@ -1,8 +1,12 @@
 ---
-layout: post
-title: Knee deep in Electronics and building
+date: '2005-10-06'
 description: Salvaging electronics boards from Freecycle, building an extractor fan.
-tags: [electronics, soldering, salvage]
+layout: post
+tags:
+- electronics
+- soldering
+- salvage
+title: Knee deep in Electronics and building
 ---
 I have been brushing up my salvage skills with a bunch of circuit boards and old bits I recovered from Freecycle. I found a technique using a shaving mirror - if I clamp a board vertically, and place it so the solder side is facing me, and the component side is facing the mirror - then it is fairly easy to see what I am doing and pull out components with a good set of narrow pliers while desoldering connections.
 

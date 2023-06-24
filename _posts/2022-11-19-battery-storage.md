@@ -1,11 +1,17 @@
 ---
-layout: post
-using_mathjax: false
-published: true
-title: Battery Storage - simple divider
-description: Quick hack to help storing batteries
-tags: ['building robots', 'robot building', 'robot power', 'battery storage', 'learn robotics at home']
 category: robot building
+date: '2022-11-19'
+description: Quick hack to help storing batteries
+layout: post
+published: true
+tags:
+- building robots
+- robot building
+- robot power
+- battery storage
+- learn robotics at home
+title: Battery Storage - simple divider
+using_mathjax: false
 ---
 When I'm testing robots, I tend to use a lot of AA batteries. My preference is to use NiMH rechargeables. One issue is that the charger I have can only charge four, while some of my robots may use 12. So I have to charge them in batches. See [Why we are using AA batteries]({% post_url 2013-03-28-why-are-we-using-aa-batteries %}) for why I use AA batteries when building robots.
 

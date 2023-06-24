@@ -1,8 +1,12 @@
 ---
-title: FreeCAD topological renaming issues
-description: "A problem with FreeCAD topological renaming"
+date: '2022-10-30'
+description: A problem with FreeCAD topological renaming
 layout: post
-tags: [robotics, electronics, freecad]
+tags:
+- robotics
+- electronics
+- freecad
+title: FreeCAD topological renaming issues
 ---
 Arg, in FreeCAD I split 2 edges in a sketch and hit what I assume is a topological renaming nightmare. Happened 3 or 4 times this week. My workflow has been sheet to master sketches, to shapebinders in bodies, to pads.
 

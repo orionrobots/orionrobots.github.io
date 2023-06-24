@@ -1,9 +1,13 @@
 ---
-title: Euro boxes - idea for storage
-description: "Idea for flexible storage"
+category: robot building
+date: '2022-10-24'
+description: Idea for flexible storage
 layout: post
-tags: [robotics, electronics, lab building]
-category: "robot building"
+tags:
+- robotics
+- electronics
+- lab building
+title: Euro boxes - idea for storage
 ---
 Storage is one those problems for those learning robotics at home - where to put all the bits of different sizes. You need tiny little boxes for components like electronics, larger ones to contain and transport robots.
 

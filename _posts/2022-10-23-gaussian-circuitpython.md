@@ -1,8 +1,17 @@
 ---
-title: How to Sample from a Gaussian distribution on Raspberry Pi Pico
-description: "Ideas for Guassian random number generation on Pico"
+date: '2022-10-23'
+description: Ideas for Guassian random number generation on Pico
 layout: post
-tags: [robotics, electronics, raspberry pi pico, robotics programming, python, circuitpython, learn robotics at home, robotics at home]
+tags:
+- robotics
+- electronics
+- raspberry pi pico
+- robotics programming
+- python
+- circuitpython
+- learn robotics at home
+- robotics at home
+title: How to Sample from a Gaussian distribution on Raspberry Pi Pico
 ---
 I’m getting intimately familiar with Gaussian probability and generating them, along with combining `matplotlib` and `asyncio` for pc visualising.
 CircuitPython does not have random.gauss (or np.rand.normal).

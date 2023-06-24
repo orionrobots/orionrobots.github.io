@@ -1,7 +1,12 @@
 ---
-title: Tokyo International Robot Exhibition 2005
-tags: [robot news, robotics events, japan, robotics]
+date: '2005-12-03'
 layout: post
+tags:
+- robot news
+- robotics events
+- japan
+- robotics
+title: Tokyo International Robot Exhibition 2005
 ---
 ## Background
 

@@ -1,8 +1,12 @@
 ---
-title: Foam board joint experiments
-tags: [foamboard, robot building, learn robotics at home]
-description: "Experiments with foam board joints"
+date: '2022-11-02'
+description: Experiments with foam board joints
 layout: post
+tags:
+- foamboard
+- robot building
+- learn robotics at home
+title: Foam board joint experiments
 ---
 I was playing more with foam board today. I’ve used it before to make drawer dividers, but at 10mm it gets interesting. This is a rough (rabbet I think) joint I made with it, because why not.
 

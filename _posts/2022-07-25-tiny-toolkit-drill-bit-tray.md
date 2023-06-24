@@ -1,13 +1,17 @@
 ---
-layout: post
-using_mathjax: false
-published: true
-title: Tiny Toolkit Drill bit tray
-description: >-
-  Small improvement on yesterdays drill bit holders for the tiny robotics
-  toolkit
-tags: [tools, toolkit, 3d printing, freecad]
 category: robot building
+date: '2022-07-25'
+description: Small improvement on yesterdays drill bit holders for the tiny robotics
+  toolkit
+layout: post
+published: true
+tags:
+- tools
+- toolkit
+- 3d printing
+- freecad
+title: Tiny Toolkit Drill bit tray
+using_mathjax: false
 ---
 Jarkman, the person who inspired my tiny toolkit suggested making and 3D Printing a tray so the bits are less likely to escape into the toolbag. This is building on the [Drill bits holder](https://orionrobots.co.uk/robot%20building/2022/07/24/tiny-drill-bits-for-tiny-toolkit.html) I made yesterday.
 

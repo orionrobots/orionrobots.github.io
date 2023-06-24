@@ -1,7 +1,9 @@
 ---
-title: i Cybie Robot Dog
+date: '2004-11-14'
 layout: post
-tags: [robotic toys]
+tags:
+- robotic toys
+title: i Cybie Robot Dog
 ---
 ![i Cybie Robot Dog](/galleries/2004-11-14-i-cybie-robot-dog/i-cybie-dog.jpg){.style="float: left; margin-right: 4px" }
 The i-Cybie was an intelligent robot dog toy, more advanced than many of the other cheap models like [The Tekno Robot Dog](/wiki/tekno_robot_dog.html). Although not as sophisticated as the [AIBO](/wiki/aibo.html). It has multiple

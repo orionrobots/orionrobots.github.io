@@ -1,8 +1,11 @@
 ---
+date: '2005-04-10'
 description: A Bionacle CD Holder
-tags: [lego, orionrobots club]
-title: A Bionacle CD Holder
 layout: post
+tags:
+- lego
+- orionrobots club
+title: A Bionacle CD Holder
 ---
 Hi, posting on behalf of Gabriel, one of the orionrobots club attendees.
 He made a Bionicle style CD holder/rack created in Lego - admittedly he was supposed to be making components for a Great Ball Contraption- but inspiration can come from anywhere.

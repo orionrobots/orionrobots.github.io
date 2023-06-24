@@ -1,9 +1,14 @@
 ---
+category: robot building
+date: '2022-02-08'
+description: Quick tips for Raspberry Pi Pico
 layout: post
-title: "Raspberry Pi Pico USB tip"
-description: "Quick tips for Raspberry Pi Pico"
-category: "robot building"
-tags: [raspberry pi pico, robot building, rp2040, electronics]
+tags:
+- raspberry pi pico
+- robot building
+- rp2040
+- electronics
+title: Raspberry Pi Pico USB tip
 ---
 If you are doing a lot of programming with the Raspberry Pi Pico, especially with a mobile platform like a robot, then you will be frequently unplugging your Pico.
 

@@ -1,11 +1,16 @@
 ---
+category: robot building
+date: '2022-12-18'
+description: Geometry and trigonometry
 layout: post
 published: true
-using_mathjax: true
+tags:
+- learn robotics at home
+- robotics
+- mathematics
+- robotics programming
 title: Geometry and Trigonometry mix ups
-description: Geometry and trigonometry
-category: robot building
-tags: [learn robotics at home, robotics, mathematics, robotics programming]
+using_mathjax: true
 ---
 ## Trigonometry in robotics
 

@@ -1,12 +1,20 @@
 ---
-layout: post
-using_mathjax: false
-published: true
-title: Bluefruit graphing - beware auto scaling
-description: Dealing with an issue with graph output from encoders
-tags: [raspberry pi pico, circuitpython, bluetooth le, bluefruit le connect, robot building,
-  plotting data, robotics programming, graphing data]
 category: robot building
+date: '2022-08-07'
+description: Dealing with an issue with graph output from encoders
+layout: post
+published: true
+tags:
+- raspberry pi pico
+- circuitpython
+- bluetooth le
+- bluefruit le connect
+- robot building
+- plotting data
+- robotics programming
+- graphing data
+title: Bluefruit graphing - beware auto scaling
+using_mathjax: false
 ---
 ## Bluefruit app
 
