@@ -1,6 +1,16 @@
 ---
+date: '2010-11-14'
 layout: post
-tags: [computers, diy, electronics, gadgets, hacks, memory, microcontroller, projects, ram]
+tags:
+- computers
+- diy
+- electronics
+- gadgets
+- hacks
+- memory
+- microcontroller
+- projects
+- ram
 title: Building RAM memory cells yourself
 ---
 <img src="/assets/2010-11-14-building-ram-memory-cells-yourself/dl38_display_x_120_y_90_compact.jpeg" style="float: left; margin-right: 4px;"/>Computer memory was once built by hand. Building your own like this memory will help to understand the principles of the system, and experiment with it.

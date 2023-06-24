@@ -1,7 +1,12 @@
 ---
-title: VEX based aerial photographs
-tags: [maker, robot news, robot building, vex]
+date: '2006-07-30'
 layout: post
+tags:
+- maker
+- robot news
+- robot building
+- vex
+title: VEX based aerial photographs
 ---
 For those who don't read Make magazine, it is all about building stuff like robots, or custom cars, or modifying your speak and spell to become a strange synthesiser. These people build all kinds of stuff, and I strongly recommend you go out and read at least one. It is published by O'Reilly, who are also known for some pretty good computer books, like the Nutshell series.
 

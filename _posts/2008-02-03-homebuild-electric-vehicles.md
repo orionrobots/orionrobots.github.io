@@ -1,12 +1,13 @@
 ---
+date: '2008-02-03'
 layout: post
-title: Homebuild Electric Vehicles
 tags:
-  - batteries
-  - diy
-  - power
-  - salvage
-  - robot news
+- batteries
+- diy
+- power
+- salvage
+- robot news
+title: Homebuild Electric Vehicles
 ---
 
 EVs (Electric Vehicles) as sold by manufacturers are either unsightly, branded as deathtraps, or pretty wasteful in terms of manufacturing standards. However, one bright young chap in Michigan, US has been busy building or converting some of his own EVs.

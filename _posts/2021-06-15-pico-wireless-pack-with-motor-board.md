@@ -1,32 +1,40 @@
 ---
-layout: post
-title: "Raspberry Pi Pico Wireless pack and Motors"
-description: "Using CircuitPython, Raspberry Pi Pico, Pimoroni wireless Pack and Kitronic Motor Board Together"
-category: "robot building"
-tags: [raspberry pi pico, robot building, electronics, esp32, python, circuitpython]
-gallery:
-    - file: bare-basics-fritzing.png
-      title: Bare basics fritzing wiring
-    - file: moving-cs-pin.png
-      title: The board after moving the esp CS pin
-    - file: real-wiring-for-pico-wireless-pack.jpeg
-      title: Real wiring for the wireless pack
-    - file: single-motor-wiring-kitronic-pico-motor.jpeg
-      title: The single motor wiring for the Kitronic Pico Motor board plus Wireless Pack
-    - file: multimeter-in-20v-range.jpeg
-      title: Uni-T UT50A Multimeter in DC 20 V Range
-    - file: multimeter-probing-power.jpeg
-      title: Probing power on the Kitronic Pico Motor Board
-    - file: multimeter-in-continuity-mode.jpeg
-      title: Uni-T UT50A Multimeter in Continuity Mode
-    - file: continuity-probing-motor-connections.jpeg
-      title: Using multimeter to probe continuity - checking motor connections
-    - file: adding-4xaa-battery-box.jpeg
-      title: Adding a 4xAA battery box to the Raspberry pi Pico and Kitronic Motor Board
-    - file: kitronic-pico-motor-board-with-2-motors.jpeg
-      title: 2 motors wired into the Kitronic Pico Motor Board
 asset_dir: galleries/2021/06-15-pico-wireless-pack-with-motor-board
+category: robot building
+date: '2021-06-15'
+description: Using CircuitPython, Raspberry Pi Pico, Pimoroni wireless Pack and Kitronic
+  Motor Board Together
+gallery:
+- file: bare-basics-fritzing.png
+  title: Bare basics fritzing wiring
+- file: moving-cs-pin.png
+  title: The board after moving the esp CS pin
+- file: real-wiring-for-pico-wireless-pack.jpeg
+  title: Real wiring for the wireless pack
+- file: single-motor-wiring-kitronic-pico-motor.jpeg
+  title: The single motor wiring for the Kitronic Pico Motor board plus Wireless Pack
+- file: multimeter-in-20v-range.jpeg
+  title: Uni-T UT50A Multimeter in DC 20 V Range
+- file: multimeter-probing-power.jpeg
+  title: Probing power on the Kitronic Pico Motor Board
+- file: multimeter-in-continuity-mode.jpeg
+  title: Uni-T UT50A Multimeter in Continuity Mode
+- file: continuity-probing-motor-connections.jpeg
+  title: Using multimeter to probe continuity - checking motor connections
+- file: adding-4xaa-battery-box.jpeg
+  title: Adding a 4xAA battery box to the Raspberry pi Pico and Kitronic Motor Board
+- file: kitronic-pico-motor-board-with-2-motors.jpeg
+  title: 2 motors wired into the Kitronic Pico Motor Board
+layout: post
+tags:
+- raspberry pi pico
+- robot building
+- electronics
+- esp32
+- python
+- circuitpython
 thumbnail: /galleries/2021/06-15-pico-wireless-pack-with-motor-board/thumbnails/bare-basics-fritzing.png
+title: Raspberry Pi Pico Wireless pack and Motors
 ---
 Pimoroni have a wireless pack for Raspberry Pi Pico. This adds wifi capability with an ESP32 (and possibly bluetooth, more on that later). Wifi capability is great because it means I can teleoperate (remote drive) my robots, even if it's just starting behaviors. In [Learn Robotics Programming](http://packt.live/2XccaKe) I have a chapter showing how to crate a nice web interface and remote camera/driving app to take advantage of Raspberry Pi 3a+ wifi. It's something I've taken to adding to most of my robots. But what about Pico robots?
 

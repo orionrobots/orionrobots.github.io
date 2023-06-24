@@ -1,8 +1,16 @@
 ---
+date: '2012-05-22'
+description: A Lego enclosure for an Arduino, with a Lego Technic feel.
 layout: post
+tags:
+- arduino
+- lego
+- enclosure
+- case
+- lego technic
+- lego mindstorms
+- robotics at home
 title: Arduino Lego Enclosure
-tags: [arduino, lego, enclosure, case, lego technic, lego mindstorms, robotics at home]
-description: "A Lego enclosure for an Arduino, with a Lego Technic feel."
 ---
 I've been spending far more time with Arduino based robots, and far less time with Lego, but I have been wondering about interfacing the Arduino, with it's many interfacing capabilities, with Lego.
 

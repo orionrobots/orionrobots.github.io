@@ -1,7 +1,14 @@
 ---
-title: The Pico Cricket - Education Robotics Controller
-tags: [lego, mindstorms, robot building, education, robot news, MIT]
+date: '2006-08-31'
 layout: post
+tags:
+- lego
+- mindstorms
+- robot building
+- education
+- robot news
+- MIT
+title: The Pico Cricket - Education Robotics Controller
 ---
 The same minds that created the Lego Mindstorms range, have now come up with an electronic device and kit designed for creative and interactive electronic art. Exactly the kind of project that might appeal to the makers and hardware hackers.
 <div style="width: 20%; float: right;"><img alt="PicoCricket Code Sample, courtesy of PicoCricket.com" src="/galleries/gallery-6-orions-images/390-press-sample-code-thumb.gif" height="150" width="120" /></div>

@@ -1,14 +1,20 @@
 ---
-layout: post
-title: "Freecad Assembly4 File Link"
-description: "Fixing linked objects in FreeCAD assembly4 after moving files"
-category: "robot building"
-tags: [freecad, robot building, cad, python, programming]
-gallery:
-    - file: freecad-assembly4-broken-link.png
-      title: FreeCAD Assembly4 Broken Link
 asset_dir: galleries/2021/07-24-freecad-assembly-link-issue
+category: robot building
+date: '2021-07-24'
+description: Fixing linked objects in FreeCAD assembly4 after moving files
+gallery:
+- file: freecad-assembly4-broken-link.png
+  title: FreeCAD Assembly4 Broken Link
+layout: post
+tags:
+- freecad
+- robot building
+- cad
+- python
+- programming
 thumbnail: /galleries/2021/07-24-freecad-assembly-link-issue/thumbnails/freecad-assembly4-broken-link.png
+title: Freecad Assembly4 File Link
 ---
 
 When using FreeCAD's assembly4 workbench, have you seen broken object links after moving a file? Here's how I came across the issue, diagnosed it and a fix for it.

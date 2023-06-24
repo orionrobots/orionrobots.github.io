@@ -1,11 +1,20 @@
 ---
-layout: post
-title: Raspberry Pi Pico with the VL53L0x Distance sensor
-description: >-
-  Get an optical laser based distance sensors or two working with the Raspberry
+date: '2021-04-28'
+description: Get an optical laser based distance sensors or two working with the Raspberry
   Pi Pico
-tags: [raspberry pi,raspberry pi pico,raspberry pi pico projects,micropython,programming,electronics,microcontroller,sensors,learn robotics at home]
+layout: post
 published: true
+tags:
+- raspberry pi
+- raspberry pi pico
+- raspberry pi pico projects
+- micropython
+- programming
+- electronics
+- microcontroller
+- sensors
+- learn robotics at home
+title: Raspberry Pi Pico with the VL53L0x Distance sensor
 using_mathjax: false
 ---
 This weekend, I got an optical laser based distance sensors or two working with the Raspberry Pi Pico with Micropython. I managed to get a single one working, after some frustration with the XSHUT pin, and then I managed to get 2 of the devices working. Some GPIO trickery with the XSHUT pin, and there are multiple VL53L0x sensors working.

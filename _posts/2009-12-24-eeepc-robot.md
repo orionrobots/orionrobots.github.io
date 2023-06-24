@@ -1,15 +1,16 @@
 ---
-layout: post
-title: EEE PC Robot build
-description: Building a robot with AN Eee PC
-category: robot building
-tags:
-  - robot building
-gallery:
-  - file: eeebot_24122009_076.jpg
-    title: EEEPc Based Robot
 asset_dir: galleries/2009/12/eeepc-bot
+category: robot building
+date: '2009-12-24'
+description: Building a robot with AN Eee PC
+gallery:
+- file: eeebot_24122009_076.jpg
+  title: EEEPc Based Robot
+layout: post
+tags:
+- robot building
 thumbnail: /galleries/2009/12/eeepc-bot/thumbnails/eeebot_24122009_076.jpg
+title: EEE PC Robot build
 ---
 The ASUS Eee PC is a small netbook laptop, which seemed about the right size to balance on a medium robot. The Aurorans, a London based gathering of robot builders, suggested that the participants start building a robot. I thought this was a great opportunity to try this out in practice.
 

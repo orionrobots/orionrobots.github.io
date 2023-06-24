@@ -1,7 +1,14 @@
 ---
+date: '2011-03-12'
 layout: post
+tags:
+- robots
+- robot building
+- gift guide
+- kids
+- education
+- lego
 title: Robot Kits - Gifts For Kids Guide 2011
-tags: [robots, robot building, gift guide, kids, education, lego]
 ---
 ![The Cybot, Hyper peppy robot, and a Lego Mindstorms robot. Currently the Cybot is being tweaked.](/galleries/2011-03-12-robot-kits-for-kids-2011/4200652_f260.jpg){:class="img-responsive"}
 

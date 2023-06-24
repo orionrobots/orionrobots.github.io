@@ -1,7 +1,13 @@
 ---
-title: Servicing The Lego Mindstorms RCX 1.0
-tags: [lego, electronics, lugnet, mindstorms, rcx]
+date: '2006-12-03'
 layout: post
+tags:
+- lego
+- electronics
+- lugnet
+- mindstorms
+- rcx
+title: Servicing The Lego Mindstorms RCX 1.0
 ---
 I have recently found a page on servicing the Lego RCX 1.0 supplied with the Lego Mindstorms RIS kit.
 

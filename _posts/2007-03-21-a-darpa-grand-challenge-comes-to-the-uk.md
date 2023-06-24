@@ -1,6 +1,11 @@
 ---
+date: '2007-03-21'
 layout: post
-tags: [darpa, robot news, grand challenge, uav]
+tags:
+- darpa
+- robot news
+- grand challenge
+- uav
 title: A Grand Challenge comes to the UK!
 ---
 The UK Ministry Of Defence (MoD) have decided to take a leaf from the DARPA book, and created their own grand challenge.

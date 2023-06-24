@@ -1,14 +1,18 @@
 ---
-layout: post
-title: "Arduino tinkerings"
-description: "Tinkering with Arduino and LoginWay PIC-01 Board"
-category: "robot building"
-tags: [arduino, electronics, robot building]
-gallery:
-    - file: 25012011148.jpg
-      title: Arduino UNO wired into LoginWay PIC01 Board
 asset_dir: galleries/2011
+category: robot building
+date: '2011-01-22'
+description: Tinkering with Arduino and LoginWay PIC-01 Board
+gallery:
+- file: 25012011148.jpg
+  title: Arduino UNO wired into LoginWay PIC01 Board
+layout: post
+tags:
+- arduino
+- electronics
+- robot building
 thumbnail: /galleries/2011/thumbnails/25012011148.jpg
+title: Arduino tinkerings
 ---
 The Loginway PIC-01 board is a handy board for developing microcontroller projects. By it's name, it's clearly intended for a microchip PIC. It has LEDs, buttons, a serial port, potentiometer, LCD screen (hitachi type interface) and a big chunk of breadboard. Great for just trying out bits of code and learning microcontroller stuff with.
 

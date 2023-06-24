@@ -1,11 +1,12 @@
 ---
+date: '2008-01-27'
 layout: post
-title: Awesome Robot Hacked Together With Chumby and Gaffa Tape
 tags:
-  - chumby
-  - robotics events
-  - robot building
-  - robot news
+- chumby
+- robotics events
+- robot building
+- robot news
+title: Awesome Robot Hacked Together With Chumby and Gaffa Tape
 ---
 
 <div style="text-align: left;">
