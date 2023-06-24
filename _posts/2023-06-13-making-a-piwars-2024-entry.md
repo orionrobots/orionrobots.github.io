@@ -3,6 +3,7 @@ layout: post
 title: Making a PiWars 2024 Entry - The Entry Form
 description: We are entering Piwars 2024!
 tags: [robotics at home, robot building, raspberry pi, robotics competitions, rover]
+thumbnail: /galleries/2019/03/piwars_tracked_robot/2019-03-23-big-ole-yellow-sensors-on-face.jpg
 date: 2023-06-13T19:28:00.000Z
 ---
 [Piwars 2024 - Disaster Zone](https://piwars.org/2024-disaster-zone) was recently announced by the PiWars team, and we've decided to make an entry.

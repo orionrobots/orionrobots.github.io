@@ -21,10 +21,7 @@ theme:
     <meta name="google-site-verification" content="UOzBed7gLBf1xSDPmxw3r4UGsKv1KcTacRUpEwSLA9g" />
     <link rel="shortcut icon" href="{{ ASSET_PATH }}/images/orion_favicon.png" />
 
-    {% if page.lead_image %}
-    <meta property="og:image" content="{{ page.lead_image }}" />
-    <meta name="twitter:image" content="{{ page.lead_image }}" />
-    {% elsif page.thumbnail %}
+    {% if page.thumbnail %}
     <meta property="og:image" content="{{ page.thumbnail }}" />
     <meta name="twitter:image" content="{{ page.thumbnail }}" />
     {% else %}

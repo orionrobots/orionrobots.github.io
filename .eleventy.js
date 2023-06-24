@@ -102,8 +102,12 @@ module.exports = function(eleventyConfig) {
 	});
 
     eleventyConfig.addShortcode("thumbnail_for_post", async function(post) {
-        const imageSrc = stripLeadingSlash(getPostThumbnail(post));
-        if (imageSrc == "assets/images/placeholder.png" || imageSrc.includes("amazon-adsystem") || !fs.existsSync(imageSrc)) {
+        const thumbnailUrl = getPostThumbnailUrl(post);
+        if(thumbnailUrl == undefined) {
+            return "";
+        }
+        const imageSrc = stripLeadingSlash(thumbnailUrl);
+        if ( imageSrc.includes("amazon-adsystem") || !fs.existsSync(imageSrc)) {
             return "";
         } else {
             // console.log("Generating thumbnail for " + imageSrc);
@@ -131,12 +135,9 @@ module.exports = function(eleventyConfig) {
     eleventyConfig.addFilter("with_titles", items => {
         return items.filter(item => "title" in item.data);
     });
-    // Shortcode to get link to thumbnail image for a post
-    // eleventyConfig.addShortcode("thumbnail", post => getPostThumbnail(post));
-    eleventyConfig.addFilter("thumb", post => getPostThumbnail(post));
     // TODO: Make a bit more efficient
     eleventyConfig.addFilter("has_thumbnail", post =>
-        getPostThumbnail(post) != "/assets/images/placeholder.png");
+        getPostThumbnailUrl(post) != undefined);
 
     // Liquid filter to convert a date to a string
     eleventyConfig.addLiquidFilter("date_to_string", function(date) {
@@ -278,19 +279,9 @@ function findExcerptEnd(content, skipLength = 0) {
     return paragraphEnd;
 }
 
-function getPostThumbnail(post) {
+function getPostThumbnailUrl(post) {
     if ("thumbnail" in post.data) {
         return post.data.thumbnail;
-    } else {
-        // find the first image in the post
-        const content = post.content;
-        const imageRegex = /<img[^>]*src="([^"]*)"[^>]*>/g;
-        const match = imageRegex.exec(content);
-        if (match) {
-            return match[1];
-        } else {
-            return "/assets/images/placeholder.png";
-        }
     }
 }
 
