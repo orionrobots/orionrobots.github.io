@@ -1,8 +1,7 @@
 ---
-layout: post
 title: What electronics did I use in the PiWars 2019 Metal Chassis Robot
 description: Electronics in the robot for Piwars 2024
-tags: [piwars, robotics at home, electronics, big ole yellow, robot building]
+tags: [piwars, robotics at home, electronics, big ole yellow, robot building, raspberry pi]
 date: 2023-06-22
 thumbnail: galleries/2023/piwars-robot-info/perma-proto-tidied-up.png
 ---
