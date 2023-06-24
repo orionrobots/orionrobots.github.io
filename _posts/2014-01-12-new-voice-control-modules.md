@@ -1,6 +1,10 @@
 ---
+date: '2014-01-12'
 layout: post
-tags: [orion explorer 1, arduino, voice control]
+tags:
+- orion explorer 1
+- arduino
+- voice control
 title: New Voice Control Modules
 ---
 ![Voice Module](/assets/2014-01-12-new-voice-control-modules/voice-module-close.jpg){:class="img-responsive"}<br />

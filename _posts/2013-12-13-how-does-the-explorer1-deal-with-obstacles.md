@@ -1,7 +1,13 @@
 ---
+date: '2013-12-13'
 layout: post
+tags:
+- distance sensor
+- orion explorer 1
+- orion explorer 1 robot kit
+- robot kit
+- robots
 title: How does the Explorer 1 Robot Deal with Obstacles?
-tags: [distance sensor, orion explorer 1, orion explorer 1 robot kit, robot kit, robots]
 ---
 A customer recently asked if the robot would be able to drive over obstacles - like door plinths, and if it could cross gaps. The only good way to answer this was to try it out - so I did.
 

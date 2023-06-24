@@ -1,7 +1,13 @@
 ---
+date: '2013-12-23'
 layout: post
+tags:
+- maker
+- orion explorer 1
+- robot building
+- robot kit
+- technology
 title: All Our Robots are User Serviceable!
-tags: [maker, orion explorer 1, robot building, robot kit, technology]
 ---
 <img src="/assets/2013-12-23-all-our-robots-are-user-serviceable/StylisedRobot_medium.png" style="margin-right: 4px; float: left;" />Orionrobots has always been about self learning and building your own stuff. Our robot kits are designed for you to build which has the knock on effect that you already know how some repairs can be made. Too many products have "no user serviceable parts inside" - something which makes you feel like this device is not really yours and you just have it on loan until it breaks - where you may be able to pay someone to fix it, or worse still, have to dispose of it and get a new one. This is both wasteful and disempowering.
 

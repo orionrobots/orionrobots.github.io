@@ -1,7 +1,16 @@
 ---
-title: Bluetooth with the Orionrobots Orion Explorer 1 Robot
+date: '2013-11-30'
 layout: post
-tags: [arduino,arduino kit,bluetooth,orion explorer 1,robot building,robot kit,robot toy,robotics]
+tags:
+- arduino
+- arduino kit
+- bluetooth
+- orion explorer 1
+- robot building
+- robot kit
+- robot toy
+- robotics
+title: Bluetooth with the Orionrobots Orion Explorer 1 Robot
 ---
 How do you combine an Arduino robot with a Bluetooth module? We've built a kit based on this, and played with it in the Orionrobots lab.
 

@@ -1,7 +1,11 @@
 ---
+date: '2014-02-09'
 layout: post
+tags:
+- cnc projects
+- electronics
+- control board
 title: Close Up Of CNC Disaster
-tags: [cnc projects, electronics, control board]
 ---
 ![Blown FET]({{ site.baseurl }}/galleries/2014-02-09-cnc-board/destroyed_fet.jpg)
 

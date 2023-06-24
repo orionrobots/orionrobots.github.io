@@ -1,7 +1,15 @@
 ---
+date: '2013-04-02'
 layout: post
+tags:
+- arduino
+- arduino kit
+- distance sensor
+- orion explorer 1
+- robot
+- robot building
+- robotics
 title: The Orion Explorer 1 Robot with Distance Sensors
-tags: [arduino, arduino kit, distance sensor, orion explorer 1, robot, robot building, robotics]
 ---
 I've now got some footage of the Explorer 1 using a pair of sonar distance modules (HC-SR04's) to avoid walls and drive around the floor. This is just experimentation, so they are mounted with sticky tac, and wired in with some odd bit of breadboard I had, but it was working brilliantly here. The robot has an Arduino and uses AA batteries.
 

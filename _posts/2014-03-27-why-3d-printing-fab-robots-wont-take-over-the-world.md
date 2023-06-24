@@ -1,7 +1,13 @@
 ---
-title: Why 3d printing robots wont take over the world
-tags: [3d printing, robot news, cnc news, fabrication, replicators]
+date: '2014-03-27'
 layout: post
+tags:
+- 3d printing
+- robot news
+- cnc news
+- fabrication
+- replicators
+title: Why 3d printing robots wont take over the world
 ---
 <img src="/galleries/unboxing_pictures/thumbnails/img_3023.jpg" alt="A CNC Fabrication Machine" style="float: left">The most interesting robots for me are those involved in exploration, fabrication and repair.
 Fabrication and repair systems, like the 3d printers, CNC machines, automatic pick and place robots are basically all variations on printers and plotters.
