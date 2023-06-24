@@ -9,5 +9,5 @@ gallery:
     - file: <first>.jpg
       title: <jpg description>
 asset_dir: galleries/<year>/<mm-dd-post name>
-thumb: /galleries/<year>/<mm-dd-post name>/thumbnails/<first>.jpg
+thumbnail: /galleries/<year>/<mm-dd-post name>/thumbnails/<first>.jpg
 ---

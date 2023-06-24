@@ -24,9 +24,9 @@ theme:
     {% if page.lead_image %}
     <meta property="og:image" content="{{ page.lead_image }}" />
     <meta name="twitter:image" content="{{ page.lead_image }}" />
-    {% elsif page.thumb %}
-    <meta property="og:image" content="{{ page.thumb }}" />
-    <meta name="twitter:image" content="{{ page.thumb }}" />
+    {% elsif page.thumbnail %}
+    <meta property="og:image" content="{{ page.thumbnail }}" />
+    <meta name="twitter:image" content="{{ page.thumbnail }}" />
     {% else %}
     <meta property="og:image" content="{{ ASSET_PATH }}/images/social-banner.jpg" />
     <meta name="twitter:image" content="{{ ASSET_PATH }}/images/social-banner.jpg" />

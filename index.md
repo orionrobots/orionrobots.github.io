@@ -3,7 +3,7 @@ layout: index
 title: Welcome to Orionrobots
 pin_links:
   - image: /galleries/2023/Robotics-at-Home-with-Raspberry-Pi-Pico-banner-2048.png
-    thumb: /galleries/2023/Robotics-at-Home-with-Raspberry-Pi-Pico-banner-2048.png
+    thumbnail: /galleries/2023/Robotics-at-Home-with-Raspberry-Pi-Pico-banner-2048.png
     description: Learn to build and Program Robots using Robotics at Home with Raspberry Pi Pico
     link: https://www.amazon.com/Robotics-Home-Raspberry-Pi-Pico/dp/1492079941
 tags: [robot building, robotics at home, making robots]
