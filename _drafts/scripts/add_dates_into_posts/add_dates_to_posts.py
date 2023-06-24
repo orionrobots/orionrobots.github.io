@@ -43,7 +43,7 @@ def read_file_content(path_to_post):
     with open(path_to_post, 'r') as f:
         raw_data = f.read()
     # split into front matter and content
-    documents = raw_data.split("---\n")
+    documents = raw_data.split("---\n", 3)
     if len(documents) != 3:
         print(f"Skipping {path_to_post} - not MD with front matter")
         return
@@ -65,7 +65,7 @@ def load_front_matter(path_to_post):
     with open(path_to_post, 'r') as f:
         raw_data = f.read()
     # split into front matter and content
-    documents = raw_data.split("---\n")
+    documents = raw_data.split("---\n", 3)
     if len(documents) != 3:
         print(f"Skipping {path_to_post} - not MD with front matter")
         return
@@ -76,6 +76,8 @@ def load_front_matter(path_to_post):
 def process_post(path_to_post):
     # Load the front matter
     front_matter = load_front_matter(path_to_post)
+    if front_matter is None:
+        return
     if 'date' in front_matter:
         print(f"Skipping {path_to_post} - already has date")
         return

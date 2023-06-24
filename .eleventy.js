@@ -162,6 +162,9 @@ module.exports = function(eleventyConfig) {
             if (!(year in groups)) {
                 groups[year] = [];
             }
+            if (!("date" in item.data)) {
+                console.warn("Using implied date for item: " + item.inputPath);
+            }
             if (!("title" in item.data)) {
                 console.log("No title in item: " + item.inputPath);
             }
