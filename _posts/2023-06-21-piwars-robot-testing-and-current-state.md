@@ -2,7 +2,7 @@
 layout: post
 title: Current state of the 2024 PiWars robot
 description: Assessing the robot I'll be entering into PiWars 2024
-tags: [robotics at home, robot building, raspberry pi, robotics competitions, rover]
+tags: [robotics at home, robot building, raspberry pi, robotics competitions, rover, piwars]
 thumbnail: galleries/2023/piwars-robot-info/piwars-robot-power-pack.JPG
 date: 2023-06-21
 ---

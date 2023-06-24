@@ -8,7 +8,7 @@ gallery:
     - file: freecad-assembly4-broken-link.png
       title: FreeCAD Assembly4 Broken Link
 asset_dir: galleries/2021/07-24-freecad-assembly-link-issue
-thumb: /galleries/2021/07-24-freecad-assembly-link-issue/thumbnails/freecad-assembly4-broken-link.png
+thumbnail: /galleries/2021/07-24-freecad-assembly-link-issue/thumbnails/freecad-assembly4-broken-link.png
 ---
 
 When using FreeCAD's assembly4 workbench, have you seen broken object links after moving a file? Here's how I came across the issue, diagnosed it and a fix for it.

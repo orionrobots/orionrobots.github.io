@@ -8,7 +8,7 @@ tags:
   - robot building
   - build robots at home
   - making a robot at home
-thumb: /galleries/two_new_chassis_plates_thumb.jpeg
+thumbnail: /galleries/two_new_chassis_plates_thumb.jpeg
 lead_image: /galleries/two_new_chassis_plates.jpg
 ---
 Today I've cut two more styrene chassis plates for building the robot rover from [Robotics at Home with Raspberry Pi Pico](https://amzn.to/3FaTjFW).

@@ -10,7 +10,7 @@ tags:
   - build a robot at home
   - robot building
 category: robot-books
-thumb: /galleries/learn-robotics-programming-books-with-robot_thumb.png
+thumbnail: /galleries/learn-robotics-programming-books-with-robot_thumb.png
 ---
 I have now finished writing my upcoming robotics book, "Robotics at Home with Raspberry Pi Pico". It is now going to print, available from the 17th of March, 2023.
 

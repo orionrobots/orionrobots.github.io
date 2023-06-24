@@ -5,7 +5,7 @@ tags: [east finchley robotics club, robot building, robotics, lego]
 title: Round up of the Challenge on Saturday the 2nd April 2005
 layout: post
 gallery_browse: /galleries/2005-04-02-robot-building-challenge-saturday/target
-gallery_thumb: /galleries/2005-04-02-robot-building-challenge-saturday/thumbnails/
+gallery_thumbnail: /galleries/2005-04-02-robot-building-challenge-saturday/thumbnails/
 ---
 On Saturday, as it was the last day for the East Finchley Robotics Club, I decided to go back to basics, and do a challenge that was good fun for the kids.
 

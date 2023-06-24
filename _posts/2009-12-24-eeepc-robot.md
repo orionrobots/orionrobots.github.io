@@ -9,7 +9,7 @@ gallery:
   - file: eeebot_24122009_076.jpg
     title: EEEPc Based Robot
 asset_dir: galleries/2009/12/eeepc-bot
-thumb: /galleries/2009/12/eeepc-bot/thumbnails/eeebot_24122009_076.jpg
+thumbnail: /galleries/2009/12/eeepc-bot/thumbnails/eeebot_24122009_076.jpg
 ---
 The ASUS Eee PC is a small netbook laptop, which seemed about the right size to balance on a medium robot. The Aurorans, a London based gathering of robot builders, suggested that the participants start building a robot. I thought this was a great opportunity to try this out in practice.
 

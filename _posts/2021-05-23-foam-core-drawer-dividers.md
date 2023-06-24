@@ -12,8 +12,9 @@ gallery:
     - file: tools.jpg
       title: Tools for Foam Core Drawer Divider
 asset_dir: galleries/2021/05-23-foam-core-drawer-dividers
-thumb: /galleries/2021/05-23-foam-core-drawer-dividers/thumbnails/drawer-upper-layer.jpg
+thumbnail: /galleries/2021/05-23-foam-core-drawer-dividers/thumbnails/drawer-upper-layer.jpg
 lead_image: /galleries/2021/05-23-foam-core-drawer-dividers/drawer-upper-layer.jpg
+date: 2021-05-23
 ---
 To get better access to tools in my closest drawer, I make dividers with foam core and hot glue.
 read this to see how I made them, what inspired it and perhaps get inspired to try this too.

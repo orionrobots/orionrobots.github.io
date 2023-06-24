@@ -10,7 +10,7 @@ tags:
   - robotics books
   - circuitpython
   - autonomous robots
-thumb: /galleries/robotics_at_home_with_raspberry_pi_pico_cover.jpg
+thumbnail: /galleries/robotics_at_home_with_raspberry_pi_pico_cover.jpg
 lead_image: /galleries/2023-03-18-book-robots-with-rendered-book.jpg
 ---
 📕Today my new book "Robotics at Home with Raspberry Pi Pico" is out 🎉! The last year and a half of work, with research into Raspberry Pi Pico PIO, hand tool chassis build techniques, probability and Monte Carlo has finally paid off with the book available.

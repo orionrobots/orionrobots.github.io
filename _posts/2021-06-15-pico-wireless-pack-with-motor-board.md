@@ -26,7 +26,7 @@ gallery:
     - file: kitronic-pico-motor-board-with-2-motors.jpeg
       title: 2 motors wired into the Kitronic Pico Motor Board
 asset_dir: galleries/2021/06-15-pico-wireless-pack-with-motor-board
-thumb: /galleries/2021/06-15-pico-wireless-pack-with-motor-board/thumbnails/bare-basics-fritzing.png
+thumbnail: /galleries/2021/06-15-pico-wireless-pack-with-motor-board/thumbnails/bare-basics-fritzing.png
 ---
 Pimoroni have a wireless pack for Raspberry Pi Pico. This adds wifi capability with an ESP32 (and possibly bluetooth, more on that later). Wifi capability is great because it means I can teleoperate (remote drive) my robots, even if it's just starting behaviors. In [Learn Robotics Programming](http://packt.live/2XccaKe) I have a chapter showing how to crate a nice web interface and remote camera/driving app to take advantage of Raspberry Pi 3a+ wifi. It's something I've taken to adding to most of my robots. But what about Pico robots?
 

@@ -13,7 +13,7 @@ tags:
   - building robots
   - raspberry pi pico
   - robotics at home
-thumb: /galleries/img_7061_thumb.jpeg
+thumbnail: /galleries/img_7061_thumb.jpeg
 ---
 I am currently tutoring two children in robotics, which means practical and fun lessons ranging among a number of skills:
 

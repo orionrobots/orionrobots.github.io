@@ -9,7 +9,7 @@ tags:
   - raspberry pi
   - raspberry pi pico
   - spi bus
-thumb: /galleries/screenshot-2023-03-05-at-11.03.10-thumbnail.png
+thumbnail: /galleries/screenshot-2023-03-05-at-11.03.10-thumbnail.png
 ---
 ## Background
 
