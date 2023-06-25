@@ -1,5 +1,4 @@
 ---
-category: robot building
 date: '2022-04-08'
 description: Problems with wireless
 layout: post

@@ -1,6 +1,5 @@
 ---
 asset_dir: galleries/2021/07-24-freecad-assembly-link-issue
-category: robot building
 date: '2021-07-24'
 description: Fixing linked objects in FreeCAD assembly4 after moving files
 gallery:

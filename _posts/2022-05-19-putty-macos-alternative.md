@@ -1,5 +1,4 @@
 ---
-category: robot building
 date: '2022-05-19'
 description: PuTTY is no longer working on MacOS
 layout: post

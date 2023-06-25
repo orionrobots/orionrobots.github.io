@@ -30,7 +30,7 @@ You'll be introduced to tools, techniques and materials that you can use to buil
 
 ### Self-tapping screws tip
 
-This is a tip picked up from [Real Robots](/wiki/real_robots.html "Real Robots").
+This is a tip picked up from [Real Robots Magazine](/wiki/real_robots.html "Real Robots").
 When using self-tapping screws, it helps to perform a quarter turn back towards the end to loosen away swarf (excess material) before continuing to avoid stiffness.
 
 ### DIP IC Sockets

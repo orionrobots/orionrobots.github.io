@@ -1,6 +1,5 @@
 ---
 author: Danny Staple
-category: null
 date: '2019-09-10'
 description: My view and review of the EevBlog
 layout: post

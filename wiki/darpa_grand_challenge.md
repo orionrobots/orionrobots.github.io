@@ -1,7 +1,7 @@
 ---
 layout: page
 title: DARPA Grand Challenge
-tag: [robotics, robot news]
+tags: [robotics, robot news]
 date: 2005-10-08 22:33:05
 ---
 This is a challenge by [DARPA](/wiki/darpa.html "Defense Advanced Research Projects Agency") for races of [AGV's](/wiki/agv.html "Automated Guided Vehical") across stretches of the US.

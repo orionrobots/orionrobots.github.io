@@ -1,5 +1,4 @@
 ---
-category: robot building
 date: '2022-02-08'
 description: Quick tips for Raspberry Pi Pico
 layout: post
@@ -8,6 +7,7 @@ tags:
 - robot building
 - rp2040
 - electronics
+- robotics at home
 title: Raspberry Pi Pico USB tip
 ---
 If you are doing a lot of programming with the Raspberry Pi Pico, especially with a mobile platform like a robot, then you will be frequently unplugging your Pico.

@@ -1,5 +1,4 @@
 ---
-category: null
 date: '2021-02-11'
 description: Announcement Video For Learn Robotics Programming Second Edition
 layout: post
@@ -13,6 +12,7 @@ tags:
 - electronics
 - computer vision
 - voice recognition
+- robotics at home
 title: Learn Robotics Programming Second Edition Video Announcement
 ---
 Further to my recent announcements about the publication of my book, [Learn Robotics Programming second edition](http://packt.live/2XccaKe) I have made a video talking about the books features, showing demonstrations of the robot you'll build in action.

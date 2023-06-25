@@ -1,5 +1,4 @@
 ---
-category: electronics
 date: '2021-03-06'
 description: ''
 layout: post

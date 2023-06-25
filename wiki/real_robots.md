@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Real Robots Magazine
-tasg: [robots, electronics]
+tags: [robots, electronics]
 date: 2005-02-24 12:39:47
 ---
 A partwork series of magazines from which you build the [Cybot](/wiki/cybot.html "Cybot").

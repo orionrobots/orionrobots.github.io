@@ -1,6 +1,5 @@
 ---
 asset_dir: galleries/2021/06-15-pico-wireless-pack-with-motor-board
-category: robot building
 date: '2021-06-15'
 description: Using CircuitPython, Raspberry Pi Pico, Pimoroni wireless Pack and Kitronic
   Motor Board Together

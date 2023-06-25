@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Hitachi
-tag: [robots]
+tags: [robots]
 date: 2005-03-17 15:29:16
 ---
 Hitachi are probably best known for their consumer electronics division, although they do have a strong presence in [Robotics](/wiki/robotic.html "Robotic").

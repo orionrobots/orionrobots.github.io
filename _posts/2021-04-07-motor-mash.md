@@ -1,11 +1,11 @@
 ---
-category: robot building
 date: '2021-04-07'
 description: Motor Mash - N20 to TT Motor Adaptor - handy for Learn Robotics Programming
   Second Edition
 layout: post
 tags:
 - robotics
+- robot building
 - piwars
 - 3d printing
 - raspberry pi

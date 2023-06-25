@@ -1,6 +1,5 @@
 ---
 asset_dir: galleries/2011
-category: robot building
 date: '2011-01-22'
 description: Tinkering with Arduino and LoginWay PIC-01 Board
 gallery:
@@ -11,6 +10,7 @@ tags:
 - arduino
 - electronics
 - robot building
+- robotics at home
 thumbnail: /galleries/2011/thumbnails/25012011148.jpg
 title: Arduino tinkerings
 ---
