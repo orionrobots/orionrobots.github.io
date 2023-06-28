@@ -62,13 +62,17 @@ module.exports = function(eleventyConfig) {
         return new CleanCSS({}).minify(code).styles;
     });
 
-    eleventyConfig.addShortcode("image", async function(src, alt, sizes) {
-        let metadata = await Image(src, {
+    async function fetch_image(src) {
+        return await Image(src, {
             widths: [300, 400, 600, 900, 1200, 1800, 2400],
             formats: ["avif", "jpeg", "png"],
             urlPath: "/assets/images/",
             outputDir: "./_site/assets/images/"
         });
+    }
+
+    eleventyConfig.addShortcode("image", async function(src, alt, sizes) {
+        let metadata = await fetch_image(src);
 
 		let imageAttributes = {
 			alt,
@@ -81,13 +85,27 @@ module.exports = function(eleventyConfig) {
 		return Image.generateHTML(metadata, imageAttributes);
 	});
 
+    eleventyConfig.addShortcode("img_responsive", async function(src, alt) {
+        let metadata = await fetch_image(src);
+
+		let imageAttributes = {
+			alt,
+			sizes: "720, 940, 1140, 1280, 2048",
+            class: "img-responsive",
+			loading: "lazy",
+			decoding: "async",
+		};
+
+		// You bet we throw an error on a missing alt (alt="" works okay)
+		return Image.generateHTML(metadata, imageAttributes);        
+    });
+
     eleventyConfig.addShortcode("image_with_class", async function(src, alt, sizes, class_names) {
-        let metadata = await Image(src, {
-            widths: [300, 400, 600, 900, 1200, 1800, 2400],
-            formats: ["avif", "jpeg", "png"],
-            urlPath: "/assets/images/",
-            outputDir: "./_site/assets/images/"
-        });
+        let metadata = await fetch_image(src);
+
+        if (sizes==undefined || sizes=="_") {
+            sizes="720, 940, 1140, 1280, 2048";
+        }
 
 		let imageAttributes = {
 			alt,

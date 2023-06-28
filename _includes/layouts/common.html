@@ -22,8 +22,8 @@ theme:
     <link rel="shortcut icon" href="{{ ASSET_PATH }}/images/orion_favicon.png" />
 
     {% if thumbnail %}
-    <meta property="og:image" content="{{ thumbnail }}" />
-    <meta name="twitter:image" content="{{ thumbnail }}" />
+    <meta property="og:image" content="/{{ thumbnail }}" />
+    <meta name="twitter:image" content="/{{ thumbnail }}" />
     {% else %}
     <meta property="og:image" content="{{ ASSET_PATH }}/images/social-banner.jpg" />
     <meta name="twitter:image" content="{{ ASSET_PATH }}/images/social-banner.jpg" />
