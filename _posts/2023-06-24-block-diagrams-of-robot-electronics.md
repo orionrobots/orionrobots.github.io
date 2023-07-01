@@ -2,7 +2,7 @@
 date: 2023-06-24
 title: Block Diagrams of Electronics for the Piwars 2024 Robot
 description: Block diagrams of the electronics for the Piwars 2024 robot
-tags: [piwars, robotics at home, electronics, big ole yellow, robot building, raspberry pi]
+tags: [piwars, robotics at home, piwars 2024, electronics, big ole yellow, robot building, raspberry pi]
 thumbnail: galleries/2023/piwars-robot-info/block-diagram.excalidraw.png
 ---
 Today I took the diagrams I made over the past few days and put them into a block diagram. I used [Excalidraw](https://excalidraw.com/) to make the diagram.

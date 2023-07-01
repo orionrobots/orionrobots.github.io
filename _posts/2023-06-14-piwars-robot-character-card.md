@@ -2,7 +2,7 @@
 layout: post
 title: Specification card for my PiWars 2024 entry
 description: A look at the robot I'll be entering into PiWars 2024
-tags: [robotics at home, robot building, raspberry pi, robotics competitions, rover, robot building, piwars]
+tags: [robotics at home, robot building, piwars 2024, raspberry pi, robotics competitions, rover, robot building, piwars]
 date: 2023-06-14T20:51:00.000Z
 thumbnail: galleries/2023/piwars-robot-info/2023-big-ole-yellow-robot-card.png
 ---
