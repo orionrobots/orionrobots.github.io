@@ -239,3 +239,15 @@ h2 {
   width:  16px;
   height: 16px;
 }
+
+footer {
+  margin-top: 4px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  margin-left: calc(var(--bs-gutter-x) * -0.5);
+  margin-right: calc(var(--bs-gutter-x) * -0.5);
+  padding-left: calc(var(--bs-gutter-x) * 0.5);
+  padding-right: calc(var(--bs-gutter-x) * 0.5);
+  background-color: #151514;
+  color: white;
+}
