@@ -14,3 +14,5 @@ The purple blocks are the Raspberry Pi (a 3a+) and 4Duino Pro with the i2c link 
 In orange are the sensor blocks, showing which controller connects to them. I2c for the line sensor connected to the 4Duino, and the encoders connect to it using simple digital pins. The ultrasonic distance sensors are connected to the Pi using the GPIO pins, and there's a camera connected to the Raspberry Pi too.
 
 The green circles are the motors, with the 4Duino's on board motor controller driving them. This is a map of what it should be doing now. Next I can add some batteries to it and power it all up.
+
+[See the rest of my 2024 piwars blogs](/tags/piwars-2024/)

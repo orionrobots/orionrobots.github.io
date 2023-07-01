@@ -67,3 +67,5 @@ pi@orionrobots-piwars-2019:~ $ i2cdetect -y 1
 ```
 
 Hmm - nothing - not good. I disconnected the batteries immediately, time to use the multimeter to check the wiring, but not before shutting down the Raspberry Pi with `sudo poweroff`. It's multimeter time! However, out of time today, so I'll have to come back to this tomorrow.
+
+[See the rest of my 2024 piwars blogs](/tags/piwars-2024/)

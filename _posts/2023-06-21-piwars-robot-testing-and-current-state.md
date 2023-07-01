@@ -39,3 +39,5 @@ After 24 hours, it charged to the full 4 lights, so this power pack is still goo
 ## Next Steps
 
 Tomorrow I want to get into the electronics on this robot. I'll verify them and the connections before trying to turn any of it on.
+
+[See the rest of my 2024 piwars blogs](/tags/piwars-2024/)

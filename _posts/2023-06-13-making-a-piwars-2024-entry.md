@@ -89,3 +89,5 @@ My student has never been though.
 ## Additional information to add to your application
 
 We are looking forward to competing, and hope to see you there!
+
+[See the rest of my 2024 piwars blogs](/tags/piwars-2024/)

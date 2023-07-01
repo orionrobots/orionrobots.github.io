@@ -40,3 +40,5 @@ I found it helpful also to make tables for the connectors:
 {% image "galleries/2023/piwars-robot-info/2023-4duino-protoboard-connectors.png","2023 table for the connectors on the protoboard on the Piwars robot", "720, 940, 1140" %}
 
 These are a start to understanding what I'd built. However, tomorrow I think I'll build schematics in Kicad and block diagrams to make it easy to explain the blocks here - it's not that complicated at that view.
+
+[See the rest of my 2024 piwars blogs](/tags/piwars-2024/)

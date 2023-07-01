@@ -57,3 +57,5 @@ This robot has not been powered up for a few years, since 2019. It might work? W
 We want to see if we can reach the Pi, and can still drive the motors, with the camera. This allows me to gauge any repairs, but cross reference this with the list above, so I don't do work that I'd need to undo. I also need to find all the existing code and design files for the robot.
 
 The 3D printed parts were designed in Fusion 360.
+
+[See the rest of my 2024 piwars blogs](/tags/piwars-2024/)
