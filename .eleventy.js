@@ -7,6 +7,9 @@ const Image = require("@11ty/eleventy-img");
 const fs = require('fs');
 const CleanCSS = require("clean-css");
 
+const extractExcerpt = require("./src/shortcodes/extract_excerpt.js");
+const groupByYear = require("./src/filters/group_by_year.js");
+
 const {
     fortawesomeBrandsPlugin,
 } = require('@vidhill/fortawesome-brands-11ty-shortcode');
@@ -21,13 +24,14 @@ module.exports = function(eleventyConfig) {
     eleventyConfig.addPlugin(fortawesomeBrandsPlugin);
 
     //copy through assets
+    eleventyConfig.addPassthroughCopy("admin");
     eleventyConfig.addPassthroughCopy("assets");
     eleventyConfig.addPassthroughCopy("dist");
-    eleventyConfig.addPassthroughCopy("admin");
-    eleventyConfig.addPassthroughCopy({"htaccess": ".htaccess"});
     eleventyConfig.addPassthroughCopy("favicon.png");
-    eleventyConfig.addPassthroughCopy("google5458abc1104b04dd.html");
     eleventyConfig.addPassthroughCopy("galleries/**/*.{jpg,jpeg,JPG,png,gif,svg}");
+    eleventyConfig.addPassthroughCopy("google5458abc1104b04dd.html");
+    eleventyConfig.addPassthroughCopy("js");
+    eleventyConfig.addPassthroughCopy({"htaccess": ".htaccess"});
 
     let $collectionApi = null;
 
@@ -147,8 +151,8 @@ module.exports = function(eleventyConfig) {
     });
 
     // Defines shortcode for generating post excerpts
-    eleventyConfig.addShortcode('excerpt', post => extractExcerpt(post));
-    eleventyConfig.addFilter('excerpt', post => extractExcerpt(post));
+    eleventyConfig.addShortcode('excerpt', extractExcerpt);
+    eleventyConfig.addFilter('excerpt', extractExcerpt);
 
     eleventyConfig.addFilter("with_titles", items => {
         return items.filter(item => "title" in item.data);
@@ -174,29 +178,7 @@ module.exports = function(eleventyConfig) {
 
     eleventyConfig.addFilter("with_explicit_date", items => items.filter(item => "date" in item.data));
 
-    eleventyConfig.addFilter("group_by_year", function(items) {
-        const groups = {};
-        items.forEach(item => {
-            const year = item.date.getFullYear();
-            if (!(year in groups)) {
-                groups[year] = [];
-            }
-            if (!("date" in item.data)) {
-                console.warn("Using implied date for item: " + item.inputPath);
-            }
-            if (!("title" in item.data)) {
-                console.log("No title in item: " + item.inputPath);
-            }
-            groups[year].push(item);
-        });
-        // Convert this into a list, of objects: {year: 2020, items: [...]}
-        const groupList = [];
-        for (const year in groups) {
-            groupList.push({year: year, items: groups[year]});
-        }
-
-        return groupList.sort((a, b) => b.year - a.year);
-    });
+    eleventyConfig.addFilter("group_by_year", groupByYear);
 
     eleventyConfig.addShortcode("log", (value) => console.log(value) );
 
@@ -243,58 +225,6 @@ function getDataFromConfigYaml(key) {
     const config = yaml.load(fs.readFileSync("_config.yml", "utf-8"));
     // Return the menu data
     return config[key];
-}
-
-// Excerpt code from https://github.com/11ty/eleventy/issues/179#issuecomment-413119342 (modified)
-const excerptMinimumLength = 140;
-const excerptSeparator = '\n'
-
-/**
- * Extracts the excerpt from a document.
- *
- * @param {*} doc A real big object full of all sorts of information about a document.
- * @returns {String} the excerpt.
- */
-function extractExcerpt(doc) {
-    if (!'templateContent' in doc) {
-        console.warn('Failed to extract excerpt: Document has no property `templateContent`.');
-        return;
-    }
-    const content = doc.templateContent;
-
-    if (content.includes(excerptSeparator)) {
-        return content.substring(0, content.indexOf(excerptSeparator)).trim();
-    }
-    else if (content.length <= excerptMinimumLength) {
-        return content.trim();
-    }
-
-    const excerptEnd = findExcerptEnd(content);
-
-    return content.substring(0, excerptEnd).trim();
-}
-
-/**
- * Finds the end position of the excerpt of a given piece of content.
- * This should only be used when there is no excerpt marker in the content (e.g. no `<!--more-->`).
- *
- * @param {String} content The full text of a piece of content (e.g. a blog post)
- * @param {Number?} skipLength Amount of characters to skip before starting to look for a `</p>`
- * tag. This is used when calling this method recursively.
- * @returns {Number} the end position of the excerpt
- */
-function findExcerptEnd(content, skipLength = 0) {
-    if (content === '') {
-        return 0;
-    }
-
-    const paragraphEnd = content.indexOf('</p>', skipLength) + 4;
-
-    if (paragraphEnd < excerptMinimumLength) {
-        return paragraphEnd + findExcerptEnd(content.substring(paragraphEnd), paragraphEnd);
-    }
-
-    return paragraphEnd;
 }
 
 function getPostThumbnailUrl(post) {
