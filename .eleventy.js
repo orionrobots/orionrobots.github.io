@@ -4,12 +4,10 @@ const markdownItAttrs = require("markdown-it-attrs");
 const moment = require("moment");
 const slugify = require("slugify");
 const Image = require("@11ty/eleventy-img");
-const fs = require('fs');
 const CleanCSS = require("clean-css");
-
 const extractExcerpt = require("./src/shortcodes/extract_excerpt.js");
 const groupByYear = require("./src/filters/group_by_year.js");
-
+const thumbnails = require("./src/thumbnails.js");
 const {
     fortawesomeBrandsPlugin,
 } = require('@vidhill/fortawesome-brands-11ty-shortcode');
@@ -100,7 +98,6 @@ module.exports = function(eleventyConfig) {
 			decoding: "async",
 		};
 
-		// You bet we throw an error on a missing alt (alt="" works okay)
 		return Image.generateHTML(metadata, imageAttributes);        
     });
 
@@ -123,32 +120,9 @@ module.exports = function(eleventyConfig) {
 		return Image.generateHTML(metadata, imageAttributes);
 	});
 
-    eleventyConfig.addShortcode("thumbnail_for_post", async function(post) {
-        const thumbnailUrl = getPostThumbnailUrl(post);
-        if(thumbnailUrl == undefined) {
-            return "";
-        }
-        const imageSrc = stripLeadingSlash(thumbnailUrl);
-        if ( imageSrc.includes("amazon-adsystem") || !fs.existsSync(imageSrc)) {
-            return "";
-        } else {
-            // console.log("Generating thumbnail for " + imageSrc);
-            const metadata = await Image(imageSrc, {
-                widths: [128, 256, 512],
-                formats: ["avif", "jpeg", "png"],
-                urlPath: "/assets/thumbnails/",
-                outputDir: "./_site/assets/thumbnails/"
-            });
-            const imageAttributes = {
-                alt: post.data.title,
-                sizes: "128, 256",
-                loading: "lazy",
-                decoding: "async",
-                class: "media-object index_post_thumb",
-            };
-            return Image.generateHTML(metadata, imageAttributes);
-        }
-    });
+    // Thumbnails
+    eleventyConfig.addShortcode("thumbnail_for_post", thumbnails.thumbnail_for_post);
+    eleventyConfig.addFilter("has_thumbnail", thumbnails.has_thumbnail);
 
     // Defines shortcode for generating post excerpts
     eleventyConfig.addShortcode('excerpt', extractExcerpt);
@@ -157,14 +131,9 @@ module.exports = function(eleventyConfig) {
     eleventyConfig.addFilter("with_titles", items => {
         return items.filter(item => "title" in item.data);
     });
-    // TODO: Make a bit more efficient
-    eleventyConfig.addFilter("has_thumbnail", post =>
-        getPostThumbnailUrl(post) != undefined);
 
     // Liquid filter to convert a date to a string
-    eleventyConfig.addLiquidFilter("date_to_string", function(date) {
-        return date.toString();
-    });
+    eleventyConfig.addLiquidFilter("date_to_string", date => date.toString() );
 
     // Liquid filter for long date string
     eleventyConfig.addLiquidFilter("date_to_long_string", function(date) {
@@ -172,15 +141,13 @@ module.exports = function(eleventyConfig) {
     });
 
     // Universal filter for jsonify
-    eleventyConfig.addFilter("jsonify", function(value) {
-        return JSON.stringify(value);
-    });
+    eleventyConfig.addFilter("jsonify", JSON.stringify );
 
     eleventyConfig.addFilter("with_explicit_date", items => items.filter(item => "date" in item.data));
 
     eleventyConfig.addFilter("group_by_year", groupByYear);
 
-    eleventyConfig.addShortcode("log", (value) => console.log(value) );
+    eleventyConfig.addShortcode("log", console.log);
 
     // Read the menu data from _config.yml and add it to the global data
     eleventyConfig.addGlobalData("menu", () => getDataFromConfigYaml("menu"));
@@ -225,24 +192,4 @@ function getDataFromConfigYaml(key) {
     const config = yaml.load(fs.readFileSync("_config.yml", "utf-8"));
     // Return the menu data
     return config[key];
-}
-
-function getPostThumbnailUrl(post) {
-    if ("thumbnail" in post.data) {
-        return post.data.thumbnail;
-    }
-}
-
-function stripLeadingSlash(path) {
-    // Check if path starts with "//" (implied https)
-    if (path.startsWith("//")) {
-        return "https:" + path;
-    }
-
-    // Strip leading slash if present
-    if (path.startsWith("/")) {
-        return path.substring(1);
-    }
-
-    return path;
 }
