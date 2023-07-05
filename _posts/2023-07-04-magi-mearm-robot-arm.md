@@ -3,6 +3,7 @@ title: Me and MeArm in The MagPi
 tags: [raspberry pi, robotics at home, mearm, the magpi, robot arm, python, micropython, rp2040, raspberry pi pico]
 thumbnail: /galleries/2023/2023-magpi-python-robots-cover.png
 date: 2023-07-04
+author: Danny Staple
 ---
 I have contributed to a feature published this month in The Magpi - the Raspberry Pi Magazine. In it I show how to use a Raspberry Pi Pico with a MeArm robot arm, and use Micropython to program a web controlled robot with step record and playback capabilities
 
