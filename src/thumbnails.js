@@ -3,7 +3,7 @@ const fs = require('fs');
 
 async function make_thumbnail_for(src) {
     return await Image(src, {
-        widths: [128, 256, 512],
+        widths: [128, 256],
         formats: ["avif", "jpeg", "png"],
         urlPath: "/assets/thumbnails/",
         outputDir: "./_site/assets/thumbnails/"
@@ -58,7 +58,6 @@ async function thumbnail_for_post(post) {
 
 module.exports = {
     make_thumbnail_for: make_thumbnail_for,
-    getPostThumbnailUrl: getPostThumbnailUrl,
     has_thumbnail: has_thumbnail,
     thumbnail_for_post: thumbnail_for_post,
 }
