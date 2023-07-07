@@ -5,16 +5,12 @@ tags: [DC motor, hbridge chip, l298n, motor controller, motor driver, power, rob
 google_category: Electronics > Circuit Components > Circuit Prototyping > Development Boards
 size: 55mm x 60mm  30mm
 gallery:
-    parent: /galleries/dual-motor-2a-control-board/
-    initial: l298-motor-controller-side.jpg
-    width: 300px;
-    height: 225px;
     images:
         -
-            src: l298-motor-controller-side.jpg
+            src: galleries/dual-motor-2a-control-board/l298-motor-controller-side.jpg
             alt: Side view of the l298 Dual Motor Controller
         -
-            src: debug-leds-and-connections.jpg
+            src: galleries/dual-motor-2a-control-board/debug-leds-and-connections.jpg
             alt: Close up of the debug LEDs, and logic connections.
 ---
 Get your robot moving. This DC motor controller/driver board, is a fully mounted L298n dual H-Bridge ( a common chip for this purpose) with all the support components, screw terminals for motor/power connections and simple male PCB pins for connections to digital controllers like the Arduino.

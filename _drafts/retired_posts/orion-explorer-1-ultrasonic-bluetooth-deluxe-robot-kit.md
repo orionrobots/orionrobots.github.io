@@ -30,8 +30,8 @@ gallery:
             src: OR0008_HC-SR04_1024x1024.jpg
             alt: The HC-SR04 distance sensor.
 ---
-{% assign zg_gallery=page.gallery %}
-{% include zoom_gallery %}
+{% tab_gallery "gallery", gallery.images %}
+
 # Technical Specifications
 
 This kit requires no soldering to construct.

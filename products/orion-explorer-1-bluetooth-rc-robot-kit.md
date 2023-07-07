@@ -7,22 +7,18 @@ price: £84.99
 tags: ["4wd car", "arduino", "arduino robot kit", "bluetooth module", "explorer 1", "microcontroller", "motor controller", "remote control", "robot", "robot car", "robot chassis", "robot motor", "solderless"]
 vendor: chips key tech
 gallery:
-    parent: /galleries/orion-explorer-1-bluetooth-rc-robot-kit/
-    initial: orion-explorer-1-side.jpg
-    width: 200px;
-    height: 200px;
     images:
         -
-            src: orion-explorer-1-side.jpg
+            src: galleries/orion-explorer-1-bluetooth-rc-robot-kit/orion-explorer-1-side.jpg
             alt: The Explorer One Robot
         -
-            src: arduino-bluetooth-connections.jpg
+            src: galleries/orion-explorer-1-bluetooth-rc-robot-kit/arduino-bluetooth-connections.jpg
             alt: Connecting the bluetooth control to the Arduino
         -
-            src: arduino-leonardo-front.jpg
+            src: galleries/orion-explorer-1-bluetooth-rc-robot-kit/arduino-leonardo-front.jpg
             alt: Front view of the Arduino Leonardo Controlling This Robot
         -
-            src: hc-06-bt-front-side.jpg
+            src: galleries/orion-explorer-1-bluetooth-rc-robot-kit/hc-06-bt-front-side.jpg
             alt: Front View Of the HC-06 Bluetooth Slave module            
 ---
 The solderless easy to construct and modify Orion Explorer robot 1 kit is a good start for any robotics project or fun. However - pair it with a bluetooth module and it becomes a robot you can drive from your phone or tablet!

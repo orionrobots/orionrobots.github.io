@@ -2,7 +2,6 @@
 layout: page
 ---
 {% if gallery %}
-    {% assign zg_gallery=gallery %}
-    {% include zoom_gallery %}
+    {% tab_gallery "gallery", gallery.images %}
 {% endif %}
 {{ content }}
