@@ -4,10 +4,13 @@ const markdownItAttrs = require("markdown-it-attrs");
 const moment = require("moment");
 const slugify = require("slugify");
 const Image = require("@11ty/eleventy-img");
+const fetch_image = require("./src/fetch_image.js");
 const CleanCSS = require("clean-css");
 const extractExcerpt = require("./src/shortcodes/extract_excerpt.js");
 const groupByYear = require("./src/filters/group_by_year.js");
 const thumbnails = require("./src/thumbnails.js");
+const tab_gallery = require("./src/shortcodes/make_tab_gallery.js");
+
 const {
     fortawesomeBrandsPlugin,
 } = require('@vidhill/fortawesome-brands-11ty-shortcode');
@@ -31,6 +34,7 @@ module.exports = function(eleventyConfig) {
     eleventyConfig.addPassthroughCopy("js");
     eleventyConfig.addPassthroughCopy({"htaccess": ".htaccess"});
 
+    eleventyConfig.addWatchTarget("src/**/*");
     let $collectionApi = null;
 
     eleventyConfig.addCollection("posts", function(collectionApi) {
@@ -64,15 +68,6 @@ module.exports = function(eleventyConfig) {
         return new CleanCSS({}).minify(code).styles;
     });
 
-    async function fetch_image(src) {
-        return await Image(src, {
-            widths: [300, 400, 600, 900, 1200, 1800, 2400],
-            formats: ["avif", "jpeg", "png"],
-            urlPath: "/assets/images/",
-            outputDir: "./_site/assets/images/"
-        });
-    }
-
     eleventyConfig.addShortcode("image", async function(src, alt, sizes) {
         let metadata = await fetch_image(src);
 
@@ -89,10 +84,10 @@ module.exports = function(eleventyConfig) {
 
     eleventyConfig.addShortcode("img_responsive", async function(src, alt) {
         let metadata = await fetch_image(src);
-
+        sizes="720, 940, 1140, 1280, 2048"
 		let imageAttributes = {
 			alt,
-			sizes: "720, 940, 1140, 1280, 2048",
+			sizes,
             class: "img-responsive",
 			loading: "lazy",
 			decoding: "async",
@@ -123,6 +118,8 @@ module.exports = function(eleventyConfig) {
     // Thumbnails
     eleventyConfig.addShortcode("thumbnail_for_post", thumbnails.thumbnail_for_post);
     eleventyConfig.addFilter("has_thumbnail", thumbnails.has_thumbnail);
+
+    eleventyConfig.addShortcode("tab_gallery", tab_gallery);
 
     // Defines shortcode for generating post excerpts
     eleventyConfig.addShortcode('excerpt', extractExcerpt);
