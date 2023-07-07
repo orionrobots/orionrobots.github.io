@@ -56,8 +56,6 @@ $RECYCLE.BIN/
 .picasa.ini
 *.swp
 
-# Jekyll
-_theme_packages/*
 
 # Temp files
 *~
