@@ -31,7 +31,6 @@ module.exports = function(eleventyConfig) {
     eleventyConfig.addPassthroughCopy("favicon.png");
     eleventyConfig.addPassthroughCopy("galleries/**/*.{jpg,jpeg,JPG,png,gif,svg}");
     eleventyConfig.addPassthroughCopy("google5458abc1104b04dd.html");
-    eleventyConfig.addPassthroughCopy("js");
     eleventyConfig.addPassthroughCopy({"htaccess": ".htaccess"});
 
     eleventyConfig.addWatchTarget("src/**/*");
