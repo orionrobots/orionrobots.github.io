@@ -3,7 +3,7 @@ layout: post
 title: Wired January 2006 - 50 Best Robots Ever
 description: >
   Wired magazine's round-up of the 50 best robots ever is an amusing and interesting read.
-tags: robotics
+tags: [robotics, robot news]
 date: 2006-02-19 00:00:00
 ---
 You may want to pick up a copy of January's Wired magazine. Despite being a good read anyway (which I rarely miss), the round-up they have of the 50 best robots ever is an amusing and interesting read.

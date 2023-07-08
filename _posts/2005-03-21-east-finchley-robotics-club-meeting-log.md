@@ -1,7 +1,7 @@
 ---
 date: 2005-03-21 05:10:53
 description: Meeting Log, and movies
-tags: [robotics, robot building, lego technic, lego mindstorms]
+tags: [robotics, robot building, lego technic, mindstorms]
 title: Meeting Log, and movies
 layout: post
 ---

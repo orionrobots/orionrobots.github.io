@@ -4,7 +4,8 @@ date: 2004-11-25
 title: East Finchley Robotics Club - Twin motor with steering challenge
 description: A challenge for the robotics club to build a twin motor with steering
 author: Danny Staple
-tags: [robotics, challenge, robotics club, lego mindstorms, lego rcx]
+tags: [robotics, challenge, robotics club, mindstorms, lego rcx]
+thumbnail: galleries/2004/2004-09-25-challenge-robot.png
 ---
 ## Design
 
@@ -17,6 +18,8 @@ tags: [robotics, challenge, robotics club, lego mindstorms, lego rcx]
 - When reversing, tap forward to stop, again to go forward
 
 Steering – one motor will power down to turn the robot around in the other direction.
+
+{% img_responsive "galleries/2004/2004-09-25-challenge-robot.png", "The robot" %}
 
 ## Basic Rules
 

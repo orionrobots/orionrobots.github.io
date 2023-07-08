@@ -8,7 +8,7 @@ tags:
 - enclosure
 - case
 - lego technic
-- lego mindstorms
+- mindstorms
 - robotics at home
 title: Arduino Lego Enclosure
 ---
