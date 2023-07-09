@@ -70,7 +70,7 @@ ax.quiver(new_data[:, 0], new_data[:, 1], u, v)
 
 Plotting this yielded what seemed to be sensible.
 
-![Quiver plot of a single pose over time]({{site.baseurl}}/galleries/quiver_first_pose.png)
+![Quiver plot of a single pose over time](../{{site.baseurl}}/galleries/quiver_first_pose.png)
 
 Hmm, this isn't going in little circles the way the live data seemed to be. So I grabbed multiple pose data from the output to the matplotlib client:
 
@@ -103,7 +103,7 @@ ax.set_ylim(0, 2000)
 ax.scatter(poses_over_time[:, 0, 0], poses_over_time[:, 0, 1])
 ```
 
-![Matplotlib Scatter plot showing the first pose from the other data view]({{site.baseurl}}/galleries/scatter-first-pose.png)
+![Matplotlib Scatter plot showing the first pose from the other data view](../{{site.baseurl}}/galleries/scatter-first-pose.png)
 
 This made sense, and still seemed sensible given the encoder/left right data above. What about multiple poses over time?
 
@@ -114,7 +114,7 @@ for pose_index in range(poses_over_time.shape[1]):
     ax.scatter(poses_over_time[:, pose_index, 0], poses_over_time[:, pose_index, 1])
 ```
 
-![Multiple poses over time plotted in matplotlib]({{site.baseurl}}/galleries/scatter-multiple-poses-over-time.png)
+![Multiple poses over time plotted in matplotlib](../{{site.baseurl}}/galleries/scatter-multiple-poses-over-time.png)
 
 This makes no sense, it matches what I saw - with little circles. But all the poses should have had the same motion data. What does that motion data look like? The translation data should have the robot moving forward in whatever heading it is at (this is from the first dataset):
 
@@ -124,7 +124,7 @@ ax.plot(np.arange(len(data)), data[:, 6])
 ax.legend(["overall speed"])
 ```
 
-![Plotting the speed/translation]({{site.baseurl}}/galleries/translation-speed-plot.png)
+![Plotting the speed/translation](../{{site.baseurl}}/galleries/translation-speed-plot.png)
 
 So there's a consistent forward speed (the robot was mostly driving forward), the variation is likely due to timing (multiple routines are in play, these are not consistent time ticks) but it's overall 60 units per update. Those little rings didn't appear to have much forward motion in them.
 
@@ -138,7 +138,7 @@ ax.legend(["cumulative rotation"])
 ```
 
 This gave a fairly dull graph, with a full rotation of around -25 degrees (let's say we don't 100% trust it):
-![Cumulative rotation plotted]({{site.baseurl}}/galleries/cumulative-rotation.png)
+![Cumulative rotation plotted](../{{site.baseurl}}/galleries/cumulative-rotation.png)
 
 This also doesn't make for little rings. So the motion data doesn't currently hold with what all the poses are doing.
 
