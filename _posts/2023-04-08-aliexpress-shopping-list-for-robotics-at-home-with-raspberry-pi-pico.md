@@ -28,8 +28,9 @@ I will be using GBP to show the costs here. The parts are usually available in m
 
 ### Robot parts
 
+
 Name|Cost|Count|Total
----|---|---|---|---
+---|---|---|---
 [Raspberry Pi Pico](https://www.aliexpress.com/item/1005004546639410.html?spm=a2g0o.productlist.main.1.455577b7miDg4h&algo_pvid=75008995-d5a1-45c2-a2f3-7b44736714e0&algo_exp_id=75008995-d5a1-45c2-a2f3-7b44736714e0-0&pdp_npi=3%40dis%21GBP%216.26%211.07%21%21%21%21%21%40212244c416808716024312122d0728%2112000029562074385%21sea%21UK%21108888535&curPageLogUid=alZuVsEZ1Unw)|£1.07|1|£1.07
 [Breadboard](https://www.aliexpress.com/item/1005004532352681.html?spm=a2g0o.productlist.main.1.6b3344b60IycXS&algo_pvid=8f0aec34-9c51-4537-b5b7-8cb709520e23&algo_exp_id=8f0aec34-9c51-4537-b5b7-8cb709520e23-0&pdp_npi=3%40dis%21GBP%212.35%211.65%21%21%21%21%21%402100bfe316808689850115462d0703%2112000029625253661%21sea%21UK%210&curPageLogUid=x5oRIgCTh6pR)|£1.65|1|£1.65
 [TB66112 FNG Module](https://www.aliexpress.com/item/1005005382258614.html?spm=a2g0o.productlist.main.3.37c16862ivQ8nL&algo_pvid=3633d59c-2fc1-438c-a1b3-a8aade0ca3fd&algo_exp_id=3633d59c-2fc1-438c-a1b3-a8aade0ca3fd-1&pdp_npi=3%40dis%21GBP%212.69%212.42%21%21%21%21%21%402100b69816808692907396436d0758%2112000032827101432%21sea%21UK%210&curPageLogUid=WOT0myLQ1I1O)|£2.42|1|£2.42
@@ -49,7 +50,7 @@ Plus shipping: £50.91
 ### Consumables
 
 Name|Cost|Count|Total
----|---|---|---|---
+---|---|---|---
 [Precut Jumper Wire](https://www.aliexpress.com/item/32707520439.html?spm=a2g0o.productlist.main.1.73ff562c2uZ9xH&algo_pvid=14ba07da-a3e5-42cb-83fb-36fcd87ff3ac&algo_exp_id=14ba07da-a3e5-42cb-83fb-36fcd87ff3ac-0&pdp_npi=3%40dis%21GBP%211.61%210.41%21%21%21%21%21%402145280e16808701750677964d06eb%2112000030034375663%21sea%21UK%210&curPageLogUid=4CiHZgSzmUhl)|£0.41|1|£0.41
 [1n5817 Schottky diode](https://www.aliexpress.com/item/1005001552094086.html?spm=a2g0o.productlist.main.1.59c43474yH7qMt&algo_pvid=d75a9142-4d22-4501-a4ea-e3a452a3a2fd&algo_exp_id=d75a9142-4d22-4501-a4ea-e3a452a3a2fd-0&pdp_npi=3%40dis%21GBP%210.52%210.5%21%21%21%21%21%402100bfe316808701991035925d0703%2112000016564939116%21sea%21UK%210&curPageLogUid=8PCkJMdqrW89)|£0.50|1|£0.50
 [3mm styrene sheets](https://www.aliexpress.com/item/4000917426633.html?spm=a2g0o.productlist.main.1.5dbd33d2u1PZYl&algo_pvid=305a4412-d136-4fc7-be73-003e960ef14f&algo_exp_id=305a4412-d136-4fc7-be73-003e960ef14f-0&pdp_npi=3%40dis%21GBP%213.53%213.24%21%21%21%21%21%402100ba4716808702570312750d0712%2110000010927374205%21sea%21UK%210&curPageLogUid=AoL7nZTAexvd)|£3.24|1|£3.24
@@ -67,7 +68,7 @@ Plus shipping: £75.42
 ### Tools
 
 Name|Cost|Count|Total
----|---|---|---|---
+---|---|---|---
 [Acrylic sheet cutter](https://www.aliexpress.com/item/2025744122.html?spm=a2g0o.productlist.main.5.42cf58603acX2u&algo_pvid=daf3d9cd-787b-4c31-8394-a5adaadc9001&algo_exp_id=daf3d9cd-787b-4c31-8394-a5adaadc9001-2&pdp_npi=3%40dis%21GBP%211.86%210.41%21%21%21%21%21%402145288516808705649983668d0710%2154313907181%21sea%21UK%210&curPageLogUid=2ItYo6JTFnPy)|£1.40|1|£1.40
 [Cutting mat](https://www.aliexpress.com/item/4001291468461.html?spm=a2g0o.productlist.main.3.610c69d5cB9vRx&algo_pvid=a089bd9b-8275-407d-bb32-d88d7e8985df&algo_exp_id=a089bd9b-8275-407d-bb32-d88d7e8985df-1&pdp_npi=3%40dis%21GBP%2110.08%215.54%21%21%21%21%21%402100b0d116808705902638657d06e2%2110000015639410054%21sea%21UK%210&curPageLogUid=VFk0FfP07vvz)|£5.54|1|£5.54
 [Try Square, metal, metric](https://www.aliexpress.com/item/1005001666077920.html?spm=a2g0o.productlist.main.25.33741cbbbcIXNX&algo_pvid=e7fc6b90-8902-4062-adf1-56a230dbf888&algo_exp_id=e7fc6b90-8902-4062-adf1-56a230dbf888-12&pdp_npi=3%40dis%21GBP%210.89%210.6%21%21%21%21%21%40211bf14716808708270388950d077e%2112000017043254470%21sea%21UK%21108888535&curPageLogUid=jXYOLKZ1te0P)|£0.60|1|£0.60
@@ -90,7 +91,7 @@ Plus shipping: £140.38
 ### Optional Items
 
 Name|Cost|Count|Total
----|---|---|---|---
+---|---|---|---
 [Dupont Crimp Kit](https://www.aliexpress.com/item/4000823925393.html?spm=a2g0o.productlist.main.1.378e1bf55rzxWx&algo_pvid=2a0d0d19-15a6-48d8-9eff-20984e1c5e31&algo_exp_id=2a0d0d19-15a6-48d8-9eff-20984e1c5e31-0&pdp_npi=3%40dis%21GBP%2118.42%2111.43%21%21%21%21%21%4021227e5116808715522722414d070b%2110000008636241758%21sea%21UK%21108888535&curPageLogUid=OwempbAU6LE3)|£11.43|1|£11.43
 Crimping tool - covered by the above | |1|
 

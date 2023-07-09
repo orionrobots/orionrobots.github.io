@@ -101,7 +101,7 @@ These are simple general purpose rectifiers - ideal for this.
 ![]({{gallery}}/263-diodes-2-sets.jpg){.img-responsive .center-block .col-sm-6}
 ![]({{gallery}}/264-tape-removed.jpg){.img-responsive .center-block .col-sm-6}
 
-<div class="clearfix"></div>
+
 If you can find diodes on bandolier tape, as those produced by Maplin and other electronic component retailers are sold, this will make your life easier later, but it is not essential though.
 
 ## Method
