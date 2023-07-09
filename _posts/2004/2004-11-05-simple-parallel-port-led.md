@@ -1,18 +1,25 @@
 ---
 comments: true
 date: '2004-11-05T12:00:00.000Z'
-disqus_url: http://orionrobots.co.uk/Simple+Parallel+Port+LED+Board
-gallery: /galleries/2004-11-05-simple-parallel-port-led
-layout: post
+disqus_url: "{{permalink}}"
 tags:
 - electronics
 - led
 - parallel port
 title: Simple Parallel Port LED
+thumbnail: _posts/2004/parallel-port-led/cable-with-led.jpg
+led_gallery:
+    - src: _posts/2004/parallel-port-led/led-close-up-lit.jpg
+      alt: LED Close Up Lit
+    - src: _posts/2004/parallel-port-led/led-lit-in-dark.jpg
+      alt : LED Lit In Dark
+    - src: _posts/2004/parallel-port-led/led-close-up-unlit.jpg
+      alt: LED Close Up Unlit
 ---
 ## Intro
 
-![Parallel Cable With LED]({{ gallery }}/thumb_cable-with-led.jpg){.class="img-rounded" style="float:left; padding-right: 4px"}
+{% image "_posts/2004/parallel-port-led/cable-with-led.jpg", "Parallel Cable With LED", "256px" %}
+
 Plugging things into your desktop PC is neat - there is a great feeling of satisfaction when you can program even the simplest of hand made peripherals to light up. This project tutorial will start you with basic interfacing with your computer. Please be a little careful here, as shorting pins on your parallel port could be very bad for your computer.
 
 The Light Emitting Diode (LED) draws very little current when limited by a resistor and some can be lit at low voltages like 0.6v. For a single LED you will not need an external power supply. Without the resistor it may destroy the LED and the port too. We will use a 470 Ohm resistor for this.
@@ -47,7 +54,7 @@ This cable can be used for other experiments, and is just a breakout cable to wo
 
 ### Making it
 
-![Parallel Port]({{ gallery }}/parallel.gif){.style="float:left"}
+{% image "_posts/2004/parallel-port-led/parallel.gif", "Parallel Port", "100vw" %}
 
 Inspect the DB-25 connector - it should have a tiny (and possibly hard to read) 1 or some notation for pin 1. Line up one end of the ribbon cable with this, push the ribbon through so every wire is sat on a tooth of the connector, then push this down (pliers will help) so the teeth have bitten well into the cable.
 
@@ -85,36 +92,50 @@ PyParallel details can be found at <https://github.com/pyserial/pyparallel>.
 
 Start up python, and type:
 
+```python
     import parallel
+```
 
 Make a parallel object (my code assumes only 1 port, you will need to read the pyparallel doc to deal with multiple ports). You cna then turn on your LED by flipping the corresponding bit:
 
+```python
     p = parallel.Parallel()
     p.setData(1 << 4)
+```
 
 `parallel.Parallel()` gets us an interface to the default port, and names it p. `p.setData` will set the data pins (d0-d7) on the parallel port. Making the correct number is a bit of binary magic. We take the number 1 (the root of all binary numbers), and shifting it left 4 - to set bit 4 of the port. This is a write only port, if you want to store it, you can store the current status yourself.
 
+```python
     p = parallel.Parallel()
     led_on = 1 << 4
     p.setData(led_on)
     print led_on
+```
 
 The light will be on. To turn it off you can set the port to 0.
 
+```python
     p.setData(0)
+```
 
 To make it blink, you need a timer. The time module can do this:
 
+```python
     import time
     p.setData(led_on)
     time.sleep(1)
     p.setData(0)
+```
 
 This will turn on, then off for a second. Put it into a while loop to blink until you stop it:
 
+```python
     while True:
         p.setData(led_on)
         time.sleep(1)
         p.setData(0)
+```
 
 You need to press Ctrl-C to stop this blinking.
+
+{% tab_gallery "led_gallery", led_gallery %}
