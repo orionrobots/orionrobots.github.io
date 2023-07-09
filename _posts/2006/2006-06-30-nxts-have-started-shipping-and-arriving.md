@@ -1,7 +1,7 @@
 ---
 date: 2006-06-30 00:27:53
 description: NXT's have started shipping and arriving
-tags: [robotics, robot news, mindstorms,rcx,nxt]
+tags: [robotics, robot news, mindstorms,lego rcx,nxt]
 title: NXT's have started shipping and arriving
 layout: post
 ---

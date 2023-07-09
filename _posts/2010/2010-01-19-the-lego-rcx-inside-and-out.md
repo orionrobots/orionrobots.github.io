@@ -1,7 +1,7 @@
 ---
 date: 2010-01-19 06:44:06
 description: The Lego RCX, Inside and Out
-tags: [robots, robotics, lego, rcx, mindstorms, microcontroller, ir, technic]
+tags: [robots, robotics, lego, lego rcx, mindstorms, microcontroller, ir, technic]
 title: The Lego RCX, Inside and Out
 layout: post
 ---

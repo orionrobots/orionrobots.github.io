@@ -4,7 +4,7 @@ layout: post
 tags:
 - robots
 - mindstorms
-- rcx
+- lego rcx
 - browser game
 title: Mindstorms Stormrunner
 ---

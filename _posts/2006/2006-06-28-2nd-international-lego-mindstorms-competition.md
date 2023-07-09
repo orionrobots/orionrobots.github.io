@@ -6,7 +6,7 @@ tags:
 - robot news
 - mindstorms
 - nxt
-- rcx
+- lego rcx
 - robot
 - robotics
 title: 2nd International LEGO MINDSTORMS Competition

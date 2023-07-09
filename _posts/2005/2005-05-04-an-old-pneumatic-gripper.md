@@ -8,7 +8,7 @@ tags:
 - mindstorms
 - lego technic
 - pneumatic
-- rcx
+- lego rcx
 title: Pneumatic Lego Gripper
 ---
 With an imminent move planned, a number of old Lego builds needed to be taken apart, so I took photos of them all.

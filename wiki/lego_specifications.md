@@ -1,8 +1,8 @@
 ---
 title: Lego Specifications
 date: 2005-06-24 19:41:28
-tags: ["Lego Technic Dimensions", "Lego Technic Dimensions mm", "Lego technic specifications", lego robotics, "technic lego", "lego measurements", "afol", stem, lego technic,
-"lego engineering", "Lego technic gears"]
+tags: ["lego technic dimensions", "lego technic dimensions mm", "lego technic specifications", lego robotics, "technic lego", "lego measurements", "afol", stem, lego technic,
+"lego engineering", "lego technic gears"]
 using_mathjax: true
 ---
 When building machines and robots with Lego, dimension specifications for the standard bricks are handy. This will help designing models, and interfacing Technic Lego with other materials.

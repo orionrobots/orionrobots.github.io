@@ -2,7 +2,7 @@
 layout: post
 title: Creating Custom Sensors For The Lego RCX
 date: 2004-11-16 21:01:45
-tags: [robots, robot building, electronics, lego technic, mindstorms, rcx, sensors]
+tags: [robots, robot building, electronics, lego technic, mindstorms, lego rcx, sensors]
 ---
 The process of making your own homegrown sensors for the Lego RCX is not only possible, but a well-documented and well-walked path.
 

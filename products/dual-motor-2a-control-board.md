@@ -1,7 +1,7 @@
 ---
 layout: product
 title: Arduino Compatible Dual Motor 2A control board with debug LED's
-tags: [DC motor, hbridge chip, l298n, motor controller, motor driver, power, robot motor, solderless]
+tags: [dc motor, hbridge chip, l298n, motor controller, motor driver, power, robot motor, solderless]
 google_category: Electronics > Circuit Components > Circuit Prototyping > Development Boards
 size: 55mm x 60mm  30mm
 gallery:

@@ -1,7 +1,7 @@
 ---
 date: 2010-11-11 00:52:00
 description: Factories Built With Lego
-tags: [lego, rcx, robot news, mindstorms, nxt, motor, sensors, factory, fabrication, assembly line]
+tags: [lego, lego rcx, robot news, mindstorms, nxt, motor, sensors, factory, fabrication, assembly line]
 title: Factories Built With Lego
 layout: post
 ---

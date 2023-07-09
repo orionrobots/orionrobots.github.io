@@ -9,7 +9,7 @@ tags:
 - raspberry pi projects
 - raspberry pi 3 projects
 - mearm
-- Laser Cut robot arm
+- laser cut robot arm
 - raspberry pi zero w projects
 - robotics at home
 title: Connecting a MeArm to the Raspberry Pi
