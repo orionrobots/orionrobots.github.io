@@ -1,6 +1,6 @@
 ---
 date: 2019-02-15 08:04:30
-tags: [robotics, piwars, piwars 2019, 3d-printer, usb battery, fusion360, raspberry pi]
+tags: [robotics, piwars, piwars 2019, 3d printing, usb battery, fusion360, raspberry pi]
 title: 3D Printed Holder For The PiWars USB Battery
 layout: post
 ---

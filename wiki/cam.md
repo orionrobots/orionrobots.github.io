@@ -1,7 +1,7 @@
 ---
 layout: page
 title: CAM
-tags: [cad, 3d printers, cnc]
+tags: [cad, 3d printing, cnc]
 date: 2004-11-16 15:58:29
 ---
 Computer Aided Manufacturing

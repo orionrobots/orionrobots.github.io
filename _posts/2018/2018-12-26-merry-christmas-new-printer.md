@@ -1,6 +1,6 @@
 ---
 date: 2018-12-25 13:04:30
-tags: [3d-printer, lab, tools, unboxing]
+tags: [3d printing, lab, tools, unboxing]
 title: Merry Christmas 2018 - Flashforge Finder 3D Printer Unboxing
 layout: post
 ---
