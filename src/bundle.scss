@@ -5,7 +5,7 @@
 
 // 3. Include remainder of required Bootstrap stylesheets
 @import "~bootstrap/scss/variables";
-
+$enable-dark-mode: false;
 // 4. Include any default map overrides here
 $body-color: #3e3f3a;
 $body-bg: #fff;
