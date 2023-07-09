@@ -5,6 +5,10 @@ tags:
   - robots
   - robot building
   - lego
+  - lego rcx
+  - lego mindstorms
+  - lego nxt
+
 date: 2009-04-24T23:55:12.000Z
 ---
 

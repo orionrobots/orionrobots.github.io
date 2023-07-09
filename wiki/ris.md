@@ -1,7 +1,7 @@
 ---
 layout: page
 title: RIS - Robotic Invention System
-tags: [robots, robot building]
+tags: [robots, robot building, lego mindstorms, lego rcx]
 date: 2006-02-24 11:22:53
 ---
 The RIS kit from [lego](/wiki/lego.html "The best known construction toy") was the one that contained the [RCX](/wiki/rcx.html "The Lego Robot Command Explorer") along with the [IR](/wiki/ir.html "Acronym for Infra Red") tower, a number of elements to build with, a neat construction guide and multimedia CD.

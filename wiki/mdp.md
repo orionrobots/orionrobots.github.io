@@ -1,6 +1,7 @@
 ---
 layout: page
 title: The Mindstorms Developer Panel (MDP)
+tags: [lego mindstorms, lego nxt]
 date: 2006-03-14 16:58:39
 ---
 This is a group of 100 [Lego](/wiki/lego.html "The best known construction toy") enthusiasts brought together to develop for, beta test, and suggest new features/functionality for the [Lego](/wiki/lego.html "The best known construction toy") [Mindstorms](/wiki/mindstorms.html "A Robotic construction toy system from Lego") [NXT](/wiki/nxt.html "Legos NeXT generation robotics kit") in early 2006.

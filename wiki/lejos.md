@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Lejos
+tags: [lego mindstorms, lego rcx, lego nxt]
 date: 2006-05-30 23:41:41
 ---
 LeJOS is a replacement [OS](/wiki/os.html "An Operating System") designed for programming the [Lego RCX](/wiki/rcx.html "The Lego RCX"), [NXT](/wiki/nxt.html "Legos NeXT generation robotics kit") and EV3 controllers in a Java environment.

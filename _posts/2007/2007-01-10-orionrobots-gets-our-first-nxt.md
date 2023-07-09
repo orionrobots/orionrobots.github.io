@@ -1,7 +1,7 @@
 ---
 date: 2007-01-10 14:30:42
 description: OrionRobots gets our first NXT
-tags: [nxt, robot building, lego rcx, lego, mindstorms, robots]
+tags: [lego nxt, robot building, lego rcx, lego, mindstorms, robots]
 title: OrionRobots gets our first NXT
 layout: post
 ---

@@ -1,6 +1,6 @@
 ---
 date: 2007-01-23 15:42:27
-tags: [robots, robotics, robot building, nxt, lego, mindstorms, sensor]
+tags: [robots, robotics, robot building, lego nxt, lego, mindstorms, sensor]
 title: NXT - The Ultrasonic Sensor Tutorial
 layout: post
 ---

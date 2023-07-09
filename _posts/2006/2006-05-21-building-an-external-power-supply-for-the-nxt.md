@@ -1,7 +1,7 @@
 ---
 date: 2006-05-21 14:06:18
 description: Building an External Power Supply for the NXT
-tags: [robot building, nxt, robot, mindstorms]
+tags: [robot building, lego nxt, robot, mindstorms]
 title: Building an External Power Supply for the NXT
 layout: post
 ---

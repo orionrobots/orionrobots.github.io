@@ -1,7 +1,7 @@
 ---
 date: 2006-01-06 10:30:58
 description: Lego unveils the next generation Mindstorms system
-tags: [lego,nxt,mindstorms,robot news,robotics,robot building, lego rcx, electronics,technology,education]
+tags: [lego,lego nxt,mindstorms,robot news,robotics,robot building, lego rcx, electronics,technology,education]
 title: Lego unveils the next generation Mindstorms system
 layout: post
 ---

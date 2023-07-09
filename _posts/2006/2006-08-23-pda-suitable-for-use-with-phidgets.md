@@ -1,6 +1,6 @@
 ---
 date: 2006-08-23 02:13:46
-tags: [technology, robot building, open source, robots, nxt]
+tags: [technology, robot building, open source, robots, lego nxt]
 title: PDA Suitable for use with Phidgets
 layout: post
 ---

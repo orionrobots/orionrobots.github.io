@@ -1,7 +1,7 @@
 ---
 date: 2007-07-21 09:03:13
 description: The NXT-A-Sketch
-tags: [nxt, robot news, mindstorms, lego]
+tags: [lego nxt, robot news, mindstorms, lego]
 title: The NXT-A-Sketch
 layout: post
 ---

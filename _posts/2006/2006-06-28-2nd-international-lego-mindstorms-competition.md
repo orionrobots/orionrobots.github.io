@@ -5,7 +5,7 @@ tags:
 - robot building
 - robot news
 - mindstorms
-- nxt
+- lego nxt
 - lego rcx
 - robot
 - robotics

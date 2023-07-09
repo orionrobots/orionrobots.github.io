@@ -1,7 +1,7 @@
 ---
 date: 2006-01-11 10:30:58
 description: More NXT Information
-tags: [lego,nxt,robot building, mindstorms,robot news]
+tags: [lego,lego nxt,robot building, mindstorms,robot news]
 title: More NXT Information
 layout: post
 ---

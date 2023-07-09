@@ -1,7 +1,7 @@
 ---
 date: 2006-03-03 08:13:15
 description: Lego announces MPD selection process complete
-tags: [nxt, lego, mindstorms, robot news, robotics]
+tags: [lego nxt, lego, mindstorms, robot news, robotics]
 title: Lego announces MPD selection process complete
 layout: post
 ---

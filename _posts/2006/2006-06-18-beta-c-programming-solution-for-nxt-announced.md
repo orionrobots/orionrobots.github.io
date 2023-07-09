@@ -1,7 +1,7 @@
 ---
 date: 2006-06-18 05:19:40
 description: Beta C Programming Solution for NXT Announced
-tags: [robot building, lego, robot news, programming, nxt,mindstorms]
+tags: [robot building, lego, robot news, programming, lego nxt,mindstorms]
 title: Beta C Programming Solution for NXT Announced
 layout: post
 ---

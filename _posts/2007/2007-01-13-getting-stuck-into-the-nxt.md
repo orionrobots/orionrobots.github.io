@@ -1,7 +1,7 @@
 ---
 date: 2007-01-13 08:37:28
 description: Getting Stuck into the NXT
-tags: [nxt, mindstorms, robot building, lego, robot]
+tags: [lego nxt, mindstorms, robot building, lego, robot]
 title: Getting Stuck into the NXT
 layout: post
 ---
