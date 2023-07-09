@@ -2,6 +2,7 @@
 layout: page
 title: More About The Orion Explorer 1 Chassis
 date: 2014-04-23
+tags: [robotics, orion explorer 1, chassis]
 ---
 
 Note: __The Orion Explorer 1 Kit is no longer for sale__

@@ -2,6 +2,7 @@
 layout: page
 title: Gruschtelling
 date: 2004-11-16 14:21:44
+tags: [lego]
 ---
 It is, according to an amusing [contribution](http://www.lugnet.com/~330/FAQ/Fun/german) to [Lugnet](/wiki/lugnet.html "Lego Users Group Network") the sound made when digging through [Lego](/wiki/lego.html "The best known construction toy") to find a particular piece.
 

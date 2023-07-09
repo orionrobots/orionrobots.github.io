@@ -2,6 +2,7 @@
 layout: page
 title: MegaBloks
 date: 2006-06-13 20:38:19
+tags: [lego]
 ---
 MegaBloks are a great deal cheaper than [Lego](/wiki/lego.html "The best known construction toy"), and have some slightly different ranges, having a license to produce kits based upon The Transformers as well as being a lot more creative with their parts.
 

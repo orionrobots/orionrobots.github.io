@@ -2,6 +2,7 @@
 layout: page
 title: Scrapheap Challenge
 date: 2005-09-11 20:22:29
+tags: [robot building, tv shows, machines]
 ---
 This is one of Orions favourite game shows, hosted by Robert Llewelyn and Lisa Rodgers. It is very inspirational and embodies a lot of the principles underlying OrionRobots.
 

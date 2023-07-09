@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Eliza
-tagS: [programming, ai]
+tags: [programming, ai]
 date: 2005-10-05 19:41:34
 ---
 This was a very famous early attempt on the Turing Test.

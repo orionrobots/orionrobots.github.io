@@ -2,6 +2,7 @@
 layout: page
 title: Impeller
 date: 2005-10-12 00:06:37
+tags: [machines, actuators, submersible]
 ---
 An impeller is more efficient at moving and pressurising fluid than a [propeller](/wiki/propeller.html "Propeller"). It consists of the same propeller blades, possible longer along its axis and with a smaller radius, enclosed in a fairly tight fitting enclosure.
 

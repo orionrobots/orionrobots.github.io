@@ -2,6 +2,7 @@
 layout: page
 title: Lugnet
 date: 2006-08-24 08:46:34
+tags: [lego]
 ---
 Lugnet is an acronym for the [Lego](/wiki/lego.html "The best known construction toy") Users Group Network
 

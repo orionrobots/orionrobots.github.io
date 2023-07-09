@@ -2,6 +2,7 @@
 layout: page
 title: Leonardo Da Vinci
 date: 2013-05-11 17:22:44
+tags: [history, robot history]
 ---
 As a Renaissance artist, inventor and scientist, Leonardo Da Vinci lived a hundred or more years ahead of his time.  He was born on April 15, 1452 in Vinci, Italy.  Hence "Da Vinci" - translates of "Of Vinci" - a town just outside Florence.  His full name was, in fact, "Leonardo di ser Piero da Vinci" - Leonardo - Son of Piero of Vinci.  His father was a wealthy and renowned man in the area.
 

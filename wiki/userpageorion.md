@@ -2,6 +2,7 @@
 layout: page
 title: About Danny Staple, AKA Orionr
 date: 2005-12-19 23:50:48
+tags: [robot building]
 ---
 I am Danny Staple, otherwise known as Orion.
 I am the creator and maintainer of OrionRobots, and have authored most of its content, along with the [Learn Robotics Programming](https://amzn.to/3TmCJrN) book series.

@@ -2,6 +2,7 @@
 layout: page
 title: Genetic
 date: 2005-10-08 10:36:29
+tags: [biology]
 ---
 Genetics is a term applied to the system of evolution where changes in the data(mutations), can be selected for pure survivability over others. These leads to Darwinian Evolution.
 

@@ -2,6 +2,7 @@
 layout: page
 title: Mecha
 date: 2006-06-17 13:10:24
+tags: [scifi, mecha, terminology]
 ---
 Mecha is a term that could be used to generally describe any machinery, or robot, and is used in the general robot sense in the film AI. However, it is more commonly used to describe walking machines, quite often battlesuits. These are normally manned, and generally bigger than a human, sometimes just slightly larger, and some as big as houses.
 

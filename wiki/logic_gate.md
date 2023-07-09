@@ -2,6 +2,7 @@
 layout: page
 title: logic gate
 date: 2006-04-11 13:37:07
+tags: [electronics, logic]
 ---
 When working with [binary](/wiki/binary.html "The storage method for digital information") information, these gates allow a number of simple, yet powerful operations to be carried out. They operate on digital information at the [BIT](/wiki/bit.html "Binary Digit") level using [boolean](/wiki/boolean.html "Boolean") logic.
 

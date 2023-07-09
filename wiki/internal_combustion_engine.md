@@ -2,6 +2,7 @@
 layout: page
 title: Internal Combustion Engine
 date: 2005-07-29 17:15:02
+tags: [machines, power supplies]
 ---
 You will rarely, if ever find these in [robotic](/wiki/robotic.html "Robotic") applications outside of the [Darpa Grand Challenge](/wiki/darpa_grand_challenge.html "DARPA Grand Challenge").
 

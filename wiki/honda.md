@@ -2,6 +2,7 @@
 layout: page
 title: Honda
 date: 2004-11-30 23:43:55
+tags: [robotics, robot news]
 ---
 Honda have a history of developing walking robots.<br>
 They started with their E0 - Experimental model 0 in 1986, and are now on the 11th generation - the [Asimo](/wiki/asimo.html "Asimo").

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Maplin
-ags: [electronics]
+tags: [electronics]
 date: 2013-05-02 20:49:29
 ---
 Maplin Electronics had taken the place in the UK of Tandy and Radio Shack.

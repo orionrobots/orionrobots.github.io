@@ -2,6 +2,7 @@
 layout: page
 title: Great Ball Contraption
 date: 2013-02-06 08:14:09
+tags: [lego]
 ---
 <iframe width="560" height="315" src="https://www.youtube.com/embed/jxMMtIxDrGk" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 

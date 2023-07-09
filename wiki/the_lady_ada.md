@@ -2,6 +2,7 @@
 layout: page
 title: The Lady Ada
 date: 2005-08-18 22:56:24
+tags: [history, programming]
 ---
 The Lady Ada, Countess of Lovelace(1815-1852) was the renowned daughter of The Lord Byron.
 

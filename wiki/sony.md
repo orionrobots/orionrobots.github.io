@@ -2,6 +2,7 @@
 layout: page
 title: Sony
 date: 2005-10-05 18:06:47
+tags: [robotics companies, sony]
 ---
 Sony have a department specialising in creating robots such as the [Aibo](/wiki/aibo.html "The SONY Robot Dog") and the [Qrio](/wiki/qrio.html "Qrio").<br>
 This department is known as Sony Dream Robotics.

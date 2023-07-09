@@ -2,6 +2,7 @@
 layout: page
 title: Thomas Edison
 date: 2004-11-14 14:41:24
+tags: [history, robotics history]
 ---
 Thomas Alva Edison was born in Milan, Ohio on February 11, 1847.
 

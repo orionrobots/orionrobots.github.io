@@ -2,6 +2,7 @@
 layout: page
 title: Helicopter
 date: 2010-10-26 21:02:33
+tags: [machines]
 ---
 A flying vehicle using a vertically(as opposed to horizontally) orientated [Helical](/wiki/helical.html "Helical") Blade - or [propeller](/wiki/propeller.html "Propelle"). That is - it acts in a vertical plane to maintain the height of the vehicle. It is this that allows helicopters to move in a very different way from a jet based plane. A jet, or forward based prop plane is not usually able to hover, or affect a vertical take of and landing (VTOL), with a few notable exceptions.
 

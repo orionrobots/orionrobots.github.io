@@ -2,6 +2,7 @@
 layout: page
 title: Leonardo Da Vincis Tank
 date: 2005-01-31 23:24:15
+tags: [history, machines]
 ---
 [Leonardo Da Vinci](/wiki/leonardo_da_vinci.html "Leonardo Da Vinci") once designed a fighting vehicle. Although never built, the design was ahead of its time.
 

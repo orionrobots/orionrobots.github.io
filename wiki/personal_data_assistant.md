@@ -2,6 +2,7 @@
 layout: page
 title: Personal Data Assistant
 date: 2005-07-14 11:09:04
+tags: [computing, controller]
 ---
 Otherwise know as a PDA, these devices were small and handheld, a precursor to the smartphones that are now common. They were considered potential material to build robots, at least before the Raspberry Pi, Beaglebone were available.
 

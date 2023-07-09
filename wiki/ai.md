@@ -2,6 +2,7 @@
 layout: page
 title: AI - Artificial Intelligence
 date: 2005-03-16 15:57:34
+tags: [artificial intelligence]
 ---
 AI is an abbreviation for Artificial Intelligence.
 

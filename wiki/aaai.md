@@ -2,6 +2,7 @@
 layout: page
 title: AAAI
 date: 2013-04-14 14:23:41
+tags: [artificial intelligence]
 ---
 The Association For The Advancement of Artificial Intelligence was founded in 1979 and is involved in actively debating and organising events and conferences related to this diverse field.
 

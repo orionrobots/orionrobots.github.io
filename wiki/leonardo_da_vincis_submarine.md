@@ -2,6 +2,7 @@
 layout: page
 title: Leonardo Da Vincis Submarine
 date: 2004-12-17 13:52:42
+tags: [history, submersible, machines]
 ---
 [Leonardo Da Vinci](/wiki/leonardo_da_vinci.html "Leonardo Da Vinci") was known to have designed a [SubMarine](/wiki/submarine.html "SubMarine").
 

@@ -2,6 +2,7 @@
 layout: page
 title: Bricklink
 date: 2006-08-24 08:50:46
+tags: [lego]
 ---
 [Bricklink](https://www.bricklink.com/v2/main.page) is a site designed for trading [Lego](/wiki/lego.html "The best known construction toy") parts, instructions and sets.
 There are hundreds of stores, and you can search by part numbers or categories.

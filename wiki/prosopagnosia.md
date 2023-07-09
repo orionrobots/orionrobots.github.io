@@ -2,6 +2,7 @@
 layout: page
 title: Prosopagnosia
 date: 2007-01-26 20:11:22
+tags: [sensors, artificial intelligence, facial recognition]
 ---
 ## Overview of the Condition
 
@@ -21,4 +22,4 @@ Prosopagnosia is very hard to explain to others, and can often be met with deris
 
 Of course, while AI developers could foreseeably create such a device, the real test would be whether the small number of those with this would actually use them.
 
-https://en.wikipedia.org/wiki/Prosopagnosia
+<https://en.wikipedia.org/wiki/Prosopagnosia>

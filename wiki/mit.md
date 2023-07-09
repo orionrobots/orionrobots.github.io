@@ -2,6 +2,7 @@
 layout: page
 title: MIT
 date: 2005-07-29 17:04:22
+tags: [universities, robotics, artificial intelligence]
 ---
 This institute have a big part in [robotics](/wiki/robotic.html "Robotic") and [AI](/wiki/ai.html "Artificial Intelligence"). It is here where Professor [Rodney Brooks](/wiki/rodney_brooks.html "Rodney Brooks") and many other major figures in this field have either studied or lectured.
 

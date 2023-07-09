@@ -3,6 +3,7 @@ layout: page
 title: Lego
 description: The best known construction toy
 date: 2015-03-09
+tags: [lego]
 ---
 Lego is probably the best known brand of Construction Toy. Lego has had the largest fanbase, including the well known Lugnet site.
 

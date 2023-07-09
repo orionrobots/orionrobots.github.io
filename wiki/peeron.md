@@ -2,6 +2,7 @@
 layout: page
 title: Peeron
 date: 2006-08-24 08:57:54
+tags: [lego]
 ---
 [Peeron](http://www.peeron.com) allow [Lego](/wiki/lego.html "The best known construction toy") users to catalogue all their sets and parts in an online database. You can type in a set number , and you can retrieve a parts list, images, [Lugnet](/wiki/lugnet.html "Lego Users Group Network") links, availability and pricing at various outlets.
 

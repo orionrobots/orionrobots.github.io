@@ -2,6 +2,7 @@
 layout: page
 title: SubMarine
 date: 2004-11-14 22:47:12
+tags: [machine, submersible]
 ---
 Any underwater vesical is said to be a submarine vesical.
 

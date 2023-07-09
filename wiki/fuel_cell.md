@@ -2,6 +2,7 @@
 layout: page
 title: Fuel Cell
 date: 2004-11-16 14:59:58
+tags: [power supplies]
 ---
 A fuel cell is an electro-chemical device that gets electrical power from oxidising hydrogen or hydrogen based compounds. It is a very efficient, if experimental power source.
 

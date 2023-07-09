@@ -2,6 +2,7 @@
 layout: page
 title: Solar Panel
 date: 2004-11-14 22:11:22
+tags: [power supplies]
 ---
 Solar Power is a broad term describing the harnessing of the suns energy to provide energy for our own purposes. A solar cell normally refers to a single unit generating DC electricity from this. Each cell is capable of producing voltage from the suns energy (or strong light sources).
 

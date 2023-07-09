@@ -2,6 +2,7 @@
 layout: page
 title: IDETool
 date: 2006-08-16 21:44:44
+tags: [programming]
 ---
 ## IDE
 

@@ -2,6 +2,7 @@
 layout: page
 title: Converting AC To DC
 date: 2004-12-20 16:48:37
+tags: [electronics]
 ---
 AC (alternating current) can be converted to DC (direct current) by using what is known as a rectifier. WARNING - do not ever attempt to convert mains power - buy a safe and suitable adaptor if this is needed!!
 

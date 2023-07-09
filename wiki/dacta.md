@@ -2,6 +2,7 @@
 layout: page
 title: Lego DACTA
 date: 2005-10-06 14:33:53
+tags: [lego]
 ---
 [Lego](/wiki/lego.html "The best known construction toy") DACTA is the School consortium branch of the Lego company.
 

@@ -2,6 +2,7 @@
 layout: page
 title: Generating AC From DC
 date: 2004-11-16 14:55:37
+tags: [electronics]
 ---
 If you have a DC supply or power source, and wish to generate AC, you must first consider your needs.
 

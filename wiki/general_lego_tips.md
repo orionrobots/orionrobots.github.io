@@ -2,6 +2,7 @@
 layout: page
 title: General Lego Tips
 date: 2006-12-12 00:07:51
+tags: [lego, lego technic]
 ---
 Please share any general [Lego](/wiki/lego.html "The best known construction toy") tips.
 

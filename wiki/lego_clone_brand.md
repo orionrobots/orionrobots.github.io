@@ -2,6 +2,7 @@
 layout: page
 title: Lego Clone Brand
 date: 2006-09-12 16:32:44
+tags: [lego]
 ---
 [Lego](/wiki/lego.html "The best known construction toy") enjoys a grand reign over the whole construction toy with its winning formulae. It is simple to use, doesn't have annoying little nuts that slowly unscrew while the model is moving, comes in many colours, including fetching primary colours, and has a large selection of pieces.
 

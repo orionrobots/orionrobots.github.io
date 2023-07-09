@@ -10,7 +10,8 @@
     "stats": "webpack -c webpack.config.js --profile --json > stats.json",
     "stats-cli": "webpack-bundle-analyzer stats.json",
     "11ty": "npx @11ty/eleventy --quiet",
-    "serve": "npx @11ty/eleventy --serve --quiet"
+    "serve": "npx @11ty/eleventy --serve --quiet",
+    "check-missing-tags": "node src/utilities/list-files-without-tags.js"
   },
   "repository": {
     "type": "git",
@@ -33,6 +34,7 @@
     "eleventy": "^1.0.6",
     "exports-loader": "^4.0.0",
     "expose-loader": "^4.1.0",
+    "gray-matter": "^4.0.3",
     "markdown-it-anchor": "^8.6.7",
     "markdown-it-attrs": "^4.1.6",
     "mini-css-extract-plugin": "^2.7.5",

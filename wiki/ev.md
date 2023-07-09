@@ -2,6 +2,7 @@
 layout: page
 title: Electric Vehicles
 date: 2005-10-06 14:51:07
+tags: [power supplies, batteries]
 ---
 Robots will only be enhanced by the gradual roll out of Electric
 vehicles, supplanting existing [Internal Combustion Engine][] and Hybrid

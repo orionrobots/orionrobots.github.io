@@ -2,6 +2,7 @@
 layout: page
 title: Artificial Intelligence
 date: 2005-12-10 14:29:54
+tags: [artificial intelligence]
 ---
 Artificial Intelligence is a very broad description. It applies to anything from simple bots with some autonomy, to fully learning growing systems.
 

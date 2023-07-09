@@ -2,6 +2,7 @@
 layout: page
 title: James Jessiman
 date: 2005-08-25 22:20:18
+tags: [lego]
 ---
 James Jessiman was the much hailed creator of the [LDraw System](/wiki/ldraw_system.html "The primary system for CAD representation of Lego parts") [Lego](/wiki/lego.html "The best known construction toy") [CAD](/wiki/cad.html "Computer Aided Design") file format, and a number of parts in the library.
 
