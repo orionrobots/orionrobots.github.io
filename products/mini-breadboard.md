@@ -6,19 +6,19 @@ tags: [arduino, breadboard, cabling, connectors, solderless]
 gallery:
     images:
         -
-            src: galleries/mini-breadboard/breadboard-detail.JPG
+            src: products/mini-breadboard/breadboard-detail.jpg
             alt: Breadboard Close Shot
         -
-            src: galleries/mini-breadboard/breadboard-in-package.JPG
+            src: products/mini-breadboard/breadboard-in-package.jpg
             alt: Breadboard In its packaging
         -
-            src: galleries/mini-breadboard/breadboard-side-view.JPG
+            src: products/mini-breadboard/breadboard-side-view.jpg
             alt: Breadboard Side view showing the adhesive backing
         -
-            src: galleries/mini-breadboard/breadboard-connections-diagram.JPG
+            src: products/mini-breadboard/breadboard-connections-diagram.jpg
             alt: Breadboard Internal Connections - which pins are connected
         -
-            src: galleries/mini-breadboard/breadboard-on-robot-example.JPG
+            src: products/mini-breadboard/breadboard-on-robot-example.jpg
             alt: Action shot of a breadboard on a robot
 ---
 So you've got an Explorer 1 Robot Kit, or another kit, and you are running out of the right kind of pins on the Arduino board or looking to start adding some other odd components to try something. You could start twisting wires together, but I think you'll find this little Breadboard handy.
