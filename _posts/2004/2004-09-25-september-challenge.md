@@ -1,5 +1,4 @@
 ---
-layout: post
 date: 2004-11-25
 title: East Finchley Robotics Club - Twin motor with steering challenge
 description: A challenge for the robotics club to build a twin motor with steering

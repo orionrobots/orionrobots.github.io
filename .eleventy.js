@@ -53,7 +53,7 @@ module.exports = function(eleventyConfig) {
                 this.name = tagToken.args;
             },
             render: function(scope, hash) {
-                const matching_posts = $collectionApi.getFilteredByGlob("_posts/" + this.name + ".md");
+                const matching_posts = $collectionApi.getFilteredByGlob("_posts/**/" + this.name + ".md");
                 if (matching_posts.length == 0) {
                     console.log("Glob is _posts/" + this.name + ".md");
                     throw new Error("Could not find post with name " + this.name);
