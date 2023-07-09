@@ -1,7 +1,7 @@
 ---
 theme :
   name : orionrobots
-layout: common.html
+layout: common
 ---
 <div class="row">
   <article id="col-main" class="content col-md-8">
@@ -27,13 +27,13 @@ layout: common.html
     </div>
     {{ content }}
     {% if comments %}
-        {% include discus_thread %}
+        {% include disqus_thread %}
     {% endif %}
 
   </article>
   <aside class="col-md-4">
       {% include sidebar-book.liquid %}
-      {% include sidebar_ads.html %}
+      {% include sidebar_ads.liquid %}
   </aside>
 </div>
 {% if using_mathjax %}

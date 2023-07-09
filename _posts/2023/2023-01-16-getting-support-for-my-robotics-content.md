@@ -1,8 +1,10 @@
 ---
+comments: true
 layout: post
 title: Getting support for my robotics content
 date: 2023-01-16T19:48:30.116Z
 description: How can robot builders contact me
+disqus_url: "{{permalink}}"
 tags:
   - robot building
   - writing

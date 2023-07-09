@@ -1,4 +1,4 @@
 {
     "permalink": "wiki/{{ page.fileSlug }}.html",
-    "layout": "page.html"
+    "layout": "page"
 }
