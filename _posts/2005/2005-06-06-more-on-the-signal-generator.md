@@ -45,4 +45,4 @@ Once built, I tested this by connecting it up to an oscilloscope.
 
 I used the result to test the diode bridge.
 
-[Gallery showing all images]({{page.gal}})
+[Gallery showing all images](../{{page.gal}})

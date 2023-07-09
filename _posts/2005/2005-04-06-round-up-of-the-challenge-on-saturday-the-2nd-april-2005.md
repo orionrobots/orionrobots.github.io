@@ -97,18 +97,18 @@ We took initial photos of the vehicles before they ran into trouble.
 
 Danny & Gabriel Proudly Holding Their Creation
 
-<a href="{{ page.gallery_browse }}0.html"> ![]({{ gallery_thumb }}danny_and_gabriel.jpg) </a>
+<a href="<../{{ page.gallery_browse }}0.html>"> ![]({{ gallery_thumb }}danny_and_gabriel.jpg) </a>
 
 Gabriel was really concerned - they still couldn't get it to turn - the large wheels dragged, and the fact that they were wider at the non-driving end turned those front wheels into dead weight when they tried to steer. Ouch.
 
 Some more close-ups of it.
 Note the front forks, and the gears used for style on the extra wheels.
 
-<a href="{{ page.gallery_browse }}1.html"> ![]({{ gallery_thumb }}p1010005_3.jpg) </a><a href="{{ page.gallery_browse }}2.html"> ![]({{ gallery_thumb }}p1010006_2.jpg) </a><a href="{{ page.gallery_browse }}3.html"> ![]({{ gallery_thumb }}p1010007_3.jpg) </a>
+<a href="<../{{ page.gallery_browse }}1.html>"> ![]({{ gallery_thumb }}p1010005_3.jpg) </a><a href="<../{{ page.gallery_browse }}2.html>"> ![]({{ gallery_thumb }}p1010006_2.jpg) </a><a href="<../{{ page.gallery_browse }}3.html>"> ![]({{ gallery_thumb }}p1010007_3.jpg) </a>
 
 Dale & Janak with their robot
 
-<a href="{{ page.gallery_browse }}4.html"> ![]({{ gallery_thumb }}p1010008_3.jpg) </a>
+<a href="<../{{ page.gallery_browse }}4.html>"> ![]({{ gallery_thumb }}p1010008_3.jpg) </a>
 
 Their model has a lot of empty space, but those balloon tyres did make it steer well.
 You can see the bumpers quite clearly - as well as the four wheel drive.
@@ -116,13 +116,13 @@ Danny & Gabriel are still testing their vehicle in the background - trying to wo
 
 The front and rear bumper had been secured with technic pins by Dale so they wouldn't fall off.
 
-<a href="{{ page.gallery_browse }}5.html"> ![]({{ gallery_thumb }}p1010009_3.jpg) </a><a href="{{ page.gallery_browse }}6.html"> ![]({{ gallery_thumb }}p1010010_3.jpg) </a><a href="{{ page.gallery_browse }}7.html"> ![]({{ gallery_thumb }}p1010011_3.jpg) </a>
+<a href="<../{{ page.gallery_browse }}5.html>"> ![]({{ gallery_thumb }}p1010009_3.jpg) </a><a href="<../{{ page.gallery_browse }}6.html>"> ![]({{ gallery_thumb }}p1010010_3.jpg) </a><a href="<../{{ page.gallery_browse }}7.html>"> ![]({{ gallery_thumb }}p1010011_3.jpg) </a>
 
 The competition was on - I made my first judgements.
 Style went to Gabriel & Danny, as Dale & Janak did not even consider any style pieces.
 
 The two models face to face
-<a href="{{ page.gallery_browse }}8.html"> ![]({{ gallery_thumb }}p1010012_1.jpg) </a>
+<a href="<../{{ page.gallery_browse }}8.html>"> ![]({{ gallery_thumb }}p1010012_1.jpg) </a>
 
 On weight, Dales team scooped an easy 4 points and with four wheel drive and pinned construction, they get the 4 engineering points.
 So 8 points to Dale & Janak to 2 for Danny & Gabriel.
@@ -132,7 +132,7 @@ He makes steady progress, although the sunlight is not helping the [Lego Manas](
 So Dale makes sure he keeps a shadow on his robot when possible.
 
 Dale takes the tricky corner (its not that tricky!) - Janak is providing the shadow cover for him.
-<a class="internal" href="{{ page.gallery_browse }}9.html"> ![]({{ gallery_thumb }}p1010013_1.jpg) </a>
+<a class="internal" href="<../{{ page.gallery_browse }}9.html>"> ![]({{ gallery_thumb }}p1010013_1.jpg) </a>
 
 They make a good time of 2 minutes and 25 with no penalties.
 
@@ -140,7 +140,7 @@ It is time for Danny & Gabriel to go, with Danny chosen as driver - this is not 
 
 Unfortunately - they really cannot steer- their buggy pretty much only goes in a straight line - it can only turn very slowly, and possibly by getting momentum and pulling back on one set of wheels - a real skid steer...
 
-<a href="{{ page.gallery_browse }}10.html"> ![]({{ gallery_thumb }}p1010014_1.jpg) </a>
+<a href="<../{{ page.gallery_browse }}10.html>"> ![]({{ gallery_thumb }}p1010014_1.jpg) </a>
 
 Danny makes a few attempts to turn a corner, and then just bolts for the finish line - which if you ignore the penalty areas, is a straight line from the start line.
 
@@ -164,7 +164,7 @@ Danny's vehicle was virtually useless, and Dale (a little gloatingly I may add) 
 
 I took one more photo of each before the drop tests started
 
-<a href="{{ page.gallery_browse }}11.html"> ![]({{ gallery_thumb }}p1010015_1.jpg) </a><a href="{{ page.gallery_browse }}12.html"> ![]({{ gallery_thumb }}p1010016_3.jpg) </a>
+<a href="<../{{ page.gallery_browse }}11.html>"> ![]({{ gallery_thumb }}p1010015_1.jpg) </a><a href="<../{{ page.gallery_browse }}12.html>"> ![]({{ gallery_thumb }}p1010016_3.jpg) </a>
 
 On the drop test, Dale again volunteered to be first - Gabriel and Danny were glad to have a little time to ensure there model was rebuilt.
 
@@ -176,7 +176,7 @@ A total of 3 points.
 
 Drop Test Aftermath
 
-<a class="internal" href="{{ page.gallery_browse }}13.html"> ![]({{ gallery_thumb }}p1010017_3.jpg) </a>
+<a class="internal" href="<../{{ page.gallery_browse }}13.html>"> ![]({{ gallery_thumb }}p1010017_3.jpg) </a>
 
 Now considering Dales gloating, and distraction techniques, I had to award the 12 behaviour points to Danny & Gabriel - but alas - it was really not enough.
 The final score was 54 to 17.

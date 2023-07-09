@@ -14,27 +14,27 @@ If you look at these first photos - you can clearly see that with a simple hoppe
 This was how I explained the purpose of the device to the kids at the club.
 
 [ ![]({{ image_gallery }}thumbnails/p1010009_2.jpg) ]({{ image_gallery }}target3.html)
-<a href="{{ image_gallery }}target4.html"> ![]({{ image_gallery }}thumbnails/p1010010_2.jpg)</a>
+<a href="<../{{ image_gallery }}target4.html>"> ![]({{ image_gallery }}thumbnails/p1010010_2.jpg)</a>
 
 So I thought about building a mechanism to stir the balls
 My inspiration came from seeing the stirrers used in the belt lift components in RokenBok.
 I created the basket itself, and the actual mechanism to turn the stirrers - as seen from this underside shot.
 
-<a href="{{ image_gallery }}target7.html">![]({{ image_gallery }}thumbnails/p1010017_2.jpg)</a>
+<a href="<../{{ image_gallery }}target7.html>">![]({{ image_gallery }}thumbnails/p1010017_2.jpg)</a>
 
 I then experimented with a few different types of stirring arm - I tried (my initial design) the large Lego classic space radar dishes - <http://peeron.com/inv/parts/4285b>.
 These didn't seem to work too well.
 I tried a few different ideas, and settled on the studless 3 bladed liftarm piece <http://peeron.com/inv/parts/44374> - which was most effective.
 
-<a href="{{ image_gallery }}target5.html">![]({{ image_gallery }}thumbnails/p1010011_2.jpg)</a>
-<a href="{{ image_gallery }}target6.html">![]({{ image_gallery }}thumbnails/p1010016_2.jpg)</a>
+<a href="<../{{ image_gallery }}target5.html>">![]({{ image_gallery }}thumbnails/p1010011_2.jpg)</a>
+<a href="<../{{ image_gallery }}target6.html>">![]({{ image_gallery }}thumbnails/p1010016_2.jpg)</a>
 
 In the next shots - you can see the counterweighted mechanism for keeping the door shut.
 This was because I was considering using it with a simple lift mechanism.
 
-<a href="{{ image_gallery }}target0.html">![]({{ image_gallery }}thumbnails/p1010005_1.jpg)</a>
-<a href="{{ image_gallery }}target1.html">![]({{ image_gallery }}thumbnails/p1010006_1.jpg)</a>
+<a href="<../{{ image_gallery }}target0.html>">![]({{ image_gallery }}thumbnails/p1010005_1.jpg)</a>
+<a href="<../{{ image_gallery }}target1.html>">![]({{ image_gallery }}thumbnails/p1010006_1.jpg)</a>
 
-More shots at <a href="{{ image_gallery }}index.html">the gallery</a>
+More shots at <a href="<../{{ image_gallery }}index.html>">the gallery</a>
 
 <iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=GB&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=orionrobots-21&language=en_GB&marketplace=amazon&region=GB&placement=B082WD5YV9&asins=B082WD5YV9&linkId=beb70788ccaaea84a7820473034e4cd9&show_border=true&link_opens_in_new_window=true"></iframe>
