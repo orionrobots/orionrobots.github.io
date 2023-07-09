@@ -81,9 +81,8 @@ module.exports = function(eleventyConfig) {
 		return Image.generateHTML(metadata, imageAttributes);
 	});
 
-    eleventyConfig.addShortcode("img_responsive", async function(src, alt) {
+    eleventyConfig.addShortcode("img_responsive", async function(src, alt, sizes="100vw, 720, 820, 940, 1140, 1280") {
         let metadata = await fetch_image(src);
-        sizes="720, 940, 1140, 1280, 2048"
 		let imageAttributes = {
 			alt,
 			sizes,

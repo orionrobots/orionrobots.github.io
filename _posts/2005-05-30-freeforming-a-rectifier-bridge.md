@@ -5,10 +5,11 @@ tags: [diode, electronics, waveform, oscilloscope]
 title: Freeforming a Rectifier Bridge
 layout: post
 gallery: /galleries/gallery-8-signal-generator-diode-bridge/
+thumbnail: galleries/gallery-8-signal-generator-diode-bridge/314-clear-result.jpg
 ---
-<center>The resulting waveform.</center>
+The resulting waveform:
 
-![Clear waveform]({{gallery}}/314-clear-result.jpg){..img-responsive .center-block}
+{% img_responsive "galleries/gallery-8-signal-generator-diode-bridge/314-clear-result.jpg", "Clear waveform", "800" %}
 
 The diode bridge is an essential part for making active sensors for the Lego Mindstorms RCX.
 It is also known as a full-wave rectifier as it will rectify AC current into DC, or (as in the case of the Lego connector), allow something to be connected at either polarity, even with fairly complicated circuitry.
@@ -30,8 +31,9 @@ This circuit rectifies a waveform oscillating around 0 such that it is now oscil
 It does so by using diodes - which allow current to flow in only one direction.
 These are set up in a group such that in the output from this one pin is always negative, and another is positive.
 
-<center>The two wave forms superimposed</center>
-![]({{gallery}}/319-superimposed.jpg){..img-responsive .center-block}
+The two wave forms superimposed:
+
+{% img_responsive "galleries/gallery-8-signal-generator-diode-bridge/319-superimposed.jpg", "Superimposed waveforms" %}
 
 I do not have a dual trace oscilloscope, so this was the only way to do it.
 
@@ -95,9 +97,9 @@ These are simple general purpose rectifiers - ideal for this.
 
 <center>The four 1N4001 diodes on bandolier tape.</center>
 
-![]({{gallery}}/261-diodes-on-a-tape.jpg){..img-responsive .img-rounded .center-block .col-sm-6} ![]({{gallery}}/262-diodes-2.jpg){..img-responsive .center-block .col-sm-6}
-![]({{gallery}}/263-diodes-2-sets.jpg){..img-responsive .center-block .col-sm-6}
-![]({{gallery}}/264-tape-removed.jpg){..img-responsive .center-block .col-sm-6}
+![]({{gallery}}/261-diodes-on-a-tape.jpg){.img-responsive .img-rounded .center-block .col-sm-6} ![]({{gallery}}/262-diodes-2.jpg){.img-responsive .center-block .col-sm-6}
+![]({{gallery}}/263-diodes-2-sets.jpg){.img-responsive .center-block .col-sm-6}
+![]({{gallery}}/264-tape-removed.jpg){.img-responsive .center-block .col-sm-6}
 
 <div class="clearfix"></div>
 If you can find diodes on bandolier tape, as those produced by Maplin and other electronic component retailers are sold, this will make your life easier later, but it is not essential though.
@@ -108,7 +110,8 @@ Be sure you are wearing your safety goggles for this.
 I would strongly recommend reading this guide <a href="/wiki/robot_building_safety.html" title="Building robots can be dangerous - tips to help your safety">Robot Building Safety</a>.
 
 <center>What we intend to end up with</center>
-![]({{gallery}}/157-bridgefreeforms4.png){..img-responsive .center-block}
+
+![Povray rendered diode bridge freeforms]({{gallery}}/157-bridgefreeforms4.png){..img-responsive .center-block}
 
 ## Step 1 First Bend
 
@@ -150,10 +153,8 @@ The pair should look like this.
 Repeat this on the opposite end for two more diodes.
 You should now have 2 diodes joined at their cathodes, and 2 more joined at their anodes.
 
-<div class="clearfix"></div>
 ![]({{gallery}}/268-step-4-second-set-soldered.jpg){..img-responsive .center-block .col-sm-6}
 ![]({{gallery}}/269-step-4-second-set-soldered-2.jpg){..img-responsive .center-block .col-sm-6}
-<div class="clearfix"></div>
 
 ## Step 5 - Bend one set of legs upwards
 
@@ -168,10 +169,8 @@ On only ONE set of diodes, bend the legs upward at the red crosses.
 At this point - I trimmed the legs on the other set.
 I don't advise this, and suggest to actually wait until having soldered them to trim them.
 
-<div class="clearfix"></div>
 ![]({{gallery}}/272-legs-trimmed.jpg){..img-responsive .center-block .col-sm-6}
 ![]({{gallery}}/273-legs-trimmed.jpg){..img-responsive .center-block .col-sm-6}
-<div class="clearfix"></div>
 
 ## Step 6- Bring the two pairs together
 

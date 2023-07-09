@@ -33,7 +33,7 @@ You can reach me on twitter [@orionrobots](https://twitter.com/orionrobots)
         <div class="media-heading"><span class="post_date">{{ post.date | date: '%d %b %Y' }}</span> &raquo;
           <a class="post_title" href="{{ BASE_PATH }}{{ post.url }}">{{ post.data.title }}</a>
         </div>
-          <div class="clearfix post_excerpt">
+          <div class="post_excerpt">
             {{ post | excerpt | strip_html }}
             <a href="{{ BASE_PATH }}{{ post.url }}">more...</a>
           </div>
