@@ -6,8 +6,17 @@
     DirectoryIndex index.html index.php
 </IfModule>
 
-<IfModule deflate_module>
-	AddOutputFilterByType DEFLATE text/html text/plain text/xml text/css application/x-javascript application/javascript
+<IfModule mod_deflate.c>
+    AddOutputFilterByType DEFLATE text/plain
+    AddOutputFilterByType DEFLATE text/html
+    AddOutputFilterByType DEFLATE text/xml
+    AddOutputFilterByType DEFLATE text/shtml
+    AddOutputFilterByType DEFLATE text/css
+    AddOutputFilterByType DEFLATE application/xml
+    AddOutputFilterByType DEFLATE application/xhtml+xml
+    AddOutputFilterByType DEFLATE application/rss+xml
+    AddOutputFilterByType DEFLATE application/javascript
+    AddOutputFilterByType DEFLATE application/x-javascript
 </IfModule>
 
 <FilesMatch ".(ico|pdf|jpg|jpeg|png|gif|html|js|css)$">
@@ -157,7 +166,6 @@ RewriteRule "^forumthread1" /forums/announcements/new_site? [R,L]
 # Non tiki
 RewriteRule ^blogs?$                archive.html                      [L]
 
-RewriteRule "^Construction.?Guide(?!\.html)" /construction_guide.html [R,L]
 RewriteRule "^Getting[^_]?Started(.*)" /getting_started.html [R,L]
 RewriteRule "^Leonardo.?Da.?Vincis.?Tank(.*)" /wiki/leonardo_da_vincis_tank.html [R]
 RewriteRule "^Leonardo.?Da.?Vincis.?Helicopter(.*)" /wiki/leonardo_da_vinci.html [R]
@@ -165,7 +173,6 @@ RewriteRule "^Fixing.?A.?Broken.?Wire(.*)" /2004/11/14/fixing-a-broken-wire [R]
 RewriteRule "^Lego.?Specifications(.*)" /wiki/lego_specifications.html [R,L]
 RewriteRule "^i-Cybie.?Robot.?Dog(.*)" /2004/11/14/i-cybie-robot-dog [R,L]
 RewriteRule "^leonardo_da_vincis_tank.html" /wiki/leonardo_da_vincis_tank.html [R,L]
-RewriteRule "^orion-explorer-faq.html" /products/orion-explorer-faq.html [R,L]
 RewriteRule "^Simple.?Parallel.?Port.?LED.?Board" /2004/11/05/simple-parallel-port-led.html [R,L]
 
 RewriteCond  %{QUERY_STRING} page=Simple.?Parallel.?Port.?LED.?Board
@@ -181,13 +188,6 @@ Redirect 301 /HomePage /index.html
 RewriteRule "^MegaByte.?Robot.?Dog$"    /2004/11/14/megabyte-robot-dog.html [R,NC,L]
 
 
-Redirect 301 /wiki/rcx  /wiki/lego_rcx.html
-Redirect 301 /wiki/rcx.html /wiki/lego_rcx.html
-Redirect 301 /wiki/ir /wiki/infra_red.html
-Redirect 301 /wiki/ir.html /wiki/infra_red.html
-Redirect 301 /wiki/usb.html /wiki/universal_serial_bus.html
-Redirect 301 /wiki/servo.html /wiki/servo_motor.html
-
 
 RewriteCond  %{QUERY_STRING} imageId=122
 RewriteRule "^tiki-browse_image.php"           /2010/01/19/the-lego-rcx-inside-and-out.html?#photos-of-the-innards     [R,L,NE]
@@ -198,5 +198,14 @@ RewriteRule ^page-([A-Za-z0-9]+)    wiki/$1.html                     [QSA,L]
 
 # Otherwise try appending .html onto it and stop.
 RewriteCond %{REQUEST_URI} !.html$
-RewriteRule ^/?(.+[^/])/?$ /$1.html [R,L]
+RewriteRule ^/?(.+[^/])/?$ /$1.html
+
+
+Redirect 301 /wiki/rcx  /wiki/lego_rcx.html
+Redirect 301 /wiki/rcx.html /wiki/lego_rcx.html
+Redirect 301 /wiki/ir /wiki/infra_red.html
+Redirect 301 /wiki/ir.html /wiki/infra_red.html
+Redirect 301 /wiki/usb.html /wiki/universal_serial_bus.html
+Redirect 301 /wiki/servo.html /wiki/servo_motor.html
+
 </IfModule>
