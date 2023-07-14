@@ -36,3 +36,4 @@ repos:
 #     rev: v6.31.0
 #     hooks:
 #     -   id: cspell
+# docker run --rm -v $PWD:/app madewithlove/htaccess-cli -p _site https://orionrobots.co.uk/wiki/usb - verified htaccess on one file. But doesnt validate whole file syntax.
