@@ -28,12 +28,14 @@ jobs:
       - name: Tarball the site
         run: |
           tar -czf _site.tar.gz _site
+
       - name: upload site artifact
         uses: actions/upload-artifact@v3
         with:
           name: _site
           path: _site.tar.gz
           if-no-files-found: error
+
       - name: upload httpd.conf artifact
         uses: actions/upload-artifact@v3
         with:
