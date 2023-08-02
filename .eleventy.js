@@ -148,6 +148,7 @@ module.exports = function(eleventyConfig) {
     eleventyConfig.addGlobalData("menu", () => getDataFromConfigYaml("menu"));
     eleventyConfig.addGlobalData("site_title",  () => getDataFromConfigYaml("title"));
     eleventyConfig.addGlobalData("site_tagline",  () => getDataFromConfigYaml("tagline"));
+    eleventyConfig.addGlobalData("production_url",  () => getDataFromConfigYaml("production_url"));
 
     eleventyConfig.addNunjucksFilter("date", function(date, format) {
         return moment(date).format(format);
