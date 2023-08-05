@@ -6,7 +6,7 @@ description: How to add line following to a robot with Raspberry Pi Pico and Pyt
 date: 2023-08-05
 author: Danny Staple
 ---
-Line following robots are a great example of autonomous robot behaviour. In this article, I will show you step-by-step how to add the line sensor to a Raspberry Pi Pico robot, how to wire it in, and then how to write Python code for responsive line following on the robot. I include CircuitPython and MicroPython examples.
+Line following robots are a great example of autonomous robot behaviour. In this article, I will show you step-by-step how to add a line sensor to a Raspberry Pi Pico robot, how to wire it in, and then how to write Python code for responsive line following on the robot. I include CircuitPython and MicroPython examples.
 
 If you have a robot with motors and a Python capable microcontroller, this will be a way to add reasonably fast line following to it.
 
