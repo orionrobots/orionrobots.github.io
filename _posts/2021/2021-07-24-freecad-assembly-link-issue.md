@@ -12,7 +12,7 @@ tags:
 - cad
 - python
 - programming
-thumbnail: /galleries/2021/07-24-freecad-assembly-link-issue/thumbnails/freecad-assembly4-broken-link.png
+thumbnail: /galleries/2021/07-24-freecad-assembly-link-issue/freecad-assembly4-broken-link.png
 title: Freecad Assembly4 File Link
 ---
 

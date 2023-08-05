@@ -24,18 +24,18 @@ function stripLeadingSlash(path) {
     return path;
 }
 
-function getPostThumbnailUrl(post) {
+function getPostThumbnailPath(post) {
     if ("thumbnail" in post.data) {
         return post.data.thumbnail;
     }
 }
 
 function has_thumbnail(post) {
-    return getPostThumbnailUrl(post) != undefined;
+    return getPostThumbnailPath(post) != undefined;
 }
 
 async function thumbnail_for_post(post) {
-    const thumbnailUrl = getPostThumbnailUrl(post);
+    const thumbnailUrl = getPostThumbnailPath(post);
     if(thumbnailUrl == undefined) {
         return "";
     }
@@ -56,8 +56,20 @@ async function thumbnail_for_post(post) {
     }
 }
 
+async function thumbnail_from_path(thumbnail_path) {
+    const imageSrc = stripLeadingSlash(thumbnail_path);
+    if ( imageSrc.includes("amazon-adsystem") || !fs.existsSync(imageSrc)) {
+        return "";
+    } else {
+        console.log("Generating thumbnail URL for " + imageSrc);
+        const metadata = await make_thumbnail_for(imageSrc);
+        return metadata.png[1].url;
+    }
+}
+
 module.exports = {
     make_thumbnail_for: make_thumbnail_for,
     has_thumbnail: has_thumbnail,
     thumbnail_for_post: thumbnail_for_post,
+    thumbnail_from_path: thumbnail_from_path
 }

@@ -116,6 +116,7 @@ module.exports = function(eleventyConfig) {
     // Thumbnails
     eleventyConfig.addShortcode("thumbnail_for_post", thumbnails.thumbnail_for_post);
     eleventyConfig.addFilter("has_thumbnail", thumbnails.has_thumbnail);
+    eleventyConfig.addShortcode("thumbnail_from_path", thumbnails.thumbnail_from_path);
 
     eleventyConfig.addShortcode("tab_gallery", tab_gallery);
 

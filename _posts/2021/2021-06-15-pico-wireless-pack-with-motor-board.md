@@ -32,7 +32,7 @@ tags:
 - esp32
 - python
 - circuitpython
-thumbnail: /galleries/2021/06-15-pico-wireless-pack-with-motor-board/thumbnails/bare-basics-fritzing.png
+thumbnail: /galleries/2021/06-15-pico-wireless-pack-with-motor-board/bare-basics-fritzing.png
 title: Raspberry Pi Pico Wireless pack and Motors
 ---
 Pimoroni have a wireless pack for Raspberry Pi Pico. This adds wifi capability with an ESP32 (and possibly bluetooth, more on that later). Wifi capability is great because it means I can teleoperate (remote drive) my robots, even if it's just starting behaviors. In [Learn Robotics Programming](http://packt.live/2XccaKe) I have a chapter showing how to crate a nice web interface and remote camera/driving app to take advantage of Raspberry Pi 3a+ wifi. It's something I've taken to adding to most of my robots. But what about Pico robots?
@@ -43,7 +43,7 @@ Great. But what about using it with a Kitronic Motor board too? Pico backpacks p
 
 ## Why more Raw?
 
-First I am working on small robots, that don''t really have space for the 3 way pack. Space is at a premium (yes, the esp-01 might still be more suitable in that circumstance).
+First I am working on small robots, that don't really have space for the 3 way pack. Space is at a premium (yes, the esp-01 might still be more suitable in that circumstance).
 
 Second when using multiple packs together, there is no guarantee that pins won't clash, which means I need to move things around a bit and reassign them. I'm prepared to override or modify software to allow this.
 

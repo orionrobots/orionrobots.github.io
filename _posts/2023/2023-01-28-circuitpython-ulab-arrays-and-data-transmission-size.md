@@ -12,7 +12,7 @@ tags:
   - learn robotics at home
   - bluetooth ble
 category: robot-programming
-thumbnail: /galleries/raspberry-pi-pico-circuitpython-msg-size_thumb.png
+thumbnail: /galleries/raspberry-pi-pico-circuitpython-msg-size.png
 ---
 Using a Bluefruit BLE UART Friend (Bluetooth BLE) is a handy way to add Bluetooth BLE to a project, with support in a Bluefruit Connect App to visualise data.
 
