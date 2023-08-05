@@ -252,3 +252,8 @@ footer {
   background-color: #151514;
   color: white;
 }
+
+.youtube-video {
+  aspect-ratio: 16 / 9;
+  width: 100%;
+}

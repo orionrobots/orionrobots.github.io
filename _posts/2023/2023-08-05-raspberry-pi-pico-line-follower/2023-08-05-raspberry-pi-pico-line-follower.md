@@ -10,7 +10,7 @@ Line following robots are a great example of autonomous robot behaviour. In this
 
 If you have a robot with motors and a Python capable microcontroller, this will be a way to add reasonably fast line following to it.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/awsejb_oMVg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="560" height="315" class="youtube-video" src="https://www.youtube.com/embed/awsejb_oMVg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 For this build, I chose the Cytron maker line. It uses 5 GPIO data pins, but is simple to interface with and has handy debug lights to show what is going on. At £8, it is also relatively cheap. It has 5 line sensors, which lets you use a pretty fast method of following. The code here will work with other 5 digital input line sensors.
 
