@@ -6,6 +6,8 @@ date: 2006-04-23 12:07:22
 ---
 The <a href="/wiki/boolean.html" title="Boolean">Boolean</a> NOT operation is a negation of its input.
 
+![A Logic NOT gate symbol](/galleries/logic_gates/notgate.png)
+
 That is, the output of a NOT gate is NOT its input.
 
 Look at this <a href="/wiki/truth_table.html" title="Truth Table">Truth Table</a>
