@@ -37,7 +37,7 @@ images:
   thumb-src: 'thm-118-80x16-setilogo.jpg'}
 - {caption: Parallel Port Pin Diagram, date: !!timestamp '2004-11-19 18:34:47', name: parallel.gif,
   src: '119-parallel.gif', thumb-src: 'thm-119-80x55-parallel.gif'}
-- {caption: '', date: !!timestamp '2004-11-19 19:26:35', name: and.jpg, src: '120-and.jpg',
+- {caption: '', date: !!timestamp '2004-11-19 19:26:35', name: and-logic-gate.png, src: 'and-logic-gate.png',
   thumb-src: 'thm-120-80x67-and.jpg'}
 - {caption: Close up of the RCX Motor Driver Chip, date: !!timestamp '2004-12-01 15:03:16',
   name: rcx_motor_chip.jpg, src: '121-motor-chip.JPG', thumb-src: 'thm-121-80x60-rcx-motor-chip.jpg'}

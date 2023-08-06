@@ -6,7 +6,7 @@ date: 2005-09-09 14:28:43
 ---
 This is a [Boolean](/wiki/boolean.html "Boolean") operation, which gives a result of true only when its first input "AND" second input are true (in the case of a two input AND). It is used both as an electronic element and in programming.
 
-![AND logic gate symbol](/galleries/gallery-1-common-images/120-and.jpg)
+![AND logic gate symbol](/galleries/gallery-1-common-images/and-logic-gate.png)
 
 A [Truth Table](/wiki/truth_table.html "Truth Table") for this operation:
 
