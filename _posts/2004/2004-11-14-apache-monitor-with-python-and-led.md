@@ -65,7 +65,7 @@ The rest of the code is all under the while loop.
 
 Since we are looping in an infinite loop, which may result in doing nothing, we could end up pulling all the computers resources by just running in that idle loop. Also - if it loops too fast, it would be a waste of time, the human eye can only see so many pulses per second. By delaying it by a mere fraction of a second, we ensure that the other processes on the computer get a chance to run, or the computer gets idle time as CPU's at 100% for extended periods can be quite damaging. Please - do not be tempted to remove this line.
 
-    while(1):
+    while True:
         time.sleep(0.01)
 
 Next we poll the pipe - check if anything has come through it yet, and if so, put it in data.
@@ -101,3 +101,41 @@ Finally - we turn off the LED. Because this is still indented, the program will 
         p.setData(0)
 
 The app is not particularly complex - but a more safe stop could be added to stop it exiting with the LED on. I am sure that there are a number of improvements and enhancements, but I had written it as more of a demonstration or proof of concept. Putting a try/except block around the part with the LED perhaps.
+
+
+Complete code:
+
+```python
+#sits and flashes LED connected to parallel port data 4 in sync with data arriving in apache access log
+import os
+import parallel
+import select
+import time
+
+p = parallel.Parallel()
+p.setData(0)
+#pipe = file("/var/log/apache2/access_log","r")
+#pipe.seek(0,2)
+pipe = os.popen("tail -f /var/log/apache2/access_log")
+poll = select.poll()
+poll.register(pipe)
+
+print "Select POLLIN is ", select.POLLIN, " pipe file no is ", pipe.fileno()
+
+#infinite loop
+while True:
+  time.sleep(0.01)
+  
+  data  = poll.poll()
+  #while(data[0][0] != pipe.fileno() and not (data[0][1] & select.POLLIN)):
+  while(data[0] != (pipe.fileno(), select.POLLIN)):
+    time.sleep(0.01)
+    data = poll.poll()
+    #print "Fileno is ", data[0][0], " Poll status is ", data[0][1]
+   
+  p.setData(8)
+  read = pipe.readline()
+  print read;
+  time.sleep(0.05)
+  p.setData(0)
+```
