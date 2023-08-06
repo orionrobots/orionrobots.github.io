@@ -8,6 +8,8 @@ todo_needs_sat: ["Download file put into resources - take out of tiki", "tiki im
 ---
 ![The pneumatic engine](/galleries/2006-07-09-pneumatic-engine-repost/PNEUMATICENGINE.jpg){:class="img-responsive"}
 
+![Pneumatic engine build](/galleries/pneumatic_engine_build.jpg)
+
 A long time ago, I created a pneumatic engine with Lego Pneumatic elements.
 
 This system is based upon three pneumatic cylinders, and they will continuously extend and contract in a cycle as long as pressure is supplied. This could be used to drive some interesting activity. You will note that the cylinder heads are each connected to pneumatic valves, which in turn set the extension of the next cylinder in the chain. The last switch is then connected to the first cylinder. The design could be extended for as long as there are parts for it, and enough pressure can be supplied.
