@@ -3,7 +3,7 @@ date: 2018-01-01 21:45:09
 tags: [robotics events, robots, robotics, raspberry pi, videos, edutech]
 title: Wrap Up Of The Year 2017
 layout: post
-author: Danny
+author: Danny Staple
 ---
 Orionrobots has undergone a bumper year in 2017 - it's only looking back at the whole year that I start to think about what we did, and what to expect in 2018.
 

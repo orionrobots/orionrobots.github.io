@@ -32,7 +32,7 @@ theme:
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{{ title }} | {{ site_title }} - {{ site_tagline }}</title>
     {% if description %}<meta name="description" content="{{ description }}">{% endif %}
-    <meta name="author" content="{{ site.author.name }}">
+    <meta name="author" content="{{ author | default:block 'Danny Staple'}}">
 
     <script type="text/javascript" src="/dist/bundle.js"></script>
     {% capture css %}{% include css/bootstrap-style.css %}{% endcapture %}

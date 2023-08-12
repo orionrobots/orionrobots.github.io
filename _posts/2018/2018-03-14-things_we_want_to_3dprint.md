@@ -2,7 +2,7 @@
 date: 2018-2-16 12:01:55
 tags: [3d printing, making, makers, robotics, raspberry pi projects, raspberry pi, robot, piwars]
 title: Things we want to 3d print at Orionrobots
-author: Danny
+author: Danny Staple
 layout: post
 ---
 
