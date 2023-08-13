@@ -10,6 +10,7 @@ const extractExcerpt = require("./src/shortcodes/extract_excerpt.js");
 const groupByYear = require("./src/filters/group_by_year.js");
 const thumbnails = require("./src/thumbnails.js");
 const tab_gallery = require("./src/shortcodes/make_tab_gallery.js");
+const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 
 const {
     fortawesomeBrandsPlugin,
@@ -23,7 +24,8 @@ module.exports = function(eleventyConfig) {
     markdownLib.use(markdownItAttrs);
     eleventyConfig.setLibrary("md", markdownLib);
     eleventyConfig.addPlugin(fortawesomeBrandsPlugin);
-
+    eleventyConfig.addPlugin(syntaxHighlight);
+    
     //copy through assets
     eleventyConfig.addPassthroughCopy("admin");
     eleventyConfig.addPassthroughCopy("assets");
