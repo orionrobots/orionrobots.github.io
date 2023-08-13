@@ -4,6 +4,7 @@ tags: [lego technic, lego robotics, robotics, robot building, robotics at home]
 title: Adder Subtractor Drive
 using_mathjax: true
 date: 2006-05-26
+thumbnail: /assets/adder_subtractor_drive/adder_subtractor_rcx_buggy.png
 ---
 A problem with [Skid Steering](/wiki/skid_steering.html "Skid Steering") is that that two motors of the same model, from the same company, and even in the same batch, may still not be identical. This makes robots veer off course.
 
