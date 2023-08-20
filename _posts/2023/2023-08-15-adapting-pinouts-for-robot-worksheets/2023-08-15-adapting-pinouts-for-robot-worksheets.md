@@ -1,7 +1,8 @@
 ---
-title: Adapting Controller Pinout for Robot Building Worksheets
+title: How To Make Robot Building Reference Cards using Pinout.xyz
 date: 2023-08-15
 tags: [robot building, robotics at home, electronics, raspberry pi pico, coder dojo]
+description: Make a part pinout reference card for your robot project
 thumbnail: _posts/2023/2023-08-15-adapting-pinouts-for-robot-worksheets/2023-07-30-Raspberry-Pi-Pico-W-Pinout-for-Coder-dojo-robot.png
 ---
 I've recently been specifying changes to a fleet of robots used in my local [Coder Dojo](https://www.coderdojoku.org/gallery). The modified robots would be based on a Raspberry Pi Pico W, and a bunch of sensors.
