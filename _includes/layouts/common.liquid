@@ -20,7 +20,11 @@ theme:
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="google-site-verification" content="UOzBed7gLBf1xSDPmxw3r4UGsKv1KcTacRUpEwSLA9g" />
     <link rel="shortcut icon" href="{{ ASSET_PATH }}/images/orion_favicon.png" />
-    
+    <meta name="twitter:site" content="@orionrobots" />
+    <meta name="og:title" content = "{{ title }} | {{ site_title }} - {{ site_tagline }}" />
+    {% if description %}
+        <meta name="og:description" content="{{ description }}" />
+    {% endif %}
     {% if thumbnail %}
     <meta property="og:image" content="{% thumbnail_from_path thumbnail %}" />
     <meta name="twitter:image" content="{% thumbnail_from_path thumbnail %}" />
