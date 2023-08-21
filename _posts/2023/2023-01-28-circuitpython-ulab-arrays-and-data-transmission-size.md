@@ -14,48 +14,39 @@ tags:
 category: robot-programming
 thumbnail: /galleries/raspberry-pi-pico-circuitpython-msg-size.png
 ---
-Using a Bluefruit BLE UART Friend (Bluetooth BLE) is a handy way to add Bluetooth BLE to a project, with support in a Bluefruit Connect App to visualise data.
+A Bluefruit BLE UART Friend (Bluetooth BLE) can add Bluetooth BLE to a project, with support in a Bluefruit Connect App to visualise data. Ulab is an implementation of parts of Numpy and SciPy for microcontroller Python interpreters, like CircuitPython and Micropython. This project uses CircuitPython, but similar issues would be seen in Micropython.
 
-It does however come with some problems around data.
-I am using it CircuitPython.
+My use case involves largish uLab arrays of floating point data to send, which are then visualised in a Bleak based desktop app. This is very slow however, due to the slow 9600 baud rate of this UART.
 
 ![The Adafruit Bluefruit BLE Friend](/galleries/adafruit_bluefruit_ble_uart_friend.jpeg "The Adafruit Bluefruit BLE Friend")
 
-One of the is efficiently sending arrays over the slow 9600 baud rate of this UART.
-The baud rate could be increased, but having already seen some errors across this UART using simple Dupont leads, I didn't want to push my luck here.
-One answer could be to buy the SPI Bluefruit BLE Friend, which might be faster, but that is spending more money on a device I've already bought and integrated.
+The baud rate could be increased, but having already seen some errors across this UART using simple Dupont leads, I didn't want to push my luck. An answer could be to buy the SPI Bluefruit BLE Friend, which might be faster, but that is spending more money on a device I've already bought and integrated. Another might be to swap this design for the Raspberry Pi Pico W, although there may be a memory sacrificed for the Bluetooth stack there.
 
 ![Sending data from a Raspberry Pi Pico on a robot via Bluetooth BLE to a computer](/galleries/raspberry-pi-pico-circuitpython-msg-size.png "The bluetooth BLE use case")
 
-You can build this robot yourself using [Robotics at Home with Raspberry Pi Pico](https://amzn.to/3ZBxtDr) available from the 17th March 2023! Build autonomous robots with the versatile low-cost Raspberry Pi Pico controller and Python.
+You can build this autonomous low-cost Raspberry Pi Pico robot yourself using [Robotics at Home with Raspberry Pi Pico](https://amzn.to/3ZBxtDr)!
 
-So the other answer is to see what I can fix in software.
-I can probably use fewer bytes to send the same data, with savings that might be quite significant.
+So the other answer is to see what I can fix in software. I can probably use fewer bytes to send the same data, with savings that might be quite significant.
 
-My use case involves largish ulab arrays of data to send.
-
-Ulab is an implementation of parts of Numpy and SciPy for microcontroller Python interpreters, like CircuitPython and Micropython.
-
-The arrays I am using contain floats.
-What I wanted to check was the overheads, in complexity, and size of sending base64 encoded bytes, instead of a JSON list.
+What I want to check was the overheads, in complexity, and size of sending base64 encoded bytes, instead of a JSON list.
 
 ## The JSON List
 
-The JSON list has a clear advantage in readability, although I intend to let code consume the data received, I can easily glance at debug data, although for large lists that utility is of less value.
+Sending as JSON has a clear advantage in readability, I can easily glance at debug data, although for large lists that is less useful and  I intend to let code consume the data received.
 
 ## Base64 encoding
 
-Numpy (or ulab) arrays can be converted to and from a binary bytes representation.
-This representation is going to be the array header data plus the raw array buffer.
-The bytes representation is efficient.
+Numpy (or uLab) arrays can be converted to and from a binary bytes representation.
+This representation will be the array header data plus the raw array buffer. The bytes representation is efficient.
 
 Base64 encodes this back into string data, effectively using 64 printable characters.
 These are the lowercase letters, uppercase letter, numbers 0-9 and the '+' and '/' characters.
 
+`aGVsbG8K` is the base64 encoded version of `hello\n`.
+
 ## Comparing their code
 
-Lets see the code to check both types.
-I am doing this in a CircuitPython REPL via serial.
+Lets see the code to check both types using a CircuitPython REPL via serial.
 
 We start with some imports:
 
@@ -66,9 +57,7 @@ We start with some imports:
 >>> import binascii
 ```
 
-I could probably use `from` imports to make the next bit smaller, but these will do.
-
-Now I set up a test subject array, using random data:
+Next, I set up a test subject array using random data:
 
 ```python
 >>> d = np.array([random.uniform(0, 1) for n in range(200)], dtype=np.float)
@@ -76,8 +65,7 @@ Now I set up a test subject array, using random data:
 array([0.587398, 0.72429, 0.226611, ..., 0.515096, 0.333402, 0.378693], dtype=float32)
 ```
 
-This is 200 items of data between 0 and 1.
-They are all floating point.
+This is 200 items of floating point data between 0 and 1.
 Floating point numbers use 4 bytes per item.
 
 We can now see the size of this list in JSON as an array:
@@ -90,11 +78,10 @@ We can now see the size of this list in JSON as an array:
 0.515096, 0.333402, 0.378693]'
 ```
 
-I've abridged the output.
-But it is around 2Kb.
-It converts the ndarray to a standard python list, then dumps it.
+I've abridged the output as it is around 2Kb.
+It converts the `ndarray` to a standard python list, then dumps it.
 
-Let's try with tobytes.
+Let's try with `tobytes`.
 
 ```python
 >>> len(json.dumps(
@@ -104,13 +91,12 @@ Let's try with tobytes.
 ```
 
 This bytes version is around half the size, with a little overhead.
-It's wrapped in JSON again, so there's no unfair advantage there.
+It's wrapped in JSON again, so you could have other metadata with it if needed.
 We have to convert the np array to bytes, then to base64, then this would be wrapped in our json data.
 
 ## What about integers?
 
-I would expect the savings here to be less.
-For example, a 16 bit integer is only going to have up to 5 digits, so this may be more about the list representation overhead.
+A 16 bit integer would use 2 bytes, but in JSON could be 5 characters, which along with removing the list representation may only need around 40% of the space.
 
 Setting up the list:
 
@@ -143,8 +129,7 @@ And in base64:
 ...==\\n"'
 ```
 
-At 540 bytes, it is still roughly holding to being half the size.
-So likely still worthwhile if size is the primary concern.
+At 540 bytes, it is pretty close to 40% and still worthwhile if size is the primary concern.
 I've abridged the output data.
 
 ## Converting it back
