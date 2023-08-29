@@ -19,4 +19,8 @@ jobs:
 
       - name: Lint With superlinter
         uses: super-linter/super-linter/slim@v5.2.1
+        env:
+          VALIDATE_ALL_CODEBASE: true
+          DEFAULT_BRANCH: master
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
