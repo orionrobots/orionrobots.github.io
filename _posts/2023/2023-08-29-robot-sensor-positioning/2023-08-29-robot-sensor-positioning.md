@@ -13,10 +13,10 @@ In this post, I will take a case study of a wall following robot using a PID alg
 This robot has a distance sensor facing out from a side pointing at a wall. The code was Micropython written by a robotics student of mine based on a Proportional control. The basic idea is this:
 
 ```python
-    distance = sensor.read_distance()
-    error = distance - desired_distance
-    correction = error * constant
-    set_motors(speed + correction, speed - correction)
+distance = sensor.read_distance()
+error = distance - desired_distance
+correction = error * constant
+set_motors(speed + correction, speed - correction)
 ```
 
 If you are not familiar with [proportional control](2023/08/05/raspberry-pi-pico-line-follower), it is a way of controlling a robot by measuring the error between the desired state and the actual state. The error is then multiplied by a constant, so the larger the error, the larger the correction will be. By adding the correction to one motor, and subtracting from the other, the robot would turn to try and reduce the error.
