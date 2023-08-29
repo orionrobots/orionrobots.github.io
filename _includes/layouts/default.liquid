@@ -6,17 +6,8 @@ layout: common
 <div class="row">
   <article id="col-main" class="content col-md-8">
     <div class="gcse-searchresults"></div>
-    <h2 class="page-header">{{ title }} {% if tagline %}<small>{{tagline}}</small>{% endif %}</h2>
-    <div class="row g-0">
-      {% if thumb %}
-        <div class="col">
-            <img src="{{ thumb }}" alt="{{ title }}">
-        </div>
-      {% endif %}
-      <div class="col">
-        {% include social-sharing %}
-      </div>
-      <div class="col-6">
+    <nav class="row g-0 border rounded tag-row">
+      <div class="row g-0">
         {% unless tags == empty %}
             <nav>
               {% assign tags_list = tags %}
@@ -24,7 +15,9 @@ layout: common
             </nav>
         {% endunless %}
       </div>
-    </div>
+      <div class="row g-0">{% include social-sharing %}</div>
+    </nav>
+    <h2 class="page-header">{{ title }} {% if tagline %}<small>{{tagline}}</small>{% endif %}</h2>
     {{ content }}
     {% if comments %}
         {% include disqus_thread %}

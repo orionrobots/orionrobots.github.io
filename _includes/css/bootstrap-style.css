@@ -257,3 +257,18 @@ footer {
   aspect-ratio: 16 / 9;
   width: 100%;
 }
+
+.tag-badge {
+  background-color: #5fad79;
+}
+
+.tag-row {
+  background-color: rgb(233, 209, 202);
+  padding: 4px;
+}
+
+#sharing {
+  margin-top: 0px;
+  color: black;
+  font-weight: bold;
+}

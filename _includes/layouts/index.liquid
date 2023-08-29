@@ -7,18 +7,19 @@ date: Last Modified
 <div class="row">
   <article id="col-main" class="content col-md-12">
     <div class="gcse-searchresults"></div>
+    <nav class="row g-0 border rounded tag-row">
+      <div class="row g-0">
+        {% unless tags == empty %}
+            <nav>
+              {% assign tags_list = tags %}
+              {% include tags_list %}
+            </nav>
+        {% endunless %}
+      </div>
+      <div class="row g-0">{% include social-sharing %}</div>
+    </nav>
     <h2 class="page-header">{{ title }} {% if tagline %}<small>{{tagline}}</small>{% endif %}</h2>
-    {% include social-sharing %}
-    {% unless tags == empty %}
-        <nav>
-          {% assign tags_list = tags %}
-          {% include tags_list %}
-        </nav>
-    {% endunless %}
     {{ content }}
-    {% if comments %}
-        {% include disqus_thread %}
-    {% endif %}
   </article>
 </div>
 {% if using_mathjax %}
