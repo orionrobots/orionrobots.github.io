@@ -9,6 +9,13 @@ jobs:
     uses: ./.github/workflows/on_call_build_site.yaml
 
   staging_test:
-    uses: ./.github/workflows/on_call_staging_test.yaml
     needs: build_site
+    uses: ./.github/workflows/on_call_staging_test.yaml
   
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Lint With superlinter
+        uses: github/super-linter@v3
