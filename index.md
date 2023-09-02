@@ -14,7 +14,7 @@ eleventyExcludeFromCollections: true
 At Orionrobots, Danny and his team build robots, electronics, gadgets and stuff that moves.
 We aim to make robots easy for anyone to build, and push the boundaries of what is easy. Oh and just to have lots of fun doing it too!
 
-<a href="https://packt.link/5swS2" title="Learn to build and Program Robots using Robotics at Home with Raspberry Pi Pico">{% image ,"galleries/2023/Robotics-at-Home-with-Raspberry-Pi-Pico-banner-2048.png", "Learn to build and Program Robots using Robotics at Home with Raspberry Pi Pico", "720, 940, 1140, 1280, 2048" %}</a>
+<a href="https://packt.link/5swS2" title="Learn to build and Program Robots using Robotics at Home with Raspberry Pi Pico">{% img_responsive "galleries/2023/Robotics-at-Home-with-Raspberry-Pi-Pico-banner.png", "Learn to build and Program Robots using Robotics at Home with Raspberry Pi Pico" %}</a>
 
 Discuss [robot building on Our Discord Server](https://discord.gg/sMnPxFhAe2)!
 
