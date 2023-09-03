@@ -25,7 +25,7 @@ The traceback module lets you get information about an exception, and the code l
 
 The format_exception function is documented as just needing the caught exception itself, so you could make a try/except handler that catches the exception and sends it:
 
-```
+```python
 try:
   ...
 except Exception as exc:
@@ -33,7 +33,8 @@ except Exception as exc:
   raise
 ```
 
-This catches the exception, and stores it in the variable `exc`. In true python style, an exception is an object that can be stored in a variable.
+This catches the exception, and stores it in the variable `exc`.
+In true python style, an exception is an object that can be stored in a variable.
 
 This would be passed through format_exception, producing a string, which we then put into a small dictionary and pass into a send_json function.
 
@@ -41,13 +42,15 @@ There's still a `raise` at the end, this lets the exception bubble up. In the ro
 
 ## Where was the problem?
 
-CircuitPython is undergoing very active development. This is actually one of the great things about it - it's not stagnant, and watching the speed at which the Adafruit team and community are making changes and fixes to improve it is great.
+CircuitPython is undergoing very active development.
+This is actually one of the great things about it - it's not stagnant, and watching the speed at which the Adafruit team and community are making changes and fixes to improve it is great.
 
 However, this meant that the documentation had moved ahead of the stable version. In the unstable, development version of CircuitPython the format_exception function needs only the exception parameter as shown above. Very handy. This is also what the current latest documentation shows.
 
-However, the stable (released) version of CircuitPython, 7.3.x still expects 3 parameters for format_exception. So the above code will raise a TypeError.
+However, the stable (released) version of CircuitPython, 7.3.x still expects 3 parameters for format_exception.
+So the above code will raise a TypeError.
 
-I raised this in https://github.com/adafruit/circuitpython/issues/7482, and had the unstable/stable versions pointed out to me.
+I raised this in [CircuitPython Issue #7482](https://github.com/adafruit/circuitpython/issues/7482), and had the unstable/stable versions pointed out to me.
 
 There are two fixes I can use now. Each with their trade offs.
 
