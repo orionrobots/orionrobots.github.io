@@ -1,21 +1,22 @@
 ---
-layout: post
-title: What I've been working on - tracebacks in circuitpython
-date: 2023-01-25T10:52:56.883Z
-description: Tracebacks for error handling in circuitpython
+title: What I've been working on - tracebacks in CircuitPython
+date: 2023-01-25
+description: Tracebacks for error handling in CircuitPython
 tags:
   - circuitpython
   - raspberry pi pico
   - python
   - error handling
   - robotics at home
-category: robot-building
+  - robot building
 ---
-What have I currently been working on? As part of my work on [Robotics at Home with Raspberry Pi Pico](https://packt.link/5swS2) I discovered a problem in CircuitPython with the traceback module, although i was perhaps more of a misunderstanding on my part.
+What have I currently been working on? As part of my work on [Robotics at Home with Raspberry Pi Pico](https://packt.link/5swS2) I discovered a problem in CircuitPython with the traceback module, although it was perhaps more of a misunderstanding on my part.
 
 ## What is the traceback module?
 
 By default in python any exception not caught, will print itself and the traceback to a console as the program exits due to an error. This is great if you are connected to a console. However, on a robot, or a headless server, you might wish to do something with that information other than on the console. That console might not actually go anywhere.
+
+{% img_responsive "_posts/2023/2023-01-25-what-ive-been-working-on-tracebacks-in-circuitpython/python-exception-example.png", "Python exception example" %}
 
 In my case, the code was already sending JSON, so wrapping an error and traceback in JSON and sending it seemed convenient.
 
@@ -36,9 +37,16 @@ except Exception as exc:
 This catches the exception, and stores it in the variable `exc`.
 In true python style, an exception is an object that can be stored in a variable.
 
-This would be passed through format_exception, producing a string, which we then put into a small dictionary and pass into a send_json function.
+This would be passed through format_exception, producing a string, which we then put into a small dictionary and pass into a `send_json` function. This results in a JSON message like the following:
 
-There's still a `raise` at the end, this lets the exception bubble up. In the robot case, you want motors to stop doing something if there's a problem as carrying on could be a bad idea.
+```json
+{"error": ["Traceback (most recent call last):\n", "  File \"<stdin>\", line 2, in <module>\n", "ZeroDivisionError: division by zero\n"]}
+```
+
+With this, you can easily see it among other data sent to a client through Wifi or Bluetooth.
+
+There's still a `raise` at the end, this lets the exception bubble up.
+In the robot case, you want motors to stop doing something if there's a problem as carrying on could be a bad idea.
 
 ## Where was the problem?
 
