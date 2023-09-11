@@ -2,7 +2,7 @@
 layout: page
 title: SSC - Serial Servo Controller
 date: 2005-03-13 13:09:34
-tags: [robotics, servo, controller, electronics]
+tags: [robotics, servo motor, controller, electronics]
 ---
 These devices are extend the output abilities of [microcontrollers](/wiki/microcontroller.html "A programmable digital controller (or ") so they can link with more [Servos](/wiki/servo_motor.html "A motor with built in positioning control - easily interfaced with digital systems"). Using a [Serial Data Stream](/wiki/serial_data_stream.html "Serial Data Stream") with a simple 2 wire protocol - you can usually control 6 additional [Servos](/wiki/servo_motor.html "A motor with built in positioning control - easily interfaced with digital systems").
 

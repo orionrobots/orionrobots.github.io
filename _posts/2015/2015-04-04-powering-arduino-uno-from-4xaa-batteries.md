@@ -4,11 +4,10 @@ layout: post
 tags:
 - arduino
 - electronics
-- servo
+- servo motor
 - robots
 title: Powering An Arduino Uno and Servo from 4xAA 6v Batteries
 ---
-Iam about to start tinkering with the rather interesting [esp8266](http://esp8266.co.uk/)- an inexpensive chip that does wifi, can be programmed and has a couple of GPIO pins. The plan (and I'll make a video on the details later) is to use 2 continuous rotation servo's to make a wifi-enabled tiny mobile robot.
 
 I started this by wanting to test all my servo motors, to see that they worked, and if any in my robot cupboard had been modified for continuous rotation. None had. However, I had a 6v, 4xAA power supply that I intended for use in building a robot with the esp8266.  After demonstrating the motors, my little one asked "why does it need to be connected to the laptop if it already has batteries?"
 
