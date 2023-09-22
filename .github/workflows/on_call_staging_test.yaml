@@ -6,7 +6,7 @@ jobs:
   staging_test:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
       - name: Fetch site artifact
         uses: actions/download-artifact@v3
         with:
@@ -20,10 +20,10 @@ jobs:
           cp _drafts/staging/http2.conf _site/
 
       - name: Set up Docker Buildx
-        uses: docker/setup-buildx-action@v2
+        uses: docker/setup-buildx-action@v3
 
       - name: Build the container
-        uses: docker/build-push-action@v4
+        uses: docker/build-push-action@v5
         with:
           context: "_site"
           tags: orionrobots:latest
