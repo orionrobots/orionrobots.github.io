@@ -1,20 +1,22 @@
 ---
-layout: post
 title: "Pi Day: Raspberry Pi on Pico Bot"
-date: 2023-03-14T18:30:00.000Z
+date: 2023-03-14
 description: "Pi Day: Raspberry Pi on Pico Bot"
 tags:
   - raspberry pi
   - raspberry pi pico
   - pi day
-  - learn robotics at home
+  - robotics at home
   - building a home robot
   - robotics books
+  - robot building
 thumbnail: /galleries/img_7087.jpg
 ---
 Today is Pi day. As in the number 3.141592, and also the Raspberry Pi.
 
 As part of my work on [Robotics at Home with Raspberry Pi Pico](https://packt.link/5swS2), I've been working on a robot that uses a Raspberry Pi Pico as its brain. This is a great way to learn about robotics, and also to learn about the Raspberry Pi Pico.
+
+![Robotics at Home Robot with Pico and Raspberry Pi](/galleries/img_7087.jpg "Robotics at Home Robot with Pico and Raspberry Pi")
 
 I've decided, for various reasons, to retrofit it with a Raspberry Pi Zero W for WiFi debugging, and running code to assist improving the code ont the robot.
 
@@ -27,8 +29,6 @@ My book, Robotics at Home With Raspberry Pi Pico drops in 3 days! On the 17th Ma
 In my last post on this, [Using a Raspberry Pi to inspect code on Raspberry Pi Pico]({% post_url 2023-03-05-using-a-raspberry-pi-to-inspect-code-on-raspberry-pi-pico %}) I drew plans to add this to the robot. I started today with having located the Pi Zero W, flashing Raspberry Pi OS on an SD card and simplifying my plans.
 
 My original plan for mounting was a 3D printed mount. I still plan that, but since I want to get this working quickly, I'm going to use a simple Pi Zero case and stick velcro dots on it, to match the other parts on the sensor shelf.
-
-
 
 ![Velcro for mounting a Raspberry Pi Zero W](/galleries/img_7086.jpg "Velcro for mounting a Raspberry Pi Zero W")
 

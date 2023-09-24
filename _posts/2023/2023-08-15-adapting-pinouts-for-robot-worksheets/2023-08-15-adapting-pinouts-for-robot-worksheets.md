@@ -163,7 +163,7 @@ I now had these screenshots as PNG files in a `Coder Dojo Robots` folder in my O
 At the top of this file, I dragged the Raspberry Pi Pico-W Coder Dojo layout image. Below this, I used markdown to make a table with the other images in it:
 
 ```markdown
-Wheel Encoder | Distance sensor 
+Wheel Encoder | Distance sensor
 ------------- | ---------------
 ![[Waveshare Encoder.png]] | ![[RCWL Pinout.png]]
 **Motor controller** (MDD3A) | **Line sensor**
@@ -184,4 +184,4 @@ Gadgetoid has made a neat little tool here, which I hope to use again.
 
 If you are new to robotics and yet to build a robot like these starting from basics like a Chassis and motors, or experienced but want to touch on advanced techniques like Monte Carlo Localisation and the PID algorithm, then [Robotics At Home With Raspberry Pi Pico](https://packt.link/5swS2) is for you. It's a book I've written showing how starting from little knowledge of the Raspberry pi Pico ecosystem, you can build an autonomous robot, learn CAD techniques, program it, extend it with sensors and interesting behaviours.
 
-<a href="https://packt.link/5swS2" title="Learn to build and Program Robots using Robotics at Home with Raspberry Pi Pico">{% image ,"galleries/2023/Robotics-at-Home-with-Raspberry-Pi-Pico-banner-2048.png", "Learn to build and Program Robots using Robotics at Home with Raspberry Pi Pico", "720, 940, 1140, 1280, 2048" %}</a>
+<a href="https://packt.link/5swS2" title="Learn to build and Program Robots using Robotics at Home with Raspberry Pi Pico">{% img_responsive "galleries/2023/Robotics-at-Home-with-Raspberry-Pi-Pico-banner.png", "Learn to build and Program Robots using Robotics at Home with Raspberry Pi Pico" %}</a>

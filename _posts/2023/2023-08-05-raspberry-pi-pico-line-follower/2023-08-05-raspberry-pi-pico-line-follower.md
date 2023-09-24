@@ -1,6 +1,6 @@
 ---
 title: How to add line following to a robot with Raspberry Pi Pico and Python
-tags: [robotics at home, raspberry pi pico, rp2040, micropython, circuitpython, line following, robotics algorithms]
+tags: [robotics at home, raspberry pi pico, rp2040, micropython, circuitpython, line following, robotics algorithms, pid control, robot building]
 thumbnail: /_posts/2023/2023-08-05-raspberry-pi-pico-line-follower/2023-08-05-line-follower-thumbnail.png
 description: How to add line following to a robot with Raspberry Pi Pico and Python
 date: 2023-08-05
@@ -116,7 +116,7 @@ def get_average_line_position():
 
 This will add a number for each sensor input that is activated, the index + 1. The index from the python `enumerate` would start at zero, but we want it to be 1, 2, 3 ,4 5, so we add one.
 
-We then divide the total by the number of activated items, so the result will be the average position of activated sensors. 
+We then divide the total by the number of activated items, so the result will be the average position of activated sensors.
 
 Optimization Note: The current implementation is relatively simple and suitable for the provided code context, considering the use of significant sleep times. If you need to optimize the code further, consider profiling and benchmarking specific use cases.
 
@@ -130,7 +130,7 @@ We will use **Proportional Control** for this activity, where we compare the ave
         # Calculate the error value based on the difference between the line position and expected position
         actual = get_average_line_position()
         error = LINE_MIDDLE - actual
-        
+
         # Apply the Proportional Control constant to the error to get the correction value
         correction = error * PROPORTION
         print(line, error, correction)
@@ -217,7 +217,7 @@ try:
         # Calculate the error value based on the difference between the line position and expected position
         actual = get_average_line_position()
         error = LINE_MIDDLE - actual
-        
+
         # Apply the Proportional Control constant to the error to get the correction value
         correction = error * PROPORTION
         print(line, error, correction)
@@ -232,7 +232,7 @@ finally:
 
 The `finally` block here ensures the robot stops gracefully when exiting the loop, even if there are exceptions.
 
-You will need to upload this file, along with the `robot.py` file to your Pico. 
+You will need to upload this file, along with the `robot.py` file to your Pico.
 You can then put `import line_follow` in `code.py` to start it, or make line_follow the content of `code.py`.
 
 ## Micropython version
@@ -289,4 +289,4 @@ If you want to build more robot behaviours, consider buying [Robotics at home wi
 - For the Cytron maker line - see <https://my.cytron.io/p-maker-line-simplifying-line-sensor-for-beginner>
 - For help with Circuitpython Digital Inputs - see <https://learn.adafruit.com/circuitpython-essentials/circuitpython-digital-in-out>
 
-<a href="https://packt.link/5swS2" title="Learn to build and Program Robots using Robotics at Home with Raspberry Pi Pico">{% image ,"galleries/2023/Robotics-at-Home-with-Raspberry-Pi-Pico-banner-2048.png", "Learn to build and Program Robots using Robotics at Home with Raspberry Pi Pico", "720, 940, 1140, 1280, 2048" %}</a>
+<a href="https://packt.link/5swS2" title="Learn to build and Program Robots using Robotics at Home with Raspberry Pi Pico">{% img_responsive "galleries/2023/Robotics-at-Home-with-Raspberry-Pi-Pico-banner.png", "Learn to build and Program Robots using Robotics at Home with Raspberry Pi Pico" %}</a>

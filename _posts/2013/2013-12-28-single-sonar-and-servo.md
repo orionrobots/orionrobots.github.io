@@ -9,7 +9,7 @@ tags:
 - robot kit
 - robotics
 - sensor
-- servo
+- servo motor
 title: Stuff in the Orionrobots lab - Experimenting using a servo + single sonar
 ---
 I bought a robot kit with pan servo sensor mechanism - I built it, and started playing with it in my lab to see what I make of it.

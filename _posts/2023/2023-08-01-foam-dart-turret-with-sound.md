@@ -43,3 +43,17 @@ for _ in range(DARTS_TO_FIRE):
     sleep(0.3)
     yaw_servo.angle += angle_step
 ```
+
+## Original turret project
+
+I adapted this turret to fit on a robot, but the original designs and plans are at [Little French Kev | Bluetooth Nerf Turret](https://www.littlefrenchkev.com/bluetooth-nerf-turret).
+
+Tips for this:
+
+- I found the band for keeping the darts down breaks frequently.
+- Take extra care with motor polarity - don't have it going backwards.
+- Depending on how you are driving the motors, you may need noise suppression capacitors.
+- Check the motors first - I had one where the coils were gone and shorting out - it took a chunk of investigation to find that.
+- For maintenance, it's quite handy to pop the roller assembly off.
+- Spiral wire wrap is great for keeping those wiring tidy and routing down to the robot. I used different electronics, with none mounted on the turret.
+- Control wise - spin up the turrets, then fire.

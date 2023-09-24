@@ -8,7 +8,8 @@ tags:
 - arduino
 - 4tronix
 - arduino
-- servo
+- servo motor
+- robot building
 title: Building a 4tronix UnoTron Robot
 ---
 
