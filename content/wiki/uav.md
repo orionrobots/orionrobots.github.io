@@ -1,5 +1,5 @@
 ---
-layout: page 
+layout: page
 title: UAV - Unmanned Aerial Vehicle
 tags: [robots]
 date: 2005-01-12 19:12:25

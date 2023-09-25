@@ -71,7 +71,7 @@ Community authored parts may not even be in the unofficial list, so do ask. User
     <td> There is a large plethora of <a href="/wiki/lego.html" title="The best known construction toy">Lego</a> related software. This book helps you navigate, choose and use this software effectively. As it was written by the author of LSynth - Kevin Clague and two other Lego fanatics - there is no reason to doubt its usefulness.</td>
 </tr>
 <tr>
-    <td></td> 
+    <td></td>
     <td> <a href="http://ldraw.org/">The LDraw Foundation</a> </td>
     <td> This organisation are the custodians of Lego related tools and software - and an essential hub for the <a href="/wiki/lego.html" title="The best known construction toy">Lego</a> <a href="/wiki/cad.html" title="Computer Aided Design">CAD</a> community.</td>
 </tr>

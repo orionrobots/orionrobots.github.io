@@ -25,13 +25,13 @@ Walter gave his robots individual names- the first two were Elmer and Elsie, who
 
 ## Bibliography
 
-<table class="normal" id="fancytable_1"> 
+<table class="normal" id="fancytable_1">
 
 <tr> <td > <a href="https://www.amazon.co.uk/Amphibionics-Biologically-Inspired-Reptilian-Electronics-ebook/dp/B00UYBS1X8/ref=as_li_ss_il?dchild=1&keywords=Amphibionics&qid=1604779993&sr=8-1&linkCode=li2&tag=orionrobots-21&linkId=bfedc6b890c63953fed5f2382d21c4fe&language=en_GB" target="_blank"><img border="0" src="//ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B00UYBS1X8&Format=_SL160_&ID=AsinImage&MarketPlace=GB&ServiceVersion=20070822&WS=1&tag=orionrobots-21&language=en_GB" ></a><img src="https://ir-uk.amazon-adsystem.com/e/ir?t=orionrobots-21&language=en_GB&l=li2&o=2&a=B00UYBS1X8" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /> </td> <td > <a href="https://amzn.to/2I872D8" rel="external" target="_blank">Amphibionics: Build Your Own Biologically Inspired Reptilian Robot (TAB Robotics S.)</a> </td> <td > Karl Williams </td> <td > Amphibionics contains a nice little section on the works of William Grey Walter and even allows you to build a tortoise like remote controlled and programmable robot - as well as several others</td> </tr>
-<tr> 
-<td > <iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=GB&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=orionrobots-21&language=en_GB&marketplace=amazon&region=GB&placement=1552977544&asins=1552977544&linkId=9f9b13511bccaba807701dc172254d93&show_border=true&link_opens_in_new_window=true"></iframe> </td> <td > <a href="https://amzn.to/2Io9SnF" rel="external" target="_blank">Alice in Wonderland</a> </td> <td > Lewis Carol </td> <td ></td> 
+<tr>
+<td > <iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=GB&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=orionrobots-21&language=en_GB&marketplace=amazon&region=GB&placement=1552977544&asins=1552977544&linkId=9f9b13511bccaba807701dc172254d93&show_border=true&link_opens_in_new_window=true"></iframe> </td> <td > <a href="https://amzn.to/2Io9SnF" rel="external" target="_blank">Alice in Wonderland</a> </td> <td > Lewis Carol </td> <td ></td>
 </tr>
-<tr> 
+<tr>
 <td ></td> <td > <a href="http://www.guardian.co.uk/Archive/Article/0,4273,4101493,00.html" rel="external" target="_blank">What the tortoise taught us</a> </td> <td > Sanjida O'Connell, Guardian Unlimited, December 7, 2000 </td> <td > A good article detailing the restoration of several of Walters Robots</td> </tr>  <tr> <td></td> <td > <a href="http://www.amazon.co.uk/exec/obidos/ASIN/B0000CII0N/orionrobots-21" rel="external" target="_blank">The living brain</a> </td> <td> W. Grey Walter </td> <td> This is a very difficult book to get hold of - but if you are interested in Walters exploits - this is recommended</td>
 </tr>
 </table>

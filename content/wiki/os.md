@@ -15,4 +15,3 @@ Modern OS's are distributed with a full GUI, Internet Browsers (like [Firefox](h
 On the modern desktop Microsoft Windows and Linux are probably the two most well known examples of OS's along with the likes of Suns Solaris and Apples OS X.
 
 The [Lego RCX](/wiki/rcx.html "The Lego RCX") has a number of competing OS's - including the [RCX Code](/wiki/rcx_code.html "Lego's own simple programming language") system [Lego](/wiki/lego.html "The best known construction toy") ship with it (which is also used by [NQC](/wiki/nqc.html "Not Quite C - A Lego PBrick Programming Language") ), [BrickOS](/wiki/brickos.html "An entire Embedded OS for the RCX") and [Lejos](/wiki/lejos.html "A Java Based Lego RCX OS").
-

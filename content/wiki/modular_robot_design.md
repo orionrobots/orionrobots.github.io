@@ -49,4 +49,3 @@ Another consideration are that module interfaces may add unnecessary weight and 
 If you are building a very simple or small robot, with few parts then obviously you do not need to go full on into a module. However, as soon as you find that you need block diagrams, then you probably have modules.
 
 [Building Tips](/wiki/building_tips.html "Hints and helpers for actually building robots, and other stuff.")
-

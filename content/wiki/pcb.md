@@ -16,7 +16,7 @@ There are generic types of PCB to solder circuits into.
 
 Perfboard is just a board with holes at regular spacing. They usually have copper plated rings on one or both sides for soldering.
 
-Stripboard or veroboard has copper strips, spaced generally at 2.54mm apart. Components are soldered into the strips, and a tool can be used to cut tracks. 
+Stripboard or veroboard has copper strips, spaced generally at 2.54mm apart. Components are soldered into the strips, and a tool can be used to cut tracks.
 
 PC Board and prototyping boards then exist following breadboard layouts, or with other interesting layouts.
 
@@ -64,7 +64,7 @@ There are resist pens, but resists are more often made using UV. This involved p
 
 There may be issues if the board is left for too long in the etch, or not long enough.
 
-The hobbyist will then need to cut and drill any holes needed. Two layer boards can be made - but registration for this gets somewhat harder. 
+The hobbyist will then need to cut and drill any holes needed. Two layer boards can be made - but registration for this gets somewhat harder.
 
 ## Making PCB's
 

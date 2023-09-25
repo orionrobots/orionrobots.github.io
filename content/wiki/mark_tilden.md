@@ -16,5 +16,3 @@ He has come up with the "nervous neuron" and his BICore technology. In terms of 
 * <a href="/wiki/robosapien.html" title="RoboSapien">Robosapien</a>
 * <a href="/wiki/beam_robots.html" title="Biology, Electronics, Aesthetics and Mechanics">BEAM Robots</a>
 * <a href="http://en.wikipedia.org/wiki/Mark_Tilden" rel="external" target="_blank">Mark Tilden - Wikipedia</a>
-
-

@@ -35,4 +35,3 @@ Taken by Pete Goodeve of The University of Berkeley, California.
 
 * [Machina Speculatrix - Micheal Gasperi](https://sites.google.com/view/machinaspeculatrix/home) -  Gasperi's page on the Machina Speculatrix has some excellent information, including his own version of them built using Lego and the <a href="/wiki/rcx.html" title="The Lego RCX">RCX</a>
 * [Cybernetic Zoo](http://cyberneticzoo.com/cyberneticanimals/grey-walters-tortoises-the-video-clips/) - a great resource with lots of information on these amazing robots.
- 

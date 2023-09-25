@@ -17,7 +17,7 @@ removing them from the robot, and fitting new ones. They then represent
 a significant waste, and cost issue. They also take up more volume than
 most other components.
 
-[Recycling
+[Recycling/wiki/recycling_batteries.html
 Batteries](/wiki/recycling_batteries.html "Recycling Batteries")
 
 ## Rechargeable batteries
@@ -34,7 +34,7 @@ environment.
 
 ## Internal Combustion Engine
 
-An [Internal Combustion
+An [Internal Combustion/wiki/internal_combustion_engine.html
 Engine](/wiki/internal_combustion_engine.html "As used in the common automobile")
 may be useful for large flying bots - but is generally not really
 controllable enough for a robot, big, cumbersome and polluting. But yet
@@ -49,7 +49,7 @@ technology.
 [Solar Panels](/wiki/solar_panel.html "Solar Panel") are very
 idealistic. Yes they do not need to be changed or refueled, but they do
 not generate a great deal of power- especially in the levels we get in
-the uk. They are fine for [BEAM
+the uk. They are fine for [BEAM/wiki/beam_robots.html
 Robots](/wiki/beam_robots.html "Biology, Electronics, Aesthetics and Mechanics") - but things much bigger need greater surface areas. They can be still
 quite expensive, and a lot of people point out that they use a lot of
 very harmful chemicals in their construction. on the whole - for smaller
@@ -72,7 +72,7 @@ fatal shocks from their stored charge.
 
 ## The future, and the Fuel Cell
 
-The next big thing in power storage and generation is the [Fuel
+The next big thing in power storage and generation is the [Fuel/wiki/fuel_cell.html
 Cell](/wiki/fuel_cell.html "Fuel Cell"). There are already buses in
 London operating on the technology. In Japan - Toshiba have developed
 one such cell for use in mobile phones.
