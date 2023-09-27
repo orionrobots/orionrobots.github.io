@@ -25,7 +25,7 @@ module.exports = function(eleventyConfig) {
     eleventyConfig.setLibrary("md", markdownLib);
     eleventyConfig.addPlugin(fortawesomeBrandsPlugin);
     eleventyConfig.addPlugin(syntaxHighlight);
-    
+
     //copy through assets
     eleventyConfig.addPassthroughCopy("admin");
     eleventyConfig.addPassthroughCopy("assets");
@@ -35,6 +35,7 @@ module.exports = function(eleventyConfig) {
     eleventyConfig.addPassthroughCopy("google5458abc1104b04dd.html");
     eleventyConfig.addPassthroughCopy({"htaccess": ".htaccess"});
 
+    eleventyConfig.addGlobalData("production_url", "https://orionrobots.co.uk");
     eleventyConfig.addWatchTarget("src/**/*");
     let $collectionApi = null;
 
@@ -93,7 +94,7 @@ module.exports = function(eleventyConfig) {
 			decoding: "async",
 		};
 
-		return Image.generateHTML(metadata, imageAttributes);        
+		return Image.generateHTML(metadata, imageAttributes);
     });
 
     eleventyConfig.addShortcode("image_with_class", async function(src, alt, sizes, class_names) {

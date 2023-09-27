@@ -1,8 +1,9 @@
 ---
 theme:
-  name: orionrobots
+    name: orionrobots
 ---
-{% include JB/setup.liquid %}
+{% capture BASE_PATH %}{% if eleventy.env.runMode == "serve" %}{% else %}{{ production_url }}{% endif %}{% endcapture %}
+{% capture ASSET_PATH %}{{ BASE_PATH }}/assets/themes/{{ theme.name }}{% endcapture %}
 <!DOCTYPE html>
 <!--[if lt IE 7 ]> <html lang="en" class="no-js ie6"> <![endif]-->
 <!--[if IE 7 ]>    <html lang="en" class="no-js ie7"> <![endif]-->
@@ -26,8 +27,8 @@ theme:
         <meta name="og:description" content="{{ description }}" />
     {% endif %}
     {% if thumbnail %}
-    <meta property="og:image" content="{% thumbnail_from_path thumbnail %}" />
-    <meta name="twitter:image" content="{% thumbnail_from_path thumbnail %}" />
+    <meta property="og:image" content="{{ BASE_PATH }}/{% thumbnail_from_path thumbnail %}" />
+    <meta name="twitter:image" content="{{ BASE_PATH }}/{% thumbnail_from_path thumbnail %}" />
     {% else %}
     <meta property="og:image" content="{{ ASSET_PATH }}/images/social-banner.jpg" />
     <meta name="twitter:image" content="{{ ASSET_PATH }}/images/social-banner.jpg" />
