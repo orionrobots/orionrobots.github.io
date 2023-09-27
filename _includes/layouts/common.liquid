@@ -1,8 +1,10 @@
 ---
 theme:
     name: orionrobots
+stuff: nonsense
 ---
-{% capture BASE_PATH %}{% if eleventy.env.runMode == "serve" %}{% else %}{{ production_url }}{% endif %}{% endcapture %}
+{% comment %}{% capture BASE_PATH %}{% if eleventy.env.runMode == "serve" %}{% else %}{{ site.production_url }}{% endif %}{% endcapture %}{% endcomment %}
+{% capture BASE_PATH %}{{ site.production_url }}{% endcapture %}
 {% capture ASSET_PATH %}{{ BASE_PATH }}/assets/themes/{{ theme.name }}{% endcapture %}
 <!DOCTYPE html>
 <!--[if lt IE 7 ]> <html lang="en" class="no-js ie6"> <![endif]-->
@@ -52,7 +54,6 @@ theme:
     <div class="container">
         <!-- Header -->
         {% include nav.liquid %}
-
         <!-- Content -->
         {{ content }}
         <footer id="bottom">

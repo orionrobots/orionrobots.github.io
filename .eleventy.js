@@ -35,7 +35,6 @@ module.exports = function(eleventyConfig) {
     eleventyConfig.addPassthroughCopy("google5458abc1104b04dd.html");
     eleventyConfig.addPassthroughCopy({"htaccess": ".htaccess"});
 
-    eleventyConfig.addGlobalData("production_url", "https://orionrobots.co.uk");
     eleventyConfig.addWatchTarget("src/**/*");
     let $collectionApi = null;
 
