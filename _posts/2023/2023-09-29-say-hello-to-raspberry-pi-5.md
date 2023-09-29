@@ -11,7 +11,7 @@ With the two ports, the home robot builder could add sophisticated stereoscopic 
 
 With the PCIe port, a robot builder can consider adding a GPU to help process that stereoscopic input, perform Monte Carlo localisation, or crunch machine learning data. I'm not sure yet how it would compete with a TPU (tensor processing unit). This would be an expensive option, but it's good to have this for when more extensive processing is needed. GPU's now are more relevant to these tasks than raw CPU.
 
-The Pi 5 looks like it will need a larger power supply, which on a small home built robot could present a problem. There are 30 Watt USB power banks like the Anker Nano 30w power bank, or the Belkin Portable Charger, or of course one could go down the Lithium ion  maybe a 30w plus supply so bigger power banks.
+The Pi 5 looks like it will need a larger power supply, which on a small home built robot could present a problem. There are 30 Watt USB power banks like the [Anker Nano 30w power bank](https://www.anker.com/uk/products/a1259-built-in-cable-power-bank-10000mah?ref=select_your_product&variant=44575527272612), or the [Belkin Portable Charger](https://amzn.to/3tjdA8U), or of course one could go down the Lithium ion  maybe a 30w plus supply so bigger power banks.
 
 The power management IC looks really handy. I've questions about if in a power delivery application, how much current one can get from that supply, especially in the type of robot-related Raspberry Pi hats/breakouts that use the 5v line as the motor power supply too.
 
