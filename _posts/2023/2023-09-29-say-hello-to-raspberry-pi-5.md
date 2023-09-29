@@ -1,6 +1,7 @@
 ---
 title: Say Hello to the Raspberry Pi 5!
 tags: [raspberry pi, robot building, robotics at home]
+date: 2023-09-29
 description: The Raspberry Pi 5 is here! What does this mean for robotics at home?
 ---
 Say hello to the Raspberry Pi 5!
