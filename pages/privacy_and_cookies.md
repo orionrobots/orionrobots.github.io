@@ -21,7 +21,7 @@ permalink: /privacy_and_cookies.html
 
 When you use the orionrobots website, we collect details about you, your computer and your browsing activity.  We use this information in aggregate to make our website work and to improve it.
 
-This information is used with Google Analytics as teh information collector and processor, but we do not share your details with anyone else. We do not collect or expect payment details from you.
+This information is used with Google Analytics as the information collector and processor, but we do not share your details with anyone else. We do not collect or expect payment details from you.
 
 In the rare case where someone's email address, personal name or mailing address is collected, it will be used for the purpose of sending them a product they have ordered.  This will not be shared with anyone else or retained once that purpose has been fulfilled.
 

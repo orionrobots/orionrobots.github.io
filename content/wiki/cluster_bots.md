@@ -20,4 +20,4 @@ In comparison a group or swarm of robots could be carted off in batches, and may
 
 By having some different types, and allowing them to regroup and combine functions, you have an adaptability not easily afforded by one large robot. Also bear in mind that short range communication networks (space-motes?) means that the cluster may be spread out across the surface of another planet, using one or two long-range communication robots to gather up info and send it back on to earth.
 
-These same virtues in fact make them equally suitable for roles in any hazardous environment including deep sea or sea bed exploration, exploration of volcano craters, or exploration of the rubble of a destroyed building in teh aftermath of a disaster.
+These same virtues in fact make them equally suitable for roles in any hazardous environment including deep sea or sea bed exploration, exploration of volcano craters, or exploration of the rubble of a destroyed building inteeh aftermath of a disaster.

@@ -22,7 +22,7 @@ I've decided, for various reasons, to retrofit it with a Raspberry Pi Zero W for
 
 ## Robotics at Home
 
-My book, Robotics at Home With Raspberry Pi Pico drops in 3 days! On the 17th March, you'll be able to buy this book that has a journey from beginner through to building a floor roving robot with multiple sensors, interesting algorithms and explore the features of teh Raspberry Pi Pico. It's book intended for anyone who wants to learn about robotics, and also for anyone who wants to learn about the Raspberry Pi Pico. I've written it from my belief that anyone can build a robot in their home, or in their workshop if they have one.
+My book, Robotics at Home With Raspberry Pi Pico drops in 3 days! On the 17th March, you'll be able to buy this book that has a journey from beginner through to building a floor roving robot with multiple sensors, interesting algorithms and explore the features of the Raspberry Pi Pico. It's book intended for anyone who wants to learn about robotics, and also for anyone who wants to learn about the Raspberry Pi Pico. I've written it from my belief that anyone can build a robot in their home, or in their workshop if they have one.
 
 ## Retrofitting the Raspberry Pi Zero W
 
