@@ -1,4 +1,5 @@
 {
     "layout": "post",
-    "permalink": "{{ categories }}{{ page.date | date: '%Y/%m/%d' }}/{{ page.fileSlug }}.html"
+    "permalink": "{{ categories }}{{ page.date | date: '%Y/%m/%d' }}/{{ page.fileSlug }}.html",
+    "author": "Danny Staple"
 }
