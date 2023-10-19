@@ -125,11 +125,11 @@ These printed great a second time, but I'd not factored in much in the tolerance
 
 This was merely a matter of adjusting the size of the slots. This time, the model printed first time. The nuts slid correctly into place. The guides are bolted on, although I wasn't able to get the smaller M2.5 nuts in.
 
-This design fits correctly and the battery is now held firmly. I used [M3 split washers](https://amzn.to/2Ega4An) to provide some springiness to hold the clips on the end tightly, but with some movement. This gives the battery a quick release mechanism for charging. To stop this coming loose, I used a dab of [thread locking glue](https://amzn.to/2Iinz6s).
+This design fits correctly and the battery is now held firmly. I used [M3 split washers (paid link)](https://amzn.to/2Ega4An) to provide some springiness to hold the clips on the end tightly, but with some movement. This gives the battery a quick release mechanism for charging. To stop this coming loose, I used a dab of [thread locking glue (paid link)](https://amzn.to/2Iinz6s).
 
 The models:
 
 * [The Battery Guide](https://a360.co/2SIWC0P) - this is one side, but it can be mirrored. Designed to be bolted under the side plates, with longer M3 bolts, with the M3 nuts pushed into the slots. Print the body, and the clip as separate models.
-* [The Anker Battery](https://a360.co/2DO2lYV) - this is a model for [the power bank](https://amzn.to/2V4TVmH).
+* [The Anker Battery](https://a360.co/2DO2lYV) - this is a model for [the power bank (paid link)](https://amzn.to/2V4TVmH).
 
 The next task, for another day, will be the AA batteries.

@@ -40,7 +40,7 @@ Danny's idea was to buy a larger tracked RC toy cheaply from the internet, and m
 
 <a href="https://www.amazon.co.uk/Top-Functional-Excavator-Electric-Construction/dp/B00AG573L8/ref=as_li_ss_il?ie=UTF8&qid=1519683404&sr=8-3&keywords=RC+excavator&linkCode=li2&tag=orionrobots-21&linkId=1c11d22b0a53789a561e0d478e2d673e&language=en_GB" target="_blank"><img border="0" src="//ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B00AG573L8&Format=_SL160_&ID=AsinImage&MarketPlace=GB&ServiceVersion=20070822&WS=1&tag=orionrobots-21&language=en_GB" ></a><img src="https://ir-uk.amazon-adsystem.com/e/ir?t=orionrobots-21&language=en_GB&l=li2&o=2&a=B00AG573L8" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /><img src="https://ir-uk.amazon-adsystem.com/e/ir?t=orionrobots-21&l=li2&o=2&a=B00AG573L8" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
 
-His choice was this <a href="http://amzn.to/2EVvPDy">Top Race 7 Channel RC Excavator</a> - it had RC, motors, tank tracks. It was definitely looking like it would do the business, but wasn't too expensive to feel bad about tearing it apart to make something else.
+His choice was this <a href="http://amzn.to/2EVvPDy">Top Race 7 Channel RC Excavator (paid link)</a> - it had RC, motors, tank tracks. It was definitely looking like it would do the business, but wasn't too expensive to feel bad about tearing it apart to make something else.
 
 Each set of tracks is independently controlled from the two sticks, the Turntable can be turned, and an additional function makes the buckets move. There are lights that move in response to the actions, and the remote makes sound effects (this is quickly a bit annoying).
 

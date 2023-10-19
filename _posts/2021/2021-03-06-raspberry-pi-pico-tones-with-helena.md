@@ -33,7 +33,7 @@ I gave Mini_orionrobots the Pico, some breadboard, and showed her a selection of
 
 ![Materials - Pico, breadboard, speaker](/galleries/2021-03-06-raspberry-pi-pico-tones-with-helena/stuff-we-used-oscilloscope-raspberry-pi-pico.jpg)
 
-The materials we used today were:
+The materials we used today were (Amazon links are paid):
 
 * [A Raspberry Pi Pico](https://thepihut.com/collections/featured-products/products/raspberry-pi-pico) with headers soldered on, and MicroPython on board.
 * [USB micro cable](https://thepihut.com/products/usb-to-micro-usb-cable-0-5m)

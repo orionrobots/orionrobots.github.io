@@ -28,7 +28,7 @@ This may be premature, as I need to verify the hardware and software onboard are
 
 ## Power
 
-Next - can I charge the USB battery pack. This robot uses a bright red [Anker PowerCore 10000](https://www.amazon.co.uk/Anker-PowerCore-Ultra-Compact-Fast-Charging-Technology/dp/B019GJLER8?crid=31PKOUTOSN0LQ&keywords=Anker+Powercore+10000&qid=1687525429&sprefix=anker+powercore+10000%2Caps%2C112&sr=8-3&linkCode=ll1&tag=orionrobots-21&linkId=fb48706399efb5a7bbcfaed13202ad62&language=en_GB&ref_=as_li_ss_tl). It charges via a USB micro. It has 4 level indicator lights.
+Next - can I charge the USB battery pack. This robot uses a bright red [Anker PowerCore 10000 (paid link)](https://www.amazon.co.uk/Anker-PowerCore-Ultra-Compact-Fast-Charging-Technology/dp/B019GJLER8?crid=31PKOUTOSN0LQ&keywords=Anker+Powercore+10000&qid=1687525429&sprefix=anker+powercore+10000%2Caps%2C112&sr=8-3&linkCode=ll1&tag=orionrobots-21&linkId=fb48706399efb5a7bbcfaed13202ad62&language=en_GB&ref_=as_li_ss_tl). It charges via a USB micro. It has 4 level indicator lights.
 
 Plugging it in shows 2 fully lit lights, the 3rd blinking, so it could still charge.
 

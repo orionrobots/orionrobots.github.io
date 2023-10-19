@@ -10,7 +10,7 @@ These robots were built as learning platform by the late <a href="/wiki/william_
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/lLULRlmXkKo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="true"></iframe>
 
-They were phototropic - that is light following, and they were otherwise known as tortoises. A name derived from their plastic tortoise shaped shells, and a reference to <a href="http://amzn.to/2uevryU" rel="external" target="_blank">Alice in Wonderland</a> - "We called him tortoise because he taught-us".
+They were phototropic - that is light following, and they were otherwise known as tortoises. A name derived from their plastic tortoise shaped shells, and a reference to <a href="http://amzn.to/2uevryU" rel="external" target="_blank">Alice in Wonderland (paid link)</a> - "We called him tortoise because he taught-us".
 
 The first two of these were named "Elmer" and "Elsie". They consisted of a light sensor, touch sensor, propulsion motor, steering motor, and a two vacuum tube analogue computer. The simplicity of its design now would be similar to the <a href="/wiki/beam_robots.html" title="Biology, Electronics, Aesthetics and Mechanics">BEAM Robots</a>.
 

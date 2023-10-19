@@ -23,7 +23,7 @@ The complexity for Tristar wheels is handled in the mechanical linkage of the le
 
 ![Doug Carlsons TriStar wheel design](/galleries/gallery-1-common-images/431-tristar-wheel-model.jpg)
 
-The mechanical linkage is a set of gears, including slip gears which when powered will drive the leaf wheels until they cannot move and then power will go to turning the metawheel instead - an additional differential may be required to distribute the rotation between the leaf wheels and meta-wheel. The image above (courtesy of [Doug Carlson](https://amzn.to/38tHYRs) demonstrates one possible [Lego](/wiki/lego "The best known construction toy") implementation. Note that the differential gear is used instead of slip gears.
+The mechanical linkage is a set of gears, including slip gears which when powered will drive the leaf wheels until they cannot move and then power will go to turning the metawheel instead - an additional differential may be required to distribute the rotation between the leaf wheels and meta-wheel. The image above (courtesy of [Doug Carlson (paid link)](https://amzn.to/38tHYRs) demonstrates one possible [Lego](/wiki/lego "The best known construction toy") implementation. Note that the differential gear is used instead of slip gears.
 
 ![Lego Technic tristar wheel vehicle](/galleries/gallery-1-common-images/433-tri3b_scaled.jpg)
 

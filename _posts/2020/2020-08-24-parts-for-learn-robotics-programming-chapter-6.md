@@ -17,7 +17,7 @@ and adapt them to their robot. But I also understand that can be overwhelming fo
 
 So what is in Chapter 6? It's titled Robot Building Basics. It talks about Wheels, Power and Wiring. It is the chapter where the reader is encouraged to choose a motor controller, look at how to power the robot, conduct a test fit of parts, and then assemble the base for their robot.
 
-So what parts do I use?
+So what parts do I use? (Amazon links here are paid links)
 
 * The Raspberry Pi 3b+.
 * The chassis kit - the model I used specifically is listed as a ["2WD Robot Smart Car Chassis"](https://amzn.to/2YLyYlp).
