@@ -62,6 +62,13 @@ The program worked well, but not without flicking the block a little way from it
 
 Time for the grabber - when things start getting interesting...
 
+## Further ideas
+
+I have been inspired a lot by playing with this, and cooked up a few ideas.
+
+- Trebuchet - Ultrasonic/sound activated - build a trebuchet that fires when it hears a sound or detects something close enough with the ultrasonic sensor.
+- Line follower bot - build a line following robot using the NXT and the light sensor.
+
 ## Links
 
 * [OrionRobots gets our first NXT]({% post_url 2007-01-10-orionrobots-gets-our-first-nxt %})
