@@ -1,0 +1,116 @@
+3D cad concepts
+* To be able to embed all of the 2d components.
+* solid meshes
+* extrusions
+* cuts
+* rotations (lathed)
+* subparts
+* part mating/relationships/constraints
+	* flush/mate
+	* co-axial
+	* co planar
+	* measurements/offsets
+*primitives
+	* plane
+	* cube
+	* cylinder
+	* pyramid
+	* sphere
+* boolean CSG operations
+* surface embellishments
+* geometry that can be marked as cosmetic/expendable
+* extensible
+* geometric deformations - a'la FFD from 3d studio
+* bicubic 3d splines, NURBS.
+* Properties - units, metric, imperial, LDU, custom
+XML has been chosen for the files format as it is object oriented, and easily extendible, although for the sake of propriety - a binary format may be created later. That means that the internal representation and the written file must be decoupled.
+
+Suggest using the composition pattern
+
+Design Patterns In terms Of XMLDraw
+-----------------------------------
+* What is XMLDraw? XMLDraw is an exercise to build a CAD system based around an open xml file format with a free browser rendering plugin.
+
+* The XML must be able to represent:
+** Composite solid bodies with surface attributes, material characteristics
+** Meta-information for the solid body
+* explicit mechanical linkages
+** 2D Sketches - both to base solid extrusions/poly's on, and as a CAD file in its own right.
+** Multi-document files - embedding parts if preferred.
+
+* The CAD tool must be able to
+** render Parts & Drawings
+** Have a consistent user interface
+** edit parts, drawings & metainfo
+** split or merge documents into multi-doc files.
+** be extendable - to allow advanced properties windows for parts, or plugins like simulators.
+** Do mechanical simulation & animation
+** Have a sensible undo-redo system
+** Become familiar & easy to use.
+** import & export a number of formats.
+** support a standard parts library & gallery (converted LDraw)
+** Be cross-platform
+** Allow users to configure most behaviour.
+
+Quick answers
+* Use WxWindows API for cross platform windowing+ look & eel.
+* where possible, use XSLT for exports
+  Revision 1
+analyse File format - what do we need?
+2D
+* Curves - Splines & beziers, arcs
+* points - vertices
+* lines - line segments
+* polygons which contain line segments
+* primitives - circle, rect
+* constrains - extendable
+** colinear - two line segs or one line seg, one vertex
+** perpendicular - two line segs, one line, one curve
+** tangent - one line, one curve or one vertex, one curve.
+** parallel - two lines
+** concentric - two arcs
+** Equal - Two line segs/two measurements, two points
+** measurement/distance - specify the distance between two points/objects
+** Construction Geometry - any geometery must be flaggable as construction
+** Angle measurement - specify the angle between two line segs
+
+* Sub-parts - parts from a library may be added.
+* Standard reference to components which may be reusable
+* extensible
+* Drawing sheet formats
+* Text annotations
+
+
+cabling System
+---------
+
+cabling for low voltage DC apps - chargers, power supplies - Three pin plug, a 12, 5 and gnd plug (already regulated)
+Handle up to 5A per socket, W=VA= 12x5 = 60W
+Use PSU - Full rectifier, dual coil
+Make system with lower V regulators.
+Each outlet is isolated with V-regs or caps.
+
+sell adaptors connecting the cabling system for Nokia+other phones, LCD Monitors, Gameboy(advance) etc.
+
+Version with LED indicators, power monitoring and basic version.
+
+Socket -
+12v 5v gnd
+
+Three pin, rounded oval cover, polarising tab. 12V
+
+Licensing
+---------
+make first 3 years royalty free, subject to license, then publish spec - Take 1% royalties for HW co's to use it, or release leads for system manufacturers.
+Make PCB mounted sockets for the leads for a straight socket to system interface.
+Plugs - leads go from socket to plug, easily extended.
+--
+make high-end version for racks, with multiple redundancy and system for live interchange. System for live addition of compatible UPS systems.
+Implications of DC voltage network
+----------------------------------
+What would a regulated DC v.net mean in a large office building?
+considering power usage, stability, interference, attenuation and fluctuation as well as cable routing costs? System must easily plug into existing setup.
+Make PC PSU break out boxes powered by one or more of these sockets tied together (for larger power requirements).
+Say goodbye to the wall wart.
+
+"It takes an everyday revolution to make a millionaire. It takes a millionaire to make something glamorous - Delorean"
