@@ -53,3 +53,13 @@ I've not yet fully tested:
 Although there's code to try them. We ran into difficulty with the Cricket with i2c connectivity issues, so I need to revisit that.
 
 I want to make this a fair collection of motor boards, including the PiConZero, and the Explorer Hat Pro.
+
+## motor driver comparison
+
+- The Redboard+, because it uses a higher voltage, makes tt-motors really quick, but smelt like burning.
+- The Adafruit Cricket - a bit fussy about power. Not sure if you an route the 5v output back into it's input.
+- The Inventor hat mini - once past the motor connector faff, it's easy to swap motors, and works nicely over i2c - first time. LED's mean you gotta run that code with sudo though.
+- DFRobot gravity - too many wires, but very flexible. Works easily - can be the L298n breakout.
+- Adafruit stepper hat - does nearly everything, if you solder for it.
+- PiConZero - still one of my favourite boards, with the one shortcoming that it doesn't expose i2c pins and covers access to them on the Pi.
+- Generic stepper hats - look, they do a lot, and work. However, they are inconsistent at best, making them a good choice if you get hold of one that matches the spec.
