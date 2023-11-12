@@ -288,6 +288,6 @@ If you want to build more robot behaviours, consider buying [Robotics at home wi
     - Getting started with CircuitPython
     - More information on using the PID algorithm to control robots
 - For the Cytron maker line - see <https://my.cytron.io/p-maker-line-simplifying-line-sensor-for-beginner>
-- For help with Circuitpython Digital Inputs - see <https://learn.adafruit.com/circuitpython-essentials/circuitpython-digital-in-out>
+- For help with CircuitPython Digital Inputs - see <https://learn.adafruit.com/circuitpython-essentials/circuitpython-digital-in-out>
 
 <a href="https://packt.link/5swS2" title="Learn to build and Program Robots using Robotics at Home with Raspberry Pi Pico">{% img_responsive "galleries/2023/Robotics-at-Home-with-Raspberry-Pi-Pico-banner.png", "Learn to build and Program Robots using Robotics at Home with Raspberry Pi Pico" %}</a>
