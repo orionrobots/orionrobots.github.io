@@ -39,12 +39,13 @@ To ensure effective line following, it's crucial to attach the line follower cor
 1. **Placement**: Position the line follower close to the floor, a couple of millimetres above the ground but not touching it. Make sure it doesn't cause any drag under the robot. This lets the sensor to detect the line effectively.
 2. **Stand-Off Kit**: Use a stand-off kit to position the line follower below the robot. The Maker Line has slots that accommodate various bolting hole placements, offering flexibility in mounting. You can either drill holes in the robot's chassis or use existing holes if it's predrilled.
 
-{% img_responsive "_posts/2023/2023-08-05-raspberry-pi-pico-line-follower/2028-08-maker-line-side-attachment.png", "Attaching the line follower" %}
+    {% img_responsive "_posts/2023/2023-08-05-raspberry-pi-pico-line-follower/2028-08-maker-line-side-attachment.png", "Attaching the line follower" %}
 
-The diagram above shows how to attach it. You should plan for the lowest part of this **line sensor**, usually the large capacitors, to have **clearance** above the lowest point of the **robot wheels**.
+    The diagram above shows how to attach it. You should plan for the lowest part of this **line sensor**, usually the large capacitors, to have **clearance** above the lowest point of the **robot wheels**.
 
 3. **Placement Considerations**: Plan for the lowest part of the line sensor, typically the large capacitors, to have sufficient clearance above the lowest point of the robot's wheels. This clearance ensures that the line follower doesn't interfere with the robot's movement
 4. **Secure with Standoffs**: Insert the M3 standoff thread through the chassis and secure it with a nut. Repeat this on each side. You may need a combination of standoffs to get the right height. Once the standoffs are in place, use M3 bolts to fasten the line follower onto the chassis. This setup allows easy removal and adjustment of the line follower by accessing the bolts below.
+
 By following these steps, you can ensure that the line follower is properly attached to your robot, enabling accurate line following and smooth navigation along the desired path.
 
 ## Wiring
