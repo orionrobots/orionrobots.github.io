@@ -1,5 +1,5 @@
 ---
-date: 2004-11-25
+date: 2004-09-25
 title: East Finchley Robotics Club - Twin motor with steering challenge
 description: A challenge for the robotics club to build a twin motor with steering
 author: Danny Staple

@@ -11,7 +11,7 @@ thumbnail: assets/2002-08-04-HexapodMkI.png
 I have made my first attempt at a six legged walker (a hexapod) with Lego.
 
 Up until now all of my robot designs have been more concerned about behaviour.
-Although these have not been posted yet they supersede the site.
+Although these have not been posted yet they are older than the site.
 
 This was built for pure aesthetics.
 I think wheels, tracks and tri-star wheels are more efficient than six legs but I thought it interesting to try.
@@ -41,7 +41,7 @@ I use 16 tooth gears as feet for the legs.These give more grip than using bushes
 I considered using tires but they add to the weight which is already a problem.
 Warning, this bot drains batteries!
 
-* [Download the Ldraw design file](../assets/2002-08-04-HexapodMkI.ldr)
+* [Download the LDraw design file](../../../assets/2002-08-04-HexapodMkI.ldr)
 * I recommend [LeoCAD](https://www.leocad.org/download.html) for viewing and editing the design.
 
 ## The touch sensor
