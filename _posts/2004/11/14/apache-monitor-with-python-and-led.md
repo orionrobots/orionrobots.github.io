@@ -13,7 +13,7 @@ title: Apache Server Monitor With Python And Led
 ![Parallel Cable With LED]({{ gallery }}/thumb_cable-with-led.jpg){.class="img-rounded" style="float:left; padding-right: 4px"}
 Building on the LED and cable last time, I linked this up to monitor Apache, a common webserver, which at the time of writing, I am using to host orionrobots.
 
-After building the initial [Simple Parallel Port LED](/2004/11/05/simple-parallel-port-led.html) experiment one, I set about finding an interesting use for it. The first thing that came to mind was an internet activity monitor for the OrionRobots web site.
+After building the initial [Simple Parallel Port LED](/2004/11/05/simple-parallel-port-led) experiment one, I set about finding an interesting use for it. The first thing that came to mind was an internet activity monitor for the OrionRobots web site.
 
 Every time someone views a page on my website, the LED will flicker - kind of like a HDD Led, possibly with a small delay. The way it works means that other network activity would be ignored. The LED could easily be substituted for a counter that was activated by the pulse.
 
@@ -125,14 +125,14 @@ print "Select POLLIN is ", select.POLLIN, " pipe file no is ", pipe.fileno()
 #infinite loop
 while True:
   time.sleep(0.01)
-  
+
   data  = poll.poll()
   #while(data[0][0] != pipe.fileno() and not (data[0][1] & select.POLLIN)):
   while(data[0] != (pipe.fileno(), select.POLLIN)):
     time.sleep(0.01)
     data = poll.poll()
     #print "Fileno is ", data[0][0], " Poll status is ", data[0][1]
-   
+
   p.setData(8)
   read = pipe.readline()
   print read;
