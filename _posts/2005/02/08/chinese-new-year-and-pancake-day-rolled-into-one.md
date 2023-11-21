@@ -1,6 +1,6 @@
 ---
 date: 2005-02-08 12:21:59
-description: Making a Pancake Flipping Robot, Chinese New Year &gt; Pancake Day Rolled Into One
+description: Making a Pancake Flipping Robot, Chinese New Year and Pancake Day Rolled Into One
 tags: [robots, robot building]
 title: Making a Pancake Flipping Robot
 layout: post

@@ -1,8 +1,8 @@
 ---
 date: 2005-01-27 13:46:31
-description: Freeforming, Ball Contraptions and CAD Software
+description: Free-forming, Ball Contraptions and CAD Software
 tags: [lego, soldering, electronics, cad]
-title: Freeforming, Ball Contraptions and CAD Software
+title: Free-forming, Ball Contraptions and CAD Software
 layout: post
 ---
 ## Using C# dot net
@@ -12,9 +12,9 @@ Well it looks like I am going to be learning C#.net.  We are going to be buildin
 
 While Mono is a very reasonable dot net porting project - it is hampered by the lack of GUI compatibility. Indeed - the only thing which seems to be able to offer consistent GUI API's on many platforms is Java - which I would prefer not to use. The best case for this would really be if the wxPython implementation on the Pocket PC become more usable - and then I would be with an API and language I am firmly comfortable using.
 
-## Freeforming
+## Free-forming
 
-Some of you may have noticed I have started to place FreeForming articles on the website. I am going to go into a series on this - and have been touching up on my POVRAY skills to try and produce diagrams to try and explain this. Bear with me - it is very, very difficult to explain the steps taken to freeform an item. Anyway - I have taken a decision to stop using POVray for this sort of thing, and start using larger commercial CAD systems. Firstly they are easier to use. Secondly they are designed for engineering, where POV is really designed for artistic rendering.
+Some of you may have noticed I have started to place FreeForming articles on the website. I am going to go into a series on this - and have been touching up on my POV-Ray skills to try and produce diagrams to try and explain this. Bear with me - it is very, very difficult to explain the steps taken to free-form an item. Anyway - I have taken a decision to stop using POV-Ray for this sort of thing, and start using larger commercial CAD systems. Firstly they are easier to use. Secondly they are designed for engineering, where POV is really designed for artistic rendering.
 
 ## The Great Ball Contraptions
 
