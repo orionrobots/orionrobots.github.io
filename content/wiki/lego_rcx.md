@@ -26,7 +26,7 @@ The V1.0 came with an external 9v power jack, that was later ditched. I have see
 - [Connecting the RCX with Manas](/wiki/lego_manas.html "Remote control Lego robot-like kits")
 - [Using external power sources with the RCX](/wiki/using_external_power_sources_with_the_rcx.html "RCX power input interfacing")
 - [Powering external devices from the RCX](/wiki/powering_external_devices_from_the_rcx.html "Powering External Devices From The RCX")
-- [Creating custom sensors for RCX]({% post_url 2004-11-15-creating-custom-sensors-for-the-rcx %} "Creating Custom Sensors For RCX")
+- [Creating custom sensors for RCX](/2004/11/15/creating-custom-sensors-for-the-rcx "Creating Custom Sensors For RCX")
 - [Using the RCX with Stepper Motors](/wiki/using_the_rcx_with_stepper_motors.html "Using The RCX With Stepper Motors")
 - [Programming the RCX with NQC](/wiki/nqc.html "Not Quite C - A Lego PBrick Programming Language")
 - Programming with Mind Script
@@ -39,7 +39,7 @@ The V1.0 came with an external 9v power jack, that was later ditched. I have see
 
 By Mario Ferrari, Giulio Ferrari
 
-If you have the RCX then this is a must for an absolute beginner. It will give you more to do when you are bored of the constructopedia.
+If you have the RCX then this is a must for an absolute beginner. It will give you more to do when you have finished the constructopedia.
 
 <iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&amp;OneJS=1&amp;Operation=GetAdHtml&amp;MarketPlace=GB&amp;source=ss&amp;ref=as_ss_li_til&amp;ad_type=product_link&amp;tracking_id=orionrobots-21&amp;marketplace=amazon&amp;region=GB&amp;placement=1931836620&amp;asins=1931836620&amp;linkId=0fad662144b092e14f2d11651475ea82&amp;show_border=true&amp;link_opens_in_new_window=true">
 </iframe>
