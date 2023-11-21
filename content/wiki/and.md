@@ -58,7 +58,7 @@ This concept can be easily demonstrated with a circuit, with a prop that takes m
 
 ### Building it
 
-There is only a little soldering here, and if you have built the [Simple Parallel Port LED Board]({% post_url 2004-11-05-simple-parallel-port-led %} "How to attach and program an LED to the parallel port on a PC"), you may not need to do any soldering at all. Note though, because of how little there is, the soldering will be [Freeform](/wiki/freeform "FreeForm").
+There is only a little soldering here, and if you have built the [Simple Parallel Port LED Board]({% post_url 2004/11/05/simple-parallel-port-led %} "How to attach and program an LED to the parallel port on a PC"), you may not need to do any soldering at all. Note though, because of how little there is, the soldering will be [Freeform](/wiki/freeform "FreeForm").
 
 You need to take the [LED](/wiki/led "Light Emitting Diode") and identify the [Anode](/wiki/anode "The positive electrode") - this is the cable on the **opposite side** to the flat edge. Using the clamp to hold the cables in place, solder the resistor to this lead.
 
