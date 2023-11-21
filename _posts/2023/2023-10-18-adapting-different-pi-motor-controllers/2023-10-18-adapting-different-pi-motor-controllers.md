@@ -1,6 +1,6 @@
 ---
 title: Adapting different Raspberry Pi motor drivers for Piwars 2024
-tags: [robotics at home, raspberry pi, motor controller, electronics, python, programming, piwars, robot building]
+tags: [robotics at home, raspberry pi, motor controller, electronics, python, programming, piwars, robot building, piwars 2024]
 description: An adaptation layer I've been working on
 date: 2023-10-18
 thumbnail: _posts/2023/2023-10-18-adapting-different-pi-motor-controllers/robot_motor_driver_common_code.png
