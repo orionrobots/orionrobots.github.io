@@ -3,6 +3,7 @@ title: Managing a Raspberry Pi with PyInfra
 date: 2023-11-20T19:28:00.000Z
 description: Using PyInfra to manage a Raspberry Pi
 tags: [raspberry pi, pyinfra, python, devops, robot programming, piwars 2024]
+thumbnail: _posts/2023/2023-11-20/pyinfra-raspberrypi.png
 ---
 Today, I trialled PyInfra2 for managing the packages and files on a Raspberry Pi.
 
@@ -23,7 +24,7 @@ Ansible is a great solution if you are on a mac or on Linux, it supports "idempo
 
 ## PyInfra2
 
-I cam across PyInfra2 yesterday. It seems to solve many of the problems. It builds upon concept in ansible - inventories of hosts (maybe just 1, or an inventory of robots), idempotent tasks, and you declare the state you want.
+I came across PyInfra2 yesterday. It seems to solve many of the problems. It builds upon concept in ansible - inventories of hosts (maybe just 1, or an inventory of robots), idempotent tasks, and you declare the state you want.
 
 However, this is all in Python. Which means you can create inventories in python, you can abstract, or provide data in python, perhaps sharing configuration for this with other python tools or systems.
 
@@ -32,6 +33,8 @@ Being based only in python, it is a pip-install away, and works on Windows, Linu
 I've only used it for a day - so a bit early, but I'm enjoying it so far. I've been able to create a simple inventory, and a simple task to install a bunch of apt and pip packages on a Raspberry Pi along with configuring stuff like i2c and it works.
 
 I'll be considering this tool in future for managing my robots. I'm using my Piwars 2024 disaster zone robot as a testbed for this.
+
+{% img_responsive "_posts/2023/2023-11-20/pyinfra-raspberrypi.png", "PyInfra managing a Raspberry Pi" %}
 
 ## Links
 
