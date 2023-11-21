@@ -2,6 +2,7 @@
 title: Making a shim for the Pimoroni Explorer Hat Pro
 tags: [robotics at home, raspberry pi, motor controller, electronics, python, programming, piwars, robot building]
 date: 2023-10-22
+thumbnail: _posts/2023/2023-10-22-piwars-blog-post/explorer-hat-shim.png
 ---
 My student arrived with a few things to fix up. At the last session, we had been trying to get the Adafruit Cricket to work, but had experienced an issue with i2c communication errors throughout. I will take a closer look, but so my student can continue, we swapped that out for a Pimoroni Explorer Hat Pro.
 
