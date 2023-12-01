@@ -7,33 +7,46 @@ stuff: nonsense
 {% capture BASE_PATH %}{{ site.production_url }}{% endcapture %}
 {% capture ASSET_PATH %}{{ BASE_PATH }}/assets/themes/{{ theme.name }}{% endcapture %}
 <!DOCTYPE html>
-<!--[if lt IE 7 ]> <html lang="en" class="no-js ie6"> <![endif]-->
-<!--[if IE 7 ]>    <html lang="en" class="no-js ie7"> <![endif]-->
-<!--[if IE 8 ]>    <html lang="en" class="no-js ie8"> <![endif]-->
-<!--[if (gt IE 9)|!(IE)]><!--> <html lang="en" class="no-js"> <!--<![endif]-->
-<head>
+<!-- [if lt IE 7 ]> <html lang="en" class="no-js ie6"> <![endif] -->
+<!-- [if IE 7 ]>    <html lang="en" class="no-js ie7"> <![endif] -->
+<!-- [if IE 8 ]>    <html lang="en" class="no-js ie8"> <![endif] -->
+<!-- [if (gt IE 9)|!(IE)]><! -->
+<html lang="en" class="no-js">
+  <!-- <![endif] -->
+  <head>
     <meta charset="utf-8">
     {% include JB/analytics.liquid %}
-    <!-- <meta http-equiv="Content-Security-Policy" content="default-src 'self' 'unsafe-inline' 'unsafe-eval'
-    *.google.com *.googleapis.com *.googlesyndication.com *.bootstrapcdn.com *.gstatic.com
-    *.pinterest.com *.youtube.com *.amazon-adsystem.com *.twitter.com *.google-analytics.com *.facebook.net *.facebook.com
-    *.googleadservices.com *.google.co.uk *.googletagservices.com;
-    img-src * data:;
-    font-src * 'unsafe-inline' data:;"> -->
+    <!-- <meta http-equiv="Content-Security-Policy" content="default-src 'self' 'unsafe-inline' 'unsafe-eval'*.google.com *.googleapis.com *.googlesyndication.com *.bootstrapcdn.com *.gstatic.com*.pinterest.com *.youtube.com *.amazon-adsystem.com *.twitter.com *.google-analytics.com *.facebook.net *.facebook.com*.googleadservices.com *.google.co.uk *.googletagservices.com;img-src * data:;font-src * 'unsafe-inline' data:;"> -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="google-site-verification" content="UOzBed7gLBf1xSDPmxw3r4UGsKv1KcTacRUpEwSLA9g" />
     <link rel="icon" href="/favicon.png" />
     <meta name="twitter:site" content="@orionrobots" />
-    <meta name="og:title" content = "{{ title }} | {{ site_title }} - {{ site_tagline }}" />
+    <meta
+      property="og:type"
+      name="og:title"
+      content="website">
+    <meta
+      name="og:title"
+      property="og:title"
+      content="{{ title }} | {{ site_title }} - {{ site_tagline }}" />
     {% if description %}
-        <meta name="og:description" content="{{ description }}" />
+      <meta
+        name="og:description"
+        property="og:description"
+        content="{{ description }}" />
     {% endif %}
     {% if thumbnail %}
-    <meta property="og:image" content="{{ BASE_PATH }}/{% thumbnail_from_path thumbnail %}" />
-    <meta name="twitter:image" content="{{ BASE_PATH }}/{% thumbnail_from_path thumbnail %}" />
+      <meta
+        name="og:image"
+        property="og:image"
+        content="{{ BASE_PATH }}/{% thumbnail_from_path thumbnail %}" />
+      <meta name="twitter:image" content="{{ BASE_PATH }}/{% thumbnail_from_path thumbnail %}" />
     {% else %}
-    <meta property="og:image" content="{{ ASSET_PATH }}/images/social-banner.jpg" />
-    <meta name="twitter:image" content="{{ ASSET_PATH }}/images/social-banner.jpg" />
+      <meta
+        name="og:image"
+        property="og:image"
+        content="{{ ASSET_PATH }}/images/social-banner.jpg" />
+      <meta name="twitter:image" content="{{ ASSET_PATH }}/images/social-banner.jpg" />
     {% endif %}
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -43,35 +56,57 @@ stuff: nonsense
 
     <script type="text/javascript" src="/dist/bundle.js"></script>
     {% capture css %}{% include css/bootstrap-style.css %}{% endcapture %}
-    <style>{{ css | cssmin }}</style>
+    <style>{{ css | cssmin }}
+    </style>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/prism/9000.0.1/themes/prism.min.css" rel="stylesheet" />
 
-    <!-- atom & rss feed -->
-    <link href="{{ BASE_PATH }}{{ site.JB.atom_path }}" type="application/atom+xml" rel="alternate" title="Sitewide ATOM Feed">
-    <link href="{{ BASE_PATH }}{{ site.JB.rss_path }}" type="application/rss+xml" rel="alternate" title="Sitewide RSS Feed">
-</head>
-<body class="template">
+      <!-- atom & rss feed -->
+    <link
+      href="{{ BASE_PATH }}{{ site.JB.atom_path }}"
+      type="application/atom+xml"
+      rel="alternate"
+      title="Sitewide ATOM Feed">
+    <link
+      href="{{ BASE_PATH }}{{ site.JB.rss_path }}"
+      type="application/rss+xml"
+      rel="alternate"
+      title="Sitewide RSS Feed">
+  </head>
+  <body class="template">
     <div class="container">
-        <!-- Header -->
-        {% include nav.liquid %}
-        <!-- Content -->
-        {{ content }}
-        <footer id="bottom">
-            <div class="row" id="footer-left">
-                <div class="co-lg-12">
-                    <ul id="footer-nav" class="nav flex-column">
-                        <a href="https://discord.gg/sMnPxFhAe2" class="nav-item">{% fortawesomeBrand "discord", "fa-img" %} Discuss robot building on Our Discord Server!</a>
-                        <li><a href="https://www.youtube.com/orionrobots" class="nav-item">{% fortawesomeBrand "youtube-square", "fa-img" %} Youtube</a></li>
-                        <li><a href="https://www.twitter.com/orionrobots" class="nav-item">{% fortawesomeBrand "twitter-square", "fa-img" %} Twitter</a></li>
-                        <li><a href="https://www.facebook.com/orionrobots" class="nav-item">{% fortawesomeBrand "facebook-square", "fa-img" %} Facebook</a></li>
-                        <li><a href="/privacy_and_cookies.html class="nav-item"">Privacy and Cookies</a></li>
-                    </ul>
-                </div>
-            </div>
-                <p>&copy; {{ page.date | date: '%Y' }} OrionRobots. Orionrobots is a registered trademark.
-                    with help from <a href="https://twitter.github.com/bootstrap/" target="_blank">Bootstrap</a>
-                </p>
-        </footer>
+      <!-- Header -->
+    {% include nav.liquid %}
+      <!-- Content -->
+      {{ content }}
+      <footer id="bottom">
+        <div class="row" id="footer-left">
+          <div class="co-lg-12">
+            <ul id="footer-nav" class="nav flex-column">
+              <a href="https://discord.gg/sMnPxFhAe2" class="nav-item">{% fortawesomeBrand "discord"
+  , "fa-img" %} Discuss robot building on Our Discord Server!</a>
+              <li>
+                <a href="https://www.youtube.com/orionrobots" class="nav-item">{% fortawesomeBrand "youtube-square"
+  , "fa-img" %} Youtube</a>
+              </li>
+              <li>
+                <a href="https://www.twitter.com/orionrobots" class="nav-item">{% fortawesomeBrand "twitter-square"
+  , "fa-img" %} Twitter</a>
+              </li>
+              <li>
+                <a href="https://www.facebook.com/orionrobots" class="nav-item">{% fortawesomeBrand "facebook-square"
+  , "fa-img" %} Facebook</a>
+              </li>
+              <li>
+                <a href="/privacy_and_cookies.html class=" nav-item"">Privacy and Cookies</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <p>&copy; {{ page.date | date: '%Y' }} OrionRobots. Orionrobots is a registered trademark.
+                    with help from
+          <a href="https://twitter.github.com/bootstrap/" target="_blank">Bootstrap</a>
+        </p>
+      </footer>
     </div>
-</body>
+  </body>
 </html>
