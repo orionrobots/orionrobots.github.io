@@ -3,7 +3,7 @@ title: Having fun with the Pimoroni Yukon Board
 date: 2023-12-08
 description: A look at the Pimoroni Yukon board, a Raspberry Pi Pico breakout board with a lot of features.
 thumbnail: _posts/2023/12/8/yukon-with-modules-for-piwars.jpeg
-tags: [raspberry pi pico, pimoroni, yukon, breakout board]
+tags: [raspberry pi pico, pimoroni, breakout board, robot building, micropython, piwars2024]
 ---
 For the last few months, I had the privilege of being a beta tester for the Pimoroni Yukon board. This meant I got to play with a robotics board with a tonne of features before it was released!
 
@@ -85,3 +85,7 @@ This is all a bit hypothetical, and I'm wondering what to do with the HC-SR04 di
 ## My overall thoughts
 
 I am glad I got to be a Beta tester on this board, it is a lot of fun, and has a clear place in my next robot build. I'm looking forward to seeing what other people do with it, and what modules are released for it. And using that prototype module to hack my own.
+
+## Other links
+
+For a hands on robot play with the Yukon, see Kevin McAleer and the Yukon in [Is this the best robot ever?](https://www.youtube.com/watch?v=Mdz_DhyREYk&t=2525s) video.
