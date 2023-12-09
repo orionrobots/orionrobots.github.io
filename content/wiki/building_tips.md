@@ -19,7 +19,7 @@ You'll be introduced to tools, techniques and materials that you can use to buil
 - [CAD](/wiki/cad.html "Computer Aided Design") and [Design](/wiki/design "Design") - Before you start a complicated build - ensure you design your robot well.
 - [Fixing A Broken Wire](/2004/11/14/fixing-a-broken-wire) - When a wire is snapped in a Cybot or similar robot kit - how can you repair it?
 - [Robot Tools](/wiki/robot_tools.html "Tools that are often required to get started in robot building") - What do you need for the job?
-- [Damaged Screw Head](/{% post_url 2005-08-20-damaged-screw-head %} "Getting out that really stubborn screw or bolt") - Broken screw heads are tough, so how can you get them out?
+- [Damaged Screw Head](/2005/08/20/damaged-screw-head "Getting out that really stubborn screw or bolt") - Broken screw heads are tough, so how can you get them out?
 - [Retrieving Dropped Screws](/wiki/retreiving_dropped_screws "What to do when you drop a screw, nut or bolt into the gubbins of a machine") - Getting to that screw you dropped deep in the gubbins of your robot.
 - [Choosing A Glue](/wiki/choosing_a_glue.html "Choosing the right glue, for the right job") - There are a number of glues you can use - which should you choose and why?
 - [Printed Circuit Boards](/wiki/printed_circuit_boards.html "Printed Circuit Boards") - Sooner or later you will need to think about this for advanced circuit design.

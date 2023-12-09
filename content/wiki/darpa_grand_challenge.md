@@ -14,13 +14,13 @@ In this one, the teams are not given the route of the race until the last possib
 
 All of the racers need to be able to deal with difficult rocky terrain, obstacles, areas that have steep drops around them, areas where loss of GPS is guaranteed, and make it through to the end. So far - Stanford Universities _Stanley_ has come out on top.
 
-With the vehicles are chaser cars, to keep them out of danger, with a killswitch to stop them before they get into too much mischief, this is both to stop them damaging something/one else, and also to preserve the machines themselves - some of which were not cheap to build. These are also probably one of the best places to observe the racers.
+With the vehicles are chaser cars, to keep them out of danger, with a kill-switch to stop them before they get into too much mischief, this is both to stop them damaging something/one else, and also to preserve the machines themselves - some of which were not cheap to build. These are also probably one of the best places to observe the racers.
 
 <http://www.grandchallenge.org/>
 
 ## 2005 Event
 
-[My Blog post on the 2005 Darpa Grand Challenge]({% post_url 2005-10-08-more-info-on-the-darpa-grand-challenge-result %})
+[My Blog post on the 2005 Darpa Grand Challenge]({/2005/10/08/more-info-on-the-darpa-grand-challenge-result)
 
 ## 2004 Event
 

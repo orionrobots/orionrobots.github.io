@@ -3,15 +3,13 @@ date: 2005-06-06 10:23:32
 description: More on the signal generator
 tags: [electronics, robotics tools]
 title: More on the signal generator
-layout: post
-todo_needs_sat: recreate gallery from Picasa.
 gal: /galleries/gallery-8-signal-generator-diode-bridge/
 ---
 ## Signal Generator build
 
 ![The signal generator connected ready for use](/galleries/gallery-8-signal-generator-diode-bridge/P1010002.JPG){..img-responsive .center-block}
 
-When I [built the Diode bridge]({% post_url 2005-05-30-freeforming-a-rectifier-bridge %}) - I needed to generate signals to test it.
+When I [built the Diode bridge](/2005/05/30/freeforming-a-rectifier-bridge) - I needed to generate signals to test it.
 This is how I built the Signal Generator I used to test them.
 A signal generator is a helpful tool to learn robotics at home with.
 It can be used to test motors, servos, and other electronic components.
