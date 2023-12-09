@@ -2,11 +2,11 @@
 title: Building an esp8266 based hexapod robot - SpiderBot Part 1
 tags: [robotics at home, esp8266, robot building, hexapod, micropython, pca9685, servo motor]
 date: 2017-08-09
-thumbnail: _posts/2017/08/09/the-spiderbot-hexapod.png
+thumbnail: content/2017/08/09/the-spiderbot-hexapod.png
 ---
 This week, I've started building an esp8266 based hexapod, which I've nicknamed "SpiderBot".
 
-{% img_responsive "_posts/2017/08/09/the-spiderbot-hexapod.png", "The Spiderbot Hexapod" %}
+{% img_responsive "content/2017/08/09/the-spiderbot-hexapod.png", "The Spiderbot Hexapod" %}
 
 I've been wanting to build a hexapod for a while, and I've been building a lot with esp8266. I've also been wanting to do something with the PCA9685 servo controller for a while. So I've decided to combine all three.
 
@@ -78,7 +78,7 @@ I then repeated this 5 more times. It was during this build that I discovered th
 
 At this point I had a chassis, with legs but no electronics to drive them.
 
-{% img_responsive "_posts/2017/08/09/hexapod-chassis-with-legs-and-motors.png", "The hexapod chassis" %}
+{% img_responsive "content/2017/08/09/hexapod-chassis-with-legs-and-motors.png", "The hexapod chassis" %}
 
 ## The Electronics
 
@@ -144,7 +144,7 @@ I set each motor to 90 (do this before assembly), so I could line them up with a
 
 I chose this as the neutral position for now:
 
-{% img_responsive "_posts/2017/08/09/leg-neutral-position.png", "The Leg neutral position" %}
+{% img_responsive "content/2017/08/09/leg-neutral-position.png", "The Leg neutral position" %}
 
 The leg is going straight out from the hip, and the knee is straight. The foot is at a 90 degree angle to the knee.
 
