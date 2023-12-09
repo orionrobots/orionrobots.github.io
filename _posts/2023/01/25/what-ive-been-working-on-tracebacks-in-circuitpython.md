@@ -9,6 +9,7 @@ tags:
   - error handling
   - robotics at home
   - robot building
+thumbnail: _posts/2023/01/25/python-exception-example.png
 ---
 What have I currently been working on? As part of my work on [Robotics at Home with Raspberry Pi Pico](https://packt.link/5swS2) I discovered a problem in CircuitPython with the traceback module, although it was perhaps more of a misunderstanding on my part.
 
@@ -16,7 +17,7 @@ What have I currently been working on? As part of my work on [Robotics at Home w
 
 By default in python any exception not caught, will print itself and the traceback to a console as the program exits due to an error. This is great if you are connected to a console. However, on a robot, or a headless server, you might wish to do something with that information other than on the console. That console might not actually go anywhere.
 
-{% img_responsive "_posts/2023/2023-01-25-what-ive-been-working-on-tracebacks-in-circuitpython/python-exception-example.png", "Python exception example" %}
+{% img_responsive "_posts/2023/01/25/python-exception-example.png", "Python exception example" %}
 
 In my case, the code was already sending JSON, so wrapping an error and traceback in JSON and sending it seemed convenient.
 
@@ -68,7 +69,7 @@ This is easy in that my code won't need to change, I just flash the Pico with th
 
 It may just work, and by the time this is published, unstable may be the stable release.
 
-However, if it is still unstable, depending on the level of changes and testing, theres a possibility that the unstable may have other new and interesting bugs for the reader to find.
+However, if it is still unstable, depending on the level of changes and testing, there's a possibility that the unstable may have other new and interesting bugs for the reader to find.
 
 ## Option 2 - Use the more complex current form of format_exception
 
