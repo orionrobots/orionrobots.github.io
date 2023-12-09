@@ -20,9 +20,9 @@ theme:
         <meta name="google-site-verification" content="UOzBed7gLBf1xSDPmxw3r4UGsKv1KcTacRUpEwSLA9g" />
         <link rel="icon" href="/favicon.png" />
         <meta name="twitter:site" content="@orionrobots" />
-        <meta name="og_url" property="og:url" content="{{ BASE_PATH }}{{ page.url }}" />
+        <meta name="og:url" property="og:url" content="{{ BASE_PATH }}{{ page.url }}" />
         <meta name="og:site_name" property="og:site_name" content="Orionrobots" />
-        <meta property="og:type" name="og:type" content="website" />
+        <meta property="og:type" name="og:type" content="article" />
         <meta name="og:title" property="og:title" content="{{ title }} | {{ site_title }} - {{ site_tagline }}" />
         {% if description %}
             <meta name="og:description" property="og:description" content="{{ description }}" />
@@ -39,6 +39,8 @@ theme:
         <title>{{ title }} | {{ site_title }} - {{ site_tagline }}</title>
         {% if description %}<meta name="description" content="{{ description }}">{% endif %}
         <meta name="author" content="{{ author | default: "Danny Staple"}}">
+        <meta name="article:author" property="article:author" content="{{ author | default: "Danny Staple"}}">
+
 
         <script type="text/javascript" src="/dist/bundle.js"></script>
         {% capture css %}{% include css/bootstrap-style.css %}{% endcapture %}
