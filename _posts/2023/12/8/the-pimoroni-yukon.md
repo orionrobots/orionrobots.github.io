@@ -11,7 +11,7 @@ I got to experiment using my MicroPython skills, trying out the modules for cont
 
 ## What is the Pimoroni Yukon board?
 
-The Pimoroni Yukon is a modular breakout board based around the RP2040 (the chip that powers the Raspberry Pi Pico). It comes with a chunky XT30 power connector, and a 5v regulator, so you can power it from a battery pack up to 17v and handle plenty of current.
+The Pimoroni Yukon is a modular breakout board based around the RP2040 (the chip that powers the Raspberry Pi Pico). It comes with a chunky XT30 power connector, and a 3.3v regulator for the RP2040's logic, so you can power it from a battery pack up to 17v and handle plenty of current.
 
 It's real magic comes in the form of 6 slots, which can populated by modules. The modules can be swapped in and out of slots, with proto-modules for you to make your own. Each module slot has options for I2C, SPI and UART data buses, PWM, simple GPIO and ADCs. My favourite modules so far are the regulated servo motor module, the Dual Motor module and the Audio Amp module.
 
