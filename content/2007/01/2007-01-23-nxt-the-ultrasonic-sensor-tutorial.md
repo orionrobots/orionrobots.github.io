@@ -1,8 +1,7 @@
 ---
 date: 2007-01-23 15:42:27
-tags: [robots, robotics, robot building, lego nxt, lego, mindstorms, sensor]
-title: NXT - The Ultrasonic Sensor Tutorial
-layout: post
+tags: [robots, lego robotics, robot building, lego nxt, lego mindstorms, sensor]
+title: Lego Mindstorms NXT - The Ultrasonic Sensor Tutorial
 ---
 I am now well underway with my work on the NXT. I have built and programmed the grabber bot, and have it driving to and picking up a ball on command via hand claps.
 
@@ -12,7 +11,7 @@ I had a brief play with NXT-G to see if I could program a light/dark line follow
 
 Now next in the tutorial is adding an Ultrasonic sensor. This is where we are really stepping beyond what the [RCX](/wiki/rcx.html "The Lego Robot Command Explorer") was able to do with the (unexpanded) RIS, and start getting some of the new stuff.
 
-![Lego Mindstorms NXT Tribot With Ultrasonic Distance Sensor Closeup](/galleries/gallery-20-lego-nxt/419-p1010002-1.JPG)
+![Lego Mindstorms NXT Tribot With Ultrasonic Distance Sensor Close-up](/galleries/gallery-20-lego-nxt/419-p1010002-1.JPG)
 First a little bit of building - I can see a lot of design went into making this bot modular and expandable. I appreciate that somewhat. For the step pulling out an axle, you may find it easier to use another axle to push it through initially. You don't need to pull the axle all the way out, just enough for the gap between the beams in the middle to be clear. I also chose to use the much shorter cable for this, as there was no need to the 35 cm one. I found that as the bottom of the sensor was not secured - it seems to look up under the weight of the cable. I placed an additional bush-pin in to secure it (inset).
 
 ## Programming it
@@ -21,7 +20,7 @@ I decided to follow the beaten trail here, and work within the tutorial. I did h
 
 ## Out of memory
 
-Anyway- after completing the program, I found the [NXT](/wiki/nxt.html "Legos NeXT generation robotics kit")  was out of memory, and had to clear a few things from it. The memory manager only showed me the "good job" sound, to clear. I did not see any NXT code uploads to clear though in it - how strange. I then noted that the percentage bar had a clickable "program" area. This showed all the programs I had loaded in. While browsing this, the NXT timed out and shut off - and the display just cleared. You would think that keep-alive messages would be sent to the nxt while using this dialogue. At least for a while..
+Anyway- after completing the program, I found the [NXT](/wiki/nxt.html "Lego's NeXT generation robotics kit")  was out of memory, and had to clear a few things from it. The memory manager only showed me the "good job" sound, to clear. I did not see any NXT code uploads to clear though in it - how strange. I then noted that the percentage bar had a clickable "program" area. This showed all the programs I had loaded in. While browsing this, the NXT timed out and shut off - and the display just cleared. You would think that keep-alive messages would be sent to the nxt while using this dialogue. At least for a while..
 
 The Touch sensor and grabber programs were using a rather large 12Kb each. Now I know using embedded c on my day job that you can build whole suites of quite complex software in 12k - there were only about 9/10 blocks, so those must expand to quite a lot of code. I suspect the blocks in the "Common Blocks" tab are very high level blocks of many more blocks. I wander if it is the number of blocks, or the number of different types of blocks which contributes to size - this would be down to how much is duplicated, and how much is simply referenced. Something to investigate later.
 
@@ -46,12 +45,12 @@ The next tempting section is machines with an arm. This is looking exciting. I a
 
 ## Links
 
-* [NXT - The Grabber]({% post_url 2007-01-18-nxt-the-grabber %})
-* [Getting stuck into the NXT]({% post_url 2007-01-13-getting-stuck-into-the-nxt %})
-* [OrionRobots gets our first NXT]({% post_url 2007-01-10-orionrobots-gets-our-first-nxt %})
-* [NXT](/wiki/nxt.html "Legos NeXT generation robotics kit")
-* [Lego](/wiki/lego.html "The best known construction toy")
-* [Mindstorms](/wiki/mindstorms.html "A Robotic construction toy system from Lego")
+- [NXT - The Grabber](/2007/01/18/nxt-the-grabber)
+- [Getting stuck into the NXT](/2007/01/13/getting-stuck-into-the-nxt)
+- [OrionRobots gets our first NXT](/2007/01/10/orionrobots-gets-our-first-nxt)
+- [NXT](/wiki/nxt.html "Lego's NeXT generation robotics kit")
+- [Lego](/wiki/lego.html "The best known construction toy")
+- [Mindstorms](/wiki/mindstorms.html "A Robotic construction toy system from Lego")
 
 <iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=GB&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=orionrobots-21&marketplace=amazon&region=GB&placement=B00BMKLVJ6&asins=B00BMKLVJ6&linkId=790d5f97e58d0e79ecb2fbe1b24a3108&show_border=true&link_opens_in_new_window=true"></iframe>
 

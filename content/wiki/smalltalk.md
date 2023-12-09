@@ -21,4 +21,4 @@ Modern implementations include Squeak - which is available on Linux and other pl
 
 ## Related
 
-- [Danny Staple Blog - OSX, NXT, BlueTooth and Ruby - A match made in byte heaven?]({% post_url 2007-01-10-osx-nxt-bluetooth-and-ruby-a-match-made-in-byte-heaven %})
+- [Danny Staple Blog - OSX, NXT, BlueTooth and Ruby - A match made in byte heaven?](/2007/01/10/osx-nxt-bluetooth-and-ruby-a-match-made-in-byte-heaven)

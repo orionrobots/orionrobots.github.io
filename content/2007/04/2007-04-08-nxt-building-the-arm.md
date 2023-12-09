@@ -1,6 +1,6 @@
 ---
 date: 2007-04-08 15:48:14
-tags: [robots, robotics, robot building, lego, mindstorms, lego nxt]
+tags: [robots, lego robotics, robot building, lego mindstorms, lego nxt]
 title: NXT - Building the Arm
 layout: post
 ---
@@ -12,7 +12,7 @@ The first task is to disassemble the Tribot - which takes a bit longer than the 
 
 Axles and pins can start to be annoying when pulling many out of a beam, and I have heard tips about using marigolds or a little strip of rubber to grip them and save your fingers.
 
-For the axles, the Flexible Axle part discussed [previously]({% post_url 2007-01-10-orionrobots-gets-our-first-nxt %}) can be used - note they are all currently used in the ball holder. You should also use the push through technique with another axle. I am not sure about marigolds (rubber gloves) - they will limit my movement, and may make it difficult - but there's time to give them a go.
+For the axles, the Flexible Axle part discussed [previously](/2007/01/10/orionrobots-gets-our-first-nxt) can be used - note they are all currently used in the ball holder. You should also use the push through technique with another axle. I am not sure about marigolds (rubber gloves) - they will limit my movement, and may make it difficult - but there's time to give them a go.
 
 I start by removing the NXT itself, and the cables. I got stuck in, and as it turned out, the only real tool I needed was an Axle to push out pins and axles - this took me only a few minutes.
 
@@ -64,13 +64,13 @@ Well - in the NXT guide, we have animals next - the scorpion - Spike.. Cool..
 
 ## Links
 
-* [Previously - NXT - The Ultrasonic Sensor Tutorial]({% post_url 2007-01-23-nxt-the-ultrasonic-sensor-tutorial %})
-* [NXT - The Grabber]({% post_url 2007-01-18-nxt-the-grabber %})
-* [Getting stuck into the NXT]({% post_url 2007-01-13-getting-stuck-into-the-nxt %})
-* [OrionRobots gets our first NXT]({% post_url 2007-01-10-orionrobots-gets-our-first-nxt %})
-* [NXT](/wiki/nxt.html "Lego's NeXT generation robotics kit")
-* [Lego](/wiki/lego.html "The best known construction toy")
-* [Mindstorms](/wiki/mindstorms.html "A Robotic construction toy system from Lego")
+- [Previously - NXT - The Ultrasonic Sensor Tutorial]({/2007/01/23/nxt-the-ultrasonic-sensor-tutorial)
+- [NXT - The Grabber]({/2007/01/18/nxt-the-grabber)
+- [Getting stuck into the NXT]({/2007/01/13/getting-stuck-into-the-nxt)
+- [OrionRobots gets our first NXT]({/2007/01/10/orionrobots-gets-our-first-nxt)
+- [NXT](/wiki/nxt.html "Lego's NeXT generation robotics kit")
+- [Lego](/wiki/lego.html "The best known construction toy")
+- [Mindstorms](/wiki/mindstorms.html "A Robotic construction toy system from Lego")
 
 <iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=GB&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=orionrobots-21&marketplace=amazon&region=GB&placement=B00BMKLVJ6&asins=B00BMKLVJ6&linkId=790d5f97e58d0e79ecb2fbe1b24a3108&show_border=true&link_opens_in_new_window=true"></iframe>
 

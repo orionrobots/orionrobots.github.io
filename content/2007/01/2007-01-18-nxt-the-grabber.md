@@ -1,9 +1,7 @@
 ---
 date: 2007-01-18 15:06:34
-tags: [lego, lego nxt, programming, robot building, mindstorms]
-title: NXT - The Grabber
-layout: post
-todo_needs_sat: ["Convert tiki download to local download"]
+tags: [lego nxt, programming, robot building, lego mindstorms, lego robotics]
+title: Lego mindstorms NXT - Extending Tribot with a grabber
 ---
 ## Basic Grabber
 
@@ -41,9 +39,9 @@ I started the program, and made the additional change of making it wait for a lo
 
 The first instruction here in the tutorial (Page 65 in the user guide) has a tricky part of pulling an axle from the axle holes in the bottom of the robot. Since these are a bit stiff, it is my recommendation to take the first part with the bushes out, then leaving one bush in the end, use it as a tool to push the other axle out. As you push it out of the first beam, you should be able to pull it from the other side easily. (See right)
 
-Keep the parts around - it is only a temporary removal. You now have some cable routing fun - I am beginning to get the idea that the cavity behind the [NXT](/wiki/nxt.html "Legos NeXT generation robotics kit") is a good spot, bearing in mind that routing the flat cables from the front there does prop it up some. The slight flexibility of studless builds is actually showing a benefit there.
+Keep the parts around - it is only a temporary removal. You now have some cable routing fun - I am beginning to get the idea that the cavity behind the [NXT](/wiki/nxt.html "Lego's NeXT generation robotics kit") is a good spot, bearing in mind that routing the flat cables from the front there does prop it up some. The slight flexibility of studless builds is actually showing a benefit there.
 
-Oh - and once you have assembled the subassembly, plug it in before locking it in place. It is easier that way around. I am also not happy with the tightness of its fit against the touch sensor - a lot of strain on the connector (see the two images inset above right). Maybe I worry too much, but after years of using RJ plugs and cabling for telephone lines and networking in server rooms, I know that it does go..
+Oh - and once you have assembled the sub-assembly, plug it in before locking it in place. It is easier that way around. I am also not happy with the tightness of its fit against the touch sensor - a lot of strain on the connector (see the two images inset above right). Maybe I worry too much, but after years of using RJ plugs and cabling for telephone lines and networking in server rooms, I know that it does go..
 
 ## Programming with the light sensor
 
@@ -68,11 +66,11 @@ Next in the tutorials will be the Ultrasonic sensor - but you will have to wait.
 
 ## Links
 
-* [OrionRobots gets our first NXT]({% post_url 2007-01-10-orionrobots-gets-our-first-nxt %})
-* [Getting Stuck into the NXT]({% post_url 2007-01-13-getting-stuck-into-the-nxt %})
-* [NXT](/wiki/nxt.html "Legos NeXT generation robotics kit")
-* [Mindstorms](/wiki/mindstorms.html "A Robotic construction toy system from Lego")
-* [Lego](/wiki/lego.html "The best known construction toy")
+- [OrionRobots gets our first NXT](/2007/01/10/orionrobots-gets-our-first-nxt)
+- [Getting Stuck into the NXT](/2007/01/13/getting-stuck-into-the-nxt)
+- [NXT](/wiki/nxt.html "Lego's NeXT generation robotics kit")
+- [Mindstorms](/wiki/mindstorms.html "A Robotic construction toy system from Lego")
+- [Lego](/wiki/lego.html "The best known construction toy")
 
 <iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=GB&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=orionrobots-21&marketplace=amazon&region=GB&placement=B00BMKLVJ6&asins=B00BMKLVJ6&linkId=790d5f97e58d0e79ecb2fbe1b24a3108&show_border=true&link_opens_in_new_window=true"></iframe>
 
