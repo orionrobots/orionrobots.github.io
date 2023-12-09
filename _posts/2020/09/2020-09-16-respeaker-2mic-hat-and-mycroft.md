@@ -48,7 +48,7 @@ Let's get into it.
 * Where the file references `hw:0,0`, replace with `playback`.
 
 Reboot your Pi with `sudo reboot` and Mycroft should be able to use this device.
-  
+
 ## Explanation
 
 You must have the kernel up to date for this, as the Waveshare installer compiles modules for it, but will download the most recent kernel source and headers first. If your kernel doesn't match those, you are in for a rough ride. Yes - their installation could be fixed to use `uname` to get the right kernel.
