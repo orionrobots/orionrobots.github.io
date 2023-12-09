@@ -65,7 +65,7 @@ I turned his advice into a bare basics Fritzing Diagram:
 
 The real wiring is, I'll admit a bit of a rats nest currently of Dupont cables going point to point. But 9 connections was enough to make this work. It powered on.
 
-![Real Wiring For wireless pack](../real-wiring-for-pico-wireless-pack.jpeg)
+![Real Wiring For wireless pack](real-wiring-for-pico-wireless-pack.jpeg)
 
 ## First attempt at code
 
@@ -84,7 +84,7 @@ Looking at that datasheet, motor 1 is going to be just fine using GP2 and 3. Let
 
 Here is the wiring for the single motor.
 
-![Single motor wiring photo](../single-motor-wiring-kitronic-pico-motor.jpg)
+![Single motor wiring photo](single-motor-wiring-kitronic-pico-motor.jpg)
 
 I turned on the power switch, and the light lit up brighter here. This is a good sign.
 
@@ -137,16 +137,16 @@ Disappointingly - the motor didn't move. Time to crack out the multimeter - lets
 
 I start in voltage - just how old are the batteries - I did rummage, and get a couple of batteries conveniently in a box, which may have been used for a microbit badge... Ahem. So what is that reading...  My multimeter is a manual Uni-T UT50A. So I manually put it in in the 20V DC Range, and put it across the battery in terminals.
 
-![Multimeter in 20V Range](../multimeter-in-20v-range.jpeg)
-![Multimeter probing power](../multimeter-probing-power.jpeg)
+![Multimeter in 20V Range](multimeter-in-20v-range.jpeg)
+![Multimeter probing power](multimeter-probing-power.jpeg)
 
 I get a perfect 3.0v. That is a bit sus. There's no load. Does it stay that way if I let it run my code again? I use the serial port (via screen) and press CTRL-D to reload. No change. Okay - lets put it in continuity mode and check the motor connections.
 
-![Multimeter in continuity mode](../multimeter-in-continuity-mode.jpeg)
+![Multimeter in continuity mode](multimeter-in-continuity-mode.jpeg)
 
 I always like to tap the leads together in continuity mode - to check the beep. Dunno - it's just a habit. Hmm - all the motor cables seem to work. What is going on here?
 
-![Continuity Probing motor Connections](../continuity-probing-motor-connections.jpeg)
+![Continuity Probing motor Connections](continuity-probing-motor-connections.jpeg)
 
 It could be that the voltage is too low, or it could be that my code isn't right.
 Lets try the voltage measurement. I'm going to measure voltage across the two motor pins, start my code, and keep an eye on what I see. If I see 3v, that tells me that this motor is just too big for 3v, which is fairly likely. I can then try a bigger batteries. If not - then there may be another problem. Back to the 20v range.
@@ -156,7 +156,7 @@ This showed me 2.89v, then 0, then -2.89v, then 0. This confirms my code is work
 
 Batteries in, light on.
 
-![Battery Box with 4xAA](../adding-4xaa-battery-box.jpeg)
+![Battery Box with 4xAA](adding-4xaa-battery-box.jpeg)
 
 Still nothing. Ok - this is odd. I'm going to try the motor directly across the batteries - does this motor work? Ive definitely driven them at 6v before. Total battery voltage - 5.88v. Still nothing. Hmm.
 
@@ -171,11 +171,11 @@ And have to stop  - it is immediately turning. Motor two is powered on. This is 
 
 Perhaps I can just move to a pin neither board uses? Pin 31, GP26 looks viable.
 
-![Moving ESP CS pin Fritzing](../moving-cs-pin.png)
+![Moving ESP CS pin Fritzing](moving-cs-pin.png)
 
 I cautiously wire it back in - and boom, it's not turning continuously.
 
-![2 motors wired in](../kitronic-pico-motor-board-with-2-motors.jpeg)
+![2 motors wired in](kitronic-pico-motor-board-with-2-motors.jpeg)
 
 Before I make motor 2 test code - I need to make sure the wi-fi AP scan still runs. I swap GP7 for GP26 here and rerun. And it succeeds! I have an AP list.
 
@@ -197,7 +197,7 @@ This may seem like a silly demo, but if we are going to teleoperate a robot, we 
 motor 1 fwd
 scan ap
 stop
-motor 1 reverse 
+motor 1 reverse
 motor 2 fwd
 scan ap
 motor 2 reverse

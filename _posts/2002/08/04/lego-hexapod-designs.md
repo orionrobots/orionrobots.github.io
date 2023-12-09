@@ -41,7 +41,7 @@ I use 16 tooth gears as feet for the legs.These give more grip than using bushes
 I considered using tires but they add to the weight which is already a problem.
 Warning, this bot drains batteries!
 
-* [Download the LDraw design file](../../../assets/2002-08-04-HexapodMkI.ldr)
+* [Download the LDraw design file](/assets/2002-08-04-HexapodMkI.ldr)
 * I recommend [LeoCAD](https://www.leocad.org/download.html) for viewing and editing the design.
 
 ## The touch sensor

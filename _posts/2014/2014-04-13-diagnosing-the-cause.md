@@ -31,11 +31,11 @@ After my previous teardown, I found a few people had traced out fairly similar c
 
 The damage was severe enough to leave a great big crack in one of the devices cases. This indicated that something had pulled a large amount of current through it.
 
-![Damaged Device](../{{gallery}}/20140209_152239_1.jpg)
+![Damaged Device]({{gallery}}/20140209_152239_1.jpg)
 
 The 7812 was the part with the most damage.
 
-![The 7812 Id'd](../{{gallery}}/20140209_152321.jpg)
+![The 7812 Id'd]({{gallery}}/20140209_152321.jpg)
 
 After the teardown and ordering the new parts for my board, I started by replacing the obviously damaged 7812.
 At this point I bought a few tubes of spares: 7812's, 555's, replacement fuses and replacement FETs.
@@ -65,14 +65,14 @@ Now I had some parts, and some background, I decided to start by debugging it wi
 I used 4xAA batteries delivering 6v as a supply, and clipped it onto the board.
 I connected the batteries to the ground, +ve rails for the low voltage side, where the 7812 output would be.
 
-![CNC Power Board Wired For Probing](../{{gallery}}/IMG_3402.jpg)
+![CNC Power Board Wired For Probing]({{gallery}}/IMG_3402.jpg)
 
-![Croc clip Probe Under CNC power board](../{{gallery}}/IMG_3403.JPG)
+![Croc clip Probe Under CNC power board]({{gallery}}/IMG_3403.JPG)
 
 I then plugged in the pwm potentiometer, and hooked up my scope probes to it.
 What I first saw is this:
 
-![CNC Power board connected to Oscilloscope](../{{gallery}}/IMG_3407.JPG)
+![CNC Power board connected to Oscilloscope]({{gallery}}/IMG_3407.JPG)
 
 Its worth explaining this flat line.
 This would have pulled all the current through the 7812, kept the FET turned on, and spun the spindle as fast as it would go.
@@ -83,12 +83,12 @@ The proportion of one side to the other should exactly control the PWM duty cycl
 
 If I nudged the pot I could get the PWM traces, but they were wrong:
 
-![CNC Power board trace on Oscilloscope - fast time base](../{{gallery}}/IMG_3404.JPG)
-![CNC Power board trace on Oscilloscope - Slower time base](../{{gallery}}/IMG_3405.JPG)
+![CNC Power board trace on Oscilloscope - fast time base]({{gallery}}/IMG_3404.JPG)
+![CNC Power board trace on Oscilloscope - Slower time base]({{gallery}}/IMG_3405.JPG)
 
 I have to squash the potentiometer body tightly like the image below to get a regular trace:
 
-![Holding the pot to get the clear Oscilloscope trace from CNC power board](../{{gallery}}/IMG_3406.JPG)
+![Holding the pot to get the clear Oscilloscope trace from CNC power board]({{gallery}}/IMG_3406.JPG)
 
 I took a video of this part of the diagnosis:
 

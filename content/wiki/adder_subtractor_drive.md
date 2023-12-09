@@ -38,7 +38,7 @@ That turn value can be a direct output from a joystick, PID algorithm, or a simp
 
 ## How Can You Build this?
 
-This colorised picture shows the gear chain.
+This colourised picture shows the gear chain.
 
 ![Adder Subtractor Top View](/assets/adder_subtractor_drive/colorised-gear-chain-top.png)
 
@@ -68,7 +68,6 @@ If we hold Input A still, and rotate Input B, the robot will turn:
 The left side has 3 gears in its chain, so the output will be in the same direction as the input. The right side has 4 gears in its chain, so the output will be in the opposite direction to the input.
 
 The differential at A will handle the left and right sides turning in opposite directions.
-
 
 ## Lego Demonstration
 
