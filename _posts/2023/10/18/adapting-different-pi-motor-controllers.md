@@ -3,11 +3,11 @@ title: Adapting different Raspberry Pi motor drivers for Piwars 2024
 tags: [robotics at home, raspberry pi, motor controller, electronics, python, programming, piwars, robot building, piwars 2024]
 description: An adaptation layer I've been working on
 date: 2023-10-18
-thumbnail: _posts/2023/2023-10-18-adapting-different-pi-motor-controllers/robot_motor_driver_common_code.png
+thumbnail: _posts/2023/10/18/robot_motor_driver_common_code.png
 ---
 A common chore I find myself doing (and I imagine anyone who has built a few robots) is adapting code they've written to many different motor driver or main breakout boards.
 
-{% img_responsive "_posts/2023/2023-10-18-adapting-different-pi-motor-controllers/robot_motor_driver_common_code.png", "The motor driver adaptor file tree so far" %}
+{% img_responsive "_posts/2023/10/18/robot_motor_driver_common_code.png", "The motor driver adaptor file tree so far" %}
 
 I am embarking on a few different and related pursuits - writing a new robotics book, building out the PiWars robot and building a few other robots. I often have a few different motor drivers and breakout boards I want to use, and I want to be able to use them interchangeably.
 
@@ -21,7 +21,7 @@ See this code in my [Piwars 2024 GitHub Repository](https://github.com/orionrobo
 
 Last week I adapted the RedRobotics Redboard+ to it.
 
-{% img_responsive "_posts/2023/2023-10-18-adapting-different-pi-motor-controllers/redrobotics_redboard_on_a_robot.JPG", "The RedRobotics Redboard+ on a SparkFun Shadow Chassis robot" %}
+{% img_responsive "_posts/2023/10/18/redrobotics_redboard_on_a_robot.JPG", "The RedRobotics Redboard+ on a SparkFun Shadow Chassis robot" %}
 
 This one was a bit tricky to adapt, as in theory it's a phase + PWM pin motor type, which is one of the GPIOZero defaults. However, I ran into a few issues.
 

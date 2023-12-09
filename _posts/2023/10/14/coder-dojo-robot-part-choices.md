@@ -3,7 +3,7 @@ title: Choosing parts for the coder dojo robots
 tags: [coder dojo, python, robotics at home, raspberry pi pico, electronics]
 description: How I chose parts for coder dojo robots
 date: 2023-10-14
-thumbnail: _posts/2023/2023-10-14-coder-dojo-robot-part-choices/front of dojo robot showing sensors.jpg
+thumbnail: _posts/2023/10/14/front of dojo robot showing sensors.jpg
 ---
 I am a regular mentor at a Coder Dojo Kingston University, a place where we mentor children on their journey to learn about programming and technology. I've mostly been mentoring in Python there, but they have also had robot tracks, on and off.
 
@@ -13,7 +13,7 @@ The idea was that children would program robots, loaded with sensors. The robots
 
 This meant a balance of low cost, fun functionality, and ease of maintenance. I also wanted to make sure that the robots were easy to build, and that the parts were easy to get hold of. Making trade-offs like these come with every robotics project.
 
-{% img_responsive "_posts/2023/2023-10-14-coder-dojo-robot-part-choices/front of dojo robot showing sensors.jpg", "Front of the Coder Dojo robot showing sensors" %}
+{% img_responsive "_posts/2023/10/14/front of dojo robot showing sensors.jpg", "Front of the Coder Dojo robot showing sensors" %}
 
 Another consideration is that the robots will be a popular activity, and there will initially be limited mentor capacity, so children need sheets that are fun from the outset.
 
@@ -21,7 +21,7 @@ Another consideration is that the robots will be a popular activity, and there w
 
 I started by assessing where the robots were at. There were 6 robots based on the Adafruit Mini round chassis, and 2 other robots with incomplete different chassis. I decided to focus my effort on the Adafruit chassis, as they were all the same, and we could use the same parts for all of them.
 
-{% img_responsive "_posts/2023/2023-10-14-coder-dojo-robot-part-choices/existing-robot-chassis-and-battery-box.jpg", "Existing robot chassis and battery box", "Existing robot chassis and battery box" %}
+{% img_responsive "_posts/2023/10/14/existing-robot-chassis-and-battery-box.jpg", "Existing robot chassis and battery box", "Existing robot chassis and battery box" %}
 
 The picture shows the mini round chassis. Some of the robots had breadboards I could use, but some I'd need to add a breadboard. Most also had battery boxes I could use, with a couple missing. The robots all had motors. Some needed a few mounting posts, but this is something I usually have spare in my lab.
 
@@ -41,7 +41,7 @@ I wanted a motor driver that was easy to understand instead of hiding things. Fo
 
 I settled on a very close cousin, the [Cytron 3A driver](https://thepihut.com/products/3a-4v-16v-2-channel-dc-motor-driver). This is very similar to the maker drive, but a little more expensive and larger. Both have buttons to test motors with, LED's to indicate what is going on. They also have 6 inputs to control them. See my previous post on the coder dojo robot, [Adapting Pinouts for Robot Worksheets](2023/08/15/adapting-pinouts-for-robot-worksheets.html) for more details.
 
-{% img_responsive "_posts/2023/2023-10-14-coder-dojo-robot-part-choices/cytron-mdd3a-in-robot.jpg", "Cytron MDD3A in robot" %}
+{% img_responsive "_posts/2023/10/14/cytron-mdd3a-in-robot.jpg", "Cytron MDD3A in robot" %}
 
 The buttons let you test the motors, controlling in the same way the Raspberry Pi Pico would.
 
@@ -53,7 +53,7 @@ To keep things low cost, I used [RCWL-1601](https://thepihut.com/products/ultras
 
 They don't have the same size though, and some adaptation is needed, as existing brackets won't work. I was able to fit them using cable ties. A little bit of a bodge, but it works.
 
-{% img_responsive "_posts/2023/2023-10-14-coder-dojo-robot-part-choices/rcwl-1601-distance-sensors.png", "RCWL-1601 distance sensors on the front of the robot" %}
+{% img_responsive "_posts/2023/10/14/rcwl-1601-distance-sensors.png", "RCWL-1601 distance sensors on the front of the robot" %}
 
 These sensors are great for activities, we can start with showing distance on screen and plotting it in Thonny, then object or wall avoiding, we can look at following. There are more advanced techniques available too.
 
@@ -63,7 +63,7 @@ Line following is an easy and fun way for kids to start robotics. For this I cho
 
 See [Raspberry Pi Pico Line Follower](2023/08/05/raspberry-pi-pico-line-follower.html) to see the code I wrote for them and how I mounted them.
 
-{% img_responsive "_posts/2023/2023-10-14-coder-dojo-robot-part-choices/cytron-maker-line-on-robot.png", "Maker line on robot" %}
+{% img_responsive "_posts/2023/10/14/cytron-maker-line-on-robot.png", "Maker line on robot" %}
 
 ## Encoders
 

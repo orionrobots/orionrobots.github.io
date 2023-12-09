@@ -2,13 +2,13 @@
 title: Are my robot recommendations expensive?
 tags: [books, writing, robot building, robotics at home, learn robotics programming]
 date: 2023-10-02
-thumbnail: _posts/2023/2023-10-02-are-my-robot-recommendations-expensive/fig-icm20948-fitted.jpg
+thumbnail: _posts/2023/10/02/fig-icm20948-fitted.jpg
 ---
 I sometimes have suggestions that the books in my robots are a little expensive to build. They are sub £200, and can be closer to sub £100 if you get clever with parts. Considering that I recommend a number of sensors and encoder read motors, I think they represent good value, but are a bit pricier than a simple Arduino with two wheels on motors.
 
 I am reminded how low cost they are, when the Waffle Pi robot is considered a low-cost baseline for ROS robotics at £1665! I'll keep on doing what I do - trying to find low cost ways for beginners, bodgers and makers to make robots with increasingly interesting capabilities and possibilities.
 
-{% img_responsive "_posts/2023/2023-10-02-are-my-robot-recommendations-expensive/fig-icm20948-fitted.jpg", "ICM20948 IMU fitted to a Raspberry Pi" %}
+{% img_responsive "_posts/2023/10/02/fig-icm20948-fitted.jpg", "ICM20948 IMU fitted to a Raspberry Pi" %}
 
 It's also worth considering that a PiWars entry robot may spend significantly more than this on their robot.
 
@@ -42,7 +42,7 @@ I've been finding there is a lot of runway for the very low cost of the Raspberr
 
 There are so many motor driver boards. Again, there are different approaches. For the Pico book, I used a breadboard, and a stand alone motor driver board. There wasn't a main breakout integrating motor drivers. This fit well with the custom chassis. When the book was started, there also weren't as many all-in-one solutions around the Raspberry Pi Pico, although contenders like the Inventor 2040w look like a great choice.
 
-{%img_responsive "_posts/2023/2023-10-02-are-my-robot-recommendations-expensive/motor-driver-boards.png", "Motor Drivers/Breakouts" %}
+{%img_responsive "_posts/2023/10/02/motor-driver-boards.png", "Motor Drivers/Breakouts" %}
 
 With the Raspberry Pi, a main breakout is useful to avoid a rats nest of wires. These again often incorporate motor breakouts. I originally chose a low cost DC motor and servo motor board using the PCA9865 controller (over i2c). There were a bunch of hats like this, and the Adafruit Stepper motor hat is compatible, but requires user soldering to add the servo motor breakouts. Keeping it in one hat may also reduce costs. This part is always a major consideration when reviewing the parts I suggest.
 

@@ -3,7 +3,7 @@ title: Coder Dojo Robot Wall Avoiding
 tags: [robot building, robotics at home, robot programming, micropython, coder dojo robots]
 date: 2023-11-12
 author: Danny Staple
-thumbnail: _posts/2023/2023-10-14-coder-dojo-robot-part-choices/rcwl-1601-distance-sensors.png
+thumbnail: _posts/2023/10/14/rcwl-1601-distance-sensors.png
 ---
 In this tutorial, I will show how to use a pair of distance sensors for wall avoiding.
 This is a common task for robots, and is a good way to get started with sensors.
@@ -26,7 +26,7 @@ We will be adding some further components:
 
 The sensors should be at the front of the robot, with the two large cans facing forward. Place one on the left side, and one on the right. They can be facing slightly outward, but not by more than around 10 degrees.
 
-{% img_responsive "_posts/2023/2023-10-14-coder-dojo-robot-part-choices/rcwl-1601-distance-sensors.png", "2 RCWL-1601 sensors attached to robot" %}
+{% img_responsive "_posts/2023/10/14/rcwl-1601-distance-sensors.png", "2 RCWL-1601 sensors attached to robot" %}
 
 ## Wiring
 
