@@ -13,7 +13,8 @@ The ESp8266 is currently my favourite toy right now. I've mostly been using Node
 I started thinking about making a development environment for the device that was easy to replicate.
 
 There are a couple of ways to do this.
-First is ansible/puppet/chef or similar systems to setup all the packages. This is okay, but it gives no isolation -
+First is ansible/puppet/chef or similar systems to setup all the packages.
+This is okay, but it gives no isolation -
 and when you cross compile for different devices, this can make things complicated and lead to unexpected results.
 
 The others are Vagrant, and Docker - vagrant creates a VM - a whole OS on a virtual machine,

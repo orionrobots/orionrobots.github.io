@@ -22,7 +22,7 @@ Here is the code - it's pretty simple:
 
 ```python
     from microbit import *
-    
+
     while(True):
         display.scroll("Merry Christmas! ****")
         display.show(Image.HAPPY)
