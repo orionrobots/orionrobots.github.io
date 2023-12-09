@@ -7,7 +7,7 @@ layout: post
 published: true
 description: Update on battery choices for 2022
 ---
-This week I had reason to revisit [Why we are using AA batteries]({% post_url 2013-03-28-why-are-we-using-aa-batteries %}) when working on [battery storage]({% post_url 2022-11-19-battery-storage %}). I was looking at the batteries I have, and how I store them, and how I keep track of them. I've been using the same batteries for a while, and I've been using the same charger for a while. If you are learning robotics at home, battery choices are important, and I thought I'd share my thoughts on this.
+This week I had reason to revisit [Why we are using AA batteries](/2013/03/28/why-are-we-using-aa-batteries) when working on [battery storage](/2022/11/19/battery-storage). I was looking at the batteries I have, and how I store them, and how I keep track of them. I've been using the same batteries for a while, and I've been using the same charger for a while. If you are learning robotics at home, battery choices are important, and I thought I'd share my thoughts on this.
 
 It is probably time I revise my usage of mainly AA batteries for robots. I am still leaning away from using LiPo cells in batteries due to their slightly firey nature if they aren't looked after well.
 

@@ -2,7 +2,6 @@
 category: robot building
 date: '2022-11-19'
 description: Quick hack to help storing batteries
-layout: post
 published: true
 tags:
 - building robots
@@ -13,7 +12,7 @@ tags:
 title: Battery Storage - simple divider
 using_mathjax: false
 ---
-When I'm testing robots, I tend to use a lot of AA batteries. My preference is to use NiMH rechargeables. One issue is that the charger I have can only charge four, while some of my robots may use 12. So I have to charge them in batches. See [Why we are using AA batteries]({% post_url 2013-03-28-why-are-we-using-aa-batteries %}) for why I use AA batteries when building robots.
+When I'm testing robots, I tend to use a lot of AA batteries. My preference is to use NiMH rechargeables. One issue is that the charger I have can only charge four, while some of my robots may use 12. So I have to charge them in batches. See [Why we are using AA batteries](2013/03/28/why-are-we-using-aa-batteries) for why I use AA batteries when building robots.
 
 This means I need a few ways to manage them. I also need to keep track of which batteries are in which robot, so I know where they are (and not leave them to rot in a robot I don't use for a while).
 
@@ -35,7 +34,7 @@ This box was storing only those that are charged, with a separate box for those 
 
 ![Battery storage](/galleries/2022/11-19-batteries/batteries-storage-1.jpeg)
 
-I decided today to use foam board (which I've been finding a great material) to make a divider, and store both sets of batteries in it. Given that it's the same number of batteries (excusing those out in use), then a slidable divider would be ideal. But I don't have any of those, so I made a simple divider.
+I decided today to use foam board (which I've been finding a great material) to make a divider, and store both sets of batteries in it. Given that it's the same number of batteries (excusing those out in use), then a slide-able divider would be ideal. But I don't have any of those, so I made a simple divider.
 
 The plan was to measure out some foam board against the box, cut it, with another foam board strip slotted in to stop it falling over. I did this more as a quick hack so it's not perfect.
 
