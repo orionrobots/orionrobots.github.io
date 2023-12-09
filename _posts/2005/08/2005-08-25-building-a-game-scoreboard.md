@@ -11,7 +11,7 @@ This is a fairly simple device built with one 4000 series IC per digit, and one 
 ## Required Parts
 
 * Breadboard/prototyping board
-* 1 or more seven segment LED displays 
+* 1 or more seven segment LED displays
 * 7 x 330 &amp;Ohm; resistors per display
 * 1 x 4026 IC per display (or A single Arduino)
 * Lots of jumper wires
