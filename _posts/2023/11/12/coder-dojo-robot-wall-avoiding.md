@@ -255,7 +255,6 @@ Run this code, and you can wave your hand in front of the sensors. If all is wel
 
 {% img_responsive "_posts/2023/11/12/distances-plotted.png", "Distance plots" %}
 
-
 If you see errors and timeouts, check the code first, then check the wiring and pin numbers. It works well with reflective surfaces, but not so well with soft surfaces like curtains.
 
 Let's use this to make a robot that avoids walls!
@@ -306,6 +305,5 @@ Send this to the robot, and let it go. It should avoid walls. However, it can ge
 ## Learning more
 
 You can learn more about building robots to avoid walls, follow objects or determine their location in space with my book [Robotics at Home With Raspberry Pi Pico](https://packt.link/5swS2), where you can learn to build a chassis using CAD, adapt to CircuitPython, and add sensors to your robot.
-
 
 <a href="https://packt.link/5swS2" title="Learn to build and Program Robots using Robotics at Home with Raspberry Pi Pico">{% img_responsive "galleries/2023/Robotics-at-Home-with-Raspberry-Pi-Pico-banner.png", "Learn to build and Program Robots using Robotics at Home with Raspberry Pi Pico" %}</a>
