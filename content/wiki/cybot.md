@@ -10,7 +10,7 @@ It featured [Sonar](/wiki/sonar.html "The use of sound as a sense medium") range
 
 Any tips, mods or ideas you can think of to do with it can go here.
 
-[Broken Cybot Repairs]({% post_url 2008-05-04-broken-cybot-repairs %})
+[Broken Cybot Repairs](/2008/05/04/broken-cybot-repairs)
 
 [The Cybot Infra Red Protocol](/wiki/the_cybot_infra_red_protocol.html "The Cybot Infra Red Protocol")
 
@@ -18,4 +18,4 @@ Any tips, mods or ideas you can think of to do with it can go here.
 
 ## Cybot links
 
-* [Cybot processor 1 module](http://www.lpilsley.co.uk/cybot/processor1_board.htm)
+- [Cybot processor 1 module](http://www.lpilsley.co.uk/cybot/processor1_board.htm)
