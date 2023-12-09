@@ -7,18 +7,18 @@ tags:
 - led
 - parallel port
 title: Simple Parallel Port LED
-thumbnail: _posts/2004/11/05/cable-with-led.jpg
+thumbnail: content/2004/11/05/cable-with-led.jpg
 led_gallery:
-    - src: _posts/2004/11/05/led-close-up-lit.jpg
+    - src: content/2004/11/05/led-close-up-lit.jpg
       alt: LED Close Up Lit
-    - src: _posts/2004/11/05/led-lit-in-dark.jpg
+    - src: content/2004/11/05/led-lit-in-dark.jpg
       alt : LED Lit In Dark
-    - src: _posts/2004/11/05/led-close-up-unlit.jpg
+    - src: content/2004/11/05/led-close-up-unlit.jpg
       alt: LED Close Up Unlit
 ---
 ## Intro
 
-{% image "_posts/2004/11/05/cable-with-led.jpg", "Parallel Cable With LED", "256px" %}
+{% image "content/2004/11/05/cable-with-led.jpg", "Parallel Cable With LED", "256px" %}
 
 Plugging things into your desktop PC is neat - there is a great feeling of satisfaction when you can program even the simplest of hand made peripherals to light up. This project tutorial will start you with basic interfacing with your computer. Please be a little careful here, as shorting pins on your parallel port could be very bad for your computer.
 
@@ -54,7 +54,7 @@ This cable can be used for other experiments, and is just a breakout cable to wo
 
 ### Making it
 
-{% image "_posts/2004/11/05/parallel.gif", "Parallel Port", "100vw" %}
+{% image "content/2004/11/05/parallel.gif", "Parallel Port", "100vw" %}
 
 Inspect the DB-25 connector - it should have a tiny (and possibly hard to read) 1 or some notation for pin 1. Line up one end of the ribbon cable with this, push the ribbon through so every wire is sat on a tooth of the connector, then push this down (pliers will help) so the teeth have bitten well into the cable.
 
