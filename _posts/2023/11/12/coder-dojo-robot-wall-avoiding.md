@@ -253,7 +253,7 @@ while True:
 
 Run this code, and you can wave your hand in front of the sensors. If all is well, you should see the distance change being printed out in the thonny console.
 
-{% img_responsive "_posts/2023/2023-11-12-coder-dojo-robot-wall-avoiding/distances-plotted.png", "Distance plots" %}
+{% img_responsive "_posts/2023/11/12/distances-plotted.png", "Distance plots" %}
 
 
 If you see errors and timeouts, check the code first, then check the wiring and pin numbers. It works well with reflective surfaces, but not so well with soft surfaces like curtains.

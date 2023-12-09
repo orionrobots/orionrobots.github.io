@@ -3,7 +3,7 @@ title: Managing a Raspberry Pi with PyInfra
 date: 2023-11-20T19:28:00.000Z
 description: Using PyInfra to manage a Raspberry Pi
 tags: [raspberry pi, pyinfra, python, devops, robot programming, piwars 2024]
-thumbnail: _posts/2023/2023-11-20/pyinfra-raspberrypi.png
+thumbnail: _posts/2023/11/20/pyinfra-raspberrypi.png
 ---
 Today, I trialled PyInfra2 for managing the packages and files on a Raspberry Pi.
 
@@ -34,7 +34,7 @@ I've only used it for a day - so a bit early, but I'm enjoying it so far. I've b
 
 I'll be considering this tool in future for managing my robots. I'm using my Piwars 2024 disaster zone robot as a testbed for this.
 
-{% img_responsive "_posts/2023/2023-11-20/pyinfra-raspberrypi.png", "PyInfra managing a Raspberry Pi" %}
+{% img_responsive "_posts/2023/11/20/pyinfra-raspberrypi.png", "PyInfra managing a Raspberry Pi" %}
 
 ## Links
 
