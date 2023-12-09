@@ -85,10 +85,9 @@ After going to the conference opening, and a few sessions, I brought the robot o
 
 ## The MD25 Robot Drive
 
-First I adapted the MD25 code I used with the EEEpC to the Rasperry Pi, and was able to get motors turning and read back battery condition.
+First I adapted the MD25 code I used with the EEEpC to the Raspberry Pi, and was able to get motors turning and read back battery condition.
 
 To get started, I needed the SMBus libraries installed on the Pi, which are in the Raspbian repo, and then to run:
-
 
 ```bash
     sudo i2cdetect -y 0
@@ -110,7 +109,7 @@ I got bluez installed, and had `rfcomm` watching for connections and trying to s
 I had a bit of help from Alex Bradbury of the Raspberry Pi Foundation, and we had some response, enough to know that we were close.
 I've left an open stack exchange question, and I've since been talking with a colleague who has got this to work in Debian.
 Currently I've not sorted this, but a bit of work and I'll get there.
-  
+
 ## The Robot Arm
 
 While at PyCon, I then started writing code to make the arm move.
