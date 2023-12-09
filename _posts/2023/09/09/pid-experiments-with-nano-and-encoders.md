@@ -1,7 +1,7 @@
 ---
 title: PID experiments with an Arduino Nano and encoders
 tags: [arduino, motor encoder, robotics at home, robot building, pid control]
-thumbnail: _posts/2023/2023-09-09-pid-experiments-with-nano-and-encoders/arduino-nano-encoder-experiment-setup.jpg
+thumbnail: _posts/2023/09/09/arduino-nano-encoder-experiment-setup.jpg
 date: 2023-09-09
 ---
 This week I've been reading Lukas Kaul's robotics book "Practical Arduino Robotics", and trying the experiments within. Although I am experience with PID control. encoders and the Arduino, it is always useful to read and try the work of other robot builders and see what I learn from it.
@@ -12,7 +12,7 @@ Today's experiment is trying the arduino pid control demonstration in Practical 
 
 The book called for an Arduino Uno, however I had a Nano to hand. I also had a half+ 400 tie point breadboard, some jumper wires, an L298n motor driver board.
 
-{% img_responsive "_posts/2023/2023-09-09-pid-experiments-with-nano-and-encoders/arduino-nano-encoder-experiment-setup.jpg", "Arduino Nano with encoder motor and L298n motor driver board" %}
+{% img_responsive "_posts/2023/09/09/arduino-nano-encoder-experiment-setup.jpg", "Arduino Nano with encoder motor and L298n motor driver board" %}
 
 ### About the motor
 

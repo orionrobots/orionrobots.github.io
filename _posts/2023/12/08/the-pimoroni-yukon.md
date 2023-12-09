@@ -45,7 +45,7 @@ See [Foam Dart Turret With Sound](/2023/08/01/foam-dart-turret-with-sound) for m
 
 This audio playback inspired me to dig more at audio playback and recording with MicroPython and the RP2040, which also partly led to my [I2S Playback with Raspberry Pi Pico](/2023/08/15/i2s-playback-with-raspberry-pi-pico) post, where I refined and played with this concept and an external SD Card.
 
-{% img_responsive "_posts/2023/2023-09-04-i2s-playback/i2s-amp-and-speaker.png", "I2S Playback with Raspberry Pi Pico" %}
+{% img_responsive "_posts/2023/09/04/i2s-amp-and-speaker.png", "I2S Playback with Raspberry Pi Pico" %}
 
 ### Other experiments
 

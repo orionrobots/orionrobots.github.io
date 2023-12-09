@@ -2,7 +2,7 @@
 title: How to get i2s playback with Raspberry Pi Pico
 tags: [raspberry pi pico, i2s, audio, python, robotics at home, micropython, robot building]
 description: A project I made using a Raspberry Pi Pico to playback audio using i2s
-thumbnail: _posts/2023/2023-09-04-i2s-playback/i2s-amp-and-speaker.png
+thumbnail: _posts/2023/09/04/i2s-amp-and-speaker.png
 date: 2023-09-04
 ---
 A week and a half ago, I was asked to make a project to play a sound from an SD card, then record a response and play it back. This required me linking the Raspberry Pi Pico up to a few new devices.
@@ -33,7 +33,7 @@ I start with the Amplifier, as my experience with a Pimoroni product (I can't te
 
 I found an excellent resource for this amp on [Adafruit](https://learn.adafruit.com/adafruit-max98357-i2s-class-d-mono-amp).
 
-{% img_responsive "_posts/2023/2023-09-04-i2s-playback/max98357a-pinout.png", "MAX98357A pinout" %}
+{% img_responsive "_posts/2023/09/04/max98357a-pinout.png", "MAX98357A pinout" %}
 
 To get this to work, I needed to connect the following pins:
 
@@ -45,7 +45,7 @@ To get this to work, I needed to connect the following pins:
 
 These connect clock and data lines for the i2s bus, and power and ground. I left the GAIN pin unconnected, which will use the default gain. The SD pin would let us shutdown the amp, but I didn't need that.
 
-{% img_responsive "_posts/2023/2023-09-04-i2s-playback/i2s-amp-and-speaker.png", "I2S amp and speaker wiring" %}
+{% img_responsive "_posts/2023/09/04/i2s-amp-and-speaker.png", "I2S amp and speaker wiring" %}
 
 ## Dealing with WAV files
 

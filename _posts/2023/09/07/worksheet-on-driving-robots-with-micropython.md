@@ -2,7 +2,7 @@
 title: How to drive robot motors with MicroPython
 date: 2023-09-07
 tags: [robotics at home, micropython, raspberry pi pico]
-thumbnail: /_posts/2023/2023-09-07-worksheet-on-driving-robot-with-micropython/cytron-maker-drive-pinout.png
+thumbnail: /_posts/2023/09/07/cytron-maker-drive-pinout.png
 ---
 Have you wondered about the basics for getting a robot driving? I originally wrote this for a coder dojo worksheet, but it is suitable for anyone getting started.
 
@@ -25,7 +25,7 @@ The tutorial assumes you've installed Micropython on the Raspberry Pi Pico.
 
 For this tutorial, the motor controller is connected to the Pico as follows:
 
-{% img_responsive "_posts/2023/2023-09-07-worksheet-on-driving-robot-with-micropython/cytron-maker-drive-pinout.png", "Cytron Maker Drive pinout" %}
+{% img_responsive "_posts/2023/09/07/cytron-maker-drive-pinout.png", "Cytron Maker Drive pinout" %}
 
 The left hand side of this has screw terminals. They should be connected as follows:
 
@@ -51,9 +51,9 @@ Here is the Pico pin out, with suggested sensor connections (for later expansion
 Connect the Raspberry Pi Pico and launch Thonny.
 In the bottom right of Thonny, look for Raspberry Pi Pico.
 
-{% img_responsive "_posts/2023/2023-09-07-worksheet-on-driving-robot-with-micropython/thonny-choosing-pico-1.png", "Choosing The Pico In Thonny" %}
+{% img_responsive "_posts/2023/09/07/thonny-choosing-pico-1.png", "Choosing The Pico In Thonny" %}
 
-{% img_responsive "_posts/2023/2023-09-07-worksheet-on-driving-robot-with-micropython/thonny-choosing-pico-2.png", "Choosing The Pico In Thonny" %}
+{% img_responsive "_posts/2023/09/07/thonny-choosing-pico-2.png", "Choosing The Pico In Thonny" %}
 
 You should see "MicroPython (Raspberry Pi Pico)" appear in the bottom right. If the repl is open (View->Shell), you should see the MicroPython prompt.
 
