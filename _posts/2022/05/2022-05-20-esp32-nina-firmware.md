@@ -2,7 +2,6 @@
 category: robot building
 date: '2022-05-20'
 description: More on the wireless CircuitPython and Raspberry Pi Pico
-layout: post
 tags:
 - esp32
 - wireless
@@ -17,7 +16,7 @@ tags:
 title: Adafruit Airlift ESP32 NINA Firmware
 ---
 The NINA firmware allows an ESp32 to act as a Wireless bridge/network interface for any SPI connected microcontroller, for example a Raspberry Pi Pico, or an Arduino.
-Following from my last post [Raspberry Pi Pico Wifi and Wireless]({% post_url 2022-04-08-pico-wireless %}), I needed to dive into the NINA firmware and debug there.
+Following from my last post [Raspberry Pi Pico Wifi and Wireless](/2022/04/08/pico-wireless), I needed to dive into the NINA firmware and debug there.
 
 ![The Adafruit Airlift ESP32 On a Raspberry Pi Pico Robot](/galleries/2022/05-20-esp32-airlift-firmware/IMG_5921.jpeg)
 

@@ -26,7 +26,7 @@ My book, Robotics at Home With Raspberry Pi Pico drops in 3 days! On the 17th Ma
 
 ## Retrofitting the Raspberry Pi Zero W
 
-In my last post on this, [Using a Raspberry Pi to inspect code on Raspberry Pi Pico]({% post_url 2023-03-05-using-a-raspberry-pi-to-inspect-code-on-raspberry-pi-pico %}) I drew plans to add this to the robot. I started today with having located the Pi Zero W, flashing Raspberry Pi OS on an SD card and simplifying my plans.
+In my last post on this, [Using a Raspberry Pi to inspect code on Raspberry Pi Pico](/2023/03/05/using-a-raspberry-pi-to-inspect-code-on-raspberry-pi-pico) I drew plans to add this to the robot. I started today with having located the Pi Zero W, flashing Raspberry Pi OS on an SD card and simplifying my plans.
 
 My original plan for mounting was a 3D printed mount. I still plan that, but since I want to get this working quickly, I'm going to use a simple Pi Zero case and stick velcro dots on it, to match the other parts on the sensor shelf.
 

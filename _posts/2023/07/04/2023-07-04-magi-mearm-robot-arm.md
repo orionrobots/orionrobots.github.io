@@ -9,7 +9,7 @@ I have contributed to a feature published this month in The Magpi - the Raspberr
 
 [{% img_responsive "galleries/2023/2023-magpi-python-robots-cover.png", "The Magpi 131 cover with Python Robots" %}](https://magpi.raspberrypi.com/issues/131)
 
-This is the process I used for [MeArm Robot Arm with Pico - Record and Playback]({% post_url 2023-06-05-mearm-robot-arm-with-pico-recorded-actions %}) and [Two MeArm Robot Arms Play Pass-the-parcel]({% post_url 2023-06-12-mearm-robot-two-arms-pass-the-parcel %}).
+This is the process I used for [MeArm Robot Arm with Pico - Record and Playback](/2023/06/05/mearm-robot-arm-with-pico-recorded-actions) and [Two MeArm Robot Arms Play Pass-the-parcel](/2023/06/12/mearm-robot-two-arms-pass-the-parcel).
 
 As well as my robot arm fun, there's plenty of other awesome Raspberry Pi and Raspberry Pi Pico things, like making game engines and using the Camera Module.
 

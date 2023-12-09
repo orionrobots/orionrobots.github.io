@@ -47,24 +47,6 @@ module.exports = function(eleventyConfig) {
         dynamicPartials: false,
     });
 
-    // Setup a post_url liquid tag.
-    // it takes the filename (without extension) of a post in the _posts collection, and returns the permalink.
-    eleventyConfig.addLiquidTag("post_url", function(liquidEngine) {
-        return {
-            parse: function(tagToken, remainingTokens) {
-                this.name = tagToken.args;
-            },
-            render: function(scope, hash) {
-                const matching_posts = $collectionApi.getFilteredByGlob("_posts/**/" + this.name + ".md");
-                if (matching_posts.length == 0) {
-                    console.log("Glob is _posts/" + this.name + ".md");
-                    throw new Error("Could not find post with name " + this.name);
-                }
-                return matching_posts[0].url;
-            }
-        }
-    });
-
     eleventyConfig.addFilter("cssmin", function(code) {
         return new CleanCSS({}).minify(code).styles;
     });

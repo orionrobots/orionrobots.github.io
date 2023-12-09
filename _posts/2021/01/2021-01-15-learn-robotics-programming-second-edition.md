@@ -41,4 +41,4 @@ Build a voice agent to control the robot. Interact using an #OpenCV enabled came
 * Links to order: <http://packt.live/2XccaKe>
 * UK: <https://www.amazon.co.uk/Learn-Robotics.../dp/1839218800>
 * [Video Announcement](https://www.youtube.com/watch?v=wCL8LrQ8RcA)
-* [Learn Robotics Programming Hardware List]({% post_url 2021-02-19-hardware-shopping-list-2nd-ed %})
+* [Learn Robotics Programming Hardware List](/2021/02/19/hardware-shopping-list-2nd-ed)

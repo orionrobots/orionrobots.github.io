@@ -1,7 +1,6 @@
 ---
 date: '2019-12-08'
 description: Designs and Initial Plans for PiWars 2020
-layout: post
 tags:
 - robotics
 - raspberry pi
@@ -21,7 +20,7 @@ title: Piwars 2020 Designs
 
 Orionrobots has a robot accepted into PiWars 2020.
 Its name is Bangers & Bash.
-As a grand overview, I've based it on a lunchbox, as a continuation of the [MagPi Low-Cost Wheeled Robots]({% post_url 2019-11-05-magazine-series %}) series I have been writing.
+As a grand overview, I've based it on a lunchbox, as a continuation of the [MagPi Low-Cost Wheeled Robots](/2019/11/05/magazine-series) series I have been writing.
 
 We've decided to give the lunchbox 2 powered wheels and a ball castor at the front.
 It's going to have a camera as the primary sensor, with encoders on the wheels (quadrature types) and potentially an IMU (inertial measurement unit).
