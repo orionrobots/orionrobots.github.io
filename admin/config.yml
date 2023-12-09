@@ -4,14 +4,14 @@ backend:
     branch: master
     base_url: https://github-oauth2.orionrobots.co.uk
 # This line should *not* be indented (for draft/review/publish workflow)
-# publish_mode: editorial_workflow 
+# publish_mode: editorial_workflow
 media_folder: "galleries"
 collections:
   - name: "blog"
     label: "Blog"
-    folder: "_posts"
+    folder: "content"
     create: true
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    slug: "{{year}}/{{month}}/{{day}}/{{slug}}"
     fields:
       - label: "Layout"
         name: "layout"
