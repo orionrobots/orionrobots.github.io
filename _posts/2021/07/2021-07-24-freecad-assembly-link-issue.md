@@ -181,7 +181,7 @@ Now we can `dir` the object ot see its properties (there may be docs somewhere -
  'setPropertyStatus',
  'supportedProperties',
  'touch']
->>> 
+>>>
 ```
 
 Quite a list. Anything there that leaps out as the LinkedObject? In the Property panel on the left - it's called "linked Object" - so it's either got a field/property above, or there's a more generic "attributes" type structure with it.
