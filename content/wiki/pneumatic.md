@@ -10,7 +10,7 @@ A [Solenoid Valve](/wiki/solenoid.html "Solenoid") is normally required to inter
 
 Pneumatic systems can include pressure sensors, [Pistons](/wiki/pistons.html "Pistons"), as well as Pneumatically and Electrically operated [Solenoid](/wiki/solenoid.html "Solenoid") valves.
 
-It is possible to build fully automated systems with pneumatic components, which will function as long as air is supplied. Here is an example designed by us [Pneumatic Engine Design]({% post_url 2006-07-09-pneumatic-engine-repost %}) - including full [LDraw System](/wiki/ldraw_system.html "The primary system for CAD representation of Lego parts") instructions.
+It is possible to build fully automated systems with pneumatic components, which will function as long as air is supplied. Here is an example designed by us [Pneumatic Engine Design](/2006/07/09/pneumatic-engine-repost) - including full [LDraw System](/wiki/ldraw_system.html "The primary system for CAD representation of Lego parts") instructions.
 
 A good alternative for larger scale applications is [Hydraulic](/wiki/hydraulic.html "Hydraulic") systems.
 

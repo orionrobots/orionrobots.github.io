@@ -21,7 +21,7 @@ Their use in small devices however - has been undone by the march of the [LCD](/
 ## LED Projects
 
 * [Building A Simple Parallel Port LED Board](/2004/11/05/simple-parallel-port-led "How to attach and program an LED to the parallel port on a PC")
-* [Interfacing an LED to an RCX Port]({% post_url 2006-07-12-interfacing_an_led_to_an_rcx_port %} "Interfacing an LED to an RCX Port")
+* [Interfacing an LED to an RCX Port](/2006/07/12/interfacing_an_led_to_an_rcx_port "Interfacing an LED to an RCX Port")
 * [Building a demonstration AND Gate](/wiki/and.html "AND")
 
 ## Light Sensing
