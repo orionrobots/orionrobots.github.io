@@ -3,7 +3,7 @@ title: How To Make Robot Building Reference Cards using Pinout.xyz
 date: 2023-08-15
 tags: [robot building, robotics at home, electronics, raspberry pi pico, coder dojo, coder dojo robots]
 description: Make a part pinout reference card for your robot project
-thumbnail: _posts/2023/2023-08-15-adapting-pinouts-for-robot-worksheets/2023-07-30-Raspberry-Pi-Pico-W-Pinout-for-Coder-dojo-robot.png
+thumbnail: _posts/2023/08/15/Raspberry-Pi-Pico-W-Pinout-for-Coder-dojo-robot.png
 ---
 I've recently been specifying changes to a fleet of robots used in my local [Coder Dojo](https://www.coderdojoku.org/gallery). The modified robots would be based on a Raspberry Pi Pico W, and a bunch of sensors.
 
@@ -17,7 +17,7 @@ The fully loaded robot would have the following sensors:
 
 I also needed connections for power, and the motors via a Cytron motor MDD3A driver. The robot was waiting for me to wire it up:
 
-{% img_responsive "_posts/2023/2023-08-15-adapting-pinouts-for-robot-worksheets/coder-dojo-robot-waiting-to-be-wired.jpg" "Coder Dojo Robot Waiting to be wired" %}
+{% img_responsive "_posts/2023/08/15/coder-dojo-robot-waiting-to-be-wired.jpg" "Coder Dojo Robot Waiting to be wired" %}
 
 This set of sensors meant there were quite a few connections to the Raspberry Pi Pico, which I needed to sketch out both for myself, for other mentors to help fix a robot, or for the Ninjas (students) at the Dojo to repair if needed. That means they will need to be on a quick reference card.
 
@@ -25,7 +25,7 @@ This set of sensors meant there were quite a few connections to the Raspberry Pi
 
 Here's the card I came up with:
 
-{% img_responsive "_posts/2023/2023-08-15-adapting-pinouts-for-robot-worksheets/2023-08-03-coder-dojo-robot-pinout-card.png" "Demonstration card showing pinouts" %}
+{% img_responsive "_posts/2023/08/15/coder-dojo-robot-pinout-card.png" "Demonstration card showing pinouts" %}
 
 ## How I made the card
 
@@ -35,7 +35,7 @@ At the start of any project, I grab the datasheets or web links for each of the 
 
 If I've already got those datasheets, it is somewhat easier as I just search for them while linking in Obsidian.
 
-{% img_responsive "_posts/2023/2023-08-15-adapting-pinouts-for-robot-worksheets/2023-07-29-screenshot-of-waveshare-encoder-pinout.png" "Screenshot of the Waveshare encoder pinout" %}
+{% img_responsive "_posts/2023/08/15/screenshot-of-waveshare-encoder-pinout.png" "Screenshot of the Waveshare encoder pinout" %}
 
 The datasheets are also useful for finding out what the pinout is for the device along with other parameters
 
@@ -74,7 +74,7 @@ I then made a copy of the file picow.html and called it waveshare-encoder.html. 
         </table>
     ```
 
-4. Remove all but three of the pins in the righthand pins section.
+4. Remove all but three of the pins in the right-hand pins section.
 5. We can adapt these to match the pinout of the device:
 
     ```html
@@ -103,9 +103,9 @@ You can then load this page into your browser. You can see the complete code at 
 
 I repeated this process for the other sensors and boards. This led me to get screenshots of each. Note that sometimes I remove the right pins instead of the left pins, depending on the orientation of the device image.
 
-{% img_responsive "_posts/2023/2023-08-15-adapting-pinouts-for-robot-worksheets/cytron-maker-line-wiring.png" "Screenshot of the Cytron Maker Line Sensor pinout" %}
+{% img_responsive "_posts/2023/08/15/cytron-maker-line-wiring.png" "Screenshot of the Cytron Maker Line Sensor pinout" %}
 
-{% img_responsive "_posts/2023/2023-08-15-adapting-pinouts-for-robot-worksheets/2023-07-29-RCWL-Pinout.png" "Screenshot of the RWCL-1601 Ultrasonic Distance Sensor pinout" %}
+{% img_responsive "_posts/2023/08/15/RCWL-Pinout.png" "Screenshot of the RWCL-1601 Ultrasonic Distance Sensor pinout" %}
 
 I didn't create one for the motor controller, and used the data sheet diagram for now, but I may come back to this.
 
@@ -154,7 +154,7 @@ The sensor pins then use my new CSS classes:
 
 I continued it for the whole device, and took a screenshot of the resulting output:
 
-{% img_responsive "_posts/2023/2023-08-15-adapting-pinouts-for-robot-worksheets/2023-07-30-Raspberry-Pi-Pico-W-Pinout-for-Coder-dojo-robot.png" "Screenshot of the Coder Dojo Robot Pinout" %}
+{% img_responsive "_posts/2023/08/15/Raspberry-Pi-Pico-W-Pinout-for-Coder-dojo-robot.png" "Screenshot of the Coder Dojo Robot Pinout" %}
 
 ## Compositing them
 

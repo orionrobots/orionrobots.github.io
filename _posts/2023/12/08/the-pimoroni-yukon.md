@@ -25,7 +25,7 @@ It has power buttons, along with user buttons too, and a couple of LED's too.
 
 Earlier in the year, you may have seen the short videos combining the Pimoroni Yukon board with the servo motor powered nerf turret. With this, I used my favourite modules, and my bench power supply to power it.
 
-{% img_responsive "_posts/2023/08/2023-08-01-foam-dart-screenshot.png", "Nerf Turret with Pimoroni Yukon" %}
+{% img_responsive "_posts/2023/08/01/foam-dart-screenshot.png", "Nerf Turret with Pimoroni Yukon" %}
 
 I started by adapting the bench power supply to the Yukon's XT30, basically soldering an XT30 on some lengths of wire and connecting them to the croc clips of the supply. I should probably set up a more permanent solution, but this worked well for testing.
 

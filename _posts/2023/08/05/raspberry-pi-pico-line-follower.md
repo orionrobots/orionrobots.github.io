@@ -1,7 +1,7 @@
 ---
 title: How to add line following to a robot with Raspberry Pi Pico and Python
 tags: [robotics at home, raspberry pi pico, rp2040, micropython, circuitpython, line following, robotics algorithms, pid control, robot building, coder dojo robots]
-thumbnail: /_posts/2023/2023-08-05-raspberry-pi-pico-line-follower/2023-08-05-line-follower-thumbnail.png
+thumbnail: /_posts/2023/08/05/line-follower-thumbnail.png
 description: How to add line following to a robot with Raspberry Pi Pico and Python
 date: 2023-08-05
 author: Danny Staple
@@ -39,7 +39,7 @@ To ensure effective line following, it's crucial to attach the line follower cor
 1. **Placement**: Position the line follower close to the floor, a couple of millimetres above the ground but not touching it. Make sure it doesn't cause any drag under the robot. This lets the sensor to detect the line effectively.
 2. **Stand-Off Kit**: Use a stand-off kit to position the line follower below the robot. The Maker Line has slots that accommodate various bolting hole placements, offering flexibility in mounting. You can either drill holes in the robot's chassis or use existing holes if it's predrilled.
 
-    {% img_responsive "_posts/2023/2023-08-05-raspberry-pi-pico-line-follower/2028-08-maker-line-side-attachment.png", "Attaching the line follower" %}
+    {% img_responsive "_posts/2023/08/05/maker-line-side-attachment.png", "Attaching the line follower" %}
 
     The diagram above shows how to attach it. You should plan for the lowest part of this **line sensor**, usually the large capacitors, to have **clearance** above the lowest point of the **robot wheels**.
 
@@ -52,7 +52,7 @@ By following these steps, you can ensure that the line follower is properly atta
 
 This device has the following pins:
 
-{% img_responsive "_posts/2023/2023-08-05-raspberry-pi-pico-line-follower/Cytron Maker Line Wiring.png", "Cytron Maker Line Wiring" %}
+{% img_responsive "_posts/2023/08/05/Cytron Maker Line Wiring.png", "Cytron Maker Line Wiring" %}
 
 1. Connect the **VCC** pin to  the **3.3v** pin on the Raspberry Pi Pico. This supplies power to the Maker Line
 2. Connect the **GND** pin to a ground pin on the Raspberry Pi Pico. This completes the power circuit for the Maker Line.
@@ -160,7 +160,7 @@ By using Proportional Control, we can ensure that the robot smoothly follows the
 
 The diagram below shows two worked example scenarios to understand this algorithm:
 
-{% img_responsive "_posts/2023/2023-08-05-raspberry-pi-pico-line-follower/2023-line-sensor-algorithm-editable.png", "Two worked example scenarios for the line following algorithm." %}
+{% img_responsive "_posts/2023/08/05/line-sensor-algorithm-editable.png", "Two worked example scenarios for the line following algorithm." %}
 
 The diagram shows two scenarios. In the first scenario, the line is in the middle of the sensor. In the second scenario, it is to the left of the robot.
 

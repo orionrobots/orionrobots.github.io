@@ -32,11 +32,11 @@ The sensors should be at the front of the robot, with the two large cans facing 
 
 The RCWL-1601 sensors are 3v3 compatible, so we can connect them directly to the Raspberry Pi Pico. The sensors have 4 pins:
 
-{% img_responsive "_posts/2023/2023-08-15-adapting-pinouts-for-robot-worksheets/2023-07-29-RCWL-Pinout.png", "RCWL-1601 Pinout" %}
+{% img_responsive "_posts/2023/08/15/RCWL-Pinout.png", "RCWL-1601 Pinout" %}
 
 We will wire it to the Raspberry Pi Pico as follows:
 
-{% img_responsive "_posts/2023/2023-08-15-adapting-pinouts-for-robot-worksheets/2023-07-30-Raspberry-Pi-Pico-W-Pinout-for-Coder-dojo-robot.png", "Raspberry Pi Pico Pinout with our sensors" %}
+{% img_responsive "_posts/2023/08/15/Raspberry-Pi-Pico-W-Pinout-for-Coder-dojo-robot.png", "Raspberry Pi Pico Pinout with our sensors" %}
 
 The sensors are connected to the following pins:
 

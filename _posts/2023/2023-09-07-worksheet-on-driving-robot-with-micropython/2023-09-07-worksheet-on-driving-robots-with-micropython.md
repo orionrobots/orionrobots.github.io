@@ -46,7 +46,7 @@ Use the breadboard to make the connections.
 
 Here is the Pico pin out, with suggested sensor connections (for later expansions):
 
-{% img_responsive "_posts/2023/2023-08-15-adapting-pinouts-for-robot-worksheets/2023-07-30-Raspberry-Pi-Pico-W-Pinout-for-Coder-dojo-robot.png", "Raspberry Pi Pico pinout" %}
+{% img_responsive "_posts/2023/08/15/Raspberry-Pi-Pico-W-Pinout-for-Coder-dojo-robot.png", "Raspberry Pi Pico pinout" %}
 
 Connect the Raspberry Pi Pico and launch Thonny.
 In the bottom right of Thonny, look for Raspberry Pi Pico.

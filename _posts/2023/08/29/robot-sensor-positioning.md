@@ -2,7 +2,7 @@
 title: Troubleshooting sensor positioning on a mobile robot
 date: 2023-08-29
 tags: [robotics at home, mobile robot, sensor positioning, troubleshooting, robot building, pid control]
-thumbnail: _posts/2023/2023-08-29-robot-sensor-positioning/rear-sensor-positioning-wall.png
+thumbnail: _posts/2023/08/29/rear-sensor-positioning-wall.png
 ---
 When building a robot, it is important to position sensors where they will be useful in the algorithms running on the robot. Getting it wrong can lead to amusing and odd results.
 
@@ -25,7 +25,7 @@ However, what this robot did was steer the opposite way, and a part of the loop 
 
 Let's look at the positioning of the sensor, the wall and the robot wheels.
 
-{% img_responsive "_posts/2023/2023-08-29-robot-sensor-positioning/rear-sensor-positioning-wall.png", "Wall following robot rear sensor positioning" %}
+{% img_responsive "_posts/2023/08/29/rear-sensor-positioning-wall.png", "Wall following robot rear sensor positioning" %}
 
 In the image above there is a wall to the left of a robot. On the robot is shown the direction of travel - the direction it is driving. In the bottom left of the robot is a distance sensor pointed at the wall.
 
@@ -35,7 +35,7 @@ The key thing here is where the Center of Rotation is. Note that this will sit s
 
 Let's start with distance sensor being too close to the wall. The sensor will detect a distance less than the expected set point, so the error would cause the robot to turn to the right to move away from the wall, as the picture shows below.
 
-{% img_responsive "_posts/2023/2023-08-29-robot-sensor-positioning/rear-sensor-positioning-wall-turning.png", "Wall following robot turning away from wall" %}
+{% img_responsive "_posts/2023/08/29/rear-sensor-positioning-wall-turning.png", "Wall following robot turning away from wall" %}
 
 However, as the robot turns away, the sensor, behind the Center of Rotation, will be moved closer to the wall by the turn. This will cause the PID to react further.
 
@@ -47,7 +47,7 @@ There are two ways to correct this. Either the robot can be redesigned so that t
 
 The following diagram shows the robot with the sensor in front of the Center of Rotation.
 
-{% img_responsive "_posts/2023/2023-08-29-robot-sensor-positioning/front-sensor-positioning-wall-turning.png", "Wall following robot turning away from wall with sensor in front" %}
+{% img_responsive "_posts/2023/08/29/front-sensor-positioning-wall-turning.png", "Wall following robot turning away from wall with sensor in front" %}
 
 In this image, because the sensor is in front of the Center of Rotation, when the PID rotates the robot away from the wall to make the correction, the sensor reading will be further away too, making it consistent with the direction of travel.
 
