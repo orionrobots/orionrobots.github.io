@@ -9,7 +9,7 @@ In the last post, I looked at the [Raspberry Pi Electronics in the robot](/2023/
 
 The motor control and IO board is a [4tronix 4duino Pro](https://4tronix.co.uk/blog/?p=1705) that was kindly donated to Orionrobots by 4tronix along with this amazing Devastator aluminium tank chassis used in Big Ole Yellow.
 
-The 4duino pro roughly follows the outline of the Arduino Uno, so I'd built this back in 2019 using a protoshield variant from GikFun. 
+The 4duino pro roughly follows the outline of the Arduino Uno, so I'd built this back in 2019 using a protoshield variant from GikFun.
 
 The is the board from [GikFun Protoype Shield DIY kit](https://www.amazon.co.uk/dp/B00Q9YB7PI/ref=pe_3187911_185740111_TE_item) with my customisation. The following image shows this board on the robot, it's loose since I had to take it off to inspect below the board:
 

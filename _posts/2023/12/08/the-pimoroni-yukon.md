@@ -2,7 +2,7 @@
 title: Having fun with the Pimoroni Yukon Board
 date: 2023-12-08
 description: A look at the Pimoroni Yukon board, a Raspberry Pi Pico breakout board with a lot of features.
-thumbnail: _posts/2023/12/8/yukon-with-modules-for-piwars.jpeg
+thumbnail: _posts/2023/12/08/yukon-with-modules-for-piwars.jpeg
 tags: [raspberry pi pico, pimoroni, breakout board, robot building, micropython, piwars2024]
 ---
 For the last few months, I had the privilege of being a beta tester for the Pimoroni Yukon board. This meant I got to play with a robotics board with a tonne of features before it was released!
@@ -25,7 +25,7 @@ It has power buttons, along with user buttons too, and a couple of LED's too.
 
 Earlier in the year, you may have seen the short videos combining the Pimoroni Yukon board with the servo motor powered nerf turret. With this, I used my favourite modules, and my bench power supply to power it.
 
-{% img_responsive "_posts/2023/2023-08-01-foam-dart-screenshot.png", "Nerf Turret with Pimoroni Yukon" %}
+{% img_responsive "_posts/2023/08/2023-08-01-foam-dart-screenshot.png", "Nerf Turret with Pimoroni Yukon" %}
 
 I started by adapting the bench power supply to the Yukon's XT30, basically soldering an XT30 on some lengths of wire and connecting them to the croc clips of the supply. I should probably set up a more permanent solution, but this worked well for testing.
 
@@ -52,11 +52,11 @@ This audio playback inspired me to dig more at audio playback and recording with
 I connected it to big motors, small motors. I used the switched power with LED's.
 I had a bunch of fun connecting different LED modules - getting an RGB strip going.
 
-{% img_responsive "_posts/2023/12/8/led-strip-powered-by-yukon.jpeg", "LED Strip Powered by Yukon" %}
+{% img_responsive "_posts/2023/12/08/led-strip-powered-by-yukon.jpeg", "LED Strip Powered by Yukon" %}
 
 And then an RGB matrix:
 
-{% img_responsive "_posts/2023/12/8/yukon-driving-leds-with-notebook-diffuser.jpeg", "Yukon with LED matrix" %}
+{% img_responsive "_posts/2023/12/08/yukon-driving-leds-with-notebook-diffuser.jpeg", "Yukon with LED matrix" %}
 
 I used the LED RGB matrix, with a nearby notebook as a diffuser.
 
@@ -68,13 +68,13 @@ By playing with it, I found it was important to call the `yukon_monitor` functio
 
 The outputs on this are perfect for my PiWars 2024 robot, Big Ole Yellow (still not sure about this name, but it's had it for a while now). The Dual motor module might be ok for the motors, but big motor plus encoders might be more suited?
 
-{% img_responsive "_posts/2023/12/8/piwars-2024-robot-next-to-yukon.jpeg", "PiWars 2024 Robot Next to Yukon" %}
+{% img_responsive "_posts/2023/12/08/piwars-2024-robot-next-to-yukon.jpeg", "PiWars 2024 Robot Next to Yukon" %}
 
 I have been adapting the Nerf Turret to set on top of this robot, along with designing other extensions, like a front grabber for the Eco-disaster challenge. These would be perfect for the Yukon's regulated servo module and one of the motors modules.
 
 I have some RGB LED strips, which again are perfect for a Yukon module, and adding sound might be fun too. One of the switched power modules can be used along with a resistor to control the large headlight LED's either side of the camera. I wonder if the bench power module is enough for the Pi, or if I should still use the separate USB power?
 
-{% img_responsive "_posts/2023/12/8/yukon-with-modules-for-piwars.jpeg", "Yukon with modules for PiWars" %}
+{% img_responsive "_posts/2023/12/08/yukon-with-modules-for-piwars.jpeg", "Yukon with modules for PiWars" %}
 
 Either way, I'm yet to integrate this, but quite exciting about how much simpler and more powerful this will make the robots electronics.
 
