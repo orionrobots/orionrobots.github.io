@@ -2,7 +2,7 @@
 layout: post
 title: PyCon Uk 2014 and the Armbot
 tags: [python, pycon, armbot, eeebot, i2c bus, raspberry pi, micropython, robot building, robotics at home]
-todo: photos, check links, proof read, complete, github links, split into smaller stories.
+todo: photos, check links, github links, split into smaller stories.
 ---
 As I have done since 2012, I went to [Pycon Uk](http://pyconuk.org) this year, and brought a robot along with me.
 
