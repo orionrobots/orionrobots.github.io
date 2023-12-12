@@ -11,6 +11,7 @@ updates:
       interval: "weekly"
   - package-ecosystem: "npm"
     directory: "/"
+    versioning-strategy: auto
     schedule:
       # Check for updates to npm dependencies every week
       interval: "weekly"
