@@ -25,6 +25,7 @@
   },
   "homepage": "https://github.com/orionrobots/orionrobots.github.io#readme",
   "devDependencies": {
+    "@11ty/eleventy": "^2",
     "@11ty/eleventy-img": "^3.1.0",
     "@11ty/eleventy-plugin-syntaxhighlight": "^5.0.0",
     "@fortawesome/fontawesome-svg-core": "^6.4.0",
@@ -32,7 +33,6 @@
     "clean-css": "^5.3.2",
     "compression-webpack-plugin": "^10.0.0",
     "css-loader": "^6.7.3",
-    "eleventy": "^1.0.6",
     "exports-loader": "^4.0.0",
     "expose-loader": "^4.1.0",
     "gray-matter": "^4.0.3",
