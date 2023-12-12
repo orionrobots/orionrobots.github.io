@@ -34,6 +34,12 @@ module.exports = function(eleventyConfig) {
     eleventyConfig.addPassthroughCopy("galleries/**/*.{jpg,jpeg,JPG,png,gif,svg}");
     eleventyConfig.addPassthroughCopy("google5458abc1104b04dd.html");
     eleventyConfig.addPassthroughCopy({"htaccess": ".htaccess"});
+    eleventyConfig.addPassthroughCopy({"content": "."}, {
+        filter: ["**/*.{jpg,jpeg,JPG,png,gif,svg}"],
+        rename: function (path) {
+            return path.replace("content/", "");
+        }
+    });
 
     eleventyConfig.addWatchTarget("src/**/*");
     let $collectionApi = null;
