@@ -48,7 +48,7 @@
     "style-loader": "^3.3.2",
     "terser": "^5.18.2",
     "v": "^0.3.0",
-    "webpack": "^5.79.0",
+    "webpack": "^5.89.0",
     "webpack-bundle-analyzer": "^4.8.0",
     "webpack-cli": "^5.0.1"
   },
