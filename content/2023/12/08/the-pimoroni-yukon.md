@@ -3,7 +3,7 @@ title: Having fun with the Pimoroni Yukon Board
 date: 2023-12-08
 description: A look at the Pimoroni Yukon board, a Raspberry Pi Pico breakout board with a lot of features.
 thumbnail: content/2023/12/08/yukon-with-modules-for-piwars.jpeg
-tags: [raspberry pi pico, pimoroni, breakout board, robot building, micropython, piwars2024]
+tags: [raspberry pi pico, pimoroni, breakout board, robot building, micropython, piwars 2024]
 ---
 For the last few months, I had the privilege of being a beta tester for the Pimoroni Yukon board. This meant I got to play with a robotics board with a tonne of features before it was released!
 
