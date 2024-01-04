@@ -3,7 +3,7 @@ title: Robot building fun this week
 description: What I've been doing in the world of robot building and programming this week
 date: 2024-01-03
 tags: [robot building, robotics at home, piwars 2024, raspberry pi, robot programming, mqtt, react native]
-thumbnail: 2024/01/03/mqtt-joystick-screenshot.jpeg
+thumbnail: content/2024/01/03/mqtt-joystick-screenshot.jpeg
 ---
 First off, I want to say a Happy New Year to all my readers. 2024 has started off as I'd like it to with some great things happening.
 
