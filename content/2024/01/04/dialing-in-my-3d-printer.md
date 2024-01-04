@@ -1,5 +1,5 @@
 ---
-title: Dialing in my 3D printer for better prints
+title: Dialling in my 3D printer for better prints
 description: I've been working on getting my 3D printer to print better, and have been making some progress
 date: 2024-01-04
 tags: [3d printing, robot building, piwars 2024]
