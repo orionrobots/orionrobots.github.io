@@ -48,6 +48,22 @@ However, at build 5, I reduced the temperature instead, for a dramatic change.
 
 It was at this point that I decided to print a temperature tower [Thingiverse Temp Tower](https://www.thingiverse.com/thing:2493504) and figure out how to use them. The interface for this in FlashPrint means added temperature overrides in a list. Annoyingly, you cannot edit items in the list, you must delete items and re-add them. It took me a while to figure out lining up the layers with the temperature changes, but I was able to use the layer preview with some calculations to figure it out.
 
+The settings I used were:
+
+| Start Layer | End Layer | Temperature |
+| ---- | ---- | ---- |
+| 9 | 46 | 220 |
+| 47 | 83 | 215 |
+| 84 | 121 | 210 |
+| 122 | 158 | 205 |
+| 159 | 196 | 200 |
+| 197 | 233 | 195 |
+| 234 | 270 | 190 |
+| 270 | 307 | 185 |
+| 308 | 345 | 180 |
+
+I left the 8-layer plinth at 210 degrees.
+
 {% img_responsive "content/2024/01/04/temperature_tower.JPG", "Temperature tower" %}
 
 With some observation, I determined that 195c was the best looking temperature for this filament. It took over an hour for this to print. But it was definitely worth  doing,and an experiment I will repeat with new filaments.
@@ -60,6 +76,26 @@ So I make a further setting, doing the bottom layer at 220 degrees, and the rest
 
 {% img_responsive "content/2024/01/04/retraction_test_6.JPG", "Retraction test 6" %}
 
-Its still got some warping and lifting, so I will perhaps level the bed again, but there's significantly less stringing, or the ghost towers that come with it. I'm going to carry on tuning this as I'm certain I can get better results. I'm still very much learning with 3D printing, and I'm sure I'll get better at it.
+Its still got some warping and lifting, so I will perhaps level the bed again, but there's significantly less stringing, or the ghost towers that come with it.
+
+## Issues with the print software
+
+I am using the FlashPrint 5 software recommended for my 3D printer, which in theory should generate the right flavour of GCode, and helpfully can send the GCode over WiFi to the printer so I don't have fiddle with USB keys and SD cards to send a print. However, it's not without it's issues.
+
+Making the temperature tower meant fiddling for a while with their slightly frustrating interface. More frustrating is that saving a project, does not keep these settings, and saving a "save as new" slicing profile didn't seem to keep it either.
+
+![FlashPrint 5 temperature list settings](flashprint-ui-temperature-list.png.png)
+
+## Links
+
+- I found the guide at [All3DP](https://all3dp.com/2/3d-print-stringing-easy-ways-to-prevent-it/) very helpful for understanding stringing and retraction.
+- [Reddit chat on Stringing and warping](https://www.reddit.com/r/FixMyPrint/comments/sph51y/stringing_and_bottom_warping/)
+- [Simplify 3D on stringing and oozing](https://www.simplify3d.com/resources/print-quality-troubleshooting/stringing-or-oozing/)
+- [Thingiverse Retraction test by deltapenguin](https://www.thingiverse.com/thing:909901)
+- [Thingiverse Temp Tower](https://www.thingiverse.com/thing:2493504)
+
+## Next steps
+
+I'm going to carry on tuning this as I'm certain I can get better results. I'm still very much learning with 3D printing, and I'm sure I'll get better at it.
 
 I also want to try getting some nice filament, and printing out that GitHub skyline with it!
