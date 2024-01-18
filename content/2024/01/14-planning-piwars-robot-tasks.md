@@ -2,7 +2,7 @@
 title: More planning for 2024 PiWars Robot
 date: 2024-01-14 00:00:00 +0000
 tags: [piwars 2024, robot projects, robot planning, robotics at home, pyinfra, python, micropython]
-title: When you might need more planning
+description: When you might need more planning
 ---
 My student and I realised how few weeks we had until PiWars. having booked the hotel rooms and train tickets, it became very clear how close it is.
 
