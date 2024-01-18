@@ -1,7 +1,7 @@
 ---
 title: More planning for 2024 PiWars Robot
 date: 2024-01-14 00:00:00 +0000
-tags: [piwars 2024, robot projects, robot planning, robotics at home]
+tags: [piwars 2024, robot projects, robot planning, robotics at home, pyinfra, python, micropython]
 title: When you might need more planning
 ---
 My student and I realised how few weeks we had until PiWars. having booked the hotel rooms and train tickets, it became very clear how close it is.
@@ -51,3 +51,23 @@ We created milestones around preparatory items:
 We do want to look at charts for it. However, mostly, we picked one of the early items in the list, and just started getting it done. We'll come back to the list and pick another one.
 
 It felt good to get it out of our heads and on paper. It gives a clear idea of what to pick up in contact time during sessions, and during the week. It doesn't get it all done, but it also means we can prioritise stages and start collecting points.
+
+## Deploying code to the Yukon
+
+After the planning, we looked at some PyInfra stuff around deploying through to the Yukon. This worked by implementing some PyInfra operators to go to the Yukon via the Raspberry Pi.
+
+We made a copy files operation, which used the Raspberry Pi as a staging place. First it checks if the files are present, and matching on the Raspberry Pi. If they are, it skips the copy. If they aren't, it copies them over.
+
+If they've changed, it will then use the mpremote command to copy them to the Yukon. MPRemote is a command line tool to talk with Micropython (and CircuitPython) boards. It lets you copy files, reset or interact with a REPL.
+
+PyInfra operators Yield a command to run on the target (the Raspberry PI) via a connector. My student asked about the Yield command, so I used iterators to show how it worked. In the case of PyInfra, each operator generates any commands to run. This means operators can yield from other operators, and then yield their own commands to be consumed by other operators or by a PyInfra connector. It's a nice concrete example of using this.
+
+We created another operator to reset the Yukon.
+
+We then chained this together in a deployment that did the following:
+
+- Installed MPRemote
+- Used the mpremote copy files operator to copy the files to the Raspberry Pi
+- If that made changes, use mpremote reset to reset the Yukon
+
+We set it up with a test file, and it worked.
