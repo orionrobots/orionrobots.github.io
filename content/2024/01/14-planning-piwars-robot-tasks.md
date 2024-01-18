@@ -1,6 +1,6 @@
 ---
 title: More planning for 2024 PiWars Robot
-date: 2024-01-14 00:00:00 +0000
+date: 2024-01-14
 tags: [piwars 2024, robot projects, robot planning, robotics at home, pyinfra, python, micropython]
 description: When you might need more planning
 ---

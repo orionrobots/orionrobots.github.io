@@ -1,6 +1,6 @@
 ---
 title: Strange Yukon power behaviour on Big Ole Yellow
-date: 2024-01-09T00:00:00Z
+date: 2024-01-09
 tags: [robot electronics, raspberry pi pico, pimoroni yukon, big ole yellow, piwars 2024]
 description: Motors running when they shouldn't
 ---
