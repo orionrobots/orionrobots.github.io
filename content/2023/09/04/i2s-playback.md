@@ -1,6 +1,6 @@
 ---
 title: How to get i2s playback with Raspberry Pi Pico
-tags: [raspberry pi pico, i2s, audio, python, robotics at home, micropython, robot building]
+tags: [raspberry pi pico, i2s, audio, python, robotics at home, mpremote, micropython, robot building]
 description: A project I made using a Raspberry Pi Pico to playback audio using i2s
 thumbnail: content/2023/09/04/i2s-amp-and-speaker.png
 date: 2023-09-04
