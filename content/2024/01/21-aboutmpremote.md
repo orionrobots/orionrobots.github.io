@@ -14,4 +14,3 @@ This tiny tool lets you do a few things:
 - Run a script on the board directly from the command line
 
 This means you can use the Pico or other boards from an IE of your choice, and automate interaction for it from within VSCode, vim, or any editor you might choose. It could also be used as part of a toolchain for deploying more out to robot, like I have in my Piwars 2024 robot, with PyInfra deploying code to the Raspberry Pi, and then using MPRemote to deploy it to the Yukon.
-Qu
