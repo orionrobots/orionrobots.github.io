@@ -2,6 +2,7 @@
 title: About the MPRemote command
 tags: [mpremote, micropython, python, robotics at home, robot building, raspberry pi pico, robot programming]
 description: A command line tool to interact with Micropython and CircuitPython boards
+date: date: 2024-01-21
 ---
 If you've not come across it, there's a neat command line tool for working with Micropython and CircuitPython boards called [MPRemote](https://docs.micropython.org/en/latest/reference/mpremote.html) - the MicroPython remote control.
 
