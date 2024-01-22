@@ -44,7 +44,7 @@
     "sass": "^1.69.7",
     "sass-loader": "^14.0.0",
     "slugify": "^1.6.6",
-    "source-map-loader": "^4.0.1",
+    "source-map-loader": "^5.0.0",
     "style-loader": "^3.3.4",
     "terser": "^5.18.2",
     "v": "^0.3.0",
