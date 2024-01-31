@@ -23,6 +23,8 @@ This is a fairly simple device built with one 4000 series IC per digit, and one 
 * 1xPower Switch
 * 5v Power supply
 
+(paid links)
+
 <iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=GB&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=orionrobots-21&language=en_GB&marketplace=amazon&region=GB&placement=B07GTSQV9S&asins=B07GTSQV9S&linkId=82ee8f77d920264d2ff37ac6cf2e1e98&show_border=true&link_opens_in_new_window=true"></iframe><!-- led displays-->
 <iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=GB&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=orionrobots-21&language=en_GB&marketplace=amazon&region=GB&placement=B07DK2T7MY&asins=B07DK2T7MY&linkId=ff7611d0de64983b6aaf802e15c70382&show_border=true&link_opens_in_new_window=true"></iframe><!-- resistor networks -->
 <iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=GB&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=orionrobots-21&language=en_GB&marketplace=amazon&region=GB&placement=B072BMYZ18&asins=B072BMYZ18&linkId=a23f99e072fabcb6d2c661fbb04bc9c7&show_border=true&link_opens_in_new_window=true"></iframe><!-- arduino nanos - for ICs -->

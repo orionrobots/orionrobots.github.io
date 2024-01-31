@@ -35,4 +35,6 @@ The rear liftarm stops it going outside a preset range, and a program would scan
 
 ![Lego RCX light sensor on a motor for scanning](/galleries/2005-05-04-an-old-pneumatic-gripper/p1010004.jpg){:class="img-responsive"}
 
+(paid links)
+
 <iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=GB&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=orionrobots-21&language=en_GB&marketplace=amazon&region=GB&placement=B082WD5YV9&asins=B082WD5YV9&linkId=beb70788ccaaea84a7820473034e4cd9&show_border=true&link_opens_in_new_window=true"></iframe>
