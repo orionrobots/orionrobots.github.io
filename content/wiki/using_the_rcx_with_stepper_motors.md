@@ -48,4 +48,6 @@ For more accurate control - single stepping, we would probably require a serial 
 
 However - if you are finding you want to do this a lot, then it might be time to consider using a less limited [microcontroller](/wiki/microcontroller.html "A programmable digital controller (or ").
 
+(paid links)
+
 <iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=GB&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=orionrobots-21&language=en_GB&marketplace=amazon&region=GB&placement=B087BYKB6T&asins=B087BYKB6T&linkId=3d581b4b4b900d79dc7950499d4ddf4e&show_border=true&link_opens_in_new_window=true"></iframe>

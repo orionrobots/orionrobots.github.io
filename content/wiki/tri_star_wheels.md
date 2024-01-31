@@ -46,6 +46,8 @@ This image shows Tristar wheels being used in a complete vehicle. It was also cr
 
 ## Reference
 
+(paid links)
+
 ### The Robot Builder's Bonanza: 99 Inexpensive Robotics Projects
 
 By Gordon McComb, Myke Predko

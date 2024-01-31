@@ -14,6 +14,8 @@ As well as being inspirational, and highly entertaining, they also do small inse
 
 ## Recommendations
 
+(paid links)
+
 ### Channel 4- Scrapheap Challenge
 
 [The Scrapheap Challenge Home](https://www.channel4.com/programmes/scrapheap-challenge)

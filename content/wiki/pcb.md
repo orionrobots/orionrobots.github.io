@@ -20,11 +20,15 @@ Stripboard or veroboard has copper strips, spaced generally at 2.54mm apart. Com
 
 PC Board and prototyping boards then exist following breadboard layouts, or with other interesting layouts.
 
+(paid links)
+
 <iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=GB&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=orionrobots-21&language=en_GB&marketplace=amazon&region=GB&placement=B0875P5475&asins=B0875P5475&linkId=f08e5c7fad46289b24d228a4a6893892&show_border=true&link_opens_in_new_window=true"></iframe>
 
 ## Breakout board PCB
 
 There are PCB's designed to mount common surface mount or unusually shaped components, and with standard 2.54mm headers for PCB mounting, or for use with Dupont jump cables.
+
+(paid links)
 
 <iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=GB&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=orionrobots-21&language=en_GB&marketplace=amazon&region=GB&placement=B085LC6ZSY&asins=B085LC6ZSY&linkId=5ee177d23535d719006c52f300631478&show_border=true&link_opens_in_new_window=true"></iframe>
 

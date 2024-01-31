@@ -104,6 +104,8 @@ This can save your desk from scorch marks, and further reduces the risk of fire.
 
 ## Recommendations
 
+(paid links)
+
 If you are soldering safety of your eyes should be your first priority. These are relatively inexpensive(less than a tenner), but being a good brand, are comfortable and hard wearing.  Uncomfortable and easily broken goggles will just not be worn- which means your eyes will be in danger again.
 
 <iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=GB&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=orionrobots-21&language=en_GB&marketplace=amazon&region=GB&placement=B0865YXFWH&asins=B0865YXFWH&linkId=9f0a157e31025738cf6e2ee152194011&show_border=true&link_opens_in_new_window=true"></iframe>

@@ -6,7 +6,7 @@ date: 2007-02-04 01:23:38
 ---
 ## Respect
 
-Treat all tools with respect. Tools can be very dangerous when used carelessly, even [Lego](/wiki/lego.html "The best known construction toy") can have an eye out if thrown. Tools also can become useless if dented, blunted or misshapen through misuse.
+Treat all tools with respect. Tools can be very dangerous when used carelessly, even [Lego](/wiki/lego.html "The best known construction toy") can have an eye out if thrown. Tools also can become useless if dented, blunted or misshapen through misuse. This article contains paid amazon links.
 
 Generally, all tools should be used only for what they are intended. There are times when tools can be craftily, and cleverly repurposed, but ensure you know exactly what the consequences of that would be. If it looks like it is going to break the tool, or fly off and hit someone - DON'T DO IT.
 

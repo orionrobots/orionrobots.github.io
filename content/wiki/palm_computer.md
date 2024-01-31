@@ -20,4 +20,6 @@ By Kevin Mukhar, Dave Johnson.
 
 What can I say. This book is amazing. Take your old Palm(a IIIc perhaps) and turn it into a serious robot base.  Including software, electronics examples and other stuff - this is a wonderful book.
 
+(paid links)
+
 <iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=GB&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=orionrobots-21&language=en_GB&marketplace=amazon&region=GB&placement=0072228806&asins=0072228806&linkId=d851e0f54aecf8a012e6c529aac49471&show_border=true&link_opens_in_new_window=true"></iframe>

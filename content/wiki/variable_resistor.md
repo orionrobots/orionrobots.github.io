@@ -24,4 +24,6 @@ The Variable Resistor is most easily compared to a simple tap or valve - when th
 
 A water analogy of the potentiometer is slightly more complex, and less useful. Imagine if you have one pipe feeding two others - one being the drain (which offers the path of least resistance to the pressurized water). If you tap off the drain, then clearly there will be more pressure going to the other pipe. If you then imagine your dial as exposing the output pipe more to the drain or more to the source - you would have something close to this. You could then divide the potential of the water flow to give you something like half the original input pressure on the output pipe.
 
+(paid links)
+
 <iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=GB&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=orionrobots-21&language=en_GB&marketplace=amazon&region=GB&placement=B0814YZT75&asins=B0814YZT75&linkId=c67e1eb0be2a22b67e87e9c71bdee0f4&show_border=true&link_opens_in_new_window=true"></iframe>

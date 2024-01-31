@@ -16,6 +16,8 @@ They also came with odd and poorly documented connectors, although the, older Pa
 
 There were efforts to port Linux on them - variants of embedded Linux and ucLinux. This would make them a great deal more versatile for general computation and interfacing - although possibly less easy to use. In the age of the Raspberry Pi, it would not be particularly rewarding.
 
+(paid links)
+
 <div class="media">
     <div class="media-left">
     <iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=GB&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=orionrobots-21&marketplace=amazon&region=GB&placement=0071417419&asins=0071417419&linkId=521b643817af42f39f7922352ddd575c&show_border=true&link_opens_in_new_window=true"></iframe>
