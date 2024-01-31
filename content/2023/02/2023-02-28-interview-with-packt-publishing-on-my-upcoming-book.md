@@ -18,6 +18,6 @@ Learn more about the book and my writing journey at <https://partnerships.packt.
 
 ![Danny pictured with the Learn Robotics Programming books](/galleries/learn-robotics-programming-books-with-robot.jpeg "Danny pictured with the Learn Robotics Programming books")
 
-Pre-order [Robotics at Home with Raspberry Pi Pico at Amazon Uk](https://amzn.to/3KJaoKw).
+Pre-order [Robotics at Home with Raspberry Pi Pico at Amazon Uk](https://amzn.to/3KJaoKw). (paid link)
 
 <a href="https://packt.link/5swS2" title="Learn to build and Program Robots using Robotics at Home with Raspberry Pi Pico">{% img_responsive "galleries/2023/Robotics-at-Home-with-Raspberry-Pi-Pico-banner.png", "Learn to build and Program Robots using Robotics at Home with Raspberry Pi Pico" %}</a>>

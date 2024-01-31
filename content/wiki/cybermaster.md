@@ -40,4 +40,6 @@ Cybermaster innards from a teardown:
 * eBay - This is where you might pick one of these up
 * If you are lucky - you may find one at <a href="/wiki/bricklink.html" title="Lego Trading Commnity">bricklink</a>
 
+(paid links)
+
 <iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=GB&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=orionrobots-21&language=en_GB&marketplace=amazon&region=GB&placement=B082WD5YV9&asins=B082WD5YV9&linkId=72b9fe14a7f3232f245bbc66e68751b8&show_border=true&link_opens_in_new_window=true"></iframe>

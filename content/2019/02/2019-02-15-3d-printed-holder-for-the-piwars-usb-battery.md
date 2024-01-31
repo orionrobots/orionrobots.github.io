@@ -4,7 +4,7 @@ tags: [robotics, piwars, piwars 2019, 3d printing, usb battery, fusion360, raspb
 title: 3D Printed Holder For The PiWars USB Battery
 layout: post
 ---
-I've finally designed a USB Battery mount for my PiWars 2019 robot. I designed the mount in Fusion 360, and this is the first iteration that I can 3D print.
+I've finally designed a USB Battery mount for my PiWars 2019 robot. I designed the mount in Fusion 360, and this is the first iteration that I can 3D print. This article contains paid links.
 
 ![The USB Battery Compartment For My PiWars 2019 Robot](/galleries/2019/02/14-printable-usb-battery-holder/chassis-assembly-v67.png){:class="img-responsive"}
 
@@ -24,6 +24,8 @@ I've not posted much yet about my piwars robots, but in last years event, my rob
 I resolved to get these problems fixed. Sure, there were code bugs, but I could fix those on the day. These kind of hardware failures were a significant problem and threatened to cause corruption to the SD card or a robot that wouldn't come back. They were top priorities in my list of things to do better next year. The batteries were based on 2 sets a 4xAA batteries in a series configuration, which I'd tucked into the back of the robot, and held in by a lip of plastic, and later a bit of gaffer tape.
 
 ## Writing a book
+
+(paid links)
 
 <div class="media">
   <div class="media-left"><a href="https://www.amazon.co.uk/Learn-Robotics-Programming-autonomous-Raspberry/dp/1789340748/ref=as_li_ss_il?ref_=nav_ya_signin&_encoding=UTF8&&linkCode=li1&tag=orionrobots-21&linkId=20d971f8cbb0b0f1890b9a399efab4a2&language=en_GB" target="_blank"><img border="0" src="//ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=1789340748&Format=_SL110_&ID=AsinImage&MarketPlace=GB&ServiceVersion=20070822&WS=1&tag=orionrobots-21&language=en_GB" ><img src="https://ir-uk.amazon-adsystem.com/e/ir?t=orionrobots-21&language=en_GB&l=li1&o=2&a=1789340748" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /></a></div>

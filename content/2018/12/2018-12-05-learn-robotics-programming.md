@@ -6,6 +6,8 @@ layout: post
 ---
 Tonight I am proud to announce that available to buy in most online bookshops is my new book, Learn Robotics Programming.
 
+(paid link)
+
 <a href="https://www.amazon.co.uk/Learn-Robotics-Programming-autonomous-Raspberry/dp/1789340748/ref=as_li_ss_il?_encoding=UTF8&qid=&sr=&linkCode=li2&tag=orionrobots-21&linkId=03978cd53f240b428cc4ab5f07c621f5&language=en_GB" target="_blank"><img border="0" src="//ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=1789340748&Format=_SL160_&ID=AsinImage&MarketPlace=GB&ServiceVersion=20070822&WS=1&tag=orionrobots-21&language=en_GB" ></a><img src="https://ir-uk.amazon-adsystem.com/e/ir?t=orionrobots-21&language=en_GB&l=li2&o=2&a=1789340748" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /><br />
 [Learn Robotics Programming: Build and control autonomous robots using Raspberry Pi 3 and Python](https://amzn.to/2RA5u43)
 
@@ -27,5 +29,7 @@ Smart behaviors built include:
 * Using a phone/touch screen device to manually drive the robot.
 
 The book also shows experience while working with robotics, like ensuring the code is backed up and versioned, taking time to design and plan a little (measure twice, cut once), building incrementally on working systems, and where to go next to continue a robot building journey.
+
+(paid links)
 
 The book can be purchased at [Amazon](https://amzn.to/2RA5u43), [Packt](https://www.packtpub.com/hardware-and-creative/learn-robotics-programming), [Foyles](https://www.foyles.co.uk/witem/computing-it/learn-robotics-programming-build-and-co,danny-staple-9781789340747) and [Waterstones](https://www.waterstones.com/book/learn-robotics-programming/danny-staple/9781789340747).

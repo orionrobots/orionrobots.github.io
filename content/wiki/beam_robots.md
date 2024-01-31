@@ -21,6 +21,8 @@ Some people like the idea of taking the BEAM principles, and creating a [Horse A
 
 ## Junkbots, Bugbots and Bots on Wheels: Building Simple Robots with BEAM Technology
 
+(paid links)
+
 <iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=GB&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=orionrobots-21&marketplace=amazon&region=GB&placement=0072226013&asins=0072226013&linkId=51d35ab0d60cd03eed41c518a1dde776&show_border=true&link_opens_in_new_window=true"></iframe>
 
 Dave Hrynkiw, Mark W. Tilden

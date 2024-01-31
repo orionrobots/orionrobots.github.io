@@ -41,5 +41,7 @@ By Mario Ferrari, Giulio Ferrari
 
 If you have the RCX then this is a must for an absolute beginner. It will give you more to do when you have finished the constructopedia.
 
+(paid links)
+
 <iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&amp;OneJS=1&amp;Operation=GetAdHtml&amp;MarketPlace=GB&amp;source=ss&amp;ref=as_ss_li_til&amp;ad_type=product_link&amp;tracking_id=orionrobots-21&amp;marketplace=amazon&amp;region=GB&amp;placement=1931836620&amp;asins=1931836620&amp;linkId=0fad662144b092e14f2d11651475ea82&amp;show_border=true&amp;link_opens_in_new_window=true">
 </iframe>

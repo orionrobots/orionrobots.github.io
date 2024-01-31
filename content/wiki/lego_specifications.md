@@ -5,7 +5,7 @@ tags: ["lego technic dimensions", "lego technic dimensions mm", "lego technic sp
 "lego engineering", "lego technic gears"]
 using_mathjax: true
 ---
-When building machines and robots with Lego, dimension specifications for the standard bricks are handy. This will help designing models, and interfacing Technic Lego with other materials.
+When building machines and robots with Lego, dimension specifications for the standard bricks are handy. This will help designing models, and interfacing Technic Lego with other materials. This article contains paid links.
 
 ## Lego Brick and Plate Ratios
 

@@ -21,9 +21,13 @@ Horizon is also selling $50 education fuel cell kits, and hopes to place them in
 
 ## The Kit I bought
 
+(paid links)
+
 <iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=GB&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=orionrobots-21&marketplace=amazon&region=GB&placement=B000YQ4IG2&asins=B000YQ4IG2&linkId=a0bbaf29197b9c451e08a73e598d3e6d&show_border=true&link_opens_in_new_window=true"></iframe>
 
 ## Some Alternatives
+
+(paid links)
 
 <iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=GB&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=orionrobots-21&marketplace=amazon&region=GB&placement=B000Z9C8O2&asins=B000Z9C8O2&linkId=0453c702ab3b9db30e33e3d5444fc3b4&show_border=true&link_opens_in_new_window=true"></iframe>
 

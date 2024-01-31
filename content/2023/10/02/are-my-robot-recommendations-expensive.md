@@ -84,6 +84,8 @@ There are careful considerations in the recommendations for the robots I make in
 
 ## About My robotics books
 
+(paid links)
+
 If you would like to try out one of these robot builds, I recommend [Robotics at Home With Raspberry Pi Pico](https://packt.link/5swS2) for a beginner friendly robot build, available from Packt Publishing, Amazon and other book sellers.
 
 

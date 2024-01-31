@@ -50,5 +50,7 @@ Please share any general [Lego](/wiki/lego.html "The best known construction toy
 </p>
 <p>I prefer to use fishing tackle boxes and Ziploc bags for smaller parts, and stackable boxes for larger parts. I also use the CyberMaster metal carry case for storing most of my electrical and pneumatic parts. I recommend looking at the Games Workshop cases for carrying Lego robots into events. They have room to pad and store the bot, as well as ample room to store a few spare pieces.
 </p>
+(paid links)
+
 <p>{AMAZONSELFOPTLINK(pub=&gt;orionrobots-21)/}
 </p>

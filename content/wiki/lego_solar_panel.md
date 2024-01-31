@@ -10,6 +10,8 @@ It's true. [Lego](/wiki/lego.html "The best known construction toy") really have
 
 In 2023, Lego have a set that adds on to the Lego technic power functions and Mindstorms EV3 series. Included is a solar panel, wind power turbine blades, an electric motor which can be used as a generator, an energy monitor and lights to power from the generated electricity. The kit includes instructions for building and experimentation.
 
+(paid links)
+
 <iframe sandbox="allow-popups allow-scripts allow-modals allow-forms allow-same-origin" style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=orionrobots05-20&language=en_US&marketplace=amazon&region=US&placement=B004LIGZOW&asins=B004LIGZOW&linkId=b85acc5bdf7a9c8023ee7321934d642b&show_border=true&link_opens_in_new_window=true"></iframe>
 
 ## 2005 Lego Dacta Solar Panel

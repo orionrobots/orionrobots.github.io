@@ -14,7 +14,7 @@ tags:
 - learn robotics programming
 title: Learn Robotics Programming 2nd Edition - Hardware Shopping List
 ---
-The [second edition of Learn Robotics Programming](http://packt.live/2XccaKe) is now for sale. Readers have been asking for a shopping list for this book. This is for the robot hardware components. I can follow up with a tools article if necessary.
+The [second edition of Learn Robotics Programming](http://packt.live/2XccaKe) is now for sale. Readers have been asking for a shopping list for this book. This is for the robot hardware components. I can follow up with a tools article if necessary. This article has paid links.
 
 I'll try to pick outlets that ship internationally, although I am aware that many countries may have local vendors that can get far better deals. Let me know [on twitter](https://twitter.com/orionrobots).
 
