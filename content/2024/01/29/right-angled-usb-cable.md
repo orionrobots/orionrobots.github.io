@@ -5,7 +5,7 @@ date: 2024-01-29 00:00:00
 description: USB cable change for the Piwars 2024 robot
 thumbnail:  content/2024/01/29/piwars-robot-usb-connection-after.JPG
 ---
-Oue robot for Piwars 2024, Big Ole Yellow, has a USB cable between the Raspberry Pi and the Pimoroni Yukon, for programming and communicating with the Micropython code running on the RP2040.
+Our robot for Piwars 2024, Big Ole Yellow, has a USB cable between the Raspberry Pi and the Pimoroni Yukon, for programming and communicating with the Micropython code running on the RP2040.
 
 The original cable had two issues:
 

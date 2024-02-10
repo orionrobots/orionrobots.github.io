@@ -5,7 +5,7 @@ description: The trouble I'm having with the batteries for my PiWars robot
 date: 2024-01-27
 thumbnail: content/2024/01/27/battery-charging-issues.JPG
 ---
-So our robot is wired up, and oin a bench power supply, and we have things driving as of last week via the Yukon. Exciting. However, when we tried to switch over to independent power for the motors, it ran out pretty soon. The robot's motor power is based ona  bank of 6 NiMH AA's, and it is in my roadmap to replace that with 18650's, but until then, keeping these charged is an important part of maintenance.
+So our robot is wired up, and on a bench power supply, and we have things driving as of last week via the Yukon. Exciting. However, when we tried to switch over to independent power for the motors, it ran out pretty soon. The robot's motor power is based ona  bank of 6 NiMH AA's, and it is in my roadmap to replace that with 18650's, but until then, keeping these charged is an important part of maintenance.
 
 ![Big Ole Yellow Battery Box](/2024/01/27/big-ole-yellow-motor-battery-box.JPG)
 
