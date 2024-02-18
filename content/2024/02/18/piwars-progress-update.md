@@ -34,7 +34,7 @@ Todo list for improving manual driving:
 
 ## Chassis and parts
 
-The chassis CAD was originally in Fusion 360, with parts imported into FreeCAD for future proofing. However, when making the Yukon mounting plate, we found that some of the important holes for the chassis was off.
+The chassis CAD was originally in Fusion 360, with parts imported into FreeCAD for future proofing. However, when making the Yukon mounting plate, we found that some of the important holes for the chassis were off.
 
 ![Close up of the CAD problem on real robot](close-up-of-cad-problem.jpeg)
 
