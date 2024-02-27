@@ -56,10 +56,11 @@
      inkscape:cy="159.64656"
      inkscape:window-width="1752"
      inkscape:window-height="1173"
-     inkscape:window-x="1213"
-     inkscape:window-y="215"
+     inkscape:window-x="0"
+     inkscape:window-y="30"
      inkscape:window-maximized="0"
-     inkscape:current-layer="svg447" />
+     inkscape:current-layer="svg447"
+     inkscape:export-bgcolor="#ffffffff" />
   <g
      partID="854498290"
      id="g447"
@@ -145,6 +146,7 @@
        r="1.19679" />
   </g>
 </g>
+
 7   <g
    transform="translate(-0.199995,-3.83215e-4)"
    id="g13">
