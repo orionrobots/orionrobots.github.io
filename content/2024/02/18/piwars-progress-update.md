@@ -48,7 +48,7 @@ There is a line following accessory, however, the mount for this doesn't work as
 
 Todo list for improving the chassis and parts:
 
-- Fix the CAD so holes align properly ont he chassis.
+- Fix the CAD so holes align properly on the chassis.
 - Make the upper hull design and integrate the universal mount.
 - Mount the nerf gun turret on the universal mount.
 - Design and print the grab and lift mechanism.
