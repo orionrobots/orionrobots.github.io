@@ -3,6 +3,7 @@ title: Debugging electronic circuits
 description: How to debug things when electronics misbehave
 tags: [robot electronics, robot building, electronics, raspberry pi, raspberry pi pico]
 date: 2024-02-24
+thumbnail: content/2024/02/24/probing-voltages.png
 ---
 I recently have had a reader having trouble with the electronics in Robotics at Home with Raspberry Pi Pico.
 I've been assisting them, and thought I'd share my tips on making electronic systems work.
@@ -43,6 +44,11 @@ A visual inspection should show you where there are exposed terminals.
 
 The breadboard rails are the long lines marked red and blue/or black on the breadboard.
 
+The next image shows breadboard layout:
+
+{% img_responsive "content/2024/02/24/breadboard.png", "Breadboard rails" %}
+
+The image has a breadboard, with some rows highlighted in green. Top and bottom are physical power rails, with their green highlights showing which pins are interconnected.
 
 ### Terminology: regulator
 
@@ -75,6 +81,8 @@ There should be no continuity between any power lines of different power rails.
 Choose some suitable pins that should be connected, and use those as test points.
 
 Short circuits between GND and any voltage, or between higher and lower voltage rails can cause major problems, heat, melting wires, blown components, even smoke and fire.
+
+{% img_responsive "content/2024/02/24/probing-voltages.png", "Probing voltages" %}
 
 You need to try the pairs across all the different power levels: GND and 5v, GND and 3v, GND and motor power (12v?), 3v and 5v, 5v and 12v, 3v and 12v.
 None of them should have continuity between them.
