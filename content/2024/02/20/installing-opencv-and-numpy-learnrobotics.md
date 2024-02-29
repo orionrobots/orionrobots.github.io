@@ -15,7 +15,7 @@ When installing numpy, and openCV, skip the installations in the book and do onl
 ```bash
 $ sudo apt-get install python3-numpy python3-opencv
 $ sudo apt-get install opencv-data
-$ find . -name "haarcascade_frontalface_default.xml"
+$ find /usr -name "haarcascade_frontalface_default.xml"
 ./share/opencv4/haarcascades/haarcascade_frontalface_default.xml
 ```
 
