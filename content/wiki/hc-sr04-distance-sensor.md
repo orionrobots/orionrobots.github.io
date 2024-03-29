@@ -21,6 +21,6 @@ With two HC-SR04 sensors you can make robots that can avoid obstacles directiona
 
 This is what can be done with 2 of these, a few spare bits and an Explorer 1 kit:
 
-{% include youtube_responsive src="https://www.youtube.com/embed/ElXsXAcqrUE" %}
+{% include youtube_responsive, src:"https://www.youtube.com/embed/ElXsXAcqrUE" %}
 
 Read this to work with it and an Arduino: [Arduino Basics: HC-SR04 Ultrasonic Sensor](http://arduinobasics.blogspot.co.uk/2012/11/arduinobasics-hc-sr04-ultrasonic-sensor.html)
