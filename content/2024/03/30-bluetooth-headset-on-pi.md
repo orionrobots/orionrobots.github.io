@@ -229,3 +229,4 @@ There are a lot of confusing terms in the bluetooth audio stack that I had to ge
 - [Bluetoothctl manual page](https://manpages.org/bluetoothctl)
 - [BlueDot guide to pairing on the Pi](https://bluedot.readthedocs.io/en/latest/pairpipi.html#using-the-command-line) - I found this a great guide to get started on pairing at all.
 - [BlueAlsa Plugins](https://manpages.debian.org/unstable/libasound2-plugin-bluez/bluealsa-plugins.7.en.html) - Good reference for things after the colon with the bluealsa device.
+- [Source of the HCI Tool Part](https://youness.net/raspberry-pi/how-to-connect-bluetooth-headset-or-speaker-to-raspberry-pi-3) - I found this tutorial that has the HCI Tool command that is needed to get the microphone working. Note the rest of the how to is based on pulseaudio, not ALSA.
