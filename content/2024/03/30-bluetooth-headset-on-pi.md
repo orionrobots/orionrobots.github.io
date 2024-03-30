@@ -2,6 +2,7 @@
 title: Connecting a Bluetooth Headset to a Raspberry Pi Running OS Lite
 date: 2024-03-30
 tags: [raspberry pi, bluetooth, audio]
+thumbnail: content/2024/03/30-bluetooth-headset-on-pi.webp
 ---
 I have a Raspberry Pi 4, running Raspberry Pi OS Lite, bookworm. I wanted to connect a bluetooth headset to it so I can record and playback. I needed to get the speakers and microphone working. This is handy for a DIY project like a voice assistant.
 
