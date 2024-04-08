@@ -4,7 +4,7 @@ date: 2024-04-07
 tags: [piwars, big-ole-yellow, robot-building, robotics-at-home, raspberry pi, raspberry pi pico, servo motor, mqtt, react-native]
 thumbnail: content/2024/04/07-piwars-disaster-nerf-turret/big-ole-yellow-with-dpad.JPG
 ---
-This week, Danny finally finished printing the FreeCAD designed parts to mount the Nerf Turret onto Big Ole Yellow <Note to self - pictures!>, using the shiny new BambuLabs A1 Mini printer to get really smooth prints, no warping and warp speed.
+This week, Danny finally finished printing the FreeCAD designed parts to mount the Nerf Turret onto Big Ole Yellow, using the shiny new BambuLabs A1 Mini printer to get really smooth prints, no warping and warp speed.
 
 ## New 3D Printer
 
