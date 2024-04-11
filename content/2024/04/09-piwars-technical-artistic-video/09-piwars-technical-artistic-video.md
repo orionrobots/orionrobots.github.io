@@ -1,7 +1,7 @@
 ---
 title: Technical and Artistic presentation video for PiWars 2024
 date: 2024-04-09
-tags: [piwars, big-ole-yellow, robot-building, robotics-at-home, raspberry pi, raspberry pi pico, servo motor, mqtt, react-native]
+tags: [piwars, big-ole-yellow, robot-building, robotics-at-home, raspberry pi, raspberry pi pico, servo motor, mqtt, react-native, piwars 2024]
 thumbnail: content/2024/04/09-piwars-technical-artistic-video/big-ole-yellow-thumbnail.png
 ---
 This is a short 5 minute video showcasing the technical and design aspects of Big Ole Yellow (which is mostly granite red) for PiWars 2024.
