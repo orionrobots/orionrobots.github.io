@@ -7,7 +7,7 @@ I was asked how I know what all the wires are when I'm working on, or are lookin
 
 Here's the big secret, I don't!
 
-I rely on a few important things to help me figure out what the wires are for:
+I rely on a few important things to help me figure out or remember what the wires are for:
 
 1. Diagrams - I'll make sketches, they could be biro scribbles, schematics in CAD or quick drawings in any drawing tool. These can then serve as a map of the wiring to look at later, or wire by. I put pin names or numbers by them.
 2. Labels or pin names on the robot - I've stuck sticky labels on, if the PCB's don't have pins labelled on them to help myself.
