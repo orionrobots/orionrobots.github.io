@@ -176,4 +176,6 @@ Danny decided to make a "Servo tweaker". After inspiration, Danny built a simple
 
 ## Conclusion
 
-We now have an attachment that works, with the tuned code to control it, and cna lift and grab a barrel. We'll post video of that at some point.
+We now have an attachment that works, with the tuned code to control it, and cna lift and grab a barrel. See it in action in the video below:
+
+{% include youtube_responsive, src:"https://www.youtube.com/embed/F7Jf_tWzcz0?si=IH5G2t7vPUtwaGY9" %}
