@@ -13,7 +13,7 @@ This in an interesting development. It may be that this is simply an accident ca
 
 <div style=" width:702px;">
   <a href="http://www.brickshelf.com/cgi-bin/gallery.cgi?i=514060" title="The touch sensor test RIG">
-   <img alt="The touch sensor test RIG" src="/galleries/2006-02-24-rcx-switches-used-analog/touchtest1.jpg" title="The touch sensor test RIG"/></a>
+   <img alt="The touch sensor test RIG" src="https://brickshelf.com/gallery/Philo/Touch/touchtest1.jpg" title="The touch sensor test RIG"/></a>
   <div class="mini" style="width:700px;">
    <div class="thumbcaption">The touch sensor test RIG</div>
   </div>
@@ -23,7 +23,7 @@ This test allowed Philo to gain fine control of the placement of the threaded ax
 
 <div style=" width:702px;">
   <a href="http://www.brickshelf.com/cgi-bin/gallery.cgi?i=514058" title="A Closeup of the RIG">
-   <img alt="A Closeup of the RIG" src="/galleries/2006-02-24-rcx-switches-used-analog/touchtest2.jpg" title="A Closeup of the RIG"/></a>
+   <img alt="A Closeup of the RIG" src="https://brickshelf.com/gallery/Philo/Touch/touchtest2.jpg" title="A Closeup of the RIG"/></a>
   <div class="mini" style="width:700px;">
    <div class="thumbcaption">A Closeup of the RIG</div>
   </div>
@@ -33,7 +33,7 @@ If you look at the closeup, there is a nut (threaded bush) on the threaded axle 
 
 <div style=" width:673px;">
   <a href="http://www.brickshelf.com/cgi-bin/gallery.cgi?i=514059" title="Graph of results">
-   <img alt="Graph of results" src="/galleries/2006-02-24-rcx-switches-used-analog/resist_vs_displ.gif" title="Graph of results"/>
+   <img alt="Graph of results" src="https://brickshelf.com/gallery/Philo/Touch/resist_vs_displ.gif" title="Graph of results"/>
   </a>
   <div class="mini" style="width:671px;">
    <div class="thumbcaption">Graph of results</div>
