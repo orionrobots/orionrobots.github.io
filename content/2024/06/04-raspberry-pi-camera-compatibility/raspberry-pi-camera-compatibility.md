@@ -85,7 +85,7 @@ Once up and running, the speed was clear. 30 FPS from the camera 2! With a power
 
 This is my first time driving a Raspberry Pi 5. It has a fan module I bought and attached too. The camera port is now the same as the Raspberry Pi Zero series.
 
-{% img_responsive "content/2024/06/04-raspberry-pi-camera-compatiblity/raspberry-pi-5-test-setup.jpg", "Raspberry Pi 5 with Camera Module 3" %}
+{% img_responsive "content/2024/06/04-raspberry-pi-camera-compatibility/raspberry-pi-5-test-setup.jpg", "Raspberry Pi 5 with Camera Module 3" %}
 
 The Raspberry Pi 5 is really quick to boot! It does complain about the power supply, an official Raspberry pi USB-C Power supply, but perhaps intended for a Raspberry Pi 4. It said not capable of supplying 5a, s some hardware would be Restricted.
 
