@@ -17,5 +17,7 @@ At this stage - OrionRobots is not aware of any [CAD](/wiki/cad.html "Computer A
 - [FischerTechnik Robotics](https://www.fischertechnik.de/en/products/playing/robotics)
 - <http://www.fischertechnik.de> - FischerTechnik Home
 
+(paid links)
+
 <iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=GB&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=orionrobots-21&language=en_GB&marketplace=amazon&region=GB&placement=B004SWVRSU&asins=B004SWVRSU&linkId=8b2b85ee922f7e0f5ad6ad2889a4bd0f&show_border=true&link_opens_in_new_window=true"></iframe>
 <iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=GB&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=orionrobots-21&language=en_GB&marketplace=amazon&region=GB&placement=B00TWFTYKG&asins=B00TWFTYKG&linkId=c0932d46d0e78ce5cd5c91188537b175&show_border=true&link_opens_in_new_window=true"></iframe>

@@ -17,5 +17,7 @@ It is worth noting that many of the [construction toys](/wiki/construction_toy.h
 
 The important aspects of a P-Brick are reusability, easy structural and electronic interfacing, a decent array of sensors and actuators in the system, and a progressive programming system - that is - a simple one to get kids started, and an advanced one like [NQC](/wiki/nqc.html "Not Quite C - A Lego PBrick Programming Language") for more advanced tasks.
 
+(paid links)
+
 <iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=GB&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=orionrobots-21&language=en_GB&marketplace=amazon&region=GB&placement=B082WD5YV9&asins=B082WD5YV9&linkId=1f1be6197ba0e5e7348f6ca846de2d92&show_border=true&link_opens_in_new_window=true"></iframe>
 <iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=GB&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=orionrobots-21&language=en_GB&marketplace=amazon&region=GB&placement=B004SWVRSU&asins=B004SWVRSU&linkId=90bf41d97340981920cd15a215e766f8&show_border=true&link_opens_in_new_window=true"></iframe>

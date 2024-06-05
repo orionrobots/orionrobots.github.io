@@ -26,4 +26,6 @@ You will need a capacitor to store power, and an output channel going back down 
 
 The best explanation is probably at <http://www.philohome.com/sensors/legorot.htm>.
 
+(paid link)
+
 <iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=GB&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=orionrobots-21&language=en_GB&marketplace=amazon&region=GB&placement=B082WD5YV9&asins=B082WD5YV9&linkId=e6031a2f307d66e1f776c2f804796727&show_border=true&link_opens_in_new_window=true"></iframe>

@@ -48,7 +48,7 @@ $body-bg: #fff;
 // @import "~bootstrap/scss/offcanvas";
 
 // Helpers
-// @import "~bootstrap/scss/helpers";
+@import "~bootstrap/scss/helpers";
 
 // 7. Optionally include utilities API last to generate classes based on the Sass map in `_utilities.scss`
 @import "~bootstrap/scss/utilities/api";

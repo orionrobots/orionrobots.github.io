@@ -8,6 +8,8 @@ This is a basic spinning [motor](/wiki/motor.html "Motor"). It might be referred
 
 It is operated by a [Direct Current](/wiki/direct_current.html "Direct Current") and rotates in a direction set by the polarity of the current. Using [PWM](/wiki/pwm) with an h-bridge is a great to control the speed of DC motors.
 
+(paid links)
+
 <iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=GB&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=orionrobots-21&language=en_GB&marketplace=amazon&region=GB&placement=B08126TLL2&asins=B08126TLL2&linkId=aef6111948d722446496a12624867ded&show_border=true&link_opens_in_new_window=true"></iframe>
 <iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=GB&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=orionrobots-21&language=en_GB&marketplace=amazon&region=GB&placement=B08J48SQ1Q&asins=B08J48SQ1Q&linkId=05bdc3eac0430ad6747129a0e30079af&show_border=true&link_opens_in_new_window=true"></iframe>
 

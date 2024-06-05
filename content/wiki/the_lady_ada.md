@@ -42,6 +42,8 @@ She was also one of the first people to envisage the use of computers in composi
 
 ## Bibliography
 
+(paid links)
+
 ### The Calculating Passion of Ada Byron
 
 #### Joan Baum (Archon Books), 1986

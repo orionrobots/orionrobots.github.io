@@ -14,6 +14,8 @@ He has spikes and ribs for armour, with some mesh to fend off lighter blows. The
 
 He has been known to loose his cutting wheel - sending it flying across the arena before.
 
+(paid links)
+
 <table class="normal" id="fancytable_1">
 <tr> <td> <iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=GB&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=orionrobots-21&marketplace=amazon&region=GB&placement=B00006G9Y0&asins=B00006G9Y0&linkId=522f3398c19da50ce464bc23c4ac55f1&show_border=true&link_opens_in_new_window=true"></iframe> </td> <td> Robot Wars DVD Box Set </td> <td> If you are a real fan, you would probably want to get to know these robots well. The DVD's feature huge numbers of battles, as well as under the hood and many extras. If you are building - you could use this to your advantage to study the weapons, weaknesses and strategies of other teams.</td> </tr>
 <tr> <td> <iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=GB&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=orionrobots-21&marketplace=amazon&region=GB&placement=B00008UEMW&asins=B00008UEMW&linkId=445ff5d6125b452070afb984f025f761&show_border=true&link_opens_in_new_window=true"></iframe> </td>

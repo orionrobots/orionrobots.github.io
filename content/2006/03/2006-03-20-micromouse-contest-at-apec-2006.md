@@ -26,4 +26,6 @@ I would love to attend, but I am going to be in London, UK, and will keep up wit
 * [MicroMouse USA](http://micromouseusa.com/?p=2103)
 * [Micromouse Online](http://www.micromouseonline.com/events/apec-2018-micromouse-contest/)
 
+(paid links)
+
 <iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=GB&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=orionrobots-21&language=en_GB&marketplace=amazon&region=GB&placement=B082WD5YV9&asins=B082WD5YV9&linkId=75cbb40f8dd28c5b84d540cdd12f14a3&show_border=true&link_opens_in_new_window=true"></iframe><!-- Midnstorms review 2021 -->

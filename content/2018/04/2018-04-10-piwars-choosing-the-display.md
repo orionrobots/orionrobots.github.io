@@ -22,6 +22,8 @@ Next are the various Neopixel types. There are at least 3 I'm interested in for 
 
 ## Microview Pros and Cons
 
+(paid links)
+
 <iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=GB&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=orionrobots-21&marketplace=amazon&region=GB&placement=B01BHGY8WG&asins=B01BHGY8WG&linkId=ebe16757621db1faa99f2235f655ad4f&show_border=true&link_opens_in_new_window=true"></iframe>
 
 ### Pros
@@ -58,6 +60,8 @@ Next are the various Neopixel types. There are at least 3 I'm interested in for 
 * They will need a resistor each.
 * Very low resolution - probably only a few LED's here and there.
 
+(paid links)
+
 <iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=GB&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=orionrobots-21&marketplace=amazon&region=GB&placement=B06X3VT6TD&asins=B06X3VT6TD&linkId=e01dc17c735ca3e08af826a36c18bebf&show_border=true&link_opens_in_new_window=true"></iframe>
 
 ## Neopixels
@@ -86,6 +90,8 @@ The defining features of them is that they are colourful, daisy-chainable LED co
 There are strips that come on reels, and strips that also come in rigid bar form.
 These are very adaptable.
 
+(paid links)
+
 <iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=GB&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=orionrobots-21&marketplace=amazon&region=GB&placement=B01CFTBESA&asins=B01CFTBESA&linkId=0c07df8bf63fbaaf137f08a02d1b91c3&show_border=true&link_opens_in_new_window=true"></iframe>
 
 <iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=GB&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=orionrobots-21&marketplace=amazon&region=GB&placement=B01BQ7Z0KA&asins=B01BQ7Z0KA&linkId=86c390d690a0d117807c2d59eb76d5c8&show_border=true&link_opens_in_new_window=true"></iframe>
@@ -107,6 +113,8 @@ These are very adaptable.
 
 These are Neopixels in a round format - they are a ring, with another neopixels in the middle.
 
+(paid links)
+
 <iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=GB&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=orionrobots-21&marketplace=amazon&region=GB&placement=B07115YZVQ&asins=B07115YZVQ&linkId=e422e22e7bb1de3c928dff9d1efbdded&show_border=true&link_opens_in_new_window=true"></iframe>
 
 #### Pros
@@ -122,6 +130,8 @@ These are Neopixels in a round format - they are a ring, with another neopixels 
 ### Neopixel panel
 
 Neopixels can be arranged in a grid setup. There are different sizes, and large panels. And they can still be daisy chained to form giant channels.
+
+(paid links)
 
 <iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=GB&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=orionrobots-21&marketplace=amazon&region=GB&placement=B01MCV0MSU&asins=B01MCV0MSU&linkId=dcc44f3444760992beb3e03157a8bc74&show_border=true&link_opens_in_new_window=true"></iframe>
 

@@ -23,6 +23,8 @@ They are often used in spinning disk drives, printers and scanners for moving pr
 
 Having [odometry](/wiki/odometry.html "Measurement of distance through step/rev counting") systems with geared DC motors, is an alternative found in many robots.
 
+(paid links)
+
 <iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=GB&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=orionrobots-21&language=en_GB&marketplace=amazon&region=GB&placement=B087BYKB6T&asins=B087BYKB6T&linkId=3d581b4b4b900d79dc7950499d4ddf4e&show_border=true&link_opens_in_new_window=true"></iframe>
 
 ## Related notes

@@ -19,7 +19,7 @@ gallery:
             alt: Front view of the Arduino Leonardo Controlling This Robot
         -
             src: galleries/orion-explorer-1-bluetooth-rc-robot-kit/hc-06-bt-front-side.jpg
-            alt: Front View Of the HC-06 Bluetooth Slave module            
+            alt: Front View Of the HC-06 Bluetooth Slave module
 ---
 The solderless easy to construct and modify Orion Explorer robot 1 kit is a good start for any robotics project or fun. However - pair it with a bluetooth module and it becomes a robot you can drive from your phone or tablet!
 
@@ -29,8 +29,8 @@ The kit includes the standard Explorer 1 Robot platform with four wheel drive mo
 
 It uses the HC-06 bluetooth serial module - a simple device that allows sending serial data to and from the robot. This means you can add other sensors, and read those from it.
 
-<a href="http://www.orionrobots.co.uk/construction_guide.html">How to build this robot</a>
+<a href="/construction_guide.html">How to build this robot</a>
 
-<a href="http://www.orionrobots.co.uk/explorer_arrow_control.html">How to install the Bluetooth Module and program it</a>
+<a href="/explorer_arrow_control.html">How to install the Bluetooth Module and program it</a>
 
 Supported computers are Windows, Linux and OSX running the Arduino IDE.

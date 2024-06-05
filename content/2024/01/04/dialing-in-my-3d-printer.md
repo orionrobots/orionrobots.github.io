@@ -13,7 +13,6 @@ My current 3D printer is a FlashForge finder with a 10cm by 10cm build volume, w
 
 {% img_responsive "content/2024/01/04/all-the-3dprinting-tests.JPG", "All the 3D printing tests" %}
 
-
 ## Experiments tuning the mounting plate
 
 The mounting plate is essentially a flat part, but needing to be precisely flat, with a few bolt holes, a slot for wires, and a slot for an SG90/MG90 servo motor. The idea is that I could mate attachments with it.

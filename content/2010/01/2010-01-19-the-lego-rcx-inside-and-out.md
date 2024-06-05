@@ -44,6 +44,8 @@ In addition to the default programming language, XCode, the RCX could be program
 
 The Lego RCX is no longer available, but there are many books on the subject worth reading, as well as accessories, and even some to allow the newer NXT controller to be used with kit from the RCX generation.
 
+(paid links)
+
 <div class="media">
     <div class="media-left">
 <iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=GB&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=orionrobots-21&marketplace=amazon&region=GB&placement=159749089X&asins=159749089X&linkId=2f96480b45a8b0c87b5bdaf794f1177f&show_border=true&link_opens_in_new_window=true"></iframe>
@@ -51,6 +53,8 @@ The Lego RCX is no longer available, but there are many books on the subject wor
 
 Stacked with ideas to get more from an RCX kit with concepts that translate to later revisions and other Lego kits.
 </div></div>
+
+(paid links)
 
 <div class="media">
     <div class="media-left">
@@ -194,6 +198,8 @@ That said, you may wish to wear an anti static band to reduce your the low chanc
 ### Tools and Items recommended For Opening The RCX
 
 These items will help you to open up and look inside an RCX. Make sure you don't skimp on the tools, or the safety gear.
+
+(paid links)
 
 <table class="prodtable">
 <tr><td><a href="https://www.amazon.co.uk/gp/product/B002V4ULHU/ref=as_li_ss_il?ie=UTF8&linkCode=li2&tag=orionrobots-21&linkId=d95a3225cc85d7064814dd2291723546&language=en_GB" target="_blank"><img border="0" src="//ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B002V4ULHU&Format=_SL160_&ID=AsinImage&MarketPlace=GB&ServiceVersion=20070822&WS=1&tag=orionrobots-21&language=en_GB" ></a><img src="https://ir-uk.amazon-adsystem.com/e/ir?t=orionrobots-21&language=en_GB&l=li2&o=2&a=B002V4ULHU" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /></td><td><h3> A flat-head jewellers screwdriver. </h3>

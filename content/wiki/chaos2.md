@@ -14,6 +14,8 @@ It used [pneumatic](/wiki/pneumatic.html "Use of air to operate and power actuat
 
 I wonder what George Francis will be doing next?
 
+(paid links)
+
 <table class="normal" id="fancytable_1"> <tr>
 <td><iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=GB&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=orionrobots-21&marketplace=amazon&region=GB&placement=B00006G9XY&asins=B00006G9XY&linkId=ebc2a2065efee034c00dfafdcf288752&show_border=true&link_opens_in_new_window=true"></iframe></td>
 <td> Robot Wars - Chaos 2 </td>

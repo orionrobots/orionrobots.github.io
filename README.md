@@ -21,3 +21,14 @@ docker compose up web
 Attaching to orionrobotsgithubio-web-1
 orionrobotsgithubio-web-1  | ruby 3.1.1p18 (2022-02-18 revision 53f5fc4236) [x86_64-linux-musl]
 ```
+
+## Running serve and build in docker
+
+```bash
+docker compose run  --interactive --rm serve npm install
+docker compose run --interactive --rm  serve npm run dev
+docker compose up serve
+```
+
+Get a bash prompt with `docker compose run --interactive serve bash`
+

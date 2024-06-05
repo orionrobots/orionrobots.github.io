@@ -30,5 +30,7 @@ The gait is the walking method of the robot. You could visualise it like dancing
 
 Some robots go for 8 or more Legs, and I have indeed seen millipede robots. There are a few uses for these - such as tunnel crawling and similar.
 
+(paid links)
+
 <iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=GB&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=orionrobots-21&language=en_GB&marketplace=amazon&region=GB&placement=B0777L8S3Q&asins=B0777L8S3Q&linkId=40c5f411b237d9cd099bcb3178447e30&show_border=true&link_opens_in_new_window=true"></iframe>
 <iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=GB&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=orionrobots-21&language=en_GB&marketplace=amazon&region=GB&placement=B07FLXFDZ1&asins=B07FLXFDZ1&linkId=1ffb3547048718ed5e0a88d7f0e5ea96&show_border=true&link_opens_in_new_window=true"></iframe>

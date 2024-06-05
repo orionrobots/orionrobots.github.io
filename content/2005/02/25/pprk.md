@@ -16,5 +16,7 @@ The kit requires some soldering, and glueing.
 
 [Robot Kits](/wiki/robot_kits.html "Robot Kits")
 
+(paid links)
+
 <iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=GB&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=orionrobots-21&language=en_GB&marketplace=amazon&region=GB&placement=B08LLGWV24&asins=B08LLGWV24&linkId=f1f412bb99e4a5acc1e937cd3ccc9d22&show_border=true&link_opens_in_new_window=true"></iframe>
 <iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=GB&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=orionrobots-21&language=en_GB&marketplace=amazon&region=GB&placement=B01M6YHRJ4&asins=B01M6YHRJ4&linkId=13c5cc5c73c5a8cf3683f7377ded463b&show_border=true&link_opens_in_new_window=true"></iframe>

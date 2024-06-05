@@ -26,6 +26,8 @@ I suspect we may see similar things with the NXT, possibly using bluetooth with 
 * [VEX robot from radio shack](/forums/vex/vex_robot_from_radio_shack/)
 * [VEX robotics questions](/forums/vex/vex_robotics_questions)
 
+(paid links)
+
 <iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=GB&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=orionrobots-21&marketplace=amazon&region=GB&placement=B00TV0S480&asins=B00TV0S480&linkId=760236406f4e6683d9425cafd72b085b&show_border=true&link_opens_in_new_window=true"></iframe>
 
 <iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=GB&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=orionrobots-21&marketplace=amazon&region=GB&placement=B01G5RI0KS&asins=B01G5RI0KS&linkId=241ccdbe18987965b17f31e84e18284c&show_border=true&link_opens_in_new_window=true"></iframe>

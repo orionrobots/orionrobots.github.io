@@ -19,6 +19,8 @@ Because of her low weight, she has been flipped a few times as well.
 
 Her design is reminiscent of a triceratops crossed with a stegosaurus - although her collar has a slight hint of Ming The Merciless.
 
+(paid links)
+
 <table class="table">
 <tr> <td> <a class="internal" href="http://www.amazon.co.uk/exec/obidos/ASIN/B00006BT9P/orionrobots-21" target="_blank"> <img class="img-responsive" src="https://images-na.ssl-images-amazon.com/images/I/A15hpQ54BBL._SY679_.jpg"/> </a> </td> <td> <a href="http://www.amazon.co.uk/exec/obidos/ASIN/B00006BT9P/orionrobots-21" rel="external" target="_blank">Robot Wars - Sir Killalot And The House Robots</a> </td> <td> See her best (and worst) moments, with the other house robots in this excellent DVD.</td> </tr>
 <tr> <td> <a class="internal" href="http://www.amazon.co.uk/exec/obidos/ASIN/B00006G9Y0/orionrobots-21" target="_blank"> <img class="img-responsive" src="https://images-na.ssl-images-amazon.com/images/I/51Y7F6MA4XL.jpg"/> </a> </td> <td> <a href="http://www.amazon.co.uk/exec/obidos/ASIN/B00006G9Y0/orionrobots-21" rel="external" target="_blank">Robot Wars DVD Box Set</a> </td> <td> If you are a real fan, you would probably want to get to know all the robots well. The DVD's feature huge numbers of battles, as well as under the hood and many extras. If you are building - you could use this to your advantage to study the weapons, weaknesses and strategies of other teams.</td> </tr>

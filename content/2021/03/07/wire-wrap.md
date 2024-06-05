@@ -16,7 +16,7 @@ When building robots with many sensors and actuators, it's not hard for the wiri
 * It looks really untidy.
 * A wiry mess makes it more likely to make a wiring mistake.
 
-So there are a number of ways to control this mess.
+So there are a number of ways to control this mess. This article has paid links.
 
 ## Cable Ties
 

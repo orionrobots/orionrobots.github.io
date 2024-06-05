@@ -10,7 +10,7 @@
     "stats": "webpack -c webpack.config.js --profile --json > stats.json",
     "stats-cli": "webpack-bundle-analyzer stats.json",
     "11ty": "npx @11ty/eleventy --quiet",
-    "serve": "npx @11ty/eleventy --serve --quiet",
+    "serve": "npx @11ty/eleventy --serve --quiet --port 8081",
     "check-missing-tags": "node src/utilities/list-files-without-tags.js"
   },
   "repository": {
@@ -41,7 +41,7 @@
     "mini-css-extract-plugin": "^2.7.7",
     "moment": "^2.30.1",
     "postcss-loader": "^8.0.0",
-    "sass": "^1.69.7",
+    "sass": "^1.71.1",
     "sass-loader": "^14.0.0",
     "slugify": "^1.6.6",
     "source-map-loader": "^5.0.0",

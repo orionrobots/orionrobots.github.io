@@ -32,4 +32,6 @@ This does feel nice and convenient, however has a couple of downsides:
 - These adaptors are priced fairly similarly to the Raspberry Pi Pico itself. However, once you've added headers, uploaded your code and made it your own it isn't quite so expendable.
 - It will add a few centimeters to the port of the Pico so it will stick out more.
 
+(paid links)
+
 <iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=GB&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=orionrobots-21&language=en_GB&marketplace=amazon&region=GB&placement=B071W8WQBD&asins=B071W8WQBD&linkId=05784ed0397ffa0baa914c4d6fec9e10&show_border=true&link_opens_in_new_window=true"></iframe>

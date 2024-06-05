@@ -19,4 +19,6 @@ Taking it apart, the existing sensors could be used with a user customizable mic
 
 Edit 2013: With one of the Arduino compatible controllers, and some [distance sensors](/products/hc-sr04-distance-sensor.html) to interact more with it's surroundings, this might make a great looking base for a robot project.
 
+(paid link)
+
 <iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=GB&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=orionrobots-21&language=en_GB&marketplace=amazon&region=GB&placement=B08HRP66YD&asins=B08HRP66YD&linkId=431432826f5b82164ed10379f5b7a763&show_border=true&link_opens_in_new_window=true"></iframe>

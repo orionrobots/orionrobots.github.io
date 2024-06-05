@@ -27,6 +27,8 @@ Required Basic Tools:
 
 As there are a few different approaches, additional tools are recommended for those.
 
+(paid links)
+
 <iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=GB&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=orionrobots-21&language=en_GB&marketplace=amazon&region=GB&placement=B07FDBW1PT&asins=B07FDBW1PT&linkId=621627f1b54786923da9a0ba65e3bd35&show_border=true&link_opens_in_new_window=true"></iframe>
 <iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=GB&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=orionrobots-21&language=en_GB&marketplace=amazon&region=GB&placement=B001HQMWNY&asins=B001HQMWNY&linkId=7fd4c725dd01fd54dddefe9561b1e697&show_border=true&link_opens_in_new_window=true"></iframe>
 <iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=GB&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=orionrobots-21&language=en_GB&marketplace=amazon&region=GB&placement=B0777F3CNC&asins=B0777F3CNC&linkId=3e5c905595f1cbd65f4800bc0a20744d&show_border=true&link_opens_in_new_window=true"></iframe>
@@ -51,6 +53,8 @@ These may look a bit ugly if on an inline connection, but they can be neatly put
 This is suitable for either low count wire connections, or fairly course things. I'd not recommend it for a 25 or even 10 core cable as they tend to leave quite a wide profile.
 
 You should be able to find these in any hardware store.
+
+(paid link)
 
 <iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=GB&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=orionrobots-21&language=en_GB&marketplace=amazon&region=GB&placement=B08HDC7HMK&asins=B08HDC7HMK&linkId=2126335c8ae17375a290c7b51603f4e8&show_border=true&link_opens_in_new_window=true"></iframe>
 
@@ -77,6 +81,8 @@ Depending on the application (and it most robot cases it will be very low voltag
 ### Alternative - Wago Blocks
 
 An alternative to chop blocks are Wago connectors, which use a snap fitting to close firmly around leads.
+
+(paid link)
 
 <iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=GB&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=orionrobots-21&language=en_GB&marketplace=amazon&region=GB&placement=B08B69R7W3&asins=B08B69R7W3&linkId=67d7edc3c17b2aab23e8cfe53030d2a6&show_border=true&link_opens_in_new_window=true"></iframe>
 
@@ -148,6 +154,8 @@ Many small headphones use these type of cables, in such a way that ensures that 
 Use a multimeter or tester to probing either end of the wire can ensure you have a good connection. It is worth doing this before applying the electricians tape or heat tubing, or in the case of the chop-block before fixing it down.
 
 There is nothing more frustrating than having to remove your heat shrink, or tape just to re-tighten, or replace the connection.
+
+(paid link)
 
 <iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=GB&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=orionrobots-21&language=en_GB&marketplace=amazon&region=GB&placement=B07FDBW1PT&asins=B07FDBW1PT&linkId=621627f1b54786923da9a0ba65e3bd35&show_border=true&link_opens_in_new_window=true"></iframe>
 
