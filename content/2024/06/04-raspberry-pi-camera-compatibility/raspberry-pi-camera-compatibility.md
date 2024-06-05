@@ -52,7 +52,7 @@ Back around the boot loop again with the module 3... - 3 or 4 minutes. `rpicam-h
 
 {% img_responsive "content/2024/06/04-raspberry-pi-camera-compatibility/raspberry-pi-zero-test-setup.jpg", "Raspberry Pi Zero W with Camera Module 3" %}
 
-Lets try a mode... `--mode width:heigh:bit-depth:packing`. Lets try `"640:480:24:P"`. That performed better. Nice. The default 5s is a bit low, let's try 30s. So `--timeout 30sec`. 7.5/10 FPS. And it eventually hung... Hmm. Ok. It's rather hot. It was here I found out about the T command. Also - the hang may also have been the wireless keyboard going to sleep.
+Lets try a mode... `--mode width:heigh:bit-depth:packing`. Lets try `"640:480:24:P"`. That performed better. Nice. It was here I found out about the `-t` timeout command. The default 5s is a bit low, let's try 30s. So `--timeout 30sec`. 7.5/10 FPS. And it eventually hung... Hmm. Ok. It's rather hot. Also - the hang may also have been the wireless keyboard going to sleep.
 
 Table filled though. I need to find a Zero 2 W somewhere. But for now - move to the 3A+.
 
@@ -75,27 +75,27 @@ I got the 3b done nice and quick with no incident and filled the table in. I the
 I have one Raspberry Pi 4 that isn't tied up in a robot project. So I put in an SD card and tried to boot it - nothing was happening. I am using a micro-hdmi to HDMI lead, but no signal. I tried swapping which HDMI port I used, and power off and tried again with the camera. I then note that I don't know what is on the card there. Time to flash a fresh Micro SD and see if that was the problem - as it's not alive.
 It is getting warm. I am using a recommended Raspberry Pi Power supply with USB-C for the 4.
 
-Before I clobber teh SD content, lets try mounting that. I'm in Windows with WSL, so there must be a way to mount this? - Nope, not the EXt partition. Hmm, try that later. It might not be the card.
+Before I clobber the SD content, lets try mounting that. I'm in Windows with WSL, so there must be a way to mount this? - Nope, not the Ext partition. Hmm, try that later. It might not be the card.
 
 I try a fresh card with the same Rpi and see no output. There's activity lights, but no video, perhaps my video setup is incorrect? Nope - turned out my capture card (wired to OBS) needed to have OBS closed, be reseated and OBS started again.
 
-Once up and running, the speed was clear. 30 FPS from the camera 2! With a power off and swapping the camera module 3, it worked well too. I was starting to get a routine to testing these now.
+Once up and running, the speed difference was clear. 30 FPS from the camera 2! With a power off and swapping the camera module 3, the test on the Raspberry Pi 4 worked well too. I was starting to get a routine to testing these now.
 
 ## The Raspberry Pi 5
 
-This is my first time driving a Raspberry Pi 5. It has a fan module I bought and attached too. The camera port is now the same as the Raspberry Pi Zero series.
+This is my first time driving a Raspberry Pi 5. It has an official Raspberry Pi fan module I bought and attached. The camera port is now the same as the Raspberry Pi Zero series.
 
 {% img_responsive "content/2024/06/04-raspberry-pi-camera-compatibility/raspberry-pi-5-test-setup.jpg", "Raspberry Pi 5 with Camera Module 3" %}
 
-The Raspberry Pi 5 is really quick to boot! It does complain about the power supply, an official Raspberry pi USB-C Power supply, but perhaps intended for a Raspberry Pi 4. It said not capable of supplying 5a, s some hardware would be Restricted.
+The Raspberry Pi 5 is really quick to boot! It does complain about the power supply, an official Raspberry pi USB-C Power supply, but perhaps intended for a Raspberry Pi 4. It said the power supply was not capable of supplying 5a, so some hardware would be restricted.
 
-However, this all works really well. both the camera modules test fine getting video framerate for each. I am happy.
+However, this all works really well, and oth the camera modules tested fine getting video for each. I am happy.
 
-Throughout, I've been seeing some tearing in my OBS capture. Setting a higher framerate in OBS, which I'm using to preview it fixed the tearing. Both were at 30 FPS, which would of course make for a bad display.
+Throughout my tests, I've been seeing some tearing in my OBS capture. Setting a higher framerate in OBS, which I'm using to preview it fixed the tearing. Both the camera and my capture settings were at 30 FPS, which would naturally make for a poor display.
 
 ## Table filled
 
-The table is now filled. I thought I had a Raspberry Pi Camera Module 1 - but checking the robots with camera's, none appear to be older than a Camera module 2. So no table content for that.
+The table has now been filled. I thought I had a Raspberry Pi Camera Module 1 - but checking the robots with camera's, none appear to be older than a Camera module 2. So no table content for that.
 In general, for the Camera Module 2 and 3, on a current OS, all are compatible with rpicam-hello. Which means all can capture video and stills.
 
 I hope this is a useful resource for others with Raspberry Pi's and cameras.
