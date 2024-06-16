@@ -24,4 +24,4 @@ We have here SI and imperial references. Remember that these figures may vary sl
 | Force @ 50 psi in lbs(kg)   | 7.24(3.2840)   | 1.45(0.6577)   |
 | Force @ 10 psi in lbs(kg)   | 1.45(0.6577)   | .29(0.1315)    |
 | Displacement in cu. in.(ml) | .159(2.605)    | .017(0.2786)   |
-| | <img class="img-responsive" src="/galleries/gallery-1-common-images/151-2793c01.jpg"/> | <img class="img-responsive" src="/galleries/gallery-1-common-images/152-x189c01.jpg"/>      |
+
