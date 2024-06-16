@@ -15,3 +15,5 @@ Rodney Brooks has a degree in Pure Maths from Flinders University of South Austr
 He won the Computers and Thought Award at the 1991 [IJCAI](/wiki/ijcai.html "International Joint Conference on Artificial Intelligence") and is also a Founding Fellow of the [AAAI](/wiki/aaai.html "American Association for Artificial Intelligence"). He is also a Fellow of the [The American Association for the Advancement of Science](https://en.wikipedia.org/wiki/American_Association_for_the_Advancement_of_Science).
 
 [![Rodney Brooks ML40](https://upload.wikimedia.org/wikipedia/commons/b/b9/Rodney_Brooks_ML40.jpg)](https://commons.wikimedia.org/wiki/File:Rodney_Brooks_ML40.jpg "Science History Institute / CC BY-SA (https://creativecommons.org/licenses/by-sa/3.0)")
+
+Science History Institute / CC BY-SA (https://creativecommons.org/licenses/by-sa/3.0)
