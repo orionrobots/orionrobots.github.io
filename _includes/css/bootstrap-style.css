@@ -272,3 +272,24 @@ footer {
   color: black;
   font-weight: bold;
 }
+
+
+article table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+article table th,
+article table td {
+  border: 1px solid #000;
+  padding: 2px 6px;
+}
+
+article table th {
+  background-color: #4d4848;
+  color: white;
+}
+
+article table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
