@@ -17,6 +17,8 @@ The phonograph was a mechanical music player.
 
 <a title="AnonymousUnknown author, Public domain, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Edison_Home_Phonograph_1901.jpg"><img width="512" alt="Edison Home Phonograph 1901" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Edison_Home_Phonograph_1901.jpg/512px-Edison_Home_Phonograph_1901.jpg"></a>
 
+AnonymousUnknown author, Public domain, via Wikimedia Commons
+
 He believed a great deal in industrialisation and mechanisation.
 
 Among his inventions, significant to robotics, was the Motion Picture Camera.
