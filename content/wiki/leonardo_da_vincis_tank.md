@@ -14,4 +14,6 @@ But despite these flaws - Leonardo was still many years ahead of the competition
 
 ![Da Vinci's Fighting Vehicle - Public Domain](https://upload.wikimedia.org/wikipedia/commons/b/b9/Leonardo_tank.JPG)
 
+Da Vinci's Fighting Vehicle - Public Domain
+
 The tank was made of wood, and would have been extremely difficult to move - making it an easy target for hurled or machine launched weapons and artillery. Had the device been made of metal - the armour would have offered better protection - but been completely impossible to move. Had steam engines been usable for locomotion in his time, Leonardo's tank would have been a winner. The basic principle was at least sound.
