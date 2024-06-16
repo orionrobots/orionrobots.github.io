@@ -6,3 +6,11 @@ services:
       - 8080:80
     volumes:
       - ./_site:/var/www/html
+  serve:
+    image: node:18-bullseye
+    volumes:
+      - .:/src
+    working_dir: /src
+    command: ["npm", "run", "serve"]
+    ports:
+      - 8081:8081
