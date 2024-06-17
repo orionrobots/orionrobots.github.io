@@ -46,7 +46,7 @@
     "slugify": "^1.6.6",
     "source-map-loader": "^5.0.0",
     "style-loader": "^3.3.4",
-    "terser": "^5.18.2",
+    "terser": "^5.31.1",
     "v": "^0.3.0",
     "webpack": "^5.89.0",
     "webpack-bundle-analyzer": "^4.8.0",
