@@ -10,4 +10,6 @@ Using an vision system previously seen in [Cog](/wiki/cog.html "A robotic model 
 
 [![Kismet-IMG 6007-gradient](https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Kismet-IMG_6007-gradient.jpg/512px-Kismet-IMG_6007-gradient.jpg)](https://commons.wikimedia.org/wiki/File:Kismet-IMG_6007-gradient.jpg "Rama / CC BY-SA 3.0 FR (https://creativecommons.org/licenses/by-sa/3.0/fr/deed.en)")
 
+Rama / CC BY-SA 3.0 FR (https://creativecommons.org/licenses/by-sa/3.0/fr/deed.en)
+
 Kismet is a fascinating robot indeed - and it has left quite a few people feeling confused because of how closely its expression mimics ours. The only time it seems lifeless is when either switched off or going through calibration routines during startup - otherwise, it is very animated and lifelike in its reactions.
