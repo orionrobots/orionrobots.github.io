@@ -160,7 +160,7 @@ JB :
         token : '_MIXPANEL_TOKEN_'
 
   # Settings for sharing helper.
-  # Sharing is for things like tweet, plusone, like, reddit buttons etc.
+  # Sharing is for things like tweeplusone, like, reddit buttons etc.
   # Set 'provider' to the sharing provider you want to use.
   # Set 'provider' to false to turn sharing off globally.
   #

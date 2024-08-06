@@ -41,7 +41,7 @@
     ],
     "sharing": {
         "facebook": true,
-        "twitter": true,
+        "twitter": false,
         "pinterest": true
     },
     "tags_path" : "/tags.html",
