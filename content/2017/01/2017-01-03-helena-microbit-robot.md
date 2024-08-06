@@ -13,8 +13,8 @@ tags:
 - robotics projects for kids
 title: Building a Microbit Robot with the Kitronic v2 Motor Board
 ---
-In my previous post, I mentioned getting the <a href="https://twitter.com/Kitronik">Kitronic</a> V2 motor board for
-Helena to use with her microbit along with other goodies from <a href="https://twitter.com/pimoroni">Pimoroni</a>.
+In my previous post, I mentioned getting the <a href="https://kitronik.co.uk/">Kitronic</a> V2 motor board for
+Helena to use with her microbit along with other goodies from <a href="https://shop.pimoroni.com/">Pimoroni</a>.
 
 We've made a video where I introduce it to Helena and we build a robot with it, and write some starting code for it with python.
 

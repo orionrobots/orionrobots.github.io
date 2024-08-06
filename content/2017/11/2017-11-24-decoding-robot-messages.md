@@ -13,7 +13,7 @@ title: Decoding robot messages
 ---
 There are crazy sales this weekend at some of my favourite places to buy stuff to play with. Pimoroni, The PiHut and Cool Components are all having fun.
 
-Pimoroni have been running a [#yarrbooty challenge again on Twitter](https://twitter.com/search?q=%23yarrbooty&src=typd) - with vouchers and free stuff.
+Pimoroni have been running a #yarrbooty challenge again - with vouchers and free stuff.
 
 Pimoroni have also been dropping interesting messages about the robots taking over, and then streams of binary-as-text.
 
@@ -96,7 +96,7 @@ Or for other messages
 00000 01100010 01101001 01101110 01100001 01110010 01111001')
     'Now you can read binary'
 
-But wait, there's more. I decided (and other twitter people) that it would be fun to respond in binary too. And I wrote code for that too. We kind of need to do the same process in reverse. Lets stuff something in a variable to play with:
+But wait, there's more. I decided (and other people) that it would be fun to respond in binary too. And I wrote code for that too. We kind of need to do the same process in reverse. Lets stuff something in a variable to play with:
 
     >>> message = "I can now make binary messages"
 
