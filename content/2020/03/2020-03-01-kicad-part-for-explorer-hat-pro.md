@@ -28,7 +28,3 @@ Download the files below:
 * [explorerhatpro.dcm](/assets/kicad-library-parts/explorerhatpro.dcm)
 
 ![Nerf Gun On the Robot](https://pbs.twimg.com/media/ERVTiHkU8AER8cU?format=jpg&name=large){.class="img-responsive"}
-
-## Leave Feedback on Twitter
-
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Hello <a href="https://twitter.com/pimoroni?ref_src=twsrc%5Etfw">@pimoroni</a> not sure where the intersection of <a href="https://twitter.com/hashtag/Kicad?src=hash&amp;ref_src=twsrc%5Etfw">#Kicad</a> and ExplorerHatPro users is, but how useful is this part? I made it while making a wiring diagram for my <a href="https://twitter.com/hashtag/piwars?src=hash&amp;ref_src=twsrc%5Etfw">#piwars</a> robot (yes, I know it&#39;s March already...) <a href="https://t.co/7dE9xk8QFI">pic.twitter.com/7dE9xk8QFI</a></p>&mdash; orionrobots (@orionrobots) <a href="https://twitter.com/orionrobots/status/1233900672757719042?ref_src=twsrc%5Etfw">February 29, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>

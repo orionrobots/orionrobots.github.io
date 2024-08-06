@@ -276,7 +276,7 @@ If you know how, you could look at adding Integral and Derivative components to 
 
 ## Next steps
 
-If you know other robot builders who would enjoy this, please share the article with them. Have you built a robot with line following? Send them to me on twitter or facebook, I'd love to see them. I'm also happy to talk about the algorithm and improvements to the code.
+If you know other robot builders who would enjoy this, please share the article with them. Have you built a robot with line following? Send them to me on discord, linkedin or facebook, I'd love to see them. I'm also happy to talk about the algorithm and improvements to the code.
 
 If you want to build more robot behaviours, consider buying [Robotics at home with Raspberry Pi Pico](https://packt.link/5swS2).
 

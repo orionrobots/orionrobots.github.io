@@ -18,12 +18,9 @@ Some resources, and contact information about myself, and the coder dojo's (whic
 
 First the book: Learn Robotics Programming, by Danny Staple - <https://www.amazon.co.uk/Learn-Robotics-Programming-autonomous-Raspberry/dp/1789340748/ref=sr_1_1?ie=UTF8&qid=1547801501&sr=8-1&keywords=learn+robotics+programming>.
 
-I am most reachable on Twitter: <https://twitter.com/orionrobots>.
-Tweet to me, or direct message me with questions. I have a good technical following, by tweeting, I can retweet and get answers from a wider robotics/creative technology community. It would be great to keep some of the questions coming via twitter.
-
 My youtube channel: <https://www.youtube.com/orionrobots>
 
-[Orionrobots.co.uk](https://orionrobots.co.uk) is my website and blog. It doesn't get anywhere near a much attention as Twitter and Youtube.
+[Orionrobots.co.uk](https://orionrobots.co.uk) is my website and blog.
 
 ## The coder dojos
 

@@ -5,7 +5,7 @@ tags: [raspberry-pi, camera]
 description: What Raspberry Pi models and cameras are compatible with each other?
 thumbnail: content/2024/06/04-raspberry-pi-camera-compatibility/raspberry-pi-lined-up-for-testing.jpg
 ---
-I started with what seemed like a simple question: "What Raspberry Pi models and cameras are compatible with each other?" given the context of using the current libcamera/rpicam stack. I found that there was no straight answer on the internet. I went to ask twitter, and nobody came back with a simple answer. So I decided to do some research and write this article to answer this question.
+I started with what seemed like a simple question: "What Raspberry Pi models and cameras are compatible with each other?" given the context of using the current libcamera/rpicam stack. I found that there was no straight answer on the internet. I went to ask the internet, and nobody came back with a simple answer. So I decided to do some research and write this article to answer this question.
 
 ## The Compatibility Table
 

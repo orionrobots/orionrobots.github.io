@@ -47,7 +47,7 @@ I have been reconsidering the power supply for this, there's a [WaveShare UPS 3S
 
 This should be able to better handle the servo motors and DC motors at the same time, although my new concern then would be that if passing that kind of current through the Raspberry Pi, where the USB C port is plugged in could cause problems. I will be experimenting with this, and now have those cells on charge beside me at my desk. I may be swapping the current USB power bank out for this if it proves effective.
 
-Do readers any suggestions for portable 5A capable power supplies for the Raspberry Pi? I'd be interested to hear them (@orionrobots on twitter, youtube, facebook or on my discord server).
+Do readers any suggestions for portable 5A capable power supplies for the Raspberry Pi? I'd be interested to hear them (@orionrobots on linkedin, youtube, facebook or on my discord server).
 
 ## Verifying or tracking power supply problems
 
