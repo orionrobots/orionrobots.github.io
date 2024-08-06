@@ -27,7 +27,7 @@ You can then use the rest of the OrionRobots knowledge resources to get things b
 Unless you are an elite, bachelor (I mean single, not having a degree although that might help too) engineer with huge amounts of time and money on your hands, you are simply not likely to have the resources to build a serious robot alone.
 Very few, if any of the battling robots were built solo.
 Your first step is to find a likely team of builders.
-Social media like Discord, Facebook and twitter are good places to reach out and build a team.
+Social media like Discord, Facebook and LinkedIn are good places to reach out and build a team.
 
 A team could simply be some school friends, your local neighbourhood engineers, a biker club or an after school club.
 I am sure if you ask around a bit you can find someone interested.
@@ -187,4 +187,4 @@ while I have put the testing section this far through, it is worth testing indiv
 
 Make sure you have got new batteries in there, and your driver is well and confident. Make sure you are well rested. You need to perform as well as your robot - you need to be ready for any event in the arena and pits.
 
-GOOD LUCK! We look forward to hearing from builders and their experiences - (@orionrobots on twitter)[https://twitter.com/orionrobots!
+GOOD LUCK! We look forward to hearing from builders and their experiences - let us know on Facebook, Discord, @orionrobots@fosstodon.org, LinkedIn or Youtube.

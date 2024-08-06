@@ -32,13 +32,13 @@ Now Helena & Jonathan, his children, are part of the team too!
 
 ## The Website
 
-Orionrobots have previously hosted a set of discussion forums here, with threads preserved for reference, but now encourage discussions about robotics on [our YouTube channel](https://youtube.com/orionrobots), [Facebook page](https://facebook.com/orionrobots) or across [Twitter](https://twitter.com/orionrobots). Code is mostly shared on [Github](https://github.com/orionrobots). There is information collected into a [wiki](/content/wiki) here too.
+Orionrobots have previously hosted a set of discussion forums here, with threads preserved for reference, but now encourage discussions about robotics on [our YouTube channel](https://youtube.com/orionrobots), or [Facebook page](https://facebook.com/orionrobots). Code is mostly shared on [Github](https://github.com/orionrobots). There is information collected into a [wiki](/content/wiki) here too.
 
 Older projects are being moved to github, like Ldraw dat files, programs for Lego and PCB designs.
 
 ## Meetings and Events
 
-OrionRobots has hosted events and meetings of robot builders from time to time, if you are running an event, please let us know on facebook, youtube or twitter.
+OrionRobots has hosted events and meetings of robot builders from time to time, if you are running an event, please let us know on facebook, youtube or LinkedIn.
 
 Danny has run Lego robotics groups for younger builders, using Lego for challenges exposing them to basic engineering, Building Tips, Team Work, Robot Building Safety and above all fun. The [East Finchley Robotics Club](/wiki/east_finchley_robotics_club.html) was a regular workshop for an under 16 group, and older robot builders.
 

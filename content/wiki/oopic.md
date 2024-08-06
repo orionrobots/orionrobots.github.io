@@ -47,7 +47,7 @@ There is a problem experienced with all OOPics when using the serial port, known
 
 ## Tell us what you think
 
-If anyone has any interesting details, caveats, designs or OOPic code then ping me on twitter [@orionrobots](https://twitter.com/orionrobots).
+If anyone has any interesting details, caveats, designs or OOPic code then send them to us.
 
 ## More Information and comparisons
 

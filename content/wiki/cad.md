@@ -52,4 +52,4 @@ EDA systems are aimed at electronics, and allow you to design schematics, and po
 
 SPICE is a simulation tool only, but projects like gEDA and programs like Multisim offer the full WYSIWIG editor and simulation.  Verilog is a system used both to model behaviour of complex logic devices, and sometimes actually program them - <a href="/wiki/fpga.html" title="Field Programmable Gate Array">FPGAs</a>. It is a programming language, but you may find visual representations of its behaviour. One well known implementation is the free Icarus simulator.  Multisim also can be augmented with a verilog simulator.
 
-OrionRobots are currently interested in getting information regarding CAD and EDA systems which can run on the move on phones and tablets. If anyone knows of any EDA or CAD systems that run on one- Please use twitter to let us know.
+OrionRobots are currently interested in getting information regarding CAD and EDA systems which can run on the move on phones and tablets. If anyone knows of any EDA or CAD systems that run on one- Please let us know.

@@ -73,7 +73,7 @@ MindSensors also have an elegant method using a [PCB](/wiki/pcb.html) designed t
 
 ### Other methods
 
-There are probably plenty more methods, and variations on these. [Tweet Us](https://twitter.com/orionrobots)  your comments or links to this page if you have another method, or enhancements to a method here.
+There are probably plenty more methods, and variations on these. Send us your comments or links to this page if you have another method, or enhancements to a method here.
 
 ## Considerations
 

@@ -22,7 +22,7 @@ Many of these can be bought from the stores details at our Robot Stores guide.
 
 ## Call for kit developers
 
-If there are any kit developers, feel free to talk to me over twitter, and send evaluation kits and boards related to robotics. We are looking for items to feature in our video channel. Solder Free kits will be given priority.
+If there are any kit developers, feel free to talk to me over LinkedIn, Facebook, Discord or Youtube, and send evaluation kits and boards related to robotics. We are looking for items to feature in our video channel. Solder Free kits will be given priority.
 
 ## The Orion Explorer 1 Robot Building Kit
 

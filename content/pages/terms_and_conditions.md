@@ -21,7 +21,7 @@ This site is aimed at a wide audience - therefore submission of inappropriate co
 
 <h1  id="Contacting">Contacting</h1>
 
-Get in touch via twitter using [@orionrobots](https://twitter.com/orionrobots)
+Get in touch via Discord, Facebook, YouTube, LinkedIn or @orionrobots@fosstodon.org.
 
 ## Spam
 
