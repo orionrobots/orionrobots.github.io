@@ -14,7 +14,7 @@ Consider this post a changing list - it will change. I'll update it as we find a
 
 ## Stuff We want to print
 
-* ON twitter - user @KariLawler showed a 3D printed Ready Player 1 Marble maze. This would be fun to print. <https://twitter.com/KariLawler/status/973652674276143109?t=1&cn=ZmxleGlibGVfcmVjcw%3D%3D&refsrc=email&iid=763ecab1a9a94a4b8600e2a6c959e4de&uid=1251125814&nid=244+293670929> - <https://www.youtube.com/watch?v=T4awC9WRtNw>
+* Retro maker [KariLawler](https://www.karilawler.com/) shared a 3D printed Ready Player 1 Marble maze. This would be fun to print - <https://www.youtube.com/watch?v=T4awC9WRtNw>
 
 ## Stuff we have 3D Printed
 

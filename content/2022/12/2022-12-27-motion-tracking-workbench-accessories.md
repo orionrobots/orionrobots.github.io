@@ -12,7 +12,7 @@ tags:
   - robotics content
 category: robot-building
 ---
-Twitter user Rue Mohr recently suggested building a [motion tracking workbench lamp](https://twitter.com/RueNahcMohr/status/1607616703881678850). This is a great idea, as if you are moving around on the bench, and you need light focusing on where you are working, you could have the device adjust the focus for you.
+Maker [Rue Mohr](http://ruemohr.org/) recently suggested building a motion tracking workbench lamp. This is a great idea, as if you are moving around on the bench, and you need light focusing on where you are working, you could have the device adjust the focus for you.
 
 I also see how this would be useful for taking photos or making videos, where the camera could track the position of your motion. For example, when filming  me using hand tools or breadboarding, it's far too easy to find myself out of shot. The usual answer to stay in shot is to work through the camera viewfinder, however, that can be very tricky indeed, with all kinds of hand-eye coordination made harder than usual. For a fiddly job, very frustrating.
 

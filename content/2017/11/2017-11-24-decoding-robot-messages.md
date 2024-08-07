@@ -75,7 +75,7 @@ But wait - this is a list of letters - it's not a message yet. There is however,
 
 Sorry - still no spoilers!
 
-Now we have a couple of parts, and besides, there were more messages sent about this way on twitter. So we want to reuse this stuff. The way to do that is to make a function. In python - this is called   ```def```. I'm going to combine what we've done before into a single function:
+Now we have a couple of parts, and besides, there were more messages sent about this way on social media. So we want to reuse this stuff. The way to do that is to make a function. In python - this is called   ```def```. I'm going to combine what we've done before into a single function:
 
     def decode_message_part(message_part):
         characters = message_part.split()
@@ -156,4 +156,4 @@ Now what about encoding any old message - well I put that into a function too:
         return ' '.join(message_binary)
 
 I can now encode, and decode messages like this at will, and using these functions, so can you.
-You can converse on [a binary Twitter thread](https://twitter.com/pimoroni/status/933982270230319104). Have fun!
+Have fun!
