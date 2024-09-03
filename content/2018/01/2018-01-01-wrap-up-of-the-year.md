@@ -84,7 +84,7 @@ The final robot build of the year was only a small thing - getting a robot from 
 
 When moving house, I had to rebuild a robotics lab/workshop/bodging space in the new flat, and found space for all the stuff, with a better layout: <https://www.youtube.com/watch?v=4IteGkvzsCM>
 
-I also started to make a serious go at using the 3D printer. However, at the end of the year, due to the move, the Z-Axis snapped yet another time. I had printed a replacement, but this failed in the same place while trying to fit it. As of the end of 2017 - I don't have a functioning 3D printing. I've been talking this over on twitter a fair amount, but not made any formal videos.
+I also started to make a serious go at using the 3D printer. However, at the end of the year, due to the move, the Z-Axis snapped yet another time. I had printed a replacement, but this failed in the same place while trying to fit it. As of the end of 2017 - I don't have a functioning 3D printer. I've been talking this over a fair amount, but not made any formal videos.
 
 ## So what next
 

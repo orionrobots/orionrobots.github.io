@@ -75,14 +75,13 @@ prose:
 title: Orionrobots
 tagline: Learn to build robots at home
 author :
-  name : Dany Staple
+  name : Danny Staple
   email :
   github : orionrobots
-  twitter : orionrobots
   feedburner : orionrobots
 sharing:
     facebook: True
-    twitter: True
+    twitter: false
     pinterest: True
 
 
@@ -161,7 +160,7 @@ JB :
         token : '_MIXPANEL_TOKEN_'
 
   # Settings for sharing helper.
-  # Sharing is for things like tweet, plusone, like, reddit buttons etc.
+  # Sharing is for things like tweeplusone, like, reddit buttons etc.
   # Set 'provider' to the sharing provider you want to use.
   # Set 'provider' to false to turn sharing off globally.
   #

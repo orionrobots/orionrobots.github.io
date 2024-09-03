@@ -51,7 +51,7 @@ Here is the code - it's pretty simple:
         display.scroll(". . . . . . y¬ y¬ y¬ \__@[]/. . . . ***")
 ```
 
-This was somewhat inspired by [@Richard Hayler](https://twitter.com/rdhayler) and his hat at the [@Ham Coder Dojo](https://twitter.com/CoderDojoHam).
+This was somewhat inspired by [Richard Hayler](https://richardhayler.blogspot.com/) and his hat at [Ham Coder Dojo](https://www.coderdojoku.org/).
 
 (paid links)
 

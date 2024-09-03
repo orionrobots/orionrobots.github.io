@@ -33,7 +33,7 @@ As you can imagine this became a little frustrating to find things in, so stuff 
 
 ## Inspiration from Tested
 
-I am a fan of the tested.com videos by [Adam Savage](https://twitter.com/donttrythis).
+I am a fan of the tested.com videos by [Adam Savage](https://adamsavage.com/).
 He is not actually a fan of drawers and sees them as a place things go to die.
 I think his principle of first class access to everything is great, but doesn't quite work for my tiny space.
 All my making is done in a space that is about 2m x 3m.

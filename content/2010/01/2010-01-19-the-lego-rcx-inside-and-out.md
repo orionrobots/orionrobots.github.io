@@ -339,7 +339,7 @@ For a simpler route in terms of drivers and so on, you may find [NQC](http://bri
 
 While there is plenty here about interfacing with the RCX and what is inside it, there are also many good sites and discussions on the internet about this genre defining device.
 
-You are welcome to tweet me your own Lego Mindstorms Robotics site here as long as the content is relevant to this page.
+You are welcome to send me your own Lego Mindstorms Robotics site here as long as the content is relevant to this page.
 
 * [RCX Internals](http://www.mralligator.com/rcx/)
 * [RCX 1.0 Case Disassembly - iFixit](https://www.ifixit.com/Guide/Disassembling-RCX-1-0-Case/4352/2)

@@ -12,7 +12,7 @@ Today I'm trying out a freecad weekly build. I've been doing a lot in TechDraw, 
 
 FreeCAD TechDraw is a great tool for creating technical drawings, but it's not perfect. I've been using it to create the drawings for my upcoming Raspberry Pi Pico book, and have found a few issues.
 
-Weekly builds contain as-yet unreleased features, so they are not stable. I'm hoping this is a stable enough build to use for a few days. I also had help from FreeCAD on twitter to get the build working on my system. This led me to <https://github.com/FreeCAD/homebrew-freecad> - which I can keep around if I have any MacOS bundling issues.
+Weekly builds contain as-yet unreleased features, so they are not stable. I'm hoping this is a stable enough build to use for a few days. I also had help from the FreeCAD community to get the build working on my system. This led me to <https://github.com/FreeCAD/homebrew-freecad> - which I can keep around if I have any MacOS bundling issues.
 
 I fell at the first hurdle downloading the Mac ARM binary instead of x86, make sure you download the right release for your system. I had to try again.
 

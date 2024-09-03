@@ -13,7 +13,7 @@ title: Decoding robot messages
 ---
 There are crazy sales this weekend at some of my favourite places to buy stuff to play with. Pimoroni, The PiHut and Cool Components are all having fun.
 
-Pimoroni have been running a [#yarrbooty challenge again on Twitter](https://twitter.com/search?q=%23yarrbooty&src=typd) - with vouchers and free stuff.
+Pimoroni have been running a #yarrbooty challenge again - with vouchers and free stuff.
 
 Pimoroni have also been dropping interesting messages about the robots taking over, and then streams of binary-as-text.
 
@@ -75,7 +75,7 @@ But wait - this is a list of letters - it's not a message yet. There is however,
 
 Sorry - still no spoilers!
 
-Now we have a couple of parts, and besides, there were more messages sent about this way on twitter. So we want to reuse this stuff. The way to do that is to make a function. In python - this is called   ```def```. I'm going to combine what we've done before into a single function:
+Now we have a couple of parts, and besides, there were more messages sent about this way on social media. So we want to reuse this stuff. The way to do that is to make a function. In python - this is called   ```def```. I'm going to combine what we've done before into a single function:
 
     def decode_message_part(message_part):
         characters = message_part.split()
@@ -96,7 +96,7 @@ Or for other messages
 00000 01100010 01101001 01101110 01100001 01110010 01111001')
     'Now you can read binary'
 
-But wait, there's more. I decided (and other twitter people) that it would be fun to respond in binary too. And I wrote code for that too. We kind of need to do the same process in reverse. Lets stuff something in a variable to play with:
+But wait, there's more. I decided (and other people) that it would be fun to respond in binary too. And I wrote code for that too. We kind of need to do the same process in reverse. Lets stuff something in a variable to play with:
 
     >>> message = "I can now make binary messages"
 
@@ -156,4 +156,4 @@ Now what about encoding any old message - well I put that into a function too:
         return ' '.join(message_binary)
 
 I can now encode, and decode messages like this at will, and using these functions, so can you.
-You can converse on [a binary Twitter thread](https://twitter.com/pimoroni/status/933982270230319104). Have fun!
+Have fun!

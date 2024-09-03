@@ -26,7 +26,7 @@ We've decided to give the lunchbox 2 powered wheels and a ball castor at the fro
 It's going to have a camera as the primary sensor, with encoders on the wheels (quadrature types) and potentially an IMU (inertial measurement unit).
 The last item is something I have no experience with and could be interesting.
 
-Like so many PiWars entrants, I've been inspired by the talk by Brian Starkey, aka [@usedbytes](https://twitter.com/usedbytes) at the PiWars Mini-conference to use the camera for more.
+Like so many PiWars entrants, I've been inspired by the talk by Brian Starkey, aka [usedbytes](https://blog.usedbytes.com/) at the PiWars Mini-conference to use the camera for more.
 I'm going to attempt line following, and other challenges with it, instead of more single-purpose sensors.
 Using the camera for everything requires some interesting code.
 

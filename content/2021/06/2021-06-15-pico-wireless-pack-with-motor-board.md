@@ -55,7 +55,7 @@ My plan for this is to keep Raspberry Pi Pico in the Kitronic Motor board. Howev
 
 I started by looking at the [Pico Wireless Pack diagram on Pimoroni](https://shop.pimoroni.com/products/pico-wireless-pack). This had many connections, but some were going to be for the SD card (which I could choose to bring into play later), a button, and additional esp32 functionality.
 
-So I made some twitter enquiries, and [Chris Parrot](https://twitter.com/ZodiusInfuser), currently at Pimoroni [helped out](https://twitter.com/ZodiusInfuser/status/1404838339438690304).
+So I asked on social media, and [Chris Parrot](https://zodiusinfuser.uk/), currently at Pimoroni helped out.
 
 I turned his advice into a bare basics Fritzing Diagram:
 

@@ -14,7 +14,7 @@ thumbnail: /galleries/focus_stacked_a010_and_robot-med.jpg
 ---
 In yesterday's [Maixsense A010 post](/robot%20building/2022/12/26/maixsense-a010-first-impressions.html) I had reached a block, and it hadn't worked either standalone, or via the serial port.
 
-I contacted Sipeed (the manufacturer) for help via twitter, and their Indigogo campaign. They responded within 24 hours, and suggested I try a USB power supply (no computer). I tried a simple 5v 2.4a USB power supply, and it worked - I got a display.
+I contacted Sipeed (the manufacturer) for help via their Indigogo campaign. They responded within 24 hours, and suggested I try a USB power supply (no computer). I tried a simple 5v 2.4a USB power supply, and it worked - I got a display.
 
 This led me to questioning the power supply from the port I was using on my Macbook. This was a Mokin dock, which must have not been supplying enough current for it to start up correctly.
 

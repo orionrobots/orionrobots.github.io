@@ -20,7 +20,7 @@ Discuss [robot building on Our Discord Server](https://discord.gg/sMnPxFhAe2)!
 
 You can see my latest videos on [Orionrobots Youtube](https://youtube.com/orionrobots).
 
-You can reach me on twitter [@orionrobots](https://twitter.com/orionrobots)
+You can reach me on Facebook, Discord and LinkedIn as #orionrobots on all platforms.
 
 ## Recent Posts
 

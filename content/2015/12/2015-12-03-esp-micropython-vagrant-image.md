@@ -24,10 +24,7 @@ I made a docker image for building micropython - which I've added in a branch of
 <https://github.com/orionrobots/micropython/tree/master/esp8266>.
 It's not ideal - it's a slow build, and probably makes a larger image than is needed.
 
-I also asked on twitter to see who had done something similar:
-
-<blockquote class="twitter-tweet" lang="en"><p lang="en" dir="ltr"><a href="https://twitter.com/orionrobots">@orionrobots</a> <a href="https://twitter.com/ESP8266">@ESP8266</a> <a href="https://twitter.com/micropython">@micropython</a> Vagrant box: <a href="https://t.co/oBkqis80Js">https://t.co/oBkqis80Js</a>. Just run: `PROJECT=micropython vagrant up`</p>&mdash; slaff2 (@slaff2) <a href="https://twitter.com/slaff2/status/672398877777989633">December 3, 2015</a></blockquote>
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+I also asked to see who had done something similar and found this esp8266 @micropython Vagrant box: <https://github.com/slaff/esp8266.dev.box>. Just run: `PROJECT=micropython vagrant up`.
 
 These should make it easier for someone who is using micropython on the esp8266 and wants to
 contribute/make fixes or changes to it to get started building, so they can get to the bit they meant to -
