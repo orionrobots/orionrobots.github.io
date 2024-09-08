@@ -12,7 +12,7 @@ with exactly the same look and feel of a standard boring car, with only
 the difference in what's under the bonnet - until that point, we cannot
 expect a large uptake of them.
 
-Companies like Tesla, Toyota and Honda have commercialised on
+Companies like Toyota and Honda have commercialised on
 it. The Toyota Prius is an interesting compromise on the concept as
 well.
 
