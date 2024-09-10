@@ -23,14 +23,14 @@ jobs:
     needs: staging_test
     steps:
       - name: Fetch site artifact
-        uses: actions/download-artifact@v4.1.7
+        uses: actions/download-artifact@v4.1.8
         with:
           name: _site
       - name: extract site artifact
         run: |
           tar -xzf _site.tar.gz
       - name: Fetch httpd conf artifact
-        uses: actions/download-artifact@v4.1.7
+        uses: actions/download-artifact@v4.1.8
         with:
           name: httpd.conf
           path: _drafts/staging/httpd.conf
