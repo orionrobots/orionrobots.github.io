@@ -13,4 +13,4 @@ Now an interesting question I have is could this herald a new future in medicine
 Could these techniques be used to create new cancer cures which would be able to rapidly distinguish and exterminate cancerous cells?
 This technology, mixed with SwarmBots and Nano Bots could really hold the key to a sudden surge in world health and quality of life.
 
-[Microsoft researchers build spam filter for HIV](http://www.theregister.co.uk/2011/12/06/ms_research_hiv/)
+[Microsoft researchers build spam filter for HIV](https://www.theregister.co.uk/2011/12/06/ms_research_hiv/)

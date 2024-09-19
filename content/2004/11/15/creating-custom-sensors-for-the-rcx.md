@@ -24,7 +24,7 @@ The Lego RCX sensor pads have only 2 connections. In the passive sensor - one is
 
 You will need a capacitor to store power, and an output channel going back down the power channel between phases.
 
-The best explanation is probably at <http://www.philohome.com/sensors/legorot.htm>.
+The best explanation is probably at <https://www.philohome.com/sensors/legorot.htm>.
 
 (paid link)
 

@@ -20,4 +20,4 @@ Also I would like to point out that at the time of writing we are now hosting a 
 
 * [Great Ball Contraption Image](/assets/great_ball_contraption/00GBC4_Whole.jpg)
 * [Great Ball Contraption at Team Hassenplug](http://www.teamhassenplug.org/GBC/)
-* [Lugnet Robotics](http://news.lugnet.com/robotics/) - The concept discussions were started here
+* [Lugnet Robotics](https://news.lugnet.com/robotics/) - The concept discussions were started here

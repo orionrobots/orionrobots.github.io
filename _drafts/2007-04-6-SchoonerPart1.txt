@@ -2,7 +2,7 @@ The Schooner
 ============
 As I mentioned in a previous artical, after swappping the power supply, and CPU, the VGA fan was still quite noisy - a whine. So I decided last week to take the plunge and buy a ThermalTake Schooner device. This is a passive cooling system involving large heatsinks, copper heatpipes and an external set of cooling vanes that sit outsite the case on a heatpipe protruding from the backplane (for PCI devices) below the graphics card.
 
-This set me back around £20 from [http://www.thermaltech.co.uk|ThermalTech.co.uk]. Now I should have done more research here, as disaster was about to strike.
+This set me back around Â£20 from [http://www.thermaltech.co.uk|ThermalTech.co.uk]. Now I should have done more research here, as disaster was about to strike.
 
 The card is advertised as having a universal clip, to fit NVidia and ATI cards. However, not mentioned on the the ThermalTech website is the fact that there are some types of NVidia card that this system is NOT designed to work with.
 
