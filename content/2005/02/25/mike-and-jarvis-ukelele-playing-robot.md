@@ -11,8 +11,8 @@ They did not say what controller they used, but have code and a number of photos
 
 ## Links
 
-* [Music Thing: At last! Ukulele Robots!](http://musicthing.blogspot.co.uk/2005/02/at-last-ukelele-robots.html)
-* [Lego Blog | Funny interesting LEGO things: LEGO Playing Reggae](http://legoisfun.blogspot.co.uk/2007/07/lego-playing-reggae.html)
+* [Music Thing: At last! Ukulele Robots!](https://musicthing.blogspot.co.uk/2005/02/at-last-ukelele-robots.html)
+* [Lego Blog | Funny interesting LEGO things: LEGO Playing Reggae](https://legoisfun.blogspot.co.uk/2007/07/lego-playing-reggae.html)
 
 (paid link)
 
