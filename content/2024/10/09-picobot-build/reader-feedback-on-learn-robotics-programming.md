@@ -11,4 +11,6 @@ He'd previously built a PicoBot, a simple robot that uses a Raspberry Pi Pico mi
 His project, and how he found the book to help him is at 
 <https://dougblanding.medium.com/robotics-at-home-with-the-diy-picobot-1bf099fd8eff>. I also love the robot pictures - custom robotics is what I am about, building your own with plastic, or wood, or common household items is what I love to see. And then bringing them to life with electronics and code!
 
+His project includes a github repository at <https://github.com/dblanding/PicoBot-dev> where he has all his code and designs.
+
 Robotics at Home with Raspberry Pi Pico was written with this in mind, to help you get started with robotics at home, and then to inspire you to take it further. I'm glad to see that it's doing just that.
