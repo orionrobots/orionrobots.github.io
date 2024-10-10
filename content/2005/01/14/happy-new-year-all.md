@@ -12,7 +12,7 @@ Well I certainly had a hectic Christmas, and its looking to be a busy new year.
 
 ## DEC
 
-Firstly - let me say that our support goes out to all affected by the Tsunami. I had a few friends out there in Malaysia and Thailand. Thankfully they have all come back - beyond a colleague who I have not been able to get hold of yet - but she was to be on holiday for another few weeks or so. My wife and I have both contributed - in fact we did so when we visited the Mechanical Cabaret exhibition - more on that later. I just hope that we can learn from the experience, and put early warning systems in, while combating the poverty and political problems which already existed in these nations before the exacerbate the problem(and any future ones). Please if you can, go to <http://dec.org.uk> and donate something towards the efforts to help.
+Firstly - let me say that our support goes out to all affected by the Tsunami. I had a few friends out there in Malaysia and Thailand. Thankfully they have all come back - beyond a colleague who I have not been able to get hold of yet - but she was to be on holiday for another few weeks or so. My wife and I have both contributed - in fact we did so when we visited the Mechanical Cabaret exhibition - more on that later. I just hope that we can learn from the experience, and put early warning systems in, while combating the poverty and political problems which already existed in these nations before the exacerbate the problem(and any future ones). Please if you can, go to <https://dec.org.uk> and donate something towards the efforts to help.
 
 ## Christmas
 

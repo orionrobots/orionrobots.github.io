@@ -69,7 +69,7 @@ of time.
 The Arduino is designed primarily for running programs - and you'll use the PC to get a program - a set of written
 down instructions, into it.
 
-Please download and install the [Arduino software](http://www.arduino.cc/en/Main/Software).
+Please download and install the [Arduino software](https://www.arduino.cc/en/Main/Software).
 
 Start the Arduino software, and you'll see something like this:
 ![The Arduino IDE](/assets/construction_guide/step_10_1.png)

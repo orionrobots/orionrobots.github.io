@@ -56,7 +56,7 @@ Introducing myself and Orionrobots - 2 minutes - brief skeleton of what is in th
 
 Hi all, please make sure you have the handouts - there are more than enough for everyone.
 I am Danny, and I will be getting you guys to build robots with me. OrionRobots has been building robots, as well as reading, writing about robots for a few years. In fact - OrionRobots eats, drinks, sleeps and breathes robots.
-We have a website at <http://orionrobots.co.uk> - where you can read about our past challenges, and those to come - and if you read carefully - you may find information on the new secret challenge I am working on - known only as "The pyramid Challenge".
+We have a website at <https://orionrobots.co.uk> - where you can read about our past challenges, and those to come - and if you read carefully - you may find information on the new secret challenge I am working on - known only as "The pyramid Challenge".
 There are other workshops we run, and information on this is in the handouts and the website.
 If you want more background, have a read of the handouts later - right now, lets get on with building robots!
 Before we start putting brick to brick, I have a few things we need to cover.

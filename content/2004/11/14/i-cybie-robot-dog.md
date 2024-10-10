@@ -31,7 +31,7 @@ Version 2 introduced more natural movement, and extended battery life with bette
 
 ## Links
 
-* [I-Cybie Robot Dog - Virtual Pet.com](http://virtualpet.com/vp/farm/icybie/icybie.htm)
+* [I-Cybie Robot Dog - Virtual Pet.com](https://virtualpet.com/vp/farm/icybie/icybie.htm)
 
 (paid link)
 

@@ -10,7 +10,7 @@ This is a university project.
 
 It uses [Holonomic Wheels](/wiki/holonomic_wheels.html "Holonomic Wheels") (Omni-Wheels). Use the kit with a [Palm Computer](/wiki/palm_computer.html "Palm Computer") PDA and you have a touch sensitive, gui LCD screen and controller straight off. It comes also with 3 optical sensors.
 
-You can buy the kit at [Acroname](https://acroname.com). They include hardware and software. The instruction to scratch build it are also available at [Its Home Page](http://www.cs.cmu.edu/~pprk/).
+You can buy the kit at [Acroname](https://acroname.com). They include hardware and software. The instruction to scratch build it are also available at [Its Home Page](https://www.cs.cmu.edu/~pprk/).
 
 The kit requires some soldering, and glueing.
 
