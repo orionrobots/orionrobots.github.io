@@ -119,7 +119,6 @@ module.exports = function(eleventyConfig) {
     });
 
     // Liquid filter to convert a date to a string
-    eleventyConfig.addLiquidFilter("date_to_string", date => date.toString() );
 
     // Liquid filter for long date string
     eleventyConfig.addLiquidFilter("date_to_long_string", function(date) {
@@ -140,6 +139,9 @@ module.exports = function(eleventyConfig) {
     eleventyConfig.addGlobalData("site_title",  () => getDataFromConfigYaml("title"));
     eleventyConfig.addGlobalData("site_tagline",  () => getDataFromConfigYaml("tagline"));
     eleventyConfig.addGlobalData("production_url",  () => getDataFromConfigYaml("production_url"));
+    eleventyConfig.addGlobalData("JB",  () => getDataFromConfigYaml("JB"));
+    eleventyConfig.addGlobalData("author",  () => getDataFromConfigYaml("author"));
+    eleventyConfig.addGlobalData("now" , () => new Date());
 
     eleventyConfig.addNunjucksFilter("date", function(date, format) {
         return moment(date).format(format);
