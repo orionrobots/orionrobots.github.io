@@ -4,8 +4,8 @@ permalink: /rss.xml
 theme:
     name: orionrobots
 ---
-{% capture BASE_PATH %}{{ site.production_url }}{% endcapture %}
-{% capture ASSET_PATH %}{{ BASE_PATH }}/assets/themes/{{ theme.name }}{% endcapture %}
+{%- capture BASE_PATH %}{{ site.production_url }}{% endcapture -%}
+{% capture ASSET_PATH %}{{ BASE_PATH }}/assets/themes/{{ theme.name }}{% endcapture -%}
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version="2.0">
 <channel>
@@ -22,9 +22,8 @@ theme:
             <title>{{ site.title }}</title>
             <link>{{ site.production_url }}</link>
     </image>
-
-{% assign posts = collections.all | reverse | with_explicit_date %}
-{% for post in posts %}
+{%- assign posts = collections.all | reverse | with_explicit_date -%}
+{%- for post in posts -%}
     <item>
         <title>{{ post.title }}</title>
         <description>{{ post | excerpt |  strip_html }}</description>
@@ -32,7 +31,6 @@ theme:
         <guid>{{ site.production_url }}{{ post.url }}</guid>
         <pubDate>{{ post.date }}</pubDate>
     </item>
-{% endfor %}
-
+{%- endfor -%}
 </channel>
 </rss>
