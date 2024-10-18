@@ -11,11 +11,10 @@ theme:
 <channel>
     <title>{{ site.title }}</title>
     <description>{{ site.title }} - {{ site.tagline }}</description>
-    <link>{{ site.production_url }}{{ JB.rss_path }}</link>
     <link>{{ site.production_url }}</link>
     <language>en-gb</language>
-    <lastBuildDate>{{ now | date_to_long_string }}</lastBuildDate>
-    <pubDate>{{ time }}</pubDate>
+    <lastBuildDate>{{ now | to_utc_string }}</lastBuildDate>
+    <pubDate>{{ now | to_utc_string }}</pubDate>
     <ttl>1800</ttl>
     <image>
             <url>{{ ASSET_PATH }}/images/social-banner.jpg</url>
@@ -25,11 +24,11 @@ theme:
 {%- assign posts = collections.all | reverse | with_explicit_date -%}
 {%- for post in posts -%}
     <item>
-        <title>{{ post.title }}</title>
+        <title>{{ post.data.title }}</title>
         <description>{{ post | excerpt |  strip_html }}</description>
         <link>{{ site.production_url }}{{ post.url }}</link>
         <guid>{{ site.production_url }}{{ post.url }}</guid>
-        <pubDate>{{ post.date }}</pubDate>
+        <pubDate>{{ post.date | to_utc_string }}</pubDate>
     </item>
 {%- endfor -%}
 </channel>
