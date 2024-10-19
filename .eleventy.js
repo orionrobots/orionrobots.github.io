@@ -119,6 +119,7 @@ module.exports = function(eleventyConfig) {
     });
 
     // Liquid filter to convert a date to a string
+    eleventyConfig.addLiquidFilter("to_utc_string", date => date.toUTCString() );
 
     // Liquid filter for long date string
     eleventyConfig.addLiquidFilter("date_to_long_string", function(date) {
