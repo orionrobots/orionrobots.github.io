@@ -13,7 +13,3 @@ Of course, there were lower notes like the devastating Tsunami, the London Tube 
 
 In 2006, we will see the subject of robotics begin to hold the media more, and with the advent of easy access to digital cameras and video recording mobile phones, internet coverage of hobbyist robots like many readers here build will grow massively. You are encouraged to use our facilities to record your robot builds, please let me know if you would like an OrionRobots based blog for yourself. We will probably see more interplanetary missions, and robots being used for more tasks in the emergency services and national security roles.
 As for myself, I will be carrying on with my building, and I am looking to go on the road with my pyramid challenge. Watch this space for more information - lets just say, all robot builders can have a shot at it - but how many will make the grade! OrionRobots is looking forward to a new year, with our eyes open and the sky is the limit here.
-
-(paid links)
-
-<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=GB&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=orionrobots-21&language=en_GB&marketplace=amazon&region=GB&placement=B082WD5YV9&asins=B082WD5YV9&linkId=08332228f2cd7aed16ca05aa5a1f7372&show_border=true&link_opens_in_new_window=true"></iframe>

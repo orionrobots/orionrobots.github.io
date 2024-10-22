@@ -74,12 +74,6 @@ Basic Safety
 
 Goggles - I know many people hate them, but trust me - after having ended up with dry paint flakes in my eye once, I seriously value these - I had to actually go to a specialist eye hospital to have that removed. that was paint. Hot solder would be considerably worse. So - look after your eyes - they are probably the most valuable thing you have after your brain. They are also quite a convenient entry point to your brain too - another good reason to keep them covered!
 
-(paid links)
-
-<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=GB&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=orionrobots-21&language=en_GB&marketplace=amazon&region=GB&placement=B0044ENP46&asins=B0044ENP46&linkId=8e084d5561d0068578554f596c3482ff&show_border=true&link_opens_in_new_window=true"></iframe>
-
-<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=GB&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=orionrobots-21&language=en_GB&marketplace=amazon&region=GB&placement=B07HNM7N1J&asins=B07HNM7N1J&linkId=ce4701683532c35587229e087da5e6cb&show_border=true&link_opens_in_new_window=true"></iframe>
-
 ## Tooling up - Stuff to do the job
 
 * A soldering Iron - you will not get far without one of those.
