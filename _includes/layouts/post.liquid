@@ -5,7 +5,7 @@ layout: default
   <div class="span12">
     <div class="date">
       <time>{{ page.date | date_to_long_string }}</time>
-      <div class="author">by {{ author }}</div>
+      <div class="author">by {{ page.author | default: author | default: "Danny Staple" }}</div>
     </div>
 
     <article class="content">
