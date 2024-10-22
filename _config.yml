@@ -74,11 +74,7 @@ prose:
 #
 title: Orionrobots
 tagline: Learn to build robots at home
-author :
-  name : Danny Staple
-  email :
-  github : orionrobots
-  feedburner : orionrobots
+author: Danny Staple
 sharing:
     facebook: True
     twitter: false

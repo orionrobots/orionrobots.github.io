@@ -15,7 +15,3 @@ This also means that the normal robotics list may be less drowned out by the hug
 * [OrionRobots wiki page on NXT](/wiki/nxt.html "Lego's NeXT generation robotics kit")
 * <http://news.lugnet.com/robotics/nxt/> - NXT group on Lugnet
 * <http://news.lugnet.com/robotics/?n=26253> - Announcement of NXT group
-
-(paid links)
-
-<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=GB&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=orionrobots-21&language=en_GB&marketplace=amazon&region=GB&placement=B082WD5YV9&asins=B082WD5YV9&linkId=e40e6e6802507d8646f3131923f1dea1&show_border=true&link_opens_in_new_window=true"></iframe><!-- lego mindstorms review 2021 -->

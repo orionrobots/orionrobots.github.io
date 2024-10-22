@@ -17,7 +17,3 @@ They also announced the number of applicants, which is in excess of 9600 people 
 These were a tight knit group of serious Lego Mindstorms experts and master builders, brought together in secret, and under an NDA (Non-Disclosure-Agreement) to influence and guide the design of the Lego Mindstorms NXT - the next generation programmable brick, a successor to the [RCX](/wiki/rcx.html "The Lego Robot Command Explorer"), and the kit to go with it.
 
 This group included Steve Hassenplug - who is also a major player in the [GBC](/wiki/gbc.html "Great Ball Contraption"). They led the development of the initial servers, the programming environment, requested any additional parts, and ensured that when the box was sold there were enough parts to make some good initial models.
-
-(paid links)
-
-<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=GB&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=orionrobots-21&language=en_GB&marketplace=amazon&region=GB&placement=B082WD5YV9&asins=B082WD5YV9&linkId=75cbb40f8dd28c5b84d540cdd12f14a3&show_border=true&link_opens_in_new_window=true"></iframe>

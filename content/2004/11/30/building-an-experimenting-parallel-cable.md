@@ -41,8 +41,3 @@ Take the ribbon cable, and line up the Red Wire with pin 1 on the DB25. Then pus
 ## Testing it
 
 Using the <a href="/wiki/multimeter.html" title="MultiMeter">multimeter</a>, systematically test the pins on the DB25 making sure that none of them are shorting with any neighbours. Then testing that each pin on the DB25 links to a corresponding pin on the IDC.
-
-(paid links)
-
-<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=GB&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=orionrobots-21&language=en_GB&marketplace=amazon&region=GB&placement=B08TQQFVL6&asins=B08TQQFVL6&linkId=78cea0d523c3c45461a88a2e832a66cc&show_border=true&link_opens_in_new_window=true"></iframe>
-<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=GB&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=orionrobots-21&language=en_GB&marketplace=amazon&region=GB&placement=B08F251BJ1&asins=B08F251BJ1&linkId=44ac486e0741c701fcea15833a7f0254&show_border=true&link_opens_in_new_window=true"></iframe>
