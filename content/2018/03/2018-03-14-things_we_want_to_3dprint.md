@@ -30,16 +30,10 @@ Consider this post a changing list - it will change. I'll update it as we find a
 
 If you are considering this, please consider if you want to work on projects with the 3D printer, or you want a 3D Printer project. Some 3D Printer kits may leave you spending a lot of time maintaining and fixing your printer. My experience with the Flashforge Finder has been totally different - I have been able to spend more time designing parts and printing them, with the only maintenance being some bed levelling. Although I have upgraded with a magnetic print bed and additional spool holder.
 
-I highly recommend this printer, and when I'm in the market for a bigger printer, I'm likely to buy this brand again.
-
-(paid links)
-
-<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=GB&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=orionrobots-21&language=en_GB&marketplace=amazon&region=GB&placement=B00ZBS86ZW&asins=B00ZBS86ZW&linkId=8a2424c2c698e1170f492acac75cb55d&show_border=true&link_opens_in_new_window=true"></iframe>
+I highly recommend the Flashforge Finder printer, and when I'm in the market for a bigger printer, I'm likely to buy the Flashforge brand again.
 
 ## Filament
 
 The Flashforge has rather set my choice, I use PLA filament only. I have had some great prints from it, once it was dialled in. I've used transparent filaments, and all kinds of colours. Just be sure to get filament that isn't too cheap, and remember it has a shelf life. Try to keep it dry and from experiencing temperature changes before using it to print.
 
-(paid links)
-
-<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=GB&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=orionrobots-21&language=en_GB&marketplace=amazon&region=GB&placement=B017HAIK8O&asins=B017HAIK8O&linkId=713b27ce9116c4b711e5f75a06457883&show_border=true&link_opens_in_new_window=true"></iframe>
+I've used official Flashforge filaments, but I've printed an after market spool holder to use other brands.
