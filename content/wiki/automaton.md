@@ -14,10 +14,6 @@ There have been automatons to handwrite.
 
 Al-Jazari created a handwashing automaton.
 
-(paid links)
-
-<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=GB&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=orionrobots-21&language=en_GB&marketplace=amazon&region=GB&placement=B01NBMX9GD&asins=B01NBMX9GD&linkId=8bd2b98904fd1fa8ee86267af772afc6&show_border=true&link_opens_in_new_window=true"></iframe>
-
 ## Vaucanson's Duck
 
 Vaucanson was a french inventor, who created an duck automaton capable of eating and appearing to digest food. It excreted too - although there may have been a concealed pouch for this.

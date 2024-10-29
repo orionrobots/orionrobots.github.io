@@ -44,7 +44,3 @@ Robotic Vacuum cleaners are a long way from the kind of robotics seen in any Sci
 By Tod E. Kurt
 
 A book to get you started on hacking a Roomba. Stocks are low on this one mind!
-
-(paid links)
-
-<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=GB&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=orionrobots-21&language=en_GB&marketplace=amazon&region=GB&placement=B01JXRIX72&asins=B01JXRIX72&linkId=9cd2767696c24c3ff81c6885bf93511b&show_border=true&link_opens_in_new_window=true"></iframe>

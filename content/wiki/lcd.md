@@ -18,19 +18,9 @@ Think through if you are going to need backlighting, or more expensive reflectiv
 
 As always in robotics, the three major factors are weight, power consumption and cost. In most cases - these are simply used during debugging/development, and need not be in the robot on the field. Maybe then you are better off just using a serial link with a terminal.
 
-(paid links)
-
-<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=GB&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=orionrobots-21&language=en_GB&marketplace=amazon&region=GB&placement=B07PWWTB94&asins=B07PWWTB94&linkId=80b7c5aae6535d1c57e0923aa93c3be8&show_border=true&link_opens_in_new_window=true"></iframe>
-
 ## Alternatives
 
 There are similar flat screen devices like TFT - Thin Film Transistor, Plasma displays and the emerging OLED technology. If you are simply displaying numeric, or alpha-numeric, it might be easier just to use an LED display.
-
-(paid links)
-
-<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=GB&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=orionrobots-21&language=en_GB&marketplace=amazon&region=GB&placement=B076BJZ42H&asins=B076BJZ42H&linkId=53f94746de85517a5a76e8a5fb513142&show_border=true&link_opens_in_new_window=true"></iframe>
-<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=GB&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=orionrobots-21&language=en_GB&marketplace=amazon&region=GB&placement=B0777HHQDT&asins=B0777HHQDT&linkId=be137443ac55d764d0d07910b861cf8e&show_border=true&link_opens_in_new_window=true"></iframe>
-<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=GB&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=orionrobots-21&language=en_GB&marketplace=amazon&region=GB&placement=B07D9NVJPZ&asins=B07D9NVJPZ&linkId=54d73924ae895ccbf7c2f3b98c31392d&show_border=true&link_opens_in_new_window=true"></iframe>
 
 ## How these work
 

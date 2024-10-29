@@ -25,9 +25,7 @@ You cannot directly connect the Raspberry Pi to motors, so a motor control board
 The Picon Zero is such a motor control hat.
 The block diagram in the section "Connecting the motors to the Raspberry Pi" illustrates this well.
 
-(paid links)
-
-<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=GB&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=orionrobots-21&language=en_GB&marketplace=amazon&region=GB&placement=B01E8MXQWY&asins=B01E8MXQWY&linkId=e7784851f88db08bf1618e4562f7ff62&show_border=true&link_opens_in_new_window=true"></iframe>
+<a href="https://amzn.to/3YKLOQd"><img src="https://m.media-amazon.com/images/I/61l7TtwGfTL._AC_SX679_.jpg" width="200px" height="200px" alt="Picon Zero Motor Controller for Raspberry Pi">4tronix Picon Zero v1.3 Intelligent Robotics Controller Board for Raspberry Pi (paid link)</a>
 
 ## Physical Connection
 

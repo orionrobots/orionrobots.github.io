@@ -18,7 +18,3 @@ There are many types of motor:
 They generally consist of a minimum of a moving section (rotor) and a static (stator) section. One or both of which has an Electro Magnet, and the other may or may not contain permanent magnets.
 
 One important consideration when using any motor in a robot, especially in drive chains, is its [Torque](/wiki/torque.html "Torque") as well is its Electrical Current and Electrical Voltage requirements.
-
-(paid links)
-
-<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=GB&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=orionrobots-21&language=en_GB&marketplace=amazon&region=GB&placement=B07GGF4KLR&asins=B07GGF4KLR&linkId=3a5542f2c8fa94fd882ce4aadbd611cd&show_border=true&link_opens_in_new_window=true"></iframe>

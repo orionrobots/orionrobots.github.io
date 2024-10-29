@@ -21,7 +21,3 @@ Anybody know why they chose to make the nose long and silly? Its transparency is
 This robot is a neat and relatively cheap little toy, but for those really serious about owning Robotic Gadgets And Toys - they should consider [Mark Tilden](/wiki/mark_tilden.html "Mark Tilden")s RoboSapien.
 
 [Other information on Pino at FireBox](http://www.firebox.com/index.html?dir=firebox&action=product&pid=429)
-
-(paid links)
-
-<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=GB&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=orionrobots-21&language=en_GB&marketplace=amazon&region=GB&placement=B08CH4TFC6&asins=B08CH4TFC6&linkId=4183b9dc3520123353519e195722df51&show_border=true&link_opens_in_new_window=true"></iframe>

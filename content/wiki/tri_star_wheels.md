@@ -46,13 +46,9 @@ This image shows Tristar wheels being used in a complete vehicle. It was also cr
 
 ## Reference
 
-(paid links)
-
 ### The Robot Builder's Bonanza: 99 Inexpensive Robotics Projects
 
 By Gordon McComb, Myke Predko
-
-<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=GB&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=orionrobots-21&language=en_GB&marketplace=amazon&region=GB&placement=0071468935&asins=0071468935&linkId=849ee65f5733f26bce549fdf71577cb0&show_border=true&link_opens_in_new_window=true"></iframe>
 
 Not only does this cover Tristar wheels and Lego, but it is a very handy robot building book anyway. A must for a robot hobbyists bookshelf.
 
@@ -60,8 +56,4 @@ Not only does this cover Tristar wheels and Lego, but it is a very handy robot b
 
 By Roger Zelazny
 
-<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=GB&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=orionrobots-21&language=en_GB&marketplace=amazon&region=GB&placement=0743413172&asins=0743413172&linkId=f03118e7462c72f3f266c6bdd21dc272&show_border=true&link_opens_in_new_window=true"></iframe>
-
 This is a superb SciFi. Set in a post-holocaust future, an Anti-Hero must cross a great expanse of some of the roughest areas to bring aid Boston, with an alternative of a life in jail. The Landmaster is the vehicle of choice.
-
-<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=GB&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=orionrobots-21&language=en_GB&marketplace=amazon&region=GB&placement=B00H36EL3Q&asins=B00H36EL3Q&linkId=06930afd0ccf2be8cb104f0a5a251e36&show_border=true&link_opens_in_new_window=true"></iframe>

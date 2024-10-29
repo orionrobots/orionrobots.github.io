@@ -18,17 +18,19 @@ When building robots with many sensors and actuators, it's not hard for the wiri
 
 So there are a number of ways to control this mess. This article has paid links.
 
-## Cable Ties
+## Cable Ties (or zip ties)
 
-You can cable tie wires in bunches with these. These are extremely cheap and convenient, and are the quickest way to get a little control of cables. They are the kind of item most electronics or robot building enthusiasts should have around. However, they may mean needing to clip the cable ties back off if you want to make changes. It can still bunch though.
+You can cable tie wires in bunches with these. These are extremely cheap and convenient, and are the quickest way to get a little control of cables. They are the kind of item most electronics or robot building enthusiasts should have around. However, they may mean needing to clip the cable ties back off if you want to make changes. It can still bunch though. Using different colours can also be used to group wires by function, ie for leg groups in a hexapod.
 
-<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=GB&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=orionrobots-21&language=en_GB&marketplace=amazon&region=GB&placement=B07BGTR4G4&asins=B07BGTR4G4&linkId=a44f70d935122509fb811f989fcfff9c&show_border=true&link_opens_in_new_window=true"></iframe>
+<a href="https://amzn.to/4hm5IIr"><img src="https://m.media-amazon.com/images/I/712OnwvUWSL._AC_SX679_.jpg" width="200" height="200" alt="Black Cable Ties, 300mm x 3.6mm">Black Cable Ties, 300mm x 3.6mm (paid link)</a>
 
 ## Adhesive clips
 
 These are good for keeping the wires from flapping around. These let you clip the wires to the sides of a robot chassis or arm parts. They still let cables dangle between attaching points.
 
-<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=GB&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=orionrobots-21&language=en_GB&marketplace=amazon&region=GB&placement=B076BRYBFM&asins=B076BRYBFM&linkId=88bc2bf21b5159a8da498dfe45b0d52d&show_border=true&link_opens_in_new_window=true"></iframe>
+<a href="https://amzn.to/4eaWSdE"><img src="https://m.media-amazon.com/images/I/71Gr-jCzu9L._AC_SL1500_.jpg" width="200" height="200" alt="
+100 x Adhesive Cable Clips Wire Management Cable Ties Wire Cord Holder White">
+100 x Adhesive Cable Clips Wire Management Cable Ties Wire Cord Holder White (paid link)</a>
 
 ## Spiral Wire Wrap
 
@@ -38,7 +40,7 @@ These are long tubes of PVC, which have a spiral cut all the way down (helical).
 
 This wrap is very inexpensive. It is useful in robot arms, Hexapods and in the [Learn Robotics 2nd Edition](https://packt.live/2NoZqhx) robot for keeping sensor wires under control.
 
-<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=GB&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=orionrobots-21&language=en_GB&marketplace=amazon&region=GB&placement=B01LYF1GDV&asins=B01LYF1GDV&linkId=553a72f9684281d9afaf380fdafd3f0a&show_border=true&link_opens_in_new_window=true"></iframe>
+<a href="https://amzn.to/3C7wNyX"><img src="https://m.media-amazon.com/images/I/71NBZAkIVaL._AC_SX679_.jpg" width="200" height="200" alt="Spiral Cable Wrap, Cable Tidy Tube 4mm inner diameter">Spiral Cable Wrap, Cable Tidy Tube 4mm inner diameter (paid link)</a>
 
 ## Combining techniques
 

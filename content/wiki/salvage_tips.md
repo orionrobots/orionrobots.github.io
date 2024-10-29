@@ -77,7 +77,3 @@ Where in your area would you go for good salvage? I hope for mostly North London
 ## Junkbots, Bugbots and Bots on Wheels: Building Simple Robots with BEAM Technology
 
 This book by Dave Hrynkiw and Mark W. Tilden shows may ideas, some which involve using scrap or salvage parts. They recommend a particular brand of printer cartridges as having a very interesting metal bar - which is strong and solderable, as well as an great guide to salvaging and removing components.
-
-(paid links)
-
-<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=GB&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=orionrobots-21&language=en_GB&marketplace=amazon&region=GB&placement=0072226013&asins=0072226013&linkId=cc67595082bc74fdffaa5cf1c253eeef&show_border=true&link_opens_in_new_window=true"></iframe>

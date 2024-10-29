@@ -22,12 +22,6 @@ Many oscilloscopes allow dual trace, or more traces, which means they have more 
 
 Some allow you to hold a waveform, so you can see it for a little longer - this is useful on a very slow trace, where persistence of vision may not apply so well.
 
-(paid links)
-
-<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=GB&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=orionrobots-21&language=en_GB&marketplace=amazon&region=GB&placement=B07XBL4BTL&asins=B07XBL4BTL&linkId=02a40c7b024853f9be695d9869544bb1&show_border=true&link_opens_in_new_window=true"></iframe>
-<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=GB&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=orionrobots-21&language=en_GB&marketplace=amazon&region=GB&placement=B0833X3RFK&asins=B0833X3RFK&linkId=58425c294144d37e3ebf27bdcea16295&show_border=true&link_opens_in_new_window=true"></iframe>
-<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=GB&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=orionrobots-21&language=en_GB&marketplace=amazon&region=GB&placement=B06XZML6RD&asins=B06XZML6RD&linkId=f1107f6fb688124aeffcdfb7324e8c46&show_border=true&link_opens_in_new_window=true"></iframe>
-
 ## Types of Oscilloscope
 
 Before forking out any money for any kind of scope, second hand or new, make sure you are aware of its capabilities, and whether it is really suitable for what you need. Be aware of its operating limits, the sample buffers (in a digital scope), the maximum frequencies, the A to D resolution and so on.

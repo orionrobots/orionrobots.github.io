@@ -39,9 +39,3 @@ House Robots:
 - [DK Robot Warrior Kit](/wiki/dk_robot_warrior_kit.html "DK Robot Warrior Kit")
 - [Holding School Robot Battle Events](/wiki/holding_school_robot_battle_events.html "Holding School Robot Battle Events")
 - [Robot Wars on Wikipedia](https://en.wikipedia.org/wiki/Robot_Wars)
-
-## Recommended Items
-
-(paid links)
-
-<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=GB&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=orionrobots-21&language=en_GB&marketplace=amazon&region=GB&placement=B01I3Q0NJA&asins=B01I3Q0NJA&linkId=1796d73f6416c9f6c90dd8bb4a52e674&show_border=true&link_opens_in_new_window=true"></iframe>
