@@ -42,33 +42,12 @@ She was also one of the first people to envisage the use of computers in composi
 
 ## Bibliography
 
-(paid links)
+- The Calculating Passion of Ada - Byron, Joan Baum (Archon Books), 1986
+- The Difference Engine (Gollancz SF S.) - William Gibson, Bruce Sterling. Although the story is fictional, its references to the Lady Ada, and what could have been are based very much in fact. I must admit to being a William Gibson fan anyway.
+- Ada, the Enchantress of Numbers - Betty Alexandra Toole. A Selection from the Letters of Lord Byron's Daughter and Her Description of the First Computer (The Pickering Masters).
+- R A Hyman, University Of Exeter, October 1st 1996
 
-### The Calculating Passion of Ada Byron
-
-#### Joan Baum (Archon Books), 1986
-
-<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=GB&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=orionrobots-21&language=en_GB&marketplace=amazon&region=GB&placement=0208021191&asins=0208021191&linkId=58b02f0ef2fd43dd7e9cd84f55c5e1ae&show_border=true&link_opens_in_new_window=true"></iframe>
-
-### The Difference Engine (Gollancz SF S.)
-
-#### William Gibson, Bruce Sterling
-
-<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=GB&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=orionrobots-21&language=en_GB&marketplace=amazon&region=GB&placement=0575600292&asins=0575600292&linkId=2dac1c9c94c900a40c7e21b0ba84d89b&show_border=true&link_opens_in_new_window=true"></iframe>
-
-Although the story is fictional, its references to the Lady Ada, and what could have been are based very much in fact. I must admit to being a William Gibson fan anyway.
-
-### Ada, the Enchantress of Numbers
-
-#### Betty Alexandra Toole
-
-<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=GB&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=orionrobots-21&language=en_GB&marketplace=amazon&region=GB&placement=0912647094&asins=0912647094&linkId=77f85b18d13fcdd76dd67fa4d14f19fd&show_border=true&link_opens_in_new_window=true"></iframe>
-
-A Selection from the Letters of Lord Byron's Daughter and Her Description of the First Computer (The Pickering Masters).
-
-#### R A Hyman, University Of Exeter, October 1st 1996
-
-[he Babbage Pages, Augusta Ada Lovelace](http://www.ex.ac.uk/BABBAGE/ada.html)
+[The Babbage Pages, Augusta Ada Lovelace](http://www.ex.ac.uk/BABBAGE/ada.html)
 
 Brief descriptive passage with some poetic references and factual items.
 

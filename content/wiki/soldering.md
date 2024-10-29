@@ -104,20 +104,8 @@ This can save your desk from scorch marks, and further reduces the risk of fire.
 
 ## Recommendations
 
-(paid links)
-
-If you are soldering safety of your eyes should be your first priority. These are relatively inexpensive(less than a tenner), but being a good brand, are comfortable and hard wearing.  Uncomfortable and easily broken goggles will just not be worn- which means your eyes will be in danger again.
-
-<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=GB&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=orionrobots-21&language=en_GB&marketplace=amazon&region=GB&placement=B0865YXFWH&asins=B0865YXFWH&linkId=9f0a157e31025738cf6e2ee152194011&show_border=true&link_opens_in_new_window=true"></iframe>
-
-If you are going to invest in soldering equipment - you should make sure you have a soldering stand.  This is inexpensive, and Draper are a trusted brand.  There is no good reason not to use a holder when soldering.
-
-<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=GB&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=orionrobots-21&language=en_GB&marketplace=amazon&region=GB&placement=B0001K9RAS&asins=B0001K9RAS&linkId=8b7a7c989ef009a5678554e57092f489&show_border=true&link_opens_in_new_window=true"></iframe>
-
-Temperature controlled soldering irons are inexpensive. This is a good way to have the temperatures needed for different solder jobs.
-
-<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=GB&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=orionrobots-21&language=en_GB&marketplace=amazon&region=GB&placement=B07ZQDLPR8&asins=B07ZQDLPR8&linkId=5962a386804816fa73b44eb2f2e9fc12&show_border=true&link_opens_in_new_window=true"></iframe>
-
-If you are going to be soldering a lot, you probably do not want to put burn marks into your (or your mums) French polished table. It is worth having a Soldering Mat if you do not have a dedicated space for soldering.
-
-<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=GB&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=orionrobots-21&language=en_GB&marketplace=amazon&region=GB&placement=B0001K9S3O&asins=B0001K9S3O&linkId=3ed7fe6ed442cdc229b5a019cacc9a88&show_border=true&link_opens_in_new_window=true"></iframe>
+- If you are soldering safety of your eyes should be your first priority. These are relatively inexpensive(less than a tenner), but being a good brand, are comfortable and hard wearing.  Uncomfortable and easily broken goggles will just not be worn- which means your eyes will be in danger again.
+- If you are going to invest in soldering equipment - you should make sure you have a soldering stand.  This is inexpensive, and Draper are a trusted brand.  There is no good reason not to use a holder when soldering.
+- Temperature controlled soldering irons are inexpensive. This is a good way to have the temperatures needed for different solder jobs.
+- If you are going to be soldering a lot, you probably do not want to put burn marks into your (or your mums) French polished table. It is worth having a Soldering Mat if you do not have a dedicated space for soldering.
+- Ensure you use a fume extractor or work in a well ventilated area.  This is a cheap and cheerful way to do it, and is a good way to keep the harmful flux fumes away from your face.

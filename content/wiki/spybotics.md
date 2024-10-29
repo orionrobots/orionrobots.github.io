@@ -8,7 +8,7 @@ These were designed for children to learn about STEM and robotics with [Lego](/w
 
 (paid links)
 
-<a href="https://www.amazon.co.uk/LEGO-Spybotics-3809-Technojaw-T55/dp/B002GXOGNQ/ref=as_li_ss_il?dchild=1&keywords=spybotics&qid=1605396998&sr=8-2&linkCode=li2&tag=orionrobots-21&linkId=e6fb4b226fd1c7f1d627f12b4b359a06&language=en_GB" target="_blank"><img border="0" src="//ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B002GXOGNQ&Format=_SL160_&ID=AsinImage&MarketPlace=GB&ServiceVersion=20070822&WS=1&tag=orionrobots-21&language=en_GB" ></a><img src="https://ir-uk.amazon-adsystem.com/e/ir?t=orionrobots-21&language=en_GB&l=li2&o=2&a=B002GXOGNQ" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+<a href="https://www.amazon.co.uk/LEGO-Spybotics-3809-Technojaw-T55/dp/B002GXOGNQ/ref=as_li_ss_il?dchild=1&keywords=spybotics&qid=1605396998&sr=8-2&linkCode=li2&tag=orionrobots-21&linkId=e6fb4b226fd1c7f1d627f12b4b359a06&language=en_GB" target="_blank"><img border="0" src="https://m.media-amazon.com/images/I/61GH4Iho+ML._AC_SX679_.jpg" ></a>
 
 Being part of the [Lego](/wiki/lego.html "The best known construction toy") [Mindstorms](/wiki/mindstorms.html "A Robotic construction toy system from Lego") range, each set consists of a CD Rom , a Remote, a few pieces and the SpyBotics Programmable Brick.
 
