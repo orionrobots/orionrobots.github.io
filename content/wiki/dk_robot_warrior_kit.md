@@ -33,17 +33,3 @@ Cons:
 
 * <a href="/wiki/robot_kits.html" title="Robot Kits">Robot Kits</a>
 * Robot Books
-
-(paid links)
-
-<table class="normal" id="fancytable_1">
-<tr><td><iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=GB&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=orionrobots-21&marketplace=amazon&region=GB&placement=0751347949&asins=0751347949&linkId=cdf147df4d85635c1372657ce5962269&show_border=true&link_opens_in_new_window=true"></iframe></td>
-    <td>Robot Warrior Kit</td>
-    <td>David Eckold, DK Multimedia</td>
-    <td>The Original Kit</td>
-</tr>
-<tr><td><iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=GB&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=orionrobots-21&marketplace=amazon&region=GB&placement=0789488884&asins=0789488884&linkId=6c378811236247bef1a71770e3eb3209&show_border=true&link_opens_in_new_window=true"></iframe></td>
-    <td>Robot Challenge Kit</td>
-    <td>David Eckold, DK Multimedia</td>
-    <td> A Similar kit</td> </tr>
-</table>
