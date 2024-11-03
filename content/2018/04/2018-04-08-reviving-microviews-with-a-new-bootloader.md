@@ -1,6 +1,6 @@
 ---
 date: 2018-4-8 17:42:52
-tags: [sparkfun, microview, electronics, arduino]
+tags: [sparkfun, microview, microview projects, arduino projects, electronics projects, arduino]
 title: Reviving Sparkfun Microviews With a New Bootloader
 layout: post
 thumbnail: content/2018/04/cube-demo.jpg
