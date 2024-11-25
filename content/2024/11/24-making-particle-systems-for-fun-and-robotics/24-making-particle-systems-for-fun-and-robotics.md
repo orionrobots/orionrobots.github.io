@@ -6,15 +6,15 @@ thumbnail: content/2024/11/24-making-particle-systems-for-fun-and-robotics/raind
 ---
 I have a lifelong fascination with Particle systems, complementing my robotics. However, it was only a few years ago that I found out how to bring the two together in a Monte Carlo Localization particle filter.
 
-Today I am going to express my love of particle systems in Python. This might be a long ride, with a few programs in a series of posts. I hope you'll join me, with some demonstrations in how much fun these can be. IT would be helpful if you've done a little Python before, but this aims to be a beginner-friendly course.
+Today I am going to express my love of particle systems in Python. This might be a long ride, with a few programs in a series of posts. I hope you'll join me, with some demonstrations in how much fun these can be. It would be helpful if you've done a little Python before, but this aims to be a beginner-friendly course.
 
-This is going to be a visual course in programming. We'll write it using PyGame letting us get a lot on the screen. Beyond being handy in robotics, this is fun for some simple visual effects, games and simulations.
+This series will focus on programming with lots of visuals. We'll write it using PyGame letting us get a lot on the screen. Beyond being handy in robotics, this is fun for some simple visual effects, games and simulations.
 
 ## Getting prepared
 
 Depending on your experience, you will need an environment to run this in.
 
-For absolute beginners, I recommend starting in the Mu editor, as this comes with a python environment and most of what you'll need to follow along. However, if you are more experienced, you can use your own IDE.
+For absolute beginners, I recommend starting in the Mu editor, as this comes with a Python environment and most of what you'll need to follow along. However, if you are more experienced, you can use your own IDE.
 
 If you are using your own IDE you will need to ensure you have at least Python 3.8 with PyGame installed. You can install PyGame using pip or poetry:
 
@@ -63,7 +63,7 @@ Run it and you should see this:
 
 ![One dot on the screen](/2024/11/24-making-particle-systems-for-fun-and-robotics/one-dot.png)
 
-We start with importing [PyGame](https://www.pygame.org/), a python gaming library for drawing 2D games.
+We start with importing [PyGame](https://www.pygame.org/), a Python gaming library for drawing 2D games.
 
 We then set up some parameters for our program. We define the display size with `WIDTH` and `HEIGHT`. We use FRAME_RATE so the program runs at a consistent speed.
 
@@ -347,4 +347,4 @@ You've also seen how particles have a lifecycle.
 
 Over the coming for posts, we can explore what other ways we can use particle systems, some variations on this theme, and some quite different.
 
-I've built this inspired by the Kingston University Coder Dojo where I mentor python, and will have other particle systems inspired by research I've done for my books.
+I've built this inspired by the Kingston University Coder Dojo where I mentor Python, and will have other particle systems inspired by research I've done for my books.
