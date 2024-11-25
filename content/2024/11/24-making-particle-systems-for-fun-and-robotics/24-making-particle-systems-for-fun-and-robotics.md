@@ -8,7 +8,7 @@ I have a lifelong fascination with Particle systems, complementing my robotics. 
 
 Today I am going to express my love of particle systems in Python. This might be a long ride, with a few programs in a series of posts. I hope you'll join me, with some demonstrations in how much fun these can be. It would be helpful if you've done a little Python before, but this aims to be a beginner-friendly course.
 
-This series will focus on programming with lots of visuals. We'll write it using PyGame letting us get a lot on the screen. Beyond being handy in robotics, this is fun for some simple visual effects, games and simulations.
+This series will focus on programming with lots of visuals. You'll write it using PyGame letting us get a lot on the screen. Beyond being handy in robotics, this is fun for some simple visual effects, games and simulations.
 
 ## Getting prepared
 
@@ -24,7 +24,7 @@ pip install pygame
 
 ## One dot
 
-The simplest particle system is one dot. We'll use this to get up and running. This is the least interesting particle system, but we can build on it to something more fun.
+The simplest particle system is one dot. You'll use this to get up and running. This is the least interesting particle system, but you can build on it to something more fun.
 
 ```python
 import pygame
@@ -63,27 +63,25 @@ Run it and you should see this:
 
 ![One dot on the screen](/2024/11/24-making-particle-systems-for-fun-and-robotics/one-dot.png)
 
-We start with importing [PyGame](https://www.pygame.org/), a Python gaming library for drawing 2D games.
+The code starts with importing [PyGame](https://www.pygame.org/), a Python gaming library for drawing 2D games. It then sets up some parameters for your program. It defines the display size with `WIDTH` and `HEIGHT`, and uses `FRAME_RATE` so the program runs at a consistent speed.
 
-We then set up some parameters for our program. We define the display size with `WIDTH` and `HEIGHT`. We use FRAME_RATE so the program runs at a consistent speed.
+You then set up some colours. A background colour, and a colour for your dot, followed by a dot size. putting these things in parameters makes them easy to change later.
 
-We then set up some colours. A background colour, and a colour for our dot, followed by a dot size. putting these things in parameters makes them easy to change later.
-
-We then define a list with two numbers, the x and y position of the dot. This is our particle, followed by a function to draw our particle, a circle on the screen. In PyGame, the top left corner is 0,0, so the bottom of the screen is HEIGHT.
+Your code then defines a list with two numbers, the x and y position of the dot. This is your particle, followed by a function to draw our particle, a circle on the screen. In PyGame, the top left corner is 0,0, so the bottom of the screen is HEIGHT.
 
 ![PyGame Coordinate System](/2024/11/24-making-particle-systems-for-fun-and-robotics/pygame-coordinates.png)
 
-After this we initialise pygame, with a screen and a clock and enter a main loop. The main loop starts with a running variable, so the system can be told when to exit. The code looks for a QUIT event, triggered when you close the window to ensure it shuts down. This is a common pattern in PyGame.
+After this you initialise pygame, with a screen and a clock and enter a main loop. The main loop starts with a running variable, so the system can be told when to exit. The code looks for a QUIT event, triggered when you close the window to ensure it shuts down. This is a common pattern in PyGame.
 
-The next part of the loop fills the screen with background colour. We then use the `draw` function to draw the dot. We must call `pygame.display.flip` as pygame draws everything on a hidden buffer, which we swap with the visible screen.
+The next part of the loop fills the screen with background colour. You then use the `draw` function to draw the dot. You must call `pygame.display.flip` as pygame draws everything on a hidden buffer, which you swap with the visible screen.
 
-Finally we tick the clock to keep the framerate the same. The last line of the program is `pygame.quit` to ensure everything is cleaned up.
+Finally you tick the clock to keep the framerate the same. The last line of the program is `pygame.quit` to ensure everything is cleaned up.
 
 This is drawn at 400, 400 which is the middle of the screen. I suggest you try a few values between 0 and the WIDTH to see how it changes. I guarantee you won't like my colour choices, so you can also try different colour names, or even RGB values (like `(255, 0, 0)` for red).
 
 ## Making it a bit random
 
-A key concept in a particle system is randomness. We can make the one dot less boring by making it random.
+A key concept in a particle system is randomness. You can make the one dot less boring by making it random.
 
 At the top of the file, lets import the random module above pygame:
 
@@ -92,7 +90,7 @@ import random
 import pygame
 ```
 
-Now we can make it show the dot at a random place every time we run it. Update the one_dot line to be:
+Now you can make it show the dot at a random place every time you run it. Update the one_dot line to be:
 
 ```python
 one_dot = [random.randint(0, WIDTH), random.randint(0, HEIGHT)]
@@ -100,21 +98,21 @@ one_dot = [random.randint(0, WIDTH), random.randint(0, HEIGHT)]
 
 ## Movement
 
-We have a particle, but particles have a lifecycle:
+You have a particle, but it's not doing much. You can add a little movement to our particle.
+
+Particles have a lifecycle:
 
 - They are created
 - They update and change over time
 - They may also die
 
-We can add a little movement to our particle. Let's introduce a speed constant and update our particle with it.
-
-In the constants add the following:
+Let's introduce a speed constant and update our particle with it. In the constants add the following:
 
 ```python
 SPEED = 2
 ```
 
-We can add an update function, which can be called in the main loop:
+You then add an `update` function, which can be called in the main loop:
 
 ```python
 def update():
@@ -123,9 +121,9 @@ def update():
         one_dot[1] = 0
 ```
 
-This will add the speed to the second element (the Y coordinate) of the one_dot list. If the dot reaches the bottom of the screen, we reset it to the top.
+This will add the speed to the second element (the Y coordinate) of the one_dot list. If the dot reaches the bottom of the screen, you reset it to the top.
 
-We then call this in the main loop before we start drawing things:
+You then call `update` in the main loop before you start drawing things:
 
 ```python
 running = True
@@ -141,7 +139,7 @@ while running:
     clock.tick(FRAME_RATE)
 ```
 
-Run this. You can adjust the speed by changing the SPEED constant, or increasing the FRAME_RATE, however, note that above a certain frame rate value we may be being slowed by the speed of the program. With high SPEED values, you may see the dot jump on the screen.
+Run this. You can adjust the speed by changing the SPEED constant, or increasing the FRAME_RATE, however, note that above a certain frame rate value your frames may be being slowed by the speed of the program. With high SPEED values, you may see the dot jump on the screen.
 
 This dot has a lifecycle:
 
@@ -149,9 +147,11 @@ This dot has a lifecycle:
 - It moves down the screen
 - When it reaches the bottom, it is moved back to the top
 
+What happens if you make the SPEED constant negative?
+
 ## Multiple dots
 
-We can make this more interesting again by having multiple dots, like a rain storm. We can do this by having a list of dots.
+You can make this more interesting again by having multiple dots, like a rain storm. You can do this by having a list of dots.
 
 Swap our one dot for this:
 
@@ -170,7 +170,7 @@ def populate():
         )
 ```
 
-We then need to update the draw function to draw all the dots:
+You then need to update the draw function to draw all the dots:
 
 ```python
 def draw(surface):
@@ -188,7 +188,7 @@ def update():
             raindrop[1] = 0
 ```
 
-Finally, we need to call the populate function to create the dots, while we initialise the program:
+Finally, you need to call the populate function to create the dots while you initialise the program:
 
 ```python
 pygame.init()
@@ -209,11 +209,9 @@ These dot's all have the same lifecycle as our one dot!
 
 ## Adjusting the lifecycle
 
-We can change this particle system in a few interesting ways. You might have noticed the raindrops loop around in a repeating pattern.
+You can change this particle system in a few interesting ways. You might have noticed the raindrops loop around in a repeating pattern.
 
-We can fix this by changing the lifecycle. Instead of just wrapping the raindrop, we can pretend this raindrop has reached the end of the lifecycle and that we are creating a new one. However, we can do something sneaky and reset the x to a random value when we do this.
-
-We only need to modify the `update` function:
+You can fix this by changing the lifecycle. Instead of just wrapping the raindrop, you can pretend this raindrop has reached the end of the lifecycle and that your are creating a new one. However, you can do something sneaky and reset the x to a random value when you do this. You only need to modify the `update` function:
 
 ```python
 def update():
@@ -228,8 +226,8 @@ You shouldn't be able to see a repeating pattern any more.
 
 ## Random speeds
 
-We can add a little depth by adding a further parameter to our raindrops. For this we will change two parts of the lifecycle - the add function and the update function.
-We'll also adjust the parameters above.
+You can add a little depth by adding a further parameter to our raindrops. For this you will change two parts of the lifecycle - the add function and the update function.
+You'll also adjust the parameters above. Extend the constants after the POPULATION_SIZE:
 
 ```python
 POPULATION_SIZE = 200
@@ -237,7 +235,7 @@ MIN_SPEED = 2
 MAX_SPEED = 6
 ```
 
-In the populate function, lets make a random speed:
+You can then modify the populate function to generate a random speed:
 
 ```python
 def populate():
@@ -251,7 +249,7 @@ def populate():
         )
 ```
 
-We can then update using this stored speed:
+You can then update using this stored speed:
 
 ```python
 def update():
@@ -262,7 +260,7 @@ def update():
             raindrop[0] = random.randint(0, WIDTH)
 ```
 
-However, we made an assumption in draw that the raindrop was only 2 numbers - the coordinates of the drop. With 3, we need to filter them:
+However, the code made an assumption in draw that the raindrop was only 2 numbers - the coordinates of the drop. With 3, you need to filter them:
 
 ```python
 def draw(surface):
@@ -274,7 +272,7 @@ If you run this, you can now see raindrops falling at different speeds.
 
 ## Checkpoint - raindrops
 
-We've built a small particle system, transforming a single static dot into a rainstorm with raindrops at different speeds. Here's the full code:
+You've built a small particle system, transforming a single static dot into a rainstorm with raindrops at different speeds. Here's the full code:
 
 ```python
 import random
@@ -345,6 +343,6 @@ You've built a simple particle system, raindrops, using Python and PyGame. You'v
 
 You've also seen how particles have a lifecycle.
 
-Over the coming for posts, we can explore what other ways we can use particle systems, some variations on this theme, and some quite different.
+Over the coming for posts, we can explore what other ways you can use particle systems, some variations on this theme, and some quite different.
 
 I've built this inspired by the Kingston University Coder Dojo where I mentor Python, and will have other particle systems inspired by research I've done for my books.
