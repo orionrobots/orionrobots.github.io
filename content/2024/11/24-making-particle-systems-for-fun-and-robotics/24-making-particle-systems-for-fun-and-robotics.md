@@ -2,6 +2,7 @@
 title: How to make particle systems for fun and robotics
 date: 2024-11-24
 tags: ["robotics", "programming", "python", "particle systems"," robotics at home"]
+description: How to make a raindrop simulation using Python, PyGame and a particle system
 thumbnail: content/2024/11/24-making-particle-systems-for-fun-and-robotics/raindrops.png
 ---
 I have a lifelong fascination with Particle systems, complementing my robotics. However, it was only a few years ago that I found out how to bring the two together in a Monte Carlo Localization particle filter.
