@@ -46,25 +46,19 @@ The Lego RCX is no longer available, but there are many books on the subject wor
 
 (paid links)
 
-<div class="media">
-    <div class="media-left">
-<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=GB&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=orionrobots-21&marketplace=amazon&region=GB&placement=159749089X&asins=159749089X&linkId=2f96480b45a8b0c87b5bdaf794f1177f&show_border=true&link_opens_in_new_window=true"></iframe>
-    </div><div class="media-body"><h3>Classic Lego Mindstorms Projects and Software Tools: Award-Winning Designs from Master Builders</h3>
+{% amazon_media "/amazon_product_images/51WPUFfE3BL.jpg", "Classic Lego Mindstorms Projects and Software Tools: Award-Winning Designs from Master Builders", "https://amzn.to/3VQk0rG" %}
+    Stacked with ideas to get more from an RCX kit with concepts that translate to later revisions and other Lego kits.
+{% endamazon_media %}
 
-Stacked with ideas to get more from an RCX kit with concepts that translate to later revisions and other Lego kits.
-</div></div>
+{% amazon_media "content/amazon_product_images/71O7fqvyWML._AC_SL1024_.jpg", "LEGO 51515 MINDSTORMS Robot Inventor Robotics Kit, Coding Set for Kids, 5in1 App Remote Control Programmable Interactive Toy", "https://amzn.to/41FUj0J" %}
+    This is the current generation in awesome Lego robot and contraption building kits.
+    This toy comes with 4 smart motors, an LED screen, speaker for sounds, a distance sensor,
+    colour sensor, 6 axis gyroscope (orientation sensor).
+    Your imagination is the only limit. Build a robot with Lego, and program it with blocks or MicroPython.
+    As it's Lego, you can extend it with any other bricks from the Lego system.
+{% endamazon_media %}
 
-(paid links)
-
-<div class="media">
-    <div class="media-left">
-<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=GB&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=orionrobots-21&marketplace=amazon&region=GB&placement=B00BMKLVJ6&asins=B00BMKLVJ6&linkId=150dcd300a737e91832bad75c7cd1d82&show_border=true&link_opens_in_new_window=true"></iframe>
-</div><div class="media-body"><h3>The Lego mindstorms Ev3</h3>
-
-This is the current generation in awesome Lego robot and contraption building kits.
-</div></div>
-
-[NQC](/wiki/nqc)
+[NQC](/wiki/nqc) - Not Quite C - is a C-like language for programming the RCX. It is a great way to get started with the RCX, and is a good way to learn C programming. NQC is a free download, and is available for Windows, Linux and Mac OS X.
 
 ## LeJOS - A Java based Lego RCX System
 
@@ -201,20 +195,31 @@ These items will help you to open up and look inside an RCX. Make sure you don't
 
 (paid links)
 
-<table class="prodtable">
-<tr><td><a href="https://www.amazon.co.uk/gp/product/B002V4ULHU/ref=as_li_ss_il?ie=UTF8&linkCode=li2&tag=orionrobots-21&linkId=d95a3225cc85d7064814dd2291723546&language=en_GB" target="_blank"><img border="0" src="//ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B002V4ULHU&Format=_SL160_&ID=AsinImage&MarketPlace=GB&ServiceVersion=20070822&WS=1&tag=orionrobots-21&language=en_GB" ></a><img src="https://ir-uk.amazon-adsystem.com/e/ir?t=orionrobots-21&language=en_GB&l=li2&o=2&a=B002V4ULHU" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /></td><td><h3> A flat-head jewellers screwdriver. </h3>
-here are some very fiddly screws when opening devices like this, once you've levered off the case. These Jewellers sets are just the trick to do so.
-</td></tr>
-<tr><td><a href="https://www.amazon.co.uk/gp/product/B006RAW942/ref=as_li_ss_il?ie=UTF8&linkCode=li1&tag=orionrobots-21&linkId=e37cbd49f7ad89cf25a29ec5f0bc9633&language=en_GB" target="_blank"><img border="0" src="//ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B006RAW942&Format=_SL110_&ID=AsinImage&MarketPlace=GB&ServiceVersion=20070822&WS=1&tag=orionrobots-21&language=en_GB" ></a><img src="https://ir-uk.amazon-adsystem.com/e/ir?t=orionrobots-21&language=en_GB&l=li1&o=2&a=B006RAW942" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /></td><td><h3>Safety Goggles</h3>
+{% amazon_media "content/amazon_product_images/81c9LK5TiWL._AC_SX679_.jpg", "iFixit Essential Electronics Toolkit, Basic tool-set with 16 precision bits (4 mm), magnetic screwdriver & opening tools for electronic devices", "https://amzn.to/3P6OguA" %}
+This kit contains a lot of the tools you'll need to get the RCX open.
+
+The spudger and flat blade are perfect for levering the case open to get to screws inside.
+
+There are some very fiddly screws when opening devices like this, nice you've levered off the case. So a small set of screwdriver heads for these is also useful.
+
+The tweezers are helpful for getting screws back in later too. We like the iFixit tool quality, and their mission in helping people fix and maintain their own devices.
+{% endamazon_media %}
+
+{% amazon_media "content/amazon_product_images/71dkYvW25kL._SX522_.jpg", "DeWALT Safety Goggles DPG82-11D", "https://amzn.to/4gGtX3v" %}
 As you pull things like this apart, tiny plastic bits can sometimes ping off, and if you are unlucky, you may get one in the eye - ouch! A reasonable pair of goggles is highly recommended when getting into the innards of any gadgets- because for the extra time, money and inconvenience, none of them outweigh the value of your eyes.
-</td></tr>
-<tr><td><a href="https://www.amazon.co.uk/dp/B01CUOCRM2/ref=as_li_ss_il?ie=UTF8&linkCode=li2&tag=orionrobots-21&linkId=0d1b55d7f0df1c3ab42eed2f52acae62&language=en_GB" target="_blank"><img border="0" src="//ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B01CUOCRM2&Format=_SL160_&ID=AsinImage&MarketPlace=GB&ServiceVersion=20070822&WS=1&tag=orionrobots-21&language=en_GB" ></a><img src="https://ir-uk.amazon-adsystem.com/e/ir?t=orionrobots-21&language=en_GB&l=li2&o=2&a=B01CUOCRM2" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /></td>
-<td><h3>A positionable lamp</h3>
+
+These DeWalt goggles come from a well known brand, and are designed to keep your view clear, because foggy goggles end up over you head and not over your eyes! They are scratch resistant and designed for comfort.
+{% endamazon_media %}
+
+{% amazon_media "content/amazon_product_images/61+M7Z-G-HS._AC_SX679_.jpg", "A positionable desk lamp", "https://amzn.to/3P9iJs8" %}
 A good lamp makes working with these things far easier - otherwise you find yourself holding it closely to your eyes and angling it to the light just to find something. With a good light - you just wont need that. A good thing too - as poor lighting may lead to you taking of goggles as you pry at the fiddly parts. Get a good desk lamp!
-</td></tr>
-<tr><td><a href="https://www.amazon.co.uk/Anti-Static-Wristband-Discharge-Prevents-Electricity/dp/B004TQRFPE/ref=as_li_ss_il?ie=UTF8&qid=1519600714&sr=8-1&keywords=anti+static+wrist+straps&linkCode=li2&tag=orionrobots-21&linkId=b8adaec80bad68bab324309da5ab45f6&language=en_GB" target="_blank"><img border="0" src="//ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B004TQRFPE&Format=_SL160_&ID=AsinImage&MarketPlace=GB&ServiceVersion=20070822&WS=1&tag=orionrobots-21&language=en_GB" ></a><img src="https://ir-uk.amazon-adsystem.com/e/ir?t=orionrobots-21&language=en_GB&l=li2&o=2&a=B004TQRFPE" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /></td>
-<td><h3>An Antistatic Wrist Strap</h3>
-While some recommend this, as your contact may cause some devices to malfunction, I rarely, if ever use a wrist strap. You may be carrying a charge - especially if you are wearing woolly jumpers or other static build clothes. However, instead of a strap, tapping on an earthed device may be just as useful.</td></tr></table>
+{% endamazon_media %}
+
+{% amazon_media "content/amazon_product_images/71vFRH2IrrL._AC_SX679_.jpg", "An Antistatic Wrist Strap", "https://amzn.to/3BBYUGF" %}
+
+While some recommend this, as your contact may cause some devices to malfunction, I rarely, if ever use a wrist strap. You may be carrying a charge - especially if you are wearing woolly jumpers or other static build clothes. However, instead of a strap, tapping on an earthed device may be just as useful.
+
+{% endamazon_media %}
 
 ### Steps
 
@@ -325,13 +330,11 @@ You may get somewhere in using an older version of Quicktime to prevent errors i
 
 Virtual Box is freely downloadable at [Virtualbox.org](http://www.virtualbox.org/). You will just need a version of Windows – I recommend 98 (which dates the RCX!) as there are no patches needed for the Mindstorms software. Just make sure you use the Windows 98 VM only for Mindstorms and do not go on the net with Windows 98.
 
-
 In Windows 7, with the more expensive editions (which you can purchase through an Anytime upgrade), you get a version of Virtual PC, with an older version of Windows running in it, for just this kind of compatibility problem. However that is XP, and the compatibility patches that Lego were hosting have long since been removed.
 
 Unfortunately, Lego do not support the consumer RCX so much any more, and the downloads have now also gone from their education site.
 
-For a simpler route in terms of drivers and so on, you may find [NQC](http://bricxcc.sourceforge.net/nqc/) and [Brickx Command Centre](http://bricxcc.sourceforge.net/) easier, although programming them takes more work and patience
-.
+For a simpler route in terms of drivers and so on, you may find [NQC](http://bricxcc.sourceforge.net/nqc/) and [Brickx Command Centre](http://bricxcc.sourceforge.net/) easier, although programming them takes more work and patience.
 
 ## More RCX, Mindstorms and Lego Information
 
