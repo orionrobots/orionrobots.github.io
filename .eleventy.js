@@ -11,7 +11,7 @@ const groupByYear = require("./src/filters/group_by_year.js");
 const thumbnails = require("./src/thumbnails.js");
 const tab_gallery = require("./src/shortcodes/make_tab_gallery.js");
 const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
-
+const install_media_objects = require("./src/media_object.js");
 const {
     fortawesomeBrandsPlugin,
 } = require('@vidhill/fortawesome-brands-11ty-shortcode');
@@ -22,9 +22,12 @@ module.exports = function(eleventyConfig) {
     const markdownLib = markdownIt({html: true, typographer: true});
     markdownLib.use(markdownItAnchor);
     markdownLib.use(markdownItAttrs);
+    
     eleventyConfig.setLibrary("md", markdownLib);
     eleventyConfig.addPlugin(fortawesomeBrandsPlugin);
     eleventyConfig.addPlugin(syntaxHighlight);
+
+    install_media_objects(eleventyConfig);
 
     //copy through assets
     eleventyConfig.addPassthroughCopy("admin");
