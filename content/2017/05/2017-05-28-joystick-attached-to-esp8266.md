@@ -2,10 +2,10 @@
 date: '2017-05-28'
 layout: post
 tags:
-- microcontrollers
-- electronics
+- microcontroller projects
+- diy electronics project
 - code
-- esp8266
+- esp8266 projects
 - lua programming
 - programming
 - nodemcu
@@ -32,25 +32,29 @@ You can find the code for this on [Github](https://github.com/orionrobots/esp826
 
 (paid links)
 
-A 2-Axis analog joystick
+{% amazon_media "content/amazon_product_images/71xwW9M8cJL._AC_SX679_.jpg", "2-Axis analog joystick", "https://amzn.to/4068MSd" %}
+For this project, you'll need a game controller analog stick electronics module. Each axis is a potentiometer, and there's a digital switch too. This is a common module for DIY electronics projects.
+{% endamazon_media %}
 
-<iframe sandbox="allow-popups allow-scripts allow-modals allow-forms allow-same-origin" style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=orionrobots05-20&language=en_US&marketplace=amazon&region=US&placement=B07Z44N6DG&asins=B07Z44N6DG&linkId=76edea4739becf2a7bed4d498734a3a9&show_border=true&link_opens_in_new_window=true"></iframe>
+{% amazon_media "content/amazon_product_images/81T+FkXKJ4L._SX522_.jpg", "A NodeMCU ESP8266", "https://amzn.to/3VRYjrc" %}
+A NodeMCU ESP8266 development board. This is a microcontroller board with built-in WiFi. It's a great choice for IoT projects and robotics.
+{% endamazon_media %}
 
-A NodeMCU ESP8266
+{% amazon_media "content/amazon_product_images/71HIII3iAHS._SX522_.jpg", "A solderless breadboard with jumper wires", "https://amzn.to/3ZP4uxh" %}
+This project needs a breadboard, and some wires. 
 
-<iframe sandbox="allow-popups allow-scripts allow-modals allow-forms allow-same-origin" style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=orionrobots05-20&language=en_US&marketplace=amazon&region=US&placement=B081CSJV2V&asins=B081CSJV2V&linkId=90ded03f5fbec4c1d3272b61cd653a1b&show_border=true&link_opens_in_new_window=true"></iframe>
+This kit includes a bunch of breadboards and the wires. IF you are getting started in making electronics, you will need some breadboard handy.
 
-A breadboard and some jumper wires
+The nice thing here is you do not need soldering skills, and you can easily change your mind about your circuit, or use the same components to try other circuits while you are experimenting and learning.
+{% endamazon_media %}
 
-<iframe sandbox="allow-popups allow-scripts allow-modals allow-forms allow-same-origin" style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=orionrobots05-20&language=en_US&marketplace=amazon&region=US&placement=B08Y59P6D1&asins=B08Y59P6D1&linkId=32f42fefab3d555180460051e5d1cc8e&show_border=true&link_opens_in_new_window=true"></iframe>
+{% amazon_media "content/amazon_product_images/81vmFMTw01S._AC_SX679_.jpg", "A selection of transistors - 10 values", "https://amzn.to/4gsT7SZ" %}
+This project needs A couple of transistors - I used 2N3904's, but any NPN transistor will do. A selection box may be a good idea if you are starting the hobby.
+{% endamazon_media %}
 
-A couple of transistors - I used 2N3904's, but any NPN transistor will do. A selection box may be a good idea if you are starting the hobby.
-
-<iframe sandbox="allow-popups allow-scripts allow-modals allow-forms allow-same-origin" style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=orionrobots05-20&language=en_US&marketplace=amazon&region=US&placement=B06XCXX69F&asins=B06XCXX69F&linkId=5cb8da569d311adc1d765b9ed302eaa9&show_border=true&link_opens_in_new_window=true"></iframe>
-
-Two 2.2k resistors - I used 1/4 watt, but 1/8 watt will do.
-
-<iframe sandbox="allow-popups allow-scripts allow-modals allow-forms allow-same-origin" style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=orionrobots05-20&language=en_US&marketplace=amazon&region=US&placement=B06WRQS97C&asins=B06WRQS97C&linkId=1a95ddf47f3a89ee126c1de0f4c8dccd&show_border=true&link_opens_in_new_window=true"></iframe>
+{% amazon_media "content/amazon_product_images/71uBje2koeS._SX522_.jpg", "Two 2.2k resistors", "https://amzn.to/403EzTX" %}
+this project needs  2 x 2.2k ohm resistors. Pictured is a selection box. Again, if you are getting started, a selection of resistors is a must.
+{% endamazon_media %}
 
 ## The Circuit
 
