@@ -89,30 +89,10 @@ Ensure you stow away tools when you are done working, and ensure you can put the
 
 ## Recommendations
 
-If you are soldering, cutting, drilling, painting or even just tapping an item, safety of your eyes should be your first priority. Again these are relatively inexpensive(less than a tenner), but being a good brand, are comfortable and hard wearing.  Uncomfortable and easily broken goggles will just not be worn- which means your eyes will be in danger again.
-
-<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=GB&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=orionrobots-21&language=en_GB&marketplace=amazon&region=GB&placement=B0865YXFWH&asins=B0865YXFWH&linkId=9f0a157e31025738cf6e2ee152194011&show_border=true&link_opens_in_new_window=true"></iframe>
-
-If you are going to invest in soldering equipment - you should make sure you have a soldering stand.  This is inexpensive, and Draper are a trusted brand.  There is no good reason not to use a holder when soldering.
-
-<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=GB&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=orionrobots-21&language=en_GB&marketplace=amazon&region=GB&placement=B0001K9RAS&asins=B0001K9RAS&linkId=8b7a7c989ef009a5678554e57092f489&show_border=true&link_opens_in_new_window=true"></iframe>
-
-These days, temperature controlled soldering irons are inexpensive. This is a good way to have the temperatures needed for different solder jobs.
-
-<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=GB&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=orionrobots-21&language=en_GB&marketplace=amazon&region=GB&placement=B07ZQDLPR8&asins=B07ZQDLPR8&linkId=5962a386804816fa73b44eb2f2e9fc12&show_border=true&link_opens_in_new_window=true"></iframe>
-
-If you are going to be soldering a lot, you probably do not want to put burn marks into your (or your mums) French polished table. It is worth having a Soldering Mat if you do not have a dedicated space for soldering.
-
-<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=GB&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=orionrobots-21&language=en_GB&marketplace=amazon&region=GB&placement=B0001K9S3O&asins=B0001K9S3O&linkId=3ed7fe6ed442cdc229b5a019cacc9a88&show_border=true&link_opens_in_new_window=true"></iframe>
-
-A multimeter is an essential tool. Ensure you buy a digital one like this as the analogue ones really do not live up to what a roboticist will require.
-
-<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=GB&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=orionrobots-21&language=en_GB&marketplace=amazon&region=GB&placement=B071JL6LLL&asins=B071JL6LLL&linkId=910cb8008bdd70d980dd767408c18234&show_border=true&link_opens_in_new_window=true"></iframe>
-
-Jewellers screwdrivers are essential when you are building robots, as you will encounter many things both for building and salvage which require them. They are also quite useful at sorting out misbehaving spectacles.
-
-<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=GB&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=orionrobots-21&language=en_GB&marketplace=amazon&region=GB&placement=B07VL3C1NW&asins=B07VL3C1NW&linkId=bd6cd0360a159a0fe612bf1cf3aa4f1f&show_border=true&link_opens_in_new_window=true"></iframe>
-
-This type of lamp is flexible, bright, and comes with a magnifier too. It is ideal for precision jobs.
-
-<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=GB&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=orionrobots-21&language=en_GB&marketplace=amazon&region=GB&placement=B0882ZTLD5&asins=B0882ZTLD5&linkId=cac1f0fe2d7306a7ad6b61e70418b2d2&show_border=true&link_opens_in_new_window=true"></iframe>
+- Start with goggles. If you are soldering, cutting, drilling, painting or even just tapping an item, safety of your eyes should be your first priority. Again these are relatively inexpensive(less than a tenner), but being a good brand, are comfortable and hard wearing.  Uncomfortable and easily broken goggles will just not be worn- which means your eyes will be in danger again.
+- A solder stand. If you are going to invest in soldering equipment - you should make sure you have a soldering stand.  This is inexpensive, and Draper are a trusted brand.  There is no good reason not to use a holder when soldering.
+- A temperature controlled soldering iron. These days, temperature controlled soldering irons are inexpensive. This is a good way to have the temperatures needed for different solder jobs.
+- A soldering mat. If you are going to be soldering a lot, you probably do not want to put burn marks into your (or your mums) French polished table. It is worth having a Soldering Mat if you do not have a dedicated space for soldering.
+- A multimeter is an essential tool. Ensure you buy a digital one like this as the analogue ones really do not live up to what a roboticist will require.
+- A set of Jewellers screwdrivers are essential when you are building robots, as you will encounter many things both for building and salvage which require them. They are also quite useful at sorting out misbehaving spectacles.
+- A desk lamp. The best kind are flexible, bright, and comes with a magnifier too. It is ideal for precision jobs.

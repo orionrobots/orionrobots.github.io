@@ -10,7 +10,7 @@ tags:
   - making a robot at home
 thumbnail: /galleries/two_new_chassis_plates.jpg
 ---
-Today I've cut two more styrene chassis plates for building the robot rover from [Robotics at Home with Raspberry Pi Pico](https://amzn.to/3FaTjFW). This article has paid links.
+Today I've cut two more styrene chassis plates for building the robot rover from [Robotics at Home with Raspberry Pi Pico](https://packt.link/5swS2). This article has paid links.
 
 ## Why build two more?
 
@@ -32,8 +32,8 @@ Now I have the two rough parts, this means an evening of sanding with an audiobo
 
 ## About Robotics at Home with Raspberry Pi Pico
 
-<div style="float: left; margin-right: 4px"><a href="https://www.amazon.co.uk/Robotics-Home-Raspberry-Pico-autonomous-ebook/dp/B0BQN2GZ9W?crid=37W9Z7TUF70BD&keywords=robotics+at+home&qid=1677622694&sprefix=robotics+at+home%2Caps%2C60&sr=8-2&linkCode=li2&tag=orionrobots-21&linkId=1859af711cacfbcea06abe99b2e3c002&language=en_GB&ref_=as_li_ss_il" target="_blank"><img border="0" src="//ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0BQN2GZ9W&Format=_SL160_&ID=AsinImage&MarketPlace=GB&ServiceVersion=20070822&WS=1&tag=orionrobots-21&language=en_GB" ></a><img src="https://ir-uk.amazon-adsystem.com/e/ir?t=orionrobots-21&language=en_GB&l=li2&o=2&a=B0BQN2GZ9W" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /></div>
+<div style="float: left; margin-right: 8px"><a href="https://packt.link/5swS2" target="_blank"><img border="0" src="/galleries/robotics_at_home_with_raspberry_pi_pico_cover.jpg" alt="Robotics at Home with Raspberry Pi Pico"></a></div>
 
-[Robotics at Home with Raspberry Pi Pico](https://amzn.to/3FaTjFW) is a step-by-step journey for building a low cost rover with sensors and interesting algorithms.
+[Robotics at Home with Raspberry Pi Pico](https://packt.link/5swS2) is a step-by-step journey for building a low cost rover with sensors and interesting algorithms.
 
 The book starts from a position of no robotics experience with perhaps beginner level programming knowledge and takes them through designing, building and programming this robot.

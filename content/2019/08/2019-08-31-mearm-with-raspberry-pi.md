@@ -22,11 +22,8 @@ In my last few posts I've been playing with robot arms. In a recent video, I bui
 <iframe width="560" height="315" src="https://www.youtube.com/embed/OY8Aq9rou3k" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="true"></iframe>
 </div>
 
+You can buy a robot arm like this at <https://shop.mearm.com/>.
 In the next video I wire it up and then connect it to a Raspberry Pi
-
-(paid links)
-
-<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=GB&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=orionrobots-21&language=en_GB&marketplace=amazon&region=GB&placement=B01680T1B4&asins=B01680T1B4&linkId=ac32535aaf16558ce7e44901d580f9b2&show_border=true&link_opens_in_new_window=true"></iframe>
 
 ## Connecting it to a Raspberry Pi
 

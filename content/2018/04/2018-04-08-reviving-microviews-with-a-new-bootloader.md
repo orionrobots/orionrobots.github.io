@@ -1,8 +1,9 @@
 ---
 date: 2018-4-8 17:42:52
-tags: [sparkfun, microview, electronics, arduino]
+tags: [sparkfun, microview, microview projects, arduino projects, electronics projects, arduino]
 title: Reviving Sparkfun Microviews With a New Bootloader
 layout: post
+thumbnail: content/2018/04/cube-demo.jpg
 ---
 
 ## Introduction and Background
@@ -143,7 +144,7 @@ So I yet again uploaded the Cube demo - resulting in the following footage on a 
 
 I desoldered the wires, put it back in it's enclosure and then replaced the glass.
 
-![Cube Demo Close](/galleries/2018-04-08-reviving-microbit/cube-demo.jpg)
+{% img_responsive "content/2018/04/cube-demo.jpg", "Cube Demo Close" %}
 
 ## Conclusion
 
@@ -163,9 +164,3 @@ This exercise has definitely increased my confidence in a few areas:
 * Mucking around with the Arduino as a programmer.
 
 And I now have 2 more Microviews for my projects!
-
-(paid links)
-
-<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=GB&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=orionrobots-21&marketplace=amazon&region=GB&placement=B01BHGY8WG&asins=B01BHGY8WG&linkId=0872c91f1ee268f1b607ee2af9f6bcec&show_border=true&link_opens_in_new_window=true"></iframe>
-
-<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=GB&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=orionrobots-21&marketplace=amazon&region=GB&placement=B01BN10QOY&asins=B01BN10QOY&linkId=10088801aa6cc97357ccd07e811b2819&show_border=true&link_opens_in_new_window=true"></iframe>

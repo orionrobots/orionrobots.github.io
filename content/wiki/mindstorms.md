@@ -33,9 +33,5 @@ There are a number of programming systems, both designed by Lego and by the comm
 
 ## Recommended Reading
 
-(paid links)
-
-<table class="normal">
-<tr> <td><<iframe sandbox="allow-popups allow-scripts allow-modals allow-forms allow-same-origin" style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=GB&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=orionrobots-21&language=en_GB&marketplace=amazon&region=GB&placement=1886411409&asins=1886411409&linkId=10d6ba81743384989944be08e4033516&show_border=true&link_opens_in_new_window=true"></iframe></td> <td> <a href="http://amzn.to/2DNuNrF" rel="external" target="_blank">Joe Nagata's Lego Mindstorms Idea Book (paid link)</a> </td> <td> Joe Nagata </td> <td> This has some great ideas, tips and tricks to use with Lego Mindstorms kits.</td> </tr>
-<tr> <td><iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=GB&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=orionrobots-21&marketplace=amazon&region=GB&placement=1886411565&asins=1886411565&linkId=c65f6d594e45c0691a0377d95f42f3c6&show_border=true&link_opens_in_new_window=true"></iframe></td> <td> [Jim Sato's Lego Mindstorms: the Master's Technique (paid link)](https://amzn.to/3KnCl8C) </td> <td> Jin Sato </td> <td> It would be almost a crime to mention one of these books without the other. Jin Sato's book is worth buying, even if it is just for his joint tech.</td>
-</tr> </table>
+- Joe Nagata's Lego Mindstorms Idea Book. This has some great ideas, tips and tricks to use with Lego Mindstorms kits.
+- Jim Sato's Lego Mindstorms: the Master's Technique. It would be almost a crime to mention one of these books without the other. Jin Sato's book is worth buying, even if it is just for his Lego joint engineering.

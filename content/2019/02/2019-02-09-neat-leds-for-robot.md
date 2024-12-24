@@ -1,12 +1,12 @@
 ---
 date: 2019-02-09 08:04:30
-tags: [robotics books, raspberry pi, leds, learn robotics at home]
+tags: [robotics books, raspberry pi, leds, electronics, learn robotics at home]
 title: New addressable RGB LED's, perfect for a robot
 layout: post
 ---
 This week, I've seen a new product range, the LuMini LED's by Sparkfun (available in most sparkfun resellers). These are addressable RGB LED's.
 
-![Sparkfun Lumenati](/galleries/2019-02-09-sparkfun-lumini/sparkfun-lumini.png){:class="img-responsive"}
+![Sparkfun Lumini](/galleries/2019-02-09-sparkfun-lumini/sparkfun-lumini.png){:class="img-responsive"}
 
 ## What are they?
 

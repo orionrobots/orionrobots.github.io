@@ -37,8 +37,6 @@ Although measurements on the web are useful when making CAD designs or drawings,
 
 An absolutely essential tool for this is a set of digital calipers. They need not be expensive ones, although paying more will give more precision, even a basic set will let you make precise measurements.
 
-<iframe sandbox="allow-popups allow-scripts allow-modals allow-forms allow-same-origin" style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=orionrobots05-20&language=en_US&marketplace=amazon&region=US&placement=B07DFFYCXS&asins=B07DFFYCXS&linkId=f9eba23f736f99f8a0b52f9c2d107f5a&show_border=true&link_opens_in_new_window=true"></iframe>
-
 ### Formulas for CAD Constraints
 
 When you are constraining and defining parts to interface with Lego - you may find these definitions/calculations using the above symbols useful:
@@ -74,8 +72,6 @@ $$\begin{align*}
 = 5:6 \\
 \end{align*}$$
 
-<iframe sandbox="allow-popups allow-scripts allow-modals allow-forms allow-same-origin" style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=orionrobots05-20&language=en_US&marketplace=amazon&region=US&placement=B00NHQFA1I&asins=B00NHQFA1I&linkId=7294f5e1e8f0b89ddcde161cd40b4f46&show_border=true&link_opens_in_new_window=true"></iframe>
-
 ### Lego Plate Height
 
 Plates (thin bricks) are 1/3 standard bricks tall. This is 16/5 mm, or 3.2 mm.
@@ -90,14 +86,6 @@ $$\begin{align*}
 \end{align*}$$
 
 Building 5 plates high matches 2 studs wide.
-
-<iframe sandbox="allow-popups allow-scripts allow-modals allow-forms allow-same-origin" style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=orionrobots05-20&language=en_US&marketplace=amazon&region=US&placement=B006Z78LBW&asins=B006Z78LBW&linkId=83e0c0aed1c5390e423af9d1e0480a95&show_border=true&link_opens_in_new_window=true"></iframe>
-
-#### Buy a Lego Technic Starter Robot Kit
-
-If you or your kids are just starting in creating robots with Lego, it might be a great time to buy a starter kit. The LEGO Boost Creative Toolbox Robotics Kit offers simple programming for an absolute beginner, making satisfying mechanical builds with smart programmable behaviour.
-
-<iframe sandbox="allow-popups allow-scripts allow-modals allow-forms allow-same-origin" style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=orionrobots05-20&language=en_US&marketplace=amazon&region=US&placement=B072MK1PDV&asins=B072MK1PDV&linkId=c8d3f6b17f6c4eee349a1aca2641a6fa&show_border=true&link_opens_in_new_window=true"></iframe>
 
 ### LDU (LDraw Units)
 
@@ -122,8 +110,6 @@ In the Lego system, Technic gears have a ratio that the number of teeth are 8 ti
 | 40t   | 5              | 40 |
 
 More info on mounting these can be found at [The Brick Bakery](http://sjbaker.org/steve/lego/gearpairs.html "The Brick Bakery:Gear Mounting & Ratios").
-
-<iframe sandbox="allow-popups allow-scripts allow-modals allow-forms allow-same-origin" style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=orionrobots05-20&language=en_US&marketplace=amazon&region=US&placement=B00U23VMTS&asins=B00U23VMTS&linkId=b186e638e0807e594b64a3a6446f8508&show_border=true&link_opens_in_new_window=true"></iframe>
 
 ## Lego Brick Materials
 

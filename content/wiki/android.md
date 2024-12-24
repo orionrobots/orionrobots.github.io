@@ -23,8 +23,6 @@ The closest we are to this is probably the work of [Dr Rodney Brooks](/wiki/rodn
 
 People have started making great steps towards creating advanced androids, but we are still some way off recreating the work of Dr Soong (Data's builder).
 
-(paid links)
+## Android phone operating system
 
-<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=GB&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=orionrobots-21&language=en_GB&marketplace=amazon&region=GB&placement=B082STL7XD&asins=B082STL7XD&linkId=9b813710376bbe9814f132d0d9496f4a&show_border=true&link_opens_in_new_window=true"></iframe>
-
-<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=GB&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=orionrobots-21&language=en_GB&marketplace=amazon&region=GB&placement=B075VS5JSR&asins=B075VS5JSR&linkId=21167fb20dbb0b1f9e12ba9ec21f8742&show_border=true&link_opens_in_new_window=true"></iframe>
+Android is also the trademark name for the Google operating system for smart phones.
