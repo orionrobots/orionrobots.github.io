@@ -1,6 +1,6 @@
 ---
 title: Investigating VScode + WSL as a MicroPython IDE
-tags: [robot programming, micropython, vscode, python, raspberry pi pico]
+tags: [robot programming, micropython, mpremote, vscode, python, raspberry pi pico]
 date: 2024-12-23
 ---
 I am a frequent user of Micropython. I also have recently been using a Windows desktop (I had been using a Mac for a while).
@@ -83,7 +83,7 @@ $ mpremote devs
 /dev/ttyACM0 e6614104034c1035 2e8a:0005 MicroPython Board in FS mode
 ```
 
-I have more MPremote information elsewhere, but what about closer VSCode integration?
+See [About MPRemote](/2024/01/21/21-aboutmpremote.html) for more information about this handy tool. What about closer VSCode integration?
 
 ## VSCode MicroPico extension
 
