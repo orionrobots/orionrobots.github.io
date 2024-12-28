@@ -3,7 +3,6 @@ title: Particle systems part 2 - The snowglobe
 description: How to make a snow storm  using Python, PyGame and a particle system
 tags: ["programming", "python", "particle systems"," pygame"]
 date: 2024-12-04
-# draft: true
 thumbnail: content/2024/12/04-particle-systems-part-2-the-snowglobe/snow-settling-in-drifts.png
 ---
 In the [previous particle systems article](/2024/11/24/24-making-particle-systems-for-fun-and-robotics.html) we built a simple particle system that created raindrops.
