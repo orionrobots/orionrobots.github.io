@@ -1,4 +1,18 @@
 services:
+  dist:
+    image: node:18-bullseye
+    command: ["npm", "run", "dist"]
+    volumes:
+      - .:/src
+    working_dir: /src
+
+  dist_clean:
+    volumes:
+      - .:/src
+    working_dir: /src
+    image: node:18-bullseye
+    command: ["rm", "-rf", "dist"]
+
   web:
     build: _drafts/staging
     ports:
