@@ -77,6 +77,14 @@ The KiCAD schematic editor did not like loading it - it had problems with the sy
 
 I had to import, and remap the AT Tiny, l293d and diode symbols to view it.
 
+## Related designs
+
+I a way, my simple designs here likely inspired how I designed my books.
+
+In Learn Robotics Programming, I use a motor HAT that interfaces with the Raspberry Pi over I2C, keeping many more IO pins available for use with sensors, mirroring the goal of this project.
+
+In Robotics at Home, 1st Edition, I've connected a Raspberry Pi Pico to a TB6612FNG motor controller module, in much the same way this one was connected. That module already has flyback diodes, and the bypass capacitors this design needed.
+
 ## Conclusion
 
 The Arduino Uno is now a very dated platform, and arguably was starting to become dated at the time. There are motor controller boards based on I2c that have beautiful features now. There's not a lot of value in keeping the actual files. However, the little bit of file archaeology was interesting.
