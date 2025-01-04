@@ -1,6 +1,6 @@
 ---
 title: Investigating VScode + WSL as a MicroPython IDE
-tags: [robot programming, micropython, mpremote, vscode, python, raspberry pi pico]
+tags: [robot programming, micropython, mpremote, vscode, python, raspberry pi pico, maplin usb robot arm]
 date: 2024-12-23
 ---
 I am a frequent user of Micropython. I also have recently been using a Windows desktop (I had been using a Mac for a while).

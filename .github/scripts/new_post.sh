@@ -1,4 +1,8 @@
 #!/bin/bash
+# Helper to create a new blog post, and folder structure, open it in vs code.
+# Usage:
+#   ./.github/scripts/new_post.sh "Post title not slugged but in quotes"
+
 set -eu -o pipefail
 
 POST_DATE=$(date +"%Y-%m-%d")
@@ -39,6 +43,7 @@ function main {
     local file_path="$(file_path "$slug" "$folder_path")"
     mkdir -p "$folder_path"
     create_post "$file_path"
+    code "$file_path"
 }
 
 main
