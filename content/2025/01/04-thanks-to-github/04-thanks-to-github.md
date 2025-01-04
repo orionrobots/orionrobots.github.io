@@ -3,9 +3,9 @@ title: Thanks to Github for fixing a problem
 date: 2025-01-04
 tags: [github, robot arm, python code, maplin usb robot arm, owi edge robot arm]
 author: Danny Staple
+thumbnail: content/2025/01/04-thanks-to-github/github-repo-screenshot.png
 ---
 My python library for the Maplin USB robot Arm has been reasonably popular over the years. However, at one point several years ago, I wanted to move the repository from my dannystaple account into the orionrobots org, so other people in orionrobots, students or helpers, could contribute, review and so on.
-
 
 ## What is this code
 
@@ -17,8 +17,8 @@ I was less experienced with the ways of Github admin, so I forked my repository,
 
 I then deleted the original repository (it was dannystaple/robot_arm). This was still considered the upstream of the new repository. This had some unfortunate effects:
 
-- Some other fork of my repository by a random interested person was now considered the upstream
-- All pull requests were being automatically routed to that upstream
+- Some other fork of my repository (tazjel/robot_arm) was now considered the upstream. Of course - thank you for there interest in my arm, but this isn't really the correct attribution.
+- All pull requests were being automatically routed to that upstream.
 
 I was frustrated, but left it for a few years. However, I have support requests for this library.
 
@@ -44,5 +44,9 @@ There's a change ownership of repository button in the admin section, this is th
 ## Other problems with the Arm
 
 Sadly, my Maplin Arm is dead. After we moved house, I tried to plug it in, and broke it, letting the magic smoke out of one of the motor control chips, by trying to power it differently... I've ordered a replacement on eBay, a whole arm that I can use for spares and repairs to keep it going. Perhaps when my SMD skills are better, I could replace the specific motor chip I blew too. I didn't keep notes on how exactly I broke it, probably because we were moving house. Suffice to say, it added to the list of stressful things at the time. But once the new parts arrived, I'll repair it and get it running again.
+
+![Blown chip on my Maplin USB Robot Arm board](/2025/01/04-thanks-to-github/usb-arm-chip-damage.jpg)
+
+The photo is a touch blurry, but the indicated chip is blown. Based on <https://kyllikki.github.io/EdgeRobotArm/> the blown chip is an ST1151A single channel motor controller. The board could be repaired, but fro now I'll swap the board out as that will get me up and running sooner.
 
 I've still got someone I've been supporting whose arm isn't moving at all. With mine up and running, I'll perhaps be able to better troubleshoot his for him.
