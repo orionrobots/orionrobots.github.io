@@ -32,7 +32,7 @@ import pdb
 pdb.set_trace()
 ```
 
-Here I was able to inspect devices - and see that the system enumerated 2. 
+Here I was able to inspect devices - and see that the system enumerated 2.
 
 ```log
 (Pdb) devices
