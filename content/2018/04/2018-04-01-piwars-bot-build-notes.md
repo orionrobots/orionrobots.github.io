@@ -12,7 +12,7 @@ This was disturbing.
 
 I was researching stuff on motor stall currents, and brushing up my physics - what had I missed? The robot could fail only seconds in, or a while in.
 
-After checking on twitter, and then reading the piconzero docs - it turns out that older pi raspbian images had i2c stability issues. So I started a dist-upgrade on it. This seemed like a great plan...
+After checking on social media, and then reading the piconzero docs - it turns out that older pi raspbian images had i2c stability issues. So I started a dist-upgrade on it. This seemed like a great plan...
 
 Bad news  then - I knocked out the power cable (external wall power) while doing the update!
 
@@ -248,7 +248,7 @@ Left track 0 Right track 0
 What does this mean? Wait - 2.0.4?
 
 Now using the controller example from <https://approxeng.github.io/approxeng.input/examples/show_controls.html> - and the axis are weird.
-Time to talk on twitter.
+Time to talk with other robot builders.
 
 Trying to remove "pi" from the "input" group. Then log out, back in and try again. No - nothing.
 Try a reboot. Without the pad - input shows only "mice".
@@ -269,7 +269,7 @@ crw-rw---- 1 root input 13,  0 Apr  1 15:23 js0
 crw-rw---- 1 root input 13, 63 Apr  1 15:22 mice
 ```
 
-I spoke on twitter to the approx_eng guy. With Helena's help - and used `evtest` - which shows event sources and allpws you to look at them.
+I spoke to the approx_eng guy. With Helena's help - and used `evtest` - which shows event sources and allows you to look at them.
 
 This showed nothing when not in the input group, and 2 event sources when in the group.
 

@@ -39,7 +39,7 @@ It was a dependency of the `skittlebot` class in the code.
 
 ## Multiple sensors
 
-This is going to get interesting. I had a chat with @4tronix on twitter and asked for some ideas for using multiple distance sensors with the PiConZero.
+This is going to get interesting. I had a chat with @4tronix and asked for some ideas for using multiple distance sensors with the PiConZero.
 The PiConZero itself wouldn't be able to, but additional GPIO boards could. So the options are:
 
 * creating a shim to attach to sensors.
