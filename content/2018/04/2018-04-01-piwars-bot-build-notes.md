@@ -289,8 +289,7 @@ So my next thought was to look at how the bindings work.
 
 ## How do bindings work?
 
-To do this - I dug in here: <https://approxeng.github.io/approxeng.input/api/selectbinder.html
->
+To do this - I dug in here: <https://approxeng.github.io/approxeng.input/api/selectbinder.html>
 And we wrote some code:
 
 ```python
@@ -305,7 +304,7 @@ pdb.set_trace()
 ```
 
 This way we could examine the output of single controller - with a view to changing the event source.
-The `set_trace` was to see it. 
+The `set_trace` was to see it.
 This was fruitful. When it ran - I got this:
 
 ```log
