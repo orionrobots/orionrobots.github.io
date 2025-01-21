@@ -21,9 +21,16 @@
         <meta name="og:site_name" property="og:site_name" content="Orionrobots" />
         <meta property="og:type" name="og:type" content="article" />
         <meta name="og:title" property="og:title" content="{{ title }} | {{ site_title }} - {{ site_tagline }}" />
-        {% if description %}
-            <meta name="og:description" property="og:description" content="{{ description }}" />
-        {% endif %}
+        {% capture real_description -%}
+            {% if description -%}
+                {{ description }}
+            {%- else -%}
+                {{ content | strip_html | strip_newlines | truncatewords: 50 }}
+            {%- endif -%}
+        {%- endcapture %}
+        <meta name="og:description" property="og:description" content="{{ real_description }}" />
+        <meta name="description" content="{{ real_description }}">
+
         {% if thumbnail %}
             <meta name="og:image" property="og:image" content="{{ BASE_PATH }}/{% thumbnail_from_path thumbnail %}" />
             <meta name="twitter:image" content="{{ BASE_PATH }}/{% thumbnail_from_path thumbnail %}" />
@@ -34,10 +41,8 @@
 
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>{{ title }} | {{ site_title }} - {{ site_tagline }}</title>
-        {% if description %}<meta name="description" content="{{ description }}">{% endif %}
         <meta name="author" content="{{ author | default: "Danny Staple"}}">
         <meta name="article:author" property="article:author" content="{{ author | default: "Danny Staple"}}">
-
 
         <script type="text/javascript" src="/dist/bundle.js"></script>
         {% capture css %}{% include css/bootstrap-style.css %}{% endcapture %}
