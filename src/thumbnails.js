@@ -61,7 +61,7 @@ async function thumbnail_from_path(thumbnail_path) {
     if ( imageSrc.includes("amazon-adsystem") || !fs.existsSync(imageSrc)) {
         return "";
     } else {
-        console.log("Generating thumbnail URL for " + imageSrc);
+        // console.log("Generating thumbnail URL for " + imageSrc);
         const metadata = await make_thumbnail_for(imageSrc);
         return metadata.png[1].url;
     }
