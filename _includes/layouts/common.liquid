@@ -56,9 +56,12 @@ theme:
     <body class="template">
         <div class="container">
             <!-- Header -->
-        {% include nav.liquid %}
+            {% include nav.liquid %}
             <!-- Content -->
-            {{ content }}
+            <div class="row">
+                {% block content %}{% endblock %}
+                {{ content }}
+            </div>
             <footer id="bottom">
                 <div class="row" id="footer-left">
                     <div class="co-lg-12">
@@ -83,4 +86,17 @@ theme:
             </footer>
         </div>
     </body>
+    {% if using_mathjax %}
+        <script>
+            MathJax = {
+              tex: {
+                inlineMath: [['$', '$']]
+              },
+              svg: {
+                fontCache: 'global'
+              }
+            };
+        </script>
+        <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    {% endif %}
 </html>
