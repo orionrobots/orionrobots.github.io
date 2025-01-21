@@ -1,7 +1,3 @@
----
-theme:
-    name: orionrobots
----
 {% comment %}{% capture BASE_PATH %}{% if eleventy.env.runMode == "serve" %}{% else %}{{ site.production_url }}{% endif %}{% endcapture %}{% endcomment %}
 {% capture BASE_PATH %}{{ site.production_url }}{% endcapture %}
 {% capture ASSET_PATH %}{{ BASE_PATH }}/assets/themes/{{ theme.name }}{% endcapture %}
@@ -59,8 +55,31 @@ theme:
             {% include nav.liquid %}
             <!-- Content -->
             <div class="row">
-                {% block content %}{% endblock %}
-                {{ content }}
+                <div id="col-main" class="content {{ content_class }}">
+                    <div class="gcse-searchresults"></div>
+                    <nav class="row g-0 border rounded tag-row">
+                        <div class="row g-0">
+                            {% unless tags == empty %}
+                                <nav>
+                                {% assign tags_list = tags %}
+                                {% include tags_list %}
+                                </nav>
+                            {% endunless %}
+                        </div>
+                        <div class="row g-0">{% include social-sharing %}</div>
+                    </nav>
+                    <h2 class="page-header">{{ title }} {% if tagline %}<small>{{tagline}}</small>{% endif %}</h2>
+                    <div class="row-fluid post-full">
+                        <div class="span12">                        
+                            {% block post_info %}{% endblock %}
+                        </div>
+                    </div>  
+                    <article>
+                    {% block content %}{% endblock %}
+                    {{ content }}
+                    </article>
+            </div>
+                {% block side_bar %}{% endblock %}
             </div>
             <footer id="bottom">
                 <div class="row" id="footer-left">
@@ -99,4 +118,6 @@ theme:
         </script>
         <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
     {% endif %}
+    {% block footer_scripts %}
+    {% endblock %}
 </html>

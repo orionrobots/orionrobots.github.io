@@ -1,22 +1,2 @@
----
-theme :
-  name : orionrobots
-layout: common
-date: Last Modified
----
-<article id="col-main" class="content col-md-12">
-  <div class="gcse-searchresults"></div>
-  <nav class="row g-0 border rounded tag-row">
-    <div class="row g-0">
-      {% unless tags == empty %}
-          <nav>
-            {% assign tags_list = tags %}
-            {% include tags_list %}
-          </nav>
-      {% endunless %}
-    </div>
-    <div class="row g-0">{% include social-sharing %}</div>
-  </nav>
-  <h2 class="page-header">{{ title }} {% if tagline %}<small>{{tagline}}</small>{% endif %}</h2>
-  {{ content }}
-</article>
+{% assign content_class="col-md-12" %}
+{% layout layouts/common %}
