@@ -2,7 +2,7 @@
 title: Connecting my CNC 3020 to grbl
 description: Connecting my CNC 3020 to grbl
 tags: [cnc projects, arduino, grbl, electronics, parallel port]
-layout: default
+
 ---
 
 ## Connections
