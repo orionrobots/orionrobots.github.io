@@ -1,7 +1,7 @@
 ---
 date: '2014-02-07'
 description: An exciting day, but going to need to replace a part of it
-layout: default
+
 tags:
 - cnc projects
 - electronics
