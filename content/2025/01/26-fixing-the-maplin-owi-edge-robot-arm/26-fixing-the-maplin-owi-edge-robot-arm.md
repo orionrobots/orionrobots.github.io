@@ -3,8 +3,9 @@ title: Fixing the Maplin OWI Edge Robot Arm - Powering and Circuits
 date: 2025-01-26
 tags: [robot electronics, maplin usb robot arm, robot building, owi edge robot arm]
 thumbnail: content/2025/01/26-fixing-the-maplin-owi-edge-robot-arm/owi-edge-board-power-input.jpg
+description: How I powered my Maplin/OWI Edge USB controlled robot arm, and how I traced the power circuits on the board.
 ---
-I've been fixing up my Maplin/OWI Edge USB controlled robot arm. Her'es what I've been doing with it.
+I've been fixing up my Maplin/OWI Edge USB controlled robot arm. Here's what I've been doing with it.
 
 People do dig out these arms, they do sell on eBay. While they are fun, if you can I would advise a robot arm like the MeArm instead. However, I still want my arm to work, and my code to useful to people with one of these arms.
 
