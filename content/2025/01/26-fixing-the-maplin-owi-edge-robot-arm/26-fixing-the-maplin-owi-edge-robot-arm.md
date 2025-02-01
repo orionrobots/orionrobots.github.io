@@ -1,7 +1,6 @@
 ---
 title: Fixing the Maplin OWI Edge Robot Arm - Powering and Circuits
 date: 2025-01-26
-draft: true
 tags: [robot electronics, maplin usb robot arm, robot building, owi edge robot arm]
 thumbnail: content/2025/01/26-fixing-the-maplin-owi-edge-robot-arm/owi-edge-board-power-input.jpg
 ---
@@ -87,7 +86,7 @@ There's a 2 pin connector from the middle of the 4 batteries to the board. This 
 
 The orange cable is 3V in supply for the motors, and the black should be the ground for this supply.
 
-With this 3V rail, I can use a bench power supply for the motors.
+With this 3V rail, I can use a bench power supply for the motors. One future extension I can consider here is using a single 18650 cell to power the motors, which should tolerate the 3.7v, and then add a USB charger to the robot to charge the cell - in the large battery space.
 
 ## Next
 
