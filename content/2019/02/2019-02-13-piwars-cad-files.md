@@ -23,7 +23,3 @@ This lead me to getting my Calipers out, and modelling it. All of it. Now I foun
 [Fusion 360 Model of T200 Main Chassis](https://a360.co/2IbgbKn)
 
 I've been busy modelling out more parts, and I am not going to try covering it all in one post. So expect more models from the library as I make them available. I will happily accept contributions to improve them.
-
-(paid links)
-
-<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=GB&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=orionrobots-21&language=en_GB&marketplace=amazon&region=GB&placement=B08CRPBR83&asins=B08CRPBR83&linkId=079cb1de3e797f7457f86f9a17e406be&show_border=true&link_opens_in_new_window=true"></iframe>

@@ -27,12 +27,7 @@ I resolved to get these problems fixed. Sure, there were code bugs, but I could 
 
 (paid links)
 
-<div class="media">
-  <div class="media-left"><a href="https://www.amazon.co.uk/Learn-Robotics-Programming-autonomous-Raspberry/dp/1789340748/ref=as_li_ss_il?ref_=nav_ya_signin&_encoding=UTF8&&linkCode=li1&tag=orionrobots-21&linkId=20d971f8cbb0b0f1890b9a399efab4a2&language=en_GB" target="_blank"><img border="0" src="//ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=1789340748&Format=_SL110_&ID=AsinImage&MarketPlace=GB&ServiceVersion=20070822&WS=1&tag=orionrobots-21&language=en_GB" ><img src="https://ir-uk.amazon-adsystem.com/e/ir?t=orionrobots-21&language=en_GB&l=li1&o=2&a=1789340748" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /></a></div>
-  <div class="media-body">
 Last year, after Piwars I wrote the book [Learn Robotics Programming](https://amzn.to/2IqrMFA), and in this I recommended a strategy using two sets of batteries. This meant that power for the Raspberry Pi, logic and sensors came from one battery pack, and power for the motors and LED's from another.
-  </div>
-</div>
 
 For this I used a USB power supply (portable phone charger) for the Pi, it's already a nice regulated 5v, it's rechargeable from a USB mains adaptor with built-in safety circuits. These are quite easy to use with the Raspberry Pi and make a lot of sense. Very convenient.
 
