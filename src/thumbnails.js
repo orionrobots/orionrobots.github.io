@@ -40,7 +40,7 @@ async function thumbnail_for_post(post) {
         return "";
     }
     const imageSrc = stripLeadingSlash(thumbnailUrl);
-    if ( imageSrc.includes("amazon-adsystem") || !fs.existsSync(imageSrc)) {
+    if ( !fs.existsSync(imageSrc)) {
         return "";
     } else {
         // console.log("Generating thumbnail for " + imageSrc);
@@ -58,7 +58,7 @@ async function thumbnail_for_post(post) {
 
 async function thumbnail_from_path(thumbnail_path) {
     const imageSrc = stripLeadingSlash(thumbnail_path);
-    if ( imageSrc.includes("amazon-adsystem") || !fs.existsSync(imageSrc)) {
+    if ( !fs.existsSync(imageSrc)) {
         return "";
     } else {
         // console.log("Generating thumbnail URL for " + imageSrc);
