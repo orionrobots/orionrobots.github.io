@@ -11,7 +11,8 @@
     "stats-cli": "webpack-bundle-analyzer stats.json",
     "11ty": "npx @11ty/eleventy --quiet",
     "serve": "npx @11ty/eleventy --serve --quiet --port 8081",
-    "check-missing-tags": "node src/utilities/list-files-without-tags.js"
+    "check-missing-tags": "node src/utilities/list-files-without-tags.js",
+    "new-post": ".github/scripts/new_post.sh"
   },
   "repository": {
     "type": "git",
