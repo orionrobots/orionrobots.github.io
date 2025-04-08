@@ -17,6 +17,8 @@ const {
 } = require('@vidhill/fortawesome-brands-11ty-shortcode');
 
 
+const media_filetypes = "jpg,jpeg,JPG,png,gif,svg,avif";
+
 module.exports = function(eleventyConfig) {
     // Configure markdown parser
     const markdownLib = markdownIt({html: true, typographer: true});
@@ -34,11 +36,11 @@ module.exports = function(eleventyConfig) {
     eleventyConfig.addPassthroughCopy("assets");
     eleventyConfig.addPassthroughCopy("dist");
     eleventyConfig.addPassthroughCopy("favicon.png");
-    eleventyConfig.addPassthroughCopy("galleries/**/*.{jpg,jpeg,JPG,png,gif,svg}");
+    eleventyConfig.addPassthroughCopy("galleries/**/*." + media_filetypes);
     eleventyConfig.addPassthroughCopy("google5458abc1104b04dd.html");
     eleventyConfig.addPassthroughCopy({"htaccess": ".htaccess"});
     eleventyConfig.addPassthroughCopy({"content": "."}, {
-        filter: ["**/*.{jpg,jpeg,JPG,png,gif,svg}"],
+        filter: ["**/*." + + media_filetypes],
         rename: function (path) {
             return path.replace("content/", "");
         }
