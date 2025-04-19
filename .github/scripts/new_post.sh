@@ -30,11 +30,13 @@ function create_post {
     local file_path="$1"
     echo "Creating post at $file_path"
     touch "$file_path"
-    echo "---" >> "$file_path"
-    echo "title: $POST_TITLE" >> "$file_path"
-    echo "date: $POST_DATE" >> "$file_path"
-    echo "draft: true" >> "$file_path"
-    echo "---" >> "$file_path"
+    (
+        echo "---"
+        echo "title: $POST_TITLE"
+        echo "date: $POST_DATE"
+        echo "draft: true"
+        echo "---"
+    ) > "$file_path"
 }
 
 function main {
