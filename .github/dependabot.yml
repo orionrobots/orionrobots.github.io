@@ -9,6 +9,7 @@ updates:
     schedule:
       # Check for updates to GitHub Actions every week
       interval: "weekly"
+
   - package-ecosystem: "npm"
     directory: "/"
     versioning-strategy: auto
@@ -18,3 +19,4 @@ updates:
     ignore:
       - dependency-name: "*"
         update-types: ["version-update:semver-patch"]
+
