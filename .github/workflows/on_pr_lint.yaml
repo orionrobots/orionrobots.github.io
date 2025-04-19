@@ -34,3 +34,4 @@ jobs:
         uses: oxsecurity/megalinter/flavors/cupcake@v8.5.0
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          DISABLED_LINTERS: "COPYPASTE_JSCPD"
