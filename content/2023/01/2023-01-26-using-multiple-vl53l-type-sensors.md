@@ -23,6 +23,10 @@ The devices connect via I2C, and I2C normally allows multiple devices to share a
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/XQrxPcq2tZ8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"allowfullscreen="true"></iframe>
 
+## Getting a single sensor working
+
+If you are yet to get one of these working, I suggest taking a look at [Raspberry Pi Pico & VL53L0X for MicroPython](https://www.youtube.com/watch?v=YBu6GKnN4lk) where Kevin McAleer explains how to get one of these working with a Raspberry Pi Pico.
+
 ## Simple solution - 2 I2C buses
 
 Some microcontrollers, like the Raspberry Pi Pico have multiple I2C buses. If you need only 2 sensors, or less than the number of I2C buses you can connect a device to each bus.
