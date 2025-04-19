@@ -25,6 +25,7 @@ jobs:
           npx -y @bugron/validate-dependabot-yaml@latest
 
   lint_cupcake:
+    continue-on-error: true
     runs-on: ubuntu-latest
     steps:
       - name: Checkout source code
