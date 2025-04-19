@@ -29,4 +29,4 @@ DISABLE_LINTERS:
   # Until https://github.com/anchore/grype/issues/2606 is fixed
   - REPOSITORY_GRYPE
 # There are things like scripts that shouldn't be in drafts
-FILTER_REGEX_EXCLUDE: '^/_drafts/.*'
+FILTER_REGEX_EXCLUDE: '^_drafts/.*'
