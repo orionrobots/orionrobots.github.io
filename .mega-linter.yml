@@ -1,7 +1,7 @@
 ---
 # We'll turn them on again later - but turn a number off for now.
 # Priority will be given to security, github actions, JS and MD. Then CSS, then secondary other files.
-DISABLE_LINTERS: 
+DISABLE_LINTERS:
   - COPYPASTE_JSCPD
   - DOCKERFILE_HADOLINT
   - REPOSITORY_CHECKOV

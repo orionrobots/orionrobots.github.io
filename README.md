@@ -17,7 +17,7 @@ For an experience closer to hosting, use docker compose:
 ```bash
 docker compose up web
 [+] Running 1/0
- ⠿ Container orionrobotsgithubio-web-1 Created       0.0s
+⠿ Container orionrobotsgithubio-web-1 Created       0.0s
 Attaching to orionrobotsgithubio-web-1
 orionrobotsgithubio-web-1  | ruby 3.1.1p18 (2022-02-18 revision 53f5fc4236) [x86_64-linux-musl]
 ```
