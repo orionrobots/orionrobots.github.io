@@ -25,13 +25,13 @@ jobs:
           npx -y @bugron/validate-dependabot-yaml@latest
 
   lint_cupcake:
-    continue-on-error: true
     runs-on: ubuntu-latest
     steps:
       - name: Checkout source code
         uses: actions/checkout@v4
 
       - name: Lint Code Base
+        continue-on-error: true
         uses: oxsecurity/megalinter/flavors/cupcake@v8.5.0
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
