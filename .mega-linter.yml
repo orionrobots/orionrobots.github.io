@@ -23,6 +23,9 @@ DISABLE_LINTERS:
   - PYTHON_PYRIGHT
   - PYTHON_PYLINT
   - SPELL_CSPELL
+  - EDITORCONFIG_EDITORCONFIG_CHECKER
+  - SPELL_LYCHEE
+  - HTML_DJLINT
   # Until https://github.com/anchore/grype/issues/2606 is fixed
   - REPOSITORY_GRYPE
 # There are things like scripts that shouldn't be in drafts
