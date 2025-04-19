@@ -11,4 +11,3 @@ jobs:
   staging_test:
     uses: ./.github/workflows/on_call_staging_test.yaml
     needs: build_site
-  

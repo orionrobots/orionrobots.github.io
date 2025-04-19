@@ -1,0 +1,32 @@
+---
+# We'll turn them on again later - but turn a number off for now.
+# Priority will be given to security, github actions, JS and MD. Then CSS, then secondary other files.
+DISABLE_LINTERS:
+  - COPYPASTE_JSCPD
+  - DOCKERFILE_HADOLINT
+  - REPOSITORY_CHECKOV
+  - REPOSITORY_TRIVY
+  - REPOSITORY_KICS
+  - C_CPPLINT
+  - CPP_CPPLINT
+  - CSS_STYLELINT
+  - HTML_HTMLHINT
+  - JSON_JSONLINT
+  - JSON_PRETTIER
+  - JAVASCRIPT_STANDARD
+  - MARKDOWN_MARKDOWN_TABLE_FORMATTER
+  - MARKDOWN_MARKDOWNLINT
+  - YAML_PRETTIER
+  - YAML_YAMLLINT
+  - PYTHON_ISORT
+  - PYTHON_RUFF
+  - PYTHON_PYRIGHT
+  - PYTHON_PYLINT
+  - SPELL_CSPELL
+  - EDITORCONFIG_EDITORCONFIG_CHECKER
+  - SPELL_LYCHEE
+  - HTML_DJLINT
+  # Until https://github.com/anchore/grype/issues/2606 is fixed
+  - REPOSITORY_GRYPE
+# There are things like scripts that shouldn't be in drafts
+FILTER_REGEX_EXCLUDE: '^_drafts/.*'
