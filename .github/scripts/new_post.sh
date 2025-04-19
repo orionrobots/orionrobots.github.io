@@ -36,7 +36,7 @@ function create_post {
         echo "date: $POST_DATE"
         echo "draft: true"
         echo "---"
-    ) > "$file_path"
+    ) >"$file_path"
 }
 
 function main {

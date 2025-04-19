@@ -20,4 +20,8 @@ DISABLE_LINTERS:
   - YAML_YAMLLINT
   - PYTHON_ISORT
   - PYTHON_RUFF
+  - PYTHON_PYRIGHT
+  - PYTHON_PYLINT
   - SPELL_CSPELL
+# There are things like scripts that shouldn't be in drafts
+FILTER_REGEX_EXCLUDE: '^/_drafts/.*'
