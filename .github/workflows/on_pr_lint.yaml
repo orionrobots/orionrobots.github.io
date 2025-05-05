@@ -32,6 +32,6 @@ jobs:
 
       - name: Lint Code Base
         continue-on-error: true
-        uses: oxsecurity/megalinter/flavors/cupcake@v8.5.0
+        uses: oxsecurity/megalinter/flavors/cupcake@v8.7.0
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
