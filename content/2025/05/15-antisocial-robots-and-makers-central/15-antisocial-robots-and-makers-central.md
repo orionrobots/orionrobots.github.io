@@ -1,7 +1,6 @@
 ---
 title: Antisocial robots and Makers Central
 date: 2025-05-15
-draft: true
 tags: [robotics, events, makers, neural networks, opencv, raspberry pi, raspberry pi pico]
 thumbnail: content/2025/05/15-antisocial-robots-and-makers-central/fleet-of-coder-dojo-robots.JPG
 ---
