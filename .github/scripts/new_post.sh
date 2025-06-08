@@ -5,11 +5,6 @@
 
 set -eu -o pipefail
 
-POST_DATE=$(date +"%Y-%m-%d")
-POST_YEAR=$(date +"%Y")
-POST_MONTH=$(date +"%m")
-POST_DAY=$(date +"%d")
-POST_TITLE=$1
 
 function slug_from_title_and_date {
     echo "$POST_DAY-$1" | tr '[:upper:]' '[:lower:]' | tr -s ' ' '-' | tr -s '[:punct:]' '-'
@@ -34,9 +29,43 @@ function create_post {
         echo "---"
         echo "title: $POST_TITLE"
         echo "date: $POST_DATE"
-        echo "draft: true"
+        echo "thumbnail: /content/${POST_YEAR}/${POST_MONTH}/${slug}.jpg"
         echo "---"
     ) >"$file_path"
+}
+
+# Bash argument handler
+function usage {
+    echo "Usage: $0 [--date <date>|defaults to today]  <\"Post title not slugged but in quotes\">"
+    echo "Example: $0 \"My New Blog Post\""
+    echo "This script creates a new blog post with the given title, slugifies it, and opens it in VS Code."
+    echo "Example with date: $0 --date 2023-10-01 \"My New Blog Post\""
+    exit 1
+}
+
+function extract_date_elements {
+    # Extract the year, month, and day from the post date
+    POST_YEAR=$(date -d "$POST_DATE" +"%Y")
+    POST_MONTH=$(date -d "$POST_DATE" +"%m")
+    POST_DAY=$(date -d "$POST_DATE" +"%d")
+}
+
+function handle_arguments {
+    # Handle an optional argument for the post date (defaults to today)
+    if [ "$#" -eq 3 ] && [ "$1" == "--date" ]; then
+        POST_DATE="$2"
+        shift 2
+    else
+        POST_DATE=$(date +"%Y-%m-%d")
+    fi
+
+    # Handle no arguments, -h or --help
+    if [ "$#" -eq 0 ] || [ "$1" == "-h" ] || [ "$1" == "--help" ]; then
+        usage
+    fi
+
+    extract_date_elements
+    POST_TITLE=$1
 }
 
 function main {
@@ -48,4 +77,5 @@ function main {
     code "$file_path"
 }
 
+handle_arguments "$@"
 main

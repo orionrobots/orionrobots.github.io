@@ -83,7 +83,7 @@ I am using the FlashPrint 5 software recommended for my 3D printer, which in the
 
 Making the temperature tower meant fiddling for a while with their slightly frustrating interface. More frustrating is that saving a project, does not keep these settings, and saving a "save as new" slicing profile didn't seem to keep it either.
 
-![FlashPrint 5 temperature list settings](flashprint-ui-temperature-list.png.png)
+![FlashPrint 5 temperature list settings](flashprint-ui-temperature-list.png)
 
 ## Links
 
