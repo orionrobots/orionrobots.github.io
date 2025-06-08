@@ -19,6 +19,19 @@ const {
 
 const media_filetypes = "jpg,jpeg,JPG,png,gif,svg,avif";
 
+async function img_responsive(src, alt, sizes = "100vw, 720, 820, 940, 1140, 1280", class_names = "img-responsive") {
+    let metadata = await fetch_image(src);
+    let imageAttributes = {
+        alt,
+        sizes,
+        class: class_names,
+        loading: "lazy",
+        decoding: "async",
+    };
+
+    return Image.generateHTML(metadata, imageAttributes);
+}
+
 module.exports = function (eleventyConfig) {
     // Configure markdown parser
     const markdownLib = markdownIt({ html: true, typographer: true });
@@ -62,51 +75,8 @@ module.exports = function (eleventyConfig) {
         return new CleanCSS({}).minify(code).styles;
     });
 
-    eleventyConfig.addShortcode("image", async function (src, alt, sizes) {
-        let metadata = await fetch_image(src);
-
-        let imageAttributes = {
-            alt,
-            sizes,
-            loading: "lazy",
-            decoding: "async",
-        };
-
-        // You bet we throw an error on a missing alt (alt="" works okay)
-        return Image.generateHTML(metadata, imageAttributes);
-    });
-
-    eleventyConfig.addShortcode("img_responsive", async function (src, alt, sizes = "100vw, 720, 820, 940, 1140, 1280") {
-        let metadata = await fetch_image(src);
-        let imageAttributes = {
-            alt,
-            sizes,
-            class: "img-responsive",
-            loading: "lazy",
-            decoding: "async",
-        };
-
-        return Image.generateHTML(metadata, imageAttributes);
-    });
-
-    eleventyConfig.addShortcode("image_with_class", async function (src, alt, sizes, class_names) {
-        let metadata = await fetch_image(src);
-
-        if (sizes == undefined || sizes == "_") {
-            sizes = "720, 940, 1140, 1280, 2048";
-        }
-
-        let imageAttributes = {
-            alt,
-            sizes,
-            class: class_names,
-            loading: "lazy",
-            decoding: "async",
-        };
-
-        // You bet we throw an error on a missing alt (alt="" works okay)
-        return Image.generateHTML(metadata, imageAttributes);
-    });
+    eleventyConfig.addShortcode("image", img_responsive);
+    eleventyConfig.addShortcode("img_responsive", img_responsive);
 
     // Thumbnails
     eleventyConfig.addShortcode("thumbnail_for_post", thumbnails.thumbnail_for_post);
