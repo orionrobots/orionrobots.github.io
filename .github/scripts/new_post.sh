@@ -29,7 +29,7 @@ function create_post {
         echo "---"
         echo "title: $POST_TITLE"
         echo "date: $POST_DATE"
-        echo "draft: true"
+        echo "thumbnail: /content/${POST_YEAR}/${POST_MONTH}/${slug}.jpg"
         echo "---"
     ) >"$file_path"
 }
