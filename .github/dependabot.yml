@@ -21,7 +21,8 @@ updates:
 
 
   - package-ecosystem: "docker"
-    directory: "/"
+    directories: 
+      - "/*"
     schedule:
       # Check for updates to Docker images every week
       interval: "weekly"
