@@ -12,7 +12,6 @@ updates:
 
   - package-ecosystem: "npm"
     directory: "/"
-    versioning-strategy: auto
     schedule:
       # Check for updates to npm dependencies every week
       interval: "weekly"
@@ -23,7 +22,6 @@ updates:
 
   - package-ecosystem: "docker"
     directory: "/"
-    versioning-strategy: auto
     schedule:
       # Check for updates to Docker images every week
       interval: "weekly"
