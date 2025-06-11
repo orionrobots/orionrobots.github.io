@@ -13,12 +13,13 @@ services:
     image: node:18-bullseye
     command: ["rm", "-rf", "dist"]
 
-  web:
-    build: _drafts/staging
-    ports:
-      - 8080:80
-    volumes:
-      - ./_site:/var/www/html
+  # web:
+  #   build: _drafts/staging
+  #   ports:
+  #     - 8080:80
+  #   volumes:
+  #     - ./_site:/var/www/html
+
   serve:
     image: node:18-bullseye
     volumes:
