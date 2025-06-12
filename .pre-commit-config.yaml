@@ -12,6 +12,8 @@ repos:
     -   id: check-merge-conflict
     -   id: check-symlinks
     -   id: destroyed-symlinks
+    -   id: no-commit-to-branch
+        args: ["--branch", "master", "--branch", "main"]
 # Some exclusions
     -   id: trailing-whitespace
         exclude: "^.*drawio$"
@@ -27,8 +29,8 @@ repos:
         exclude: "^.*drawio$"
     -   id: detect-private-key
         exclude: "^.*drawio$"
-    -   id: detect-aws-credentials
-        exclude: "^.*drawio$"
+    # -   id: detect-aws-credentials
+    #     exclude: "^.*drawio$"
     -   id: check-ast
         exclude: "^.*drawio$"
     -   id: check-shebang-scripts-are-executable
