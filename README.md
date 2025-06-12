@@ -15,6 +15,14 @@ docker compose up serve
 
 Get a bash prompt with `docker compose run --interactive serve bash`
 
+## Preparing to contribute
+
+This project uses the following tools for development:
+
+- Docker compose to run the development environment
+- pre-commit to run checks before committing changes
+    - You will need to install pre-commit on your local machine with pip/pipx in a python environment.
+
 ## Running locally
 
 You may need to determine dependencies - the docker method is preferred.
