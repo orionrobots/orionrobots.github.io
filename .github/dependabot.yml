@@ -9,12 +9,20 @@ updates:
     schedule:
       # Check for updates to GitHub Actions every week
       interval: "weekly"
+
   - package-ecosystem: "npm"
     directory: "/"
-    versioning-strategy: auto
     schedule:
       # Check for updates to npm dependencies every week
       interval: "weekly"
     ignore:
       - dependency-name: "*"
         update-types: ["version-update:semver-patch"]
+
+
+  - package-ecosystem: "docker"
+    directories: 
+      - "**/*"
+    schedule:
+      # Check for updates to Docker images every week
+      interval: "weekly"

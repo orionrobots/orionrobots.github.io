@@ -8,7 +8,7 @@ tags:
 - raspberry pi
 - raspberry pi projects
 - raspberry pi 3 projects
-- maplin usb arm
+- maplin usb robot arm
 - owi edge robot arm
 - raspberry pi zero w projects
 title: Use OWI Edge Maplin USB robot arm with the Raspberry Pi

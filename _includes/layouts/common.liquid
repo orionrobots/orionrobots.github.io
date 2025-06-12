@@ -1,7 +1,3 @@
----
-theme:
-    name: orionrobots
----
 {% comment %}{% capture BASE_PATH %}{% if eleventy.env.runMode == "serve" %}{% else %}{{ site.production_url }}{% endif %}{% endcapture %}{% endcomment %}
 {% capture BASE_PATH %}{{ site.production_url }}{% endcapture %}
 {% capture ASSET_PATH %}{{ BASE_PATH }}/assets/themes/{{ theme.name }}{% endcapture %}
@@ -15,7 +11,7 @@ theme:
     <head>
         <meta charset="utf-8">
         {% include JB/analytics.liquid %}
-        <!-- <meta http-equiv="Content-Security-Policy" content="default-src 'self' 'unsafe-inline' 'unsafe-eval'    *.google.com *.googleapis.com *.googlesyndication.com *.bootstrapcdn.com *.gstatic.com    *.pinterest.com *.youtube.com *.amazon-adsystem.com *.twitter.com *.google-analytics.com *.facebook.net *.facebook.com    *.googleadservices.com *.google.co.uk *.googletagservices.com;    img-src * data:;    font-src * 'unsafe-inline' data:;"> -->
+        <!-- <meta http-equiv="Content-Security-Policy" content="default-src 'self' 'unsafe-inline' 'unsafe-eval'    *.google.com *.googleapis.com *.googlesyndication.com *.bootstrapcdn.com *.gstatic.com    *.pinterest.com *.youtube.com *.twitter.com *.google-analytics.com *.facebook.net *.facebook.com    *.googleadservices.com *.google.co.uk *.googletagservices.com;    img-src * data:;    font-src * 'unsafe-inline' data:;"> -->
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <meta name="google-site-verification" content="UOzBed7gLBf1xSDPmxw3r4UGsKv1KcTacRUpEwSLA9g" />
         <link rel="icon" href="/favicon.png" />
@@ -25,9 +21,16 @@ theme:
         <meta name="og:site_name" property="og:site_name" content="Orionrobots" />
         <meta property="og:type" name="og:type" content="article" />
         <meta name="og:title" property="og:title" content="{{ title }} | {{ site_title }} - {{ site_tagline }}" />
-        {% if description %}
-            <meta name="og:description" property="og:description" content="{{ description }}" />
-        {% endif %}
+        {% capture real_description -%}
+            {% if description -%}
+                {{ description }}
+            {%- else -%}
+                {{ content | strip_html | strip_newlines | truncatewords: 50 }}
+            {%- endif -%}
+        {%- endcapture %}
+        <meta name="og:description" property="og:description" content="{{ real_description }}" />
+        <meta name="description" content="{{ real_description }}">
+
         {% if thumbnail %}
             <meta name="og:image" property="og:image" content="{{ BASE_PATH }}/{% thumbnail_from_path thumbnail %}" />
             <meta name="twitter:image" content="{{ BASE_PATH }}/{% thumbnail_from_path thumbnail %}" />
@@ -38,10 +41,8 @@ theme:
 
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>{{ title }} | {{ site_title }} - {{ site_tagline }}</title>
-        {% if description %}<meta name="description" content="{{ description }}">{% endif %}
         <meta name="author" content="{{ author | default: "Danny Staple"}}">
         <meta name="article:author" property="article:author" content="{{ author | default: "Danny Staple"}}">
-
 
         <script type="text/javascript" src="/dist/bundle.js"></script>
         {% capture css %}{% include css/bootstrap-style.css %}{% endcapture %}
@@ -56,9 +57,35 @@ theme:
     <body class="template">
         <div class="container">
             <!-- Header -->
-        {% include nav.liquid %}
+            {% include nav.liquid %}
             <!-- Content -->
-            {{ content }}
+            <div class="row">
+                <div id="col-main" class="content {{ content_class }}">
+                    <div class="gcse-searchresults"></div>
+                    <nav class="row g-0 border rounded tag-row">
+                        <div class="row g-0">
+                            {% unless tags == empty %}
+                                <nav>
+                                {% assign tags_list = tags %}
+                                {% include tags_list %}
+                                </nav>
+                            {% endunless %}
+                        </div>
+                        <div class="row g-0">{% include social-sharing %}</div>
+                    </nav>
+                    <h2 class="page-header">{{ title }} {% if tagline %}<small>{{tagline}}</small>{% endif %}</h2>
+                    <div class="row-fluid post-full">
+                        <div class="span12">                        
+                            {% block post_info %}{% endblock %}
+                        </div>
+                    </div>  
+                    <article>
+                    {% block content %}{% endblock %}
+                    {{ content }}
+                    </article>
+            </div>
+                {% block side_bar %}{% endblock %}
+            </div>
             <footer id="bottom">
                 <div class="row" id="footer-left">
                     <div class="co-lg-12">
@@ -83,4 +110,19 @@ theme:
             </footer>
         </div>
     </body>
+    {% if using_mathjax %}
+        <script>
+            MathJax = {
+              tex: {
+                inlineMath: [['$', '$']]
+              },
+              svg: {
+                fontCache: 'global'
+              }
+            };
+        </script>
+        <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    {% endif %}
+    {% block footer_scripts %}
+    {% endblock %}
 </html>

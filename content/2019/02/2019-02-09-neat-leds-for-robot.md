@@ -34,7 +34,3 @@ These particular types are the Sparkfun LuMini. With 3 sizes of ring and a matri
 * In my book [Learn Robotics Programming](https://www.packtpub.com/hardware-and-creative/learn-robotics-programming), a chapter covers using addressable LED's like this to provide debug for the code running on the robot.
 
 Enjoy!
-
-(paid links)
-
-<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=GB&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=orionrobots-21&language=en_GB&marketplace=amazon&region=GB&placement=B00KLBTT1E&asins=B00KLBTT1E&linkId=a3c6e229219c0496ef3238dcaad4c0a3&show_border=true&link_opens_in_new_window=true"></iframe>

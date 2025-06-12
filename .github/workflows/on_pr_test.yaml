@@ -4,6 +4,11 @@ on:
     branches:
       - master
       - main
+    paths-ignore:
+      - README.md
+      - .github/on_pr_lint.yaml
+      - _drafts/**
+      - .vscode/**
 
 jobs:
   build_site:
@@ -12,4 +17,3 @@ jobs:
   staging_test:
     uses: ./.github/workflows/on_call_staging_test.yaml
     needs: build_site
-  

@@ -5,7 +5,7 @@
  * Redistributed in this theme with permission from Dharma Type - March 26, 2011
  */
 @font-face {
-  font-family: 'BebasNeueRegular';
+  font-family: BebasNeueRegular;
   src: local('BebasNeueRegular'),
       url('/assets/fonts/BebasNeue/BebasNeue-webfont.eot'),
       url('/assets/fonts/BebasNeue/BebasNeue-webfont.eot?iefix') format('eot'),
@@ -17,11 +17,6 @@
   font-display: swap;
 }
 
-.prodtable td {
-    padding-right: 4px;
-    vertical-alignment: top;
-}
-
 .pl-spacing {
   float: left !important;
   padding-right: 4px;
@@ -29,12 +24,17 @@
 
 
 #sharing{
-  margin: 16px 0 0 0;
-  padding: 4px 0 0 0;
+  margin: 16px 0 0;
+  padding: 4px 0 0;
+  margin-top: 0;
+  color: black;
+  font-weight: bold;
 }
+
 #sharing ul{
   list-style: none;
 }
+
 #sharing li{
   margin: 0;
   float: left;
@@ -91,7 +91,7 @@
 }
 
 body {
-  background-image: url(/assets/themes/orionrobots/images/orion_content_bg_bright.jpg);
+  background-image: url("/assets/themes/orionrobots/images/orion_content_bg_bright.jpg");
   background-size: cover;
 }
 
@@ -189,9 +189,10 @@ a {
 .navbar-light .navbar-nav .nav-link:hover {
   color: #78e49c;
 }
+
 .navbar-toggler {
   background-color: white;
-  padding: 0px;
+  padding: 0;
   border: none;
 }
 
@@ -207,6 +208,7 @@ body {
   font-weight: 500;
   text-transform: uppercase
 }
+
 /*
 #site-title h1 {
   font-size: 20px;
@@ -215,6 +217,7 @@ body {
   margin-top: 0.1em;
   margin-bottom: 0;
 } */
+
 .card {
   margin-bottom: 4px;
 }
@@ -223,6 +226,7 @@ body {
 h2 {
   font-size: 30px;
 }
+
 /* tags */
 #tags li a {
   /* color: #98978b; */
@@ -266,13 +270,6 @@ footer {
   background-color: rgb(233, 209, 202);
   padding: 4px;
 }
-
-#sharing {
-  margin-top: 0px;
-  color: black;
-  font-weight: bold;
-}
-
 
 article table {
   border-collapse: collapse;

@@ -1,6 +1,6 @@
 ---
 date: '2014-05-09'
-layout: default
+
 tags:
 - cnc projects
 - cam

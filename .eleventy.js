@@ -17,12 +17,27 @@ const {
 } = require('@vidhill/fortawesome-brands-11ty-shortcode');
 
 
-module.exports = function(eleventyConfig) {
+const media_filetypes = "jpg,jpeg,JPG,png,gif,svg,avif";
+
+async function img_responsive(src, alt, sizes = "100vw, 720, 820, 940, 1140, 1280", class_names = "img-responsive") {
+    let metadata = await fetch_image(src);
+    let imageAttributes = {
+        alt,
+        sizes,
+        class: class_names,
+        loading: "lazy",
+        decoding: "async",
+    };
+
+    return Image.generateHTML(metadata, imageAttributes);
+}
+
+module.exports = function (eleventyConfig) {
     // Configure markdown parser
-    const markdownLib = markdownIt({html: true, typographer: true});
+    const markdownLib = markdownIt({ html: true, typographer: true });
     markdownLib.use(markdownItAnchor);
     markdownLib.use(markdownItAttrs);
-    
+
     eleventyConfig.setLibrary("md", markdownLib);
     eleventyConfig.addPlugin(fortawesomeBrandsPlugin);
     eleventyConfig.addPlugin(syntaxHighlight);
@@ -34,11 +49,11 @@ module.exports = function(eleventyConfig) {
     eleventyConfig.addPassthroughCopy("assets");
     eleventyConfig.addPassthroughCopy("dist");
     eleventyConfig.addPassthroughCopy("favicon.png");
-    eleventyConfig.addPassthroughCopy("galleries/**/*.{jpg,jpeg,JPG,png,gif,svg}");
+    eleventyConfig.addPassthroughCopy("galleries/**/*." + media_filetypes);
     eleventyConfig.addPassthroughCopy("google5458abc1104b04dd.html");
-    eleventyConfig.addPassthroughCopy({"htaccess": ".htaccess"});
-    eleventyConfig.addPassthroughCopy({"content": "."}, {
-        filter: ["**/*.{jpg,jpeg,JPG,png,gif,svg}"],
+    eleventyConfig.addPassthroughCopy({ "htaccess": ".htaccess" });
+    eleventyConfig.addPassthroughCopy({ "content": "." }, {
+        filter: ["**/*." + + media_filetypes],
         rename: function (path) {
             return path.replace("content/", "");
         }
@@ -47,7 +62,7 @@ module.exports = function(eleventyConfig) {
     eleventyConfig.addWatchTarget("src/**/*");
     let $collectionApi = null;
 
-    eleventyConfig.addCollection("posts", function(collectionApi) {
+    eleventyConfig.addCollection("posts", function (collectionApi) {
         $collectionApi = collectionApi;
         return collectionApi.getFilteredByGlob("_posts/*.md");
     });
@@ -56,55 +71,12 @@ module.exports = function(eleventyConfig) {
         dynamicPartials: false,
     });
 
-    eleventyConfig.addFilter("cssmin", function(code) {
+    eleventyConfig.addFilter("cssmin", function (code) {
         return new CleanCSS({}).minify(code).styles;
     });
 
-    eleventyConfig.addShortcode("image", async function(src, alt, sizes) {
-        let metadata = await fetch_image(src);
-
-		let imageAttributes = {
-			alt,
-			sizes,
-			loading: "lazy",
-			decoding: "async",
-		};
-
-		// You bet we throw an error on a missing alt (alt="" works okay)
-		return Image.generateHTML(metadata, imageAttributes);
-	});
-
-    eleventyConfig.addShortcode("img_responsive", async function(src, alt, sizes="100vw, 720, 820, 940, 1140, 1280") {
-        let metadata = await fetch_image(src);
-		let imageAttributes = {
-			alt,
-			sizes,
-            class: "img-responsive",
-			loading: "lazy",
-			decoding: "async",
-		};
-
-		return Image.generateHTML(metadata, imageAttributes);
-    });
-
-    eleventyConfig.addShortcode("image_with_class", async function(src, alt, sizes, class_names) {
-        let metadata = await fetch_image(src);
-
-        if (sizes==undefined || sizes=="_") {
-            sizes="720, 940, 1140, 1280, 2048";
-        }
-
-		let imageAttributes = {
-			alt,
-			sizes,
-            class: class_names,
-			loading: "lazy",
-			decoding: "async",
-		};
-
-		// You bet we throw an error on a missing alt (alt="" works okay)
-		return Image.generateHTML(metadata, imageAttributes);
-	});
+    eleventyConfig.addShortcode("image", img_responsive);
+    eleventyConfig.addShortcode("img_responsive", img_responsive);
 
     // Thumbnails
     eleventyConfig.addShortcode("thumbnail_for_post", thumbnails.thumbnail_for_post);
@@ -122,15 +94,15 @@ module.exports = function(eleventyConfig) {
     });
 
     // Liquid filter to convert a date to a string
-    eleventyConfig.addLiquidFilter("to_utc_string", date => date.toUTCString() );
+    eleventyConfig.addLiquidFilter("to_utc_string", date => date.toUTCString());
 
     // Liquid filter for long date string
-    eleventyConfig.addLiquidFilter("date_to_long_string", function(date) {
+    eleventyConfig.addLiquidFilter("date_to_long_string", function (date) {
         return date.toLocaleDateString("en-GB", { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' });
     });
 
     // Universal filter for jsonify
-    eleventyConfig.addFilter("jsonify", JSON.stringify );
+    eleventyConfig.addFilter("jsonify", JSON.stringify);
 
     eleventyConfig.addFilter("with_explicit_date", items => items.filter(item => "date" in item.data));
 
@@ -140,14 +112,14 @@ module.exports = function(eleventyConfig) {
 
     // Read the menu data from _config.yml and add it to the global data
     eleventyConfig.addGlobalData("menu", () => getDataFromConfigYaml("menu"));
-    eleventyConfig.addGlobalData("site_title",  () => getDataFromConfigYaml("title"));
-    eleventyConfig.addGlobalData("site_tagline",  () => getDataFromConfigYaml("tagline"));
-    eleventyConfig.addGlobalData("production_url",  () => getDataFromConfigYaml("production_url"));
-    eleventyConfig.addGlobalData("JB",  () => getDataFromConfigYaml("JB"));
-    eleventyConfig.addGlobalData("author",  () => getDataFromConfigYaml("author"));
-    eleventyConfig.addGlobalData("now" , () => new Date());
+    eleventyConfig.addGlobalData("site_title", () => getDataFromConfigYaml("title"));
+    eleventyConfig.addGlobalData("site_tagline", () => getDataFromConfigYaml("tagline"));
+    eleventyConfig.addGlobalData("production_url", () => getDataFromConfigYaml("production_url"));
+    eleventyConfig.addGlobalData("JB", () => getDataFromConfigYaml("JB"));
+    eleventyConfig.addGlobalData("author", () => getDataFromConfigYaml("author"));
+    eleventyConfig.addGlobalData("now", () => new Date());
 
-    eleventyConfig.addNunjucksFilter("date", function(date, format) {
+    eleventyConfig.addNunjucksFilter("date", function (date, format) {
         return moment(date).format(format);
     });
 
