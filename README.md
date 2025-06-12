@@ -8,8 +8,7 @@ Creative Commons By Attribution Share-Alike v3.0
 ## Running serve and build in docker
 
 ```bash
-docker compose up --rm dist
-docker compose run --interactive --rm serve npm install
+docker compose up dist
 docker compose run --interactive --rm serve npm run dev
 docker compose up serve
 ```

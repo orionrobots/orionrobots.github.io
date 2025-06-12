@@ -1,12 +1,17 @@
 services:
   dist:
-    image: node:18-bullseye
+    build:
+      context: .
+      dockerfile: Dockerfile.dist
     command: ["npm", "run", "dist"]
     volumes:
       - .:/src
     working_dir: /src
 
   dist_clean:
+    build:
+      context: .
+      dockerfile: Dockerfile.dist
     volumes:
       - .:/src
     working_dir: /src
@@ -21,7 +26,9 @@ services:
   #     - ./_site:/var/www/html
 
   serve:
-    image: node:18-bullseye
+    build:
+      context: .
+      dockerfile: Dockerfile.dist
     volumes:
       - .:/src
     working_dir: /src
