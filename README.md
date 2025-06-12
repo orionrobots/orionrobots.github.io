@@ -23,6 +23,12 @@ This project uses the following tools for development:
 - pre-commit to run checks before committing changes
     - You will need to install pre-commit on your local machine with pip/pipx in a python environment.
 
+You should create a named branch for your changes, before committing, as using PR's to contribute is preferred.
+
+```bash
+git checkout -b my-feature-branch
+```
+
 ## Running locally
 
 You may need to determine dependencies - the docker method is preferred.
