@@ -1,4 +1,7 @@
 FROM node:18-bullseye
 # Install dependencies
-RUN npm install
 
+WORKDIR /src
+COPY package.json package-lock.json ./
+
+RUN npm install
