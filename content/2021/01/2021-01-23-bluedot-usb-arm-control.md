@@ -11,7 +11,7 @@ I'll add a link to Martin's talk here when it is published.
 
 Some background - I had a Raspberry Pi Zero W set up with WiFi and Raspberry Pi OS Lite. I could already hit it with SSH and copy files over. I'll suggest that this will be easier if you install the full Raspberry Pi OS, however this guide is for a headless Pi.
 
-All code for this tutorial is at <https://github.com/orionrobots/python_usb_robot_arm/tree/main/demos/bluedot>.
+Git the code for this [on Github](https://github.com/orionrobots/python_usb_robot_arm/tree/main/demos/bluedot).
 
 ## Getting the basics to work
 
@@ -38,7 +38,7 @@ sudo apt install bluetooth pi-bluetooth bluez
 ```
 
 The first puts the user `pi` in the bluetooth group so it has access. The second prepares all the dependencies.
-After this, I needed to pair the phone. If you are on the command line, the instructions are at <https://bluedot.readthedocs.io/en/latest/pairpiandroid.html#using-the-command-line>.
+After this, I needed to pair the phone. If you are on the command line, the instructions are at [Blue Dot - Using the command line](https://bluedot.readthedocs.io/en/latest/pairpiandroid.html#using-the-command-line).
 
 Now I was able to run the app, connect my phone to is and see a blue dot! Pressing it will show the text on the console. Hooray!
 I worked through the additional ideas martin gave, but going for print statements - trying out two dots, and position sensing, and the grid of coloured dots making a button display.
@@ -63,7 +63,7 @@ This is a good time to turn the arm on, and then try some of the demo code in th
 
 This video demonstration shows me controlling the arm from the app. In this case, I'd made it functional, but not very pretty.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/qy1u0NPmMwM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="true"></iframe>
+{% include youtube_responsive, src:"https://www.youtube.com/embed/qy1u0NPmMwM" %}
 
 ### Design
 
@@ -126,7 +126,7 @@ bd.when_client_disconnects = stop
 pause()
 ```
 
-You can see this code on github at <https://github.com/orionrobots/python_usb_robot_arm/blob/main/demos/bluedot/led_only.py>.
+You can see this code on github [demos/bluedot/led_only.py](https://github.com/orionrobots/python_usb_robot_arm/blob/main/demos/bluedot/led_only.py).
 
 If you run this, you'll see a 2x3 grid, but only the top middle button will do anything - it'll turn the LED on while it is pressed.
 
@@ -175,7 +175,7 @@ shoulder.when_moved = shoulder_pressed
 base.when_moved = base_pressed
 ```
 
-This extends the original code. And is available at <https://github.com/orionrobots/python_usb_robot_arm/blob/main/demos/bluedot/simple_grid.py>.
+This extends the original code. And is available on GitHub [demos/bluedot/simple_grid.py](https://github.com/orionrobots/python_usb_robot_arm/blob/main/demos/bluedot/simple_grid.py).
 
 This is a complete working control, but I'll admit I'm not 100% happy with this control surface - I find it a bit cumbersome and it's easy to press the button for the wrong motor.
 

@@ -2,7 +2,7 @@ services:
   dist:
     build:
       context: .
-      dockerfile: Dockerfile.dist
+      dockerfile: serve.Dockerfile
     command: ["npm", "run", "dist"]
     volumes:
       - .:/src
@@ -11,7 +11,7 @@ services:
   dist_clean:
     build:
       context: .
-      dockerfile: Dockerfile.dist
+      dockerfile: serve.Dockerfile
     volumes:
       - .:/src
     working_dir: /src
@@ -28,7 +28,7 @@ services:
   serve:
     build:
       context: .
-      dockerfile: Dockerfile.dist
+      dockerfile: serve.Dockerfile
     volumes:
       - .:/src
     working_dir: /src
