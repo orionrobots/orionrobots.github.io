@@ -1,4 +1,14 @@
 services:
+  serve:
+    build:
+      context: .
+      dockerfile: serve.Dockerfile
+    command: ["npm", "run", "serve"]
+    volumes:
+      - .:/src
+    ports:
+      - 8081:8081
+
   dist:
     build:
       context: .
@@ -7,6 +17,8 @@ services:
     volumes:
       - .:/src
     working_dir: /src
+    profiles:
+      - manual
 
   dist_clean:
     build:
@@ -17,21 +29,5 @@ services:
     working_dir: /src
     image: node:18-bullseye
     command: ["rm", "-rf", "dist"]
-
-  # web:
-  #   build: _drafts/staging
-  #   ports:
-  #     - 8080:80
-  #   volumes:
-  #     - ./_site:/var/www/html
-
-  serve:
-    build:
-      context: .
-      dockerfile: serve.Dockerfile
-    volumes:
-      - .:/src
-    working_dir: /src
-    command: ["npm", "run", "serve"]
-    ports:
-      - 8081:8081
+    profiles:
+      - manual

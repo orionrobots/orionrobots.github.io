@@ -7,13 +7,25 @@ Creative Commons By Attribution Share-Alike v3.0
 
 ## Running serve and build in docker
 
+
+### Recommended: Using Docker Compose
+
+Build the site:
 ```bash
 docker compose up dist
-docker compose run --interactive --rm serve npm run dev
+```
+
+Serve the site locally:
+```bash
 docker compose up serve
 ```
 
-Get a bash prompt with `docker compose run --interactive serve bash`
+Get a bash prompt in the container:
+```bash
+docker compose run --interactive serve bash
+```
+
+**Note:** `node_modules` are managed inside the container. You do not need to run `npm install` on your host.
 
 ## Preparing to contribute
 
@@ -31,14 +43,7 @@ git checkout -b my-feature-branch
 
 ## Running locally
 
-You may need to determine dependencies - the docker method is preferred.
-
-Serve only:
-
-```bash
-npm install
-npm run serve
-```
+You may need to determine dependencies - the docker method is preferred. Direct `npm` usage on the host is discouraged to avoid version mismatches.
 
 ## If you make changes to htaccess
 
