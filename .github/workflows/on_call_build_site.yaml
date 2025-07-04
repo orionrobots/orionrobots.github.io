@@ -10,7 +10,7 @@ jobs:
 
       - name: Build the site with docker
         run: |
-          docker-compose --build build
+          docker compose --build build
 
       - name: Tarball the site
         run: |
