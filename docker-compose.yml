@@ -33,7 +33,8 @@ services:
     depends_on:
       dist:
         condition: service_completed_successfully
-
+    profiles:
+      - manual
 
   dist_clean:
     build:
@@ -43,5 +44,16 @@ services:
       - .:/app/src
     image: node:18-bullseye
     command: ["rm", "-rf", "dist"]
+    profiles:
+      - manual
+
+  clean:
+    build:
+      context: .
+      dockerfile: serve.Dockerfile
+    volumes:
+      - .:/app/src
+    image: node:18-bullseye
+    command: ["rm", "-rf", "_site"]
     profiles:
       - manual
