@@ -22,6 +22,19 @@ services:
       - .:/app/src
       - /app/src/node_modules
 
+  build:
+    build:
+      context: .
+      dockerfile: serve.Dockerfile
+    command: ["npm", "run", "11ty"]
+    volumes:
+      - .:/app/src
+      - /app/src/node_modules
+    depends_on:
+      dist:
+        condition: service_completed_successfully
+
+
   dist_clean:
     build:
       context: .

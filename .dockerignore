@@ -1,2 +1,12 @@
 _site
 node_modules
+.github
+.editorconfig
+.gitattributes
+.gitignore
+.mega-linter.yml
+.pre-commit-config.yaml
+.shellcheckrc
+docker-compose.yml
+serve.Dockerfile
+README.md

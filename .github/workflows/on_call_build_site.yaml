@@ -8,23 +8,9 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Setup Node
-        uses: actions/setup-node@v4
-        with:
-          node-version: '18'
-          cache: npm
-
-      - run: |
-          npm ci
-
-      - name: Build webpack dist
+      - name: Build the site with docker
         run: |
-          npm install
-          npm run dist
-
-      - name: Build site
-        run: |
-          npm run 11ty
+          docker-compose --build build
 
       - name: Tarball the site
         run: |
