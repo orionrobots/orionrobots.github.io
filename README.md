@@ -10,17 +10,12 @@ Creative Commons By Attribution Share-Alike v3.0
 
 ### Recommended: Using Docker Compose
 
-Build the site:
+Build the dist and serve:
 ```bash
-docker compose up dist
+docker compose up --build --remove-orphans
 ```
 
-Serve the site locally:
-```bash
-docker compose up serve
-```
-
-Get a bash prompt in the container:
+Get a bash prompt in the serve container:
 ```bash
 docker compose run --interactive serve bash
 ```
@@ -57,10 +52,3 @@ Attaching to orionrobotsgithubio-web-1
 orionrobotsgithubio-web-1  | ruby 3.1.1p18 (2022-02-18 revision 53f5fc4236) [x86_64-linux-musl]
 ```
 
-## If you make changes to css bundle content
-
-You will need to rerun the dist task:
-
-```bash
-docker compose up --rm dist
-```

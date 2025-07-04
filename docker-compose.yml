@@ -5,9 +5,13 @@ services:
       dockerfile: serve.Dockerfile
     command: ["npm", "run", "serve"]
     volumes:
-      - .:/src
+      - .:/app/src
+      - /app/src/node_modules
     ports:
       - 8081:8081
+    depends_on:
+      dist:
+        condition: service_completed_successfully
 
   dist:
     build:
@@ -15,18 +19,15 @@ services:
       dockerfile: serve.Dockerfile
     command: ["npm", "run", "dist"]
     volumes:
-      - .:/src
-    working_dir: /src
-    profiles:
-      - manual
+      - .:/app/src
+      - /app/src/node_modules
 
   dist_clean:
     build:
       context: .
       dockerfile: serve.Dockerfile
     volumes:
-      - .:/src
-    working_dir: /src
+      - .:/app/src
     image: node:18-bullseye
     command: ["rm", "-rf", "dist"]
     profiles:
