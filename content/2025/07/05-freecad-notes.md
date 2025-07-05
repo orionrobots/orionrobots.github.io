@@ -18,11 +18,11 @@ What I like to do is drag them out as I place them.
 For the photos I use in my books, I lay parts that I would assemble on a workbench (trying to find a good white surface for photos), so they can all be clearly seen and the quantity.
 This technique is known as knolling, and creates quite pleasing assembly instructions.
 
-![Using Knolling for a Raspberry Pi HAT assembly](content/2025/07/knolling-raspberrry-pi-hat-assembly.png)
+![Using Knolling for a Raspberry Pi HAT assembly](/2025/07/knolling-raspberrry-pi-hat-assembly.png)
 
 The same technique is handy when making FreeCAD assemblies, making the parts easier to assemble into place with joints/constraints afterwards:
 
-![Knolling an asssembly in FreeCAD](content/2025/07/knolling-freecad-assembly.png)
+![Knolling an asssembly in FreeCAD](/2025/07/knolling-freecad-assembly.png)
 
 ## Trying the Parts workbench
 
