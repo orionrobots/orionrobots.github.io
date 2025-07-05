@@ -48,3 +48,22 @@ You can explode an assembly by selecting an assembly in the workbench, and press
 My technique is to CTRL-select groups of bolts together and lift them out of the assembly, just remember to give clearance for other parts to come off too.
 
 ![Exploded assembly in FreeCAD](/2025/07-05-freecad/freecad-exploded-assembly.png)
+
+You can then take these into a Technical drawing, using the TechDraw workbench.
+Create your page, then select the exploded asssembly in the model tree.
+Then use the Insert View button to add it to the page.
+The FrontTopLeft view is a good one to use.
+
+![FreeCAD exploded assembly in TechDraw](/2025/07-05-freecad/freecad-exploded-assembly-in-techdraw.png)
+
+You'll note an odd thing with surfaces being filled in between the exploded assembly lines, also that the movement lines aren't dashed.
+This is still an area with active development, so hopefully these will be fixed in future releases.
+
+## What am I building?
+
+If you want to see these diagrams in the context of the robot I'm building with them, this will be in my upcoming book, Learn Robotics Programming Third Edition.
+
+The reader is taken through building and programming a Raspberry Pi based robot rover platform, designed for explorign sensors and algorithms at relatively low cost.
+
+The robot code has web pages to interact with the robot and view its data, using technologies like Python and MQTT.
+There's AI based face detection, localisation algorithms and more.
