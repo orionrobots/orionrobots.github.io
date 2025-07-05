@@ -7,7 +7,11 @@ thumbnail: content/2025/07/knolling-freecad-assembly.png
 I've been slowly getting my head around the new (FreeCAD 1.0) assembly workbench, and using it to create exploded diagrams for my upcoming book, Learn Robotics Programming Third Edition. 
 hese are some notes and observations while doing so.
 
-I'd previously used the exploded assembly workbnehc and others, but the new assembly workbench is rather good. It uses joint/constraint based assembly with a resolver.
+I'd previously used the exploded assembly workbnehc and others, but the new assembly workbench is rather good.
+It uses joint/constraint based assembly with a resolver.
+
+A critical note in FreeCAD - save your work very often, it does crash or hang sometimes.
+
 
 ## Knolling before the assembly
 
@@ -35,3 +39,5 @@ Much of my workflow - draw sketches, extrude them and draw more, is the same.
 
 However, operations like being able to mirror, cut parts and use boolean combinations (union, subtraction) are more accessible in this workbench.
 I'll keep going and see where I get to.
+
+I use boolean operations a lot in my Inkscape 2D drawing workflow, to construct shapes, so it is nice to have them in FreeCAD too.
