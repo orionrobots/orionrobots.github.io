@@ -24,6 +24,9 @@ The same technique is handy when making FreeCAD assemblies, making the parts eas
 
 ![Knolling an asssembly in FreeCAD](/2025/07/knolling-freecad-assembly.png)
 
+You can do this by using the drag handles on the parts when you've added them.
+If you lose the drag handles, while still in the add parts mode, you double click a part to get them back.
+
 ## Trying the Parts workbench
 
 For some reason, in FreeCAD, I'd largely been using the Part Design workbench, perhaps because it is hte defualtr you start with.
