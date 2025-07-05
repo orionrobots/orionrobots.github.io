@@ -45,6 +45,7 @@ module.exports = function (eleventyConfig) {
     install_media_objects(eleventyConfig);
 
     //copy through assets
+    eleventyConfig.setServerPassthroughCopyBehavior("passthrough");
     eleventyConfig.addPassthroughCopy("admin");
     eleventyConfig.addPassthroughCopy("assets");
     eleventyConfig.addPassthroughCopy("dist");
