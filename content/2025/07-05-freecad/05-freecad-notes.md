@@ -58,6 +58,10 @@ The FrontTopLeft view is a good one to use.
 
 You'll note an odd thing with surfaces being filled in between the exploded assembly lines, also that the movement lines aren't dashed.
 This is still an area with active development, so hopefully these will be fixed in future releases.
+The work around for the filled in surfaces is to select the view, and in the property editor, select the "view" tab and set the "Face Color" to white.
+For the dashes, it is a little painstaking, but you need to select the lines you want to change, then the "Change appearance of lines" tool, and then set the line style to "Stitch" in the property editor.
+
+Also beware that in the TechDraw workbench, the undo system doesn't yet work.
 
 ## What am I building?
 
