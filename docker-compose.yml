@@ -1,37 +1,59 @@
 services:
+  serve:
+    build:
+      context: .
+      dockerfile: serve.Dockerfile
+    command: ["npm", "run", "serve"]
+    volumes:
+      - .:/app/src
+      - /app/src/node_modules
+    ports:
+      - 8081:8081
+    depends_on:
+      dist:
+        condition: service_completed_successfully
+
   dist:
     build:
       context: .
       dockerfile: serve.Dockerfile
     command: ["npm", "run", "dist"]
     volumes:
-      - .:/src
-    working_dir: /src
+      - .:/app/src
+      - /app/src/node_modules
+
+  build:
+    build:
+      context: .
+      dockerfile: serve.Dockerfile
+    command: ["npm", "run", "11ty"]
+    volumes:
+      - .:/app/src
+      - /app/src/node_modules
+    depends_on:
+      dist:
+        condition: service_completed_successfully
+    profiles:
+      - manual
 
   dist_clean:
     build:
       context: .
       dockerfile: serve.Dockerfile
     volumes:
-      - .:/src
-    working_dir: /src
+      - .:/app/src
     image: node:18-bullseye
     command: ["rm", "-rf", "dist"]
+    profiles:
+      - manual
 
-  # web:
-  #   build: _drafts/staging
-  #   ports:
-  #     - 8080:80
-  #   volumes:
-  #     - ./_site:/var/www/html
-
-  serve:
+  clean:
     build:
       context: .
       dockerfile: serve.Dockerfile
     volumes:
-      - .:/src
-    working_dir: /src
-    command: ["npm", "run", "serve"]
-    ports:
-      - 8081:8081
+      - .:/app/src
+    image: node:18-bullseye
+    command: ["rm", "-rf", "_site"]
+    profiles:
+      - manual
