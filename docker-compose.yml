@@ -57,3 +57,18 @@ services:
     command: ["rm", "-rf", "_site"]
     profiles:
       - manual
+
+  shell:
+    build:
+      context: .
+      dockerfile: serve.Dockerfile
+    command: ["bash"]
+    volumes:
+      - .:/app/src
+      - /app/src/node_modules
+    ports:
+      - 8081:8081
+    stdin_open: true
+    tty: true
+    profiles:
+      - manual

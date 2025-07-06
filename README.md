@@ -17,7 +17,7 @@ docker compose up --build --remove-orphans
 
 Get a bash prompt in the serve container:
 ```bash
-docker compose run --interactive serve bash
+docker compose run shell
 ```
 
 **Note:** `node_modules` are managed inside the container. You do not need to run `npm install` on your host.
