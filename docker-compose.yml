@@ -62,6 +62,7 @@ services:
     build:
       context: .
       dockerfile: serve.Dockerfile
+      target: debug
     command: ["bash"]
     volumes:
       - .:/app/src
