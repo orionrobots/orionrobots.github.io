@@ -73,3 +73,27 @@ services:
     tty: true
     profiles:
       - manual
+
+  # Run after build - although in the CI this is run from a tarballed build currently
+  http_serve:
+    build:
+      context: .
+      dockerfile: serve.Dockerfile
+      target: httpd_serve
+    volumes:
+      - ./_site:/usr/local/apache2/htdocs/
+      - ./_drafts/staging/http2.conf:/etc/nginx/conf.d/http2.conf
+      - ./htaccess:/usr/local/apache2/htdocs/.htaccess
+    ports:
+      - 8082:80
+    profiles:
+      - manual
+
+  broken_links:
+    build:
+      context: .
+      dockerfile: serve.Dockerfile
+      target: broken_link_checker
+    command: ["http://http_serve"]
+    profiles:
+      - manual
