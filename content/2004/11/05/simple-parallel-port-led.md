@@ -8,13 +8,6 @@ tags:
 - parallel port
 title: Simple Parallel Port LED
 thumbnail: content/2004/11/05/cable-with-led.jpg
-led_gallery:
-    - src: content/2004/11/05/led-close-up-lit.jpg
-      alt: LED Close Up Lit
-    - src: content/2004/11/05/led-lit-in-dark.jpg
-      alt : LED Lit In Dark
-    - src: content/2004/11/05/led-close-up-unlit.jpg
-      alt: LED Close Up Unlit
 ---
 ## Intro
 
@@ -138,4 +131,6 @@ This will turn on, then off for a second. Put it into a while loop to blink unti
 
 You need to press Ctrl-C to stop this blinking.
 
-{% tab_gallery "led_gallery", led_gallery %}
+![LED Close Up Lit](led-close-up-lit.jpg "LED Close Up Lit")  
+![LED Lit In Dark](led-lit-in-dark.jpg "LED Lit In Dark")  
+![LED Close Up Unlit](led-close-up-unlit.jpg "LED Close Up Unlit")
