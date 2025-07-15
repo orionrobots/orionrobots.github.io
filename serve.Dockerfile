@@ -19,7 +19,7 @@ RUN apt-get update && apt-get install -y \
 
 FROM dcycle/broken-link-checker:3 AS broken_link_checker
 
-FROM httpd:2.4.63 AS httpd_serve
+FROM httpd:2.4.64 AS httpd_serve
 
 # COPY _site /var/www/html/
 COPY _drafts/staging/http2.conf /etc/httpd/conf/httpd.conf
