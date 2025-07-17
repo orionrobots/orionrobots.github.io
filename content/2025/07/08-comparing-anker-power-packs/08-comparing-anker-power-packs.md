@@ -38,7 +38,7 @@ Model | Capacity | Physical Size - fits? | Price | Passes Test | Powers down whe
 2Power - A08 | 5000mAh | Yes  | No longer stocked | Yes | Yes
 Anker 321 | 5200mAh | Yes | £13.98 | Yes | Yes
 Anker Zolo | 10000mAh | No - 110 mm x 65 mm x 25 mm, too big | £13.99 | Yes | Power cycled!
-Anker Nano | 10000mAh | Yes - 85 mm x 55 mm x 35 mm | £39.99 | Yes | No
+Anker Nano | 10000mAh | Yes - 85 mm x 55 mm x 35 mm | £39.99 | Yes | No during test, yes when at a lower 63% though
 Anker 533 | 10000mAh | Yes - 100 mm x 55 mm x 25 mm | £35.99 | Yes | No
 
 ## Considerations on each model
@@ -79,6 +79,10 @@ I'll diagnose using desk power first.
 It turns out that the first option worked. This could be because none of the non-desk power options were good, but seems unlikely since I know that the 2Power was working before. Another alternative is the rapid power up/down meant there was an incomplete DHCP session with the router, and it didn't get a valid IP address.
 
 I tried it again with the 2Power, which worked first time. Then I was able to get the Nano working with Wi-Fi. I then continiued the full rounds of testing.
+
+## 2025-07-17 Update
+
+The Anker Nano powered down when charging, or power cycled sometimes just like the Zolo. It behaved better under test, when nearly full, but when at a lower freshness of 63%, the Raspberry Pi was repeatedly powered off and on. So it is still not really suitable for charging while power up.
 
 ## Conclusion
 
