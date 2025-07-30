@@ -11,3 +11,4 @@ node_modules
 docker-compose.yml
 serve.Dockerfile
 README.md
+_image_sources
