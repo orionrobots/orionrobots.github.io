@@ -31,8 +31,8 @@ docker compose up -d http_serve
 echo "⏳ Waiting for server to be ready..."
 sleep 10
 
-echo "🔍 Running link checker..."
-docker compose up broken_links --build
+echo "🔍 Running quick link checker (2 minute limit)..."
+docker compose --profile manual run --rm broken_links_quick
 
 echo "📊 Link check complete!"
 echo ""

@@ -97,11 +97,39 @@ services:
 
   broken_links:
     build:
-      context: ./linkchecker
+      context: ./.github/linkchecker
       dockerfile: Dockerfile
-    command: ["/linkchecker/run_linkcheck.sh", "http://http_serve", "/reports"]
+    command: ["/linkchecker/run_linkcheck.sh", "http://http_serve", "/reports", "normal"]
     volumes:
-      - ./linkchecker:/linkchecker
+      - ./.github/linkchecker:/linkchecker
+      - ./link_reports:/reports
+    depends_on:
+      http_serve:
+        condition: service_healthy
+    profiles:
+      - manual
+
+  broken_links_quick:
+    build:
+      context: ./.github/linkchecker
+      dockerfile: Dockerfile
+    command: ["/linkchecker/run_linkcheck.sh", "http://http_serve", "/reports", "quick"]
+    volumes:
+      - ./.github/linkchecker:/linkchecker
+      - ./link_reports:/reports
+    depends_on:
+      http_serve:
+        condition: service_healthy
+    profiles:
+      - manual
+
+  broken_links_nightly:
+    build:
+      context: ./.github/linkchecker
+      dockerfile: Dockerfile
+    command: ["/linkchecker/run_linkcheck.sh", "http://http_serve", "/reports", "nightly"]
+    volumes:
+      - ./.github/linkchecker:/linkchecker
       - ./link_reports:/reports
     depends_on:
       http_serve:

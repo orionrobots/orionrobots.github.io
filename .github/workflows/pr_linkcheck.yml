@@ -58,8 +58,8 @@ jobs:
             exit 1
           }
 
-          # Run link checker
-          docker compose up broken_links
+          # Run quick link checker (2min max)
+          docker compose --profile manual run --rm broken_links_quick
 
           # Stop services
           docker compose down
@@ -78,7 +78,7 @@ jobs:
         with:
           script: |
             const fs = require('fs');
-            const path = './linkchecker/output.csv';
+            const path = './.github/linkchecker/output.csv';
 
             let message = '## 🔗 Link Check Results\n\n';
 

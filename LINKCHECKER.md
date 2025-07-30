@@ -7,18 +7,20 @@ The OrionRobots link checker helps identify broken links with a focus on images 
 ### For Local Development
 ```bash
 # Run complete link check locally
-./scripts/local_linkcheck.sh
+./.github/scripts/local_linkcheck.sh
 ```
 
 ### For Pull Requests
+
 1. Add the `link-check` label to your PR
 2. The system will automatically:
    - Build your changes
-   - Deploy to a test environment  
+   - Deploy to a test environment
    - Run link checking
    - Comment results on your PR
 
 ### For Production Monitoring
+
 - Runs automatically every night at 2 AM UTC
 - Reports available in GitHub Actions artifacts
 - Warnings created for broken links
@@ -28,7 +30,7 @@ The OrionRobots link checker helps identify broken links with a focus on images 
 Reports prioritize links by importance:
 
 - 🖼️ **Images** (High): Broken images affecting visual content
-- 🏠 **Internal** (High): Broken internal links under our control  
+- 🏠 **Internal** (High): Broken internal links under our control
 - 🌐 **External** (Medium): Broken external links (may be temporary)
 - 📧 **Email** (Low): Broken email links (complex validation)
 
@@ -38,7 +40,7 @@ Reports prioritize links by importance:
 # Build and serve site
 docker compose --profile manual up -d http_serve
 
-# Run link checker  
+# Run link checker
 docker compose --profile manual up broken_links
 
 # View reports

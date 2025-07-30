@@ -28,10 +28,10 @@ The project includes integrated link checking to detect broken links, with a foc
 
 ```bash
 # Run link checker locally
-./scripts/local_linkcheck.sh
+./.github/scripts/local_linkcheck.sh
 ```
 
-For more details, see [linkchecker/README.md](linkchecker/README.md).
+For more details, see [.github/linkchecker/README.md](.github/linkchecker/README.md).
 
 **GitHub Actions Integration:**
 - Nightly automated link checks on production

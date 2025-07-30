@@ -19,20 +19,11 @@ jobs:
 
       - name: Run Link Checker on Production Site
         run: |
-          docker run --rm \
-            -v ${{ github.workspace }}/linkchecker:/linkchecker \
-            -v ${{ github.workspace }}/link_reports:/tmp/reports \
-            ubuntu:22.04 bash -c "
-              apt-get update && \
-              apt-get install -y ca-certificates linkchecker \
-                python3-pip curl && \
-              pip3 install --trusted-host pypi.org \
-                --trusted-host pypi.python.org \
-                --trusted-host files.pythonhosted.org jinja2 && \
-              cd /linkchecker && \
-              /linkchecker/run_linkcheck.sh https://orionrobots.co.uk \
-                /tmp/reports
-            "
+          # Use docker-compose for nightly check with no time limits
+          # Override the default command to check production site
+          docker-compose --profile manual run --rm \
+            broken_links_nightly \
+            sh -c "/linkchecker/run_linkcheck.sh https://orionrobots.co.uk /reports nightly"
 
       - name: Upload Link Check Report
         uses: actions/upload-artifact@v4
@@ -44,8 +35,8 @@ jobs:
 
       - name: Check for broken links
         run: |
-          if [ -f "linkchecker/output.csv" ]; then
-            total_lines=$(wc -l < linkchecker/output.csv)
+          if [ -f ".github/linkchecker/output.csv" ]; then
+            total_lines=$(wc -l < .github/linkchecker/output.csv)
             if [ "$total_lines" -gt 1 ]; then
               broken_count=$((total_lines - 1))
               echo "❌ Found $broken_count broken links"

@@ -17,7 +17,7 @@ This directory contains the link checking functionality for the OrionRobots webs
 Run the link checker locally using the provided script:
 
 ```bash
-./scripts/local_linkcheck.sh
+./.github/scripts/local_linkcheck.sh
 ```
 
 This will:
