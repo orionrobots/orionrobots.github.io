@@ -1,0 +1,54 @@
+name: Nightly Link Check
+
+on:
+  schedule:
+    # Run every night at 2 AM UTC
+    - cron: '0 2 * * *'
+  workflow_dispatch:
+    # Allow manual trigger
+
+jobs:
+  linkcheck:
+    name: Check Links on Production Site
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        
+      - name: Run Link Checker on Production Site
+        run: |
+          docker run --rm \
+            -v ${{ github.workspace }}/linkchecker:/linkchecker \
+            -v ${{ github.workspace }}/link_reports:/tmp/reports \
+            ubuntu:22.04 bash -c "
+              apt-get update && apt-get install -y ca-certificates linkchecker python3-pip curl
+              pip3 install jinja2
+              cd /linkchecker
+              /linkchecker/run_linkcheck.sh https://orionrobots.co.uk /tmp/reports
+            "
+            
+      - name: Upload Link Check Report
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: nightly-link-check-report-${{ github.run_number }}
+          path: link_reports/
+          retention-days: 30
+          
+      - name: Check for broken links
+        run: |
+          if [ -f "linkchecker/output.csv" ]; then
+            total_lines=$(wc -l < linkchecker/output.csv)
+            if [ "$total_lines" -gt 1 ]; then
+              broken_count=$((total_lines - 1))
+              echo "❌ Found $broken_count broken links"
+              echo "::warning::Found $broken_count broken links on production site"
+              # Create issue if many broken links
+              if [ "$broken_count" -gt 10 ]; then
+                echo "::error::Too many broken links ($broken_count) found on production site"
+              fi
+            else
+              echo "✅ No broken links found!"
+            fi
+          fi
