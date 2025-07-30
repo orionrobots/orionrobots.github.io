@@ -16,8 +16,8 @@ jobs:
           tar -xzf _site.tar.gz
       - name: Prepare for docker build
         run: |
-          cp _drafts/staging/Dockerfile _site/
-          cp _drafts/staging/http2.conf _site/
+          cp .github/scripts/staging/Dockerfile _site/
+          cp .github/scripts/staging/http2.conf _site/
 
       - name: Set up Docker Buildx
         uses: docker/setup-buildx-action@v3

@@ -82,7 +82,7 @@ services:
       target: httpd_serve
     volumes:
       - ./_site:/usr/local/apache2/htdocs/
-      - ./_drafts/staging/http2.conf:/etc/nginx/conf.d/http2.conf
+      - ./.github/scripts/staging/http2.conf:/etc/nginx/conf.d/http2.conf
       - ./htaccess:/usr/local/apache2/htdocs/.htaccess
     ports:
       - 8082:80
