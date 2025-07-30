@@ -52,3 +52,13 @@ Attaching to orionrobotsgithubio-web-1
 orionrobotsgithubio-web-1  | ruby 3.1.1p18 (2022-02-18 revision 53f5fc4236) [x86_64-linux-musl]
 ```
 
+## Staging Test Environment
+
+The staging test environment is located in `.github/scripts/staging/` and contains Docker configuration files used for testing the built site before deployment. This environment:
+
+- Tests the site with Apache configuration that mirrors the hosting environment
+- Validates that htaccess rules work correctly
+- Ensures the site serves properly before deployment
+
+The staging tests run automatically in CI/CD workflows when changes are pushed to the master branch or in pull requests.
+

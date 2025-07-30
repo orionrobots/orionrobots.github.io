@@ -59,7 +59,7 @@ jobs:
         uses: actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093 # v4.3.0
         with:
           name: httpd.conf
-          path: _drafts/staging/httpd.conf
+          path: .github/scripts/staging/httpd.conf
 
       # Sync the files
       - name: Sync the site over
