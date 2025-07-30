@@ -29,8 +29,10 @@ def categorize_link(item):
 
 
 def output_file(items):
+    # Get the directory where this script is located
+    script_dir = os.path.dirname(os.path.abspath(__file__))
     env = Environment(
-        loader=FileSystemLoader('.'),
+        loader=FileSystemLoader(script_dir),
         autoescape=select_autoescape(['html', 'xml'])
     )
     template = env.get_template('output_template.html')

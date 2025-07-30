@@ -1,3 +1,4 @@
+---
 name: PR Link Check
 
 on:
@@ -20,84 +21,49 @@ jobs:
             echo "should-run=false" >> $GITHUB_OUTPUT
           fi
 
-  deploy-staging:
-    name: Deploy Staging for Link Check
+  build-and-linkcheck:
+    name: Build Site and Run Link Check
     runs-on: ubuntu-latest
     needs: check-label
     if: needs.check-label.outputs.should-run == 'true'
-    outputs:
-      deployment-url: ${{ steps.deploy.outputs.deployment-url }}
-    
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-        
+
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: '18'
           cache: 'npm'
-          
+
       - name: Install dependencies
         run: npm ci
-        
+
       - name: Build site
         run: |
           npm run dist
           npm run 11ty
-          
-      - name: Deploy to staging
-        id: deploy
-        run: |
-          # Create a unique staging URL for this PR
-          STAGING_URL="https://pr-${{ github.event.number }}-orionrobots.surge.sh"
-          echo "deployment-url=$STAGING_URL" >> $GITHUB_OUTPUT
-          
-          # Install surge for deployment
-          npm install -g surge
-          
-          # Deploy to surge.sh with the PR-specific URL
-          surge _site $STAGING_URL --token ${{ secrets.SURGE_TOKEN }}
-          
-          echo "🚀 Deployed to: $STAGING_URL"
 
-  linkcheck:
-    name: Run Link Check on Staging
-    runs-on: ubuntu-latest
-    needs: [check-label, deploy-staging]
-    if: needs.check-label.outputs.should-run == 'true'
-    
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
-        
-      - name: Wait for deployment
+      - name: Start HTTP server and run link checker
         run: |
-          echo "⏳ Waiting for staging site to be available..."
-          STAGING_URL="${{ needs.deploy-staging.outputs.deployment-url }}"
-          
-          # Wait up to 5 minutes for the site to be available
-          timeout 300 bash -c "until curl -s '$STAGING_URL' > /dev/null; do sleep 10; done" || {
-            echo "❌ Staging site not available at $STAGING_URL"
+          # Start HTTP server in background
+          docker compose up -d http_serve
+
+          # Wait for server to be ready
+          echo "⏳ Waiting for server to be ready..."
+          timeout 60 bash -c 'until curl -s http://localhost:8082 > /dev/null; do sleep 2; done' || {
+            echo "❌ Server not ready"
+            docker compose logs http_serve
             exit 1
           }
-          
-          echo "✅ Staging site is available"
-        
-      - name: Run Link Checker on Staging
-        run: |
-          STAGING_URL="${{ needs.deploy-staging.outputs.deployment-url }}"
-          
-          docker run --rm \
-            -v ${{ github.workspace }}/linkchecker:/linkchecker \
-            -v ${{ github.workspace }}/link_reports:/tmp/reports \
-            ubuntu:22.04 bash -c "
-              apt-get update && apt-get install -y ca-certificates linkchecker python3-pip curl
-              pip3 install jinja2
-              cd /linkchecker
-              /linkchecker/run_linkcheck.sh '$STAGING_URL' /tmp/reports
-            "
-            
+
+          # Run link checker
+          docker compose up broken_links
+
+          # Stop services
+          docker compose down
+
       - name: Upload Link Check Report
         uses: actions/upload-artifact@v4
         if: always()
@@ -105,7 +71,7 @@ jobs:
           name: pr-link-check-report-${{ github.event.number }}
           path: link_reports/
           retention-days: 14
-          
+
       - name: Comment on PR with results
         uses: actions/github-script@v7
         if: always()
@@ -113,21 +79,22 @@ jobs:
           script: |
             const fs = require('fs');
             const path = './linkchecker/output.csv';
-            
+
             let message = '## 🔗 Link Check Results\n\n';
-            
+
             if (fs.existsSync(path)) {
-              const lines = fs.readFileSync(path, 'utf8').split('\n').filter(line => line.trim());
+              const lines = fs.readFileSync(path, 'utf8')
+                .split('\n')
+                .filter(line => line.trim());
               if (lines.length > 1) {
                 const brokenCount = lines.length - 1; // Subtract header
                 message += `❌ **Found ${brokenCount} broken links**\n\n`;
                 message += `📊 [View detailed report](https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }})\n\n`;
-                message += `🔍 **Staging URL:** ${{ needs.deploy-staging.outputs.deployment-url }}\n\n`;
-                
+
                 if (brokenCount <= 10) {
                   message += '### Broken Links:\n';
                   const csvContent = fs.readFileSync(path, 'utf8');
-                  const rows = csvContent.split('\n').slice(1, 11); // Show first 10
+                  const rows = csvContent.split('\n').slice(1, 11);
                   for (const row of rows) {
                     if (row.trim()) {
                       const cols = row.split(';');
@@ -142,34 +109,15 @@ jobs:
                 }
               } else {
                 message += '✅ **No broken links found!**\n\n';
-                message += `🔍 **Staging URL:** ${{ needs.deploy-staging.outputs.deployment-url }}\n`;
               }
             } else {
               message += '⚠️ **Link check could not be completed**\n\n';
               message += 'Please check the workflow logs for more information.\n';
             }
-            
+
             github.rest.issues.createComment({
               issue_number: context.issue.number,
               owner: context.repo.owner,
               repo: context.repo.repo,
               body: message
             });
-
-  cleanup:
-    name: Cleanup Staging Deployment
-    runs-on: ubuntu-latest
-    needs: [check-label, deploy-staging, linkcheck]
-    if: always() && needs.check-label.outputs.should-run == 'true' && needs.deploy-staging.outputs.deployment-url
-    
-    steps:
-      - name: Teardown staging deployment
-        run: |
-          # Install surge for teardown
-          npm install -g surge
-          
-          # Teardown the staging deployment
-          STAGING_URL="${{ needs.deploy-staging.outputs.deployment-url }}"
-          surge teardown $STAGING_URL --token ${{ secrets.SURGE_TOKEN }}
-          
-          echo "🧹 Cleaned up staging deployment: $STAGING_URL"
