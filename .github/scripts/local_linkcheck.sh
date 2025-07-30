@@ -36,8 +36,8 @@ docker compose --profile manual run --rm broken_links_quick
 
 echo "📊 Link check complete!"
 echo ""
-echo "📄 Reports are available in the ./link_reports/ directory"
-echo "🌐 View the report by opening ./link_reports/link_check_report.html in your browser"
+echo "📄 Reports are available in the ./linkchecker_reports/ directory"
+echo "🌐 View the report by opening ./linkchecker_reports/link_check_report.html in your browser"
 echo ""
 echo "🛑 Stopping services..."
 docker compose down

@@ -44,7 +44,7 @@ docker compose --profile manual up -d http_serve
 docker compose --profile manual up broken_links
 
 # View reports
-open link_reports/link_check_report.html
+open linkchecker_reports/link_check_report.html
 
 # Cleanup
 docker compose down
@@ -52,7 +52,7 @@ docker compose down
 
 ## 📁 Generated Files
 
-- `link_reports/link_check_report.html` - Styled HTML report
+- `linkchecker_reports/link_check_report.html` - Styled HTML report
 - `linkchecker/output.csv` - Raw CSV data for analysis
 
 For detailed configuration and troubleshooting, see [linkchecker/README.md](linkchecker/README.md).

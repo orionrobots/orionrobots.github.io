@@ -5,8 +5,9 @@ set -e
 echo "🔗 Starting OrionRobots Link Checker..."
 
 SITE_URL="${1:-http://http_serve}"
-OUTPUT_DIR="${2:-/linkchecker}"
-MODE="${3:-normal}"  # normal, quick, or nightly
+# Always use /reports as the default output directory, matching the Docker Compose mount
+OUTPUT_DIR="/linkchecker_reports"
+MODE="${2:-normal}"  # normal, quick, or nightly
 REPORT_FILE="$OUTPUT_DIR/link_check_report.html"
 
 echo "📍 Checking site: $SITE_URL"
@@ -38,8 +39,7 @@ if [ "$MODE" = "quick" ]; then
         --timeout=5 \
         --maxrunseconds=120 \
         --verbose=0 \
-        --warnings=0 \
-        --threads=4"
+        --warnings=0"
 elif [ "$MODE" = "nightly" ]; then
     echo "🌙 Running nightly mode (comprehensive, no time limit)..."
     LINKCHECKER_CMD="$LINKCHECKER_CMD \
@@ -48,8 +48,7 @@ elif [ "$MODE" = "nightly" ]; then
         --max-requests-per-second=5 \
         --timeout=30 \
         --verbose=1 \
-        --warnings=1 \
-        --threads=4"
+        --warnings=1"
 else
     echo "🔍 Running normal mode (2min max, limited external checks)..."
     LINKCHECKER_CMD="$LINKCHECKER_CMD \
@@ -59,33 +58,36 @@ else
         --timeout=10 \
         --maxrunseconds=120 \
         --verbose=1 \
-        --warnings=1 \
-        --threads=4"
+        --warnings=1"
 fi
 
-# Run linkchecker
-$LINKCHECKER_CMD "$SITE_URL" || true  # Don't fail on broken links
+echo "🔄 Starting checks..."
+
+# Run linkchecker, outputting CSV to $OUTPUT_DIR
+$LINKCHECKER_CMD "$SITE_URL" --file-output=csv/$OUTPUT_DIR/output.csv || true  # Don't fail on broken links
 
 echo "🔄 Processing results..."
 
-# Generate HTML report
+# Generate HTML report in $OUTPUT_DIR
 cd /linkchecker
-python3 filter_csv.py output.csv > "$REPORT_FILE"
+if [ -f "$OUTPUT_DIR/output.csv" ]; then
+    python3 filter_csv.py "$OUTPUT_DIR/output.csv" > "$REPORT_FILE"
+else
+    echo "⚠️ No output CSV found in $OUTPUT_DIR, cannot generate HTML report."
+fi
 
 echo "📊 Link check complete!"
 echo "📄 Report generated: $REPORT_FILE"
 
 # Show summary
-if [ -f "output.csv" ]; then
-    total_lines=$(wc -l < output.csv)
+if [ -f "$OUTPUT_DIR/output.csv" ]; then
+    total_lines=$(wc -l < "$OUTPUT_DIR/output.csv")
     if [ "$total_lines" -gt 1 ]; then
         broken_count=$((total_lines - 1))  # Subtract header line
         echo "❌ Found $broken_count broken links"
-        # Copy CSV to output directory for analysis
-        cp output.csv "$OUTPUT_DIR/"
     else
         echo "✅ No broken links found!"
     fi
 else
-    echo "⚠️ No output CSV found"
+    echo "⚠️ No output CSV found in $OUTPUT_DIR"
 fi

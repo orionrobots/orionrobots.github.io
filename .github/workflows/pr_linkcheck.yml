@@ -31,19 +31,11 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: '18'
-          cache: 'npm'
 
-      - name: Install dependencies
-        run: npm ci
-
-      - name: Build site
+      - name: Build site with Docker Compose
         run: |
-          npm run dist
-          npm run 11ty
+          docker compose --profile manual run --rm dist
+          docker compose --profile manual run --rm build
 
       - name: Start HTTP server and run link checker
         run: |
@@ -69,7 +61,7 @@ jobs:
         if: always()
         with:
           name: pr-link-check-report-${{ github.event.number }}
-          path: link_reports/
+          path: linkchecker_reports/
           retention-days: 14
 
       - name: Comment on PR with results

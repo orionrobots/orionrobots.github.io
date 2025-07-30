@@ -22,15 +22,14 @@ jobs:
           # Use docker-compose for nightly check with no time limits
           # Override the default command to check production site
           docker-compose --profile manual run --rm \
-            broken_links_nightly \
-            sh -c "/linkchecker/run_linkcheck.sh https://orionrobots.co.uk /reports nightly"
+            broken_links_nightly
 
       - name: Upload Link Check Report
         uses: actions/upload-artifact@v4
         if: always()
         with:
           name: nightly-link-check-report-${{ github.run_number }}
-          path: link_reports/
+          path: linkchecker_reports/
           retention-days: 30
 
       - name: Check for broken links

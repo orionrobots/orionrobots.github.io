@@ -99,10 +99,10 @@ services:
     build:
       context: ./.github/linkchecker
       dockerfile: Dockerfile
-    command: ["/linkchecker/run_linkcheck.sh", "http://http_serve", "/reports", "normal"]
+    command: ["/linkchecker/run_linkcheck.sh", "http://http_serve", "normal"]
     volumes:
       - ./.github/linkchecker:/linkchecker
-      - ./link_reports:/reports
+      - ./linkchecker_reports:/linkchecker_reports
     depends_on:
       http_serve:
         condition: service_healthy
@@ -113,10 +113,10 @@ services:
     build:
       context: ./.github/linkchecker
       dockerfile: Dockerfile
-    command: ["/linkchecker/run_linkcheck.sh", "http://http_serve", "/reports", "quick"]
+    command: ["/linkchecker/run_linkcheck.sh", "http://http_serve", "quick"]
     volumes:
       - ./.github/linkchecker:/linkchecker
-      - ./link_reports:/reports
+      - ./linkchecker_reports:/linkchecker_reports
     depends_on:
       http_serve:
         condition: service_healthy
@@ -127,10 +127,10 @@ services:
     build:
       context: ./.github/linkchecker
       dockerfile: Dockerfile
-    command: ["/linkchecker/run_linkcheck.sh", "http://http_serve", "/reports", "nightly"]
+    command: ["/linkchecker/run_linkcheck.sh", "http://http_serve", "nightly"]
     volumes:
       - ./.github/linkchecker:/linkchecker
-      - ./link_reports:/reports
+      - ./linkchecker_reports:/linkchecker_reports
     depends_on:
       http_serve:
         condition: service_healthy

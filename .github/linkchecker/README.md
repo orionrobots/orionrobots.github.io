@@ -24,7 +24,7 @@ This will:
 1. Build the site
 2. Start a local HTTP server
 3. Run the link checker
-4. Generate a report in `./link_reports/`
+4. Generate a report in `./linkchecker_reports/`
 5. Clean up containers
 
 ### Manual Docker Compose
@@ -128,7 +128,7 @@ If you get "Site not available" errors:
 ### Permission errors
 If you get permission errors with volumes:
 1. Check Docker permissions
-2. Ensure the link_reports directory exists
+2. Ensure the linkchecker_reports directory exists
 3. Try running with sudo (not recommended for production)
 
 ### Missing dependencies
