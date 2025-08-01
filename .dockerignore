@@ -1,5 +1,6 @@
 _site
 node_modules
+.git
 .editorconfig
 .gitattributes
 .gitignore
@@ -9,4 +10,4 @@ node_modules
 docker-compose.yml
 serve.Dockerfile
 README.md
-.git
+_image_sources
