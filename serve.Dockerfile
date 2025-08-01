@@ -25,6 +25,6 @@ FROM httpd:2.4.64 AS httpd_serve
 RUN apt-get update && apt-get install -y curl && rm -rf /var/lib/apt/lists/*
 
 # COPY _site /var/www/html/
-# COPY .github/scripts/staging/http2.conf /usr/local/apache2/conf/httpd.conf
+COPY .github/scripts/staging/default.conf /usr/local/apache2/conf/httpd.conf
 
 FROM base
