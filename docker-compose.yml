@@ -103,3 +103,21 @@ services:
     command: ["http://http_serve"]
     profiles:
       - manual
+
+  # Staging service for on_call_staging_test workflow
+  staging:
+    build:
+      context: ./_site
+      dockerfile: ../.github/scripts/staging/Dockerfile
+      cache_from:
+        - type=gha
+      cache_to:
+        - type=gha,mode=max
+    ports:
+      - 8080:80
+    healthcheck:
+      test: ["CMD", "curl", "-o", "/dev/null", "-s", "http://localhost"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+      start_period: 30s

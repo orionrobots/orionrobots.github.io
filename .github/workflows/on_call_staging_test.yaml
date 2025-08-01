@@ -14,30 +14,34 @@ jobs:
       - name: extract site artifact
         run: |
           tar -xzf _site.tar.gz
-      - name: Prepare for docker build
-        run: |
-          cp .github/scripts/staging/Dockerfile _site/
-          cp .github/scripts/staging/http2.conf _site/
 
       - name: Set up Docker Buildx
         uses: docker/setup-buildx-action@v3
 
-      - name: Build the container
-        uses: docker/build-push-action@v6
-        with:
-          context: "_site"
-          tags: orionrobots:latest
-          cache-from: type=gha
-          cache-to: type=gha,mode=max
-          push: false
-          load: true
-
+      - name: Prepare staging context  
+        run: |
+          # Copy staging files into the _site directory for the docker build
+          cp .github/scripts/staging/default.conf _site/httpd.conf
+          
       - name: Run as service and test
         run: |
-          docker run --rm -d -p8080:80 --name orionrobots orionrobots:latest
-          # Wait for the service to start
-          sleep 10
-          curl -I -L -f http://localhost:8080/
-          curl -I -L -f http://localhost:8080/construction_guide.html
-          curl -I -L -f http://localhost:8080/wiki/lego
-          docker stop orionrobots
+          # Start the staging service using docker compose (context will be _site now)
+          docker compose up -d --build staging
+          
+          # Wait for the health check to pass (healthcheck should handle readiness)
+          echo "Waiting for service to be ready..."
+          timeout 60 bash -c 'until curl -f http://localhost:8080/ >/dev/null 2>&1; do sleep 2; done'
+          
+          # Perform the tests
+          set +e  # Don't exit on error so we can clean up
+          exit_code=0
+          
+          curl -I -f http://localhost:8080/ || exit_code=1
+          curl -I -f http://localhost:8080/construction_guide.html || exit_code=1
+          curl -I -f http://localhost:8080/wiki/lego || exit_code=1
+          
+          # Stop the service regardless of test outcome
+          docker compose stop staging
+          
+          # Exit with the test result
+          exit $exit_code
