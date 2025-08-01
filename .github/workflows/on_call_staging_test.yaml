@@ -25,12 +25,9 @@ jobs:
           
       - name: Run as service and test
         run: |
-          # Start the staging service using docker compose (context will be _site now)
-          docker compose up -d --build staging
-          
-          # Wait for the health check to pass (healthcheck should handle readiness)
-          echo "Waiting for service to be ready..."
-          timeout 60 bash -c 'until curl -f http://localhost:8080/ >/dev/null 2>&1; do sleep 2; done'
+          # Start the staging service using docker compose with --wait for health checks
+          # Use CI-specific override for GitHub Actions cache
+          docker compose -f docker-compose.yml -f docker-compose.ci.yml up -d --build --wait staging
           
           # Perform the tests
           set +e  # Don't exit on error so we can clean up
@@ -41,7 +38,7 @@ jobs:
           curl -I -f http://localhost:8080/wiki/lego || exit_code=1
           
           # Stop the service regardless of test outcome
-          docker compose stop staging
+          docker compose -f docker-compose.yml -f docker-compose.ci.yml stop staging
           
           # Exit with the test result
           exit $exit_code

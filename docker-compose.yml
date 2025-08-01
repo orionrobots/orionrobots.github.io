@@ -109,10 +109,6 @@ services:
     build:
       context: ./_site
       dockerfile: ../.github/scripts/staging/Dockerfile
-      cache_from:
-        - type=gha
-      cache_to:
-        - type=gha,mode=max
     ports:
       - 8080:80
     healthcheck:
