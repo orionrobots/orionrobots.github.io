@@ -1,7 +1,6 @@
 _site
 node_modules
 .git
-.github
 .editorconfig
 .gitattributes
 .gitignore
