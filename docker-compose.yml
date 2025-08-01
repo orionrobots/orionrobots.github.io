@@ -87,7 +87,7 @@ services:
     ports:
       - 8082:80
     healthcheck:
-      test: ["CMD", "curl", "-f", "http://localhost"]
+      test: ["CMD", "curl", "-o", "/dev/null", "-s", "http://localhost"]
       interval: 10s
       timeout: 5s
       retries: 5
