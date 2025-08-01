@@ -36,6 +36,26 @@ You should create a named branch for your changes, before committing, as using P
 git checkout -b my-feature-branch
 ```
 
+## Current project structure
+
+Note - the goal is to arrive at a better structure, that is a work in progress.
+
+- .github/ -> github workflows, linter configurations, utility scripts (including desk ones - not ideal)
+- _data -> json file for eleventy data
+- _drafts -> WIP posts, old content that should be completed, or pulled and should be on another blog. It has some utility scripts and tools that should not be here.
+- _image_sources -> SVG files, high resolution images before processing, XMP or image process data files. Should not be uploaded to the site. Candidate for LFS.
+- _includes -> liquid include files carried from jekyll into 11ty. They are still very much in use - templates, layouts, render components and utilities.
+- _posts -> json data for the list of blog posts. Might be redundant, the state of that json file needs checking and moving/removal if it's not in use.
+- admin -> netlify admin tools, intended for an easy way to add/edit posts without being directly in github. Not currently working, but has worked before.
+- assets -> a mixutre of style assets (logos and tools), downloadable file assets, and images for posts or wiki pages. Ideally - it should only be the style assets with the other parts in galleries.
+- content -> Currently all blog posts, wiki and pages are here, with some exceptions. Eventaully, all site rendered markdown and images should be in this structure and not the root folder.
+- error_pages -> Landing pages for 404's and similar
+- galleries -> Where pictures to be served on the site, and files for downloads should be. Should be under the content folder.
+- navigation and indexes -> archive, rss feeds, sitemap pages. Should also be under content. Has site build js which should be in the src folder?
+- products -> content for the old shop. Still in some wiki page references, and device specifications - which should go to the wiki. Anything relating to price, shipping should be removed. This folder should be removed.
+- src -> Eleventy etensions in JS, scss style stuff. All used in site generation
+- / - config scripts for eleventy, tools, linters, readmes. Dockerfiles for serving, some utility tools. It has the main content index and favicon, which should not be there.
+
 ## Running locally
 
 You may need to determine dependencies - the docker method is preferred. Direct `npm` usage on the host is discouraged to avoid version mismatches.
