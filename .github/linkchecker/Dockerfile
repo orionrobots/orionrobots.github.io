@@ -12,4 +12,4 @@ COPY filter_csv.py output_template.html linkchecker.conf run_linkcheck.sh ./
 RUN chmod +x run_linkcheck.sh
 
 # Default command to run linkchecker
-ENTRYPOINT ["linkchecker", "--config=linkchecker.conf"]
+CMD ["linkchecker", "--config=linkchecker.conf"]
