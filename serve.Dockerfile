@@ -21,7 +21,7 @@ FROM dcycle/broken-link-checker:3 AS broken_link_checker
 
 FROM httpd:2.4.64 AS httpd_serve
 
-# Install curl for healthcheck
+# Install curl for health checks
 RUN apt-get update && apt-get install -y curl && rm -rf /var/lib/apt/lists/*
 
 # COPY _site /var/www/html/

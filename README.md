@@ -22,6 +22,22 @@ docker compose run shell
 
 **Note:** `node_modules` are managed inside the container. You do not need to run `npm install` on your host.
 
+### Link Checking
+
+The project includes integrated link checking to detect broken links, with a focus on images:
+
+```bash
+# Run link checker locally
+./.github/scripts/local_linkcheck.sh
+```
+
+For more details, see [.github/linkchecker/README.md](.github/linkchecker/README.md).
+
+**GitHub Actions Integration:**
+- Nightly automated link checks on production
+- PR-based link checks when labeled with `link-check`
+- Detailed HTML reports with categorized results
+
 ## Preparing to contribute
 
 This project uses the following tools for development:

@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Link Checker Report</title>
+        <meta charset="UTF-8">
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            .summary { background: #f5f5f5; padding: 15px; border-radius: 5px; margin-bottom: 20px; }
+            .category { margin-bottom: 30px; }
+            .category h2 { color: #333; border-bottom: 2px solid #ddd; padding-bottom: 10px; }
+            table { width: 100%; border-collapse: collapse; margin-top: 10px; }
+            th, td { padding: 8px; text-align: left; border-bottom: 1px solid #ddd; }
+            th { background-color: #f2f2f2; font-weight: bold; }
+            .image { background-color: #ffe6e6; }
+            .internal { background-color: #fff2e6; }
+            .external { background-color: #e6f3ff; }
+            .email { background-color: #f0f8e6; }
+            .url-cell { max-width: 300px; word-break: break-all; }
+            .result-cell { max-width: 200px; }
+        </style>
+    </head>
+    <body>
+        <h1>🔗 Link Checker Report</h1>
+        
+        <div class="summary">
+            <h2>📊 Summary</h2>
+            <p><strong>Total Broken Links:</strong> {{ total_count }}</p>
+            <ul>
+                <li>🖼️ <strong>Images:</strong> {{ image_count }} broken</li>
+                <li>🏠 <strong>Internal Links:</strong> {{ internal_count }} broken</li>
+                <li>🌐 <strong>External Links:</strong> {{ external_count }} broken</li>
+                <li>📧 <strong>Email Links:</strong> {{ email_count }} broken</li>
+            </ul>
+        </div>
+
+        {% if categorized.image %}
+        <div class="category image">
+            <h2>🖼️ Broken Images ({{ categorized.image|length }})</h2>
+            <p><strong>Priority:</strong> High - These affect visual content</p>
+            <table>
+                <tr>
+                    <th>Parent Page</th>
+                    <th>Image URL</th>
+                    <th>Error</th>
+                </tr>
+                {% for item in categorized.image %}
+                    <tr>
+                        <td><a href="{{ item.parentname }}" target="_blank">{{ item.parentname }}</a></td>
+                        <td class="url-cell"><a href="{{ item.url }}" target="_blank">{{ item.urlname }}</a></td>
+                        <td class="result-cell">{{ item.result }}</td>
+                    </tr>
+                {% endfor %}
+            </table>
+        </div>
+        {% endif %}
+
+        {% if categorized.internal %}
+        <div class="category internal">
+            <h2>🏠 Broken Internal Links ({{ categorized.internal|length }})</h2>
+            <p><strong>Priority:</strong> High - These are under our control</p>
+            <table>
+                <tr>
+                    <th>Parent Page</th>
+                    <th>Link URL</th>
+                    <th>Error</th>
+                </tr>
+                {% for item in categorized.internal %}
+                    <tr>
+                        <td><a href="{{ item.parentname }}" target="_blank">{{ item.parentname }}</a></td>
+                        <td class="url-cell"><a href="{{ item.url }}" target="_blank">{{ item.urlname }}</a></td>
+                        <td class="result-cell">{{ item.result }}</td>
+                    </tr>
+                {% endfor %}
+            </table>
+        </div>
+        {% endif %}
+
+        {% if categorized.external %}
+        <div class="category external">
+            <h2>🌐 Broken External Links ({{ categorized.external|length }})</h2>
+            <p><strong>Priority:</strong> Medium - These may be temporary issues</p>
+            <table>
+                <tr>
+                    <th>Parent Page</th>
+                    <th>Link URL</th>
+                    <th>Error</th>
+                </tr>
+                {% for item in categorized.external %}
+                    <tr>
+                        <td><a href="{{ item.parentname }}" target="_blank">{{ item.parentname }}</a></td>
+                        <td class="url-cell"><a href="{{ item.url }}" target="_blank">{{ item.urlname }}</a></td>
+                        <td class="result-cell">{{ item.result }}</td>
+                    </tr>
+                {% endfor %}
+            </table>
+        </div>
+        {% endif %}
+
+        {% if categorized.email %}
+        <div class="category email">
+            <h2>📧 Broken Email Links ({{ categorized.email|length }})</h2>
+            <p><strong>Priority:</strong> Low - Email validation is complex</p>
+            <table>
+                <tr>
+                    <th>Parent Page</th>
+                    <th>Email URL</th>
+                    <th>Error</th>
+                </tr>
+                {% for item in categorized.email %}
+                    <tr>
+                        <td><a href="{{ item.parentname }}" target="_blank">{{ item.parentname }}</a></td>
+                        <td class="url-cell">{{ item.urlname }}</td>
+                        <td class="result-cell">{{ item.result }}</td>
+                    </tr>
+                {% endfor %}
+            </table>
+        </div>
+        {% endif %}
+
+        {% if total_count == 0 %}
+        <div class="summary" style="background-color: #e8f5e8; color: #2d5a2d;">
+            <h2>✅ All Links Working!</h2>
+            <p>No broken links found. Great job!</p>
+        </div>
+        {% endif %}
+
+        <footer style="margin-top: 40px; padding-top: 20px; border-top: 1px solid #ddd; color: #666;">
+            <p>Generated by OrionRobots Link Checker</p>
+        </footer>
+    </body>
+</html>
