@@ -22,6 +22,24 @@ docker compose run shell
 
 **Note:** `node_modules` are managed inside the container. You do not need to run `npm install` on your host.
 
+## Running Tests
+
+This project uses BDD (Behavior-Driven Development) tests with Gherkin syntax powered by Cucumber.js.
+
+### Running Unit Tests
+
+To run the BDD tests locally:
+```bash
+npm run test:bdd
+```
+
+To run tests in Docker:
+```bash
+docker compose run test
+```
+
+The tests are located in `tests/staging/features/` and use Gherkin feature files to describe expected behavior.
+
 ## Preparing to contribute
 
 This project uses the following tools for development:
