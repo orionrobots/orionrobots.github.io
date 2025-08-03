@@ -1,14 +1,12 @@
-FROM node:18-bullseye
+FROM node:18-alpine
 
 WORKDIR /app
 
-# Copy package files
+# Copy package files and install dependencies
 COPY package*.json ./
-
-# Install dependencies (including test dependencies)
 RUN npm ci
 
-# Copy test files
+# Copy test files and the necessary scripts from package.json
 COPY tests/ ./tests/
 
 # Set default command to run BDD tests
