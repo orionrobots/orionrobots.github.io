@@ -5,7 +5,7 @@ WORKDIR /app/src
 
 # Install dependencies
 COPY package.json package-lock.json ./
-RUN npm install
+RUN npm ci
 
 # Copy rest of the app source
 COPY . /app/src
@@ -26,5 +26,10 @@ RUN apt-get update && apt-get install -y curl && rm -rf /var/lib/apt/lists/*
 
 # COPY _site /var/www/html/
 COPY .github/scripts/staging/default.conf /usr/local/apache2/conf/httpd.conf
+
+FROM base AS tests
+
+# Set default command to run BDD tests
+CMD ["npm", "run", "test:bdd"]
 
 FROM base
