@@ -42,7 +42,7 @@ jobs:
           # Run BDD integration tests using docker compose
           echo "## BDD Test Results" >> $GITHUB_STEP_SUMMARY
           echo "\`\`\`" >> $GITHUB_STEP_SUMMARY
-          docker compose run test 2>&1 | tee bdd_output.txt
+          docker compose -f docker-compose.yml -f docker-compose.ci.yml run test 2>&1 | tee bdd_output.txt
           bdd_exit_code=$?
           cat bdd_output.txt >> $GITHUB_STEP_SUMMARY
           echo "\`\`\`" >> $GITHUB_STEP_SUMMARY

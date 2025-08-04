@@ -1,5 +1,54 @@
 services:
+  serve:
+    build:
+      cache_from:
+        - type=gha
+      cache_to:
+        - type=gha,mode=max
+
+  dist:
+    build:
+      cache_from:
+        - type=gha
+      cache_to:
+        - type=gha,mode=max
+
+  build:
+    build:
+      cache_from:
+        - type=gha
+      cache_to:
+        - type=gha,mode=max
+
   staging:
+    build:
+      cache_from:
+        - type=gha
+      cache_to:
+        - type=gha,mode=max
+
+  test:
+    build:
+      cache_from:
+        - type=gha
+      cache_to:
+        - type=gha,mode=max
+
+  shell:
+    build:
+      cache_from:
+        - type=gha
+      cache_to:
+        - type=gha,mode=max
+
+  http_serve:
+    build:
+      cache_from:
+        - type=gha
+      cache_to:
+        - type=gha,mode=max
+
+  broken_links:
     build:
       cache_from:
         - type=gha
