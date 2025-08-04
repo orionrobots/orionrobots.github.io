@@ -122,10 +122,11 @@ services:
   test:
     build:
       context: .
-      dockerfile: tests.Dockerfile
+      dockerfile: serve.Dockerfile
+      target: tests
     volumes:
-      - ./tests:/app/tests
-      - ./package.json:/app/package.json
-      - ./package-lock.json:/app/package-lock.json
+      - ./tests:/app/src/tests
+      - ./package.json:/app/src/package.json
+      - ./package-lock.json:/app/src/package-lock.json
     profiles:
       - manual
