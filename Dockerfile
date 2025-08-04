@@ -47,6 +47,20 @@ COPY . /usr/local/apache2/htdocs/
 
 FROM base AS tests
 
+# Install necessary packages for Playwright
+RUN apt-get update && apt-get install -y \
+    libnss3 \
+    libatk-bridge2.0-0 \
+    libdrm2 \
+    libxkbcommon0 \
+    libgtk-3-0 \
+    libgbm1 \
+    libasound2 \
+    && rm -rf /var/lib/apt/lists/*
+
+# Install Playwright browsers
+RUN npx playwright install chromium --with-deps
+
 # Set default command to run BDD tests
 CMD ["npm", "run", "test:bdd"]
 
