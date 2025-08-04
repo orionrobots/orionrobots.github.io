@@ -14,7 +14,10 @@ BeforeAll(async function () {
     headless: true,
     args: ['--no-sandbox', '--disable-setuid-sandbox']
   });
-  context = await browser.newContext();
+  context = await browser.newContext({
+    // Increase timeout for slower Docker environments
+    timeout: 30000
+  });
 });
 
 AfterAll(async function () {
@@ -26,8 +29,11 @@ Given('the Staging site is started', async function () {
   page = await context.newPage();
   
   try {
-    // Verify that the BASE_URL can be reached
-    const response = await page.goto(BASE_URL, { waitUntil: 'networkidle' });
+    // Verify that the BASE_URL can be reached (allow redirects)
+    const response = await page.goto(BASE_URL, { 
+      waitUntil: 'networkidle',
+      timeout: 30000
+    });
     
     if (!response || !response.ok()) {
       throw new Error(`Failed to reach staging site at ${BASE_URL}. Status: ${response ? response.status() : 'No response'}`);
@@ -43,14 +49,17 @@ When('the index page is visited', async function () {
   }
   
   // Navigate to the index page and ensure it loads without HTTP errors
-  const response = await page.goto(BASE_URL, { waitUntil: 'networkidle' });
+  const response = await page.goto(BASE_URL, { 
+    waitUntil: 'networkidle',
+    timeout: 30000
+  });
   
   if (!response || !response.ok()) {
     throw new Error(`Index page failed to load. Status: ${response ? response.status() : 'No response'}`);
   }
   
   // Verify the page has loaded by checking for basic HTML structure
-  await page.waitForSelector('html');
+  await page.waitForSelector('html', { timeout: 10000 });
 });
 
 Then('the Logo should be displayed in the top left corner', async function () {
@@ -59,11 +68,11 @@ Then('the Logo should be displayed in the top left corner', async function () {
   }
   
   // Check that favicon.png is somewhere nested under a <nav> element
-  const faviconInNav = await page.locator('nav img[src*="favicon.png"]').first();
-  
-  const isVisible = await faviconInNav.isVisible().catch(() => false);
-  
-  if (!isVisible) {
+  // This covers both relative paths (favicon.png) and absolute URLs containing favicon.png
+  try {
+    const faviconInNav = await page.locator('nav img[src*="favicon.png"]').first();
+    await faviconInNav.waitFor({ state: 'visible', timeout: 10000 });
+  } catch (error) {
     throw new Error('Logo (favicon.png) is not displayed in a nav element');
   }
 });
