@@ -27,7 +27,7 @@ on:
       - '_config.yml'
       - 'google*.html'
       - 'ads.txt'
-      - 'serve.Dockerfile'
+      - 'Dockerfile'
       - 'docker-compose.yml'
 
 jobs:

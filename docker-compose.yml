@@ -2,7 +2,7 @@ services:
   serve:
     build:
       context: .
-      dockerfile: serve.Dockerfile
+      dockerfile: Dockerfile
     command: ["npm", "run", "serve"]
     volumes:
       - .:/app/src
@@ -16,7 +16,7 @@ services:
   dist:
     build:
       context: .
-      dockerfile: serve.Dockerfile
+      dockerfile: Dockerfile
     command: ["npm", "run", "dist"]
     volumes:
       - .:/app/src
@@ -25,7 +25,7 @@ services:
   build:
     build:
       context: .
-      dockerfile: serve.Dockerfile
+      dockerfile: Dockerfile
     command: ["npm", "run", "11ty"]
     volumes:
       - .:/app/src
@@ -39,7 +39,7 @@ services:
   dist_clean:
     build:
       context: .
-      dockerfile: serve.Dockerfile
+      dockerfile: Dockerfile
     volumes:
       - .:/app/src
     image: node:18-bullseye
@@ -50,7 +50,7 @@ services:
   clean:
     build:
       context: .
-      dockerfile: serve.Dockerfile
+      dockerfile: Dockerfile
     volumes:
       - .:/app/src
     image: node:18-bullseye
@@ -61,7 +61,7 @@ services:
   shell:
     build:
       context: .
-      dockerfile: serve.Dockerfile
+      dockerfile: Dockerfile
       target: debug
     command: ["bash"]
     volumes:
@@ -78,7 +78,7 @@ services:
   http_serve:
     build:
       context: .
-      dockerfile: serve.Dockerfile
+      dockerfile: Dockerfile
       target: httpd_serve
     volumes:
       - ./_site:/usr/local/apache2/htdocs/
@@ -98,7 +98,7 @@ services:
   broken_links:
     build:
       context: .
-      dockerfile: serve.Dockerfile
+      dockerfile: Dockerfile
       target: broken_link_checker
     command: ["http://http_serve"]
     profiles:
@@ -122,7 +122,7 @@ services:
   test:
     build:
       context: .
-      dockerfile: serve.Dockerfile
+      dockerfile: Dockerfile
       target: tests
     volumes:
       - ./tests:/app/src/tests
