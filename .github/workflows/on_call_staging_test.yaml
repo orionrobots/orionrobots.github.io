@@ -22,6 +22,8 @@ jobs:
         run: |
           # Copy staging files into the _site directory for the docker build
           cp .github/scripts/staging/default.conf _site/httpd.conf
+          # Also copy default.conf for the consolidated Dockerfile to support fallback
+          cp .github/scripts/staging/default.conf _site/default.conf
           
       - name: Run as service and test
         run: |

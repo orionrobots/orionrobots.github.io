@@ -103,11 +103,27 @@ orionrobotsgithubio-web-1  | ruby 3.1.1p18 (2022-02-18 revision 53f5fc4236) [x86
 
 ## Staging Test Environment
 
-The staging test environment is located in `.github/scripts/staging/` and contains Docker configuration files used for testing the built site before deployment. This environment:
+The staging test environment uses Docker Compose to run the built site with Apache configuration that mirrors the hosting environment. This environment:
 
 - Tests the site with Apache configuration that mirrors the hosting environment
-- Validates that htaccess rules work correctly
+- Validates that htaccess rules work correctly  
 - Ensures the site serves properly before deployment
+
+### Running the Staging Environment
+
+To run the staging environment locally using Docker Compose:
+
+```bash
+# Build the site first (if not already built)
+docker compose up --build dist
+
+# Start the staging service
+docker compose up --build staging
+```
+
+The staging service will be available at http://localhost:8080
+
+The staging environment automatically uses the consolidated `httpd_serve` Docker stage from the main Dockerfile, ensuring consistency between development and CI/CD environments.
 
 The staging tests run automatically in CI/CD workflows when changes are pushed to the master branch or in pull requests.
 

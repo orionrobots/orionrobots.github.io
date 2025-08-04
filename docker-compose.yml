@@ -108,7 +108,8 @@ services:
   staging:
     build:
       context: ./_site
-      dockerfile: ../.github/scripts/staging/Dockerfile
+      dockerfile: ../Dockerfile
+      target: httpd_serve
     ports:
       - 8080:80
     healthcheck:
