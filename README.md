@@ -5,6 +5,12 @@ Orionrobots website source
 CC BY SA 3.0 - <http://creativecommons.org/licenses/by-sa/3.0/>
 Creative Commons By Attribution Share-Alike v3.0
 
+## Project tooling strategy
+
+This project takes a docker compose first strategy. This is to ensure that the environment things are built in is consistent, and the commands used to build, test and verify in are consistent docker compose variations too.
+
+Some of the tooling is in python, but the majority is in JS with Node. Since the front end is mostly JS, tooling should aim to be written with this.
+
 ## Running serve and build in docker
 
 
@@ -21,6 +27,29 @@ docker compose run shell
 ```
 
 **Note:** `node_modules` are managed inside the container. You do not need to run `npm install` on your host.
+
+## Running Tests
+
+This project uses BDD (Behavior-Driven Development) tests with Gherkin syntax powered by Cucumber.js.
+
+### Running Integration Tests
+
+To run the BDD integration tests locally:
+```bash
+npm run test:bdd
+```
+
+Alternatively, you can use Docker Compose (recommended for CI/workflows):
+```bash
+docker compose run test
+```
+
+To run tests in Docker:
+```bash
+docker compose run test
+```
+
+The tests are located in `tests/staging/features/` and use Gherkin feature files to describe expected behavior.
 
 ## Preparing to contribute
 

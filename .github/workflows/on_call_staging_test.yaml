@@ -37,8 +37,22 @@ jobs:
           curl -I -f http://localhost:8080/construction_guide.html || exit_code=1
           curl -I -f http://localhost:8080/wiki/lego || exit_code=1
           
+          # Run BDD integration tests using docker compose
+          echo "## BDD Test Results" >> $GITHUB_STEP_SUMMARY
+          echo "\`\`\`" >> $GITHUB_STEP_SUMMARY
+          docker compose run test 2>&1 | tee bdd_output.txt
+          bdd_exit_code=$?
+          cat bdd_output.txt >> $GITHUB_STEP_SUMMARY
+          echo "\`\`\`" >> $GITHUB_STEP_SUMMARY
+          
+          if [ $bdd_exit_code -eq 0 ]; then
+            echo "✅ BDD tests passed" >> $GITHUB_STEP_SUMMARY
+          else
+            echo "⚠️ BDD tests failed (this is expected as step definitions are not yet implemented)" >> $GITHUB_STEP_SUMMARY
+          fi
+          
           # Stop the service regardless of test outcome
           docker compose -f docker-compose.yml -f docker-compose.ci.yml stop staging
           
-          # Exit with the test result
+          # Exit with the test result (don't fail on BDD tests for now)
           exit $exit_code

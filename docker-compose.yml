@@ -117,3 +117,15 @@ services:
       timeout: 5s
       retries: 5
       start_period: 30s
+
+  # BDD Testing service
+  test:
+    build:
+      context: .
+      dockerfile: tests.Dockerfile
+    volumes:
+      - ./tests:/app/tests
+      - ./package.json:/app/package.json
+      - ./package-lock.json:/app/package-lock.json
+    profiles:
+      - manual

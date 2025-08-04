@@ -4,7 +4,8 @@
   "description": "Orion Jekyll Site",
   "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "npm run test:bdd",
+    "test:bdd": "cucumber-js tests/staging/features --require tests/staging/step_definitions/**/*.js",
     "dist": "webpack --mode production -c webpack.config.js",
     "dev": "webpack --mode development -c webpack.config.js",
     "stats": "webpack -c webpack.config.js --profile --json > stats.json",
@@ -29,6 +30,7 @@
     "@11ty/eleventy": "^3",
     "@11ty/eleventy-img": "^6.0.4",
     "@11ty/eleventy-plugin-syntaxhighlight": "^5.0.0",
+    "@cucumber/cucumber": "^12.1.0",
     "@fortawesome/fontawesome-svg-core": "^6.7.2",
     "@vidhill/fortawesome-brands-11ty-shortcode": "^1.1.0",
     "clean-css": "^5.3.2",
