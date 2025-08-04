@@ -5,6 +5,12 @@ Orionrobots website source
 CC BY SA 3.0 - <http://creativecommons.org/licenses/by-sa/3.0/>
 Creative Commons By Attribution Share-Alike v3.0
 
+## Project tooling strategy
+
+This project takes a docker compose first strategy. This is to ensure that the environment things are built in is consistent, and the commands used to build, test and verify in are consistent docker compose variations too.
+
+Some of the tooling is in python, but the majority is in JS with Node. Since the front end is mostly JS, tooling should aim to be written with this.
+
 ## Running serve and build in docker
 
 
