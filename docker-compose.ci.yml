@@ -2,55 +2,55 @@ services:
   serve:
     build:
       cache_from:
-        - type=gha
+        - type=registry,ref=orionrobots/orionrobots-site:cache
       cache_to:
-        - type=gha,mode=max
+        - type=registry,ref=orionrobots/orionrobots-site:cache,mode=max
 
   dist:
     build:
       cache_from:
-        - type=gha
+        - type=registry,ref=orionrobots/orionrobots-site:cache
       cache_to:
-        - type=gha,mode=max
+        - type=registry,ref=orionrobots/orionrobots-site:cache,mode=max
 
   build:
     build:
       cache_from:
-        - type=gha
+        - type=registry,ref=orionrobots/orionrobots-site:cache
       cache_to:
-        - type=gha,mode=max
+        - type=registry,ref=orionrobots/orionrobots-site:cache,mode=max
 
   staging:
     build:
       cache_from:
-        - type=gha
+        - type=registry,ref=orionrobots/orionrobots-site:cache
       cache_to:
-        - type=gha,mode=max
+        - type=registry,ref=orionrobots/orionrobots-site:cache,mode=max
 
   test:
     build:
       cache_from:
-        - type=gha
+        - type=registry,ref=orionrobots/orionrobots-site:cache
       cache_to:
-        - type=gha,mode=max
+        - type=registry,ref=orionrobots/orionrobots-site:cache,mode=max
 
   shell:
     build:
       cache_from:
-        - type=gha
+        - type=registry,ref=orionrobots/orionrobots-site:cache
       cache_to:
-        - type=gha,mode=max
+        - type=registry,ref=orionrobots/orionrobots-site:cache,mode=max
 
   http_serve:
     build:
       cache_from:
-        - type=gha
+        - type=registry,ref=orionrobots/orionrobots-site:cache
       cache_to:
-        - type=gha,mode=max
+        - type=registry,ref=orionrobots/orionrobots-site:cache,mode=max
 
   broken_links:
     build:
       cache_from:
-        - type=gha
+        - type=registry,ref=orionrobots/orionrobots-site:cache
       cache_to:
-        - type=gha,mode=max
+        - type=registry,ref=orionrobots/orionrobots-site:cache,mode=max
