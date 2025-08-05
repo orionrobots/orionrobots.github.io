@@ -5,6 +5,8 @@ on:
 jobs:
   staging_test:
     runs-on: ubuntu-latest
+    permissions:
+      packages: write
     env:
       CACHE_IMAGE: orionrobots/orionrobots-site
       DOCKER_BUILDKIT: 1
