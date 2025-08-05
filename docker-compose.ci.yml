@@ -1,7 +1,56 @@
 services:
+  serve:
+    build:
+      cache_from:
+        - type=registry,ref=ghcr.io/orionrobots/orionrobots-site.serve:cache
+      cache_to:
+        - type=registry,ref=ghcr.io/orionrobots/orionrobots-site.serve:cache,mode=max
+
+  dist:
+    build:
+      cache_from:
+        - type=registry,ref=ghcr.io/orionrobots/orionrobots-site.dist:cache
+      cache_to:
+        - type=registry,ref=ghcr.io/orionrobots/orionrobots-site.dist:cache,mode=max
+
+  build:
+    build:
+      cache_from:
+        - type=registry,ref=ghcr.io/orionrobots/orionrobots-site.build:cache
+      cache_to:
+        - type=registry,ref=ghcr.io/orionrobots/orionrobots-site.build:cache,mode=max
+
   staging:
     build:
       cache_from:
-        - type=gha
+        - type=registry,ref=ghcr.io/orionrobots/orionrobots-site.staging:cache
       cache_to:
-        - type=gha,mode=max
+        - type=registry,ref=ghcr.io/orionrobots/orionrobots-site.staging:cache,mode=max
+
+  test:
+    build:
+      cache_from:
+        - type=registry,ref=ghcr.io/orionrobots/orionrobots-site.test:cache
+      cache_to:
+        - type=registry,ref=ghcr.io/orionrobots/orionrobots-site.test:cache,mode=max
+
+  shell:
+    build:
+      cache_from:
+        - type=registry,ref=ghcr.io/orionrobots/orionrobots-site.shell:cache
+      cache_to:
+        - type=registry,ref=ghcr.io/orionrobots/orionrobots-site.shell:cache,mode=max
+
+  http_serve:
+    build:
+      cache_from:
+        - type=registry,ref=ghcr.io/orionrobots/orionrobots-site.http_serve:cache
+      cache_to:
+        - type=registry,ref=ghcr.io/orionrobots/orionrobots-site.http_serve:cache,mode=max
+
+  broken_links:
+    build:
+      cache_from:
+        - type=registry,ref=ghcr.io/orionrobots/orionrobots-site.broken_links:cache
+      cache_to:
+        - type=registry,ref=ghcr.io/orionrobots/orionrobots-site.broken_links:cache,mode=max
