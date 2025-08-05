@@ -5,6 +5,10 @@ on:
 jobs:
   build_site:
     runs-on: ubuntu-latest
+    env:
+      CACHE_IMAGE: orionrobots/orionrobots-site
+      DOCKER_BUILDKIT: 1
+      COMPOSE_DOCKER_CLI_BUILD: 1
     steps:
       - uses: actions/checkout@v4
 
