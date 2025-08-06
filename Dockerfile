@@ -7,15 +7,15 @@ WORKDIR /app/src
 COPY package.json package-lock.json ./
 RUN npm ci
 
-# Copy rest of the app source
-COPY . /app/src
-
 FROM base AS debug
 
 RUN apt-get update && apt-get install -y \
     less \
     iputils-ping \
     dnsutils
+
+# Copy app source for development
+COPY . /app/src
 
 FROM dcycle/broken-link-checker:3 AS broken_link_checker
 
@@ -61,7 +61,13 @@ RUN apt-get update && apt-get install -y \
 # Install Playwright browsers
 RUN npx playwright install chromium --with-deps
 
+# Copy app source for testing
+COPY . /app/src
+
 # Set default command to run BDD tests
 CMD ["npm", "run", "test:bdd"]
 
 FROM base
+
+# Copy app source for the final stage
+COPY . /app/src
