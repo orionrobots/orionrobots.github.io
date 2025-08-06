@@ -7,10 +7,10 @@ WORKDIR /app/src
 COPY package.json package-lock.json ./
 RUN npm ci
 
-# Copy rest of the app source
-COPY . /app/src
-
 FROM base AS debug
+
+# Copy app source for development
+COPY . /app/src
 
 RUN apt-get update && apt-get install -y \
     less \
@@ -47,6 +47,9 @@ COPY . /usr/local/apache2/htdocs/
 
 FROM base AS tests
 
+# Copy app source for testing
+COPY . /app/src
+
 # Install necessary packages for Playwright
 RUN apt-get update && apt-get install -y \
     libnss3 \
@@ -65,3 +68,6 @@ RUN npx playwright install chromium --with-deps
 CMD ["npm", "run", "test:bdd"]
 
 FROM base
+
+# Copy app source for the final stage
+COPY . /app/src
