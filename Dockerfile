@@ -9,13 +9,13 @@ RUN npm ci
 
 FROM base AS debug
 
-# Copy app source for development
-COPY . /app/src
-
 RUN apt-get update && apt-get install -y \
     less \
     iputils-ping \
     dnsutils
+
+# Copy app source for development
+COPY . /app/src
 
 FROM dcycle/broken-link-checker:3 AS broken_link_checker
 
@@ -47,9 +47,6 @@ COPY . /usr/local/apache2/htdocs/
 
 FROM base AS tests
 
-# Copy app source for testing
-COPY . /app/src
-
 # Install necessary packages for Playwright
 RUN apt-get update && apt-get install -y \
     libnss3 \
@@ -63,6 +60,9 @@ RUN apt-get update && apt-get install -y \
 
 # Install Playwright browsers
 RUN npx playwright install chromium --with-deps
+
+# Copy app source for testing
+COPY . /app/src
 
 # Set default command to run BDD tests
 CMD ["npm", "run", "test:bdd"]
