@@ -56,18 +56,19 @@ jobs:
           echo "## BDD Test Results" >> $GITHUB_STEP_SUMMARY
           echo "\`\`\`" >> $GITHUB_STEP_SUMMARY
           docker compose -f docker-compose.yml -f docker-compose.ci.yml run test 2>&1 | tee bdd_output.txt
-          bdd_exit_code=$?
+          bdd_result=$?
           cat bdd_output.txt >> $GITHUB_STEP_SUMMARY
           echo "\`\`\`" >> $GITHUB_STEP_SUMMARY
           
-          if [ $bdd_exit_code -eq 0 ]; then
+          if [ $bdd_result -eq 0 ]; then
             echo "✅ BDD tests passed" >> $GITHUB_STEP_SUMMARY
           else
-            echo "⚠️ BDD tests failed (this is expected as step definitions are not yet implemented)" >> $GITHUB_STEP_SUMMARY
+            echo "❌ BDD tests failed" >> $GITHUB_STEP_SUMMARY
+            exit_code=1
           fi
           
           # Stop the service regardless of test outcome
           docker compose -f docker-compose.yml -f docker-compose.ci.yml stop staging
           
-          # Exit with the test result (don't fail on BDD tests for now)
+          # Exit with the test result
           exit $exit_code
