@@ -2,37 +2,34 @@
 
 **ALWAYS** reference these instructions first and fallback to search or bash commands only when you encounter unexpected information that does not match the info here.
 
-Orionrobots is a static website about robotics using Eleventy (11ty) static site generator with Webpack for asset bundling. The site includes a blog with Jekyll-style posts, wiki pages, and robotics tutorials. It's hosted as a GitHub Pages-style site with Apache configuration.
+Orionrobots is a static website about robotics using Eleventy (11ty) static site generator with Webpack for asset bundling. The site includes a blog with Jekyll-style posts, wiki pages, and robotics tutorials. It's hosted on 3rd party hosting with Apache configuration.
 
 ## Working Effectively
 
 ### CRITICAL: Bootstrap and Build Commands
-- Bootstrap the repository:
-  - `npm install` -- **NEVER CANCEL** - takes 1 minute. Docker npm ci is BROKEN, use npm install instead.
-- Build assets and site:
-  - `npm run dist` -- builds webpack bundle.js, takes 7 seconds. Set timeout to 30+ seconds.
-  - `npm run 11ty` -- **NEVER CANCEL** - builds full static site, takes 2.5 minutes. Set timeout to 180+ seconds.
-- Full development workflow:
+- Bootstrap and run the repository:
+  - `docker compose up` -- **NEVER CANCEL** - builds and starts development server. Set timeout to 300+ seconds for initial build.
+- Build assets and site manually:
+  - `docker compose run dist` -- builds webpack bundle.js, takes ~30 seconds
+  - `docker compose run build` -- builds full static site, takes ~3 minutes. Set timeout to 240+ seconds.
+- Alternative native workflow:
   ```bash
   npm install
   npm run dist
   npm run 11ty
   ```
 
-### CRITICAL: Docker Known Issues
-- **DO NOT USE** `docker compose up` commands - Docker npm ci fails with "Exit handler never called!" error
-- Docker builds timeout after 7+ minutes with npm installation issues
-- Use native npm commands on host instead of Docker for development
-
 ### Development Server
 - Run local development server:
-  - `npm run serve` -- starts Eleventy dev server on port 8081, **NEVER CANCEL** - builds then watches files. Set timeout to 180+ seconds for initial build.
-  - Alternative: After building, serve with Python: `cd _site && python3 -m http.server 8082`
+  - `docker compose up serve` -- starts Eleventy dev server on port 8081, **NEVER CANCEL** - builds then watches files. Set timeout to 300+ seconds for initial build.
+  - Alternative native: `npm run serve` -- starts Eleventy dev server directly
+  - Manual serving: After building, serve with Python: `cd _site && python3 -m http.server 8082`
 
 ### Testing Commands
 - BDD integration tests:
-  - `npm run test:bdd` or `npm test` -- runs Cucumber.js tests with Playwright
-  - **CRITICAL**: Playwright installation often fails in CI environments
+  - `docker compose run test` -- runs Cucumber.js tests with Playwright in containerized environment
+  - Alternative native: `npm run test:bdd` or `npm test` -- runs tests directly on host
+  - **Note**: Playwright installation may fail in some CI environments
   - Tests require a running staging server to test against
 
 ## Validation Scenarios
@@ -51,7 +48,8 @@ Always test these key pages that are verified in CI:
 - Wiki pages: `/wiki/lego` and similar (check for 404s)
 
 ### Build Verification
-- Run `npm run dist && npm run 11ty` and verify `_site` directory is created with content
+- Run `docker compose run dist && docker compose run build` and verify `_site` directory is created with content
+- Alternative native: `npm run dist && npm run 11ty`
 - Check that `_site/index.html` exists and contains proper HTML structure
 - Verify `dist/bundle.js` exists and is approximately 330KB
 
@@ -67,7 +65,7 @@ _posts/              -- Old Jekyll posts structure
 _site/               -- Generated static site (build output)
 content/             -- Main content (blog posts, wiki pages)
 dist/                -- Webpack build output (bundle.js)
-docker-compose.yml   -- BROKEN Docker setup
+docker-compose.yml   -- Docker development environment setup
 package.json         -- npm dependencies and scripts
 src/                 -- Source files for Webpack
 webpack.config.js    -- Webpack configuration
@@ -81,14 +79,16 @@ webpack.config.js    -- Webpack configuration
 ## Build Process Details
 
 ### Build Order (Critical)
-1. **Webpack Build** (`npm run dist`): Creates `dist/bundle.js` with CSS and JS assets
-2. **Eleventy Build** (`npm run 11ty`): Processes markdown, creates HTML, copies assets to `_site/`
+1. **Webpack Build** (`docker compose run dist` or `npm run dist`): Creates `dist/bundle.js` with CSS and JS assets
+2. **Eleventy Build** (`docker compose run build` or `npm run 11ty`): Processes markdown, creates HTML, copies assets to `_site/`
 
 ### Timing Expectations
-- npm install: ~1 minute (standard timeout OK)
-- webpack dist: ~7 seconds (set 30+ second timeout)  
-- Eleventy build: ~2.5 minutes (**NEVER CANCEL** - set 180+ second timeout)
-- Eleventy serve: ~2.5 minutes initial build then watches (**NEVER CANCEL** - set 180+ second timeout)
+- Docker compose up: ~4-5 minutes for initial build and start (set 300+ second timeout)
+- Docker dist build: ~30 seconds (set 60+ second timeout)
+- Docker site build: ~3 minutes (**NEVER CANCEL** - set 240+ second timeout)
+- Alternative native npm install: ~1 minute (standard timeout OK)
+- Alternative native webpack dist: ~7 seconds (set 30+ second timeout)  
+- Alternative native Eleventy build: ~2.5 minutes (**NEVER CANCEL** - set 180+ second timeout)
 
 ### Known Build Warnings
 - Sass deprecation warnings about @import rules (normal, build continues)
@@ -98,14 +98,14 @@ webpack.config.js    -- Webpack configuration
 ## Dependencies and Environment
 
 ### Required Dependencies
-- Node.js 20+ (tested with v20.19.4)
-- npm 10+ (tested with v10.8.2)
+- Docker and Docker Compose (primary development environment)
+- Node.js 20+ (for native development alternative)
+- npm 10+ (for native development alternative)
 - Python 3.12+ (for simple HTTP server testing)
 
 ### Optional Dependencies
-- Docker (BROKEN - do not rely on Docker commands)
 - pre-commit (for git hooks)
-- Playwright (for BDD testing, often fails to install)
+- Playwright (for BDD testing, included in Docker test environment)
 
 ## Configuration Files
 
@@ -116,8 +116,8 @@ webpack.config.js    -- Webpack configuration
 - `webpack.config.js`: Asset bundling configuration
 
 ### Development vs Production
-- Development: Use `npm run serve` for live reloading
-- Production: Build with `npm run dist && npm run 11ty`, serve from `_site/`
+- Development: Use `docker compose up serve` for live reloading, or `npm run serve` for native development
+- Production: Build with `docker compose run dist && docker compose run build` or `npm run dist && npm run 11ty`, serve from `_site/`
 
 ## Common Development Tasks
 
@@ -133,15 +133,18 @@ This creates properly structured content with frontmatter in `content/YYYY/MM/` 
 - Static files: Use Eleventy passthrough copy in `.eleventy.js`
 
 ### Troubleshooting Build Issues
-1. Clear `node_modules`: `rm -rf node_modules && npm install`
-2. Clear build outputs: `rm -rf _site dist`
-3. Rebuild: `npm run dist && npm run 11ty`
-4. **NEVER** try Docker commands - they are broken
+1. Clear containers and rebuild: `docker compose down && docker compose build --no-cache`
+2. Clear build outputs: `docker compose run --rm base rm -rf _site dist`
+3. Rebuild: `docker compose run dist && docker compose run build`
+4. Alternative native troubleshooting:
+   - Clear `node_modules`: `rm -rf node_modules && npm install`
+   - Clear build outputs: `rm -rf _site dist`
+   - Rebuild: `npm run dist && npm run 11ty`
 
 ## CI/CD Information
 
 ### GitHub Workflows
-- **DO NOT** rely on Docker workflows - they have npm ci issues
+- Uses Docker Compose for consistent CI/CD environments
 - Staging tests run BDD Playwright tests (may be flaky)
 - Deployment happens to Apache hosting with htaccess rules
 
@@ -152,11 +155,11 @@ This creates properly structured content with frontmatter in `content/YYYY/MM/` 
 
 ## Repository Context
 
-This is a long-running Jekyll-to-Eleventy migration project with:
+This is a Jekyll-to-Eleventy migrated project (now fully Eleventy) with:
 - Mixed content structure (legacy `_posts/` and new `content/`)
 - Jekyll-style frontmatter and Liquid templates
 - Bootstrap 5 + jQuery frontend
 - Extensive robotics content and tutorials
 - Apache hosting with custom htaccess rules
 
-**CRITICAL REMINDER**: Docker builds are BROKEN. Always use native npm commands. Never cancel long-running builds - they can take 2.5+ minutes.
+**CRITICAL REMINDER**: Use Docker Compose as the primary development method. Never cancel long-running builds - they can take 3-5+ minutes for initial setup.
