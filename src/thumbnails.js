@@ -36,11 +36,21 @@ function has_thumbnail(post) {
 
 async function thumbnail_for_post(post) {
     const thumbnailUrl = getPostThumbnailPath(post);
+    let imageSrc;
+    
     if(thumbnailUrl == undefined) {
-        return "";
+        // Use favicon.png as fallback when no thumbnail is defined
+        imageSrc = "favicon.png";
+    } else {
+        imageSrc = stripLeadingSlash(thumbnailUrl);
+        if ( !fs.existsSync(imageSrc)) {
+            // Use favicon.png as fallback when thumbnail file doesn't exist
+            imageSrc = "favicon.png";
+        }
     }
-    const imageSrc = stripLeadingSlash(thumbnailUrl);
+    
     if ( !fs.existsSync(imageSrc)) {
+        // If even favicon.png doesn't exist, return empty (shouldn't happen)
         return "";
     } else {
         // console.log("Generating thumbnail for " + imageSrc);
