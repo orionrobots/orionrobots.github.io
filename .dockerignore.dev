@@ -1,0 +1,20 @@
+# Minimal .dockerignore for development Dockerfile
+# Only package.json and package-lock.json are needed for npm ci
+# All other content is volume-mounted at runtime
+
+# Exclude everything by default
+*
+
+# But include the package files needed for npm install
+!package.json
+!package-lock.json
+
+# Exclude git and other version control
+.git
+.gitignore
+.gitattributes
+
+# Exclude Docker files
+Dockerfile*
+docker-compose*.yml
+.dockerignore*

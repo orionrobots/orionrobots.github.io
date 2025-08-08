@@ -1,3 +1,6 @@
+# Aggressive .dockerignore for faster Docker builds
+# Most content is volume-mounted in docker-compose.yml for development
+
 _site
 node_modules
 .git
@@ -7,7 +10,50 @@ node_modules
 .mega-linter.yml
 .pre-commit-config.yaml
 .shellcheckrc
-docker-compose.yml
+docker-compose*.yml
 serve.Dockerfile
 README.md
+
+# Large directories that will be volume-mounted for development
+# These are the primary culprits for slow build context transfer
 _image_sources
+galleries
+content
+_drafts
+assets
+
+# Other directories that will be volume-mounted
+products
+navigation_and_indexes
+error_pages
+admin
+_posts
+_data
+_includes
+
+# Development and build artifacts
+dist
+*.log
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode
+.idea
+*.swp
+*.swo
+
+# Temporary files
+.tmp
+tmp
+
+# Keep essential files for build
+!package.json
+!package-lock.json
+!.eleventy.js
+!_config.yml
+!webpack.config.js
+!src/
+!tests/
+!.github/scripts/staging/default.conf
+!htaccess

@@ -1,12 +1,15 @@
+# Development build - minimal context needed since content is volume-mounted
 FROM node:24-bullseye AS base
 
 # Create app directory
 WORKDIR /app/src
 
-# Install dependencies
+# Copy package files and install dependencies
+# This is all that's needed for development since source is volume-mounted
 COPY package.json package-lock.json ./
 RUN npm ci
 
+# Development debug build 
 FROM base AS debug
 
 RUN apt-get update && apt-get install -y \
@@ -14,11 +17,12 @@ RUN apt-get update && apt-get install -y \
     iputils-ping \
     dnsutils
 
-# Copy app source for development
-COPY . /app/src
+# For development, source code is volume-mounted, not copied
 
+# Broken link checker stage
 FROM dcycle/broken-link-checker:3 AS broken_link_checker
 
+# Production HTTP server build - needs full content
 FROM httpd:2.4.64 AS httpd_serve
 
 # Install curl for healthcheck
@@ -45,6 +49,7 @@ RUN if [ -f /tmp/build_context/httpd.conf ]; then \
 # Copy site content to web directory
 COPY . /usr/local/apache2/htdocs/
 
+# Test build - needs some content for testing
 FROM base AS tests
 
 # Install necessary packages for Playwright
@@ -61,13 +66,12 @@ RUN apt-get update && apt-get install -y \
 # Install Playwright browsers
 RUN npx playwright install chromium --with-deps
 
-# Copy app source for testing
-COPY . /app/src
+# Copy test files and configuration
+COPY tests/ ./tests/
+COPY .eleventy.js _config.yml webpack.config.js ./
 
 # Set default command to run BDD tests
 CMD ["npm", "run", "test:bdd"]
 
+# Default stage for development - just the base with npm dependencies
 FROM base
-
-# Copy app source for the final stage
-COPY . /app/src
