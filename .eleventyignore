@@ -4,3 +4,4 @@
 ./tests
 
 Dockerfile
+DOCKER_OPTIMIZATION.md
