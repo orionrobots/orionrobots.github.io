@@ -2,7 +2,7 @@ services:
   serve:
     build:
       context: .
-      dockerfile: Dockerfile.dev
+      dockerfile: dev.Dockerfile
     command: ["npm", "run", "serve"]
     volumes:
       - .:/app/src
@@ -16,7 +16,7 @@ services:
   dist:
     build:
       context: .
-      dockerfile: Dockerfile.dev
+      dockerfile: dev.Dockerfile
     command: ["npm", "run", "dist"]
     volumes:
       - .:/app/src
@@ -25,7 +25,7 @@ services:
   build:
     build:
       context: .
-      dockerfile: Dockerfile.dev
+      dockerfile: dev.Dockerfile
     command: ["npm", "run", "11ty"]
     volumes:
       - .:/app/src
@@ -61,7 +61,7 @@ services:
   shell:
     build:
       context: .
-      dockerfile: Dockerfile.dev
+      dockerfile: dev.Dockerfile
       target: debug
     command: ["bash"]
     volumes:

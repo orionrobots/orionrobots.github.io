@@ -12,11 +12,11 @@ The original setup transferred the entire repository (425MB including galleries/
 Created optimized Docker setup:
 
 ### Files Added
-- `Dockerfile.dev` - Minimal dockerfile that only installs npm dependencies
+- `dev.Dockerfile` - Minimal dockerfile that only installs npm dependencies
 - Updated `.dockerignore` - Aggressive exclusion of large directories
 
 ### Changes Made
-- `docker-compose.yml` - Updated serve, dist, build, and shell services to use `Dockerfile.dev`
+- `docker-compose.yml` - Updated serve, dist, build, and shell services to use `dev.Dockerfile`
 - Original `Dockerfile` - Kept for production services that need full content (httpd_serve, staging, etc.)
 
 ### Performance Improvement
@@ -25,7 +25,7 @@ Created optimized Docker setup:
 
 ## Architecture
 
-### Development Services (use Dockerfile.dev)
+### Development Services (use dev.Dockerfile)
 - `serve` - Eleventy development server
 - `dist` - Webpack asset bundling  
 - `build` - Site generation
