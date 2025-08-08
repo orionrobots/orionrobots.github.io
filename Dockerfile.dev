@@ -7,7 +7,9 @@ WORKDIR /app/src
 
 # Copy package files and install dependencies
 COPY package.json package-lock.json ./
-RUN npm ci
+
+# Optimize npm ci for better performance in CI environments
+RUN npm ci --prefer-offline --no-audit --progress=false
 
 # Development debug build 
 FROM base AS debug
