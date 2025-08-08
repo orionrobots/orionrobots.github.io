@@ -29,6 +29,7 @@ repos:
         exclude: "^.*drawio$"
     -   id: detect-private-key
         exclude: "^.*drawio$"
+        
     # -   id: detect-aws-credentials
     #     exclude: "^.*drawio$"
     -   id: check-ast
@@ -39,3 +40,22 @@ repos:
 #     hooks:
 #     -   id: cspell
 # docker run --rm -v $PWD:/app madewithlove/htaccess-cli -p _site https://orionrobots.co.uk/wiki/usb - verified htaccess on one file. But doesnt validate whole file syntax.
+
+  - repo: https://github.com/editorconfig-checker/editorconfig-checker.python
+    rev: 3.2.1
+    hooks:
+      - id: editorconfig-checker
+        alias: ec
+
+  - repo: https://github.com/gitleaks/gitleaks
+    rev: v8.16.1
+    hooks:
+      - id: gitleaks
+
+  - repo: https://github.com/semgrep/pre-commit
+    rev: 'v1.117.0'
+    hooks:
+      - id: semgrep-docker
+        require_serial: true
+        pass_filenames: false
+        args: ["ci", "--dry-run", "--baseline-commit", "HEAD"]
