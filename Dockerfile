@@ -66,9 +66,8 @@ RUN apt-get update && apt-get install -y \
 # Install Playwright browsers
 RUN npx playwright install chromium --with-deps
 
-# Copy test files and configuration
+# Copy test files
 COPY tests/ ./tests/
-COPY .eleventy.js _config.yml webpack.config.js ./
 
 # Set default command to run BDD tests
 CMD ["npm", "run", "test:bdd"]
