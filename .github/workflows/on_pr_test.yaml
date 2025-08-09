@@ -31,8 +31,30 @@ on:
       - 'docker-compose.yml'
 
 jobs:
+  detect_base_image_changes:
+    runs-on: ubuntu-latest
+    outputs:
+      changed: ${{ steps.changes.outputs.base_image }}
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Check for base image related changes
+        uses: dorny/paths-filter@de90cc6fb38fc0963ad72b210f1f284cd68cea36 # v3.0.2
+        id: changes
+        with:
+          filters: |
+            base_image:
+              - 'Dockerfile'
+              - 'package.json'
+              - 'package-lock.json'
+              - '.github/workflows/on_call_build_site.yaml'
+              - '.github/workflows/on_pr_test.yaml'
+
   build_site:
+    needs: detect_base_image_changes
     uses: ./.github/workflows/on_call_build_site.yaml
+    with:
+      push_tag: ${{ needs.detect_base_image_changes.outputs.changed == 'true' && github.event.number || '' }}
 
   staging_test:
     uses: ./.github/workflows/on_call_staging_test.yaml

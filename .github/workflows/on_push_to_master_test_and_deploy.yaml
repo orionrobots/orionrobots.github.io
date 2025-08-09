@@ -36,6 +36,8 @@ concurrency:
 jobs:
   build_site:
     uses: ./.github/workflows/on_call_build_site.yaml
+    with:
+      push_tag: "latest"
 
   staging_test:
     uses: ./.github/workflows/on_call_staging_test.yaml
