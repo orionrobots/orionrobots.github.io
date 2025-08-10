@@ -46,6 +46,7 @@ jobs:
           
           # Perform the tests
           set +e  # Don't exit on error so we can clean up
+          set -o pipefail  # Ensure pipeline returns exit code of first failing command
           exit_code=0
           
           curl -I -f http://localhost:8080/ || exit_code=1
