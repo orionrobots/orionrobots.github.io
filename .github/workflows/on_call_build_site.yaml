@@ -1,6 +1,11 @@
 ---
 on:
   workflow_call:
+    inputs:
+      push_tag:
+        description: 'Tag to push the base image with (optional)'
+        required: false
+        type: string
 
 jobs:
   build_site:
@@ -24,6 +29,10 @@ jobs:
           username: ${{ github.actor }}
           password: ${{ github.token }}
 
+      - name: Build base image
+        run: |
+          docker build --target base -t ghcr.io/orionrobots/orionrobots-site.base:${{ inputs.push_tag || 'temp' }} .
+
       - name: Build the site with docker compose
         run: |
           docker compose -f docker-compose.yml -f docker-compose.ci.yml run --build build
@@ -45,3 +54,8 @@ jobs:
           name: httpd.conf
           path: .github/scripts/staging/httpd.conf
           if-no-files-found: error
+
+      - name: Push base image
+        if: inputs.push_tag
+        run: |
+          docker push ghcr.io/orionrobots/orionrobots-site.base:${{ inputs.push_tag }}
