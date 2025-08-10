@@ -76,3 +76,53 @@ Then('the Logo should be displayed in the top left corner', async function () {
     throw new Error('Logo (favicon.png) is not displayed in a nav element');
   }
 });
+
+Then('the recent posts list should be present', async function () {
+  if (!page) {
+    throw new Error('Page not initialized. Make sure previous steps are executed first.');
+  }
+  
+  // Check that the recent posts section exists with its heading
+  try {
+    const recentPostsHeading = await page.locator('h2:has-text("Recent Posts")');
+    await recentPostsHeading.waitFor({ state: 'visible', timeout: 10000 });
+    
+    // Check that the posts list exists
+    const postsList = await page.locator('ul.posts');
+    await postsList.waitFor({ state: 'visible', timeout: 10000 });
+  } catch (error) {
+    throw new Error('Recent posts list is not present on the page');
+  }
+});
+
+Then('each recent post should have a picture tag with an img element', async function () {
+  if (!page) {
+    throw new Error('Page not initialized. Make sure previous steps are executed first.');
+  }
+  
+  // Find all post items in the recent posts list
+  const postItems = await page.locator('ul.posts li.post').all();
+  
+  if (postItems.length === 0) {
+    throw new Error('No recent posts found in the posts list');
+  }
+  
+  // Check each post item has a picture tag with img element
+  for (let i = 0; i < postItems.length; i++) {
+    const postItem = postItems[i];
+    
+    try {
+      // Look for either a picture tag with img, or just an img tag within the media-left link
+      const imageElement = await postItem.locator('a.media-left picture img, a.media-left img').first();
+      await imageElement.waitFor({ state: 'visible', timeout: 5000 });
+      
+      // Verify the img element has a valid src attribute
+      const src = await imageElement.getAttribute('src');
+      if (!src || src.trim() === '') {
+        throw new Error(`Post ${i + 1} has an img element but no src attribute`);
+      }
+    } catch (error) {
+      throw new Error(`Post ${i + 1} does not have a picture tag with img element: ${error.message}`);
+    }
+  }
+});
