@@ -2,6 +2,6 @@
 ./_image_sources
 ./_drafts
 ./tests
-
+./.github
 Dockerfile
 DOCKER_OPTIMIZATION.md
