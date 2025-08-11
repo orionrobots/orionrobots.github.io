@@ -153,10 +153,10 @@ Then('the article should have a set of tags in a nav linking to tag slugs', asyn
     const tagsNav = await page.locator('nav.tag-row, nav:has(a[href*="/tags/"])').first();
     await tagsNav.waitFor({ state: 'visible', timeout: 10000 });
     
-    // Check that there are tag links present
-    const tagLinks = await page.locator('a[href*="/tags/"]').all();
+    // Check that there are tag links present within the tags navigation
+    const tagLinks = await tagsNav.locator('a[href*="/tags/"]').all();
     if (tagLinks.length === 0) {
-      throw new Error('No tag links found');
+      throw new Error('No tag links found within tags navigation');
     }
     
     // Verify at least one tag link has the expected format
@@ -167,7 +167,7 @@ Then('the article should have a set of tags in a nav linking to tag slugs', asyn
         return;
       }
     }
-    throw new Error('No tag links with proper slug format found');
+    throw new Error('No tag links with proper slug format found in tags navigation');
   } catch (error) {
     throw new Error(`Tags navigation not found or invalid: ${error.message}`);
   }

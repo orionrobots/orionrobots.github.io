@@ -34,17 +34,7 @@ This project uses BDD (Behavior-Driven Development) tests with Gherkin syntax po
 
 ### Running Integration Tests
 
-To run the BDD integration tests locally:
-```bash
-npm run test:bdd
-```
-
-Alternatively, you can use Docker Compose (recommended for CI/workflows):
-```bash
-docker compose run test
-```
-
-To run tests in Docker:
+To run the BDD integration tests:
 ```bash
 docker compose run test
 ```
