@@ -4,32 +4,6 @@ on:
     branches:
       - master
       - main
-    paths:
-      - '_posts/**'
-      - 'content/**'
-      - 'assets/**'
-      - 'src/**'
-      - 'index.md'
-      - '_includes/**'
-      - '_data/**'
-      - '_image_sources/**'
-      - 'galleries/**'
-      - 'navigation_and_indexes/**'
-      - 'products/**'
-      - '.github/workflows/on_push_to_master_test_and_deploy.yaml'
-      - '.github/workflows/on_call_build_site.yaml'
-      - '.github/workflows/on_call_staging_test.yaml'
-      - '.github/workflows/on_pr_test.yaml'
-      - 'package.json'
-      - 'package-lock.json'
-      - 'webpack.config.js'
-      - 'favicon.png'
-      - '.eleventy.*'
-      - '_config.yml'
-      - 'google*.html'
-      - 'ads.txt'
-      - 'Dockerfile'
-      - 'docker-compose.yml'
 
 jobs:
   detect_base_image_changes:
