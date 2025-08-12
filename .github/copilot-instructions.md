@@ -12,23 +12,14 @@ Orionrobots is a static website about robotics using Eleventy (11ty) static site
 - Build assets and site manually:
   - `docker compose run dist` -- builds webpack bundle.js, takes ~30 seconds
   - `docker compose run build` -- builds full static site, takes ~3 minutes. Set timeout to 240+ seconds.
-- Alternative native workflow:
-  ```bash
-  npm install
-  npm run dist
-  npm run 11ty
-  ```
 
 ### Development Server
 - Run local development server:
   - `docker compose up serve` -- starts Eleventy dev server on port 8081, **NEVER CANCEL** - builds then watches files. Set timeout to 300+ seconds for initial build.
-  - Alternative native: `npm run serve` -- starts Eleventy dev server directly
-  - Manual serving: After building, serve with Python: `cd _site && python3 -m http.server 8082`
 
 ### Testing Commands
 - BDD integration tests:
   - `docker compose run test` -- runs Cucumber.js tests with Playwright in containerized environment
-  - Alternative native: `npm run test:bdd` or `npm test` -- runs tests directly on host
   - **Note**: Playwright installation may fail in some CI environments
   - Tests require a running staging server to test against
 
@@ -49,7 +40,6 @@ Always test these key pages that are verified in CI:
 
 ### Build Verification
 - Run `docker compose run dist && docker compose run build` and verify `_site` directory is created with content
-- Alternative native: `npm run dist && npm run 11ty`
 - Check that `_site/index.html` exists and contains proper HTML structure
 - Verify `dist/bundle.js` exists and is approximately 330KB
 
@@ -68,6 +58,7 @@ dist/                -- Webpack build output (bundle.js)
 docker-compose.yml   -- Docker development environment setup
 package.json         -- npm dependencies and scripts
 src/                 -- Source files for Webpack
+tests/staging        -- Gherkin-based BDD tests for website functionality
 webpack.config.js    -- Webpack configuration
 ```
 
@@ -79,16 +70,13 @@ webpack.config.js    -- Webpack configuration
 ## Build Process Details
 
 ### Build Order (Critical)
-1. **Webpack Build** (`docker compose run dist` or `npm run dist`): Creates `dist/bundle.js` with CSS and JS assets
-2. **Eleventy Build** (`docker compose run build` or `npm run 11ty`): Processes markdown, creates HTML, copies assets to `_site/`
+1. **Webpack Build** (`docker compose run dist`): Creates `dist/bundle.js` with CSS and JS assets
+2. **Eleventy Build** (`docker compose run build`): Processes markdown, creates HTML, copies assets to `_site/`
 
 ### Timing Expectations
 - Docker compose up: ~4-5 minutes for initial build and start (set 300+ second timeout)
 - Docker dist build: ~30 seconds (set 60+ second timeout)
 - Docker site build: ~3 minutes (**NEVER CANCEL** - set 240+ second timeout)
-- Alternative native npm install: ~1 minute (standard timeout OK)
-- Alternative native webpack dist: ~7 seconds (set 30+ second timeout)  
-- Alternative native Eleventy build: ~2.5 minutes (**NEVER CANCEL** - set 180+ second timeout)
 
 ### Known Build Warnings
 - Sass deprecation warnings about @import rules (normal, build continues)
@@ -131,6 +119,9 @@ This creates properly structured content with frontmatter in `content/YYYY/MM/` 
 - Images: Place in `galleries/` or `content/YYYY/MM/` for posts
 - CSS/JS: Add to `src/` and import in `src/index.js`
 - Static files: Use Eleventy passthrough copy in `.eleventy.js`
+
+### Adding scripts or utilities
+- Ensure these are run through a docker compose command
 
 ### Troubleshooting Build Issues
 1. Clear containers and rebuild: `docker compose down && docker compose build --no-cache`
