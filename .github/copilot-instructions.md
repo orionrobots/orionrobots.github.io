@@ -58,7 +58,7 @@ dist/                -- Webpack build output (bundle.js)
 docker-compose.yml   -- Docker development environment setup
 package.json         -- npm dependencies and scripts
 src/                 -- Source files for Webpack
-tests/staging        -- Gherkin based BDD tests for website functionality
+tests/staging        -- Gherkin-based BDD tests for website functionality
 webpack.config.js    -- Webpack configuration
 ```
 
