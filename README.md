@@ -34,12 +34,7 @@ This project uses BDD (Behavior-Driven Development) tests with Gherkin syntax po
 
 ### Running Integration Tests
 
-To run the BDD integration tests:
-```bash
-docker compose run test
-```
-
-The tests are located in `tests/staging/features/` and use Gherkin feature files to describe expected behavior.
+See [tests/README.md](tests/README.md) for details on running the BDD integration tests.
 
 ## Preparing to contribute
 
