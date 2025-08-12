@@ -23,7 +23,7 @@ RUN apt-get update && apt-get install -y \
 FROM dcycle/broken-link-checker:3 AS broken_link_checker
 
 # Production HTTP server build - needs full content
-FROM httpd:2.4.64 AS httpd_serve
+FROM httpd:2.4.65 AS httpd_serve
 
 # Install curl for healthcheck
 RUN apt-get update && apt-get install -y curl && rm -rf /var/lib/apt/lists/*
