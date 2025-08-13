@@ -85,7 +85,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
 
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
 
       - name: Check for workflow changes
         # tj-actions/changed-files v44.5.7
@@ -97,7 +97,7 @@ jobs:
 
       # see https://github.com/mcdeck/netlify-cms-oauth-provider-php
       - name: Checkout the netlify-cms-oauth-provider-php
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           repository: mcdeck/netlify-cms-oauth-provider-php
           path: netlify-cms-oauth-provider-php
