@@ -85,11 +85,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
 
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
 
       - name: Check for workflow changes
         # tj-actions/changed-files v44.5.7
-        uses: tj-actions/changed-files@c65cd883420fd2eb864698a825fc4162dd94482c
+        uses: tj-actions/changed-files@ed68ef82c095e0d48ec87eccea555d944a631a4c
         id: filter
         with:
           files: |
@@ -97,7 +97,7 @@ jobs:
 
       # see https://github.com/mcdeck/netlify-cms-oauth-provider-php
       - name: Checkout the netlify-cms-oauth-provider-php
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           repository: mcdeck/netlify-cms-oauth-provider-php
           path: netlify-cms-oauth-provider-php
