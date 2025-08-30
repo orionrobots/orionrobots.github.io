@@ -3,5 +3,6 @@
 ./_drafts
 ./tests
 ./.github
+docs
 Dockerfile
 DOCKER_OPTIMIZATION.md
