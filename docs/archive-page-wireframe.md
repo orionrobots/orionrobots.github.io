@@ -15,8 +15,8 @@ This wireframe shows the visual layout structure of the Orionrobots archive page
 ├─────────────────────────────────────────────┬─────────────────────┤
 │ CONTENT COLUMN (col-md-8)                   │ SIDEBAR (col-md-4)  │
 ├─────────────────────────────────────────────┼─────────────────────┤
-│ [Tags: robot-building, electronics, etc.]  │ [📚]                │ ← Tag & Social Row | Book Sidebar
-│ [🔗📧📱]                                   │ Robotics at Home    │
+│ [🔗📧📱]                                   │ [📚]                │ ← Social Sharing | Book Sidebar
+│                                             │ Robotics at Home    │
 ├─────────────────────────────────────────────┼─────────────────────┤
 │ Robot Building                              │ with Raspberry Pi   │ ← Page Title | Book Promotion
 ├─────────────────────────────────────────────┼─────────────────────┤
@@ -30,19 +30,19 @@ This wireframe shows the visual layout structure of the Orionrobots archive page
 │      basic components and tools...         │                     │
 │      [more...]                             │ [Buy Now Button]    │
 ├─────────────────────────────────────────────┼─────────────────────┤
-│ [📷] 25 Aug 2025 » Advanced Motor Control  │                     │ ← Featured Post Item
-│      for Robotics                          │                     │
-│      Deep dive into servo and stepper      │                     │
-│      motor control techniques for precise  │                     │
+│ [📷] 25 Aug 2025 » Advanced Motor Control  │ [📚]                │ ← Featured Post Item
+│      for Robotics                          │ Learn Robotics      │
+│      Deep dive into servo and stepper      │ Programming         │
+│      motor control techniques for precise  │ 2nd Edition         │
 │      robot movement...                     │                     │
-│      [more...]                             │                     │
+│      [more...]                             │ [Book Cover Image]  │
 ├─────────────────────────────────────────────┼─────────────────────┤
-│ [📷] 20 Aug 2025 » Sensor Integration      │                     │ ← Featured Post Item
-│      Made Easy                             │                     │
-│      Learn how to integrate various        │                     │
-│      sensors into your robot projects      │                     │
+│ [📷] 20 Aug 2025 » Sensor Integration      │ Build and control   │ ← Featured Post Item
+│      Made Easy                             │ autonomous robots   │
+│      Learn how to integrate various        │ with Raspberry Pi   │
+│      sensors into your robot projects      │ and Python 3...     │
 │      for enhanced functionality...         │                     │
-│      [more...]                             │                     │
+│      [more...]                             │ [Buy Now Button]    │
 ├─────────────────────────────────────────────┼─────────────────────┤
 │ [📷] 15 Aug 2025 » Robot Programming       │                     │ ← Featured Post Item
 │      Fundamentals                          │                     │
@@ -104,13 +104,14 @@ This wireframe shows the visual layout structure of the Orionrobots archive page
 ┌─ TWO COLUMN LAYOUT ─────────────────────────────────────────────┐
 │ CONTENT (col-md-8)        │ SIDEBAR (col-md-4)                 │
 │                           │                                     │
-│ ┌─ TAG & SOCIAL ROW ────┐ │ ┌─ BOOK SIDEBAR ─────────────────┐ │
-│ │ [Tag Buttons] | [📧📱] │ │ │ [Book Cover Image]             │ │
+│ ┌─ SOCIAL ROW ──────────┐ │ ┌─ BOOK SIDEBAR ─────────────────┐ │
+│ │ [📧📱]                │ │ │ [Book Cover Image]             │ │
 │ └───────────────────────┘ │ │ Robotics at Home with Pi Pico  │ │
 │                           │ │ [Buy Now Button]               │ │
-│ ┌─ PAGE HEADER ─────────┐ │ └─────────────────────────────────┘ │
-│ │ Robot Building        │ │                                     │
-│ └───────────────────────┘ │                                     │
+│ ┌─ PAGE HEADER ─────────┐ │ │                                │ │
+│ │ Robot Building        │ │ │ [Book Cover Image]             │ │
+│ └───────────────────────┘ │ │ Learn Robotics Programming 2nd │ │
+│                           │ │ [Buy Now Button]               │ │
 └─────────────────────────────────────────────────────────────────┘
 ```
 
@@ -169,15 +170,15 @@ This wireframe shows the visual layout structure of the Orionrobots archive page
 
 ## Key Layout Characteristics
 
-**Two-Column Design**: Unlike the front page, archive pages use a sidebar layout with main content in a 8-column area and sidebar in a 4-column area.
+**Two-Column Design**: Unlike the front page, archive pages use a sidebar layout with main content in a 8-column area and sidebar in a 4-column area. The layout is width-constrained in the middle against an image background.
 
 **Content Hierarchy**:
 1. Navigation & Branding (sticky header)
-2. Tag & social sharing row (main content area)
+2. Social sharing row (main content area)
 3. Page title (specific to the archive type)
 4. Featured posts section (first 4 posts with full details)
 5. Additional posts section (remaining posts with title/date only)
-6. Book promotion sidebar (persistent throughout page)
+6. Book promotion sidebar (multiple books, persistent throughout page)
 7. Additional navigation (events, policies)
 8. Footer with links & copyright
 
