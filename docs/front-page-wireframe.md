@@ -1,162 +1,158 @@
 # Front Page Layout Wireframe
 
-This wireframe describes the layout structure of the Orionrobots front page (index.md) without focusing on specific content.
+This wireframe shows the visual layout structure of the Orionrobots front page as it appears to visitors, from top to bottom including what's above and below the fold.
 
-## Overall Layout Structure
-
-The front page uses a Bootstrap-based responsive layout with the following hierarchy:
+## Desktop Layout View (Full Page Structure)
 
 ```
-<!DOCTYPE html>
-<html>
-  <head>
-    <!-- Meta tags, CSS, and script includes -->
-  </head>
-  <body class="template">
-    <div class="container">
-      <!-- HEADER SECTION -->
-      <nav class="navbar navbar-expand-lg">
-        <!-- Navigation bar content -->
-      </nav>
-      
-      <!-- MAIN CONTENT SECTION -->
-      <div class="row">
-        <div id="col-main" class="content col-md-12">
-          <!-- Content area spans full width for index layout -->
-          
-          <!-- TAG AND SOCIAL ROW -->
-          <nav class="row g-0 border rounded tag-row">
-            <!-- Tags section -->
-            <!-- Social sharing section -->
-          </nav>
-          
-          <!-- PAGE HEADER -->
-          <h2 class="page-header">
-            <!-- Page title and optional tagline -->
-          </h2>
-          
-          <!-- POST INFO SECTION -->
-          <div class="row-fluid post-full">
-            <!-- Additional post information if needed -->
-          </div>
-          
-          <!-- MAIN ARTICLE CONTENT -->
-          <article>
-            <!-- Main page content -->
-          </article>
-        </div>
-        <!-- Note: No sidebar for index layout (content_class="col-md-12") -->
-      </div>
-      
-      <!-- FOOTER SECTION -->
-      <footer id="bottom">
-        <!-- Footer content -->
-      </footer>
-    </div>
-  </body>
-</html>
+┌───────────────────────────────────────────────────────────────────┐
+│ HEADER (Above the Fold)                                           │
+├───────────────────────────────────────────────────────────────────┤
+│ 🏠 Orionrobots  [Menu] [Menu] [Menu] [Menu]      [Search Box]    │ ← Navigation Bar
+├───────────────────────────────────────────────────────────────────┤
+│                                                                   │
+│ MAIN CONTENT AREA (Full Width - No Sidebar)                      │
+├───────────────────────────────────────────────────────────────────┤
+│ [Tags: robot building, robotics at home, making robots] [🔗📧📱] │ ← Tag & Social Row  
+├───────────────────────────────────────────────────────────────────┤
+│ Welcome to Orionrobots                                           │ ← Page Title
+├───────────────────────────────────────────────────────────────────┤
+│                                                                   │
+│ At Orionrobots, Danny and his team build robots, electronics,    │
+│ gadgets and stuff that moves. We aim to make robots easy for     │
+│ anyone to build, and push the boundaries of what is easy.        │
+│                                                                   │
+│ ┌─────────────────────────────────────────────────────────────┐   │ ← Book Banner
+│ │  [Large Book Cover Image - Robotics at Home with Pi Pico]  │   │   (Featured Content)
+│ └─────────────────────────────────────────────────────────────┘   │
+│                                                                   │
+│ Discuss robot building on Our Discord Server!                    │
+│ You can see my latest videos on Orionrobots Youtube.             │
+│ You can reach me on Facebook, Discord and LinkedIn...            │
+│                                                                   │
+├───────────────────────────────────────────────────────────────────┤
+│ Recent Posts                                                      │ ← Section Heading
+├───────────────────────────────────────────────────────────────────┤
+│ [📷] 30 Aug 2025 » Post Title One                                │ ← Recent Post Item
+│      Post excerpt text about robotics and electronics...         │
+│      [more...]                                                   │
+├───────────────────────────────────────────────────────────────────┤
+│ [📷] 25 Aug 2025 » Post Title Two                                │ ← Recent Post Item
+│      Another post excerpt describing robot building projects...   │
+│      [more...]                                                   │
+├───────────────────────────────────────────────────────────────────┤
+│ [📷] 20 Aug 2025 » Post Title Three                              │
+│      More content about electronics and maker projects...        │
+│      [more...]                                                   │
+├───────────────────────────────────────────────────────────────────┤
+│ [📷] 15 Aug 2025 » Post Title Four                               │
+│      Additional robotics content and tutorials...                │
+│      [more...]                                                   │
+├───────────────────────────────────────────────────────────────────┤
+│ [📷] 10 Aug 2025 » Post Title Five                               │
+│      Electronics projects and robot building guides...           │
+│      [more...]                                                   │
+├───────────────────────────────────────────────────────────────────┤
+│ [📷] 05 Aug 2025 » Post Title Six                                │
+│      Latest robotics news and project updates...                 │
+│      [more...]                                                   │
+├───────────────────────────────────────────────────────────────────┤
+│                                                                   │
+│ Events                                                            │ ← Additional Sections
+│ Robot Events                                                      │
+│                                                                   │
+│ Policies                                                          │
+│ Terms And Conditions                                              │
+│                                                                   │ ← Bottom of Content
+├───────────────────────────────────────────────────────────────────┤
+│ FOOTER (Below the Fold)                                           │
+├───────────────────────────────────────────────────────────────────┤
+│ 💬 Discuss robot building on Our Discord Server!                 │ ← Social Links
+│ 📺 Youtube                                                        │
+│ 📘 Facebook                                                       │
+│ 🔒 Privacy and Cookies                                            │
+├───────────────────────────────────────────────────────────────────┤
+│ © 2025 OrionRobots. Orionrobots is a registered trademark.       │ ← Copyright
+│ with help from Bootstrap                                          │
+└───────────────────────────────────────────────────────────────────┘
 ```
 
-## Header Section Layout
+## Layout Sections Breakdown
 
+### Above the Fold (Initially Visible)
 ```
-+------------------------------------------------------------------+
-| NAVIGATION BAR                                                   |
-| [Logo + "Orionrobots"] [Menu Items...] [Search Box]            |
-+------------------------------------------------------------------+
-```
+┌─ NAVIGATION BAR ─────────────────────────────────────────────────┐
+│ Logo + Brand Name | Menu Items | Search Box                     │
+└─────────────────────────────────────────────────────────────────┘
 
-### Navigation Components:
-- **Brand/Logo**: Left-aligned logo with site name
-- **Menu Items**: Horizontal navigation menu (collapses on mobile)
-- **Search Box**: Right-aligned Google Custom Search
+┌─ TAG & SOCIAL ROW ──────────────────────────────────────────────┐  
+│ [Tag Buttons] | [Social Share Icons]                           │
+└─────────────────────────────────────────────────────────────────┘
 
-## Main Content Area Layout
+┌─ PAGE HEADER ───────────────────────────────────────────────────┐
+│ Welcome to Orionrobots                                         │
+└─────────────────────────────────────────────────────────────────┘
 
-```
-+------------------------------------------------------------------+
-| TAG ROW                                                          |
-| [Tags] [Social Sharing Icons]                                   |
-+------------------------------------------------------------------+
-| PAGE HEADER                                                      |
-| Main Title [Optional Tagline]                                   |
-+------------------------------------------------------------------+
-| MAIN CONTENT AREA                                               |
-| - Introductory text/description                                 |
-| - Featured content (book banner, links)                        |
-| - Recent Posts section                                          |
-| - Additional sections (Events, Policies, etc.)                 |
-+------------------------------------------------------------------+
+┌─ INTRO TEXT ────────────────────────────────────────────────────┐
+│ At Orionrobots, Danny and his team build robots...            │
+└─────────────────────────────────────────────────────────────────┘
+
+┌─ FEATURED BOOK BANNER ──────────────────────────────────────────┐
+│ [Large promotional image for "Robotics at Home with Pi Pico"] │
+└─────────────────────────────────────────────────────────────────┘
 ```
 
-### Content Sections Structure:
-1. **Tag Row**: Horizontal bar with tags and social sharing
-2. **Page Header**: Main title with optional tagline
-3. **Content Article**: Main content area containing:
-   - Introduction paragraph
-   - Featured content (images, links)
-   - Recent posts list
-   - Additional navigation sections
-
-## Recent Posts Section Layout
-
+### Below the Fold (Requires Scrolling)
 ```
-+------------------------------------------------------------------+
-| ## Recent Posts                                                  |
-+------------------------------------------------------------------+
-| [Thumbnail] | Post Date » Post Title                             |
-|             | Post excerpt... [more...]                         |
-+------------------------------------------------------------------+
-| [Thumbnail] | Post Date » Post Title                             |
-|             | Post excerpt... [more...]                         |
-+------------------------------------------------------------------+
-| ... (up to 6 posts)                                            |
-+------------------------------------------------------------------+
-```
+┌─ CALL TO ACTION LINKS ──────────────────────────────────────────┐
+│ • Discord Server Link                                         │
+│ • YouTube Channel Link                                         │  
+│ • Social Media Links                                           │
+└─────────────────────────────────────────────────────────────────┘
 
-### Recent Posts Components:
-- **Thumbnail**: Left-aligned post image
-- **Post Meta**: Date and title as clickable link
-- **Excerpt**: Brief post description with "more..." link
+┌─ RECENT POSTS SECTION ──────────────────────────────────────────┐
+│ ## Recent Posts                                               │
+│                                                               │
+│ [Thumb] Date » Title | Post excerpt... [more...]             │
+│ [Thumb] Date » Title | Post excerpt... [more...]             │
+│ [Thumb] Date » Title | Post excerpt... [more...]             │
+│ [Thumb] Date » Title | Post excerpt... [more...]             │
+│ [Thumb] Date » Title | Post excerpt... [more...]             │
+│ [Thumb] Date » Title | Post excerpt... [more...]             │
+└─────────────────────────────────────────────────────────────────┘
 
-## Footer Section Layout
+┌─ ADDITIONAL NAVIGATION ─────────────────────────────────────────┐
+│ ## Events                                                     │
+│ Robot Events                                                  │
+│                                                               │
+│ ## Policies                                                   │  
+│ Terms And Conditions                                          │
+└─────────────────────────────────────────────────────────────────┘
 
-```
-+------------------------------------------------------------------+
-| FOOTER NAVIGATION                                                |
-| - Discord link                                                   |
-| - YouTube link                                                   |
-| - Facebook link                                                  |
-| - Privacy & Cookies link                                        |
-+------------------------------------------------------------------+
-| COPYRIGHT & CREDITS                                              |
-| © Year OrionRobots | Powered by Bootstrap                       |
-+------------------------------------------------------------------+
+┌─ FOOTER ────────────────────────────────────────────────────────┐
+│ • Discord Link                                                │
+│ • YouTube Link                                                │
+│ • Facebook Link                                               │
+│ • Privacy & Cookies Link                                      │
+│                                                               │
+│ © Year OrionRobots | Powered by Bootstrap                     │
+└─────────────────────────────────────────────────────────────────┘
 ```
 
-## Responsive Behavior
+## Key Layout Characteristics
 
-- **Desktop**: Full width layout (col-md-12)
-- **Tablet**: Menu collapses to hamburger button
-- **Mobile**: Stacked vertical layout, responsive navigation
+**Full-Width Design**: Unlike other pages, the front page uses the entire container width (no sidebar)
 
-## Layout Differences from Other Pages
+**Content Hierarchy**: 
+1. Navigation & Branding (sticky header)
+2. Content tags & social sharing 
+3. Welcome message & intro
+4. Featured book promotion (prominent placement)
+5. Community links (Discord, YouTube, social)
+6. Recent posts grid (main content discovery)
+7. Additional navigation (events, policies)
+8. Footer with links & copyright
 
-The front page (index layout) differs from other page layouts:
+**Visual Flow**: Designed to capture attention with the book banner above the fold, then guide users to recent content and community resources below.
 
-- **No Sidebar**: Uses full width (col-md-12) instead of col-md-8 with sidebar
-- **Custom Content Structure**: Optimized for home page content presentation
-- **Featured Content**: Designed to showcase recent posts and key information
-
-## CSS Framework
-
-- **Bootstrap 5**: Primary responsive framework
-- **Custom CSS**: Additional styling via bundle.js and inline styles
-- **Responsive Grid**: Uses Bootstrap's grid system for layout
-
-## JavaScript Dependencies
-
-- **bundle.js**: Main JavaScript bundle containing site functionality
-- **Google Custom Search**: Search functionality
-- **Bootstrap JS**: Navigation and responsive behavior
-- **Social Media SDKs**: For social sharing functionality
+**Responsive Breakpoints**: On mobile/tablet, the navigation collapses to hamburger menu, and content stacks vertically while maintaining the same content order.

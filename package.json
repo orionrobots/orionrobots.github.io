@@ -27,7 +27,7 @@
   },
   "homepage": "https://github.com/orionrobots/orionrobots.github.io#readme",
   "devDependencies": {
-    "@11ty/eleventy": "^3.1.2",
+    "@11ty/eleventy": "^3",
     "@11ty/eleventy-img": "^6.0.4",
     "@11ty/eleventy-plugin-syntaxhighlight": "^5.0.0",
     "@cucumber/cucumber": "^12.1.0",
