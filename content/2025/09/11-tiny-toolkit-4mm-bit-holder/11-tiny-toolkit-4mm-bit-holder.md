@@ -1,7 +1,7 @@
 ---
 title: Tiny toolkit 4mm bit holder
 date: 2025-09-11
-thumbnail: content/2025/09/11-tiny-toolkit-4mm-bit-holder/driver-bit-holder.png
+thumbnail: content/2025/09/11-tiny-toolkit-4mm-bit-holder/bit-holder-in-the-kit.JPG
 tags:
   - 3D Printing
   - Tools
@@ -22,6 +22,8 @@ I took the basic idea and created FreeCAD designs for a PLA version. It's still 
 - [Download the 3MF file for printing](/2025/09/11-tiny-toolkit-4mm-bit-holder/pla-4mm-18-tool-holder-Body001LinearPattern.3mf)
 
 {% img_responsive "content/2025/09/11-tiny-toolkit-4mm-bit-holder/driver-bit-holder.png", "The driver bit holder" %}
+
+{% img_responsive "content/2025/09/11-tiny-toolkit-4mm-bit-holder/bit-holder-in-the-kit.JPG" , "The driver bit holder in the Tiny Toolkit" %}
 
 ## Design process
 
@@ -47,3 +49,5 @@ The problems in the first attempt led me to change the cutting sketch, turning e
 When printed, this held the bits in place, and aligned them to go mostly to the bottom. They were easy to slide in, but held firmly.
 
 I am left seeing how long it will last and if the compliant parts will break. If they do, I can thicken them up a little and reprint it.
+
+It is already getting a bit loose for some heavier bits.
