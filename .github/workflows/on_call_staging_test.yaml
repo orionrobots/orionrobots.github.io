@@ -58,7 +58,13 @@ jobs:
           echo "\`\`\`" >> $GITHUB_STEP_SUMMARY
           docker compose -f docker-compose.yml -f docker-compose.ci.yml run test 2>&1 | tee bdd_output.txt
           bdd_result=$?
-          cat bdd_output.txt >> $GITHUB_STEP_SUMMARY
+          
+          # Filter output to show only BDD test results, excluding Docker build output
+          # Look for lines starting with "> orionrobots.github.io@" and capture everything after that
+          awk '
+            /^> orionrobots\.github\.io@/ { found=1 }
+            found { print }
+          ' bdd_output.txt >> $GITHUB_STEP_SUMMARY
           echo "\`\`\`" >> $GITHUB_STEP_SUMMARY
           
           if [ $bdd_result -eq 0 ]; then
