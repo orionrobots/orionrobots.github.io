@@ -46,7 +46,7 @@
     "moment": "^2.30.1",
     "playwright": "^1.55.0",
     "postcss-loader": "^8.1.1",
-    "sass": "^1.89.1",
+    "sass": "^1.93.2",
     "sass-loader": "^16.0.2",
     "slugify": "^1.6.6",
     "source-map-loader": "^5.0.0",
