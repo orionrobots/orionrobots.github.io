@@ -22,10 +22,10 @@ jobs:
           tar -xzf _site.tar.gz
 
       - name: Set up Docker Buildx
-        uses: docker/setup-buildx-action@v3
+        uses: docker/setup-buildx-action@e468171a9de216ec08956ac3ada2f0791b6bd435 # v3.11.1
 
       - name: Login to Docker
-        uses: docker/login-action@5e57cd118135c172c3672efd75eb46360885c0ef # v3
+        uses: docker/login-action@5e57cd118135c172c3672efd75eb46360885c0ef # v3.6.0
         with:
           registry: ghcr.io
           username: ${{ github.actor }}
@@ -54,8 +54,8 @@ jobs:
           curl -I -f http://localhost:8080/wiki/lego || exit_code=1
           
           # Run BDD integration tests using docker compose
-          echo "## BDD Test Results" >> $GITHUB_STEP_SUMMARY
-          echo "\`\`\`" >> $GITHUB_STEP_SUMMARY
+          echo "## BDD Test Results" >> "$GITHUB_STEP_SUMMARY"
+          echo "\`\`\`" >> "$GITHUB_STEP_SUMMARY"
           docker compose -f docker-compose.yml -f docker-compose.ci.yml run test 2>&1 | tee bdd_output.txt
           bdd_result=$?
           
@@ -64,13 +64,13 @@ jobs:
           awk '
             /^> orionrobots\.github\.io@/ { found=1 }
             found { print }
-          ' bdd_output.txt >> $GITHUB_STEP_SUMMARY
-          echo "\`\`\`" >> $GITHUB_STEP_SUMMARY
+          ' bdd_output.txt >> "$GITHUB_STEP_SUMMARY"
+          echo "\`\`\`" >> "$GITHUB_STEP_SUMMARY"
           
           if [ $bdd_result -eq 0 ]; then
-            echo "✅ BDD tests passed" >> $GITHUB_STEP_SUMMARY
+            echo "✅ BDD tests passed" >> "$GITHUB_STEP_SUMMARY"
           else
-            echo "❌ BDD tests failed" >> $GITHUB_STEP_SUMMARY
+            echo "❌ BDD tests failed" >> "$GITHUB_STEP_SUMMARY"
             exit_code=1
           fi
           
