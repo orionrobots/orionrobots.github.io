@@ -1,5 +1,5 @@
 # Development build - minimal context needed since content is volume-mounted
-FROM node:24-bullseye AS base
+FROM node:25-bullseye AS base
 
 # Create app directory
 WORKDIR /app/src
