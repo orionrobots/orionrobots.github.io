@@ -30,8 +30,10 @@ jobs:
           password: ${{ github.token }}
 
       - name: Build base image
+        env:
+          push_tag: ${{inputs.push_tag || 'temp' }}
         run: |
-          docker build --target base -t ghcr.io/orionrobots/orionrobots-site.base:${{ inputs.push_tag || 'temp' }} .
+          docker build --target base -t "ghcr.io/orionrobots/orionrobots-site.base:${push_tag}" .
 
       - name: Build the site with docker compose
         run: |
@@ -57,5 +59,7 @@ jobs:
 
       - name: Push base image
         if: inputs.push_tag
+        env:
+          push_tag: ${{inputs.push_tag }}
         run: |
-          docker push ghcr.io/orionrobots/orionrobots-site.base:${{ inputs.push_tag }}
+          docker push "ghcr.io/orionrobots/orionrobots-site.base:${push_tag}"
