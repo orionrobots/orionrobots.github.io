@@ -5,7 +5,6 @@
 
 set -eu -o pipefail
 
-
 function slug_from_title_and_date {
     echo "$POST_DAY-$1" | tr '[:upper:]' '[:lower:]' | tr -s ' ' '-' | tr -s '[:punct:]' '-'
 }
