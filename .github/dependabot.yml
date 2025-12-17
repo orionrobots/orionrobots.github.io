@@ -9,6 +9,11 @@ updates:
     schedule:
       # Check for updates to GitHub Actions every week
       interval: "weekly"
+    groups:
+      artifact-handling:
+        patterns:
+          - "actions/download-artifact"
+          - "actions/upload-artifact"      
 
   - package-ecosystem: "npm"
     directory: "/"
