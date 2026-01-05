@@ -30,7 +30,7 @@
     "@11ty/eleventy": "^3",
     "@11ty/eleventy-img": "^6.0.4",
     "@11ty/eleventy-plugin-syntaxhighlight": "^5.0.0",
-    "@cucumber/cucumber": "^12.2.0",
+    "@cucumber/cucumber": "^12.5.0",
     "@fortawesome/fontawesome-svg-core": "^7.1.0",
     "@vidhill/fortawesome-brands-11ty-shortcode": "^1.1.0",
     "clean-css": "^5.3.2",
