@@ -58,7 +58,7 @@
   },
   "dependencies": {
     "bootstrap": "^5.3.3",
-    "jquery": "^3.7.1",
+    "jquery": "^4.0.0",
     "js-yaml": "^4.1.1"
   }
 }
