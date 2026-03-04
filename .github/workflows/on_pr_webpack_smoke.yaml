@@ -1,0 +1,85 @@
+---
+name: "Webpack Bundle Smoke Test"
+on:
+  pull_request:
+    branches:
+      - master
+      - main
+    paths:
+      - 'webpack.config.js'
+      - 'src/**'
+      - 'package.json'
+      - 'package-lock.json'
+      - 'tests/smoke/**'
+      - '.github/workflows/on_pr_webpack_smoke.yaml'
+
+jobs:
+  webpack_smoke_test:
+    runs-on: ubuntu-latest
+    permissions:
+      pull-requests: write
+    steps:
+      - uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
+
+      - name: Setup Node.js
+        uses: actions/setup-node@53b83947a5a98c8d113130e565377fae1a50d02f # v6.3.0
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run webpack smoke test
+        id: smoke_test
+        run: npm run test:smoke:webpack
+
+      - name: Update PR comment with results
+        if: always() && github.event_name == 'pull_request'
+        uses: actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd # v8.0.0
+        with:
+          script: |
+            const outcome = '${{ steps.smoke_test.outcome }}';
+            const status = outcome === 'success' ? '✅ Passed' : '❌ Failed';
+            const buildTimeMs = '${{ steps.smoke_test.outputs.build_time_ms }}' || 'N/A';
+            const bundleSizeKb = '${{ steps.smoke_test.outputs.bundle_size_kb }}' || 'N/A';
+
+            const commentBody = [
+              '## 🔨 Webpack Bundle Smoke Test',
+              '',
+              '| | |',
+              '|---|---|',
+              `| **Status** | ${status} |`,
+              `| **Build Time** | ${buildTimeMs}ms |`,
+              `| **Bundle Size** | ${bundleSizeKb} KB |`,
+              '',
+              `_Updated: ${new Date().toUTCString()}_`,
+            ].join('\n');
+
+            const { data: comments } = await github.rest.issues.listComments({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+            });
+
+            const existing = comments.find(
+              (c) => c.user.type === 'Bot' && c.body.includes('🔨 Webpack Bundle Smoke Test'),
+            );
+
+            if (existing) {
+              await github.rest.issues.updateComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                comment_id: existing.id,
+                body: commentBody,
+              });
+              console.log('Updated existing comment');
+            } else {
+              await github.rest.issues.createComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: context.issue.number,
+                body: commentBody,
+              });
+              console.log('Created new comment');
+            }
