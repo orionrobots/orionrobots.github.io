@@ -57,7 +57,7 @@ jobs:
             const outcome = '${{ steps.smoke_test.outcome }}';
             const status = outcome === 'success' ? '✅ Passed' : '❌ Failed';
             const buildTime = '${{ steps.smoke_test.outputs.build_time }}' || 'N/A';
-            const siteSizeKb = '${{ steps.smoke_test.outputs.site_size_kb }}' || 'N/A';
+            const siteSize = '${{ steps.smoke_test.outputs.site_size }}' || 'N/A';
             const fileCount = '${{ steps.smoke_test.outputs.file_count }}' || 'N/A';
 
             const commentBody = [
@@ -67,7 +67,7 @@ jobs:
               '|---|---|',
               `| **Status** | ${status} |`,
               `| **Build Time** | ${buildTime} |`,
-              `| **Site Size** | ${siteSizeKb} KB |`,
+              `| **Site Size** | ${siteSize} |`,
               `| **HTML Files** | ${fileCount} |`,
               '',
               `_Updated: ${new Date().toUTCString()}_`,

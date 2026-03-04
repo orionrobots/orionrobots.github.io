@@ -1,7 +1,7 @@
 import * as path from 'path';
 import * as fs from 'fs';
 import webpack from 'webpack';
-import { formatDuration } from './utils';
+import { formatDuration, formatFileSize } from './utils';
 
 const ROOT = path.resolve(__dirname, '..', '..');
 // eslint-disable-next-line @typescript-eslint/no-require-imports
@@ -87,8 +87,8 @@ async function main(): Promise<void> {
     errors.push('bundle.js has zero size — this indicates a silent build failure');
   }
 
-  const bundleSizeKb =
-    bundleAsset !== undefined ? (bundleAsset.size / 1024).toFixed(1) : 'N/A';
+  const bundleSize =
+    bundleAsset !== undefined ? formatFileSize(bundleAsset.size) : 'N/A';
 
   const passed = errors.length === 0;
   const buildTime = formatDuration(result.buildTimeMs);
@@ -96,12 +96,12 @@ async function main(): Promise<void> {
   // Write outputs for the GitHub Actions workflow to consume in the PR comment
   writeOutput('status', passed ? 'success' : 'failure');
   writeOutput('build_time', buildTime);
-  writeOutput('bundle_size_kb', bundleSizeKb);
+  writeOutput('bundle_size', bundleSize);
 
   console.log('\nResults:');
   console.log(`  Status:      ${passed ? '✅ passed' : '❌ failed'}`);
   console.log(`  Build time:  ${buildTime}`);
-  console.log(`  Bundle size: ${bundleSizeKb} KB`);
+  console.log(`  Bundle size: ${bundleSize}`);
 
   if (errors.length > 0) {
     console.error('\nErrors:');

@@ -1,7 +1,7 @@
 import * as path from 'path';
 import * as fs from 'fs';
 import { spawnSync } from 'child_process';
-import { formatDuration } from './utils';
+import { formatDuration, formatFileSize } from './utils';
 
 const ROOT = path.resolve(__dirname, '..', '..');
 const SITE_DIR = path.join(ROOT, '_site');
@@ -108,20 +108,20 @@ function main(): void {
   const reportedCount = wroteMatch ? parseInt(wroteMatch[1], 10) : null;
 
   const siteSizeBytes = getDirSizeBytes(SITE_DIR);
-  const siteSizeKb = (siteSizeBytes / 1024).toFixed(1);
+  const siteSize = formatFileSize(siteSizeBytes);
 
   const passed = errors.length === 0;
   const buildTime = formatDuration(result.buildTimeMs);
 
   // Write outputs for the GitHub Actions workflow to consume in the PR comment
   writeOutput('build_time', buildTime);
-  writeOutput('site_size_kb', siteSizeKb);
+  writeOutput('site_size', siteSize);
   writeOutput('file_count', htmlFileCount.toString());
 
   console.log('\nResults:');
   console.log(`  Status:      ${passed ? '✅ passed' : '❌ failed'}`);
   console.log(`  Build time:  ${buildTime}`);
-  console.log(`  Site size:   ${siteSizeKb} KB`);
+  console.log(`  Site size:   ${siteSize}`);
   console.log(`  HTML files:  ${htmlFileCount}`);
   if (reportedCount !== null) {
     console.log(`  11ty reported: ${reportedCount} files written`);

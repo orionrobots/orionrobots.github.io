@@ -42,7 +42,7 @@ jobs:
             const outcome = '${{ steps.smoke_test.outcome }}';
             const status = outcome === 'success' ? '✅ Passed' : '❌ Failed';
             const buildTime = '${{ steps.smoke_test.outputs.build_time }}' || 'N/A';
-            const bundleSizeKb = '${{ steps.smoke_test.outputs.bundle_size_kb }}' || 'N/A';
+            const bundleSize = '${{ steps.smoke_test.outputs.bundle_size }}' || 'N/A';
 
             const commentBody = [
               '## 🔨 Webpack Bundle Smoke Test',
@@ -51,7 +51,7 @@ jobs:
               '|---|---|',
               `| **Status** | ${status} |`,
               `| **Build Time** | ${buildTime} |`,
-              `| **Bundle Size** | ${bundleSizeKb} KB |`,
+              `| **Bundle Size** | ${bundleSize} |`,
               '',
               `_Updated: ${new Date().toUTCString()}_`,
             ].join('\n');
