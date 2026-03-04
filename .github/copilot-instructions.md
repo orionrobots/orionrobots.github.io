@@ -123,6 +123,9 @@ This creates properly structured content with frontmatter in `content/YYYY/MM/` 
 ### Adding scripts or utilities
 - Ensure these are run through a docker compose command
 
+### Adding dependencies
+- Added dependencies MUST be the latest stable and compatible version. Check official dependency registry (npmjs.com for npm packages, GitHub for Actions) to ensure this.
+
 ### Troubleshooting Build Issues
 1. Clear containers and rebuild: `docker compose down && docker compose build --no-cache`
 2. Clear build outputs: `docker compose run --rm base rm -rf _site dist`
