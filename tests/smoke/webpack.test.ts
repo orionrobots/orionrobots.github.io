@@ -1,124 +1,128 @@
-import * as path from 'path';
-import * as fs from 'fs';
-import webpack from 'webpack';
+import * as path from 'path'
+import * as fs from 'fs'
+import { createRequire } from 'module'
+import webpack from 'webpack'
+import { formatDuration, formatFileSize } from './utils'
 
-const ROOT = path.resolve(__dirname, '..', '..');
-// eslint-disable-next-line @typescript-eslint/no-require-imports
-const webpackConfig = require(path.join(ROOT, 'webpack.config.js')) as webpack.Configuration;
+const ROOT = path.resolve(__dirname, '..', '..')
+const requireModule = createRequire(__filename)
+const webpackConfig = requireModule(path.join(ROOT, 'webpack.config.js')) as webpack.Configuration
 
 interface Asset {
-  name: string;
-  size: number;
+  name: string
+  size: number
 }
 
 interface BuildResult {
-  buildTimeMs: number;
-  errors: string[];
-  warnings: string[];
-  assets: Asset[];
+  buildTimeMs: number
+  errors: string[]
+  warnings: string[]
+  assets: Asset[]
 }
 
-function writeOutput(name: string, value: string): void {
-  if (process.env.GITHUB_OUTPUT) {
-    fs.appendFileSync(process.env.GITHUB_OUTPUT, `${name}=${value}\n`);
+function writeOutput (name: string, value: string): void {
+  const outputFile = process.env.GITHUB_OUTPUT
+  if (outputFile !== undefined && outputFile !== '') {
+    fs.appendFileSync(outputFile, `${name}=${value}\n`)
   }
 }
 
-async function runBuild(): Promise<BuildResult> {
-  const startTime = Date.now();
+async function runBuild (): Promise<BuildResult> {
+  const startTime = Date.now()
 
   const config: webpack.Configuration = {
     ...webpackConfig,
-    mode: 'production',
-  };
+    mode: 'production'
+  }
 
-  return new Promise((resolve) => {
+  return await new Promise((resolve) => {
     webpack(config).run((err, stats) => {
-      const buildTimeMs = Date.now() - startTime;
+      const buildTimeMs = Date.now() - startTime
 
-      if (err) {
-        resolve({ buildTimeMs, errors: [err.message], warnings: [], assets: [] });
-        return;
+      if (err != null) {
+        resolve({ buildTimeMs, errors: [err.message], warnings: [], assets: [] })
+        return
       }
 
-      if (!stats) {
+      if (stats == null) {
         resolve({
           buildTimeMs,
           errors: ['No stats returned from webpack'],
           warnings: [],
-          assets: [],
-        });
-        return;
+          assets: []
+        })
+        return
       }
 
       const info = stats.toJson({
         assets: true,
         errors: true,
         warnings: true,
-        modules: false,
-      });
+        modules: false
+      })
 
       resolve({
         buildTimeMs,
         errors: info.errors?.map((e) => e.message) ?? [],
         warnings: info.warnings?.map((w) => w.message) ?? [],
-        assets: info.assets?.map((a) => ({ name: a.name, size: a.size })) ?? [],
-      });
-    });
-  });
+        assets: info.assets?.map((a) => ({ name: a.name, size: a.size })) ?? []
+      })
+    })
+  })
 }
 
-async function main(): Promise<void> {
-  console.log('Running webpack dist bundle smoke test…');
+async function main (): Promise<void> {
+  console.log('Running webpack dist bundle smoke test…')
 
-  const result = await runBuild();
+  const result = await runBuild()
 
-  const errors = [...result.errors];
+  const errors = [...result.errors]
 
   // Verify bundle.js was emitted — catches silent skips
-  const bundleAsset = result.assets.find((a) => a.name === 'bundle.js');
-  if (!bundleAsset) {
-    errors.push('bundle.js was not emitted — build may have silently skipped output');
+  const bundleAsset = result.assets.find((a) => a.name === 'bundle.js')
+  if (bundleAsset == null) {
+    errors.push('bundle.js was not emitted — build may have silently skipped output')
   }
 
   // Verify bundle is not empty — catches silent zero-byte outputs
-  if (bundleAsset && bundleAsset.size === 0) {
-    errors.push('bundle.js has zero size — this indicates a silent build failure');
+  if ((bundleAsset != null) && bundleAsset.size === 0) {
+    errors.push('bundle.js has zero size — this indicates a silent build failure')
   }
 
-  const bundleSizeKb =
-    bundleAsset !== undefined ? (bundleAsset.size / 1024).toFixed(1) : 'N/A';
+  const bundleSize =
+    bundleAsset !== undefined ? formatFileSize(bundleAsset.size) : 'N/A'
 
-  const passed = errors.length === 0;
+  const passed = errors.length === 0
+  const buildTime = formatDuration(result.buildTimeMs)
 
   // Write outputs for the GitHub Actions workflow to consume in the PR comment
-  writeOutput('status', passed ? 'success' : 'failure');
-  writeOutput('build_time_ms', result.buildTimeMs.toString());
-  writeOutput('bundle_size_kb', bundleSizeKb);
+  writeOutput('status', passed ? 'success' : 'failure')
+  writeOutput('build_time', buildTime)
+  writeOutput('bundle_size', bundleSize)
 
-  console.log('\nResults:');
-  console.log(`  Status:      ${passed ? '✅ passed' : '❌ failed'}`);
-  console.log(`  Build time:  ${result.buildTimeMs}ms`);
-  console.log(`  Bundle size: ${bundleSizeKb} KB`);
+  console.log('\nResults:')
+  console.log(`  Status:      ${passed ? '✅ passed' : '❌ failed'}`)
+  console.log(`  Build time:  ${buildTime}`)
+  console.log(`  Bundle size: ${bundleSize}`)
 
   if (errors.length > 0) {
-    console.error('\nErrors:');
+    console.error('\nErrors:')
     for (const e of errors) {
-      console.error(`  - ${e}`);
+      console.error(`  - ${e}`)
     }
   }
 
   if (result.warnings.length > 0) {
-    console.warn('\nWarnings:');
+    console.warn('\nWarnings:')
     for (const w of result.warnings) {
-      console.warn(`  - ${w}`);
+      console.warn(`  - ${w}`)
     }
   }
 
-  process.exit(passed ? 0 : 1);
+  process.exit(passed ? 0 : 1)
 }
 
 main().catch((err: unknown) => {
-  console.error('Fatal error:', err);
-  process.exit(1);
-});
+  console.error('Fatal error:', err)
+  process.exit(1)
+})
