@@ -4,6 +4,13 @@
 
 Orionrobots is a static website about robotics using Eleventy (11ty) static site generator with Webpack for asset bundling. The site includes a blog with Jekyll-style posts, wiki pages, and robotics tutorials. It's hosted on 3rd party hosting with Apache configuration.
 
+## Agent Responsibilities
+
+- Agents SHOULD run all relevant tests and resolve problems following the repo convention.
+- Agents SHOULD run all relevant linters and resolve problems following the repo convention.
+- Where changes result in site output changes, agents MUST verify visual changes and summarise them.
+- Where desk user workflow is modified, agents MUST attempt to run the commands as a user would and smoke test any problems.
+
 ## Working Effectively
 
 ### CRITICAL: Bootstrap and Build Commands
