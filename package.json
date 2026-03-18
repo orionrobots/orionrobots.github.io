@@ -15,7 +15,8 @@
     "check-missing-tags": "node src/utilities/list-files-without-tags.js",
     "new-post": ".github/scripts/new_post.sh",
     "test:smoke:webpack": "ts-node --project tests/smoke/tsconfig.json tests/smoke/webpack.test.ts",
-    "test:smoke:eleventy": "ts-node --project tests/smoke/tsconfig.json tests/smoke/eleventy.test.ts"
+    "test:smoke:eleventy": "ts-node --project tests/smoke/tsconfig.json tests/smoke/eleventy.test.ts",
+    "lint:ts": "ts-standard tests/smoke"
   },
   "repository": {
     "type": "git",
@@ -56,6 +57,7 @@
     "style-loader": "^4.0.0",
     "terser": "^5.46.0",
     "ts-node": "^10.9.2",
+    "ts-standard": "^12.0.2",
     "typescript": "^5.9.3",
     "webpack": "^5.105.0",
     "webpack-bundle-analyzer": "^5.2.0",
