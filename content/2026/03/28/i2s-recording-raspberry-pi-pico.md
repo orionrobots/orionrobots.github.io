@@ -67,7 +67,7 @@ class WaveFileHeader:
 
     @property
     def block_align(self):
-        return self.channels * self.bits_per_sample
+        return self.channels * self.bits_per_sample // 8
 
     def to_bytes(self):
         data = bytes(b"RIFF") # riff header
@@ -88,7 +88,7 @@ class WaveFileHeader:
 
 The `__init__` method sets up the default values for the WAV file header, with a placeholder for the data size. The WAV format needs the file size written into the header, but you don't know those until you've finished recording.
 
-The `byte_rate` and `block_align` properties calculate values based on the sample rate, number of channels, and bits per sample. The byte rate is how many bytes of audio data we have per second, and the block align is how many bytes per sample frame. These are calculated from the sample rate, number of channels, and bits per sample.
+The `byte_rate` and `block_align` properties calculate values based on the sample rate, number of channels, and bits per sample. The byte rate is how many bytes of audio data we have per second, and the block align is how many bytes per sample frame (channels × bits per sample ÷ 8). For example, mono 32-bit audio has a block align of 4 bytes.
 
 The `to_bytes` method constructs the actual byte sequence for the WAV file header according to the specification.
 
@@ -163,8 +163,8 @@ I recommend using a try/finally to wrap the file writing to ensure the mic is de
         output_file = open(output_filename, "wb")
         print("File open, writing header")
         # write the dummy header
-        total_bytes_written = output_file.write(wave_header.to_bytes())
-        total_bytes_recorded = 0
+        output_file.write(wave_header.to_bytes())
+        audio_bytes_written = 0
         .
         .
         .
@@ -196,11 +196,10 @@ The next thing is the loop that records until stopped:
             bytes_from_mic = mic.readinto(mic_samples_mv)
             if bytes_from_mic > 0:
                 bytes_written = output_file.write(mic_samples_mv[:bytes_from_mic])
-                total_bytes_recorded += bytes_from_mic
-                total_bytes_written += bytes_written
+                audio_bytes_written += bytes_written
 ```
 
-This loop continuously reads audio data from the mic into the buffer until the stop event, and then writes it to the output file. The `readinto` method fills the `mic_samples` buffer with new audio data, and returns the number of bytes read. If any bytes were read, we write them to the file and update our counters for how much data was recorded and written.
+This loop reads audio data from the mic into the buffer until the stop event, and then writes it to the output file. The `readinto` method fills the `mic_samples` buffer with new audio data, and returns the number of bytes read. If any bytes were read, we write them to the file and update our counter for how much audio data was written.
 
 Now before we hit the finally, we should update the bytes and write a real header:
 
@@ -208,11 +207,11 @@ Now before we hit the finally, we should update the bytes and write a real heade
         # update header
         print("Recording complete. Finalising header")
         output_file.seek(0)
-        wave_header.data_size = total_bytes_written - 36
+        wave_header.data_size = audio_bytes_written
         _  = output_file.write(wave_header.to_bytes())
 ```
 
-This is the file pointer manipulation, since the header has a fixed size, we can seek to the start of the audio file, and overwrite the header without fear of overwriting any audio data. We update the `data_size` field in the header to reflect the actual amount of audio data recorded, and then write the header bytes back to the start of the file. The `-36` is because the WAV header is 44 bytes, but the `data_size` field itself is 4 bytes, so we subtract that to get the correct size.
+This is the file pointer manipulation, since the header has a fixed size, we can seek to the start of the audio file, and overwrite the header without fear of overwriting any audio data. We update the `data_size` field in the header to reflect the actual amount of audio data recorded, and then write the header bytes back to the start of the file.
 
 See <https://github.com/orionrobots/pico-i2s-recording/blob/main/src/managed_mic.py> for the full code.
 
