@@ -235,13 +235,10 @@ I used the [Adafruit micro SD card breakout](https://thepihut.com/products/adafr
 Connections:
 - **3V** to Pico 3V3
 - **GND** to Pico GND
-- **CLK** to GP10 (SPI clock)
-- **DI** (MOSI) to GP11
-- **DO** (MISO) to GP12
-- **CS** to GP13
-
-
-The SD card was wired on the other side:
+- **CS** (SPI chip select) to GP1
+- **CLK** (SPI clock) to GP2
+- **SI** (SPI Pico to device) to GP3
+- **SO** (SPI device to Pico) to GP4
 
 {% img_responsive "content/2026/03/28/sd-card-wiring.png", "SD card wiring" %}
 
