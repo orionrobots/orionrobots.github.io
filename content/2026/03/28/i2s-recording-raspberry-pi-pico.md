@@ -31,9 +31,9 @@ The mic needs these connections to the Pico:
 
 - **3V** to Pico 3V3
 - **GND** to Pico GND
-- **BCLK** (bit clock) to GP14
-- **DOUT** (data out) to GP15
-- **LRCLK** (left/right clock, also called WS) to GP16
+- **BCLK** (bit clock) to GP18
+- **DOUT** (data out also called sound data) to GP20
+- **LRCLK** (left/right clock, also called WS or word select) to GP19
 - **SEL** - leave unconnected (defaults to left channel mono)
 
 The bit clock should run at 2-4 MHz typically, though I found it works a bit slower too.
