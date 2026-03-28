@@ -183,11 +183,9 @@ With that setup, we also need a memory buffer for recordings to go into before b
 ```python
         mic_samples = bytearray(SAMPLE_BUF_LENGTH)
         mic_samples_mv = memoryview(mic_samples)
-
-        last_buf_position = 0
 ```
 
-The variable `mic_samples` is a bytearray that will hold the raw audio data read from the mic. The `memoryview` allows us to read data directly into this buffer without creating new objects, which is more efficient on a microcontroller with limited memory. The `last_buf_position` variable keeps track of how much of the buffer has been filled with audio data.
+The variable `mic_samples` is a bytearray that will hold the raw audio data read from the mic. The `memoryview` allows us to read data directly into this buffer without creating new objects, which is more efficient on a microcontroller with limited memory.
 
 The next thing is the loop that records until stopped:
 
