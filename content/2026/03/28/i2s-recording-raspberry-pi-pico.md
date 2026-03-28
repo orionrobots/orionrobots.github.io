@@ -5,7 +5,7 @@ description: Recording audio from an i2s microphone to SD card with Raspberry Pi
 thumbnail: content/2026/03/28/i2s-recording-wiring.png
 date: 2026-03-28
 ---
-Following on from my post on [i2s playback with Raspberry Pi Pico](/2023/09/04/i2s-playback/), I finally got round to writing about the recording side. This was actually the trickier bit - getting an i2s MEMS microphone to capture audio and write it to a WAV file on an SD card. I completed this in 2023, but only got round to writing it up in 2026 - better late than never!
+Following on from my post on [i2s playback with Raspberry Pi Pico](/2023/09/04/i2s-playback/), this is a write up of the recording lab notes I made in 2023. This was actually the trickier bit - getting an i2s MEMS microphone to capture audio and write it to a WAV file on an SD card. I completed this in 2023, but only got round to writing it up in 2026 - better late than never!
 
 The project brief was to play a sound, record a response, then save it for later. So I needed both playback (covered in the previous post) and recording. The playback was straightforward enough, but recording had some proper gotchas.
 
