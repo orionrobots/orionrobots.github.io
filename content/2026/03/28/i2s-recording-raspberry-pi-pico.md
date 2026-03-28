@@ -98,14 +98,14 @@ See <https://github.com/orionrobots/pico-i2s-recording/blob/main/src/wave_file.p
 
 ## Recording Audio
 
-I wanted to record audio until some stop event occured, like a button or input. I put the recording in a file `managed_mic.py`. This wasn't class based, as the logic fit in a single function. We start with imports:
+I wanted to record audio until some stop event occurred, like a button or input. I put the recording in a file `managed_mic.py`. This wasn't class based, as the logic fit in a single function. We start with imports:
 
 ```python
 from machine import Pin, I2S
 import wave_file
 ```
 
-It makes use of the wave_file module we created to write the WAV file headers. The recording function takes a filename and duration to record for:
+It makes use of the wave_file module we created to write the WAV file headers. The recording function takes an output filename and a callback used to decide when to stop recording:
 
 ```python
 def record_from_mic_until(
@@ -226,7 +226,7 @@ One other tip from testing: don't get too close to the mic when recording - you'
 
 ## The SD Card
 
-The Pico storage (flash) is very limited, so writing audio data thre would be problematic. Instead, we can write to an SD card. The `sdcard` library provides a way to interface with the SD card, and you can use the `os` module to mount it as a filesystem.
+The Pico storage (flash) is very limited, so writing audio data there would be problematic. Instead, we can write to an SD card. The `sdcard` library provides a way to interface with the SD card, and you can use the `os` module to mount it as a filesystem.
 
 I used the [Adafruit micro SD card breakout](https://thepihut.com/products/adafruit-micro-sd-spi-or-sdio-card-breakout-board-3v-only) running at 3.3V.
 
