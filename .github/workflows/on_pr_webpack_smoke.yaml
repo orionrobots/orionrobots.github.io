@@ -39,20 +39,51 @@ jobs:
         uses: actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd # v8.0.0
         with:
           script: |
+            const fs = require('fs');
+            const path = require('path');
+
             const outcome = '${{ steps.smoke_test.outcome }}';
             const status = outcome === 'success' ? '✅ Passed' : '❌ Failed';
             const buildTime = '${{ steps.smoke_test.outputs.build_time }}' || 'N/A';
             const bundleSize = '${{ steps.smoke_test.outputs.bundle_size }}' || 'N/A';
+            const buildTimeMs = parseInt('${{ steps.smoke_test.outputs.build_time_ms }}') || 0;
+            const bundleSizeBytes = parseInt('${{ steps.smoke_test.outputs.bundle_size_bytes }}') || 0;
+
+            // --- Baseline delta helpers ---
+            const helpersPath = path.join(process.env.GITHUB_WORKSPACE, '.github/scripts/baseline-helpers.js');
+            const { rollingAvg, deltaCell } = require(helpersPath);
+
+            let baseline = { baselines: [] };
+            try {
+              const p = path.join(process.env.GITHUB_WORKSPACE, 'docs', 'build-baselines.json');
+              baseline = JSON.parse(fs.readFileSync(p, 'utf8'));
+            } catch (err) {
+              if (err.code !== 'ENOENT') {
+                core.warning(`Could not parse docs/build-baselines.json: ${err.message}`);
+              }
+            }
+
+            const n = baseline.baselines.length;
+            const avgBuildTimeMs    = rollingAvg(baseline.baselines, b => b?.webpack?.buildTimeMs);
+            const avgBundleSizeBytes = rollingAvg(baseline.baselines, b => b?.webpack?.bundleSizeBytes);
+
+            const buildTimeDelta  = deltaCell(buildTimeMs, avgBuildTimeMs);
+            const bundleSizeDelta = deltaCell(bundleSizeBytes, avgBundleSizeBytes);
+
+            const baselineNote = n > 0
+              ? `_Baseline: ${n} sample(s) · rolling average window_`
+              : '_No baseline yet — will be recorded after the first successful push to master_';
 
             const commentBody = [
               '## 🔨 Webpack Bundle Smoke Test',
               '',
-              '| | |',
-              '|---|---|',
-              `| **Status** | ${status} |`,
-              `| **Build Time** | ${buildTime} |`,
-              `| **Bundle Size** | ${bundleSize} |`,
+              '| | | |',
+              '|---|---|---|',
+              `| **Status** | ${status} | |`,
+              `| **Build Time** | ${buildTime} | ${buildTimeDelta} |`,
+              `| **Bundle Size** | ${bundleSize} | ${bundleSizeDelta} |`,
               '',
+              baselineNote,
               `_Updated: ${new Date().toUTCString()}_`,
             ].join('\n');
 

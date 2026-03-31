@@ -1,0 +1,65 @@
+---
+name: "Update Build Baselines"
+# Runs after a successful push-to-master build so that every merged change
+# automatically updates docs/build-baselines.json with fresh metrics.
+# The commit is tagged [skip ci] so it does not trigger another build loop.
+on:
+  workflow_run:
+    workflows: ["Build, test and deploy"]
+    types: [completed]
+    branches: [master, main]
+
+jobs:
+  update_baselines:
+    if: github.event.workflow_run.conclusion == 'success'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
+        with:
+          ref: ${{ github.event.workflow_run.head_branch }}
+          # Use the default GITHUB_TOKEN — write permission granted above
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Setup Node.js
+        uses: actions/setup-node@53b83947a5a98c8d113130e565377fae1a50d02f # v6.3.0
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      # Run the webpack smoke test — this builds dist/bundle.js as a side-effect
+      # and emits build_time_ms / bundle_size_bytes to GITHUB_OUTPUT.
+      - name: Run webpack smoke test
+        id: webpack_smoke
+        run: npm run test:smoke:webpack
+        continue-on-error: true
+
+      # The webpack smoke test already produced dist/bundle.js above, so the
+      # eleventy smoke test can run straight away without a separate dist step.
+      - name: Run eleventy smoke test
+        id: eleventy_smoke
+        run: npm run test:smoke:eleventy
+        continue-on-error: true
+
+      - name: Update baseline file
+        env:
+          BASELINE_SHA: ${{ github.event.workflow_run.head_sha }}
+          WEBPACK_BUILD_TIME_MS: ${{ steps.webpack_smoke.outputs.build_time_ms }}
+          WEBPACK_BUNDLE_SIZE_BYTES: ${{ steps.webpack_smoke.outputs.bundle_size_bytes }}
+          ELEVENTY_BUILD_TIME_MS: ${{ steps.eleventy_smoke.outputs.build_time_ms }}
+          ELEVENTY_SITE_SIZE_BYTES: ${{ steps.eleventy_smoke.outputs.site_size_bytes }}
+          ELEVENTY_HTML_FILE_COUNT: ${{ steps.eleventy_smoke.outputs.file_count }}
+        run: node .github/scripts/update-baseline.js
+
+      - name: Commit and push baseline update
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add docs/build-baselines.json
+          git diff --cached --quiet || git commit -m "chore: update build baselines [skip ci]"
+          git push
