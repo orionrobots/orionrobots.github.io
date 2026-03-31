@@ -46,8 +46,8 @@ jobs:
             const status = outcome === 'success' ? '✅ Passed' : '❌ Failed';
             const buildTime = '${{ steps.smoke_test.outputs.build_time }}' || 'N/A';
             const bundleSize = '${{ steps.smoke_test.outputs.bundle_size }}' || 'N/A';
-            const buildTimeMs = parseInt('${{ steps.smoke_test.outputs.build_time_ms }}') || 0;
-            const bundleSizeBytes = parseInt('${{ steps.smoke_test.outputs.bundle_size_bytes }}') || 0;
+            const buildTimeMs = parseInt('${{ steps.smoke_test.outputs.build_time_ms }}', 10) || 0;
+            const bundleSizeBytes = parseInt('${{ steps.smoke_test.outputs.bundle_size_bytes }}', 10) || 0;
 
             // --- Baseline delta helpers ---
             const helpersPath = path.join(process.env.GITHUB_WORKSPACE, '.github/scripts/baseline-helpers.js');

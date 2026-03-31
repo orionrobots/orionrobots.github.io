@@ -1,19 +1,5 @@
 {
   "description": "Rolling build performance baselines for orionrobots.github.io.\n\nThis file is maintained automatically. After each successful push to master the\non_push_update_baseline workflow runs both smoke tests, records the raw metrics\nhere, and commits the result with '[skip ci]' so no build loop is triggered.\n\nMetrics recorded per entry:\n  webpack.buildTimeMs     — webpack production bundle build time in milliseconds\n  webpack.bundleSizeBytes — size of dist/bundle.js in bytes\n  eleventy.buildTimeMs    — Eleventy full-site build time in milliseconds\n  eleventy.siteSizeBytes  — total size of the _site output directory in bytes\n  eleventy.htmlFileCount  — number of HTML files generated in _site\n\nHow baselines are used in PRs:\n  The rolling average of all stored entries is computed for each metric and shown\n  alongside the current PR run value. A percentage delta is displayed and colour-\n  coded so reviewers can immediately tell whether a change is within normal noise\n  (🟢 ≤5%), worth noting (🟡 5–20%), or a significant regression/improvement\n  (🔴 >20%).\n\nRetention:\n  Only the most recent 'maxBaselines' entries are kept. Older entries are dropped\n  when a new one is appended, giving a rolling window rather than unbounded growth.\n  Four entries is enough to smooth out single-run noise while staying responsive\n  to genuine trends.",
   "maxBaselines": 4,
-  "baselines": [
-    {
-      "date": "2026-03-31T14:18:59.618Z",
-      "sha": "abc1234567890",
-      "webpack": {
-        "buildTimeMs": 12000,
-        "bundleSizeBytes": 330000
-      },
-      "eleventy": {
-        "buildTimeMs": 180000,
-        "siteSizeBytes": 50000000,
-        "htmlFileCount": 500
-      }
-    }
-  ]
+  "baselines": []
 }

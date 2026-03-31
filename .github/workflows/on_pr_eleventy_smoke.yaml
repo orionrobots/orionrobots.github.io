@@ -62,9 +62,9 @@ jobs:
             const buildTime = '${{ steps.smoke_test.outputs.build_time }}' || 'N/A';
             const siteSize = '${{ steps.smoke_test.outputs.site_size }}' || 'N/A';
             const fileCount = '${{ steps.smoke_test.outputs.file_count }}' || 'N/A';
-            const buildTimeMs = parseInt('${{ steps.smoke_test.outputs.build_time_ms }}') || 0;
-            const siteSizeBytes = parseInt('${{ steps.smoke_test.outputs.site_size_bytes }}') || 0;
-            const htmlFileCount = parseInt('${{ steps.smoke_test.outputs.file_count }}') || 0;
+            const buildTimeMs = parseInt('${{ steps.smoke_test.outputs.build_time_ms }}', 10) || 0;
+            const siteSizeBytes = parseInt('${{ steps.smoke_test.outputs.site_size_bytes }}', 10) || 0;
+            const htmlFileCount = parseInt('${{ steps.smoke_test.outputs.file_count }}', 10) || 0;
 
             // --- Baseline delta helpers ---
             const helpersPath = path.join(process.env.GITHUB_WORKSPACE, '.github/scripts/baseline-helpers.js');
