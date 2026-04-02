@@ -3,13 +3,12 @@ const markdownItAnchor = require("markdown-it-anchor");
 const markdownItAttrs = require("markdown-it-attrs");
 const moment = require("moment");
 const slugify = require("slugify");
-const Image = require("@11ty/eleventy-img");
-const fetch_image = require("./src/fetch_image.js");
 const CleanCSS = require("clean-css");
 const extractExcerpt = require("./src/shortcodes/extract_excerpt.js");
 const groupByYear = require("./src/filters/group_by_year.js");
 const thumbnails = require("./src/thumbnails.js");
 const tab_gallery = require("./src/shortcodes/make_tab_gallery.js");
+const img_responsive = require("./src/shortcodes/img_responsive.js");
 const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 const install_media_objects = require("./src/media_object.js");
 const {
@@ -18,19 +17,6 @@ const {
 
 
 const media_filetypes = "jpg,jpeg,JPG,png,gif,svg,avif";
-
-async function img_responsive(src, alt, sizes = "100vw, 720, 820, 940, 1140, 1280", class_names = "img-responsive") {
-    let metadata = await fetch_image(src);
-    let imageAttributes = {
-        alt,
-        sizes,
-        class: class_names,
-        loading: "lazy",
-        decoding: "async",
-    };
-
-    return Image.generateHTML(metadata, imageAttributes);
-}
 
 module.exports = function (eleventyConfig) {
     // Configure markdown parser

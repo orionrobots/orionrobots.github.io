@@ -33,7 +33,7 @@ After that:
 - the smell of burnt electronics was quite strong
 - even the cat noticed the funny smell
 
-{% img_responsive "content/2026/04/02-sg90-servo-motor-failure-analysis/gearchain-on-servo.jpg" "The SG90 servo with the gear train visible. The final output gear is the one on the top left, which also couples into the potentiometer." %}
+{% img_responsive "gearchain-on-servo.jpg" "The SG90 servo with the gear chain visible. The final output gear is the one on the top left, which also couples into the potentiometer." %}
 *Inside the SG90 after opening it. Unlike a previous failed servo, the wiring looked intact and there was no immediately obvious broken lead.*
 
 Unlike the last failed servo, the cables looked intact, so this did not seem to be a wiring fault.
@@ -55,7 +55,7 @@ One especially useful clue was that the gear train felt **stiff by hand** once I
 
 Another useful detail is that the final output gear/shaft also couples to the potentiometer via a small flat-ended interface. That makes it part of both the output drive path and the position feedback system, so I took a close-up photo of that gear in particular.
 
-{% img_responsive "content/2026/04/02-sg90-servo-motor-failure-analysis/servo-geartrain.jpg" "The SG90 servo gear train. It's not meshing very well." %}
+{% img_responsive "servo-geartrain.jpg" "The SG90 servo gear train. It's not meshing very well." %}
 *The SG90 gear train. The gear train did not look obviously shattered, but the mechanism felt stiffer than it should by hand.*
 
 ## Likely failure mode
@@ -76,7 +76,7 @@ That would explain:
 - the clicking
 - the burnt-electronics smell
 
-{% img_responsive "content/2026/04/02-sg90-servo-motor-failure-analysis/output-gear.jpg" "The final output gear also couples into the potentiometer via a flat-ended interface, making it part of both the mechanical output path and the position feedback system." %}
+{% img_responsive "output-gear.jpg" "The final output gear also couples into the potentiometer via a flat-ended interface, making it part of both the mechanical output path and the position feedback system." %}
 *The final output gear also couples into the potentiometer via a flat-ended interface, making it part of both the mechanical output path and the position feedback system.*
 
 The exact failure mode is not perfectly certain, but this looks much more like a **mechanical jam leading to electrical distress** than a simple wiring issue.
