@@ -53,6 +53,7 @@ RUN apt-get update && apt-get install -y \
 
 RUN npx playwright install chromium --with-deps
 
+COPY cucumber.js ./
 COPY tests/ ./tests/
 
 CMD ["npm", "run", "test:bdd"]
