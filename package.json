@@ -5,7 +5,7 @@
   "main": "src/index.js",
   "scripts": {
     "test": "npm run test:bdd",
-    "test:bdd": "cucumber-js tests/staging/features --require tests/staging/step_definitions/**/*.js",
+    "test:bdd": "cucumber-js",
     "dist": "webpack --mode production -c webpack.config.js",
     "dev": "webpack --mode development -c webpack.config.js",
     "stats": "webpack -c webpack.config.js --profile --json > stats.json",
