@@ -149,6 +149,7 @@ This creates properly structured content with frontmatter in `content/YYYY/MM/` 
   - "What changes were made"
   - "What tests were run"
 - For content-only pull requests, contributors **MAY** delete sections that are not applicable.
+- Compliance is enforced during pull request review; feature and bugfix PRs that do not follow this format **SHOULD** be updated before approval.
 
 ### Pre-commit Hooks
 - Run `pre-commit install` to set up git hooks
