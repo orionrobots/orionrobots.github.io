@@ -234,7 +234,7 @@ RewriteRule ^page-([A-Za-z0-9]+)    wiki/$1.html                     [QSA,L]
 # This prevents relative image links from breaking in gallery pages
 # (e.g. /galleries/.../target0/ -> /galleries/.../target0.html)
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteCond %{REQUEST_URI} !\.html$
+RewriteCond %{REQUEST_URI} !\.html/?$
 RewriteRule ^/?(.+)/$ /$1.html [R=301,L]
 
 # Otherwise try appending .html onto it and stop.
