@@ -71,6 +71,7 @@ ErrorDocument 501 /404.html
 RewriteEngine On
 
 RewriteCond %{SERVER_PORT} !=443
+RewriteCond %{HTTP_HOST} ^(www\.)?orionrobots\.co\.uk [NC]
 RewriteRule ^(.*)$ https://orionrobots.co.uk/$1 [R=301,L]
 
 # If the URL points to a real existing item then do nothing
