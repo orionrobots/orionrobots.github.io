@@ -142,6 +142,14 @@ This creates properly structured content with frontmatter in `content/YYYY/MM/` 
 - Staging tests run BDD Playwright tests (may be flaky)
 - Deployment happens to Apache hosting with htaccess rules
 
+### Pull Request Description Requirements
+- For feature and bugfix pull requests, agents and contributors **MUST** use the repository pull request description template.
+- For feature and bugfix pull requests, descriptions **MUST** include:
+  - "What we are fixing"
+  - "What changes were made"
+  - "What tests were run"
+- For content-only pull requests, contributors **MAY** delete sections that are not applicable.
+
 ### Pre-commit Hooks
 - Run `pre-commit install` to set up git hooks
 - Uses mega-linter with most linters disabled
