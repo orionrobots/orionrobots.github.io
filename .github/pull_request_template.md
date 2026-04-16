@@ -9,4 +9,4 @@
 
 ---
 
-For content-only changes, delete any section that is not applicable.
+For content-only changes, you may delete any section that is not applicable.
