@@ -313,6 +313,9 @@ When('I am in desktop view', async function () {
 });
 
 Then('the page URL should end with {string}', async function (suffix) {
+  if (!page) {
+    throw new Error('Page not initialized. Make sure previous steps are executed first.');
+  }
   const url = page.url();
   if (!url.endsWith(suffix)) {
     throw new Error(`Expected URL to end with "${suffix}" but got: ${url}`);
