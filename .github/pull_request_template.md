@@ -5,7 +5,7 @@
 - Summarize the key code, configuration, or documentation changes.
 
 ## What tests were run
-- List validation performed (for example: `docker compose run dist`, `docker compose run build`, manual checks, CI jobs).
+- List validation performed (for example: `docker compose up`, `docker compose run dist`, `docker compose run build`, manual checks, CI jobs).
 
 ---
 

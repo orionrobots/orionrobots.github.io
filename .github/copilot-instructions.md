@@ -143,7 +143,7 @@ This creates properly structured content with frontmatter in `content/YYYY/MM/` 
 - Deployment happens to Apache hosting with htaccess rules
 
 ### Pull Request Description Requirements
-- For feature and bugfix pull requests, agents and contributors **MUST** use the repository pull request description template.
+- For feature and bugfix pull requests, AI agents and human contributors **MUST** use the repository pull request description template.
 - For feature and bugfix pull requests, descriptions **MUST** include:
   - "What we are fixing"
   - "What changes were made"
