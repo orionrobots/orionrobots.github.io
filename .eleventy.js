@@ -36,7 +36,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("assets");
   eleventyConfig.addPassthroughCopy("dist");
   eleventyConfig.addPassthroughCopy("favicon.png");
-  eleventyConfig.addPassthroughCopy("galleries/**/*." + media_filetypes);
+  eleventyConfig.addPassthroughCopy("galleries/**/*.{" + media_filetypes + "}");
   eleventyConfig.addPassthroughCopy("google5458abc1104b04dd.html");
   eleventyConfig.addPassthroughCopy({ "htaccess": ".htaccess" });
   eleventyConfig.addPassthroughCopy({ "content": "." }, {
