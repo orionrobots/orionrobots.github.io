@@ -22,11 +22,19 @@ const GIT_SHA_LENGTH = 40
 const ROOT = path.resolve(__dirname, '..', '..')
 const BASELINE_FILE = path.join(ROOT, 'docs', 'build-baselines.json')
 
+const DEFAULT_DESCRIPTION = 'Rolling build performance baselines for orionrobots.github.io.\n\nThis file is maintained automatically. After each successful push to master the\non_push_update_baseline workflow runs both smoke tests, records the raw metrics\nhere, and commits the result with \'[skip ci]\' so no build loop is triggered.\n\nMetrics recorded per entry:\n  webpack.buildTimeMs     — webpack production bundle build time in milliseconds\n  webpack.bundleSizeBytes — size of dist/bundle.js in bytes\n  eleventy.buildTimeMs    — Eleventy full-site build time in milliseconds\n  eleventy.siteSizeBytes  — total size of the _site output directory in bytes\n  eleventy.htmlFileCount  — number of HTML files generated in _site\n\nHow baselines are used in PRs:\n  The rolling average of all stored entries is computed for each metric and shown\n  alongside the current PR run value. A percentage delta is displayed and colour-\n  coded so reviewers can immediately tell whether a change is within normal noise\n  (🟢 ≤5%), worth noting (🟡 5–20%), or a significant regression/improvement\n  (🔴 >20%).\n\nRetention:\n  Only the most recent \'maxBaselines\' entries are kept. Older entries are dropped\n  when a new one is appended, giving a rolling window rather than unbounded growth.\n  Four entries is enough to smooth out single-run noise while staying responsive\n  to genuine trends.'
+
 function readBaseline () {
   try {
-    return JSON.parse(fs.readFileSync(BASELINE_FILE, 'utf8'))
-  } catch {
-    return { maxBaselines: 4, baselines: [] }
+    const data = JSON.parse(fs.readFileSync(BASELINE_FILE, 'utf8'))
+    // Restore the description if it was lost (e.g. manually edited out)
+    if (!data.description) data.description = DEFAULT_DESCRIPTION
+    return data
+  } catch (err) {
+    if (err.code !== 'ENOENT') {
+      console.warn(`WARNING: Could not parse ${BASELINE_FILE}: ${err.message} — starting fresh`)
+    }
+    return { description: DEFAULT_DESCRIPTION, maxBaselines: 4, baselines: [] }
   }
 }
 
@@ -51,9 +59,18 @@ const entry = {
   }
 }
 
-// Validate that we have at least some real data before recording
-if (entry.webpack.bundleSizeBytes === 0 && entry.eleventy.htmlFileCount === 0) {
-  console.error('ERROR: All metrics are zero — skipping baseline update to avoid polluting history')
+// Validate that every required metric has a non-zero value before recording.
+// A partial entry (e.g. webpack passed but eleventy failed, or vice-versa) would
+// consume a slot in the limited rolling window and skew the rolling averages.
+const missingMetrics = []
+if (entry.webpack.buildTimeMs === 0)     missingMetrics.push('WEBPACK_BUILD_TIME_MS')
+if (entry.webpack.bundleSizeBytes === 0) missingMetrics.push('WEBPACK_BUNDLE_SIZE_BYTES')
+if (entry.eleventy.buildTimeMs === 0)    missingMetrics.push('ELEVENTY_BUILD_TIME_MS')
+if (entry.eleventy.siteSizeBytes === 0)  missingMetrics.push('ELEVENTY_SITE_SIZE_BYTES')
+if (entry.eleventy.htmlFileCount === 0)  missingMetrics.push('ELEVENTY_HTML_FILE_COUNT')
+
+if (missingMetrics.length > 0) {
+  console.error(`ERROR: The following metrics are zero or missing — skipping baseline update to avoid polluting history:\n  ${missingMetrics.join('\n  ')}`)
   process.exit(1)
 }
 
