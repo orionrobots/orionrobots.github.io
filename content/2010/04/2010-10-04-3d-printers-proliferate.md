@@ -1,7 +1,7 @@
 ---
 date: 2010-10-04 02:47:00
 description: 3d Printers proliferate
-tags: [cnc news, 3d printing, reprap, micromanufacture, desktop manufacture, microfabrication, fabrication]
+tags: [cnc news, 3d printing, reprap, micromanufacture, desktop manufacture, microfabrication, fabrication, cnc]
 title: 3d Printers proliferate
 layout: post
 ---

@@ -5,6 +5,7 @@ tags:
 - cnc projects
 - enclosure
 - dust control
+- cnc
 title: Designing a second enclosure for my CNC machine
 ---
 My first attempt at an enclosure was wrong in a number of ways.
