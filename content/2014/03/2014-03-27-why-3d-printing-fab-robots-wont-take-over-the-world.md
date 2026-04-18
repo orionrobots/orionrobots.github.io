@@ -6,6 +6,7 @@ tags:
 - cnc news
 - fabrication
 - replicators
+- cnc
 title: Why 3d printing robots wont take over the world
 thumbnail: galleries/unboxing_pictures/images/img_3023.jpg
 ---
