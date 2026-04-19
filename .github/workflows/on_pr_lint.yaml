@@ -17,6 +17,9 @@ on:
       - '.github/pull_request_template.md'
       - '.github/PULL_REQUEST_TEMPLATE/**'
 
+permissions:
+  contents: read
+
 jobs:
   check_dependabot:
     runs-on: ubuntu-latest
