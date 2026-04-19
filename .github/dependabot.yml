@@ -9,6 +9,8 @@ updates:
     schedule:
       # Check for updates to GitHub Actions every week
       interval: "weekly"
+    cooldown:
+      default-days: 3
     groups:
       artifact-handling:
         patterns:
@@ -20,6 +22,8 @@ updates:
     schedule:
       # Check for updates to npm dependencies every week
       interval: "weekly"
+    cooldown:
+      default-days: 3
     ignore:
       - dependency-name: "*"
         update-types: ["version-update:semver-patch"]
@@ -31,3 +35,5 @@ updates:
     schedule:
       # Check for updates to Docker images every week
       interval: "weekly"
+    cooldown:
+      default-days: 3
