@@ -4,6 +4,18 @@ on:
   pull_request:
     branches:
       - master
+    paths-ignore:
+      - 'README.md'
+      - '.editorconfig'
+      - '.mega-linter.yml'
+      - '.markdown-link-check.json'
+      - '.pre-commit-config.yaml'
+      - '.shellcheckrc'
+      - '_drafts/**'
+      - '.github/copilot-instructions.md'
+      - '.github/agents/**/*.md'
+      - '.github/pull_request_template.md'
+      - '.github/PULL_REQUEST_TEMPLATE/**'
 
 jobs:
   check_dependabot:
@@ -25,6 +37,7 @@ jobs:
           npx -y @bugron/validate-dependabot-yaml@latest
 
   lint_cupcake:
+    if: github.actor != 'dependabot[bot]'
     runs-on: ubuntu-latest
     steps:
       - name: Checkout source code
