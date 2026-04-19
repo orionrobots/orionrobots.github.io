@@ -120,6 +120,9 @@ function main (): void {
   writeOutput('build_time', buildTime)
   writeOutput('site_size', siteSize)
   writeOutput('file_count', htmlFileCount.toString())
+  // Raw numeric outputs used by the baseline tracking system
+  writeOutput('build_time_ms', result.buildTimeMs.toString())
+  writeOutput('site_size_bytes', siteSizeBytes.toString())
 
   console.log('\nResults:')
   console.log(`  Status:      ${passed ? '✅ passed' : '❌ failed'}`)
