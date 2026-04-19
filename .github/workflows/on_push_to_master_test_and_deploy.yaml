@@ -65,7 +65,7 @@ jobs:
 
       # Sync the files
       - name: Sync the site over
-        uses: burnett01/rsync-deployments@dc0d5d44c4728aad3f02154a87309809e62a960f # v8.0.4
+        uses: burnett01/rsync-deployments@66257cad6bfeb2171d3b6bfa6c9a22279dd9c3a1 # v8.0.5
         with:
           switches: -a
           path: _site/
@@ -88,7 +88,7 @@ jobs:
       - uses: actions/checkout@v6.0.2
 
       - name: Check for workflow changes
-        uses: tj-actions/changed-files@22103cc46bda19c2b464ffe86db46df6922fd323 # v47.0.5
+        uses: tj-actions/changed-files@9426d40962ed5378910ee2e21d5f8c6fcbf2dd96 # v47.0.6
         id: filter
         with:
           files: |
@@ -109,7 +109,7 @@ jobs:
 
       - name: Copy over the netlify-cms-oauth-provider-php files
         if: steps.filter.outputs.any_changed == 'true'
-        uses: burnett01/rsync-deployments@dc0d5d44c4728aad3f02154a87309809e62a960f # v8.0.4
+        uses: burnett01/rsync-deployments@66257cad6bfeb2171d3b6bfa6c9a22279dd9c3a1 # v8.0.5
         with:
           switches: -a
           path: netlify-cms-oauth-provider-php/
@@ -131,7 +131,7 @@ jobs:
 
       - name: Copy over the oauth environment file
         if: steps.filter.outputs.any_changed == 'true'
-        uses: burnett01/rsync-deployments@dc0d5d44c4728aad3f02154a87309809e62a960f # v8.0.4
+        uses: burnett01/rsync-deployments@66257cad6bfeb2171d3b6bfa6c9a22279dd9c3a1 # v8.0.5
         with:
           switches: -a
           path: netlify-cms-oauth-provider-php/.env.local
