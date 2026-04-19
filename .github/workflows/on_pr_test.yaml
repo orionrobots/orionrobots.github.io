@@ -18,8 +18,6 @@ on:
       - '.github/PULL_REQUEST_TEMPLATE/**'
       - '.github/dependabot.yml'
 
-permissions:
-  contents: read
 
 jobs:
   detect_base_image_changes:
