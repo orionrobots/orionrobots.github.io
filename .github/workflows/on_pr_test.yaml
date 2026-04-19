@@ -4,6 +4,20 @@ on:
     branches:
       - master
       - main
+    paths-ignore:
+      - 'README.md'
+      - '.editorconfig'
+      - '.mega-linter.yml'
+      - '.markdown-link-check.json'
+      - '.pre-commit-config.yaml'
+      - '.shellcheckrc'
+      - '_drafts/**'
+      - '.github/copilot-instructions.md'
+      - '.github/agents/**/*.md'
+      - '.github/pull_request_template.md'
+      - '.github/PULL_REQUEST_TEMPLATE/**'
+      - '.github/dependabot.yml'
+
 
 jobs:
   detect_base_image_changes:
