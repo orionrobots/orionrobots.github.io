@@ -23,7 +23,6 @@ permissions:
 
 jobs:
   detect_base_image_changes:
-    if: github.actor != 'dependabot[bot]'
     runs-on: ubuntu-latest
     outputs:
       changed: ${{ steps.changes.outputs.any_changed }}
