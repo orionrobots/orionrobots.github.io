@@ -13,6 +13,7 @@
     "11ty": "npx @11ty/eleventy --quiet",
     "serve": "npx @11ty/eleventy --serve --quiet --port 8081",
     "check-missing-tags": "node src/utilities/list-files-without-tags.js",
+    "list-tags": "node src/utilities/list-tags.js",
     "new-post": ".github/scripts/new_post.sh",
     "test:smoke:webpack": "ts-node --project tests/smoke/tsconfig.json tests/smoke/webpack.test.ts",
     "test:smoke:eleventy": "ts-node --project tests/smoke/tsconfig.json tests/smoke/eleventy.test.ts",
