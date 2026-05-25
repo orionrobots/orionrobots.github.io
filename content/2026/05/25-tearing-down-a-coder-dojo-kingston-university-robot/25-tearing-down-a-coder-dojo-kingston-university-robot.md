@@ -1,7 +1,7 @@
 ---
 title: Tearing down a Coder Dojo Kingston University robot
 date: 2026-05-25
-thumbnail: /content/2026/05/25-tearing-down-a-coder-dojo-kingston-university-robot.png
+thumbnail: /content/2026/05/25-tearing-down-a-coder-dojo-kingston-university-robot/25-tearing-down-a-coder-dojo-kingston-university-robot.png
 tags: [coder dojo, raspberry pi pico, rp2040, micropython, robotics, robot building, robotics for kids, code club, teardown, distance sensor, line following]
 ---
 After last weeks Coder Dojo and Kingston University, some of the robots in our robot fleet needed repair.
