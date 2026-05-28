@@ -43,7 +43,7 @@ Pass Bootstrap 5 utility classes as the fourth argument. You must also supply th
 - `float-start` — floats the image to the left (Bootstrap 5; replaces the old `float-left`).
 - `me-3` — margin-end (right) so text doesn't press against the image.
 - `mb-2` — margin-bottom so content below has breathing room.
-- `w-33` — caps the image width at ~33% of its container (Bootstrap 5 utility).
+- `w-33` — caps the image width at ~33% of its container (custom site utility; Bootstrap 5 does not include this by default).
 
 ### Float right (image sits right, text wraps left)
 
@@ -54,7 +54,7 @@ Pass Bootstrap 5 utility classes as the fourth argument. You must also supply th
 - `float-end` — floats the image to the right (Bootstrap 5; replaces the old `float-right`).
 - `ms-3` — margin-start (left) so text doesn't press against the image.
 - `mb-2` — margin-bottom so content below has breathing room.
-- `w-33` — caps the image width at ~33% of its container (Bootstrap 5 utility).
+- `w-33` — caps the image width at ~33% of its container (custom site utility; Bootstrap 5 does not include this by default).
 
 > **Tip:** Add a `<div class="clearfix"></div>` after the paragraph if subsequent content should not continue to wrap around the floated image.
 
@@ -86,7 +86,7 @@ Bootstrap 3 era pattern. Do not use. Migrate to `img_responsive` when editing a 
 
 Wraps the image in a `<figure>` with a caption. Does not generate responsive srcsets or lazy loading. Migrate to `img_responsive` when editing a post for other reasons.
 
-### Inline HTML with `style="float:..."` 
+### Inline HTML with `style="float:..."`
 
 ```html
 <img src="/galleries/image.jpg" style="float: left; margin-right: 8px">
