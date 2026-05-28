@@ -40,6 +40,11 @@
   float: left;
 }
 
+/* Custom width utility — Bootstrap 5 ships w-25/50/75/100/auto but not w-33 */
+.w-33 {
+  width: 33.3333% !important;
+}
+
 /* Make all images responsive in the content section */
 .content img {
     display: inline-block;
