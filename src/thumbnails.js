@@ -37,19 +37,19 @@ function has_thumbnail(post) {
 async function thumbnail_for_post(post) {
     const thumbnailUrl = getPostThumbnailPath(post);
     let imageSrc;
-    
-    if(thumbnailUrl == undefined) {
+
+    if (thumbnailUrl == undefined) {
         // Use favicon.png as fallback when no thumbnail is defined
         imageSrc = "favicon.png";
     } else {
         imageSrc = stripLeadingSlash(thumbnailUrl);
-        if ( !fs.existsSync(imageSrc)) {
+        if (!fs.existsSync(imageSrc)) {
             // Use favicon.png as fallback when thumbnail file doesn't exist
             imageSrc = "favicon.png";
         }
     }
-    
-    if ( !fs.existsSync(imageSrc)) {
+
+    if (!fs.existsSync(imageSrc)) {
         // If even favicon.png doesn't exist, return empty (shouldn't happen)
         return "";
     } else {
@@ -68,7 +68,7 @@ async function thumbnail_for_post(post) {
 
 async function thumbnail_from_path(thumbnail_path) {
     const imageSrc = stripLeadingSlash(thumbnail_path);
-    if ( !fs.existsSync(imageSrc)) {
+    if (!fs.existsSync(imageSrc)) {
         return "";
     } else {
         // console.log("Generating thumbnail URL for " + imageSrc);

@@ -52,23 +52,23 @@ const PAGES = [
 //  https://web.dev/vitals/
 
 const THRESHOLDS = {
-  ttfb: { good: 800,  poor: 1800  }, // ms – Time to First Byte
-  fcp:  { good: 1800, poor: 3000  }, // ms – First Contentful Paint
-  lcp:  { good: 2500, poor: 4000  }, // ms – Largest Contentful Paint
-  cls:  { good: 0.1,  poor: 0.25  }, // score – Cumulative Layout Shift
-  tbt:  { good: 200,  poor: 600   }, // ms – Total Blocking Time
+  ttfb: { good: 800, poor: 1800 }, // ms – Time to First Byte
+  fcp: { good: 1800, poor: 3000 }, // ms – First Contentful Paint
+  lcp: { good: 2500, poor: 4000 }, // ms – Largest Contentful Paint
+  cls: { good: 0.1, poor: 0.25 }, // score – Cumulative Layout Shift
+  tbt: { good: 200, poor: 600 }, // ms – Total Blocking Time
 };
 
 // ─── ANSI colour helpers ──────────────────────────────────────────────────────
 
 const C = {
-  reset:  '\x1b[0m',
-  bold:   '\x1b[1m',
-  dim:    '\x1b[2m',
-  green:  '\x1b[32m',
+  reset: '\x1b[0m',
+  bold: '\x1b[1m',
+  dim: '\x1b[2m',
+  green: '\x1b[32m',
   yellow: '\x1b[33m',
-  red:    '\x1b[31m',
-  cyan:   '\x1b[36m',
+  red: '\x1b[31m',
+  cyan: '\x1b[36m',
 };
 
 function gradeColor(value, thresholds) {
@@ -200,16 +200,16 @@ async function measureSingleRun(url) {
       });
 
       return {
-        ttfb:            nav.responseStart            || 0,
-        fcp:             fcpEntry ? fcpEntry.startTime : 0,
-        lcp:             data.lcp                     || 0,
-        cls:             data.cls                     || 0,
-        tbt:             data.tbt                     || 0,
-        domLoad:         nav.domContentLoadedEventEnd || 0,
-        pageLoad:        nav.loadEventEnd             || 0,
-        transferSize:    nav.transferSize             || 0,
-        encodedBodySize: nav.encodedBodySize          || 0,
-        decodedBodySize: nav.decodedBodySize          || 0,
+        ttfb: nav.responseStart || 0,
+        fcp: fcpEntry ? fcpEntry.startTime : 0,
+        lcp: data.lcp || 0,
+        cls: data.cls || 0,
+        tbt: data.tbt || 0,
+        domLoad: nav.domContentLoadedEventEnd || 0,
+        pageLoad: nav.loadEventEnd || 0,
+        transferSize: nav.transferSize || 0,
+        encodedBodySize: nav.encodedBodySize || 0,
+        decodedBodySize: nav.decodedBodySize || 0,
         resourceWeight,
       };
     });
@@ -248,19 +248,19 @@ async function measurePage(pageConfig) {
     path: pageConfig.path,
     runs,
     summary: {
-      ttfb:            median(runs.map((r) => r.ttfb)),
-      fcp:             median(runs.map((r) => r.fcp)),
-      lcp:             median(runs.map((r) => r.lcp)),
-      cls:             median(runs.map((r) => r.cls)),
-      tbt:             median(runs.map((r) => r.tbt)),
-      domLoad:         median(runs.map((r) => r.domLoad)),
-      pageLoad:        median(runs.map((r) => r.pageLoad)),
-      transferSize:    median(runs.map((r) => r.transferSize)),
+      ttfb: median(runs.map((r) => r.ttfb)),
+      fcp: median(runs.map((r) => r.fcp)),
+      lcp: median(runs.map((r) => r.lcp)),
+      cls: median(runs.map((r) => r.cls)),
+      tbt: median(runs.map((r) => r.tbt)),
+      domLoad: median(runs.map((r) => r.domLoad)),
+      pageLoad: median(runs.map((r) => r.pageLoad)),
+      transferSize: median(runs.map((r) => r.transferSize)),
       decodedBodySize: median(runs.map((r) => r.decodedBodySize)),
       resourceWeight: {
-        js:    median(runs.map((r) => r.resourceWeight?.js    ?? 0)),
-        css:   median(runs.map((r) => r.resourceWeight?.css   ?? 0)),
-        img:   median(runs.map((r) => r.resourceWeight?.img   ?? 0)),
+        js: median(runs.map((r) => r.resourceWeight?.js ?? 0)),
+        css: median(runs.map((r) => r.resourceWeight?.css ?? 0)),
+        img: median(runs.map((r) => r.resourceWeight?.img ?? 0)),
         other: median(runs.map((r) => r.resourceWeight?.other ?? 0)),
         total: median(runs.map((r) => r.resourceWeight?.total ?? 0)),
       },
@@ -312,13 +312,13 @@ async function fetchPSI(pageUrl) {
       const crux = data.loadingExperience?.metrics || {};
 
       results[strategy] = {
-        score:  score != null ? Math.round(score * 100) : null,
+        score: score != null ? Math.round(score * 100) : null,
         lab: {
           fcp: audits['first-contentful-paint']?.displayValue,
           lcp: audits['largest-contentful-paint']?.displayValue,
           tbt: audits['total-blocking-time']?.displayValue,
           cls: audits['cumulative-layout-shift']?.displayValue,
-          si:  audits['speed-index']?.displayValue,
+          si: audits['speed-index']?.displayValue,
           tti: audits['interactive']?.displayValue,
         },
         // CrUX field data (real-user 75th percentile) — may be absent for low-traffic pages
@@ -360,15 +360,15 @@ function printPageReport(result) {
   console.log(`  ${'─'.repeat(60)}`);
 
   printMetricRow('HTTP Status', null, String(result.runs[0]?.httpStatus ?? 'N/A'), null);
-  printMetricRow('TTFB',        s.ttfb,  fmtMs(s.ttfb),    THRESHOLDS.ttfb);
-  printMetricRow('FCP',         s.fcp,   fmtMs(s.fcp),     THRESHOLDS.fcp);
-  printMetricRow('LCP',         s.lcp,   fmtMs(s.lcp),     THRESHOLDS.lcp);
-  printMetricRow('CLS',         s.cls,   fmtCls(s.cls),    THRESHOLDS.cls);
-  printMetricRow('TBT',         s.tbt,   fmtMs(s.tbt),     THRESHOLDS.tbt);
-  printMetricRow('DOM Load',    null,    fmtMs(s.domLoad),  null);
-  printMetricRow('Page Load',   null,    fmtMs(s.pageLoad), null);
-  printMetricRow('Doc Transfer Size', null, fmtBytes(s.transferSize),    null);
-  printMetricRow('Doc Decoded Size',  null, fmtBytes(s.decodedBodySize), null);
+  printMetricRow('TTFB', s.ttfb, fmtMs(s.ttfb), THRESHOLDS.ttfb);
+  printMetricRow('FCP', s.fcp, fmtMs(s.fcp), THRESHOLDS.fcp);
+  printMetricRow('LCP', s.lcp, fmtMs(s.lcp), THRESHOLDS.lcp);
+  printMetricRow('CLS', s.cls, fmtCls(s.cls), THRESHOLDS.cls);
+  printMetricRow('TBT', s.tbt, fmtMs(s.tbt), THRESHOLDS.tbt);
+  printMetricRow('DOM Load', null, fmtMs(s.domLoad), null);
+  printMetricRow('Page Load', null, fmtMs(s.pageLoad), null);
+  printMetricRow('Doc Transfer Size', null, fmtBytes(s.transferSize), null);
+  printMetricRow('Doc Decoded Size', null, fmtBytes(s.decodedBodySize), null);
   const rw = s.resourceWeight;
   if (rw && rw.total > 0) {
     const totalStr = `${fmtBytes(rw.total)}  (JS: ${fmtBytes(rw.js)}, CSS: ${fmtBytes(rw.css)}, Img: ${fmtBytes(rw.img)}${rw.other ? `, Other: ${fmtBytes(rw.other)}` : ''})`;
@@ -411,8 +411,8 @@ function printPSIReport(psiData) {
 
 async function main() {
   console.log(`\n${C.bold}${C.cyan}╔══════════════════════════════════════════════════════════════╗`);
-  console.log(  `║              Orionrobots Web Performance Report              ║`);
-  console.log(  `╚══════════════════════════════════════════════════════════════╝${C.reset}`);
+  console.log(`║              Orionrobots Web Performance Report              ║`);
+  console.log(`╚══════════════════════════════════════════════════════════════╝${C.reset}`);
 
   console.log(`\n  ${C.bold}Base URL:${C.reset}  ${BASE_URL}`);
   console.log(`  ${C.bold}Date:${C.reset}      ${new Date().toISOString()}`);
