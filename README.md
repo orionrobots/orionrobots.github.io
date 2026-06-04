@@ -5,36 +5,34 @@ Orionrobots website source
 CC BY SA 3.0 - <http://creativecommons.org/licenses/by-sa/3.0/>
 Creative Commons By Attribution Share-Alike v3.0
 
+## Creating a new blog post
+
+The canonical way to scaffold a new dated blog post is with the helper script:
+
+```bash
+.github/scripts/new_post.sh "Your Post Title"
+```
+
+This will:
+
+- Slugify the title and today's date into a filename
+- Create the folder `content/YYYY/MM/` if it doesn't exist
+- Write a markdown file with frontmatter (title, date, thumbnail placeholder)
+- Open the new file in VS Code
+
+To use a specific date instead of today:
+
+```bash
+.github/scripts/new_post.sh --date 2026-06-01 "Your Post Title"
+```
+
+See [.github/scripts/README.md](.github/scripts/README.md) for further script details.
+
 ## Project tooling strategy
 
 This project takes a docker compose first strategy. This is to ensure that the environment things are built in is consistent, and the commands used to build, test and verify in are consistent docker compose variations too.
 
 Some of the tooling is in python, but the majority is in JS with Node. Since the front end is mostly JS, tooling should aim to be written with this.
-
-## Running serve and build in docker
-
-
-### Recommended: Using Docker Compose
-
-Build the dist and serve:
-```bash
-docker compose up --build --remove-orphans
-```
-
-Get a bash prompt in the serve container:
-```bash
-docker compose run shell
-```
-
-**Note:** `node_modules` are managed inside the container. You do not need to run `npm install` on your host.
-
-## Running Tests
-
-This project uses BDD (Behavior-Driven Development) tests with Gherkin syntax powered by Cucumber.js.
-
-### Running Integration Tests
-
-See [tests/README.md](tests/README.md) for details on running the BDD integration tests.
 
 ## Preparing to contribute
 
@@ -50,7 +48,30 @@ You should create a named branch for your changes, before committing, as using P
 git checkout -b my-feature-branch
 ```
 
-## Current project structure
+### Recommended: Using Docker Compose
+
+Build the dist and serve:
+```bash
+docker compose up --build --remove-orphans
+```
+
+Get a bash prompt in the serve container:
+```bash
+docker compose run shell
+```
+
+**Note:** `node_modules` are managed inside the container. You do not need to run `npm install` on your host.
+
+### Running locally
+
+You may need to determine dependencies - the docker method is preferred. Direct `npm` usage on the host is discouraged to avoid version mismatches.
+
+## Running Tests
+
+This project uses BDD (Behavior-Driven Development) tests with Gherkin syntax powered by Cucumber.js.
+See [tests/README.md](tests/README.md) for details on running the BDD integration tests.
+
+## Project structure
 
 Note - the goal is to arrive at a better structure, that is a work in progress.
 
@@ -70,10 +91,6 @@ Note - the goal is to arrive at a better structure, that is a work in progress.
 - src -> Eleventy etensions in JS, scss style stuff. All used in site generation
 - / - config scripts for eleventy, tools, linters, readmes. Dockerfiles for serving, some utility tools. It has the main content index and favicon, which should not be there.
 
-## Running locally
-
-You may need to determine dependencies - the docker method is preferred. Direct `npm` usage on the host is discouraged to avoid version mismatches.
-
 ## If you make changes to htaccess
 
 For an experience closer to hosting, use docker compose:
@@ -91,7 +108,7 @@ orionrobotsgithubio-web-1  | ruby 3.1.1p18 (2022-02-18 revision 53f5fc4236) [x86
 The staging test environment uses Docker Compose to run the built site with Apache configuration that mirrors the hosting environment. This environment:
 
 - Tests the site with Apache configuration that mirrors the hosting environment
-- Validates that htaccess rules work correctly  
+- Validates that htaccess rules work correctly
 - Ensures the site serves properly before deployment
 
 ### Running the Staging Environment
@@ -111,4 +128,3 @@ The staging service will be available at http://localhost:8080
 The staging environment automatically uses the consolidated `httpd_serve` Docker stage from the main Dockerfile, ensuring consistency between development and CI/CD environments.
 
 The staging tests run automatically in CI/CD workflows when changes are pushed to the master branch or in pull requests.
-

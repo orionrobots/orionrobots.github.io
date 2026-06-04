@@ -22,7 +22,7 @@ FROM dcycle/broken-link-checker:3 AS broken_link_checker
 # HTTP serve: serves the built static site via Apache
 # For staging: build context is _site/ which must contain httpd.conf
 # For local testing: build context is repo root; config is at .github/scripts/staging/default.conf
-FROM httpd:2.4.66 AS httpd_serve
+FROM httpd:2.4.67 AS httpd_serve
 
 RUN apt-get update && apt-get install -y curl && rm -rf /var/lib/apt/lists/*
 
