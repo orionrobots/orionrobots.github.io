@@ -1,7 +1,7 @@
 ---
 title: Learn Robotics Programming, 3rd Edition is published tomorrow
 date: 2026-05-28
-thumbnail: /content/2026/05/28-learn-robotics-programming-3rd-edition-is-published-tomorrow/2026-05-28 Learn robotics 3rd edition cover.png
+thumbnail: 2026-05-28 Learn robotics 3rd edition cover.png
 tags: [learn robotics programming, robotics books, raspberry pi, python, robot building, mqtt, opencv, computer vision, voice recognition, monte carlo localisation, pyinfra, robot power]
 ---
 Tomorrow my book, **Learn Robotics Programming, 3rd Edition**, is published, and I am properly excited about this one.
