@@ -129,3 +129,23 @@ services:
       - ./package-lock.json:/app/src/package-lock.json
     profiles:
       - manual
+
+  # Page performance / Core Web Vitals measurement
+  # Usage (production):  docker compose run perf
+  # Usage (local):       BASE_URL=http://serve:8081 docker compose run perf
+  # See .env.example for all configuration options.
+  perf:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      target: tests
+    volumes:
+      - ./tests:/app/src/tests
+      - ./package.json:/app/src/package.json
+      - ./package-lock.json:/app/src/package-lock.json
+    env_file:
+      - path: .env
+        required: false
+    command: ["node", "tests/perf/measure-vitals.js"]
+    profiles:
+      - manual
