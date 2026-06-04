@@ -71,7 +71,7 @@ cp .env.example .env
 
 | Variable | Default | Description |
 |----------|---------|-------------|
-| `BASE_URL` | `https://orionrobots.github.io` | Site to test |
+| `BASE_URL` | `https://orionrobots.co.uk` | Site to test |
 | `PAGESPEED_API_KEY` | *(empty)* | Google Cloud API key for PageSpeed Insights |
 | `PERF_RUNS` | `3` | Playwright runs per page (median is reported) |
 | `OUTPUT_JSON` | *(empty)* | File path to save a JSON report |
@@ -105,12 +105,12 @@ Compare runs manually, or commit specific snapshots with a meaningful name.
 ║              Orionrobots Web Performance Report              ║
 ╚══════════════════════════════════════════════════════════════╝
 
-  Base URL:  https://orionrobots.github.io
+  Base URL:  https://orionrobots.co.uk
   Date:      2026-06-04T10:00:00.000Z
   Runs:      3 per page (uncached fresh browser context)
   PSI:       Skipped (set PAGESPEED_API_KEY to enable)
 
-Measuring: Homepage (https://orionrobots.github.io/)
+Measuring: Homepage (https://orionrobots.co.uk/)
   Run 1/3 ... FCP=1.23s  LCP=2.10s  CLS=0.042
   Run 2/3 ... FCP=1.18s  LCP=2.05s  CLS=0.038
   Run 3/3 ... FCP=1.21s  LCP=2.08s  CLS=0.040

@@ -140,9 +140,8 @@ services:
       dockerfile: Dockerfile
       target: tests
     volumes:
-      - ./tests:/app/src/tests
-      - ./package.json:/app/src/package.json
-      - ./package-lock.json:/app/src/package-lock.json
+      - .:/app/src
+      - /app/src/node_modules
     env_file:
       - path: .env
         required: false

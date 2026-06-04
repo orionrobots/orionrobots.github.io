@@ -11,7 +11,7 @@
  *   node tests/perf/measure-vitals.js
  *
  * Environment variables (can be placed in .env — see .env.example):
- *   BASE_URL           Target site base URL (default: https://orionrobots.github.io)
+ *   BASE_URL           Target site base URL (default: https://orionrobots.co.uk)
  *   PAGESPEED_API_KEY  Google Cloud API key for PageSpeed Insights (optional)
  *   PERF_RUNS          Playwright measurement runs per page (default: 3)
  *   OUTPUT_JSON        File path to write JSON report (optional)
@@ -200,7 +200,7 @@ async function measureSingleRun(url) {
       });
 
       return {
-        ttfb: nav.responseStart || 0,
+        ttfb: (nav.responseStart - nav.requestStart) || 0,
         fcp: fcpEntry ? fcpEntry.startTime : 0,
         lcp: data.lcp || 0,
         cls: data.cls || 0,
