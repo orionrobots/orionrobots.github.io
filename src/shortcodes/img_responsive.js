@@ -9,7 +9,7 @@ const fetch_image = require("../fetch_image.js");
  * - Project-root paths (e.g., "galleries/...", "content/...") are used as-is
  * - Absolute paths (e.g., "/content/...", "https://...") are used as-is
  */
-async function img_responsive(src, alt, sizes = "100vw, 720, 820, 940, 1140, 1280", class_names = "img-responsive") {
+async function img_responsive(src, alt, sizes = "(max-width: 767px) 100vw, (max-width: 991px) 720px, 940px", class_names = "img-responsive") {
     // Resolve relative paths relative to the current page
     let resolvedSrc = src;
 

@@ -57,7 +57,7 @@ async function thumbnail_for_post(post) {
         const metadata = await make_thumbnail_for(imageSrc);
         const imageAttributes = {
             alt: post.data.title,
-            sizes: "128, 256",
+            sizes: "128px",
             loading: "lazy",
             decoding: "async",
             class: "media-object index_post_thumb",
