@@ -17,7 +17,8 @@
     "new-post": ".github/scripts/new_post.sh",
     "test:smoke:webpack": "ts-node --project tests/smoke/tsconfig.json tests/smoke/webpack.test.ts",
     "test:smoke:eleventy": "ts-node --project tests/smoke/tsconfig.json tests/smoke/eleventy.test.ts",
-    "lint:ts": "ts-standard tests/smoke"
+    "lint:ts": "ts-standard tests/smoke",
+    "test:perf": "node tests/perf/measure-vitals.js"
   },
   "repository": {
     "type": "git",
