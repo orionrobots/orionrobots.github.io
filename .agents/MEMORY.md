@@ -15,6 +15,14 @@
 - Sidebar layout: `_includes/layouts/default.liquid` → `<aside class="col-md-4">` → includes `sidebar-book.liquid`
 - Images in sidebar use the `{% image "path", "alt", "widths", "classes" %}` shortcode (mapped to `img_responsive` in `.eleventy.js`).
 
+## Local validation
+
+- Script: `.github/scripts/validate-local-build.sh`
+- Prerequisite: `docker compose --profile manual up -d http_serve` (port 8082), then run the script.
+- Runs: smoke checks → AVIF count check → BDD tests against local http_serve.
+- BDD command: `docker run --rm --network orionrobotsgithubio_default -e BASE_URL=http://orionrobotsgithubio-http_serve-1 -v ... orionrobotsgithubio-test npm run test:bdd`
+- **Known limitation**: Gallery redirect scenario (test 5) fails locally — htaccess rewrites not applied by http_serve. Issue: #413. Expected: 4/5 BDD pass locally.
+
 ## Performance testing
 
 - Script: `tests/perf/measure-vitals.js` — run with `docker compose run perf` or `npm run test:perf`
