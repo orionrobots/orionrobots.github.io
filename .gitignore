@@ -78,3 +78,9 @@ thumbnails
 *.tar
 *.tgz
 *.zip
+
+# Local environment / secrets
+.env
+
+# Performance test JSON reports
+perf-report*.json
