@@ -28,6 +28,9 @@ on:
       - '_config.yml'
       - 'google*.html'
       - 'ads.txt'
+      - 'Dockerfile'
+      - 'docker-compose.yml'
+      - 'docker-compose.ci.yml'
 
 concurrency:
   group: site_building
