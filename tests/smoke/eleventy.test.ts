@@ -20,6 +20,13 @@ interface BuildResult {
   output: string
 }
 
+function isTimeoutError (error: unknown): boolean {
+  return typeof error === 'object' &&
+    error !== null &&
+    'code' in error &&
+    error.code === 'ETIMEDOUT'
+}
+
 function writeOutput (name: string, value: string): void {
   const outputFile = process.env.GITHUB_OUTPUT
   if (outputFile !== undefined && outputFile !== '') {
@@ -70,7 +77,7 @@ function runBuild (): BuildResult {
   return {
     buildTimeMs,
     exitCode: result.status,
-    timedOut: (result.error as NodeJS.ErrnoException | undefined)?.code === 'ETIMEDOUT',
+    timedOut: isTimeoutError(result.error),
     output: (result.stdout ?? '') + (result.stderr ?? '')
   }
 }
