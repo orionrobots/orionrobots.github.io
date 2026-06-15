@@ -1,0 +1,12 @@
+[project]
+name = "anker-power-supply-image-edit"
+version = "0.1.0"
+requires-python = ">=3.12"
+dependencies = [
+    "opencv-python",
+    "pillow",
+    "numpy",
+    "matplotlib",
+    "ipykernel",
+    "jupyter",
+]
