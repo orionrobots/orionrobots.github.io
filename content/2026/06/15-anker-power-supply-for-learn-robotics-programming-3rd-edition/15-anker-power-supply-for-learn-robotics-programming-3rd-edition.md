@@ -2,7 +2,7 @@
 title: Anker power supply for Learn Robotics Programming 3rd edition
 date: 2026-06-15
 tags: [robotics, power supply, anker, learn robotics programming, book]
-thumbnail: anker-nano-power-supply.png
+thumbnail: robot-with-nanopower-supply.png
 ---
 Today it has come to my attention that the recommended Anker 321 battery supply for the Learn Robotics Programming 3rd edition book is no longer available, and [has been recalled](https://www.anker.com/uk/a1112-recall).
 
@@ -11,6 +11,8 @@ I have found a suitable replacement that will work just as well for your robotic
 {% img_responsive "anker-nano-power-supply.png", "Anker Nano A1638 45W charger" %}
 
 My recommendation is the Anker Nano A1638 45W charger. This is compact and reliable. It friction fits the rear of the robot so also doesn't slide around.
+
+{% img_responsive "robot-with-nanopower-supply.png", "Anker Nano A1638 45W Charger in Robot" %}
 
 Although it says it can "charge-through", it is still recommended to shut down the Pi before charging the Anker A1638, as the power supply to the Pi is interrupted when the charger is connected.
 
