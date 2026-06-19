@@ -1,9 +1,11 @@
 ---
-title: Anker power supply for Learn Robotics Programming 3rd edition
+title: Safety erratum for Anker power supply for Learn Robotics Programming 3rd edition
 date: 2026-06-15
 tags: [robotics, power supply, anker, learn robotics programming, book]
 thumbnail: robot-with-nanopower-supply.png
 ---
+This is a safety-related erratum for Learn Robotics Programming 3rd Edition.
+
 Today it has come to my attention that the recommended Anker 321 battery supply for the Learn Robotics Programming 3rd edition book is no longer available, and [has been recalled](https://www.anker.com/uk/a1112-recall).
 
 I have found a suitable replacement that will work just as well for your robotics projects.
