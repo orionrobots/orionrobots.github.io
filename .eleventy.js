@@ -49,6 +49,7 @@ module.exports = function (eleventyConfig) {
   });
 
   eleventyConfig.addWatchTarget("src/**/*");
+  eleventyConfig.addWatchTarget("galleries/**/*");
   let $collectionApi = null;
 
   eleventyConfig.addCollection("posts", function (collectionApi) {

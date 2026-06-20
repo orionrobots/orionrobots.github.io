@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Semiconductor
-tags: [electrics]
+tags: [electronics]
 date: 2005-09-01 21:26:34
 ---
 A semiconductor is a material which only conducts electricity under certain conditions. They are a number of these materials in common usage, the most ubiquitous being silicon and germanium.
