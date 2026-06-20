@@ -69,6 +69,7 @@ CHEVRON_COLOUR = "#3D3D3D"
 TITLE_SIZE     = 115
 TITLE_LINE_GAP = 25    # extra spacing between title lines so descenders don't crowd
 SUBTEXT_SIZE   = 55
+SUBTEXT_GAP    = 80    # px between last title line and subtext
 TITLE_LINES    = ["Learn Robotics", "Programming 3rd Edition"]
 SUBTEXT        = "Available on Packt & Amazon"
 
@@ -149,8 +150,7 @@ def draw_text_block(draw: ImageDraw.ImageDraw, canvas_h: int):
     sub_h        = sub_box[3] - sub_box[1]
 
     inter_title_gap = TITLE_LINE_GAP * max(0, len(TITLE_LINES) - 1)
-    gap_before_sub  = 20 * 2
-    total_h = sum(line_heights) + inter_title_gap + gap_before_sub + sub_h
+    total_h = sum(line_heights) + inter_title_gap + SUBTEXT_GAP + sub_h
     y = (canvas_h - total_h) // 2
 
     for i, (line, lh) in enumerate(zip(TITLE_LINES, line_heights)):
@@ -159,7 +159,7 @@ def draw_text_block(draw: ImageDraw.ImageDraw, canvas_h: int):
         if i < len(TITLE_LINES) - 1:
             y += TITLE_LINE_GAP
 
-    y += gap_before_sub
+    y += SUBTEXT_GAP
     draw.text((TEXT_START_X, y), SUBTEXT, fill=SUBTEXT_COLOUR, font=subtext_font)
 
 
@@ -193,6 +193,10 @@ def make_banner():
     thumb = rgb.resize((2048, round(H * scale_2048)), Image.LANCZOS)
     thumb.save(str(OUT_2048), "PNG", optimize=True)
     print(f"Saved {OUT_2048}  {thumb.size}")
+
+    index_md = REPO_ROOT / "index.md"
+    index_md.touch()
+    print(f"Touched {index_md} to trigger Eleventy rebuild")
 
 
 if __name__ == "__main__":
