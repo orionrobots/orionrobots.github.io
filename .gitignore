@@ -84,3 +84,11 @@ thumbnails
 
 # Performance test JSON reports
 perf-report*.json
+
+# Image manipulation tooling — keep scripts in orionrobots-agent-memories instead
+_image_sources/**/*.py
+_image_sources/**/*.ipynb
+_image_sources/**/pyproject.toml
+_image_sources/**/*.lock
+_image_sources/**/.venv/
+_image_sources/**/__pycache__/
