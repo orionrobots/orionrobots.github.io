@@ -41,22 +41,23 @@ OUT_FULL = GALLERIES_2026 / "Learn-robotics-programming-3rd-edition-banner-2835.
 OUT_2048 = GALLERIES_2026 / "Learn-robotics-programming-3rd-edition-banner-2048.png"
 
 # Canvas dimensions
-W, H = 2835, 920
+W, H = 2835, 780
 
 # Layout
-BOOK_PANEL_W     = 530
-TEXT_START_X     = 560   # left edge of title within the centre panel
+BOOK_PANEL_W     = 620
+TEXT_START_X     = 650   # left edge of title within the centre panel
 
 # Photo crop fractions (proportion of image dimensions removed from each edge)
 # left:   remove conservatory wall on Danny's left
 # right:  clip the bin in the far-right corner while keeping the rightmost robot
 # top:    reduce empty headspace
 # bottom: keep all robots at the bottom (no crop)
-PHOTO_CROP = dict(left=0.17, right=0.08, top=0.05, bottom=0.00)
+PHOTO_CROP = dict(left=0.17, right=0.08, top=0.07, bottom=0.13)
 
 CHEVRON_DEPTH    = 110   # px — how far the tip protrudes into the photo
 
-BOOK_COVER_PADDING = 10  # px each side in the book-cover panel; smaller = bigger cover
+BOOK_COVER_PADDING_H = 10   # px left/right in the book-cover panel
+BOOK_COVER_PADDING_V = 4    # px top/bottom in the book-cover panel
 
 # Colours
 DARK_BG        = (61, 61, 61, 255)   # #3D3D3D
@@ -119,11 +120,11 @@ def scale_to_height(img: Image.Image, height: int) -> Image.Image:
 
 
 def fit_book_cover(
-    cover_path: Path, panel_w: int, panel_h: int, padding: int = 10
+    cover_path: Path, panel_w: int, panel_h: int, padding_h: int = 10, padding_v: int = 10
 ) -> tuple[Image.Image, int, int]:
     """Load cover, thumbnail to fit within padded panel; return (image, paste_x, paste_y)."""
     cover = Image.open(cover_path).convert("RGBA")
-    cover.thumbnail((panel_w - 2 * padding, panel_h - 2 * padding), Image.LANCZOS)
+    cover.thumbnail((panel_w - 2 * padding_h, panel_h - 2 * padding_v), Image.LANCZOS)
     paste_x = (panel_w - cover.width) // 2
     paste_y = (panel_h - cover.height) // 2
     return cover, paste_x, paste_y
@@ -172,7 +173,7 @@ def make_banner():
     photo_scaled  = scale_to_height(photo_cropped, H)
     photo_x       = W - photo_scaled.width   # right-aligned
 
-    cover, cover_px, cover_py = fit_book_cover(LRP3_COVER, BOOK_PANEL_W, H, BOOK_COVER_PADDING)
+    cover, cover_px, cover_py = fit_book_cover(LRP3_COVER, BOOK_PANEL_W, H, BOOK_COVER_PADDING_H, BOOK_COVER_PADDING_V)
 
     canvas = Image.new("RGBA", (W, H), DARK_BG)
     canvas.paste(photo_scaled.convert("RGBA"), (photo_x, 0))

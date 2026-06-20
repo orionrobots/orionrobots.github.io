@@ -14,7 +14,7 @@ eleventyExcludeFromCollections: true
 At Orionrobots, Danny and his team build robots, electronics, gadgets and stuff that moves.
 We aim to make robots easy for anyone to build, and push the boundaries of what is easy. Oh and just to have lots of fun doing it too!
 
-<a href="https://www.amazon.com/dp/1803246987/" title="Learn Robotics Programming 3rd Edition - available on Packt and Amazon">{% img_responsive "galleries/2026/Learn-robotics-programming-3rd-edition-banner-2835.png", "Learn Robotics Programming 3rd Edition - available on Packt and Amazon" %}</a>
+<a href="https://www.amazon.com/dp/1803246987/" title="Learn Robotics Programming 3rd Edition - available on Packt and Amazon" class="d-block">{% img_responsive "galleries/2026/Learn-robotics-programming-3rd-edition-banner-2835.png", "Learn Robotics Programming 3rd Edition - available on Packt and Amazon", "100vw", "img-responsive w-100", "300,720,940,1440,2048,2835" %}</a>
 
 Discuss [robot building on Our Discord Server](https://discord.gg/sMnPxFhAe2)!
 
