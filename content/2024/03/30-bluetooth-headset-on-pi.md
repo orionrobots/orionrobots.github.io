@@ -43,9 +43,9 @@ The bluealsa part starts the bluealsa service with the profiles that are needed 
 
 ## Update the bluealsa service to run the helper
 
-You can add an override to the bluealsa service with this helper - run `sudo nano /etc/systemd/system/bluealsa.service.d/override.conf` and add this file:
+You can add an override to the bluealsa service with this helper - run `sudo mkdir -p /etc/systemd/system/bluealsa.service.d` then `sudo nano /etc/systemd/system/bluealsa.service.d/override.conf` and add this file:
 
-```toml
+```ini
 [Service]
 ExecStart=
 ExecStart=/usr/bin/bluealsa-start-helper
@@ -90,7 +90,7 @@ This will pair and trust the device. It's a good idea to turn the other things b
 discoverable off
 pairable off
 agent off
-default-agent
+scan off
 ```
 Note - `scan off` doesn't appear to work. Your Pi may be slow with this left on.
 
