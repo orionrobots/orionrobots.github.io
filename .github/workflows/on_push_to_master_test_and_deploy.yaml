@@ -68,7 +68,7 @@ jobs:
 
       # Sync the files
       - name: Sync the site over
-        uses: burnett01/rsync-deployments@66257cad6bfeb2171d3b6bfa6c9a22279dd9c3a1 # v8.0.5
+        uses: burnett01/rsync-deployments@4d419d1dc46d4a8a2b6ceab2f951f0f93b2da8f5 # v9
         with:
           switches: -a
           path: _site/
@@ -112,7 +112,7 @@ jobs:
 
       - name: Copy over the netlify-cms-oauth-provider-php files
         if: steps.filter.outputs.any_changed == 'true'
-        uses: burnett01/rsync-deployments@66257cad6bfeb2171d3b6bfa6c9a22279dd9c3a1 # v8.0.5
+        uses: burnett01/rsync-deployments@4d419d1dc46d4a8a2b6ceab2f951f0f93b2da8f5 # v9
         with:
           switches: -a
           path: netlify-cms-oauth-provider-php/
@@ -134,7 +134,7 @@ jobs:
 
       - name: Copy over the oauth environment file
         if: steps.filter.outputs.any_changed == 'true'
-        uses: burnett01/rsync-deployments@66257cad6bfeb2171d3b6bfa6c9a22279dd9c3a1 # v8.0.5
+        uses: burnett01/rsync-deployments@4d419d1dc46d4a8a2b6ceab2f951f0f93b2da8f5 # v9
         with:
           switches: -a
           path: netlify-cms-oauth-provider-php/.env.local
