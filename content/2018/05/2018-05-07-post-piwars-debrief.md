@@ -22,6 +22,8 @@ The Pi Noon event went somewhat better, with our robot making it through a first
 
 The best event for me was the duck shot. I wasn't really sure what to expect, as I'd not built a neat nerf shooter on my robot, so I was going for bowling. However, the front of my robot had the wrong shape, and when playing it bowling style, couldn't cross the line. My solution - to turn the controller upside down - and the robot around. That way I could use the flat surface on the back of the robot to push the balls in. This worked beautifully - scoring me 11 out of a possible 15. This earned me a respectable second place in that event in the intermediate category. I rather enjoyed that driving, so I'm not sure if I'd go for a Nerf shooter, or just get my technique to hit perfect on all the bowls!
 
+{% img_responsive "content/2018/05/piwars-2018-duck-shoot.jpg", "The Duck Shoot arena at Pi Wars 2018, with the robot lined up behind the balls" %}
+
 We placed an overall 12 out of 14 in the intermediates, having learned a lot. Two big things really which are plan more and test more, but following on from those, get the power and wiring right as it really let us down plenty.
 
 While at Piwars I caught up with plenty of amazing people crossing the Raspberry Pi, electronics and robot building community including Pimoroni, OhBot, Red Robotics, Cat Lamin with PiTop, PiBorg, ModMyPi.
