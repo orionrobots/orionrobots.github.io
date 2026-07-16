@@ -1,7 +1,7 @@
 ---
 title: Rebuilding a 3D printer enclosure frame
 date: 2026-07-14
-tags: [3D printing]
+tags: [3d printing]
 thumbnail: unitak-enclosure-frame-damage.jpg
 ---
 My 3d printer has an enclosure, from [Unitak](https://www.amazon.co.uk/Enclosure-Protective-Compatible-Fireproof-Temperature-825/dp/B0DKBYQ4GS).
