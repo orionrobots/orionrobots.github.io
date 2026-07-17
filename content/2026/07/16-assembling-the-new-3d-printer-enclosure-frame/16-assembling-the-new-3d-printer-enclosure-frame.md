@@ -4,7 +4,7 @@ date: 2026-07-16
 tags: [3d printing, robot building]
 thumbnail: new-frame-in-place-with-printer.jpg
 ---
-In the [last post](/2026/07/14/14-rebuilding-a-3d-printer-enclosure-frame.html) I was planning a replacement for my 3D printer enclosure's frame - swapping the fibreglass rods and plastic corners that the cat had cracked for aluminium extrusion and metal corner brackets from [ooznest.co.uk](https://ooznest.co.uk). The parts have now arrived, and it was time to build it.
+In the [last post](/2026/07/14/14-rebuilding-a-3d-printer-enclosure-frame.html) I was planning a replacement for my 3D printer enclosure's frame - swapping the fibreglass rods and plastic corners that the cat had cracked for zinc-alloy corner brackets and aluminium extrusion from [ooznest.co.uk](https://ooznest.co.uk). The parts have now arrived, and it was time to build it.
 
 ## The parts arrive
 
@@ -74,6 +74,6 @@ It fits really snug, which is a huge moment of relief as my measurements were co
 
 ## Wrapping up
 
-Overall, I'm hugely happy with how this went together, and hats off to [ooznest.co.uk](https://ooznest.co.uk) for the metal parts. The new frame is far more rigid and solid than the fibreglass, and should last a lot longer, as well as being cat proof. Being common metal parts, and common corner parts, if I see any problems, I can replace them.
+Overall, I'm hugely happy with how this went together, and hats off to [ooznest.co.uk](https://ooznest.co.uk) for the extrusion. The new frame is far more rigid and solid than the fibreglass, and should last a lot longer, as well as being cat proof. Being common metal parts, and common corner parts, if I see any problems, I can replace them.
 
 Now I've used this technique, I could take the same approach - buying cut-to-length aluminium extrusion and corner brackets - to build a robot chassis or other projects too.
