@@ -25,6 +25,11 @@ updates:
     ignore:
       - dependency-name: "*"
         update-types: ["version-update:semver-patch"]
+      # ts-node has no stable release compatible with TypeScript 7's
+      # restructured package exports (require('typescript').sys is gone).
+      # Remove once ts-node (or its replacement) supports TS 7.
+      - dependency-name: "typescript"
+        update-types: ["version-update:semver-major"]
     groups:
       development-dependencies:
         dependency-type: "development"
