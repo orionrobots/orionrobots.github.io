@@ -10,6 +10,7 @@ tags:
 - programming
 - electronics
 - microcontroller
+- music
 title: Raspberry Pi Pico Session with Mini Orionrobots - LED flashing and speaker
   tones.
 ---

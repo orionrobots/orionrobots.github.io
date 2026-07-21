@@ -3,7 +3,7 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-    command: ["npm", "run", "serve"]
+    command: [ "npm", "run", "serve" ]
     volumes:
       - .:/app/src
       - /app/src/node_modules
@@ -17,7 +17,7 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-    command: ["npm", "run", "dist"]
+    command: [ "npm", "run", "dist" ]
     volumes:
       - .:/app/src
       - /app/src/node_modules
@@ -26,7 +26,7 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-    command: ["npm", "run", "11ty"]
+    command: [ "npm", "run", "11ty" ]
     volumes:
       - .:/app/src
       - /app/src/node_modules
@@ -41,7 +41,7 @@ services:
     working_dir: /app/src
     volumes:
       - .:/app/src
-    command: ["rm", "-rf", "dist"]
+    command: [ "rm", "-rf", "dist" ]
     profiles:
       - manual
 
@@ -50,7 +50,7 @@ services:
     working_dir: /app/src
     volumes:
       - .:/app/src
-    command: ["rm", "-rf", "_site"]
+    command: [ "rm", "-rf", "_site" ]
     profiles:
       - manual
 
@@ -59,7 +59,7 @@ services:
       context: .
       dockerfile: Dockerfile
       target: debug
-    command: ["bash"]
+    command: [ "bash" ]
     volumes:
       - .:/app/src
       - /app/src/node_modules
@@ -83,7 +83,7 @@ services:
     ports:
       - 8082:80
     healthcheck:
-      test: ["CMD", "curl", "-o", "/dev/null", "-s", "http://localhost"]
+      test: [ "CMD", "curl", "-o", "/dev/null", "-s", "http://localhost" ]
       interval: 10s
       timeout: 5s
       retries: 5
@@ -96,7 +96,7 @@ services:
       context: .
       dockerfile: Dockerfile
       target: broken_link_checker
-    command: ["http://http_serve"]
+    command: [ "http://http_serve" ]
     profiles:
       - manual
 
@@ -109,7 +109,7 @@ services:
     ports:
       - 8080:80
     healthcheck:
-      test: ["CMD", "curl", "-o", "/dev/null", "-s", "http://localhost"]
+      test: [ "CMD", "curl", "-o", "/dev/null", "-s", "http://localhost" ]
       interval: 10s
       timeout: 5s
       retries: 5
@@ -127,5 +127,24 @@ services:
       - ./tests:/app/src/tests
       - ./package.json:/app/src/package.json
       - ./package-lock.json:/app/src/package-lock.json
+    profiles:
+      - manual
+
+  # Page performance / Core Web Vitals measurement
+  # Usage (production):  docker compose run perf
+  # Usage (local):       BASE_URL=http://serve:8081 docker compose run perf
+  # See .env.example for all configuration options.
+  perf:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      target: tests
+    volumes:
+      - .:/app/src
+      - /app/src/node_modules
+    env_file:
+      - path: .env
+        required: false
+    command: [ "node", "tests/perf/measure-vitals.js" ]
     profiles:
       - manual

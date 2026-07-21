@@ -5,6 +5,7 @@ import { formatDuration, formatFileSize } from './utils'
 
 const ROOT = path.resolve(__dirname, '..', '..')
 const SITE_DIR = path.join(ROOT, '_site')
+const BUILD_TIMEOUT_MS = 10 * 60 * 1000
 
 // Minimum expected HTML files in the built site (to detect major silent skipping)
 const MIN_HTML_FILES = 50
@@ -15,7 +16,15 @@ const REQUIRED_PAGES = ['index.html', 'construction_guide.html']
 interface BuildResult {
   buildTimeMs: number
   exitCode: number | null
+  timedOut: boolean
   output: string
+}
+
+function isTimeoutError (error: unknown): boolean {
+  return typeof error === 'object' &&
+    error !== null &&
+    'code' in error &&
+    error.code === 'ETIMEDOUT'
 }
 
 function writeOutput (name: string, value: string): void {
@@ -59,7 +68,7 @@ function runBuild (): BuildResult {
   const result = spawnSync('node', ['node_modules/.bin/eleventy', '--quiet'], {
     cwd: ROOT,
     encoding: 'utf8',
-    timeout: 360000,
+    timeout: BUILD_TIMEOUT_MS,
     maxBuffer: 10 * 1024 * 1024
   })
 
@@ -68,6 +77,7 @@ function runBuild (): BuildResult {
   return {
     buildTimeMs,
     exitCode: result.status,
+    timedOut: isTimeoutError(result.error),
     output: (result.stdout ?? '') + (result.stderr ?? '')
   }
 }
@@ -80,8 +90,12 @@ function main (): void {
 
   // Catch build failures
   if (result.exitCode !== 0) {
-    const code = result.exitCode !== null ? String(result.exitCode) : 'null'
-    errors.push(`Eleventy build failed with exit code ${code}`)
+    if (result.timedOut) {
+      errors.push(`Eleventy build timed out after ${formatDuration(BUILD_TIMEOUT_MS)}`)
+    } else {
+      const code = result.exitCode !== null ? String(result.exitCode) : 'null'
+      errors.push(`Eleventy build failed with exit code ${code}`)
+    }
     const trimmed = result.output.trim()
     if (trimmed !== '') {
       errors.push(`Output:\n${trimmed}`)

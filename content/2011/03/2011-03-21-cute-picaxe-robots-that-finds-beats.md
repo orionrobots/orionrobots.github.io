@@ -7,6 +7,7 @@ tags:
 - robot news
 - robot building
 - robotics
+- music
 title: A cute little Robot that finds beats
 ---
 I love this video - it brings together two of my favourite things - homebrew hacked robots and music/rhythm experimentation. It uses the Picaxe controller board, caterpillar tracks, and a sonar distance sensor.

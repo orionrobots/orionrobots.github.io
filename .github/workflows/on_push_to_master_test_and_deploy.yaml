@@ -28,6 +28,9 @@ on:
       - '_config.yml'
       - 'google*.html'
       - 'ads.txt'
+      - 'Dockerfile'
+      - 'docker-compose.yml'
+      - 'docker-compose.ci.yml'
 
 concurrency:
   group: site_building
@@ -65,7 +68,7 @@ jobs:
 
       # Sync the files
       - name: Sync the site over
-        uses: burnett01/rsync-deployments@dc0d5d44c4728aad3f02154a87309809e62a960f # v8.0.4
+        uses: burnett01/rsync-deployments@4d419d1dc46d4a8a2b6ceab2f951f0f93b2da8f5 # v9
         with:
           switches: -a
           path: _site/
@@ -85,10 +88,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
 
-      - uses: actions/checkout@v6.0.2
+      - uses: actions/checkout@v7.0.0
 
       - name: Check for workflow changes
-        uses: tj-actions/changed-files@7dee1b0c1557f278e5c7dc244927139d78c0e22a # v47.0.4
+        uses: tj-actions/changed-files@9426d40962ed5378910ee2e21d5f8c6fcbf2dd96 # v47.0.6
         id: filter
         with:
           files: |
@@ -96,7 +99,7 @@ jobs:
 
       # see https://github.com/mcdeck/netlify-cms-oauth-provider-php
       - name: Checkout the netlify-cms-oauth-provider-php
-        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
+        uses: actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0 # v7.0.0
         with:
           repository: mcdeck/netlify-cms-oauth-provider-php
           path: netlify-cms-oauth-provider-php
@@ -109,7 +112,7 @@ jobs:
 
       - name: Copy over the netlify-cms-oauth-provider-php files
         if: steps.filter.outputs.any_changed == 'true'
-        uses: burnett01/rsync-deployments@dc0d5d44c4728aad3f02154a87309809e62a960f # v8.0.4
+        uses: burnett01/rsync-deployments@4d419d1dc46d4a8a2b6ceab2f951f0f93b2da8f5 # v9
         with:
           switches: -a
           path: netlify-cms-oauth-provider-php/
@@ -131,7 +134,7 @@ jobs:
 
       - name: Copy over the oauth environment file
         if: steps.filter.outputs.any_changed == 'true'
-        uses: burnett01/rsync-deployments@dc0d5d44c4728aad3f02154a87309809e62a960f # v8.0.4
+        uses: burnett01/rsync-deployments@4d419d1dc46d4a8a2b6ceab2f951f0f93b2da8f5 # v9
         with:
           switches: -a
           path: netlify-cms-oauth-provider-php/.env.local

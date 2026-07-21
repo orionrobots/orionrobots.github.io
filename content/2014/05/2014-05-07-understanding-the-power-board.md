@@ -6,6 +6,8 @@ tags:
 - electronics
 - power-board
 - soldering
+- cnc
+- cnc-control-box
 title: Understanding the CNC Power Board
 ---
 ![]({{ site.baseurl }}/galleries/inside__control_box/images/img_3027.jpg)

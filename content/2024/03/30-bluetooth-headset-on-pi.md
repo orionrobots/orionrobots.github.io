@@ -43,11 +43,13 @@ The bluealsa part starts the bluealsa service with the profiles that are needed 
 
 ## Update the bluealsa service to run the helper
 
-Edit the file "/lib/systemd/system/bluealsa.service" with `sudo nano /lib/systemd/system/bluealsa.service`.
+You can add an override to the bluealsa service with this helper - run `sudo mkdir -p /etc/systemd/system/bluealsa.service.d` then `sudo nano /etc/systemd/system/bluealsa.service.d/override.conf` and add this file:
 
-Find the line that starts with ExecStart. Make sure that line now looks like this:
-
-`ExecStart=/usr/bin/bluealsa-start-helper`
+```ini
+[Service]
+ExecStart=
+ExecStart=/usr/bin/bluealsa-start-helper
+```
 
 Press `Ctrl+X` to exit, and `Y` to save the file.
 
@@ -82,7 +84,17 @@ pair 7F:71:7C:AB:CD:EF
 trust 7F:71:7C:AB:CD:EF
 ```
 
-This will pair and trust the device. You can now exit bluetoothctl with `exit`. You only need to do this once.
+This will pair and trust the device. It's a good idea to turn the other things back off:
+
+```
+discoverable off
+pairable off
+agent off
+scan off
+```
+Note - `scan off` doesn't appear to work. Your Pi may be slow with this left on.
+
+You can now exit bluetoothctl with `exit`. You only need to do this once.
 
 ## Connect the headset
 
@@ -219,6 +231,7 @@ There are a lot of confusing terms in the bluetooth audio stack that I had to ge
 - HCI - Host Controller Interface - This is the interface between the bluetooth controller and the host (the Raspberry Pi). This is a low level interface, but may be needed to make changes to the bluetooth stack.
 - HFP - Hands Free Profile - This is the profile that is used for audio input and output. This is for things like headsets, and is a bit more complex than A2DP.
 - HFS - Headset Profile - This is the profile that is used for audio input and output. This is for things like headsets, and is a bit more complex than A2DP.
+- PulseAudio - This sits at a layer above ALSA.
 - SCO - Synchronous Connection Oriented - This is a type of bluetooth connection that is used for audio. This is a bit more complex than A2DP, but lets you do two way audio with a microphone.
 
 ## Links

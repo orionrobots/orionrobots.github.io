@@ -6,6 +6,8 @@ tags:
 - cnc projects
 - electronics
 - cnc control box
+- cnc
+- cnc-control-box
 title: CNC - Some new ideas, a plan, disaster!
 ---
 ## Recap

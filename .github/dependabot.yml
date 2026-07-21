@@ -1,14 +1,13 @@
 ---
-# Set update schedule for GitHub Actions
-
 version: 2
 updates:
 
   - package-ecosystem: "github-actions"
     directory: "/"
     schedule:
-      # Check for updates to GitHub Actions every week
       interval: "weekly"
+    cooldown:
+      default-days: 3
     groups:
       artifact-handling:
         patterns:
@@ -18,16 +17,32 @@ updates:
   - package-ecosystem: "npm"
     directory: "/"
     schedule:
-      # Check for updates to npm dependencies every week
       interval: "weekly"
+    cooldown:
+      default-days: 3
+    allow:
+      - dependency-type: "all"      
     ignore:
       - dependency-name: "*"
         update-types: ["version-update:semver-patch"]
-
+    groups:
+      development-dependencies:
+        dependency-type: "development"
+        patterns:
+          - "*"
 
   - package-ecosystem: "docker"
     directories: 
       - "**/*"
     schedule:
-      # Check for updates to Docker images every week
       interval: "weekly"
+    cooldown:
+      default-days: 3
+
+  - package-ecosystem: "pip"
+    directories: 
+      - "**/*"
+    schedule:
+      interval: "weekly"
+    cooldown:
+      default-days: 3

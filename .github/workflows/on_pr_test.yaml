@@ -4,6 +4,20 @@ on:
     branches:
       - master
       - main
+    paths-ignore:
+      - 'README.md'
+      - '.editorconfig'
+      - '.mega-linter.yml'
+      - '.markdown-link-check.json'
+      - '.pre-commit-config.yaml'
+      - '.shellcheckrc'
+      - '_drafts/**'
+      - '.github/copilot-instructions.md'
+      - '.github/agents/**/*.md'
+      - '.github/pull_request_template.md'
+      - '.github/PULL_REQUEST_TEMPLATE/**'
+      - '.github/dependabot.yml'
+
 
 jobs:
   detect_base_image_changes:
@@ -11,11 +25,10 @@ jobs:
     outputs:
       changed: ${{ steps.changes.outputs.any_changed }}
     steps:
-      - uses: actions/checkout@v6.0.2
+      - uses: actions/checkout@v7.0.0
 
       - name: Check for base image related changes
-        # tj-actions/changed-files v44.5.7
-        uses: tj-actions/changed-files@7dee1b0c1557f278e5c7dc244927139d78c0e22a
+        uses: tj-actions/changed-files@9426d40962ed5378910ee2e21d5f8c6fcbf2dd96 # v47.0.6
         id: changes
         with:
           files: |
@@ -42,7 +55,7 @@ jobs:
       pull-requests: write  # Allow commenting on PR
     steps:
       - name: Comment on PR with Docker image link
-        uses: actions/github-script@v8
+        uses: actions/github-script@v9.0.0
         with:
           script: |
             const prNumber = context.issue.number;

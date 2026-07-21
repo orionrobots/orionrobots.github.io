@@ -6,6 +6,7 @@ tags:
 - cnc projects
 - stepper motors
 - tools
+- cnc
 title: CNC Mill Unboxing and Setup
 ---
 {% assign gallery_url="/galleries/unboxing_pictures/images/" %}

@@ -32,8 +32,8 @@
         <meta name="description" content="{{ real_description }}">
 
         {% if thumbnail %}
-            <meta name="og:image" property="og:image" content="{{ BASE_PATH }}/{% thumbnail_from_path thumbnail %}" />
-            <meta name="twitter:image" content="{{ BASE_PATH }}/{% thumbnail_from_path thumbnail %}" />
+            <meta name="og:image" property="og:image" content="{{ BASE_PATH }}/{% thumbnail_from_path thumbnail, page.inputPath %}" />
+            <meta name="twitter:image" content="{{ BASE_PATH }}/{% thumbnail_from_path thumbnail, page.inputPath %}" />
         {% else %}
             <meta name="og:image" property="og:image" content="{{ ASSET_PATH }}/images/social-banner.jpg" />
             <meta name="twitter:image" content="{{ ASSET_PATH }}/images/social-banner.jpg" />
