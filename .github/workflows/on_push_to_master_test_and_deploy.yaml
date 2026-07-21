@@ -4,6 +4,33 @@ on:
   push:
     branches:
       - master
+      - main
+    paths:
+      - '_posts/**'
+      - 'content/**'
+      - 'assets/**'
+      - 'src/**'
+      - 'index.md'
+      - '_includes/**'
+      - '_data/**'
+      - '_image_sources/**'
+      - 'galleries/**'
+      - 'navigation_and_indexes/**'
+      - 'products/**'
+      - '.github/workflows/on_push_to_master_test_and_deploy.yaml'
+      - '.github/workflows/on_call_build_site.yaml'
+      - '.github/workflows/on_call_staging_test.yaml'
+      - 'package.json'
+      - 'package-lock.json'
+      - 'webpack.config.js'
+      - 'favicon.png'
+      - '.eleventy.*'
+      - '_config.yml'
+      - 'google*.html'
+      - 'ads.txt'
+      - 'Dockerfile'
+      - 'docker-compose.yml'
+      - 'docker-compose.ci.yml'
 
 concurrency:
   group: site_building
@@ -12,6 +39,8 @@ concurrency:
 jobs:
   build_site:
     uses: ./.github/workflows/on_call_build_site.yaml
+    with:
+      push_tag: "latest"
 
   staging_test:
     uses: ./.github/workflows/on_call_staging_test.yaml
@@ -23,20 +52,23 @@ jobs:
     needs: staging_test
     steps:
       - name: Fetch site artifact
-        uses: actions/download-artifact@v3
+        uses: actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c # v8.0.1
         with:
           name: _site
+
       - name: extract site artifact
         run: |
           tar -xzf _site.tar.gz
+
       - name: Fetch httpd conf artifact
-        uses: actions/download-artifact@v3
+        uses: actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c # v8.0.1
         with:
           name: httpd.conf
-          path: _drafts/staging/httpd.conf
+          path: .github/scripts/staging/httpd.conf
+
       # Sync the files
       - name: Sync the site over
-        uses: burnett01/rsync-deployments@5.2
+        uses: burnett01/rsync-deployments@4d419d1dc46d4a8a2b6ceab2f951f0f93b2da8f5 # v9
         with:
           switches: -a
           path: _site/
@@ -55,27 +87,32 @@ jobs:
   deploy_oauth_config:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: dorny/paths-filter@v2
+
+      - uses: actions/checkout@v7.0.0
+
+      - name: Check for workflow changes
+        uses: tj-actions/changed-files@9426d40962ed5378910ee2e21d5f8c6fcbf2dd96 # v47.0.6
         id: filter
         with:
-          filters: |
-            workflows:
-              - '.github/workflows/**'
+          files: |
+            .github/workflows/**
+
       # see https://github.com/mcdeck/netlify-cms-oauth-provider-php
       - name: Checkout the netlify-cms-oauth-provider-php
-        uses: actions/checkout@v4
+        uses: actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0 # v7.0.0
         with:
           repository: mcdeck/netlify-cms-oauth-provider-php
           path: netlify-cms-oauth-provider-php
+
       - name: Perform the netlify composer install
-        if: steps.filter.outputs.workflows == 'true'
+        if: steps.filter.outputs.any_changed == 'true'
         run: |
           cd netlify-cms-oauth-provider-php
           composer install
+
       - name: Copy over the netlify-cms-oauth-provider-php files
-        if: steps.filter.outputs.workflows == 'true'
-        uses: burnett01/rsync-deployments@5.2
+        if: steps.filter.outputs.any_changed == 'true'
+        uses: burnett01/rsync-deployments@4d419d1dc46d4a8a2b6ceab2f951f0f93b2da8f5 # v9
         with:
           switches: -a
           path: netlify-cms-oauth-provider-php/
@@ -83,17 +120,21 @@ jobs:
           remote_host: home738752777.1and1-data.host
           remote_user: ${{ secrets.ORIONROBOTS_DEPLOY_USER }}
           remote_key: ${{ secrets.ORIONROBOTS_DEPLOY_KEY }}
+
       - name: Create the oauth environment file
-        if: steps.filter.outputs.workflows == 'true'
+        if: steps.filter.outputs.any_changed == 'true'
         run: |
-          echo "OAUTH_CLIENT_ID=${{ secrets.ORIONROBOTS_OAUTH_CLIENT_ID }}" > netlify-cms-oauth-provider-php/.env.local
-          echo "OAUTH_CLIENT_SECRET=${{ secrets.ORIONROBOTS_OAUTH_CLIENT_SECRET }}" >> netlify-cms-oauth-provider-php/.env.local
-          echo "REDIRECT_URI=https://github-oauth2.orionrobots.co.uk/callback" >> netlify-cms-oauth-provider-php/.env.local
-          echo "ORIGIN=https://orionrobots.co.uk" >> netlify-cms-oauth-provider-php/.env.local
-          echo "APP_ENV=prod" >> netlify-cms-oauth-provider-php/.env.local
+          (
+            echo "OAUTH_CLIENT_ID=${{ secrets.ORIONROBOTS_OAUTH_CLIENT_ID }}"
+            echo "OAUTH_CLIENT_SECRET=${{ secrets.ORIONROBOTS_OAUTH_CLIENT_SECRET }}"
+            echo "REDIRECT_URI=https://github-oauth2.orionrobots.co.uk/callback"
+            echo "ORIGIN=https://orionrobots.co.uk"
+            echo "APP_ENV=prod"
+          ) > netlify-cms-oauth-provider-php/.env.local
+
       - name: Copy over the oauth environment file
-        if: steps.filter.outputs.workflows == 'true'
-        uses: burnett01/rsync-deployments@5.2
+        if: steps.filter.outputs.any_changed == 'true'
+        uses: burnett01/rsync-deployments@4d419d1dc46d4a8a2b6ceab2f951f0f93b2da8f5 # v9
         with:
           switches: -a
           path: netlify-cms-oauth-provider-php/.env.local

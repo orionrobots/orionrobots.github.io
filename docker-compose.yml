@@ -1,8 +1,150 @@
-version: "3.1"
 services:
-  web:
-    build: _drafts/staging
+  serve:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    command: [ "npm", "run", "serve" ]
+    volumes:
+      - .:/app/src
+      - /app/src/node_modules
+    ports:
+      - 8081:8081
+    depends_on:
+      dist:
+        condition: service_completed_successfully
+
+  dist:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    command: [ "npm", "run", "dist" ]
+    volumes:
+      - .:/app/src
+      - /app/src/node_modules
+
+  build:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    command: [ "npm", "run", "11ty" ]
+    volumes:
+      - .:/app/src
+      - /app/src/node_modules
+    depends_on:
+      dist:
+        condition: service_completed_successfully
+    profiles:
+      - manual
+
+  dist_clean:
+    image: node:25-bullseye
+    working_dir: /app/src
+    volumes:
+      - .:/app/src
+    command: [ "rm", "-rf", "dist" ]
+    profiles:
+      - manual
+
+  clean:
+    image: node:25-bullseye
+    working_dir: /app/src
+    volumes:
+      - .:/app/src
+    command: [ "rm", "-rf", "_site" ]
+    profiles:
+      - manual
+
+  shell:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      target: debug
+    command: [ "bash" ]
+    volumes:
+      - .:/app/src
+      - /app/src/node_modules
+    ports:
+      - 8081:8081
+    stdin_open: true
+    tty: true
+    profiles:
+      - manual
+
+  # Run after build - although in the CI this is run from a tarballed build currently
+  http_serve:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      target: httpd_serve
+    volumes:
+      - ./_site:/usr/local/apache2/htdocs/
+      - ./.github/scripts/staging/http2.conf:/usr/local/apache2/conf/http2.conf
+      - ./htaccess:/usr/local/apache2/htdocs/.htaccess
+    ports:
+      - 8082:80
+    healthcheck:
+      test: [ "CMD", "curl", "-o", "/dev/null", "-s", "http://localhost" ]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+      start_period: 30s
+    profiles:
+      - manual
+
+  broken_links:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      target: broken_link_checker
+    command: [ "http://http_serve" ]
+    profiles:
+      - manual
+
+  # Staging service for on_call_staging_test workflow
+  staging:
+    build:
+      context: ./_site
+      dockerfile: ../Dockerfile
+      target: httpd_serve
     ports:
       - 8080:80
+    healthcheck:
+      test: [ "CMD", "curl", "-o", "/dev/null", "-s", "http://localhost" ]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+      start_period: 30s
+    profiles:
+      - manual
+
+  # BDD Testing service
+  test:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      target: tests
     volumes:
-      - ./_site:/var/www/html
+      - ./tests:/app/src/tests
+      - ./package.json:/app/src/package.json
+      - ./package-lock.json:/app/src/package-lock.json
+    profiles:
+      - manual
+
+  # Page performance / Core Web Vitals measurement
+  # Usage (production):  docker compose run perf
+  # Usage (local):       BASE_URL=http://serve:8081 docker compose run perf
+  # See .env.example for all configuration options.
+  perf:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      target: tests
+    volumes:
+      - .:/app/src
+      - /app/src/node_modules
+    env_file:
+      - path: .env
+        required: false
+    command: [ "node", "tests/perf/measure-vitals.js" ]
+    profiles:
+      - manual

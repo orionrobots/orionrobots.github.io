@@ -2,10 +2,10 @@
 layout: index
 title: Welcome to Orionrobots
 pin_links:
-  - image: /galleries/2023/Robotics-at-Home-with-Raspberry-Pi-Pico-banner-2048.png
-    thumbnail: /galleries/2023/Robotics-at-Home-with-Raspberry-Pi-Pico-banner-2048.png
-    description: Learn to build and Program Robots using Robotics at Home with Raspberry Pi Pico
-    link: https://www.amazon.com/Robotics-Home-Raspberry-Pi-Pico/dp/1492079941
+  - image: /galleries/2026/Learn-robotics-programming-3rd-edition-banner-2048.png
+    thumbnail: /galleries/2026/Learn-robotics-programming-3rd-edition-banner-2048.png
+    description: Learn Robotics Programming 3rd Edition - available on Packt and Amazon
+    link: https://www.amazon.com/dp/1803246987/
 tags: [robot building, robotics at home, making robots]
 eleventyImport:
   collections: ["all"]
@@ -14,13 +14,13 @@ eleventyExcludeFromCollections: true
 At Orionrobots, Danny and his team build robots, electronics, gadgets and stuff that moves.
 We aim to make robots easy for anyone to build, and push the boundaries of what is easy. Oh and just to have lots of fun doing it too!
 
-<a href="https://packt.link/5swS2" title="Learn to build and Program Robots using Robotics at Home with Raspberry Pi Pico">{% img_responsive "galleries/2023/Robotics-at-Home-with-Raspberry-Pi-Pico-banner.png", "Learn to build and Program Robots using Robotics at Home with Raspberry Pi Pico" %}</a>
+<a href="https://www.amazon.com/dp/1803246987/" title="Learn Robotics Programming 3rd Edition - available on Packt and Amazon" class="d-block">{% img_responsive "galleries/2026/Learn-robotics-programming-3rd-edition-banner-2835.png", "Learn Robotics Programming 3rd Edition - available on Packt and Amazon", "100vw", "img-responsive w-100", "300,720,940,1440,2048,2835" %}</a>
 
 Discuss [robot building on Our Discord Server](https://discord.gg/sMnPxFhAe2)!
 
 You can see my latest videos on [Orionrobots Youtube](https://youtube.com/orionrobots).
 
-You can reach me on twitter [@orionrobots](https://twitter.com/orionrobots)
+You can reach me on Facebook, Discord and LinkedIn as #orionrobots on all platforms.
 
 ## Recent Posts
 

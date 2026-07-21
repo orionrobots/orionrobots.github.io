@@ -1,4 +1,5 @@
-Single board Digital Servo
+# Single board Digital Servo
+
 16 Pos - 4 bit
 180 pos - 8 bit (256)
 
@@ -25,7 +26,7 @@ op = Read Pos - Will return the current position
 op = Read speed - will try to use pos sensor to get speed
 op = Set speed - will try to maintain a speed - param is a speed 0/8
 op = set extent max, min
-	when the motor tries to reach a position and not in speed (full rotation) mode, it will not go outside the limits - taking the long way round if necessary. Useful to get it to behave like a analgue servo, or for kinematics.
-op = brake (parma active)- the motor will stop in the current position, and the following param will tell it to brake passively (using the h-bridge short method), or actively - trying to maintain the current position (wether it was moving to a pos, or at speed)
+	when the motor tries to reach a position and not in speed (full rotation) mode, it will not go outside the limits - taking the long way round if necessary. Useful to get it to behave like a analogue servo, or for kinematics.
+op = brake (parma active)- the motor will stop in the current position, and the following param will tell it to brake passively (using the h-bridge short method), or actively - trying to maintain the current position (whether it was moving to a pos, or at speed)
 
 8 operations

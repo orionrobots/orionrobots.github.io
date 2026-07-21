@@ -27,7 +27,7 @@ If you have an Arduino, PIC or Raspberry Pi and you want some sensors and stuff 
 These are the popular HC-SR04 ultrasonic ranging module, which can be used to make wall avoiding or wall following robots They can be used to make art projects that react to proximity too. Sensing things by using sound bounced of an object, they can measure with a range of a few centimetres up to a few meters. You use the IO pins on your controller to send an initiation pulse, and the SR04 will respond with a timed pulse for the measurement.
 
 * [Sample Code For Dual Sensor Robot with Smiley Face](https://github.com/orionrobots/explorer_face_wall_avoider)
-* [HC-SR04 Detailed Tutorial](http://arduinobasics.blogspot.co.uk/2012/11/arduinobasics-hc-sr04-ultrasonic-sensor.html)
+* [HC-SR04 Detailed Tutorial](https://arduinobasics.blogspot.co.uk/2012/11/arduinobasics-hc-sr04-ultrasonic-sensor.html)
 
 # Bluetooth Module
 {.imgtitle}
@@ -49,7 +49,7 @@ This module is also connected to the serial port. It can record 3 banks of 5 com
 {% assign youtube_id="0Zjdu_HSr00" %}
 {% include no_iframe_youtube %}
 
-* [Voice Control Module Manual](http://www.elechouse.com/elechouse/images/product/Voice%20Recognition%20Module/Manual.pdf)
+* [Voice Control Module Manual](https://www.elechouse.com/elechouse/images/product/Voice%20Recognition%20Module/Manual.pdf)
 * [Voice Control Module Example Code](https://github.com/orionrobots/RecordVoiceModule)
 
 # 8 x 8 Matrix Module on Driver PCB

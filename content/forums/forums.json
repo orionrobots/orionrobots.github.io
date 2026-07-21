@@ -1,0 +1,4 @@
+{
+    "permalink": "forums/{{ page.fileSlug }}.html",
+    "layout": "page"
+}

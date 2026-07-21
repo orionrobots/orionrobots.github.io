@@ -5,39 +5,77 @@ on:
 jobs:
   staging_test:
     runs-on: ubuntu-latest
+    permissions:
+      packages: write
+    env:
+      CACHE_IMAGE: orionrobots/orionrobots-site
+      DOCKER_BUILDKIT: 1
+      COMPOSE_DOCKER_CLI_BUILD: 1
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7.0.0
       - name: Fetch site artifact
-        uses: actions/download-artifact@v3
+        uses: actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c # v8.0.1
         with:
           name: _site
       - name: extract site artifact
         run: |
           tar -xzf _site.tar.gz
-      - name: Prepare for docker build
-        run: |
-          cp _drafts/staging/Dockerfile _site/
-          cp _drafts/staging/http2.conf _site/
 
       - name: Set up Docker Buildx
-        uses: docker/setup-buildx-action@v3
+        uses: docker/setup-buildx-action@bb05f3f5519dd87d3ba754cc423b652a5edd6d2c # v4.2.0
 
-      - name: Build the container
-        uses: docker/build-push-action@v5
+      - name: Login to Docker
+        uses: docker/login-action@af1e73f918a031802d376d3c8bbc3fe56130a9b0 # v4.4.0
         with:
-          context: "_site"
-          tags: orionrobots:latest
-          cache-from: type=gha
-          cache-to: type=gha,mode=max
-          push: false
-          load: true
+          registry: ghcr.io
+          username: ${{ github.actor }}
+          password: ${{ github.token }}
 
+      - name: Prepare staging context  
+        run: |
+          # Copy staging files into the _site directory for the docker build
+          cp .github/scripts/staging/default.conf _site/httpd.conf
+          # Also copy default.conf for the consolidated Dockerfile to support fallback
+          cp .github/scripts/staging/default.conf _site/default.conf
+          
       - name: Run as service and test
         run: |
-          docker run --rm -d -p8080:80 --name orionrobots orionrobots:latest
-          # Wait for the service to start
-          sleep 10
-          curl -I -L -f http://localhost:8080/
-          curl -I -L -f http://localhost:8080/construction_guide.html
-          curl -I -L -f http://localhost:8080/wiki/lego
-          docker stop orionrobots
+          # Start the staging service using docker compose with --wait for health checks
+          # Use CI-specific override for GitHub Actions cache
+          docker compose -f docker-compose.yml -f docker-compose.ci.yml up -d --build --wait staging
+          
+          # Perform the tests
+          set +e  # Don't exit on error so we can clean up
+          set -o pipefail  # Ensure pipeline returns exit code of first failing command
+          exit_code=0
+          
+          curl -I -f http://localhost:8080/ || exit_code=1
+          curl -I -f http://localhost:8080/construction_guide.html || exit_code=1
+          curl -I -f http://localhost:8080/wiki/lego || exit_code=1
+          
+          # Run BDD integration tests using docker compose
+          echo "## BDD Test Results" >> "$GITHUB_STEP_SUMMARY"
+          echo "\`\`\`" >> "$GITHUB_STEP_SUMMARY"
+          docker compose -f docker-compose.yml -f docker-compose.ci.yml run test 2>&1 | tee bdd_output.txt
+          bdd_result=$?
+          
+          # Filter output to show only BDD test results, excluding Docker build output
+          # Look for lines starting with "> orionrobots.github.io@" and capture everything after that
+          awk '
+            /^> orionrobots\.github\.io@/ { found=1 }
+            found { print }
+          ' bdd_output.txt >> "$GITHUB_STEP_SUMMARY"
+          echo "\`\`\`" >> "$GITHUB_STEP_SUMMARY"
+          
+          if [ $bdd_result -eq 0 ]; then
+            echo "✅ BDD tests passed" >> "$GITHUB_STEP_SUMMARY"
+          else
+            echo "❌ BDD tests failed" >> "$GITHUB_STEP_SUMMARY"
+            exit_code=1
+          fi
+          
+          # Stop the service regardless of test outcome
+          docker compose -f docker-compose.yml -f docker-compose.ci.yml stop staging
+          
+          # Exit with the test result
+          exit $exit_code

@@ -21,9 +21,9 @@ I started tinkering with an rPi on the robot, and another pycon attendee.
 We first got it all plugged in with a usb power pack I'd picked up in a local Maplin as the Raspberry Pi needs separate power. the Raspberry Pi is a bit of a hog, and more sensitive to noise than the Arduino.
 I then wired it in to the motor controller, and pre-emotively, two sonar distance sensors.
 
-<img src="http://elinux.org/images/2/2a/GPIOs.png" height="200" align="left" style="left-padding: 4px"/>
+<img src="https://elinux.org/images/2/2a/GPIOs.png" height="200" align="left" style="left-padding: 4px"/>
 We then got a bit stuck on getting the Bluetooth serial adaptor to work with it. This is a problem I remedied offline later
-Using the <a href="http://elinux.org/RPi_Low-level_peripherals">rPi gpio diagrams</a>, gpio code ref and my Arduino motor control code, we got the wheels turning.
+Using the <a href="https://elinux.org/RPi_Low-level_peripherals">rPi gpio diagrams</a>, gpio code ref and my Arduino motor control code, we got the wheels turning.
 Note that the image PIN numbers are for BCM mode.
 
 Although tethered, getting it moving was good fun, and once I'd done the wiring, letting someone else play with the code was good fun too.

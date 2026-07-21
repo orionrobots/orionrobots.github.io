@@ -3,12 +3,119 @@ on:
   pull_request:
     branches:
       - master
+      - main
+    paths-ignore:
+      - 'README.md'
+      - '.editorconfig'
+      - '.mega-linter.yml'
+      - '.markdown-link-check.json'
+      - '.pre-commit-config.yaml'
+      - '.shellcheckrc'
+      - '_drafts/**'
+      - '.github/copilot-instructions.md'
+      - '.github/agents/**/*.md'
+      - '.github/pull_request_template.md'
+      - '.github/PULL_REQUEST_TEMPLATE/**'
+      - '.github/dependabot.yml'
+
 
 jobs:
+  detect_base_image_changes:
+    runs-on: ubuntu-latest
+    outputs:
+      changed: ${{ steps.changes.outputs.any_changed }}
+    steps:
+      - uses: actions/checkout@v7.0.0
+
+      - name: Check for base image related changes
+        uses: tj-actions/changed-files@9426d40962ed5378910ee2e21d5f8c6fcbf2dd96 # v47.0.6
+        id: changes
+        with:
+          files: |
+            Dockerfile
+            package.json
+            package-lock.json
+            .github/workflows/on_call_build_site.yaml
+            .github/workflows/on_pr_test.yaml
+
   build_site:
+    needs: detect_base_image_changes
     uses: ./.github/workflows/on_call_build_site.yaml
+    with:
+      push_tag: >-
+        ${{ needs.detect_base_image_changes.outputs.changed == 'true'
+            && github.event.number || '' }}
+
+  comment_docker_image:
+    needs: [detect_base_image_changes, build_site]
+    runs-on: ubuntu-latest
+    # Only run if base image changes were detected and this is a PR event
+    if: needs.detect_base_image_changes.outputs.changed == 'true' && github.event_name == 'pull_request'
+    permissions:
+      pull-requests: write  # Allow commenting on PR
+    steps:
+      - name: Comment on PR with Docker image link
+        uses: actions/github-script@v9.0.0
+        with:
+          script: |
+            const prNumber = context.issue.number;
+            const imageTag = prNumber;
+            const imageUrl = `ghcr.io/orionrobots/orionrobots-site.base:${imageTag}`;
+            
+            // Comment body with Docker image information
+            const commentBody = `## 🐳 Docker Base Image Available
+            
+            A new base Docker image has been built and pushed for this PR:
+            
+            **Image:** \`${imageUrl}\`
+            
+            ### How to use this image:
+            
+            \`\`\`bash
+            # Pull the image
+            docker pull ${imageUrl}
+            
+            # Run with the image
+            docker run -it ${imageUrl} bash
+            \`\`\`
+            
+            ### For local development:
+            You can use this image as a base for testing changes without rebuilding dependencies.
+            
+            _This comment is automatically updated when the base image is rebuilt._`;
+            
+            // Look for existing comment from this bot
+            const comments = await github.rest.issues.listComments({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: prNumber,
+            });
+            
+            const botComment = comments.data.find(comment => 
+              comment.user.type === 'Bot' && 
+              comment.body.includes('🐳 Docker Base Image Available')
+            );
+            
+            if (botComment) {
+              // Update existing comment
+              await github.rest.issues.updateComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                comment_id: botComment.id,
+                body: commentBody
+              });
+              console.log('Updated existing Docker image comment');
+            } else {
+              // Create new comment
+              await github.rest.issues.createComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: prNumber,
+                body: commentBody
+              });
+              console.log('Created new Docker image comment');
+            }
 
   staging_test:
     uses: ./.github/workflows/on_call_staging_test.yaml
     needs: build_site
-  

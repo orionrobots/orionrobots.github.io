@@ -49,10 +49,24 @@ async function make_gallery(id, images) {
     const description_element = '<div class="image-tab-gallery-description row"></div>';
     const current_image_element = '<div class="image-tab-gallery-current-image col-md-5"></div>';
 
-    const tabs = images_with_metadata.map( 
-        image => '<div class="image-tab-gallery-tab" title="' + image.alt + '" data-src="' + image.metadata.jpeg[0].url + '">' +
-                '<img src="' + image.thumb_metadata.jpeg[1].url + '" loading="lazy" decoding="async" width="128" height="112" alt="' + image.alt + '">' +
-                '</div>');
+    const tabs = images_with_metadata.map(image => {
+        let thumbnailUrl = '';
+        let mainImageUrl = '';
+        const thumbnailAlt = image.alt || '';
+        if (image.thumb_metadata?.jpeg?.[1]?.url) {
+            thumbnailUrl = image.thumb_metadata.jpeg[1].url;
+        } else {
+            console.warn(`Tab Gallery: Missing thumbnail for image alt='${thumbnailAlt}'. Falling back to empty src.`);
+        }
+        if (image.metadata?.jpeg?.[0]?.url) {
+            mainImageUrl = image.metadata.jpeg[0].url;
+        } else {
+            console.warn(`Tab Gallery: Missing main image for image alt='${thumbnailAlt}'. Falling back to empty src.`);
+        }
+        return '<div class="image-tab-gallery-tab" title="' + thumbnailAlt + '" data-src="' + mainImageUrl + '">' +
+            '<img src="' + thumbnailUrl + '" loading="lazy" decoding="async" width="128" height="112" alt="' + thumbnailAlt + '">' +
+            '</div>';
+    });
     // put the joined tabs in the tabs element.
 
     const tabs_element = '<div class="image-tab-gallery-tabs col-md-3">' + tabs.join("\n") + '</div>';
