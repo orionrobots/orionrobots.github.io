@@ -12,7 +12,13 @@ updates:
       artifact-handling:
         patterns:
           - "actions/download-artifact"
-          - "actions/upload-artifact"      
+          - "actions/upload-artifact"
+      github-actions-minor-patch:
+        patterns:
+          - "*"
+        update-types:
+          - "minor"
+          - "patch"
 
   - package-ecosystem: "npm"
     directory: "/"
@@ -21,33 +27,47 @@ updates:
     cooldown:
       default-days: 3
     allow:
-      - dependency-type: "all"      
+      - dependency-type: "all"
     ignore:
-      - dependency-name: "*"
-        update-types: ["version-update:semver-patch"]
       # ts-node has no stable release compatible with TypeScript 7's
       # restructured package exports (require('typescript').sys is gone).
       # Remove once ts-node (or its replacement) supports TS 7.
       - dependency-name: "typescript"
         update-types: ["version-update:semver-major"]
     groups:
-      development-dependencies:
-        dependency-type: "development"
+      npm-minor-patch:
         patterns:
           - "*"
+        update-types:
+          - "minor"
+          - "patch"
 
   - package-ecosystem: "docker"
-    directories: 
+    directories:
       - "**/*"
     schedule:
       interval: "weekly"
     cooldown:
       default-days: 3
+    groups:
+      docker-minor-patch:
+        patterns:
+          - "*"
+        update-types:
+          - "minor"
+          - "patch"
 
   - package-ecosystem: "pip"
-    directories: 
+    directories:
       - "**/*"
     schedule:
       interval: "weekly"
     cooldown:
       default-days: 3
+    groups:
+      pip-minor-patch:
+        patterns:
+          - "*"
+        update-types:
+          - "minor"
+          - "patch"
