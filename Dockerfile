@@ -1,6 +1,6 @@
 # Base: node with npm dependencies installed
 # Source code is volume-mounted for development use
-FROM node:26-bullseye AS base
+FROM node:26-bookworm AS base
 
 WORKDIR /app/src
 
