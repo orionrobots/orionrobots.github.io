@@ -1,5 +1,5 @@
 const path = require("path");
-const Image = require("@11ty/eleventy-img");
+const Image = require("@11ty/eleventy-img").default;
 const fetch_image = require("../fetch_image.js");
 
 /**
