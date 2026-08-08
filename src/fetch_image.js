@@ -1,4 +1,4 @@
-const Image = require("@11ty/eleventy-img");
+const Image = require("@11ty/eleventy-img").default;
 module.exports = async function (src, widths = [300, 720, 940]) {
     return await Image(src, {
         widths,
