@@ -32,7 +32,26 @@ module.exports = {
                         }
                     }, {
                         // compiles Sass to CSS
-                        loader: 'sass-loader'
+                        loader: 'sass-loader',
+                        options: {
+                            sassOptions: {
+                                // Bootstrap's own SCSS still uses Sass features (global
+                                // color functions, legacy @import, if()) that Dart Sass
+                                // now warns about. We don't control that code, so silence
+                                // deprecations from dependencies while still surfacing any
+                                // from our own src/bundle.scss.
+                                // https://sass-lang.com/documentation/js-api/interfaces/options/#quietDeps
+                                quietDeps: true,
+                                // bundle.scss itself still uses @import to pull in Bootstrap
+                                // partials one-by-one (needed so $body-color/$enable-dark-mode
+                                // overrides land between imports, per Bootstrap's own 5.3 Sass
+                                // customization docs). Bootstrap hasn't migrated its partials to
+                                // @use yet, so there's no forward-compatible replacement to move
+                                // to today; revisit once Bootstrap's own scss does.
+                                // https://sass-lang.com/documentation/js-api/interfaces/options/#silenceDeprecations
+                                silenceDeprecations: ['import']
+                            }
+                        }
                     }
                 ]
             },
