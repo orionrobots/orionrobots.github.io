@@ -9,7 +9,7 @@ thumbnail: galleries/gallery-8-signal-generator-diode-bridge/314-clear-result.jp
 ---
 The resulting waveform:
 
-{% img_responsive "galleries/gallery-8-signal-generator-diode-bridge/314-clear-result.jpg", "Clear waveform", "800" %}
+{% img_responsive "galleries/gallery-8-signal-generator-diode-bridge/314-clear-result.jpg", "Clear waveform" %}
 
 The diode bridge is an essential part for making active sensors for the Lego Mindstorms RCX.
 It is also known as a full-wave rectifier as it will rectify AC current into DC, or (as in the case of the Lego connector), allow something to be connected at either polarity, even with fairly complicated circuitry.
