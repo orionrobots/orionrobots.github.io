@@ -4,7 +4,7 @@ title: NXT
 tags: [robot, robotics, computing, lego nxt, lego mindstorms]
 date: 2010-11-11 21:21:16
 ---
-<div style=" float: left;"><img alt="Lego NXT" class="img-responsive" src="/galleries/gallery-6-orions-images/359-mindstormsnxt.jpg"/> </div>The NXT is the current generation of <a href="/wiki/mindstorms.html" title="A Robotic construction toy system from Lego">Mindstorms</a> Lego <a href="/wiki/robot_kits.html" title="Robot Kits">robotics kit</a>.
+<div style=" float: left;"><img alt="Lego NXT" class="img-fluid" src="/galleries/gallery-6-orions-images/359-mindstormsnxt.jpg"/> </div>The NXT is the current generation of <a href="/wiki/mindstorms.html" title="A Robotic construction toy system from Lego">Mindstorms</a> Lego <a href="/wiki/robot_kits.html" title="Robot Kits">robotics kit</a>.
 The platform uses the "Liftarm" beam construction style - all pins and no lugs.
 
 The block, arguably the "iPod" of robot kits, comes with [USB](/wiki/usb.html "Universal Serial Bus") 2.0, [BlueTooth](/wiki/bluetooth.html "Bluetooth") and plays audio.

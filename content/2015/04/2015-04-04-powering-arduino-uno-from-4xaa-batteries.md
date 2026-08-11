@@ -23,6 +23,6 @@ I looked around my store cupboard, and seeing the bag of diodes, it hit me that 
 
 See the video for more information on it, and to see it working.
 
-![Arduino with AA batteries](/galleries/2015-04-04-powering-arduino-uno-from-4xaa-batteries/arduino4xAA6v_bb_small.png){:class="img-responsive"}
+![Arduino with AA batteries](/galleries/2015-04-04-powering-arduino-uno-from-4xaa-batteries/arduino4xAA6v_bb_small.png){:class="img-fluid"}
 
 The supply works, however, I later found some issues with the noise from the Servo motors - which I'll discuss in another video.

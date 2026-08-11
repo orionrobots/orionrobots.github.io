@@ -13,7 +13,7 @@ title: Chloe and Shannon
 layout: post
 todo_needs_sat: 'convert image refs, and gallery'
 ---
-![Shannon and Chloe holding their robots Cheese Detective and Snoopy, both entries to the Junior Wall Follower event. Micromouse needs more non school Junior Wall follower entries - get building if you can!](/galleries/gallery-25-micromouse-2008/547-28062008657.jpg){:class="img-responsive"}
+![Shannon and Chloe holding their robots Cheese Detective and Snoopy, both entries to the Junior Wall Follower event. Micromouse needs more non school Junior Wall follower entries - get building if you can!](/galleries/gallery-25-micromouse-2008/547-28062008657.jpg){:class="img-fluid"}
 
 They were the only two girls in the Micromouse 2008 competition. There is currently a disappointing tendency for robotics to be (like engineering and computing subjects in general) a very male dominated discipline. To meet two young ladies, who are not only interested, but built their own robots and competed in the challenges, is a real breath of fresh air, and proves that anyone can have fun taking part in these things.
 
@@ -21,7 +21,7 @@ Their father, Derek, entered the robots that took first and second prizes in the
 
 ## Their Robots
 
-![The robot in the centre is RedEye - a non-contact wall follower inherited and maintained by Chloe Hall. The robot mid left is Snoopy - a robot built by Chloe with a design slightly pilfered from her older sister, and exhibiting a gearbox problem. The three identical looking robots above were kit robots brought by the Singapore teams. The controllers and coding were different, but the chassis were all identical.](/galleries/gallery-25-micromouse-2008/542-28062008652.jpg){:class="img-responsive"}
+![The robot in the centre is RedEye - a non-contact wall follower inherited and maintained by Chloe Hall. The robot mid left is Snoopy - a robot built by Chloe with a design slightly pilfered from her older sister, and exhibiting a gearbox problem. The three identical looking robots above were kit robots brought by the Singapore teams. The controllers and coding were different, but the chassis were all identical.](/galleries/gallery-25-micromouse-2008/542-28062008652.jpg){:class="img-fluid"}
 
 Chloe has been building robots since she was 9, and actually brought two robots to the 2008 event. They were Snoopy, which is entirely her own build (although she borrowed some ideas for it from her older sister), and Redeye, a robot that she has maintained for a while. Both are quite creative and different.
 

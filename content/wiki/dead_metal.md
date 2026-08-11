@@ -10,6 +10,6 @@ With a top speed of 112 mph form his battery driver motors, he ambles like some 
 
 He has spikes and ribs for armour, with some mesh to fend off lighter blows. The meshes are not all that strong, and quite a lot of his tender insides are exposed - an attack from above at the rear would be quite effective. He also has slightly high ground clearance - exposing him to a good flipping.
 
-<img class="img-responsive" src="/galleries/gallery-1-common-images/177-dead-metal01.jpg"/>
+<img class="img-fluid" src="/galleries/gallery-1-common-images/177-dead-metal01.jpg"/>
 
 He has been known to loose his cutting wheel - sending it flying across the arena before.

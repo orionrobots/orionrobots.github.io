@@ -6,7 +6,7 @@ tags: [learn robotics programming, robotics books, raspberry pi, python, robot b
 ---
 Tomorrow my book, **Learn Robotics Programming, 3rd Edition**, is published, and I am properly excited about this one.
 
-{% img_responsive "2026-05-28 Learn robotics 3rd edition cover.png", "The cover for Learn Robotics Programming, 3rd Edition", "100vw", "img-responsive float-start me-2 mb-2 w-33" %} This book has always been about building a real robot, not just reading about robotics. You start with a Raspberry Pi, Python, motors, sensors, wiring, power and a small rover platform. Then you gradually turn that into something more capable: a robot you can control from a phone, a robot that can sense the world around it, and a robot that can run more intelligent behaviours.
+{% img_responsive "2026-05-28 Learn robotics 3rd edition cover.png", "The cover for Learn Robotics Programming, 3rd Edition", "100vw", "img-fluid float-start me-2 mb-2 w-33" %} This book has always been about building a real robot, not just reading about robotics. You start with a Raspberry Pi, Python, motors, sensors, wiring, power and a small rover platform. Then you gradually turn that into something more capable: a robot you can control from a phone, a robot that can sense the world around it, and a robot that can run more intelligent behaviours.
 
 For the third edition, I wanted to do more than update a few screenshots and swap in newer parts. I wanted to rebuild the project around the way I now think small robots should be structured.
 
