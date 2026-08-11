@@ -6,7 +6,7 @@ date: 2007-01-28 20:31:52
 ---
 
 <div style=" float: right;">
-  <img class="img-responsive" src="/galleries/gallery-1-common-images/426-cog-with-hand.jpg">
+  <img class="img-fluid" src="/galleries/gallery-1-common-images/426-cog-with-hand.jpg">
 </div>
 
 Cog is another creation of the well known [Dr Rodney Brooks](/wiki/rodney_brooks.html "Rodney Brooks"). It uses his Subsumption Architecture to model a humanoid torso and head, with behavioural as well as mechanical emulation. One important aspect is to be able to move the eyes, and head in a fairly similar way to ours. The name Cog is likely to be derived from Cognitive behaviour, the ability to recognize, or at least behaves in a way that looks like recognition.

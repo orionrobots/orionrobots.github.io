@@ -5,7 +5,7 @@ description: "Building Robots!"
 date: 2014-01-14
 permalink: /getting_started.html
 ---
-[<img class="img-responsive" alt="The Orionrobots Youtube Channel" src="https://yt3.ggpht.com/-CTE7btpvjnc/VkekFJl9jfI/AAAAAAAAAIQ/AhXB_EanDOw/w2120-fcrop64=1,00005a57ffffa5a8-nd/CollageBanner2015.jpg" />](http://youtube.com/c/orionrobots)
+[<img class="img-fluid" alt="The Orionrobots Youtube Channel" src="https://yt3.ggpht.com/-CTE7btpvjnc/VkekFJl9jfI/AAAAAAAAAIQ/AhXB_EanDOw/w2120-fcrop64=1,00005a57ffffa5a8-nd/CollageBanner2015.jpg" />](http://youtube.com/c/orionrobots)
 
 ## ESP 8266 / Node MCU
 

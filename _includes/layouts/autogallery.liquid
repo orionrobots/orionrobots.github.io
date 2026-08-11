@@ -45,10 +45,10 @@ layout: page
         <div class="col">
             <a class="thumbnail">
                 {% if image.thumb-src %}
-                    <img src="{{image.thumb-src}}" alt="{{image.caption}}" class="center-block"
+                    <img src="{{image.thumb-src}}" alt="{{image.caption}}" class="mx-auto d-block"
                         onClick="$('body').trigger('imageSelected', '{{image.src|slugify}}');"/>
                 {% else %}
-                    <img src="{{image.src}}" alt="{{image.caption}}" class="center-block"
+                    <img src="{{image.src}}" alt="{{image.caption}}" class="mx-auto d-block"
                         onClick="$('body').trigger('imageSelected', '{{image.src|slugify}}');"/>
             {% endif %}
                 </a>

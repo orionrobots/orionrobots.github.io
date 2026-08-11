@@ -11,7 +11,7 @@ The <a href="/wiki/diode.html" title="Diode">diode</a> bridge is a common and us
 ## How it works
 
 Take a look at this circuit:
-<img class="img-responsive" src="/galleries/gallery-1-common-images/148-rcxled2.png"/>
+<img class="img-fluid" src="/galleries/gallery-1-common-images/148-rcxled2.png"/>
 
 Examining this, you could substitute the RCX input for any AC input that has been stepped down to around 6-9v. The <a href="/wiki/diode.html" title="Diode">diodes</a> form a small diamond shape -though not always in this clear form, it is better if you try to use it in diagrams as its purpose is then clear. There are two diodes facing <a href="/wiki/cathode.html" title="The Negative Electrode">cathode</a> towards (arrow in) the positive DC line, and two facing away from the negative line. These are then connected to the AC inputs.
 
@@ -31,10 +31,10 @@ The first of these is found in just about every power adaptor (wall wart) you wi
 Briefly examining the latter, you must be aware that there is a small voltage drop across each diode of around 0.6v giving a net result of a 1.2v drop. In a 9v application, that may bring the voltage below an acceptable level. The one place it is recommended is if you are building custom <a href="/wiki/rcx.html" title="The Lego RCX">Lego RCX</a> devices, which may need to be connected at multiple orientations.
 
 RCX output power circuit - click to Enlarge
-<img class="img-responsive" src="/galleries/gallery-1-common-images/66-rcxoutputpower.png"/>
+<img class="img-fluid" src="/galleries/gallery-1-common-images/66-rcxoutputpower.png"/>
 
 RCX Sensor power circuit - click to Enlarge
-<img class="img-responsive" src="/galleries/gallery-1-common-images/115-rcxpower1.png"/>
+<img class="img-fluid" src="/galleries/gallery-1-common-images/115-rcxpower1.png"/>
 
 ## Planning one for your needs
 

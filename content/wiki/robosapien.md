@@ -5,7 +5,7 @@ tags: [robots]
 date: 2013-05-02 20:23:04
 ---
 <div style=" float: right;">
-  <img class="img-responsive" src="/galleries/gallery-1-common-images/424-robosapien.jpg">
+  <img class="img-fluid" src="/galleries/gallery-1-common-images/424-robosapien.jpg">
 </div>
 
 The Wow-Wee Robo Sapien is a robot toy or gadget created by [Mark Tilden](/wiki/mark_tilden.html "Mark Tilden"). It comes with a remote and has a number of great features.
