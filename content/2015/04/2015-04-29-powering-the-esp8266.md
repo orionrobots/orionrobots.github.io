@@ -72,7 +72,7 @@ The part I chose, the LD1117 worked brilliantly and has power to spare for other
 
 Here is the circuit in fritzing:
 
-![Circuit for LD1117 and esp8266 ESP01 module](https://github.com/orionrobots/esp8266_video_series/blob/master/fritzing%20circuits/Basic_esp_and_3v_bb.jpg?raw=true){:class="img-responsive"}
+![Circuit for LD1117 and esp8266 ESP01 module](https://github.com/orionrobots/esp8266_video_series/blob/master/fritzing%20circuits/Basic_esp_and_3v_bb.jpg?raw=true){:class="img-fluid"}
 
 BOM:
 

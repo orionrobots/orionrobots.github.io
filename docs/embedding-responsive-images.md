@@ -37,7 +37,7 @@ Pass Bootstrap 5 utility classes as the fourth argument. You must also supply th
 ### Float left (image sits left, text wraps right)
 
 ```liquid
-{% img_responsive "my-photo.jpg", "My photo", "100vw", "img-responsive float-start me-3 mb-2 w-33" %}
+{% img_responsive "my-photo.jpg", "My photo", "100vw", "img-fluid float-start me-3 mb-2 w-33" %}
 ```
 
 - `float-start` — floats the image to the left (Bootstrap 5; replaces the old `float-left`).
@@ -48,7 +48,7 @@ Pass Bootstrap 5 utility classes as the fourth argument. You must also supply th
 ### Float right (image sits right, text wraps left)
 
 ```liquid
-{% img_responsive "my-photo.jpg", "My photo", "100vw", "img-responsive float-end ms-3 mb-2 w-33" %}
+{% img_responsive "my-photo.jpg", "My photo", "100vw", "img-fluid float-end ms-3 mb-2 w-33" %}
 ```
 
 - `float-end` — floats the image to the right (Bootstrap 5; replaces the old `float-right`).
@@ -73,7 +73,7 @@ Simple Markdown images render without responsive sizing or lazy loading. Accepta
 ### Jekyll-style class attribute
 
 ```markdown
-![Alt text](image.jpg){:class="img-responsive"}
+![Alt text](image.jpg){:class="img-fluid"}
 ```
 
 Bootstrap 3 era pattern. Do not use. Migrate to `img_responsive` when editing a post for other reasons.
@@ -95,7 +95,7 @@ Wraps the image in a `<figure>` with a caption. Does not generate responsive src
 or
 
 ```html
-<div style="float: right;"><img class="img-responsive" src="..."></div>
+<div style="float: right;"><img class="img-fluid" src="..."></div>
 ```
 
 Old hand-written HTML. Not responsive, not lazy-loaded, and uses inline styles. Migrate to the `img_responsive` shortcode with Bootstrap 5 float classes when editing a post for other reasons.

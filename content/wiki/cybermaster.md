@@ -24,7 +24,7 @@ Any more information on the Cybermaster set would be much appreciated.
 
 Cybermaster innards from a teardown:
 
-<img class="img-responsive" src="/galleries/gallery-1-common-images/30-cybermaster-innards.jpg" />
+<img class="img-fluid" src="/galleries/gallery-1-common-images/30-cybermaster-innards.jpg" />
 
 ## Links
 

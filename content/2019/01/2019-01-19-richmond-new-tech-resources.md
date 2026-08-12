@@ -10,7 +10,7 @@ On Tuesday the 17th January 2019, I gave a talk at [Richmond New Technology](htt
 * Doing it because you want to (even if there are some hard bits to get through first).
 * Getting just outside your comfort zone.
 
-![Frame from my talk at richmond new tech](/galleries/2019/01/19-richmond-new-tech/frame_from_talk.JPG){:class="img-responsive"}
+![Frame from my talk at richmond new tech](/galleries/2019/01/19-richmond-new-tech/frame_from_talk.JPG){:class="img-fluid"}
 
 Many people at the talk had questions, and wanted further information about what I do.
 

@@ -18,7 +18,7 @@ The Nerf turret has two counter rotating rollers, which compress the dart and fl
 
 In the course of designing this, I made a Kicad part for the Explorer Hat Pro. The picture below shows the part in use.
 
-![Picture Of Explorer Hat Kicad Part](/assets/kicad-library-parts/explorerhatpro.png){.class="img-responsive"}
+![Picture Of Explorer Hat Kicad Part](/assets/kicad-library-parts/explorerhatpro.png){.class="img-fluid"}
 
 I'm still gaining Kicad skills, so I expect the part not to be perfect, however I think it would be useful to other people building stuff with the Explorer Hat.
 
