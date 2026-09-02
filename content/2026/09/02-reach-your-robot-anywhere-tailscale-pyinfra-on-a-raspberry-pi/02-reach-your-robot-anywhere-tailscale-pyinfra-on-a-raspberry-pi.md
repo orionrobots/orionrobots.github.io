@@ -19,7 +19,7 @@ description: "Joining a Learn Robotics Programming 3rd edition robot to a Tailsc
 ## TL;DR
 
 The pyinfra script, `.env.json` template, and its own README live in the
-[`tailscale_integration/` folder](https://github.com/PacktPublishing/Learn-Robotics-Programming-3rd-edition/tree/main/tailscale_integration/tailscale_integration)
+[`tailscale_integration/` folder](https://github.com/PacktPublishing/Learn-Robotics-Programming-3rd-edition/tree/main/tailscale_integration)
 of the [Learn Robotics Programming, 3rd Edition](https://www.amazon.com/Learn-Robotics-Programming-cutting-edge-Raspberry/dp/1803246987/)
 repo.
 
