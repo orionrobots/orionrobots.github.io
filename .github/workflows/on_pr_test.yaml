@@ -25,7 +25,7 @@ jobs:
     outputs:
       changed: ${{ steps.changes.outputs.any_changed }}
     steps:
-      - uses: actions/checkout@v7.0.0
+      - uses: actions/checkout@v7.0.1
 
       - name: Check for base image related changes
         uses: tj-actions/changed-files@9426d40962ed5378910ee2e21d5f8c6fcbf2dd96 # v47.0.6

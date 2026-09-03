@@ -27,7 +27,7 @@ The "Real Gaussian" is python's random.gauss.
 The "Fake Gaussian" is random.uniform fed into the Marsaglia polar method.
 This output is then plotted with `matplotlib`.
 
-![My fake vs np gaussian](/galleries/2022/10-23-guassian-circuitpython/comparing-python-gaussian-plots.jpg){:class="img-responsive"}
+![My fake vs np gaussian](/galleries/2022/10-23-guassian-circuitpython/comparing-python-gaussian-plots.jpg){:class="img-fluid"}
 
 This random distribution's relevance in robotics is around making increasingly closer guesses to a solution.
 

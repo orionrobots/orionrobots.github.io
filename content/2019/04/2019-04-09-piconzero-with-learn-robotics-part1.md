@@ -4,7 +4,7 @@ tags: [piwars, raspberry pi, picon zero, i2c bus, robotics books, robotics at ho
 title: Using The Picon Zero with Learn Robotics Programming - Part 1
 layout: post
 ---
-![Title image](/assets/2019-04-09-piconzero-book-part-1/IMG_20190409_213027.jpg){.class="img-responsive"}
+![Title image](/assets/2019-04-09-piconzero-book-part-1/IMG_20190409_213027.jpg){.class="img-fluid"}
 When writing the book [Learn Robotics Programming](https://amzn.to/2RZqPIy), I took the reader through choosing a motor controller, so they would be able to pick their own.
 I then made a recommendation for the Full Function Motor Hat - a motor hat available from Alibaba, eBay and Amazon from time to time.
 This hat is internationally available, but my preferred motor controller board, if you can purchase it, is the 4Tronix Picon Zero.
@@ -15,7 +15,7 @@ In the posts following today's, I will look at getting it connected to sensors i
 
 ## A bit of background
 
-![PiConZero Close Up](/assets/2019-04-09-piconzero-book-part-1/piconzero-sequence-drawio.png){.class="img-responsive"}
+![PiConZero Close Up](/assets/2019-04-09-piconzero-book-part-1/piconzero-sequence-drawio.png){.class="img-fluid"}
 
 When working with the Raspberry Pi, a hat is a board that you attach to it to extend Raspberry Pi functionality, perhaps connecting GPIO pins to external devices.
 
@@ -34,7 +34,7 @@ You should be able to following along with the section "Connecting the motors to
 
 If you are using the Raspberry Pi 3B+, along with the detailed square of insulating tape as shown in the book, I recommend using a stand-off shim packaged with the PiConZero.
 
-![Steps for Stacking The PiCon zero With The Pi](/assets/2019-04-09-piconzero-book-part-1/stacking-the-piconzero.jpg){.class="img-responsive"}
+![Steps for Stacking The PiCon zero With The Pi](/assets/2019-04-09-piconzero-book-part-1/stacking-the-piconzero.jpg){.class="img-fluid"}
 
 1. For the 3A+ you'll need the PiCon Zero, the Raspberry Pi 3A+ and some insulating tape.
    I've put a bit of tape on the USB socket, to stop the PiConZero catching it.
@@ -46,7 +46,7 @@ If you are using the Raspberry Pi 3B+, along with the detailed square of insulat
 
 You will need to then wire in the PiCon Zero as shown:
 
-![Connecting The PiCon Zero to the Raspberry Pi](/assets/2019-04-09-piconzero-book-part-1/connecting_motor_wires_to_piconzero_drawio.png){.class="img-responsive"}
+![Connecting The PiCon Zero to the Raspberry Pi](/assets/2019-04-09-piconzero-book-part-1/connecting_motor_wires_to_piconzero_drawio.png){.class="img-fluid"}
 
 ## Preparing The Pi
 

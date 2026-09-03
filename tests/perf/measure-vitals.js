@@ -30,7 +30,15 @@ const BASE_URL = (process.env.BASE_URL || 'https://orionrobots.co.uk').replace(/
 const PAGESPEED_API_KEY = process.env.PAGESPEED_API_KEY || '';
 const PERF_RUNS = Math.max(1, parseInt(process.env.PERF_RUNS || '3', 10));
 const OUTPUT_JSON = process.env.OUTPUT_JSON || '';
-const IS_PRODUCTION = BASE_URL.includes('orionrobots.co.uk');
+const BASE_HOSTNAME = (() => {
+  try {
+    return new URL(BASE_URL).hostname.toLowerCase();
+  } catch (_) {
+    return '';
+  }
+})();
+const IS_PRODUCTION =
+  BASE_HOSTNAME === 'orionrobots.co.uk' || BASE_HOSTNAME.endsWith('.orionrobots.co.uk');
 
 // Pages to measure. Add or remove entries to customise the test suite.
 const PAGES = [

@@ -9,7 +9,7 @@ date: 2013-05-02 20:35:48
 ## Components
 
 <div style="float: right;">
-  <img class="img-responsive" src="/galleries/gallery-1-common-images/138-steppermotor.png">
+  <img class="img-fluid" src="/galleries/gallery-1-common-images/138-steppermotor.png">
 </div>
 
 - [Servo Motor](/wiki/servo_motor.html "A motor with built in positioning control - easily interfaced with digital systems")

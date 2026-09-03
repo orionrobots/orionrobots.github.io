@@ -1,5 +1,5 @@
 const path = require("path");
-const Image = require("@11ty/eleventy-img");
+const Image = require("@11ty/eleventy-img").default;
 const fetch_image = require("../fetch_image.js");
 
 /**
@@ -9,7 +9,7 @@ const fetch_image = require("../fetch_image.js");
  * - Project-root paths (e.g., "galleries/...", "content/...") are used as-is
  * - Absolute paths (e.g., "/content/...", "https://...") are used as-is
  */
-async function img_responsive(src, alt, sizes = "(max-width: 767px) 100vw, (max-width: 991px) 720px, 940px", class_names = "img-responsive", widths_csv = null) {
+async function img_responsive(src, alt, sizes = "(max-width: 767px) 100vw, (max-width: 991px) 720px, 940px", class_names = "img-fluid", widths_csv = null) {
     // Resolve relative paths relative to the current page
     let resolvedSrc = src;
 

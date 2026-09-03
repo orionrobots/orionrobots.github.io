@@ -9,7 +9,7 @@ My [Learn Robotics Programming](https://amzn.to/2RZqPIy) book was written around
 
 Since the publishing of the first edition of Learn Robotics Programming, the Raspberry Pi 3a+ board has been released.
 
-![My Piwars Robot So Far With The Raspberry Pi 3a+](/galleries/camera_lens_holding_on_piwars_bot.jpg){:class="img-responsive pull-left"}
+![My Piwars Robot So Far With The Raspberry Pi 3a+](/galleries/camera_lens_holding_on_piwars_bot.jpg){:class="img-fluid pull-left"}
 
 I am basing my Piwars 2019 robot build around the 3a+, as it is not only cheaper than the 3b+, but it has a smaller form factor with a lot of the ports removed. This saves a load of space, which in a robot build tends to be vital.
 
