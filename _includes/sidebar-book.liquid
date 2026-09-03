@@ -1,10 +1,14 @@
+{% comment %}
+  sizes below repeats img_responsive's own default explicitly: Liquid shortcodes take
+  positional args only, so class_names (4th) can't be set without also supplying sizes (3rd).
+{% endcomment %}
 <div class="card">
     <div class="card-header">Learn Robotics Programming 3rd Edition</div>
     <div class="card-body">
         <p>Build and control cutting-edge AI robots with Raspberry Pi and Python. The fully updated 3rd edition takes you from first principles through to autonomous behaviours and AI-powered features.</p>
         <div class="text-center">
             <a href="https://www.packtpub.com/en-us/product/learn-robotics-programming-9781803246987">
-                {% image "galleries/learn-robotics-programming-3rd-edition/learn-robotics-programming-3rd-cover.png", "Learn Robotics Programming 3rd Edition cover", "300,400", "img-fluid mb-2" %}
+                {% image "galleries/learn-robotics-programming-3rd-edition/learn-robotics-programming-3rd-cover.png", "Learn Robotics Programming 3rd Edition cover", "(max-width: 767px) 100vw, (max-width: 991px) 720px, 940px", "img-fluid mb-2" %}
                 <br>Learn Robotics Programming 3rd Edition. Build and control cutting-edge AI robots with Raspberry Pi and Python
             </a>
         </div>
@@ -17,7 +21,7 @@
         <p>Learn how to build a robot in your own home. Using hand tools, and while gaining programming and design skills you will make a robotics platform for experimentation using the popular Raspberry Pi Pico.</p>
         <div class="text-center">
             <a href="https://packt.link/5swS2">
-                {% image "galleries/robotics_at_home_with_raspberry_pi_pico_cover.jpg", "Robotics at Home with Raspberry Pi Pico book cover", "300,400", "img-fluid mb-2" %}
+                {% image "galleries/robotics_at_home_with_raspberry_pi_pico_cover.jpg", "Robotics at Home with Raspberry Pi Pico book cover", "(max-width: 767px) 100vw, (max-width: 991px) 720px, 940px", "img-fluid mb-2" %}
                 <br>Robotics at Home with Raspberry Pi Pico: Build autonomous robots with the versatile low-cost Raspberry Pi Pico controller and Python
             </a>
         </div>
