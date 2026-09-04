@@ -78,7 +78,9 @@ async function thumbnail_from_path(thumbnail_path, input_path) {
   } else {
     // console.log("Generating thumbnail URL for " + imageSrc);
     const metadata = await make_thumbnail_for(imageSrc);
-    return metadata.png[1].url;
+    // eleventy-img omits jpeg for sources with an alpha channel (jpeg can't
+    // hold transparency), so fall back to png, which is always generated.
+    return (metadata.jpeg ?? metadata.png)[1].url;
   }
 }
 
