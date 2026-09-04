@@ -32,9 +32,6 @@ on:
       - 'docker-compose.yml'
       - 'docker-compose.ci.yml'
 
-permissions:
-  contents: read
-
 concurrency:
   group: site_building
   cancel-in-progress: true
