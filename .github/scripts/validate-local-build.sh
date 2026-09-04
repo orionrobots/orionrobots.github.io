@@ -12,11 +12,6 @@
 #   .github/scripts/validate-local-build.sh
 #
 # Keywords: bdd test validate staging local smoke thumbnails avif image performance
-#
-# Known skipped test:
-#   Scenario 5 (gallery trailing-slash redirect) requires htaccess/Apache rewrite
-#   rules that are not loaded in the local http_serve environment.
-#   See: https://github.com/orionrobots/orionrobots.github.io/issues/413
 
 set -euo pipefail
 
@@ -71,15 +66,9 @@ if [[ "$avif_count" -eq 0 ]]; then
   exit 1
 fi
 
-# ─── Step 4: BDD tests (scenarios 1-4, skip 5 - gallery redirect) ─────────────
-# TODO: Scenario 5 (gallery trailing-slash redirect) is skipped here because
-# the local http_serve does not load .htaccess rewrite rules.
-# See: https://github.com/orionrobots/orionrobots.github.io/issues/413
+# ─── Step 4: BDD tests ─────────────────────────────────────────────────────
 echo ""
 echo "=== Step 4: BDD tests (via Docker, network: ${DOCKER_NETWORK}) ==="
-echo "  NOTE: Gallery redirect test (scenario 5) will fail in this environment"
-echo "  due to missing htaccess rewrites — this is a known local limitation."
-echo ""
 
 docker run --rm \
   --network "${DOCKER_NETWORK}" \
@@ -90,16 +79,6 @@ docker run --rm \
   -v "${PROJECT_ROOT}/cucumber.js:/app/src/cucumber.js" \
   "${TEST_IMAGE}" \
   npm run test:bdd
-BDD_EXIT=$?
-
-# Scenario 5 (gallery redirect) is expected to fail locally — treat 1 failure
-# as a passing run; more than 1 failure is a real problem.
-if [[ "$BDD_EXIT" -ne 0 ]]; then
-  echo ""
-  echo "  BDD tests had failures. If only the gallery redirect scenario failed,"
-  echo "  that is expected locally (see issue #413). Check output above."
-  # Do not exit 1 here — let the user judge from the output.
-fi
 
 echo ""
 echo "=== Validation complete ==="
