@@ -30,7 +30,7 @@ DISABLE_LINTERS:
 FILTER_REGEX_EXCLUDE: '^_drafts/.*'
 
 # Ratchet: the "On PR Lint" job no longer sets continue-on-error, so failures
-# among the linters above now block a PR. These four were already failing when
+# among the linters above now block a PR. These were already failing when
 # that gate went live, so they're listed here to run and report but not block,
 # instead of being silently masked. Fix the underlying issue and remove the
 # entry rather than leaving it here - this list should only shrink.
@@ -38,4 +38,3 @@ DISABLE_ERRORS_LINTERS:
   - ACTION_ZIZMOR # 401 from GitHub API mid-audit, needs investigating separately from code fixes
   - C_CPPCHECK # invalid C syntax in old blog-post demo snippets under assets/galleries
   - CPP_CPPCHECK # same demo snippets, matched again under the .h extension
-  - YAML_V8R # on_call_staging_test.yaml: `on:` schema mismatch + a bad-indent commented-out block
