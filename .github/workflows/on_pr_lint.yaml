@@ -29,6 +29,9 @@ jobs:
 
   lint_cupcake:
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pull-requests: write # lets megalinter's GITHUB_COMMENT_REPORTER post/update the lint summary comment
     steps:
       - name: Checkout source code
         uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
@@ -43,7 +46,6 @@ jobs:
         run: npm ci
 
       - name: Lint Code Base
-        continue-on-error: true
         uses: oxsecurity/megalinter/flavors/cupcake@v10.0.0
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
