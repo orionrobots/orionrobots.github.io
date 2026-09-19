@@ -46,6 +46,6 @@ jobs:
         run: npm ci
 
       - name: Lint Code Base
-        uses: oxsecurity/megalinter/flavors/cupcake@v10.0.0
+        uses: oxsecurity/megalinter/flavors/cupcake@v10.1.0
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
