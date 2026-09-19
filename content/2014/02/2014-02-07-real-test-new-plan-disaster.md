@@ -1,11 +1,13 @@
 ---
 date: '2014-02-07'
 description: An exciting day, but going to need to replace a part of it
-layout: default
+
 tags:
 - cnc projects
 - electronics
 - cnc control box
+- cnc
+- cnc-control-box
 title: CNC - Some new ideas, a plan, disaster!
 ---
 ## Recap

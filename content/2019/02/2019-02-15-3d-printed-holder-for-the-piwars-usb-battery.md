@@ -6,7 +6,7 @@ layout: post
 ---
 I've finally designed a USB Battery mount for my PiWars 2019 robot. I designed the mount in Fusion 360, and this is the first iteration that I can 3D print. This article contains paid links.
 
-![The USB Battery Compartment For My PiWars 2019 Robot](/galleries/2019/02/14-printable-usb-battery-holder/chassis-assembly-v67.png){:class="img-responsive"}
+![The USB Battery Compartment For My PiWars 2019 Robot](/galleries/2019/02/14-printable-usb-battery-holder/chassis-assembly-v67.png){:class="img-fluid"}
 
 Perhaps to find out why effort has gone into this, it's worth going back to previous PiWars. Piwars is a robot challenge event where teams build robots around a Raspberry Pi to compete on autonomous and manually driven events.
 
@@ -14,7 +14,7 @@ Perhaps to find out why effort has gone into this, it's worth going back to prev
 
 I've not posted much yet about my piwars robots, but in last years event, my robot there had a couple of annoying (embarrassing) failure modes related to the batteries and power.
 
-![My Piwars 2018 Robot](/galleries/2019/02/14-printable-usb-battery-holder/piwars2018-robot.jpg){:class="img-responsive"}
+![My Piwars 2018 Robot](/galleries/2019/02/14-printable-usb-battery-holder/piwars2018-robot.jpg){:class="img-fluid"}
 
 1. If the robot went up a steep enough slope, the battery fell out!
 2. The robot was top heavy because the battery packs were mounted far above the centre of gravity so that the robot would topple backwards.
@@ -27,12 +27,7 @@ I resolved to get these problems fixed. Sure, there were code bugs, but I could 
 
 (paid links)
 
-<div class="media">
-  <div class="media-left"><a href="https://www.amazon.co.uk/Learn-Robotics-Programming-autonomous-Raspberry/dp/1789340748/ref=as_li_ss_il?ref_=nav_ya_signin&_encoding=UTF8&&linkCode=li1&tag=orionrobots-21&linkId=20d971f8cbb0b0f1890b9a399efab4a2&language=en_GB" target="_blank"><img border="0" src="//ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=1789340748&Format=_SL110_&ID=AsinImage&MarketPlace=GB&ServiceVersion=20070822&WS=1&tag=orionrobots-21&language=en_GB" ><img src="https://ir-uk.amazon-adsystem.com/e/ir?t=orionrobots-21&language=en_GB&l=li1&o=2&a=1789340748" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /></a></div>
-  <div class="media-body">
 Last year, after Piwars I wrote the book [Learn Robotics Programming](https://amzn.to/2IqrMFA), and in this I recommended a strategy using two sets of batteries. This meant that power for the Raspberry Pi, logic and sensors came from one battery pack, and power for the motors and LED's from another.
-  </div>
-</div>
 
 For this I used a USB power supply (portable phone charger) for the Pi, it's already a nice regulated 5v, it's rechargeable from a USB mains adaptor with built-in safety circuits. These are quite easy to use with the Raspberry Pi and make a lot of sense. Very convenient.
 
@@ -75,7 +70,7 @@ For the rail, I started by placing planes to model the constraints of the clip, 
 
 I was then able to extrude this sketch out to the length of the battery pack. I projected the mounting holes for the other parts from the chassis into a new sketch and used this to cut rectangles around them to get nuts on to them, and holes for the screws to go through. This would let me slide the battery in, but it would keep sliding. So upon the innermost end of the rails, I sketched on the end of the rail, creating a lip that would stop the movement of the battery pack.
 
-![The Clip Design Mark 1](/galleries/2019/02/14-printable-usb-battery-holder/battery-clips.png){:class="img-responsive"}
+![The Clip Design Mark 1](/galleries/2019/02/14-printable-usb-battery-holder/battery-clips.png){:class="img-fluid"}
 
 I then needed some clips for the outermost end. For this, I created a hole for a screw, going through to one of the rectangles I cut earlier so I could put a nut the other end of it. Beside this screw hole, I use rounded rectangle shallow cuts, which would be the detents - the positions that the clip would be able to rest at.
 
@@ -85,11 +80,11 @@ I used the fusion 360 mirror tool to make the other side, and a bunch of joint c
 
 I used chamfers along the bottom corners to try and make it easier to lift from the bed, which only marginally helped.
 
-![The Failed Print](/galleries/2019/02/14-printable-usb-battery-holder/failed_print.jpg){:class="img-responsive"}
+![The Failed Print](/galleries/2019/02/14-printable-usb-battery-holder/failed_print.jpg){:class="img-fluid"}
 
 The first attempt to print it failed, due to a filament issue after the first layer.
 
-![The Mark 1 Clip](/galleries/2019/02/14-printable-usb-battery-holder/mark1_battery_clips.jpg){:class="img-responsive"}
+![The Mark 1 Clip](/galleries/2019/02/14-printable-usb-battery-holder/mark1_battery_clips.jpg){:class="img-fluid"}
 
 Being a little impatient, I used the low quality (draft) print setting, a bit of an experiment, but I'm not relying hugely on precise detail other than the detent.
 
@@ -111,11 +106,11 @@ The M3 nuts come out at 5.4mm across the flat parts of the hex. So I'll create s
 
 This meant creating sketches for the slots, extruding the main block upwards, and cutting holes through, but finally, I got a printable idea. I had to fiddle a bit with the history to put the joints after the new extrusions. That way I could then move the mirror operation (creating the left-hand side from the right) past the new extrusions.
 
-![Mark 2 Battery Guide Printable Design](/galleries/2019/02/14-printable-usb-battery-holder/mark2_battery_clip.png){:class="img-responsive"}
+![Mark 2 Battery Guide Printable Design](/galleries/2019/02/14-printable-usb-battery-holder/mark2_battery_clip.png){:class="img-fluid"}
 
 The first time printing again hit a failure, a small amount of stray filament from the nozzle (I should probably preheat it to relieve any pressure) stuck to the first layers and made a mess of them. Luckily this was only a couple of minutes in, so I was able to try again immediately.
 
- ![Mark 2 Battery Guide Printed](/galleries/2019/02/14-printable-usb-battery-holder/mark2_battery_guide_printed.jpg){:class="img-responsive"}
+ ![Mark 2 Battery Guide Printed](/galleries/2019/02/14-printable-usb-battery-holder/mark2_battery_guide_printed.jpg){:class="img-fluid"}
 
 These printed great a second time, but I'd not factored in much in the tolerances for the slots. The nuts would not fit in at all. And I'd printed both sides when perhaps one would do to prove the concept.
 
@@ -123,7 +118,7 @@ These printed great a second time, but I'd not factored in much in the tolerance
 
 ## Mark 3
 
-![Mark 3 Battery Holder On Robot](/galleries/2019/02/14-printable-usb-battery-holder/mark3_battery_holder_on_robot.jpg){:class="img-responsive"}
+![Mark 3 Battery Holder On Robot](/galleries/2019/02/14-printable-usb-battery-holder/mark3_battery_holder_on_robot.jpg){:class="img-fluid"}
 
 This was merely a matter of adjusting the size of the slots. This time, the model printed first time. The nuts slid correctly into place. The guides are bolted on, although I wasn't able to get the smaller M2.5 nuts in.
 

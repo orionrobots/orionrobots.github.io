@@ -81,7 +81,7 @@ I then had a wiring issue - and the WAGO's helped. First, the test points meant 
 
 I tried some fairly aggressive shaking of the wires, and saw no fault. I don't recommend any connection is under stress, but I tried that and it looked good.
 
-They still take a bunch of space, but making blocks of them with bluetac worked for me. It may be tidier if the pigtail connectors were ribbons, as they come as a set of 6 individual wires (or 4 depending on the connector size). However, once I am happy with the connections, I can always go around it with [Spiral Wire Wrap](2021/03/07/wire-wrap).
+They still take a bunch of space, but making blocks of them with bluetac worked for me. It may be tidier if the pigtail connectors were ribbons, as they come as a set of 6 individual wires (or 4 depending on the connector size). However, once I am happy with the connections, I can always go around it with [Spiral Wire Wrap](/2021/03/07/wire-wrap.html).
 
 ## Conclusion
 

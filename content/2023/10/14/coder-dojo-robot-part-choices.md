@@ -21,7 +21,7 @@ Another consideration is that the robots will be a popular activity, and there w
 
 I started by assessing where the robots were at. There were 6 robots based on the Adafruit Mini round chassis, and 2 other robots with incomplete different chassis. I decided to focus my effort on the Adafruit chassis, as they were all the same, and we could use the same parts for all of them.
 
-{% img_responsive "content/2023/10/14/existing-robot-chassis-and-battery-box.jpg", "Existing robot chassis and battery box", "Existing robot chassis and battery box" %}
+{% img_responsive "content/2023/10/14/existing-robot-chassis-and-battery-box.jpg", "Existing robot chassis and battery box" %}
 
 The picture shows the mini round chassis. Some of the robots had breadboards I could use, but some I'd need to add a breadboard. Most also had battery boxes I could use, with a couple missing. The robots all had motors. Some needed a few mounting posts, but this is something I usually have spare in my lab.
 

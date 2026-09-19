@@ -6,7 +6,7 @@ date: 2010-11-11 21:36:53
 ---
 <div style=" float: left;">
   <a href="http://www.flickr.com/photos/27878484@N00/32736259/" title="rcx by Marco Cioffi, on Flickr">
-  <img alt="rcx" class="img-responsive" height="180" src="http://farm1.static.flickr.com/23/32736259_93a8d9f2a7_m.jpg" style="margin-right: 10px" width="240">
+  <img alt="rcx" class="img-fluid" height="180" src="http://farm1.static.flickr.com/23/32736259_93a8d9f2a7_m.jpg" style="margin-right: 10px" width="240">
 </a>
 </div>The RCX is a [Lego](/wiki/lego.html "The best known construction toy") computer, capable of controlling a number of Technic Motors and respond to inputs from a number of sensors. It houses a [MicroController](/wiki/microcontroller.html "A programmable digital controller (or "), with software, interfaces and firmware designed for [Lego](/wiki/lego.html "The best known construction toy") and their [MindStorms](/wiki/mindstorms.html "A Robotic construction toy system from Lego") brand.
 

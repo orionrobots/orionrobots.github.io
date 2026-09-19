@@ -1,50 +1,24 @@
----
-theme :
-  name : orionrobots
-layout: common
----
-<div class="row">
-  <article id="col-main" class="content col-md-8">
-    <div class="gcse-searchresults"></div>
-    <nav class="row g-0 border rounded tag-row">
-      <div class="row g-0">
-        {% unless tags == empty %}
-            <nav>
-              {% assign tags_list = tags %}
-              {% include tags_list %}
-            </nav>
-        {% endunless %}
-      </div>
-      <div class="row g-0">{% include social-sharing %}</div>
-    </nav>
-    <h2 class="page-header">{{ title }} {% if tagline %}<small>{{tagline}}</small>{% endif %}</h2>
-    {{ content }}
-    {% if comments %}
-        {% include disqus_thread %}
-    {% endif %}
+{% assign content_class="col-md-8" %}
 
-  </article>
-  <aside class="col-md-4">
-      {% include sidebar-book.liquid %}
-      {% comment %}{% include sidebar_ads.liquid %}{% endcomment %}
-  </aside>
-</div>
-{% if using_mathjax %}
-    <script>
-        MathJax = {
-          tex: {
-            inlineMath: [['$', '$']]
-          },
-          svg: {
-            fontCache: 'global'
-          }
-        };
-    </script>
-    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-{% endif %}
+{% layout layouts/common %}
+
+{% block content %}
+  {% if comments %}
+      {% include disqus_thread %}
+  {% endif %}
+{% endblock %}
+
+{% block side_bar %}
+<aside class="col-md-4">
+    {% include sidebar-book.liquid %}
+</aside>
+{% endblock %}
+
+{% block footer_scripts %}
 <script>
   const newSlug = "{{ date | date: '%Y-%m-%d' }}-{{ slug }}";
   document.addEventListener("DOMContentLoaded", function(event) {
     document.addPostAdminButton(newSlug);
   });
 </script>
+{% endblock %}

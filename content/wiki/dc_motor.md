@@ -14,7 +14,7 @@ The basic design of a DC motor requires an outer stator, a holder for the rotor 
 
 The rotor - rotating part has at least three electromagnets(more mean smoother operation) around a central axle.  The central axle also has a small ring with three(or more) contacts known as commutators (see title below).  As the motor rotates - the brushes on the stator connect with the commutator - and the motor changes polarity when the motor has turned - so the electromagnets polarities will change - this will attract them to the other stator magnet.
 
-<img class="img-responsive" src="/galleries/gallery-1-common-images/222-motorworkings.png"/>
+<img class="img-fluid" src="/galleries/gallery-1-common-images/222-motorworkings.png"/>
 
 The demonstration two electromagnet design is simple, and has limited efficiency and stability - professional motors are often a great deal more complex than this.
 

@@ -1,6 +1,6 @@
 ---
 date: 2018-2-16 12:01:55
-tags: [soldering, electronics, cnc projects]
+tags: [soldering, electronics, cnc projects, cnc, cnc-control-box]
 title: 2018-02-16-helena-learned-to-solder
 layout: post
 ---

@@ -1,5 +1,5 @@
 ---
-date: '2020-03-01'
+date: 2020-03-01
 description: Explorer Hat Pro Part For Kicad
 layout: post
 tags:
@@ -8,7 +8,7 @@ tags:
 - raspberry pi projects
 - raspberry pi 3 projects
 - piwars
-- robot
+- robot building
 - kicad
 title: 'Piwars 2020: Kicad Part For the Pimoroni Explorer Hat Pro'
 ---
@@ -18,7 +18,7 @@ The Nerf turret has two counter rotating rollers, which compress the dart and fl
 
 In the course of designing this, I made a Kicad part for the Explorer Hat Pro. The picture below shows the part in use.
 
-![Picture Of Explorer Hat Kicad Part](/assets/kicad-library-parts/explorerhatpro.png){.class="img-responsive"}
+![Picture Of Explorer Hat Kicad Part](/assets/kicad-library-parts/explorerhatpro.png){.class="img-fluid"}
 
 I'm still gaining Kicad skills, so I expect the part not to be perfect, however I think it would be useful to other people building stuff with the Explorer Hat.
 
@@ -27,4 +27,4 @@ Download the files below:
 * [explorerhatpro.lib](/assets/kicad-library-parts/explorerhatpro.lib)
 * [explorerhatpro.dcm](/assets/kicad-library-parts/explorerhatpro.dcm)
 
-![Nerf Gun On the Robot](https://pbs.twimg.com/media/ERVTiHkU8AER8cU?format=jpg&name=large){.class="img-responsive"}
+{% img_responsive "content/2020/03/nerf-turret-on-bangers-robot.JPG", "Nerf Gun On the Robot" %}

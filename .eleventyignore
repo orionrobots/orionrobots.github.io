@@ -1,3 +1,9 @@
 ./README.md
 ./_image_sources
 ./_drafts
+./tests
+./.github
+./.agents
+docs
+Dockerfile
+DOCKER_OPTIMIZATION.md

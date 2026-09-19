@@ -1,7 +1,7 @@
 ---
 layout: page
 title: The Cybot Infra Red Protocol
-tags: [robots, electronics]
+tags: [robots, electronics, cybot]
 date: 2004-11-16 14:13:00
 ---
 It may be possible to use a digital video camera as an IR analyser, or a phototransistor with an oscilloscope, as if the frame rate is quick enough you can sometimes see IR bursts on them.

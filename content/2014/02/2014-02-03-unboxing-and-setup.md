@@ -1,11 +1,12 @@
 ---
 date: '2014-02-03'
 description: CNC Mill Unboxing and Setup
-layout: default
+
 tags:
 - cnc projects
 - stepper motors
 - tools
+- cnc
 title: CNC Mill Unboxing and Setup
 ---
 {% assign gallery_url="/galleries/unboxing_pictures/images/" %}

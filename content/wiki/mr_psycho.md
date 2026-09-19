@@ -10,5 +10,5 @@ He has a huge pounding hammer and a very menacing look - almost like a butcher. 
 
 He has twice the lifting force of Sir Killalot and is paired up with his companion Growler - both of whom were introduced with a elaborate ceremony.
 
-<div style=" width:322px;"><img alt="Mr Psycho" class="img-responsive" src="/galleries/gallery-1-common-images/56-mrpsycho.gif" title="Mr Psycho"/> <div class="mini" style="width:320px;"> <div class="thumbcaption">Mr Psycho
+<div style=" width:322px;"><img alt="Mr Psycho" class="img-fluid" src="/galleries/gallery-1-common-images/56-mrpsycho.gif" title="Mr Psycho"/> <div class="mini" style="width:320px;"> <div class="thumbcaption">Mr Psycho
 </div></div></div>

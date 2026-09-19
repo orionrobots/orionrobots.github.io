@@ -10,7 +10,7 @@ date: 2023-06-13T19:28:00.000Z
 
 I thought it would be fun, while making the entry, to post my form information here. We get to compare later in the year with what actually happens though!
 
-![Piwars 2019 - Big Ole Yellow - Tracked Robot](/galleries/2019/03/piwars_tracked_robot/2019-03-23-big-ole-yellow-sensors-on-face.jpg){:class="img-responsive"}
+![Piwars 2019 - Big Ole Yellow - Tracked Robot](/galleries/2019/03/piwars_tracked_robot/2019-03-23-big-ole-yellow-sensors-on-face.jpg){:class="img-fluid"}
 
 Team name: Orionrobots
 
@@ -51,7 +51,7 @@ We plan to transplant a servo-motor based nerf gun turret from the robot "Banger
 
 Power wise it currently uses a set of AA batteries for motors plus a USB battery pack for logic. We may need to change this depending on the power requirements of the turret and to reduce weight.
 
-![Mark 3 Battery Holder On Robot](/galleries/2019/02/14-printable-usb-battery-holder/mark3_battery_holder_on_robot.jpg){:class="img-responsive"}
+![Mark 3 Battery Holder On Robot](/galleries/2019/02/14-printable-usb-battery-holder/mark3_battery_holder_on_robot.jpg){:class="img-fluid"}
 
 It has known flaws around traction, and the turret is untested on this robot. We will need to test it and make sure it works, then make a plan on which things to tackle, along with trying out algorithms for the challenges. We plan to do as many automated challenges as possible, but may need to do some manually.
 

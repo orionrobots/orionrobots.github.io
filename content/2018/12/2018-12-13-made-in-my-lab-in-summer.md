@@ -23,12 +23,6 @@ Also comparing distance sensor types:
 <iframe width="560" height="315" src="https://www.youtube.com/embed/eGYwbqp0w3w" frameborder="0" allowfullscreen="True"></iframe>
 </div>
 
-(paid links)
-
-<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=GB&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=orionrobots-21&language=en_GB&marketplace=amazon&region=GB&placement=B07DM2TKKL&asins=B07DM2TKKL&linkId=30013791f3cdd0f665c2fa20a1b52462&show_border=true&link_opens_in_new_window=true"></iframe>
-
-<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=GB&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=orionrobots-21&language=en_GB&marketplace=amazon&region=GB&placement=B08W8GTLGQ&asins=B08W8GTLGQ&linkId=b58c1bbfe1668668ba1579f5beb123bf&show_border=true&link_opens_in_new_window=true"></iframe>
-
 ## USB Footswitch
 
 I make lots of video and photos. There were many picture sequences made for the book, to help explain and demonstrate things. When doing shots of making/assembling parts, I kept finding I needed an extra hand to trigger the camera, or start/stop video recordings, while holding parts in place.

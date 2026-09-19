@@ -1,0 +1,51 @@
+---
+name: "On PR Lint"
+on:
+  pull_request:
+    branches:
+      - master
+
+permissions:
+  contents: read
+
+jobs:
+  check_dependabot:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout source code
+        uses: actions/checkout@v7.0.1
+
+      - name: Check Changes
+        id: changed-env
+        uses: tj-actions/changed-files@9426d40962ed5378910ee2e21d5f8c6fcbf2dd96 # v47.0.6
+        with:
+          files: |
+            .github/dependabot.yml
+
+      - if: |
+          steps.changed-env.outputs.any_modified == 'true'
+        run: |
+          npx -y @bugron/validate-dependabot-yaml@latest
+
+  lint_cupcake:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pull-requests: write # lets megalinter's GITHUB_COMMENT_REPORTER post/update the lint summary comment
+    steps:
+      - name: Checkout source code
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+
+      - name: Setup Node.js
+        uses: actions/setup-node@820762786026740c76f36085b0efc47a31fe5020 # v7.0.0
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Lint Code Base
+        uses: oxsecurity/megalinter/flavors/cupcake@v10.0.0
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
