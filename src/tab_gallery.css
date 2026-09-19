@@ -1,0 +1,12 @@
+.image-tab-gallery-tabs {
+    width: 20%;
+    padding-top: 4px;
+}
+
+.image-tab-gallery-tab {
+    padding-top: 4px;
+}
+
+.image-tab-gallery-current-image {
+    width: 80%;
+}

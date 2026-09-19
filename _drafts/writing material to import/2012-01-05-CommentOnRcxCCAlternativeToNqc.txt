@@ -1,0 +1,4 @@
+An alternative - RcxCC
+
+RCX cc is an alternative C language compiler for the Rcx. It works only in Windows and does require the installation of the RCX software - making it much less useful as the RIS software doesn't install on Windows Xp, Vista or 7.
+It is for this reason that I do not recommend using RCXcc.

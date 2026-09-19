@@ -1,16 +1,73 @@
 ---
-# Set update schedule for GitHub Actions
-
 version: 2
 updates:
 
   - package-ecosystem: "github-actions"
     directory: "/"
     schedule:
-      # Check for updates to GitHub Actions every week
       interval: "weekly"
+    cooldown:
+      default-days: 3
+    groups:
+      artifact-handling:
+        patterns:
+          - "actions/download-artifact"
+          - "actions/upload-artifact"
+      github-actions-minor-patch:
+        patterns:
+          - "*"
+        update-types:
+          - "minor"
+          - "patch"
+
   - package-ecosystem: "npm"
     directory: "/"
     schedule:
-      # Check for updates to npm dependencies every week
       interval: "weekly"
+    cooldown:
+      default-days: 3
+    allow:
+      - dependency-type: "all"
+    ignore:
+      # ts-node has no stable release compatible with TypeScript 7's
+      # restructured package exports (require('typescript').sys is gone).
+      # Remove once ts-node (or its replacement) supports TS 7.
+      - dependency-name: "typescript"
+        update-types: ["version-update:semver-major"]
+    groups:
+      npm-minor-patch:
+        patterns:
+          - "*"
+        update-types:
+          - "minor"
+          - "patch"
+
+  - package-ecosystem: "docker"
+    directories:
+      - "**/*"
+    schedule:
+      interval: "weekly"
+    cooldown:
+      default-days: 3
+    groups:
+      docker-minor-patch:
+        patterns:
+          - "*"
+        update-types:
+          - "minor"
+          - "patch"
+
+  - package-ecosystem: "pip"
+    directories:
+      - "**/*"
+    schedule:
+      interval: "weekly"
+    cooldown:
+      default-days: 3
+    groups:
+      pip-minor-patch:
+        patterns:
+          - "*"
+        update-types:
+          - "minor"
+          - "patch"

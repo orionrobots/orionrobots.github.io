@@ -1,0 +1,7 @@
+{% layout layouts/default %}
+{% block post_info %}
+<div class="date text-secondary">
+  <time class="d-inline">{{ page.date | date_to_long_string }}</time>
+  <div class="author d-inline">by {{ page.author | default: author | default: "Danny Staple" }}</div>
+</div>
+{% endblock %}

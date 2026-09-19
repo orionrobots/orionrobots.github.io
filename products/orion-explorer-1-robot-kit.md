@@ -5,25 +5,21 @@ google_category: Electronics > Circuit Components > Circuit Prototyping
 tags: ["4wd car", "arduino", "arduino robot kit", "atmel", "avr", "breadboard", "explorer 1", "microcontroller", "robot", "robot car", "robot chassis", "solderless"]
 vendor: orionrobots
 gallery:
-    parent: /galleries/orion-explorer-1-robot-kit/
-    initial: orion-explorer-1-side.jpg
-    width: 200px;
-    height: 200px;
     images:
         -
-            src: orion-explorer-1-side.jpg
+            src: galleries/orion-explorer-1-robot-kit/orion-explorer-1-side.jpg
             alt: The Explorer One Robot Assembled
         -
-            src: arduino-leonardo-front.jpg
+            src: galleries/orion-explorer-1-robot-kit/arduino-leonardo-front.jpg
             alt: The Arduino Leonardo Microcontroller board with headers
         -
-            src: battery-box-6xaa.jpg
+            src: galleries/orion-explorer-1-robot-kit/battery-box-6xaa.jpg
             alt: Uses standard AA batteries (not included)
         -
-            src: peeling-cables.jpg
+            src: galleries/orion-explorer-1-robot-kit/peeling-cables.jpg
             alt: Peelable male-female jumper cables
         -
-            src: l298-motor-controller-side.jpg
+            src: galleries/orion-explorer-1-robot-kit/l298-motor-controller-side.jpg
             alt: Dual motor control board
 ---
 ## This is no longer for sale

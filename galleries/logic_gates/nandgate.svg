@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="744.09448819"
+   height="1052.3622047"
+   id="svg2"
+   sodipodi:version="0.32"
+   inkscape:version="1.2.2 (b0a8486, 2022-12-01)"
+   sodipodi:docname="nandgate.svg"
+   inkscape:export-filename="/home/danny/Documents/nandgate.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90"
+   version="1.1"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.06"
+     inkscape:cx="473.11321"
+     inkscape:cy="341.98113"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     inkscape:window-width="1680"
+     inkscape:window-height="917"
+     inkscape:window-x="0"
+     inkscape:window-y="25"
+     inkscape:showpageshadow="2"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-opacity:1;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none"
+       d="M 402.03125 240.96875 L 402.03125 423.75 C 484.80878 422.64599 551.4375 382.15029 551.4375 332.375 C 551.4375 282.59971 484.80878 242.07276 402.03125 240.96875 z "
+       id="path1307"
+       inkscape:export-filename="/home/danny/Documents/nandgate.png"
+       inkscape:export-xdpi="74.459999"
+       inkscape:export-ydpi="74.459999" />
+    <path
+       sodipodi:type="arc"
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path3058"
+       sodipodi:cx="227.28432"
+       sodipodi:cy="301.81885"
+       sodipodi:rx="17.172594"
+       sodipodi:ry="17.172594"
+       d="M 244.45691 301.81885 A 17.172594 17.172594 0 1 1  210.11172,301.81885 A 17.172594 17.172594 0 1 1  244.45691 301.81885 z"
+       transform="translate(341.4113,32.32488)"
+       inkscape:export-filename="/home/danny/Documents/nandgate.png"
+       inkscape:export-xdpi="74.459999"
+       inkscape:export-ydpi="74.459999" />
+    <path
+       style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 402.02041,284.40259 L 331.30973,284.40259"
+       id="path3060"
+       inkscape:export-filename="/home/danny/Documents/nandgate.png"
+       inkscape:export-xdpi="74.459999"
+       inkscape:export-ydpi="74.459999" />
+    <path
+       style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+       d="M 585.84787,333.13357 L 668.68037,333.13357"
+       id="path3064"
+       inkscape:export-filename="/home/danny/Documents/nandgate.png"
+       inkscape:export-xdpi="74.459999"
+       inkscape:export-ydpi="74.459999" />
+    <path
+       id="path3066"
+       d="M 402.02041,380.40259 L 331.30973,380.40259"
+       style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       inkscape:export-filename="/home/danny/Documents/nandgate.png"
+       inkscape:export-xdpi="74.459999"
+       inkscape:export-ydpi="74.459999" />
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3941"
+       transform="matrix(3.13868,0,0,3.694479,-665.5169,-702.2478)"
+       inkscape:export-filename="/home/danny/Documents/nandgate.png"
+       inkscape:export-xdpi="74.459999"
+       inkscape:export-ydpi="74.459999"
+       style="line-height:0.01%"><flowRegion
+         id="flowRegion3943"><rect
+           id="rect3945"
+           width="74.285713"
+           height="24.285715"
+           x="312.85715"
+           y="252.36218" /></flowRegion><flowPara
+         id="flowPara3947"
+         style="line-height:1.25">A</flowPara></flowRoot>
+    <flowRoot
+       transform="matrix(4.108053,0,0,3.531177,-973.4893,-564.0812)"
+       id="flowRoot3949"
+       xml:space="preserve"
+       inkscape:export-filename="/home/danny/Documents/nandgate.png"
+       inkscape:export-xdpi="74.459999"
+       inkscape:export-ydpi="74.459999"
+       style="line-height:0.01%"><flowRegion
+         id="flowRegion3951"><rect
+           y="252.36218"
+           x="312.85715"
+           height="24.285715"
+           width="74.285713"
+           id="rect3953" /></flowRegion><flowPara
+         id="flowPara3955"
+         style="line-height:1.25">B</flowPara></flowRoot>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3957"
+       transform="matrix(4.442493,0,0,4.305359,-744.9971,-818.5734)"
+       inkscape:export-filename="/home/danny/Documents/nandgate.png"
+       inkscape:export-xdpi="74.459999"
+       inkscape:export-ydpi="74.459999"
+       style="line-height:0.01%"><flowRegion
+         id="flowRegion3959"><rect
+           id="rect3961"
+           width="74.285713"
+           height="24.285715"
+           x="312.85715"
+           y="252.36218" /></flowRegion><flowPara
+         id="flowPara3963"
+         style="line-height:1.25">C</flowPara></flowRoot>
+  </g>
+</svg>

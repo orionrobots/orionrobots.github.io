@@ -5,7 +5,7 @@ description: "Building Robots!"
 date: 2014-01-14
 permalink: /getting_started.html
 ---
-[<img class="img-responsive" alt="The Orionrobots Youtube Channel" src="https://yt3.ggpht.com/-CTE7btpvjnc/VkekFJl9jfI/AAAAAAAAAIQ/AhXB_EanDOw/w2120-fcrop64=1,00005a57ffffa5a8-nd/CollageBanner2015.jpg" />](http://youtube.com/c/orionrobots)
+[<img class="img-fluid" alt="The Orionrobots Youtube Channel" src="https://yt3.ggpht.com/-CTE7btpvjnc/VkekFJl9jfI/AAAAAAAAAIQ/AhXB_EanDOw/w2120-fcrop64=1,00005a57ffffa5a8-nd/CollageBanner2015.jpg" />](http://youtube.com/c/orionrobots)
 
 ## ESP 8266 / Node MCU
 
@@ -27,21 +27,21 @@ permalink: /getting_started.html
 <div style="vertical-align: top">
 {% assign youtube_id="U8458u-jilI" %}
 {% assign description="Python on the Explorer 1 Robot With Raspberry Pi via Bluetooth" %}
-{% include youtube_link.html %}
+{% include youtube_link %}
 {% assign youtube_id="cm5Y2_4iW7o" %}
 {% assign description="Orion Explorer 1 Robot Driven With From A Phone With Bluetooth" %}
-{% include youtube_link.html %}
+{% include youtube_link %}
 
 {% assign youtube_id="ElXsXAcqrUE" %}
 {% assign description="Orion Explorer 1 Robot Avoiding Walls with distance sensor" %}
-{% include youtube_link.html %}
+{% include youtube_link %}
 {% assign youtube_id="nMInkh0OysI" %}
 {% assign description="Orion Explorer 1 Robot pushing a kids ball" %}
-{% include youtube_link.html %}
+{% include youtube_link %}
 
 {% assign youtube_id="Zs0haQpuvd8" %}
 {% assign description="Orion Explorer 1 Robot Performing Simple Turn" %}
-{% include youtube_link.html %}
+{% include youtube_link %}
 </div>
 
 ## Explorer 1 Tutorials

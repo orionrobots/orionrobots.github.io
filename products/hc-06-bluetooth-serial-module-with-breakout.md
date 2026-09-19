@@ -3,19 +3,15 @@ title: HC-06 Bluetooth Serial Module with Breakout
 layout: product
 google_category: Electronics > Circuit Components > Circuit Prototyping
 gallery:
-    parent: /galleries/hc-06-bluetooth-serial-module-with-breakout/
-    initial: hc-06-bt-front-side.jpg
-    width: 300px
-    height: 225px
     images:
         -
-            src: hc-06-bt-front-side.jpg
+            src: galleries/hc-06-bluetooth-serial-module-with-breakout/hc-06-bt-front-side.jpg
             alt: Front of HC-06 Module on Breakout board
         -
-            src: hc-06-bt-back-side.jpg
+            src: galleries/hc-06-bluetooth-serial-module-with-breakout/hc-06-bt-back-side.jpg
             alt: Rear of board
         -
-            src: connecting-hc-06-to-arduino.jpg
+            src: galleries/hc-06-bluetooth-serial-module-with-breakout/connecting-hc-06-to-arduino.jpg
             alt: Arduino connections
 ---
 The HC-06 Bluetooth Serial module allows you to add Bluetooth remote serial control to your robot. This means that you can interact with programs on your robot remotely.

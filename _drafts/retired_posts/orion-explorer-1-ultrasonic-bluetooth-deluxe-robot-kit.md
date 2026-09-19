@@ -30,8 +30,8 @@ gallery:
             src: OR0008_HC-SR04_1024x1024.jpg
             alt: The HC-SR04 distance sensor.
 ---
-{% assign zg_gallery=page.gallery %}
-{% include zoom_gallery %}
+{% tab_gallery "gallery", gallery.images %}
+
 # Technical Specifications
 
 This kit requires no soldering to construct.
@@ -52,9 +52,9 @@ This kit requires no soldering to construct.
 | Communications | Arduino standard - USB, Serial. + Bluetooth HC06 Slave Module |
 | Expansion | Comes with breadboard, sensors connected through this. IO pins available on the Arduino |
 
-{% include youtube_responsive src="https://www.youtube.com/embed/cm5Y2_4iW7o" %}
+{% include youtube_responsive, src:"https://www.youtube.com/embed/cm5Y2_4iW7o" %}
 
-{% include youtube_responsive src="https://www.youtube.com/embed/ElXsXAcqrUE" %}
+{% include youtube_responsive, src:"https://www.youtube.com/embed/ElXsXAcqrUE" %}
 
 # About this kit
 

@@ -3,23 +3,21 @@ title: 40 Pin Male-Female Jumper Cables
 layout: product
 google_category: Electronics > Circuit Components > Circuit Prototyping
 gallery:
-    parent: /galleries/jump_cables_40_pin_male_female/
-    initial: cable.jpg
     images:
         -
-            src: cable.jpg
+            src: galleries/jump_cables_40_pin_male_female/cable.jpg
             alt: 40 Pin Male to Female Cable
         -
-            src: female-ends.jpg
+            src: galleries/jump_cables_40_pin_male_female/female-ends.jpg
             alt: Cable Female Ends
         -
-            src: male-ends.jpg
+            src: galleries/jump_cables_40_pin_male_female/male-ends.jpg
             alt: Cable male Ends - suitable for breadboards and Arduino
         -
-            src: link-cables.jpg
+            src: galleries/jump_cables_40_pin_male_female/link-cables.jpg
             alt: Alternate view of cable
         -
-            src: pulling-off-a-group.jpg
+            src: galleries/jump_cables_40_pin_male_female/pulling-off-a-group.jpg
             alt: Action shot - customer pulling off a bunch of cables
 tags: [cabling, connectors, solderless]
 vendor: chips key tech

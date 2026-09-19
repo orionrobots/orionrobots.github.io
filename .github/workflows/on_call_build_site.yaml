@@ -1,42 +1,65 @@
 ---
 on:
   workflow_call:
+    inputs:
+      push_tag:
+        description: 'Tag to push the base image with (optional)'
+        required: false
+        type: string
 
 jobs:
   build_site:
     runs-on: ubuntu-latest
+    permissions:
+      packages: write
+    env:
+      CACHE_IMAGE: orionrobots/orionrobots-site
+      DOCKER_BUILDKIT: 1
+      COMPOSE_DOCKER_CLI_BUILD: 1
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
 
-      - name: Setup Node
-        uses: actions/setup-node@v3
+      - name: Set up Docker Buildx
+        uses: docker/setup-buildx-action@v4.3.0
+
+      - name: Login to Docker
+        uses: docker/login-action@dbcb813823bdd20940b903addbd779551569679f # v4.6.0
         with:
-          node-version: '18'
+          registry: ghcr.io
+          username: ${{ github.actor }}
+          password: ${{ github.token }}
 
-      - run: |
-          npm ci
-
-      - name: Build webpack dist
+      - name: Build base image
+        env:
+          push_tag: ${{inputs.push_tag || 'temp' }}
         run: |
-          npm install
-          npm run dist
+          docker build --target base -t "ghcr.io/orionrobots/orionrobots-site.base:${push_tag}" .
 
-      - name: Build site
+      - name: Build the site with docker compose
         run: |
-          npm run 11ty
+          docker compose -f docker-compose.yml -f docker-compose.ci.yml run --build build
 
       - name: Tarball the site
         run: |
           tar -czf _site.tar.gz _site
+
       - name: upload site artifact
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7.0.1
         with:
           name: _site
           path: _site.tar.gz
           if-no-files-found: error
+
       - name: upload httpd.conf artifact
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7.0.1
         with:
           name: httpd.conf
-          path: _drafts/staging/httpd.conf
+          path: .github/scripts/staging/httpd.conf
           if-no-files-found: error
+
+      - name: Push base image
+        if: inputs.push_tag
+        env:
+          push_tag: ${{inputs.push_tag }}
+        run: |
+          docker push "ghcr.io/orionrobots/orionrobots-site.base:${push_tag}"

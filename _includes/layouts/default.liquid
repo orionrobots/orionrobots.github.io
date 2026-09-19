@@ -1,0 +1,24 @@
+{% assign content_class="col-md-8" %}
+
+{% layout layouts/common %}
+
+{% block content %}
+  {% if comments %}
+      {% include disqus_thread %}
+  {% endif %}
+{% endblock %}
+
+{% block side_bar %}
+<aside class="col-md-4">
+    {% include sidebar-book.liquid %}
+</aside>
+{% endblock %}
+
+{% block footer_scripts %}
+<script>
+  const newSlug = "{{ date | date: '%Y-%m-%d' }}-{{ slug }}";
+  document.addEventListener("DOMContentLoaded", function(event) {
+    document.addPostAdminButton(newSlug);
+  });
+</script>
+{% endblock %}

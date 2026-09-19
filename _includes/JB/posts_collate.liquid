@@ -24,7 +24,7 @@ Usage:
 
   {% for item in yearGroups.items | with_titles %}
     <li><span>{{ item.date | date: "%B %e, %Y" }}</span> &raquo; <a href="{{ BASE_PATH }}{{ item.url }}">{{ item.data.title }}</a>
-    {% if forloop.index < 4 %}<p>{{ item | excerpt }}</p><p class="clearfix"> </p>{% endif %}</li>
+    {% if forloop.index < 4 %}<p>{{ item | excerpt }}</p>{% endif %}</li>
   {% endfor %}
   </ul>
 {% endfor %}
