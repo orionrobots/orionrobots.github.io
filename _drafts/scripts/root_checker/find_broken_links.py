@@ -2,7 +2,16 @@ from BeautifulSoup import BeautifulSoup
 import eventlet
 from eventlet.green import urllib2
 from pprint import pprint
-from urlparse import urljoin
+from urlparse import urljoin, urlparse
+
+SITE_DOMAIN = 'orionrobots.co.uk'
+
+
+def is_site_url(url):
+    """True if the url's hostname is the site domain or a subdomain of it"""
+    hostname = urlparse(url).hostname or ''
+    return hostname == SITE_DOMAIN or hostname.endswith('.' + SITE_DOMAIN)
+
 
 def make_absolute(root_url, urls):
     """For each url, if it isn't relative,
@@ -53,7 +62,7 @@ def get_broken_list(site_root):
     def fetch(url):
         try:
             fd = urllib2.urlopen(url)
-            if fd.info().gettype() == 'text/html' and 'orionrobots.co.uk' in fd.geturl():
+            if fd.info().gettype() == 'text/html' and is_site_url(fd.geturl()):
                 body = fd.read()
             else:
                 body = ''
