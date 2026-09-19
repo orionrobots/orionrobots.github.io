@@ -15,14 +15,14 @@ function setup_gallery(id) {
         tabs.find(".image-tab-gallery-tab").click(function() {
             const tab_image = $(this).data("src");
             const tab_description = $(this).attr("title");
-            current_image.html('<img src="' + tab_image + '" loading="lazy" decoding="async" alt="' + tab_description + '">');
-            description.html(tab_description);
+            current_image.empty().append($("<img>", {src: tab_image, loading: "lazy", decoding: "async", alt: tab_description}));
+            description.text(tab_description);
         });
         
         // Setup the initial image and description.
         const initial_image = tabs.find(".image-tab-gallery-tab").first().data("src");
         const initial_description = tabs.find(".image-tab-gallery-tab").first().attr("title");
-        current_image.html('<img src="' + initial_image + '" alt="' + initial_description + '">');
-        description.html(initial_description);
+        current_image.empty().append($("<img>", {src: initial_image, alt: initial_description}));
+        description.text(initial_description);
     });
 }
