@@ -18,6 +18,8 @@ on:
       - '.github/PULL_REQUEST_TEMPLATE/**'
       - '.github/dependabot.yml'
 
+permissions:
+  contents: read
 
 jobs:
   detect_base_image_changes:
@@ -41,6 +43,9 @@ jobs:
   build_site:
     needs: detect_base_image_changes
     uses: ./.github/workflows/on_call_build_site.yaml
+    permissions:
+      contents: read
+      packages: write
     with:
       push_tag: >-
         ${{ needs.detect_base_image_changes.outputs.changed == 'true'
@@ -119,3 +124,6 @@ jobs:
   staging_test:
     uses: ./.github/workflows/on_call_staging_test.yaml
     needs: build_site
+    permissions:
+      contents: read
+      packages: write
