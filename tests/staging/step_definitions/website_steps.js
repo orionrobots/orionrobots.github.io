@@ -375,3 +375,79 @@ Then('the images, tables and text should not overflow the article container', as
     throw new Error(`Content overflow check failed: ${error.message}`);
   }
 });
+
+
+// Tab gallery steps
+const galleryTab = (id, n) => page.locator(`#${id} .image-tab-gallery-tab`).nth(n - 1);
+
+When('I click tab {int} of the gallery {string}', async function (n, id) {
+  await galleryTab(id, n).click();
+});
+
+Then('the gallery {string} should show tab {int} in the current image and description', async function (id, n) {
+  const tab = galleryTab(id, n);
+  const expectedSrc = await tab.getAttribute('data-src');
+  const expectedText = await tab.getAttribute('title');
+  if (!expectedSrc || !expectedText) {
+    throw new Error(`Gallery tab ${n} is missing its data-src or title`);
+  }
+
+  // The click handler runs client side, so wait for the DOM to settle on the tab's values.
+  try {
+    await page.waitForFunction(({ id, expectedSrc, expectedText }) => {
+      const gallery = document.getElementById(id);
+      const images = gallery.querySelectorAll('.image-tab-gallery-current-image img');
+      const description = gallery.querySelector('.image-tab-gallery-description');
+      return images.length === 1
+        && images[0].getAttribute('src') === expectedSrc
+        && images[0].getAttribute('alt') === expectedText
+        && description.textContent === expectedText;
+    }, { id, expectedSrc, expectedText }, { timeout: 5000 });
+  } catch (error) {
+    throw new Error(`Gallery ${id} does not show tab ${n} (src "${expectedSrc}", text "${expectedText}")`);
+  }
+});
+
+Then('the gallery {string} description should contain only text', async function (id) {
+  const childElements = await page.locator(`#${id} .image-tab-gallery-description > *`).count();
+  if (childElements !== 0) {
+    throw new Error(`Gallery description contains ${childElements} child elements, expected only text`);
+  }
+});
+
+// A title that would run script or add elements if it were ever parsed as HTML.
+const MARKUP_TITLE = '<img src="x" onerror="window.gallery_xss=1"> & "quoted"';
+
+When('I give tab {int} of the gallery {string} a title containing markup and click it', async function (n, id) {
+  const tab = galleryTab(id, n);
+  await tab.evaluate((el, title) => el.setAttribute('title', title), MARKUP_TITLE);
+  await tab.click();
+});
+
+Then('the gallery {string} should show the markup title as text without running it', async function (id) {
+  try {
+    await page.waitForFunction(({ id, title }) => {
+      const gallery = document.getElementById(id);
+      return gallery.querySelector('.image-tab-gallery-description').textContent === title;
+    }, { id, title: MARKUP_TITLE }, { timeout: 3000 });
+  } catch (error) {
+    throw new Error('Gallery description does not show the title as literal text');
+  }
+
+  // Give any injected onerror handler a chance to fire before checking.
+  await page.waitForTimeout(500);
+  const state = await page.evaluate((id) => {
+    const gallery = document.getElementById(id);
+    return {
+      scriptRan: window.gallery_xss !== undefined,
+      descriptionChildren: gallery.querySelectorAll('.image-tab-gallery-description > *').length,
+      currentImages: gallery.querySelectorAll('.image-tab-gallery-current-image img').length,
+      currentAlt: gallery.querySelector('.image-tab-gallery-current-image img').getAttribute('alt'),
+    };
+  }, id);
+
+  if (state.scriptRan) throw new Error('Markup in the tab title was executed');
+  if (state.descriptionChildren !== 0) throw new Error('Markup in the tab title was parsed into the description');
+  if (state.currentImages !== 1) throw new Error(`Expected one current image, found ${state.currentImages}`);
+  if (state.currentAlt !== MARKUP_TITLE) throw new Error(`Image alt was altered: ${state.currentAlt}`);
+});

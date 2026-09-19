@@ -12,6 +12,16 @@ example_images = [
     }
 ];
 
+// Escape a value for use inside a double-quoted HTML attribute.
+function escapeAttr(value) {
+    return String(value)
+        .replace(/&/g, "&amp;")
+        .replace(/"/g, "&quot;")
+        .replace(/'/g, "&#39;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;");
+}
+
 async function make_gallery_image(src) {
     return await Image(src, {
         widths: [900],
@@ -63,8 +73,8 @@ async function make_gallery(id, images) {
         } else {
             console.warn(`Tab Gallery: Missing main image for image alt='${thumbnailAlt}'. Falling back to empty src.`);
         }
-        return '<div class="image-tab-gallery-tab" title="' + thumbnailAlt + '" data-src="' + mainImageUrl + '">' +
-            '<img src="' + thumbnailUrl + '" loading="lazy" decoding="async" width="128" height="112" alt="' + thumbnailAlt + '">' +
+        return '<div class="image-tab-gallery-tab" title="' + escapeAttr(thumbnailAlt) + '" data-src="' + escapeAttr(mainImageUrl) + '">' +
+            '<img src="' + escapeAttr(thumbnailUrl) + '" loading="lazy" decoding="async" width="128" height="112" alt="' + escapeAttr(thumbnailAlt) + '">' +
             '</div>';
     });
     // put the joined tabs in the tabs element.
@@ -73,10 +83,10 @@ async function make_gallery(id, images) {
     const minified_jquery = fs.readFileSync("./node_modules/jquery/dist/jquery.min.js", "utf8");
     const script = fs.readFileSync("src/tab_gallery.js", "utf8")
     const minified_script = await minify(script);
-    const script_element = '<script>' + minified_jquery +  minified_script.code + '; setup_gallery("' + id + '");</script>';
+    const script_element = '<script>' + minified_jquery +  minified_script.code + '; setup_gallery(' + JSON.stringify(id).replace(/</g, "\\u003c") + ');</script>';
     const style = "<style>" + new CleanCSS({}).minify(fs.readFileSync("src/tab_gallery.css", "utf8")).styles + "</style>";
 
-    const gallery_element = '<div class="image-tab-gallery row" id="' + id + '">' + tabs_element + 
+    const gallery_element = '<div class="image-tab-gallery row" id="' + escapeAttr(id) + '">' + tabs_element + 
             current_image_element + description_element + script_element + '</div>' + style;
     
     return gallery_element;

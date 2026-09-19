@@ -127,3 +127,15 @@ jobs:
     permissions:
       contents: read
       packages: write
+    with:
+      tags: 'not @gallery'
+
+  # Runs alongside staging_test so the gallery checks add no wall-clock time
+  gallery_test:
+    uses: ./.github/workflows/on_call_staging_test.yaml
+    needs: build_site
+    permissions:
+      contents: read
+      packages: write
+    with:
+      tags: '@gallery'

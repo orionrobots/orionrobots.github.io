@@ -1,6 +1,12 @@
 ---
 on:
   workflow_call:
+    inputs:
+      tags:
+        description: 'Cucumber tag expression selecting which BDD scenarios to run (default: all)'
+        required: false
+        type: string
+        default: ''
 
 jobs:
   staging_test:
@@ -40,7 +46,14 @@ jobs:
           cp .github/scripts/staging/default.conf _site/default.conf
           
       - name: Run as service and test
+        env:
+          BDD_TAGS: ${{ inputs.tags }}
         run: |
+          bdd_args=()
+          if [ -n "$BDD_TAGS" ]; then
+            bdd_args+=(--tags "$BDD_TAGS")
+          fi
+
           # Start the staging service using docker compose with --wait for health checks
           # Use CI-specific override for GitHub Actions cache
           docker compose -f docker-compose.yml -f docker-compose.ci.yml up -d --build --wait staging
@@ -57,7 +70,7 @@ jobs:
           # Run BDD integration tests using docker compose
           echo "## BDD Test Results" >> "$GITHUB_STEP_SUMMARY"
           echo "\`\`\`" >> "$GITHUB_STEP_SUMMARY"
-          docker compose -f docker-compose.yml -f docker-compose.ci.yml run test 2>&1 | tee bdd_output.txt
+          docker compose -f docker-compose.yml -f docker-compose.ci.yml run test npm run test:bdd -- "${bdd_args[@]}" 2>&1 | tee bdd_output.txt
           bdd_result=$?
           
           # Filter output to show only BDD test results, excluding Docker build output
