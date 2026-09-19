@@ -4,7 +4,7 @@ title: SMT - Surface Mount Technology
 tags: [electronics, robot building]
 date: 2007-01-28 12:28:06
 ---
-<div style=" float: right;"><img class="img-responsive" src="/galleries/gallery-1-common-images/126-rcxflipflops.JPG">
+<div style=" float: right;"><img class="img-fluid" src="/galleries/gallery-1-common-images/126-rcxflipflops.JPG">
 Surface mounted Bank of Flip Flops</div>
 
 SMT or SMD (Surface mount devices) are the system that is predominantly used in [electronics](/wiki/electronics.html "Electronics") to mount components onto boards. It gives advantages for component size and density, material cost, cutting stray signal interference as well as crucially simplifying automation.

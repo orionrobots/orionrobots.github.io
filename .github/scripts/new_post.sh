@@ -5,7 +5,6 @@
 
 set -eu -o pipefail
 
-
 function slug_from_title_and_date {
     echo "$POST_DAY-$1" | tr '[:upper:]' '[:lower:]' | tr -s ' ' '-' | tr -s '[:punct:]' '-'
 }
@@ -29,7 +28,7 @@ function create_post {
         echo "---"
         echo "title: $POST_TITLE"
         echo "date: $POST_DATE"
-        echo "thumbnail: /content/${POST_YEAR}/${POST_MONTH}/${slug}.jpg"
+        echo "thumbnail: ${slug}.jpg"
         echo "---"
     ) >"$file_path"
 }

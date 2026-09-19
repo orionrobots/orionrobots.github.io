@@ -17,21 +17,23 @@ jobs:
       DOCKER_BUILDKIT: 1
       COMPOSE_DOCKER_CLI_BUILD: 1
     steps:
-      - uses: actions/checkout@v5
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
 
       - name: Set up Docker Buildx
-        uses: docker/setup-buildx-action@v3
+        uses: docker/setup-buildx-action@v4.3.0
 
       - name: Login to Docker
-        uses: docker/login-action@184bdaa0721073962dff0199f1fb9940f07167d1 # v3
+        uses: docker/login-action@dbcb813823bdd20940b903addbd779551569679f # v4.6.0
         with:
           registry: ghcr.io
           username: ${{ github.actor }}
           password: ${{ github.token }}
 
       - name: Build base image
+        env:
+          push_tag: ${{inputs.push_tag || 'temp' }}
         run: |
-          docker build --target base -t ghcr.io/orionrobots/orionrobots-site.base:${{ inputs.push_tag || 'temp' }} .
+          docker build --target base -t "ghcr.io/orionrobots/orionrobots-site.base:${push_tag}" .
 
       - name: Build the site with docker compose
         run: |
@@ -42,14 +44,14 @@ jobs:
           tar -czf _site.tar.gz _site
 
       - name: upload site artifact
-        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2
+        uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7.0.1
         with:
           name: _site
           path: _site.tar.gz
           if-no-files-found: error
 
       - name: upload httpd.conf artifact
-        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2
+        uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7.0.1
         with:
           name: httpd.conf
           path: .github/scripts/staging/httpd.conf
@@ -57,5 +59,7 @@ jobs:
 
       - name: Push base image
         if: inputs.push_tag
+        env:
+          push_tag: ${{inputs.push_tag }}
         run: |
-          docker push ghcr.io/orionrobots/orionrobots-site.base:${{ inputs.push_tag }}
+          docker push "ghcr.io/orionrobots/orionrobots-site.base:${push_tag}"

@@ -1,7 +1,7 @@
 ---
 title: Skittlebot build journal, 7th May 2017
 date: 2017-05-07
-tags: [robot building, piwars, opencv, electronics, power, raspberry pi robotics project, raspberry pi opencv project, gpiozero robotics project]
+tags: [robot building, piwars, opencv, electronics, power, raspberry pi robotics project, raspberry pi opencv project, gpiozero robotics project, skittlebot]
 thumbnail: content/2017/05/07-skittlebot-build-journal/skittlebot-chassis-thumb.png
 ---
 Skittlebot is designed using the 4Tronix initio robot base. It is built around a Raspberry Pi for remote control, and for experiments with computer vision.

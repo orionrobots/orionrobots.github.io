@@ -1,7 +1,7 @@
 ---
 title: My Raspberry Pi computer vision robot Skittlebot works!
 date: 2017-05-14
-tags: [robot building, piwars, opencv, electronics, power, raspberry pi robotics project, raspberry pi opencv project, gpiozero robotics project]
+tags: [robot building, piwars, opencv, electronics, power, raspberry pi robotics project, raspberry pi opencv project, gpiozero robotics project, skittlebot]
 thumbnail: content/2017/05/14-skittlebot-video/skittlebot-working-screenshot.png
 ---
 I now have my Raspberry Pi based  computer vision demonstration robot working! This is a big step forwards, as I can start looking at more interesting projects and competitions with it.

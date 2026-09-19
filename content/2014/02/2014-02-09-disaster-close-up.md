@@ -5,6 +5,8 @@ tags:
 - cnc projects
 - electronics
 - control board
+- cnc
+- cnc-control-box
 title: Close Up Of CNC Disaster
 ---
 ![Blown FET]({{ site.baseurl }}/galleries/2014-02-09-cnc-board/destroyed_fet.jpg)

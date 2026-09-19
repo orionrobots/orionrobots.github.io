@@ -123,6 +123,9 @@ This creates properly structured content with frontmatter in `content/YYYY/MM/` 
 ### Adding scripts or utilities
 - Ensure these are run through a docker compose command
 
+### Adding dependencies
+- Added dependencies MUST be the latest stable and compatible version. Check official dependency registry (npmjs.com for npm packages, GitHub for Actions) to ensure this.
+
 ### Troubleshooting Build Issues
 1. Clear containers and rebuild: `docker compose down && docker compose build --no-cache`
 2. Clear build outputs: `docker compose run --rm base rm -rf _site dist`
@@ -138,6 +141,15 @@ This creates properly structured content with frontmatter in `content/YYYY/MM/` 
 - Uses Docker Compose for consistent CI/CD environments
 - Staging tests run BDD Playwright tests (may be flaky)
 - Deployment happens to Apache hosting with htaccess rules
+
+### Pull Request Description Requirements
+- For feature and bugfix pull requests, AI agents and human contributors **MUST** use the repository pull request description template.
+- For feature and bugfix pull requests, descriptions **MUST** include:
+  - "What we are fixing"
+  - "What changes were made"
+  - "What tests were run"
+- For content-only pull requests, contributors **MAY** delete sections that are not applicable.
+- Compliance is enforced during pull request review; feature and bugfix PRs that do not follow this format **SHOULD** be updated before approval.
 
 ### Pre-commit Hooks
 - Run `pre-commit install` to set up git hooks

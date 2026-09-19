@@ -7,7 +7,7 @@ tags: [robotics at home, robotics projects, raspberry pi, robot building]
 ---
 While writing my book, the 2power USB Power bank I recommended stopped selling, everywhere. It was able to happily power a Raspberry Pi 4 robot, and fit nicely. However it wasn't perfect in that it would power the robot down while charging.
 
-{% img_responsive "content/2025/07/08-comparing-anker-power-packs/2power-bank.jpg", "The original 2Power USB Power Bank", "720, 940, 1140" %}
+{% img_responsive "content/2025/07/08-comparing-anker-power-packs/2power-bank.jpg", "The original 2Power USB Power Bank" %}
 
 So I decided to go on a quest, an expensive one, looking at the Anker power systems. This article is not sponsored by Anker, and I bought all these power packs myself.
 I may follow this up with other branded power packs.
@@ -24,7 +24,7 @@ My constraints are that it must be a named brand, fit the layout of the robot, a
     - While running the motors
     - Ensure it doesn't brown out or stop.
 
-{% img_responsive "content/2025/07/08-comparing-anker-power-packs/the-test-robot.jpg", "The test robot with the Anker power pack", "720, 940, 1140" %}
+{% img_responsive "content/2025/07/08-comparing-anker-power-packs/the-test-robot.jpg", "The test robot with the Anker power pack" %}
 
 This robot is the platform I am building for my upcoming book, Learn Robotics Programming 3rd Edition. You can see the power pack in context, along with the examples I used there.
 
@@ -46,19 +46,19 @@ Anker 533 | 10000mAh | Yes - 100 mm x 55 mm x 25 mm | £35.99 | Yes | No
 
 The 321 is the cheapest option, and includes the USB A-to-C cable it would need. Disappointingly, it powers down the robot when charging, so it is not a good option for a robot that needs to be on while charging. The 321 is a like-for-like replacement for the 2Power though.
 
-{% img_responsive "content/2025/07/08-comparing-anker-power-packs/anker-321.png", "The Anker 321 next to the 2Power", "720, 940, 1140" %}
+{% img_responsive "content/2025/07/08-comparing-anker-power-packs/anker-321.png", "The Anker 321 next to the 2Power" %}
 
 The Nano came with an "Instacord", a retractable USB-C cable built into the pack. This can be used either to charge the pack, or power the robot. The pack is a bit heavy, with a pretty display. It fits snuggly in the robot, and might not even need extra support or straps. The Nano is a good option, but it is expensive. Wedging it in and out of the robot did leave a few scratch marks on the pretty Nano casing though. Easily my favorite of the bunch.
 
-{% img_responsive "content/2025/07/08-comparing-anker-power-packs/anker-nano.png", "The Anker Nano", "720, 940, 1140" %}
+{% img_responsive "content/2025/07/08-comparing-anker-power-packs/anker-nano.png", "The Anker Nano" %}
 
 The Zolo turned out to be the wrong shape for the robot, it doesn’t fit well unless rotated to stick out the back, which isn’t ideal and might require tape to hold it in place. This also puts the charge port facing inward, making access inconvenient. Although it’s a cheaper option and the built-in cable sounds useful, its length doesn’t suit the robot’s layout. Additionally, plugging the Zolo in to charge while powering the Raspberry Pi causes the output power to turn off and then back on rather than stay on, which is even less desirable than just turning off. The Zolo is cheaper than the Nano, but at that price the 321 works better.
 
-{% img_responsive "content/2025/07/08-comparing-anker-power-packs/anker-zolo.jpg", "The Anker Zolo", "720, 940, 1140" %}
+{% img_responsive "content/2025/07/08-comparing-anker-power-packs/anker-zolo.jpg", "The Anker Zolo" %}
 
 The 533 is marginally bigger than the 321, and longer than the Nano. It makes for a slightly awkward fit, but feels lighter than the Nano.
 
-{% img_responsive "content/2025/07/08-comparing-anker-power-packs/anker-533.png", "The Anker 533", "720, 940, 1140" %}
+{% img_responsive "content/2025/07/08-comparing-anker-power-packs/anker-533.png", "The Anker 533" %}
 
 The Nano and the 533 come in lots of nice colours and have pretty OLED color power level displays.
 
@@ -86,7 +86,7 @@ The Anker Nano powered down when charging, or power cycled sometimes just like t
 
 ## Conclusion
 
-{% img_responsive "content/2025/07/08-comparing-anker-power-packs/all-the-packs.jpg", "All the Anker Power Packs with the 2power", "720, 940, 1140" %}
+{% img_responsive "content/2025/07/08-comparing-anker-power-packs/all-the-packs.jpg", "All the Anker Power Packs with the 2power" %}
 
 - Low cost: The Anker 321 is a good choice, it fits, and is cheap.
 - Best fit/style: The Anker Nano comes in multiple colors, and fits well. It has high capacity and a nice display.

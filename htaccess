@@ -71,6 +71,7 @@ ErrorDocument 501 /404.html
 RewriteEngine On
 
 RewriteCond %{SERVER_PORT} !=443
+RewriteCond %{HTTP_HOST} ^(www\.)?orionrobots\.co\.uk [NC]
 RewriteRule ^(.*)$ https://orionrobots.co.uk/$1 [R=301,L]
 
 # If the URL points to a real existing item then do nothing
@@ -229,6 +230,13 @@ RewriteRule "^tiki-browse_image.php"           /2010/01/19/the-lego-rcx-inside-a
 RewriteRule ^wiki-([A-Za-z0-9]+)    wiki/$1.html                     [QSA,L]
 RewriteRule ^page-([A-Za-z0-9]+)    wiki/$1.html                     [QSA,L]
 
+
+# Redirect trailing slash to .html for non-directory requests.
+# This prevents relative image links from breaking in gallery pages
+# (e.g. /galleries/.../target0/ -> /galleries/.../target0.html)
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_URI} !\.html/?$
+RewriteRule ^/?(.+)/$ /$1.html [R=301,L]
 
 # Otherwise try appending .html onto it and stop.
 RewriteCond %{REQUEST_URI} !.html$

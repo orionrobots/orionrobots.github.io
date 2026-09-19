@@ -6,7 +6,7 @@ date: 2009-11-10 07:51:15
 ---
 These robots were built as learning platform by the late <a href="/wiki/william_grey_walter.html" title="William Grey Walter">William Grey Walter</a> in the 1940s.
 
-<img class="img-responsive" src="/galleries/gallery-1-common-images/52-machinaspeculatrix.jpg" alt="Extract from the Festival Of Britain catalog Courtesy of The University of Berkeley, California"/>
+<img class="img-fluid" src="/galleries/gallery-1-common-images/52-machinaspeculatrix.jpg" alt="Extract from the Festival Of Britain catalog Courtesy of The University of Berkeley, California"/>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/lLULRlmXkKo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="true"></iframe>
 

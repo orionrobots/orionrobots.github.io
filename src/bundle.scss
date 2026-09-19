@@ -9,6 +9,10 @@ $enable-dark-mode: false;
 // 4. Include any default map overrides here
 $body-color: #3e3f3a;
 $body-bg: #fff;
+// Reboot's `pre, code, kbd, samp` rule defaults to `$font-family-code`,
+// which itself defaults to `var(--bs-font-monospace)`. Override it directly
+// to a plain `monospace` stack rather than going through that CSS variable.
+$font-family-code: monospace;
 
 // 5. Include remainder of required parts
 @import "~bootstrap/scss/mixins";
@@ -54,3 +58,12 @@ $body-bg: #fff;
 @import "~bootstrap/scss/utilities/api";
 
 // 8. Add additional custom code here
+
+// Inline `code` gets a light grey background; scoped to exclude `pre code`
+// (fenced code blocks), which already render as multi-line text without a
+// per-token background box.
+:not(pre) > code {
+  background-color: #f5f2f0;
+  padding: 0.2em 0.4em;
+  border-radius: 3px;
+}

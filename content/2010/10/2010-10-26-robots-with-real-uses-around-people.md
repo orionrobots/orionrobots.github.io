@@ -6,7 +6,7 @@ title: Robots with real uses around people
 layout: post
 ---
 
-![Sushi Making Robot](/galleries/2010-10-26-robots-with-real-uses-around-people/sushi_making_robot.png){:class="img-responsive"}
+![Sushi Making Robot](/galleries/2010-10-26-robots-with-real-uses-around-people/sushi_making_robot.png){:class="img-fluid"}
 
 Most real robots at the moment are confined either to laboratories of big business and hobbyists, or to manufacturing. But what of robots offering more domestic services and being devices you'd want around the home or to be a companion.
 

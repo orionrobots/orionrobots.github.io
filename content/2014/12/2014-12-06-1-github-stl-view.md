@@ -6,6 +6,7 @@ tags:
 - 3d printing
 - github
 - stl
+- cnc
 title: Github's awesome stl view
 ---
 So first some great news.
