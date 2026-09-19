@@ -11,6 +11,7 @@ jobs:
   build_site:
     runs-on: ubuntu-latest
     permissions:
+      contents: read
       packages: write
     env:
       CACHE_IMAGE: orionrobots/orionrobots-site

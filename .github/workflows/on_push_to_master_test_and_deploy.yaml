@@ -32,6 +32,9 @@ on:
       - 'docker-compose.yml'
       - 'docker-compose.ci.yml'
 
+permissions:
+  contents: read
+
 concurrency:
   group: site_building
   cancel-in-progress: true
@@ -39,12 +42,18 @@ concurrency:
 jobs:
   build_site:
     uses: ./.github/workflows/on_call_build_site.yaml
+    permissions:
+      contents: read
+      packages: write
     with:
       push_tag: "latest"
 
   staging_test:
     uses: ./.github/workflows/on_call_staging_test.yaml
     needs: build_site
+    permissions:
+      contents: read
+      packages: write
 
   deploy:
     concurrency: live_environment
