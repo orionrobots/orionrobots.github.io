@@ -99,6 +99,9 @@ async function main (): Promise<void> {
   writeOutput('status', passed ? 'success' : 'failure')
   writeOutput('build_time', buildTime)
   writeOutput('bundle_size', bundleSize)
+  // Raw numeric outputs used by the baseline tracking system
+  writeOutput('build_time_ms', result.buildTimeMs.toString())
+  writeOutput('bundle_size_bytes', (bundleAsset?.size ?? 0).toString())
 
   console.log('\nResults:')
   console.log(`  Status:      ${passed ? '✅ passed' : '❌ failed'}`)
