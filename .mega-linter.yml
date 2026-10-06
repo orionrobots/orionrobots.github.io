@@ -28,6 +28,10 @@ DISABLE_LINTERS:
   - HTML_DJLINT
 # Only report vulnerabilities that have a fix available; unfixable ones can't be actioned.
 REPOSITORY_TRIVY_ARGUMENTS: --ignore-unfixed --scanners vuln,secret
+# Trivy's --scanners is a list flag, so a second one merges with the default
+# (vuln,misconfig) rather than replacing it. Remove the default's first
+# occurrence of each token; ours are appended after it and are kept.
+REPOSITORY_TRIVY_COMMAND_REMOVE_ARGUMENTS: --scanners vuln,misconfig
 
 # There are things like scripts that shouldn't be in drafts
 FILTER_REGEX_EXCLUDE: '^_drafts/.*'
