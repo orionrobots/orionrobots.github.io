@@ -5,7 +5,7 @@ DISABLE_LINTERS:
   - COPYPASTE_JSCPD
   - DOCKERFILE_HADOLINT
   - REPOSITORY_CHECKOV
-  - REPOSITORY_TRIVY
+  - REPOSITORY_OSV_SCANNER # replaced by REPOSITORY_TRIVY: osv-scanner can't skip vulns with no fix
   - REPOSITORY_KICS
   - C_CPPLINT
   - CPP_CPPLINT
@@ -26,6 +26,13 @@ DISABLE_LINTERS:
   - EDITORCONFIG_EDITORCONFIG_CHECKER
   - SPELL_LYCHEE
   - HTML_DJLINT
+# Only report vulnerabilities that have a fix available; unfixable ones can't be actioned.
+REPOSITORY_TRIVY_ARGUMENTS: --ignore-unfixed --scanners vuln,secret
+# Trivy's --scanners is a list flag, so a second one merges with the default
+# (vuln,misconfig) rather than replacing it. Remove the default's first
+# occurrence of each token; ours are appended after it and are kept.
+REPOSITORY_TRIVY_COMMAND_REMOVE_ARGUMENTS: --scanners vuln,misconfig
+
 # There are things like scripts that shouldn't be in drafts
 FILTER_REGEX_EXCLUDE: '^_drafts/.*'
 
