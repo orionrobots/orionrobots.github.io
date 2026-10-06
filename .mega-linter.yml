@@ -5,7 +5,7 @@ DISABLE_LINTERS:
   - COPYPASTE_JSCPD
   - DOCKERFILE_HADOLINT
   - REPOSITORY_CHECKOV
-  - REPOSITORY_TRIVY
+  - REPOSITORY_OSV_SCANNER # replaced by REPOSITORY_TRIVY: osv-scanner can't skip vulns with no fix
   - REPOSITORY_KICS
   - C_CPPLINT
   - CPP_CPPLINT
@@ -26,6 +26,9 @@ DISABLE_LINTERS:
   - EDITORCONFIG_EDITORCONFIG_CHECKER
   - SPELL_LYCHEE
   - HTML_DJLINT
+# Only report vulnerabilities that have a fix available; unfixable ones can't be actioned.
+REPOSITORY_TRIVY_ARGUMENTS: --ignore-unfixed
+
 # There are things like scripts that shouldn't be in drafts
 FILTER_REGEX_EXCLUDE: '^_drafts/.*'
 
