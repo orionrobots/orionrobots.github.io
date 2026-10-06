@@ -27,7 +27,7 @@ DISABLE_LINTERS:
   - SPELL_LYCHEE
   - HTML_DJLINT
 # Only report vulnerabilities that have a fix available; unfixable ones can't be actioned.
-REPOSITORY_TRIVY_ARGUMENTS: --ignore-unfixed
+REPOSITORY_TRIVY_ARGUMENTS: --ignore-unfixed --scanners vuln,secret
 
 # There are things like scripts that shouldn't be in drafts
 FILTER_REGEX_EXCLUDE: '^_drafts/.*'
