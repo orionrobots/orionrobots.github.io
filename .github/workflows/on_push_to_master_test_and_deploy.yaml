@@ -27,6 +27,7 @@ on:
       - '.eleventy.*'
       - '_config.yml'
       - 'google*.html'
+      - 'htaccess'
       - 'ads.txt'
       - 'Dockerfile'
       - 'docker-compose.yml'

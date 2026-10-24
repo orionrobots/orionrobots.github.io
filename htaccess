@@ -81,6 +81,11 @@ RewriteCond %{REQUEST_FILENAME} -f [OR]
 RewriteCond %{REQUEST_FILENAME} -d
 RewriteRule (.*) - [L]
 
+# CoderDojo sheet short links (printed QR codes). 302 so a target can move to our own pages later.
+RewriteRule ^dojo/led/?$     https://drive.google.com/file/d/1OB-jCAx7PjnKGWfU4E43ljIoachvfbAD/view [R=302,L]
+RewriteRule ^dojo/driving/?$ https://drive.google.com/file/d/1_aQZ4OTaQi4755W07Y7ElXY6j0I0Vjzl/view [R=302,L]
+RewriteRule ^dojo/robots/?$  https://drive.google.com/file/d/1BPNRxx34n33ixOSQBJCupcuo004ed8UX/view [R=302,L]
+
 ## FORUMS
 
 # Forum topics redirect section
