@@ -116,12 +116,18 @@ The staging test environment uses Docker Compose to run the built site with Apac
 To run the staging environment locally using Docker Compose:
 
 ```bash
-# Build the site first (if not already built)
-docker compose up --build dist
+# Build the site first (a few minutes; `dist` alone only runs webpack)
+docker compose up --build build
+
+# Add the Apache config, as CI does (_site is root-owned, hence docker run)
+docker run --rm -v "$PWD:/w" alpine sh -c \
+  'cp /w/.github/scripts/staging/default.conf /w/_site/httpd.conf && cp /w/.github/scripts/staging/default.conf /w/_site/default.conf'
 
 # Start the staging service
-docker compose up --build staging
+docker compose up -d --build --wait staging
 ```
+
+Then e.g. `curl -I localhost:8080/dojo/led`. Stop with `docker compose down`.
 
 The staging service will be available at http://localhost:8080
 
