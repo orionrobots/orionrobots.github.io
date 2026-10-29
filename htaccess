@@ -88,6 +88,7 @@ RewriteRule ^dojo/robots/?$  https://drive.google.com/file/d/1BPNRxx34n33ixOSQBJ
 RewriteRule ^dojo/button/?$  https://drive.google.com/file/d/15gzrvQxV9wEEc4268Vl9PKX2HNs3sEYj/view [R=302,L]
 RewriteRule ^dojo/line-follow/?$ https://drive.google.com/file/d/1ZISvVXBvOEpCu8rUh5q7j10Me3O__4gG/view [R=302,L]
 RewriteRule ^dojo/obstacles/?$ https://drive.google.com/file/d/1Qa1zQxD-eVhmJGW7Cc5yrJgFLwUlNRDs/view [R=302,L]
+RewriteRule ^dojo/thonny/?$ https://drive.google.com/file/d/17jP2cvMQIRG5ZUo4uXjmtOCUoOoJHCdj/view [R=302,L]
 
 ## FORUMS
 
