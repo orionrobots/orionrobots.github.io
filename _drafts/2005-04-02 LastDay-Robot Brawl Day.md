@@ -25,7 +25,7 @@ The lightest gets 4 points
 
 Race Round:
 The fastest vehicle gets 10 points
- 
+
 Sumo:
 The vehicle who stays in the arena the longest gets 10 points.
 We will allow only 4 minutes for each round - so fight well.
