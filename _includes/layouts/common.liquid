@@ -17,6 +17,8 @@
         <link rel="icon" href="/favicon.png" />
         <meta name="twitter:card" content="summary" />
         <meta name="twitter:site" content="@orionrobots" />
+        {%- comment %}Canonical = the page's final output URL on the production host (same value as og:url). See #537.{% endcomment %}
+        <link rel="canonical" href="{{ BASE_PATH }}{{ page.url }}" />
         <meta name="og:url" property="og:url" content="{{ BASE_PATH }}{{ page.url }}" />
         <meta name="og:site_name" property="og:site_name" content="Orionrobots" />
         <meta property="og:type" name="og:type" content="article" />
