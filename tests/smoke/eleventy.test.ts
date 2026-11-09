@@ -62,7 +62,15 @@ function countFiles (dir: string, ext: string): number {
   return count
 }
 
+// CI sets this after downloading the _site artifact from build_site, so the
+// smoke checks run against the real build instead of repeating a 5+ min one.
+const SKIP_BUILD = process.env.SMOKE_SKIP_BUILD === '1'
+
 function runBuild (): BuildResult {
+  if (SKIP_BUILD) {
+    return { buildTimeMs: 0, exitCode: 0, timedOut: false, output: '' }
+  }
+
   const startTime = Date.now()
 
   const result = spawnSync('node', ['node_modules/.bin/eleventy', '--quiet'], {
@@ -114,7 +122,9 @@ function checkCanonicals (): string[] {
 }
 
 function main (): void {
-  console.log('Running 11ty site build smoke test…')
+  console.log(SKIP_BUILD
+    ? 'Running 11ty smoke checks against the existing _site…'
+    : 'Running 11ty site build smoke test…')
 
   const result = runBuild()
   const errors: string[] = []
@@ -161,7 +171,7 @@ function main (): void {
   const siteSize = formatFileSize(siteSizeBytes)
 
   const passed = errors.length === 0
-  const buildTime = formatDuration(result.buildTimeMs)
+  const buildTime = SKIP_BUILD ? 'reused build_site artifact' : formatDuration(result.buildTimeMs)
 
   // Write outputs for the GitHub Actions workflow to consume in the PR comment
   writeOutput('build_time', buildTime)
