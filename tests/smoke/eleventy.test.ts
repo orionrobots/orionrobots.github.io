@@ -82,6 +82,37 @@ function runBuild (): BuildResult {
   }
 }
 
+// Pages that intentionally have no layout <head> (e.g. the CMS admin UI)
+const CANONICAL_EXEMPT = ['/admin/index.html']
+const PRODUCTION_URL = 'https://orionrobots.co.uk'
+
+function listHtmlFiles (dir: string): string[] {
+  if (!fs.existsSync(dir)) return []
+  return fs.readdirSync(dir, { withFileTypes: true }).flatMap(entry => {
+    const full = path.join(dir, entry.name)
+    if (entry.isDirectory()) return listHtmlFiles(full)
+    return entry.name.endsWith('.html') ? [full] : []
+  })
+}
+
+// Each page needs exactly one canonical equal to its served URL (see #537)
+function checkCanonicals (): string[] {
+  const errors: string[] = []
+  for (const file of listHtmlFiles(SITE_DIR)) {
+    const rel = '/' + path.relative(SITE_DIR, file).split(path.sep).join('/')
+    const html = fs.readFileSync(file, 'utf8')
+    if (!html.includes('<head') || CANONICAL_EXEMPT.includes(rel)) continue
+    const found = [...html.matchAll(/<link rel="canonical" href="([^"]*)"/g)].map(m => m[1])
+    const served = rel.endsWith('/index.html') ? rel.slice(0, -'index.html'.length) : rel
+    if (found.length !== 1) {
+      errors.push(`${rel}: expected 1 canonical, found ${found.length}`)
+    } else if (found[0] !== PRODUCTION_URL + served) {
+      errors.push(`${rel}: canonical ${found[0]} != ${PRODUCTION_URL + served}`)
+    }
+  }
+  return errors
+}
+
 function main (): void {
   console.log('Running 11ty site build smoke test…')
 
@@ -119,6 +150,8 @@ function main (): void {
       `Only ${htmlFileCount} HTML files found in _site (expected ≥ ${MIN_HTML_FILES}). Files may have been silently skipped.`
     )
   }
+
+  errors.push(...checkCanonicals())
 
   // Parse eleventy's reported write count for informational output
   const wroteMatch = result.output.match(/Wrote (\d+) files? in/)
