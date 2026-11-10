@@ -121,6 +121,14 @@ jobs:
               console.log('Created new Docker image comment');
             }
 
+  # Checks the build_site artifact; no second 11ty build
+  eleventy_smoke:
+    needs: build_site
+    uses: ./.github/workflows/on_call_eleventy_smoke.yaml
+    permissions:
+      contents: read
+      pull-requests: write
+
   staging_test:
     uses: ./.github/workflows/on_call_staging_test.yaml
     needs: build_site

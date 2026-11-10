@@ -1,34 +1,13 @@
 ---
 name: "Eleventy Site Build Smoke Test"
 on:
-  pull_request:
-    branches:
-      - master
-      - main
-    paths:
-      - '.eleventy.js'
-      - '.eleventyignore'
-      - '_config.yml'
-      - 'webpack.config.js'
-      - 'src/**'
-      - 'package.json'
-      - 'package-lock.json'
-      - '_posts/**'
-      - 'content/**'
-      - '_includes/**'
-      - '_data/**'
-      - 'galleries/**'
-      - 'navigation_and_indexes/**'
-      - 'assets/**'
-      - 'products/**'
-      - 'index.md'
-      - 'tests/smoke/**'
-      - '.github/workflows/on_pr_eleventy_smoke.yaml'
+  workflow_call:
 
 jobs:
   eleventy_smoke_test:
     runs-on: ubuntu-latest
     permissions:
+      contents: read
       pull-requests: write
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
@@ -42,11 +21,20 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Build webpack bundle
-        run: npm run dist
+      # Reuse the site built by build_site rather than running a second full
+      # 11ty build (and webpack) just to smoke test it.
+      - name: Fetch site artifact
+        uses: actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c # v8.0.1
+        with:
+          name: _site
 
-      - name: Run eleventy smoke test
+      - name: Extract site artifact
+        run: tar -xzf _site.tar.gz
+
+      - name: Run eleventy smoke checks
         id: smoke_test
+        env:
+          SMOKE_SKIP_BUILD: '1'
         run: npm run test:smoke:eleventy
 
       - name: Update PR comment with results
