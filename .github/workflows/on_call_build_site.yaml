@@ -36,9 +36,34 @@ jobs:
         run: |
           docker build --target base -t "ghcr.io/orionrobots/orionrobots-site.base:${push_tag}" .
 
+      # eleventy-img skips any output file that already exists, and output
+      # names embed a content hash, so restoring last run's generated images
+      # is safe: changed sources get new names, unchanged ones are skipped.
+      # The key is unique per run so the newest cache is always saved; the
+      # restore prefix pulls the latest one, scoped to the image code so a
+      # change to widths/formats starts from a clean slate.
+      - name: Restore generated images cache
+        id: image_cache
+        uses: actions/cache/restore@55cc8345863c7cc4c66a329aec7e433d2d1c52a9 # v6.1.0
+        with:
+          path: |
+            _site/assets/images
+            _site/assets/thumbnails
+          key: eleventy-img-${{ hashFiles('src/shortcodes/**', 'src/thumbnails.js', 'src/fetch_image.js', 'package-lock.json') }}-${{ github.run_id }}
+          restore-keys: |
+            eleventy-img-${{ hashFiles('src/shortcodes/**', 'src/thumbnails.js', 'src/fetch_image.js', 'package-lock.json') }}-
+
       - name: Build the site with docker compose
         run: |
           docker compose -f docker-compose.yml -f docker-compose.ci.yml run --build build
+
+      - name: Save generated images cache
+        uses: actions/cache/save@55cc8345863c7cc4c66a329aec7e433d2d1c52a9 # v6.1.0
+        with:
+          path: |
+            _site/assets/images
+            _site/assets/thumbnails
+          key: ${{ steps.image_cache.outputs.cache-primary-key }}
 
       - name: Tarball the site
         run: |
