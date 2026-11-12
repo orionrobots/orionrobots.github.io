@@ -1,11 +1,6 @@
+# The site image is built once, through the dist service, with its registry
+# layer cache; `docker compose build dist` first, then `run build` reuses it.
 services:
-  serve:
-    build:
-      cache_from:
-        - type=registry,ref=ghcr.io/orionrobots/orionrobots-site.serve:cache
-      cache_to:
-        - type=registry,ref=ghcr.io/orionrobots/orionrobots-site.serve:cache,mode=max
-
   dist:
     build:
       cache_from:
@@ -13,12 +8,13 @@ services:
       cache_to:
         - type=registry,ref=ghcr.io/orionrobots/orionrobots-site.dist:cache,mode=max
 
+  # build and serve share dist's image (see x-site-image in docker-compose.yml).
+  # In CI it is built once, via dist, so these must not build it again.
   build:
-    build:
-      cache_from:
-        - type=registry,ref=ghcr.io/orionrobots/orionrobots-site.build:cache
-      cache_to:
-        - type=registry,ref=ghcr.io/orionrobots/orionrobots-site.build:cache,mode=max
+    build: !reset null
+
+  serve:
+    build: !reset null
 
   staging:
     build:

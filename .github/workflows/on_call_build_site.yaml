@@ -58,9 +58,17 @@ jobs:
           restore-keys: |
             eleventy-img-${{ hashFiles('src/shortcodes/**', 'src/thumbnails.js', 'src/fetch_image.js', 'package-lock.json') }}-
 
+      # One image for dist (webpack) and build (11ty); the CI compose override
+      # makes dist the only service that builds it, using the registry layer
+      # cache, so the Dockerfile is built once per run and only re-executed
+      # where its inputs changed.
+      - name: Build the site image
+        run: |
+          docker compose -f docker-compose.yml -f docker-compose.ci.yml build dist
+
       - name: Build the site with docker compose
         run: |
-          docker compose -f docker-compose.yml -f docker-compose.ci.yml run --build build
+          docker compose -f docker-compose.yml -f docker-compose.ci.yml run build
 
       - name: Save generated images cache
         uses: actions/cache/save@55cc8345863c7cc4c66a329aec7e433d2d1c52a9 # v6.1.0

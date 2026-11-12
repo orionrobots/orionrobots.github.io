@@ -1,8 +1,14 @@
+# serve, dist and build all run the default Dockerfile stage with the source
+# volume-mounted, so they share one image (built once, one CI layer cache).
+x-site-image: &site_image
+  image: orionrobots-site:dev
+  build:
+    context: .
+    dockerfile: Dockerfile
+
 services:
   serve:
-    build:
-      context: .
-      dockerfile: Dockerfile
+    <<: *site_image
     command: [ "npm", "run", "serve" ]
     volumes:
       - .:/app/src
@@ -14,18 +20,14 @@ services:
         condition: service_completed_successfully
 
   dist:
-    build:
-      context: .
-      dockerfile: Dockerfile
+    <<: *site_image
     command: [ "npm", "run", "dist" ]
     volumes:
       - .:/app/src
       - /app/src/node_modules
 
   build:
-    build:
-      context: .
-      dockerfile: Dockerfile
+    <<: *site_image
     command: [ "npm", "run", "11ty" ]
     volumes:
       - .:/app/src
