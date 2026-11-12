@@ -121,6 +121,20 @@ function checkCanonicals (): string[] {
   return errors
 }
 
+// Tag links must use the trailing-slash canonical form, not rely on a redirect (see #544)
+function checkTagLinks (): string[] {
+  const errors: string[] = []
+  for (const file of listHtmlFiles(SITE_DIR)) {
+    const html = fs.readFileSync(file, 'utf8')
+    const bad = [...html.matchAll(/href="(\/tags\/[^"/#?]+)"/g)].map(m => m[1])
+    if (bad.length > 0) {
+      const rel = '/' + path.relative(SITE_DIR, file).split(path.sep).join('/')
+      errors.push(`${rel}: tag links missing trailing slash: ${[...new Set(bad)].slice(0, 3).join(', ')}`)
+    }
+  }
+  return errors
+}
+
 function main (): void {
   console.log(SKIP_BUILD
     ? 'Running 11ty smoke checks against the existing _site…'
@@ -162,6 +176,7 @@ function main (): void {
   }
 
   errors.push(...checkCanonicals())
+  errors.push(...checkTagLinks())
 
   // Parse eleventy's reported write count for informational output
   const wroteMatch = result.output.match(/Wrote (\d+) files? in/)

@@ -3,7 +3,7 @@ const slugify = require("slugify");
 function tag_item(tag_name, tags) {
     const tag_slug = slugify(tag_name);
     const count = tags[tag_name]?.length || 0;
-    return `<li><a href="/tags/${tag_slug}">${tag_name} <span class="badge tag-badge rounded-pill">${count}</span></a></li>`;
+    return `<li><a href="/tags/${tag_slug}/">${tag_name} <span class="badge tag-badge rounded-pill">${count}</span></a></li>`;
 }
 
 function tag_list(tags) {
