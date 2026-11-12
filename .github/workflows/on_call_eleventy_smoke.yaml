@@ -29,7 +29,7 @@ jobs:
           name: _site
 
       - name: Extract site artifact
-        run: tar -xzf _site.tar.gz
+        run: tar -xf _site.tar
 
       - name: Run eleventy smoke checks
         id: smoke_test

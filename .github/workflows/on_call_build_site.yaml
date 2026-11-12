@@ -30,9 +30,14 @@ jobs:
           username: ${{ github.actor }}
           password: ${{ github.token }}
 
+      # Only needed to publish the base image. The compose build below builds
+      # the Dockerfile itself (with registry layer cache), so a Dockerfile
+      # break is still caught on every PR. push_tag is set when the Dockerfile,
+      # package*.json, compose files or these workflows change, and on master.
       - name: Build base image
+        if: inputs.push_tag
         env:
-          push_tag: ${{inputs.push_tag || 'temp' }}
+          push_tag: ${{ inputs.push_tag }}
         run: |
           docker build --target base -t "ghcr.io/orionrobots/orionrobots-site.base:${push_tag}" .
 
@@ -67,13 +72,16 @@ jobs:
 
       - name: Tarball the site
         run: |
-          tar -czf _site.tar.gz _site
+          # Uncompressed: the site is mostly already-compressed images, and the
+          # artifact upload does its own compression pass anyway.
+          tar -cf _site.tar _site
 
       - name: upload site artifact
         uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
         with:
           name: _site
-          path: _site.tar.gz
+          path: _site.tar
+          compression-level: 0
           if-no-files-found: error
 
       - name: upload httpd.conf artifact

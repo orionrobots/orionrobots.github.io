@@ -35,6 +35,9 @@ jobs:
         with:
           files: |
             Dockerfile
+            .dockerignore
+            docker-compose.yml
+            docker-compose.ci.yml
             package.json
             package-lock.json
             .github/workflows/on_call_build_site.yaml
