@@ -69,6 +69,7 @@ second local build takes ~12 s because the generated images already exist.
 | Warm, restoring master's cache (#547) | 2m13s | 41 s | 5m17s |
 | #551 (base rebuilt: workflow changed) | 2m29s | 52 s | 5m26s |
 | #552 (base rebuilt: compose files changed) | 1m47s | 12 s image + 22 s run | 4m40s |
+| **Ordinary PR, base build skipped (#553, docs only)** | **1m27s** | 20 s image + 28 s run | **4m24s** |
 
 ## Not done / ideas
 
