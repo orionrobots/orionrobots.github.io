@@ -7,6 +7,11 @@ on:
         required: false
         type: string
         default: ''
+      test_image_tag:
+        description: 'Tag of the prebuilt test image on ghcr.io (empty: build it here)'
+        required: false
+        type: string
+        default: ''
 
 jobs:
   staging_test:
@@ -18,6 +23,7 @@ jobs:
       CACHE_IMAGE: orionrobots/orionrobots-site
       DOCKER_BUILDKIT: 1
       COMPOSE_DOCKER_CLI_BUILD: 1
+      TEST_IMAGE_TAG: ${{ inputs.test_image_tag }}
     steps:
       - uses: actions/checkout@v7.0.1
       - name: Fetch site artifact
@@ -45,6 +51,15 @@ jobs:
           # Also copy default.conf for the consolidated Dockerfile to support fallback
           cp .github/scripts/staging/default.conf _site/default.conf
           
+      # compose's `test` service is named after this tag (docker-compose.ci.yml),
+      # so a successful pull means `run test` does not build. If the pull fails
+      # compose builds the image from the Dockerfile, as before.
+      - name: Pull the prebuilt test image
+        if: inputs.test_image_tag != ''
+        run: |
+          docker pull "ghcr.io/orionrobots/orionrobots-site.test:${TEST_IMAGE_TAG}" \
+            || echo "::notice::test image not in registry; compose will build it"
+
       - name: Run as service and test
         env:
           BDD_TAGS: ${{ inputs.tags }}

@@ -23,12 +23,13 @@ services:
       cache_to:
         - type=registry,ref=ghcr.io/orionrobots/orionrobots-site.staging:cache,mode=max
 
+  # The test image is prebuilt by on_call_test_image.yaml and pulled by tag;
+  # `build` is only the fallback when that pull fails.
   test:
+    image: ghcr.io/orionrobots/orionrobots-site.test:${TEST_IMAGE_TAG:-dev}
     build:
       cache_from:
         - type=registry,ref=ghcr.io/orionrobots/orionrobots-site.test:cache
-      cache_to:
-        - type=registry,ref=ghcr.io/orionrobots/orionrobots-site.test:cache,mode=max
 
   shell:
     build:
