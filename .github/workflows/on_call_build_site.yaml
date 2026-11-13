@@ -92,13 +92,6 @@ jobs:
           compression-level: 0
           if-no-files-found: error
 
-      - name: upload httpd.conf artifact
-        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
-        with:
-          name: httpd.conf
-          path: .github/scripts/staging/httpd.conf
-          if-no-files-found: error
-
       - name: Push base image
         if: inputs.push_tag
         env:
