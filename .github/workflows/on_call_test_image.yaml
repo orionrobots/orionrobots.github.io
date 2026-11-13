@@ -1,0 +1,70 @@
+---
+# Builds the BDD test image (Dockerfile target `tests`: node + Playwright +
+# Chromium) once per distinct set of inputs and keeps it on ghcr.io, so the
+# staging/gallery jobs pull it instead of rebuilding it on every run.
+# Consumers fall back to building it themselves if the pull fails.
+name: "Test image"
+on:
+  workflow_call:
+    outputs:
+      tag:
+        description: 'Tag of the test image for this commit (hash of its inputs)'
+        value: ${{ jobs.test_image.outputs.tag }}
+
+jobs:
+  test_image:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      packages: write
+    env:
+      IMAGE: ghcr.io/orionrobots/orionrobots-site.test
+    outputs:
+      tag: ${{ steps.tag.outputs.tag }}
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+
+      # The image is Dockerfile + the npm manifests (baked node_modules) +
+      # cucumber.js (COPYd in). ./tests is volume-mounted at run time, so test
+      # edits deliberately do not change the image.
+      - name: Compute image tag
+        id: tag
+        run: |
+          echo "tag=${{ hashFiles('Dockerfile', 'package.json', 'package-lock.json', 'cucumber.js') }}" >> "$GITHUB_OUTPUT"
+
+      - name: Login to Docker
+        uses: docker/login-action@dbcb813823bdd20940b903addbd779551569679f # v4.6.0
+        with:
+          registry: ghcr.io
+          username: ${{ github.actor }}
+          password: ${{ github.token }}
+
+      - name: Check whether the image already exists
+        id: exists
+        env:
+          TAG: ${{ steps.tag.outputs.tag }}
+        run: |
+          if docker manifest inspect "${IMAGE}:${TAG}" > /dev/null 2>&1; then
+            echo "exists=true" >> "$GITHUB_OUTPUT"
+            echo "Test image ${TAG} already on ghcr.io" >> "$GITHUB_STEP_SUMMARY"
+          else
+            echo "exists=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Set up Docker Buildx
+        if: steps.exists.outputs.exists != 'true'
+        uses: docker/setup-buildx-action@f87e5991a6d7451dcb8d9637bfbc97413f497069 # v4.4.1
+
+      # continue-on-error: a token without packages:write (e.g. Dependabot)
+      # cannot push; consumers then build the image themselves.
+      - name: Build and push the test image
+        if: steps.exists.outputs.exists != 'true'
+        continue-on-error: true
+        env:
+          TAG: ${{ steps.tag.outputs.tag }}
+        run: |
+          docker buildx build --target tests \
+            --cache-from "type=registry,ref=${IMAGE}:cache" \
+            --cache-to "type=registry,ref=${IMAGE}:cache,mode=max" \
+            --tag "${IMAGE}:${TAG}" --push .
+          echo "Built and pushed test image ${TAG}" >> "$GITHUB_STEP_SUMMARY"

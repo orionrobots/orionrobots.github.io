@@ -20,6 +20,7 @@ on:
       - '.github/workflows/on_push_to_master_test_and_deploy.yaml'
       - '.github/workflows/on_call_build_site.yaml'
       - '.github/workflows/on_call_staging_test.yaml'
+      - '.github/workflows/on_call_test_image.yaml'
       - 'package.json'
       - 'package-lock.json'
       - 'webpack.config.js'
@@ -49,23 +50,31 @@ jobs:
     with:
       push_tag: "latest"
 
+  test_image:
+    uses: ./.github/workflows/on_call_test_image.yaml
+    permissions:
+      contents: read
+      packages: write
+
   staging_test:
     uses: ./.github/workflows/on_call_staging_test.yaml
-    needs: build_site
+    needs: [build_site, test_image]
     permissions:
       contents: read
       packages: write
     with:
+      test_image_tag: ${{ needs.test_image.outputs.tag }}
       tags: 'not @gallery'
 
   # Runs alongside staging_test so the gallery checks add no wall-clock time
   gallery_test:
     uses: ./.github/workflows/on_call_staging_test.yaml
-    needs: build_site
+    needs: [build_site, test_image]
     permissions:
       contents: read
       packages: write
     with:
+      test_image_tag: ${{ needs.test_image.outputs.tag }}
       tags: '@gallery'
 
   deploy:

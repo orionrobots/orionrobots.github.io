@@ -132,21 +132,29 @@ jobs:
       contents: read
       pull-requests: write
 
+  test_image:
+    uses: ./.github/workflows/on_call_test_image.yaml
+    permissions:
+      contents: read
+      packages: write
+
   staging_test:
     uses: ./.github/workflows/on_call_staging_test.yaml
-    needs: build_site
+    needs: [build_site, test_image]
     permissions:
       contents: read
       packages: write
     with:
+      test_image_tag: ${{ needs.test_image.outputs.tag }}
       tags: 'not @gallery'
 
   # Runs alongside staging_test so the gallery checks add no wall-clock time
   gallery_test:
     uses: ./.github/workflows/on_call_staging_test.yaml
-    needs: build_site
+    needs: [build_site, test_image]
     permissions:
       contents: read
       packages: write
     with:
+      test_image_tag: ${{ needs.test_image.outputs.tag }}
       tags: '@gallery'

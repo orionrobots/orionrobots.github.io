@@ -54,7 +54,9 @@ RUN apt-get update && apt-get install -y \
 RUN npx playwright install chromium --with-deps
 
 COPY cucumber.js ./
-COPY tests/ ./tests/
+# tests/ is volume-mounted by the compose `test` service, so it is not baked in:
+# the image then depends only on this file, package*.json and cucumber.js, which
+# lets CI build it once per change and pull it (see on_call_test_image.yaml).
 
 CMD ["npm", "run", "test:bdd"]
 
