@@ -17,6 +17,27 @@ second local build takes ~12 s because the generated images already exist.
 | --- | --- | --- |
 | #543 | Eleventy smoke test runs against the `build_site` `_site` artifact (`SMOKE_SKIP_BUILD=1`) instead of doing its own `npm ci` + webpack + full 11ty build | smoke job ~7 min -> ~30-45 s; one full site build per PR |
 | #545 | `actions/cache` restores/saves `_site/assets/images` and `_site/assets/thumbnails` in `on_call_build_site.yaml` | compose step 438 s -> 35 s warm; `On PR Test` open-to-green 13m41s -> 4m46s |
+| #551 | Base image is built only when `push_tag` is set; `_site` artifact is an uncompressed tar (`compression-level: 0`) | tar 9 s -> 0 s, upload 10 s -> 4 s; base build (~33 s) skipped on ordinary PRs |
+| #552 | `serve`, `dist` and `build` share one image (compose anchor); in CI only `dist` builds it, `build`/`serve` reuse it (`!reset`) | one image build and export per run instead of two; image build + run 41-52 s -> 34 s |
+
+## Rules worth knowing
+
+- **Base image build.** `build_site` runs `docker build --target base` only when
+  `push_tag` is set. `on_pr_test.yaml` sets it when `Dockerfile`, `.dockerignore`,
+  `docker-compose.yml`, `docker-compose.ci.yml`, `package.json`,
+  `package-lock.json` or the build workflows change, and master always sets it
+  (`latest`). The compose build still builds the Dockerfile on every run via the
+  registry layer cache, so a broken Dockerfile fails the PR regardless. If you
+  add another file that affects the image, add it to that detector list.
+- **One site image in CI.** `docker-compose.ci.yml` makes `dist` the only
+  service that builds the image; `build` and `serve` have `build: !reset null`.
+  The workflow builds it (`build dist`) and then runs `build` without `--build`.
+  Locally every service keeps its build section, so `docker compose run build`
+  and `docker compose up serve` work from a clean checkout. If CI ever runs a
+  service without a build section before the image step, it will fail to find
+  `orionrobots-site:dev`.
+- **Artifact format.** `_site.tar` (uncompressed). All consumers use
+  `tar -xf _site.tar`: smoke, staging/gallery and the master deploy.
 
 ## How the image cache works
 
@@ -45,11 +66,21 @@ second local build takes ~12 s because the generated images already exist.
 | Cold (#545 first run) | 9m02s | 438 s | 13m41s |
 | Warm (#545 second run) | 1m55s | 35 s | 4m46s |
 | Master deploy, cold (first after #545) | 7m00s | 324 s | 10m10s (includes deploy) |
+| Warm, restoring master's cache (#547) | 2m13s | 41 s | 5m17s |
+| #551 (base rebuilt: workflow changed) | 2m29s | 52 s | 5m26s |
+| #552 (base rebuilt: compose files changed) | 1m47s | 12 s image + 22 s run | 4m40s |
 
 ## Not done / ideas
 
-- Remaining fixed `build_site` overhead is ~80 s (base image build ~30 s,
-  artifact upload ~10 s). The base image build already uses layer caching.
+- Remaining `build_site` overhead is checkout/buildx/login (~25 s), the image
+  build and container starts (~34 s) and the cache save (3-22 s, variable). The
+  standalone base image build had no layer cache, which is why it cost ~33 s
+  before it was made conditional.
+- Docker stays on the build path on purpose (local and CI parity). A possible
+  next step is to tag the site image by a hash of `Dockerfile` + `package*.json`
+  and pull it instead of rebuilding when unchanged; not needed yet.
+- Staging and gallery tests (~2.5 min each, in parallel) are now the longest
+  stage after `build_site`.
 - A PR that adds many new photos only pays for those photos; not yet measured.
 - Path filters to skip the full build for docs-only or workflow-only PRs were
   considered but not needed once the warm build is under 2 minutes.
