@@ -19,24 +19,15 @@ RUN apt-get update && apt-get install -y \
 # Broken link checker
 FROM dcycle/broken-link-checker:3 AS broken_link_checker
 
-# HTTP serve: serves the built static site via Apache
-# For staging: build context is _site/ which must contain httpd.conf
-# For local testing: build context is repo root; config is at .github/scripts/staging/default.conf
+# HTTP serve: Apache with the staging config, serving a *mounted* site.
+# _site/ (including its .htaccess) is volume-mounted at run time, like the rsynced
+# production docroot, so this image does not depend on the site content: it only
+# rebuilds when this stage or the conf changes (no 340 MB COPY per run).
 FROM httpd:2.4.69 AS httpd_serve
 
 RUN apt-get update && apt-get install -y curl && rm -rf /var/lib/apt/lists/*
 
-COPY . /usr/local/apache2/htdocs/
-RUN if [ -f /usr/local/apache2/htdocs/httpd.conf ]; then \
-  cp /usr/local/apache2/htdocs/httpd.conf /usr/local/apache2/conf/httpd.conf; \
-  elif [ -f /usr/local/apache2/htdocs/.github/scripts/staging/default.conf ]; then \
-  cp /usr/local/apache2/htdocs/.github/scripts/staging/default.conf /usr/local/apache2/conf/httpd.conf; \
-  else \
-  echo "ERROR: No Apache configuration file found"; \
-  exit 1; \
-  fi && \
-  rm -rf /usr/local/apache2/htdocs/.github \
-  /usr/local/apache2/htdocs/httpd.conf
+COPY .github/scripts/staging/default.conf /usr/local/apache2/conf/httpd.conf
 
 # Tests: base with Playwright for BDD integration testing
 FROM base AS tests
