@@ -119,11 +119,7 @@ To run the staging environment locally using Docker Compose:
 # Build the site first (a few minutes; `dist` alone only runs webpack)
 docker compose up --build build
 
-# Add the Apache config, as CI does (_site is root-owned, hence docker run)
-docker run --rm -v "$PWD:/w" alpine sh -c \
-  'cp /w/.github/scripts/staging/default.conf /w/_site/httpd.conf && cp /w/.github/scripts/staging/default.conf /w/_site/default.conf'
-
-# Start the staging service
+# Start the staging service (serves ./_site, mounted, with the staging Apache config)
 docker compose up -d --build --wait staging
 ```
 
@@ -131,6 +127,6 @@ Then e.g. `curl -I localhost:8080/dojo/led`. Stop with `docker compose down`.
 
 The staging service will be available at http://localhost:8080
 
-The staging environment automatically uses the consolidated `httpd_serve` Docker stage from the main Dockerfile, ensuring consistency between development and CI/CD environments.
+The staging environment uses the `httpd_serve` Docker stage from the main Dockerfile (Apache + `.github/scripts/staging/default.conf`) with `_site/` mounted as the docroot, so local and CI/CD behave the same and the image does not change when the site does.
 
 The staging tests run automatically in CI/CD workflows when changes are pushed to the master branch or in pull requests.
