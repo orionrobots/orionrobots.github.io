@@ -90,6 +90,7 @@ RewriteRule ^dojo/line-follow/?$ https://drive.google.com/file/d/1ZISvVXBvOEpCu8
 RewriteRule ^dojo/follow/?$ https://drive.google.com/file/d/1K3fqU6woA3gFs1MXTkF_ryEfKV9I1vbD/view [R=302,L]
 RewriteRule ^dojo/obstacles/?$ https://drive.google.com/file/d/1Qa1zQxD-eVhmJGW7Cc5yrJgFLwUlNRDs/view [R=302,L]
 RewriteRule ^dojo/thonny/?$ https://drive.google.com/file/d/17jP2cvMQIRG5ZUo4uXjmtOCUoOoJHCdj/view [R=302,L]
+RewriteRule ^dojo/sounds/?$ https://drive.google.com/file/d/1FrIf357YHjGyzLHJ9PTQjfBKRt-TknCV/view [R=302,L]
 
 ## FORUMS
 
