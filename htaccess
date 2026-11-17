@@ -70,6 +70,11 @@ ErrorDocument 501 /404.html
 <IfModule mod_rewrite.c>
 RewriteEngine On
 
+# www -> apex, any scheme (path preserved). The http rule below only catches non-443 requests.
+RewriteCond %{HTTP_HOST} ^www\.orionrobots\.co\.uk$ [NC]
+RewriteRule ^(.*)$ https://orionrobots.co.uk/$1 [R=301,L]
+
+# http -> https
 RewriteCond %{SERVER_PORT} !=443
 RewriteCond %{HTTP_HOST} ^(www\.)?orionrobots\.co\.uk [NC]
 RewriteRule ^(.*)$ https://orionrobots.co.uk/$1 [R=301,L]
