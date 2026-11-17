@@ -12,6 +12,11 @@ on:
         required: false
         type: string
         default: ''
+      httpd_image_tag:
+        description: 'Tag of the prebuilt httpd (staging) image on ghcr.io (empty: build it here)'
+        required: false
+        type: string
+        default: ''
 
 jobs:
   staging_test:
@@ -24,6 +29,7 @@ jobs:
       DOCKER_BUILDKIT: 1
       COMPOSE_DOCKER_CLI_BUILD: 1
       TEST_IMAGE_TAG: ${{ inputs.test_image_tag }}
+      HTTPD_IMAGE_TAG: ${{ inputs.httpd_image_tag }}
     steps:
       - uses: actions/checkout@v7.0.1
       - name: Fetch site artifact
@@ -34,9 +40,6 @@ jobs:
         run: |
           tar -xf _site.tar
 
-      - name: Set up Docker Buildx
-        uses: docker/setup-buildx-action@f87e5991a6d7451dcb8d9637bfbc97413f497069 # v4.4.1
-
       - name: Login to Docker
         uses: docker/login-action@81c6f93d4bc991e510b342a00b419b3bb4efc5c6 # v4.7.0
         with:
@@ -44,14 +47,27 @@ jobs:
           username: ${{ github.actor }}
           password: ${{ github.token }}
 
-      # compose's `test` service is named after this tag (docker-compose.ci.yml),
-      # so a successful pull means `run test` does not build. If the pull fails
-      # compose builds the image from the Dockerfile, as before.
-      - name: Pull the prebuilt test image
-        if: inputs.test_image_tag != ''
+      # compose names its `test` and `staging` images after these tags
+      # (docker-compose.ci.yml), so a successful pull means compose does not
+      # build. An empty tag or failed pull sets missing=true and compose builds
+      # the image from the Dockerfile instead (needs buildx, set up below).
+      - name: Pull the prebuilt images
+        id: pull
         run: |
-          docker pull "ghcr.io/orionrobots/orionrobots-site.test:${TEST_IMAGE_TAG}" \
-            || echo "::notice::test image not in registry; compose will build it"
+          pull() { docker pull "ghcr.io/orionrobots/orionrobots-site.$1:$2"; }
+          pull test "${TEST_IMAGE_TAG}" & test_pid=$!
+          pull staging "${HTTPD_IMAGE_TAG}" & httpd_pid=$!
+          missing=false
+          wait "$test_pid" || missing=true
+          wait "$httpd_pid" || missing=true
+          if [ "$missing" = true ]; then
+            echo "::notice::a prebuilt image was not in the registry; compose will build it"
+          fi
+          echo "missing=${missing}" >> "$GITHUB_OUTPUT"
+
+      - name: Set up Docker Buildx (fallback image build only)
+        if: steps.pull.outputs.missing == 'true'
+        uses: docker/setup-buildx-action@f87e5991a6d7451dcb8d9637bfbc97413f497069 # v4.4.1
 
       - name: Run as service and test
         env:
@@ -62,9 +78,9 @@ jobs:
             bdd_args+=(--tags "$BDD_TAGS")
           fi
 
-          # Start the staging service using docker compose with --wait for health checks
-          # Use CI-specific override for GitHub Actions cache
-          docker compose -f docker-compose.yml -f docker-compose.ci.yml up -d --build --wait staging
+          # Start the staging service using docker compose with --wait for health checks.
+          # No --build: use the pulled image; compose only builds it if it is missing.
+          docker compose -f docker-compose.yml -f docker-compose.ci.yml up -d --wait staging
           
           # Perform the tests
           set +e  # Don't exit on error so we can clean up
