@@ -45,6 +45,7 @@ The automated comment includes:
 
 - `new_post.sh`: Script for creating new blog posts with proper folder structure
 - `staging/`: Configuration files for staging environment setup
+- `ensure_ci_image.sh`: Builds and pushes a prebuilt CI image (`test`, `httpd`) to ghcr.io tagged by a hash of its inputs, only if that tag is missing; used by `on_call_ci_images.yaml`. A failed push is a warning: consuming jobs fall back to building the image themselves
 
 ## Maintenance
 

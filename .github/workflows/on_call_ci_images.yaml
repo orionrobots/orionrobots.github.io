@@ -1,0 +1,51 @@
+---
+# Builds the prebuilt CI images once per distinct set of inputs and keeps them on
+# ghcr.io, so the staging/gallery jobs pull them instead of building:
+#   test  - Dockerfile target `tests` (node + Playwright + Chromium). ./tests is
+#           volume-mounted at run time, so test edits do not change the image.
+#   httpd - Dockerfile target `httpd_serve` (Apache + the staging conf). The site
+#           is mounted at run time, so site changes do not change the image.
+# Consumers fall back to building an image themselves if its pull fails.
+name: "CI images"
+on:
+  workflow_call:
+    outputs:
+      test_tag:
+        description: 'Tag of the test image for this commit (hash of its inputs)'
+        value: ${{ jobs.ci_images.outputs.test_tag }}
+      httpd_tag:
+        description: 'Tag of the httpd (staging) image for this commit (hash of its inputs)'
+        value: ${{ jobs.ci_images.outputs.httpd_tag }}
+
+jobs:
+  ci_images:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      packages: write
+    outputs:
+      test_tag: ${{ steps.test.outputs.test_tag }}
+      httpd_tag: ${{ steps.httpd.outputs.httpd_tag }}
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+
+      - name: Login to Docker
+        uses: docker/login-action@81c6f93d4bc991e510b342a00b419b3bb4efc5c6 # v4.7.0
+        with:
+          registry: ghcr.io
+          username: ${{ github.actor }}
+          password: ${{ github.token }}
+
+      - name: Ensure the test image
+        id: test
+        run: >-
+          .github/scripts/ensure_ci_image.sh test_tag
+          ghcr.io/orionrobots/orionrobots-site.test tests
+          Dockerfile package.json package-lock.json cucumber.js
+
+      - name: Ensure the httpd image
+        id: httpd
+        run: >-
+          .github/scripts/ensure_ci_image.sh httpd_tag
+          ghcr.io/orionrobots/orionrobots-site.staging httpd_serve
+          Dockerfile .github/scripts/staging/default.conf

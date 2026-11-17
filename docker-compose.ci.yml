@@ -16,12 +16,13 @@ services:
   serve:
     build: !reset null
 
+  # Prebuilt by on_call_ci_images.yaml and pulled by tag; `build` is only the
+  # fallback when that pull fails (its cache is maintained by the prebuild).
   staging:
+    image: ghcr.io/orionrobots/orionrobots-site.staging:${HTTPD_IMAGE_TAG:-dev}
     build:
       cache_from:
         - type=registry,ref=ghcr.io/orionrobots/orionrobots-site.staging:cache
-      cache_to:
-        - type=registry,ref=ghcr.io/orionrobots/orionrobots-site.staging:cache,mode=max
 
   # The test image is prebuilt by on_call_test_image.yaml and pulled by tag;
   # `build` is only the fallback when that pull fails.
