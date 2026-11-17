@@ -44,13 +44,6 @@ jobs:
           username: ${{ github.actor }}
           password: ${{ github.token }}
 
-      - name: Prepare staging context  
-        run: |
-          # Copy staging files into the _site directory for the docker build
-          cp .github/scripts/staging/default.conf _site/httpd.conf
-          # Also copy default.conf for the consolidated Dockerfile to support fallback
-          cp .github/scripts/staging/default.conf _site/default.conf
-          
       # compose's `test` service is named after this tag (docker-compose.ci.yml),
       # so a successful pull means `run test` does not build. If the pull fails
       # compose builds the image from the Dockerfile, as before.

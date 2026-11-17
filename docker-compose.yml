@@ -6,6 +6,21 @@ x-site-image: &site_image
     context: .
     dockerfile: Dockerfile
 
+# Apache serving the built site: one image/stage for staging and http_serve.
+x-httpd-serve: &httpd_serve
+  build:
+    context: .
+    dockerfile: Dockerfile
+    target: httpd_serve
+  healthcheck:
+    test: [ "CMD", "curl", "-o", "/dev/null", "-s", "http://localhost" ]
+    interval: 10s
+    timeout: 5s
+    retries: 5
+    start_period: 30s
+  profiles:
+    - manual
+
 services:
   serve:
     <<: *site_image
@@ -72,25 +87,16 @@ services:
     profiles:
       - manual
 
-  # Run after build - although in the CI this is run from a tarballed build currently
+  # Run after build. Serves ./_site (mounted) with the staging Apache config; the
+  # site's own .htaccess is applied on top, as on the hosting. Local: also mounts
+  # the live ./htaccess so edits apply without rebuilding the site.
   http_serve:
-    build:
-      context: .
-      dockerfile: Dockerfile
-      target: httpd_serve
+    <<: *httpd_serve
     volumes:
       - ./_site:/usr/local/apache2/htdocs/
       - ./htaccess:/usr/local/apache2/htdocs/.htaccess
     ports:
       - 8082:80
-    healthcheck:
-      test: [ "CMD", "curl", "-o", "/dev/null", "-s", "http://localhost" ]
-      interval: 10s
-      timeout: 5s
-      retries: 5
-      start_period: 30s
-    profiles:
-      - manual
 
   broken_links:
     build:
@@ -101,22 +107,14 @@ services:
     profiles:
       - manual
 
-  # Staging service for on_call_staging_test workflow
+  # Staging service for on_call_staging_test workflow: _site is mounted read-only,
+  # so the image is the same for every site build (and cached).
   staging:
-    build:
-      context: ./_site
-      dockerfile: ../Dockerfile
-      target: httpd_serve
+    <<: *httpd_serve
+    volumes:
+      - ./_site:/usr/local/apache2/htdocs/:ro
     ports:
       - 8080:80
-    healthcheck:
-      test: [ "CMD", "curl", "-o", "/dev/null", "-s", "http://localhost" ]
-      interval: 10s
-      timeout: 5s
-      retries: 5
-      start_period: 30s
-    profiles:
-      - manual
 
   # BDD Testing service
   test:
