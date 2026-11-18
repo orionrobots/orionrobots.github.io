@@ -451,3 +451,25 @@ Then('the gallery {string} should show the markup title as text without running 
   if (state.currentImages !== 1) throw new Error(`Expected one current image, found ${state.currentImages}`);
   if (state.currentAlt !== MARKUP_TITLE) throw new Error(`Image alt was altered: ${state.currentAlt}`);
 });
+
+let lastResponse;
+
+When('I request {string} with host {string} without following redirects', async function (path, host) {
+  lastResponse = await context.request.get(`${BASE_URL}${path}`, {
+    headers: { Host: host },
+    maxRedirects: 0
+  });
+});
+
+Then('the response status should be {int}', async function (status) {
+  if (lastResponse.status() !== status) {
+    throw new Error(`Expected status ${status}, got ${lastResponse.status()}`);
+  }
+});
+
+Then('the Location header should be {string}', async function (expected) {
+  const actual = lastResponse.headers()['location'];
+  if (actual !== expected) {
+    throw new Error(`Expected Location "${expected}", got "${actual}"`);
+  }
+});
