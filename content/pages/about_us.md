@@ -88,3 +88,5 @@ The best ways to reach us are:
 
 * Discord: [Danny Staple Robotics](https://discord.gg/4kcSNf4Npp)
 * Youtube: [@orionrobots](https://youtube.com/orionrobots)
+
+Found a problem with the site, like a broken link or a missing image? Please [report it on GitHub](https://github.com/orionrobots/orionrobots.github.io/issues/new).

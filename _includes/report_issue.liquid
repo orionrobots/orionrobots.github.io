@@ -1,0 +1,22 @@
+{%- comment -%}
+Ask readers to report site problems as GitHub issues.
+Usage: {% include report_issue, problem:"Broken link" %}
+Without JS the link opens a blank new issue; with JS the title and body are prefilled.
+{%- endcomment -%}
+<p>
+  Found a broken link or another problem with the site?
+  <a class="report-issue-link" data-problem="{{ problem | default: 'Site problem' }}"
+     href="https://github.com/orionrobots/orionrobots.github.io/issues/new">Report it on GitHub</a>,
+  and say where you found the link. We'll fix it if we can!
+</p>
+<script>
+  (function () {
+    var link = document.querySelector(".report-issue-link");
+    if (!link) return;
+    var body = "Page: " + window.location.href +
+      "\nLinked from: " + (document.referrer || "(unknown)") +
+      "\n\nWhat went wrong:\n";
+    link.href += "?title=" + encodeURIComponent(link.dataset.problem + ": " + window.location.pathname) +
+      "&labels=bug&body=" + encodeURIComponent(body);
+  })();
+</script>
