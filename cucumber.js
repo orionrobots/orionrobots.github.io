@@ -5,4 +5,4 @@ module.exports = {
     paths: ['tests/staging/features/**/*.feature'],
     timeout: 60000 // Set default step timeout to 60 seconds
   }
-};
+}
