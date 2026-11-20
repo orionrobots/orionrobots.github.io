@@ -135,6 +135,59 @@ function checkTagLinks (): string[] {
   return errors
 }
 
+// Social image URLs must be absolute, single-slashed, and point at a built file (see #542)
+function checkSocialImages (): string[] {
+  const errors: string[] = []
+  for (const file of listHtmlFiles(SITE_DIR)) {
+    const html = fs.readFileSync(file, 'utf8')
+    const urls = [...html.matchAll(/<meta name="(?:og|twitter):image"[^>]*content="([^"]*)"/g)].map(m => m[1])
+    const rel = '/' + path.relative(SITE_DIR, file).split(path.sep).join('/')
+    for (const url of new Set(urls)) {
+      if (!url.startsWith(PRODUCTION_URL + '/') || url.slice(PRODUCTION_URL.length).includes('//')) {
+        errors.push(`${rel}: bad social image URL ${url}`)
+      } else if (!fs.existsSync(path.join(SITE_DIR, url.slice(PRODUCTION_URL.length)))) {
+        errors.push(`${rel}: social image not in _site: ${url}`)
+      }
+    }
+  }
+  return errors
+}
+
+function listFiles (dir: string): string[] {
+  if (!fs.existsSync(dir)) return []
+  return fs.readdirSync(dir, { withFileTypes: true }).flatMap(entry => {
+    const full = path.join(dir, entry.name)
+    return entry.isDirectory() ? listFiles(full) : [full]
+  })
+}
+
+// Keep in sync with mediaFiletypes in .eleventy.js
+const CONTENT_MEDIA_EXTS = ['jpg', 'jpeg', 'JPG', 'png', 'gif', 'svg', 'avif', 'webp']
+const CONTENT_DIR = path.join(ROOT, 'content')
+
+// content/ media must be passthrough-copied to the site root, markdown must not be copied raw
+function checkContentPassthrough (): string[] {
+  const missing: string[] = []
+  const rawMarkdown: string[] = []
+  for (const file of listFiles(CONTENT_DIR)) {
+    const rel = path.relative(CONTENT_DIR, file)
+    const ext = path.extname(rel).slice(1)
+    if (CONTENT_MEDIA_EXTS.includes(ext) && !fs.existsSync(path.join(SITE_DIR, rel))) {
+      missing.push(rel)
+    } else if (ext === 'md' && fs.existsSync(path.join(SITE_DIR, rel))) {
+      rawMarkdown.push(rel)
+    }
+  }
+  const errors: string[] = []
+  if (missing.length > 0) {
+    errors.push(`${missing.length} content media files missing from _site, e.g. ${missing.slice(0, 3).join(', ')}`)
+  }
+  if (rawMarkdown.length > 0) {
+    errors.push(`${rawMarkdown.length} content markdown files copied raw to _site, e.g. ${rawMarkdown.slice(0, 3).join(', ')}`)
+  }
+  return errors
+}
+
 function main (): void {
   console.log(SKIP_BUILD
     ? 'Running 11ty smoke checks against the existing _site…'
@@ -177,6 +230,8 @@ function main (): void {
 
   errors.push(...checkCanonicals())
   errors.push(...checkTagLinks())
+  errors.push(...checkSocialImages())
+  errors.push(...checkContentPassthrough())
 
   // Parse eleventy's reported write count for informational output
   const wroteMatch = result.output.match(/Wrote (\d+) files? in/)
