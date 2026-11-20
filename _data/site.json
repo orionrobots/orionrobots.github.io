@@ -2,6 +2,9 @@
     "title": "Orionrobots",
     "tagline": "Learn to build robots at home",
     "production_url": "https://orionrobots.co.uk",
+    "theme": {
+        "name": "orionrobots"
+    },
     "menu": [
         {
             "title": "Robot Building",
