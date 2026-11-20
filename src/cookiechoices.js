@@ -16,7 +16,7 @@
 
 export function setup_choices(window) {
 
-  if (!!window.cookieChoices) {
+  if (window.cookieChoices) {
     return window.cookieChoices;
   }
 

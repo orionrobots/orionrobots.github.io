@@ -5,12 +5,12 @@ const fs = require("fs");
 const CleanCSS = require("clean-css");
 
 // Example structure for image list:
-example_images = [
-    {
-        "src": "source_file_within_site",
-        "alt": "Alt text and description",
-    }
-];
+// [
+//     {
+//         "src": "source_file_within_site",
+//         "alt": "Alt text and description",
+//     }
+// ]
 
 // Escape a value for use inside a double-quoted HTML attribute.
 function escapeAttr(value) {
@@ -43,7 +43,7 @@ async function make_gallery_image(src) {
 
 async function make_gallery(id, images) {
     // Generate thumbnails (and metadata) for each image.
-    images_with_metadata = await Promise.all( images.map (async image => ({
+    const images_with_metadata = await Promise.all( images.map (async image => ({
         "thumb_metadata": await thumbnails.make_thumbnail_for(image.src),
         "metadata": await make_gallery_image(image.src),
         "alt": image.alt

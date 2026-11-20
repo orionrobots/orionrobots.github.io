@@ -36,7 +36,7 @@ function extractExcerpt(doc) {
     if (typeof doc !== 'object') {
         throw new Error('Failed to extract excerpt: Document is not an object.');
     }
-    if (!'templateContent' in doc) {
+    if (!('templateContent' in doc)) {
         console.warn('Failed to extract excerpt: Document has no property `templateContent`.');
         return;
     }
