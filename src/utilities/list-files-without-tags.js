@@ -1,6 +1,11 @@
 const fs = require('fs')
 const path = require('path')
 const matter = require('gray-matter')
+const yaml = require('js-yaml')
+
+// package.json overrides js-yaml to v4, which removed the safeLoad that
+// gray-matter's default engine calls, so supply a v4-compatible engine.
+const matterOptions = { engines: { yaml: (s) => yaml.load(s) } }
 
 // Get the folder path from command-line arguments
 const folderPath = process.argv[2]
@@ -25,7 +30,7 @@ fs.readdir(folderPath, (err, files) => {
     const fileContent = fs.readFileSync(filePath, 'utf8')
 
     // Extract the front matter data
-    const { data } = matter(fileContent)
+    const { data } = matter(fileContent, matterOptions)
 
     // Check if the tags element is missing
     if (!data.tags) {
