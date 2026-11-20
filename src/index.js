@@ -22,8 +22,7 @@ export function addPostAdminButton(postSlug) {
 
 document.addPostAdminButton = addPostAdminButton;
 
-document.addEventListener('load', function(event) {
-    setup_choices(this);
-    cookieChoices.showCookieConsentBar('Cookies help us deliver our services. By using our services, you agree to our use of cookies.',
+window.addEventListener('load', function() {
+    setup_choices(window).showCookieConsentBar('Cookies help us deliver our services. By using our services, you agree to our use of cookies.',
         'Got It', 'Learn More', '/privacy_and_cookies.html');
 });

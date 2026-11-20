@@ -1,5 +1,5 @@
 // Basic step definitions for BDD tests using Playwright
-const { Given, When, Then, BeforeAll, AfterAll } = require('@cucumber/cucumber');
+const { Given, When, Then, After, BeforeAll, AfterAll } = require('@cucumber/cucumber');
 const { chromium } = require('playwright');
 
 let browser;
@@ -8,6 +8,7 @@ let page;
 
 // Set up BASE_URL with default value for staging service in Docker network
 const BASE_URL = process.env.BASE_URL || 'http://staging';
+const CONSENT_COOKIE = 'displayCookieConsent';
 
 BeforeAll(async function () {
   browser = await chromium.launch({
@@ -18,6 +19,9 @@ BeforeAll(async function () {
     // Increase timeout for slower Docker environments
     timeout: 30000
   });
+  // Pre-dismiss the cookie consent bar so its fixed overlay can't block clicks
+  // in other scenarios. The cookie consent feature uses its own clean context.
+  await context.addCookies([{ name: CONSENT_COOKIE, value: 'y', url: BASE_URL }]);
 });
 
 AfterAll(async function () {
@@ -472,4 +476,52 @@ Then('the Location header should be {string}', async function (expected) {
   if (actual !== expected) {
     throw new Error(`Expected Location "${expected}", got "${actual}"`);
   }
+});
+
+// Cookie consent bar - uses a fresh context so no consent cookie is set yet.
+let consentContext;
+
+After({ tags: '@cookies' }, async function () {
+  if (consentContext) await consentContext.close();
+  consentContext = undefined;
+});
+
+Given('a new visitor with no cookies opens the index page', async function () {
+  consentContext = await browser.newContext();
+  page = await consentContext.newPage();
+  const response = await page.goto(BASE_URL, { waitUntil: 'load', timeout: 30000 });
+  if (!response || !response.ok()) {
+    throw new Error(`Index page failed to load. Status: ${response ? response.status() : 'No response'}`);
+  }
+});
+
+Then('the cookie consent bar should be shown', async function () {
+  await page.locator('#cookieChoiceInfo').waitFor({ state: 'visible', timeout: 10000 });
+  const href = await page.locator('#cookieChoiceInfo a[href="/privacy_and_cookies.html"]').count();
+  if (href !== 1) throw new Error('Cookie consent bar has no link to the privacy page');
+});
+
+When('the cookie consent bar is dismissed', async function () {
+  await page.locator('#cookieChoiceDismiss').click();
+});
+
+Then('the cookie consent bar should be hidden', async function () {
+  await page.locator('#cookieChoiceInfo').waitFor({ state: 'detached', timeout: 5000 });
+});
+
+Then('the cookie consent cookie should be set', async function () {
+  const cookies = await consentContext.cookies(BASE_URL);
+  const consent = cookies.find(c => c.name === CONSENT_COOKIE);
+  if (!consent || consent.value !== 'y') throw new Error(`${CONSENT_COOKIE} cookie was not set`);
+  if (consent.path !== '/') throw new Error(`${CONSENT_COOKIE} cookie path is ${consent.path}, expected /`);
+});
+
+When('the index page is visited again', async function () {
+  await page.goto(BASE_URL, { waitUntil: 'load', timeout: 30000 });
+});
+
+Then('the footer privacy link should point to the privacy page', async function () {
+  const link = page.locator('footer a.nav-item', { hasText: 'Privacy and Cookies' });
+  const href = await link.getAttribute('href');
+  if (href !== '/privacy_and_cookies.html') throw new Error(`Footer privacy link href is ${href}`);
 });
