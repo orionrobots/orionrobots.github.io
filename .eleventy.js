@@ -50,10 +50,7 @@ module.exports = function (eleventyConfig) {
 
   eleventyConfig.addWatchTarget("src/**/*");
   eleventyConfig.addWatchTarget("galleries/**/*");
-  let $collectionApi = null;
-
   eleventyConfig.addCollection("posts", function (collectionApi) {
-    $collectionApi = collectionApi;
     return collectionApi.getFilteredByGlob("_posts/*.md");
   });
 
@@ -114,8 +111,6 @@ module.exports = function (eleventyConfig) {
   });
 
   eleventyConfig.addCollection("tagList", (collection) => {
-    const tagsSet = new Set();
-
     const tagsDict = {};
 
     // Iterate over all content files and collect tags

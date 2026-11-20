@@ -1,6 +1,9 @@
 // script to populate the gallery elements
 // Assume jquery was loaded before this script.
+/* global $ */
 
+// Called by the inline script that make_tab_gallery.js emits after this file.
+// eslint-disable-next-line no-unused-vars
 function setup_gallery(id) {
     $(function() {
         // Find the gallery element.
