@@ -50,10 +50,7 @@ module.exports = function (eleventyConfig) {
 
   eleventyConfig.addWatchTarget("src/**/*");
   eleventyConfig.addWatchTarget("galleries/**/*");
-  let $collectionApi = null;
-
   eleventyConfig.addCollection("posts", function (collectionApi) {
-    $collectionApi = collectionApi;
     return collectionApi.getFilteredByGlob("_posts/*.md");
   });
 
@@ -69,9 +66,9 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addShortcode("img_responsive", img_responsive);
 
   // Thumbnails
-  eleventyConfig.addShortcode("thumbnail_for_post", thumbnails.thumbnail_for_post);
-  eleventyConfig.addFilter("has_thumbnail", thumbnails.has_thumbnail);
-  eleventyConfig.addShortcode("thumbnail_from_path", thumbnails.thumbnail_from_path);
+  eleventyConfig.addShortcode("thumbnail_for_post", thumbnails.thumbnailForPost);
+  eleventyConfig.addFilter("has_thumbnail", thumbnails.hasThumbnail);
+  eleventyConfig.addShortcode("thumbnail_from_path", thumbnails.thumbnailFromPath);
 
   eleventyConfig.addShortcode("tab_gallery", tab_gallery);
 
@@ -114,8 +111,6 @@ module.exports = function (eleventyConfig) {
   });
 
   eleventyConfig.addCollection("tagList", (collection) => {
-    const tagsSet = new Set();
-
     const tagsDict = {};
 
     // Iterate over all content files and collect tags
