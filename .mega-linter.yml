@@ -45,6 +45,7 @@ DISABLE_ERRORS_LINTERS:
   - ACTION_ZIZMOR # 401 from GitHub API mid-audit, needs investigating separately from code fixes
   - C_CPPCHECK # invalid C syntax in old blog-post demo snippets under assets/galleries
   - CPP_CPPCHECK # same demo snippets, matched again under the .h extension
+  - JAVASCRIPT_ES # root eslint.config.mjs (#575) now applies neostandard to all JS; fixing in batches, see #578
 
 # On by default, but named explicitly since it depends on the lint_cupcake
 # job in on_pr_lint.yaml granting pull-requests: write - without that, this
