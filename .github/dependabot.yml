@@ -29,9 +29,11 @@ updates:
     allow:
       - dependency-type: "all"
     ignore:
-      # ts-node has no stable release compatible with TypeScript 7's
-      # restructured package exports (require('typescript').sys is gone).
-      # Remove once ts-node (or its replacement) supports TS 7.
+      # TypeScript 7 blocked by `npm run lint:ts`: stable typescript-eslint
+      # (pulled in via neostandard) supports `typescript <6.1.0` only, and
+      # crashes loading TS 7's restructured package exports. Smoke tests
+      # (tsx) already pass on TS 7. Remove once a stable typescript-eslint
+      # release supports TS 7 and lint:ts passes with it (see issue #449).
       - dependency-name: "typescript"
         update-types: ["version-update:semver-major"]
     groups:
