@@ -82,7 +82,7 @@ async function makeGallery (id, images) {
   const minifiedJquery = fs.readFileSync('./node_modules/jquery/dist/jquery.min.js', 'utf8')
   const script = fs.readFileSync('src/tab_gallery.js', 'utf8')
   const minifiedScript = await minify(script)
-  const scriptElement = '<script>' + minifiedJquery + minifiedScript.code + '; setup_gallery(' + JSON.stringify(id).replace(/</g, '\\u003c') + ');</script>'
+  const scriptElement = '<script>' + minifiedJquery + minifiedScript.code + '; setupGallery(' + JSON.stringify(id).replace(/</g, '\\u003c') + ');</script>'
   const style = '<style>' + new CleanCSS({}).minify(fs.readFileSync('src/tab_gallery.css', 'utf8')).styles + '</style>'
 
   const galleryElement = '<div class="image-tab-gallery row" id="' + escapeAttr(id) + '">' + tabsElement +
