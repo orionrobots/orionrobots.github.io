@@ -23,7 +23,7 @@ FROM dcycle/broken-link-checker:3 AS broken_link_checker
 # _site/ (including its .htaccess) is volume-mounted at run time, like the rsynced
 # production docroot, so this image does not depend on the site content: it only
 # rebuilds when this stage or the conf changes (no 340 MB COPY per run).
-FROM httpd:2.4.69 AS httpd_serve
+FROM httpd:2.4.71 AS httpd_serve
 
 RUN apt-get update && apt-get install -y curl && rm -rf /var/lib/apt/lists/*
 
