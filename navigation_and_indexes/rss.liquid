@@ -1,11 +1,9 @@
 ---
 title : RSS Feed
 permalink: /rss.xml
-theme:
-    name: orionrobots
 ---
 {%- capture BASE_PATH %}{{ site.production_url }}{% endcapture -%}
-{% capture ASSET_PATH %}{{ BASE_PATH }}/assets/themes/{{ theme.name }}{% endcapture -%}
+{% capture ASSET_PATH %}{{ BASE_PATH }}/assets/themes/{{ site.theme.name }}{% endcapture -%}
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version="2.0">
 <channel>

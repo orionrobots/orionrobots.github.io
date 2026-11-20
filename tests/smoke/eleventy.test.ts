@@ -135,6 +135,24 @@ function checkTagLinks (): string[] {
   return errors
 }
 
+// Social image URLs must be absolute, single-slashed, and point at a built file (see #542)
+function checkSocialImages (): string[] {
+  const errors: string[] = []
+  for (const file of listHtmlFiles(SITE_DIR)) {
+    const html = fs.readFileSync(file, 'utf8')
+    const urls = [...html.matchAll(/<meta name="(?:og|twitter):image"[^>]*content="([^"]*)"/g)].map(m => m[1])
+    const rel = '/' + path.relative(SITE_DIR, file).split(path.sep).join('/')
+    for (const url of new Set(urls)) {
+      if (!url.startsWith(PRODUCTION_URL + '/') || url.slice(PRODUCTION_URL.length).includes('//')) {
+        errors.push(`${rel}: bad social image URL ${url}`)
+      } else if (!fs.existsSync(path.join(SITE_DIR, url.slice(PRODUCTION_URL.length)))) {
+        errors.push(`${rel}: social image not in _site: ${url}`)
+      }
+    }
+  }
+  return errors
+}
+
 function listFiles (dir: string): string[] {
   if (!fs.existsSync(dir)) return []
   return fs.readdirSync(dir, { withFileTypes: true }).flatMap(entry => {
@@ -212,6 +230,7 @@ function main (): void {
 
   errors.push(...checkCanonicals())
   errors.push(...checkTagLinks())
+  errors.push(...checkSocialImages())
   errors.push(...checkContentPassthrough())
 
   // Parse eleventy's reported write count for informational output

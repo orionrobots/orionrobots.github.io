@@ -1,6 +1,6 @@
 {% comment %}{% capture BASE_PATH %}{% if eleventy.env.runMode == "serve" %}{% else %}{{ site.production_url }}{% endif %}{% endcapture %}{% endcomment %}
 {% capture BASE_PATH %}{{ site.production_url }}{% endcapture %}
-{% capture ASSET_PATH %}{{ BASE_PATH }}/assets/themes/{{ theme.name }}{% endcapture %}
+{% capture ASSET_PATH %}{{ BASE_PATH }}/assets/themes/{{ site.theme.name }}{% endcapture %}
 <!DOCTYPE html>
 <!-- [if lt IE 7 ]> <html lang="en" class="no-js ie6"> <![endif] -->
 <!-- [if IE 7 ]>    <html lang="en" class="no-js ie7"> <![endif] -->
@@ -33,13 +33,15 @@
         <meta name="og:description" property="og:description" content="{{ real_description }}" />
         <meta name="description" content="{{ real_description }}">
 
-        {% if thumbnail %}
-            <meta name="og:image" property="og:image" content="{{ BASE_PATH }}/{% thumbnail_from_path thumbnail, page.inputPath %}" />
-            <meta name="twitter:image" content="{{ BASE_PATH }}/{% thumbnail_from_path thumbnail, page.inputPath %}" />
-        {% else %}
-            <meta name="og:image" property="og:image" content="{{ ASSET_PATH }}/images/social-banner.jpg" />
-            <meta name="twitter:image" content="{{ ASSET_PATH }}/images/social-banner.jpg" />
-        {% endif %}
+        {%- comment %} thumbnail_from_path returns a root-relative URL ("/assets/..."), or "" if the image is missing {% endcomment %}
+        {%- capture social_image %}{% if thumbnail %}{% thumbnail_from_path thumbnail, page.inputPath %}{% endif %}{% endcapture %}
+        {%- if social_image != "" %}
+            {%- capture social_image %}{{ BASE_PATH }}{{ social_image }}{% endcapture %}
+        {%- else %}
+            {%- capture social_image %}{{ ASSET_PATH }}/images/social-banner.jpg{% endcapture %}
+        {%- endif %}
+        <meta name="og:image" property="og:image" content="{{ social_image }}" />
+        <meta name="twitter:image" content="{{ social_image }}" />
 
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>{{ title }} | {{ site_title }} - {{ site_tagline }}</title>
