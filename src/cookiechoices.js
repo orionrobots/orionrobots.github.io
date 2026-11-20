@@ -152,7 +152,7 @@ export function setup_choices(window) {
       // Set the cookie expiry to one year after today.
       var expiryDate = new Date();
       expiryDate.setFullYear(expiryDate.getFullYear() + 1);
-      document.cookie = cookieName + '=y; expires=' + expiryDate.toGMTString();
+      document.cookie = cookieName + '=y; expires=' + expiryDate.toUTCString() + '; path=/';
     }
 
     function _shouldDisplayConsent() {
