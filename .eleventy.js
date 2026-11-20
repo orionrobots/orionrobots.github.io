@@ -15,7 +15,7 @@ const {
   fortawesomeBrandsPlugin,
 } = require('@vidhill/fortawesome-brands-11ty-shortcode')
 
-const mediaFiletypes = 'jpg,jpeg,JPG,png,gif,svg,avif'
+const mediaFiletypes = 'jpg,jpeg,JPG,png,gif,svg,avif,webp'
 
 module.exports = function (eleventyConfig) {
   // Configure markdown parser
@@ -40,11 +40,10 @@ module.exports = function (eleventyConfig) {
   }
   eleventyConfig.addPassthroughCopy('google5458abc1104b04dd.html')
   eleventyConfig.addPassthroughCopy({ htaccess: '.htaccess' })
+  // recursive-copy matches `filter` against paths relative to content/,
+  // so content/foo/bar.jpg lands at _site/foo/bar.jpg with no rename needed.
   eleventyConfig.addPassthroughCopy({ content: '.' }, {
-    filter: ['**/*.' + +mediaFiletypes],
-    rename: function (path) {
-      return path.replace('content/', '')
-    }
+    filter: ['**/*.{' + mediaFiletypes + '}']
   })
 
   eleventyConfig.addWatchTarget('src/**/*')
