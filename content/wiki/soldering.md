@@ -1,7 +1,7 @@
 ---
 layout: page
 title: soldering
-tags: [electronics, tools, robot building]
+tags: [electronics, tools, robot building, making robots]
 date: 2007-01-28 20:01:52
 ---
 When using perfboard, stripboard or [PCBs](/wiki/pcb.html "Printed Circuit Board") as well as freeforming, soldering is the normal method of connection.

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Stepper Motors
-tags: [robot building, robots, electronics]
+tags: [robot building, robots, electronics, making robots]
 date: 2007-01-28 16:24:57
 ---
 A stepper motor is designed to move in defined repeatable steps, useful in situations where accurate positioning is needed.

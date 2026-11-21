@@ -13,6 +13,7 @@ tags:
 - plotting data
 - robotics programming
 - graphing data
+- making robots
 title: Bluefruit graphing - beware auto scaling
 using_mathjax: false
 ---

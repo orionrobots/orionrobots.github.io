@@ -11,6 +11,7 @@ tags:
 - electronics
 - robot building
 - robotics at home
+- making robots
 thumbnail: /galleries/2011/25012011148.jpg
 title: Arduino tinkerings
 ---

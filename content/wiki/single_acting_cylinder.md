@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Single Acting Cylinder
-tags: [robot building, pneumatic]
+tags: [robot building, pneumatic, making robots]
 date: 2005-10-09 17:12:52
 ---
 A single acting cylinder is an actuator for a fluidic system like a [Pneumatic](/wiki/pneumatic.html "Use of air to operate and power actuators") or [Hydraulic](/wiki/hydraulic.html "Hydraulic") system.

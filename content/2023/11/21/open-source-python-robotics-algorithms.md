@@ -1,7 +1,7 @@
 ---
 title: Open Source Python Robotics Algorithms on GitHub
 date: '2023-11-21'
-tags: [robot building, python, algorithms, open source]
+tags: [robot building, python, algorithms, open source, making robots]
 description: Open Source Python Robotics Algorithms on GitHub
 ---
 I was sent a link to a GitHub repository with a number of robotics algorithms implemented in Python.[PythonRobotics](https://github.com/AtsushiSakai/PythonRobotics/tree/master)

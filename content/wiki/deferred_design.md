@@ -6,6 +6,7 @@ tags:
   - cad
   - programming
   - electronics
+  - making robots
 date: 2005-10-06T18:08:00.000Z
 ---
 Deferred design refers to a system with the ability to be modified or tweaked later.

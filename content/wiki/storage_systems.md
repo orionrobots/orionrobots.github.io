@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Storage Systems
-tags: [robot building, tools]
+tags: [robot building, tools, making robots]
 date: 2008-07-07 19:02:05
 ---
 A big problem with building stuff like robots is that the builders may end up with many parts and components. This is true if scratch building, using [Construction Toys](/wiki/construction_toy.html "Construction Toy") like [Lego](/wiki/lego.html "The best known construction toy"), or building from junk.

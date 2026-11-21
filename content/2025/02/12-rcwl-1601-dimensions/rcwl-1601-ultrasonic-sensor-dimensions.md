@@ -1,7 +1,7 @@
 ---
 title: Metric Dimensions for the RCWL-1601 Ultrasonic Sensor
 date: 2025-02-12
-tags: [3d cad, robotics cad, robot building, robotics at home, robot sensors, ultrasonic distance sensors]
+tags: [3d cad, robotics cad, robot building, robotics at home, robot sensors, ultrasonic distance sensors, making robots]
 description: Metric dimensions for the RCWL-1601 ultrasonic sensor
 thumbnail: content/2025/02/12-rcwl-1601-dimensions/rcwl-1601-distance-sensor-dimensions.png
 ---

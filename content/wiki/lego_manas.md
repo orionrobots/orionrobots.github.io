@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Lego Manas
-tags: [robots, robot building]
+tags: [robots, robot building, making robots]
 date: 2009-04-25 08:29:52
 ---
 The [Lego](/wiki/lego.html "The best known construction toy") Bionicle 8539 Manas set contained two [IR](/wiki/ir.html "Acronym for Infra Red") remote controlled Crab like battle bots. The remote control units at the centre of the set each take three AA batteries, and have two fixed motors. The remote control units each also take 3 AA batteries.

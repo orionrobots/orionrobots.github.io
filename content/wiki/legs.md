@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Legs
-tags: [robot building]
+tags: [robot building, making robots]
 date: 2005-04-01 13:43:00
 ---
 Legs may look fancy - but they are often only really practical for Anthropomorphic reasons - that is for how they look. They are often a very difficult, and somewhat impractical way to do things.

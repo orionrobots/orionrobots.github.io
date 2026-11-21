@@ -1,6 +1,6 @@
 ---
 title: 3D Printing a replacement part for the Sparkfun Shadow Chassis
-tags: [robot building, 3d printing, chassis]
+tags: [robot building, 3d printing, chassis, making robots]
 description: 3D Printing a replacement part for the Sparkfun Shadow Chassis
 thumbnail: content/2023/11/28/broken-motor-bracket.jpg
 date: 2023-11-28

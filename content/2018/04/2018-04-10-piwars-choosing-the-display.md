@@ -1,6 +1,6 @@
 ---
 date: 2018-4-10 20:04:30
-tags: [piwars, robot, raspberry pi, robot building, raspberry pi 3 projects, electronics]
+tags: [piwars, robot, raspberry pi, robot building, raspberry pi 3 projects, electronics, making robots]
 title: PiWars 2018 Build Journal - Choosing the display
 layout: post
 ---

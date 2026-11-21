@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Charmed Labs XPort 2
-tags: [robot building, microcontroller]
+tags: [robot building, microcontroller, making robots]
 date: 2006-01-01
 ---
 The Charmed Labs XPort 2 can be combined with a Gameboy Advance, to use it as a MicroController.  Since it uses an <a href="/wiki/fpga.html" title="Field Programmable Gate Array">FPGA</a>, and has flashrom for programming the ARM cpu, it gives you a versatile system.

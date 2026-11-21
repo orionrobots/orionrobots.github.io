@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Lego Pneumatic Specifications
-tags: [robot building]
+tags: [robot building, making robots]
 date: 2005-01-18 16:03:33
 ---
 If you are going to use Lego pneumatic parts in your design, it may be worth considering the technical specifications of some of the [Lego](/wiki/lego.html "The best known construction toy") [Pneumatic](/wiki/pneumatic.html "Use of air to operate and power actuators") parts. In most cases - this is not a worry but who knows when these figures may come in handy?

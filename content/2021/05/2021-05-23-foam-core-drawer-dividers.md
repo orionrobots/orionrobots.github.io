@@ -2,7 +2,7 @@
 layout: post
 title: "Foam Core Drawer Dividers"
 description: "Using foam core to make drawer dividers"
-tags: [diy, tools, electronics, robot building]
+tags: [diy, tools, electronics, robot building, making robots]
 gallery:
     - file: drawer-upper-layer.jpg
       title: Foam Core Drawer Upper Layer

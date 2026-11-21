@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Building A Battle Robot
-tags: [robots, robotics, robot building, building a robot at home, robotics at home]
+tags: [robots, robotics, robot building, building a robot at home, robotics at home, making robots]
 date: 2006-07-10 09:42:34
 ---
 ## Intro

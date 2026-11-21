@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Hydraulic
-tags: [robot building]
+tags: [robot building, making robots]
 date: 2005-10-11 22:03:32
 ---
 A system very similar to [pneumatic](/wiki/pneumatic.html "Use of air to operate and power actuators") systems. Instead of using compressed air, it uses a liquid - often an oil. This is clearly in the use of the prefix hydro (meaning water) in the name.

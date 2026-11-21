@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Variable Resistor
-tags: [electronics, robot building]
+tags: [electronics, robot building, making robots]
 date: 2005-05-04 10:39:46
 ---
 The Variable Resistor is sometimes abbreviated VR - but beware as in robotics this is also used for Virtual Reality. It is also known as a Potentiometer and older kinds a Rheostat.

@@ -1,7 +1,7 @@
 ---
 title: Tidying up with hook and loop cable ties
 date: 2026-08-17
-tags: [robot building, robot chassis, robot cabling]
+tags: [robot building, robot chassis, robot cabling, making robots]
 thumbnail: hook-and-loop-cable-ties-robot.jpg
 ---
 When building robots, it's not hard to get cables in a bit of a mess.

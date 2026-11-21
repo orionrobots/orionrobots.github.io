@@ -11,6 +11,7 @@ tags:
 - robot building
 - robotics at home
 - robotics projects for kids
+- making robots
 title: Building a Microbit Robot with the Kitronic v2 Motor Board
 ---
 In my previous post, I mentioned getting the <a href="https://kitronik.co.uk/">Kitronic</a> V2 motor board for

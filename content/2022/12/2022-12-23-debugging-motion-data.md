@@ -15,6 +15,7 @@ tags:
 - robot building
 - monte carlo localisation
 - motion model
+- making robots
 title: Debugging motion data
 using_mathjax: false
 ---

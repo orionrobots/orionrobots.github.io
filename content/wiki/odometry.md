@@ -1,7 +1,7 @@
 ---
 layout: page
 title: odometry
-tags: [robots, robotics, robot building sensors]
+tags: [robots, robotics, robot building sensors, making robots]
 date: 2006-07-10 12:38:08
 ---
 For a practical guide on using encoders for odometry in a robot, and to control motion, try out [Learn Robotics Programming](https://amzn.to/3ToEwwP). This shows not only how to use encoder to drive in a straight line, but how to use them to make a turn and measure distances.

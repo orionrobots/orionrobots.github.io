@@ -6,6 +6,7 @@ description: April 2023 shopping lists for the robot in the book
 tags:
   - robotics at home
   - robot building
+  - making robots
 ---
 If you are based in the UK here is an item shopping list suitable for building a robot as shown in the [Robotics at Home with Raspberry Pi Pico book](https://packt.link/5swS2). These are made using ThePiHut, a reputable UK electronics vendor with a broad selection and Amazon. You could definitely find parts cheaper on eBay or Alibaba, however you will have longer lead times and the quality will vary.
 

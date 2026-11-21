@@ -32,6 +32,7 @@ tags:
 - esp32
 - python
 - circuitpython
+- making robots
 thumbnail: /galleries/2021/06-15-pico-wireless-pack-with-motor-board/bare-basics-fritzing.png
 title: Raspberry Pi Pico Wireless pack and Motors
 ---

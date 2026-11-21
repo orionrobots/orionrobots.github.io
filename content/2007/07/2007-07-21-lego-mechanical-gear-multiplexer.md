@@ -1,7 +1,7 @@
 ---
 date: 2007-07-21 09:37:57
 description: Lego Mechanical Gear Multiplexer
-tags: [lego technic, robot building]
+tags: [lego technic, robot building, making robots]
 title: Lego Mechanical Gear Multiplexer
 layout: post
 ---

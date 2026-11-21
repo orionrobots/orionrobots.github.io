@@ -1,7 +1,7 @@
 ---
 date: 2005-03-17 08:48:40
 description: This weeks meeting
-tags: [east finchley robotics club, robots, robot building]
+tags: [east finchley robotics club, robots, robot building, making robots]
 title: This weeks meeting
 layout: post
 ---

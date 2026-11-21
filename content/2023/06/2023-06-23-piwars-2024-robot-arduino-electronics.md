@@ -1,7 +1,7 @@
 ---
 title: Piwars 2024 Robot Arduino Electronics
 description: The Arduino part of the robot
-tags: [piwars, robotics at home, piwars 2024, electronics, big ole yellow, robot building]
+tags: [piwars, robotics at home, piwars 2024, electronics, big ole yellow, robot building, making robots]
 date: 2023-06-23
 thumbnail: galleries/2023/piwars-robot-info/arduino-protoboard-loose-on-robot.JPG
 ---

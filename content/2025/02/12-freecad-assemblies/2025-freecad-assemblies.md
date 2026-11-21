@@ -1,7 +1,7 @@
 ---
 title: Trying out Assemblies in FreeCAD 1.0.0
 date: 2025-02-12
-tags: [3d cad, robotics cad, robot building, robotics at home]
+tags: [3d cad, robotics cad, robot building, robotics at home, making robots]
 description: Using the FreeCAD Assembly workbench in FreeCAD 1.0.0
 thumbnail: content/2025/02/12-freecad-assemblies/robot-chassis-front-assembly.png
 ---

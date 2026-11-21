@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Horse And Rider
-tags: [robot building]
+tags: [robot building, making robots]
 date: 2005-12-01 00:31:51
 ---
 ## Introduction

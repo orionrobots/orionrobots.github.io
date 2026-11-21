@@ -1,7 +1,7 @@
 ---
 title: 2022 battery choices update
 date: 2022-11-20 00:00:00
-tags: ['building robots', 'robot building', 'robot power', 'battery storage', 'learn robotics at home']
+tags: ['building robots', 'robot building', 'robot power', 'battery storage', 'learn robotics at home', making robots]
 category: robot building
 published: true
 description: Update on battery choices for 2022

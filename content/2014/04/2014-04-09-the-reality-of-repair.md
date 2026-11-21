@@ -7,6 +7,7 @@ tags:
 - repair
 - salvage
 - learning
+- making robots
 title: The reality of electronics repair
 ---
 <img src="/assets/2014-04-09-the-reality-of-repair.md/small/1-IMG_3406-001.JPG" alt="Me repairing some electronics" style="float:left; padding-right: 4px;" />

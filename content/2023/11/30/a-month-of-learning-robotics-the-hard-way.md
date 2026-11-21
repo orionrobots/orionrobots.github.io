@@ -1,6 +1,6 @@
 ---
 title: Robotics building - A month of learning the hard way
-tags: [robot building, 3d printing, chassis, raspberry pi pico]
+tags: [robot building, 3d printing, chassis, raspberry pi pico, making robots]
 description: What I broke this month, and why
 thumbnail: content/2023/11/30/cost-of-broken-robot-parts.png
 date: 2023-11-30

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: RoboBrix
-tags: [robotics, robot building]
+tags: [robotics, robot building, making robots]
 date: 2004-12-31 19:57:53
 ---
 RoboBrix were modular robot building components - with Wheel Bases, Grippers, [Servos](/wiki/servo_motor.html "A motor with built in positioning control - easily interfaced with digital systems"), [MicroController](/wiki/microcontroller.html "A programmable digital controller (or ")s, amd Sensors. In addition - they are mechanically compatible with the [Lego](/wiki/lego.html "The best known construction toy") system.

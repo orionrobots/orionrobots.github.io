@@ -10,6 +10,7 @@ tags:
   - building a home robot
   - robotics books
   - robot building
+  - making robots
 thumbnail: /galleries/img_7087.jpg
 ---
 Today is Pi day. As in the number 3.141592, and also the Raspberry Pi.

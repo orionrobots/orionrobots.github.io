@@ -1,7 +1,7 @@
 ---
 title: Assembling the new 3D printer enclosure frame
 date: 2026-07-16
-tags: [3d printing, robot building]
+tags: [3d printing, robot building, making robots]
 thumbnail: new-frame-in-place-with-printer.jpg
 ---
 In the [last post](/2026/07/14/14-rebuilding-a-3d-printer-enclosure-frame.html) I was planning a replacement for my 3D printer enclosure's frame - swapping the fibreglass rods and plastic corners that the cat had cracked for zinc-alloy corner brackets and aluminium extrusion from [ooznest.co.uk](https://ooznest.co.uk). The parts have now arrived, and it was time to build it.

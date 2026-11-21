@@ -7,6 +7,7 @@ tags:
 - electronics
 - robot building
 - robot kit
+- making robots
 title: Interesting new robots to play with
 ---
 I've been buying other robot kits to experiment with - one with car-like steerable front using a servo and single drive motor, another with solid plastic wheels and a grid system for prototyping on. Both are also based on Arduino, and both being considered for upgrades or alternatives with the Explorer 1 kit system.

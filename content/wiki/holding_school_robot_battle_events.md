@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Holding School Robot Battle Events
-tags: [robots, robot building, stem]
+tags: [robots, robot building, stem, making robots]
 date: 2005-07-29 15:32:22
 ---
 If you are planning to hold a Robot Battle event like [Robot Wars](/wiki/robot_wars.html "The british robot smashing TV series.") at your school - hopefully you'll find some tips here.

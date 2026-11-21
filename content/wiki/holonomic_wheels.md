@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Holonomic Drive
-tags: [robot building]
+tags: [robot building, making robots]
 date: 2004-11-30 23:50:03
 ---
 This a drive, based on 4 omni-wheels, wheels that have 2 [Degrees Of Freedom](/wiki/degrees_of_freedom.html "A term used for the axes of movement for a robot, or robot limb."), allowing them to move in more directions than forward and back.

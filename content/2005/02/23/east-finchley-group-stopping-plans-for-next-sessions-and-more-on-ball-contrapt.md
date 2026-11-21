@@ -1,7 +1,7 @@
 ---
 date: 2005-02-23 09:47:51
 description: East Finchley Group Stopping, Plans for next sessions, and more on Ball Contraption
-tags: [robot building, robots]
+tags: [robot building, robots, making robots]
 title: East Finchley Group Stopping, Plans for next sessions, and more on Ball Contraption
 layout: post
 ---

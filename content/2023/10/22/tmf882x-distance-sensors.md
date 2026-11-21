@@ -1,6 +1,6 @@
 ---
 title: TMF882x Distance Sensors
-tags: [robotics at home, electronics, sensors, robot building]
+tags: [robotics at home, electronics, sensors, robot building, making robots]
 description: A look at the TMF882x distance sensors
 date: 2023-10-22
 ---

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Electronics
-tags: [electronics, robot building]
+tags: [electronics, robot building, making robots]
 date: 2013-05-02 20:35:48
 ---
 [Robot Building Safety](/wiki/robot_building_safety.html "Building robots can be dangerous - tips to help your safety")

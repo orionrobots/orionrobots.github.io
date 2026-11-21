@@ -1,7 +1,7 @@
 ---
 title: Pi Wars update - updating the attachment plate
 description: The team has been working on the attachment plate for the robot
-tags: [robot building, pi wars, raspberry pi, freecad, 3d printing, big ole yellow, piwars 2024]
+tags: [robot building, pi wars, raspberry pi, freecad, 3d printing, big ole yellow, piwars 2024, making robots]
 date: 2024-02-25
 thumbnail: content/2024/02/25/attachment-plate-design.png
 ---

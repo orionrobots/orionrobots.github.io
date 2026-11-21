@@ -1,7 +1,7 @@
 ---
 layout: page
 title: DK Ultimate Robot Kit
-tags: [robotics, robots, robot building]
+tags: [robotics, robots, robot building, making robots]
 date: 2005-01-27 14:18:47
 ---
 This is a rather nifty little kit for teaching children about the basics of robotics. Using cardboard and paper - yes you hear me, along with a couple of paperclips, some PVA glue and some lengths of foil - you can create four robots each of which have very different functions.

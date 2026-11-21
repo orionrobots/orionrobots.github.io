@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Helical Gears
-tags: [robot building]
+tags: [robot building, making robots]
 date: 2004-11-14 21:56:13
 ---
 When designing geared mechanisms one very important factor is [Torque](/wiki/torque.html "Torque").

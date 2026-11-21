@@ -1,7 +1,7 @@
 ---
 layout: page
 title: DK Robot Warrior Kit
-tags: [robot kits, robots, robot building, robotics]
+tags: [robot kits, robots, robot building, robotics, making robots]
 date: 2012-07-14 10:13:13
 ---
 This kit comes with a number of press out cardboard bits, a small two direction remote chassis and a small book.

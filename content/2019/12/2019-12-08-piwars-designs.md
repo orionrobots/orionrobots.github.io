@@ -14,6 +14,7 @@ tags:
 - robot building
 - learn robotics at home
 - i2c bus
+- making robots
 title: Piwars 2020 Designs
 ---
 ## Piwars Acceptance

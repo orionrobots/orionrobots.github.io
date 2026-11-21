@@ -3,7 +3,7 @@ title: Robot Stores
 tagline: Useful robot shopping places
 date: 2014-06-01
 layout: page
-tags: [robots, robot building]
+tags: [robots, robot building, making robots]
 ---
 Stores to find robot kits, electronic boards, motors and supplies for making or building your own gadgets used to be hard to find. I've collected a list of those I have found useful or plain fun here.
 

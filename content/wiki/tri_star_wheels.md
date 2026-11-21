@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Tri Star Wheels
-tags: [robot building, robots]
+tags: [robot building, robots, making robots]
 date: 2007-03-03 15:29:32
 thumbnail: /galleries/gallery-1-common-images/430-tristarwheel_plain.png
 ---

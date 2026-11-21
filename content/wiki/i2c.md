@@ -1,7 +1,7 @@
 ---
 layout: page
 title: I2C
-tags: [electronics, robot building]
+tags: [electronics, robot building, making robots]
 date: 2006-03-06 11:42:53
 ---
 The Phillips I2C bus is a [Serial transfer](/wiki/serial_data_stream.html "Serial Data Stream") system that is supported by most [MicroControllers](/wiki/microcontroller.html "A programmable digital controller (or "). It is otherwise known is the Inter-Integrated-Circuit bus.

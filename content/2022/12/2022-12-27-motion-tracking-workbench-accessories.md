@@ -10,6 +10,7 @@ tags:
   - robot videos
   - robotics blogging
   - robotics content
+  - making robots
 category: robot-building
 ---
 Maker [Rue Mohr](http://ruemohr.org/) recently suggested building a motion tracking workbench lamp. This is a great idea, as if you are moving around on the bench, and you need light focusing on where you are working, you could have the device adjust the focus for you.

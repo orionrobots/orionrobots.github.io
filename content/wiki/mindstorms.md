@@ -8,6 +8,7 @@ tags:
   - lego rcx
   - lego mindstorms
   - lego nxt
+  - making robots
 
 date: 2009-04-24T23:55:12.000Z
 ---

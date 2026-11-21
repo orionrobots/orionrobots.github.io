@@ -12,6 +12,7 @@ tags:
   - distance sensor
   - i2c bus
   - robotics at home
+  - making robots
 category: robotics-at-home
 thumbnail: /galleries/vl53l0x-distance-sensors-on-pico.jpeg
 ---

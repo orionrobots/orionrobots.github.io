@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Lego SpyBotics
-tags: [robotics, robots, robot building]
+tags: [robotics, robots, robot building, making robots]
 date: 2011-03-12 17:41:48
 ---
 These were designed for children to learn about STEM and robotics with [Lego](/wiki/lego.html "The best known construction toy"), in the disguise of secret agent games.

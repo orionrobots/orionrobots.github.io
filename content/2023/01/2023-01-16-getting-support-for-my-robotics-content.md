@@ -9,6 +9,7 @@ tags:
   - robot building
   - writing
   - contact
+  - making robots
 category: robot-building
 ---
 I've written books, articles, blog posts and made youtube videos. I've decided to make a place where my community can contact me to get support, talk about these robot materials, ask me questions, give me feedback, or feed into other books and content.

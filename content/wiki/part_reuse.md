@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Part Reuse
-tags: [robot building, robotics, electronics, programming]
+tags: [robot building, robotics, electronics, programming, making robots]
 date: 2005-09-15 17:51:39
 ---
 When constructing a robot always bear in mind that with few exceptions you will probably want to maintain or reuse parts in the robot. So try to think of lightweight construction materials, which while sturdy and well joined, can also be easily disassembled and possibly reused.

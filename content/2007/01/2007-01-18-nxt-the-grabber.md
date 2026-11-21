@@ -1,6 +1,6 @@
 ---
 date: 2007-01-18 15:06:34
-tags: [lego nxt, programming, robot building, lego mindstorms, lego robotics]
+tags: [lego nxt, programming, robot building, lego mindstorms, lego robotics, making robots]
 title: Lego mindstorms NXT - Extending Tribot with a grabber
 ---
 ## Basic Grabber

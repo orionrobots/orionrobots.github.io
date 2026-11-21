@@ -1,7 +1,7 @@
 ---
 title: PiWars 2018 SkittleBot robot - getting the kids involved
 date: 2018-04-01
-tags: [robot building, piwars, opencv, electronics, power, raspberry pi robotics project, ps3 controller robotics, python robotics]
+tags: [robot building, piwars, opencv, electronics, power, raspberry pi robotics project, ps3 controller robotics, python robotics, making robots]
 ---
 Today I got the kids involved making - and we had some fun getting the motor cables the right way. However, the stall outs, or lock ups troubled me.
 

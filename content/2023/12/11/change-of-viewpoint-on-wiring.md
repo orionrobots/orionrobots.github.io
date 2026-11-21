@@ -2,7 +2,7 @@
 title: A change of my viewpoint on wiring
 date: 2023-12-11
 description: Going from soldered/crimped connections to WAGO connectors
-tags: [robot building, electronics, robotics at home]
+tags: [robot building, electronics, robotics at home, making robots]
 thumbnail: /content/2023/12/11/wago-with-pigtails.jpeg
 ---
 This weekend, while doing some research for an upcoming book project, and other robots, I had an interesting challenge.

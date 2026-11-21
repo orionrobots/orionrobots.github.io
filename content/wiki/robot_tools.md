@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Robot Tools
-tags: [robotics, electronics, tools, robot building]
+tags: [robotics, electronics, tools, robot building, making robots]
 date: 2007-02-04 01:23:38
 ---
 ## Respect

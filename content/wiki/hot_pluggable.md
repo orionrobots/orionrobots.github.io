@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Hot Pluggable
-tags: [electronics, computing, robot building]
+tags: [electronics, computing, robot building, making robots]
 date: 2004-11-16 14:17:34
 ---
 Hot Plugging describes the ability to connect, or disconnect hardware while the host computer or device is active.

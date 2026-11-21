@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Robot Building Safety
-tags: [robot building, tools]
+tags: [robot building, tools, making robots]
 date: 2007-12-30 23:01:42
 ---
 ## Contents

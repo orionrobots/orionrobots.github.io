@@ -2,7 +2,7 @@
 layout: post
 title: Damaged Screw Head
 date: 2005-08-20 12:44:46
-tags: [tips, robot building, salvaging]
+tags: [tips, robot building, salvaging, making robots]
 ---
 If you come across a very damaged screw-head - or a very stubborn screw, first start with the WD40, putting a spray of it around the screw and under the head. Make sure to let it work for a few minutes, then wipe away as much as you can - so your tool can get good purchase.
 

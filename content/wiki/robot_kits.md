@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Robot Kits
-tags: [robot building, robots]
+tags: [robot building, robots, making robots]
 date: 2013-05-02 14:04:54
 ---
 If you are starting out in robotics, or you have been building robots and want to get past the basics quickly, robot kits are an excellent way to start, and to keep going. Taking a kit, building it, understanding it and then modifying it is the best way to give any robot project a head start.

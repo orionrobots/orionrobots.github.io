@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Electronic Relay
-tags: [electronics, robot building]
+tags: [electronics, robot building, making robots]
 date: 2007-01-28 16:33:27
 ---
 A Relay is an Electromagnetically Controlled Switch with moving mechanical contacts. It consists of a coil around a metal core acting as an electromagnet, which when engaged, pulls a switch bar over (much like a [Solenoid](/wiki/solenoid.html "Solenoid") ).

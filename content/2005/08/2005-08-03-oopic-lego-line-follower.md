@@ -2,7 +2,7 @@
 title: Idea for an ooPIC based line follower robot
 date: 2005-08-03
 description: Idea for an ooPIC based line follower robot
-tags: [robot building, oopic, line following, lego mindstorms, lego technic]
+tags: [robot building, oopic, line following, lego mindstorms, lego technic, making robots]
 ---
 I had an idea for building an ooPIC based line follower. I'd not had time to build it, but here are the concepts.
 

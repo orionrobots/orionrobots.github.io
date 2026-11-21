@@ -8,6 +8,7 @@ tags:
 - robot kit
 - rov
 - underwater
+- making robots
 title: Engadget Underwater ROV Kit
 ---
 Engadget have been playing with an underwater ROV kit created by Carl Hayden High School for use in the National Underwater Robotics Challenge.

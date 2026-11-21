@@ -9,6 +9,7 @@ tags:
   - robotics at home
   - hobby robotics
   - electronics
+  - making robots
 ---
 A common question from readers of [Robotics at Home with Raspberry Pi Pico](https://packt.link/5swS2) is why I recommend stores like Pimoroni, Adafruit and The Pi Hut over the generic items on Alibaba and AliExpress.
 
