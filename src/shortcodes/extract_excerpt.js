@@ -1,5 +1,5 @@
 // Excerpt code from https://github.com/11ty/eleventy/issues/179#issuecomment-413119342 (modified)
-const excerptMinimumLength = 140;
+const excerptMinimumLength = 140
 const excerptSeparator = '\n'
 
 /**
@@ -11,18 +11,18 @@ const excerptSeparator = '\n'
  * tag. This is used when calling this method recursively.
  * @returns {Number} the end position of the excerpt
  */
-function findExcerptEnd(content, skipLength = 0) {
-    if (content === '') {
-        return 0;
-    }
+function findExcerptEnd (content, skipLength = 0) {
+  if (content === '') {
+    return 0
+  }
 
-    const paragraphEnd = content.indexOf('</p>', skipLength) + 4;
+  const paragraphEnd = content.indexOf('</p>', skipLength) + 4
 
-    if (paragraphEnd < excerptMinimumLength) {
-        return paragraphEnd + findExcerptEnd(content.substring(paragraphEnd), paragraphEnd);
-    }
+  if (paragraphEnd < excerptMinimumLength) {
+    return paragraphEnd + findExcerptEnd(content.substring(paragraphEnd), paragraphEnd)
+  }
 
-    return paragraphEnd;
+  return paragraphEnd
 }
 
 /**
@@ -31,27 +31,26 @@ function findExcerptEnd(content, skipLength = 0) {
  * @param {*} doc A real big object full of all sorts of information about a document.
  * @returns {String} the excerpt.
  */
-function extractExcerpt(doc) {
-    /* Ensure doc is an object type for sensible exceptions */
-    if (typeof doc !== 'object') {
-        throw new Error('Failed to extract excerpt: Document is not an object.');
-    }
-    if (!'templateContent' in doc) {
-        console.warn('Failed to extract excerpt: Document has no property `templateContent`.');
-        return;
-    }
-    const content = doc.templateContent;
+function extractExcerpt (doc) {
+  /* Ensure doc is an object type for sensible exceptions */
+  if (typeof doc !== 'object') {
+    throw new Error('Failed to extract excerpt: Document is not an object.')
+  }
+  if (!('templateContent' in doc)) {
+    console.warn('Failed to extract excerpt: Document has no property `templateContent`.')
+    return
+  }
+  const content = doc.templateContent
 
-    if (content.includes(excerptSeparator)) {
-        return content.substring(0, content.indexOf(excerptSeparator)).trim();
-    }
-    else if (content.length <= excerptMinimumLength) {
-        return content.trim();
-    }
+  if (content.includes(excerptSeparator)) {
+    return content.substring(0, content.indexOf(excerptSeparator)).trim()
+  } else if (content.length <= excerptMinimumLength) {
+    return content.trim()
+  }
 
-    const excerptEnd = findExcerptEnd(content);
+  const excerptEnd = findExcerptEnd(content)
 
-    return content.substring(0, excerptEnd).trim();
+  return content.substring(0, excerptEnd).trim()
 }
 
-module.exports = extractExcerpt;
+module.exports = extractExcerpt
