@@ -114,9 +114,18 @@ smoke test (~30-45 s) and lint run in parallel and are off the critical path.
 | #559 (staging site mounted) | 1m40s | - | 3m42s |
 | #567, first run (both images a miss: rebuilt cold) | ~2m | - | 4m02s (`ci_images` 160 s) |
 | **#567, second run (both images exist)** | ~2m16s | - | **3m48s** (`ci_images` 21 s) |
+| #598 (throwaway; test image miss, `cucumber.js` only, after #569 fix) | - | - | `ci_images` 49 s (was ~125 s cold) |
 
 Staging/gallery job totals: 152/144 s originally, 123-152 s after #558, 92/86 s
 after #559, 63/68 s after #567.
+
+## Test image miss cost (#569)
+
+A miss used to rebuild cold (~125 s: apt 10 s, `npm ci` 11 s, Playwright 21 s,
+export 29 s) even though the `:cache` manifest imported. `--cache-to` now sets
+`image-manifest=true,oci-mediatypes=true` (#597). Measured on a `cucumber.js`-only
+miss (#598): base, apt and Playwright steps `CACHED`, `ci_images` 49 s. A
+`package-lock.json` change still reruns `npm ci` and later layers (not measured).
 
 ## Not done / ideas
 
@@ -124,12 +133,7 @@ Open tickets from this work: #548 (harden the tag-link smoke check), #549
 (verify tag URLs on the live site), #550 (cold cases and cache churn), #554,
 #555, #556 (staging vs IONOS: modules/version, https redirect, `AllowOverride`),
 #568 (evict old prebuilt images from ghcr.io; safe because of the fallback) and
-#569 (fix applied, to re-measure: the registry cache did not hit on a cold
-test-image build). A test-image miss cost ~125 s cold (apt 10 s, `npm ci` 11 s,
-Playwright 21 s, export 29 s) vs ~7 s with a working cache. Every
-`package-lock.json` change (e.g. a Dependabot bump) is a miss. `--cache-to` now
-sets `image-manifest=true,oci-mediatypes=true`; check the next miss's log shows
-`CACHED` for the apt/Playwright steps and update this note with the timing.
+#569 (fixed; see "Test image miss cost").
 
 - What remains on the critical path is mostly fixed overhead: `build_site`
   (~1m30-2m15), then checkout + artifact + image pulls (~40 s) and the tests.
