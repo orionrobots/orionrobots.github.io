@@ -31,9 +31,12 @@ ensure_builder() {
 build_and_push() {
   local image=$1 tag=$2 target=$3
   ensure_builder
+  # Explicit OCI cache manifest (image-manifest + oci-mediatypes): the registry
+  # cache must be written and read in the same format or imports silently miss
+  # (#569). mode=max also exports intermediate stages (npm ci, apt, Playwright).
   docker buildx build --target "${target}" \
     --cache-from "type=registry,ref=${image}:cache" \
-    --cache-to "type=registry,ref=${image}:cache,mode=max" \
+    --cache-to "type=registry,ref=${image}:cache,mode=max,image-manifest=true,oci-mediatypes=true" \
     --tag "${image}:${tag}" --push .
 }
 
