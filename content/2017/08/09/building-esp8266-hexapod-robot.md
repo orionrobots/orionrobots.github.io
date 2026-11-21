@@ -1,6 +1,6 @@
 ---
 title: Building an esp8266 based hexapod robot - SpiderBot Part 1
-tags: [robotics at home, esp8266, robot building, hexapod, micropython, pca9685, servo motor]
+tags: [robotics at home, esp8266, robot building, hexapod, micropython, pca9685, servo motor, making robots]
 date: 2017-08-09
 thumbnail: content/2017/08/09/the-spiderbot-hexapod.png
 ---

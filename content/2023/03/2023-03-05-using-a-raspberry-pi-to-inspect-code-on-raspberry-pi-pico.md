@@ -9,6 +9,7 @@ tags:
   - raspberry pi
   - raspberry pi pico
   - spi bus
+  - making robots
 thumbnail: /galleries/screenshot-2023-03-05-at-11.03.10.png
 ---
 ## Background

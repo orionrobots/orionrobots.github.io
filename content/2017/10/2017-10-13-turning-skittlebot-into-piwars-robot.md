@@ -1,7 +1,7 @@
 ---
 title: Turning Skittlebot into a PiWars Robot
 date: 2017-10-13
-tags: [robot building, piwars, opencv, electronics, power, raspberry pi robotics project, raspberry pi opencv project, gpiozero robotics project, piwars, robotics competitions]
+tags: [robot building, piwars, opencv, electronics, power, raspberry pi robotics project, raspberry pi opencv project, gpiozero robotics project, piwars, robotics competitions, making robots]
 ---
 Skittlebot based on the Initio chassis may actually be a little slow to be a piwars bot, but it's certainly a great platform to get the basics down.
 

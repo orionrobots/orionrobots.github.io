@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Diode
-tags: [electronics, robot building]
+tags: [electronics, robot building, making robots]
 date: 2005-12-02 21:33:44
 ---
 A diode is an electronic component that allows current to only flow in only one direction.

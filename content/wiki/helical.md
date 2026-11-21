@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Helical
-tags: [robot building]
+tags: [robot building, making robots]
 date: 2005-05-29 00:00:37
 ---
 A helix is a three dimensional spiral shape. Helical is the description given to something with this shape.

@@ -1,6 +1,6 @@
 ---
 title: How to Record audio with i2s on Raspberry Pi Pico
-tags: [raspberry pi pico, i2s, audio, micropython, robotics at home, mpremote, sd card, wav, recording, robot building]
+tags: [raspberry pi pico, i2s, audio, micropython, robotics at home, mpremote, sd card, wav, recording, robot building, making robots]
 description: Recording audio from an i2s microphone to SD card with Raspberry Pi Pico and MicroPython
 thumbnail: content/2026/03/28/i2s-recording-wiring.png
 date: 2026-03-28

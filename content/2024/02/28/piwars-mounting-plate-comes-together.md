@@ -2,7 +2,7 @@
 title: The Pi Wars robot attachment plate comes together
 description: Satisfying moment seeing it all work together
 date: 2024-02-28
-tags: [robot building, robotics at home, raspberry pi, piwars, piwars 2024, freecad, 3d printing]
+tags: [robot building, robotics at home, raspberry pi, piwars, piwars 2024, freecad, 3d printing, making robots]
 thumbnail: content/2024/02/28/7-nerf-turret-on-plate.jpeg
 ---
 The attachment mounting plate for the robot we've been building in my home lab is coming together today.

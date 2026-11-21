@@ -1,7 +1,7 @@
 ---
 date: 2006-05-10 16:45:53
 description: LEGO Factory
-tags: [lego technic, robot building]
+tags: [lego technic, robot building, making robots]
 title: LEGO Factory
 layout: post
 ---

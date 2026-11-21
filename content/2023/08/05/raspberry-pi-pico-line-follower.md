@@ -1,6 +1,6 @@
 ---
 title: How to add line following to a robot with Raspberry Pi Pico and Python
-tags: [robotics at home, raspberry pi pico, rp2040, micropython, circuitpython, line following, robotics algorithms, pid control, robot building, coder dojo robots]
+tags: [robotics at home, raspberry pi pico, rp2040, micropython, circuitpython, line following, robotics algorithms, pid control, robot building, coder dojo robots, making robots]
 thumbnail: /content/2023/08/05/line-follower-thumbnail.png
 description: How to add line following to a robot with Raspberry Pi Pico and Python
 date: 2023-08-05

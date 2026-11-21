@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Retrieving Dropped Screws
-tags: [tools, robot building]
+tags: [tools, robot building, making robots]
 date: 2005-08-22 10:31:04
 ---
 There can be nothing more confounding than having to put a screw or bolt in a hard to reach hole, except when you try to do so, and the screw drops deep into the gubbins of the machine. You can see it (if you are lucky), but you don't have the reach, or the gaps is far to tight for you to grab it. what can you do?

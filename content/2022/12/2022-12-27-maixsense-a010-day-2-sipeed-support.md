@@ -9,6 +9,7 @@ tags:
   - learn robotics at home
   - time of flight
   - distance sensor
+  - making robots
 category: robot-building
 thumbnail: /galleries/focus_stacked_a010_and_robot-med.jpg
 ---

@@ -9,6 +9,7 @@ tags:
   - technology
   - gadgets
   - robotics events
+  - making robots
 title: Chloe and Shannon
 layout: post
 todo_needs_sat: 'convert image refs, and gallery'

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Lego Vision Command
-tags: [robot building]
+tags: [robot building, making robots]
 date: 2004-11-15 15:04:41
 ---
 Vision Command was an extension to the [Lego](/wiki/lego.html "The best known construction toy") [MindStorms](/wiki/mindstorms.html "A Robotic construction toy system from Lego") range of robotic education kits.

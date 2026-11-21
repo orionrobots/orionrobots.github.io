@@ -13,6 +13,7 @@ tags:
 - adafruit
 - circuitpython
 - electronics
+- making robots
 title: Adafruit Airlift ESP32 NINA Firmware
 ---
 The NINA firmware allows an ESp32 to act as a Wireless bridge/network interface for any SPI connected microcontroller, for example a Raspberry Pi Pico, or an Arduino.

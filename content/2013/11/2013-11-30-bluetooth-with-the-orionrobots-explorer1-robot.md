@@ -10,6 +10,7 @@ tags:
 - robot kit
 - robot toy
 - robotics
+- making robots
 title: Bluetooth with the Orionrobots Orion Explorer 1 Robot
 ---
 How do you combine an Arduino robot with a Bluetooth module? We've built a kit based on this, and played with it in the Orionrobots lab.

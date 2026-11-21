@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Robot Locomotion
-tags: [robotics, robot building]
+tags: [robotics, robot building, making robots]
 date: 2007-04-14 19:32:19
 ---
 Locomotion is an important aspect of any mobile robot. It is the robots ability to move.

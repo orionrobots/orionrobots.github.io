@@ -3,7 +3,7 @@ title: Comparing anker power packs
 date: 2025-07-08
 thumbnail: /content/2025/07/08-comparing-anker-power-packs/all-the-packs.jpg
 description: Trying different power packs for a Raspberry Pi 4 based robot
-tags: [robotics at home, robotics projects, raspberry pi, robot building]
+tags: [robotics at home, robotics projects, raspberry pi, robot building, making robots]
 ---
 While writing my book, the 2power USB Power bank I recommended stopped selling, everywhere. It was able to happily power a Raspberry Pi 4 robot, and fit nicely. However it wasn't perfect in that it would power the robot down while charging.
 

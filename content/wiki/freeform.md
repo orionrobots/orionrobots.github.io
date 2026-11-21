@@ -1,7 +1,7 @@
 ---
 layout: page
 title: FreeForm
-tags: [electronics, robot building]
+tags: [electronics, robot building, making robots]
 date: 2005-01-25 23:06:49
 ---
 Freeforming is a technique used to build circuits without using [PCBs](/wiki/pcb.html "Printed Circuit Board"). [Mark Tilden](/wiki/mark_tilden.html "Mark Tilden") has used this technique, and it is used extensively in [BEAM Robots](/wiki/beam_robots.html "Biology, Electronics, Aesthetics and Mechanics").

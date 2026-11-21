@@ -12,6 +12,7 @@ tags:
 - cad
 - python
 - programming
+- making robots
 thumbnail: /galleries/2021/07-24-freecad-assembly-link-issue/freecad-assembly4-broken-link.png
 title: Freecad Assembly4 File Link
 ---

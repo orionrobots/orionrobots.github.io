@@ -1,7 +1,7 @@
 ---
 layout: page
 title: breadboard
-tags: [robot building at home, learn robotics at home, electronics]
+tags: [robot building at home, learn robotics at home, electronics, making robots]
 date: 2013-05-02 20:38:56
 ---
 A solderless breadboard is a great way to throw together prototypes rapidly.

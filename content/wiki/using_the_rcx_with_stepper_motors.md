@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Using The RCX With Stepper Motors
-tags: [electronics, robot building]
+tags: [electronics, robot building, making robots]
 date: 2005-10-03 15:44:31
 ---
 ## Introduction

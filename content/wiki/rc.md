@@ -1,7 +1,7 @@
 ---
 layout: page
 title: RC - Remote Control
-tags: [robotics, electronics, robots, robot building]
+tags: [robotics, electronics, robots, robot building, making robots]
 date: 2005-05-28 16:58:39
 ---
 There are a number of ways to achieve this. First there is radio - aka [wireless](/wiki/wireless.html "Wireless") - which are what most people associate with this. Next there is [Infra Red](/wiki/infra_red.html "A type of EM radiation commonly used for digital communications") which every couch potato relies on! You can also refer to long 1 and 2 wire protocols as being remote control.

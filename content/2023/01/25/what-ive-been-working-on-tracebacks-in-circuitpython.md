@@ -9,6 +9,7 @@ tags:
   - error handling
   - robotics at home
   - robot building
+  - making robots
 thumbnail: content/2023/01/25/python-exception-example.png
 ---
 What have I currently been working on? As part of my work on [Robotics at Home with Raspberry Pi Pico](https://packt.link/5swS2) I discovered a problem in CircuitPython with the traceback module, although it was perhaps more of a misunderstanding on my part.

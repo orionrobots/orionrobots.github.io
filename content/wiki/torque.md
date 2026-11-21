@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Torque
-tags: [robot building, robots]
+tags: [robot building, robots, making robots]
 date: 2004-11-14 21:58:46
 ---
 When you are rating motors or mechanical systems, you have two ratings to think about.

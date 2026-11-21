@@ -9,6 +9,7 @@ tags:
   - robotics books
   - build a robot at home
   - robot building
+  - making robots
 category: robot-books
 thumbnail: /galleries/learn-robotics-programming-books-with-robot.jpeg
 ---

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: SMT - Surface Mount Technology
-tags: [electronics, robot building]
+tags: [electronics, robot building, making robots]
 date: 2007-01-28 12:28:06
 ---
 <div style=" float: right;"><img class="img-fluid" src="/galleries/gallery-1-common-images/126-rcxflipflops.JPG">

@@ -6,6 +6,7 @@ tags:
 - robot building
 - robot building tips
 - learn robotics at home
+- making robots
 title: Machine bolts supplied with parts
 using_mathjax: false
 ---

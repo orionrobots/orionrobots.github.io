@@ -1,6 +1,6 @@
 ---
 title: Are my robot recommendations expensive?
-tags: [books, writing, robot building, robotics at home, learn robotics programming]
+tags: [books, writing, robot building, robotics at home, learn robotics programming, making robots]
 date: 2023-10-02
 thumbnail: content/2023/10/02/fig-icm20948-fitted.jpg
 ---

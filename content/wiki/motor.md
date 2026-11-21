@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Motor
-tags: [robot building, electronics]
+tags: [robot building, electronics, making robots]
 date: 2004-11-14 22:32:54
 ---
 An electric device which rotates(or in some way moves) when current is applied. This has clear applications in robotics, for wheels, limbs like arms and legs, pan and tilt systems, heads and other end effectors.

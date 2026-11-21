@@ -1,6 +1,6 @@
 ---
 title: A retrospective on PiWars 2024 - Disaster Zone
-tags: [piwars 2024, raspberry pi, robotics, robotics at home, robot building]
+tags: [piwars 2024, raspberry pi, robotics, robotics at home, robot building, making robots]
 date: 2024-05-02
 thumbnail: content/2024/05/02-piwars-retrospective/big-ole-yellow-eco-disaster.png
 ---

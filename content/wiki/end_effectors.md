@@ -1,7 +1,7 @@
 ---
 layout: page
 title: End Effectors
-tags: [robots, robot building]
+tags: [robots, robot building, making robots]
 date: 2005-10-06 14:53:35
 ---
 An End Effector is the part of a robot intended as a tool or attachment.

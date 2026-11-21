@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Pneumatic
-tags: [pneumatic, robot building]
+tags: [pneumatic, robot building, making robots]
 date: 2006-07-09 23:11:11
 ---
 In some situations it is a much easier or better system than electronic motors or solenoids. A good example is when used in a situation with flammable substances or requiring very large forces.

@@ -1,7 +1,7 @@
 ---
 title: Pi Wars 2018 Robot - Visual processing interface design
 date: 2018-04-05
-tags: [robot building, piwars, opencv, electronics, power, raspberry pi robotics project, raspberry pi opencv project]
+tags: [robot building, piwars, opencv, electronics, power, raspberry pi robotics project, raspberry pi opencv project, making robots]
 ---
 Now that the controller is working, we need to have a rough plan on how we want the buttons to control the robots behaviour.
 

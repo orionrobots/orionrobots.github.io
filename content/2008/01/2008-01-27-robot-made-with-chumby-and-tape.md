@@ -6,6 +6,7 @@ tags:
 - robotics events
 - robot building
 - robot news
+- making robots
 title: Awesome Robot Hacked Together With Chumby and Gaffa Tape
 ---
 

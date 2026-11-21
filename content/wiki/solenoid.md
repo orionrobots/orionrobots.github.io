@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Solenoid
-tags: [robot building, electronics]
+tags: [robot building, electronics, making robots]
 date: 2004-12-01 20:40:55
 ---
 A solenoid is an ElectroMagnet with a moving core. When the magnet is energised, the movement of the coil is used for work.

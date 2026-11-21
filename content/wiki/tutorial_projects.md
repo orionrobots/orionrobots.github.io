@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Tutorial Projects
-tags: [robot building, robots]
+tags: [robot building, robots, making robots]
 date: 2013-05-02 14:16:27
 ---
 A good way to learn new skills in robot building and related subject is to use a tutorial, following it (or skipping it) until you have what you need to continue a project then modding away and making up your own.

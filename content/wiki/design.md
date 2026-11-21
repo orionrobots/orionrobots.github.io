@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Robot Design
-tags: [robot building, cad, 3d printing]
+tags: [robot building, cad, 3d printing, making robots]
 date: 2005-10-06 14:46:19
 ---
 When you are going to build a robot, regardless of how small or large, simple or complex you think it might be, you always start with a seed of an idea. How you grow this seed before you build will be your design.

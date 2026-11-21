@@ -1,6 +1,6 @@
 ---
 date: 2007-01-23 15:42:27
-tags: [robots, lego robotics, robot building, lego nxt, lego mindstorms, sensor]
+tags: [robots, lego robotics, robot building, lego nxt, lego mindstorms, sensor, making robots]
 title: Lego Mindstorms NXT - The Ultrasonic Sensor Tutorial
 ---
 I am now well underway with my work on the NXT. I have built and programmed the grabber bot, and have it driving to and picking up a ball on command via hand claps.

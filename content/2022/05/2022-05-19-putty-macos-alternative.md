@@ -9,6 +9,7 @@ tags:
 - learn robotics programming
 - headless
 - learn robotics at home
+- making robots
 title: Learn Robotics Programming Second Edition errata - PuTTY
 ---
 My robotics/Raspberry Pi books Learn Robotics Programming, and [Learn Robotics Programming - Second Edition](https://packt.link/NMtxp) takes the approach that using a network to connect to a robot makes it easier to program, configure or update it, also freeing the robot from being tethered to a screen, keyboard and mouse.

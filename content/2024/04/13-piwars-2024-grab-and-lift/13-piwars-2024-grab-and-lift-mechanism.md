@@ -1,7 +1,7 @@
 ---
 title: How we designed and built the grab and lift mechanism for the PiWars 2024 robot
 date: 2024-04-13
-tags: [piwars 2024, robot building, raspberry pi pico, pimoroni yukon, micropython, 3d printing, freeCAD]
+tags: [piwars 2024, robot building, raspberry pi pico, pimoroni yukon, micropython, 3d printing, freeCAD, making robots]
 description: A look at the design and build process for the grab and lift mechanism for the PiWars 2024 robot
 thumbnail: content/2024/04/13-piwars-2024-grab-and-lift/grab-and-lift-forks-on-robot.jpeg
 ---

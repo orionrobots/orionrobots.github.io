@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Modular Robot Design
-tags: [robot building]
+tags: [robot building, making robots]
 date: 2005-10-11 23:39:35
 ---
 There are many advantages to be had by using modular design and building techniques with robots.

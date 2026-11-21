@@ -16,6 +16,7 @@ tags:
 - lego technic
 - robot building
 - robotics at home
+- making robots
 title: Piwars 2020 Robot design - The Roof Rack
 ---
 ## The State of The Piwars 2020 Robot

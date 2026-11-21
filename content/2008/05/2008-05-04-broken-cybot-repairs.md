@@ -7,6 +7,7 @@ tags:
 - robot
 - robot building
 - robot kit
+- making robots
 title: Broken Cybot Repairs
 ---
 Some time ago, my wife and mother conspired to accidentally damage my [Cybot](/wiki/cybot.html). First my mother managed to damage the tabs on the front panels holding the [IR](/wiki/infra_red.html) dome, and then may wife managed to snap the Castor.

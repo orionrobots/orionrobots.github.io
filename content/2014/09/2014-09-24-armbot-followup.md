@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Armbot Follow Up
-tags: [armbot, pycon, raspberry pi, robot arm, robot building]
+tags: [armbot, pycon, raspberry pi, robot arm, robot building, making robots]
 todo: github code link, youtube link.
 date: 2014-09-24 12:00:00
 ---

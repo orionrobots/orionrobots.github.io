@@ -1,7 +1,7 @@
 ---
 title: How To Make Robot Building Reference Cards using Pinout.xyz
 date: 2023-08-15
-tags: [robot building, robotics at home, electronics, raspberry pi pico, coder dojo, coder dojo robots]
+tags: [robot building, robotics at home, electronics, raspberry pi pico, coder dojo, coder dojo robots, making robots]
 description: Make a part pinout reference card for your robot project
 thumbnail: content/2023/08/15/Raspberry-Pi-Pico-W-Pinout-for-Coder-dojo-robot.png
 ---

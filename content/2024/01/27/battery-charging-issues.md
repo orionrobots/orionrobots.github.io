@@ -1,6 +1,6 @@
 ---
 title: Piwars Robot battery charging issues
-tags: [robot building, piwars 2024, battery charging]
+tags: [robot building, piwars 2024, battery charging, making robots]
 description: The trouble I'm having with the batteries for my PiWars robot
 date: 2024-01-27
 thumbnail: content/2024/01/27/battery-charging-issues.JPG

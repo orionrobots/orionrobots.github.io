@@ -1,7 +1,7 @@
 ---
 layout: page
 title: PWM - Pulse Width Modulation
-tags: [electronics, robot building]
+tags: [electronics, robot building, making robots]
 date: 2005-08-25 21:50:17
 ---
 Pulse Width Modulation is a method of controlling powered devices like motors by using pulses of power. By varying the ratio of length of On pulses to Off Pulses, a more efficient method of controlling motors can be achieved. The other big benefit of this is that it is often easier for a digital machine to switch things on and off than control a continuously varying (analogue) signal. If simply flipping one [bit](/wiki/bit.html "Binary Digit") over a time base is used, control becomes fairly easy electronically, and more advanced circuits like a H-Bridge could be used.

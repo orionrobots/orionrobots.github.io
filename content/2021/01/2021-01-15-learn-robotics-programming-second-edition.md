@@ -19,6 +19,7 @@ tags:
 - python
 - robot building
 - learn robotics at home
+- making robots
 title: Learn Robotics Programming second edition
 ---
 Hello, I've some great news.

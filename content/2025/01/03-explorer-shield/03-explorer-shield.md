@@ -1,5 +1,5 @@
 ---
-tags: [robot electronics, arduino, robot building, orion explorer one]
+tags: [robot electronics, arduino, robot building, orion explorer one, making robots]
 title: 2014 Attempt To Design A Custom Arduino Shield
 description: Examining and publishing old designs
 date: 2025-01-03

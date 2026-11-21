@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Rack And Pinion
-tags: [robot building]
+tags: [robot building, making robots]
 date: 2008-01-04 21:16:51
 ---
 Rack and Pinion steering is the system commonly used in most street vehicles.

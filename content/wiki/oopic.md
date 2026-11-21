@@ -1,7 +1,7 @@
 ---
 layout: page
 title: OOPic
-tags: [robots, robotics, robot building, electronics, microcontrollers]
+tags: [robots, robotics, robot building, electronics, microcontrollers, making robots]
 date: 2006-01-04 23:51:15
 ---
 OOPic is a mid-2000's brand of [PIC](/wiki/pic.html "PIC") or [Microcontroller](/wiki/microcontroller.html "A programmable digital controller") from Savage Innovations. It is basically a PIC, with some specific firmware and a high level programming system.

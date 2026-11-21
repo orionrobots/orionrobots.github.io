@@ -1,6 +1,6 @@
 ---
 title: Coder Dojo Robot Wall Avoiding
-tags: [robot building, robotics at home, robot programming, micropython, coder dojo robots]
+tags: [robot building, robotics at home, robot programming, micropython, coder dojo robots, making robots]
 date: 2023-11-12
 author: Danny Staple
 thumbnail: content/2023/10/14/rcwl-1601-distance-sensors.png

@@ -10,6 +10,7 @@ tags:
 - arduino
 - servo motor
 - robot building
+- making robots
 title: Building a 4tronix UnoTron Robot
 ---
 

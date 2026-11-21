@@ -9,6 +9,7 @@ tags:
 - robot power
 - battery storage
 - learn robotics at home
+- making robots
 title: Battery Storage - simple divider
 using_mathjax: false
 ---

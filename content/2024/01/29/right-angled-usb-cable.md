@@ -1,6 +1,6 @@
 ---
 title: Piwars 2024 progress - a right angled USB cable
-tags: [piwars 2024, robot building, electronics]
+tags: [piwars 2024, robot building, electronics, making robots]
 date: 2024-01-29 00:00:00
 description: USB cable change for the Piwars 2024 robot
 thumbnail:  content/2024/01/29/piwars-robot-usb-connection-after.JPG

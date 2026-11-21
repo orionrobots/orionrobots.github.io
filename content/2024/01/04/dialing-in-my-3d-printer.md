@@ -2,7 +2,7 @@
 title: Dialling in my 3D printer for better prints
 description: I've been working on getting my 3D printer to print better, and have been making some progress
 date: 2024-01-04
-tags: [3d printing, robot building, piwars 2024]
+tags: [3d printing, robot building, piwars 2024, making robots]
 thumbnail: content/2024/01/04/all-the-3dprinting-tests.JPG
 ---
 For my PiWars 2024 robot, and other robotics projects, I'll occasionally need the 3D printer. I don't use it for book robots as I'm aware that readers may not have access to a 3D printer, but for the PiWars robots, I like to get into more complicated stuff and use whatever I have at my disposal. With the largest limitation being time.

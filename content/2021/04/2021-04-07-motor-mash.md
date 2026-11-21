@@ -15,6 +15,7 @@ tags:
 - robot
 - electronics
 - learn robotics at home
+- making robots
 title: Motor Mash - N20 to TT Motor Adaptor - Learn Robotics Programming Help
 ---
 The Learn Robotics Programming books use a laser cut motor kit, and these usually come with the cheap yellow plastic motors, aka TT Motors. These motors are ubiquitous, but are not really the best of gear motors.  The kits that include these can be found around the world. There kits also used to come with wires soldered on the motors, but in recent years, probably for cost reasons, manufacturers are just selling the kits with the wires not soldered, or without them at all.

@@ -1,7 +1,7 @@
 ---
 title: Pi Wars 2024 Robot Updates
 date: 2024-04-17
-tags: [piwars 2024, robot building, raspberry pi pico, pimoroni yukon, micropython]
+tags: [piwars 2024, robot building, raspberry pi pico, pimoroni yukon, micropython, making robots]
 description: A checkpoint on what we've achieved this week
 ---
 This week has seen some major progress on the robot. Let's get into it...

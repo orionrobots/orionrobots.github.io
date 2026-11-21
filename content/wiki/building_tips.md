@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Robot Building Tips
-tags: [robot building, robotics at home, building robots at home]
+tags: [robot building, robotics at home, building robots at home, making robots]
 date: 2013-05-02 20:34:32
 ---
 ## Safety

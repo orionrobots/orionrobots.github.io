@@ -1,6 +1,6 @@
 ---
 layout: page
-tags: [lego technic, lego robotics, robotics, robot building, robotics at home]
+tags: [lego technic, lego robotics, robotics, robot building, robotics at home, making robots]
 title: Adder Subtractor Drive
 using_mathjax: true
 date: 2006-05-26

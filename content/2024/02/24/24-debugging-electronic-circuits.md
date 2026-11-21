@@ -1,7 +1,7 @@
 ---
 title: Debugging electronic circuits
 description: How to debug things when electronics misbehave
-tags: [robot electronics, robot building, electronics, raspberry pi, raspberry pi pico]
+tags: [robot electronics, robot building, electronics, raspberry pi, raspberry pi pico, making robots]
 date: 2024-02-24
 thumbnail: content/2024/02/24/probing-voltages.png
 ---

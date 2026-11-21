@@ -9,6 +9,7 @@ layout: post
 tags:
 - robot building
 - robotics at home
+- making robots
 thumbnail: /galleries/2009/12/eeepc-bot/eeebot_24122009_076.jpg
 title: EEE PC Robot build
 ---

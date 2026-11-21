@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Degrees Of Freedom
-tags: [robots, robotics, robot building]
+tags: [robots, robotics, robot building, making robots]
 date: 2007-03-17 20:11:26
 ---
 This term describes, for any robot limb, joint or base, how many directions it can move in, and places at which it can move. It is commonly abbreviated as DOF.

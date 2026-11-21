@@ -1,7 +1,7 @@
 ---
 layout: page
 title: DC Motor
-tags: [electronics, robots, robotics, robot building]
+tags: [electronics, robots, robotics, robot building, making robots]
 date: 2007-01-28 22:03:50
 ---
 This is a basic spinning [motor](/wiki/motor.html "Motor"). It might be referred to as a "Fixed Magnet DC Motor" as there are other motors which run on DC - this is just what is commonly meant when people simply say a motor or DC motor, although they may also be referring to gear motors, where the spindle speed has been reduced by a gear chain.

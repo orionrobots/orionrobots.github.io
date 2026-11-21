@@ -12,6 +12,7 @@ tags:
 - electronics
 - wifi
 - learn robotics at home
+- making robots
 title: Raspberry Pi Pico Wifi and Wireless
 ---
 These last few months, I've been working on things related to an upcoming Raspberry Pi Pico robotics book. The current few weeks have been relating to using an add on Wifi solution.

@@ -1,7 +1,7 @@
 ---
 date: 2005-04-06 16:11:55
 description: Round up of the Challenge on Saturday the 2nd April 2005
-tags: [east finchley robotics club, robot building, robotics, lego]
+tags: [east finchley robotics club, robot building, robotics, lego, making robots]
 title: Round up of the Challenge on Saturday the 2nd April 2005
 layout: post
 gallery_browse: /galleries/2005-04-02-robot-building-challenge-saturday/target

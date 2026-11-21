@@ -1,7 +1,7 @@
 ---
 layout: page
 title: WiFi
-tags: [computing, robot building]
+tags: [computing, robot building, making robots]
 date: 2005-05-28 17:08:35
 ---
 This is a system used for short to medium range radio communications between local computer systems. It is actually an umbrella term, used for a number of ISO standards 802.11a,b and g.

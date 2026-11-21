@@ -1,7 +1,7 @@
 ---
 layout: page
 title: FischerTechnik
-tags: [robot building]
+tags: [robot building, making robots]
 date: 2006-07-09 18:56:17
 ---
 This is a [Construction Toy](/wiki/construction_toy.html "Construction Toy") used mostly in Education and Industry as a tool for modelling and demonstration.

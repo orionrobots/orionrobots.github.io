@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Modding Robots
-tags: [robot building, robots]
+tags: [robot building, robots, making robots]
 date: 2013-05-02 14:17:40
 ---
 Modding is a term abbreviating modification.

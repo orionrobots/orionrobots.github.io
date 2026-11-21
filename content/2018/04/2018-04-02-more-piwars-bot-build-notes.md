@@ -1,7 +1,7 @@
 ---
 title: More work on Piwars 2018 Skittlebot robot - DualShock3 controller working
 date: 2018-04-02
-tags: [robot building, piwars, opencv, electronics, power, raspberry pi robotics project, raspberry pi opencv project, ps3 controller robotics]
+tags: [robot building, piwars, opencv, electronics, power, raspberry pi robotics project, raspberry pi opencv project, ps3 controller robotics, making robots]
 thumbnail: content/2018/04/2018-04-02-evtest-output.png
 ---
 The last few days I've been trying to get my PS3 DualShock controller working with the [Approx Eng Input](https://github.com/ApproxEng/approxeng.input) library for python.

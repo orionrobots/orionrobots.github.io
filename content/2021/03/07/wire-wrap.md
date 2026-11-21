@@ -7,6 +7,7 @@ tags:
 - tools
 - electronics
 - learn robotics at home
+- making robots
 title: How to keep home build project wires tidy with Spiral Wire Wrap
 ---
 When building robots with many sensors and actuators, it's not hard for the wiring to start to get out of hand and resemble a rats nest. This causes a number of problems:

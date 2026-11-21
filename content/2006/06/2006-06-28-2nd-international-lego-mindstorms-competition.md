@@ -9,6 +9,7 @@ tags:
 - lego rcx
 - robot
 - robotics
+- making robots
 title: 2nd International LEGO MINDSTORMS Competition
 ---
 In Billund, Denmark, from the 6th to the 8th of October 2006 there will be a competition, hailing some of the best Lego Mindstorms creations.

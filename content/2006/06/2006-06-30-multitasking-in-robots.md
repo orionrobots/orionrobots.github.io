@@ -2,7 +2,7 @@
 layout: post
 title: Multitasking in Robots
 date: 2006-06-30 07:48:54
-tags: [robotics, robot building, programming, code, microcontrollers, robotics at home]
+tags: [robotics, robot building, programming, code, microcontrollers, robotics at home, making robots]
 ---
 You have a design for your awesome robot, but you know there a couple of separate activities you want it to perform or handle at the same time.
 Your processor is a simple small device, and does not have any kind of threading.

@@ -1,6 +1,6 @@
 ---
 title: Progress update for PiWars 2024
-tags: [piwars, piwars 2024, robot building, robotics, electronics]
+tags: [piwars, piwars 2024, robot building, robotics, electronics, making robots]
 date: 2024-02-18
 description: A progress update for the PiWars 2024 Disaster Zone competition.
 thumbnail: content/2024/02/18/robot-on-the-desk.jpeg

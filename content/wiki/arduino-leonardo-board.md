@@ -4,7 +4,7 @@ layout: page
 date: 2014-07-07
 sku: OR0015
 google_category: Electronics > Circuit Components > Circuit Prototyping
-tags: [arduino, microcontroller, robot electronics, robot building at home, robotics at home, robot kit]
+tags: [arduino, microcontroller, robot electronics, robot building at home, robotics at home, robot kit, making robots]
 gallery:
     parent: /galleries/arduino-leonardo-board-with-headers/
     initial: leonardo-close-up-pins.jpg

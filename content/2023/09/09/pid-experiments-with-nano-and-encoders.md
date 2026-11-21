@@ -1,6 +1,6 @@
 ---
 title: PID experiments with an Arduino Nano and encoders
-tags: [arduino, motor encoder, robotics at home, robot building, pid control]
+tags: [arduino, motor encoder, robotics at home, robot building, pid control, making robots]
 thumbnail: content/2023/09/09/arduino-nano-encoder-experiment-setup.jpg
 date: 2023-09-09
 ---

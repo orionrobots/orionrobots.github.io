@@ -1,7 +1,7 @@
 ---
 date: 2007-01-13 08:37:28
 description: Getting Stuck into the Lego Mindstorms NXT robot building system
-tags: [lego nxt, lego mindstorms, robot building, lego robotics]
+tags: [lego nxt, lego mindstorms, robot building, lego robotics, making robots]
 title: Getting Stuck into the Lego Mindstorms NXT
 ---
 ## Starting Up

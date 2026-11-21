@@ -1,7 +1,7 @@
 ---
 title: Troubleshooting sensor positioning on a mobile robot
 date: 2023-08-29
-tags: [robotics at home, mobile robot, sensor positioning, troubleshooting, robot building, pid control]
+tags: [robotics at home, mobile robot, sensor positioning, troubleshooting, robot building, pid control, making robots]
 thumbnail: content/2023/08/29/rear-sensor-positioning-wall.png
 ---
 When building a robot, it is important to position sensors where they will be useful in the algorithms running on the robot. Getting it wrong can lead to amusing and odd results.

@@ -9,6 +9,7 @@ tags:
   - electronics
   - sensors
   - range finding
+  - making robots
 category: robot building
 ---
 The Sipeed Maixsense A010 is a 100x100 depth camera/sensor - using optical time-of-flight (TOFL) to get a picture that represents a depth field view of a room. This is a pretty exciting idea to me - it's inexpensive (less than £100), solid state - not spinning, and small.

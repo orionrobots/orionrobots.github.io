@@ -8,6 +8,7 @@ tags:
 - education
 - robot news
 - mit
+- making robots
 title: The Pico Cricket - Education Robotics Controller
 ---
 The same minds that created the Lego Mindstorms range, have now come up with an electronic device and kit designed for creative and interactive electronic art. Exactly the kind of project that might appeal to the makers and hardware hackers.
