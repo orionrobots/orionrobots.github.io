@@ -15,6 +15,7 @@ const fs = require('fs')
 const path = require('path')
 const matter = require('gray-matter')
 const yaml = require('js-yaml')
+const { walkDir } = require('./walk-markdown')
 
 // package.json overrides js-yaml to v4, which removed the safeLoad that
 // gray-matter's default engine calls, so supply a v4-compatible engine.
@@ -25,19 +26,6 @@ const CONTENT_DIRS = ['content', '_posts']
 
 const args = process.argv.slice(2)
 const sortFlag = args.includes('--sort') ? args[args.indexOf('--sort') + 1] : 'count'
-
-function walkDir (dir, results = []) {
-  if (!fs.existsSync(dir)) return results
-  for (const entry of fs.readdirSync(dir, { withFileTypes: true })) {
-    const full = path.join(dir, entry.name)
-    if (entry.isDirectory()) {
-      walkDir(full, results)
-    } else if (entry.isFile() && /\.(md|markdown)$/.test(entry.name)) {
-      results.push(full)
-    }
-  }
-  return results
-}
 
 const tagCounts = {}
 
