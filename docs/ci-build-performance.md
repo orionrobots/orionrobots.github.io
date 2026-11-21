@@ -124,8 +124,12 @@ Open tickets from this work: #548 (harden the tag-link smoke check), #549
 (verify tag URLs on the live site), #550 (cold cases and cache churn), #554,
 #555, #556 (staging vs IONOS: modules/version, https redirect, `AllowOverride`),
 #568 (evict old prebuilt images from ghcr.io; safe because of the fallback) and
-#569 (the registry cache did not hit on a cold test-image build, ~2 min; matters
-because every `package-lock.json` change, e.g. a Dependabot bump, is a miss).
+#569 (fix applied, to re-measure: the registry cache did not hit on a cold
+test-image build). A test-image miss cost ~125 s cold (apt 10 s, `npm ci` 11 s,
+Playwright 21 s, export 29 s) vs ~7 s with a working cache. Every
+`package-lock.json` change (e.g. a Dependabot bump) is a miss. `--cache-to` now
+sets `image-manifest=true,oci-mediatypes=true`; check the next miss's log shows
+`CACHED` for the apt/Playwright steps and update this note with the timing.
 
 - What remains on the critical path is mostly fixed overhead: `build_site`
   (~1m30-2m15), then checkout + artifact + image pulls (~40 s) and the tests.
