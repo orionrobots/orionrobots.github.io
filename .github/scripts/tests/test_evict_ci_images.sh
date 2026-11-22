@@ -4,7 +4,7 @@
 set -euo pipefail
 
 HERE=$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)
-# shellcheck source=../evict_ci_images.sh
+# shellcheck source=/dev/null
 source "${HERE}/../evict_ci_images.sh"
 
 H1=$(printf 'a%.0s' {1..64}) H2=$(printf 'b%.0s' {1..64}) H3=$(printf 'c%.0s' {1..64})
@@ -30,12 +30,14 @@ $(v 9 young 2026-03-02T00:00:00Z '[]'),
 $(v 10 other 2026-01-01T00:00:00Z '["v1.0"]')
 ]"
 
+# shellcheck disable=SC2034 # read by the sourced script
 KEEP_NEWEST=2
 # Newest 2 hashes (H2, H3), the cache tag and the non-hash tag; H1 is evictable.
 keepers=$(tagged_keepers <<< "${VERSIONS}" | cut -d' ' -f1 | sort -n | tr '\n' ' ')
 check "tagged keepers" "4 6 7 10 " "${keepers}"
 
 # Children of kept indexes are protected; stub: idx2 -> plat2, idx3 -> none.
+# shellcheck disable=SC2329 # overrides the sourced function; called indirectly
 child_digests() { case "$1" in *@sha256:idx2) echo sha256:plat2 ;; esac; }
 KEEP=$(mktemp)
 {
@@ -50,9 +52,12 @@ check "deletions" "1 2 3 8 " "${del}"
 rm -f "${KEEP}"
 
 # End to end with stubbed gh: dry run must not delete, a real run must.
+# shellcheck disable=SC2329 # overrides the sourced function; called indirectly
 list_versions() { echo "${VERSIONS}"; }
 deleted=()
+# shellcheck disable=SC2329 # overrides the sourced function; called indirectly
 delete_version() { deleted+=("$2"); }
+# shellcheck disable=SC2329 # overrides the sourced function; called indirectly
 cutoff() { echo 2026-03-01T12:00:00Z; }
 DRY_RUN=true evict_package pkg > /dev/null 2>&1
 check "dry run deletes nothing" "0" "${#deleted[@]}"
