@@ -46,7 +46,7 @@ The automated comment includes:
 - `new_post.sh`: Script for creating new blog posts with proper folder structure
 - `staging/`: Configuration files for staging environment setup
 - `ensure_ci_image.sh`: Builds and pushes a prebuilt CI image (`test`, `httpd`) to ghcr.io tagged by a hash of its inputs, only if that tag is missing; used by `on_call_ci_images.yaml`. A failed push is a warning: consuming jobs fall back to building the image themselves
-- `evict_ci_images.sh`: Deletes old hash-tagged `test`/`staging` image versions from ghcr.io (keeps the newest 5, `cache`, and children of kept tags; nothing under 14 days); used by `on_schedule_evict_ci_images.yaml`. Dry-run unless `DRY_RUN=false`. Tested by `tests/test_evict_ci_images.sh`
+- `evict_ci_images.sh`: Deletes old hash-tagged `test`/`staging` image versions from ghcr.io (keeps the newest 5 hash tags, `cache`, `latest`, and children of kept tags; nothing under 14 days; set `EVICTABLE_TAG_PATTERN` for PR-numbered `.base` images); used by `on_schedule_evict_ci_images.yaml`. Dry-run unless `DRY_RUN=false`. Tested by `tests/test_evict_ci_images.sh`
 
 ## Maintenance
 

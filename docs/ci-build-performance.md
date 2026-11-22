@@ -141,6 +141,13 @@ manifests). `on_schedule_evict_ci_images.yaml` runs weekly
   the image, so untagged versions are not simply purged,
 - younger than 14 days (protects in-flight pushes and open PRs).
 
+Also covers `orionrobots-site.dist` and `.build` (only a `cache` tag; the old
+untagged cache manifests pile up) and `orionrobots-site.base` (tagged by PR
+number for the PR comment's pull command, plus `latest`). For `.base` the
+evictable tags are numeric and the newest 10 are kept, `latest` always. A PR
+open for over 14 days whose image falls outside the newest 10 loses its pull
+command image until it is rebuilt.
+
 Eviction is safe because consumers fall back to building on a pull miss. Runs
 dry-run (list in the job summary) until the repo variable `EVICT_CI_IMAGES` is
 set to `true`; `workflow_dispatch` has a `dry_run` input. Deletion needs the
