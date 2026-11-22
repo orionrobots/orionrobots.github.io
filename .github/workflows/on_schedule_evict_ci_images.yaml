@@ -33,10 +33,23 @@ jobs:
           username: ${{ github.actor }}
           password: ${{ github.token }}
 
-      - name: Evict old versions
+      # Hash-tagged prebuilt images, and the cache-only packages (their old
+      # untagged cache manifests are what accumulates).
+      - name: Evict old CI image versions
         env:
           GH_TOKEN: ${{ github.token }}
           DRY_RUN: ${{ github.event_name == 'workflow_dispatch' && format('{0}', inputs.dry_run) || vars.EVICT_CI_IMAGES != 'true' }}
         run: >-
           .github/scripts/evict_ci_images.sh
           orionrobots-site.test orionrobots-site.staging
+          orionrobots-site.dist orionrobots-site.build
+
+      # PR images are tagged by PR number (for the pull command in the PR
+      # comment); `latest` is permanent. Keep more of them than the CI images.
+      - name: Evict old PR base images
+        env:
+          GH_TOKEN: ${{ github.token }}
+          DRY_RUN: ${{ github.event_name == 'workflow_dispatch' && format('{0}', inputs.dry_run) || vars.EVICT_CI_IMAGES != 'true' }}
+          EVICTABLE_TAG_PATTERN: '^[0-9]+$'
+          KEEP_NEWEST: 10
+        run: .github/scripts/evict_ci_images.sh orionrobots-site.base

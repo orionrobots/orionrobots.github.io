@@ -1,21 +1,25 @@
 #!/usr/bin/env bash
-# Evict old prebuilt CI image versions from ghcr.io (#568).
+# Evict old CI image versions from ghcr.io (#568).
 #
 # Usage: evict_ci_images.sh <package>...      e.g. orionrobots-site.test
 #
 # Environment:
 #   DRY_RUN        "true" (default) only prints what would be deleted
-#   KEEP_NEWEST    hash-tagged versions to always keep per package (default 5)
+#   KEEP_NEWEST    evictable-tagged versions to always keep per package
+#                  (default 5)
+#   EVICTABLE_TAG_PATTERN
+#                  regex for tags that may be evicted (default: a 64-hex
+#                  hash; use '^[0-9]+$' for the PR-numbered .base images)
 #   MIN_AGE_DAYS   never delete anything younger than this (default 14)
 #   OWNER          org owning the packages (default orionrobots)
 #   GH_TOKEN       token with packages:write/delete on the packages
 #
 # GHCR has no last-pull time, so "least recently used" is approximated by
-# creation order. Always kept: the `cache` tag, any tag that is not a 64-hex
-# hash, the newest KEEP_NEWEST hash tags, and every child manifest (platform,
-# attestation) of a kept tag. Everything else older than MIN_AGE_DAYS is
-# deleted, including orphaned untagged manifests. Safe because consumers fall
-# back to building the image when a pull misses.
+# creation order. Always kept: any tag not matching EVICTABLE_TAG_PATTERN
+# (cache, latest), the newest KEEP_NEWEST evictable tags, and every child
+# manifest (platform, attestation) of a kept tag. Everything else older than
+# MIN_AGE_DAYS is deleted, including orphaned untagged manifests. Safe because
+# consumers fall back to building the image when a pull misses.
 set -o errexit -o nounset -o pipefail
 
 OWNER=${OWNER:-orionrobots}
@@ -23,8 +27,9 @@ DRY_RUN=${DRY_RUN:-true}
 KEEP_NEWEST=${KEEP_NEWEST:-5}
 MIN_AGE_DAYS=${MIN_AGE_DAYS:-14}
 
-# The tag ensure_ci_image.sh gives an image: sha256 of its inputs.
-readonly INPUT_HASH_TAG_PATTERN='^[0-9a-f]{64}$'
+# Tags that may be evicted: by default the sha256 of inputs that
+# ensure_ci_image.sh gives an image. Any other tag (cache, latest) is kept.
+EVICTABLE_TAG_PATTERN=${EVICTABLE_TAG_PATTERN:-'^[0-9a-f]{64}$'}
 
 list_versions() {
   local package=$1
@@ -56,21 +61,21 @@ oldest_protected_timestamp() {
 list_versions_kept_by_tag() {
   jq --raw-output \
     --argjson keep_newest "${KEEP_NEWEST}" \
-    --arg hash_tag_pattern "${INPUT_HASH_TAG_PATTERN}" '
+    --arg evictable_tag_pattern "${EVICTABLE_TAG_PATTERN}" '
     def tags: .metadata.container.tags // [];
-    def is_hash_tag: test($hash_tag_pattern);
-    def has_only_hash_tags: (tags | length > 0) and (tags | all(is_hash_tag));
-    def has_non_hash_tag: tags | any(is_hash_tag | not);
+    def is_evictable_tag: test($evictable_tag_pattern);
+    def has_only_evictable_tags: (tags | length > 0) and (tags | all(is_evictable_tag));
+    def has_permanent_tag: tags | any(is_evictable_tag | not);
 
-    ([.[] | select(has_only_hash_tags)]
+    ([.[] | select(has_only_evictable_tags)]
       | sort_by(.created_at)
       | reverse
       | .[:$keep_newest]
-      | map(.id)) as $newest_hash_tagged_ids
+      | map(.id)) as $newest_evictable_ids
     | .[]
     | select(
-        (.id as $version_id | $newest_hash_tagged_ids | index($version_id) != null)
-        or has_non_hash_tag
+        (.id as $version_id | $newest_evictable_ids | index($version_id) != null)
+        or has_permanent_tag
       )
     | "\(.id) \(.name) \(tags | join(","))"'
 }

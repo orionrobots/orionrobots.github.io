@@ -116,11 +116,31 @@ test_real_run_deletes() {
   assert_equal "real run deletes" "1 2 3 8 " "${deleted}"
 }
 
+test_pr_numbered_tags() {
+  # .base images are tagged by PR number: newest evictable one is kept, and
+  # `latest` is permanent.
+  local original_pattern=${EVICTABLE_TAG_PATTERN}
+  # shellcheck disable=SC2034 # read by the sourced script
+  EVICTABLE_TAG_PATTERN='^[0-9]+$'
+  # shellcheck disable=SC2034 # read by the sourced script
+  KEEP_NEWEST=1
+  local versions kept_ids
+  versions="[
+$(make_version 1 pr_old 2026-01-01T00:00:00Z '["560"]'),
+$(make_version 2 pr_new 2026-02-01T00:00:00Z '["561"]'),
+$(make_version 3 latest_image 2026-01-01T00:00:00Z '["latest"]')
+]"
+  kept_ids=$(list_versions_kept_by_tag <<< "${versions}" | sorted_ids)
+  assert_equal "PR numbered tags" "2 3 " "${kept_ids}"
+  EVICTABLE_TAG_PATTERN=${original_pattern}
+}
+
 main() {
   test_versions_kept_by_tag
   test_versions_to_delete
   test_dry_run_deletes_nothing
   test_real_run_deletes
+  test_pr_numbered_tags
   exit $((failure_count > 0))
 }
 
