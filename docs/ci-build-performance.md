@@ -127,12 +127,32 @@ export 29 s) even though the `:cache` manifest imported. `--cache-to` now sets
 miss (#598): base, apt and Playwright steps `CACHED`, `ci_images` 49 s. A
 `package-lock.json` change still reruns `npm ci` and later layers (not measured).
 
+## Image retention (#568)
+
+Every input change pushes a new hash-tagged `test`/`staging` image, and nothing
+else removes the old ones (by 2026-11-22: 439 and 675 versions, mostly untagged
+manifests). `on_schedule_evict_ci_images.yaml` runs weekly
+(`.github/scripts/evict_ci_images.sh`) and deletes versions that are not:
+
+- the `cache` tag or any non-hash tag,
+- one of the newest 5 hash tags (GHCR has no last-pull time, so creation order
+  approximates LRU),
+- a child manifest (platform/attestation) of a kept tag: deleting these breaks
+  the image, so untagged versions are not simply purged,
+- younger than 14 days (protects in-flight pushes and open PRs).
+
+Eviction is safe because consumers fall back to building on a pull miss. Runs
+dry-run (list in the job summary) until the repo variable `EVICT_CI_IMAGES` is
+set to `true`; `workflow_dispatch` has a `dry_run` input. Deletion needs the
+packages to give this repo write/admin access (package settings, "Manage
+Actions access").
+
 ## Not done / ideas
 
 Open tickets from this work: #548 (harden the tag-link smoke check), #549
 (verify tag URLs on the live site), #550 (cold cases and cache churn), #554,
 #555, #556 (staging vs IONOS: modules/version, https redirect, `AllowOverride`),
-#568 (evict old prebuilt images from ghcr.io; safe because of the fallback) and
+#568 (fixed; see "Image retention") and
 #569 (fixed; see "Test image miss cost").
 
 - What remains on the critical path is mostly fixed overhead: `build_site`

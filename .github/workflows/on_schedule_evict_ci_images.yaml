@@ -1,0 +1,42 @@
+---
+# Weekly eviction of old prebuilt CI images from ghcr.io (#568). See
+# .github/scripts/evict_ci_images.sh for the policy. Scheduled runs only delete
+# once the repo variable EVICT_CI_IMAGES is "true"; until then they dry-run and
+# log what they would delete in the job summary. Manual runs choose via input.
+name: "Evict old CI images"
+on:
+  schedule:
+    - cron: '17 3 * * 0'
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: 'Only print what would be deleted'
+        type: boolean
+        default: true
+
+permissions:
+  contents: read
+
+jobs:
+  evict:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      packages: write
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+
+      - name: Login to Docker
+        uses: docker/login-action@8aa5831fb8d48d8f76594c7ddde61ae58019f550 # v4.8.0
+        with:
+          registry: ghcr.io
+          username: ${{ github.actor }}
+          password: ${{ github.token }}
+
+      - name: Evict old versions
+        env:
+          GH_TOKEN: ${{ github.token }}
+          DRY_RUN: ${{ github.event_name == 'workflow_dispatch' && format('{0}', inputs.dry_run) || vars.EVICT_CI_IMAGES != 'true' }}
+        run: >-
+          .github/scripts/evict_ci_images.sh
+          orionrobots-site.test orionrobots-site.staging
