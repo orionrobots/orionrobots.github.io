@@ -6,6 +6,10 @@ on:
       - main
     paths-ignore:
       - 'README.md'
+      - '**/README.md'
+      - 'AGENTS.md'
+      - 'CLAUDE.md'
+      - 'docs/**'
       - '.editorconfig'
       - '.mega-linter.yml'
       - '.markdown-link-check.json'
