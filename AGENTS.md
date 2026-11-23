@@ -28,6 +28,8 @@ Before making any contributions, review the following documents:
 
 ## Agent Memory
 
+- Agents MUST always use `orionrobots_memories` if available.
+
 Long-term agent memory for this repo lives in the central OrionRobots memory repo, **not** inside this repo:
 
 `/home/danny/ai/orionrobots_memories` (PARA structure — see its `README.md` and `MEMORY.md`)
