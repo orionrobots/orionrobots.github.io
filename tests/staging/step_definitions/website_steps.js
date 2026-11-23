@@ -464,6 +464,10 @@ When('I request {string} with host {string} without following redirects', async 
   })
 })
 
+When('I request {string} without following redirects', async function (path) {
+  lastResponse = await context.request.get(`${BASE_URL}${path}`, { maxRedirects: 0 })
+})
+
 Then('the response status should be {int}', async function (status) {
   if (lastResponse.status() !== status) {
     throw new Error(`Expected status ${status}, got ${lastResponse.status()}`)
