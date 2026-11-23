@@ -26,6 +26,10 @@ Before making any contributions, review the following documents:
 - Use uv to manage virtual environments with `uv run python <script>.py` to run scripts
 - Use ruff to keep python code tidy
 
+## Pull Requests
+
+- Use the `gh` CLI for all PR work (create, status, checks, comments). Don't use app-specific PR binding tools; they may be denied.
+
 ## Agent Memory
 
 - Agents MUST always use `orionrobots_memories` if available.
