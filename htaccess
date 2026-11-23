@@ -79,6 +79,11 @@ RewriteCond %{SERVER_PORT} !=443
 RewriteCond %{HTTP_HOST} ^(www\.)?orionrobots\.co\.uk [NC]
 RewriteRule ^(.*)$ https://orionrobots.co.uk/$1 [R=301,L]
 
+# /index.html and /<dir>/index.html -> directory URL. Matching THE_REQUEST (the client's
+# original request line) means DirectoryIndex's internal index.html lookup can't loop.
+RewriteCond %{THE_REQUEST} ^[A-Z]+\ /(.*/)?index\.html([?#\ ]|$)
+RewriteRule ^(.*/)?index\.html$ https://orionrobots.co.uk/$1 [R=301,L]
+
 # If the URL points to a real existing item then do nothing
 RewriteCond %{REQUEST_FILENAME} -s [OR]
 RewriteCond %{REQUEST_FILENAME} -l [OR]
@@ -234,7 +239,7 @@ RewriteRule "^Apache.?Monitor.?With.?Python.?And.?An.?LED" /2004/11/14/apache-mo
 RewriteRule "^Robot.?Stores(.*)" /pages/robot-stores.html [R]
 RewriteRule "^Sir.?Killalot(.*)" /2005/03/01/sir-killalot.html [R,L]
 RewriteRule "^Robotic.?Gadgets.?And.?Toys(.*)" /2005/08/02/robotics-toys-and-gadgets.html [R,L]
-Redirect 301 /HomePage /index.html
+Redirect 301 /HomePage /
 
 RewriteRule "^MegaByte.?Robot.?Dog$"    /2004/11/14/megabyte-robot-dog.html [R,NC,L]
 
