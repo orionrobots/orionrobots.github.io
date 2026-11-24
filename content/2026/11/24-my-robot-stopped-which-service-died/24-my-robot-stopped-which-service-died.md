@@ -1,7 +1,7 @@
 ---
 title: "My robot stopped. Which service died?"
 date: 2026-11-24
-tags: [linux, raspberry pi, learn robotics programming, robot building]
+tags: [linux, raspberry pi, learn robotics programming, robot programming, robot building]
 thumbnail: systemctl-failed-thumbnail.png
 description: "Your Raspberry Pi robot has stopped doing its job. Use systemctl to find which service failed, why, and how to get it going again."
 ---
