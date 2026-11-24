@@ -94,6 +94,9 @@ RewriteRule ^ /%1/ [R=301,L]
 # Renamed tag: the typo'd robot-program tag now lives at robot-programming.
 RewriteRule ^tags/robot-program/?$ https://orionrobots.co.uk/tags/robot-programming/ [R=301,L]
 
+# Gallery folder renamed from "Round up of the Challenge on Saturday the 2nd April 2005" (spaces/uppercase).
+RewriteRule ^galleries/2005-04-02-robot-building-challenge-saturday/Round\ up\ of\ the\ Challenge\ on\ Saturday\ the\ 2nd\ April\ 2005(/.*)?$ /galleries/2005-04-02-robot-building-challenge-saturday/round-up-of-the-challenge-on-saturday-the-2nd-april-2005$1 [R=301,L]
+
 # If the URL points to a real existing item then do nothing
 RewriteCond %{REQUEST_FILENAME} -s [OR]
 RewriteCond %{REQUEST_FILENAME} -l [OR]
