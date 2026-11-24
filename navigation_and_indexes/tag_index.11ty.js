@@ -1,7 +1,7 @@
 const slugify = require('slugify')
 
 function tagItem (tagName, tags) {
-  const tagSlug = slugify(tagName)
+  const tagSlug = slugify(tagName, { lower: true })
   const count = tags[tagName]?.length || 0
   return `<li><a href="/tags/${tagSlug}/">${tagName} <span class="badge tag-badge rounded-pill">${count}</span></a></li>`
 }

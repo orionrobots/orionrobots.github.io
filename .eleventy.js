@@ -115,7 +115,7 @@ module.exports = function (eleventyConfig) {
     collection.getAll().forEach((item) => {
       if (item.data.tags) {
         item.data.tags.forEach((tag) => {
-          const slugTag = slugify(tag)
+          const slugTag = slugify(tag, { lower: true })
           if (!(slugTag in tagsDict)) {
             tagsDict[slugTag] = []
           }
