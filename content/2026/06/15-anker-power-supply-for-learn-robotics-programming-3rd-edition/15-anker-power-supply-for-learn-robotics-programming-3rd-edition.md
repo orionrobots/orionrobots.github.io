@@ -1,7 +1,7 @@
 ---
 title: Safety erratum for Anker power supply for Learn Robotics Programming 3rd edition
 date: 2026-06-15
-tags: [robotics, power supply, anker, learn robotics programming, book]
+tags: [robotics, power supply, anker, learn robotics programming, book, python programming, robot programming]
 thumbnail: robot-with-nanopower-supply.png
 ---
 This is a safety-related erratum for Learn Robotics Programming 3rd Edition.
