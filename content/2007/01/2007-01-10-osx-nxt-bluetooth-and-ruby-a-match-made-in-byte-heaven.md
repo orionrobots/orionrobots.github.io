@@ -1,7 +1,7 @@
 ---
 date: 2007-01-10 15:19:38
 description: OSX, NXT, BlueTooth and Ruby - A match made in byte heaven?
-tags: [robots, programming, bluetooth, lego robotics, lego mindstorms, lego nxt]
+tags: [robots, programming, bluetooth, lego robotics, lego mindstorms, lego nxt, robot programming]
 title: OSX, NXT, BlueTooth and Ruby - A match made in byte heaven?
 layout: post
 ---

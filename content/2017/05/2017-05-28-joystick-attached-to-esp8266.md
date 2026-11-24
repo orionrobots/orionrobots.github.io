@@ -8,6 +8,7 @@ tags:
 - esp8266 projects
 - lua programming
 - programming
+- robot programming
 - nodemcu
 - robot building
 - robotics at home
