@@ -11,7 +11,7 @@ tags:
 - bluefruit le connect
 - robot building
 - plotting data
-- robotics programming
+- robot programming
 - graphing data
 - making robots
 title: Bluefruit graphing - beware auto scaling
