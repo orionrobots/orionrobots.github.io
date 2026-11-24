@@ -1,6 +1,6 @@
 ---
 date: 2019-02-15 08:04:30
-tags: [piwars, raspberry pi, picon zero, i2c bus, robotics books, robotics at home, learn robotics programming, robot building, making robots]
+tags: [piwars, raspberry pi, picon zero, i2c bus, robotics books, robotics at home, learn robotics programming, robot programming, robot building, making robots]
 title: Using The Picon Zero with Learn Robotics Programming - Part 1
 layout: post
 ---

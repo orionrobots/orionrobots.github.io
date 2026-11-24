@@ -1,7 +1,7 @@
 ---
 title: "Reach Your Robot Anywhere: Tailscale + PyInfra on a Raspberry Pi"
 date: 2026-09-02
-tags: [robot building, learn robotics programming, raspberry pi, pyinfra, networking, mdns, ssh, making robots]
+tags: [robot building, learn robotics programming, robot programming, raspberry pi, pyinfra, networking, mdns, ssh, making robots]
 thumbnail: tailscale-pyinfra-thumbnail.png
 description: "Joining a Learn Robotics Programming 3rd edition robot to a Tailscale tailnet with a pyinfra deploy script, so you can reach it from anywhere mDNS can't."
 ---
