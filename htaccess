@@ -91,6 +91,9 @@ RewriteCond %{REQUEST_URI} ^/tags/[^/]*[A-Z]
 RewriteCond expr "tolower(%{REQUEST_URI}) =~ m#^/(tags/[^/]+?)/*$#"
 RewriteRule ^ /%1/ [R=301,L]
 
+# Renamed tag: the typo'd robot-program tag now lives at robot-programming.
+RewriteRule ^tags/robot-program/?$ https://orionrobots.co.uk/tags/robot-programming/ [R=301,L]
+
 # If the URL points to a real existing item then do nothing
 RewriteCond %{REQUEST_FILENAME} -s [OR]
 RewriteCond %{REQUEST_FILENAME} -l [OR]

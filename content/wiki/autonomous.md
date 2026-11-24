@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Autonomous
-tags: [robots, robot program]
+tags: [robots, robot programming]
 date: 2004-11-14 22:43:09
 ---
 A description of something, which once set in motion, needs little or no further intervention.
