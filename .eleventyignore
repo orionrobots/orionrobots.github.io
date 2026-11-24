@@ -7,3 +7,5 @@
 docs
 Dockerfile
 DOCKER_OPTIMIZATION.md
+AGENTS.md
+CLAUDE.md
