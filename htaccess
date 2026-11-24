@@ -85,40 +85,11 @@ RewriteCond %{THE_REQUEST} ^[A-Z]+\ /(.*/)?index\.html([?#\ ]|$)
 RewriteRule ^(.*/)?index\.html$ https://orionrobots.co.uk/$1 [R=301,L]
 
 # Tag URLs are lowercase: 301 any mixed-case /tags/<slug> or /tags/<slug>/ to lowercase with a
-# trailing slash (single hop). Must precede the existing-item rule since [N] restarts the ruleset.
-# RewriteMap isn't available in .htaccess, so lowercase one letter per looping [N] rule.
-# TAGCASE records that the original URL had uppercase, so lowercase URLs aren't redirected.
-RewriteCond %{REQUEST_URI} ^/tags/[^/]*[A-Z][^/]*/?$
-RewriteRule ^ - [E=TAGCASE:1]
-RewriteRule ^(tags/[^/]*)A([^/]*/*)$ $1a$2 [N]
-RewriteRule ^(tags/[^/]*)B([^/]*/*)$ $1b$2 [N]
-RewriteRule ^(tags/[^/]*)C([^/]*/*)$ $1c$2 [N]
-RewriteRule ^(tags/[^/]*)D([^/]*/*)$ $1d$2 [N]
-RewriteRule ^(tags/[^/]*)E([^/]*/*)$ $1e$2 [N]
-RewriteRule ^(tags/[^/]*)F([^/]*/*)$ $1f$2 [N]
-RewriteRule ^(tags/[^/]*)G([^/]*/*)$ $1g$2 [N]
-RewriteRule ^(tags/[^/]*)H([^/]*/*)$ $1h$2 [N]
-RewriteRule ^(tags/[^/]*)I([^/]*/*)$ $1i$2 [N]
-RewriteRule ^(tags/[^/]*)J([^/]*/*)$ $1j$2 [N]
-RewriteRule ^(tags/[^/]*)K([^/]*/*)$ $1k$2 [N]
-RewriteRule ^(tags/[^/]*)L([^/]*/*)$ $1l$2 [N]
-RewriteRule ^(tags/[^/]*)M([^/]*/*)$ $1m$2 [N]
-RewriteRule ^(tags/[^/]*)N([^/]*/*)$ $1n$2 [N]
-RewriteRule ^(tags/[^/]*)O([^/]*/*)$ $1o$2 [N]
-RewriteRule ^(tags/[^/]*)P([^/]*/*)$ $1p$2 [N]
-RewriteRule ^(tags/[^/]*)Q([^/]*/*)$ $1q$2 [N]
-RewriteRule ^(tags/[^/]*)R([^/]*/*)$ $1r$2 [N]
-RewriteRule ^(tags/[^/]*)S([^/]*/*)$ $1s$2 [N]
-RewriteRule ^(tags/[^/]*)T([^/]*/*)$ $1t$2 [N]
-RewriteRule ^(tags/[^/]*)U([^/]*/*)$ $1u$2 [N]
-RewriteRule ^(tags/[^/]*)V([^/]*/*)$ $1v$2 [N]
-RewriteRule ^(tags/[^/]*)W([^/]*/*)$ $1w$2 [N]
-RewriteRule ^(tags/[^/]*)X([^/]*/*)$ $1x$2 [N]
-RewriteRule ^(tags/[^/]*)Y([^/]*/*)$ $1y$2 [N]
-RewriteRule ^(tags/[^/]*)Z([^/]*/*)$ $1z$2 [N]
-# [N] with per-dir rules appends stray path info (extra slashes), so rebuild the target cleanly.
-RewriteCond %{ENV:TAGCASE} =1
-RewriteRule ^(tags/[^/]+?)/*$ /$1/ [R=301,L]
+# trailing slash (single hop). Uses Apache 2.4 tolower() in an expr condition, since RewriteMap
+# isn't available in .htaccess. The first condition makes it fire only when something changes; %1 captures from the last.
+RewriteCond %{REQUEST_URI} ^/tags/[^/]*[A-Z]
+RewriteCond expr "tolower(%{REQUEST_URI}) =~ m#^/(tags/[^/]+?)/*$#"
+RewriteRule ^ /%1/ [R=301,L]
 
 # If the URL points to a real existing item then do nothing
 RewriteCond %{REQUEST_FILENAME} -s [OR]
