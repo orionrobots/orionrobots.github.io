@@ -2,7 +2,7 @@
 title: Win a Free Copy of Learn Robotics Programming, 3rd Edition
 date: 2026-08-20
 thumbnail: learn-robotics-programming-giveaway-graphic.png
-tags: [learn robotics programming, robotics books, raspberry pi, python, robot building, mqtt, opencv, computer vision, voice recognition, monte carlo localisation, pyinfra, robot power, making robots]
+tags: [learn robotics programming, robotics books, raspberry pi, robot building, mqtt, opencv, computer vision, voice recognition, monte carlo localisation, pyinfra, robot power, making robots, python programming, robot programming]
 ---
 If you caught [my post about the third edition launching](/2026/05/28/28-learn-robotics-programming-3rd-edition-is-published-tomorrow.html), you'll know I wrote **Learn Robotics Programming, Third Edition** to help people move beyond robotics theory and actually build, program, and understand a working robot.
 

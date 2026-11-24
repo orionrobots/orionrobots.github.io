@@ -1,6 +1,6 @@
 Feature: Renamed tag redirects
 
-  Scenario Outline: Old synonym tags redirect to robot-programming
+  Scenario Outline: Retired tags redirect to their replacement
     Given the Staging site is started
     When I request "<path>" without following redirects
     Then the response status should be 301
@@ -12,3 +12,5 @@ Feature: Renamed tag redirects
       | /tags/robot-program/  | https://orionrobots.co.uk/tags/robot-programming/ |
       | /tags/robotics-programming   | https://orionrobots.co.uk/tags/robot-programming/ |
       | /tags/robotics-programming/  | https://orionrobots.co.uk/tags/robot-programming/ |
+      | /tags/python   | https://orionrobots.co.uk/tags/python-programming/ |
+      | /tags/python/  | https://orionrobots.co.uk/tags/python-programming/ |

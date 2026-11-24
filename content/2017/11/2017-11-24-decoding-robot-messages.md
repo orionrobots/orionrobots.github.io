@@ -3,7 +3,7 @@ date: '2017-11-24'
 layout: post
 tags:
 - code
-- python
+- python programming
 - robotics
 - robot
 - education

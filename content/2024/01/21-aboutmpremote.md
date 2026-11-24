@@ -1,6 +1,6 @@
 ---
 title: About the MPRemote command
-tags: [mpremote, micropython, python, robotics at home, robot building, raspberry pi pico, robot programming, making robots]
+tags: [mpremote, micropython, python programming, robotics at home, robot building, raspberry pi pico, robot programming, making robots]
 description: A command line tool to interact with Micropython and CircuitPython boards
 date: 2024-01-21
 ---

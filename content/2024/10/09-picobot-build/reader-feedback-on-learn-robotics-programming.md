@@ -1,6 +1,6 @@
 ---
 title: Robotics at Home with the DIY PicoBot
-tags: [learn robotics programming, book review, robotics at home]
+tags: [learn robotics programming, book review, robotics at home, python programming, robot programming]
 description: A reader shares their thoughts on the Robotics at Home Book
 date: 2024-10-09
 ---

@@ -5,7 +5,7 @@ description: Tracebacks for error handling in CircuitPython
 tags:
   - circuitpython
   - raspberry pi pico
-  - python
+  - python programming
   - error handling
   - robotics at home
   - robot building

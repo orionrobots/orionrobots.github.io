@@ -5,7 +5,7 @@ tags:
 - electronics
 - microbit
 - leds
-- python
+- python programming
 - micropython
 - simple code for kids
 - code

@@ -1,6 +1,6 @@
 ---
 title: A weekend of robotics celebration for Orionrobots
-tags: [books, writing, robotics at home, learn robotics programming, piwars, piwars 2024]
+tags: [books, writing, robotics at home, learn robotics programming, piwars, piwars 2024, python programming, robot programming]
 date: 2023-10-06
 description: Celebrating books and Piwars
 thumbnail: content/2023/10/06/me-celebrating-with-robots.jpg

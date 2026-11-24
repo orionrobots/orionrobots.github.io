@@ -4,7 +4,7 @@ gallery: /galleries/2015-01-15-teaching-angles-with-turtle
 layout: post
 tags:
 - turtle
-- python
+- python programming
 - programming
 title: Teaching Angles With Turtle
 using_mathjax: true

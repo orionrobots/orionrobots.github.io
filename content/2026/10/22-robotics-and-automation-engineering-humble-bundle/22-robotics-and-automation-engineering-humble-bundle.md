@@ -1,7 +1,7 @@
 ---
 title: Robotics and Automation Engineering Humble Bundle
 date: 2026-10-22
-tags: [learn robotics programming, robotics books, raspberry pi, raspberry pi pico, robot building, making robots]
+tags: [learn robotics programming, robotics books, raspberry pi, raspberry pi pico, robot building, making robots, python programming, robot programming]
 description: Two of my robotics books are part of Packt's Robotics and Automation Engineering Humble Bundle - 18 books on robots, ROS 2, drones, PLCs, Arduino and home automation
 thumbnail: robotics-automation-engineering-bundle-banner.jpg
 ---

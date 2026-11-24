@@ -3,7 +3,7 @@ layout: post
 title: "Learn Robotics Programming 1st Edition Electronics Fix"
 description: "Fixed Diagrams For Learn Robotics Programming"
 date: 2019-04-16
-tags: [book, electronics, robotics, robot, raspberry pi, learn robotics programming]
+tags: [book, electronics, robotics, robot, raspberry pi, learn robotics programming, python programming, robot programming]
 ---
 While discussing my book with one of my readers, an error in the circuit diagrams, replicated in a number of them, has been spotted. I am writing this article as a correction to those errors.
 

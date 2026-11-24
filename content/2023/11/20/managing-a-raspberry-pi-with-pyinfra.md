@@ -2,7 +2,7 @@
 title: Managing a Raspberry Pi with PyInfra
 date: 2023-11-20T19:28:00.000Z
 description: Using PyInfra to manage a Raspberry Pi
-tags: [raspberry pi, pyinfra, python, devops, robot programming, piwars 2024]
+tags: [raspberry pi, pyinfra, python programming, devops, robot programming, piwars 2024]
 thumbnail: content/2023/11/20/pyinfra-raspberrypi.png
 ---
 Today, I trialled PyInfra2 for managing the packages and files on a Raspberry Pi.

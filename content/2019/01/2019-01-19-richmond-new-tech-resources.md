@@ -1,6 +1,6 @@
 ---
 date: 2019-01-09 20:04:30
-tags: [robotics books, python, raspberry pi, coder-dojo, makers]
+tags: [robotics books, raspberry pi, coder-dojo, makers, python programming]
 title: Info from robotics talk at Richmond New Tech
 layout: post
 ---

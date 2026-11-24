@@ -1,6 +1,6 @@
 ---
 date: 2019-02-01 08:04:30
-tags: [robotics books, raspberry pi, piwars, learn robotics programming, robotics at home, robot building, making robots]
+tags: [robotics books, raspberry pi, piwars, learn robotics programming, robotics at home, robot building, making robots, python programming, robot programming]
 title: Learn Robotics Programming On The Raspberry Pi 3a+
 layout: post
 thumbnail: galleries/book_covers/B11057-learn-robotics-programming-1st-ed.png

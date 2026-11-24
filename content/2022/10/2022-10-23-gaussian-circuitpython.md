@@ -7,7 +7,7 @@ tags:
 - electronics
 - raspberry pi pico
 - robot programming
-- python
+- python programming
 - circuitpython
 - learn robotics at home
 - robotics at home

@@ -1,6 +1,6 @@
 ---
 title: Me and MeArm in The MagPi
-tags: [raspberry pi, robotics at home, mearm, the magpi, robot arm, python, micropython, rp2040, raspberry pi pico]
+tags: [raspberry pi, robotics at home, mearm, the magpi, robot arm, micropython, rp2040, raspberry pi pico, python programming, robot programming]
 thumbnail: /galleries/2023/2023-magpi-python-robots-cover.png
 date: 2023-07-04
 author: Danny Staple

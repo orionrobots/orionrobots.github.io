@@ -6,7 +6,7 @@ tags:
 - electronics
 - code
 - microbit
-- python
+- python programming
 - robotics
 - robot building
 - robotics at home

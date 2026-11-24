@@ -1,6 +1,6 @@
 ---
 title: Robotics touch sensors mimicking fingerprints
-tags: [robot news, robot building, python, sensors, making robots]
+tags: [robot news, robot building, sensors, making robots]
 date: '2023-11-21'
 description: Robotics touch sensors mimicking human fingerprints
 ---

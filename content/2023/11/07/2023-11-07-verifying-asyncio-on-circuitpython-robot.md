@@ -1,6 +1,6 @@
 ---
 title: Verifying that Asyncio is working on CircuitPython
-tags: [robotics at home, raspberry pi pico, python, circuitpython]
+tags: [robotics at home, raspberry pi pico, python programming, circuitpython]
 date: 2023-11-07
 ---
 In chapter 11 of [Robotics at Home with Raspberry Pi Pico](https://packt.link/5swS2), I introduce the `asyncio` library, and get this installed on the Raspberry Pi Pico. This is a library that lets you schedule multiple tasks on the Pico. They don't run in parallel, so much as hand control over to different processes when they are waiting for something.
