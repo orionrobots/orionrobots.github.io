@@ -1,6 +1,6 @@
 ---
 title: Choosing parts for the coder dojo robots
-tags: [coder dojo, robotics at home, raspberry pi pico, electronics]
+tags: [coder dojo, robotics at home, raspberry pi pico, electronics, python programming]
 description: How I chose parts for coder dojo robots
 date: 2023-10-14
 thumbnail: content/2023/10/14/front of dojo robot showing sensors.jpg

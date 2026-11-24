@@ -1,6 +1,6 @@
 ---
 date: 2018-12-12
-tags: [robotics books, raspberry pi, maker, lab-gear]
+tags: [robotics books, raspberry pi, maker, lab-gear, python programming]
 title: What did I make in my lab in the summer?
 layout: post
 ---
