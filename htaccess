@@ -84,6 +84,13 @@ RewriteRule ^(.*)$ https://orionrobots.co.uk/$1 [R=301,L]
 RewriteCond %{THE_REQUEST} ^[A-Z]+\ /(.*/)?index\.html([?#\ ]|$)
 RewriteRule ^(.*/)?index\.html$ https://orionrobots.co.uk/$1 [R=301,L]
 
+# Tag URLs are lowercase: 301 any mixed-case /tags/<slug> or /tags/<slug>/ to lowercase with a
+# trailing slash (single hop). Uses Apache 2.4 tolower() in an expr condition, since RewriteMap
+# isn't available in .htaccess. The first condition makes it fire only when something changes; %1 captures from the last.
+RewriteCond %{REQUEST_URI} ^/tags/[^/]*[A-Z]
+RewriteCond expr "tolower(%{REQUEST_URI}) =~ m#^/(tags/[^/]+?)/*$#"
+RewriteRule ^ /%1/ [R=301,L]
+
 # If the URL points to a real existing item then do nothing
 RewriteCond %{REQUEST_FILENAME} -s [OR]
 RewriteCond %{REQUEST_FILENAME} -l [OR]
