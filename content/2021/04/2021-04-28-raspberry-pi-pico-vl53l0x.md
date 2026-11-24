@@ -10,6 +10,7 @@ tags:
 - raspberry pi pico projects
 - micropython
 - programming
+- robot programming
 - electronics
 - microcontroller
 - sensors

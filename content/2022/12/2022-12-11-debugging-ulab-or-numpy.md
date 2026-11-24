@@ -3,7 +3,7 @@ title: Tip for debugging ulab or Numpy
 date: 2022-12-11T18:45:51
 layout: post
 description: How to debug ulab or numpy arrays
-tags: [micropython, circuitpython, numpy, robot, raspberry pi pico, python programming]
+tags: [micropython, circuitpython, numpy, robot, raspberry pi pico, python programming, robot programming]
 ---
 ## What is ulab?
 

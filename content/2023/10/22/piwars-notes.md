@@ -1,6 +1,6 @@
 ---
 title: Making a shim for the Pimoroni Explorer Hat Pro
-tags: [robotics at home, raspberry pi, motor controller, electronics, python, programming, piwars, robot building, making robots]
+tags: [robotics at home, raspberry pi, motor controller, electronics, python, programming, piwars, robot building, making robots, robot programming]
 date: 2023-10-22
 thumbnail: content/2023/10/22/explorer-hat-shim.png
 ---

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: NQC
-tags: [robot, programming]
+tags: [robot, programming, robot programming]
 date: 2010-01-17 09:32:12
 ---
 NQC - Not Quite C - A programming language for the [Lego RCX](/wiki/lego_rcx)

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Robolab
-tags: [programming]
+tags: [programming, robot programming]
 date: 2005-10-06 14:43:22
 ---
 Robolab was a less commonly used method to program the [Lego RCX](/wiki/rcx.html "The Lego RCX").<br>

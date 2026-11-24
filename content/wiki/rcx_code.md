@@ -1,7 +1,7 @@
 ---
 layout: page
 title: RCX Code
-tags: [programming]
+tags: [programming, robot programming]
 date: 2005-05-25 17:15:54
 ---
 This is the language that is shipped with the [Lego RCX](/wiki/rcx.html "The Lego RCX"). It is designed to be familiar feeling to new programmers who are more comfortable with the real physical [Lego](/wiki/lego.html "The best known construction toy") bricks - and so tries to emulate their simplicity in the code.

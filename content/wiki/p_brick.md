@@ -1,7 +1,7 @@
 ---
 layout: page
 title: P-Brick - Programmable Lego Brick
-tags: [robotics, robots, programming]
+tags: [robotics, robots, programming, robot programming]
 date: 2005-01-14 14:00:45
 ---
 P-Brick is an acronym for a Programmable Lego Brick. [Lego](/wiki/lego.html "The best known construction toy") do a number of these:

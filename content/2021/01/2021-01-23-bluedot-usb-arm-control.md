@@ -2,7 +2,7 @@
 layout: post
 title: "Controlling a OWI Edge Robot Arm with Bluetooth"
 description: "Controlling a OWI Edge Robot Arm with Bluetooth"
-tags: [robot arm, usb arm, owi edge arm, python programming, maplin usb robot arm, raspberry pi, raspberry pi zero, bluetooth, blue dot, robotics at home]
+tags: [robot arm, usb arm, owi edge arm, python programming, maplin usb robot arm, raspberry pi, raspberry pi zero, bluetooth, blue dot, robotics at home, robot programming]
 date: 2021-01-23 12:00:00
 ---
 Today I attended the fantastic Pi Wars Conference 2021, and among the talks was Martin O'Hanlon with the [Bluedot](https://bluedot.readthedocs.io/en/latest/dotapi.html) project. I followed along, had a few problems, and created two versions of a controller for the arm.
