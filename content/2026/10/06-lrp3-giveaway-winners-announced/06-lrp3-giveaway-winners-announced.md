@@ -1,7 +1,7 @@
 ---
 title: Learn Robotics Programming Giveaway Winners Announced
 date: 2026-10-06
-tags: [learn robotics programming, robotics books, raspberry pi, python, robot building, making robots]
+tags: [learn robotics programming, robotics books, raspberry pi, robot building, making robots]
 description: The two winners of the Packt eBook giveaway for Learn Robotics Programming, Third Edition, are Ezra Daniel and James Whitehead
 thumbnail: giveaway-winners-graphic.jpg
 ---

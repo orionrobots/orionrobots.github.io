@@ -1,7 +1,7 @@
 ---
 title: Learn Robotics Programming, 3rd Edition is in Packt's Black Friday sale
 date: 2026-11-23
-tags: [learn robotics programming, robotics books, raspberry pi, python, robot building]
+tags: [learn robotics programming, robotics books, raspberry pi, robot building]
 description: Learn Robotics Programming, Third Edition is 30% off as an eBook and 20% off in print in Packt's Black Friday sale, until the end of November
 thumbnail: lrp3-black-friday-sale-banner.jpg
 ---

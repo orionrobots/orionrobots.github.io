@@ -2,7 +2,7 @@
 title: Discount on Learn Robotics Programming 3rd Edition
 date: 2026-06-04
 thumbnail: /content/2026/06/04-discount-on-learn-robotics-programming-3rd-edition/discount-on-learn-robotics-programming-3rd-edition.jpg
-tags: [learn robotics programming, robotics books, raspberry pi, python, robot building, mqtt, opencv, computer vision, voice recognition, monte carlo localisation, pyinfra, robot power, making robots]
+tags: [learn robotics programming, robotics books, raspberry pi, robot building, mqtt, opencv, computer vision, voice recognition, monte carlo localisation, pyinfra, robot power, making robots]
 ---
 There is currently a 27% discount on the print edition of Learn Robotics Programming, 3rd Edition on Amazon.com.
 

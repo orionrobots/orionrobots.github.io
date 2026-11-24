@@ -10,7 +10,7 @@ tags:
 - freecad
 - robot building
 - cad
-- python
+- python programming
 - programming
 - making robots
 thumbnail: /galleries/2021/07-24-freecad-assembly-link-issue/freecad-assembly4-broken-link.png

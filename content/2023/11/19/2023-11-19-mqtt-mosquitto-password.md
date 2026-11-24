@@ -1,7 +1,7 @@
 ---
 title: MQTT Mosquitto Password Issues
 date: 2023-11-19
-tags: [robot programming, mqtt, python, mosquitto-mqtt-broker, piwars 2024]
+tags: [robot programming, mqtt, python programming, mosquitto-mqtt-broker, piwars 2024]
 ---
 I've recently started playing with MQTT. My intent is to use it in Python, with the Paho client, on a Raspberry Pi running the Mosquitto broker. I plan to use MQTT in my Piwars 2024 robot so I can have multiple communicating programs, and a channel to send control signals to/from a smartphone too.
 

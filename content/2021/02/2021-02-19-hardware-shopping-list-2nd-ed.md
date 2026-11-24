@@ -6,7 +6,6 @@ tags:
 - robotics books
 - raspberry pi
 - robot
-- python
 - robot building
 - learn robotics at home
 - robot electronics

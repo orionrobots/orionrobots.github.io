@@ -1,6 +1,6 @@
 ---
 title: Making a robotic foam dart turret with sound effects
-tags: [robotics at home, servo motor, rp2040, raspberry pi pico, python, micropython, foam dart, turret, sound effects]
+tags: [robotics at home, servo motor, rp2040, raspberry pi pico, python programming, micropython, foam dart, turret, sound effects]
 thumbnail: /content/2023/08/01/foam-dart-screenshot.png
 description: Programming a robot dart to fire with sound effects
 date: 2023-08-01

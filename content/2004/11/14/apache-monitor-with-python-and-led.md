@@ -6,7 +6,7 @@ tags:
 - electronics
 - led
 - apache
-- python
+- python programming
 - parallel port
 title: Apache Server Monitor With Python And Led
 ---

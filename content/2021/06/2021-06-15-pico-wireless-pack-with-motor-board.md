@@ -30,7 +30,7 @@ tags:
 - robot building
 - electronics
 - esp32
-- python
+- python programming
 - circuitpython
 - making robots
 thumbnail: /galleries/2021/06-15-pico-wireless-pack-with-motor-board/bare-basics-fritzing.png

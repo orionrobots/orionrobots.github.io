@@ -2,7 +2,7 @@
 title: Learn Robotics Programming, 3rd Edition tops New Releases again
 date: 2026-07-17
 thumbnail: learn-robotics-programming-3rd-edition-tops-new-releases-again-square.jpg
-tags: [learn robotics programming, robotics books, raspberry pi, python, robot building, mqtt, opencv, computer vision, voice recognition, monte carlo localisation, pyinfra, robot power, making robots]
+tags: [learn robotics programming, robotics books, raspberry pi, robot building, mqtt, opencv, computer vision, voice recognition, monte carlo localisation, pyinfra, robot power, making robots]
 ---
 Back in June I posted about the [discount on Learn Robotics Programming, 3rd Edition](https://www.amazon.com/Learn-Robotics-Programming-cutting-edge-Raspberry/dp/1803246987/). That deal is still running, and there is a nice bit of news to go with it: the book reached the top of the New Releases chart in Computer Hardware Peripherals on Amazon US again this week.
 

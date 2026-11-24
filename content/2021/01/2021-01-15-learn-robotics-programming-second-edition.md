@@ -16,7 +16,6 @@ tags:
 - technology
 - artificial intelligence
 - automation
-- python
 - robot building
 - learn robotics at home
 - making robots

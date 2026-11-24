@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Python
-tags: [programming, robotics, python, robot programming]
+tags: [programming, robotics, python programming, robot programming]
 date: 2004-11-19 23:30:33
 ---
 Python is a programming language which is great for programming robots with the Raspberry Pi computers. It is the language used as the basis of my robotics book [Learn Robotics Programming, 2nd Edition](https://packt.live/2NoZqhx)

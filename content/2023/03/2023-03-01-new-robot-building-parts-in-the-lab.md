@@ -8,7 +8,6 @@ tags:
   - robot building
   - electronics
   - circuitpython
-  - python
   - microcontroller
   - building robots
   - raspberry pi pico

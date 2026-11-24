@@ -7,7 +7,7 @@ tags:
   - circuitpython
   - raspberry pi pico
   - robot programming
-  - python
+  - python programming
   - microcontroller
   - learn robotics at home
   - bluetooth ble

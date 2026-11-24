@@ -1,7 +1,7 @@
 ---
 title: Piwars 2018 Robot - Panic Sets In
 date: 2018-04-18
-tags: [robot building, piwars, opencv, electronics, power, raspberry pi robotics project, raspberry pi opencv project, python, raspberry pi camera, making robots]
+tags: [robot building, piwars, opencv, electronics, power, raspberry pi robotics project, raspberry pi opencv project, python programming, raspberry pi camera, making robots]
 ---
 As we realise how close we are to going to the event, panic Sets In. 2 days before we leave! Our robot should be ready for the 22nd of April - not everything works!
 

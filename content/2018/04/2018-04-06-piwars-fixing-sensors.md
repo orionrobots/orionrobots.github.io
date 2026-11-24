@@ -1,7 +1,7 @@
 ---
 title: PiWars 2018 Robot - getting the camera and sensors working again
 date: 2018-04-06
-tags: [robot building, piwars, opencv, electronics, power, raspberry pi robotics project, raspberry pi opencv project, python, raspberry pi camera, making robots]
+tags: [robot building, piwars, opencv, electronics, power, raspberry pi robotics project, raspberry pi opencv project, python programming, raspberry pi camera, making robots]
 ---
 After changes to the robot hardware, a new software SD card image and lots of work on the robot, I needed to get the camera going again. It seems that the parts I'd not been paying attention to were now broken.
 

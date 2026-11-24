@@ -9,7 +9,7 @@ tags:
 - motion
 - debugging
 - matplotlib
-- python
+- python programming
 - numpy
 - robotics at home
 - robot building
