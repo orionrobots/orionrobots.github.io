@@ -1,6 +1,6 @@
 ---
 title: Learn Robotics Programming 2nd Edition - update for installing OpenCV and Numpy
-tags: [robotics programming, robotics books, raspberry pi]
+tags: [robot programming, robotics books, raspberry pi]
 date: 2024-02-20
 description: An update for the Learn Robotics Programming 2nd Edition book, for installing OpenCV and Numpy on the Raspberry Pi.
 ---

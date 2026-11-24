@@ -8,7 +8,7 @@ tags:
 - learn robotics at home
 - robotics
 - mathematics
-- robotics programming
+- robot programming
 title: Geometry and Trigonometry mix ups
 using_mathjax: true
 ---

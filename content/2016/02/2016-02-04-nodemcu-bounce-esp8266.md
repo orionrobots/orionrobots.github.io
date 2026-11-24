@@ -5,7 +5,7 @@ tags:
 - robots
 - esp8266
 - lua programming
-- robotics programming
+- robot programming
 - nodemcu
 title: Bounce! An Esp8266/nodemcu blocks coding system
 ---

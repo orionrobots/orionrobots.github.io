@@ -9,7 +9,7 @@ tags:
 - arduino
 - cpp
 - robot building
-- robotics programming
+- robot programming
 - adafruit
 - circuitpython
 - electronics

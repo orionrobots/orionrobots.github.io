@@ -6,7 +6,7 @@ tags:
 - esp8266
 - l298n
 - lua programming
-- robotics programming
+- robot programming
 - nodemcu
 title: Esp8266 nodemcu simple robot
 ---

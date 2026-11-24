@@ -2,7 +2,7 @@
 title: Phone apps, React Native, Expo and Kivy for robotics
 date: 2024-01-22
 description: Kivy, a python UI framework
-tags: [robotics programming, python, smartphone, mqtt]
+tags: [robot programming, python, smartphone, mqtt]
 ---
 I've been using [React Native](https://reactnative.dev/) and [Expo](https://docs.expo.dev/) to create phone apps to interact with robots via MQTT, both in PiWars and in preparation for an upcoming robotics book. The benefit being that they can attach to an MQTT broker, and you can control it or get sensor data from it directly on the phone.
 

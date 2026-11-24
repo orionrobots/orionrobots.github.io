@@ -1,7 +1,7 @@
 ---
 title: Announcing Learn Robotics Programming 3rd Edition
 date: 2025-02-12
-tags: [robotics, programming, robotics programming, learn robotics programming, robot programming, robotics at home, robotics books, robot building, python robotics programming, raspberry pi robotics, making robots]
+tags: [robotics, programming, learn robotics programming, robot programming, robotics at home, robotics books, robot building, python robotics programming, raspberry pi robotics, making robots]
 description: The third edition of Learn Robotics Programming is now available for Pre-order. This book is a practical guide to building robots.
 thumbnail: content/2025/02/17-learn-robotics-programming-3rd-edition/learn-robotics-programming-3rd-edition-3d-book-view.png
 ---

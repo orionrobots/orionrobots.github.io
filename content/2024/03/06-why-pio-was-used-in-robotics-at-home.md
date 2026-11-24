@@ -1,7 +1,7 @@
 ---
 title: Why Robotics at Home with Raspberry Pi Pico uses PIO
 date: 2024-03-06
-tags: [raspberry pi pico, pio, robotics programming]
+tags: [raspberry pi pico, pio, robot programming]
 ---
 In my recent book, Robotics at Home with Raspberry Pi Pico, I have used the PIO (Programmable Input Output) system to read the encoders on the robot. Why have I taken this step?
 
