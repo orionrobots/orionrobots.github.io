@@ -41,6 +41,12 @@ jobs:
         run: |
           docker build --target base -t "ghcr.io/orionrobots/orionrobots-site.base:${push_tag}" .
 
+      # Key on the eleventy-img version, not the whole lockfile, so unrelated
+      # npm bumps (Dependabot) still restore the warm cache.
+      - name: Get eleventy-img version
+        id: img_version
+        run: echo "v=$(jq -r '.packages["node_modules/@11ty/eleventy-img"].version' package-lock.json)" >> "$GITHUB_OUTPUT"
+
       # eleventy-img skips any output file that already exists, and output
       # names embed a content hash, so restoring last run's generated images
       # is safe: changed sources get new names, unchanged ones are skipped.
@@ -54,9 +60,9 @@ jobs:
           path: |
             _site/assets/images
             _site/assets/thumbnails
-          key: eleventy-img-${{ hashFiles('src/shortcodes/**', 'src/thumbnails.js', 'src/fetch_image.js', 'package-lock.json') }}-${{ github.run_id }}
+          key: eleventy-img-${{ steps.img_version.outputs.v }}-${{ hashFiles('src/shortcodes/**', 'src/thumbnails.js', 'src/fetch_image.js') }}-${{ github.run_id }}
           restore-keys: |
-            eleventy-img-${{ hashFiles('src/shortcodes/**', 'src/thumbnails.js', 'src/fetch_image.js', 'package-lock.json') }}-
+            eleventy-img-${{ steps.img_version.outputs.v }}-${{ hashFiles('src/shortcodes/**', 'src/thumbnails.js', 'src/fetch_image.js') }}-
 
       # One image for dist (webpack) and build (11ty); the CI compose override
       # makes dist the only service that builds it, using the registry layer
@@ -70,7 +76,10 @@ jobs:
         run: |
           docker compose -f docker-compose.yml -f docker-compose.ci.yml run build
 
+      # Master only: PRs restore master's entry and would otherwise each save
+      # a fresh ~85 MB entry, filling the 10 GB limit and evicting master's.
       - name: Save generated images cache
+        if: github.event_name != 'pull_request'
         uses: actions/cache/save@55cc8345863c7cc4c66a329aec7e433d2d1c52a9 # v6.1.0
         with:
           path: |

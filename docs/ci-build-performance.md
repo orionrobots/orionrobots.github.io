@@ -168,7 +168,8 @@ Open tickets from this work: #548 (harden the tag-link smoke check), #549
   wall-clock time; not worth it yet.
 - Remaining `build_site` overhead: checkout/buildx/login (~25 s), image build and
   container starts (~34 s), cache save (3-22 s, variable).
-- A PR that adds many new photos only pays for those photos; not yet measured.
+- A PR that adds many new photos only pays for those photos (restore is by
+  prefix, unchanged images are skipped). Not yet measured with a real PR.
 - Path filters to skip the full build for docs-only or workflow-only PRs were
   considered but not needed.
 
@@ -193,3 +194,18 @@ Per-step durations: `gh api repos/<owner>/<repo>/actions/jobs/<job id>` returns
 `started_at`/`completed_at` for every step; job ids come from
 `gh run view <run id> --json jobs`. Compare a cold and a warm run on the same
 code before claiming a win, and keep in mind the run-to-run noise noted above.
+
+## Image cache key and churn (#550)
+
+- **Key.** `eleventy-img-<eleventy-img version>-<hash of src/shortcodes,
+  thumbnails.js, fetch_image.js>-<run id>`. It used to hash all of
+  `package-lock.json`, so every Dependabot bump built cold (~7 min). Only an
+  `@11ty/eleventy-img` bump or an image-code change is cold now.
+- **Churn.** By 2026-11-24 the repo held ~199 caches / 10.8 GB (the 10 GB
+  limit), mostly one ~85-90 MB `eleventy-img` entry per PR run, so master's
+  entry risked LRU eviction. The save step now runs only off `pull_request`
+  (master). PRs restore master's cache; a PR adding photos regenerates only
+  those on each push and does not persist them.
+- Check with `gh api repos/orionrobots/orionrobots.github.io/actions/cache/usage`.
+- Still open from #550: the ~80 s fixed `build_site` overhead and the
+  staging/gallery tests (~65 s) as the longest remaining stage.
