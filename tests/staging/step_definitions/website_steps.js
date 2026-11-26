@@ -481,6 +481,13 @@ Then('the Location header should be {string}', async function (expected) {
   }
 })
 
+Then('the Content-Type header should contain {string}', async function (expected) {
+  const actual = lastResponse.headers()['content-type'] || ''
+  if (!actual.includes(expected)) {
+    throw new Error(`Expected Content-Type to contain "${expected}", got "${actual}"`)
+  }
+})
+
 // Cookie consent bar - uses a fresh context so no consent cookie is set yet.
 let consentContext
 
